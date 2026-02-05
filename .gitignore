@@ -9,3 +9,17 @@ Thumbs.db
 __pycache__/
 *.pyc
 .venv/
+.env
+
+# Grant planning documents (not for public repo)
+GRANT_BRAINSTORM.md
+GRAPHRAG_ANALYSIS.md
+HAVI_PROPOSAL_DRAFT.md
+HAVI_TODO.md
+LITERATURE_REVIEW.md
+THEORETICAL_FRAMEWORKS.md
+
+# Non-teaching files
+britishempire_clean.cypher
+ceylon_extraction_guide.md
+CLASS_PLAN.md
