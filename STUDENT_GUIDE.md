@@ -4,7 +4,7 @@
 
 **No installation required!** Open the notebook in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_REPO/blob/main/Colonial_Office_List_Extraction.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jburnford/text_as_data_colonial_office_list/blob/main/Colonial_Office_List_Extraction.ipynb)
 
 The notebook includes:
 - Sample data

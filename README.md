@@ -5,7 +5,7 @@ Extract structured personnel data from 19th-century Colonial Office Lists using 
 ## Quick Start (No Installation Required)
 
 ### Option 1: Google Colab Notebook
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jburnford/textasdatacolonialofficelist/blob/main/Colonial_Office_List_Extraction.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jburnford/text_as_data_colonial_office_list/blob/main/Colonial_Office_List_Extraction.ipynb)
 
 The notebook includes:
 - Sample source text (Sierra Leone 1896)
