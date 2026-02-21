@@ -1,0 +1,53 @@
+{
+  "colony": "British East Africa and Zanzibar",
+  "year": 1896,
+  "generated": "2026-02-19T17:51:10.327463",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "E. J. Berkeley",
+      "canonical_name": "Berkeley, E. J.",
+      "given_names": "E. J.",
+      "surname": "Berkeley",
+      "position": "Administrator",
+      "department": "Chief Local Officer",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Noel Paul Trevenen",
+      "canonical_name": "Trevenen, Noel Paul",
+      "given_names": "Noel Paul",
+      "surname": "Trevenen",
+      "position": "British Consul",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "British East Africa and Zanzibar",
+    "year": 1896,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}

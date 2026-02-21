@@ -1,0 +1,73 @@
+{
+  "colony": "Falkland Islands",
+  "year": 1879,
+  "generated": "2026-02-21T11:20:59.987729",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "Thomas F. Callaghan",
+      "canonical_name": "Callaghan, Thomas F.",
+      "given_names": "Thomas F.",
+      "surname": "Callaghan",
+      "position": "Governor and Commander-in-Chief",
+      "department": "Civil Establishment",
+      "salary_min": 1200,
+      "salary_max": 1200,
+      "allowances": null,
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "John Wright Collins",
+      "canonical_name": "Collins, John Wright",
+      "given_names": "John Wright",
+      "surname": "Collins",
+      "position": "Treasurer, Collector of Customs and Postmaster (acting as Colonial Secretary)",
+      "department": "Civil Establishment",
+      "salary_min": 200,
+      "salary_max": 200,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Horace Watts",
+      "canonical_name": "Watts, Horace",
+      "given_names": "Horace",
+      "surname": "Watts",
+      "position": "Colonial Surgeon and Public Vaccinator",
+      "department": "Civil Establishment",
+      "salary_min": 450,
+      "salary_max": 450,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [
+        "M.D."
+      ],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Falkland Islands",
+    "year": 1879,
+    "total": 3,
+    "high_confidence": 3,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}

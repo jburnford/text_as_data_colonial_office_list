@@ -1,0 +1,71 @@
+{
+  "colony": "Gold Coast",
+  "year": 1879,
+  "generated": "2026-02-21T11:31:50.104512",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "Lieut.-Colonel Home, R.E., C.B.",
+      "canonical_name": "Home, Lieut.-Colonel",
+      "given_names": "",
+      "surname": "Home",
+      "position": "Lieut.-Colonel",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": "Lt.-Col.",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Captain Sale, R.E.",
+      "canonical_name": "Sale, Captain",
+      "given_names": "",
+      "surname": "Sale",
+      "position": "Captain",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Captain",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Lord John Russell",
+      "canonical_name": "Russell, John",
+      "given_names": "John",
+      "surname": "Russell",
+      "position": "Lord",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Gold Coast",
+    "year": 1879,
+    "total": 4,
+    "high_confidence": 1,
+    "medium_confidence": 2,
+    "low_confidence": 1,
+    "quarantined": 1,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}

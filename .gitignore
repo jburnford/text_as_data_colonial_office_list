@@ -19,8 +19,10 @@ HAVI_TODO.md
 LITERATURE_REVIEW.md
 THEORETICAL_FRAMEWORKS.md
 
-# Generated extraction outputs (machine-specific, large)
-generated/
+# Generated — keep extraction JSON data, ignore intermediate files
+generated/chunk_*.py
+generated/batch_results_*.json
+generated/*.log
 
 # Non-teaching files
 britishempire_clean.cypher

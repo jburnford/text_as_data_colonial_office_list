@@ -1,0 +1,53 @@
+{
+  "colony": "British Guiana",
+  "year": 1867,
+  "generated": "2026-02-20T13:39:40.716015",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "Demerara",
+      "canonical_name": "Demerara",
+      "given_names": "",
+      "surname": "Demerara",
+      "position": "Rural Dean",
+      "department": "Archdeacon and Vicar-General, The Venerable H. H. Jones, M.A",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "G. Lillie",
+      "canonical_name": "Lillie, G.",
+      "given_names": "G.",
+      "surname": "Lillie",
+      "position": "St. Mary's",
+      "department": "Second charge, Rev. Dalgethy",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "British Guiana",
+    "year": 1867,
+    "total": 3,
+    "high_confidence": 1,
+    "medium_confidence": 1,
+    "low_confidence": 1,
+    "quarantined": 1,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "colony": "Gold Coast",
+  "year": 1878,
+  "generated": "2026-02-21T03:42:45.176480",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 4,
+  "officials": [
+    {
+      "name": "Capt. Lees",
+      "canonical_name": "Lees, Capt.",
+      "given_names": "Capt.",
+      "surname": "Lees",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Captain",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Lieut.-Colonel Home, R.E., C.B.",
+      "canonical_name": "Home, Lieut.-Colonel",
+      "given_names": "Lieut.-Colonel",
+      "surname": "Home",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": "Lieut.-Colonel",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Captain Sale, R.E.",
+      "canonical_name": "Sale, Captain",
+      "given_names": "Captain",
+      "surname": "Sale",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Captain",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Lord John Russell",
+      "canonical_name": "Russell, John",
+      "given_names": "John",
+      "surname": "Russell",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Gold Coast",
+    "year": 1878,
+    "total": 4,
+    "high_confidence": 3,
+    "medium_confidence": 1,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 4,
+    "anomaly_count": 0
+  }
+}
