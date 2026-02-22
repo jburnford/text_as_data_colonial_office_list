@@ -1,0 +1,37 @@
+{
+  "colony": "Cyprus",
+  "year": 1886,
+  "generated": "2026-02-22T08:37:07.736921",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "A. B.",
+      "canonical_name": "B., A.",
+      "given_names": "A.",
+      "surname": "B.",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Cyprus",
+    "year": 1886,
+    "total": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}
