@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-22T04:34:54.604453",
+  "last_updated": "2026-02-22T04:59:48.452701",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -9248,6 +9248,82 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/jamaica_1883_data_gpt-oss_120b.json"
+    },
+    "Lagos_1883": {
+      "colony": "Lagos",
+      "year": 1883,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1883_manual_parsed/lagos.txt",
+      "timestamp": "2026-02-22T04:34:54.608706",
+      "total_officials": 27,
+      "passed_officials": 27,
+      "quarantined_officials": 0,
+      "departments": {
+        "Governor's Office": 3,
+        "Colonial Secretariat": 9,
+        "Customs and Treasury": 15
+      },
+      "generation_time": 537.2,
+      "validation_summary": {
+        "colony": "Lagos",
+        "year": 1883,
+        "total": 27,
+        "high_confidence": 27,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 27,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/lagos_1883_data_gpt-oss_120b.json"
+    },
+    "Malta_1883": {
+      "colony": "Malta",
+      "year": 1883,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1883_manual_parsed/malta.txt",
+      "timestamp": "2026-02-22T04:43:51.878294",
+      "total_officials": 139,
+      "passed_officials": 139,
+      "quarantined_officials": 0,
+      "departments": {
+        "Chief Secretary's Office": 5,
+        "Crown Lawyers": 3,
+        "Audit and Contract Office": 6,
+        "Educational": 2,
+        "Professors in the Malta University": 17,
+        "Custom House": 8,
+        "Receiver General's Office": 7,
+        "Port Department": 4,
+        "Charitable Institutions Department": 5,
+        "Hospitals, &c.": 15,
+        "Public Works Department": 3,
+        "Land Surveyors": 7,
+        "Government Press": 1,
+        "Island Post Office": 1,
+        "Public Registry": 4,
+        "Judicial Establishment": 26,
+        "Ecclesiastical": 1,
+        "Public Libraries": 1,
+        "Police Department": 15,
+        "Corradino Prison": 2,
+        "Monte di Piet\u00e0, including Savings Bank": 6
+      },
+      "generation_time": 956.5,
+      "validation_summary": {
+        "colony": "Malta",
+        "year": 1883,
+        "total": 139,
+        "high_confidence": 137,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 139,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1883_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
