@@ -1,0 +1,71 @@
+{
+  "colony": "Gold Coast",
+  "year": 1883,
+  "generated": "2026-02-22T03:46:02.345072",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "Capt. Lees",
+      "canonical_name": "Lees, Capt.",
+      "given_names": "Capt.",
+      "surname": "Lees",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Captain",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Colonel Home",
+      "canonical_name": "Home, Colonel",
+      "given_names": "Colonel",
+      "surname": "Home",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": "Colonel",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Lord John Russell",
+      "canonical_name": "Russell, Lord John",
+      "given_names": "John",
+      "surname": "Russell",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Gold Coast",
+    "year": 1883,
+    "total": 3,
+    "high_confidence": 3,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}
