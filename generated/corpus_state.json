@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-22T02:15:32.999450",
+  "last_updated": "2026-02-22T03:12:44.288288",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -8922,6 +8922,150 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1883_data_gpt-oss_120b.json"
+    },
+    "Ceylon_1883": {
+      "colony": "Ceylon",
+      "year": 1883,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1883_manual_parsed/ceylon.txt",
+      "timestamp": "2026-02-22T02:15:33.007765",
+      "total_officials": 267,
+      "passed_officials": 267,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 3,
+        "Colonial Secretary's Office": 24,
+        "Treasurer's Department": 1,
+        "Audit Office": 2,
+        "Government Agencies": 27,
+        "Judicial Establishment": 15,
+        "District and Minor Courts": 43,
+        "Customs Department": 6,
+        "Harbour Department": 6,
+        "Public Works Department": 39,
+        "Survey Department": 22,
+        "Registrar General's Department": 2,
+        "Post-Office": 4,
+        "Telegraphs": 3,
+        "Royal Botanic Garden": 1,
+        "Colombo Museum": 1,
+        "Department of Public Instruction": 5,
+        "Medical Department": 31,
+        "Police": 7,
+        "Prisons": 3,
+        "Colonial Store Department": 2,
+        "Ecclesiastical Department": 16,
+        "Railway Department": 4
+      },
+      "generation_time": 1656.8,
+      "validation_summary": {
+        "colony": "Ceylon",
+        "year": 1883,
+        "total": 267,
+        "high_confidence": 266,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 267,
+        "anomaly_count": 17
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/ceylon_1883_data_gpt-oss_120b.json"
+    },
+    "Cyprus_1883": {
+      "colony": "Cyprus",
+      "year": 1883,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1883_manual_parsed/cyprus.txt",
+      "timestamp": "2026-02-22T02:43:09.903726",
+      "total_officials": 8,
+      "passed_officials": 8,
+      "quarantined_officials": 0,
+      "departments": {
+        "District Commissioners": 8
+      },
+      "generation_time": 63.6,
+      "validation_summary": {
+        "colony": "Cyprus",
+        "year": 1883,
+        "total": 8,
+        "high_confidence": 8,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 8,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cyprus_1883_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1883": {
+      "colony": "Falkland Islands",
+      "year": 1883,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1883_manual_parsed/falkland_islands.txt",
+      "timestamp": "2026-02-22T02:44:13.567055",
+      "total_officials": 151,
+      "passed_officials": 151,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 12,
+        "Consuls": 3,
+        "null": 21,
+        "Colonial Secretary's Department": 18,
+        "Receiver General's Department": 16,
+        "Lands and Immigration Department": 28,
+        "General": 15,
+        "Department of Justice": 26,
+        "Armed Native Constabulary": 12
+      },
+      "generation_time": 1023.1,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1883,
+        "total": 151,
+        "high_confidence": 150,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 151,
+        "anomaly_count": 7
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1883_data_gpt-oss_120b.json"
+    },
+    "Fiji_1883": {
+      "colony": "Fiji",
+      "year": 1883,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1883_manual_parsed/FIJI.txt",
+      "timestamp": "2026-02-22T03:01:16.795921",
+      "total_officials": 128,
+      "passed_officials": 128,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 13,
+        "Colonial Secretary's Department": 18,
+        "Receiver General's Department": 16,
+        "Lands and Immigration Department": 28,
+        "Civil Establishment": 15,
+        "Department of Justice": 26,
+        "Armed Native Constabulary": 12
+      },
+      "generation_time": 687.4,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1883,
+        "total": 128,
+        "high_confidence": 128,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 128,
+        "anomaly_count": 7
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1883_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
