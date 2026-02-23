@@ -1,7 +1,7 @@
 {
   "colony": "New Zealand",
   "year": 1878,
-  "generated": "2026-02-21T07:01:03.098144",
+  "generated": "2026-02-23T14:19:22.790970",
   "model": "gpt-oss:120b",
   "tier": "STANDARD",
   "total_officials": 178,
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "Captain Irwin C. Maling",
+      "name": "Irwin C. Maling",
       "canonical_name": "Maling, Irwin C.",
       "given_names": "Irwin C.",
       "surname": "Maling",
@@ -41,7 +41,7 @@
       "location": null
     },
     {
-      "name": "Lieut. Lord Hervey L. Phipps",
+      "name": "Lord Hervey L. Phipps",
       "canonical_name": "Phipps, Lord Hervey L.",
       "given_names": "Lord Hervey L.",
       "surname": "Phipps",
@@ -57,7 +57,7 @@
       "location": null
     },
     {
-      "name": "Lieut. R. F. Le Patourel",
+      "name": "R. F. Le Patourel",
       "canonical_name": "Le Patourel, R. F.",
       "given_names": "R. F.",
       "surname": "Le Patourel",
@@ -91,7 +91,7 @@
       "location": null
     },
     {
-      "name": "Colonel Whitmore",
+      "name": "Whitmore",
       "canonical_name": "Whitmore, Colonel",
       "given_names": "Colonel",
       "surname": "Whitmore",
@@ -173,12 +173,12 @@
       "location": null
     },
     {
-      "name": "Whitmore",
-      "canonical_name": "Whitmore, ",
-      "given_names": "",
+      "name": "Colonel Whitmore",
+      "canonical_name": "Whitmore, Colonel",
+      "given_names": "Colonel",
       "surname": "Whitmore",
       "position": "Colonial Secretary",
-      "department": "COLONIAL SECRETARY'S OFFICE.",
+      "department": "Colonial Secretary's Office",
       "salary_min": 1250,
       "salary_max": 1250,
       "allowances": null,
@@ -196,7 +196,7 @@
       "given_names": "G. S.",
       "surname": "Cooper",
       "position": "Under-Secretary",
-      "department": "COLONIAL SECRETARY'S OFFICE.",
+      "department": "Colonial Secretary's Office",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -212,7 +212,7 @@
       "given_names": "A. M.",
       "surname": "Smith",
       "position": "Chief Clerk",
-      "department": "COLONIAL SECRETARY'S OFFICE.",
+      "department": "Colonial Secretary's Office",
       "salary_min": 450,
       "salary_max": 450,
       "allowances": null,
@@ -223,12 +223,12 @@
       "location": null
     },
     {
-      "name": "W. J. M. Larnoch",
+      "name": "Hon. W. J. M. Larnoch",
       "canonical_name": "Larnoch, W. J. M.",
       "given_names": "W. J. M.",
       "surname": "Larnoch",
       "position": "Treasurer",
-      "department": "TREASURY.",
+      "department": "Treasury",
       "salary_min": 1250,
       "salary_max": 1250,
       "allowances": null,
@@ -244,7 +244,7 @@
       "given_names": "C. T.",
       "surname": "Batkin",
       "position": "Secretary to Treasury, Receiver-General and Paymaster-General",
-      "department": "TREASURY.",
+      "department": "Treasury",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -260,7 +260,7 @@
       "given_names": "J. C.",
       "surname": "Gavin",
       "position": "Chief Clerk and Accountant",
-      "department": "TREASURY.",
+      "department": "Treasury",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -277,8 +277,8 @@
       "surname": "Fisher",
       "position": "Postmaster-General",
       "department": "General Post Office",
-      "salary_min": 0,
-      "salary_max": 0,
+      "salary_min": null,
+      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -353,9 +353,9 @@
       "location": null
     },
     {
-      "name": "W. Seed",
-      "canonical_name": "Seed, W.",
-      "given_names": "W.",
+      "name": "William Seed",
+      "canonical_name": "Seed, William",
+      "given_names": "William",
       "surname": "Seed",
       "position": "Secretary and Inspector",
       "department": "Customs Department",
@@ -369,7 +369,7 @@
       "location": null
     },
     {
-      "name": "J. W. M. Larnoch",
+      "name": "Hon. J. W. M. Larnoch",
       "canonical_name": "Larnoch, J. W. M.",
       "given_names": "J. W. M.",
       "surname": "Larnoch",
@@ -550,7 +550,7 @@
       "given_names": "C. G.",
       "surname": "Bowen",
       "position": "Commissioner",
-      "department": "STAMP OFFICE",
+      "department": "Stamp Office",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -566,7 +566,7 @@
       "given_names": "R. O.",
       "surname": "Hammerton",
       "position": "Secretary and Comptroller of Legacy Duties",
-      "department": "STAMP OFFICE",
+      "department": "Stamp Office",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -578,8 +578,8 @@
     },
     {
       "name": "Hon. J. T. Fisher",
-      "canonical_name": "Fisher, J. T.",
-      "given_names": "J. T.",
+      "canonical_name": "Fisher, Hon. J. T.",
+      "given_names": "Hon. J. T.",
       "surname": "Fisher",
       "position": "Commissioner",
       "department": "Telegraph Department",
@@ -794,7 +794,7 @@
       "given_names": "C. C.",
       "surname": "Knight",
       "position": "Accountant and Chief Clerk",
-      "department": "ANNUITIES OFFICE",
+      "department": "Annuities Office",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -918,8 +918,8 @@
     },
     {
       "name": "W. R. E. Brown",
-      "canonical_name": "Brown, W. R. E.",
-      "given_names": "W. R. E.",
+      "canonical_name": "Brown, William R. E.",
+      "given_names": "William R. E.",
       "surname": "Brown",
       "position": "Registrar-General of Births, Deaths, and Marriages",
       "department": "Registrar-General's Department",
@@ -1236,7 +1236,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Timaru, Oamaru, Invercargill, &c."
+      "location": "Timaru"
     },
     {
       "name": "T. S. Weston",
@@ -1284,7 +1284,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Auckland, Onehunga, &c."
+      "location": "Auckland"
     },
     {
       "name": "T. E. Hamlin",
@@ -1348,7 +1348,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Mangonui, Russell, and Waimate"
+      "location": "Mangonui"
     },
     {
       "name": "S. W. Von Sturmer",
@@ -1444,7 +1444,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Wellington, &c."
+      "location": "Wellington"
     },
     {
       "name": "S. Locke",
@@ -1460,7 +1460,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Taupo, &c."
+      "location": "Taupo"
     },
     {
       "name": "W. J. Willis",
@@ -1476,7 +1476,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Rangitikei, &c."
+      "location": "Rangitikei"
     },
     {
       "name": "J. Giles",
@@ -1540,7 +1540,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Napier, &c."
+      "location": "Napier"
     },
     {
       "name": "F. F. Ormond",
@@ -1572,7 +1572,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Nelson, &c."
+      "location": "Nelson"
     },
     {
       "name": "S. L. Muller",
@@ -1588,7 +1588,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Blenheim, &c."
+      "location": "Blenheim"
     },
     {
       "name": "G. L. Mellish",
@@ -1604,7 +1604,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Christchurch, &c."
+      "location": "Christchurch"
     },
     {
       "name": "W. Whitehorn",
@@ -1652,7 +1652,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Kaipoi, &c."
+      "location": "Kaipoi"
     },
     {
       "name": "J. Aylmer",
@@ -1668,7 +1668,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Akaroa &c."
+      "location": "Akaroa"
     },
     {
       "name": "B. Woolcombe",
@@ -1684,7 +1684,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Timaru, &c."
+      "location": "Timaru"
     },
     {
       "name": "G. G. FitzGerald",
@@ -1716,7 +1716,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Dunedin, &c."
+      "location": "Dunedin"
     },
     {
       "name": "T. W. Parker",
@@ -1732,7 +1732,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Oamaru, &c."
+      "location": "Oamaru"
     },
     {
       "name": "P. W. Maitland",
@@ -1748,7 +1748,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Tokomairiro, &c."
+      "location": "Tokomairiro"
     },
     {
       "name": "J. W. Murdoch",
@@ -1764,7 +1764,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hawkesbury, &c."
+      "location": "Hawkesbury"
     },
     {
       "name": "J. Fulton",
@@ -1796,7 +1796,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Invercargill, &c."
+      "location": "Invercargill"
     },
     {
       "name": "S. Deighton",
@@ -1860,7 +1860,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Collingwood, &c."
+      "location": "Collingwood"
     },
     {
       "name": "C. Broad",
@@ -1892,7 +1892,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Greymouth, &c."
+      "location": "Greymouth"
     },
     {
       "name": "R. Beetham",
@@ -1940,7 +1940,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Clyde, &c."
+      "location": "Clyde"
     },
     {
       "name": "H. W. Robinson",
@@ -1956,7 +1956,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Naseby, &c."
+      "location": "Naseby"
     },
     {
       "name": "E. H. Carew",
@@ -1972,7 +1972,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Lawrence, &c."
+      "location": "Lawrence"
     },
     {
       "name": "J. N. Wood",
@@ -1988,7 +1988,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Switzers, &c."
+      "location": "Switzers"
     },
     {
       "name": "H. Rogers",
@@ -2028,7 +2028,7 @@
       "given_names": "T.",
       "surname": "Hill",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2044,7 +2044,7 @@
       "given_names": "H. F.",
       "surname": "Andrews",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2060,7 +2060,7 @@
       "given_names": "H. R.",
       "surname": "Aubrey",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2076,7 +2076,7 @@
       "given_names": "R.",
       "surname": "Chilman",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2092,7 +2092,7 @@
       "given_names": "J.",
       "surname": "Hackworth",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2108,7 +2108,7 @@
       "given_names": "J. G.",
       "surname": "Woon",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2124,7 +2124,7 @@
       "given_names": "J. M.",
       "surname": "Tabuteau",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2140,7 +2140,7 @@
       "given_names": "D.",
       "surname": "Johnston",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2156,7 +2156,7 @@
       "given_names": "W. S.",
       "surname": "Munday",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2172,7 +2172,7 @@
       "given_names": "J.",
       "surname": "Allen",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2188,7 +2188,7 @@
       "given_names": "W.",
       "surname": "Mills",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2204,7 +2204,7 @@
       "given_names": "E. W.",
       "surname": "Patten",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2220,7 +2220,7 @@
       "given_names": "David",
       "surname": "Lunden",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2236,7 +2236,7 @@
       "given_names": "A. J.",
       "surname": "Elles",
       "position": "Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2252,7 +2252,7 @@
       "given_names": "H. N.",
       "surname": "Brewer",
       "position": "Sub-Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2268,7 +2268,7 @@
       "given_names": "E. W.",
       "surname": "Patieson",
       "position": "Sub-Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2284,7 +2284,7 @@
       "given_names": "C. E.",
       "surname": "Cooper",
       "position": "Sub-Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2300,7 +2300,7 @@
       "given_names": "E. F.",
       "surname": "Tizard",
       "position": "Sub-Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2316,7 +2316,7 @@
       "given_names": "T. W.",
       "surname": "Parker",
       "position": "Sub-Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2328,11 +2328,11 @@
     },
     {
       "name": "C. F. de S. O'Toole",
-      "canonical_name": "de S. O'Toole, C. F.",
-      "given_names": "C. F.",
-      "surname": "de S. O'Toole",
+      "canonical_name": "O'Toole, C. F. de S.",
+      "given_names": "C. F. de S.",
+      "surname": "O'Toole",
       "position": "Sub-Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2348,7 +2348,7 @@
       "given_names": "B.",
       "surname": "Bailey",
       "position": "Sub-Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2364,7 +2364,7 @@
       "given_names": "S.",
       "surname": "Deighton",
       "position": "Sub-Collector",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2380,7 +2380,7 @@
       "given_names": "E. B.",
       "surname": "Laing",
       "position": "Officer in Charge",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2396,7 +2396,7 @@
       "given_names": "S.",
       "surname": "Von Sturmer",
       "position": "Officer in Charge",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2412,7 +2412,7 @@
       "given_names": "W.",
       "surname": "Whitehorn",
       "position": "Officer in Charge",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2428,7 +2428,7 @@
       "given_names": "J.",
       "surname": "Barleyman",
       "position": "Officer in Charge",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2444,7 +2444,7 @@
       "given_names": "J.",
       "surname": "Goodall",
       "position": "Officer in Charge",
-      "department": "CUSTOMS",
+      "department": "Customs",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2651,7 +2651,7 @@
       "canonical_name": "Winstanley, D. F.",
       "given_names": "D. F.",
       "surname": "Winstanley",
-      "position": "Postmaster (acting)",
+      "position": "Postmaster",
       "department": "Post Office Department",
       "salary_min": null,
       "salary_max": null,
@@ -2747,8 +2747,8 @@
       "canonical_name": "Hadfield, Octavius",
       "given_names": "Octavius",
       "surname": "Hadfield",
-      "position": "Bishop",
-      "department": "Church of England",
+      "position": null,
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2763,8 +2763,8 @@
       "canonical_name": "Williams, William",
       "given_names": "William",
       "surname": "Williams",
-      "position": "Bishop",
-      "department": "Church of England",
+      "position": null,
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2779,8 +2779,8 @@
       "canonical_name": "Harper, Henry John Chitty",
       "given_names": "Henry John Chitty",
       "surname": "Harper",
-      "position": "Bishop",
-      "department": "Church of England",
+      "position": null,
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2795,8 +2795,8 @@
       "canonical_name": "Cowie, William Garden",
       "given_names": "William Garden",
       "surname": "Cowie",
-      "position": "Bishop",
-      "department": "Church of England",
+      "position": null,
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2811,8 +2811,8 @@
       "canonical_name": "Suter, Andrew Burn",
       "given_names": "Andrew Burn",
       "surname": "Suter",
-      "position": "Bishop",
-      "department": "Church of England",
+      "position": null,
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2827,8 +2827,8 @@
       "canonical_name": "Moran, Dr.",
       "given_names": "Dr.",
       "surname": "Moran",
-      "position": "Clergy",
-      "department": "Roman Catholic Church",
+      "position": null,
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2843,8 +2843,8 @@
       "canonical_name": "Redwood, Dr.",
       "given_names": "Dr.",
       "surname": "Redwood",
-      "position": "Clergy",
-      "department": "Roman Catholic Church",
+      "position": null,
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2856,11 +2856,11 @@
     },
     {
       "name": "Sir Julius Vogel",
-      "canonical_name": "Vogel, Sir Julius",
-      "given_names": "Sir Julius",
+      "canonical_name": "Vogel, Julius",
+      "given_names": "Julius",
       "surname": "Vogel",
       "position": "Agent-General for New Zealand in England",
-      "department": "Agent-General for New Zealand in England",
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2877,11 +2877,11 @@
     "colony": "New Zealand",
     "year": 1878,
     "total": 178,
-    "high_confidence": 176,
-    "medium_confidence": 2,
+    "high_confidence": 177,
+    "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 178,
-    "anomaly_count": 19
+    "anomaly_count": 17
   }
 }
