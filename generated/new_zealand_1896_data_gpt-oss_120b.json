@@ -1,13 +1,13 @@
 {
   "colony": "New Zealand",
   "year": 1896,
-  "generated": "2026-02-20T06:54:11.528481",
+  "generated": "2026-02-23T08:28:41.990551",
   "model": "gpt-oss:120b",
   "tier": "STANDARD",
   "total_officials": 132,
   "officials": [
     {
-      "name": "Earl of Glasgow",
+      "name": "Rt. Hon. Earl of Glasgow",
       "canonical_name": "Glasgow, Earl of",
       "given_names": "Earl of",
       "surname": "Glasgow",
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "E. H. M. Elliot",
+      "name": "Major E. H. M. Elliot",
       "canonical_name": "Elliot, E. H. M.",
       "given_names": "E. H. M.",
       "surname": "Elliot",
@@ -41,7 +41,7 @@
       "location": null
     },
     {
-      "name": "E. F. Clayton",
+      "name": "Lieut. E. F. Clayton",
       "canonical_name": "Clayton, E. F.",
       "given_names": "E. F.",
       "surname": "Clayton",
@@ -52,12 +52,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "R. W. P. Clarke-Campbell-Preston",
+      "name": "Capt. R. W. P. Clarke-Campbell-Preston",
       "canonical_name": "Clarke-Campbell-Preston, R. W. P.",
       "given_names": "R. W. P.",
       "surname": "Clarke-Campbell-Preston",
@@ -73,11 +73,11 @@
       "location": null
     },
     {
-      "name": "R. J. Seddon",
+      "name": "Hon. R. J. Seddon",
       "canonical_name": "Seddon, R. J.",
       "given_names": "R. J.",
       "surname": "Seddon",
-      "position": "Premier, Minister for Public Works, Minister of Defence, Minister of Labour, and Native Minister",
+      "position": "Premier, Minister for Public Works, Minister of Defence, Minister of Labour, Native Minister",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -89,7 +89,7 @@
       "location": null
     },
     {
-      "name": "W. Hall Jones",
+      "name": "Hon. W. Hall Jones",
       "canonical_name": "Jones, W. Hall",
       "given_names": "W. Hall",
       "surname": "Jones",
@@ -105,11 +105,11 @@
       "location": null
     },
     {
-      "name": "J. McKenzie",
+      "name": "Hon. J. McKenzie",
       "canonical_name": "McKenzie, J.",
       "given_names": "J.",
       "surname": "McKenzie",
-      "position": "Minister of Lands and Immigration, Minister of Agriculture, and Commissioner of Forests",
+      "position": "Minister of Lands and Immigration, Minister of Agriculture, Commissioner of Forests",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -121,11 +121,11 @@
       "location": null
     },
     {
-      "name": "J. G. Ward",
+      "name": "Hon. J. G. Ward",
       "canonical_name": "Ward, J. G.",
       "given_names": "J. G.",
       "surname": "Ward",
-      "position": "Colonial Treasurer, Postmaster-General, Electric Telegraph Commissioner, Minister of Marine, and Minister of Industries and Commerce",
+      "position": "Colonial Treasurer, Postmaster-General, Electric Telegraph Commissioner, Minister of Marine, Minister of Industries and Commerce",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -137,11 +137,11 @@
       "location": null
     },
     {
-      "name": "A. J. Cadman",
+      "name": "Hon. A. J. Cadman",
       "canonical_name": "Cadman, A. J.",
       "given_names": "A. J.",
       "surname": "Cadman",
-      "position": "Minister of Railways and Minister of Mines",
+      "position": "Minister of Railways, Minister of Mines",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -153,7 +153,7 @@
       "location": null
     },
     {
-      "name": "James Carroll",
+      "name": "Hon. James Carroll",
       "canonical_name": "Carroll, James",
       "given_names": "James",
       "surname": "Carroll",
@@ -169,11 +169,11 @@
       "location": null
     },
     {
-      "name": "W. Montgomery",
+      "name": "Hon. W. Montgomery",
       "canonical_name": "Montgomery, W.",
       "given_names": "W.",
       "surname": "Montgomery",
-      "position": null,
+      "position": "",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -185,7 +185,7 @@
       "location": null
     },
     {
-      "name": "W. C. Walker",
+      "name": "Hon. W. C. Walker",
       "canonical_name": "Walker, W. C.",
       "given_names": "W. C.",
       "surname": "Walker",
@@ -257,7 +257,7 @@
       "department": "Treasury",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "house allowance, 200l",
+      "allowances": "200l. house allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -554,8 +554,8 @@
     },
     {
       "name": "Hon. J. G. Ward",
-      "canonical_name": "Ward, Hon. J. G.",
-      "given_names": "Hon. J. G.",
+      "canonical_name": "Ward, J. G.",
+      "given_names": "J. G.",
       "surname": "Ward",
       "position": "Postmaster-General and Commissioner of Telegraphs",
       "department": "Post Office and Telegraph Department",
@@ -713,7 +713,7 @@
       "location": null
     },
     {
-      "name": "Rev. W. J. Habens",
+      "name": "W. J. Habens",
       "canonical_name": "Habens, W. J.",
       "given_names": "W. J.",
       "surname": "Habens",
@@ -729,7 +729,7 @@
       "location": null
     },
     {
-      "name": "Sir E. O. Gibbes, Bart.",
+      "name": "E. O. Gibbes",
       "canonical_name": "Gibbes, E. O.",
       "given_names": "E. O.",
       "surname": "Gibbes",
@@ -745,7 +745,7 @@
       "location": null
     },
     {
-      "name": "Hon. W. Hall Jones",
+      "name": "W. Hall Jones",
       "canonical_name": "Jones, W. Hall",
       "given_names": "W. Hall",
       "surname": "Jones",
@@ -765,7 +765,7 @@
       "canonical_name": "Glasgow, W. T.",
       "given_names": "W. T.",
       "surname": "Glasgow",
-      "position": "Secretary for Marine, and Secretary and Inspector of Customs",
+      "position": "Secretary for Marine; Secretary and Inspector of Customs",
       "department": "Department of Trade and Customs",
       "salary_min": 625,
       "salary_max": 625,
@@ -801,7 +801,7 @@
       "department": "Public Works Department",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": "200l.",
+      "allowances": "200l. allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1131,7 +1131,7 @@
       "location": null
     },
     {
-      "name": "Hon. R. J. Seddon",
+      "name": "R. J. Seddon",
       "canonical_name": "Seddon, R. J.",
       "given_names": "R. J.",
       "surname": "Seddon",
@@ -1147,8 +1147,8 @@
       "location": null
     },
     {
-      "name": "Colonel Fox",
-      "canonical_name": "Fox, ",
+      "name": "Fox",
+      "canonical_name": "Fox",
       "given_names": "",
       "surname": "Fox",
       "position": "Military Adviser",
@@ -1163,7 +1163,7 @@
       "location": null
     },
     {
-      "name": "Major Sir A. P. Douglas, Bart.",
+      "name": "Sir A. P. Douglas",
       "canonical_name": "Douglas, A. P.",
       "given_names": "A. P.",
       "surname": "Douglas",
@@ -1206,7 +1206,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1293,9 +1293,9 @@
       "location": null
     },
     {
-      "name": "William S. Reid",
-      "canonical_name": "Reid, William S.",
-      "given_names": "William S.",
+      "name": "W. S. Reid",
+      "canonical_name": "Reid, W. S.",
+      "given_names": "W. S.",
       "surname": "Reid",
       "position": "Solicitor-General",
       "department": "Crown Law Office",
@@ -1522,7 +1522,7 @@
       "location": null
     },
     {
-      "name": "Hon. A. J. Cadman",
+      "name": "A. J. Cadman",
       "canonical_name": "Cadman, A. J.",
       "given_names": "A. J.",
       "surname": "Cadman",
@@ -1655,8 +1655,8 @@
     },
     {
       "name": "Sir J. Prendergast",
-      "canonical_name": "Prendergast, J.",
-      "given_names": "J.",
+      "canonical_name": "Prendergast, Sir J.",
+      "given_names": "Sir J.",
       "surname": "Prendergast",
       "position": "Chief Justice",
       "department": "Judicial",
@@ -1687,8 +1687,8 @@
     },
     {
       "name": "Hon. Sir P. A. Buckley",
-      "canonical_name": "Buckley, P. A.",
-      "given_names": "P. A.",
+      "canonical_name": "Buckley, Hon. Sir P. A.",
+      "given_names": "Hon. Sir P. A.",
       "surname": "Buckley",
       "position": "Puisne Judge",
       "department": "Judicial",
@@ -1877,7 +1877,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Wellington, &c."
+      "location": "Wellington"
     },
     {
       "name": "R. Beetham",
@@ -2029,7 +2029,7 @@
       "given_names": "Frederic",
       "surname": "Wallis",
       "position": null,
-      "department": "Bishops",
+      "department": "Church of England",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2045,7 +2045,7 @@
       "given_names": "William Leonard",
       "surname": "Williams",
       "position": null,
-      "department": "Bishops",
+      "department": "Church of England",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2063,7 +2063,7 @@
       "given_names": "Churchill",
       "surname": "Julius",
       "position": null,
-      "department": "Bishops",
+      "department": "Church of England",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2078,8 +2078,8 @@
       "canonical_name": "Cowle, William Garden",
       "given_names": "William Garden",
       "surname": "Cowle",
-      "position": "Primate",
-      "department": "Bishops",
+      "position": null,
+      "department": "Church of England",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2095,7 +2095,7 @@
       "given_names": "Charles Oliver",
       "surname": "Mules",
       "position": null,
-      "department": "Bishops",
+      "department": "Church of England",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2113,7 +2113,7 @@
       "given_names": "Samuel Tarratt",
       "surname": "Nevill",
       "position": null,
-      "department": "Bishops",
+      "department": "Church of England",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2129,7 +2129,7 @@
       "given_names": "Cecil",
       "surname": "Wilson",
       "position": null,
-      "department": "Bishops",
+      "department": "Church of England",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2151,6 +2151,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 132,
-    "anomaly_count": 12
+    "anomaly_count": 13
   }
 }
