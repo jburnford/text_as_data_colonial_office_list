@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-23T11:08:19.231330",
+  "last_updated": "2026-02-23T11:35:02.232778",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -10442,6 +10442,60 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1867_data_gpt-oss_120b.json"
+    },
+    "New South Wales_1867": {
+      "colony": "New South Wales",
+      "year": 1867,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1867_manual_parsed/new_south_wales.txt",
+      "timestamp": "2026-02-23T11:08:19.236014",
+      "total_officials": 265,
+      "passed_officials": 265,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Colonial Secretary's Department": 10,
+        "The Treasury": 22,
+        "Stamp Office": 4,
+        "Royal Branch Mint": 12,
+        "Department of Lands": 5,
+        "Gold Commissioners": 3,
+        "Botanic Gardens": 1,
+        "Crown Lands Occupation Department": 44,
+        "Department of Works": 5,
+        "General Establishment": 6,
+        "Extensions": 13,
+        "Officers appointed under the Coal-fields Act": 2,
+        "Colonial Store, Military": 1,
+        "Registrar-General's Department": 4,
+        "Land Title Commissioners": 2,
+        "Examiners of Titles": 6,
+        "Customs": 13,
+        "Auditor-General's Department": 14,
+        "General Post-Office": 16,
+        "Money Order Department": 2,
+        "Observatory": 2,
+        "Colonial Architect's Department": 19,
+        "Police Department": 7,
+        "Judicial and Legal Departments": 13,
+        "Attorney-General's Department": 24,
+        "Harbours and Lighthouses": 3,
+        "Ecclesiastical": 8
+      },
+      "generation_time": 1602.9,
+      "validation_summary": {
+        "colony": "New South Wales",
+        "year": 1867,
+        "total": 265,
+        "high_confidence": 264,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 265,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/new_south_wales_1867_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
