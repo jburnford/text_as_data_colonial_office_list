@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-23T14:19:22.792273",
+  "last_updated": "2026-02-23T14:34:29.711057",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -10895,6 +10895,48 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/new_zealand_1878_data_gpt-oss_120b.json"
+    },
+    "Queensland_1878": {
+      "colony": "Queensland",
+      "year": 1878,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1878_manual_parsed/QUEENSLAND.txt",
+      "timestamp": "2026-02-23T14:19:22.797210",
+      "total_officials": 161,
+      "passed_officials": 161,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 10,
+        "Executive Council": 7,
+        "Legislative Council": 30,
+        "Legislative Assembly": 47,
+        "Colonial Secretary's Department": 8,
+        "Attorney-General's Department": 12,
+        "Department of Public Instruction": 2,
+        "Colonial Treasurer's Department": 7,
+        "Department of Public Lands": 3,
+        "Department of Public Works": 11,
+        "Department of the Postmaster-General": 4,
+        "Consuls for Foreign Countries": 7,
+        "Governors": 8,
+        "Members of Council": 2,
+        "Judicial Establishment": 2,
+        "Ecclesiastical Department": 1
+      },
+      "generation_time": 906.8,
+      "validation_summary": {
+        "colony": "Queensland",
+        "year": 1878,
+        "total": 161,
+        "high_confidence": 161,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 161,
+        "anomaly_count": 8
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/queensland_1878_data_gpt-oss_120b.json"
     }
   },
   "failed": {},

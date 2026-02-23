@@ -1,15 +1,15 @@
 {
   "colony": "Queensland",
   "year": 1878,
-  "generated": "2026-02-21T07:23:11.802427",
+  "generated": "2026-02-23T14:34:29.709828",
   "model": "gpt-oss:120b",
   "tier": "STANDARD",
-  "total_officials": 165,
+  "total_officials": 161,
   "officials": [
     {
       "name": "Sir Arthur Edward Kennedy",
-      "canonical_name": "Kennedy, Sir Arthur Edward",
-      "given_names": "Sir Arthur Edward",
+      "canonical_name": "Kennedy, Arthur Edward",
+      "given_names": "Arthur Edward",
       "surname": "Kennedy",
       "position": "Governor and Commander-in-Chief",
       "department": "Civil Establishment",
@@ -573,8 +573,8 @@
     },
     {
       "name": "Sir M. C. O'Connell",
-      "canonical_name": "O'Connell, Sir M. C.",
-      "given_names": "Sir M. C.",
+      "canonical_name": "O'Connell, M. C.",
+      "given_names": "M. C.",
       "surname": "O'Connell",
       "position": "President",
       "department": "Legislative Council",
@@ -1392,7 +1392,7 @@
       "canonical_name": "Rawlins, Frederick",
       "given_names": "Frederick",
       "surname": "Rawlins",
-      "position": "Colonial Secretary",
+      "position": "Under Colonial Secretary",
       "department": "Colonial Secretary's Department",
       "salary_min": 800,
       "salary_max": 800,
@@ -1497,7 +1497,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Brisbane"
     },
     {
       "name": "P. R. Gordon",
@@ -1648,7 +1648,7 @@
       "canonical_name": "Shaw, John Mackenzie",
       "given_names": "John Mackenzie",
       "surname": "Shaw",
-      "position": "Registrar of Supreme Court, Clerk of the Peace, Prothonotary",
+      "position": "Registrar of Supreme Court, Clerk of the Peace, Prothonotary, &c.",
       "department": "Attorney-General's Department",
       "salary_min": 500,
       "salary_max": 500,
@@ -1783,7 +1783,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Commander",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -2032,7 +2032,7 @@
       "canonical_name": "Jardine, A.",
       "given_names": "A.",
       "surname": "Jardine",
-      "position": "Engineer of Roads, Central Division",
+      "position": "Engineer of Roads",
       "department": "Department of Public Works",
       "salary_min": 400,
       "salary_max": 400,
@@ -2041,14 +2041,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central Division"
     },
     {
       "name": "A. C. MacMillan",
       "canonical_name": "MacMillan, A. C.",
       "given_names": "A. C.",
       "surname": "MacMillan",
-      "position": "Engineer of Roads, Northern Division",
+      "position": "Engineer of Roads",
       "department": "Department of Public Works",
       "salary_min": 400,
       "salary_max": 400,
@@ -2057,7 +2057,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Northern Division"
     },
     {
       "name": "Karl T. Staiger",
@@ -2129,7 +2129,7 @@
       "given_names": "W. L. G.",
       "surname": "Drew",
       "position": "Auditor-General",
-      "department": "Auditor-General",
+      "department": "Department of the Postmaster-General",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -2263,7 +2263,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Major-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -2284,9 +2284,9 @@
       "location": null
     },
     {
-      "name": "Patrick Ross",
-      "canonical_name": "Ross, Patrick",
-      "given_names": "Patrick",
+      "name": "Sir Patrick Ross",
+      "canonical_name": "Ross, Sir Patrick",
+      "given_names": "Sir Patrick",
       "surname": "Ross",
       "position": "Governor",
       "department": "Governors",
@@ -2297,14 +2297,14 @@
         "G.C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Major-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Thomas Gore Browne",
-      "canonical_name": "Browne, Thomas Gore",
-      "given_names": "Thomas Gore",
+      "name": "Sir Thomas Gore Browne",
+      "canonical_name": "Browne, Sir Thomas Gore",
+      "given_names": "Sir Thomas Gore",
       "surname": "Browne",
       "position": "Governor",
       "department": "Governors",
@@ -2321,9 +2321,9 @@
       "location": null
     },
     {
-      "name": "E. H. Drummond Hay",
-      "canonical_name": "Hay, E. H. Drummond",
-      "given_names": "E. H. Drummond",
+      "name": "Sir E. H. Drummond Hay",
+      "canonical_name": "Hay, Sir E. H. Drummond",
+      "given_names": "Sir E. H. Drummond",
       "surname": "Hay",
       "position": "Governor",
       "department": "Governors",
@@ -2337,9 +2337,9 @@
       "location": null
     },
     {
-      "name": "Charles Elliot",
-      "canonical_name": "Elliot, Charles",
-      "given_names": "Charles",
+      "name": "Admiral Sir Charles Elliot",
+      "canonical_name": "Elliot, Sir Charles",
+      "given_names": "Sir Charles",
       "surname": "Elliot",
       "position": "Governor",
       "department": "Governors",
@@ -2350,7 +2350,7 @@
         "K.C.B."
       ],
       "qualifications": [],
-      "military_rank": "Admiral",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -2371,9 +2371,9 @@
       "location": null
     },
     {
-      "name": "Patey",
-      "canonical_name": "Patey, ",
-      "given_names": "",
+      "name": "Admiral Patey",
+      "canonical_name": "Patey, Admiral",
+      "given_names": "Admiral",
       "surname": "Patey",
       "position": "Governor",
       "department": "Governors",
@@ -2382,7 +2382,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Admiral",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -2414,71 +2414,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Juan de Nova Castella",
-      "canonical_name": "de Nova Castella, Juan",
-      "given_names": "Juan",
-      "surname": "de Nova Castella",
-      "position": null,
-      "department": null,
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": "Commander",
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Cavendish",
-      "canonical_name": "Cavendish, ",
-      "given_names": "",
-      "surname": "Cavendish",
-      "position": null,
-      "department": null,
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": "Captain",
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Munden",
-      "canonical_name": "Munden, ",
-      "given_names": "",
-      "surname": "Munden",
-      "position": null,
-      "department": null,
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": "Captain",
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Charles II.",
-      "canonical_name": "II., Charles",
-      "given_names": "Charles",
-      "surname": "II.",
-      "position": null,
-      "department": null,
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lt.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -2535,7 +2471,7 @@
       "canonical_name": "Smyth, W. H.",
       "given_names": "W. H.",
       "surname": "Smyth",
-      "position": "Officer of Customs Branch",
+      "position": "Officers of Customs Branch",
       "department": "Civil Establishment",
       "salary_min": 300,
       "salary_max": 300,
@@ -2551,7 +2487,7 @@
       "canonical_name": "Pritchard, R.",
       "given_names": "R.",
       "surname": "Pritchard",
-      "position": "Officer of Customs Branch",
+      "position": "Officers of Customs Branch",
       "department": "Civil Establishment",
       "salary_min": 140,
       "salary_max": 140,
@@ -2567,7 +2503,7 @@
       "canonical_name": "Bruce, George",
       "given_names": "George",
       "surname": "Bruce",
-      "position": "Officer of Customs Branch",
+      "position": "Officers of Customs Branch",
       "department": "Civil Establishment",
       "salary_min": 175,
       "salary_max": 175,
@@ -2579,7 +2515,7 @@
       "location": null
     },
     {
-      "name": "George Phillips",
+      "name": "Lieut.-Colonel George Phillips",
       "canonical_name": "Phillips, George",
       "given_names": "George",
       "surname": "Phillips",
@@ -2662,12 +2598,12 @@
   "validation_summary": {
     "colony": "Queensland",
     "year": 1878,
-    "total": 165,
-    "high_confidence": 162,
-    "medium_confidence": 3,
+    "total": 161,
+    "high_confidence": 161,
+    "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 165,
+    "passed": 161,
     "anomaly_count": 8
   }
 }
