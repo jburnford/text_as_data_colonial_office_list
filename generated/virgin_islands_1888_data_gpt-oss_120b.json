@@ -1,0 +1,69 @@
+{
+  "colony": "Virgin Islands",
+  "year": 1888,
+  "generated": "2026-02-22T18:43:45.987887",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "Administrator of the Government",
+      "canonical_name": "Administrator of the Government",
+      "given_names": "",
+      "surname": "Administrator",
+      "position": "Administrator of the Government",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Colonial Secretary",
+      "canonical_name": "Colonial Secretary",
+      "given_names": "",
+      "surname": "Secretary",
+      "position": "Colonial Secretary",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Colonial Treasurer",
+      "canonical_name": "Colonial Treasurer",
+      "given_names": "",
+      "surname": "Treasurer",
+      "position": "Colonial Treasurer",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Virgin Islands",
+    "year": 1888,
+    "total": 3,
+    "high_confidence": 0,
+    "medium_confidence": 3,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}

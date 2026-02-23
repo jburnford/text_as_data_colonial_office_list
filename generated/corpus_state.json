@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-22T18:40:24.695759",
+  "last_updated": "2026-02-22T19:24:00.809185",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -11629,6 +11629,288 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tasmania_1888_data_gpt-oss_120b.json"
+    },
+    "Tobago_1888": {
+      "colony": "Tobago",
+      "year": 1888,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1888_manual_parsed/WINDWARD_ISLANDS___TOBAGO.txt",
+      "timestamp": "2026-02-22T18:40:24.701226",
+      "total_officials": 19,
+      "passed_officials": 19,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 5,
+        "Police and Gaol": 2,
+        "Medical Department": 3,
+        "Ministers of Religion": 5,
+        "Judicial Establishment": 2,
+        "Police Magistrates and Coroners": 2
+      },
+      "generation_time": 170.5,
+      "validation_summary": {
+        "colony": "Tobago",
+        "year": 1888,
+        "total": 19,
+        "high_confidence": 19,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 19,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tobago_1888_data_gpt-oss_120b.json"
+    },
+    "Virgin Islands_1888": {
+      "colony": "Virgin Islands",
+      "year": 1888,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1888_manual_parsed/LEEWARD_ISLANDS___VIRGIN_ISLANDS.txt",
+      "timestamp": "2026-02-22T18:43:15.190555",
+      "total_officials": 3,
+      "passed_officials": 3,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 3
+      },
+      "generation_time": 30.8,
+      "validation_summary": {
+        "colony": "Virgin Islands",
+        "year": 1888,
+        "total": 3,
+        "high_confidence": 0,
+        "medium_confidence": 3,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 3,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/virgin_islands_1888_data_gpt-oss_120b.json"
+    },
+    "Western Australia_1888": {
+      "colony": "Western Australia",
+      "year": 1888,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1888_manual_parsed/WESTERN_AUSTRALIA.txt",
+      "timestamp": "2026-02-22T18:43:45.998823",
+      "total_officials": 8,
+      "passed_officials": 8,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Court of Appeal": 3,
+        "Lunatic Asylum (St. George's, Grenada)": 1
+      },
+      "generation_time": 62.5,
+      "validation_summary": {
+        "colony": "Western Australia",
+        "year": 1888,
+        "total": 8,
+        "high_confidence": 8,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 8,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/western_australia_1888_data_gpt-oss_120b.json"
+    },
+    "Zululand_1888": {
+      "colony": "Zululand",
+      "year": 1888,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1888_manual_parsed/ZULULAND.txt",
+      "timestamp": "2026-02-22T18:44:48.467774",
+      "total_officials": 19,
+      "passed_officials": 19,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19
+      },
+      "generation_time": 129.2,
+      "validation_summary": {
+        "colony": "Zululand",
+        "year": 1888,
+        "total": 19,
+        "high_confidence": 19,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 19,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/zululand_1888_data_gpt-oss_120b.json"
+    },
+    "Bahamas_1889": {
+      "colony": "Bahamas",
+      "year": 1889,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1889_manual_parsed/BAHAMAS.txt",
+      "timestamp": "2026-02-22T18:46:57.701333",
+      "total_officials": 61,
+      "passed_officials": 61,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 20,
+        "Judicial Establishment": 25,
+        "Ecclesiastical": 10,
+        "Foreign Consuls": 6
+      },
+      "generation_time": 373.4,
+      "validation_summary": {
+        "colony": "Bahamas",
+        "year": 1889,
+        "total": 61,
+        "high_confidence": 59,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 61,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1889_data_gpt-oss_120b.json"
+    },
+    "Barbados_1889": {
+      "colony": "Barbados",
+      "year": 1889,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1889_manual_parsed/BARBADOS.txt",
+      "timestamp": "2026-02-22T18:53:11.140243",
+      "total_officials": 163,
+      "passed_officials": 163,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary's Office": 1,
+        "Correspondence Branch": 5,
+        "Record Branch": 3,
+        "Treasurer's Office": 3,
+        "Audit Office": 5,
+        "Customs": 16,
+        "Inland Revenue Officers": 5,
+        "Police and Prisons": 11,
+        "Fire Brigade": 1,
+        "Post Office": 9,
+        "Public Works": 3,
+        "Harbour-Master's Department": 3,
+        "Savings Bank": 3,
+        "Public Library": 3,
+        "Public Market": 2,
+        "Judicial Establishment": 28,
+        "Medical": 14,
+        "Educational": 17,
+        "Poor Law Board": 7,
+        "Ecclesiastical": 14,
+        "Foreign Consuls": 8
+      },
+      "generation_time": 1204.2,
+      "validation_summary": {
+        "colony": "Barbados",
+        "year": 1889,
+        "total": 163,
+        "high_confidence": 160,
+        "medium_confidence": 3,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 163,
+        "anomaly_count": 5
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1889_data_gpt-oss_120b.json"
+    },
+    "Basutoland_1889": {
+      "colony": "Basutoland",
+      "year": 1889,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1889_manual_parsed/BASUTOLAND.txt",
+      "timestamp": "2026-02-22T19:13:15.390988",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 15.2,
+      "validation_summary": {
+        "colony": "Basutoland",
+        "year": 1889,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/basutoland_1889_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1889": {
+      "colony": "Bermuda",
+      "year": 1889,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1889_manual_parsed/BERMUDA.txt",
+      "timestamp": "2026-02-22T19:13:30.658926",
+      "total_officials": 72,
+      "passed_officials": 72,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Colonial Secretary's Department": 16,
+        "Revenue Department": 7,
+        "Police and Gaols": 6,
+        "General Post Office": 6,
+        "Judicial Establishment": 10,
+        "Ecclesiastical Establishment": 14,
+        "Admiralty Establishment": 4,
+        "Foreign Consuls": 8
+      },
+      "generation_time": 500.9,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1889,
+        "total": 72,
+        "high_confidence": 72,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 72,
+        "anomaly_count": 5
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1889_data_gpt-oss_120b.json"
+    },
+    "British Bechuanaland_1889": {
+      "colony": "British Bechuanaland",
+      "year": 1889,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1889_manual_parsed/BRITISH_BECHUANALAND.txt",
+      "timestamp": "2026-02-22T19:21:51.562162",
+      "total_officials": 16,
+      "passed_officials": 16,
+      "quarantined_officials": 0,
+      "departments": {
+        "Police": 13,
+        "Stores Department": 2,
+        "Bechuanaland Protectorate": 1
+      },
+      "generation_time": 129.2,
+      "validation_summary": {
+        "colony": "British Bechuanaland",
+        "year": 1889,
+        "total": 16,
+        "high_confidence": 16,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 16,
+        "anomaly_count": 6
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_bechuanaland_1889_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
