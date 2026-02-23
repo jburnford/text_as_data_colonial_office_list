@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-23T02:04:51.979730",
+  "last_updated": "2026-02-23T02:37:08.539993",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -9659,6 +9659,59 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cape_of_good_hope_1896_data_gpt-oss_120b.json"
+    },
+    "Ceylon_1896": {
+      "colony": "Ceylon",
+      "year": 1896,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1896_manual_parsed/ceylon.txt",
+      "timestamp": "2026-02-23T02:04:51.983920",
+      "total_officials": 311,
+      "passed_officials": 311,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 16,
+        "Government Agencies": 24,
+        "PROVINCE OF UVA": 2,
+        "null": 3,
+        "Judicial Establishment": 15,
+        "District of Colombo and Midland Circuit": 22,
+        "Southern Circuit": 6,
+        "Northern Circuit": 13,
+        "Fiscal, Western Province": 2,
+        "Customs Department": 7,
+        "Harbour Department": 6,
+        "Public Works Department": 54,
+        "Central Irrigation Board": 3,
+        "Survey Department": 23,
+        "Registrar-General's Department": 2,
+        "Post-Office": 3,
+        "Telegraph": 6,
+        "Public Instruction": 10,
+        "Medical Department": 34,
+        "Police": 11,
+        "Prisons": 2,
+        "Colonial Store Department": 3,
+        "Ecclesiastical": 12,
+        "Independent Catholic Mission of Ceylon": 1,
+        "Railway Department": 5,
+        "Foreign Consuls": 17,
+        "Military and Naval Officers": 9
+      },
+      "generation_time": 1936.4,
+      "validation_summary": {
+        "colony": "Ceylon",
+        "year": 1896,
+        "total": 311,
+        "high_confidence": 309,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 311,
+        "anomaly_count": 18
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/ceylon_1896_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
