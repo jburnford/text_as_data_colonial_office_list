@@ -1,10 +1,10 @@
 {
   "colony": "Queensland",
   "year": 1896,
-  "generated": "2026-02-20T07:19:08.575981",
+  "generated": "2026-02-23T08:44:29.244744",
   "model": "gpt-oss:120b",
   "tier": "STANDARD",
-  "total_officials": 70,
+  "total_officials": 69,
   "officials": [
     {
       "name": "W. L. G. Drew",
@@ -81,7 +81,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "receives also 700l. under a railway commission.",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -182,7 +182,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Brisbane"
+      "location": null
     },
     {
       "name": "P. R. Gordon",
@@ -201,7 +201,7 @@
       "location": null
     },
     {
-      "name": "Col. Howel Gunter",
+      "name": "Howel Gunter",
       "canonical_name": "Gunter, Howel",
       "given_names": "Howel",
       "surname": "Gunter",
@@ -233,9 +233,9 @@
       "location": null
     },
     {
-      "name": "Hon. John Douglas",
-      "canonical_name": "Douglas, Hon. John",
-      "given_names": "Hon. John",
+      "name": "John Douglas",
+      "canonical_name": "Douglas, John",
+      "given_names": "John",
       "surname": "Douglas",
       "position": "Government Resident, Thursday Island",
       "department": "Colonial Secretary's Department",
@@ -267,9 +267,9 @@
       "location": null
     },
     {
-      "name": "Hon. Sir S. W. Griffith",
-      "canonical_name": "Griffith, Hon. Sir S. W.",
-      "given_names": "Hon. Sir S. W.",
+      "name": "Sir S. W. Griffith",
+      "canonical_name": "Griffith, S. W.",
+      "given_names": "S. W.",
       "surname": "Griffith",
       "position": "Chief Justice",
       "department": "Department of Justice",
@@ -305,7 +305,7 @@
       "canonical_name": "Real, P.",
       "given_names": "P.",
       "surname": "Real",
-      "position": "2nd puisne Judge",
+      "position": "2nd Judge",
       "department": "Department of Justice",
       "salary_min": 2000,
       "salary_max": 2000,
@@ -337,7 +337,7 @@
       "canonical_name": "Chubb, C. E.",
       "given_names": "C. E.",
       "surname": "Chubb",
-      "position": "Northern Judge",
+      "position": "2nd Northern Judge",
       "department": "Department of Justice",
       "salary_min": 2000,
       "salary_max": 2000,
@@ -691,7 +691,7 @@
       "canonical_name": "Tully, A.",
       "given_names": "A.",
       "surname": "Tully",
-      "position": "Members of Land Board",
+      "position": "Member of Land Board",
       "department": "Department of Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
@@ -707,7 +707,7 @@
       "canonical_name": "Sword, T. S.",
       "given_names": "T. S.",
       "surname": "Sword",
-      "position": "Members of Land Board",
+      "position": "Member of Land Board",
       "department": "Department of Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
@@ -868,7 +868,7 @@
       "given_names": "John",
       "surname": "McDonnell",
       "position": "Under Secretary Postal Department, and Superintendent of Electric Telegraphs",
-      "department": "Department of the Postmaster-General",
+      "department": "Postmaster-General",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -884,7 +884,7 @@
       "given_names": "Clement L.",
       "surname": "Wragge",
       "position": "Government Meteorologist",
-      "department": "Department of the Postmaster-General",
+      "department": "Postmaster-General",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -1095,7 +1095,7 @@
       "canonical_name": "B., H. A. F.",
       "given_names": "H. A. F.",
       "surname": "B.",
-      "position": "Consular Agent for Germany",
+      "position": "Consul for Germany",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -1105,24 +1105,6 @@
       "military_rank": null,
       "salary_scale": null,
       "location": "Cooktown"
-    },
-    {
-      "name": "Kortum",
-      "canonical_name": "Kortum, ",
-      "given_names": "",
-      "surname": "Kortum",
-      "position": null,
-      "department": "Consuls for Foreign Countries",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [
-        "M.D."
-      ],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
     },
     {
       "name": "F. H. Hart",
@@ -1146,10 +1128,10 @@
     "year": 1896,
     "total": 70,
     "high_confidence": 67,
-    "medium_confidence": 3,
-    "low_confidence": 0,
-    "quarantined": 0,
-    "passed": 70,
+    "medium_confidence": 2,
+    "low_confidence": 1,
+    "quarantined": 1,
+    "passed": 69,
     "anomaly_count": 0
   }
 }
