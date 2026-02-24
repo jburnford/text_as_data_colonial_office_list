@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-23T17:40:02.781418",
+  "last_updated": "2026-02-23T18:10:46.656005",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -11355,6 +11355,59 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/victoria_1879_data_gpt-oss_120b.json"
+    },
+    "British Guiana_1880": {
+      "colony": "British Guiana",
+      "year": 1880,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1880_manual_parsed/british_guiana.txt",
+      "timestamp": "2026-02-23T17:40:02.786667",
+      "total_officials": 284,
+      "passed_officials": 284,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Government Secretariat": 5,
+        "Audit Office": 6,
+        "Treasury": 8,
+        "Commissary Department": 17,
+        "Customs": 37,
+        "Immigration Department": 43,
+        "Post Office": 4,
+        "Harbours": 5,
+        "Poor": 7,
+        "Colonial Hospital, Demerara and Essequebo": 7,
+        "Hospital, Berbice": 2,
+        "Leper Asylum, Mahaca": 1,
+        "Colonial Lunatic Asylum, Berbice": 1,
+        "Orphan Asylum": 3,
+        "Registration of Births and Deaths": 3,
+        "Education": 5,
+        "Public Works": 6,
+        "Crown Lands Office": 3,
+        "Prisons": 16,
+        "Judicial Establishment": 61,
+        "Militia": 2,
+        "Villages": 3,
+        "Ecclesiastical Establishments": 26,
+        "Missionary": 1,
+        "Church of Scotland": 7,
+        "Roman Catholic Church": 1
+      },
+      "generation_time": 1843.7,
+      "validation_summary": {
+        "colony": "British Guiana",
+        "year": 1880,
+        "total": 284,
+        "high_confidence": 278,
+        "medium_confidence": 6,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 284,
+        "anomaly_count": 11
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_guiana_1880_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
