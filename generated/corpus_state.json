@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-23T22:21:52.605400",
+  "last_updated": "2026-02-23T22:34:34.970349",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -11964,6 +11964,47 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/victoria_1883_data_gpt-oss_120b.json"
+    },
+    "Fiji_1886": {
+      "colony": "Fiji",
+      "year": 1886,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/FIJI.txt",
+      "timestamp": "2026-02-23T22:21:52.610930",
+      "total_officials": 127,
+      "passed_officials": 127,
+      "quarantined_officials": 0,
+      "departments": {
+        "Colonial Secretary's Department": 7,
+        "Receiver General": 25,
+        "Government Store": 2,
+        "Immigration Department": 12,
+        "Department of Lands, Surveys, and Works": 7,
+        "Postal Department": 7,
+        "Medical Department": 15,
+        "Registrar General": 2,
+        "Department of Justice": 18,
+        "FIJI\u2014GIBRALTAR": 8,
+        "Provincial Department": 6,
+        "Armed Native Constabulary": 3,
+        "Printing Office": 2,
+        "Civil Service Cadets": 9,
+        "Consuls": 4
+      },
+      "generation_time": 762.3,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1886,
+        "total": 127,
+        "high_confidence": 126,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 127,
+        "anomaly_count": 8
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1886_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
