@@ -1,15 +1,15 @@
 {
   "colony": "New South Wales",
   "year": 1880,
-  "generated": "2026-02-21T22:25:23.252126",
+  "generated": "2026-02-23T18:39:58.650725",
   "model": "gpt-oss:120b",
   "tier": "STANDARD",
   "total_officials": 246,
   "officials": [
     {
       "name": "Lord Augustus W S. Loftus",
-      "canonical_name": "Loftus, Lord Augustus W S.",
-      "given_names": "Lord Augustus W S.",
+      "canonical_name": "Loftus, Augustus W S.",
+      "given_names": "Augustus W S.",
       "surname": "Loftus",
       "position": "Governor, &c.",
       "department": "Civil Establishment",
@@ -26,8 +26,8 @@
     },
     {
       "name": "Sir Alfred Stephen",
-      "canonical_name": "Stephen, Sir Alfred",
-      "given_names": "Sir Alfred",
+      "canonical_name": "Stephen, Alfred",
+      "given_names": "Alfred",
       "surname": "Stephen",
       "position": "Lieutenant-Governor",
       "department": "Civil Establishment",
@@ -109,8 +109,8 @@
     },
     {
       "name": "Sir Henry Parkes",
-      "canonical_name": "Parkes, Sir Henry",
-      "given_names": "Sir Henry",
+      "canonical_name": "Parkes, Henry",
+      "given_names": "Henry",
       "surname": "Parkes",
       "position": "Colonial Secretary",
       "department": "Colonial Secretary's Department",
@@ -240,7 +240,7 @@
       "location": null
     },
     {
-      "name": "James Watson",
+      "name": "The Hon. James Watson",
       "canonical_name": "Watson, James",
       "given_names": "James",
       "surname": "Watson",
@@ -256,7 +256,7 @@
       "location": null
     },
     {
-      "name": "Geoffrey Eagar",
+      "name": "Hon. Geoffrey Eagar",
       "canonical_name": "Eagar, Geoffrey",
       "given_names": "Geoffrey",
       "surname": "Eagar",
@@ -448,11 +448,11 @@
       "location": null
     },
     {
-      "name": "Philip J. Holdsworth",
+      "name": "Philip J. Holdsworth (Revenue Branch)",
       "canonical_name": "Holdsworth, Philip J.",
       "given_names": "Philip J.",
       "surname": "Holdsworth",
-      "position": "1st Clerk (Revenue Branch)",
+      "position": "1st Clerk",
       "department": "The Treasury",
       "salary_min": 350,
       "salary_max": 350,
@@ -528,7 +528,7 @@
       "location": null
     },
     {
-      "name": "James Hoskins",
+      "name": "The Hon. James Hoskins",
       "canonical_name": "Hoskins, James",
       "given_names": "James",
       "surname": "Hoskins",
@@ -1016,7 +1016,7 @@
       "department": "Department of Mines",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "230l. equipment allowance",
+      "allowances": "equipment allowance 230l. each",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1032,7 +1032,7 @@
       "department": "Department of Mines",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "230l. equipment allowance",
+      "allowances": "equipment allowance 230l. each",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1112,7 +1112,7 @@
       "department": "Department of Mines",
       "salary_min": 600,
       "salary_max": 600,
-      "allowances": "230l. equipment allowance",
+      "allowances": "equipment allowance 230l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1128,7 +1128,7 @@
       "department": "Department of Mines",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "230l. equipment allowance",
+      "allowances": "equipment allowance 230l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1144,7 +1144,7 @@
       "department": "Department of Mines",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "230l. equipment allowance",
+      "allowances": "equipment 230l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1700,7 +1700,7 @@
       "canonical_name": "Ward, Edward Grant",
       "given_names": "Edward Grant",
       "surname": "Ward",
-      "position": "Registrar-General",
+      "position": "Registrar-General and Chairman of Land Titles' Commissioners",
       "department": "Registrar-General's Department",
       "salary_min": 700,
       "salary_max": 700,
@@ -1748,7 +1748,7 @@
       "canonical_name": "Jones, Richard",
       "given_names": "Richard",
       "surname": "Jones",
-      "position": "Land Titles Commissioner",
+      "position": "Land Titles Commissioners",
       "department": "Statistical Branch",
       "salary_min": null,
       "salary_max": null,
@@ -1764,7 +1764,7 @@
       "canonical_name": "Scott, A. W.",
       "given_names": "A. W.",
       "surname": "Scott",
-      "position": "Land Titles Commissioner",
+      "position": "Land Titles Commissioners",
       "department": "Statistical Branch",
       "salary_min": null,
       "salary_max": null,
@@ -1780,7 +1780,7 @@
       "canonical_name": "Burton, Edmund",
       "given_names": "Edmund",
       "surname": "Burton",
-      "position": "Examiner of Titles",
+      "position": "Examiners of Titles",
       "department": "Statistical Branch",
       "salary_min": 800,
       "salary_max": 800,
@@ -1796,7 +1796,7 @@
       "canonical_name": "Jones, John Booth",
       "given_names": "John Booth",
       "surname": "Jones",
-      "position": "Examiner of Titles",
+      "position": "Examiners of Titles",
       "department": "Statistical Branch",
       "salary_min": 800,
       "salary_max": 800,
@@ -1812,7 +1812,7 @@
       "canonical_name": "Maddock, Henry Dyer",
       "given_names": "Henry Dyer",
       "surname": "Maddock",
-      "position": "Examiner of Titles",
+      "position": "Examiners of Titles",
       "department": "Statistical Branch",
       "salary_min": 800,
       "salary_max": 800,
@@ -1956,7 +1956,7 @@
       "canonical_name": "Maddocks, J. H.",
       "given_names": "J. H.",
       "surname": "Maddocks",
-      "position": "2nd Clerk",
+      "position": "Clerk",
       "department": "Customs",
       "salary_min": 530,
       "salary_max": 530,
@@ -1972,7 +1972,7 @@
       "canonical_name": "Rucker, H. J.",
       "given_names": "H. J.",
       "surname": "Rucker",
-      "position": "3rd Clerk",
+      "position": "Clerk",
       "department": "Customs",
       "salary_min": 375,
       "salary_max": 375,
@@ -1988,7 +1988,7 @@
       "canonical_name": "Kelly, Richard",
       "given_names": "Richard",
       "surname": "Kelly",
-      "position": "4th Clerk",
+      "position": "Clerk",
       "department": "Customs",
       "salary_min": 400,
       "salary_max": 400,
@@ -2004,7 +2004,7 @@
       "canonical_name": "Small, Robert",
       "given_names": "Robert",
       "surname": "Small",
-      "position": "5th Clerk",
+      "position": "Clerk",
       "department": "Customs",
       "salary_min": 375,
       "salary_max": 375,
@@ -2020,7 +2020,7 @@
       "canonical_name": "Ormsby, J. A.",
       "given_names": "J. A.",
       "surname": "Ormsby",
-      "position": "1st Landing Waiter",
+      "position": "Landing Waiter",
       "department": "Customs",
       "salary_min": 415,
       "salary_max": 415,
@@ -2036,7 +2036,7 @@
       "canonical_name": "Godfrey, Thomas",
       "given_names": "Thomas",
       "surname": "Godfrey",
-      "position": "2nd Landing Waiter",
+      "position": "Landing Waiter",
       "department": "Customs",
       "salary_min": 415,
       "salary_max": 415,
@@ -2052,7 +2052,7 @@
       "canonical_name": "Passmore, W. R. T.",
       "given_names": "W. R. T.",
       "surname": "Passmore",
-      "position": "3rd Landing Waiter",
+      "position": "Landing Waiter",
       "department": "Customs",
       "salary_min": 390,
       "salary_max": 390,
@@ -2068,7 +2068,7 @@
       "canonical_name": "Eames, R. L.",
       "given_names": "R. L.",
       "surname": "Eames",
-      "position": "1st Tide Surveyor",
+      "position": "Tide Surveyor",
       "department": "Customs",
       "salary_min": 375,
       "salary_max": 375,
@@ -2084,7 +2084,7 @@
       "canonical_name": "Smyth, William",
       "given_names": "William",
       "surname": "Smyth",
-      "position": "2nd Tide Surveyor",
+      "position": "Tide Surveyor",
       "department": "Customs",
       "salary_min": 375,
       "salary_max": 375,
@@ -2319,7 +2319,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "George-street"
     },
     {
       "name": "A. J. Doak",
@@ -2335,7 +2335,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "George-street"
     },
     {
       "name": "H. C. Russell",
@@ -2646,7 +2646,7 @@
       "location": null
     },
     {
-      "name": "John Smith",
+      "name": "Hon. John Smith",
       "canonical_name": "Smith, Hon. John",
       "given_names": "Hon. John",
       "surname": "Smith",
@@ -2666,7 +2666,7 @@
       "location": null
     },
     {
-      "name": "Alfred Stephen",
+      "name": "Sir Alfred Stephen",
       "canonical_name": "Stephen, Sir Alfred",
       "given_names": "Sir Alfred",
       "surname": "Stephen",
@@ -2685,7 +2685,7 @@
       "location": null
     },
     {
-      "name": "G. W. Allen",
+      "name": "Sir G. W. Allen",
       "canonical_name": "Allen, Sir G. W.",
       "given_names": "Sir G. W.",
       "surname": "Allen",
@@ -2717,7 +2717,7 @@
       "location": null
     },
     {
-      "name": "Robert Wisdom",
+      "name": "Hon. Robert Wisdom",
       "canonical_name": "Wisdom, Hon. Robert",
       "given_names": "Hon. Robert",
       "surname": "Wisdom",
@@ -3123,7 +3123,7 @@
       "canonical_name": "Dowling, James Sheen",
       "given_names": "James Sheen",
       "surname": "Dowling",
-      "position": "Metropolitan and Hunter District",
+      "position": "Judge",
       "department": "District Court Judges, and Chairmen of Quarter Sessions",
       "salary_min": 1000,
       "salary_max": 1000,
@@ -3132,14 +3132,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Metropolitan and Hunter District"
     },
     {
       "name": "William H. Wilkinson",
       "canonical_name": "Wilkinson, William H.",
       "given_names": "William H.",
       "surname": "Wilkinson",
-      "position": "Metropolitan and Hunter District",
+      "position": "Judge",
       "department": "District Court Judges, and Chairmen of Quarter Sessions",
       "salary_min": null,
       "salary_max": null,
@@ -3148,14 +3148,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Metropolitan and Hunter District"
     },
     {
       "name": "Alfred McFarland",
       "canonical_name": "McFarland, Alfred",
       "given_names": "Alfred",
       "surname": "McFarland",
-      "position": "Southern District",
+      "position": "Judge",
       "department": "District Court Judges, and Chairmen of Quarter Sessions",
       "salary_min": 1000,
       "salary_max": 1000,
@@ -3164,14 +3164,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Southern District"
     },
     {
       "name": "David G. Forbes",
       "canonical_name": "Forbes, David G.",
       "given_names": "David G.",
       "surname": "Forbes",
-      "position": "South-western District",
+      "position": "Judge",
       "department": "District Court Judges, and Chairmen of Quarter Sessions",
       "salary_min": 1000,
       "salary_max": 1000,
@@ -3180,14 +3180,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South-western District"
     },
     {
       "name": "Joshua Frey-Josephson",
       "canonical_name": "Frey-Josephson, Joshua",
       "given_names": "Joshua",
       "surname": "Frey-Josephson",
-      "position": "Western District",
+      "position": "Judge",
       "department": "District Court Judges, and Chairmen of Quarter Sessions",
       "salary_min": 1000,
       "salary_max": 1000,
@@ -3196,14 +3196,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Western District"
     },
     {
       "name": "Fredk. Wm. Meymott",
       "canonical_name": "Meymott, Fredk. Wm.",
       "given_names": "Fredk. Wm.",
       "surname": "Meymott",
-      "position": "Northern District",
+      "position": "Judge",
       "department": "District Court Judges, and Chairmen of Quarter Sessions",
       "salary_min": 1000,
       "salary_max": 1000,
@@ -3212,14 +3212,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Northern District"
     },
     {
       "name": "C. E. R. Murray",
       "canonical_name": "Murray, C. E. R.",
       "given_names": "C. E. R.",
       "surname": "Murray",
-      "position": "North Western and Eastern District",
+      "position": "Judge",
       "department": "District Court Judges, and Chairmen of Quarter Sessions",
       "salary_min": 1000,
       "salary_max": 1000,
@@ -3228,7 +3228,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "North Western and Eastern District"
     },
     {
       "name": "A. T. Holroyd",
@@ -3295,7 +3295,7 @@
       "location": null
     },
     {
-      "name": "Charles Cowper, jun.",
+      "name": "Charles Cowper",
       "canonical_name": "Cowper, Charles",
       "given_names": "Charles",
       "surname": "Cowper",
@@ -3343,7 +3343,7 @@
       "location": null
     },
     {
-      "name": "The Hon. Robert Wisdom",
+      "name": "Robert Wisdom",
       "canonical_name": "Wisdom, Robert",
       "given_names": "Robert",
       "surname": "Wisdom",
@@ -3427,7 +3427,7 @@
       "canonical_name": "Harte, M. S.",
       "given_names": "M. S.",
       "surname": "Harte",
-      "position": null,
+      "position": "Clerks",
       "department": "Attorney-General's Department",
       "salary_min": 300,
       "salary_max": 300,
@@ -3459,7 +3459,7 @@
       "canonical_name": "Teece, J. J.",
       "given_names": "J. J.",
       "surname": "Teece",
-      "position": null,
+      "position": "Crown Prosecutors",
       "department": "Attorney-General's Department",
       "salary_min": 500,
       "salary_max": 500,
@@ -3475,7 +3475,7 @@
       "canonical_name": "Lee, E.",
       "given_names": "E.",
       "surname": "Lee",
-      "position": null,
+      "position": "Crown Prosecutors",
       "department": "Attorney-General's Department",
       "salary_min": 500,
       "salary_max": 500,
@@ -3491,7 +3491,7 @@
       "canonical_name": "Barton, E.",
       "given_names": "E.",
       "surname": "Barton",
-      "position": null,
+      "position": "Crown Prosecutors",
       "department": "Attorney-General's Department",
       "salary_min": 500,
       "salary_max": 500,
@@ -3509,7 +3509,7 @@
       "canonical_name": "Docker, E. B.",
       "given_names": "E. B.",
       "surname": "Docker",
-      "position": null,
+      "position": "Crown Prosecutors",
       "department": "Attorney-General's Department",
       "salary_min": 500,
       "salary_max": 500,
@@ -3525,7 +3525,7 @@
       "canonical_name": "O'Connor, R. E.",
       "given_names": "R. E.",
       "surname": "O'Connor",
-      "position": null,
+      "position": "Crown Prosecutors",
       "department": "Attorney-General's Department",
       "salary_min": 500,
       "salary_max": 500,
@@ -3897,7 +3897,7 @@
       "canonical_name": "Walker, Robert Cooper",
       "given_names": "Robert Cooper",
       "surname": "Walker",
-      "position": "Principal Librarian",
+      "position": "Principal Librarian, Free Public Library",
       "department": "Miscellaneous",
       "salary_min": 450,
       "salary_max": 450,
@@ -3982,6 +3982,6 @@
     "low_confidence": 1,
     "quarantined": 1,
     "passed": 246,
-    "anomaly_count": 3
+    "anomaly_count": 2
   }
 }
