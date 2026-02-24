@@ -1,10 +1,10 @@
 {
   "colony": "New South Wales",
   "year": 1888,
-  "generated": "2026-02-22T16:51:36.150156",
+  "generated": "2026-02-24T00:15:38.618123",
   "model": "gpt-oss:120b",
   "tier": "STANDARD",
-  "total_officials": 203,
+  "total_officials": 204,
   "officials": [
     {
       "name": "Lord Carrington",
@@ -96,7 +96,7 @@
       "given_names": "Hon. Sir H.",
       "surname": "Parkes",
       "position": "Colonial Secretary",
-      "department": "Colonial Secretary's and Subordinate Departments",
+      "department": "Colonial Secretary's Department",
       "salary_min": 2000,
       "salary_max": 2000,
       "allowances": null,
@@ -114,7 +114,7 @@
       "given_names": "Critchett",
       "surname": "Walker",
       "position": "Principal Under Secretary",
-      "department": "Colonial Secretary's and Subordinate Departments",
+      "department": "Colonial Secretary's Department",
       "salary_min": 930,
       "salary_max": 930,
       "allowances": null,
@@ -130,7 +130,7 @@
       "given_names": "Edward W.",
       "surname": "McKenny",
       "position": "Chief Clerk",
-      "department": "Colonial Secretary's and Subordinate Departments",
+      "department": "Colonial Secretary's Department",
       "salary_min": 650,
       "salary_max": 650,
       "allowances": null,
@@ -146,7 +146,7 @@
       "given_names": "Thomas P.",
       "surname": "McLerie",
       "position": "1st Clerk",
-      "department": "Colonial Secretary's and Subordinate Departments",
+      "department": "Colonial Secretary's Department",
       "salary_min": 495,
       "salary_max": 495,
       "allowances": null,
@@ -162,7 +162,7 @@
       "given_names": "J. J.",
       "surname": "Taylor",
       "position": "2nd Clerk in charge of Records",
-      "department": "Colonial Secretary's and Subordinate Departments",
+      "department": "Colonial Secretary's Department",
       "salary_min": 445,
       "salary_max": 445,
       "allowances": null,
@@ -178,7 +178,7 @@
       "given_names": "J. G.",
       "surname": "Cohen",
       "position": "3rd Clerk",
-      "department": "Colonial Secretary's and Subordinate Departments",
+      "department": "Colonial Secretary's Department",
       "salary_min": 370,
       "salary_max": 370,
       "allowances": null,
@@ -194,7 +194,7 @@
       "given_names": "J. E.",
       "surname": "Ormiston",
       "position": "Accountant",
-      "department": "Colonial Secretary's and Subordinate Departments",
+      "department": "Colonial Secretary's Department",
       "salary_min": 320,
       "salary_max": 320,
       "allowances": null,
@@ -205,7 +205,7 @@
       "location": null
     },
     {
-      "name": "Edward Grant Ward, J.P.",
+      "name": "Edward Grant Ward",
       "canonical_name": "Ward, Edward Grant",
       "given_names": "Edward Grant",
       "surname": "Ward",
@@ -435,8 +435,8 @@
       "surname": "La Mesl\u00e9e",
       "position": "Compilers",
       "department": "Statistician's Department",
-      "salary_min": null,
-      "salary_max": null,
+      "salary_min": 320,
+      "salary_max": 320,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -882,7 +882,7 @@
       "given_names": "S.",
       "surname": "Blythe",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -898,7 +898,7 @@
       "given_names": "G. C.",
       "surname": "Tompson",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -914,7 +914,7 @@
       "given_names": "W. J.",
       "surname": "Conder",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -930,7 +930,7 @@
       "given_names": "W. C.",
       "surname": "Cardew",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -946,7 +946,7 @@
       "given_names": "J. R.",
       "surname": "Edwards",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -962,7 +962,7 @@
       "given_names": "A. O.",
       "surname": "Moriarty",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -978,7 +978,7 @@
       "given_names": "W.",
       "surname": "Blackman",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -994,7 +994,7 @@
       "given_names": "A. J.",
       "surname": "Park",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1010,7 +1010,7 @@
       "given_names": "James",
       "surname": "Vernon",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1026,7 +1026,7 @@
       "given_names": "C. J. M.",
       "surname": "Master",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1042,7 +1042,7 @@
       "given_names": "T. W.",
       "surname": "Harriott",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1058,7 +1058,7 @@
       "given_names": "C. E.",
       "surname": "Finch",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1074,7 +1074,7 @@
       "given_names": "John",
       "surname": "Macdonald",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1090,7 +1090,7 @@
       "given_names": "F. W.",
       "surname": "Watt",
       "position": "Chairman, Local Land Board",
-      "department": "Chairmen Local Land Boards",
+      "department": "Department of Lands",
       "salary_min": 700,
       "salary_max": 700,
       "allowances": null,
@@ -2013,7 +2013,7 @@
       "location": null
     },
     {
-      "name": "O. J. Roberts",
+      "name": "Hon. O. J. Roberts",
       "canonical_name": "Roberts, O. J.",
       "given_names": "O. J.",
       "surname": "Roberts",
@@ -2291,7 +2291,7 @@
       "canonical_name": "MacLaurin, H. N.",
       "given_names": "H. N.",
       "surname": "MacLaurin",
-      "position": "Medical Adviser to the Government",
+      "position": "Medical Adviser to the Government; President, Board of Health; Health Officer",
       "department": "Colonial Architect's Department",
       "salary_min": 400,
       "salary_max": 400,
@@ -2302,7 +2302,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Port Jackson"
     },
     {
       "name": "M. Egan",
@@ -2321,7 +2321,7 @@
       "location": null
     },
     {
-      "name": "James Inglis",
+      "name": "The Hon. James Inglis",
       "canonical_name": "Inglis, James",
       "given_names": "James",
       "surname": "Inglis",
@@ -2647,7 +2647,7 @@
       "canonical_name": "Sinclair, Eric",
       "given_names": "Eric",
       "surname": "Sinclair",
-      "position": "Superintendent, Hospital for the Insane",
+      "position": "Superintendent",
       "department": "Police Department",
       "salary_min": 650,
       "salary_max": 650,
@@ -2663,7 +2663,7 @@
       "canonical_name": "Godson, Edwin",
       "given_names": "Edwin",
       "surname": "Godson",
-      "position": "Superintendent, Hospital for the Insane",
+      "position": "Superintendent",
       "department": "Police Department",
       "salary_min": 650,
       "salary_max": 650,
@@ -2679,7 +2679,7 @@
       "canonical_name": "Blaxland, H.",
       "given_names": "H.",
       "surname": "Blaxland",
-      "position": "Superintendent, Hospital for the Insane",
+      "position": "Superintendent",
       "department": "Police Department",
       "salary_min": 650,
       "salary_max": 650,
@@ -2848,7 +2848,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Metropolitan and Hunter District"
+      "location": null
     },
     {
       "name": "William Hattam Wilkinson",
@@ -2857,14 +2857,14 @@
       "surname": "Wilkinson",
       "position": "District Court Judge",
       "department": "Judicial and Legal Departments",
-      "salary_min": 1500,
-      "salary_max": 1500,
+      "salary_min": null,
+      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Metropolitan and Hunter District"
+      "location": null
     },
     {
       "name": "Alfred McFarland",
@@ -2880,7 +2880,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Southern District"
+      "location": null
     },
     {
       "name": "David G. Forbes",
@@ -2896,7 +2896,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "South-western District"
+      "location": null
     },
     {
       "name": "Ernest Brougham Docker",
@@ -2912,7 +2912,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Western District"
+      "location": null
     },
     {
       "name": "Ch. E. R. Murray",
@@ -2928,7 +2928,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Northern District"
+      "location": null
     },
     {
       "name": "A. Paxton Backhouse",
@@ -2944,7 +2944,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "North Western District"
+      "location": null
     },
     {
       "name": "Henry Francis Barton",
@@ -3027,20 +3027,20 @@
       "location": null
     },
     {
-      "name": "Henry Sheill",
-      "canonical_name": "Sheill, Henry",
-      "given_names": "Henry",
-      "surname": "Sheill",
+      "name": "Charles Cowper",
+      "canonical_name": "Cowper, Charles",
+      "given_names": "Charles",
+      "surname": "Cowper",
       "position": "Sheriff",
       "department": "Judicial and Legal Departments",
-      "salary_min": 650,
-      "salary_max": 650,
+      "salary_min": 810,
+      "salary_max": 810,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sydney"
+      "location": null
     },
     {
       "name": "C. E. B. Maybury",
@@ -3057,6 +3057,22 @@
       "military_rank": null,
       "salary_scale": null,
       "location": null
+    },
+    {
+      "name": "Henry Sheill",
+      "canonical_name": "Sheill, Henry",
+      "given_names": "Henry",
+      "surname": "Sheill",
+      "position": "Coroner",
+      "department": "Judicial and Legal Departments",
+      "salary_min": 650,
+      "salary_max": 650,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Sydney"
     },
     {
       "name": "Beruhard R. Wise",
@@ -3274,12 +3290,12 @@
   "validation_summary": {
     "colony": "New South Wales",
     "year": 1888,
-    "total": 203,
-    "high_confidence": 202,
+    "total": 204,
+    "high_confidence": 203,
     "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 203,
+    "passed": 204,
     "anomaly_count": 0
   }
 }
