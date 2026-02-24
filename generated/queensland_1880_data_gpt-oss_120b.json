@@ -1,7 +1,7 @@
 {
   "colony": "Queensland",
   "year": 1880,
-  "generated": "2026-02-21T23:05:31.930193",
+  "generated": "2026-02-23T18:53:09.386774",
   "model": "gpt-oss:120b",
   "tier": "STANDARD",
   "total_officials": 143,
@@ -37,12 +37,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Captain",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "A. H. Palmer",
+      "name": "Hon. A. H. Palmer",
       "canonical_name": "Palmer, A. H.",
       "given_names": "A. H.",
       "surname": "Palmer",
@@ -58,7 +58,7 @@
       "location": null
     },
     {
-      "name": "R. Pring",
+      "name": "Hon. R. Pring",
       "canonical_name": "Pring, R.",
       "given_names": "R.",
       "surname": "Pring",
@@ -74,7 +74,7 @@
       "location": null
     },
     {
-      "name": "O. J. M. Macrossan",
+      "name": "Hon. O. J. M. Macrossan",
       "canonical_name": "Macrossan, O. J. M.",
       "given_names": "O. J. M.",
       "surname": "Macrossan",
@@ -90,7 +90,7 @@
       "location": null
     },
     {
-      "name": "Thomas McThwaith",
+      "name": "Hon. Thomas McThwaith",
       "canonical_name": "McThwaith, Thomas",
       "given_names": "Thomas",
       "surname": "McThwaith",
@@ -106,7 +106,7 @@
       "location": null
     },
     {
-      "name": "P. Perkins",
+      "name": "Hon. P. Perkins",
       "canonical_name": "Perkins, P.",
       "given_names": "P.",
       "surname": "Perkins",
@@ -122,7 +122,7 @@
       "location": null
     },
     {
-      "name": "C. H. Buzacott",
+      "name": "Hon. C. H. Buzacott",
       "canonical_name": "Buzacott, C. H.",
       "given_names": "C. H.",
       "surname": "Buzacott",
@@ -154,7 +154,7 @@
       "location": null
     },
     {
-      "name": "J. P. Bell",
+      "name": "Hon. J. P. Bell",
       "canonical_name": "Bell, J. P.",
       "given_names": "J. P.",
       "surname": "Bell",
@@ -634,7 +634,7 @@
       "location": null
     },
     {
-      "name": "Joshua P. Bell",
+      "name": "Hon. Joshua P. Bell",
       "canonical_name": "Bell, Joshua P.",
       "given_names": "Joshua P.",
       "surname": "Bell",
@@ -843,9 +843,9 @@
     },
     {
       "name": "H. Weld Blundell",
-      "canonical_name": "Blundell, H. Weld",
-      "given_names": "H. Weld",
-      "surname": "Blundell",
+      "canonical_name": "Weld Blundell, H.",
+      "given_names": "H.",
+      "surname": "Weld Blundell",
       "position": "Member",
       "department": "Legislative Assembly",
       "salary_min": null,
@@ -1002,7 +1002,7 @@
       "location": null
     },
     {
-      "name": "J. M. Thompson",
+      "name": "Hon. J. M. Thompson",
       "canonical_name": "Thompson, J. M.",
       "given_names": "J. M.",
       "surname": "Thompson",
@@ -1098,7 +1098,7 @@
       "location": null
     },
     {
-      "name": "J. Douglas",
+      "name": "Hon. J. Douglas",
       "canonical_name": "Douglas, J.",
       "given_names": "J.",
       "surname": "Douglas",
@@ -1180,7 +1180,7 @@
       "location": null
     },
     {
-      "name": "S. W. Griffith",
+      "name": "Hon. S. W. Griffith",
       "canonical_name": "Griffith, S. W.",
       "given_names": "S. W.",
       "surname": "Griffith",
@@ -1532,7 +1532,7 @@
       "location": null
     },
     {
-      "name": "Hon. W. Hobbs",
+      "name": "W. Hobbs",
       "canonical_name": "Hobbs, W.",
       "given_names": "W.",
       "surname": "Hobbs",
@@ -1542,9 +1542,7 @@
       "salary_max": 500,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "M.R.C.S."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -1838,9 +1836,9 @@
       "location": null
     },
     {
-      "name": "G. P. Heath",
-      "canonical_name": "Heath, G. P.",
-      "given_names": "G. P.",
+      "name": "Commander G. P. Heath",
+      "canonical_name": "Heath, Commander G. P.",
+      "given_names": "Commander G. P.",
       "surname": "Heath",
       "position": "Postmaster",
       "department": "Colonial Treasurer's Department",
@@ -2114,7 +2112,7 @@
       "canonical_name": "Jardine, A.",
       "given_names": "A.",
       "surname": "Jardine",
-      "position": "Engineer of Roads, Central Division",
+      "position": "Engineer of Roads",
       "department": "Department of Public Works",
       "salary_min": 400,
       "salary_max": 400,
@@ -2123,14 +2121,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central Division"
     },
     {
       "name": "A. C. MacMillan",
       "canonical_name": "MacMillan, A. C.",
       "given_names": "A. C.",
       "surname": "MacMillan",
-      "position": "Engineer of Roads, Northern Division",
+      "position": "Engineer of Roads",
       "department": "Department of Public Works",
       "salary_min": 400,
       "salary_max": 400,
@@ -2139,7 +2137,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Northern Division"
     },
     {
       "name": "Karl T. Staiger",
