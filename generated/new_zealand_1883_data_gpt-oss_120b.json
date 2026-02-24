@@ -1,7 +1,7 @@
 {
   "colony": "New Zealand",
   "year": 1883,
-  "generated": "2026-02-22T06:40:44.066926",
+  "generated": "2026-02-23T21:41:27.619839",
   "model": "gpt-oss:120b",
   "tier": "STANDARD",
   "total_officials": 197,
@@ -11,11 +11,11 @@
       "canonical_name": "Jervois, William Francis Drummond",
       "given_names": "William Francis Drummond",
       "surname": "Jervois",
-      "position": "Governor and Commander-in-Chief and Vice-Admiral",
+      "position": "Governor and Commander-in-Chief and Vice-Admiral, Major-Gen.",
       "department": "Civil Establishment",
       "salary_min": 5000,
       "salary_max": 5000,
-      "allowances": "2500l.",
+      "allowances": "2500l. allowances",
       "honors": [],
       "qualifications": [],
       "military_rank": "Major-Gen.",
@@ -44,7 +44,7 @@
       "given_names": "F.",
       "surname": "Whitaker",
       "position": "Premier and Attorney-General",
-      "department": "Civil Establishment",
+      "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -60,7 +60,7 @@
       "given_names": "H. A.",
       "surname": "Atkinson",
       "position": "Treasurer, Commissioner of Stamp Duties and Customs, and Minister of Marine",
-      "department": "Civil Establishment",
+      "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -76,7 +76,7 @@
       "given_names": "W.",
       "surname": "Rolleston",
       "position": "Minister for Lands, Immigration, and Mines",
-      "department": "Civil Establishment",
+      "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -92,7 +92,7 @@
       "given_names": "E. T.",
       "surname": "Conolly",
       "position": "Minister of Justice",
-      "department": "Civil Establishment",
+      "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -108,7 +108,7 @@
       "given_names": "Thomas",
       "surname": "Dick",
       "position": "Colonial Secretary, Minister of Education and Postmaster-General",
-      "department": "Civil Establishment",
+      "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -124,7 +124,7 @@
       "given_names": "W. W.",
       "surname": "Johnston",
       "position": "Minister of Public Works",
-      "department": "Civil Establishment",
+      "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -140,7 +140,7 @@
       "given_names": "J.",
       "surname": "Bryce",
       "position": "Minister for Native Affairs and Defence",
-      "department": "Civil Establishment",
+      "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -156,7 +156,7 @@
       "given_names": "R.",
       "surname": "Oliver",
       "position": "without portfolio",
-      "department": "Civil Establishment",
+      "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -311,7 +311,7 @@
       "location": null
     },
     {
-      "name": "W. Rolleston",
+      "name": "Hon. W. Rolleston",
       "canonical_name": "Rolleston, W.",
       "given_names": "W.",
       "surname": "Rolleston",
@@ -392,8 +392,8 @@
     },
     {
       "name": "Hon. T. Dick",
-      "canonical_name": "Dick, Hon. T.",
-      "given_names": "Hon. T.",
+      "canonical_name": "Dick, T.",
+      "given_names": "T.",
       "surname": "Dick",
       "position": "Postmaster-General",
       "department": "General Post Office",
@@ -407,9 +407,9 @@
       "location": null
     },
     {
-      "name": "William Gray",
-      "canonical_name": "Gray, William",
-      "given_names": "William",
+      "name": "W. Gray",
+      "canonical_name": "Gray, W.",
+      "given_names": "W.",
       "surname": "Gray",
       "position": "Secretary",
       "department": "General Post Office",
@@ -455,7 +455,7 @@
       "location": null
     },
     {
-      "name": "T. Dick",
+      "name": "Hon. T. Dick",
       "canonical_name": "Dick, T.",
       "given_names": "T.",
       "surname": "Dick",
@@ -487,7 +487,7 @@
       "location": null
     },
     {
-      "name": "W. J. Habens",
+      "name": "Rev. W. J. Habens",
       "canonical_name": "Habens, W. J.",
       "given_names": "W. J.",
       "surname": "Habens",
@@ -759,9 +759,9 @@
       "location": null
     },
     {
-      "name": "Reader",
-      "canonical_name": "Reader",
-      "given_names": "",
+      "name": "Lieut.-Colonel Reader",
+      "canonical_name": "Reader, Lieut.-Colonel",
+      "given_names": "Lieut.-Colonel",
       "surname": "Reader",
       "position": "Under Secretary, and Commissioner of Armed Constabulary",
       "department": "DEFENCE OFFICE",
@@ -855,12 +855,12 @@
       "location": null
     },
     {
-      "name": "Hon. H. A. Atkinson",
+      "name": "H. A. Atkinson",
       "canonical_name": "Atkinson, H. A.",
       "given_names": "H. A.",
       "surname": "Atkinson",
       "position": "Commissioner",
-      "department": "Stamp Office",
+      "department": "STAMP OFFICE",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -876,7 +876,7 @@
       "given_names": "R. C.",
       "surname": "Hamerton",
       "position": "Secretary and Comptroller of Legacy Duties",
-      "department": "Stamp Office",
+      "department": "STAMP OFFICE",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -888,8 +888,8 @@
     },
     {
       "name": "Hon. T. Dick",
-      "canonical_name": "Dick, Hon. T.",
-      "given_names": "Hon. T.",
+      "canonical_name": "Dick, T.",
+      "given_names": "T.",
       "surname": "Dick",
       "position": "Commissioner",
       "department": "Telegraph Department",
@@ -919,9 +919,9 @@
       "location": null
     },
     {
-      "name": "William Gray",
-      "canonical_name": "Gray, William",
-      "given_names": "William",
+      "name": "W. Gray",
+      "canonical_name": "Gray, W.",
+      "given_names": "W.",
       "surname": "Gray",
       "position": "Secretary",
       "department": "Telegraph Department",
@@ -1129,7 +1129,7 @@
       "location": null
     },
     {
-      "name": "D. A. Tolb",
+      "name": "D. A. Tolb.",
       "canonical_name": "Tolb, D. A.",
       "given_names": "D. A.",
       "surname": "Tolb",
@@ -1145,7 +1145,7 @@
       "location": "Auckland"
     },
     {
-      "name": "C. D. Whitcombe",
+      "name": "C. D. Whitcombe.",
       "canonical_name": "Whitcombe, C. D.",
       "given_names": "C. D.",
       "surname": "Whitcombe",
@@ -1161,7 +1161,7 @@
       "location": "Taranaki"
     },
     {
-      "name": "J. G. Holdsworth",
+      "name": "J. G. Holdsworth.",
       "canonical_name": "Holdsworth, J. G.",
       "given_names": "J. G.",
       "surname": "Holdsworth",
@@ -1177,7 +1177,7 @@
       "location": "Wellington"
     },
     {
-      "name": "J. T. Tyte",
+      "name": "J. T. Tyte.",
       "canonical_name": "Tyte, J. T.",
       "given_names": "J. T.",
       "surname": "Tyte",
@@ -1193,7 +1193,7 @@
       "location": "Hawke's Bay"
     },
     {
-      "name": "Alfred Greenfield",
+      "name": "Alfred Greenfield.",
       "canonical_name": "Greenfield, Alfred",
       "given_names": "Alfred",
       "surname": "Greenfield",
@@ -1209,7 +1209,7 @@
       "location": "Nelson"
     },
     {
-      "name": "John Marshman",
+      "name": "John Marshman.",
       "canonical_name": "Marshman, John",
       "given_names": "John",
       "surname": "Marshman",
@@ -1225,7 +1225,7 @@
       "location": "Canterbury"
     },
     {
-      "name": "J. P. Maitland",
+      "name": "J. P. Maitland.",
       "canonical_name": "Maitland, J. P.",
       "given_names": "J. P.",
       "surname": "Maitland",
@@ -1241,7 +1241,7 @@
       "location": "Otago"
     },
     {
-      "name": "J. Giles",
+      "name": "J. Giles.",
       "canonical_name": "Giles, J.",
       "given_names": "J.",
       "surname": "Giles",
@@ -1257,7 +1257,7 @@
       "location": "Westland"
     },
     {
-      "name": "W. H. Pearson",
+      "name": "W. H. Pearson.",
       "canonical_name": "Pearson, W. H.",
       "given_names": "W. H.",
       "surname": "Pearson",
@@ -1371,7 +1371,7 @@
       "location": null
     },
     {
-      "name": "Sir J. Prendergast",
+      "name": "J. Prendergast",
       "canonical_name": "Prendergast, J.",
       "given_names": "J.",
       "surname": "Prendergast",
@@ -1384,14 +1384,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Wellington"
+      "location": "Wellington, Nelson, and Westland"
     },
     {
       "name": "T. B. Gillies",
       "canonical_name": "Gillies, T. B.",
       "given_names": "T. B.",
       "surname": "Gillies",
-      "position": "Puisne Judges",
+      "position": "Puisne Judge",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1407,7 +1407,7 @@
       "canonical_name": "Richmond, C. W.",
       "given_names": "C. W.",
       "surname": "Richmond",
-      "position": "Puisne Judges",
+      "position": "Puisne Judge",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1416,14 +1416,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Wellington"
+      "location": "Wellington, Nelson, and Westland"
     },
     {
       "name": "A. J. Johnston",
       "canonical_name": "Johnston, A. J.",
       "given_names": "A. J.",
       "surname": "Johnston",
-      "position": "Puisne Judges",
+      "position": "Puisne Judge",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1432,14 +1432,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Canterbury"
+      "location": "Canterbury and Westland"
     },
     {
       "name": "J. S. Williams",
       "canonical_name": "Williams, J. S.",
       "given_names": "J. S.",
       "surname": "Williams",
-      "position": "Puisne Judges",
+      "position": "Puisne Judge",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1455,7 +1455,7 @@
       "canonical_name": "Macdonald, J. E.",
       "given_names": "J. E.",
       "surname": "Macdonald",
-      "position": "District Court Judges",
+      "position": "District Court Judge",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1464,14 +1464,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Auckland"
+      "location": "Auckland, Hamilton, and Grahamstown"
     },
     {
       "name": "C. E. Rawson",
       "canonical_name": "Rawson, C. E.",
       "given_names": "C. E.",
       "surname": "Rawson",
-      "position": "District Court Judges",
+      "position": "District Court Judge",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1480,14 +1480,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "New Plymouth"
+      "location": "New Plymouth and Carlyle"
     },
     {
       "name": "E. Shaw",
       "canonical_name": "Shaw, E.",
       "given_names": "E.",
       "surname": "Shaw",
-      "position": "District Court Judges",
+      "position": "District Court Judge",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1496,14 +1496,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Wellington"
+      "location": "Wellington, Greytown, and Masterton"
     },
     {
       "name": "E. Hardcastle",
       "canonical_name": "Hardcastle, E.",
       "given_names": "E.",
       "surname": "Hardcastle",
-      "position": "District Court Judges",
+      "position": "District Court Judge",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1512,14 +1512,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Wanganui"
+      "location": "Wanganui and Palmerston"
     },
     {
       "name": "L. Broad",
       "canonical_name": "Broad, L.",
       "given_names": "L.",
       "surname": "Broad",
-      "position": "District Court Judges",
+      "position": "District Court Judge",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1528,14 +1528,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Nelson"
+      "location": "Nelson, Hokitika, Greymouth, Westport and Reefton"
     },
     {
       "name": "C. D. R. Ward",
       "canonical_name": "Ward, C. D. R.",
       "given_names": "C. D. R.",
       "surname": "Ward",
-      "position": "District Court Judges",
+      "position": "District Court Judge",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1544,14 +1544,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Timaru"
+      "location": "Timaru, Waimate, Christchurch, Oamaru, Dunedin, Lawrence, and Invercargill"
     },
     {
       "name": "H. C. Brewer",
       "canonical_name": "Brewer, H. C.",
       "given_names": "H. C.",
       "surname": "Brewer",
-      "position": "Registrars of the Supreme Court",
+      "position": "Registrar of the Supreme Court",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1567,7 +1567,7 @@
       "canonical_name": "Birch, P. A. F.",
       "given_names": "P. A. F.",
       "surname": "Birch",
-      "position": "Registrars of the Supreme Court",
+      "position": "Registrar of the Supreme Court",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1583,7 +1583,7 @@
       "canonical_name": "Allan, A. S.",
       "given_names": "A. S.",
       "surname": "Allan",
-      "position": "Registrars of the Supreme Court",
+      "position": "Registrar of the Supreme Court",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1599,7 +1599,7 @@
       "canonical_name": "Turnbull, A.",
       "given_names": "A.",
       "surname": "Turnbull",
-      "position": "Registrars of the Supreme Court",
+      "position": "Registrar of the Supreme Court",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1615,7 +1615,7 @@
       "canonical_name": "Turnbull, J. J.",
       "given_names": "J. J.",
       "surname": "Turnbull",
-      "position": "Registrars of the Supreme Court",
+      "position": "Registrar of the Supreme Court",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1631,7 +1631,7 @@
       "canonical_name": "Bloxam, A. R.",
       "given_names": "A. R.",
       "surname": "Bloxam",
-      "position": "Registrars of the Supreme Court",
+      "position": "Registrar of the Supreme Court",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1647,7 +1647,7 @@
       "canonical_name": "King, A. H.",
       "given_names": "A. H.",
       "surname": "King",
-      "position": "Registrars of the Supreme Court",
+      "position": "Registrar of the Supreme Court",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1663,7 +1663,7 @@
       "canonical_name": "Gordon, C. M.",
       "given_names": "C. M.",
       "surname": "Gordon",
-      "position": "Registrars of the Supreme Court",
+      "position": "Registrar of the Supreme Court",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1679,7 +1679,7 @@
       "canonical_name": "Henderson, A. C.",
       "given_names": "A. C.",
       "surname": "Henderson",
-      "position": "Registrars of the Supreme Court",
+      "position": "Registrar of the Supreme Court",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1695,7 +1695,7 @@
       "canonical_name": "Jackson, T.",
       "given_names": "T.",
       "surname": "Jackson",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1704,14 +1704,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Pokeno"
+      "location": "Pokeno, &c."
     },
     {
       "name": "S. W. Von Sturmer",
       "canonical_name": "Von Sturmer, S. W.",
       "given_names": "S. W.",
       "surname": "Von Sturmer",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1727,7 +1727,7 @@
       "canonical_name": "Clendon, J. S.",
       "given_names": "J. S.",
       "surname": "Clendon",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1736,14 +1736,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Kaipara"
+      "location": "Kaipara, &c."
     },
     {
       "name": "H. W. Northcroft",
       "canonical_name": "Northcroft, H. W.",
       "given_names": "H. W.",
       "surname": "Northcroft",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1759,7 +1759,7 @@
       "canonical_name": "Brabant, H. W.",
       "given_names": "H. W.",
       "surname": "Brabant",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1768,14 +1768,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Tauranga"
+      "location": "Tauranga, &c."
     },
     {
       "name": "H. Kenrick",
       "canonical_name": "Kenrick, H.",
       "given_names": "H.",
       "surname": "Kenrick",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1784,14 +1784,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Thames"
+      "location": "Thames, &c."
     },
     {
       "name": "R. S. Bush",
       "canonical_name": "Bush, R. S.",
       "given_names": "R. S.",
       "surname": "Bush",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1800,14 +1800,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Opotiki"
+      "location": "Opotiki, &c."
     },
     {
       "name": "M. Price",
       "canonical_name": "Price, M.",
       "given_names": "M.",
       "surname": "Price",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1823,7 +1823,7 @@
       "canonical_name": "Scannel, D.",
       "given_names": "D.",
       "surname": "Scannel",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1839,7 +1839,7 @@
       "canonical_name": "Wray, C. A.",
       "given_names": "C. A.",
       "surname": "Wray",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1848,14 +1848,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Carlyle"
+      "location": "Carlyle, &c."
     },
     {
       "name": "R. Ward",
       "canonical_name": "Ward, R.",
       "given_names": "R.",
       "surname": "Ward",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1864,14 +1864,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Marton"
+      "location": "Marton, &c."
     },
     {
       "name": "H. S. Wardell",
       "canonical_name": "Wardell, H. S.",
       "given_names": "H. S.",
       "surname": "Wardell",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1887,7 +1887,7 @@
       "canonical_name": "Preece, G. A.",
       "given_names": "G. A.",
       "surname": "Preece",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1896,14 +1896,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Napier"
+      "location": "Napier, &c."
     },
     {
       "name": "O. Curtis",
       "canonical_name": "Curtis, O.",
       "given_names": "O.",
       "surname": "Curtis",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1912,14 +1912,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Nelson"
+      "location": "Nelson, &c."
     },
     {
       "name": "W. Gibbs",
       "canonical_name": "Gibbs, W.",
       "given_names": "W.",
       "surname": "Gibbs",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1928,14 +1928,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Collingwood"
+      "location": "Collingwood, &c."
     },
     {
       "name": "W. H. Revell",
       "canonical_name": "Revell, W. H.",
       "given_names": "W. H.",
       "surname": "Revell",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1944,14 +1944,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Westport"
+      "location": "Westport, &c."
     },
     {
       "name": "H. A. Stratford",
       "canonical_name": "Stratford, H. A.",
       "given_names": "H. A.",
       "surname": "Stratford",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1967,7 +1967,7 @@
       "canonical_name": "Allen, J.",
       "given_names": "J.",
       "surname": "Allen",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1976,14 +1976,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Picton"
+      "location": "Picton, &c."
     },
     {
       "name": "R. Beetham",
       "canonical_name": "Beetham, R.",
       "given_names": "R.",
       "surname": "Beetham",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1999,7 +1999,7 @@
       "canonical_name": "Ollivier, J.",
       "given_names": "J.",
       "surname": "Ollivier",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2008,14 +2008,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Lyttelton"
+      "location": "Lyttelton, &c."
     },
     {
       "name": "C. Whitefoord",
       "canonical_name": "Whitefoord, C.",
       "given_names": "C.",
       "surname": "Whitefoord",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2024,14 +2024,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Kaiapoi"
+      "location": "Kaiapoi, &c."
     },
     {
       "name": "J. Aylmer",
       "canonical_name": "Aylmer, J.",
       "given_names": "J.",
       "surname": "Aylmer",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2040,14 +2040,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Akaroa"
+      "location": "Akaroa, &c."
     },
     {
       "name": "J. Beswick",
       "canonical_name": "Beswick, J.",
       "given_names": "J.",
       "surname": "Beswick",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2056,14 +2056,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Timaru"
+      "location": "Timaru, &c."
     },
     {
       "name": "J. Giles",
       "canonical_name": "Giles, J.",
       "given_names": "J.",
       "surname": "Giles",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2072,14 +2072,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hokitika"
+      "location": "Hokitika, &c."
     },
     {
       "name": "F. Bird",
       "canonical_name": "Bird, F.",
       "given_names": "F.",
       "surname": "Bird",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2095,7 +2095,7 @@
       "canonical_name": "Macfarlane, D.",
       "given_names": "D.",
       "surname": "Macfarlane",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2111,7 +2111,7 @@
       "canonical_name": "Carew, E. H.",
       "given_names": "E. H.",
       "surname": "Carew",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2127,7 +2127,7 @@
       "canonical_name": "Robinson, H. W.",
       "given_names": "H. W.",
       "surname": "Robinson",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2136,14 +2136,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Oamaru"
+      "location": "Oamaru, &c."
     },
     {
       "name": "J. N. Wood",
       "canonical_name": "Wood, J. N.",
       "given_names": "J. N.",
       "surname": "Wood",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2152,14 +2152,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Lawrence"
+      "location": "Lawrence, Tokomairiro, &c."
     },
     {
       "name": "J. Keddell",
       "canonical_name": "Keddell, J.",
       "given_names": "J.",
       "surname": "Keddell",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2168,14 +2168,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Arrowtown"
+      "location": "Arrowtown, Queenstown, &c."
     },
     {
       "name": "J. S. Hickson",
       "canonical_name": "Hickson, J. S.",
       "given_names": "J. S.",
       "surname": "Hickson",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2184,14 +2184,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Naseby"
+      "location": "Naseby, &c."
     },
     {
       "name": "H. McCulloch",
       "canonical_name": "McCulloch, H.",
       "given_names": "H.",
       "surname": "McCulloch",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2200,14 +2200,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Invercargill"
+      "location": "Invercargill, &c."
     },
     {
       "name": "J. B. Greig",
       "canonical_name": "Greig, J. B.",
       "given_names": "J. B.",
       "surname": "Greig",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2223,7 +2223,7 @@
       "canonical_name": "Deighton, S.",
       "given_names": "S.",
       "surname": "Deighton",
-      "position": "Resident Magistrates",
+      "position": "Resident Magistrate",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2795,7 +2795,7 @@
       "location": "Kakanui"
     },
     {
-      "name": "S. B. Biss",
+      "name": "S. B. Biss.",
       "canonical_name": "Biss, S. B.",
       "given_names": "S. B.",
       "surname": "Biss",
@@ -2811,7 +2811,7 @@
       "location": "Auckland"
     },
     {
-      "name": "J. Coney",
+      "name": "J. Coney.",
       "canonical_name": "Coney, J.",
       "given_names": "J.",
       "surname": "Coney",
@@ -2827,7 +2827,7 @@
       "location": "Thames"
     },
     {
-      "name": "F. D. Holdsworth",
+      "name": "F. D. Holdsworth.",
       "canonical_name": "Holdsworth, F. D.",
       "given_names": "F. D.",
       "surname": "Holdsworth",
@@ -2843,7 +2843,7 @@
       "location": "Taranaki"
     },
     {
-      "name": "John Grubb",
+      "name": "John Grubb.",
       "canonical_name": "Grubb, John",
       "given_names": "John",
       "surname": "Grubb",
@@ -2859,7 +2859,7 @@
       "location": "Hawke's Bay"
     },
     {
-      "name": "E. D. Butts",
+      "name": "E. D. Butts.",
       "canonical_name": "Butts, E. D.",
       "given_names": "E. D.",
       "surname": "Butts",
@@ -2875,7 +2875,7 @@
       "location": "Wellington"
     },
     {
-      "name": "S. Macalister",
+      "name": "S. Macalister.",
       "canonical_name": "Macalister, S.",
       "given_names": "S.",
       "surname": "Macalister",
@@ -2891,7 +2891,7 @@
       "location": "Marlborough"
     },
     {
-      "name": "R. Kirton",
+      "name": "R. Kirton.",
       "canonical_name": "Kirton, R.",
       "given_names": "R.",
       "surname": "Kirton",
@@ -2907,7 +2907,7 @@
       "location": "Nelson"
     },
     {
-      "name": "W. W. Boswick",
+      "name": "W. W. Boswick.",
       "canonical_name": "Boswick, W. W.",
       "given_names": "W. W.",
       "surname": "Boswick",
@@ -2923,7 +2923,7 @@
       "location": "Westport"
     },
     {
-      "name": "S. J. Dick",
+      "name": "S. J. Dick.",
       "canonical_name": "Dick, S. J.",
       "given_names": "S. J.",
       "surname": "Dick",
@@ -2939,7 +2939,7 @@
       "location": "Canterbury"
     },
     {
-      "name": "Archibald Barr",
+      "name": "Archibald Barr.",
       "canonical_name": "Barr, Archibald",
       "given_names": "Archibald",
       "surname": "Barr",
@@ -2955,7 +2955,7 @@
       "location": "Otago"
     },
     {
-      "name": "J. W. Wilkin",
+      "name": "J. W. Wilkin.",
       "canonical_name": "Wilkin, J. W.",
       "given_names": "J. W.",
       "surname": "Wilkin",
@@ -2971,7 +2971,7 @@
       "location": "Southland"
     },
     {
-      "name": "S. J. Jago",
+      "name": "S. J. Jago.",
       "canonical_name": "Jago, S. J.",
       "given_names": "S. J.",
       "surname": "Jago",
@@ -2987,7 +2987,7 @@
       "location": "Hokiaka"
     },
     {
-      "name": "L. Von Rotter",
+      "name": "L. Von Rotter.",
       "canonical_name": "Von Rotter, L.",
       "given_names": "L.",
       "surname": "Von Rotter",
@@ -3003,7 +3003,7 @@
       "location": "Greymouth"
     },
     {
-      "name": "S. Deighton",
+      "name": "S. Deighton.",
       "canonical_name": "Deighton, S.",
       "given_names": "S.",
       "surname": "Deighton",
@@ -3019,7 +3019,7 @@
       "location": "Chatham Islands"
     },
     {
-      "name": "J. Shrimpton",
+      "name": "J. Shrimpton.",
       "canonical_name": "Shrimpton, J.",
       "given_names": "J.",
       "surname": "Shrimpton",
@@ -3039,7 +3039,7 @@
       "canonical_name": "Hadfield, Octavius",
       "given_names": "Octavius",
       "surname": "Hadfield",
-      "position": "Bishop",
+      "position": null,
       "department": "Church of England",
       "salary_min": null,
       "salary_max": null,
@@ -3055,7 +3055,7 @@
       "canonical_name": "Stuart, Edward Craig",
       "given_names": "Edward Craig",
       "surname": "Stuart",
-      "position": "Bishop",
+      "position": null,
       "department": "Church of England",
       "salary_min": null,
       "salary_max": null,
@@ -3073,7 +3073,7 @@
       "canonical_name": "Harper, Henry John Chitty",
       "given_names": "Henry John Chitty",
       "surname": "Harper",
-      "position": "Bishop",
+      "position": "Primate",
       "department": "Church of England",
       "salary_min": null,
       "salary_max": null,
@@ -3089,7 +3089,7 @@
       "canonical_name": "Cowie, William Garden",
       "given_names": "William Garden",
       "surname": "Cowie",
-      "position": "Bishop",
+      "position": null,
       "department": "Church of England",
       "salary_min": null,
       "salary_max": null,
@@ -3105,7 +3105,7 @@
       "canonical_name": "Suter, Andrew Burn",
       "given_names": "Andrew Burn",
       "surname": "Suter",
-      "position": "Bishop",
+      "position": null,
       "department": "Church of England",
       "salary_min": null,
       "salary_max": null,
@@ -3121,7 +3121,7 @@
       "canonical_name": "Nevill, S. T.",
       "given_names": "S. T.",
       "surname": "Nevill",
-      "position": "Bishop",
+      "position": null,
       "department": "Church of England",
       "salary_min": null,
       "salary_max": null,
@@ -3134,7 +3134,7 @@
     },
     {
       "name": "Sir Francis Dillon Bell",
-      "canonical_name": "Bell, Sir Francis Dillon",
+      "canonical_name": "Bell, Francis Dillon",
       "given_names": "Francis Dillon",
       "surname": "Bell",
       "position": "Agent General for the Colony",
@@ -3164,7 +3164,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Westminster Chambers, London, S.W."
+      "location": "London"
     }
   ],
   "validation_summary": {
@@ -3176,6 +3176,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 197,
-    "anomaly_count": 23
+    "anomaly_count": 24
   }
 }
