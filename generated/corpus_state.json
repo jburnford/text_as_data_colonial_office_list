@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-24T13:26:15.495512",
+  "last_updated": "2026-02-24T13:40:31.468426",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -14359,6 +14359,109 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1890_data_gpt-oss_120b.json"
+    },
+    "St Lucia_1890": {
+      "colony": "St Lucia",
+      "year": 1890,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/st_lucia.txt",
+      "timestamp": "2026-02-24T13:26:15.502208",
+      "total_officials": 55,
+      "passed_officials": 54,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 3,
+        "Treasury, Customs, and Inland Revenue Department": 7,
+        "Landing Waiters and Revenue Officers": 5,
+        "Harbour Master's Department": 1,
+        "Postal Department": 1,
+        "Public Works and Survey Departments": 2,
+        "Judicial": 5,
+        "Stipendiary Magistrates": 3,
+        "Clerks to the Magistrates and District Courts": 4,
+        "null": 1,
+        "Medical": 6,
+        "Police and Gaols": 2,
+        "Immigration": 6,
+        "Ecclesiastical": 3,
+        "Foreign Consuls": 5
+      },
+      "generation_time": 447.0,
+      "validation_summary": {
+        "colony": "St Lucia",
+        "year": 1890,
+        "total": 55,
+        "high_confidence": 54,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 54,
+        "anomaly_count": 4
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_lucia_1890_data_gpt-oss_120b.json"
+    },
+    "St Vincent_1890": {
+      "colony": "St Vincent",
+      "year": 1890,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/st_vincent.txt",
+      "timestamp": "2026-02-24T13:33:42.473809",
+      "total_officials": 29,
+      "passed_officials": 29,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 11,
+        "Judicial Establishment": 9,
+        "Medical Establishment": 5,
+        "Chief Ministers of Religion": 3,
+        "Foreign Consul": 1
+      },
+      "generation_time": 225.2,
+      "validation_summary": {
+        "colony": "St Vincent",
+        "year": 1890,
+        "total": 29,
+        "high_confidence": 29,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 29,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_vincent_1890_data_gpt-oss_120b.json"
+    },
+    "Tobago_1890": {
+      "colony": "Tobago",
+      "year": 1890,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/tobago.txt",
+      "timestamp": "2026-02-24T13:37:27.680887",
+      "total_officials": 19,
+      "passed_officials": 19,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 7,
+        "Police and Gaol": 2,
+        "Medical Department": 3,
+        "Chief Ministers of Religion": 5,
+        "Police Magistrates and Coroners": 2
+      },
+      "generation_time": 183.8,
+      "validation_summary": {
+        "colony": "Tobago",
+        "year": 1890,
+        "total": 19,
+        "high_confidence": 19,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 19,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tobago_1890_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
