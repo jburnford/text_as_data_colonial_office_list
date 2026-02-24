@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-24T05:18:54.853425",
+  "last_updated": "2026-02-24T05:34:11.887963",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -12891,6 +12891,43 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/prince_edward_island_1889_data_gpt-oss_120b.json"
+    },
+    "Queensland_1889": {
+      "colony": "Queensland",
+      "year": 1889,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1889_manual_parsed/QUEENSLAND.txt",
+      "timestamp": "2026-02-24T05:18:54.859507",
+      "total_officials": 60,
+      "passed_officials": 60,
+      "quarantined_officials": 0,
+      "departments": {
+        "Colonial Secretary's Department": 14,
+        "Department of Justice": 12,
+        "Department of Public Instruction": 3,
+        "Colonial Treasurer's Department": 6,
+        "Department of Public Lands": 6,
+        "Department of Mines and Works": 3,
+        "Department of Railways": 1,
+        "Postmaster-General": 2,
+        "Auditor-General": 1,
+        "London Agency": 2,
+        "Consuls for Foreign Countries": 10
+      },
+      "generation_time": 917.0,
+      "validation_summary": {
+        "colony": "Queensland",
+        "year": 1889,
+        "total": 60,
+        "high_confidence": 60,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 60,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/queensland_1889_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
