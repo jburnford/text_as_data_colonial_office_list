@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-24T08:24:38.517344",
+  "last_updated": "2026-02-24T08:36:12.745574",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -13481,6 +13481,70 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/basutoland_1890_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1890": {
+      "colony": "Bermuda",
+      "year": 1890,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/bermuda.txt",
+      "timestamp": "2026-02-24T08:24:38.529519",
+      "total_officials": 70,
+      "passed_officials": 70,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary's Department": 14,
+        "Revenue Department": 7,
+        "Police and Gaols": 6,
+        "General Post Office": 6,
+        "Judicial Establishment": 10,
+        "Ecclesiastical Establishment": 13,
+        "Admiralty Establishment": 4,
+        "Foreign Consuls": 8
+      },
+      "generation_time": 536.0,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1890,
+        "total": 70,
+        "high_confidence": 70,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 70,
+        "anomaly_count": 4
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1890_data_gpt-oss_120b.json"
+    },
+    "British Bechuanaland_1890": {
+      "colony": "British Bechuanaland",
+      "year": 1890,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/british_bechuanaland.txt",
+      "timestamp": "2026-02-24T08:33:34.611202",
+      "total_officials": 21,
+      "passed_officials": 21,
+      "quarantined_officials": 0,
+      "departments": {
+        "Police": 18,
+        "Stores Department": 2,
+        "Bechuanaland Protectorate": 1
+      },
+      "generation_time": 158.1,
+      "validation_summary": {
+        "colony": "British Bechuanaland",
+        "year": 1890,
+        "total": 21,
+        "high_confidence": 20,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 21,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_bechuanaland_1890_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
