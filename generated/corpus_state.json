@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-24T15:24:28.034861",
+  "last_updated": "2026-02-24T16:02:09.127474",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -14776,6 +14776,145 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1894_data_gpt-oss_120b.json"
+    },
+    "Barbados_1894": {
+      "colony": "Barbados",
+      "year": 1894,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1894_manual_parsed/barbados.txt",
+      "timestamp": "2026-02-24T15:24:28.041748",
+      "total_officials": 187,
+      "passed_officials": 187,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Correspondence Branch": 5,
+        "Record Branch": 3,
+        "Treasurer's Office": 4,
+        "Audit Office": 5,
+        "Customs": 20,
+        "Inland Revenue Department": 5,
+        "Police and Prisons": 12,
+        "Fire Brigade": 2,
+        "Post Office": 10,
+        "Public Works": 4,
+        "Harbour-Master's Department": 4,
+        "Savings Bank": 4,
+        "Public Library": 2,
+        "Public Market": 2,
+        "Judicial Establishment": 32,
+        "Medical": 15,
+        "Educational": 21,
+        "Poor Law Board": 8,
+        "Ecclesiastical": 14,
+        "Officers, Military (Barbados)": 5,
+        "Foreign Consuls": 8
+      },
+      "generation_time": 1326.9,
+      "validation_summary": {
+        "colony": "Barbados",
+        "year": 1894,
+        "total": 187,
+        "high_confidence": 185,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 187,
+        "anomaly_count": 6
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1894_data_gpt-oss_120b.json"
+    },
+    "Basutoland_1894": {
+      "colony": "Basutoland",
+      "year": 1894,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1894_manual_parsed/basutoland.txt",
+      "timestamp": "2026-02-24T15:46:35.013901",
+      "total_officials": 24,
+      "passed_officials": 24,
+      "quarantined_officials": 0,
+      "departments": {
+        "Establishment": 24
+      },
+      "generation_time": 137.4,
+      "validation_summary": {
+        "colony": "Basutoland",
+        "year": 1894,
+        "total": 24,
+        "high_confidence": 24,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 24,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/basutoland_1894_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1894": {
+      "colony": "Bermuda",
+      "year": 1894,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1894_manual_parsed/bermuda.txt",
+      "timestamp": "2026-02-24T15:48:52.476080",
+      "total_officials": 86,
+      "passed_officials": 86,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary's Department": 16,
+        "Revenue Department": 7,
+        "Police and Gaols": 6,
+        "General Post Office": 7,
+        "Judicial Establishment": 10,
+        "Ecclesiastical Establishment": 14,
+        "Admiralty Establishment": 5,
+        "Chief Military Officers": 12,
+        "Foreign Consuls": 7
+      },
+      "generation_time": 653.0,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1894,
+        "total": 86,
+        "high_confidence": 86,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 86,
+        "anomaly_count": 6
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1894_data_gpt-oss_120b.json"
+    },
+    "British Bechuanaland_1894": {
+      "colony": "British Bechuanaland",
+      "year": 1894,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1894_manual_parsed/british_bechuanaland.txt",
+      "timestamp": "2026-02-24T15:59:45.543446",
+      "total_officials": 25,
+      "passed_officials": 25,
+      "quarantined_officials": 0,
+      "departments": {
+        "Police": 22,
+        "Bechuanaland Protectorate": 3
+      },
+      "generation_time": 143.6,
+      "validation_summary": {
+        "colony": "British Bechuanaland",
+        "year": 1894,
+        "total": 25,
+        "high_confidence": 25,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 25,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_bechuanaland_1894_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
