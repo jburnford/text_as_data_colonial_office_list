@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-24T22:23:45.554979",
+  "last_updated": "2026-02-24T22:40:13.816999",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -15905,6 +15905,45 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/niger_territories_1894_data_gpt-oss_120b.json"
+    },
+    "Queensland_1894": {
+      "colony": "Queensland",
+      "year": 1894,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1894_manual_parsed/queensland.txt",
+      "timestamp": "2026-02-24T22:23:45.569008",
+      "total_officials": 69,
+      "passed_officials": 69,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Service Board": 4,
+        "Colonial Secretary's Department": 13,
+        "Department of Justice": 13,
+        "Department of Public Instruction": 3,
+        "Colonial Treasurer's Department": 6,
+        "Public Lands": 5,
+        "Board of Commissioners": 5,
+        "Department of Public Works": 2,
+        "Department of Mines": 1,
+        "Department of the Postmaster-General": 2,
+        "Auditor-General": 1,
+        "London Agency": 2,
+        "Consuls for Foreign Countries": 12
+      },
+      "generation_time": 988.2,
+      "validation_summary": {
+        "colony": "Queensland",
+        "year": 1894,
+        "total": 69,
+        "high_confidence": 67,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 69,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/queensland_1894_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
