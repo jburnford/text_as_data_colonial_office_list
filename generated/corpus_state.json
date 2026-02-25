@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-25T08:26:47.820678",
+  "last_updated": "2026-02-25T08:32:55.276438",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -17672,6 +17672,44 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/rhodesia_1899_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1899": {
+      "colony": "Seychelles",
+      "year": 1899,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1899_manual_parsed/seychelles.txt",
+      "timestamp": "2026-02-25T08:26:47.836411",
+      "total_officials": 32,
+      "passed_officials": 32,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 3,
+        "Revenue Department": 4,
+        "Judicial Department": 6,
+        "Medical Department": 2,
+        "Ecclesiastical Department": 3,
+        "Post Office": 1,
+        "Police and Gaols": 2,
+        "Public Works Department": 3,
+        "Harbour Department": 2,
+        "Education Department": 2,
+        "Printing Department": 1,
+        "Foreign Consuls": 3
+      },
+      "generation_time": 367.4,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1899,
+        "total": 32,
+        "high_confidence": 32,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 32,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1899_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
