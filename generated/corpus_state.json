@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-25T05:22:03.600027",
+  "last_updated": "2026-02-25T05:37:53.358781",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -17259,6 +17259,54 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/grenada_1899_data_gpt-oss_120b.json"
+    },
+    "Hong Kong_1899": {
+      "colony": "Hong Kong",
+      "year": 1899,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1899_manual_parsed/hong_kong.txt",
+      "timestamp": "2026-02-25T05:22:03.608131",
+      "total_officials": 127,
+      "passed_officials": 127,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Colonial Secretary's Office": 10,
+        "Treasurer's Department": 2,
+        "Audit Department": 1,
+        "Public Works Department": 15,
+        "Praya Reclamation Branch": 3,
+        "Sanitary Department": 3,
+        "Botanical and Afforestation Department": 2,
+        "Hong Kong Observatory": 5,
+        "Registrar-General's Department": 3,
+        "Harbour-Master's Department": 8,
+        "Marine Surveyor's (Sub-Department)": 2,
+        "Postmaster-General's Department": 5,
+        "Supreme Court": 10,
+        "Police Court": 2,
+        "Gaol Department": 2,
+        "Police": 5,
+        "Educational Department": 11,
+        "Medical Department": 7,
+        "Fire Brigade": 3,
+        "Foreign Consuls": 19,
+        "Officers\u2014Military, Naval, &c.": 8
+      },
+      "generation_time": 949.7,
+      "validation_summary": {
+        "colony": "Hong Kong",
+        "year": 1899,
+        "total": 127,
+        "high_confidence": 125,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 127,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1899_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
