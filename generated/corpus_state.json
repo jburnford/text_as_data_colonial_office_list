@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-25T06:40:44.448243",
+  "last_updated": "2026-02-25T07:08:07.575155",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -17440,6 +17440,57 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/lagos_1899_data_gpt-oss_120b.json"
+    },
+    "Malta_1899": {
+      "colony": "Malta",
+      "year": 1899,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1899_manual_parsed/malta.txt",
+      "timestamp": "2026-02-25T06:40:44.456462",
+      "total_officials": 273,
+      "passed_officials": 271,
+      "quarantined_officials": 2,
+      "departments": {
+        "Chief Secretary's Office": 7,
+        "Gozo": 4,
+        "Crown Lawyers": 3,
+        "Audit and Contract Office": 8,
+        "Educational": 2,
+        "Professors in the Malta University": 16,
+        "Customs and Port Department": 20,
+        "Receiver-General's Office": 9,
+        "Charitable Institutions Department": 5,
+        "Hospitals, &c.": 19,
+        "Public Health Department": 37,
+        "Public Works Department": 16,
+        "Water Works and Electric Lighting Department": 3,
+        "Railway Department": 2,
+        "Government Press": 1,
+        "Post Office": 13,
+        "Public Registry": 3,
+        "Judicial Establishment": 47,
+        "Ecclesiastical": 2,
+        "Police Department": 9,
+        "Marine Police": 3,
+        "Corradino Prison": 2,
+        "Monte di Piet\u00e0": 3,
+        "Chief Military and Naval Officers": 21,
+        "Foreign Consuls": 16
+      },
+      "generation_time": 1643.0,
+      "validation_summary": {
+        "colony": "Malta",
+        "year": 1899,
+        "total": 273,
+        "high_confidence": 269,
+        "medium_confidence": 2,
+        "low_confidence": 2,
+        "quarantined": 2,
+        "passed": 271,
+        "anomaly_count": 7
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1899_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
