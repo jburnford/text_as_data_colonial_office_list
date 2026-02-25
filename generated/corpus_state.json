@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-25T11:18:06.984219",
+  "last_updated": "2026-02-25T11:43:18.169332",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -18213,6 +18213,85 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1900_data_gpt-oss_120b.json"
+    },
+    "Barbados_1900": {
+      "colony": "Barbados",
+      "year": 1900,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1900_manual_parsed/BARBADOS.txt",
+      "timestamp": "2026-02-25T11:18:06.992580",
+      "total_officials": 202,
+      "passed_officials": 202,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary's Office": 5,
+        "Treasurer's Office": 4,
+        "Audit Office": 5,
+        "Customs": 20,
+        "Inland Revenue Department": 2,
+        "Police and Prisons": 13,
+        "Fire Brigade": 2,
+        "Post Office": 10,
+        "Public Works": 3,
+        "Harbour-Master's Department": 5,
+        "Savings Bank": 4,
+        "Public Library": 2,
+        "Public Market": 3,
+        "Judicial Establishment": 34,
+        "Medical": 15,
+        "Educational": 20,
+        "Poor Law Board": 6,
+        "Water Works Department": 14,
+        "Imperial Department of Agriculture for the West Indies": 4,
+        "Botanical Department": 2,
+        "Sugar Cane Experiments": 3,
+        "Ecclesiastical": 12,
+        "Officers, Military (Barbados)": 5,
+        "Foreign Consuls": 7
+      },
+      "generation_time": 1267.0,
+      "validation_summary": {
+        "colony": "Barbados",
+        "year": 1900,
+        "total": 202,
+        "high_confidence": 201,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 202,
+        "anomaly_count": 12
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1900_data_gpt-oss_120b.json"
+    },
+    "Basutoland_1900": {
+      "colony": "Basutoland",
+      "year": 1900,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1900_manual_parsed/BASUTOLAND.txt",
+      "timestamp": "2026-02-25T11:39:14.087632",
+      "total_officials": 51,
+      "passed_officials": 51,
+      "quarantined_officials": 0,
+      "departments": {
+        "Establishment": 38,
+        "Police": 13
+      },
+      "generation_time": 244.1,
+      "validation_summary": {
+        "colony": "Basutoland",
+        "year": 1900,
+        "total": 51,
+        "high_confidence": 50,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 51,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/basutoland_1900_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
