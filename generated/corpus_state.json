@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-25T06:19:50.250496",
+  "last_updated": "2026-02-25T06:40:44.448243",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -17393,6 +17393,53 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/labuan_1899_data_gpt-oss_120b.json"
+    },
+    "Lagos_1899": {
+      "colony": "Lagos",
+      "year": 1899,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1899_manual_parsed/lagos.txt",
+      "timestamp": "2026-02-25T06:19:50.265935",
+      "total_officials": 216,
+      "passed_officials": 216,
+      "quarantined_officials": 0,
+      "departments": {
+        "Queen's Advocate Office": 3,
+        "Registrar-General's Department": 4,
+        "Treasury": 10,
+        "Customs": 43,
+        "Supreme Court": 22,
+        "Interior Department": 4,
+        "Constabulary Department": 29,
+        "Police Force": 7,
+        "Prison": 2,
+        "Medical": 23,
+        "Sanitary Department": 3,
+        "Public Works Department": 21,
+        "Land and Survey Department": 5,
+        "Audit Office": 3,
+        "Harbour Master's Department": 6,
+        "Government Vessels": 8,
+        "Engineers Department": 9,
+        "Post Office": 6,
+        "Education Department": 1,
+        "Botanical Station": 3,
+        "Foreign Consuls": 4
+      },
+      "generation_time": 1254.1,
+      "validation_summary": {
+        "colony": "Lagos",
+        "year": 1899,
+        "total": 216,
+        "high_confidence": 215,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 216,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/lagos_1899_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
