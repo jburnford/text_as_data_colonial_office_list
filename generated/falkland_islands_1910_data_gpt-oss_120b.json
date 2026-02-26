@@ -1,0 +1,103 @@
+{
+  "colony": "Falkland Islands",
+  "year": 1910,
+  "generated": "2026-02-26T08:16:10.006483",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 5,
+  "officials": [
+    {
+      "name": "W. L. Allardyce",
+      "canonical_name": "Allardyce, W. L.",
+      "given_names": "W. L.",
+      "surname": "Allardyce",
+      "position": "Governor and Commander-in-Chief",
+      "department": "Civil Establishment",
+      "salary_min": 1200,
+      "salary_max": 1200,
+      "allowances": null,
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "T. A. V. Best",
+      "canonical_name": "Best, T. A. V.",
+      "given_names": "T. A. V.",
+      "surname": "Best",
+      "position": "Colonial Secretary, Police Magistrate, Coroner and Auditor",
+      "department": "Civil Establishment",
+      "salary_min": 500,
+      "salary_max": 500,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "W. A. Thompson",
+      "canonical_name": "Thompson, W. A.",
+      "given_names": "W. A.",
+      "surname": "Thompson",
+      "position": "Treasurer, Collector of Customs, Harbour Master, Postmaster, Registrar of Shipping and Receiver of Wrecks",
+      "department": "Civil Establishment",
+      "salary_min": 300,
+      "salary_max": 350,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Geo. Hurst",
+      "canonical_name": "Hurst, Geo.",
+      "given_names": "Geo.",
+      "surname": "Hurst",
+      "position": "Postmaster, Manager of Savings Bank, Registrar-General and Official Administrator",
+      "department": "Civil Establishment",
+      "salary_min": 300,
+      "salary_max": 300,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "M. Craigie-Halkett",
+      "canonical_name": "Craigie-Halkett, M.",
+      "given_names": "M.",
+      "surname": "Craigie-Halkett",
+      "position": "Treasury Clerk, Shipping Master, and Clerk to Councils",
+      "department": "Civil Establishment",
+      "salary_min": 140,
+      "salary_max": 180,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Falkland Islands",
+    "year": 1910,
+    "total": 5,
+    "high_confidence": 5,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 5,
+    "anomaly_count": 0
+  }
+}
