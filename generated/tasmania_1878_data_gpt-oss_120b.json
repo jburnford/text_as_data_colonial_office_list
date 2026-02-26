@@ -1,7 +1,7 @@
 {
   "colony": "Tasmania",
   "year": 1878,
-  "generated": "2026-02-21T08:48:33.632013",
+  "generated": "2026-02-26T12:41:20.500645",
   "model": "gpt-oss:120b",
   "tier": "STANDARD",
   "total_officials": 59,
@@ -31,8 +31,8 @@
       "surname": "St. Hill",
       "position": "Aide-de-Camp and Private Secretary",
       "department": "Civil Establishment",
-      "salary_min": 0,
-      "salary_max": 0,
+      "salary_min": null,
+      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -41,9 +41,9 @@
       "location": null
     },
     {
-      "name": "W. Moore",
-      "canonical_name": "Moore, W.",
-      "given_names": "W.",
+      "name": "Hon. W. Moore",
+      "canonical_name": "Moore, Hon. W.",
+      "given_names": "Hon. W.",
       "surname": "Moore",
       "position": "Colonial Secretary",
       "department": "Colonial Secretary's Department",
@@ -93,7 +93,7 @@
       "canonical_name": "Newman, R.",
       "given_names": "R.",
       "surname": "Newman",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Colonial Secretary's Department",
       "salary_min": 280,
       "salary_max": 280,
@@ -109,7 +109,7 @@
       "canonical_name": "Honey, M. P.",
       "given_names": "M. P.",
       "surname": "Honey",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Colonial Secretary's Department",
       "salary_min": 100,
       "salary_max": 100,
@@ -121,9 +121,9 @@
       "location": null
     },
     {
-      "name": "W. R. Giblin",
-      "canonical_name": "Giblin, W. R.",
-      "given_names": "W. R.",
+      "name": "Hon. W. R. Giblin",
+      "canonical_name": "Giblin, Hon. W. R.",
+      "given_names": "Hon. W. R.",
       "surname": "Giblin",
       "position": "Colonial Treasurer",
       "department": "Treasury",
@@ -173,7 +173,7 @@
       "canonical_name": "Fletcher, G. W.",
       "given_names": "G. W.",
       "surname": "Fletcher",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Treasury",
       "salary_min": 330,
       "salary_max": 330,
@@ -189,7 +189,7 @@
       "canonical_name": "Reid, A.",
       "given_names": "A.",
       "surname": "Reid",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Treasury",
       "salary_min": 250,
       "salary_max": 250,
@@ -253,7 +253,7 @@
       "canonical_name": "Barnard, H. S.",
       "given_names": "H. S.",
       "surname": "Barnard",
-      "position": "Clerks",
+      "position": null,
       "department": "Audit Office",
       "salary_min": 175,
       "salary_max": 175,
@@ -265,9 +265,9 @@
       "location": null
     },
     {
-      "name": "N. J. Brown",
-      "canonical_name": "Brown, N. J.",
-      "given_names": "N. J.",
+      "name": "Hon. N. J. Brown",
+      "canonical_name": "Brown, Hon. N. J.",
+      "given_names": "Hon. N. J.",
       "surname": "Brown",
       "position": "Minister of Lands and Works, Surveyor-General, and Commissioner of Crown Lands",
       "department": "Lands and Works Department",
@@ -358,7 +358,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart Town"
+      "location": null
     },
     {
       "name": "J. W. Campbell",
@@ -374,7 +374,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart Town"
+      "location": null
     },
     {
       "name": "J. R. Bateman",
@@ -390,7 +390,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart Town"
+      "location": null
     },
     {
       "name": "J. H. Innes",
@@ -406,7 +406,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart Town"
+      "location": null
     },
     {
       "name": "T. E. Hewitt",
@@ -422,7 +422,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart Town"
+      "location": null
     },
     {
       "name": "C. Hardinge",
@@ -438,7 +438,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart Town"
+      "location": null
     },
     {
       "name": "H. B. Hurlburgh",
@@ -454,7 +454,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart Town"
+      "location": null
     },
     {
       "name": "E. T. Boyes",
@@ -557,7 +557,7 @@
       "canonical_name": "Windeatt, W.",
       "given_names": "W.",
       "surname": "Windeatt",
-      "position": "Postmaster",
+      "position": "Postmaster (Launceston)",
       "department": "Post Office",
       "salary_min": 350,
       "salary_max": 350,
@@ -566,7 +566,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "James Barnard",
@@ -609,7 +609,7 @@
       "department": "Miscellaneous Offices",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "and house",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -669,7 +669,7 @@
       "canonical_name": "Tarleton, W.",
       "given_names": "W.",
       "surname": "Tarleton",
-      "position": "Police Magistrate",
+      "position": "Police Magistrate (Hobarton)",
       "department": "Miscellaneous Offices",
       "salary_min": 400,
       "salary_max": 400,
@@ -678,7 +678,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobarton"
+      "location": null
     },
     {
       "name": "T. Mason",
@@ -713,9 +713,9 @@
       "location": null
     },
     {
-      "name": "Francis Smith",
-      "canonical_name": "Smith, Francis",
-      "given_names": "Francis",
+      "name": "Sir Francis Smith",
+      "canonical_name": "Smith, Sir Francis",
+      "given_names": "Sir Francis",
       "surname": "Smith",
       "position": "Chief Justice",
       "department": "Judicial and Legal Departments",
@@ -797,7 +797,7 @@
       "canonical_name": "Browne, G.",
       "given_names": "G.",
       "surname": "Browne",
-      "position": "Registrars of the Supreme Court",
+      "position": "Judge's Associate",
       "department": "Judicial and Legal Departments",
       "salary_min": 400,
       "salary_max": 400,
@@ -838,7 +838,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "John Whitefoord",
@@ -911,7 +911,7 @@
       "canonical_name": "Davies, R. R.",
       "given_names": "R. R.",
       "surname": "Davies",
-      "position": "Archdeacon",
+      "position": "Archdeacon (Hobarton)",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -922,7 +922,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobarton"
+      "location": null
     },
     {
       "name": "D. Murphy",
@@ -966,6 +966,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 59,
-    "anomaly_count": 5
+    "anomaly_count": 3
   }
 }

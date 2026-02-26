@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-26T12:25:44.164516",
+  "last_updated": "2026-02-26T12:41:59.707619",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -20948,6 +20948,116 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/labuan_1878_data_gpt-oss_120b.json"
+    },
+    "Lagos_1878": {
+      "colony": "Lagos",
+      "year": 1878,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1878_manual_parsed/LAGOS.txt",
+      "timestamp": "2026-02-26T12:25:44.182467",
+      "total_officials": 65,
+      "passed_officials": 65,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Government Office": 4,
+        "Audit Branch": 2,
+        "Treasury": 4,
+        "High Court": 5,
+        "Attorney-General's Office": 2,
+        "Surveyor-General's Office": 2,
+        "Police.\u2014Griqualand Armed Constabulary": 2,
+        "Foreman of Public Works": 1,
+        "Division and District of Kimberley": 4,
+        "Mining": 7,
+        "Postal Department": 7,
+        "Civil Commissioner's Department": 3,
+        "Civil Commissioner, District of Upper Hay": 2,
+        "District of Lower Hay": 1,
+        "Additional Resident Magistrate's Department": 4,
+        "Medical Department, Kimberley": 2,
+        "Medical Department, Du Toits Pan": 2,
+        "Registry of Natives, Kimberley": 1,
+        "Registry of Natives, Du Toits Pan": 1,
+        "Gaols": 7
+      },
+      "generation_time": 530.1,
+      "validation_summary": {
+        "colony": "Lagos",
+        "year": 1878,
+        "total": 65,
+        "high_confidence": 64,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 65,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/lagos_1878_data_gpt-oss_120b.json"
+    },
+    "Tasmania_1878": {
+      "colony": "Tasmania",
+      "year": 1878,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1878_manual_parsed/TASMANIA.txt",
+      "timestamp": "2026-02-26T12:34:34.313214",
+      "total_officials": 59,
+      "passed_officials": 59,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary's Department": 5,
+        "Treasury": 5,
+        "Audit Office": 4,
+        "Lands and Works Department": 5,
+        "Customs Department": 10,
+        "Post Office": 4,
+        "Miscellaneous Offices": 9,
+        "Judicial and Legal Departments": 10,
+        "Ecclesiastical": 5
+      },
+      "generation_time": 406.2,
+      "validation_summary": {
+        "colony": "Tasmania",
+        "year": 1878,
+        "total": 59,
+        "high_confidence": 59,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 59,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tasmania_1878_data_gpt-oss_120b.json"
+    },
+    "Gold Coast_1880": {
+      "colony": "Gold Coast",
+      "year": 1880,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1880_manual_parsed/the_gold_coast_colony.txt",
+      "timestamp": "2026-02-26T12:41:20.510439",
+      "total_officials": 4,
+      "passed_officials": 4,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 4
+      },
+      "generation_time": 39.2,
+      "validation_summary": {
+        "colony": "Gold Coast",
+        "year": 1880,
+        "total": 4,
+        "high_confidence": 1,
+        "medium_confidence": 3,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 4,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gold_coast_1880_data_gpt-oss_120b.json"
     }
   },
   "failed": {},

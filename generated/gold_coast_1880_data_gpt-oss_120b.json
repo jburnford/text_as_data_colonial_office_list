@@ -1,0 +1,87 @@
+{
+  "colony": "Gold Coast",
+  "year": 1880,
+  "generated": "2026-02-26T12:41:59.707300",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 4,
+  "officials": [
+    {
+      "name": "Capt. Lees",
+      "canonical_name": "Lees, Capt.",
+      "given_names": "",
+      "surname": "Lees",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Captain",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Colonel Home",
+      "canonical_name": "Home, Colonel",
+      "given_names": "",
+      "surname": "Home",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": "Colonel",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Lord John Russell",
+      "canonical_name": "Russell, Lord John",
+      "given_names": "John",
+      "surname": "Russell",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Docemo",
+      "canonical_name": "Docemo",
+      "given_names": "",
+      "surname": "Docemo",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Gold Coast",
+    "year": 1880,
+    "total": 4,
+    "high_confidence": 1,
+    "medium_confidence": 3,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 4,
+    "anomaly_count": 0
+  }
+}
