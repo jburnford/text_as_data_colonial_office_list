@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-26T06:26:08.476574",
+  "last_updated": "2026-02-26T06:33:31.228367",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -21215,6 +21215,42 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/weihaiwei_1908_data_gpt-oss_120b.json"
+    },
+    "Antigua_1910": {
+      "colony": "Antigua",
+      "year": 1910,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1910_manual_parsed/LEEWARD_ISLANDS_ANTIGUA.txt",
+      "timestamp": "2026-02-26T06:26:08.486553",
+      "total_officials": 44,
+      "passed_officials": 43,
+      "quarantined_officials": 1,
+      "departments": {
+        "President and Island Secretary, The Colonial Secretary of the Leeward Islands": 1,
+        "Treasury and Customs": 10,
+        "Harbour Department": 3,
+        "Post Office": 4,
+        "Telephone Department": 6,
+        "Public Works Department": 4,
+        "Legal": 3,
+        "Prisons and Training School": 4,
+        "Magistracy and Police": 6,
+        "null": 2
+      },
+      "generation_time": 442.7,
+      "validation_summary": {
+        "colony": "Antigua",
+        "year": 1910,
+        "total": 44,
+        "high_confidence": 39,
+        "medium_confidence": 4,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 43,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/antigua_1910_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
