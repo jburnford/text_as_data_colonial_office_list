@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-25T21:31:44.886157",
+  "last_updated": "2026-02-25T21:35:59.277438",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -19855,6 +19855,33 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1908_data_gpt-oss_120b.json"
+    },
+    "Basutoland_1908": {
+      "colony": "Basutoland",
+      "year": 1908,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1908_manual_parsed/BASUTOLAND.txt",
+      "timestamp": "2026-02-25T21:31:44.895494",
+      "total_officials": 57,
+      "passed_officials": 57,
+      "quarantined_officials": 0,
+      "departments": {
+        "Establishment": 57
+      },
+      "generation_time": 254.4,
+      "validation_summary": {
+        "colony": "Basutoland",
+        "year": 1908,
+        "total": 57,
+        "high_confidence": 57,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 57,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/basutoland_1908_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
