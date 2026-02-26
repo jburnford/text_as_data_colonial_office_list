@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-26T08:16:10.006802",
+  "last_updated": "2026-02-26T08:38:58.977354",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -21555,6 +21555,53 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1910_data_gpt-oss_120b.json"
+    },
+    "Fiji_1910": {
+      "colony": "Fiji",
+      "year": 1910,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1910_manual_parsed/FIJI.txt",
+      "timestamp": "2026-02-26T08:16:10.026019",
+      "total_officials": 204,
+      "passed_officials": 204,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary's Department": 13,
+        "Audit Department": 3,
+        "Receiver-General": 22,
+        "Government Store": 2,
+        "Immigration Department": 10,
+        "Lands Department": 8,
+        "Works Department": 10,
+        "Postal Department": 10,
+        "Medical Department": 33,
+        "Leper Asylum": 2,
+        "Registrar-General": 2,
+        "Department of Justice": 29,
+        "Native Department": 10,
+        "Financial Branch (Native)": 12,
+        "Department of Agriculture.": 4,
+        "Fiji Constabulary.": 6,
+        "FIJI\u2014THE GAMBIA.": 7,
+        "Printing Office": 9,
+        "Foreign Consuls": 5,
+        "Ecclesiastical": 5
+      },
+      "generation_time": 1368.9,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1910,
+        "total": 204,
+        "high_confidence": 204,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 204,
+        "anomaly_count": 20
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1910_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
