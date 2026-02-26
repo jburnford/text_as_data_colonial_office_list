@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-26T03:28:40.326943",
+  "last_updated": "2026-02-26T04:02:18.001305",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -20837,6 +20837,87 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1908_data_gpt-oss_120b.json"
+    },
+    "Sierra Leone_1908": {
+      "colony": "Sierra Leone",
+      "year": 1908,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1908_manual_parsed/SIERRA_LEONE.txt",
+      "timestamp": "2026-02-26T03:28:40.338355",
+      "total_officials": 316,
+      "passed_officials": 314,
+      "quarantined_officials": 2,
+      "departments": {
+        "Governor's Office": 5,
+        "Colonial Secretary's Department": 8,
+        "Printing Branch": 7,
+        "Provincial Administration": 32,
+        "Treasury Department": 5,
+        "Examining and Correspondence Branch": 6,
+        "Accounting Branch": 5,
+        "Legal Department": 23,
+        "Civil Police": 2,
+        "Prisons Department": 5,
+        "Customs Department": 16,
+        "Sheriff Branch": 3,
+        "Outdoor Officers": 52,
+        "Preventive Service": 2,
+        "Port and Marine Department": 2,
+        "Medical Department": 36,
+        "Post Office": 22,
+        "Public Works Department": 13,
+        "Educational Department": 8,
+        "Agricultural Development Branch": 2,
+        "Audit Department": 7,
+        "Railway Department": 19,
+        "Sierra Leone Battalion, West African Frontier Force": 26,
+        "Foreign Consuls": 8
+      },
+      "generation_time": 1776.7,
+      "validation_summary": {
+        "colony": "Sierra Leone",
+        "year": 1908,
+        "total": 316,
+        "high_confidence": 313,
+        "medium_confidence": 1,
+        "low_confidence": 2,
+        "quarantined": 2,
+        "passed": 314,
+        "anomaly_count": 6
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1908_data_gpt-oss_120b.json"
+    },
+    "South Africa_1908": {
+      "colony": "South Africa",
+      "year": 1908,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1908_manual_parsed/SOUTH_AFRICA.txt",
+      "timestamp": "2026-02-26T03:58:17.241935",
+      "total_officials": 52,
+      "passed_officials": 52,
+      "quarantined_officials": 0,
+      "departments": {
+        "High Commissioner and Staff": 13,
+        "South African Customs Statistical Bureau": 5,
+        "Inter-Colonial Council": 22,
+        "Railway Committee": 6,
+        "Railway Administration": 6
+      },
+      "generation_time": 240.7,
+      "validation_summary": {
+        "colony": "South Africa",
+        "year": 1908,
+        "total": 52,
+        "high_confidence": 52,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 52,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/south_africa_1908_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
