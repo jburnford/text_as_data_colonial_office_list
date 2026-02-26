@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-26T13:27:12.416800",
+  "last_updated": "2026-02-26T14:09:37.576915",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -21200,6 +21200,54 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gold_coast_1886_data_gpt-oss_120b.json"
+    },
+    "Jamaica_1886": {
+      "colony": "Jamaica",
+      "year": 1886,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/JAMAICA.txt",
+      "timestamp": "2026-02-26T13:27:12.426159",
+      "total_officials": 261,
+      "passed_officials": 260,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 2,
+        "Privy Council": 1,
+        "Legislative Council": 12,
+        "null": 10,
+        "Colonial Secretary's Department": 11,
+        "Public Works": 28,
+        "Audit Office": 11,
+        "Treasury": 11,
+        "Government Savings' Bank": 6,
+        "Stamp Office": 2,
+        "Post Office": 15,
+        "Immigration Department": 8,
+        "Jamaica Constabulary": 23,
+        "Prison Department": 12,
+        "Registrar General's Department": 5,
+        "Judicial Establishment": 10,
+        "District Courts": 12,
+        "Petty Sessions": 14,
+        "Ecclesiastical Department": 24,
+        "Educational Department": 14,
+        "Foreign Consuls": 14,
+        "Vice-Consuls and Consular Agents": 15
+      },
+      "generation_time": 2545.0,
+      "validation_summary": {
+        "colony": "Jamaica",
+        "year": 1886,
+        "total": 261,
+        "high_confidence": 256,
+        "medium_confidence": 4,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 260,
+        "anomaly_count": 6
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/jamaica_1886_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
