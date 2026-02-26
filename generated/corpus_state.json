@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-26T11:27:14.349293",
+  "last_updated": "2026-02-26T11:33:51.080270",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -20787,6 +20787,34 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gold_coast_1877_data_gpt-oss_120b.json"
+    },
+    "Newfoundland_1877": {
+      "colony": "Newfoundland",
+      "year": 1877,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1877_manual_parsed/NEWFOUNDLAND.txt",
+      "timestamp": "2026-02-26T11:27:14.366899",
+      "total_officials": 80,
+      "passed_officials": 80,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 50,
+        "Judicial Establishment": 30
+      },
+      "generation_time": 396.7,
+      "validation_summary": {
+        "colony": "Newfoundland",
+        "year": 1877,
+        "total": 80,
+        "high_confidence": 79,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 80,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/newfoundland_1877_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
