@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-26T07:30:19.161233",
+  "last_updated": "2026-02-26T07:40:31.417064",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -21399,6 +21399,43 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bechuanaland_1910_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1910": {
+      "colony": "Bermuda",
+      "year": 1910,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1910_manual_parsed/BERMUDA.txt",
+      "timestamp": "2026-02-26T07:30:19.171485",
+      "total_officials": 83,
+      "passed_officials": 83,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary's Department": 15,
+        "Revenue Department": 6,
+        "Police and Gaols": 6,
+        "General Post Office": 7,
+        "Judicial Establishment": 8,
+        "Ecclesiastical Establishment": 18,
+        "Ecclesiastal Establishment": 1,
+        "Admiralty Establishment": 4,
+        "Chief Military Officers": 8,
+        "Foreign Consuls": 8
+      },
+      "generation_time": 612.2,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1910,
+        "total": 83,
+        "high_confidence": 83,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 83,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1910_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
