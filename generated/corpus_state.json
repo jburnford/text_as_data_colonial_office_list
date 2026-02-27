@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-27T07:25:37.180424",
+  "last_updated": "2026-02-27T07:35:00.655973",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -24273,6 +24273,42 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1912_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1912": {
+      "colony": "Bermuda",
+      "year": 1912,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1912_manual_parsed/BERMUDA.txt",
+      "timestamp": "2026-02-27T07:25:37.191116",
+      "total_officials": 82,
+      "passed_officials": 81,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 1,
+        "Colonial Secretary's Department": 16,
+        "Revenue Department": 6,
+        "Police and Gaols": 6,
+        "General Post Office": 7,
+        "Judicial Establishment": 7,
+        "Ecclesiastical Establishment": 17,
+        "Admiralty Establishment": 3,
+        "Chief Military Officers": 9,
+        "Foreign Consuls": 9
+      },
+      "generation_time": 563.5,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1912,
+        "total": 82,
+        "high_confidence": 81,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 81,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1912_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
