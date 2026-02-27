@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-27T06:17:51.533015",
+  "last_updated": "2026-02-27T06:40:32.217091",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -24077,6 +24077,106 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/turks_and_caicos_islands_1911_data_gpt-oss_120b.json"
+    },
+    "Uganda_1911": {
+      "colony": "Uganda",
+      "year": 1911,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/uganda.txt",
+      "timestamp": "2026-02-27T06:17:51.543557",
+      "total_officials": 201,
+      "passed_officials": 201,
+      "quarantined_officials": 0,
+      "departments": {
+        "Administration": 44,
+        "Audit": 3,
+        "Judicial": 5,
+        "Marine": 8,
+        "Medical": 28,
+        "Military": 23,
+        "Indian Contingent": 3,
+        "Police and Prisons": 19,
+        "Printing Department": 2,
+        "Public Works": 15,
+        "Survey": 14,
+        "Botanical, Forestry and Scientific": 1,
+        "Agricultural Department": 10,
+        "Telegraphs": 9,
+        "Transport": 7,
+        "Treasury, Customs and Savings Bank": 9,
+        "Tutor to Kabaka": 1
+      },
+      "generation_time": 1036.6,
+      "validation_summary": {
+        "colony": "Uganda",
+        "year": 1911,
+        "total": 201,
+        "high_confidence": 201,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 201,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/uganda_1911_data_gpt-oss_120b.json"
+    },
+    "Weihaiwei_1911": {
+      "colony": "Weihaiwei",
+      "year": 1911,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/weihaiwei.txt",
+      "timestamp": "2026-02-27T06:35:08.250093",
+      "total_officials": 12,
+      "passed_officials": 12,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 7,
+        "Court of Appeal": 4,
+        "Lunatic Asylum": 1
+      },
+      "generation_time": 106.2,
+      "validation_summary": {
+        "colony": "Weihaiwei",
+        "year": 1911,
+        "total": 12,
+        "high_confidence": 12,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 12,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/weihaiwei_1911_data_gpt-oss_120b.json"
+    },
+    "Zanzibar_1911": {
+      "colony": "Zanzibar",
+      "year": 1911,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/zanzibar.txt",
+      "timestamp": "2026-02-27T06:36:54.430517",
+      "total_officials": 41,
+      "passed_officials": 41,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 40,
+        "Public Works Department": 1
+      },
+      "generation_time": 217.8,
+      "validation_summary": {
+        "colony": "Zanzibar",
+        "year": 1911,
+        "total": 41,
+        "high_confidence": 41,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 41,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/zanzibar_1911_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
