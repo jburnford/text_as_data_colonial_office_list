@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-26T17:37:10.745699",
+  "last_updated": "2026-02-26T18:30:57.427522",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -21709,6 +21709,204 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/trinidad_1886_data_gpt-oss_120b.json"
+    },
+    "Western Australia_1886": {
+      "colony": "Western Australia",
+      "year": 1886,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/WESTERN_AUSTRALIA.txt",
+      "timestamp": "2026-02-26T17:37:10.755162",
+      "total_officials": 70,
+      "passed_officials": 70,
+      "quarantined_officials": 0,
+      "departments": {
+        "District Commissioners": 6,
+        "Customs": 2,
+        "Police": 7,
+        "Courts of Justice": 20,
+        "Cyprus": 1,
+        "Nicosia District and Kyreina": 1,
+        "Famagusta and Larnaca": 1,
+        "Limassol and Papho": 1,
+        "Consular Service": 12,
+        "Colonial Office": 2,
+        "null": 11,
+        "Establishment": 6
+      },
+      "generation_time": 523.1,
+      "validation_summary": {
+        "colony": "Western Australia",
+        "year": 1886,
+        "total": 70,
+        "high_confidence": 68,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 70,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/western_australia_1886_data_gpt-oss_120b.json"
+    },
+    "Newfoundland_1888": {
+      "colony": "Newfoundland",
+      "year": 1888,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1888_manual_parsed/NEWFOUNDLAND.txt",
+      "timestamp": "2026-02-26T17:45:53.859682",
+      "total_officials": 144,
+      "passed_officials": 142,
+      "quarantined_officials": 2,
+      "departments": {
+        "Civil Establishment": 45,
+        "Ecclesiastical Establishment": 3,
+        "Judicial Establishment": 34,
+        "Foreign Consuls": 27,
+        "Governors": 32,
+        "Board of Technical Education": 1
+      },
+      "generation_time": 778.3,
+      "validation_summary": {
+        "colony": "Newfoundland",
+        "year": 1888,
+        "total": 144,
+        "high_confidence": 134,
+        "medium_confidence": 8,
+        "low_confidence": 2,
+        "quarantined": 2,
+        "passed": 142,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/newfoundland_1888_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1890": {
+      "colony": "Falkland Islands",
+      "year": 1890,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/falkland_islands.txt",
+      "timestamp": "2026-02-26T17:58:52.297735",
+      "total_officials": 15,
+      "passed_officials": 15,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 12,
+        "Foreign Consuls": 3
+      },
+      "generation_time": 111.6,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1890,
+        "total": 15,
+        "high_confidence": 15,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 15,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1890_data_gpt-oss_120b.json"
+    },
+    "Labuan_1890": {
+      "colony": "Labuan",
+      "year": 1890,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/labuan.txt",
+      "timestamp": "2026-02-26T18:00:43.937730",
+      "total_officials": 15,
+      "passed_officials": 15,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 15
+      },
+      "generation_time": 104.9,
+      "validation_summary": {
+        "colony": "Labuan",
+        "year": 1890,
+        "total": 15,
+        "high_confidence": 15,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 15,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/labuan_1890_data_gpt-oss_120b.json"
+    },
+    "Newfoundland_1890": {
+      "colony": "Newfoundland",
+      "year": 1890,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/newfoundland.txt",
+      "timestamp": "2026-02-26T18:02:28.843360",
+      "total_officials": 53,
+      "passed_officials": 52,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 49,
+        "Ecclesiastical Establishment": 3
+      },
+      "generation_time": 723.6,
+      "validation_summary": {
+        "colony": "Newfoundland",
+        "year": 1890,
+        "total": 53,
+        "high_confidence": 52,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 52,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/newfoundland_1890_data_gpt-oss_120b.json"
+    },
+    "Queensland_1890": {
+      "colony": "Queensland",
+      "year": 1890,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/queensland.txt",
+      "timestamp": "2026-02-26T18:14:32.501032",
+      "total_officials": 220,
+      "passed_officials": 219,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 15,
+        "Executive Council": 12,
+        "Legislative Council (39 Members)": 42,
+        "Legislative Assembly (72 Members)": 68,
+        "Colonial Secretary's Department": 14,
+        "Department of Justice": 9,
+        "District Court Judges": 3,
+        "Department of Public Instruction": 4,
+        "Colonial Treasurer's Department": 7,
+        "Department of Public Lands": 6,
+        "Department of Mines and Works": 2,
+        "Board of Commissioners": 3,
+        "Department of the Postmaster-General": 2,
+        "Auditor-General": 1,
+        "London Agency": 2,
+        "Consuls for Foreign Countries": 10,
+        "Governors": 11,
+        "Ecclesiastical Department": 2,
+        "Foreign Consuls": 6
+      },
+      "generation_time": 984.8,
+      "validation_summary": {
+        "colony": "Queensland",
+        "year": 1890,
+        "total": 220,
+        "high_confidence": 215,
+        "medium_confidence": 4,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 219,
+        "anomaly_count": 4
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/queensland_1890_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
