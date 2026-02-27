@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-26T22:29:01.735509",
+  "last_updated": "2026-02-26T22:33:29.395858",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -22609,6 +22609,35 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_christopher_and_nevis_1910_data_gpt-oss_120b.json"
+    },
+    "St Helena_1910": {
+      "colony": "St Helena",
+      "year": 1910,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1910_manual_parsed/ST_HELENA.txt",
+      "timestamp": "2026-02-26T22:29:01.745567",
+      "total_officials": 28,
+      "passed_officials": 28,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 23,
+        "Ecclesiastical": 2,
+        "Consuls of Foreign Countries": 3
+      },
+      "generation_time": 267.6,
+      "validation_summary": {
+        "colony": "St Helena",
+        "year": 1910,
+        "total": 28,
+        "high_confidence": 27,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 28,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1910_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
