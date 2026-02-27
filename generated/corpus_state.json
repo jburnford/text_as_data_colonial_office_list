@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-26T23:40:12.775024",
+  "last_updated": "2026-02-27T00:24:33.342846",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -22932,6 +22932,148 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1911_data_gpt-oss_120b.json"
+    },
+    "Barbados_1911": {
+      "colony": "Barbados",
+      "year": 1911,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/barbados.txt",
+      "timestamp": "2026-02-26T23:40:12.788210",
+      "total_officials": 256,
+      "passed_officials": 256,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Colonial Secretary's Office": 6,
+        "Treasurer's Office": 5,
+        "Audit Office": 7,
+        "Customs": 23,
+        "Police and Prisons": 13,
+        "Fire Brigade": 2,
+        "Post Office": 21,
+        "Public Works": 3,
+        "Harbour Master's Department": 3,
+        "Savings Bank": 5,
+        "Public Library": 3,
+        "Public Market": 3,
+        "Judicial Establishment": 41,
+        "Coroner for": 6,
+        "Medical": 19,
+        "Educational": 21,
+        "Poor Law Board": 6,
+        "Water Works Department": 9,
+        "Chemistry Department": 3,
+        "Local Department of Agriculture": 5,
+        "Ecclesiastical": 13,
+        "Foreign Consuls": 12,
+        "Barbados Volunteers": 18,
+        "Imperial Department of Agriculture for the West Indies": 8
+      },
+      "generation_time": 1756.3,
+      "validation_summary": {
+        "colony": "Barbados",
+        "year": 1911,
+        "total": 256,
+        "high_confidence": 256,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 256,
+        "anomaly_count": 24
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1911_data_gpt-oss_120b.json"
+    },
+    "Basutoland_1911": {
+      "colony": "Basutoland",
+      "year": 1911,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/basutoland.txt",
+      "timestamp": "2026-02-27T00:09:29.171943",
+      "total_officials": 36,
+      "passed_officials": 36,
+      "quarantined_officials": 0,
+      "departments": {
+        "Establishment": 36
+      },
+      "generation_time": 157.7,
+      "validation_summary": {
+        "colony": "Basutoland",
+        "year": 1911,
+        "total": 36,
+        "high_confidence": 36,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 36,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/basutoland_1911_data_gpt-oss_120b.json"
+    },
+    "Bechuanaland_1911": {
+      "colony": "Bechuanaland",
+      "year": 1911,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/bechuanaland_protectorate.txt",
+      "timestamp": "2026-02-27T00:12:06.963966",
+      "total_officials": 31,
+      "passed_officials": 31,
+      "quarantined_officials": 0,
+      "departments": {
+        "Establishment": 27,
+        "null": 4
+      },
+      "generation_time": 175.4,
+      "validation_summary": {
+        "colony": "Bechuanaland",
+        "year": 1911,
+        "total": 31,
+        "high_confidence": 26,
+        "medium_confidence": 5,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 31,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bechuanaland_1911_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1911": {
+      "colony": "Bermuda",
+      "year": 1911,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/bermuda.txt",
+      "timestamp": "2026-02-27T00:15:02.407669",
+      "total_officials": 85,
+      "passed_officials": 83,
+      "quarantined_officials": 2,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary's Department": 15,
+        "Revenue Department": 6,
+        "Police and Gaols": 6,
+        "General Post Office": 7,
+        "Judicial Establishment": 8,
+        "Ecclesiastical Establishment": 19,
+        "Admiralty Establishment": 4,
+        "Chief Military Officers": 8,
+        "Foreign Consuls": 8
+      },
+      "generation_time": 570.9,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1911,
+        "total": 85,
+        "high_confidence": 81,
+        "medium_confidence": 2,
+        "low_confidence": 2,
+        "quarantined": 2,
+        "passed": 83,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1911_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
