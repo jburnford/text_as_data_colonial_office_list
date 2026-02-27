@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-26T23:24:47.906050",
+  "last_updated": "2026-02-26T23:40:12.775024",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -22886,6 +22886,52 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/weihaiwei_1910_data_gpt-oss_120b.json"
+    },
+    "Bahamas_1911": {
+      "colony": "Bahamas",
+      "year": 1911,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/bahamas.txt",
+      "timestamp": "2026-02-26T23:24:47.926046",
+      "total_officials": 114,
+      "passed_officials": 114,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary's Office": 5,
+        "Treasury and Customs Department": 12,
+        "Record Office": 2,
+        "Audit Office": 2,
+        "Surveyor-General's and Civil Engineer's Office": 6,
+        "Public Works Department": 2,
+        "Education Department": 3,
+        "Post Office": 5,
+        "Medical Department": 13,
+        "Telegraph Department": 3,
+        "Telephone Department": 7,
+        "Electric Light Department": 5,
+        "Prison Department": 3,
+        "Police": 1,
+        "Judicial": 7,
+        "Commissioners of Out-Island Districts": 19,
+        "Ecclesiastical": 6,
+        "Imperial Lighthouse Service": 4,
+        "Foreign Consuls": 7
+      },
+      "generation_time": 924.8,
+      "validation_summary": {
+        "colony": "Bahamas",
+        "year": 1911,
+        "total": 114,
+        "high_confidence": 114,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 114,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1911_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
