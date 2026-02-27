@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-27T00:24:33.342846",
+  "last_updated": "2026-02-27T00:37:00.612631",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -23074,6 +23074,48 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1911_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1911": {
+      "colony": "British Honduras",
+      "year": 1911,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/british_honduras.txt",
+      "timestamp": "2026-02-27T00:24:33.352766",
+      "total_officials": 128,
+      "passed_officials": 128,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary's Department": 11,
+        "Treasury and Customs Department": 19,
+        "Post Office and Telegraph Department": 14,
+        "Judicial Department": 7,
+        "District Commissioners": 13,
+        "Audit": 3,
+        "Education": 1,
+        "Lands": 8,
+        "Botanic Garden": 1,
+        "Public Works, etc.": 18,
+        "Medical": 9,
+        "Gaols": 2,
+        "Police": 2,
+        "Foreign Consuls": 13,
+        "Ecclesiastical": 5
+      },
+      "generation_time": 747.2,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1911,
+        "total": 128,
+        "high_confidence": 125,
+        "medium_confidence": 3,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 128,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1911_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
