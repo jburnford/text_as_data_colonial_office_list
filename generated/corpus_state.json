@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-26T21:26:41.748789",
+  "last_updated": "2026-02-26T21:42:33.766567",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -22407,6 +22407,48 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1910_data_gpt-oss_120b.json"
+    },
+    "Northern Nigeria_1910": {
+      "colony": "Northern Nigeria",
+      "year": 1910,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1910_manual_parsed/NORTHERN_NIGERIA.txt",
+      "timestamp": "2026-02-26T21:26:41.758509",
+      "total_officials": 186,
+      "passed_officials": 185,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 2,
+        "Secretary's Office": 8,
+        "Political": 56,
+        "Legal and Judicial": 3,
+        "Treasury": 10,
+        "Postal and Telegraphs": 9,
+        "Medical": 39,
+        "Audit": 3,
+        "Police": 20,
+        "Prisons": 5,
+        "Marine": 9,
+        "Engineer's Workshops": 1,
+        "Customs": 2,
+        "Botanical and Forestry": 2,
+        "Public Works": 8,
+        "Transport": 8
+      },
+      "generation_time": 951.9,
+      "validation_summary": {
+        "colony": "Northern Nigeria",
+        "year": 1910,
+        "total": 186,
+        "high_confidence": 185,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 185,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_nigeria_1910_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
