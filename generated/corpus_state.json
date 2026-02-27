@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-27T05:25:43.403617",
+  "last_updated": "2026-02-27T05:39:51.171617",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -23847,6 +23847,86 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1911_data_gpt-oss_120b.json"
+    },
+    "Southern Rhodesia_1911": {
+      "colony": "Southern Rhodesia",
+      "year": 1911,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/southern_rhodesia_administration.txt",
+      "timestamp": "2026-02-27T05:25:43.413944",
+      "total_officials": 111,
+      "passed_officials": 111,
+      "quarantined_officials": 0,
+      "departments": {
+        "Administrator's Department": 4,
+        "Treasurer's Department": 4,
+        "Native Affairs Department": 22,
+        "Legal Department": 5,
+        "High Court": 3,
+        "Salisbury": 4,
+        "Enkeldoorn and Charter": 1,
+        "Umtali": 2,
+        "Melsetter": 2,
+        "Victoria": 1,
+        "Hartley": 2,
+        "Bulawayo": 2,
+        "Belingwe": 1,
+        "Gwelo": 3,
+        "Gwanda-Tuli": 1,
+        "Mines and Public Works": 10,
+        "Lands": 1,
+        "Agriculture": 2,
+        "Commercial Department (Rhodesia)": 6,
+        "Cape Town Office": 1,
+        "North-Eastern Rhodesia": 6,
+        "District Courts and Offices": 8,
+        "North-Western Rhodesia": 11,
+        "Mines and Lands Dept.": 1,
+        "District Commissioners": 8
+      },
+      "generation_time": 655.1,
+      "validation_summary": {
+        "colony": "Southern Rhodesia",
+        "year": 1911,
+        "total": 111,
+        "high_confidence": 111,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 111,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/southern_rhodesia_1911_data_gpt-oss_120b.json"
+    },
+    "St Helena_1911": {
+      "colony": "St Helena",
+      "year": 1911,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/st_helena.txt",
+      "timestamp": "2026-02-27T05:36:38.521635",
+      "total_officials": 24,
+      "passed_officials": 24,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19,
+        "Ecclesiastical": 2,
+        "Consuls of Foreign Countries": 3
+      },
+      "generation_time": 192.6,
+      "validation_summary": {
+        "colony": "St Helena",
+        "year": 1911,
+        "total": 24,
+        "high_confidence": 24,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 24,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1911_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
