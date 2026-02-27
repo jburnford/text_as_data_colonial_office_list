@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-27T01:30:41.778113",
+  "last_updated": "2026-02-27T01:42:49.796649",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -23283,6 +23283,50 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1911_data_gpt-oss_120b.json"
+    },
+    "Grenada_1911": {
+      "colony": "Grenada",
+      "year": 1911,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/grena_da.txt",
+      "timestamp": "2026-02-27T01:30:41.796593",
+      "total_officials": 108,
+      "passed_officials": 108,
+      "quarantined_officials": 0,
+      "departments": {
+        "Executive Council": 2,
+        "Legislative Council": 11,
+        "Governor": 4,
+        "Secretariat": 5,
+        "Treasury, Customs, Inland Revenue, and Savings Bank": 27,
+        "Post Office": 3,
+        "Audit": 4,
+        "Works": 8,
+        "Medical": 11,
+        "Agricultural": 2,
+        "Police": 2,
+        "Prisons": 2,
+        "Education": 3,
+        "Telephones": 2,
+        "Judicial": 13,
+        "Carriacou District": 2,
+        "Chief Ministers of Religion": 5,
+        "Consuls": 2
+      },
+      "generation_time": 727.9,
+      "validation_summary": {
+        "colony": "Grenada",
+        "year": 1911,
+        "total": 108,
+        "high_confidence": 108,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 108,
+        "anomaly_count": 7
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/grenada_1911_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
