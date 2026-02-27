@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-27T12:28:20.174674",
+  "last_updated": "2026-02-27T12:42:22.817945",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -25099,6 +25099,54 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1912_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1912": {
+      "colony": "Seychelles",
+      "year": 1912,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1912_manual_parsed/SEYCHELLES.txt",
+      "timestamp": "2026-02-27T12:28:20.196630",
+      "total_officials": 114,
+      "passed_officials": 114,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Governor's Office": 3,
+        "Treasury and Customs": 11,
+        "Audit Department": 3,
+        "Port Department": 5,
+        "Legal Department": 7,
+        "Mortgage and Registration Department": 4,
+        "Bankruptcy and Curatele": 1,
+        "Police Department": 5,
+        "Prison Department": 12,
+        "Medical Department": 14,
+        "Roman Catholic Church": 4,
+        "Church of England": 2,
+        "Education Department": 10,
+        "Post Office": 3,
+        "Botanic Station": 3,
+        "Public Works Department": 8,
+        "Local Board of Health, Central District": 6,
+        "Local Board of Health, South Mah\u00e9 District": 3,
+        "Local Board of Health, Praslin": 2,
+        "Carnegie Public Library, Board of Directors": 1,
+        "Foreign Consuls": 5
+      },
+      "generation_time": 842.6,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1912,
+        "total": 114,
+        "high_confidence": 111,
+        "medium_confidence": 3,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 114,
+        "anomaly_count": 12
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1912_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
