@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-27T04:31:42.551366",
+  "last_updated": "2026-02-27T04:39:47.802554",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -23712,6 +23712,46 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1911_data_gpt-oss_120b.json"
+    },
+    "Papua_1911": {
+      "colony": "Papua",
+      "year": 1911,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/papua.txt",
+      "timestamp": "2026-02-27T04:31:42.561562",
+      "total_officials": 77,
+      "passed_officials": 77,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 3,
+        "Judicial": 3,
+        "Government Secretary's Department": 5,
+        "Magisterial Department": 21,
+        "Armed Constabulary": 3,
+        "Treasury, Customs and Postal Department": 14,
+        "Lands Department": 4,
+        "Survey Department": 5,
+        "Public Works and Mines Department": 2,
+        "Agricultural Department": 4,
+        "Medical Department": 5,
+        "Department of Native Affairs": 3,
+        "Gaols": 2,
+        "Government Steamer, \"Merrie England\"": 3
+      },
+      "generation_time": 485.2,
+      "validation_summary": {
+        "colony": "Papua",
+        "year": 1911,
+        "total": 77,
+        "high_confidence": 77,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 77,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/papua_1911_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
