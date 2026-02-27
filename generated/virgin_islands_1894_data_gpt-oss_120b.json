@@ -1,10 +1,10 @@
 {
   "colony": "Virgin Islands",
   "year": 1894,
-  "generated": "2026-02-25T02:07:18.328392",
+  "generated": "2026-02-26T19:40:57.434233",
   "model": "gpt-oss:120b",
   "tier": "STANDARD",
-  "total_officials": 308,
+  "total_officials": 305,
   "officials": [
     {
       "name": "A. R. McKay",
@@ -27,7 +27,7 @@
       "canonical_name": "King, J.",
       "given_names": "J.",
       "surname": "King",
-      "position": "Revenue Officers",
+      "position": "Revenue Officer",
       "department": "Civil Establishment",
       "salary_min": 40,
       "salary_max": 40,
@@ -43,7 +43,7 @@
       "canonical_name": "Chalwill, C.",
       "given_names": "C.",
       "surname": "Chalwill",
-      "position": "Revenue Officers",
+      "position": "Revenue Officer",
       "department": "Civil Establishment",
       "salary_min": 25,
       "salary_max": 25,
@@ -79,7 +79,7 @@
       "department": "Civil Establishment",
       "salary_min": 50,
       "salary_max": 50,
-      "allowances": null,
+      "allowances": "fees as Distr. Registrar",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -87,7 +87,7 @@
       "location": null
     },
     {
-      "name": "H. R. Semper",
+      "name": "Rev. H. R. Semper",
       "canonical_name": "Semper, H. R.",
       "given_names": "H. R.",
       "surname": "Semper",
@@ -103,23 +103,7 @@
       "location": null
     },
     {
-      "name": "W. Pickering",
-      "canonical_name": "Pickering, W.",
-      "given_names": "W.",
-      "surname": "Pickering",
-      "position": "Gaoler",
-      "department": "Civil Establishment",
-      "salary_min": 25,
-      "salary_max": 25,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "W. Reid",
+      "name": "Major-General Sir W. Reid",
       "canonical_name": "Reid, W.",
       "given_names": "W.",
       "surname": "Reid",
@@ -130,12 +114,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Major-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "J. Gaspard Le Marchant",
+      "name": "Lieut.-General Sir J. Gaspard Le Marchant",
       "canonical_name": "Le Marchant, J. Gaspard",
       "given_names": "J. Gaspard",
       "surname": "Le Marchant",
@@ -146,12 +130,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "H. Storks",
+      "name": "Lieut.-Gen. Sir H. Storks",
       "canonical_name": "Storks, H.",
       "given_names": "H.",
       "surname": "Storks",
@@ -161,16 +145,15 @@
       "salary_max": null,
       "allowances": null,
       "honors": [
-        "G.C.B.",
         "G.C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Patrick Grant",
+      "name": "Gen. Sir Patrick Grant",
       "canonical_name": "Grant, Patrick",
       "given_names": "Patrick",
       "surname": "Grant",
@@ -180,16 +163,15 @@
       "salary_max": null,
       "allowances": null,
       "honors": [
-        "G.C.B.",
         "G.C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Charles T. Van Straubezee",
+      "name": "Gen. Sir Charles T. Van Straubezee",
       "canonical_name": "Van Straubezee, Charles T.",
       "given_names": "Charles T.",
       "surname": "Van Straubezee",
@@ -198,16 +180,14 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [
-        "G.C.B."
-      ],
+      "honors": [],
       "qualifications": [],
-      "military_rank": "Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Arthur Borton",
+      "name": "Gen. Sir Arthur Borton",
       "canonical_name": "Borton, Arthur",
       "given_names": "Arthur",
       "surname": "Borton",
@@ -221,12 +201,12 @@
         "K.C.B."
       ],
       "qualifications": [],
-      "military_rank": "Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "John Lintorn Arabin Simmons",
+      "name": "Field Marshal Sir John Lintorn Arabin Simmons",
       "canonical_name": "Simmons, John Lintorn Arabin",
       "given_names": "John Lintorn Arabin",
       "surname": "Simmons",
@@ -236,16 +216,15 @@
       "salary_max": null,
       "allowances": null,
       "honors": [
-        "G.C.B.",
         "G.C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Field Marshal",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "H. D'O. Torrens",
+      "name": "Lieut.-Gen. Sir H. D'O. Torrens",
       "canonical_name": "Torrens, H. D'O.",
       "given_names": "H. D'O.",
       "surname": "Torrens",
@@ -259,12 +238,12 @@
         "K.C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Henry Augustus Smyth",
+      "name": "Lieut.-Gen. Sir Henry Augustus Smyth",
       "canonical_name": "Smyth, Henry Augustus",
       "given_names": "Henry Augustus",
       "surname": "Smyth",
@@ -277,12 +256,12 @@
         "K.C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Lyon Fremantle",
+      "name": "Lieut.-Gen. Lyon Fremantle",
       "canonical_name": "Fremantle, Lyon",
       "given_names": "Lyon",
       "surname": "Fremantle",
@@ -295,12 +274,12 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Lyon Fremantle",
+      "name": "Gen. Lyon Fremantle",
       "canonical_name": "Fremantle, Lyon",
       "given_names": "Lyon",
       "surname": "Fremantle",
@@ -313,12 +292,12 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "C. B. Knowles",
+      "name": "Maj.-Gen. C. B. Knowles",
       "canonical_name": "Knowles, C. B.",
       "given_names": "C. B.",
       "surname": "Knowles",
@@ -331,7 +310,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Maj.-Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -357,7 +336,7 @@
       "location": null
     },
     {
-      "name": "Joseph Carbone",
+      "name": "Sir Joseph Carbone",
       "canonical_name": "Carbone, Joseph",
       "given_names": "Joseph",
       "surname": "Carbone",
@@ -459,7 +438,7 @@
       "location": null
     },
     {
-      "name": "Lyon Fremantle",
+      "name": "Gen. Lyon Fremantle",
       "canonical_name": "Fremantle, Lyon",
       "given_names": "Lyon",
       "surname": "Fremantle",
@@ -472,12 +451,12 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "A. Diugli",
+      "name": "Sir A. Diugli",
       "canonical_name": "Diugli, A.",
       "given_names": "A.",
       "surname": "Diugli",
@@ -498,7 +477,25 @@
       "location": null
     },
     {
-      "name": "Giuseppe Carbone",
+      "name": "Gerald Strickland",
+      "canonical_name": "Strickland, Gerald",
+      "given_names": "Gerald",
+      "surname": "Strickland",
+      "position": "Chief Secretary to Government",
+      "department": "Council of Government",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sir Giuseppe Carbone",
       "canonical_name": "Carbone, Giuseppe",
       "given_names": "Giuseppe",
       "surname": "Carbone",
@@ -584,7 +581,7 @@
       "location": null
     },
     {
-      "name": "Alfredo Mitsud",
+      "name": "Monsignor Canon Alfredo Mitsud",
       "canonical_name": "Mitsud, Alfredo",
       "given_names": "Alfredo",
       "surname": "Mitsud",
@@ -797,7 +794,7 @@
       "location": null
     },
     {
-      "name": "Lyon Fremantle",
+      "name": "Gen. Lyon Fremantle",
       "canonical_name": "Fremantle, Lyon",
       "given_names": "Lyon",
       "surname": "Fremantle",
@@ -806,16 +803,14 @@
       "salary_min": 5000,
       "salary_max": 5000,
       "allowances": null,
-      "honors": [
-        "C.B."
-      ],
+      "honors": [],
       "qualifications": [],
-      "military_rank": "Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "N. G. Biancardi",
+      "name": "Capt. N. G. Biancardi",
       "canonical_name": "Biancardi, N. G.",
       "given_names": "N. G.",
       "surname": "Biancardi",
@@ -826,76 +821,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Capt.",
+      "military_rank": "Captain",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "W. Casolani",
-      "canonical_name": "Casolani, W.",
-      "given_names": "W.",
-      "surname": "Casolani",
-      "position": "Assistant Clerk to the Council",
-      "department": "Unofficial Members",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "P. F. Bellanti",
-      "canonical_name": "Bellanti, P. F.",
-      "given_names": "P. F.",
-      "surname": "Bellanti",
-      "position": "Stenographer",
-      "department": "Unofficial Members",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "A. Galea",
-      "canonical_name": "Galea, A.",
-      "given_names": "A.",
-      "surname": "Galea",
-      "position": "Assistant Stenographer",
-      "department": "Unofficial Members",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "E. L. Bonavia",
-      "canonical_name": "Bonavia, E. L.",
-      "given_names": "E. L.",
-      "surname": "Bonavia",
-      "position": "Assistant Stenographer",
-      "department": "Unofficial Members",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Gerald Strickland, Count della Catena",
+      "name": "Gerald Strickland",
       "canonical_name": "Strickland, Gerald",
       "given_names": "Gerald",
       "surname": "Strickland",
@@ -908,8 +839,7 @@
         "C.M.G."
       ],
       "qualifications": [
-        "B.A.",
-        "LL.B."
+        "B.A."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -981,9 +911,9 @@
     },
     {
       "name": "George Borg Cardona",
-      "canonical_name": "Borg Cardona, George",
-      "given_names": "George",
-      "surname": "Borg Cardona",
+      "canonical_name": "Cardona, George Borg",
+      "given_names": "George Borg",
+      "surname": "Cardona",
       "position": "Third Class Clerks",
       "department": "Chief Secretary's Office",
       "salary_min": 90,
@@ -1110,7 +1040,7 @@
       "location": null
     },
     {
-      "name": "Sir Joseph Carbone",
+      "name": "Joseph Carbone",
       "canonical_name": "Carbone, Joseph",
       "given_names": "Joseph",
       "surname": "Carbone",
@@ -1699,9 +1629,9 @@
     },
     {
       "name": "P. Metrovitch Nani",
-      "canonical_name": "Metrovitch Nani, P.",
-      "given_names": "P.",
-      "surname": "Metrovitch Nani",
+      "canonical_name": "Nani, P. Metrovitch",
+      "given_names": "P. Metrovitch",
+      "surname": "Nani",
       "position": "Fourth Class Clerks",
       "department": "Customs and Port Department",
       "salary_min": 60,
@@ -1795,9 +1725,9 @@
     },
     {
       "name": "J. Turner Tonna",
-      "canonical_name": "Turner Tonna, J.",
-      "given_names": "J.",
-      "surname": "Turner Tonna",
+      "canonical_name": "Tonna, J. Turner",
+      "given_names": "J. Turner",
+      "surname": "Tonna",
       "position": "Supernumerary Clerks",
       "department": "Customs and Port Department",
       "salary_min": 60,
@@ -2061,7 +1991,7 @@
       "position": "Supernumerary Clerks",
       "department": "Receiver General's Office",
       "salary_min": 60,
-      "salary_max": 80,
+      "salary_max": 60,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -2077,7 +2007,7 @@
       "position": "Supernumerary Clerks",
       "department": "Receiver General's Office",
       "salary_min": 60,
-      "salary_max": 80,
+      "salary_max": 60,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -2154,7 +2084,7 @@
       "canonical_name": "Barthet, Henry",
       "given_names": "Henry",
       "surname": "Barthet",
-      "position": "Supernumerary Clerks",
+      "position": "Supernumerary Clerk",
       "department": "Charitable Institutions Department",
       "salary_min": 60,
       "salary_max": 60,
@@ -2170,7 +2100,7 @@
       "canonical_name": "Galea, A.",
       "given_names": "A.",
       "surname": "Galea",
-      "position": "Supernumerary Clerks",
+      "position": "Supernumerary Clerk",
       "department": "Charitable Institutions Department",
       "salary_min": 60,
       "salary_max": 60,
@@ -2186,7 +2116,7 @@
       "canonical_name": "Galea, G. O.",
       "given_names": "G. O.",
       "surname": "Galea",
-      "position": "Senior Physician, Central Hospital",
+      "position": "Senior Physician",
       "department": "Hospitals, &c.",
       "salary_min": 70,
       "salary_max": 70,
@@ -2197,14 +2127,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central Hospital"
     },
     {
       "name": "T. Bonnici",
       "canonical_name": "Bonnici, T.",
       "given_names": "T.",
       "surname": "Bonnici",
-      "position": "Visiting Surgeon, Central Hospital",
+      "position": "Visiting Surgeon",
       "department": "Hospitals, &c.",
       "salary_min": 70,
       "salary_max": 70,
@@ -2215,7 +2145,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central Hospital"
     },
     {
       "name": "L. Manche",
@@ -2240,7 +2170,7 @@
       "canonical_name": "Schembri, G. B.",
       "given_names": "G. B.",
       "surname": "Schembri",
-      "position": "Accoucheur, Central Hospital",
+      "position": "Accoucheur",
       "department": "Hospitals, &c.",
       "salary_min": 70,
       "salary_max": 70,
@@ -2251,7 +2181,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central Hospital"
     },
     {
       "name": "G. Tabone Engerer",
@@ -2269,14 +2199,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "British Seamen's Hospital; Central Hospital"
     },
     {
       "name": "C. Mitsud Grech",
       "canonical_name": "Grech, C. Mitsud",
       "given_names": "C. Mitsud",
       "surname": "Grech",
-      "position": "Assistant Medical Officers, Central Hospital",
+      "position": "Assistant Medical Officer",
       "department": "Hospitals, &c.",
       "salary_min": 50,
       "salary_max": 50,
@@ -2287,14 +2217,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central Hospital"
     },
     {
       "name": "S. Cassar",
       "canonical_name": "Cassar, S.",
       "given_names": "S.",
       "surname": "Cassar",
-      "position": "Assistant Medical Officers, Central Hospital",
+      "position": "Assistant Medical Officer",
       "department": "Hospitals, &c.",
       "salary_min": 50,
       "salary_max": 50,
@@ -2305,14 +2235,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central Hospital"
     },
     {
       "name": "V. Vella",
       "canonical_name": "Vella, V.",
       "given_names": "V.",
       "surname": "Vella",
-      "position": "Assistant Medical Officers, Central Hospital",
+      "position": "Assistant Medical Officer",
       "department": "Hospitals, &c.",
       "salary_min": 50,
       "salary_max": 50,
@@ -2323,7 +2253,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central Hospital"
     },
     {
       "name": "Gasparo Camilleri",
@@ -2341,7 +2271,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Santo Spirito"
     },
     {
       "name": "G. Busuttil",
@@ -2395,7 +2325,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Lunatic Asylum"
     },
     {
       "name": "G. Ullo Xuereb",
@@ -2429,11 +2359,11 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Orphan Asylum"
     },
     {
       "name": "The Mother Superior of the Sisters of Charity",
-      "canonical_name": "The Mother Superior of the Sisters of Charity, The Mother Superior of the Sisters of Charity",
+      "canonical_name": "The Mother Superior of the Sisters of Charity, ",
       "given_names": "",
       "surname": "The Mother Superior of the Sisters of Charity",
       "position": "Resident Female Superintendent of Orphan Asylum",
@@ -2445,7 +2375,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Orphan Asylum"
     },
     {
       "name": "A Sister of Charity",
@@ -2461,7 +2391,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Magdalen Asylum"
     },
     {
       "name": "B. Mercieca",
@@ -2479,7 +2409,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Gozo"
     },
     {
       "name": "A. Portelli Carbone",
@@ -2992,6 +2922,22 @@
       "location": null
     },
     {
+      "name": "R.M.M.",
+      "canonical_name": "R.M.M.,",
+      "given_names": "",
+      "surname": "R.M.M.",
+      "position": "Fourth Class Clerk",
+      "department": "Public Works Department",
+      "salary_min": 64,
+      "salary_max": 64,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
       "name": "F. Micallef",
       "canonical_name": "Micallef, F.",
       "given_names": "F.",
@@ -3076,6 +3022,22 @@
       "canonical_name": "Gatt, L.",
       "given_names": "L.",
       "surname": "Gatt",
+      "position": "Second Class Land Surveyor",
+      "department": "Public Works Department",
+      "salary_min": 120,
+      "salary_max": 150,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "C.E.",
+      "canonical_name": "C.E.,",
+      "given_names": "",
+      "surname": "C.E.",
       "position": "Second Class Land Surveyor",
       "department": "Public Works Department",
       "salary_min": 120,
@@ -3477,8 +3439,8 @@
     },
     {
       "name": "Sir A. Dingli",
-      "canonical_name": "Dingli, Sir A.",
-      "given_names": "Sir A.",
+      "canonical_name": "Dingli, A.",
+      "given_names": "A.",
       "surname": "Dingli",
       "position": "Chief Justice of Malta and President of the Court of Appeal",
       "department": "Judicial Establishment",
@@ -3498,8 +3460,8 @@
     },
     {
       "name": "Sir S. Naudi",
-      "canonical_name": "Naudi, Sir S.",
-      "given_names": "Sir S.",
+      "canonical_name": "Naudi, S.",
+      "given_names": "S.",
       "surname": "Naudi",
       "position": "Judges, Court of Appeal",
       "department": "Judicial Establishment",
@@ -3554,8 +3516,8 @@
     },
     {
       "name": "Baron A. Chappelle",
-      "canonical_name": "Chappelle, Baron A.",
-      "given_names": "Baron A.",
+      "canonical_name": "Chappelle, A.",
+      "given_names": "A.",
       "surname": "Chappelle",
       "position": "Judges of the Civil Court, First Hall",
       "department": "Judicial Establishment",
@@ -3606,9 +3568,9 @@
     },
     {
       "name": "O. de Domenico Notary",
-      "canonical_name": "Notary, O. de Domenico",
-      "given_names": "O. de Domenico",
-      "surname": "Notary",
+      "canonical_name": "de Domenico Notary, O.",
+      "given_names": "O.",
+      "surname": "de Domenico Notary",
       "position": "Deputy Registrars",
       "department": "Judicial Establishment",
       "salary_min": 190,
@@ -3640,9 +3602,9 @@
     },
     {
       "name": "P. Mompalao de Piro",
-      "canonical_name": "de Piro, P. Mompalao",
-      "given_names": "P. Mompalao",
-      "surname": "de Piro",
+      "canonical_name": "Mompalao de Piro, P.",
+      "given_names": "P.",
+      "surname": "Mompalao de Piro",
       "position": "Deputy Registrars",
       "department": "Judicial Establishment",
       "salary_min": 130,
@@ -3704,9 +3666,9 @@
     },
     {
       "name": "G. Xerri Decaro",
-      "canonical_name": "Decaro, G. Xerri",
-      "given_names": "G. Xerri",
-      "surname": "Decaro",
+      "canonical_name": "Xerri Decaro, G.",
+      "given_names": "G.",
+      "surname": "Xerri Decaro",
       "position": "Third Class Clerks",
       "department": "Judicial Establishment",
       "salary_min": 120,
@@ -3736,9 +3698,9 @@
     },
     {
       "name": "F. Mompalao de Piro",
-      "canonical_name": "de Piro, F. Mompalao",
-      "given_names": "F. Mompalao",
-      "surname": "de Piro",
+      "canonical_name": "Mompalao de Piro, F.",
+      "given_names": "F.",
+      "surname": "Mompalao de Piro",
       "position": "Fourth Class Clerk",
       "department": "Judicial Establishment",
       "salary_min": 60,
@@ -3882,9 +3844,9 @@
     },
     {
       "name": "P. Frendo Azzopardi",
-      "canonical_name": "Azzopardi, P. Frendo",
-      "given_names": "P. Frendo",
-      "surname": "Azzopardi",
+      "canonical_name": "Frendo Azzopardi, P.",
+      "given_names": "P.",
+      "surname": "Frendo Azzopardi",
       "position": "Magistrates of Judicial Police for Malta",
       "department": "Judicial Establishment",
       "salary_min": 200,
@@ -3945,9 +3907,7 @@
       "salary_max": 250,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "LL.D."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -3963,18 +3923,16 @@
       "salary_max": 250,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "LL.D."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
       "name": "R. Cassar Torreggiani",
-      "canonical_name": "Torreggiani, R. Cassar",
-      "given_names": "R. Cassar",
-      "surname": "Torreggiani",
+      "canonical_name": "Cassar Torreggiani, R.",
+      "given_names": "R.",
+      "surname": "Cassar Torreggiani",
       "position": "Synedics",
       "department": "Judicial Establishment",
       "salary_min": 190,
@@ -4183,9 +4141,9 @@
       "location": null
     },
     {
-      "name": "Monsignor Pietro Pace",
-      "canonical_name": "Pace, Monsignor Pietro",
-      "given_names": "Monsignor Pietro",
+      "name": "Pietro Pace",
+      "canonical_name": "Pace, Pietro",
+      "given_names": "Pietro",
       "surname": "Pace",
       "position": "Archbishop of Malta",
       "department": "Ecclesiastical",
@@ -4199,9 +4157,9 @@
       "location": null
     },
     {
-      "name": "Ven. Archdeacon E. Hardy",
-      "canonical_name": "Hardy, Ven. Archdeacon E.",
-      "given_names": "Ven. Archdeacon E.",
+      "name": "E. Hardy",
+      "canonical_name": "Hardy, E.",
+      "given_names": "E.",
       "surname": "Hardy",
       "position": "Anglican Chaplain to Government",
       "department": "Ecclesiastical",
@@ -4217,9 +4175,9 @@
       "location": null
     },
     {
-      "name": "Monsignor Camilleri",
-      "canonical_name": "Camilleri, Monsignor",
-      "given_names": "Monsignor",
+      "name": "Camilleri",
+      "canonical_name": "Camilleri",
+      "given_names": "",
       "surname": "Camilleri",
       "position": "Bishop of Gozo",
       "department": "Ecclesiastical",
@@ -4233,7 +4191,7 @@
       "location": null
     },
     {
-      "name": "Captain C. La Primaudaye",
+      "name": "C. La Primaudaye",
       "canonical_name": "La Primaudaye, C.",
       "given_names": "C.",
       "surname": "La Primaudaye",
@@ -4464,9 +4422,9 @@
     },
     {
       "name": "J. Zarb Mallen",
-      "canonical_name": "Mallen, J. Zarb",
-      "given_names": "J. Zarb",
-      "surname": "Mallen",
+      "canonical_name": "Zarb Mallen, J.",
+      "given_names": "J.",
+      "surname": "Zarb Mallen",
       "position": "Assistant Superintendent",
       "department": "Marine Police",
       "salary_min": null,
@@ -4479,9 +4437,9 @@
       "location": null
     },
     {
-      "name": "Dr. G. O. Bardon",
+      "name": "G. O. Bardon",
       "canonical_name": "Bardon, G. O.",
-      "given_names": "Dr. G. O.",
+      "given_names": "G. O.",
       "surname": "Bardon",
       "position": "Veterinary Surgeon Superintendent",
       "department": "Slaughterhouses",
@@ -4496,9 +4454,9 @@
     },
     {
       "name": "Marquis St. George",
-      "canonical_name": "George, Marquis St.",
-      "given_names": "Marquis St.",
-      "surname": "George",
+      "canonical_name": "St. George, Marquis",
+      "given_names": "Marquis",
+      "surname": "St. George",
       "position": "Superintendent of Corradino Prison",
       "department": "Corradino Prison",
       "salary_min": 230,
@@ -4591,12 +4549,12 @@
       "location": null
     },
     {
-      "name": "Captain R. S. S. Baden-Powell",
+      "name": "R. S. S. Baden-Powell",
       "canonical_name": "Baden-Powell, R. S. S.",
       "given_names": "R. S. S.",
       "surname": "Baden-Powell",
       "position": "Assistant Military Secretary",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4611,8 +4569,8 @@
       "canonical_name": "Knowles, C. B.",
       "given_names": "C. B.",
       "surname": "Knowles",
-      "position": "Major-General, Commanding Infantry Brigade",
-      "department": "Capt. R.R.M.",
+      "position": "Major-General",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4629,8 +4587,8 @@
       "canonical_name": "Nicholson, F. J.",
       "given_names": "F. J.",
       "surname": "Nicholson",
-      "position": "Major-General, Commanding Artillery Brigade",
-      "department": "Capt. R.R.M.",
+      "position": "Major-General",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4641,12 +4599,12 @@
       "location": null
     },
     {
-      "name": "Colonel R. K. Bayly",
+      "name": "R. K. Bayly",
       "canonical_name": "Bayly, R. K.",
       "given_names": "R. K.",
       "surname": "Bayly",
       "position": "Dep. Adjutant-General",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4659,12 +4617,12 @@
       "location": null
     },
     {
-      "name": "Colonel E. Hughes",
+      "name": "E. Hughes",
       "canonical_name": "Hughes, E.",
       "given_names": "E.",
       "surname": "Hughes",
       "position": "Assistant Adjutant-General",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4678,12 +4636,12 @@
       "location": null
     },
     {
-      "name": "Major F. Romilly",
+      "name": "F. Romilly",
       "canonical_name": "Romilly, F.",
       "given_names": "F.",
       "surname": "Romilly",
       "position": "Dep. Assist. Adjutant-Generals",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4694,12 +4652,12 @@
       "location": null
     },
     {
-      "name": "Capt. D. E. Wynccoll",
+      "name": "D. E. Wynccoll",
       "canonical_name": "Wynccoll, D. E.",
       "given_names": "D. E.",
       "surname": "Wynccoll",
       "position": "Dep. Assist. Adjutant-Generals",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4710,12 +4668,12 @@
       "location": null
     },
     {
-      "name": "Col. J. R. Hogg",
+      "name": "J. R. Hogg",
       "canonical_name": "Hogg, J. R.",
       "given_names": "J. R.",
       "surname": "Hogg",
       "position": "Commander, Engineers",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4726,12 +4684,12 @@
       "location": null
     },
     {
-      "name": "Surgeon Major-General H. H. Paterson",
+      "name": "H. H. Paterson",
       "canonical_name": "Paterson, H. H.",
       "given_names": "H. H.",
       "surname": "Paterson",
       "position": "Surgeon-General (Military)",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4744,12 +4702,12 @@
       "location": null
     },
     {
-      "name": "Rev. C. A. Rosser",
+      "name": "C. A. Rosser",
       "canonical_name": "Rosser, C. A.",
       "given_names": "C. A.",
       "surname": "Rosser",
       "position": "Senior Chaplain to the Forces",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4767,7 +4725,7 @@
       "given_names": "R. E.",
       "surname": "Tracey",
       "position": "Admiral Superintendent",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4783,7 +4741,7 @@
       "given_names": "James",
       "surname": "Robertson",
       "position": "Staff Captain and Queen's Harbour Master",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4799,7 +4757,7 @@
       "given_names": "Joseph",
       "surname": "Newnham",
       "position": "Chief Constructor",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4815,7 +4773,7 @@
       "given_names": "R. J.",
       "surname": "French",
       "position": "Chief Engineer",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4831,7 +4789,7 @@
       "given_names": "J. R. R.",
       "surname": "Whitmarsh",
       "position": "Naval Storekeeper and Cashier",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4847,7 +4805,7 @@
       "given_names": "M.",
       "surname": "Rogers",
       "position": "Naval Dep. Inspector General",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4860,12 +4818,12 @@
       "location": null
     },
     {
-      "name": "Rev. W. S. Harris",
+      "name": "W. S. Harris",
       "canonical_name": "Harris, W. S.",
       "given_names": "W. S.",
       "surname": "Harris",
       "position": "Naval Chaplain",
-      "department": "Capt. R.R.M.",
+      "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4898,7 +4856,7 @@
       "canonical_name": "Kohen, Arturo",
       "given_names": "Arturo",
       "surname": "Kohen",
-      "position": "Acting Consul",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -4914,22 +4872,6 @@
       "canonical_name": "Ferro, Edward V.",
       "given_names": "Edward V.",
       "surname": "Ferro",
-      "position": "Consul",
-      "department": "Foreign Consuls",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Frederick Vella",
-      "canonical_name": "Vella, Frederick",
-      "given_names": "Frederick",
-      "surname": "Vella",
       "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -4974,9 +4916,9 @@
       "location": null
     },
     {
-      "name": "Cav. A. Bazzoni",
-      "canonical_name": "Bazzoni, A. B.",
-      "given_names": "A. B.",
+      "name": "A. Bazzoni",
+      "canonical_name": "Bazzoni, A.",
+      "given_names": "A.",
       "surname": "Bazzoni",
       "position": "Consul-Gen.",
       "department": "Foreign Consuls",
@@ -5039,9 +4981,9 @@
     },
     {
       "name": "C. Micallef Eynaud",
-      "canonical_name": "Eynaud, C. Micallef",
-      "given_names": "C. Micallef",
-      "surname": "Eynaud",
+      "canonical_name": "Micallef Eynaud, C.",
+      "given_names": "C.",
+      "surname": "Micallef Eynaud",
       "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -5090,7 +5032,7 @@
       "canonical_name": "Saxe, G.",
       "given_names": "G.",
       "surname": "Saxe",
-      "position": "Acting Consul",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -5103,9 +5045,9 @@
     },
     {
       "name": "Stefano Micallef Eynaud",
-      "canonical_name": "Eynaud, Stefano Micallef",
-      "given_names": "Stefano Micallef",
-      "surname": "Eynaud",
+      "canonical_name": "Micallef Eynaud, Stefano",
+      "given_names": "Stefano",
+      "surname": "Micallef Eynaud",
       "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -5169,12 +5111,12 @@
   "validation_summary": {
     "colony": "Virgin Islands",
     "year": 1894,
-    "total": 310,
-    "high_confidence": 306,
-    "medium_confidence": 2,
+    "total": 307,
+    "high_confidence": 300,
+    "medium_confidence": 5,
     "low_confidence": 2,
     "quarantined": 2,
-    "passed": 308,
-    "anomaly_count": 31
+    "passed": 305,
+    "anomaly_count": 30
   }
 }
