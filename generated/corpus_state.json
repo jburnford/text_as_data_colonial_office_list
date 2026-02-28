@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-28T01:41:54.639128",
+  "last_updated": "2026-02-28T02:22:28.111197",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -27217,6 +27217,113 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1922_data_gpt-oss_120b.json"
+    },
+    "Barbados_1922": {
+      "colony": "Barbados",
+      "year": 1922,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1922_manual_parsed/BARBADOS.txt",
+      "timestamp": "2026-02-28T01:41:54.651080",
+      "total_officials": 313,
+      "passed_officials": 312,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary's Office": 7,
+        "Treasurer's Office": 6,
+        "Audit Office": 8,
+        "Customs": 25,
+        "Admeasurer of Ships": 1,
+        "Police and Prisons": 13,
+        "Fire Brigade": 2,
+        "Post Office": 20,
+        "Public Works": 2,
+        "Harbour Master's Department": 3,
+        "Savings Bank": 8,
+        "Public Library": 2,
+        "Public Market": 3,
+        "Judicial Establishment": 35,
+        "Medical": 20,
+        "Educational": 27,
+        "Poor Law Board": 6,
+        "Water Works Department": 12,
+        "Chemistry Department": 3,
+        "Local Department of Agriculture": 9,
+        "Ecclesiastical": 14,
+        "Railway Board": 14,
+        "Foreign Consuls": 14,
+        "Barbados Volunteers": 45,
+        "Imperial Department of Agriculture for the West Indies": 9,
+        "Canadian Trade Department": 2
+      },
+      "generation_time": 1949.6,
+      "validation_summary": {
+        "colony": "Barbados",
+        "year": 1922,
+        "total": 313,
+        "high_confidence": 307,
+        "medium_confidence": 5,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 312,
+        "anomaly_count": 31
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1922_data_gpt-oss_120b.json"
+    },
+    "Basutoland_1922": {
+      "colony": "Basutoland",
+      "year": 1922,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1922_manual_parsed/BASUTOLAND.txt",
+      "timestamp": "2026-02-28T02:14:24.354612",
+      "total_officials": 53,
+      "passed_officials": 53,
+      "quarantined_officials": 0,
+      "departments": {
+        "Establishment": 53
+      },
+      "generation_time": 228.4,
+      "validation_summary": {
+        "colony": "Basutoland",
+        "year": 1922,
+        "total": 53,
+        "high_confidence": 53,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 53,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/basutoland_1922_data_gpt-oss_120b.json"
+    },
+    "Bechuanaland_1922": {
+      "colony": "Bechuanaland",
+      "year": 1922,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1922_manual_parsed/BECHUANALAND.txt",
+      "timestamp": "2026-02-28T02:18:12.758082",
+      "total_officials": 40,
+      "passed_officials": 40,
+      "quarantined_officials": 0,
+      "departments": {
+        "Establishment": 40
+      },
+      "generation_time": 255.3,
+      "validation_summary": {
+        "colony": "Bechuanaland",
+        "year": 1922,
+        "total": 40,
+        "high_confidence": 40,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 40,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bechuanaland_1922_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
