@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-27T23:42:45.493560",
+  "last_updated": "2026-02-27T23:57:08.412711",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -27031,6 +27031,111 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/uganda_1921_data_gpt-oss_120b.json"
+    },
+    "Virgin Islands_1921": {
+      "colony": "Virgin Islands",
+      "year": 1921,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1921_manual_parsed/virgin_islands.txt",
+      "timestamp": "2026-02-27T23:42:45.505526",
+      "total_officials": 23,
+      "passed_officials": 23,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Treasury and Customs": 5,
+        "Legal Departments": 3,
+        "Prison Department": 2,
+        "Medical Department": 2,
+        "Registration Department": 6,
+        "Post Office Department": 2,
+        "Agricultural Department": 1
+      },
+      "generation_time": 289.5,
+      "validation_summary": {
+        "colony": "Virgin Islands",
+        "year": 1921,
+        "total": 23,
+        "high_confidence": 21,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 23,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/virgin_islands_1921_data_gpt-oss_120b.json"
+    },
+    "Weihaiwei_1921": {
+      "colony": "Weihaiwei",
+      "year": 1921,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1921_manual_parsed/weihaiwei.txt",
+      "timestamp": "2026-02-27T23:47:35.055085",
+      "total_officials": 4,
+      "passed_officials": 4,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4
+      },
+      "generation_time": 38.2,
+      "validation_summary": {
+        "colony": "Weihaiwei",
+        "year": 1921,
+        "total": 4,
+        "high_confidence": 4,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 4,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/weihaiwei_1921_data_gpt-oss_120b.json"
+    },
+    "Zanzibar_1921": {
+      "colony": "Zanzibar",
+      "year": 1921,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1921_manual_parsed/zanzibar.txt",
+      "timestamp": "2026-02-27T23:48:13.294088",
+      "total_officials": 59,
+      "passed_officials": 59,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Secretariat": 4,
+        "District Administration": 5,
+        "Treasury": 1,
+        "Audit Department": 1,
+        "Customs": 3,
+        "Port Service and Shipping Departments": 2,
+        "Agricultural Department": 5,
+        "Judicial and Legal Departments": 5,
+        "Administrator-General's Department": 1,
+        "Attorney-General's Department": 1,
+        "Crown Solicitors": 2,
+        "Police and Prisons Departments": 2,
+        "Medical Department": 12,
+        "Public Health Department": 2,
+        "Education Department": 3,
+        "Public Works Department": 5,
+        "Railway and Electricity Department": 3
+      },
+      "generation_time": 535.1,
+      "validation_summary": {
+        "colony": "Zanzibar",
+        "year": 1921,
+        "total": 59,
+        "high_confidence": 55,
+        "medium_confidence": 4,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 59,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/zanzibar_1921_data_gpt-oss_120b.json"
     }
   },
   "failed": {},

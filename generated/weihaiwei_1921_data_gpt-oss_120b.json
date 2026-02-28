@@ -1,0 +1,87 @@
+{
+  "colony": "Weihaiwei",
+  "year": 1921,
+  "generated": "2026-02-27T23:48:13.282248",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 4,
+  "officials": [
+    {
+      "name": "Sir George B. Haddon-Smith",
+      "canonical_name": "Haddon-Smith, George B.",
+      "given_names": "George B.",
+      "surname": "Haddon-Smith",
+      "position": "Governor and Commander-in-Chief of the Windward Islands",
+      "department": "Civil Establishment",
+      "salary_min": 3000,
+      "salary_max": 3000,
+      "allowances": "250l. travelling allowance",
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "C. N. Rice",
+      "canonical_name": "Rice, C. N.",
+      "given_names": "C. N.",
+      "surname": "Rice",
+      "position": "Private Secretary and A.D.C.",
+      "department": "Civil Establishment",
+      "salary_min": 300,
+      "salary_max": 300,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Cecil N. Rice",
+      "canonical_name": "Rice, Cecil N.",
+      "given_names": "Cecil N.",
+      "surname": "Rice",
+      "position": "Chief Clerk",
+      "department": "Civil Establishment",
+      "salary_min": 300,
+      "salary_max": 375,
+      "allowances": "by 15l., and travelling and house allowance",
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Miss L. Harbin",
+      "canonical_name": "Harbin, L.",
+      "given_names": "L.",
+      "surname": "Harbin",
+      "position": "Second Clerk",
+      "department": "Civil Establishment",
+      "salary_min": 60,
+      "salary_max": 80,
+      "allowances": "by 4l. per annum",
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Weihaiwei",
+    "year": 1921,
+    "total": 4,
+    "high_confidence": 4,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 4,
+    "anomaly_count": 0
+  }
+}
