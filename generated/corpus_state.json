@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-27T20:23:54.079091",
+  "last_updated": "2026-02-27T20:37:59.832316",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -26568,6 +26568,53 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/rhodesia_1921_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1921": {
+      "colony": "Seychelles",
+      "year": 1921,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1921_manual_parsed/seychelles.txt",
+      "timestamp": "2026-02-27T20:23:54.090534",
+      "total_officials": 94,
+      "passed_officials": 93,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 2,
+        "Governor's Office": 3,
+        "Treasury and Customs": 9,
+        "Audit Department": 2,
+        "Legal Department": 10,
+        "Mortgage and Registration Department": 3,
+        "Bankruptcy and Curatele": 1,
+        "Police Department": 2,
+        "Prison Department": 2,
+        "Medical Department": 13,
+        "Roman Catholic Church": 3,
+        "Church of England": 2,
+        "Education Department": 13,
+        "Post Office": 3,
+        "Botanic Station": 3,
+        "Public Works Department": 6,
+        "Local Board of Health, Central District": 6,
+        "Local Board of Health, South Mah\u00e9 District": 3,
+        "Local Boards of Health, Praslin and La Digue": 2,
+        "Carnegie Public Library, Board of Directors": 1,
+        "Foreign Consuls": 4
+      },
+      "generation_time": 845.7,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1921,
+        "total": 94,
+        "high_confidence": 88,
+        "medium_confidence": 5,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 93,
+        "anomaly_count": 13
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1921_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
