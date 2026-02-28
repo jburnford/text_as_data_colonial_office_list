@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-28T02:22:28.111197",
+  "last_updated": "2026-02-28T02:34:05.495190",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -27324,6 +27324,47 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bechuanaland_1922_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1922": {
+      "colony": "Bermuda",
+      "year": 1922,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1922_manual_parsed/BERMUDA.txt",
+      "timestamp": "2026-02-28T02:22:28.123372",
+      "total_officials": 84,
+      "passed_officials": 84,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Colonial Secretary's Department": 5,
+        "Revenue Department": 8,
+        "Post Office Department": 14,
+        "Public Works Department": 5,
+        "Public Health Department": 2,
+        "Police and Gaols Department": 5,
+        "Lunatic Asylum": 3,
+        "Quarantine": 3,
+        "Judicial Establishment": 12,
+        "Department of Agriculture": 4,
+        "Board of Trade": 2,
+        "Department of Education": 2,
+        "Chief Military Officers": 9,
+        "Foreign Consuls": 9
+      },
+      "generation_time": 697.3,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1922,
+        "total": 84,
+        "high_confidence": 83,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 84,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1922_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
