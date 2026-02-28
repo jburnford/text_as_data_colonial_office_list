@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-27T19:24:05.419251",
+  "last_updated": "2026-02-27T19:39:52.737096",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -26421,6 +26421,49 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1921_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1921": {
+      "colony": "Nyasaland",
+      "year": 1921,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1921_manual_parsed/nyasaland_protectorate.txt",
+      "timestamp": "2026-02-27T19:24:05.430697",
+      "total_officials": 156,
+      "passed_officials": 156,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Secretariat": 9,
+        "Printing and Stationery": 4,
+        "District Residents": 44,
+        "Treasury": 13,
+        "Customs Department": 6,
+        "Audit Department": 4,
+        "Marine Transport Department": 6,
+        "Legal and Judicial": 5,
+        "Medical Department": 15,
+        "Transport Department": 6,
+        "Postal Department": 6,
+        "Agricultural Department": 13,
+        "Public Works Department": 12,
+        "Lands Department": 3,
+        "Police, Prisons and Lunatic Asylum": 7,
+        "Geological Department": 1
+      },
+      "generation_time": 947.3,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1921,
+        "total": 156,
+        "high_confidence": 156,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 156,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1921_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
