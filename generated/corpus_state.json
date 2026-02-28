@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-28T01:26:07.119194",
+  "last_updated": "2026-02-28T01:41:54.639128",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -27170,6 +27170,53 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/aden_1922_data_gpt-oss_120b.json"
+    },
+    "Bahamas_1922": {
+      "colony": "Bahamas",
+      "year": 1922,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1922_manual_parsed/BAHAMAS.txt",
+      "timestamp": "2026-02-28T01:26:07.131094",
+      "total_officials": 117,
+      "passed_officials": 117,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 3,
+        "Colonial Secretary's Office": 7,
+        "Treasury Department": 3,
+        "Customs": 8,
+        "Registrar General's Department": 3,
+        "Audit Office": 4,
+        "Surveyor-General's and Civil Engineer's Office": 5,
+        "Public Works Department": 3,
+        "Education Department": 3,
+        "Post Office": 8,
+        "Medical Department": 12,
+        "Telegraph Department": 5,
+        "Electrical Department": 5,
+        "Telephone": 7,
+        "Prison Department": 3,
+        "Police": 3,
+        "Judicial": 5,
+        "Commissioners of Out-Island Districts": 16,
+        "Ecclesiastical": 3,
+        "Imperial Lighthouse Service": 4,
+        "Foreign Consuls": 7
+      },
+      "generation_time": 947.5,
+      "validation_summary": {
+        "colony": "Bahamas",
+        "year": 1922,
+        "total": 117,
+        "high_confidence": 116,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 117,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1922_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
