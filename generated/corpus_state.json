@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-28T08:29:11.231628",
+  "last_updated": "2026-02-28T08:39:32.160022",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -28147,6 +28147,67 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/weihaiwei_1922_data_gpt-oss_120b.json"
+    },
+    "Western Pacific_1922": {
+      "colony": "Western Pacific",
+      "year": 1922,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1922_manual_parsed/WESTERN_PACIFIC.txt",
+      "timestamp": "2026-02-28T08:29:11.244311",
+      "total_officials": 85,
+      "passed_officials": 85,
+      "quarantined_officials": 0,
+      "departments": {
+        "Establishment": 13,
+        "Civil Establishment": 19,
+        "null": 23,
+        "Historical": 5,
+        "Royal Family": 5,
+        "Tongan Government": 13,
+        "Foreign Service": 1,
+        "British Staff": 4,
+        "Pitcairn Island": 1,
+        "Nauru": 1
+      },
+      "generation_time": 606.4,
+      "validation_summary": {
+        "colony": "Western Pacific",
+        "year": 1922,
+        "total": 85,
+        "high_confidence": 82,
+        "medium_confidence": 3,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 85,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/western_pacific_1922_data_gpt-oss_120b.json"
+    },
+    "Aden_1923": {
+      "colony": "Aden",
+      "year": 1923,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1923_manual_parsed/aden.txt",
+      "timestamp": "2026-02-28T08:39:17.775132",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 14.4,
+      "validation_summary": {
+        "colony": "Aden",
+        "year": 1923,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/aden_1923_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
