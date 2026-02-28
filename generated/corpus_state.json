@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-28T17:28:54.867918",
+  "last_updated": "2026-02-28T17:36:14.797564",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -29516,6 +29516,46 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cyprus_1925_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1925": {
+      "colony": "Falkland Islands",
+      "year": 1925,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1925_manual_parsed/FALKLAND_ISLANDS.txt",
+      "timestamp": "2026-02-28T17:28:54.880814",
+      "total_officials": 47,
+      "passed_officials": 47,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Colonial Secretariat": 5,
+        "Treasury and Customs": 8,
+        "Post Office": 2,
+        "Medical": 4,
+        "Judicial Department": 4,
+        "Educational": 3,
+        "Police and Prisons": 1,
+        "Public Works": 6,
+        "Stock Department": 2,
+        "Port and Harbour": 4,
+        "Scientific Department": 2,
+        "Ecclesiastical": 3,
+        "Foreign Consuls": 2
+      },
+      "generation_time": 439.9,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1925,
+        "total": 47,
+        "high_confidence": 45,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 47,
+        "anomaly_count": 5
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1925_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
