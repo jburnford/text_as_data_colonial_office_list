@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-28T06:15:14.395707",
+  "last_updated": "2026-02-28T06:38:48.706349",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -27872,6 +27872,57 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1922_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1922": {
+      "colony": "Nyasaland",
+      "year": 1922,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1922_manual_parsed/NYASALAND.txt",
+      "timestamp": "2026-02-28T06:15:14.408046",
+      "total_officials": 213,
+      "passed_officials": 213,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 16,
+        "Secretariat": 9,
+        "Printing and Stationery": 4,
+        "District Staff": 26,
+        "NYASALAND PROTECTORATE": 20,
+        "Treasury": 14,
+        "Customs Department": 6,
+        "Audit Department": 6,
+        "Marine Transport Department": 6,
+        "Legal and Judicial": 7,
+        "Medical Department": 20,
+        "Transport Department": 6,
+        "Postal Department": 8,
+        "Agricultural Department": 7,
+        "Forestry Division": 3,
+        "Veterinary Division": 4,
+        "Entomological and Mycological Division": 1,
+        "Public Works Department": 16,
+        "Lands Department": 5,
+        "Police, Prisons and Lunatic Asylum": 10,
+        "History": 4,
+        "Governors": 5,
+        "Executive Council": 6,
+        "Ecclesiastical": 2,
+        "Consuls of Foreign Countries": 2
+      },
+      "generation_time": 1414.2,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1922,
+        "total": 213,
+        "high_confidence": 211,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 213,
+        "anomaly_count": 6
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1922_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
