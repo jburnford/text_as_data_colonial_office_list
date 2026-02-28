@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-28T16:10:20.148727",
+  "last_updated": "2026-02-28T16:43:49.053511",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -29318,6 +29318,51 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1925_data_gpt-oss_120b.json"
+    },
+    "Barbados_1925": {
+      "colony": "Barbados",
+      "year": 1925,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1925_manual_parsed/BARBADOS.txt",
+      "timestamp": "2026-02-28T16:10:20.161430",
+      "total_officials": 189,
+      "passed_officials": 187,
+      "quarantined_officials": 2,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary's Office": 8,
+        "Treasurer's Office": 6,
+        "Audit Office": 8,
+        "Customs": 25,
+        "Police and Prisons": 14,
+        "Fire Brigade": 2,
+        "Post Office": 20,
+        "Public Works": 4,
+        "Harbour Master's Department": 7,
+        "Savings Bank": 7,
+        "Public Library": 2,
+        "Public Market": 3,
+        "Judicial Establishment": 36,
+        "Poor Law Board": 6,
+        "Water Works Department": 11,
+        "Chemistry Department": 3,
+        "Department of Agriculture": 9,
+        "Ecclesiastical": 14
+      },
+      "generation_time": 2008.8,
+      "validation_summary": {
+        "colony": "Barbados",
+        "year": 1925,
+        "total": 189,
+        "high_confidence": 187,
+        "medium_confidence": 0,
+        "low_confidence": 2,
+        "quarantined": 2,
+        "passed": 187,
+        "anomaly_count": 7
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1925_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
