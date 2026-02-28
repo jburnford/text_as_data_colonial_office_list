@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-27T21:24:52.900113",
+  "last_updated": "2026-02-27T21:37:41.812373",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -26740,6 +26740,46 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1921_data_gpt-oss_120b.json"
+    },
+    "St Lucia_1921": {
+      "colony": "St Lucia",
+      "year": 1921,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1921_manual_parsed/st_lucia.txt",
+      "timestamp": "2026-02-27T21:24:52.923361",
+      "total_officials": 86,
+      "passed_officials": 86,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 6,
+        "Treasury, Customs, and Inland Revenue Department": 16,
+        "Audit Department": 4,
+        "Harbour Master's Department": 3,
+        "Postal Department": 3,
+        "Colonial Engineer's Department": 12,
+        "Judicial": 14,
+        "Medical": 8,
+        "Agricultural": 3,
+        "Police and Gaols": 3,
+        "Ecclesiastical": 4,
+        "Education Department": 1,
+        "St. Lucia Volunteers": 4,
+        "Foreign Consuls": 5
+      },
+      "generation_time": 768.9,
+      "validation_summary": {
+        "colony": "St Lucia",
+        "year": 1921,
+        "total": 86,
+        "high_confidence": 86,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 86,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_lucia_1921_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
