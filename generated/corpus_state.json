@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-27T23:57:08.412711",
+  "last_updated": "2026-02-28T01:26:07.119194",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -27136,6 +27136,40 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/zanzibar_1921_data_gpt-oss_120b.json"
+    },
+    "Aden_1922": {
+      "colony": "Aden",
+      "year": 1922,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1922_manual_parsed/ADEN.txt",
+      "timestamp": "2026-02-27T23:57:08.424652",
+      "total_officials": 933,
+      "passed_officials": 921,
+      "quarantined_officials": 12,
+      "departments": {
+        "": 25,
+        "null": 818,
+        "Officers of the Order": 6,
+        "Knights Grand Cross": 10,
+        "Knights Commander": 20,
+        "General": 4,
+        "Commanders": 26,
+        "Members": 12
+      },
+      "generation_time": 5338.2,
+      "validation_summary": {
+        "colony": "Aden",
+        "year": 1922,
+        "total": 933,
+        "high_confidence": 789,
+        "medium_confidence": 132,
+        "low_confidence": 12,
+        "quarantined": 12,
+        "passed": 921,
+        "anomaly_count": 16
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/aden_1922_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
