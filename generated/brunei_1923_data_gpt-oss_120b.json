@@ -1,0 +1,121 @@
+{
+  "colony": "Brunei",
+  "year": 1923,
+  "generated": "2026-02-28T10:06:13.815723",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 6,
+  "officials": [
+    {
+      "name": "H.H. Mohamed Jemalulalam",
+      "canonical_name": "Jemalulalam, H.H. Mohamed",
+      "given_names": "H.H. Mohamed",
+      "surname": "Jemalulalam",
+      "position": "Sultan",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sir L. N. Guillemand",
+      "canonical_name": "Guillemand, L. N.",
+      "given_names": "L. N.",
+      "surname": "Guillemand",
+      "position": "High Commissioner",
+      "department": "Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.B."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "L. A. Allen",
+      "canonical_name": "Allen, L. A.",
+      "given_names": "L. A.",
+      "surname": "Allen",
+      "position": "Resident",
+      "department": "Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Anak Abdulrahman",
+      "canonical_name": "Abdulrahman, Anak",
+      "given_names": "Anak",
+      "surname": "Abdulrahman",
+      "position": "Pengiran Bendahara Sri Maharaja Permeiswara",
+      "department": "Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Mohamed Yasin",
+      "canonical_name": "Yasin, Mohamed",
+      "given_names": "Mohamed",
+      "surname": "Yasin",
+      "position": "Pengiran Pemancha Sahilbalri Almeshuaro",
+      "department": "Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sir James Brooke",
+      "canonical_name": "Brooke, James",
+      "given_names": "James",
+      "surname": "Brooke",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Brunei",
+    "year": 1923,
+    "total": 6,
+    "high_confidence": 6,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 6,
+    "anomaly_count": 0
+  }
+}
