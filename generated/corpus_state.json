@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-27T23:16:16.550797",
+  "last_updated": "2026-02-27T23:42:45.493560",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -26987,6 +26987,50 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/trinidad_1921_data_gpt-oss_120b.json"
+    },
+    "Uganda_1921": {
+      "colony": "Uganda",
+      "year": 1921,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1921_manual_parsed/uganda.txt",
+      "timestamp": "2026-02-27T23:16:16.574586",
+      "total_officials": 225,
+      "passed_officials": 224,
+      "quarantined_officials": 1,
+      "departments": {
+        "Legal": 6,
+        "Lake Albert Marine": 4,
+        "Medical": 36,
+        "Police and Prisons": 35,
+        "Printing and Stationery Department": 2,
+        "Public Works": 30,
+        "Land and Survey": 9,
+        "UGANDA": 11,
+        "Geological": 2,
+        "Forestry": 4,
+        "Agricultural Department": 17,
+        "Veterinary Department": 27,
+        "Telegraphs": 14,
+        "Transport": 9,
+        "Treasury and Savings Bank": 11,
+        "Busoga Railway Marine": 3,
+        "Busoga Railway": 2,
+        "Port Bell\u2014Kampala Railway": 2
+      },
+      "generation_time": 1588.8,
+      "validation_summary": {
+        "colony": "Uganda",
+        "year": 1921,
+        "total": 225,
+        "high_confidence": 224,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 224,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/uganda_1921_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
