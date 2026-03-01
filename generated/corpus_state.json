@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-01T12:28:19.866238",
+  "last_updated": "2026-03-01T12:35:19.427039",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -32192,6 +32192,31 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/iraq_1928_data_gpt-oss_120b.json"
+    },
+    "North Borneo_1928": {
+      "colony": "North Borneo",
+      "year": 1928,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1928_manual_parsed/NORTH_BORNEO.txt",
+      "timestamp": "2026-03-01T12:28:19.880868",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 419.5,
+      "validation_summary": {
+        "colony": "North Borneo",
+        "year": 1928,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1928_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
