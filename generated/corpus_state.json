@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-01T00:40:52.591155",
+  "last_updated": "2026-03-01T01:06:45.828498",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -30507,6 +30507,59 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/zanzibar_1925_data_gpt-oss_120b.json"
+    },
+    "Bahamas_1927": {
+      "colony": "Bahamas",
+      "year": 1927,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/BAHAMAS.txt",
+      "timestamp": "2026-03-01T00:40:52.604610",
+      "total_officials": 208,
+      "passed_officials": 208,
+      "quarantined_officials": 0,
+      "departments": {
+        "Governors": 10,
+        "Executive Council": 7,
+        "Legislative Council": 11,
+        "House of Assembly": 32,
+        "Governor's Office": 2,
+        "Secretariat": 7,
+        "Judicial Department": 6,
+        "Registrar General's Department": 4,
+        "Receiver General and Treasurer's Department": 3,
+        "Customs Department": 13,
+        "Audit Department": 5,
+        "Medical Department": 19,
+        "Post Office Department": 7,
+        "Police Department": 3,
+        "Nassau Prison": 2,
+        "Civil Engineer's Department": 5,
+        "Public Works Department": 3,
+        "Lighthouse Department": 2,
+        "Educational Department": 3,
+        "Telegraph Department": 16,
+        "Telephones": 8,
+        "Electrical Department": 5,
+        "Out-Island Commissioners": 19,
+        "Surveyor-General's Office": 4,
+        "Imperial Lighthouse Service": 4,
+        "Foreign Consuls": 7,
+        "Education": 1
+      },
+      "generation_time": 1553.0,
+      "validation_summary": {
+        "colony": "Bahamas",
+        "year": 1927,
+        "total": 208,
+        "high_confidence": 208,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 208,
+        "anomaly_count": 13
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1927_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
