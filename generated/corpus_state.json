@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-01T01:06:45.828498",
+  "last_updated": "2026-03-01T01:41:38.063309",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -30560,6 +30560,54 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1927_data_gpt-oss_120b.json"
+    },
+    "Barbados_1927": {
+      "colony": "Barbados",
+      "year": 1927,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/BARBADOS.txt",
+      "timestamp": "2026-03-01T01:06:45.841888",
+      "total_officials": 249,
+      "passed_officials": 248,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary's Department": 5,
+        "Treasurer's Office": 5,
+        "Audit Office": 7,
+        "Customs": 22,
+        "Police and Prisons": 13,
+        "Fire Brigade": 2,
+        "Post Office": 13,
+        "Public Works": 4,
+        "Harbour Master's Department": 5,
+        "Savings Bank": 6,
+        "Public Library": 1,
+        "Public Market": 3,
+        "Judicial Establishment": 32,
+        "Poor Law Board": 6,
+        "Water Works Department": 11,
+        "Department of Science and Agriculture": 16,
+        "Ecclesiastical": 14,
+        "Railway Board": 14,
+        "Foreign Consuls": 13,
+        "Consuls": 3,
+        "Barbados Volunteers": 51
+      },
+      "generation_time": 2092.1,
+      "validation_summary": {
+        "colony": "Barbados",
+        "year": 1927,
+        "total": 249,
+        "high_confidence": 245,
+        "medium_confidence": 3,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 248,
+        "anomaly_count": 20
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1927_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
