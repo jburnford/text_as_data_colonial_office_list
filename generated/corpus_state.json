@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-28T18:27:44.198494",
+  "last_updated": "2026-02-28T18:41:00.169730",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -29657,6 +29657,49 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1925_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1925": {
+      "colony": "Gibraltar",
+      "year": 1925,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1925_manual_parsed/GIBRALTAR.txt",
+      "timestamp": "2026-02-28T18:27:44.211341",
+      "total_officials": 112,
+      "passed_officials": 112,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 5,
+        "Crown Property Department": 1,
+        "Revenue Department": 7,
+        "Port Department": 5,
+        "Public Works": 8,
+        "Audit": 2,
+        "Judicial Department": 11,
+        "null": 1,
+        "Education Department": 2,
+        "Post Office and Telegraph Department": 12,
+        "Medical Department": 9,
+        "Civil Prison": 1,
+        "Lunatic Asylum": 1,
+        "Markets": 1,
+        "Ecclesiastical": 3,
+        "Chief Military and Naval Officers": 11,
+        "Consuls": 32
+      },
+      "generation_time": 795.9,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1925,
+        "total": 112,
+        "high_confidence": 112,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 112,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1925_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
