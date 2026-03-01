@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-01T11:22:53.542266",
+  "last_updated": "2026-03-01T11:36:05.837825",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -31982,6 +31982,52 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1928_data_gpt-oss_120b.json"
+    },
+    "Gambia_1928": {
+      "colony": "Gambia",
+      "year": 1928,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1928_manual_parsed/THE_GAMBIA.txt",
+      "timestamp": "2026-03-01T11:22:53.556171",
+      "total_officials": 97,
+      "passed_officials": 97,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 3,
+        "Secretariat": 7,
+        "Printing Branch": 1,
+        "Receiver-General's Department": 3,
+        "Treasury Branch": 5,
+        "Customs Branch": 4,
+        "Legal Department": 8,
+        "Provincial Administration": 7,
+        "Police Force": 4,
+        "Prison": 3,
+        "Medical": 12,
+        "Board of Health": 3,
+        "Public Works Department": 14,
+        "Land and Survey Department": 2,
+        "Audit Office": 2,
+        "Marine": 4,
+        "Postal Department": 2,
+        "Agricultural Department": 5,
+        "West African Frontier Force": 4,
+        "Foreign Consuls": 4
+      },
+      "generation_time": 792.3,
+      "validation_summary": {
+        "colony": "Gambia",
+        "year": 1928,
+        "total": 97,
+        "high_confidence": 97,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 97,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1928_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
