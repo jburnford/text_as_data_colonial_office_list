@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-28T20:27:15.080149",
+  "last_updated": "2026-02-28T20:44:09.902796",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -29980,6 +29980,49 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1925_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1925": {
+      "colony": "Nyasaland",
+      "year": 1925,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1925_manual_parsed/NYASALAND_PROTECTORATE.txt",
+      "timestamp": "2026-02-28T20:27:15.093168",
+      "total_officials": 178,
+      "passed_officials": 178,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Secretariat": 9,
+        "Printing and Stationery": 4,
+        "District Staff": 40,
+        "Treasury": 13,
+        "Customs Department": 5,
+        "Audit Department": 5,
+        "Marine Transport Department": 5,
+        "Legal and Judicial": 6,
+        "Medical Department": 24,
+        "Transport Department": 6,
+        "Postal Department": 7,
+        "Agricultural Department": 17,
+        "Public Works Department": 14,
+        "Lands Department": 6,
+        "Police, Prisons and Lunatic Asylum": 13,
+        "Geological Department": 2
+      },
+      "generation_time": 1014.7,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1925,
+        "total": 178,
+        "high_confidence": 178,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 178,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1925_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
