@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-01T07:44:03.466171",
+  "last_updated": "2026-03-01T08:34:09.228143",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -31481,6 +31481,176 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_lucia_1927_data_gpt-oss_120b.json"
+    },
+    "St Vincent_1927": {
+      "colony": "St Vincent",
+      "year": 1927,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/ST_VINCENT.txt",
+      "timestamp": "2026-03-01T07:44:03.493726",
+      "total_officials": 52,
+      "passed_officials": 52,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Treasury, Customs and Audit": 7,
+        "Police and Prisons": 2,
+        "Judicial": 5,
+        "Medical": 9,
+        "Educational": 5,
+        "Public Works, Surveys, and Crown Lands": 3,
+        "Postal Department": 3,
+        "Agricultural Department": 2,
+        "Southern Grenadines District": 1,
+        "Ecclesiastical": 4,
+        "Foreign Consuls": 7
+      },
+      "generation_time": 399.9,
+      "validation_summary": {
+        "colony": "St Vincent",
+        "year": 1927,
+        "total": 52,
+        "high_confidence": 52,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 52,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_vincent_1927_data_gpt-oss_120b.json"
+    },
+    "Swaziland_1927": {
+      "colony": "Swaziland",
+      "year": 1927,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/SWAZILAND.txt",
+      "timestamp": "2026-03-01T07:50:43.402199",
+      "total_officials": 52,
+      "passed_officials": 52,
+      "quarantined_officials": 0,
+      "departments": {
+        "Administration Establishment": 27,
+        "Medical Department": 4,
+        "Veterinary Department": 1,
+        "Educational Department": 16,
+        "Police": 2,
+        "Public Works Department": 2
+      },
+      "generation_time": 361.1,
+      "validation_summary": {
+        "colony": "Swaziland",
+        "year": 1927,
+        "total": 52,
+        "high_confidence": 51,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 52,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/swaziland_1927_data_gpt-oss_120b.json"
+    },
+    "Transjordan_1927": {
+      "colony": "Transjordan",
+      "year": 1927,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/TRANS_JORDAN.txt",
+      "timestamp": "2026-03-01T07:56:44.512549",
+      "total_officials": 10,
+      "passed_officials": 10,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 10
+      },
+      "generation_time": 73.5,
+      "validation_summary": {
+        "colony": "Transjordan",
+        "year": 1927,
+        "total": 10,
+        "high_confidence": 10,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 10,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/transjordan_1927_data_gpt-oss_120b.json"
+    },
+    "Uganda_1927": {
+      "colony": "Uganda",
+      "year": 1927,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/UGANDA.txt",
+      "timestamp": "2026-03-01T07:57:58.006671",
+      "total_officials": 334,
+      "passed_officials": 333,
+      "quarantined_officials": 1,
+      "departments": {
+        "Provincial Administration": 79,
+        "Labour Organisation": 8,
+        "Audit": 4,
+        "Legal": 11,
+        "Printing and Stationery Department": 3,
+        "Public Works": 81,
+        "Government Timber Supply": 2,
+        "Land and Survey Department": 27,
+        "Geological Survey": 5,
+        "Forestry": 5,
+        "Agricultural Department": 31,
+        "Veterinary Department": 22,
+        "Telegraphs": 1,
+        "Transport": 20,
+        "Municipal": 4,
+        "Game Department": 5,
+        "Treasury and Savings Bank": 13,
+        "Customs": 2,
+        "Education": 4,
+        "Makerere College": 6
+      },
+      "generation_time": 2133.5,
+      "validation_summary": {
+        "colony": "Uganda",
+        "year": 1927,
+        "total": 334,
+        "high_confidence": 333,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 333,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/uganda_1927_data_gpt-oss_120b.json"
+    },
+    "Weihaiwei_1927": {
+      "colony": "Weihaiwei",
+      "year": 1927,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/WEIHAIWEI.txt",
+      "timestamp": "2026-03-01T08:33:31.727703",
+      "total_officials": 2,
+      "passed_officials": 2,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2
+      },
+      "generation_time": 37.5,
+      "validation_summary": {
+        "colony": "Weihaiwei",
+        "year": 1927,
+        "total": 2,
+        "high_confidence": 2,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 2,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/weihaiwei_1927_data_gpt-oss_120b.json"
     }
   },
   "failed": {},

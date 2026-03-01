@@ -1,0 +1,55 @@
+{
+  "colony": "Weihaiwei",
+  "year": 1927,
+  "generated": "2026-03-01T08:34:09.228009",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "Sir Frederick S. James",
+      "canonical_name": "James, Frederick S.",
+      "given_names": "Frederick S.",
+      "surname": "James",
+      "position": "Governor and Commander-in-Chief of the Windward Islands",
+      "department": "Civil Establishment",
+      "salary_min": 2500,
+      "salary_max": 2500,
+      "allowances": "travelling allowance up to a maximum of 50l.",
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "J. M. Knight",
+      "canonical_name": "Knight, J. M.",
+      "given_names": "J. M.",
+      "surname": "Knight",
+      "position": "Chief Clerk",
+      "department": "Civil Establishment",
+      "salary_min": 250,
+      "salary_max": 300,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Weihaiwei",
+    "year": 1927,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}
