@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-01T00:27:19.552865",
+  "last_updated": "2026-03-01T00:40:52.591155",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -30461,6 +30461,52 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/weihaiwei_1925_data_gpt-oss_120b.json"
+    },
+    "Zanzibar_1925": {
+      "colony": "Zanzibar",
+      "year": 1925,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1925_manual_parsed/ZANZIBAR.txt",
+      "timestamp": "2026-03-01T00:27:19.566567",
+      "total_officials": 102,
+      "passed_officials": 102,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Secretariat": 3,
+        "Printing and Stationery": 2,
+        "District Administration": 12,
+        "Treasury": 1,
+        "Audit Department": 1,
+        "Customs": 3,
+        "Marine Department": 2,
+        "Agricultural Department": 5,
+        "Judicial and Legal Departments": 4,
+        "Administrator-General's Department": 1,
+        "Attorney-General's Department": 1,
+        "Police and Prisons Departments": 8,
+        "Medical Department": 12,
+        "Public Health Department": 4,
+        "Education Department": 5,
+        "Public Works Department": 12,
+        "Railway and Electricity Department": 4,
+        "Government": 7,
+        "Iraq Cabinet": 13
+      },
+      "generation_time": 813.0,
+      "validation_summary": {
+        "colony": "Zanzibar",
+        "year": 1925,
+        "total": 102,
+        "high_confidence": 102,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 102,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/zanzibar_1925_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
