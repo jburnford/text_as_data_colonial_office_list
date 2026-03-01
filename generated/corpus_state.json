@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-01T03:27:32.511325",
+  "last_updated": "2026-03-01T03:37:57.541578",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -30930,6 +30930,57 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1927_data_gpt-oss_120b.json"
+    },
+    "Grenada_1927": {
+      "colony": "Grenada",
+      "year": 1927,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/GRENADA.txt",
+      "timestamp": "2026-03-01T03:27:32.525166",
+      "total_officials": 88,
+      "passed_officials": 88,
+      "quarantined_officials": 0,
+      "departments": {
+        "Governors": 5,
+        "Executive Council": 2,
+        "Legislative Council": 8,
+        "Governor": 4,
+        "Secretariat": 5,
+        "Treasury": 4,
+        "Revenue Officers": 15,
+        "Post Office": 2,
+        "Audit": 2,
+        "Works": 5,
+        "Medical": 13,
+        "Agricultural": 1,
+        "Prisons": 1,
+        "Education": 5,
+        "Telephones": 1,
+        "Judicial": 4,
+        "Police Magistrates and Coroner": 1,
+        "Carriacou District": 2,
+        "Anglican Church": 2,
+        "Roman Catholic Church": 1,
+        "Wesleyan Church": 1,
+        "Church of Scotland": 1,
+        "United States of America": 1,
+        "France": 1,
+        "United States of Venezuela": 1
+      },
+      "generation_time": 625.0,
+      "validation_summary": {
+        "colony": "Grenada",
+        "year": 1927,
+        "total": 88,
+        "high_confidence": 88,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 88,
+        "anomaly_count": 5
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/grenada_1927_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
