@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-01T06:04:18.868533",
+  "last_updated": "2026-03-01T06:39:08.645735",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -31249,6 +31249,57 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1927_data_gpt-oss_120b.json"
+    },
+    "Palestine_1927": {
+      "colony": "Palestine",
+      "year": 1927,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/PALESTINE.txt",
+      "timestamp": "2026-03-01T06:04:18.896246",
+      "total_officials": 383,
+      "passed_officials": 382,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 2,
+        "Secretariat": 11,
+        "District Staff": 45,
+        "Supreme Court": 9,
+        "District Courts": 14,
+        "Magistrates": 19,
+        "Land Courts": 4,
+        "Supreme Moslem Council": 5,
+        "Moslem Religious Court of Appeal": 3,
+        "Legal Department": 7,
+        "Treasury": 9,
+        "Department of Health": 54,
+        "Department of Agriculture and Forests": 20,
+        "Customs, Excise and Trade": 14,
+        "Department of Education": 15,
+        "Department of Police and Prisons": 50,
+        "Immigration and Travel Section": 5,
+        "Department of Public Works": 16,
+        "Audit Department": 3,
+        "Department of Lands": 6,
+        "Department of Antiquities": 4,
+        "Palestine Railways": 30,
+        "Posts, Telegraphs and Telephones": 15,
+        "Department of Surveys": 11,
+        "Transjordan Frontier Force": 11
+      },
+      "generation_time": 2089.6,
+      "validation_summary": {
+        "colony": "Palestine",
+        "year": 1927,
+        "total": 383,
+        "high_confidence": 380,
+        "medium_confidence": 2,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 382,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/palestine_1927_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
