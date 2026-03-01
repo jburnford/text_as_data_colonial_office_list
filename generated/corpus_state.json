@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-01T17:07:18.008788",
+  "last_updated": "2026-03-01T17:39:15.919853",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -32992,6 +32992,56 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1929_data_gpt-oss_120b.json"
+    },
+    "Fiji_1929": {
+      "colony": "Fiji",
+      "year": 1929,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1929_manual_parsed/FIJI.txt",
+      "timestamp": "2026-03-01T17:07:18.028579",
+      "total_officials": 334,
+      "passed_officials": 333,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 3,
+        "Colonial Secretary's Department": 12,
+        "Native Section": 3,
+        "Indian Section": 3,
+        "Native Lands Commission": 7,
+        "District Administration": 14,
+        "Treasury": 17,
+        "Customs Department": 27,
+        "Audit Department": 6,
+        "Lands Department": 29,
+        "Judicial and Legal Department": 11,
+        "Constabulary": 17,
+        "Prisons": 4,
+        "Medical Department": 40,
+        "Education Department": 30,
+        "Post and Telegraph Department": 25,
+        "Department of Agriculture": 21,
+        "Printing Office": 11,
+        "Stores Department": 4,
+        "Transport Department": 5,
+        "Works Department": 27,
+        "Fiji Defence Force": 4,
+        "Foreign Consuls": 4,
+        "Ecclesiastical": 9
+      },
+      "generation_time": 1917.7,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1929,
+        "total": 334,
+        "high_confidence": 332,
+        "medium_confidence": 1,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 333,
+        "anomaly_count": 5
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1929_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
