@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-28T22:42:30.768231",
+  "last_updated": "2026-02-28T22:48:24.053347",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -30283,6 +30283,47 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tanganyika_1925_data_gpt-oss_120b.json"
+    },
+    "Territory of New Guinea_1925": {
+      "colony": "Territory of New Guinea",
+      "year": 1925,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1925_manual_parsed/THE_TERRITORY_OF_NEW_GUINEA.txt",
+      "timestamp": "2026-02-28T22:42:30.781356",
+      "total_officials": 32,
+      "passed_officials": 32,
+      "quarantined_officials": 0,
+      "departments": {
+        "Central Administration": 2,
+        "Legal Department": 2,
+        "Treasury (Taxation)": 1,
+        "Audit Branch": 1,
+        "Customs and Trade Department": 1,
+        "Native Affairs Department": 1,
+        "Government Stores": 1,
+        "Department of Lands and Survey": 1,
+        "Harbour Master's Department": 1,
+        "Post and Telephones Department": 1,
+        "Department of Health": 1,
+        "Department of Agriculture": 1,
+        "Government Printing Department": 1,
+        "Expropriation Board": 3,
+        "District Offices": 14
+      },
+      "generation_time": 353.2,
+      "validation_summary": {
+        "colony": "Territory of New Guinea",
+        "year": 1925,
+        "total": 32,
+        "high_confidence": 32,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 32,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/territory_of_new_guinea_1925_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
