@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-02-28T21:57:44.308371",
+  "last_updated": "2026-02-28T22:42:30.768231",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -30233,6 +30233,56 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/swaziland_1925_data_gpt-oss_120b.json"
+    },
+    "Tanganyika_1925": {
+      "colony": "Tanganyika",
+      "year": 1925,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1925_manual_parsed/TANGANYIKA_TERRITORY.txt",
+      "timestamp": "2026-02-28T21:57:44.334644",
+      "total_officials": 363,
+      "passed_officials": 356,
+      "quarantined_officials": 7,
+      "departments": {
+        "Civil Establishment": 3,
+        "Secretariat": 11,
+        "Printing Office": 4,
+        "Customs": 14,
+        "Port and Marine": 10,
+        "Audit": 5,
+        "Judicial": 10,
+        "Law Officers": 3,
+        "Administrator General": 1,
+        "Police and Prisons Department": 66,
+        "Veterinary Department": 37,
+        "Education Department": 11,
+        "Transport Department": 4,
+        "Post and Telegraphs Department": 34,
+        "Railways": 41,
+        "Agriculture": 16,
+        "Forestry": 13,
+        "Game": 5,
+        "Land, Survey and Mines Department": 28,
+        "Legal Division": 3,
+        "Mines Division": 2,
+        "Public Works Department": 23,
+        "Electric Power Plant": 7,
+        "Enemy Property": 5
+      },
+      "generation_time": 2686.2,
+      "validation_summary": {
+        "colony": "Tanganyika",
+        "year": 1925,
+        "total": 363,
+        "high_confidence": 356,
+        "medium_confidence": 0,
+        "low_confidence": 7,
+        "quarantined": 7,
+        "passed": 356,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tanganyika_1925_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
