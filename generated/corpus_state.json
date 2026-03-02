@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-01T22:32:38.422319",
+  "last_updated": "2026-03-01T22:43:50.060431",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -33796,6 +33796,103 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_lucia_1929_data_gpt-oss_120b.json"
+    },
+    "St Vincent_1929": {
+      "colony": "St Vincent",
+      "year": 1929,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1929_manual_parsed/ST_VINCENT.txt",
+      "timestamp": "2026-03-01T22:32:38.441073",
+      "total_officials": 54,
+      "passed_officials": 54,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Treasury, Customs and Audit": 8,
+        "Police and Prisons": 2,
+        "Judicial": 4,
+        "Medical": 11,
+        "Educational": 5,
+        "Public Works, Surveys, and Crown Lands": 2,
+        "Postal Department": 3,
+        "Agricultural Department": 2,
+        "Southern Grenadines District": 1,
+        "Ecclesiastical": 4,
+        "Foreign Consuls": 8
+      },
+      "generation_time": 434.2,
+      "validation_summary": {
+        "colony": "St Vincent",
+        "year": 1929,
+        "total": 54,
+        "high_confidence": 54,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 54,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_vincent_1929_data_gpt-oss_120b.json"
+    },
+    "Transjordan_1929": {
+      "colony": "Transjordan",
+      "year": 1929,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1929_manual_parsed/TRANS-JORDAN.txt",
+      "timestamp": "2026-03-01T22:39:52.674462",
+      "total_officials": 10,
+      "passed_officials": 10,
+      "quarantined_officials": 0,
+      "departments": {
+        "Trans-Jordan Administration": 10
+      },
+      "generation_time": 69.7,
+      "validation_summary": {
+        "colony": "Transjordan",
+        "year": 1929,
+        "total": 10,
+        "high_confidence": 10,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 10,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/transjordan_1929_data_gpt-oss_120b.json"
+    },
+    "Turks and Caicos Islands_1929": {
+      "colony": "Turks and Caicos Islands",
+      "year": 1929,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1929_manual_parsed/TURKS_AND_CAICOS_ISLANDS.txt",
+      "timestamp": "2026-03-01T22:41:02.364997",
+      "total_officials": 18,
+      "passed_officials": 18,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 9,
+        "Judicial": 2,
+        "Medical": 2,
+        "Lighthouse": 1,
+        "Ecclesiastical": 3,
+        "Foreign Consuls": 1
+      },
+      "generation_time": 167.7,
+      "validation_summary": {
+        "colony": "Turks and Caicos Islands",
+        "year": 1929,
+        "total": 18,
+        "high_confidence": 18,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 18,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/turks_and_caicos_islands_1929_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
