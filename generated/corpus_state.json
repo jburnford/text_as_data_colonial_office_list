@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-02T00:13:25.187793",
+  "last_updated": "2026-03-02T00:39:19.498231",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -34119,6 +34119,55 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1930_data_gpt-oss_120b.json"
+    },
+    "Barbados_1930": {
+      "colony": "Barbados",
+      "year": 1930,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1930_manual_parsed/BARBADOS.txt",
+      "timestamp": "2026-03-02T00:13:25.202709",
+      "total_officials": 230,
+      "passed_officials": 230,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Colonial Secretary\u2019s Office": 4,
+        "Treasurer\u2019s Office": 3,
+        "Audit Office": 4,
+        "Customs": 14,
+        "Police and Prisons": 14,
+        "Fire Brigade": 2,
+        "Post Office": 10,
+        "Public Works": 4,
+        "Harbour Master's Department": 4,
+        "Savings Bank": 5,
+        "Public Library": 1,
+        "Public Market": 3,
+        "Judicial Establishment": 29,
+        "Medical": 26,
+        "Educational": 28,
+        "Poor Law Board": 5,
+        "Water Works Department": 9,
+        "Department of Science and Agriculture": 20,
+        "Ecclesiastical": 14,
+        "Railway Board": 12,
+        "Foreign Consuls": 14,
+        "Barbados Volunteers": 3
+      },
+      "generation_time": 1554.2,
+      "validation_summary": {
+        "colony": "Barbados",
+        "year": 1930,
+        "total": 230,
+        "high_confidence": 228,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 230,
+        "anomaly_count": 12
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1930_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
