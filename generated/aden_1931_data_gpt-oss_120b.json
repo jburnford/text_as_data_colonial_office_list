@@ -1,0 +1,69 @@
+{
+  "colony": "Aden",
+  "year": 1931,
+  "generated": "2026-03-02T08:01:10.629744",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "J. G. Barrow",
+      "canonical_name": "Barrow, J. G.",
+      "given_names": "J. G.",
+      "surname": "Barrow",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Grice",
+      "canonical_name": "Grice",
+      "given_names": "",
+      "surname": "Grice",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sumner",
+      "canonical_name": "Sumner",
+      "given_names": "",
+      "surname": "Sumner",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Aden",
+    "year": 1931,
+    "total": 3,
+    "high_confidence": 1,
+    "medium_confidence": 2,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}
