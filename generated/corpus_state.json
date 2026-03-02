@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-02T04:01:46.340008",
+  "last_updated": "2026-03-02T04:37:13.578200",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -34730,6 +34730,60 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1930_data_gpt-oss_120b.json"
+    },
+    "Northern Rhodesia_1930": {
+      "colony": "Northern Rhodesia",
+      "year": 1930,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1930_manual_parsed/NORTHERN_RHODESIA.txt",
+      "timestamp": "2026-03-02T04:01:46.382475",
+      "total_officials": 322,
+      "passed_officials": 322,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 3,
+        "Secretariat": 5,
+        "Native Affairs": 3,
+        "Native Education": 5,
+        "Barotse National School": 5,
+        "Jeanes and Agricultural Schools": 1,
+        "Income Tax": 4,
+        "Printing and Stationery": 3,
+        "Judicial": 5,
+        "Legal": 5,
+        "Prisons": 2,
+        "Survey": 12,
+        "Health": 43,
+        "Posts and Telegraphs": 33,
+        "Customs": 10,
+        "European Education": 37,
+        "Mines": 2,
+        "Public Works Department": 53,
+        "Northern Rhodesia Police": 2,
+        "Military Branch": 22,
+        "Civil Police Branch": 21,
+        "Criminal Investigation Department": 7,
+        "Transport and Supply": 8,
+        "Veterinary": 9,
+        "Agriculture": 14,
+        "Audit": 4,
+        "Lands": 2,
+        "Forestry": 2
+      },
+      "generation_time": 2127.0,
+      "validation_summary": {
+        "colony": "Northern Rhodesia",
+        "year": 1930,
+        "total": 322,
+        "high_confidence": 320,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 322,
+        "anomaly_count": 4
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1930_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
