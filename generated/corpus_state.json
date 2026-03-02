@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-02T09:24:20.708662",
+  "last_updated": "2026-03-02T09:35:53.087441",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -35464,6 +35464,53 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1931_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1931": {
+      "colony": "Falkland Islands",
+      "year": 1931,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1931_manual_parsed/FALKLAND_ISLANDS.txt",
+      "timestamp": "2026-03-02T09:24:20.724290",
+      "total_officials": 79,
+      "passed_officials": 78,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 3,
+        "Colonial Secretary's Office": 6,
+        "Treasury and Customs": 5,
+        "South Georgia": 4,
+        "Audit": 1,
+        "Post Office": 4,
+        "Wireless Service": 5,
+        "Telephones and Electrical Services": 3,
+        "Legal": 4,
+        "Medical": 4,
+        "King Edward VII. Memorial Hospital": 4,
+        "Educational": 7,
+        "Police and Prisons": 1,
+        "Public Works": 4,
+        "Stock Department": 1,
+        "Port and Marine": 2,
+        "Cape Pembroke Lighthouse": 1,
+        "Scientific Department": 2,
+        "Military Department": 10,
+        "Ecclesiastical": 4,
+        "Foreign Consuls": 3
+      },
+      "generation_time": 692.3,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1931,
+        "total": 79,
+        "high_confidence": 78,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 78,
+        "anomaly_count": 15
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1931_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
