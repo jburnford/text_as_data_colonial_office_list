@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-02T04:57:51.268165",
+  "last_updated": "2026-03-02T05:38:08.364837",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -34833,6 +34833,58 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1930_data_gpt-oss_120b.json"
+    },
+    "Palestine_1930": {
+      "colony": "Palestine",
+      "year": 1930,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1930_manual_parsed/PALESTINE.txt",
+      "timestamp": "2026-03-02T04:57:51.283793",
+      "total_officials": 438,
+      "passed_officials": 438,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 3,
+        "Secretariat": 12,
+        "District Staff": 50,
+        "Supreme Court": 7,
+        "District Courts": 13,
+        "Magistrates": 19,
+        "Land Courts": 4,
+        "Supreme Moslem Council": 5,
+        "Moslem Religious Court of Appeal": 3,
+        "Legal Department": 8,
+        "Treasury": 9,
+        "Department of Health": 59,
+        "Department of Agriculture and Forests": 24,
+        "Department of Customs, Excise and Trade.": 18,
+        "Department of Education": 20,
+        "Department of Police and Prisons": 51,
+        "Immigration and Travel Section": 9,
+        "Public Works": 25,
+        "Audit Department": 3,
+        "Land Settlement": 14,
+        "Department of Lands": 8,
+        "Department of Antiquities": 6,
+        "Palestine Railways": 25,
+        "Department of Posts, Telegraphs and Telephones": 15,
+        "Department of Surveys": 8,
+        "Transjordan Frontier Force": 20
+      },
+      "generation_time": 2417.0,
+      "validation_summary": {
+        "colony": "Palestine",
+        "year": 1930,
+        "total": 438,
+        "high_confidence": 437,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 438,
+        "anomaly_count": 4
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/palestine_1930_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
