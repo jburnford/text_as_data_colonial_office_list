@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-01T23:28:30.074540",
+  "last_updated": "2026-03-01T23:36:40.299993",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -33973,6 +33973,58 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/virgin_islands_1929_data_gpt-oss_120b.json"
+    },
+    "Weihaiwei_1929": {
+      "colony": "Weihaiwei",
+      "year": 1929,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1929_manual_parsed/WEIHAIWEI.txt",
+      "timestamp": "2026-03-01T23:28:30.094038",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 452.4,
+      "validation_summary": {
+        "colony": "Weihaiwei",
+        "year": 1929,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/weihaiwei_1929_data_gpt-oss_120b.json"
+    },
+    "Windward Islands_1929": {
+      "colony": "Windward Islands",
+      "year": 1929,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1929_manual_parsed/THE_WINDWARD_ISLANDS.txt",
+      "timestamp": "2026-03-01T23:36:02.530298",
+      "total_officials": 3,
+      "passed_officials": 3,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 3
+      },
+      "generation_time": 37.8,
+      "validation_summary": {
+        "colony": "Windward Islands",
+        "year": 1929,
+        "total": 3,
+        "high_confidence": 3,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 3,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/windward_islands_1929_data_gpt-oss_120b.json"
     }
   },
   "failed": {},

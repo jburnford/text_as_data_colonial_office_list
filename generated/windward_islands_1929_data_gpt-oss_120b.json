@@ -1,0 +1,71 @@
+{
+  "colony": "Windward Islands",
+  "year": 1929,
+  "generated": "2026-03-01T23:36:40.299683",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "Sir Frederick S. James",
+      "canonical_name": "James, Frederick S.",
+      "given_names": "Frederick S.",
+      "surname": "James",
+      "position": "Governor and Commander-in-Chief of the Windward Islands",
+      "department": "Civil Establishment",
+      "salary_min": 2500,
+      "salary_max": 2500,
+      "allowances": "travelling allowance up to a maximum of 500l",
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Major C. L. Matthews-Donaldson",
+      "canonical_name": "Matthews-Donaldson, C. L.",
+      "given_names": "C. L.",
+      "surname": "Matthews-Donaldson",
+      "position": "Aide-de-Camp and Private Secretary",
+      "department": "Civil Establishment",
+      "salary_min": 300,
+      "salary_max": 300,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Major",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "J. M. Knight",
+      "canonical_name": "Knight, J. M.",
+      "given_names": "J. M.",
+      "surname": "Knight",
+      "position": "Secretary to Government",
+      "department": "Civil Establishment",
+      "salary_min": 300,
+      "salary_max": 400,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Windward Islands",
+    "year": 1929,
+    "total": 3,
+    "high_confidence": 3,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}
