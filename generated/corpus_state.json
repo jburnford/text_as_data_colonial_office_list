@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-01T22:43:50.060431",
+  "last_updated": "2026-03-01T23:28:30.074540",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -33893,6 +33893,86 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/turks_and_caicos_islands_1929_data_gpt-oss_120b.json"
+    },
+    "Uganda_1929": {
+      "colony": "Uganda",
+      "year": 1929,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1929_manual_parsed/UGANDA.txt",
+      "timestamp": "2026-03-01T22:43:50.090142",
+      "total_officials": 369,
+      "passed_officials": 368,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 2,
+        "Secretariat": 9,
+        "Provincial Administration": 77,
+        "Labour Organisation": 5,
+        "Audit": 5,
+        "Legal": 13,
+        "Education": 15,
+        "Police and Prisons": 34,
+        "Printing and Stationery Department": 3,
+        "Public Works": 75,
+        "Government Timber Supply": 2,
+        "Land and Survey Department": 28,
+        "Geological Survey": 4,
+        "Forestry": 7,
+        "Agricultural Department": 30,
+        "Veterinary Department": 20,
+        "Telegraphs": 1,
+        "Public Works\u2014Transport Section": 15,
+        "Municipal": 2,
+        "Game Department": 4,
+        "Treasury and Savings Bank": 14,
+        "Customs": 3
+      },
+      "generation_time": 2523.7,
+      "validation_summary": {
+        "colony": "Uganda",
+        "year": 1929,
+        "total": 369,
+        "high_confidence": 367,
+        "medium_confidence": 1,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 368,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/uganda_1929_data_gpt-oss_120b.json"
+    },
+    "Virgin Islands_1929": {
+      "colony": "Virgin Islands",
+      "year": 1929,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1929_manual_parsed/VIRGIN_ISLANDS.txt",
+      "timestamp": "2026-03-01T23:25:53.976009",
+      "total_officials": 9,
+      "passed_officials": 9,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Treasury and Customs": 1,
+        "Medical Department": 1,
+        "Registration Department": 4,
+        "Post Office Department": 1,
+        "Agricultural Department": 1
+      },
+      "generation_time": 156.1,
+      "validation_summary": {
+        "colony": "Virgin Islands",
+        "year": 1929,
+        "total": 9,
+        "high_confidence": 9,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 9,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/virgin_islands_1929_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
