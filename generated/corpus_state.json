@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-02T06:27:29.077168",
+  "last_updated": "2026-03-02T07:31:15.081115",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -35020,6 +35020,147 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1930_data_gpt-oss_120b.json"
+    },
+    "Tanganyika_1930": {
+      "colony": "Tanganyika",
+      "year": 1930,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1930_manual_parsed/TANGANYIKA_TERRITORY.txt",
+      "timestamp": "2026-03-02T06:27:29.107872",
+      "total_officials": 116,
+      "passed_officials": 115,
+      "quarantined_officials": 1,
+      "departments": {
+        "Administration": 1,
+        "Secretariat": 11,
+        "Treasury": 1,
+        "Executive Council": 13,
+        "Printing and Stationery": 7,
+        "Customs": 14,
+        "Veterinary": 50,
+        "Mines": 9,
+        "Geological Survey": 9
+      },
+      "generation_time": 1601.7,
+      "validation_summary": {
+        "colony": "Tanganyika",
+        "year": 1930,
+        "total": 116,
+        "high_confidence": 115,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 115,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tanganyika_1930_data_gpt-oss_120b.json"
+    },
+    "Turks and Caicos Islands_1930": {
+      "colony": "Turks and Caicos Islands",
+      "year": 1930,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1930_manual_parsed/TURKS_AND_CAICOS_ISLANDS.txt",
+      "timestamp": "2026-03-02T06:54:10.961814",
+      "total_officials": 20,
+      "passed_officials": 20,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 9,
+        "Judicial": 2,
+        "Medical": 2,
+        "Police and Prisons": 1,
+        "Lighthouse": 1,
+        "Ecclesiastical": 3,
+        "Foreign Consuls": 2
+      },
+      "generation_time": 176.7,
+      "validation_summary": {
+        "colony": "Turks and Caicos Islands",
+        "year": 1930,
+        "total": 20,
+        "high_confidence": 19,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 20,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/turks_and_caicos_islands_1930_data_gpt-oss_120b.json"
+    },
+    "Uganda_1930": {
+      "colony": "Uganda",
+      "year": 1930,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1930_manual_parsed/UGANDA.txt",
+      "timestamp": "2026-03-02T06:57:07.712003",
+      "total_officials": 306,
+      "passed_officials": 306,
+      "quarantined_officials": 0,
+      "departments": {
+        "Provincial Administration": 5,
+        "District Officers and Assistant District Officers": 63,
+        "Cadets": 14,
+        "Labour Organisation": 8,
+        "Audit": 5,
+        "null": 14,
+        "Education": 19,
+        "Police and Prisons": 46,
+        "Government Timber Supply": 2,
+        "Public Works\u2014Transport Section": 14,
+        "Land and Survey Department": 26,
+        "Geological Survey": 6,
+        "Forestry": 8,
+        "Agricultural Department": 31,
+        "Veterinary Department": 22,
+        "Telegraphs": 1,
+        "Municipal": 4,
+        "Game Department": 3,
+        "Treasury and Savings Bank": 14,
+        "Customs": 1
+      },
+      "generation_time": 1962.8,
+      "validation_summary": {
+        "colony": "Uganda",
+        "year": 1930,
+        "total": 306,
+        "high_confidence": 306,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 306,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/uganda_1930_data_gpt-oss_120b.json"
+    },
+    "Weihaiwei_1930": {
+      "colony": "Weihaiwei",
+      "year": 1930,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1930_manual_parsed/WEIHAIWEI.txt",
+      "timestamp": "2026-03-02T07:29:50.688873",
+      "total_officials": 12,
+      "passed_officials": 12,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 12
+      },
+      "generation_time": 84.4,
+      "validation_summary": {
+        "colony": "Weihaiwei",
+        "year": 1930,
+        "total": 12,
+        "high_confidence": 12,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 12,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/weihaiwei_1930_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
