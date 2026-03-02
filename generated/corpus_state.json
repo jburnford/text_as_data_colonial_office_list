@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-02T04:37:13.578200",
+  "last_updated": "2026-03-02T04:57:51.268165",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -34784,6 +34784,55 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1930_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1930": {
+      "colony": "Nyasaland",
+      "year": 1930,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1930_manual_parsed/NYASALAND_PROTECTORATE.txt",
+      "timestamp": "2026-03-02T04:37:13.593436",
+      "total_officials": 222,
+      "passed_officials": 222,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Secretariat": 9,
+        "Printing and Stationery": 4,
+        "District Staff": 49,
+        "Treasury": 11,
+        "Customs": 8,
+        "Audit": 4,
+        "Marine Transport": 5,
+        "Legal and Judicial": 7,
+        "Medical": 26,
+        "Education": 4,
+        "Transport": 6,
+        "Posts and Telegraphs": 13,
+        "Agricultural": 8,
+        "Forestry": 5,
+        "Veterinary": 5,
+        "Public Works": 25,
+        "Lands": 5,
+        "Police, Prisons and Lunatic Asylum": 17,
+        "Geological Survey": 3,
+        "Game": 1,
+        "Relief Clerks": 4,
+        "Nyasaland Volunteer Reserve": 2
+      },
+      "generation_time": 1237.6,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1930,
+        "total": 222,
+        "high_confidence": 222,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 222,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1930_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
