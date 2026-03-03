@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-03T06:32:53.812390",
+  "last_updated": "2026-03-03T06:35:50.337516",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -39062,6 +39062,34 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kedah_1934_data_gpt-oss_120b.json"
+    },
+    "Kelantan_1934": {
+      "colony": "Kelantan",
+      "year": 1934,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1934_manual_parsed/KELANTAN.txt",
+      "timestamp": "2026-03-03T06:32:53.834054",
+      "total_officials": 25,
+      "passed_officials": 25,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 15,
+        "Administration": 10
+      },
+      "generation_time": 176.5,
+      "validation_summary": {
+        "colony": "Kelantan",
+        "year": 1934,
+        "total": 25,
+        "high_confidence": 25,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 25,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kelantan_1934_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
