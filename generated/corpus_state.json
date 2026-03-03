@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-03T16:24:24.633165",
+  "last_updated": "2026-03-03T16:43:03.325781",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -40723,6 +40723,52 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/unfederated_malay_states_1936_data_gpt-oss_120b.json"
+    },
+    "Western Pacific_1936": {
+      "colony": "Western Pacific",
+      "year": 1936,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1936_manual_parsed/WESTERN_PACIFIC.txt",
+      "timestamp": "2026-03-03T16:24:24.655284",
+      "total_officials": 112,
+      "passed_officials": 111,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 5,
+        "District Administration": 19,
+        "Treasury, Customs and Postal Departments": 4,
+        "Police and Prisons Department": 3,
+        "Medical Department": 16,
+        "Education Department": 3,
+        "Public Works Department": 7,
+        "null": 6,
+        "Wireless Department": 4,
+        "Lands Commission": 2,
+        "Resident Commissioners": 4,
+        "Advisory Council": 3,
+        "Advisory Council - Nominated Members": 3,
+        "Secretariat": 3,
+        "Treasury, Customs and Postal Department": 7,
+        "Lands Department": 2,
+        "Native Labour Department": 1,
+        "Agricultural Committee": 1,
+        "Tongan Ministers": 9,
+        "British Staff": 9
+      },
+      "generation_time": 1118.6,
+      "validation_summary": {
+        "colony": "Western Pacific",
+        "year": 1936,
+        "total": 112,
+        "high_confidence": 103,
+        "medium_confidence": 8,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 111,
+        "anomaly_count": 5
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/western_pacific_1936_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
