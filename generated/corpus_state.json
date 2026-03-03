@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-02T18:19:03.658615",
+  "last_updated": "2026-03-02T18:41:14.611347",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -36890,6 +36890,54 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1932_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1932": {
+      "colony": "Nyasaland",
+      "year": 1932,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1932_manual_parsed/NYASALAND_PROTECTORATE.txt",
+      "timestamp": "2026-03-02T18:19:03.675762",
+      "total_officials": 241,
+      "passed_officials": 241,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Secretariat": 9,
+        "Printing and Stationery": 3,
+        "District Staff": 48,
+        "Treasury": 13,
+        "Customs": 8,
+        "Audit": 4,
+        "Marine Transport": 5,
+        "Legal and Judicial": 7,
+        "Medical": 32,
+        "Education": 7,
+        "Transport": 6,
+        "Posts and Telegraphs": 15,
+        "Agricultural": 9,
+        "Forestry": 5,
+        "Veterinary": 6,
+        "Public Works": 28,
+        "Lands": 5,
+        "Police, Prisons and Lunatic Asylum": 18,
+        "Geological Survey": 4,
+        "Relief Clerks": 5,
+        "Nyasaland Volunteer Reserve": 2
+      },
+      "generation_time": 1330.8,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1932,
+        "total": 241,
+        "high_confidence": 241,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 241,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1932_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
