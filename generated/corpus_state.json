@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-03T09:35:22.852859",
+  "last_updated": "2026-03-03T10:29:43.836245",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -39486,6 +39486,200 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1934_data_gpt-oss_120b.json"
+    },
+    "Tanganyika_1934": {
+      "colony": "Tanganyika",
+      "year": 1934,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1934_manual_parsed/TANGANYIKA_TERRITORY.txt",
+      "timestamp": "2026-03-03T09:35:22.870417",
+      "total_officials": 153,
+      "passed_officials": 152,
+      "quarantined_officials": 1,
+      "departments": {
+        "null": 6,
+        "Customs": 25,
+        "Police": 61,
+        "Posts and Telegraphs": 2,
+        "Printing and Stationery": 8,
+        "Prisons": 13,
+        "Veterinary": 37
+      },
+      "generation_time": 1884.2,
+      "validation_summary": {
+        "colony": "Tanganyika",
+        "year": 1934,
+        "total": 153,
+        "high_confidence": 152,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 152,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tanganyika_1934_data_gpt-oss_120b.json"
+    },
+    "Tonga_1934": {
+      "colony": "Tonga",
+      "year": 1934,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1934_manual_parsed/TONGA.txt",
+      "timestamp": "2026-03-03T10:06:47.290584",
+      "total_officials": 20,
+      "passed_officials": 20,
+      "quarantined_officials": 0,
+      "departments": {
+        "Consular": 1,
+        "Tongan Government": 8,
+        "British Staff": 10,
+        "Pitcairn Island": 1
+      },
+      "generation_time": 189.2,
+      "validation_summary": {
+        "colony": "Tonga",
+        "year": 1934,
+        "total": 20,
+        "high_confidence": 20,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 20,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tonga_1934_data_gpt-oss_120b.json"
+    },
+    "Transjordan_1934": {
+      "colony": "Transjordan",
+      "year": 1934,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1934_manual_parsed/TRANSJORDAN.txt",
+      "timestamp": "2026-03-03T10:09:56.579211",
+      "total_officials": 14,
+      "passed_officials": 14,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 14
+      },
+      "generation_time": 101.9,
+      "validation_summary": {
+        "colony": "Transjordan",
+        "year": 1934,
+        "total": 14,
+        "high_confidence": 14,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 14,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/transjordan_1934_data_gpt-oss_120b.json"
+    },
+    "Turks and Caicos Islands_1934": {
+      "colony": "Turks and Caicos Islands",
+      "year": 1934,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1934_manual_parsed/TURKS_AND_CAICOS_ISLANDS.txt",
+      "timestamp": "2026-03-03T10:11:38.494086",
+      "total_officials": 16,
+      "passed_officials": 16,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 6,
+        "Judicial": 1,
+        "Medical": 2,
+        "Police and Prisons": 1,
+        "Ecclesiastical": 3,
+        "Foreign Consuls": 3
+      },
+      "generation_time": 171.7,
+      "validation_summary": {
+        "colony": "Turks and Caicos Islands",
+        "year": 1934,
+        "total": 16,
+        "high_confidence": 16,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 16,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/turks_and_caicos_islands_1934_data_gpt-oss_120b.json"
+    },
+    "Zanzibar_1934": {
+      "colony": "Zanzibar",
+      "year": 1934,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1934_manual_parsed/ZANZIBAR.txt",
+      "timestamp": "2026-03-03T10:14:30.225332",
+      "total_officials": 94,
+      "passed_officials": 94,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Secretariat": 2,
+        "Provincial Administration": 14,
+        "Administrator-General's Department": 2,
+        "Agricultural Department": 10,
+        "Attorney-General's Department": 2,
+        "Audit Department": 1,
+        "Department of Co-operation": 1,
+        "Education Department": 5,
+        "Judicial and Legal Departments": 4,
+        "Medical Department": 20,
+        "Municipal Office": 1,
+        "Police and Prisons Departments": 7,
+        "Port and Marine Department": 2,
+        "Printing and Stationery": 2,
+        "Public Works Department": 13,
+        "Electricity and Wireless Branch": 4,
+        "Treasury and Customs": 3
+      },
+      "generation_time": 719.5,
+      "validation_summary": {
+        "colony": "Zanzibar",
+        "year": 1934,
+        "total": 94,
+        "high_confidence": 94,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 94,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/zanzibar_1934_data_gpt-oss_120b.json"
+    },
+    "Aden_1936": {
+      "colony": "Aden",
+      "year": 1936,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1936_manual_parsed/ADEN.txt",
+      "timestamp": "2026-03-03T10:26:29.773548",
+      "total_officials": 17,
+      "passed_officials": 17,
+      "quarantined_officials": 0,
+      "departments": {
+        "India Office": 13,
+        "null": 4
+      },
+      "generation_time": 194.1,
+      "validation_summary": {
+        "colony": "Aden",
+        "year": 1936,
+        "total": 17,
+        "high_confidence": 17,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 17,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/aden_1936_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
