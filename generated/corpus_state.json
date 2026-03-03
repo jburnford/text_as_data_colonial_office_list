@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-02T21:30:03.500622",
+  "last_updated": "2026-03-02T21:39:12.608876",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -37539,6 +37539,70 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1933_data_gpt-oss_120b.json"
+    },
+    "British Somaliland_1933": {
+      "colony": "British Somaliland",
+      "year": 1933,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1933_manual_parsed/SOMALILAND_PROTECTORATE.txt",
+      "timestamp": "2026-03-02T21:30:03.522339",
+      "total_officials": 50,
+      "passed_officials": 50,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 3,
+        "Administration": 15,
+        "Treasury": 1,
+        "Police": 5,
+        "Medical Department": 5,
+        "Customs Department": 1,
+        "Posts and Telegraphs Department": 3,
+        "Public Works Department": 1,
+        "Veterinary Department": 1,
+        "Geological and Agricultural Department": 1,
+        "Somaliland Camel Corps, King's African Rifles": 14
+      },
+      "generation_time": 528.0,
+      "validation_summary": {
+        "colony": "British Somaliland",
+        "year": 1933,
+        "total": 50,
+        "high_confidence": 50,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 50,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_somaliland_1933_data_gpt-oss_120b.json"
+    },
+    "Brunei_1933": {
+      "colony": "Brunei",
+      "year": 1933,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1933_manual_parsed/BRUNEI.txt",
+      "timestamp": "2026-03-02T21:38:51.574996",
+      "total_officials": 1,
+      "passed_officials": 1,
+      "quarantined_officials": 0,
+      "departments": {
+        "Administration": 1
+      },
+      "generation_time": 21.0,
+      "validation_summary": {
+        "colony": "Brunei",
+        "year": 1933,
+        "total": 1,
+        "high_confidence": 1,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 1,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/brunei_1933_data_gpt-oss_120b.json"
     }
   },
   "failed": {},

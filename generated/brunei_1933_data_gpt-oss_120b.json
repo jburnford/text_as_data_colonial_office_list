@@ -1,0 +1,37 @@
+{
+  "colony": "Brunei",
+  "year": 1933,
+  "generated": "2026-03-02T21:39:12.608708",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "T. F. Carey",
+      "canonical_name": "Carey, T. F.",
+      "given_names": "T. F.",
+      "surname": "Carey",
+      "position": "British Resident",
+      "department": "Administration",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Brunei",
+    "year": 1933,
+    "total": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}
