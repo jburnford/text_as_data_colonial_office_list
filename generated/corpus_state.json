@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-03T00:34:37.217315",
+  "last_updated": "2026-03-03T00:41:33.315816",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -37953,6 +37953,39 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nigeria_1933_data_gpt-oss_120b.json"
+    },
+    "North Borneo_1933": {
+      "colony": "North Borneo",
+      "year": 1933,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1933_manual_parsed/NORTH_BORNEO.txt",
+      "timestamp": "2026-03-03T00:34:37.233851",
+      "total_officials": 83,
+      "passed_officials": 83,
+      "quarantined_officials": 0,
+      "departments": {
+        "Court of Directors": 9,
+        "Governors": 13,
+        "Staff": 21,
+        "Other Officers": 23,
+        "District Officers": 6,
+        "Assistant District Officers": 5,
+        "Cadets": 6
+      },
+      "generation_time": 416.0,
+      "validation_summary": {
+        "colony": "North Borneo",
+        "year": 1933,
+        "total": 83,
+        "high_confidence": 83,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 83,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1933_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
