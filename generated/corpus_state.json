@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-03T01:34:03.083072",
+  "last_updated": "2026-03-03T01:42:37.349959",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -38102,6 +38102,51 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1933_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1933": {
+      "colony": "Seychelles",
+      "year": 1933,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1933_manual_parsed/SEYCHELLES.txt",
+      "timestamp": "2026-03-03T01:34:03.121411",
+      "total_officials": 35,
+      "passed_officials": 35,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Governor's Office": 1,
+        "Treasury and Customs": 5,
+        "Audit Department": 1,
+        "Port Department": 1,
+        "Legal Department": 6,
+        "Mortgage and Registration Department": 1,
+        "Police Department": 1,
+        "Prison Department": 1,
+        "Printing Department": 1,
+        "Medical Department": 4,
+        "Education Department": 1,
+        "Post Office": 1,
+        "Department of Agriculture": 1,
+        "Public Works Department": 1,
+        "Ecclesiastical Department": 2,
+        "Victoria Town Board": 1,
+        "Carnegye Public Library, Board of Directors": 1,
+        "Foreign Consuls": 4
+      },
+      "generation_time": 514.2,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1933,
+        "total": 35,
+        "high_confidence": 35,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 35,
+        "anomaly_count": 5
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1933_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
