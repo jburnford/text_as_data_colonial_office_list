@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-03T15:22:16.739626",
+  "last_updated": "2026-03-03T15:43:34.448213",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -40508,6 +40508,56 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1936_data_gpt-oss_120b.json"
+    },
+    "Sierra Leone_1936": {
+      "colony": "Sierra Leone",
+      "year": 1936,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1936_manual_parsed/SIERRA_LEONE.txt",
+      "timestamp": "2026-03-03T15:22:16.758242",
+      "total_officials": 148,
+      "passed_officials": 147,
+      "quarantined_officials": 1,
+      "departments": {
+        "Governor's Office": 2,
+        "Colonial Secretary's Office": 4,
+        "Printing Department": 1,
+        "Provincial Administration": 2,
+        "Civil Establishment": 28,
+        "Treasury Department": 5,
+        "Customs Department": 5,
+        "Audit Department": 3,
+        "Port and Marine Department": 3,
+        "Judicial": 4,
+        "Loyal": 3,
+        "Civil Police": 4,
+        "Prisons": 3,
+        "Survey Department": 2,
+        "Medical": 26,
+        "Health Department": 2,
+        "Education": 6,
+        "Post Office": 2,
+        "Agricultural Department": 8,
+        "Forests Department": 4,
+        "Public Works Department": 11,
+        "Railway Department": 13,
+        "Geological and Mines": 3,
+        "null": 3
+      },
+      "generation_time": 1277.6,
+      "validation_summary": {
+        "colony": "Sierra Leone",
+        "year": 1936,
+        "total": 148,
+        "high_confidence": 147,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 147,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1936_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
