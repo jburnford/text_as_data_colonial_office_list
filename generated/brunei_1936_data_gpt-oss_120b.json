@@ -1,0 +1,37 @@
+{
+  "colony": "Brunei",
+  "year": 1936,
+  "generated": "2026-03-03T11:53:34.139826",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "R. E. Turnbull",
+      "canonical_name": "Turnbull, R. E.",
+      "given_names": "R. E.",
+      "surname": "Turnbull",
+      "position": "British Resident",
+      "department": "Administration",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Brunei",
+    "year": 1936,
+    "total": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}
