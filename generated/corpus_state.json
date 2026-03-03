@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-02T19:33:43.436891",
+  "last_updated": "2026-03-02T19:39:40.017424",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -37065,6 +37065,48 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1932_data_gpt-oss_120b.json"
+    },
+    "St Helena_1932": {
+      "colony": "St Helena",
+      "year": 1932,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1932_manual_parsed/ST_HELENA.txt",
+      "timestamp": "2026-03-02T19:33:43.476701",
+      "total_officials": 27,
+      "passed_officials": 27,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Secretariat": 1,
+        "Audit": 1,
+        "Port Office": 1,
+        "Post Office": 1,
+        "Medical": 4,
+        "Judicial": 3,
+        "Legal": 1,
+        "Educational": 3,
+        "Registration Department": 1,
+        "Troops": 1,
+        "Police and Prison": 1,
+        "Public Works": 2,
+        "Agriculture and Forestry": 1,
+        "Ecclesiastical": 2,
+        "Consuls": 2
+      },
+      "generation_time": 356.5,
+      "validation_summary": {
+        "colony": "St Helena",
+        "year": 1932,
+        "total": 27,
+        "high_confidence": 27,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 27,
+        "anomaly_count": 7
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1932_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
