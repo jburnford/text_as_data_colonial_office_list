@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-04T14:37:47.307691",
+  "last_updated": "2026-03-04T15:34:17.475666",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -45078,6 +45078,346 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1948_data_gpt-oss_120b.json"
+    },
+    "Miscellaneous Islands_1948": {
+      "colony": "Miscellaneous Islands",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/miscellaneous_islands.txt",
+      "timestamp": "2026-03-04T14:37:47.347493",
+      "total_officials": 37,
+      "passed_officials": 37,
+      "quarantined_officials": 0,
+      "departments": {
+        "REGIONAL OFFICERS OF WELFARE DEPARTMENT": 4,
+        "CHIEF ACCOUNTANT": 1,
+        "CHIEF EXECUTIVE OFFICERS": 4,
+        "SENIOR EXECUTIVE OFFICERS": 19,
+        "HIGHER EXECUTIVE OFFICERS": 9
+      },
+      "generation_time": 583.3,
+      "validation_summary": {
+        "colony": "Miscellaneous Islands",
+        "year": 1948,
+        "total": 37,
+        "high_confidence": 37,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 37,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/miscellaneous_islands_1948_data_gpt-oss_120b.json"
+    },
+    "North Borneo_1948": {
+      "colony": "North Borneo",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/north_borneo.txt",
+      "timestamp": "2026-03-04T14:47:30.707824",
+      "total_officials": 47,
+      "passed_officials": 47,
+      "quarantined_officials": 0,
+      "departments": {
+        "Advisory Council": 17,
+        "Governors - Labuan": 13,
+        "Governors - North Borneo (Chartered Company)": 16,
+        "Governors - Colony of North Borneo": 1
+      },
+      "generation_time": 297.3,
+      "validation_summary": {
+        "colony": "North Borneo",
+        "year": 1948,
+        "total": 47,
+        "high_confidence": 47,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 47,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1948_data_gpt-oss_120b.json"
+    },
+    "Northern Rhodesia_1948": {
+      "colony": "Northern Rhodesia",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/northern_rhodesia.txt",
+      "timestamp": "2026-03-04T14:52:28.016446",
+      "total_officials": 38,
+      "passed_officials": 38,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 1,
+        "ADMINISTRATORS": 7,
+        "GOVERNORS": 7,
+        "EXECUTIVE COUNCIL": 3,
+        "LEGISLATIVE COUNCIL": 17,
+        "FOREIGN CONSULAR OFFICERS": 3
+      },
+      "generation_time": 308.1,
+      "validation_summary": {
+        "colony": "Northern Rhodesia",
+        "year": 1948,
+        "total": 38,
+        "high_confidence": 38,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 38,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1948_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1948": {
+      "colony": "Nyasaland",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/nyasaland_protectorate.txt",
+      "timestamp": "2026-03-04T14:57:36.201361",
+      "total_officials": 56,
+      "passed_officials": 55,
+      "quarantined_officials": 1,
+      "departments": {
+        "Governors": 10,
+        "Executive Council": 4,
+        "Legislative Council": 8,
+        "Religious Bodies": 9,
+        "Foreign Consular Officers": 8,
+        "Bibliography": 16
+      },
+      "generation_time": 258.2,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1948,
+        "total": 56,
+        "high_confidence": 40,
+        "medium_confidence": 15,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 55,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1948_data_gpt-oss_120b.json"
+    },
+    "Sarawak_1948": {
+      "colony": "Sarawak",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/sarawak.txt",
+      "timestamp": "2026-03-04T15:01:54.476499",
+      "total_officials": 44,
+      "passed_officials": 44,
+      "quarantined_officials": 0,
+      "departments": {
+        "Religion": 2,
+        "Governor": 1,
+        "Supreme Council": 10,
+        "Council Negri": 31
+      },
+      "generation_time": 273.8,
+      "validation_summary": {
+        "colony": "Sarawak",
+        "year": 1948,
+        "total": 44,
+        "high_confidence": 25,
+        "medium_confidence": 19,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 44,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1948_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1948": {
+      "colony": "Seychelles",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/seychelles.txt",
+      "timestamp": "2026-03-04T15:06:28.349243",
+      "total_officials": 13,
+      "passed_officials": 13,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 1,
+        "Executive Council": 3,
+        "Legislative Council - Nominated Unofficial": 7,
+        "Foreign Consular Officers": 2
+      },
+      "generation_time": 77.7,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1948,
+        "total": 13,
+        "high_confidence": 13,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 13,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1948_data_gpt-oss_120b.json"
+    },
+    "Sierra Leone_1948": {
+      "colony": "Sierra Leone",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/sierra_leone.txt",
+      "timestamp": "2026-03-04T15:07:46.077147",
+      "total_officials": 60,
+      "passed_officials": 60,
+      "quarantined_officials": 0,
+      "departments": {
+        "Governors": 26,
+        "Executive Council": 3,
+        "Legislative Council": 10,
+        "Religious Bodies": 14,
+        "Foreign Consular Officers": 7
+      },
+      "generation_time": 313.9,
+      "validation_summary": {
+        "colony": "Sierra Leone",
+        "year": 1948,
+        "total": 60,
+        "high_confidence": 60,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 60,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1948_data_gpt-oss_120b.json"
+    },
+    "Singapore_1948": {
+      "colony": "Singapore",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/singapore.txt",
+      "timestamp": "2026-03-04T15:12:59.992970",
+      "total_officials": 25,
+      "passed_officials": 25,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 25
+      },
+      "generation_time": 154.4,
+      "validation_summary": {
+        "colony": "Singapore",
+        "year": 1948,
+        "total": 25,
+        "high_confidence": 25,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 25,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/singapore_1948_data_gpt-oss_120b.json"
+    },
+    "St Helena_1948": {
+      "colony": "St Helena",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/st_helena.txt",
+      "timestamp": "2026-03-04T15:15:34.412820",
+      "total_officials": 14,
+      "passed_officials": 14,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 1,
+        "Executive Council": 2,
+        "Advisory Council": 6,
+        "Ecclesiastics": 2,
+        "Foreign Consular Officers": 3
+      },
+      "generation_time": 114.8,
+      "validation_summary": {
+        "colony": "St Helena",
+        "year": 1948,
+        "total": 14,
+        "high_confidence": 14,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 14,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1948_data_gpt-oss_120b.json"
+    },
+    "Tanganyika_1948": {
+      "colony": "Tanganyika",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/tanganyika.txt",
+      "timestamp": "2026-03-04T15:17:29.264071",
+      "total_officials": 64,
+      "passed_officials": 50,
+      "quarantined_officials": 14,
+      "departments": {
+        "Administrator": 7,
+        "Executive Council": 10,
+        "Legislative Council": 14,
+        "Representatives of Religious Bodies": 13,
+        "Foreign Consular Officers": 6
+      },
+      "generation_time": 353.0,
+      "validation_summary": {
+        "colony": "Tanganyika",
+        "year": 1948,
+        "total": 64,
+        "high_confidence": 42,
+        "medium_confidence": 8,
+        "low_confidence": 14,
+        "quarantined": 14,
+        "passed": 50,
+        "anomaly_count": 5
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tanganyika_1948_data_gpt-oss_120b.json"
+    },
+    "Trinidad_1948": {
+      "colony": "Trinidad",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/trinidad.txt",
+      "timestamp": "2026-03-04T15:23:22.356141",
+      "total_officials": 33,
+      "passed_officials": 32,
+      "quarantined_officials": 1,
+      "departments": {
+        "Church of England": 1,
+        "Roman Catholic": 1,
+        "Methodist": 3,
+        "Church of Scotland (Presbyterian)": 1,
+        "Baptist": 1,
+        "Moravian": 1,
+        "Salvation Army": 3,
+        "Presbyterian Church in Trinidad (Canadian Mission)": 3,
+        "Governors of Tobago": 18
+      },
+      "generation_time": 655.1,
+      "validation_summary": {
+        "colony": "Trinidad",
+        "year": 1948,
+        "total": 33,
+        "high_confidence": 16,
+        "medium_confidence": 16,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 32,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/trinidad_1948_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
