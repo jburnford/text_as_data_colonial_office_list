@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-04T07:34:24.253007",
+  "last_updated": "2026-03-04T07:44:06.444898",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -43411,6 +43411,46 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1940_data_gpt-oss_120b.json"
+    },
+    "Gambia_1940": {
+      "colony": "Gambia",
+      "year": 1940,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1940_manual_parsed/THE_GAMBIA.txt",
+      "timestamp": "2026-03-04T07:34:24.272221",
+      "total_officials": 64,
+      "passed_officials": 64,
+      "quarantined_officials": 0,
+      "departments": {
+        "Receiver-General's Department": 7,
+        "Legal Department": 5,
+        "Education": 1,
+        "Provincial Administration": 9,
+        "Police Force": 2,
+        "Prison": 1,
+        "Medical": 8,
+        "Health Department": 3,
+        "Public Works Department": 11,
+        "Land and Survey Department": 3,
+        "Audit Office": 1,
+        "Marine": 4,
+        "Agricultural Department": 3,
+        "Foreign Consuls": 6
+      },
+      "generation_time": 582.1,
+      "validation_summary": {
+        "colony": "Gambia",
+        "year": 1940,
+        "total": 64,
+        "high_confidence": 64,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 64,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1940_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
