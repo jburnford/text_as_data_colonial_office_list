@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-04T15:34:17.475666",
+  "last_updated": "2026-03-04T15:42:55.799817",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -45418,6 +45418,67 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/trinidad_1948_data_gpt-oss_120b.json"
+    },
+    "Uganda_1948": {
+      "colony": "Uganda",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/uganda.txt",
+      "timestamp": "2026-03-04T15:34:17.512956",
+      "total_officials": 48,
+      "passed_officials": 48,
+      "quarantined_officials": 0,
+      "departments": {
+        "Governors": 14,
+        "Executive Council": 2,
+        "Legislative Council": 14,
+        "Foreign Consular Officers": 13,
+        "Bibliography": 5
+      },
+      "generation_time": 319.8,
+      "validation_summary": {
+        "colony": "Uganda",
+        "year": 1948,
+        "total": 48,
+        "high_confidence": 47,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 48,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/uganda_1948_data_gpt-oss_120b.json"
+    },
+    "Zanzibar_1948": {
+      "colony": "Zanzibar",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/zanzibar.txt",
+      "timestamp": "2026-03-04T15:39:37.410343",
+      "total_officials": 31,
+      "passed_officials": 31,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 1,
+        "EXECUTIVE COUNCIL": 11,
+        "LEGISLATIVE COUNCIL": 16,
+        "FOREIGN CONSULAR OFFICERS": 3
+      },
+      "generation_time": 198.4,
+      "validation_summary": {
+        "colony": "Zanzibar",
+        "year": 1948,
+        "total": 31,
+        "high_confidence": 31,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 31,
+        "anomaly_count": 9
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/zanzibar_1948_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
