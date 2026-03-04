@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-04T07:44:06.444898",
+  "last_updated": "2026-03-04T08:04:10.950591",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -43451,6 +43451,86 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1940_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1940": {
+      "colony": "Gibraltar",
+      "year": 1940,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1940_manual_parsed/GIBRALTAR.txt",
+      "timestamp": "2026-03-04T07:44:06.487970",
+      "total_officials": 96,
+      "passed_officials": 96,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 6,
+        "Colonial Secretary's Department": 5,
+        "Revenue Department": 5,
+        "Port Department": 4,
+        "Public Works": 8,
+        "Audit": 3,
+        "Judicial Department": 13,
+        "Education Department": 1,
+        "Post Office and Telegraph Department": 8,
+        "Medical Department": 7,
+        "Civil Prison": 1,
+        "Mental Hospital": 1,
+        "Markets": 2,
+        "Ecclesiastical": 3,
+        "Military": 1,
+        "Consular Service": 28
+      },
+      "generation_time": 792.2,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1940,
+        "total": 96,
+        "high_confidence": 96,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 96,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1940_data_gpt-oss_120b.json"
+    },
+    "Gilbert and Ellice Islands_1940": {
+      "colony": "Gilbert and Ellice Islands",
+      "year": 1940,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1940_manual_parsed/THE_GILBERT_AND_ELLICE_ISLANDS_COLONY.txt",
+      "timestamp": "2026-03-04T07:57:18.694264",
+      "total_officials": 54,
+      "passed_officials": 54,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Secretariat": 1,
+        "District Administration": 17,
+        "Treasury, Customs and Postal Departments": 5,
+        "Police and Prisons Department": 2,
+        "Medical Department": 12,
+        "Education Department": 2,
+        "Public Works Department": 2,
+        "Transport": 3,
+        "Wireless Department": 2,
+        "Lands Commission": 2,
+        "null": 5
+      },
+      "generation_time": 412.2,
+      "validation_summary": {
+        "colony": "Gilbert and Ellice Islands",
+        "year": 1940,
+        "total": 54,
+        "high_confidence": 32,
+        "medium_confidence": 22,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 54,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gilbert_and_ellice_islands_1940_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
