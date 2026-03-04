@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-04T00:24:06.741946",
+  "last_updated": "2026-03-04T00:41:00.240106",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -42143,6 +42143,57 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1939_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1939": {
+      "colony": "British Honduras",
+      "year": 1939,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1939_manual_parsed/BRITISH_HONDURAS.txt",
+      "timestamp": "2026-03-04T00:24:06.765290",
+      "total_officials": 130,
+      "passed_officials": 130,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Secretariat": 5,
+        "Treasury": 9,
+        "Customs and Harbour": 10,
+        "Posts and Telegraphs": 9,
+        "Electrical Branch": 2,
+        "Telephone Branch": 7,
+        "Crown Law Office": 2,
+        "Judicial": 4,
+        "District Commissioners": 8,
+        "Audit": 3,
+        "Education": 3,
+        "Survey Department": 8,
+        "Forest Department": 3,
+        "Stann Creek Railway": 2,
+        "Public Works": 5,
+        "Medical": 14,
+        "Police": 2,
+        "Prisons": 2,
+        "Fire Brigade": 2,
+        "Agricultural Department": 7,
+        "Industrial School, Pomona, Stann Creek": 2,
+        "Foreign Consuls": 11,
+        "null": 2,
+        "Ecclesiastical": 6
+      },
+      "generation_time": 1013.4,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1939,
+        "total": 130,
+        "high_confidence": 130,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 130,
+        "anomaly_count": 4
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1939_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
