@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-04T13:38:03.405114",
+  "last_updated": "2026-03-04T14:34:05.325760",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -44725,6 +44725,332 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1948_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1948": {
+      "colony": "Bermuda",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/bermuda.txt",
+      "timestamp": "2026-03-04T13:38:03.424889",
+      "total_officials": 110,
+      "passed_officials": 110,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 40,
+        "Executive Council": 4,
+        "Legislative Council": 7,
+        "House of Assembly": 40,
+        "Representatives of Religious Bodies": 8,
+        "Foreign Consular Officers": 11
+      },
+      "generation_time": 597.8,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1948,
+        "total": 110,
+        "high_confidence": 102,
+        "medium_confidence": 8,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 110,
+        "anomaly_count": 8
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1948_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1948": {
+      "colony": "British Honduras",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/british_honduras.txt",
+      "timestamp": "2026-03-04T13:48:01.338264",
+      "total_officials": 68,
+      "passed_officials": 68,
+      "quarantined_officials": 0,
+      "departments": {
+        "ADMINISTRATORS OF THE GOVERNMENT OF BRITISH HONDURAS": 26,
+        "GOVERNORS": 13,
+        "EXECUTIVE COUNCIL": 6,
+        "LEGISLATIVE COUNCIL": 11,
+        "REPRESENTATIVES OF CHURCHES": 3,
+        "FOREIGN CONSULAR OFFICERS": 9
+      },
+      "generation_time": 407.7,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1948,
+        "total": 68,
+        "high_confidence": 67,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 68,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1948_data_gpt-oss_120b.json"
+    },
+    "British Somaliland_1948": {
+      "colony": "British Somaliland",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/somaliland_protectorate.txt",
+      "timestamp": "2026-03-04T13:54:49.083787",
+      "total_officials": 7,
+      "passed_officials": 7,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 7
+      },
+      "generation_time": 114.8,
+      "validation_summary": {
+        "colony": "British Somaliland",
+        "year": 1948,
+        "total": 7,
+        "high_confidence": 7,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 7,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_somaliland_1948_data_gpt-oss_120b.json"
+    },
+    "Brunei_1948": {
+      "colony": "Brunei",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/brunei.txt",
+      "timestamp": "2026-03-04T13:56:43.883040",
+      "total_officials": 26,
+      "passed_officials": 26,
+      "quarantined_officials": 0,
+      "departments": {
+        "British Residents": 17,
+        "State Council": 9
+      },
+      "generation_time": 133.0,
+      "validation_summary": {
+        "colony": "Brunei",
+        "year": 1948,
+        "total": 26,
+        "high_confidence": 26,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 26,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/brunei_1948_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1948": {
+      "colony": "Falkland Islands",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/falkland_islands.txt",
+      "timestamp": "2026-03-04T13:58:56.923201",
+      "total_officials": 33,
+      "passed_officials": 32,
+      "quarantined_officials": 1,
+      "departments": {
+        "Governors": 17,
+        "Executive Council": 3,
+        "Legislative Council": 5,
+        "Representatives of Churches": 4,
+        "Foreign Consular Officers": 3
+      },
+      "generation_time": 182.4,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1948,
+        "total": 33,
+        "high_confidence": 29,
+        "medium_confidence": 3,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 32,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1948_data_gpt-oss_120b.json"
+    },
+    "Federation of Malaya_1948": {
+      "colony": "Federation of Malaya",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/federation_of_malaya.txt",
+      "timestamp": "2026-03-04T14:01:59.411787",
+      "total_officials": 21,
+      "passed_officials": 21,
+      "quarantined_officials": 0,
+      "departments": {
+        "List of Governors of the Straits Settlements and High Commissioners for the Malay States": 21
+      },
+      "generation_time": 416.8,
+      "validation_summary": {
+        "colony": "Federation of Malaya",
+        "year": 1948,
+        "total": 21,
+        "high_confidence": 21,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 21,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/federation_of_malaya_1948_data_gpt-oss_120b.json"
+    },
+    "Fiji_1948": {
+      "colony": "Fiji",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/fiji.txt",
+      "timestamp": "2026-03-04T14:08:56.207112",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 469.5,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1948,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1948_data_gpt-oss_120b.json"
+    },
+    "Gambia_1948": {
+      "colony": "Gambia",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/the_gambia.txt",
+      "timestamp": "2026-03-04T14:16:45.774987",
+      "total_officials": 40,
+      "passed_officials": 40,
+      "quarantined_officials": 0,
+      "departments": {
+        "Administration": 16,
+        "Governors": 4,
+        "Executive Council": 7,
+        "Legislative Council": 8,
+        "Foreign Consular": 5
+      },
+      "generation_time": 233.6,
+      "validation_summary": {
+        "colony": "Gambia",
+        "year": 1948,
+        "total": 40,
+        "high_confidence": 40,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 40,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1948_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1948": {
+      "colony": "Gibraltar",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/gibraltar.txt",
+      "timestamp": "2026-03-04T14:20:39.376307",
+      "total_officials": 58,
+      "passed_officials": 58,
+      "quarantined_officials": 0,
+      "departments": {
+        "CURRENCY AND BANKING": 1,
+        "Labour and Social Welfare": 1,
+        "Executive Council": 4,
+        "CITY COUNCIL": 7,
+        "Service Representatives": 3,
+        "Colonial Government Representatives": 3,
+        "REPRESENTATIVES OF CHURCHES": 3,
+        "FOREIGN CONSULAR OFFICERS": 22,
+        "Governors since 1900": 14
+      },
+      "generation_time": 305.0,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1948,
+        "total": 58,
+        "high_confidence": 58,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 58,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1948_data_gpt-oss_120b.json"
+    },
+    "Hong Kong_1948": {
+      "colony": "Hong Kong",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/hong_kong.txt",
+      "timestamp": "2026-03-04T14:25:44.395643",
+      "total_officials": 49,
+      "passed_officials": 49,
+      "quarantined_officials": 0,
+      "departments": {
+        "Governors": 25,
+        "Executive Council": 13,
+        "Legislative Council": 11
+      },
+      "generation_time": 321.1,
+      "validation_summary": {
+        "colony": "Hong Kong",
+        "year": 1948,
+        "total": 49,
+        "high_confidence": 43,
+        "medium_confidence": 6,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 49,
+        "anomaly_count": 5
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1948_data_gpt-oss_120b.json"
+    },
+    "Leeward Islands_1948": {
+      "colony": "Leeward Islands",
+      "year": 1948,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/leeward_islands.txt",
+      "timestamp": "2026-03-04T14:31:05.516186",
+      "total_officials": 26,
+      "passed_officials": 26,
+      "quarantined_officials": 0,
+      "departments": {
+        "Executive Council": 12,
+        "Legislative Council": 8,
+        "Commissioners": 6
+      },
+      "generation_time": 179.8,
+      "validation_summary": {
+        "colony": "Leeward Islands",
+        "year": 1948,
+        "total": 26,
+        "high_confidence": 22,
+        "medium_confidence": 4,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 26,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/leeward_islands_1948_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
