@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-04T12:36:07.762885",
+  "last_updated": "2026-03-04T12:44:50.311852",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -44264,6 +44264,70 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_somaliland_1946_data_gpt-oss_120b.json"
+    },
+    "Cyprus_1946": {
+      "colony": "Cyprus",
+      "year": 1946,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1946_manual_parsed/cyprus.txt",
+      "timestamp": "2026-03-04T12:36:07.804287",
+      "total_officials": 43,
+      "passed_officials": 42,
+      "quarantined_officials": 1,
+      "departments": {
+        "null": 2,
+        "High Commissioners": 5,
+        "Governors": 6,
+        "Executive Council": 7,
+        "Advisory Council": 7,
+        "Representatives of Churches": 4,
+        "Foreign Consuls": 11
+      },
+      "generation_time": 353.0,
+      "validation_summary": {
+        "colony": "Cyprus",
+        "year": 1946,
+        "total": 43,
+        "high_confidence": 42,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 42,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cyprus_1946_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1946": {
+      "colony": "Falkland Islands",
+      "year": 1946,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1946_manual_parsed/falkland_islands.txt",
+      "timestamp": "2026-03-04T12:42:00.908400",
+      "total_officials": 22,
+      "passed_officials": 22,
+      "quarantined_officials": 0,
+      "departments": {
+        "Governors": 9,
+        "Executive Council": 3,
+        "Legislative Council": 4,
+        "Representatives of Churches": 4,
+        "Foreign Consuls": 2
+      },
+      "generation_time": 169.4,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1946,
+        "total": 22,
+        "high_confidence": 22,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 22,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1946_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
