@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-04T04:31:00.131939",
+  "last_updated": "2026-03-04T04:37:05.842367",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -42862,6 +42862,46 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1939_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1939": {
+      "colony": "Seychelles",
+      "year": 1939,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1939_manual_parsed/SEYCHELLES.txt",
+      "timestamp": "2026-03-04T04:31:00.150875",
+      "total_officials": 24,
+      "passed_officials": 24,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Governor's Office": 1,
+        "Treasury and Customs": 2,
+        "Audit Department": 1,
+        "Port Department": 1,
+        "Legal Department": 3,
+        "Prison Department": 1,
+        "Medical Department": 4,
+        "Education Department": 1,
+        "Post Office": 1,
+        "Department of Agriculture": 2,
+        "Public Works Department": 1,
+        "Victoria Town Board": 1,
+        "Foreign Consuls": 3
+      },
+      "generation_time": 365.7,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1939,
+        "total": 24,
+        "high_confidence": 24,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 24,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1939_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
