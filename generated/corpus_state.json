@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T00:25:13.564600",
+  "last_updated": "2026-03-05T00:41:37.374489",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -47641,6 +47641,57 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1951_data_gpt-oss_120b.json"
+    },
+    "Sarawak_1951": {
+      "colony": "Sarawak",
+      "year": 1951,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1951_manual_parsed/sarawak.txt",
+      "timestamp": "2026-03-05T00:25:13.586712",
+      "total_officials": 164,
+      "passed_officials": 164,
+      "quarantined_officials": 0,
+      "departments": {
+        "Governor and Personal Staff": 2,
+        "Secretariat": 10,
+        "Administrative Service": 37,
+        "Agriculture": 7,
+        "Audit": 2,
+        "CONSTABULARY": 15,
+        "CO-OPERATIVE": 2,
+        "Education": 11,
+        "Fisheries Survey": 1,
+        "Forest": 5,
+        "Geological Surveys": 5,
+        "Judicial": 5,
+        "Lands and Surveys": 9,
+        "Legal": 2,
+        "Marine": 1,
+        "Medical and Health": 18,
+        "Museum": 1,
+        "Posts and Telegraphs": 2,
+        "PRINTING": 1,
+        "Prisons": 2,
+        "Public Works": 10,
+        "Secretariat for Chinese Affairs": 1,
+        "Supply (Temporary Department)": 1,
+        "Trade and Customs": 7,
+        "Treasury": 7
+      },
+      "generation_time": 983.7,
+      "validation_summary": {
+        "colony": "Sarawak",
+        "year": 1951,
+        "total": 164,
+        "high_confidence": 164,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 164,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1951_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
