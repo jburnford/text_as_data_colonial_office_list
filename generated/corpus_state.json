@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T05:34:58.048757",
+  "last_updated": "2026-03-05T05:41:20.399704",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -49613,6 +49613,33 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1954_data_gpt-oss_120b.json"
+    },
+    "Singapore_1954": {
+      "colony": "Singapore",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/SINGAPORE.txt",
+      "timestamp": "2026-03-05T05:34:58.097351",
+      "total_officials": 90,
+      "passed_officials": 90,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 90
+      },
+      "generation_time": 382.3,
+      "validation_summary": {
+        "colony": "Singapore",
+        "year": 1954,
+        "total": 90,
+        "high_confidence": 90,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 90,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/singapore_1954_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
