@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T01:39:02.589065",
+  "last_updated": "2026-03-05T02:32:42.528840",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -48195,6 +48195,249 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1953_data_gpt-oss_120b.json"
+    },
+    "Gold Coast_1953": {
+      "colony": "Gold Coast",
+      "year": 1953,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/gold_coast.txt",
+      "timestamp": "2026-03-05T01:39:02.632377",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 418.4,
+      "validation_summary": {
+        "colony": "Gold Coast",
+        "year": 1953,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gold_coast_1953_data_gpt-oss_120b.json"
+    },
+    "Hong Kong_1953": {
+      "colony": "Hong Kong",
+      "year": 1953,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/hong_kong.txt",
+      "timestamp": "2026-03-05T01:46:01.112675",
+      "total_officials": 78,
+      "passed_officials": 78,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 78
+      },
+      "generation_time": 359.2,
+      "validation_summary": {
+        "colony": "Hong Kong",
+        "year": 1953,
+        "total": 78,
+        "high_confidence": 78,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 78,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1953_data_gpt-oss_120b.json"
+    },
+    "Jamaica_1953": {
+      "colony": "Jamaica",
+      "year": 1953,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/jamaica.txt",
+      "timestamp": "2026-03-05T01:52:00.376853",
+      "total_officials": 82,
+      "passed_officials": 82,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 82
+      },
+      "generation_time": 451.1,
+      "validation_summary": {
+        "colony": "Jamaica",
+        "year": 1953,
+        "total": 82,
+        "high_confidence": 82,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 82,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/jamaica_1953_data_gpt-oss_120b.json"
+    },
+    "Kenya_1953": {
+      "colony": "Kenya",
+      "year": 1953,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/kenya.txt",
+      "timestamp": "2026-03-05T01:59:31.572179",
+      "total_officials": 77,
+      "passed_officials": 77,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 77
+      },
+      "generation_time": 372.5,
+      "validation_summary": {
+        "colony": "Kenya",
+        "year": 1953,
+        "total": 77,
+        "high_confidence": 77,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 77,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kenya_1953_data_gpt-oss_120b.json"
+    },
+    "Leeward Islands_1953": {
+      "colony": "Leeward Islands",
+      "year": 1953,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/leeward_islands.txt",
+      "timestamp": "2026-03-05T02:05:44.099663",
+      "total_officials": 79,
+      "passed_officials": 79,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 44,
+        "Executive Council": 14,
+        "Legislative Council": 21
+      },
+      "generation_time": 469.2,
+      "validation_summary": {
+        "colony": "Leeward Islands",
+        "year": 1953,
+        "total": 79,
+        "high_confidence": 79,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 79,
+        "anomaly_count": 9
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/leeward_islands_1953_data_gpt-oss_120b.json"
+    },
+    "Malta_1953": {
+      "colony": "Malta",
+      "year": 1953,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/malta.txt",
+      "timestamp": "2026-03-05T02:13:33.387208",
+      "total_officials": 72,
+      "passed_officials": 72,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Maltese Imperial Government": 3,
+        "The Maltese Government": 65
+      },
+      "generation_time": 332.5,
+      "validation_summary": {
+        "colony": "Malta",
+        "year": 1953,
+        "total": 72,
+        "high_confidence": 72,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 72,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1953_data_gpt-oss_120b.json"
+    },
+    "Mauritius_1953": {
+      "colony": "Mauritius",
+      "year": 1953,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/mauritius.txt",
+      "timestamp": "2026-03-05T02:19:05.947927",
+      "total_officials": 53,
+      "passed_officials": 53,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 53
+      },
+      "generation_time": 269.8,
+      "validation_summary": {
+        "colony": "Mauritius",
+        "year": 1953,
+        "total": 53,
+        "high_confidence": 53,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 53,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/mauritius_1953_data_gpt-oss_120b.json"
+    },
+    "Nigeria_1953": {
+      "colony": "Nigeria",
+      "year": 1953,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/nigeria.txt",
+      "timestamp": "2026-03-05T02:23:35.814822",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 420.1,
+      "validation_summary": {
+        "colony": "Nigeria",
+        "year": 1953,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nigeria_1953_data_gpt-oss_120b.json"
+    },
+    "North Borneo_1953": {
+      "colony": "North Borneo",
+      "year": 1953,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/north_borneo.txt",
+      "timestamp": "2026-03-05T02:30:35.954909",
+      "total_officials": 29,
+      "passed_officials": 29,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 29
+      },
+      "generation_time": 126.6,
+      "validation_summary": {
+        "colony": "North Borneo",
+        "year": 1953,
+        "total": 29,
+        "high_confidence": 29,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 29,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1953_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
