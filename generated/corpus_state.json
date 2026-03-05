@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T13:41:32.232045",
+  "last_updated": "2026-03-05T14:35:48.376601",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -52636,6 +52636,364 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1957_data_gpt-oss_120b.json"
+    },
+    "Singapore_1957": {
+      "colony": "Singapore",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/SINGAPORE.txt",
+      "timestamp": "2026-03-05T13:41:32.260117",
+      "total_officials": 74,
+      "passed_officials": 74,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 74
+      },
+      "generation_time": 346.6,
+      "validation_summary": {
+        "colony": "Singapore",
+        "year": 1957,
+        "total": 74,
+        "high_confidence": 74,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 74,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/singapore_1957_data_gpt-oss_120b.json"
+    },
+    "St Helena_1957": {
+      "colony": "St Helena",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/ST_HELENA.txt",
+      "timestamp": "2026-03-05T13:47:18.913922",
+      "total_officials": 18,
+      "passed_officials": 18,
+      "quarantined_officials": 0,
+      "departments": {
+        "CIVIL ESTABLISHMENT": 15,
+        "ASCENSION": 1,
+        "TRISTAN DA CUNHA": 2
+      },
+      "generation_time": 102.7,
+      "validation_summary": {
+        "colony": "St Helena",
+        "year": 1957,
+        "total": 18,
+        "high_confidence": 18,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 18,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1957_data_gpt-oss_120b.json"
+    },
+    "Tanganyika_1957": {
+      "colony": "Tanganyika",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/TANGANYIKA.txt",
+      "timestamp": "2026-03-05T13:49:01.667102",
+      "total_officials": 80,
+      "passed_officials": 79,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 79
+      },
+      "generation_time": 338.2,
+      "validation_summary": {
+        "colony": "Tanganyika",
+        "year": 1957,
+        "total": 80,
+        "high_confidence": 79,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 79,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tanganyika_1957_data_gpt-oss_120b.json"
+    },
+    "Tonga_1957": {
+      "colony": "Tonga",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/KINGDOM_OF_TONGA.txt",
+      "timestamp": "2026-03-05T13:54:39.931722",
+      "total_officials": 10,
+      "passed_officials": 10,
+      "quarantined_officials": 0,
+      "departments": {
+        "MINISTERS": 9,
+        "BRITISH AGENT AND CONSUL": 1
+      },
+      "generation_time": 77.2,
+      "validation_summary": {
+        "colony": "Tonga",
+        "year": 1957,
+        "total": 10,
+        "high_confidence": 5,
+        "medium_confidence": 5,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 10,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tonga_1957_data_gpt-oss_120b.json"
+    },
+    "Trinidad and Tobago_1957": {
+      "colony": "Trinidad and Tobago",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/TRINIDAD_AND_TOBAGO.txt",
+      "timestamp": "2026-03-05T13:55:57.215010",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 419.5,
+      "validation_summary": {
+        "colony": "Trinidad and Tobago",
+        "year": 1957,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/trinidad_and_tobago_1957_data_gpt-oss_120b.json"
+    },
+    "Uganda_1957": {
+      "colony": "Uganda",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/UGANDA.txt",
+      "timestamp": "2026-03-05T14:02:56.725709",
+      "total_officials": 73,
+      "passed_officials": 73,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 73
+      },
+      "generation_time": 299.6,
+      "validation_summary": {
+        "colony": "Uganda",
+        "year": 1957,
+        "total": 73,
+        "high_confidence": 73,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 73,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/uganda_1957_data_gpt-oss_120b.json"
+    },
+    "Western Pacific_1957": {
+      "colony": "Western Pacific",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/WESTERN_PACIFIC_HIGH_COMMISSION.txt",
+      "timestamp": "2026-03-05T14:07:56.417101",
+      "total_officials": 74,
+      "passed_officials": 74,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 44,
+        "null": 5,
+        "British National Administration": 10,
+        "FRENCH NATIONAL ADMINISTRATION": 7,
+        "JOINT SERVICES": 8
+      },
+      "generation_time": 575.9,
+      "validation_summary": {
+        "colony": "Western Pacific",
+        "year": 1957,
+        "total": 74,
+        "high_confidence": 71,
+        "medium_confidence": 3,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 74,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/western_pacific_1957_data_gpt-oss_120b.json"
+    },
+    "Windward Islands_1957": {
+      "colony": "Windward Islands",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/WINDWARD_ISLANDS.txt",
+      "timestamp": "2026-03-05T14:17:32.363426",
+      "total_officials": 13,
+      "passed_officials": 13,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 13
+      },
+      "generation_time": 74.7,
+      "validation_summary": {
+        "colony": "Windward Islands",
+        "year": 1957,
+        "total": 13,
+        "high_confidence": 13,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 13,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/windward_islands_1957_data_gpt-oss_120b.json"
+    },
+    "Zanzibar_1957": {
+      "colony": "Zanzibar",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/ZANZIBAR.txt",
+      "timestamp": "2026-03-05T14:18:47.134708",
+      "total_officials": 2,
+      "passed_officials": 2,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2
+      },
+      "generation_time": 28.5,
+      "validation_summary": {
+        "colony": "Zanzibar",
+        "year": 1957,
+        "total": 2,
+        "high_confidence": 2,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 2,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/zanzibar_1957_data_gpt-oss_120b.json"
+    },
+    "Aden_1958": {
+      "colony": "Aden",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/aden.txt",
+      "timestamp": "2026-03-05T14:19:15.701118",
+      "total_officials": 43,
+      "passed_officials": 43,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 33,
+        "Aden Protectorate": 9,
+        "Kamaran": 1
+      },
+      "generation_time": 243.1,
+      "validation_summary": {
+        "colony": "Aden",
+        "year": 1958,
+        "total": 43,
+        "high_confidence": 43,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 43,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/aden_1958_data_gpt-oss_120b.json"
+    },
+    "Bahamas_1958": {
+      "colony": "Bahamas",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/bahama_islands.txt",
+      "timestamp": "2026-03-05T14:23:18.877079",
+      "total_officials": 39,
+      "passed_officials": 39,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 39
+      },
+      "generation_time": 184.6,
+      "validation_summary": {
+        "colony": "Bahamas",
+        "year": 1958,
+        "total": 39,
+        "high_confidence": 39,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 39,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1958_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1958": {
+      "colony": "Bermuda",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/bermuda.txt",
+      "timestamp": "2026-03-05T14:26:23.559421",
+      "total_officials": 31,
+      "passed_officials": 31,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 31
+      },
+      "generation_time": 203.8,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1958,
+        "total": 31,
+        "high_confidence": 31,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 31,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1958_data_gpt-oss_120b.json"
+    },
+    "British Guiana_1958": {
+      "colony": "British Guiana",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/british_guiana.txt",
+      "timestamp": "2026-03-05T14:29:47.455425",
+      "total_officials": 83,
+      "passed_officials": 83,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 83
+      },
+      "generation_time": 360.9,
+      "validation_summary": {
+        "colony": "British Guiana",
+        "year": 1958,
+        "total": 83,
+        "high_confidence": 83,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 83,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_guiana_1958_data_gpt-oss_120b.json"
     }
   },
   "failed": {},

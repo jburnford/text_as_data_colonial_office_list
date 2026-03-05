@@ -1,0 +1,57 @@
+{
+  "colony": "Zanzibar",
+  "year": 1957,
+  "generated": "2026-03-05T14:19:15.649161",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "Sir Henry Potter",
+      "canonical_name": "Potter, Sir Henry",
+      "given_names": "Sir Henry",
+      "surname": "Potter",
+      "position": "British Resident",
+      "department": "Civil Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "R. E. Alford",
+      "canonical_name": "Alford, R. E.",
+      "given_names": "R. E.",
+      "surname": "Alford",
+      "position": "Chief Secretary to the Government (Chairman, Central Development Authority)",
+      "department": "Civil Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Zanzibar",
+    "year": 1957,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}
