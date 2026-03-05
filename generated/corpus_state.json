@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T14:43:05.344850",
+  "last_updated": "2026-03-05T15:36:29.039245",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -53075,6 +53075,332 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/brunei_1958_data_gpt-oss_120b.json"
+    },
+    "Cyprus_1958": {
+      "colony": "Cyprus",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/cyprus.txt",
+      "timestamp": "2026-03-05T14:43:05.391360",
+      "total_officials": 70,
+      "passed_officials": 70,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 70
+      },
+      "generation_time": 353.0,
+      "validation_summary": {
+        "colony": "Cyprus",
+        "year": 1958,
+        "total": 70,
+        "high_confidence": 70,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 70,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cyprus_1958_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1958": {
+      "colony": "Falkland Islands",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/falkland_islands_and_dependencies.txt",
+      "timestamp": "2026-03-05T14:48:58.485783",
+      "total_officials": 13,
+      "passed_officials": 13,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 11,
+        "Dependencies": 2
+      },
+      "generation_time": 82.9,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1958,
+        "total": 13,
+        "high_confidence": 13,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 13,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1958_data_gpt-oss_120b.json"
+    },
+    "Fiji_1958": {
+      "colony": "Fiji",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/fiji.txt",
+      "timestamp": "2026-03-05T14:50:21.401994",
+      "total_officials": 47,
+      "passed_officials": 47,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 46,
+        "Pitcairn Islands Group": 1
+      },
+      "generation_time": 263.5,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1958,
+        "total": 47,
+        "high_confidence": 47,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 47,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1958_data_gpt-oss_120b.json"
+    },
+    "Gambia_1958": {
+      "colony": "Gambia",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/gambia.txt",
+      "timestamp": "2026-03-05T14:54:44.931003",
+      "total_officials": 21,
+      "passed_officials": 21,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 21
+      },
+      "generation_time": 100.0,
+      "validation_summary": {
+        "colony": "Gambia",
+        "year": 1958,
+        "total": 21,
+        "high_confidence": 21,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 21,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1958_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1958": {
+      "colony": "Gibraltar",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/gibraltar.txt",
+      "timestamp": "2026-03-05T14:56:24.964809",
+      "total_officials": 21,
+      "passed_officials": 21,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 21
+      },
+      "generation_time": 114.8,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1958,
+        "total": 21,
+        "high_confidence": 21,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 21,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1958_data_gpt-oss_120b.json"
+    },
+    "Hong Kong_1958": {
+      "colony": "Hong Kong",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/hong_kong.txt",
+      "timestamp": "2026-03-05T14:58:19.770219",
+      "total_officials": 71,
+      "passed_officials": 71,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 71
+      },
+      "generation_time": 328.6,
+      "validation_summary": {
+        "colony": "Hong Kong",
+        "year": 1958,
+        "total": 71,
+        "high_confidence": 71,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 71,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1958_data_gpt-oss_120b.json"
+    },
+    "Kenya_1958": {
+      "colony": "Kenya",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/kenya.txt",
+      "timestamp": "2026-03-05T15:03:48.415062",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 418.9,
+      "validation_summary": {
+        "colony": "Kenya",
+        "year": 1958,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kenya_1958_data_gpt-oss_120b.json"
+    },
+    "Leeward Islands_1958": {
+      "colony": "Leeward Islands",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/leeward_islands.txt",
+      "timestamp": "2026-03-05T15:10:47.362881",
+      "total_officials": 7,
+      "passed_officials": 6,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 6
+      },
+      "generation_time": 46.8,
+      "validation_summary": {
+        "colony": "Leeward Islands",
+        "year": 1958,
+        "total": 7,
+        "high_confidence": 6,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 6,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/leeward_islands_1958_data_gpt-oss_120b.json"
+    },
+    "Malta_1958": {
+      "colony": "Malta",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/malta.txt",
+      "timestamp": "2026-03-05T15:11:34.217177",
+      "total_officials": 66,
+      "passed_officials": 66,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Maltese Imperial Government": 5,
+        "The Maltese Government": 57
+      },
+      "generation_time": 315.4,
+      "validation_summary": {
+        "colony": "Malta",
+        "year": 1958,
+        "total": 66,
+        "high_confidence": 66,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 66,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1958_data_gpt-oss_120b.json"
+    },
+    "Mauritius_1958": {
+      "colony": "Mauritius",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/mauritius.txt",
+      "timestamp": "2026-03-05T15:16:49.716763",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 416.7,
+      "validation_summary": {
+        "colony": "Mauritius",
+        "year": 1958,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/mauritius_1958_data_gpt-oss_120b.json"
+    },
+    "North Borneo_1958": {
+      "colony": "North Borneo",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/north_borneo.txt",
+      "timestamp": "2026-03-05T15:23:46.461384",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 31.0,
+      "validation_summary": {
+        "colony": "North Borneo",
+        "year": 1958,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1958_data_gpt-oss_120b.json"
+    },
+    "Northern Rhodesia_1958": {
+      "colony": "Northern Rhodesia",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/northern_rhodesia.txt",
+      "timestamp": "2026-03-05T15:24:17.547365",
+      "total_officials": 125,
+      "passed_officials": 125,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 103,
+        "Administrators": 6,
+        "Governors": 8,
+        "Executive Council": 6,
+        "Legislative Council": 2
+      },
+      "generation_time": 731.4,
+      "validation_summary": {
+        "colony": "Northern Rhodesia",
+        "year": 1958,
+        "total": 125,
+        "high_confidence": 125,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 125,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1958_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
