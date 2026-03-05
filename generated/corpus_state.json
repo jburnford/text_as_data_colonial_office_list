@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T08:36:10.899306",
+  "last_updated": "2026-03-05T08:45:11.040993",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -50750,6 +50750,86 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tanganyika_1955_data_gpt-oss_120b.json"
+    },
+    "Tonga_1955": {
+      "colony": "Tonga",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/TONGA.txt",
+      "timestamp": "2026-03-05T08:36:10.922266",
+      "total_officials": 10,
+      "passed_officials": 10,
+      "quarantined_officials": 0,
+      "departments": {
+        "Ministers": 9,
+        "British Agent and Consul": 1
+      },
+      "generation_time": 61.7,
+      "validation_summary": {
+        "colony": "Tonga",
+        "year": 1955,
+        "total": 10,
+        "high_confidence": 5,
+        "medium_confidence": 5,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 10,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tonga_1955_data_gpt-oss_120b.json"
+    },
+    "Trinidad and Tobago_1955": {
+      "colony": "Trinidad and Tobago",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/TRINIDAD_AND_TOBAGO.txt",
+      "timestamp": "2026-03-05T08:37:12.643522",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 418.6,
+      "validation_summary": {
+        "colony": "Trinidad and Tobago",
+        "year": 1955,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/trinidad_and_tobago_1955_data_gpt-oss_120b.json"
+    },
+    "Turks and Caicos Islands_1955": {
+      "colony": "Turks and Caicos Islands",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/TURKS_AND_CAICOS_ISLANDS.txt",
+      "timestamp": "2026-03-05T08:44:11.286789",
+      "total_officials": 7,
+      "passed_officials": 7,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 7
+      },
+      "generation_time": 59.8,
+      "validation_summary": {
+        "colony": "Turks and Caicos Islands",
+        "year": 1955,
+        "total": 7,
+        "high_confidence": 7,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 7,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/turks_and_caicos_islands_1955_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
