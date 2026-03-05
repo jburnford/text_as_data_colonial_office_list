@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T07:42:33.189894",
+  "last_updated": "2026-03-05T08:36:10.899306",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -50425,6 +50425,331 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/leeward_islands_1955_data_gpt-oss_120b.json"
+    },
+    "Malta_1955": {
+      "colony": "Malta",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/MALTA.txt",
+      "timestamp": "2026-03-05T07:42:33.212718",
+      "total_officials": 73,
+      "passed_officials": 73,
+      "quarantined_officials": 0,
+      "departments": {
+        "CIVIL ESTABLISHMENT": 4,
+        "MALTESE IMPERIAL GOVERNMENT": 5,
+        "THE MALTESE GOVERNMENT": 64
+      },
+      "generation_time": 358.5,
+      "validation_summary": {
+        "colony": "Malta",
+        "year": 1955,
+        "total": 73,
+        "high_confidence": 73,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 73,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1955_data_gpt-oss_120b.json"
+    },
+    "Mauritius_1955": {
+      "colony": "Mauritius",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/MAURITIUS.txt",
+      "timestamp": "2026-03-05T07:48:31.826537",
+      "total_officials": 58,
+      "passed_officials": 58,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 58
+      },
+      "generation_time": 306.0,
+      "validation_summary": {
+        "colony": "Mauritius",
+        "year": 1955,
+        "total": 58,
+        "high_confidence": 58,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 58,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/mauritius_1955_data_gpt-oss_120b.json"
+    },
+    "Nigeria_1955": {
+      "colony": "Nigeria",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/NIGERIA.txt",
+      "timestamp": "2026-03-05T07:53:37.850143",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 421.3,
+      "validation_summary": {
+        "colony": "Nigeria",
+        "year": 1955,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nigeria_1955_data_gpt-oss_120b.json"
+    },
+    "North Borneo_1955": {
+      "colony": "North Borneo",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/NORTH_BORNEO.txt",
+      "timestamp": "2026-03-05T08:00:39.243952",
+      "total_officials": 31,
+      "passed_officials": 30,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 30
+      },
+      "generation_time": 150.1,
+      "validation_summary": {
+        "colony": "North Borneo",
+        "year": 1955,
+        "total": 31,
+        "high_confidence": 30,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 30,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1955_data_gpt-oss_120b.json"
+    },
+    "Northern Rhodesia_1955": {
+      "colony": "Northern Rhodesia",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/NORTHERN_RHODESIA.txt",
+      "timestamp": "2026-03-05T08:03:09.411591",
+      "total_officials": 66,
+      "passed_officials": 66,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 66
+      },
+      "generation_time": 343.1,
+      "validation_summary": {
+        "colony": "Northern Rhodesia",
+        "year": 1955,
+        "total": 66,
+        "high_confidence": 66,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 66,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1955_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1955": {
+      "colony": "Nyasaland",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/NYASALAND.txt",
+      "timestamp": "2026-03-05T08:08:52.598739",
+      "total_officials": 51,
+      "passed_officials": 51,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 51
+      },
+      "generation_time": 239.7,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1955,
+        "total": 51,
+        "high_confidence": 51,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 51,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1955_data_gpt-oss_120b.json"
+    },
+    "Sarawak_1955": {
+      "colony": "Sarawak",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/SARAWAK.txt",
+      "timestamp": "2026-03-05T08:12:52.399370",
+      "total_officials": 45,
+      "passed_officials": 45,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 45
+      },
+      "generation_time": 215.3,
+      "validation_summary": {
+        "colony": "Sarawak",
+        "year": 1955,
+        "total": 45,
+        "high_confidence": 45,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 45,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1955_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1955": {
+      "colony": "Seychelles",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/SEYCHELLES.txt",
+      "timestamp": "2026-03-05T08:16:27.763986",
+      "total_officials": 17,
+      "passed_officials": 17,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 17
+      },
+      "generation_time": 96.5,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1955,
+        "total": 17,
+        "high_confidence": 17,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 17,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1955_data_gpt-oss_120b.json"
+    },
+    "Sierra Leone_1955": {
+      "colony": "Sierra Leone",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/SIERRA_LEONE.txt",
+      "timestamp": "2026-03-05T08:18:04.318090",
+      "total_officials": 45,
+      "passed_officials": 45,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 45
+      },
+      "generation_time": 211.1,
+      "validation_summary": {
+        "colony": "Sierra Leone",
+        "year": 1955,
+        "total": 45,
+        "high_confidence": 45,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 45,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1955_data_gpt-oss_120b.json"
+    },
+    "Singapore_1955": {
+      "colony": "Singapore",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/SINGAPORE.txt",
+      "timestamp": "2026-03-05T08:21:35.510251",
+      "total_officials": 71,
+      "passed_officials": 71,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 71
+      },
+      "generation_time": 321.9,
+      "validation_summary": {
+        "colony": "Singapore",
+        "year": 1955,
+        "total": 71,
+        "high_confidence": 71,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 71,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/singapore_1955_data_gpt-oss_120b.json"
+    },
+    "St Helena_1955": {
+      "colony": "St Helena",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/ST_HELENA.txt",
+      "timestamp": "2026-03-05T08:26:57.407872",
+      "total_officials": 21,
+      "passed_officials": 21,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 16,
+        "Ascension": 1,
+        "Tristan da Cunha": 3,
+        "General": 1
+      },
+      "generation_time": 136.8,
+      "validation_summary": {
+        "colony": "St Helena",
+        "year": 1955,
+        "total": 21,
+        "high_confidence": 20,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 21,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1955_data_gpt-oss_120b.json"
+    },
+    "Tanganyika_1955": {
+      "colony": "Tanganyika",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/TANGANYIKA.txt",
+      "timestamp": "2026-03-05T08:29:14.286314",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 416.6,
+      "validation_summary": {
+        "colony": "Tanganyika",
+        "year": 1955,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tanganyika_1955_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
