@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T10:31:08.099384",
+  "last_updated": "2026-03-05T10:36:58.213424",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -51490,6 +51490,33 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1956_data_gpt-oss_120b.json"
+    },
+    "Mauritius_1956": {
+      "colony": "Mauritius",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/MAURITIUS.txt",
+      "timestamp": "2026-03-05T10:31:08.141375",
+      "total_officials": 67,
+      "passed_officials": 67,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 67
+      },
+      "generation_time": 350.1,
+      "validation_summary": {
+        "colony": "Mauritius",
+        "year": 1956,
+        "total": 67,
+        "high_confidence": 67,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 67,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/mauritius_1956_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
