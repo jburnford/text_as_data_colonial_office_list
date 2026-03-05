@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T12:31:22.974050",
+  "last_updated": "2026-03-05T12:37:23.487812",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -52308,6 +52308,33 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1957_data_gpt-oss_120b.json"
+    },
+    "Hong Kong_1957": {
+      "colony": "Hong Kong",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/HONG_KONG.txt",
+      "timestamp": "2026-03-05T12:31:23.001876",
+      "total_officials": 65,
+      "passed_officials": 65,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 65
+      },
+      "generation_time": 360.5,
+      "validation_summary": {
+        "colony": "Hong Kong",
+        "year": 1957,
+        "total": 65,
+        "high_confidence": 65,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 65,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1957_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
