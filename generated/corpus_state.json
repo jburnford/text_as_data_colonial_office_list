@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T07:29:27.990664",
+  "last_updated": "2026-03-05T07:42:33.189894",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -50394,6 +50394,37 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kenya_1955_data_gpt-oss_120b.json"
+    },
+    "Leeward Islands_1955": {
+      "colony": "Leeward Islands",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/LEEWARD_ISLANDS.txt",
+      "timestamp": "2026-03-05T07:29:28.035296",
+      "total_officials": 115,
+      "passed_officials": 115,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 59,
+        "Executive Council": 19,
+        "Legislative Council": 29,
+        "Nominated Members": 2,
+        "Elected Members": 6
+      },
+      "generation_time": 785.1,
+      "validation_summary": {
+        "colony": "Leeward Islands",
+        "year": 1955,
+        "total": 115,
+        "high_confidence": 115,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 115,
+        "anomaly_count": 17
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/leeward_islands_1955_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
