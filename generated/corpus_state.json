@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T09:44:38.861662",
+  "last_updated": "2026-03-05T10:31:08.099384",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -51295,6 +51295,201 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1956_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1956": {
+      "colony": "Gibraltar",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/GIBRALTAR.txt",
+      "timestamp": "2026-03-05T09:44:38.888651",
+      "total_officials": 21,
+      "passed_officials": 21,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 21
+      },
+      "generation_time": 108.9,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1956,
+        "total": 21,
+        "high_confidence": 21,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 21,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1956_data_gpt-oss_120b.json"
+    },
+    "Gold Coast_1956": {
+      "colony": "Gold Coast",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/THE_GOLD_COAST.txt",
+      "timestamp": "2026-03-05T09:46:27.883125",
+      "total_officials": 70,
+      "passed_officials": 70,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 70
+      },
+      "generation_time": 296.2,
+      "validation_summary": {
+        "colony": "Gold Coast",
+        "year": 1956,
+        "total": 70,
+        "high_confidence": 70,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 70,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gold_coast_1956_data_gpt-oss_120b.json"
+    },
+    "Hong Kong_1956": {
+      "colony": "Hong Kong",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/HONG_KONG.txt",
+      "timestamp": "2026-03-05T09:51:24.130917",
+      "total_officials": 85,
+      "passed_officials": 85,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 85
+      },
+      "generation_time": 408.0,
+      "validation_summary": {
+        "colony": "Hong Kong",
+        "year": 1956,
+        "total": 85,
+        "high_confidence": 85,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 85,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1956_data_gpt-oss_120b.json"
+    },
+    "Jamaica_1956": {
+      "colony": "Jamaica",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/JAMAICA.txt",
+      "timestamp": "2026-03-05T09:58:12.158908",
+      "total_officials": 96,
+      "passed_officials": 96,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 95,
+        "Legislative Assembly": 1
+      },
+      "generation_time": 474.2,
+      "validation_summary": {
+        "colony": "Jamaica",
+        "year": 1956,
+        "total": 96,
+        "high_confidence": 96,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 96,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/jamaica_1956_data_gpt-oss_120b.json"
+    },
+    "Kenya_1956": {
+      "colony": "Kenya",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/KENYA.txt",
+      "timestamp": "2026-03-05T10:06:06.368881",
+      "total_officials": 15,
+      "passed_officials": 15,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 15
+      },
+      "generation_time": 526.9,
+      "validation_summary": {
+        "colony": "Kenya",
+        "year": 1956,
+        "total": 15,
+        "high_confidence": 15,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 15,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kenya_1956_data_gpt-oss_120b.json"
+    },
+    "Leeward Islands_1956": {
+      "colony": "Leeward Islands",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/LEEWARD_ISLANDS.txt",
+      "timestamp": "2026-03-05T10:14:53.325712",
+      "total_officials": 63,
+      "passed_officials": 63,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 41,
+        "Executive Council": 17,
+        "Legislative Council": 4,
+        "null": 1
+      },
+      "generation_time": 664.7,
+      "validation_summary": {
+        "colony": "Leeward Islands",
+        "year": 1956,
+        "total": 63,
+        "high_confidence": 63,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 63,
+        "anomaly_count": 5
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/leeward_islands_1956_data_gpt-oss_120b.json"
+    },
+    "Malta_1956": {
+      "colony": "Malta",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/MALTA.txt",
+      "timestamp": "2026-03-05T10:25:58.088531",
+      "total_officials": 71,
+      "passed_officials": 71,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Maltese Imperial Government": 5,
+        "The Maltese Government": 62
+      },
+      "generation_time": 310.0,
+      "validation_summary": {
+        "colony": "Malta",
+        "year": 1956,
+        "total": 71,
+        "high_confidence": 71,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 71,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1956_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
