@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T10:36:58.213424",
+  "last_updated": "2026-03-05T11:33:56.034084",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -51517,6 +51517,331 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/mauritius_1956_data_gpt-oss_120b.json"
+    },
+    "Nigeria_1956": {
+      "colony": "Nigeria",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/FEDERATION_OF_NIGERIA.txt",
+      "timestamp": "2026-03-05T10:36:58.259053",
+      "total_officials": 199,
+      "passed_officials": 199,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 145,
+        "null": 19,
+        "Civil Establishment, Eastern Region": 35
+      },
+      "generation_time": 1043.5,
+      "validation_summary": {
+        "colony": "Nigeria",
+        "year": 1956,
+        "total": 199,
+        "high_confidence": 199,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 199,
+        "anomaly_count": 11
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nigeria_1956_data_gpt-oss_120b.json"
+    },
+    "North Borneo_1956": {
+      "colony": "North Borneo",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/NORTH_BORNEO.txt",
+      "timestamp": "2026-03-05T10:54:21.861567",
+      "total_officials": 34,
+      "passed_officials": 34,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 34
+      },
+      "generation_time": 153.5,
+      "validation_summary": {
+        "colony": "North Borneo",
+        "year": 1956,
+        "total": 34,
+        "high_confidence": 34,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 34,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1956_data_gpt-oss_120b.json"
+    },
+    "Northern Rhodesia_1956": {
+      "colony": "Northern Rhodesia",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/NORTHERN_RHODESIA.txt",
+      "timestamp": "2026-03-05T10:56:55.422673",
+      "total_officials": 65,
+      "passed_officials": 65,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 65
+      },
+      "generation_time": 320.3,
+      "validation_summary": {
+        "colony": "Northern Rhodesia",
+        "year": 1956,
+        "total": 65,
+        "high_confidence": 65,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 65,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1956_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1956": {
+      "colony": "Nyasaland",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/NYASALAND_PROTECTORATE.txt",
+      "timestamp": "2026-03-05T11:02:15.764381",
+      "total_officials": 49,
+      "passed_officials": 49,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 49
+      },
+      "generation_time": 209.2,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1956,
+        "total": 49,
+        "high_confidence": 49,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 49,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1956_data_gpt-oss_120b.json"
+    },
+    "Sarawak_1956": {
+      "colony": "Sarawak",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/SARAWAK.txt",
+      "timestamp": "2026-03-05T11:05:44.988481",
+      "total_officials": 34,
+      "passed_officials": 34,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 34
+      },
+      "generation_time": 135.0,
+      "validation_summary": {
+        "colony": "Sarawak",
+        "year": 1956,
+        "total": 34,
+        "high_confidence": 34,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 34,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1956_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1956": {
+      "colony": "Seychelles",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/SEYCHELLES.txt",
+      "timestamp": "2026-03-05T11:08:00.005806",
+      "total_officials": 17,
+      "passed_officials": 17,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 17
+      },
+      "generation_time": 95.3,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1956,
+        "total": 17,
+        "high_confidence": 17,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 17,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1956_data_gpt-oss_120b.json"
+    },
+    "Sierra Leone_1956": {
+      "colony": "Sierra Leone",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/SIERRA_LEONE.txt",
+      "timestamp": "2026-03-05T11:09:35.309336",
+      "total_officials": 49,
+      "passed_officials": 49,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 49
+      },
+      "generation_time": 205.4,
+      "validation_summary": {
+        "colony": "Sierra Leone",
+        "year": 1956,
+        "total": 49,
+        "high_confidence": 49,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 49,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1956_data_gpt-oss_120b.json"
+    },
+    "Singapore_1956": {
+      "colony": "Singapore",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/SINGAPORE.txt",
+      "timestamp": "2026-03-05T11:13:00.736230",
+      "total_officials": 73,
+      "passed_officials": 73,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 73
+      },
+      "generation_time": 343.1,
+      "validation_summary": {
+        "colony": "Singapore",
+        "year": 1956,
+        "total": 73,
+        "high_confidence": 73,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 73,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/singapore_1956_data_gpt-oss_120b.json"
+    },
+    "St Helena_1956": {
+      "colony": "St Helena",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/ST_HELENA.txt",
+      "timestamp": "2026-03-05T11:18:43.868737",
+      "total_officials": 19,
+      "passed_officials": 19,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19
+      },
+      "generation_time": 117.7,
+      "validation_summary": {
+        "colony": "St Helena",
+        "year": 1956,
+        "total": 19,
+        "high_confidence": 19,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 19,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1956_data_gpt-oss_120b.json"
+    },
+    "Tanganyika_1956": {
+      "colony": "Tanganyika",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/TANGANYIKA.txt",
+      "timestamp": "2026-03-05T11:20:41.661510",
+      "total_officials": 78,
+      "passed_officials": 78,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 78
+      },
+      "generation_time": 311.9,
+      "validation_summary": {
+        "colony": "Tanganyika",
+        "year": 1956,
+        "total": 78,
+        "high_confidence": 78,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 78,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tanganyika_1956_data_gpt-oss_120b.json"
+    },
+    "Tonga_1956": {
+      "colony": "Tonga",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/KINGDOM_OF_TONGA.txt",
+      "timestamp": "2026-03-05T11:25:53.636818",
+      "total_officials": 10,
+      "passed_officials": 10,
+      "quarantined_officials": 0,
+      "departments": {
+        "Ministers": 9,
+        "British Agent and Consul": 1
+      },
+      "generation_time": 63.2,
+      "validation_summary": {
+        "colony": "Tonga",
+        "year": 1956,
+        "total": 10,
+        "high_confidence": 5,
+        "medium_confidence": 5,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 10,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tonga_1956_data_gpt-oss_120b.json"
+    },
+    "Trinidad and Tobago_1956": {
+      "colony": "Trinidad and Tobago",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/TRINIDAD_AND_TOBAGO.txt",
+      "timestamp": "2026-03-05T11:26:56.935805",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 419.1,
+      "validation_summary": {
+        "colony": "Trinidad and Tobago",
+        "year": 1956,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/trinidad_and_tobago_1956_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
