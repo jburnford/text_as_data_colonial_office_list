@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T13:36:06.531504",
+  "last_updated": "2026-03-05T13:41:32.232045",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -52581,6 +52581,61 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1957_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1957": {
+      "colony": "Seychelles",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/SEYCHELLES.txt",
+      "timestamp": "2026-03-05T13:36:06.582287",
+      "total_officials": 18,
+      "passed_officials": 18,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 18
+      },
+      "generation_time": 83.8,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1957,
+        "total": 18,
+        "high_confidence": 18,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 18,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1957_data_gpt-oss_120b.json"
+    },
+    "Sierra Leone_1957": {
+      "colony": "Sierra Leone",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/SIERRA_LEONE.txt",
+      "timestamp": "2026-03-05T13:37:30.387498",
+      "total_officials": 57,
+      "passed_officials": 57,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 53,
+        "Public Service Commission": 4
+      },
+      "generation_time": 241.8,
+      "validation_summary": {
+        "colony": "Sierra Leone",
+        "year": 1957,
+        "total": 57,
+        "high_confidence": 57,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 57,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1957_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
