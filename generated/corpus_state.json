@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T03:34:34.788996",
+  "last_updated": "2026-03-05T03:41:54.034088",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -48875,6 +48875,60 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1954_data_gpt-oss_120b.json"
+    },
+    "Barbados_1954": {
+      "colony": "Barbados",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/BARBADOS.txt",
+      "timestamp": "2026-03-05T03:34:34.832417",
+      "total_officials": 52,
+      "passed_officials": 52,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 52
+      },
+      "generation_time": 231.6,
+      "validation_summary": {
+        "colony": "Barbados",
+        "year": 1954,
+        "total": 52,
+        "high_confidence": 52,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 52,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1954_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1954": {
+      "colony": "Bermuda",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/BERMUDA.txt",
+      "timestamp": "2026-03-05T03:38:26.509185",
+      "total_officials": 31,
+      "passed_officials": 31,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 31
+      },
+      "generation_time": 207.5,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1954,
+        "total": 31,
+        "high_confidence": 31,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 31,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1954_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
