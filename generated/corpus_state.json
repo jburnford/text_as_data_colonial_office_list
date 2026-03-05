@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T12:37:23.487812",
+  "last_updated": "2026-03-05T13:36:06.531504",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -52335,6 +52335,252 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1957_data_gpt-oss_120b.json"
+    },
+    "Jamaica_1957": {
+      "colony": "Jamaica",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/JAMAICA.txt",
+      "timestamp": "2026-03-05T12:37:23.530723",
+      "total_officials": 13,
+      "passed_officials": 11,
+      "quarantined_officials": 2,
+      "departments": {
+        "Legislative Assembly": 2,
+        "Civil Establishment": 9
+      },
+      "generation_time": 517.3,
+      "validation_summary": {
+        "colony": "Jamaica",
+        "year": 1957,
+        "total": 13,
+        "high_confidence": 9,
+        "medium_confidence": 2,
+        "low_confidence": 2,
+        "quarantined": 2,
+        "passed": 11,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/jamaica_1957_data_gpt-oss_120b.json"
+    },
+    "Kenya_1957": {
+      "colony": "Kenya",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/KENYA.txt",
+      "timestamp": "2026-03-05T12:46:00.917591",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 418.3,
+      "validation_summary": {
+        "colony": "Kenya",
+        "year": 1957,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kenya_1957_data_gpt-oss_120b.json"
+    },
+    "Leeward Islands_1957": {
+      "colony": "Leeward Islands",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/LEEWARD_ISLANDS.txt",
+      "timestamp": "2026-03-05T12:52:59.277688",
+      "total_officials": 68,
+      "passed_officials": 68,
+      "quarantined_officials": 0,
+      "departments": {
+        "Executive Council": 25,
+        "Legislative Council": 5,
+        "Civil Establishment": 38
+      },
+      "generation_time": 906.2,
+      "validation_summary": {
+        "colony": "Leeward Islands",
+        "year": 1957,
+        "total": 68,
+        "high_confidence": 68,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 68,
+        "anomaly_count": 7
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/leeward_islands_1957_data_gpt-oss_120b.json"
+    },
+    "Malta_1957": {
+      "colony": "Malta",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/MALTA.txt",
+      "timestamp": "2026-03-05T13:08:05.565046",
+      "total_officials": 69,
+      "passed_officials": 69,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Maltesian Imperial Government": 5,
+        "The Maltese Government": 60
+      },
+      "generation_time": 299.4,
+      "validation_summary": {
+        "colony": "Malta",
+        "year": 1957,
+        "total": 69,
+        "high_confidence": 69,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 69,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1957_data_gpt-oss_120b.json"
+    },
+    "Mauritius_1957": {
+      "colony": "Mauritius",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/MAURITIUS.txt",
+      "timestamp": "2026-03-05T13:13:04.997378",
+      "total_officials": 74,
+      "passed_officials": 74,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 74
+      },
+      "generation_time": 385.1,
+      "validation_summary": {
+        "colony": "Mauritius",
+        "year": 1957,
+        "total": 74,
+        "high_confidence": 74,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 74,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/mauritius_1957_data_gpt-oss_120b.json"
+    },
+    "North Borneo_1957": {
+      "colony": "North Borneo",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/NORTH_BORNEO.txt",
+      "timestamp": "2026-03-05T13:19:30.204688",
+      "total_officials": 35,
+      "passed_officials": 35,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 35
+      },
+      "generation_time": 183.7,
+      "validation_summary": {
+        "colony": "North Borneo",
+        "year": 1957,
+        "total": 35,
+        "high_confidence": 35,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 35,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1957_data_gpt-oss_120b.json"
+    },
+    "Northern Rhodesia_1957": {
+      "colony": "Northern Rhodesia",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/NORTHERN_RHODESIA.txt",
+      "timestamp": "2026-03-05T13:22:34.010564",
+      "total_officials": 64,
+      "passed_officials": 64,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 64
+      },
+      "generation_time": 346.6,
+      "validation_summary": {
+        "colony": "Northern Rhodesia",
+        "year": 1957,
+        "total": 64,
+        "high_confidence": 64,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 64,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1957_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1957": {
+      "colony": "Nyasaland",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/NYASALAND_PROTECTORATE.txt",
+      "timestamp": "2026-03-05T13:28:20.630447",
+      "total_officials": 49,
+      "passed_officials": 49,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 49
+      },
+      "generation_time": 264.6,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1957,
+        "total": 49,
+        "high_confidence": 49,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 49,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1957_data_gpt-oss_120b.json"
+    },
+    "Sarawak_1957": {
+      "colony": "Sarawak",
+      "year": 1957,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/SARAWAK.txt",
+      "timestamp": "2026-03-05T13:32:45.287318",
+      "total_officials": 50,
+      "passed_officials": 50,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 50
+      },
+      "generation_time": 201.2,
+      "validation_summary": {
+        "colony": "Sarawak",
+        "year": 1957,
+        "total": 50,
+        "high_confidence": 50,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 50,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1957_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
