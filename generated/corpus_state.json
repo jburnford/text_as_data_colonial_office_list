@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T15:36:29.039245",
+  "last_updated": "2026-03-05T15:45:36.730196",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -53401,6 +53401,60 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1958_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1958": {
+      "colony": "Nyasaland",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/nyasaland_protectorate.txt",
+      "timestamp": "2026-03-05T15:36:29.063365",
+      "total_officials": 50,
+      "passed_officials": 50,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 50
+      },
+      "generation_time": 247.3,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1958,
+        "total": 50,
+        "high_confidence": 50,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 50,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1958_data_gpt-oss_120b.json"
+    },
+    "Sarawak_1958": {
+      "colony": "Sarawak",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/sarawak.txt",
+      "timestamp": "2026-03-05T15:40:36.469202",
+      "total_officials": 53,
+      "passed_officials": 53,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 53
+      },
+      "generation_time": 300.3,
+      "validation_summary": {
+        "colony": "Sarawak",
+        "year": 1958,
+        "total": 53,
+        "high_confidence": 53,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 53,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1958_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
