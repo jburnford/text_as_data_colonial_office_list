@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T14:35:48.376601",
+  "last_updated": "2026-03-05T14:43:05.344850",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -52994,6 +52994,87 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_guiana_1958_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1958": {
+      "colony": "British Honduras",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/british_honduras.txt",
+      "timestamp": "2026-03-05T14:35:48.404241",
+      "total_officials": 47,
+      "passed_officials": 47,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 47
+      },
+      "generation_time": 194.7,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1958,
+        "total": 47,
+        "high_confidence": 47,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 47,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1958_data_gpt-oss_120b.json"
+    },
+    "British Somaliland_1958": {
+      "colony": "British Somaliland",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/somaliland_protectorate.txt",
+      "timestamp": "2026-03-05T14:39:03.150212",
+      "total_officials": 22,
+      "passed_officials": 22,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 22
+      },
+      "generation_time": 107.4,
+      "validation_summary": {
+        "colony": "British Somaliland",
+        "year": 1958,
+        "total": 22,
+        "high_confidence": 22,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 22,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_somaliland_1958_data_gpt-oss_120b.json"
+    },
+    "Brunei_1958": {
+      "colony": "Brunei",
+      "year": 1958,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/brunei.txt",
+      "timestamp": "2026-03-05T14:40:50.558923",
+      "total_officials": 24,
+      "passed_officials": 24,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 24
+      },
+      "generation_time": 134.8,
+      "validation_summary": {
+        "colony": "Brunei",
+        "year": 1958,
+        "total": 24,
+        "high_confidence": 24,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 24,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/brunei_1958_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
