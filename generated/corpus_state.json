@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-04T20:16:32.756768",
+  "last_updated": "2026-03-04T20:39:12.783682",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -46852,6 +46852,51 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1950_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1950": {
+      "colony": "Nyasaland",
+      "year": 1950,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1950_manual_parsed/nyasaland_protectorate.txt",
+      "timestamp": "2026-03-04T20:16:32.781844",
+      "total_officials": 130,
+      "passed_officials": 130,
+      "quarantined_officials": 0,
+      "departments": {
+        "Governor and Personal Staff": 2,
+        "Secretariat": 15,
+        "CUSTOMS": 10,
+        "EDUCATION": 9,
+        "Forestry": 3,
+        "Geological Survey": 1,
+        "INCOME TAX": 2,
+        "JUDICIAL": 5,
+        "Labour": 5,
+        "Lands and Survey": 3,
+        "LEGAL": 4,
+        "Medical": 17,
+        "Police and Immigration": 21,
+        "Motor Traffic Control Board": 1,
+        "POSTS AND TELEGRAPHS": 7,
+        "PRINTING AND STATIONERY": 2,
+        "PRISONS AND LUNATIC ASYLUM": 2,
+        "Public Works": 15,
+        "VETERINARY": 6
+      },
+      "generation_time": 1360.0,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1950,
+        "total": 130,
+        "high_confidence": 130,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 130,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1950_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
