@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-04T19:33:06.318322",
+  "last_updated": "2026-03-04T19:38:54.227297",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -46617,6 +46617,46 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/brunei_1950_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1950": {
+      "colony": "Falkland Islands",
+      "year": 1950,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1950_manual_parsed/falkland_islands_and_dependencies.txt",
+      "timestamp": "2026-03-04T19:33:06.340005",
+      "total_officials": 25,
+      "passed_officials": 24,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 1,
+        "COLONIAL SECRETARY'S OFFICE": 4,
+        "Agricultural": 1,
+        "Audit": 1,
+        "CUSTOMS": 1,
+        "EDUCATION": 1,
+        "LEGAL": 1,
+        "MEDICAL": 4,
+        "MILITARY": 1,
+        "POLICE AND PRISONS": 1,
+        "POST OFFICE": 2,
+        "Public Works": 1,
+        "Treasury": 2,
+        "Dependencies": 3
+      },
+      "generation_time": 347.9,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1950,
+        "total": 25,
+        "high_confidence": 23,
+        "medium_confidence": 1,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 24,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1950_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
