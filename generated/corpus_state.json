@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T03:41:54.034088",
+  "last_updated": "2026-03-05T04:28:51.569762",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -48929,6 +48929,355 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1954_data_gpt-oss_120b.json"
+    },
+    "British Guiana_1954": {
+      "colony": "British Guiana",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/BRITISH_GUIANA.txt",
+      "timestamp": "2026-03-05T03:41:54.060198",
+      "total_officials": 66,
+      "passed_officials": 66,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 66
+      },
+      "generation_time": 338.3,
+      "validation_summary": {
+        "colony": "British Guiana",
+        "year": 1954,
+        "total": 66,
+        "high_confidence": 66,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 66,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_guiana_1954_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1954": {
+      "colony": "British Honduras",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/BRITISH_HONDURAS.txt",
+      "timestamp": "2026-03-05T03:47:32.431683",
+      "total_officials": 40,
+      "passed_officials": 40,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 40
+      },
+      "generation_time": 219.4,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1954,
+        "total": 40,
+        "high_confidence": 40,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 40,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1954_data_gpt-oss_120b.json"
+    },
+    "British Somaliland_1954": {
+      "colony": "British Somaliland",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/SOMALILAND_PROTECTORATE.txt",
+      "timestamp": "2026-03-05T03:51:11.902561",
+      "total_officials": 22,
+      "passed_officials": 22,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 22
+      },
+      "generation_time": 92.4,
+      "validation_summary": {
+        "colony": "British Somaliland",
+        "year": 1954,
+        "total": 22,
+        "high_confidence": 22,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 22,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_somaliland_1954_data_gpt-oss_120b.json"
+    },
+    "Brunei_1954": {
+      "colony": "Brunei",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/BRUNEI.txt",
+      "timestamp": "2026-03-05T03:52:44.344731",
+      "total_officials": 13,
+      "passed_officials": 13,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 13
+      },
+      "generation_time": 75.4,
+      "validation_summary": {
+        "colony": "Brunei",
+        "year": 1954,
+        "total": 13,
+        "high_confidence": 13,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 13,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/brunei_1954_data_gpt-oss_120b.json"
+    },
+    "Cyprus_1954": {
+      "colony": "Cyprus",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/CYPRUS.txt",
+      "timestamp": "2026-03-05T03:53:59.802667",
+      "total_officials": 47,
+      "passed_officials": 47,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 47
+      },
+      "generation_time": 226.6,
+      "validation_summary": {
+        "colony": "Cyprus",
+        "year": 1954,
+        "total": 47,
+        "high_confidence": 47,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 47,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cyprus_1954_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1954": {
+      "colony": "Falkland Islands",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/FALKLAND_ISLANDS_AND_DEPENDENCIES.txt",
+      "timestamp": "2026-03-05T03:57:46.430677",
+      "total_officials": 15,
+      "passed_officials": 15,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 13,
+        "Dependencies": 2
+      },
+      "generation_time": 85.7,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1954,
+        "total": 15,
+        "high_confidence": 15,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 15,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1954_data_gpt-oss_120b.json"
+    },
+    "Federation of Malaya_1954": {
+      "colony": "Federation of Malaya",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/FEDERATION_OF_MALAYA.txt",
+      "timestamp": "2026-03-05T03:59:12.122536",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 420.9,
+      "validation_summary": {
+        "colony": "Federation of Malaya",
+        "year": 1954,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/federation_of_malaya_1954_data_gpt-oss_120b.json"
+    },
+    "Federation of Rhodesia and Nyasaland_1954": {
+      "colony": "Federation of Rhodesia and Nyasaland",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/THE_FEDERATION_OF_RHODESIA_AND_NYASALAND.txt",
+      "timestamp": "2026-03-05T04:06:13.016265",
+      "total_officials": 7,
+      "passed_officials": 7,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 7
+      },
+      "generation_time": 58.6,
+      "validation_summary": {
+        "colony": "Federation of Rhodesia and Nyasaland",
+        "year": 1954,
+        "total": 7,
+        "high_confidence": 7,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 7,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/federation_of_rhodesia_and_nyasaland_1954_data_gpt-oss_120b.json"
+    },
+    "Fiji_1954": {
+      "colony": "Fiji",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/FIJI.txt",
+      "timestamp": "2026-03-05T04:07:11.722102",
+      "total_officials": 37,
+      "passed_officials": 37,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 36,
+        "Pitcairn Islands Group": 1
+      },
+      "generation_time": 212.2,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1954,
+        "total": 37,
+        "high_confidence": 37,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 37,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1954_data_gpt-oss_120b.json"
+    },
+    "Gambia_1954": {
+      "colony": "Gambia",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/THE_GAMBIA.txt",
+      "timestamp": "2026-03-05T04:10:43.923160",
+      "total_officials": 18,
+      "passed_officials": 18,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 18
+      },
+      "generation_time": 112.9,
+      "validation_summary": {
+        "colony": "Gambia",
+        "year": 1954,
+        "total": 18,
+        "high_confidence": 18,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 18,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1954_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1954": {
+      "colony": "Gibraltar",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/GIBRALTAR.txt",
+      "timestamp": "2026-03-05T04:12:36.859321",
+      "total_officials": 23,
+      "passed_officials": 23,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 23
+      },
+      "generation_time": 150.5,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1954,
+        "total": 23,
+        "high_confidence": 23,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 23,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1954_data_gpt-oss_120b.json"
+    },
+    "Gold Coast_1954": {
+      "colony": "Gold Coast",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/THE_GOLD_COAST.txt",
+      "timestamp": "2026-03-05T04:15:07.361556",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 421.5,
+      "validation_summary": {
+        "colony": "Gold Coast",
+        "year": 1954,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gold_coast_1954_data_gpt-oss_120b.json"
+    },
+    "Hong Kong_1954": {
+      "colony": "Hong Kong",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/HONG_KONG.txt",
+      "timestamp": "2026-03-05T04:22:08.951264",
+      "total_officials": 84,
+      "passed_officials": 84,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 84
+      },
+      "generation_time": 402.6,
+      "validation_summary": {
+        "colony": "Hong Kong",
+        "year": 1954,
+        "total": 84,
+        "high_confidence": 84,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 84,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1954_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
