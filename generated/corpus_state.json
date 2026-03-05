@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-04T21:28:16.798698",
+  "last_updated": "2026-03-04T21:37:28.211132",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -47167,6 +47167,56 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1951_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1951": {
+      "colony": "British Honduras",
+      "year": 1951,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1951_manual_parsed/british_honduras.txt",
+      "timestamp": "2026-03-04T21:28:16.861627",
+      "total_officials": 53,
+      "passed_officials": 53,
+      "quarantined_officials": 0,
+      "departments": {
+        "Governor and Personal Staff": 2,
+        "Secretariat": 3,
+        "District Commissioners": 5,
+        "AGRICULTURAL": 3,
+        "AIRPORT": 1,
+        "AUDIT": 1,
+        "LEGAL": 1,
+        "CUSTOMS AND HARBOUR": 2,
+        "Education": 2,
+        "Electrical Branch": 1,
+        "FIRE BRIGADE": 1,
+        "Forest Department": 2,
+        "Income Tax": 1,
+        "Judicial": 3,
+        "LABOUR": 1,
+        "MEDICAL": 11,
+        "POLICE": 3,
+        "POSTS AND TELEGRAPHS": 1,
+        "PRISON": 1,
+        "Public Works": 4,
+        "Social Development": 1,
+        "Survey": 1,
+        "Treasury": 1,
+        "Volunteer Guard": 1
+      },
+      "generation_time": 551.3,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1951,
+        "total": 53,
+        "high_confidence": 53,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 53,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1951_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
