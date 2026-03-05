@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T06:34:07.220063",
+  "last_updated": "2026-03-05T06:40:58.137637",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -49994,6 +49994,114 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_guiana_1955_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1955": {
+      "colony": "British Honduras",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/BRITISH_HONDURAS.txt",
+      "timestamp": "2026-03-05T06:34:07.264806",
+      "total_officials": 43,
+      "passed_officials": 43,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 43
+      },
+      "generation_time": 183.5,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1955,
+        "total": 43,
+        "high_confidence": 43,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 43,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1955_data_gpt-oss_120b.json"
+    },
+    "British Somaliland_1955": {
+      "colony": "British Somaliland",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/SOMALILAND.txt",
+      "timestamp": "2026-03-05T06:37:10.786824",
+      "total_officials": 20,
+      "passed_officials": 20,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 20
+      },
+      "generation_time": 94.5,
+      "validation_summary": {
+        "colony": "British Somaliland",
+        "year": 1955,
+        "total": 20,
+        "high_confidence": 20,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 20,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_somaliland_1955_data_gpt-oss_120b.json"
+    },
+    "Brunei_1955": {
+      "colony": "Brunei",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/BRUNEI.txt",
+      "timestamp": "2026-03-05T06:38:45.312495",
+      "total_officials": 14,
+      "passed_officials": 14,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 14
+      },
+      "generation_time": 79.2,
+      "validation_summary": {
+        "colony": "Brunei",
+        "year": 1955,
+        "total": 14,
+        "high_confidence": 14,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 14,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/brunei_1955_data_gpt-oss_120b.json"
+    },
+    "Cayman Islands_1955": {
+      "colony": "Cayman Islands",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/CAYMAN_ISLANDS.txt",
+      "timestamp": "2026-03-05T06:40:04.553341",
+      "total_officials": 9,
+      "passed_officials": 9,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 9
+      },
+      "generation_time": 53.6,
+      "validation_summary": {
+        "colony": "Cayman Islands",
+        "year": 1955,
+        "total": 9,
+        "high_confidence": 9,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 9,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cayman_islands_1955_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
