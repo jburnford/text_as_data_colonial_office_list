@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T09:32:53.622124",
+  "last_updated": "2026-03-05T09:44:38.861662",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -51215,6 +51215,86 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1956_data_gpt-oss_120b.json"
+    },
+    "Federation of Malaya_1956": {
+      "colony": "Federation of Malaya",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/FEDERATION_OF_MALAYA.txt",
+      "timestamp": "2026-03-05T09:32:53.672133",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 420.2,
+      "validation_summary": {
+        "colony": "Federation of Malaya",
+        "year": 1956,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/federation_of_malaya_1956_data_gpt-oss_120b.json"
+    },
+    "Fiji_1956": {
+      "colony": "Fiji",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/FIJI.txt",
+      "timestamp": "2026-03-05T09:39:53.904650",
+      "total_officials": 39,
+      "passed_officials": 39,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 38,
+        "Pitcairn Islands Group": 1
+      },
+      "generation_time": 190.0,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1956,
+        "total": 39,
+        "high_confidence": 39,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 39,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1956_data_gpt-oss_120b.json"
+    },
+    "Gambia_1956": {
+      "colony": "Gambia",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/THE_GAMBIA.txt",
+      "timestamp": "2026-03-05T09:43:04.011596",
+      "total_officials": 22,
+      "passed_officials": 22,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 22
+      },
+      "generation_time": 94.8,
+      "validation_summary": {
+        "colony": "Gambia",
+        "year": 1956,
+        "total": 22,
+        "high_confidence": 22,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 22,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1956_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
