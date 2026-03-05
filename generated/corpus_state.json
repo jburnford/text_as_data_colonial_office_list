@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T01:36:29.779974",
+  "last_updated": "2026-03-05T01:39:02.589065",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -48168,6 +48168,33 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1953_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1953": {
+      "colony": "Gibraltar",
+      "year": 1953,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/gibraltar.txt",
+      "timestamp": "2026-03-05T01:36:29.827250",
+      "total_officials": 23,
+      "passed_officials": 23,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 23
+      },
+      "generation_time": 152.8,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1953,
+        "total": 23,
+        "high_confidence": 23,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 23,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1953_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
