@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T04:43:12.349158",
+  "last_updated": "2026-03-05T05:34:58.048757",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -49332,6 +49332,287 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kenya_1954_data_gpt-oss_120b.json"
+    },
+    "Leeward Islands_1954": {
+      "colony": "Leeward Islands",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/THE_LEEWARD_ISLANDS.txt",
+      "timestamp": "2026-03-05T04:43:12.376180",
+      "total_officials": 113,
+      "passed_officials": 113,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 57,
+        "Executive Council": 19,
+        "Ex Officio Members": 2,
+        "Elected Unofficial Members": 8,
+        "Nominated Unofficial Members": 3,
+        "Clerk of Councils": 1,
+        "Nominated Members": 5,
+        "Elected Members": 13,
+        "null": 1,
+        "Legislative Council - Official Members": 1,
+        "Legislative Council - Nominated Members": 1,
+        "Legislative Council - Elected Members": 2
+      },
+      "generation_time": 811.2,
+      "validation_summary": {
+        "colony": "Leeward Islands",
+        "year": 1954,
+        "total": 113,
+        "high_confidence": 113,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 113,
+        "anomaly_count": 18
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/leeward_islands_1954_data_gpt-oss_120b.json"
+    },
+    "Malta_1954": {
+      "colony": "Malta",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/MALTA.txt",
+      "timestamp": "2026-03-05T04:56:43.656138",
+      "total_officials": 72,
+      "passed_officials": 72,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Maltese Imperial Government": 4,
+        "The Maltese Government": 64
+      },
+      "generation_time": 296.6,
+      "validation_summary": {
+        "colony": "Malta",
+        "year": 1954,
+        "total": 72,
+        "high_confidence": 72,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 72,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1954_data_gpt-oss_120b.json"
+    },
+    "Mauritius_1954": {
+      "colony": "Mauritius",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/MAURITIUS.txt",
+      "timestamp": "2026-03-05T05:01:40.293367",
+      "total_officials": 62,
+      "passed_officials": 62,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 62
+      },
+      "generation_time": 306.9,
+      "validation_summary": {
+        "colony": "Mauritius",
+        "year": 1954,
+        "total": 62,
+        "high_confidence": 62,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 62,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/mauritius_1954_data_gpt-oss_120b.json"
+    },
+    "Nigeria_1954": {
+      "colony": "Nigeria",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/NIGERIA.txt",
+      "timestamp": "2026-03-05T05:06:47.267428",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 421.3,
+      "validation_summary": {
+        "colony": "Nigeria",
+        "year": 1954,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nigeria_1954_data_gpt-oss_120b.json"
+    },
+    "North Borneo_1954": {
+      "colony": "North Borneo",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/NORTH_BORNEO.txt",
+      "timestamp": "2026-03-05T05:13:48.584827",
+      "total_officials": 31,
+      "passed_officials": 31,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 31
+      },
+      "generation_time": 132.7,
+      "validation_summary": {
+        "colony": "North Borneo",
+        "year": 1954,
+        "total": 31,
+        "high_confidence": 31,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 31,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1954_data_gpt-oss_120b.json"
+    },
+    "Northern Rhodesia_1954": {
+      "colony": "Northern Rhodesia",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/NORTHERN_RHODESIA.txt",
+      "timestamp": "2026-03-05T05:16:01.337516",
+      "total_officials": 67,
+      "passed_officials": 67,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 67
+      },
+      "generation_time": 299.4,
+      "validation_summary": {
+        "colony": "Northern Rhodesia",
+        "year": 1954,
+        "total": 67,
+        "high_confidence": 67,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 67,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1954_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1954": {
+      "colony": "Nyasaland",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/NYASALAND_PROTECTORATE.txt",
+      "timestamp": "2026-03-05T05:21:00.762107",
+      "total_officials": 53,
+      "passed_officials": 53,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 53
+      },
+      "generation_time": 274.6,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1954,
+        "total": 53,
+        "high_confidence": 53,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 53,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1954_data_gpt-oss_120b.json"
+    },
+    "Sarawak_1954": {
+      "colony": "Sarawak",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/SARAWAK.txt",
+      "timestamp": "2026-03-05T05:25:35.458468",
+      "total_officials": 47,
+      "passed_officials": 47,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 47
+      },
+      "generation_time": 222.9,
+      "validation_summary": {
+        "colony": "Sarawak",
+        "year": 1954,
+        "total": 47,
+        "high_confidence": 47,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 47,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1954_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1954": {
+      "colony": "Seychelles",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/SEYCHELLES.txt",
+      "timestamp": "2026-03-05T05:29:18.388214",
+      "total_officials": 18,
+      "passed_officials": 18,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 18
+      },
+      "generation_time": 110.5,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1954,
+        "total": 18,
+        "high_confidence": 18,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 18,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1954_data_gpt-oss_120b.json"
+    },
+    "Sierra Leone_1954": {
+      "colony": "Sierra Leone",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/SIERRA_LEONE.txt",
+      "timestamp": "2026-03-05T05:31:08.891450",
+      "total_officials": 49,
+      "passed_officials": 49,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 49
+      },
+      "generation_time": 229.1,
+      "validation_summary": {
+        "colony": "Sierra Leone",
+        "year": 1954,
+        "total": 49,
+        "high_confidence": 49,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 49,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1954_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
