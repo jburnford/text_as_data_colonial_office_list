@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T11:33:56.034084",
+  "last_updated": "2026-03-05T11:39:51.843575",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -51842,6 +51842,33 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/trinidad_and_tobago_1956_data_gpt-oss_120b.json"
+    },
+    "Uganda_1956": {
+      "colony": "Uganda",
+      "year": 1956,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/UGANDA.txt",
+      "timestamp": "2026-03-05T11:33:56.062144",
+      "total_officials": 69,
+      "passed_officials": 69,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 69
+      },
+      "generation_time": 355.8,
+      "validation_summary": {
+        "colony": "Uganda",
+        "year": 1956,
+        "total": 69,
+        "high_confidence": 69,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 69,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/uganda_1956_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
