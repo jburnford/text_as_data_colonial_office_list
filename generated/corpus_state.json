@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T04:28:51.569762",
+  "last_updated": "2026-03-05T04:43:12.349158",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -49278,6 +49278,60 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1954_data_gpt-oss_120b.json"
+    },
+    "Jamaica_1954": {
+      "colony": "Jamaica",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/JAMAICA.txt",
+      "timestamp": "2026-03-05T04:28:51.592301",
+      "total_officials": 87,
+      "passed_officials": 87,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 87
+      },
+      "generation_time": 467.9,
+      "validation_summary": {
+        "colony": "Jamaica",
+        "year": 1954,
+        "total": 87,
+        "high_confidence": 87,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 87,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/jamaica_1954_data_gpt-oss_120b.json"
+    },
+    "Kenya_1954": {
+      "colony": "Kenya",
+      "year": 1954,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/KENYA.txt",
+      "timestamp": "2026-03-05T04:36:39.518319",
+      "total_officials": 86,
+      "passed_officials": 86,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 86
+      },
+      "generation_time": 392.8,
+      "validation_summary": {
+        "colony": "Kenya",
+        "year": 1954,
+        "total": 86,
+        "high_confidence": 86,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 86,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kenya_1954_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
