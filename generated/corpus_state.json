@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T06:40:58.137637",
+  "last_updated": "2026-03-05T07:29:27.990664",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -50102,6 +50102,298 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cayman_islands_1955_data_gpt-oss_120b.json"
+    },
+    "Cyprus_1955": {
+      "colony": "Cyprus",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/CYPRUS.txt",
+      "timestamp": "2026-03-05T06:40:58.164085",
+      "total_officials": 68,
+      "passed_officials": 68,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 68
+      },
+      "generation_time": 300.4,
+      "validation_summary": {
+        "colony": "Cyprus",
+        "year": 1955,
+        "total": 68,
+        "high_confidence": 68,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 68,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cyprus_1955_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1955": {
+      "colony": "Falkland Islands",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/FALKLAND_ISLANDS.txt",
+      "timestamp": "2026-03-05T06:45:58.674787",
+      "total_officials": 15,
+      "passed_officials": 15,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 13,
+        "Dependencies": 2
+      },
+      "generation_time": 81.3,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1955,
+        "total": 15,
+        "high_confidence": 15,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 15,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1955_data_gpt-oss_120b.json"
+    },
+    "Federation of Malaya_1955": {
+      "colony": "Federation of Malaya",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/MALAYA.txt",
+      "timestamp": "2026-03-05T06:47:20.065269",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 420.8,
+      "validation_summary": {
+        "colony": "Federation of Malaya",
+        "year": 1955,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/federation_of_malaya_1955_data_gpt-oss_120b.json"
+    },
+    "Federation of Rhodesia and Nyasaland_1955": {
+      "colony": "Federation of Rhodesia and Nyasaland",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/RHODESIA_AND_NYASALAND.txt",
+      "timestamp": "2026-03-05T06:54:20.906530",
+      "total_officials": 2,
+      "passed_officials": 2,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 1,
+        "Interim Ministry": 1
+      },
+      "generation_time": 29.2,
+      "validation_summary": {
+        "colony": "Federation of Rhodesia and Nyasaland",
+        "year": 1955,
+        "total": 2,
+        "high_confidence": 1,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 2,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/federation_of_rhodesia_and_nyasaland_1955_data_gpt-oss_120b.json"
+    },
+    "Fiji_1955": {
+      "colony": "Fiji",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/FIJI.txt",
+      "timestamp": "2026-03-05T06:54:50.184727",
+      "total_officials": 45,
+      "passed_officials": 45,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 44,
+        "Pitcairn Islands Group": 1
+      },
+      "generation_time": 235.1,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1955,
+        "total": 45,
+        "high_confidence": 45,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 45,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1955_data_gpt-oss_120b.json"
+    },
+    "Gambia_1955": {
+      "colony": "Gambia",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/GAMBIA.txt",
+      "timestamp": "2026-03-05T06:58:45.307707",
+      "total_officials": 19,
+      "passed_officials": 19,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19
+      },
+      "generation_time": 105.6,
+      "validation_summary": {
+        "colony": "Gambia",
+        "year": 1955,
+        "total": 19,
+        "high_confidence": 19,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 19,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1955_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1955": {
+      "colony": "Gibraltar",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/GIBRALTAR.txt",
+      "timestamp": "2026-03-05T07:00:30.924336",
+      "total_officials": 20,
+      "passed_officials": 20,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 20
+      },
+      "generation_time": 109.6,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1955,
+        "total": 20,
+        "high_confidence": 20,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 20,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1955_data_gpt-oss_120b.json"
+    },
+    "Gold Coast_1955": {
+      "colony": "Gold Coast",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/GOLD_COAST.txt",
+      "timestamp": "2026-03-05T07:02:20.550756",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 418.9,
+      "validation_summary": {
+        "colony": "Gold Coast",
+        "year": 1955,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gold_coast_1955_data_gpt-oss_120b.json"
+    },
+    "Hong Kong_1955": {
+      "colony": "Hong Kong",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/HONG_KONG.txt",
+      "timestamp": "2026-03-05T07:09:19.433417",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 417.8,
+      "validation_summary": {
+        "colony": "Hong Kong",
+        "year": 1955,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1955_data_gpt-oss_120b.json"
+    },
+    "Jamaica_1955": {
+      "colony": "Jamaica",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/JAMAICA.txt",
+      "timestamp": "2026-03-05T07:16:17.225107",
+      "total_officials": 83,
+      "passed_officials": 83,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 83
+      },
+      "generation_time": 371.7,
+      "validation_summary": {
+        "colony": "Jamaica",
+        "year": 1955,
+        "total": 83,
+        "high_confidence": 83,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 83,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/jamaica_1955_data_gpt-oss_120b.json"
+    },
+    "Kenya_1955": {
+      "colony": "Kenya",
+      "year": 1955,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/KENYA.txt",
+      "timestamp": "2026-03-05T07:22:28.942949",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 419.0,
+      "validation_summary": {
+        "colony": "Kenya",
+        "year": 1955,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kenya_1955_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
