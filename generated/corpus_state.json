@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-04T18:36:19.828311",
+  "last_updated": "2026-03-04T18:41:45.430862",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -46304,6 +46304,45 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1949_data_gpt-oss_120b.json"
+    },
+    "Zanzibar_1949": {
+      "colony": "Zanzibar",
+      "year": 1949,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1949_manual_parsed/Zanzibar.txt",
+      "timestamp": "2026-03-04T18:36:19.874039",
+      "total_officials": 35,
+      "passed_officials": 34,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 1,
+        "Secretariat": 5,
+        "District Administration": 7,
+        "Administrator-General": 1,
+        "Agriculture": 2,
+        "Audit": 1,
+        "Customs": 1,
+        "Development": 1,
+        "Education": 2,
+        "Judicial": 2,
+        "Legal": 1,
+        "Medical": 9,
+        "Police and Prisons": 1
+      },
+      "generation_time": 325.5,
+      "validation_summary": {
+        "colony": "Zanzibar",
+        "year": 1949,
+        "total": 35,
+        "high_confidence": 34,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 34,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/zanzibar_1949_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
