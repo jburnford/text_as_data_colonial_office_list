@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T02:32:42.528840",
+  "last_updated": "2026-03-05T02:44:43.918394",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -48438,6 +48438,87 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1953_data_gpt-oss_120b.json"
+    },
+    "Northern Rhodesia_1953": {
+      "colony": "Northern Rhodesia",
+      "year": 1953,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/northern_rhodesia.txt",
+      "timestamp": "2026-03-05T02:32:42.554933",
+      "total_officials": 71,
+      "passed_officials": 71,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 71
+      },
+      "generation_time": 305.3,
+      "validation_summary": {
+        "colony": "Northern Rhodesia",
+        "year": 1953,
+        "total": 71,
+        "high_confidence": 71,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 71,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1953_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1953": {
+      "colony": "Nyasaland",
+      "year": 1953,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/nyasaland_protectorate.txt",
+      "timestamp": "2026-03-05T02:37:47.954103",
+      "total_officials": 48,
+      "passed_officials": 48,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 48
+      },
+      "generation_time": 219.7,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1953,
+        "total": 48,
+        "high_confidence": 48,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 48,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1953_data_gpt-oss_120b.json"
+    },
+    "Sarawak_1953": {
+      "colony": "Sarawak",
+      "year": 1953,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/sarawak.txt",
+      "timestamp": "2026-03-05T02:41:27.682770",
+      "total_officials": 46,
+      "passed_officials": 46,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 46
+      },
+      "generation_time": 196.2,
+      "validation_summary": {
+        "colony": "Sarawak",
+        "year": 1953,
+        "total": 46,
+        "high_confidence": 46,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 46,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1953_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
