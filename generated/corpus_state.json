@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-06T01:31:28.847969",
+  "last_updated": "2026-03-06T01:43:35.087733",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -57449,6 +57449,91 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kenya_1963_data_gpt-oss_120b.json"
+    },
+    "Malta_1963": {
+      "colony": "Malta",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/state_of_malta.txt",
+      "timestamp": "2026-03-06T01:31:28.898347",
+      "total_officials": 92,
+      "passed_officials": 92,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 70,
+        "Judiciary": 17,
+        "Ecclesiastics": 3,
+        "United Kingdom Commissioner": 2
+      },
+      "generation_time": 365.3,
+      "validation_summary": {
+        "colony": "Malta",
+        "year": 1963,
+        "total": 92,
+        "high_confidence": 92,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 92,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1963_data_gpt-oss_120b.json"
+    },
+    "Mauritius_1963": {
+      "colony": "Mauritius",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/mauritius.txt",
+      "timestamp": "2026-03-06T01:37:34.265938",
+      "total_officials": 75,
+      "passed_officials": 75,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 70,
+        "Judiciary": 5
+      },
+      "generation_time": 317.0,
+      "validation_summary": {
+        "colony": "Mauritius",
+        "year": 1963,
+        "total": 75,
+        "high_confidence": 75,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 75,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/mauritius_1963_data_gpt-oss_120b.json"
+    },
+    "Montserrat_1963": {
+      "colony": "Montserrat",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/montserrat.txt",
+      "timestamp": "2026-03-06T01:42:51.300056",
+      "total_officials": 6,
+      "passed_officials": 6,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 6
+      },
+      "generation_time": 43.8,
+      "validation_summary": {
+        "colony": "Montserrat",
+        "year": 1963,
+        "total": 6,
+        "high_confidence": 6,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 6,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/montserrat_1963_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
