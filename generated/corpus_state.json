@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-06T04:33:17.413975",
+  "last_updated": "2026-03-06T04:43:51.147402",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -59092,6 +59092,97 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1965_data_gpt-oss_120b.json"
+    },
+    "Fiji_1965": {
+      "colony": "Fiji",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/fiji.txt",
+      "timestamp": "2026-03-06T04:33:17.444382",
+      "total_officials": 59,
+      "passed_officials": 59,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 55,
+        "Judiciary": 4
+      },
+      "generation_time": 279.9,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1965,
+        "total": 59,
+        "high_confidence": 59,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 59,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1965_data_gpt-oss_120b.json"
+    },
+    "Gambia_1965": {
+      "colony": "Gambia",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/gambia.txt",
+      "timestamp": "2026-03-06T04:37:57.387053",
+      "total_officials": 28,
+      "passed_officials": 28,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 9,
+        "Ministry of Finance": 3,
+        "Ministry of Agriculture": 3,
+        "Ministry of Education": 1,
+        "Ministry of Health": 1,
+        "Ministry for Local Government, Lands and Labour": 2,
+        "Ministry of Works and Communications": 4,
+        "Non-Ministerial": 3,
+        "JUDICIARY": 2
+      },
+      "generation_time": 250.6,
+      "validation_summary": {
+        "colony": "Gambia",
+        "year": 1965,
+        "total": 28,
+        "high_confidence": 28,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 28,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1965_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1965": {
+      "colony": "Gibraltar",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/gibraltar.txt",
+      "timestamp": "2026-03-06T04:42:08.048232",
+      "total_officials": 22,
+      "passed_officials": 22,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19,
+        "Judiciary": 3
+      },
+      "generation_time": 103.1,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1965,
+        "total": 22,
+        "high_confidence": 22,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 22,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1965_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
