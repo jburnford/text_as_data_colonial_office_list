@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-06T01:43:35.087733",
+  "last_updated": "2026-03-06T02:31:35.889416",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -57534,6 +57534,475 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/montserrat_1963_data_gpt-oss_120b.json"
+    },
+    "North Borneo_1963": {
+      "colony": "North Borneo",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/north_borneo.txt",
+      "timestamp": "2026-03-06T01:43:35.117820",
+      "total_officials": 49,
+      "passed_officials": 49,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 29,
+        "Law Officers": 17,
+        "JUDICIARY": 3
+      },
+      "generation_time": 241.4,
+      "validation_summary": {
+        "colony": "North Borneo",
+        "year": 1963,
+        "total": 49,
+        "high_confidence": 49,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 49,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1963_data_gpt-oss_120b.json"
+    },
+    "Northern Rhodesia_1963": {
+      "colony": "Northern Rhodesia",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/northern_rhodesia.txt",
+      "timestamp": "2026-03-06T01:47:36.571231",
+      "total_officials": 75,
+      "passed_officials": 75,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 49,
+        "Law Officers": 20,
+        "Judiciary": 6
+      },
+      "generation_time": 319.1,
+      "validation_summary": {
+        "colony": "Northern Rhodesia",
+        "year": 1963,
+        "total": 75,
+        "high_confidence": 75,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 75,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1963_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1963": {
+      "colony": "Nyasaland",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/nyasaland_protectorate.txt",
+      "timestamp": "2026-03-06T01:52:55.748549",
+      "total_officials": 45,
+      "passed_officials": 45,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Prime Minister's Office": 3,
+        "Provincial Administration": 3,
+        "Ministry of Natural Resources": 9,
+        "Ministry of Local Government": 2,
+        "Ministry of Justice": 3,
+        "Ministry of Finance": 5,
+        "Ministry of Education, Social Development and Information": 4,
+        "Ministry of Internal Affairs": 1,
+        "Ministry of Works and Housing": 3,
+        "Ministry of Trade and Industry": 1,
+        "Ministry of Transport and Communications": 1,
+        "Ministry of Labour": 1,
+        "Public Service Commission": 1,
+        "Judiciary": 4
+      },
+      "generation_time": 271.6,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1963,
+        "total": 45,
+        "high_confidence": 45,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 45,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1963_data_gpt-oss_120b.json"
+    },
+    "Sarawak_1963": {
+      "colony": "Sarawak",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/sarawak.txt",
+      "timestamp": "2026-03-06T01:57:27.402279",
+      "total_officials": 61,
+      "passed_officials": 61,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 54,
+        "Judiciary": 7
+      },
+      "generation_time": 256.0,
+      "validation_summary": {
+        "colony": "Sarawak",
+        "year": 1963,
+        "total": 61,
+        "high_confidence": 61,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 61,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1963_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1963": {
+      "colony": "Seychelles",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/seychelles.txt",
+      "timestamp": "2026-03-06T02:01:43.493067",
+      "total_officials": 26,
+      "passed_officials": 26,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 21,
+        "Judiciary": 3,
+        "Trade Representatives": 2
+      },
+      "generation_time": 134.3,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1963,
+        "total": 26,
+        "high_confidence": 26,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 26,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1963_data_gpt-oss_120b.json"
+    },
+    "Singapore_1963": {
+      "colony": "Singapore",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/state_of_singapore.txt",
+      "timestamp": "2026-03-06T02:03:57.836051",
+      "total_officials": 57,
+      "passed_officials": 57,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Prime Minister's Office": 4,
+        "Deputy Prime Minister's Office": 7,
+        "MINISTRY OF NATIONAL DEVELOPMENT": 4,
+        "Health": 2,
+        "Law": 5,
+        "Ministry of Finance": 10,
+        "MINISTRY OF LABOUR": 3,
+        "MINISTRY OF CULTURE": 4,
+        "MINISTRY OF HOME AFFAIRS": 4,
+        "MINISTRY OF EDUCATION": 1,
+        "JUDICIARY": 7,
+        "UNITED KINGDOM COMMISSIONER, SINGAPORE": 2
+      },
+      "generation_time": 444.4,
+      "validation_summary": {
+        "colony": "Singapore",
+        "year": 1963,
+        "total": 57,
+        "high_confidence": 57,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 57,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/singapore_1963_data_gpt-oss_120b.json"
+    },
+    "St Christopher and Nevis_1963": {
+      "colony": "St Christopher and Nevis",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/st_christopher_nevis_and_anguilla.txt",
+      "timestamp": "2026-03-06T02:11:22.348375",
+      "total_officials": 17,
+      "passed_officials": 17,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 17
+      },
+      "generation_time": 102.3,
+      "validation_summary": {
+        "colony": "St Christopher and Nevis",
+        "year": 1963,
+        "total": 17,
+        "high_confidence": 17,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 17,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_christopher_and_nevis_1963_data_gpt-oss_120b.json"
+    },
+    "St Helena_1963": {
+      "colony": "St Helena",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/st_helena.txt",
+      "timestamp": "2026-03-06T02:13:04.746267",
+      "total_officials": 6,
+      "passed_officials": 6,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 6
+      },
+      "generation_time": 143.9,
+      "validation_summary": {
+        "colony": "St Helena",
+        "year": 1963,
+        "total": 6,
+        "high_confidence": 6,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 6,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1963_data_gpt-oss_120b.json"
+    },
+    "St Lucia_1963": {
+      "colony": "St Lucia",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/st_lucia.txt",
+      "timestamp": "2026-03-06T02:15:28.662926",
+      "total_officials": 20,
+      "passed_officials": 20,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 16,
+        "Judiciary": 4
+      },
+      "generation_time": 92.8,
+      "validation_summary": {
+        "colony": "St Lucia",
+        "year": 1963,
+        "total": 20,
+        "high_confidence": 20,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 20,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_lucia_1963_data_gpt-oss_120b.json"
+    },
+    "St Vincent_1963": {
+      "colony": "St Vincent",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/st_vincent.txt",
+      "timestamp": "2026-03-06T02:17:01.548100",
+      "total_officials": 32,
+      "passed_officials": 32,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 28,
+        "JUDICIARY": 4
+      },
+      "generation_time": 146.3,
+      "validation_summary": {
+        "colony": "St Vincent",
+        "year": 1963,
+        "total": 32,
+        "high_confidence": 32,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 32,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_vincent_1963_data_gpt-oss_120b.json"
+    },
+    "Tonga_1963": {
+      "colony": "Tonga",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/kingdom_of_tonga.txt",
+      "timestamp": "2026-03-06T02:19:27.880027",
+      "total_officials": 9,
+      "passed_officials": 9,
+      "quarantined_officials": 0,
+      "departments": {
+        "Broadcasting": 1,
+        "Ministers": 7,
+        "British Commissioner and Consul": 1
+      },
+      "generation_time": 82.9,
+      "validation_summary": {
+        "colony": "Tonga",
+        "year": 1963,
+        "total": 9,
+        "high_confidence": 8,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 9,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tonga_1963_data_gpt-oss_120b.json"
+    },
+    "Turks and Caicos Islands_1963": {
+      "colony": "Turks and Caicos Islands",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/turks_and_caicos_islands.txt",
+      "timestamp": "2026-03-06T02:20:50.808043",
+      "total_officials": 10,
+      "passed_officials": 10,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 10
+      },
+      "generation_time": 62.3,
+      "validation_summary": {
+        "colony": "Turks and Caicos Islands",
+        "year": 1963,
+        "total": 10,
+        "high_confidence": 10,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 10,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/turks_and_caicos_islands_1963_data_gpt-oss_120b.json"
+    },
+    "Virgin Islands_1963": {
+      "colony": "Virgin Islands",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/virgin_islands.txt",
+      "timestamp": "2026-03-06T02:21:53.213193",
+      "total_officials": 7,
+      "passed_officials": 7,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 7
+      },
+      "generation_time": 56.9,
+      "validation_summary": {
+        "colony": "Virgin Islands",
+        "year": 1963,
+        "total": 7,
+        "high_confidence": 7,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 7,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/virgin_islands_1963_data_gpt-oss_120b.json"
+    },
+    "Zanzibar_1963": {
+      "colony": "Zanzibar",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/zanzibar.txt",
+      "timestamp": "2026-03-06T02:22:50.194997",
+      "total_officials": 45,
+      "passed_officials": 45,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 43,
+        "Judiciary": 2
+      },
+      "generation_time": 283.2,
+      "validation_summary": {
+        "colony": "Zanzibar",
+        "year": 1963,
+        "total": 45,
+        "high_confidence": 45,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 45,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/zanzibar_1963_data_gpt-oss_120b.json"
+    },
+    "Antigua_1964": {
+      "colony": "Antigua",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/antigua.txt",
+      "timestamp": "2026-03-06T02:27:33.420739",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 15.4,
+      "validation_summary": {
+        "colony": "Antigua",
+        "year": 1964,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/antigua_1964_data_gpt-oss_120b.json"
+    },
+    "Bahamas_1964": {
+      "colony": "Bahamas",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/bahama_islands.txt",
+      "timestamp": "2026-03-06T02:27:48.915703",
+      "total_officials": 53,
+      "passed_officials": 53,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 49,
+        "Judiciary": 4
+      },
+      "generation_time": 227.0,
+      "validation_summary": {
+        "colony": "Bahamas",
+        "year": 1964,
+        "total": 53,
+        "high_confidence": 53,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 53,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1964_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
