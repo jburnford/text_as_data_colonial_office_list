@@ -1,0 +1,87 @@
+{
+  "colony": "Pitcairn Island",
+  "year": 1966,
+  "generated": "2026-03-06T06:20:11.649120",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 4,
+  "officials": [
+    {
+      "name": "Sir Derek Jakeway",
+      "canonical_name": "Jakeway, Derek",
+      "given_names": "Derek",
+      "surname": "Jakeway",
+      "position": "Governor",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Suva, Fiji"
+    },
+    {
+      "name": "T. R. Cowell",
+      "canonical_name": "Cowell, T. R.",
+      "given_names": "T. R.",
+      "surname": "Cowell",
+      "position": "Commissioner",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Suva, Fiji"
+    },
+    {
+      "name": "J. L. Christian",
+      "canonical_name": "Christian, J. L.",
+      "given_names": "J. L.",
+      "surname": "Christian",
+      "position": "Island Magistrate/President of Council",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Adamstown, Pitcairn Island"
+    },
+    {
+      "name": "J. H. Forster",
+      "canonical_name": "Forster, J. H.",
+      "given_names": "J. H.",
+      "surname": "Forster",
+      "position": "Education Officer",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Adamstown, Pitcairn Island"
+    }
+  ],
+  "validation_summary": {
+    "colony": "Pitcairn Island",
+    "year": 1966,
+    "total": 4,
+    "high_confidence": 4,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 4,
+    "anomaly_count": 0
+  }
+}

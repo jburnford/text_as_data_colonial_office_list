@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-06T05:40:20.072853",
+  "last_updated": "2026-03-06T06:35:56.902382",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -59747,6 +59747,506 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_antarctic_territory_1966_data_gpt-oss_120b.json"
+    },
+    "British Guiana_1966": {
+      "colony": "British Guiana",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/british_guiana.txt",
+      "timestamp": "2026-03-06T05:40:20.104635",
+      "total_officials": 89,
+      "passed_officials": 89,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 76,
+        "Judiciary": 13
+      },
+      "generation_time": 362.0,
+      "validation_summary": {
+        "colony": "British Guiana",
+        "year": 1966,
+        "total": 89,
+        "high_confidence": 89,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 89,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_guiana_1966_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1966": {
+      "colony": "British Honduras",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/british_honduras.txt",
+      "timestamp": "2026-03-06T05:46:22.178618",
+      "total_officials": 57,
+      "passed_officials": 57,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 52,
+        "Judiciary": 5
+      },
+      "generation_time": 286.5,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1966,
+        "total": 57,
+        "high_confidence": 57,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 57,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1966_data_gpt-oss_120b.json"
+    },
+    "Cayman Islands_1966": {
+      "colony": "Cayman Islands",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/cayman_islands.txt",
+      "timestamp": "2026-03-06T05:51:08.768125",
+      "total_officials": 13,
+      "passed_officials": 13,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 13
+      },
+      "generation_time": 71.3,
+      "validation_summary": {
+        "colony": "Cayman Islands",
+        "year": 1966,
+        "total": 13,
+        "high_confidence": 13,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 13,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cayman_islands_1966_data_gpt-oss_120b.json"
+    },
+    "Dominica_1966": {
+      "colony": "Dominica",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/dominica.txt",
+      "timestamp": "2026-03-06T05:52:20.063233",
+      "total_officials": 32,
+      "passed_officials": 32,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 32
+      },
+      "generation_time": 195.2,
+      "validation_summary": {
+        "colony": "Dominica",
+        "year": 1966,
+        "total": 32,
+        "high_confidence": 32,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 32,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/dominica_1966_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1966": {
+      "colony": "Falkland Islands",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/falkland_islands.txt",
+      "timestamp": "2026-03-06T05:55:35.326193",
+      "total_officials": 12,
+      "passed_officials": 12,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 11,
+        "Dependencies": 1
+      },
+      "generation_time": 75.7,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1966,
+        "total": 12,
+        "high_confidence": 12,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 12,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1966_data_gpt-oss_120b.json"
+    },
+    "Fiji_1966": {
+      "colony": "Fiji",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/fiji.txt",
+      "timestamp": "2026-03-06T05:56:51.085555",
+      "total_officials": 63,
+      "passed_officials": 63,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 59,
+        "Judiciary": 4
+      },
+      "generation_time": 344.3,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1966,
+        "total": 63,
+        "high_confidence": 63,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 63,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1966_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1966": {
+      "colony": "Gibraltar",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/gibraltar.txt",
+      "timestamp": "2026-03-06T06:02:35.416636",
+      "total_officials": 22,
+      "passed_officials": 22,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19,
+        "Judiciary": 3
+      },
+      "generation_time": 118.9,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1966,
+        "total": 22,
+        "high_confidence": 22,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 22,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1966_data_gpt-oss_120b.json"
+    },
+    "Grenada_1966": {
+      "colony": "Grenada",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/grenada.txt",
+      "timestamp": "2026-03-06T06:04:34.399679",
+      "total_officials": 34,
+      "passed_officials": 34,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 34
+      },
+      "generation_time": 171.6,
+      "validation_summary": {
+        "colony": "Grenada",
+        "year": 1966,
+        "total": 34,
+        "high_confidence": 34,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 34,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/grenada_1966_data_gpt-oss_120b.json"
+    },
+    "Hong Kong_1966": {
+      "colony": "Hong Kong",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/hong_kong.txt",
+      "timestamp": "2026-03-06T06:07:26.071918",
+      "total_officials": 74,
+      "passed_officials": 74,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 67,
+        "Judiciary": 7
+      },
+      "generation_time": 341.3,
+      "validation_summary": {
+        "colony": "Hong Kong",
+        "year": 1966,
+        "total": 74,
+        "high_confidence": 74,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 74,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1966_data_gpt-oss_120b.json"
+    },
+    "Mauritius_1966": {
+      "colony": "Mauritius",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/mauritius.txt",
+      "timestamp": "2026-03-06T06:13:07.421115",
+      "total_officials": 68,
+      "passed_officials": 68,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 64,
+        "Judiciary": 4
+      },
+      "generation_time": 326.5,
+      "validation_summary": {
+        "colony": "Mauritius",
+        "year": 1966,
+        "total": 68,
+        "high_confidence": 68,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 68,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/mauritius_1966_data_gpt-oss_120b.json"
+    },
+    "Montserrat_1966": {
+      "colony": "Montserrat",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/montserrat.txt",
+      "timestamp": "2026-03-06T06:18:33.923361",
+      "total_officials": 10,
+      "passed_officials": 10,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 10
+      },
+      "generation_time": 57.3,
+      "validation_summary": {
+        "colony": "Montserrat",
+        "year": 1966,
+        "total": 10,
+        "high_confidence": 10,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 10,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/montserrat_1966_data_gpt-oss_120b.json"
+    },
+    "Pitcairn Island_1966": {
+      "colony": "Pitcairn Island",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/pitcairn_islands.txt",
+      "timestamp": "2026-03-06T06:19:31.270174",
+      "total_officials": 4,
+      "passed_officials": 4,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 4
+      },
+      "generation_time": 40.4,
+      "validation_summary": {
+        "colony": "Pitcairn Island",
+        "year": 1966,
+        "total": 4,
+        "high_confidence": 4,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 4,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/pitcairn_island_1966_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1966": {
+      "colony": "Seychelles",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/seychelles.txt",
+      "timestamp": "2026-03-06T06:20:11.681253",
+      "total_officials": 26,
+      "passed_officials": 26,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 22,
+        "Judiciary": 3,
+        "Trade Representatives": 1
+      },
+      "generation_time": 165.3,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1966,
+        "total": 26,
+        "high_confidence": 26,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 26,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1966_data_gpt-oss_120b.json"
+    },
+    "St Christopher and Nevis_1966": {
+      "colony": "St Christopher and Nevis",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/st_christopher_nevis_anguilla.txt",
+      "timestamp": "2026-03-06T06:22:57.033674",
+      "total_officials": 24,
+      "passed_officials": 24,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 24
+      },
+      "generation_time": 124.3,
+      "validation_summary": {
+        "colony": "St Christopher and Nevis",
+        "year": 1966,
+        "total": 24,
+        "high_confidence": 24,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 24,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_christopher_and_nevis_1966_data_gpt-oss_120b.json"
+    },
+    "St Helena_1966": {
+      "colony": "St Helena",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/st_helena.txt",
+      "timestamp": "2026-03-06T06:25:01.348309",
+      "total_officials": 21,
+      "passed_officials": 21,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 18,
+        "Ascension": 1,
+        "Tristan da Cunha": 2
+      },
+      "generation_time": 122.7,
+      "validation_summary": {
+        "colony": "St Helena",
+        "year": 1966,
+        "total": 21,
+        "high_confidence": 21,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 21,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1966_data_gpt-oss_120b.json"
+    },
+    "St Lucia_1966": {
+      "colony": "St Lucia",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/st_lucia.txt",
+      "timestamp": "2026-03-06T06:27:04.061376",
+      "total_officials": 25,
+      "passed_officials": 25,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 21,
+        "Judiciary": 4
+      },
+      "generation_time": 138.2,
+      "validation_summary": {
+        "colony": "St Lucia",
+        "year": 1966,
+        "total": 25,
+        "high_confidence": 25,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 25,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_lucia_1966_data_gpt-oss_120b.json"
+    },
+    "St Vincent_1966": {
+      "colony": "St Vincent",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/st_vincent.txt",
+      "timestamp": "2026-03-06T06:29:22.318216",
+      "total_officials": 35,
+      "passed_officials": 35,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 31,
+        "Judiciary": 4
+      },
+      "generation_time": 167.2,
+      "validation_summary": {
+        "colony": "St Vincent",
+        "year": 1966,
+        "total": 35,
+        "high_confidence": 35,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 35,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_vincent_1966_data_gpt-oss_120b.json"
+    },
+    "Swaziland_1966": {
+      "colony": "Swaziland",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/swaziland.txt",
+      "timestamp": "2026-03-06T06:32:09.591191",
+      "total_officials": 43,
+      "passed_officials": 43,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 38,
+        "Judiciary": 5
+      },
+      "generation_time": 227.3,
+      "validation_summary": {
+        "colony": "Swaziland",
+        "year": 1966,
+        "total": 43,
+        "high_confidence": 43,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 43,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/swaziland_1966_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
