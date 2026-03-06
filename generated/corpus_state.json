@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T20:45:17.074754",
+  "last_updated": "2026-03-05T21:35:45.523380",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -55541,6 +55541,280 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1961_data_gpt-oss_120b.json"
+    },
+    "Fiji_1961": {
+      "colony": "Fiji",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/fiji.txt",
+      "timestamp": "2026-03-05T20:45:17.099751",
+      "total_officials": 55,
+      "passed_officials": 53,
+      "quarantined_officials": 2,
+      "departments": {
+        "Civil Establishment": 32,
+        "Law Officers": 16,
+        "JUDICIARY": 4,
+        "PITCAIRN ISLANDS GROUP": 1
+      },
+      "generation_time": 286.2,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1961,
+        "total": 55,
+        "high_confidence": 53,
+        "medium_confidence": 0,
+        "low_confidence": 2,
+        "quarantined": 2,
+        "passed": 53,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1961_data_gpt-oss_120b.json"
+    },
+    "Gambia_1961": {
+      "colony": "Gambia",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/the_gambia.txt",
+      "timestamp": "2026-03-05T20:50:03.416057",
+      "total_officials": 20,
+      "passed_officials": 20,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19,
+        "Judiciary": 1
+      },
+      "generation_time": 101.7,
+      "validation_summary": {
+        "colony": "Gambia",
+        "year": 1961,
+        "total": 20,
+        "high_confidence": 20,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 20,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1961_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1961": {
+      "colony": "Gibraltar",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/gibraltar.txt",
+      "timestamp": "2026-03-05T20:51:45.179451",
+      "total_officials": 22,
+      "passed_officials": 22,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 12,
+        "Law Officer": 7,
+        "Judiciary": 3
+      },
+      "generation_time": 126.4,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1961,
+        "total": 22,
+        "high_confidence": 22,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 22,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1961_data_gpt-oss_120b.json"
+    },
+    "Hong Kong_1961": {
+      "colony": "Hong Kong",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/hong_kong.txt",
+      "timestamp": "2026-03-05T20:53:51.605583",
+      "total_officials": 73,
+      "passed_officials": 73,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 68,
+        "Judiciary": 5
+      },
+      "generation_time": 337.6,
+      "validation_summary": {
+        "colony": "Hong Kong",
+        "year": 1961,
+        "total": 73,
+        "high_confidence": 73,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 73,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1961_data_gpt-oss_120b.json"
+    },
+    "Jamaica_1961": {
+      "colony": "Jamaica",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/west_indies_jamaica.txt",
+      "timestamp": "2026-03-05T20:59:29.283653",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 441.0,
+      "validation_summary": {
+        "colony": "Jamaica",
+        "year": 1961,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/jamaica_1961_data_gpt-oss_120b.json"
+    },
+    "Kenya_1961": {
+      "colony": "Kenya",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/kenya.txt",
+      "timestamp": "2026-03-05T21:06:50.339551",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 418.6,
+      "validation_summary": {
+        "colony": "Kenya",
+        "year": 1961,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kenya_1961_data_gpt-oss_120b.json"
+    },
+    "Malta_1961": {
+      "colony": "Malta",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/malta.txt",
+      "timestamp": "2026-03-05T21:13:49.008942",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 417.7,
+      "validation_summary": {
+        "colony": "Malta",
+        "year": 1961,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1961_data_gpt-oss_120b.json"
+    },
+    "Mauritius_1961": {
+      "colony": "Mauritius",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/mauritius.txt",
+      "timestamp": "2026-03-05T21:20:46.732207",
+      "total_officials": 70,
+      "passed_officials": 70,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 66,
+        "Judiciary": 4
+      },
+      "generation_time": 338.5,
+      "validation_summary": {
+        "colony": "Mauritius",
+        "year": 1961,
+        "total": 70,
+        "high_confidence": 70,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 70,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/mauritius_1961_data_gpt-oss_120b.json"
+    },
+    "North Borneo_1961": {
+      "colony": "North Borneo",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/north_borneo.txt",
+      "timestamp": "2026-03-05T21:26:25.307446",
+      "total_officials": 41,
+      "passed_officials": 41,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 38,
+        "Judiciary": 3
+      },
+      "generation_time": 213.6,
+      "validation_summary": {
+        "colony": "North Borneo",
+        "year": 1961,
+        "total": 41,
+        "high_confidence": 41,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 41,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1961_data_gpt-oss_120b.json"
+    },
+    "Northern Rhodesia_1961": {
+      "colony": "Northern Rhodesia",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/northern_rhodesia.txt",
+      "timestamp": "2026-03-05T21:29:59.013664",
+      "total_officials": 71,
+      "passed_officials": 71,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 65,
+        "Judiciary": 6
+      },
+      "generation_time": 346.5,
+      "validation_summary": {
+        "colony": "Northern Rhodesia",
+        "year": 1961,
+        "total": 71,
+        "high_confidence": 71,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 71,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1961_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
