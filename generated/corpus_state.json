@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T17:43:42.277193",
+  "last_updated": "2026-03-05T18:31:14.549899",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -54304,6 +54304,315 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1959_data_gpt-oss_120b.json"
+    },
+    "Sierra Leone_1959": {
+      "colony": "Sierra Leone",
+      "year": 1959,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1959_manual_parsed/Sierra_Leone.txt",
+      "timestamp": "2026-03-05T17:43:42.305916",
+      "total_officials": 61,
+      "passed_officials": 61,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 61
+      },
+      "generation_time": 288.3,
+      "validation_summary": {
+        "colony": "Sierra Leone",
+        "year": 1959,
+        "total": 61,
+        "high_confidence": 61,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 61,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1959_data_gpt-oss_120b.json"
+    },
+    "Singapore_1959": {
+      "colony": "Singapore",
+      "year": 1959,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1959_manual_parsed/Singapore.txt",
+      "timestamp": "2026-03-05T17:48:30.712460",
+      "total_officials": 80,
+      "passed_officials": 80,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 75,
+        "Singapore : Somaliland Protectorate": 5
+      },
+      "generation_time": 379.3,
+      "validation_summary": {
+        "colony": "Singapore",
+        "year": 1959,
+        "total": 80,
+        "high_confidence": 80,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 80,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/singapore_1959_data_gpt-oss_120b.json"
+    },
+    "St Helena_1959": {
+      "colony": "St Helena",
+      "year": 1959,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1959_manual_parsed/St_Helena.txt",
+      "timestamp": "2026-03-05T17:54:50.073846",
+      "total_officials": 15,
+      "passed_officials": 15,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 15
+      },
+      "generation_time": 140.6,
+      "validation_summary": {
+        "colony": "St Helena",
+        "year": 1959,
+        "total": 15,
+        "high_confidence": 13,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 15,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1959_data_gpt-oss_120b.json"
+    },
+    "Tanganyika_1959": {
+      "colony": "Tanganyika",
+      "year": 1959,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1959_manual_parsed/Tanganyika.txt",
+      "timestamp": "2026-03-05T17:57:10.713637",
+      "total_officials": 19,
+      "passed_officials": 19,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19
+      },
+      "generation_time": 119.8,
+      "validation_summary": {
+        "colony": "Tanganyika",
+        "year": 1959,
+        "total": 19,
+        "high_confidence": 19,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 19,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tanganyika_1959_data_gpt-oss_120b.json"
+    },
+    "Tonga_1959": {
+      "colony": "Tonga",
+      "year": 1959,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1959_manual_parsed/Tonga.txt",
+      "timestamp": "2026-03-05T17:59:10.590062",
+      "total_officials": 9,
+      "passed_officials": 9,
+      "quarantined_officials": 0,
+      "departments": {
+        "Ministers": 8,
+        "British Agent and Consul": 1
+      },
+      "generation_time": 60.4,
+      "validation_summary": {
+        "colony": "Tonga",
+        "year": 1959,
+        "total": 9,
+        "high_confidence": 9,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 9,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tonga_1959_data_gpt-oss_120b.json"
+    },
+    "Uganda_1959": {
+      "colony": "Uganda",
+      "year": 1959,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1959_manual_parsed/Uganda.txt",
+      "timestamp": "2026-03-05T18:00:11.006693",
+      "total_officials": 83,
+      "passed_officials": 83,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 83
+      },
+      "generation_time": 411.0,
+      "validation_summary": {
+        "colony": "Uganda",
+        "year": 1959,
+        "total": 83,
+        "high_confidence": 83,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 83,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/uganda_1959_data_gpt-oss_120b.json"
+    },
+    "Western Pacific_1959": {
+      "colony": "Western Pacific",
+      "year": 1959,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1959_manual_parsed/Western_Pacific.txt",
+      "timestamp": "2026-03-05T18:07:02.102813",
+      "total_officials": 74,
+      "passed_officials": 74,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 42,
+        "null": 6,
+        "British National Administration": 11,
+        "FRENCH NATIONAL ADMINISTRATION": 7,
+        "JOINT SERVICES": 8
+      },
+      "generation_time": 573.1,
+      "validation_summary": {
+        "colony": "Western Pacific",
+        "year": 1959,
+        "total": 74,
+        "high_confidence": 68,
+        "medium_confidence": 6,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 74,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/western_pacific_1959_data_gpt-oss_120b.json"
+    },
+    "Zanzibar_1959": {
+      "colony": "Zanzibar",
+      "year": 1959,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1959_manual_parsed/Zanzibar.txt",
+      "timestamp": "2026-03-05T18:16:35.260736",
+      "total_officials": 26,
+      "passed_officials": 26,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 26
+      },
+      "generation_time": 168.8,
+      "validation_summary": {
+        "colony": "Zanzibar",
+        "year": 1959,
+        "total": 26,
+        "high_confidence": 26,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 26,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/zanzibar_1959_data_gpt-oss_120b.json"
+    },
+    "Aden_1960": {
+      "colony": "Aden",
+      "year": 1960,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1960_manual_parsed/aden_colony.txt",
+      "timestamp": "2026-03-05T18:19:24.166063",
+      "total_officials": 49,
+      "passed_officials": 49,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 36,
+        "Aden Protectorate": 10,
+        "Kamaran": 1,
+        "Perim": 1,
+        "Judiciary": 1
+      },
+      "generation_time": 251.2,
+      "validation_summary": {
+        "colony": "Aden",
+        "year": 1960,
+        "total": 49,
+        "high_confidence": 49,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 49,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/aden_1960_data_gpt-oss_120b.json"
+    },
+    "Bahamas_1960": {
+      "colony": "Bahamas",
+      "year": 1960,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1960_manual_parsed/bahama_islands.txt",
+      "timestamp": "2026-03-05T18:23:35.423491",
+      "total_officials": 46,
+      "passed_officials": 46,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 43,
+        "Judiciary": 3
+      },
+      "generation_time": 248.0,
+      "validation_summary": {
+        "colony": "Bahamas",
+        "year": 1960,
+        "total": 46,
+        "high_confidence": 46,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 46,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1960_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1960": {
+      "colony": "Bermuda",
+      "year": 1960,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1960_manual_parsed/bermuda.txt",
+      "timestamp": "2026-03-05T18:27:43.438564",
+      "total_officials": 35,
+      "passed_officials": 35,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 32,
+        "Judiciary": 3
+      },
+      "generation_time": 211.1,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1960,
+        "total": 35,
+        "high_confidence": 35,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 35,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1960_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
