@@ -1,0 +1,75 @@
+{
+  "colony": "Tonga",
+  "year": 1961,
+  "generated": "2026-03-05T22:08:09.704446",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "Gerald Portal",
+      "canonical_name": "Portal, Gerald",
+      "given_names": "Gerald",
+      "surname": "Portal",
+      "position": "Commissioner",
+      "department": "Commissioners",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "H. Colville",
+      "canonical_name": "Colville, H.",
+      "given_names": "H.",
+      "surname": "Colville",
+      "position": "Commissioner",
+      "department": "Commissioners",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": "Colonel",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "E. J. L. Berkeley",
+      "canonical_name": "Berkeley, E. J. L.",
+      "given_names": "E. J. L.",
+      "surname": "Berkeley",
+      "position": "Commissioner",
+      "department": "Commissioners",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Tonga",
+    "year": 1961,
+    "total": 3,
+    "high_confidence": 3,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}

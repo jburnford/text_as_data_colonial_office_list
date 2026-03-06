@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T21:44:21.486412",
+  "last_updated": "2026-03-05T22:35:23.123580",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -55871,6 +55871,322 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1961_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1961": {
+      "colony": "Seychelles",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/seychelles.txt",
+      "timestamp": "2026-03-05T21:44:21.537171",
+      "total_officials": 24,
+      "passed_officials": 24,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19,
+        "Judiciary": 3,
+        "Trade Representatives": 2
+      },
+      "generation_time": 147.0,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1961,
+        "total": 24,
+        "high_confidence": 24,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 24,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1961_data_gpt-oss_120b.json"
+    },
+    "St Helena_1961": {
+      "colony": "St Helena",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/st_helena.txt",
+      "timestamp": "2026-03-05T21:46:48.524922",
+      "total_officials": 19,
+      "passed_officials": 19,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 18,
+        "null": 1
+      },
+      "generation_time": 134.3,
+      "validation_summary": {
+        "colony": "St Helena",
+        "year": 1961,
+        "total": 19,
+        "high_confidence": 19,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 19,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1961_data_gpt-oss_120b.json"
+    },
+    "St Vincent_1961": {
+      "colony": "St Vincent",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/west_indies_st_vincent.txt",
+      "timestamp": "2026-03-05T21:49:02.851263",
+      "total_officials": 152,
+      "passed_officials": 152,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 90,
+        "Judiciary": 12,
+        "Governors and Administrators": 37,
+        "Cabinet": 9,
+        "Attorney-General": 2,
+        "Legislative Council": 2
+      },
+      "generation_time": 806.9,
+      "validation_summary": {
+        "colony": "St Vincent",
+        "year": 1961,
+        "total": 152,
+        "high_confidence": 148,
+        "medium_confidence": 4,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 152,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_vincent_1961_data_gpt-oss_120b.json"
+    },
+    "Tanganyika_1961": {
+      "colony": "Tanganyika",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/tanganyika.txt",
+      "timestamp": "2026-03-05T22:02:29.921477",
+      "total_officials": 56,
+      "passed_officials": 56,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 51,
+        "Judiciary": 5
+      },
+      "generation_time": 289.2,
+      "validation_summary": {
+        "colony": "Tanganyika",
+        "year": 1961,
+        "total": 56,
+        "high_confidence": 56,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 56,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tanganyika_1961_data_gpt-oss_120b.json"
+    },
+    "Tonga_1961": {
+      "colony": "Tonga",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/tonga.txt",
+      "timestamp": "2026-03-05T22:07:19.128465",
+      "total_officials": 3,
+      "passed_officials": 3,
+      "quarantined_officials": 0,
+      "departments": {
+        "Commissioners": 3
+      },
+      "generation_time": 50.6,
+      "validation_summary": {
+        "colony": "Tonga",
+        "year": 1961,
+        "total": 3,
+        "high_confidence": 3,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 3,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tonga_1961_data_gpt-oss_120b.json"
+    },
+    "Uganda_1961": {
+      "colony": "Uganda",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/uganda.txt",
+      "timestamp": "2026-03-05T22:08:09.754530",
+      "total_officials": 74,
+      "passed_officials": 74,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 66,
+        "Judiciary": 8
+      },
+      "generation_time": 316.0,
+      "validation_summary": {
+        "colony": "Uganda",
+        "year": 1961,
+        "total": 74,
+        "high_confidence": 74,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 74,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/uganda_1961_data_gpt-oss_120b.json"
+    },
+    "Virgin Islands_1961": {
+      "colony": "Virgin Islands",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/virgin_islands.txt",
+      "timestamp": "2026-03-05T22:13:25.754876",
+      "total_officials": 8,
+      "passed_officials": 8,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 8
+      },
+      "generation_time": 57.1,
+      "validation_summary": {
+        "colony": "Virgin Islands",
+        "year": 1961,
+        "total": 8,
+        "high_confidence": 8,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 8,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/virgin_islands_1961_data_gpt-oss_120b.json"
+    },
+    "Western Pacific_1961": {
+      "colony": "Western Pacific",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/western_pacific_high_commission.txt",
+      "timestamp": "2026-03-05T22:14:22.949302",
+      "total_officials": 86,
+      "passed_officials": 86,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 46,
+        "null": 5,
+        "British National Administration": 17,
+        "FRENCH NATIONAL ADMINISTRATION": 9,
+        "JOINT SERVICES": 9
+      },
+      "generation_time": 548.5,
+      "validation_summary": {
+        "colony": "Western Pacific",
+        "year": 1961,
+        "total": 86,
+        "high_confidence": 84,
+        "medium_confidence": 2,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 86,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/western_pacific_1961_data_gpt-oss_120b.json"
+    },
+    "Zanzibar_1961": {
+      "colony": "Zanzibar",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/zanzibar.txt",
+      "timestamp": "2026-03-05T22:23:31.574573",
+      "total_officials": 40,
+      "passed_officials": 40,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 38,
+        "Judiciary": 2
+      },
+      "generation_time": 203.6,
+      "validation_summary": {
+        "colony": "Zanzibar",
+        "year": 1961,
+        "total": 40,
+        "high_confidence": 40,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 40,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/zanzibar_1961_data_gpt-oss_120b.json"
+    },
+    "Aden_1962": {
+      "colony": "Aden",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Aden_Colony.txt",
+      "timestamp": "2026-03-05T22:26:55.235182",
+      "total_officials": 57,
+      "passed_officials": 57,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 38,
+        "Aden Protectorate": 16,
+        "Kamaran": 1,
+        "Judiciary": 2
+      },
+      "generation_time": 263.1,
+      "validation_summary": {
+        "colony": "Aden",
+        "year": 1962,
+        "total": 57,
+        "high_confidence": 57,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 57,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/aden_1962_data_gpt-oss_120b.json"
+    },
+    "Bahamas_1962": {
+      "colony": "Bahamas",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Bahama_Islands.txt",
+      "timestamp": "2026-03-05T22:31:18.355650",
+      "total_officials": 50,
+      "passed_officials": 50,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 46,
+        "Judiciary": 4
+      },
+      "generation_time": 244.8,
+      "validation_summary": {
+        "colony": "Bahamas",
+        "year": 1962,
+        "total": 50,
+        "high_confidence": 50,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 50,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1962_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
