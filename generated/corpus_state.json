@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T19:33:27.192535",
+  "last_updated": "2026-03-05T19:42:48.562995",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -55028,6 +55028,90 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1960_data_gpt-oss_120b.json"
+    },
+    "Sarawak_1960": {
+      "colony": "Sarawak",
+      "year": 1960,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1960_manual_parsed/sarawak.txt",
+      "timestamp": "2026-03-05T19:33:27.242400",
+      "total_officials": 52,
+      "passed_officials": 52,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 45,
+        "Judiciary": 7
+      },
+      "generation_time": 217.9,
+      "validation_summary": {
+        "colony": "Sarawak",
+        "year": 1960,
+        "total": 52,
+        "high_confidence": 52,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 52,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1960_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1960": {
+      "colony": "Seychelles",
+      "year": 1960,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1960_manual_parsed/seychelles.txt",
+      "timestamp": "2026-03-05T19:37:05.223976",
+      "total_officials": 19,
+      "passed_officials": 19,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 17,
+        "Judiciary": 2
+      },
+      "generation_time": 90.4,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1960,
+        "total": 19,
+        "high_confidence": 19,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 19,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1960_data_gpt-oss_120b.json"
+    },
+    "Sierra Leone_1960": {
+      "colony": "Sierra Leone",
+      "year": 1960,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1960_manual_parsed/sierra_leone.txt",
+      "timestamp": "2026-03-05T19:38:35.663794",
+      "total_officials": 60,
+      "passed_officials": 60,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 56,
+        "Judiciary": 4
+      },
+      "generation_time": 252.9,
+      "validation_summary": {
+        "colony": "Sierra Leone",
+        "year": 1960,
+        "total": 60,
+        "high_confidence": 60,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 60,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1960_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
