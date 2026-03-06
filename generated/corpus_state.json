@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-06T05:36:36.014001",
+  "last_updated": "2026-03-06T05:40:20.072853",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -59691,6 +59691,62 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bechuanaland_1966_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1966": {
+      "colony": "Bermuda",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/bermuda.txt",
+      "timestamp": "2026-03-06T05:36:36.069931",
+      "total_officials": 32,
+      "passed_officials": 32,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 26,
+        "Judiciary": 6
+      },
+      "generation_time": 168.8,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1966,
+        "total": 32,
+        "high_confidence": 32,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 32,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1966_data_gpt-oss_120b.json"
+    },
+    "British Antarctic Territory_1966": {
+      "colony": "British Antarctic Territory",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/british_antarctic_territory.txt",
+      "timestamp": "2026-03-06T05:39:24.896449",
+      "total_officials": 7,
+      "passed_officials": 7,
+      "quarantined_officials": 0,
+      "departments": {
+        "High Commissioners": 2,
+        "Reading List": 5
+      },
+      "generation_time": 55.2,
+      "validation_summary": {
+        "colony": "British Antarctic Territory",
+        "year": 1966,
+        "total": 7,
+        "high_confidence": 7,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 7,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_antarctic_territory_1966_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
