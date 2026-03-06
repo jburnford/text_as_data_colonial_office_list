@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T20:36:32.598367",
+  "last_updated": "2026-03-05T20:45:17.074754",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -55456,6 +55456,91 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_guiana_1961_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1961": {
+      "colony": "British Honduras",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/british_honduras.txt",
+      "timestamp": "2026-03-05T20:36:32.628281",
+      "total_officials": 53,
+      "passed_officials": 53,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 34,
+        "Law Officers": 17,
+        "Judiciary": 2
+      },
+      "generation_time": 242.4,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1961,
+        "total": 53,
+        "high_confidence": 53,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 53,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1961_data_gpt-oss_120b.json"
+    },
+    "Brunei_1961": {
+      "colony": "Brunei",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/brunei.txt",
+      "timestamp": "2026-03-05T20:40:35.055954",
+      "total_officials": 29,
+      "passed_officials": 29,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 28,
+        "Judiciary": 1
+      },
+      "generation_time": 188.4,
+      "validation_summary": {
+        "colony": "Brunei",
+        "year": 1961,
+        "total": 29,
+        "high_confidence": 29,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 29,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/brunei_1961_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1961": {
+      "colony": "Falkland Islands",
+      "year": 1961,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/falkland_islands_and_dependencies.txt",
+      "timestamp": "2026-03-05T20:43:43.453665",
+      "total_officials": 13,
+      "passed_officials": 13,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 11,
+        "Dependencies": 2
+      },
+      "generation_time": 93.6,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1961,
+        "total": 13,
+        "high_confidence": 13,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 13,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1961_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
