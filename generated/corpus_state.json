@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-06T00:43:21.931314",
+  "last_updated": "2026-03-06T01:31:28.847969",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -57052,6 +57052,403 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1963_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1963": {
+      "colony": "Bermuda",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/bermuda.txt",
+      "timestamp": "2026-03-06T00:43:21.957897",
+      "total_officials": 32,
+      "passed_officials": 32,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 29,
+        "Judiciary": 3
+      },
+      "generation_time": 188.8,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1963,
+        "total": 32,
+        "high_confidence": 32,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 32,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1963_data_gpt-oss_120b.json"
+    },
+    "British Antarctic Territory_1963": {
+      "colony": "British Antarctic Territory",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/british_antarctic_territory.txt",
+      "timestamp": "2026-03-06T00:46:30.791432",
+      "total_officials": 1,
+      "passed_officials": 1,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 1
+      },
+      "generation_time": 23.0,
+      "validation_summary": {
+        "colony": "British Antarctic Territory",
+        "year": 1963,
+        "total": 1,
+        "high_confidence": 1,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 1,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_antarctic_territory_1963_data_gpt-oss_120b.json"
+    },
+    "British Guiana_1963": {
+      "colony": "British Guiana",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/british_guiana.txt",
+      "timestamp": "2026-03-06T00:46:53.899995",
+      "total_officials": 84,
+      "passed_officials": 84,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 73,
+        "Law Officers": 4,
+        "Judiciary": 7
+      },
+      "generation_time": 353.1,
+      "validation_summary": {
+        "colony": "British Guiana",
+        "year": 1963,
+        "total": 84,
+        "high_confidence": 84,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 84,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_guiana_1963_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1963": {
+      "colony": "British Honduras",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/british_honduras.txt",
+      "timestamp": "2026-03-06T00:52:47.035344",
+      "total_officials": 52,
+      "passed_officials": 52,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 49,
+        "Judiciary": 3
+      },
+      "generation_time": 228.2,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1963,
+        "total": 52,
+        "high_confidence": 52,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 52,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1963_data_gpt-oss_120b.json"
+    },
+    "Brunei_1963": {
+      "colony": "Brunei",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/brunei.txt",
+      "timestamp": "2026-03-06T00:56:35.260645",
+      "total_officials": 32,
+      "passed_officials": 32,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 31,
+        "Judiciary": 1
+      },
+      "generation_time": 167.1,
+      "validation_summary": {
+        "colony": "Brunei",
+        "year": 1963,
+        "total": 32,
+        "high_confidence": 32,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 32,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/brunei_1963_data_gpt-oss_120b.json"
+    },
+    "Cayman Islands_1963": {
+      "colony": "Cayman Islands",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/cayman_islands.txt",
+      "timestamp": "2026-03-06T00:59:22.441987",
+      "total_officials": 13,
+      "passed_officials": 13,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 13
+      },
+      "generation_time": 76.9,
+      "validation_summary": {
+        "colony": "Cayman Islands",
+        "year": 1963,
+        "total": 13,
+        "high_confidence": 13,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 13,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cayman_islands_1963_data_gpt-oss_120b.json"
+    },
+    "Dominica_1963": {
+      "colony": "Dominica",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/dominica.txt",
+      "timestamp": "2026-03-06T01:00:39.355575",
+      "total_officials": 30,
+      "passed_officials": 30,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 30
+      },
+      "generation_time": 163.2,
+      "validation_summary": {
+        "colony": "Dominica",
+        "year": 1963,
+        "total": 30,
+        "high_confidence": 30,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 30,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/dominica_1963_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1963": {
+      "colony": "Falkland Islands",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/falkland_islands_and_dependencies.txt",
+      "timestamp": "2026-03-06T01:03:22.581394",
+      "total_officials": 11,
+      "passed_officials": 11,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 10,
+        "Dependencies": 1
+      },
+      "generation_time": 68.9,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1963,
+        "total": 11,
+        "high_confidence": 11,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 11,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1963_data_gpt-oss_120b.json"
+    },
+    "Fiji_1963": {
+      "colony": "Fiji",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/fiji_and_pitcairn_islands_group.txt",
+      "timestamp": "2026-03-06T01:04:31.503681",
+      "total_officials": 56,
+      "passed_officials": 56,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 51,
+        "Judiciary": 4,
+        "Pitcairn Islands Group": 1
+      },
+      "generation_time": 259.5,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1963,
+        "total": 56,
+        "high_confidence": 56,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 56,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1963_data_gpt-oss_120b.json"
+    },
+    "Gambia_1963": {
+      "colony": "Gambia",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/the_gambia.txt",
+      "timestamp": "2026-03-06T01:08:51.092607",
+      "total_officials": 27,
+      "passed_officials": 27,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Office of the Premier": 3,
+        "Ministry of Finance": 4,
+        "Ministry of Agriculture": 3,
+        "Ministry of Communications": 3,
+        "Ministry of Education": 1,
+        "Ministry of Health": 1,
+        "Ministry of Labour and Social Welfare": 2,
+        "Ministry for Local Government and Lands": 2,
+        "Ministry of Works and Services": 2,
+        "Non-Ministerial": 3,
+        "Judiciary": 1
+      },
+      "generation_time": 326.5,
+      "validation_summary": {
+        "colony": "Gambia",
+        "year": 1963,
+        "total": 27,
+        "high_confidence": 27,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 27,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1963_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1963": {
+      "colony": "Gibraltar",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/gibraltar.txt",
+      "timestamp": "2026-03-06T01:14:17.602125",
+      "total_officials": 22,
+      "passed_officials": 22,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19,
+        "JUDICIARY": 3
+      },
+      "generation_time": 117.1,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1963,
+        "total": 22,
+        "high_confidence": 22,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 22,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1963_data_gpt-oss_120b.json"
+    },
+    "Grenada_1963": {
+      "colony": "Grenada",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/grenada.txt",
+      "timestamp": "2026-03-06T01:16:14.744114",
+      "total_officials": 32,
+      "passed_officials": 32,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 32
+      },
+      "generation_time": 158.1,
+      "validation_summary": {
+        "colony": "Grenada",
+        "year": 1963,
+        "total": 32,
+        "high_confidence": 32,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 32,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/grenada_1963_data_gpt-oss_120b.json"
+    },
+    "Hong Kong_1963": {
+      "colony": "Hong Kong",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/hong_kong.txt",
+      "timestamp": "2026-03-06T01:18:52.871725",
+      "total_officials": 70,
+      "passed_officials": 70,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 64,
+        "Judiciary": 6
+      },
+      "generation_time": 337.5,
+      "validation_summary": {
+        "colony": "Hong Kong",
+        "year": 1963,
+        "total": 70,
+        "high_confidence": 70,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 70,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1963_data_gpt-oss_120b.json"
+    },
+    "Kenya_1963": {
+      "colony": "Kenya",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/kenya.txt",
+      "timestamp": "2026-03-06T01:24:30.390482",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 418.5,
+      "validation_summary": {
+        "colony": "Kenya",
+        "year": 1963,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kenya_1963_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
