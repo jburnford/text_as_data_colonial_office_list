@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T22:35:23.123580",
+  "last_updated": "2026-03-05T23:36:09.936008",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -56187,6 +56187,373 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1962_data_gpt-oss_120b.json"
+    },
+    "Barbados_1962": {
+      "colony": "Barbados",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/The_West_Indies_-_Barbados.txt",
+      "timestamp": "2026-03-05T22:35:23.153710",
+      "total_officials": 99,
+      "passed_officials": 97,
+      "quarantined_officials": 2,
+      "departments": {
+        "Executive Council": 17,
+        "Legislative Assembly": 1,
+        "Civil Establishment": 73,
+        "Legislative Council": 4,
+        "null": 2
+      },
+      "generation_time": 1071.0,
+      "validation_summary": {
+        "colony": "Barbados",
+        "year": 1962,
+        "total": 99,
+        "high_confidence": 95,
+        "medium_confidence": 2,
+        "low_confidence": 2,
+        "quarantined": 2,
+        "passed": 97,
+        "anomaly_count": 4
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1962_data_gpt-oss_120b.json"
+    },
+    "Basutoland_1962": {
+      "colony": "Basutoland",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Basutoland.txt",
+      "timestamp": "2026-03-05T22:53:14.263026",
+      "total_officials": 38,
+      "passed_officials": 38,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Secretariat": 22,
+        "Law Officers": 9,
+        "Judiciary": 6
+      },
+      "generation_time": 238.2,
+      "validation_summary": {
+        "colony": "Basutoland",
+        "year": 1962,
+        "total": 38,
+        "high_confidence": 38,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 38,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/basutoland_1962_data_gpt-oss_120b.json"
+    },
+    "Bechuanaland_1962": {
+      "colony": "Bechuanaland",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/The_Bechuanaland_Protectorate.txt",
+      "timestamp": "2026-03-05T22:57:12.468839",
+      "total_officials": 26,
+      "passed_officials": 26,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Secretariat": 22,
+        "Judiciary": 3
+      },
+      "generation_time": 112.3,
+      "validation_summary": {
+        "colony": "Bechuanaland",
+        "year": 1962,
+        "total": 26,
+        "high_confidence": 26,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 26,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bechuanaland_1962_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1962": {
+      "colony": "Bermuda",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Bermuda.txt",
+      "timestamp": "2026-03-05T22:59:04.794940",
+      "total_officials": 32,
+      "passed_officials": 32,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 28,
+        "Judiciary": 4
+      },
+      "generation_time": 158.8,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1962,
+        "total": 32,
+        "high_confidence": 32,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 32,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1962_data_gpt-oss_120b.json"
+    },
+    "British Guiana_1962": {
+      "colony": "British Guiana",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/British_Guiana.txt",
+      "timestamp": "2026-03-05T23:01:43.665704",
+      "total_officials": 87,
+      "passed_officials": 87,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 77,
+        "Judiciary": 10
+      },
+      "generation_time": 365.4,
+      "validation_summary": {
+        "colony": "British Guiana",
+        "year": 1962,
+        "total": 87,
+        "high_confidence": 87,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 87,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_guiana_1962_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1962": {
+      "colony": "British Honduras",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/British_Honduras.txt",
+      "timestamp": "2026-03-05T23:07:49.158716",
+      "total_officials": 49,
+      "passed_officials": 49,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 49
+      },
+      "generation_time": 214.3,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1962,
+        "total": 49,
+        "high_confidence": 49,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 49,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1962_data_gpt-oss_120b.json"
+    },
+    "Brunei_1962": {
+      "colony": "Brunei",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Brunei.txt",
+      "timestamp": "2026-03-05T23:11:23.477879",
+      "total_officials": 29,
+      "passed_officials": 29,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 28,
+        "Judiciary": 1
+      },
+      "generation_time": 182.0,
+      "validation_summary": {
+        "colony": "Brunei",
+        "year": 1962,
+        "total": 29,
+        "high_confidence": 29,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 29,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/brunei_1962_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1962": {
+      "colony": "Falkland Islands",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Falkland_Islands_and_Dependencies.txt",
+      "timestamp": "2026-03-05T23:14:25.514472",
+      "total_officials": 13,
+      "passed_officials": 13,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 11,
+        "Dependencies": 2
+      },
+      "generation_time": 99.5,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1962,
+        "total": 13,
+        "high_confidence": 13,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 13,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1962_data_gpt-oss_120b.json"
+    },
+    "Fiji_1962": {
+      "colony": "Fiji",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Fiji_and_Pitcairn_Islands_Group.txt",
+      "timestamp": "2026-03-05T23:16:05.073564",
+      "total_officials": 52,
+      "passed_officials": 52,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 47,
+        "Judiciary": 4,
+        "Pitcairn Islands Group": 1
+      },
+      "generation_time": 288.6,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1962,
+        "total": 52,
+        "high_confidence": 52,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 52,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1962_data_gpt-oss_120b.json"
+    },
+    "Gambia_1962": {
+      "colony": "Gambia",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/The_Gambia.txt",
+      "timestamp": "2026-03-05T23:20:53.686059",
+      "total_officials": 20,
+      "passed_officials": 20,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19,
+        "Judiciary": 1
+      },
+      "generation_time": 118.4,
+      "validation_summary": {
+        "colony": "Gambia",
+        "year": 1962,
+        "total": 20,
+        "high_confidence": 20,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 20,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1962_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1962": {
+      "colony": "Gibraltar",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Gibraltar.txt",
+      "timestamp": "2026-03-05T23:22:52.101425",
+      "total_officials": 23,
+      "passed_officials": 22,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 19,
+        "Judiciary": 3
+      },
+      "generation_time": 178.1,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1962,
+        "total": 23,
+        "high_confidence": 22,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 22,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1962_data_gpt-oss_120b.json"
+    },
+    "Hong Kong_1962": {
+      "colony": "Hong Kong",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Hong_Kong.txt",
+      "timestamp": "2026-03-05T23:25:50.284237",
+      "total_officials": 70,
+      "passed_officials": 70,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 64,
+        "Judiciary": 6
+      },
+      "generation_time": 200.8,
+      "validation_summary": {
+        "colony": "Hong Kong",
+        "year": 1962,
+        "total": 70,
+        "high_confidence": 70,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 70,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1962_data_gpt-oss_120b.json"
+    },
+    "Kenya_1962": {
+      "colony": "Kenya",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Kenya.txt",
+      "timestamp": "2026-03-05T23:29:11.148958",
+      "total_officials": 0,
+      "passed_officials": 0,
+      "quarantined_officials": 0,
+      "departments": {},
+      "generation_time": 418.8,
+      "validation_summary": {
+        "colony": "Kenya",
+        "year": 1962,
+        "total": 0,
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 0,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kenya_1962_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
