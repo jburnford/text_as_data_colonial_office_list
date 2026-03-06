@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-06T02:31:35.889416",
+  "last_updated": "2026-03-06T02:42:28.227260",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -58003,6 +58003,68 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1964_data_gpt-oss_120b.json"
+    },
+    "Barbados_1964": {
+      "colony": "Barbados",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/barbados.txt",
+      "timestamp": "2026-03-06T02:31:35.916254",
+      "total_officials": 84,
+      "passed_officials": 84,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 53,
+        "Privy Council": 2,
+        "Executive Committee": 8,
+        "Legislative Council": 2,
+        "House of Assembly": 5,
+        "State of Parties": 5,
+        "Law Officers": 3,
+        "Judiciary": 6
+      },
+      "generation_time": 510.3,
+      "validation_summary": {
+        "colony": "Barbados",
+        "year": 1964,
+        "total": 84,
+        "high_confidence": 84,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 84,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1964_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1964": {
+      "colony": "Bermuda",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/bermuda.txt",
+      "timestamp": "2026-03-06T02:40:06.232562",
+      "total_officials": 30,
+      "passed_officials": 30,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 27,
+        "Judiciary": 3
+      },
+      "generation_time": 142.0,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1964,
+        "total": 30,
+        "high_confidence": 30,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 30,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1964_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
