@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T18:31:14.549899",
+  "last_updated": "2026-03-05T18:43:36.679598",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -54613,6 +54613,90 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1960_data_gpt-oss_120b.json"
+    },
+    "British Guiana_1960": {
+      "colony": "British Guiana",
+      "year": 1960,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1960_manual_parsed/british_guiana.txt",
+      "timestamp": "2026-03-05T18:31:14.602175",
+      "total_officials": 82,
+      "passed_officials": 82,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 75,
+        "Judiciary": 7
+      },
+      "generation_time": 391.8,
+      "validation_summary": {
+        "colony": "British Guiana",
+        "year": 1960,
+        "total": 82,
+        "high_confidence": 82,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 82,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_guiana_1960_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1960": {
+      "colony": "British Honduras",
+      "year": 1960,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1960_manual_parsed/british_honduras.txt",
+      "timestamp": "2026-03-05T18:37:46.423083",
+      "total_officials": 48,
+      "passed_officials": 48,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 46,
+        "Judiciary": 2
+      },
+      "generation_time": 192.7,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1960,
+        "total": 48,
+        "high_confidence": 48,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 48,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1960_data_gpt-oss_120b.json"
+    },
+    "British Somaliland_1960": {
+      "colony": "British Somaliland",
+      "year": 1960,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1960_manual_parsed/somaliland_protectorate.txt",
+      "timestamp": "2026-03-05T18:40:59.186977",
+      "total_officials": 30,
+      "passed_officials": 30,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 28,
+        "Judiciary": 2
+      },
+      "generation_time": 157.5,
+      "validation_summary": {
+        "colony": "British Somaliland",
+        "year": 1960,
+        "total": 30,
+        "high_confidence": 30,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 30,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_somaliland_1960_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
