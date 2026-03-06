@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-06T00:34:11.916099",
+  "last_updated": "2026-03-06T00:43:21.931314",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -56996,6 +56996,62 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/antigua_1963_data_gpt-oss_120b.json"
+    },
+    "Bahamas_1963": {
+      "colony": "Bahamas",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/bahama_islands.txt",
+      "timestamp": "2026-03-06T00:34:11.966676",
+      "total_officials": 55,
+      "passed_officials": 55,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 51,
+        "Judiciary": 4
+      },
+      "generation_time": 260.7,
+      "validation_summary": {
+        "colony": "Bahamas",
+        "year": 1963,
+        "total": 55,
+        "high_confidence": 55,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 55,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1963_data_gpt-oss_120b.json"
+    },
+    "Barbados_1963": {
+      "colony": "Barbados",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/barbados.txt",
+      "timestamp": "2026-03-06T00:38:32.744836",
+      "total_officials": 68,
+      "passed_officials": 68,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 62,
+        "Judiciary": 6
+      },
+      "generation_time": 289.2,
+      "validation_summary": {
+        "colony": "Barbados",
+        "year": 1963,
+        "total": 68,
+        "high_confidence": 68,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 68,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1963_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
