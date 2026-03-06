@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-06T03:36:05.838655",
+  "last_updated": "2026-03-06T03:43:26.551529",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -58495,6 +58495,102 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1964_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1964": {
+      "colony": "Nyasaland",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/nyasaland.txt",
+      "timestamp": "2026-03-06T03:36:05.884737",
+      "total_officials": 44,
+      "passed_officials": 44,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Prime Minister's Office": 4,
+        "Ministry of Natural Resources": 9,
+        "Ministry of Local Government": 1,
+        "Ministry of Justice": 3,
+        "Ministry of Finance": 5,
+        "Ministry of Education": 3,
+        "Ministry of Works and Housing": 5,
+        "Ministry of Trade and Industry": 1,
+        "Ministry of Transport and Communications": 1,
+        "Ministry of Labour": 1,
+        "Ministry of Information and Independence Celebrations": 2,
+        "Ministry of Health": 1,
+        "Judiciary": 4
+      },
+      "generation_time": 237.0,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1964,
+        "total": 44,
+        "high_confidence": 44,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 44,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1964_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1964": {
+      "colony": "Seychelles",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/seychelles.txt",
+      "timestamp": "2026-03-06T03:40:02.950150",
+      "total_officials": 26,
+      "passed_officials": 26,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 21,
+        "Judiciary": 3,
+        "Trade Representatives": 2
+      },
+      "generation_time": 84.9,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1964,
+        "total": 26,
+        "high_confidence": 26,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 26,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1964_data_gpt-oss_120b.json"
+    },
+    "St Christopher and Nevis_1964": {
+      "colony": "St Christopher and Nevis",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/st_christopher_nevis_anguilla.txt",
+      "timestamp": "2026-03-06T03:41:27.929255",
+      "total_officials": 21,
+      "passed_officials": 21,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 21
+      },
+      "generation_time": 118.6,
+      "validation_summary": {
+        "colony": "St Christopher and Nevis",
+        "year": 1964,
+        "total": 21,
+        "high_confidence": 21,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 21,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_christopher_and_nevis_1964_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
