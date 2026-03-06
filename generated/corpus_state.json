@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T23:42:25.977599",
+  "last_updated": "2026-03-06T00:34:11.916099",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -56583,6 +56583,419 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1962_data_gpt-oss_120b.json"
+    },
+    "Mauritius_1962": {
+      "colony": "Mauritius",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Mauritius.txt",
+      "timestamp": "2026-03-05T23:42:26.016193",
+      "total_officials": 74,
+      "passed_officials": 74,
+      "quarantined_officials": 0,
+      "departments": {
+        "CIVIL ESTABLISHMENT": 70,
+        "JUDICIARY": 4
+      },
+      "generation_time": 330.9,
+      "validation_summary": {
+        "colony": "Mauritius",
+        "year": 1962,
+        "total": 74,
+        "high_confidence": 74,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 74,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/mauritius_1962_data_gpt-oss_120b.json"
+    },
+    "North Borneo_1962": {
+      "colony": "North Borneo",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/North_Borneo.txt",
+      "timestamp": "2026-03-05T23:47:56.970271",
+      "total_officials": 44,
+      "passed_officials": 44,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 41,
+        "Judiciary": 3
+      },
+      "generation_time": 178.8,
+      "validation_summary": {
+        "colony": "North Borneo",
+        "year": 1962,
+        "total": 44,
+        "high_confidence": 44,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 44,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/north_borneo_1962_data_gpt-oss_120b.json"
+    },
+    "Northern Rhodesia_1962": {
+      "colony": "Northern Rhodesia",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Northern_Rhodesia.txt",
+      "timestamp": "2026-03-05T23:50:55.819686",
+      "total_officials": 70,
+      "passed_officials": 70,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 64,
+        "Judiciary": 6
+      },
+      "generation_time": 340.2,
+      "validation_summary": {
+        "colony": "Northern Rhodesia",
+        "year": 1962,
+        "total": 70,
+        "high_confidence": 70,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 70,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1962_data_gpt-oss_120b.json"
+    },
+    "Nyasaland_1962": {
+      "colony": "Nyasaland",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Nyasaland_Protectorate.txt",
+      "timestamp": "2026-03-05T23:56:36.090755",
+      "total_officials": 48,
+      "passed_officials": 48,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 3,
+        "Ministry of the Chief Secretary": 4,
+        "Provincial Administration": 5,
+        "Ministry of Natural Resources and Local Government": 9,
+        "Ministry of Justice": 3,
+        "Ministry of Finance": 5,
+        "Ministry of Lands and Surveys": 4,
+        "Ministry of Urban Development": 1,
+        "Ministry of Education": 3,
+        "Ministry of Labour and Social Development": 3,
+        "Ministry of Works and Transport": 4,
+        "Public Service Commission": 1,
+        "Judiciary": 3
+      },
+      "generation_time": 249.0,
+      "validation_summary": {
+        "colony": "Nyasaland",
+        "year": 1962,
+        "total": 48,
+        "high_confidence": 48,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 48,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1962_data_gpt-oss_120b.json"
+    },
+    "Sarawak_1962": {
+      "colony": "Sarawak",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Sarawak.txt",
+      "timestamp": "2026-03-06T00:00:45.139472",
+      "total_officials": 59,
+      "passed_officials": 59,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 50,
+        "Judiciary": 9
+      },
+      "generation_time": 314.0,
+      "validation_summary": {
+        "colony": "Sarawak",
+        "year": 1962,
+        "total": 59,
+        "high_confidence": 59,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 59,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1962_data_gpt-oss_120b.json"
+    },
+    "Seychelles_1962": {
+      "colony": "Seychelles",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Seychelles.txt",
+      "timestamp": "2026-03-06T00:05:59.159531",
+      "total_officials": 26,
+      "passed_officials": 26,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 21,
+        "Judiciary": 3,
+        "Trade Representatives": 2
+      },
+      "generation_time": 124.1,
+      "validation_summary": {
+        "colony": "Seychelles",
+        "year": 1962,
+        "total": 26,
+        "high_confidence": 26,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 26,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/seychelles_1962_data_gpt-oss_120b.json"
+    },
+    "Singapore_1962": {
+      "colony": "Singapore",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/State_of_Singapore.txt",
+      "timestamp": "2026-03-06T00:08:03.361060",
+      "total_officials": 56,
+      "passed_officials": 56,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Prime Minister's Office": 4,
+        "Deputy Prime Minister's Office": 7,
+        "MINISTRY OF NATIONAL DEVELOPMENT": 4,
+        "MINISTRY OF HEALTH AND LAW": 3,
+        "Ministry of Finance": 8,
+        "MINISTRY OF LABOUR": 8,
+        "MINISTRY OF CULTURE": 4,
+        "MINISTRY OF HOME AFFAIRS": 4,
+        "MINISTRY OF EDUCATION": 1,
+        "JUDICIARY": 7,
+        "UNITED KINGDOM COMMISSIONER, SINGAPORE": 2
+      },
+      "generation_time": 444.0,
+      "validation_summary": {
+        "colony": "Singapore",
+        "year": 1962,
+        "total": 56,
+        "high_confidence": 56,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 56,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/singapore_1962_data_gpt-oss_120b.json"
+    },
+    "St Helena_1962": {
+      "colony": "St Helena",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/St._Helena.txt",
+      "timestamp": "2026-03-06T00:15:27.417612",
+      "total_officials": 18,
+      "passed_officials": 18,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 17,
+        "null": 1
+      },
+      "generation_time": 92.6,
+      "validation_summary": {
+        "colony": "St Helena",
+        "year": 1962,
+        "total": 18,
+        "high_confidence": 18,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 18,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1962_data_gpt-oss_120b.json"
+    },
+    "Swaziland_1962": {
+      "colony": "Swaziland",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Swaziland.txt",
+      "timestamp": "2026-03-06T00:17:00.071104",
+      "total_officials": 32,
+      "passed_officials": 32,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Secretariat": 25,
+        "Judiciary": 6
+      },
+      "generation_time": 185.5,
+      "validation_summary": {
+        "colony": "Swaziland",
+        "year": 1962,
+        "total": 32,
+        "high_confidence": 32,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 32,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/swaziland_1962_data_gpt-oss_120b.json"
+    },
+    "Tonga_1962": {
+      "colony": "Tonga",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Tonga.txt",
+      "timestamp": "2026-03-06T00:20:05.589915",
+      "total_officials": 8,
+      "passed_officials": 8,
+      "quarantined_officials": 0,
+      "departments": {
+        "Ministers": 7,
+        "Broadcasting": 1
+      },
+      "generation_time": 74.7,
+      "validation_summary": {
+        "colony": "Tonga",
+        "year": 1962,
+        "total": 8,
+        "high_confidence": 7,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 8,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tonga_1962_data_gpt-oss_120b.json"
+    },
+    "Trinidad and Tobago_1962": {
+      "colony": "Trinidad and Tobago",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/The_West_Indies_-_Trinidad_and_Tobago.txt",
+      "timestamp": "2026-03-06T00:21:20.372977",
+      "total_officials": 70,
+      "passed_officials": 70,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 61,
+        "Judiciary": 9
+      },
+      "generation_time": 269.4,
+      "validation_summary": {
+        "colony": "Trinidad and Tobago",
+        "year": 1962,
+        "total": 70,
+        "high_confidence": 70,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 70,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/trinidad_and_tobago_1962_data_gpt-oss_120b.json"
+    },
+    "Uganda_1962": {
+      "colony": "Uganda",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Uganda.txt",
+      "timestamp": "2026-03-06T00:25:49.860282",
+      "total_officials": 68,
+      "passed_officials": 68,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 58,
+        "Judiciary": 10
+      },
+      "generation_time": 346.1,
+      "validation_summary": {
+        "colony": "Uganda",
+        "year": 1962,
+        "total": 68,
+        "high_confidence": 68,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 68,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/uganda_1962_data_gpt-oss_120b.json"
+    },
+    "Virgin Islands_1962": {
+      "colony": "Virgin Islands",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Virgin_Islands.txt",
+      "timestamp": "2026-03-06T00:31:36.019497",
+      "total_officials": 8,
+      "passed_officials": 8,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 8
+      },
+      "generation_time": 57.7,
+      "validation_summary": {
+        "colony": "Virgin Islands",
+        "year": 1962,
+        "total": 8,
+        "high_confidence": 8,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 8,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/virgin_islands_1962_data_gpt-oss_120b.json"
+    },
+    "Antigua_1963": {
+      "colony": "Antigua",
+      "year": 1963,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1963_manual_parsed/antigua.txt",
+      "timestamp": "2026-03-06T00:32:33.730164",
+      "total_officials": 18,
+      "passed_officials": 18,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 18
+      },
+      "generation_time": 98.2,
+      "validation_summary": {
+        "colony": "Antigua",
+        "year": 1963,
+        "total": 18,
+        "high_confidence": 18,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 18,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/antigua_1963_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
