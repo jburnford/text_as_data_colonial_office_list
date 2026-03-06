@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-06T02:42:28.227260",
+  "last_updated": "2026-03-06T03:36:05.838655",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -58065,6 +58065,436 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1964_data_gpt-oss_120b.json"
+    },
+    "British Guiana_1964": {
+      "colony": "British Guiana",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/british_guiana.txt",
+      "timestamp": "2026-03-06T02:42:28.283076",
+      "total_officials": 83,
+      "passed_officials": 83,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 74,
+        "Judiciary": 9
+      },
+      "generation_time": 353.6,
+      "validation_summary": {
+        "colony": "British Guiana",
+        "year": 1964,
+        "total": 83,
+        "high_confidence": 83,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 83,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_guiana_1964_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1964": {
+      "colony": "British Honduras",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/british_honduras.txt",
+      "timestamp": "2026-03-06T02:48:21.906368",
+      "total_officials": 52,
+      "passed_officials": 52,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 48,
+        "Judiciary": 4
+      },
+      "generation_time": 208.6,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1964,
+        "total": 52,
+        "high_confidence": 52,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 52,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1964_data_gpt-oss_120b.json"
+    },
+    "Cayman Islands_1964": {
+      "colony": "Cayman Islands",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/cayman_islands.txt",
+      "timestamp": "2026-03-06T02:51:50.567188",
+      "total_officials": 13,
+      "passed_officials": 13,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 13
+      },
+      "generation_time": 82.4,
+      "validation_summary": {
+        "colony": "Cayman Islands",
+        "year": 1964,
+        "total": 13,
+        "high_confidence": 13,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 13,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cayman_islands_1964_data_gpt-oss_120b.json"
+    },
+    "Dominica_1964": {
+      "colony": "Dominica",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/dominica.txt",
+      "timestamp": "2026-03-06T02:53:13.032558",
+      "total_officials": 30,
+      "passed_officials": 30,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 30
+      },
+      "generation_time": 142.2,
+      "validation_summary": {
+        "colony": "Dominica",
+        "year": 1964,
+        "total": 30,
+        "high_confidence": 30,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 30,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/dominica_1964_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1964": {
+      "colony": "Falkland Islands",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/falkland_islands.txt",
+      "timestamp": "2026-03-06T02:55:35.255586",
+      "total_officials": 11,
+      "passed_officials": 11,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 10,
+        "Dependencies": 1
+      },
+      "generation_time": 58.5,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1964,
+        "total": 11,
+        "high_confidence": 11,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 11,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1964_data_gpt-oss_120b.json"
+    },
+    "Fiji_1964": {
+      "colony": "Fiji",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/fiji.txt",
+      "timestamp": "2026-03-06T02:56:33.772965",
+      "total_officials": 52,
+      "passed_officials": 52,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 49,
+        "Judiciary": 3
+      },
+      "generation_time": 300.4,
+      "validation_summary": {
+        "colony": "Fiji",
+        "year": 1964,
+        "total": 52,
+        "high_confidence": 52,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 52,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1964_data_gpt-oss_120b.json"
+    },
+    "Gambia_1964": {
+      "colony": "Gambia",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/gambia.txt",
+      "timestamp": "2026-03-06T03:01:34.246152",
+      "total_officials": 30,
+      "passed_officials": 30,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Office of the Prime Minister": 7,
+        "Ministry of Finance": 4,
+        "Ministry of Agriculture": 4,
+        "Ministry of Education": 1,
+        "Ministry of Health": 1,
+        "Ministry of Local Government, Lands and Labour": 3,
+        "Ministry of Works and Communications": 3,
+        "Non-Ministerial": 3,
+        "Judiciary": 2
+      },
+      "generation_time": 271.2,
+      "validation_summary": {
+        "colony": "Gambia",
+        "year": 1964,
+        "total": 30,
+        "high_confidence": 30,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 30,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1964_data_gpt-oss_120b.json"
+    },
+    "Gibraltar_1964": {
+      "colony": "Gibraltar",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/gibraltar.txt",
+      "timestamp": "2026-03-06T03:06:05.493660",
+      "total_officials": 21,
+      "passed_officials": 21,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19,
+        "Judiciary": 2
+      },
+      "generation_time": 127.1,
+      "validation_summary": {
+        "colony": "Gibraltar",
+        "year": 1964,
+        "total": 21,
+        "high_confidence": 21,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 21,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gibraltar_1964_data_gpt-oss_120b.json"
+    },
+    "Grenada_1964": {
+      "colony": "Grenada",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/grenada.txt",
+      "timestamp": "2026-03-06T03:08:12.592813",
+      "total_officials": 32,
+      "passed_officials": 32,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 32
+      },
+      "generation_time": 147.4,
+      "validation_summary": {
+        "colony": "Grenada",
+        "year": 1964,
+        "total": 32,
+        "high_confidence": 32,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 32,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/grenada_1964_data_gpt-oss_120b.json"
+    },
+    "Hong Kong_1964": {
+      "colony": "Hong Kong",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/hong_kong.txt",
+      "timestamp": "2026-03-06T03:10:40.037276",
+      "total_officials": 71,
+      "passed_officials": 71,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 64,
+        "Judiciary": 7
+      },
+      "generation_time": 334.4,
+      "validation_summary": {
+        "colony": "Hong Kong",
+        "year": 1964,
+        "total": 71,
+        "high_confidence": 71,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 71,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/hong_kong_1964_data_gpt-oss_120b.json"
+    },
+    "Malaysia_1964": {
+      "colony": "Malaysia",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/malaysia.txt",
+      "timestamp": "2026-03-06T03:16:14.468693",
+      "total_officials": 4,
+      "passed_officials": 4,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 4
+      },
+      "generation_time": 41.8,
+      "validation_summary": {
+        "colony": "Malaysia",
+        "year": 1964,
+        "total": 4,
+        "high_confidence": 4,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 4,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malaysia_1964_data_gpt-oss_120b.json"
+    },
+    "Malta_1964": {
+      "colony": "Malta",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/malta.txt",
+      "timestamp": "2026-03-06T03:16:56.368262",
+      "total_officials": 92,
+      "passed_officials": 92,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 42,
+        "Law Officers": 28,
+        "Judiciary": 17,
+        "Ecclesiastics": 3,
+        "United Kingdom Commissioner": 2
+      },
+      "generation_time": 395.2,
+      "validation_summary": {
+        "colony": "Malta",
+        "year": 1964,
+        "total": 92,
+        "high_confidence": 92,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 92,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1964_data_gpt-oss_120b.json"
+    },
+    "Mauritius_1964": {
+      "colony": "Mauritius",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/mauritius.txt",
+      "timestamp": "2026-03-06T03:23:31.645952",
+      "total_officials": 89,
+      "passed_officials": 89,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 49,
+        "Council of Ministers": 15,
+        "Parliamentary Secretaries": 3,
+        "Legislative Assembly": 2,
+        "Seats": 16,
+        "Judiciary": 4
+      },
+      "generation_time": 375.5,
+      "validation_summary": {
+        "colony": "Mauritius",
+        "year": 1964,
+        "total": 89,
+        "high_confidence": 89,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 89,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/mauritius_1964_data_gpt-oss_120b.json"
+    },
+    "Montserrat_1964": {
+      "colony": "Montserrat",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/montserrat.txt",
+      "timestamp": "2026-03-06T03:29:47.171785",
+      "total_officials": 9,
+      "passed_officials": 9,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 9
+      },
+      "generation_time": 60.2,
+      "validation_summary": {
+        "colony": "Montserrat",
+        "year": 1964,
+        "total": 9,
+        "high_confidence": 9,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 9,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/montserrat_1964_data_gpt-oss_120b.json"
+    },
+    "Northern Rhodesia_1964": {
+      "colony": "Northern Rhodesia",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/northern_rhodesia.txt",
+      "timestamp": "2026-03-06T03:30:47.425894",
+      "total_officials": 80,
+      "passed_officials": 79,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 73,
+        "Judiciary": 6
+      },
+      "generation_time": 318.4,
+      "validation_summary": {
+        "colony": "Northern Rhodesia",
+        "year": 1964,
+        "total": 80,
+        "high_confidence": 79,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 79,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_rhodesia_1964_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
