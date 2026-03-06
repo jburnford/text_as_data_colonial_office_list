@@ -1,0 +1,57 @@
+{
+  "colony": "British Antarctic Territory",
+  "year": 1965,
+  "generated": "2026-03-06T04:17:21.390116",
+  "model": "gpt-oss:120b",
+  "tier": "STANDARD",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "Sir Edwin Arrowsmith",
+      "canonical_name": "Arrowsmith, Sir Edwin",
+      "given_names": "Sir Edwin",
+      "surname": "Arrowsmith",
+      "position": "High Commissioner",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "C. D. P. T. Haskard",
+      "canonical_name": "Haskard, C. D. P. T.",
+      "given_names": "C. D. P. T.",
+      "surname": "Haskard",
+      "position": "High Commissioner",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "British Antarctic Territory",
+    "year": 1965,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}

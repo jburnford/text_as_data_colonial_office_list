@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-06T03:43:26.551529",
+  "last_updated": "2026-03-06T04:33:17.413975",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -58591,6 +58591,507 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_christopher_and_nevis_1964_data_gpt-oss_120b.json"
+    },
+    "St Helena_1964": {
+      "colony": "St Helena",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/st_helena.txt",
+      "timestamp": "2026-03-06T03:43:26.603682",
+      "total_officials": 23,
+      "passed_officials": 23,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19,
+        "Ascension": 1,
+        "Tristan da Cunha": 3
+      },
+      "generation_time": 177.7,
+      "validation_summary": {
+        "colony": "St Helena",
+        "year": 1964,
+        "total": 23,
+        "high_confidence": 22,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 23,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_helena_1964_data_gpt-oss_120b.json"
+    },
+    "St Lucia_1964": {
+      "colony": "St Lucia",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/st_lucia.txt",
+      "timestamp": "2026-03-06T03:46:24.324054",
+      "total_officials": 23,
+      "passed_officials": 23,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 19,
+        "Judiciary": 4
+      },
+      "generation_time": 115.9,
+      "validation_summary": {
+        "colony": "St Lucia",
+        "year": 1964,
+        "total": 23,
+        "high_confidence": 23,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 23,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_lucia_1964_data_gpt-oss_120b.json"
+    },
+    "St Vincent_1964": {
+      "colony": "St Vincent",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/st_vincent.txt",
+      "timestamp": "2026-03-06T03:48:20.210344",
+      "total_officials": 33,
+      "passed_officials": 33,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 29,
+        "Judiciary": 4
+      },
+      "generation_time": 151.8,
+      "validation_summary": {
+        "colony": "St Vincent",
+        "year": 1964,
+        "total": 33,
+        "high_confidence": 33,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 33,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/st_vincent_1964_data_gpt-oss_120b.json"
+    },
+    "Tonga_1964": {
+      "colony": "Tonga",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/tonga.txt",
+      "timestamp": "2026-03-06T03:50:52.065502",
+      "total_officials": 8,
+      "passed_officials": 8,
+      "quarantined_officials": 0,
+      "departments": {
+        "Ministers": 7,
+        "British Commissioner and Consul": 1
+      },
+      "generation_time": 75.7,
+      "validation_summary": {
+        "colony": "Tonga",
+        "year": 1964,
+        "total": 8,
+        "high_confidence": 7,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 8,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tonga_1964_data_gpt-oss_120b.json"
+    },
+    "Turks and Caicos Islands_1964": {
+      "colony": "Turks and Caicos Islands",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/turks_and_caicos_islands.txt",
+      "timestamp": "2026-03-06T03:52:07.800615",
+      "total_officials": 11,
+      "passed_officials": 11,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 11
+      },
+      "generation_time": 75.3,
+      "validation_summary": {
+        "colony": "Turks and Caicos Islands",
+        "year": 1964,
+        "total": 11,
+        "high_confidence": 11,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 11,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/turks_and_caicos_islands_1964_data_gpt-oss_120b.json"
+    },
+    "Virgin Islands_1964": {
+      "colony": "Virgin Islands",
+      "year": 1964,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/virgin_islands.txt",
+      "timestamp": "2026-03-06T03:53:23.162257",
+      "total_officials": 8,
+      "passed_officials": 8,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 8
+      },
+      "generation_time": 65.1,
+      "validation_summary": {
+        "colony": "Virgin Islands",
+        "year": 1964,
+        "total": 8,
+        "high_confidence": 8,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 8,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/virgin_islands_1964_data_gpt-oss_120b.json"
+    },
+    "Antigua_1965": {
+      "colony": "Antigua",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/antigua.txt",
+      "timestamp": "2026-03-06T03:54:28.335623",
+      "total_officials": 30,
+      "passed_officials": 30,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 30
+      },
+      "generation_time": 121.9,
+      "validation_summary": {
+        "colony": "Antigua",
+        "year": 1965,
+        "total": 30,
+        "high_confidence": 30,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 30,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/antigua_1965_data_gpt-oss_120b.json"
+    },
+    "Bahamas_1965": {
+      "colony": "Bahamas",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/bahama_islands.txt",
+      "timestamp": "2026-03-06T03:56:30.285661",
+      "total_officials": 54,
+      "passed_officials": 54,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 50,
+        "Judiciary": 4
+      },
+      "generation_time": 245.8,
+      "validation_summary": {
+        "colony": "Bahamas",
+        "year": 1965,
+        "total": 54,
+        "high_confidence": 54,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 54,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bahamas_1965_data_gpt-oss_120b.json"
+    },
+    "Barbados_1965": {
+      "colony": "Barbados",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/barbados.txt",
+      "timestamp": "2026-03-06T04:00:36.104017",
+      "total_officials": 67,
+      "passed_officials": 67,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 61,
+        "Judiciary": 6
+      },
+      "generation_time": 329.4,
+      "validation_summary": {
+        "colony": "Barbados",
+        "year": 1965,
+        "total": 67,
+        "high_confidence": 67,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 67,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/barbados_1965_data_gpt-oss_120b.json"
+    },
+    "Basutoland_1965": {
+      "colony": "Basutoland",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/basutoland.txt",
+      "timestamp": "2026-03-06T04:06:05.613169",
+      "total_officials": 60,
+      "passed_officials": 60,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Secretariat": 35,
+        "Law Officers": 17,
+        "Judiciary": 7
+      },
+      "generation_time": 355.5,
+      "validation_summary": {
+        "colony": "Basutoland",
+        "year": 1965,
+        "total": 60,
+        "high_confidence": 60,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 60,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/basutoland_1965_data_gpt-oss_120b.json"
+    },
+    "Bechuanaland_1965": {
+      "colony": "Bechuanaland",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/bechuanaland_protectorate.txt",
+      "timestamp": "2026-03-06T04:12:01.189845",
+      "total_officials": 25,
+      "passed_officials": 25,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 1,
+        "Secretariat": 22,
+        "Judiciary": 2
+      },
+      "generation_time": 130.9,
+      "validation_summary": {
+        "colony": "Bechuanaland",
+        "year": 1965,
+        "total": 25,
+        "high_confidence": 25,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 25,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bechuanaland_1965_data_gpt-oss_120b.json"
+    },
+    "Bermuda_1965": {
+      "colony": "Bermuda",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/bermuda.txt",
+      "timestamp": "2026-03-06T04:14:12.195756",
+      "total_officials": 30,
+      "passed_officials": 30,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 30
+      },
+      "generation_time": 153.7,
+      "validation_summary": {
+        "colony": "Bermuda",
+        "year": 1965,
+        "total": 30,
+        "high_confidence": 30,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 30,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1965_data_gpt-oss_120b.json"
+    },
+    "British Antarctic Territory_1965": {
+      "colony": "British Antarctic Territory",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/british_antarctic_territory.txt",
+      "timestamp": "2026-03-06T04:16:45.998102",
+      "total_officials": 2,
+      "passed_officials": 2,
+      "quarantined_officials": 0,
+      "departments": {
+        "null": 2
+      },
+      "generation_time": 35.4,
+      "validation_summary": {
+        "colony": "British Antarctic Territory",
+        "year": 1965,
+        "total": 2,
+        "high_confidence": 2,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 2,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_antarctic_territory_1965_data_gpt-oss_120b.json"
+    },
+    "British Guiana_1965": {
+      "colony": "British Guiana",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/british_guiana.txt",
+      "timestamp": "2026-03-06T04:17:21.447090",
+      "total_officials": 81,
+      "passed_officials": 81,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 74,
+        "Judiciary": 7
+      },
+      "generation_time": 397.2,
+      "validation_summary": {
+        "colony": "British Guiana",
+        "year": 1965,
+        "total": 81,
+        "high_confidence": 81,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 81,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_guiana_1965_data_gpt-oss_120b.json"
+    },
+    "British Honduras_1965": {
+      "colony": "British Honduras",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/british_honduras.txt",
+      "timestamp": "2026-03-06T04:23:58.714520",
+      "total_officials": 55,
+      "passed_officials": 55,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 50,
+        "Judiciary": 5
+      },
+      "generation_time": 242.6,
+      "validation_summary": {
+        "colony": "British Honduras",
+        "year": 1965,
+        "total": 55,
+        "high_confidence": 55,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 55,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/british_honduras_1965_data_gpt-oss_120b.json"
+    },
+    "Cayman Islands_1965": {
+      "colony": "Cayman Islands",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/cayman_islands.txt",
+      "timestamp": "2026-03-06T04:28:01.421511",
+      "total_officials": 13,
+      "passed_officials": 13,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 13
+      },
+      "generation_time": 80.9,
+      "validation_summary": {
+        "colony": "Cayman Islands",
+        "year": 1965,
+        "total": 13,
+        "high_confidence": 13,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 13,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cayman_islands_1965_data_gpt-oss_120b.json"
+    },
+    "Dominica_1965": {
+      "colony": "Dominica",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/dominica.txt",
+      "timestamp": "2026-03-06T04:29:22.373998",
+      "total_officials": 31,
+      "passed_officials": 31,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 31
+      },
+      "generation_time": 151.9,
+      "validation_summary": {
+        "colony": "Dominica",
+        "year": 1965,
+        "total": 31,
+        "high_confidence": 31,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 31,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/dominica_1965_data_gpt-oss_120b.json"
+    },
+    "Falkland Islands_1965": {
+      "colony": "Falkland Islands",
+      "year": 1965,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1965_manual_parsed/falkland_islands_and_dependencies.txt",
+      "timestamp": "2026-03-06T04:31:54.332716",
+      "total_officials": 11,
+      "passed_officials": 11,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 10,
+        "Dependencies": 1
+      },
+      "generation_time": 83.1,
+      "validation_summary": {
+        "colony": "Falkland Islands",
+        "year": 1965,
+        "total": 11,
+        "high_confidence": 11,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 11,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/falkland_islands_1965_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
