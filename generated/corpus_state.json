@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-05T23:36:09.936008",
+  "last_updated": "2026-03-05T23:42:25.977599",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -56554,6 +56554,35 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/kenya_1962_data_gpt-oss_120b.json"
+    },
+    "Malta_1962": {
+      "colony": "Malta",
+      "year": 1962,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Malta.txt",
+      "timestamp": "2026-03-05T23:36:09.990056",
+      "total_officials": 98,
+      "passed_officials": 98,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 78,
+        "Judiciary": 17,
+        "Ecclesiastics": 3
+      },
+      "generation_time": 376.0,
+      "validation_summary": {
+        "colony": "Malta",
+        "year": 1962,
+        "total": 98,
+        "high_confidence": 98,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 98,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1962_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
