@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-06T06:35:56.902382",
+  "last_updated": "2026-03-06T06:39:53.924319",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -60247,6 +60247,90 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/swaziland_1966_data_gpt-oss_120b.json"
+    },
+    "Tonga_1966": {
+      "colony": "Tonga",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/tonga.txt",
+      "timestamp": "2026-03-06T06:35:56.955120",
+      "total_officials": 13,
+      "passed_officials": 13,
+      "quarantined_officials": 0,
+      "departments": {
+        "Ministers": 6,
+        "British Commissioner and Consul": 1,
+        "null": 1,
+        "Reading List": 5
+      },
+      "generation_time": 106.4,
+      "validation_summary": {
+        "colony": "Tonga",
+        "year": 1966,
+        "total": 13,
+        "high_confidence": 12,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 13,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/tonga_1966_data_gpt-oss_120b.json"
+    },
+    "Turks and Caicos Islands_1966": {
+      "colony": "Turks and Caicos Islands",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/turks_and_caicos_islands.txt",
+      "timestamp": "2026-03-06T06:37:43.386964",
+      "total_officials": 11,
+      "passed_officials": 11,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 11
+      },
+      "generation_time": 72.2,
+      "validation_summary": {
+        "colony": "Turks and Caicos Islands",
+        "year": 1966,
+        "total": 11,
+        "high_confidence": 11,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 11,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/turks_and_caicos_islands_1966_data_gpt-oss_120b.json"
+    },
+    "Virgin Islands_1966": {
+      "colony": "Virgin Islands",
+      "year": 1966,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1966_manual_parsed/virgin_islands.txt",
+      "timestamp": "2026-03-06T06:38:55.626782",
+      "total_officials": 8,
+      "passed_officials": 8,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 8
+      },
+      "generation_time": 58.3,
+      "validation_summary": {
+        "colony": "Virgin Islands",
+        "year": 1966,
+        "total": 8,
+        "high_confidence": 8,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 8,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/virgin_islands_1966_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
