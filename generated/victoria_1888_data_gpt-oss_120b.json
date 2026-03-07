@@ -1,0 +1,105 @@
+{
+  "colony": "Victoria",
+  "year": 1888,
+  "generated": "2026-03-07T14:49:18.403190",
+  "model": "gpt-oss:120b",
+  "tier": "LARGE",
+  "total_officials": 5,
+  "officials": [
+    {
+      "name": "Sir Samuel Rowe",
+      "canonical_name": "Rowe, Samuel",
+      "given_names": "Samuel",
+      "surname": "Rowe",
+      "position": "Governor, Commander-in-Chief, and Vice-Admiral",
+      "department": "Civil Establishment",
+      "salary_min": 3000,
+      "salary_max": 3000,
+      "allowances": "500l. allowances",
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "William Hollingworth Quayle Jones",
+      "canonical_name": "Jones, William Hollingworth Quayle",
+      "given_names": "William Hollingworth Quayle",
+      "surname": "Jones",
+      "position": "Chief Justice",
+      "department": "Civil Establishment",
+      "salary_min": 1200,
+      "salary_max": 1200,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "E. G. Ingham",
+      "canonical_name": "Ingham, E. G.",
+      "given_names": "E. G.",
+      "surname": "Ingham",
+      "position": "Bishop of the Diocese of Sierra Leone",
+      "department": "Civil Establishment",
+      "salary_min": 300,
+      "salary_max": 400,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "M. Sunter",
+      "canonical_name": "Sunter, M.",
+      "given_names": "M.",
+      "surname": "Sunter",
+      "position": "Inspector of Schools",
+      "department": "Civil Establishment",
+      "salary_min": 300,
+      "salary_max": 400,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [
+        "M.A."
+      ],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "M. J. Marke",
+      "canonical_name": "Marke, M. J.",
+      "given_names": "M. J.",
+      "surname": "Marke",
+      "position": "Assistant Inspector of Schools",
+      "department": "Civil Establishment",
+      "salary_min": 160,
+      "salary_max": 160,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Victoria",
+    "year": 1888,
+    "total": 5,
+    "high_confidence": 5,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 5,
+    "anomaly_count": 0
+  }
+}
