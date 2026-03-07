@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-07T01:42:52.389833",
+  "last_updated": "2026-03-07T02:22:20.869112",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -61985,6 +61985,58 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cape_of_good_hope_1883_data_gpt-oss_120b.json"
+    },
+    "Leeward Islands_1883": {
+      "colony": "Leeward Islands",
+      "year": 1883,
+      "tier": "LARGE",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1883_manual_parsed/leeward_islands.txt",
+      "timestamp": "2026-03-07T01:42:52.441640",
+      "total_officials": 268,
+      "passed_officials": 266,
+      "quarantined_officials": 2,
+      "departments": {
+        "Civil Establishment": 71,
+        "Medical": 12,
+        "Clergy": 5,
+        "Executive Council": 23,
+        "Legislative Council": 19,
+        "Medical Officers": 5,
+        "Ecclesiastical": 6,
+        "Governors": 16,
+        "Treasury": 9,
+        "The Cunningham Hospital Act, 1867": 7,
+        "Board of Health Act, No. 145, 1858": 8,
+        "Medical attendance for Labouring Population, Act No. 2, 1877": 6,
+        "Water Commissioners": 5,
+        "Judicial Establishment": 7,
+        "Gaol": 13,
+        "Police": 2,
+        "Quarantine Board": 5,
+        "Militia": 4,
+        "Poor Asylum (supported by Government Grant)": 4,
+        "Board of Health": 7,
+        "Justices of the Peace": 7,
+        "Anguilla": 1,
+        "Virgin Islands": 1,
+        "Legislative Assembly": 13,
+        "null": 7,
+        "Judicial": 3
+      },
+      "generation_time": 2368.2,
+      "validation_summary": {
+        "colony": "Leeward Islands",
+        "year": 1883,
+        "total": 268,
+        "high_confidence": 253,
+        "medium_confidence": 13,
+        "low_confidence": 2,
+        "quarantined": 2,
+        "passed": 266,
+        "anomaly_count": 47
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/leeward_islands_1883_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
