@@ -1,0 +1,39 @@
+{
+  "colony": "South Australia",
+  "year": 1883,
+  "generated": "2026-03-07T03:06:27.325519",
+  "model": "gpt-oss:120b",
+  "tier": "LARGE",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "Sir Frederick Aloysius Weld",
+      "canonical_name": "Weld, Frederick Aloysius",
+      "given_names": "Frederick Aloysius",
+      "surname": "Weld",
+      "position": "Governor and Commander-in-Chief",
+      "department": "Civil Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": "Entertainment allowance 5,000",
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "South Australia",
+    "year": 1883,
+    "total": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}
