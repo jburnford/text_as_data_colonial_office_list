@@ -632,15 +632,94 @@ function init() {
 
   // === Historian review additions (Cell 14) ===
 
-  // Princely States placeholder — ~565 states under British paramountcy
-  RAW.nodes.push({
-    id: 'princely_states_placeholder_1818_1947', name: 'Princely States (placeholder)',
-    est: 1818, ind: 1947, region: 'Asia', type: 'Princely State', qid: 'Q1336152',
-  });
-  RAW.edges.push(
-    { source: 'princely_states_placeholder_1818_1947', target: 'dominion_of_india_1947_1950', type: 'EVOLVED_INTO' },
-    { source: 'princely_states_placeholder_1818_1947', target: 'dominion_of_pakistan_1947_1956', type: 'PARTITIONED_INTO' },
+  // Major Princely States — individual nodes replace the placeholder
+  // QIDs verified via Wikidata SPARQL + API (2026-03-08)
+  // Placeholder kept in KG but removed from visualization below
+  RAW.nodes.push(
+    // 21-gun salute states
+    { id: 'hyderabad_state_1724_1948', name: 'Hyderabad State', est: 1724, ind: 1948,
+      region: 'South Asia', type: 'Princely State', qid: 'Q1240096' },
+    { id: 'kingdom_of_mysore_1399_1950', name: 'Kingdom of Mysore', est: 1399, ind: 1950,
+      region: 'South Asia', type: 'Princely State', qid: 'Q266923' },
+    { id: 'baroda_state_1721_1949', name: 'Baroda State', est: 1721, ind: 1949,
+      region: 'South Asia', type: 'Princely State', qid: 'Q808575' },
+    { id: 'jammu_and_kashmir_1846_1947', name: 'Jammu and Kashmir', est: 1846, ind: 1947,
+      region: 'South Asia', type: 'Princely State', qid: 'Q2571484' },
+    { id: 'gwalior_state_1761_1948', name: 'Gwalior State', est: 1761, ind: 1948,
+      region: 'South Asia', type: 'Princely State', qid: 'Q1557792' },
+    // 19-gun salute states
+    { id: 'indore_state_1732_1948', name: 'Indore State', est: 1732, ind: 1948,
+      region: 'South Asia', type: 'Princely State', qid: 'Q716890' },
+    { id: 'kingdom_of_thiruvithamkoor_1729_1949', name: 'Travancore', est: 1729, ind: 1949,
+      region: 'South Asia', type: 'Princely State', qid: 'Q150058' },
+    // 17-gun salute states
+    { id: 'jaipur_state_1727_1949', name: 'Jaipur State', est: 1727, ind: 1949,
+      region: 'South Asia', type: 'Princely State', qid: 'Q6124144' },
+    { id: 'jodhpur_state_1226_1949', name: 'Jodhpur State', est: 1226, ind: 1949,
+      region: 'South Asia', type: 'Princely State', qid: 'Q6207845' },
+    { id: 'bhopal_state_1723_1947', name: 'Bhopal State', est: 1723, ind: 1947,
+      region: 'South Asia', type: 'Princely State', qid: 'Q855044' },
+    { id: 'kingdom_of_cochin_1500_1949', name: 'Kingdom of Cochin', est: 1500, ind: 1949,
+      region: 'South Asia', type: 'Princely State', qid: 'Q150056' },
+    { id: 'kolhapur_state_1707_1949', name: 'Kolhapur State', est: 1707, ind: 1949,
+      region: 'South Asia', type: 'Princely State', qid: 'Q657946' },
+    // Rajputana
+    { id: 'udaipur_state_1818_1948', name: 'Udaipur State', est: 1818, ind: 1948,
+      region: 'South Asia', type: 'Princely State', qid: 'Q1457519' },
+    { id: 'bikaner_state_1465_1947', name: 'Bikaner State', est: 1465, ind: 1947,
+      region: 'South Asia', type: 'Princely State', qid: 'Q859966' },
+    // Western India
+    { id: 'cutch_state_1147_1948', name: 'Cutch State', est: 1147, ind: 1948,
+      region: 'South Asia', type: 'Princely State', qid: 'Q1720882' },
+    { id: 'junagadh_state_1748_1948', name: 'Junagadh State', est: 1748, ind: 1948,
+      region: 'South Asia', type: 'Princely State', qid: 'Q14491604' },
+    // Punjab
+    { id: 'patiala_state_1761_1947', name: 'Patiala State', est: 1761, ind: 1947,
+      region: 'South Asia', type: 'Princely State', qid: 'Q917553' },
+    { id: 'kapurthala_state_1772_1947', name: 'Kapurthala State', est: 1772, ind: 1947,
+      region: 'South Asia', type: 'Princely State', qid: 'Q1728782' },
+    // Eastern
+    { id: 'tripura_1809_1949', name: 'Tripura', est: 1809, ind: 1949,
+      region: 'South Asia', type: 'Princely State', qid: 'Q17342164' },
+    { id: 'cooch_behar_1586_1949', name: 'Cooch Behar', est: 1586, ind: 1949,
+      region: 'South Asia', type: 'Princely State', qid: 'Q509572' },
+    // Sikkim
+    { id: 'kingdom_of_sikkim_1642_1975', name: 'Kingdom of Sikkim', est: 1642, ind: 1975,
+      region: 'South Asia', type: 'Princely State', qid: 'Q3960459' },
+    // States that joined Pakistan
+    { id: 'bahawalpur_state_1690_1955', name: 'Bahawalpur State', est: 1690, ind: 1955,
+      region: 'South Asia', type: 'Princely State', qid: 'Q800236' },
+    { id: 'khairpur_state_1775_1955', name: 'Khairpur State', est: 1775, ind: 1955,
+      region: 'South Asia', type: 'Princely State', qid: 'Q3249587' },
+    { id: 'khanate_of_kalat_1638_1955', name: 'Khanate of Kalat', est: 1638, ind: 1955,
+      region: 'South Asia', type: 'Princely State', qid: 'Q139948' },
+    // Other notable states
+    { id: 'rewa_state_1755_1947', name: 'Rewa State', est: 1755, ind: 1947,
+      region: 'South Asia', type: 'Princely State', qid: 'Q176466' },
   );
+
+  // Princely States → Dominion of India (most states)
+  const PS_TO_INDIA = [
+    'hyderabad_state_1724_1948', 'kingdom_of_mysore_1399_1950', 'baroda_state_1721_1949',
+    'jammu_and_kashmir_1846_1947', 'gwalior_state_1761_1948', 'indore_state_1732_1948',
+    'kingdom_of_thiruvithamkoor_1729_1949', 'jaipur_state_1727_1949', 'jodhpur_state_1226_1949',
+    'bhopal_state_1723_1947', 'kingdom_of_cochin_1500_1949', 'kolhapur_state_1707_1949',
+    'udaipur_state_1818_1948', 'bikaner_state_1465_1947', 'cutch_state_1147_1948',
+    'junagadh_state_1748_1948', 'patiala_state_1761_1947', 'kapurthala_state_1772_1947',
+    'tripura_1809_1949', 'cooch_behar_1586_1949', 'kingdom_of_sikkim_1642_1975',
+    'rewa_state_1755_1947',
+  ];
+  PS_TO_INDIA.forEach(id => {
+    RAW.edges.push({ source: id, target: 'dominion_of_india_1947_1950', type: 'EVOLVED_INTO' });
+  });
+
+  // Princely States → Dominion of Pakistan
+  const PS_TO_PAKISTAN = [
+    'bahawalpur_state_1690_1955', 'khairpur_state_1775_1955', 'khanate_of_kalat_1638_1955',
+  ];
+  PS_TO_PAKISTAN.forEach(id => {
+    RAW.edges.push({ source: id, target: 'dominion_of_pakistan_1947_1956', type: 'EVOLVED_INTO' });
+  });
 
   // Pre-British Guiana: Essequibo, Demerara, Berbice (British 1803, merged 1831)
   RAW.nodes.push(
@@ -833,7 +912,7 @@ function init() {
     'chagos_islands_mauritius_dependency_1814_1965': 'South Asia',
     'fort_st_george_madras_1640_1857': 'South Asia',
     'fort_william_calcutta_1696_1857': 'South Asia',
-    'princely_states_placeholder_1818_1947': 'South Asia',
+    // princely_states_placeholder removed — replaced by individual major states
     // Southeast & East Asia
     'hong_kong_1841_1997': 'Southeast Asia',
     'malaya_1824_1963': 'Southeast Asia',
@@ -919,6 +998,8 @@ function init() {
     'east_india_company_pre_territorial_1612_1757',  // teleological framing
     'fort_st_george_madras_1640_1857',  // Fort St. George IS Madras Presidency (same entity, same year 1640)
     'british_guyana_1831_1966',  // duplicate of British Guiana (british_guiana_1831_1966), wrong est (1763 vs 1831), wrong spelling
+    // Princely States placeholder — replaced by individual major states
+    'princely_states_placeholder_1818_1947',
   ]);
 
   // Remove bogus edges (membership, not succession)
@@ -1586,6 +1667,31 @@ function buildSankey() {
     'burma_separate_colony_1937_1948': 'Burma (Colony)',
     'fort_st_george_madras_1640_1857': 'Fort St. George',
     'fort_william_calcutta_1696_1857': 'Fort William',
+    // Princely States
+    'hyderabad_state_1724_1948': 'Hyderabad',
+    'kingdom_of_mysore_1399_1950': 'Mysore',
+    'baroda_state_1721_1949': 'Baroda',
+    'jammu_and_kashmir_1846_1947': 'J&K',
+    'gwalior_state_1761_1948': 'Gwalior',
+    'indore_state_1732_1948': 'Indore',
+    'kingdom_of_thiruvithamkoor_1729_1949': 'Travancore',
+    'jaipur_state_1727_1949': 'Jaipur',
+    'jodhpur_state_1226_1949': 'Jodhpur',
+    'bhopal_state_1723_1947': 'Bhopal',
+    'kingdom_of_cochin_1500_1949': 'Cochin',
+    'kolhapur_state_1707_1949': 'Kolhapur',
+    'udaipur_state_1818_1948': 'Udaipur',
+    'bikaner_state_1465_1947': 'Bikaner',
+    'cutch_state_1147_1948': 'Cutch',
+    'junagadh_state_1748_1948': 'Junagadh',
+    'patiala_state_1761_1947': 'Patiala',
+    'kapurthala_state_1772_1947': 'Kapurthala',
+    'cooch_behar_1586_1949': 'Cooch Behar',
+    'kingdom_of_sikkim_1642_1975': 'Sikkim',
+    'bahawalpur_state_1690_1955': 'Bahawalpur',
+    'khairpur_state_1775_1955': 'Khairpur',
+    'khanate_of_kalat_1638_1955': 'Kalat',
+    'rewa_state_1755_1947': 'Rewa',
     // East Africa
     'imperial_british_east_africa_company_territory_1888_1895': 'IBEAC Territory',
     'east_africa_protectorate_1895_1920': 'East Africa Prot.',
