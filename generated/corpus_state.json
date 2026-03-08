@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-08T09:42:53.983991",
+  "last_updated": "2026-03-08T10:11:51.280921",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -64857,6 +64857,59 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cape_of_good_hope_1899_data_gpt-oss_120b.json"
+    },
+    "Gold Coast_1899": {
+      "colony": "Gold Coast",
+      "year": 1899,
+      "tier": "LARGE",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1899_manual_parsed/gold_coast.txt",
+      "timestamp": "2026-03-08T09:42:54.036185",
+      "total_officials": 300,
+      "passed_officials": 300,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 5,
+        "Governor's Office": 3,
+        "Colonial Secretary's Office": 20,
+        "Treasury": 19,
+        "Customs": 28,
+        "Volta River Preventive Service": 3,
+        "Post Office": 3,
+        "Telegraph Department": 11,
+        "Medical Department": 31,
+        "Constabulary\u2014Hausa": 48,
+        "Civil Police": 11,
+        "Gold Coast Volunteer Corps": 2,
+        "Judicial Department": 8,
+        "District Commissioners": 17,
+        "Travelling Commissioners": 2,
+        "Registrars and Clerks": 9,
+        "Public Works Department": 45,
+        "Printing Department": 8,
+        "Prisons Department": 7,
+        "Education Department": 3,
+        "Accra Government School": 4,
+        "Cape Coast Government School": 2,
+        "Ibusuaan Government School": 1,
+        "Botanical Station": 1,
+        "Audit Office": 3,
+        "Exclusiastical": 2,
+        "Foreign Consuls": 4
+      },
+      "generation_time": 1737.1,
+      "validation_summary": {
+        "colony": "Gold Coast",
+        "year": 1899,
+        "total": 300,
+        "high_confidence": 288,
+        "medium_confidence": 12,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 300,
+        "anomaly_count": 4
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gold_coast_1899_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
