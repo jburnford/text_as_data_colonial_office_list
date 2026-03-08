@@ -1,0 +1,1741 @@
+{
+  "generated": "build_colony_alignment.py",
+  "statistics": {
+    "total_extraction_names": 150,
+    "verified_matches": 138,
+    "no_kg_node": 12,
+    "kg_name_not_found": 0,
+    "unmatched": 0
+  },
+  "alignments": [
+    {
+      "extraction_name": "Aden",
+      "kg_name": "Aden Colony",
+      "kg_alt": [
+        "Aden Protectorate",
+        "Aden Province"
+      ],
+      "wikidata_qid": "Q49910",
+      "modern_nation_qids": [
+        "Q805"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Amatongaland",
+      "kg_name": null,
+      "kg_alt": [],
+      "wikidata_qid": null,
+      "modern_nation_qids": null,
+      "match_status": "no_kg_node",
+      "notes": "No KG node; annexed by Natal 1895. QID: Q4738091"
+    },
+    {
+      "extraction_name": "Anguilla",
+      "kg_name": "Anguilla",
+      "kg_alt": [],
+      "wikidata_qid": "Q25228",
+      "modern_nation_qids": [
+        "Q25228"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Antigua",
+      "kg_name": "Antigua Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q22007334",
+      "modern_nation_qids": [
+        "Q781"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Ascension",
+      "kg_name": "Ascension Island",
+      "kg_alt": [],
+      "wikidata_qid": "Q46197",
+      "modern_nation_qids": [
+        "Q192184"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Ashanti",
+      "kg_name": "Ashanti",
+      "kg_alt": [],
+      "wikidata_qid": "Q96372444",
+      "modern_nation_qids": [
+        "Q117"
+      ],
+      "match_status": "verified",
+      "notes": "Sub-territory of Gold Coast"
+    },
+    {
+      "extraction_name": "Australia",
+      "kg_name": "Commonwealth of Australia",
+      "kg_alt": [
+        "Australia"
+      ],
+      "wikidata_qid": "Q408",
+      "modern_nation_qids": [
+        "Q408"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Australia - New South Wales",
+      "kg_name": "New South Wales (Original)",
+      "kg_alt": [],
+      "wikidata_qid": "Q18348382",
+      "modern_nation_qids": [
+        "Q408"
+      ],
+      "match_status": "verified",
+      "notes": "NSW section within Australia files"
+    },
+    {
+      "extraction_name": "Australia - Queensland",
+      "kg_name": "Queensland",
+      "kg_alt": [],
+      "wikidata_qid": "Q28401203",
+      "modern_nation_qids": [
+        "Q408"
+      ],
+      "match_status": "verified",
+      "notes": "Queensland section within Australia files"
+    },
+    {
+      "extraction_name": "Bahamas",
+      "kg_name": "Bahamas Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q1060894",
+      "modern_nation_qids": [
+        "Q778"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Barbados",
+      "kg_name": "Barbados Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q63973349",
+      "modern_nation_qids": [
+        "Q244"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Barbuda",
+      "kg_name": null,
+      "kg_alt": [],
+      "wikidata_qid": null,
+      "modern_nation_qids": null,
+      "match_status": "no_kg_node",
+      "notes": "Dependency of Antigua; no separate KG node"
+    },
+    {
+      "extraction_name": "Basutoland",
+      "kg_name": "Basutoland",
+      "kg_alt": [],
+      "wikidata_qid": "Q2340665",
+      "modern_nation_qids": [
+        "Q1013"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Bechuanaland",
+      "kg_name": "Bechuanaland Protectorate",
+      "kg_alt": [],
+      "wikidata_qid": "Q747314",
+      "modern_nation_qids": [
+        "Q963"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Bermuda",
+      "kg_name": "Bermuda",
+      "kg_alt": [],
+      "wikidata_qid": "Q23635",
+      "modern_nation_qids": [
+        "Q23635"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "British Antarctic Territory",
+      "kg_name": null,
+      "kg_alt": [],
+      "wikidata_qid": null,
+      "modern_nation_qids": null,
+      "match_status": "no_kg_node",
+      "notes": "Established 1962 from Falkland Islands Dependencies. Wikidata: Q2888913"
+    },
+    {
+      "extraction_name": "British Bechuanaland",
+      "kg_name": "British Bechuanaland",
+      "kg_alt": [],
+      "wikidata_qid": "Q4530733",
+      "modern_nation_qids": [
+        "Q963"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "British Columbia",
+      "kg_name": "British Columbia (Colony)",
+      "kg_alt": [
+        "United Colony of British Columbia"
+      ],
+      "wikidata_qid": "Q2514958",
+      "modern_nation_qids": [
+        "Q16"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "British Guiana",
+      "kg_name": "British Guiana",
+      "kg_alt": [
+        "British Guyana"
+      ],
+      "wikidata_qid": "Q918126",
+      "modern_nation_qids": [
+        "Q734"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "British Honduras",
+      "kg_name": "British Honduras",
+      "kg_alt": [],
+      "wikidata_qid": "Q1643555",
+      "modern_nation_qids": [
+        "Q242"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "British New Guinea",
+      "kg_name": "British New Guinea",
+      "kg_alt": [],
+      "wikidata_qid": "Q2645837",
+      "modern_nation_qids": [
+        "Q691"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "British Solomon Islands",
+      "kg_name": "British Solomon Islands",
+      "kg_alt": [],
+      "wikidata_qid": "Q13410267",
+      "modern_nation_qids": [
+        "Q685"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "British South Africa Company",
+      "kg_name": "British South Africa Company Territory",
+      "kg_alt": [],
+      "wikidata_qid": "Q5155572",
+      "modern_nation_qids": [
+        "Q258"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Brunei",
+      "kg_name": "Brunei Protectorate",
+      "kg_alt": [],
+      "wikidata_qid": "Q921",
+      "modern_nation_qids": [
+        "Q921"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Bulama",
+      "kg_name": null,
+      "kg_alt": [],
+      "wikidata_qid": null,
+      "modern_nation_qids": null,
+      "match_status": "no_kg_node",
+      "notes": "Portuguese-contested territory; briefly British. No KG node. Wikidata: Q11919290"
+    },
+    {
+      "extraction_name": "Cameroons (UK Trusteeship)",
+      "kg_name": "British Cameroons",
+      "kg_alt": [],
+      "wikidata_qid": "Q1028835",
+      "modern_nation_qids": [
+        "Q1033",
+        "Q1009"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Canada",
+      "kg_name": "Canada, Dominion of",
+      "kg_alt": [
+        "Province of Canada"
+      ],
+      "wikidata_qid": "Q16",
+      "modern_nation_qids": [
+        "Q16"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Cape of Good Hope",
+      "kg_name": "Cape Colony (British)",
+      "kg_alt": [
+        "Cape Colony (British 1795-1803)"
+      ],
+      "wikidata_qid": "Q4806993",
+      "modern_nation_qids": [
+        "Q258"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Cayman Islands",
+      "kg_name": "Cayman Islands",
+      "kg_alt": [],
+      "wikidata_qid": "Q5785",
+      "modern_nation_qids": [
+        "Q5785"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Ceylon",
+      "kg_name": "Ceylon",
+      "kg_alt": [],
+      "wikidata_qid": "Q918153",
+      "modern_nation_qids": [
+        "Q854"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Christmas Island",
+      "kg_name": "Christmas Island",
+      "kg_alt": [],
+      "wikidata_qid": "Q31063",
+      "modern_nation_qids": [
+        "Q31063"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Cook Islands",
+      "kg_name": "Cook Islands",
+      "kg_alt": [],
+      "wikidata_qid": "Q26988",
+      "modern_nation_qids": [
+        "Q26988"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Cyprus",
+      "kg_name": "Cyprus",
+      "kg_alt": [],
+      "wikidata_qid": "Q15240466",
+      "modern_nation_qids": [
+        "Q229"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Dominica",
+      "kg_name": "Dominica Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q137394892",
+      "modern_nation_qids": [
+        "Q784"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "East Africa High Commission",
+      "kg_name": null,
+      "kg_alt": [],
+      "wikidata_qid": null,
+      "modern_nation_qids": null,
+      "match_status": "no_kg_node",
+      "notes": "Inter-territorial body, no single KG node"
+    },
+    {
+      "extraction_name": "East Africa Protectorate",
+      "kg_name": "East Africa Protectorate",
+      "kg_alt": [],
+      "wikidata_qid": "Q876185",
+      "modern_nation_qids": [
+        "Q114"
+      ],
+      "match_status": "verified",
+      "notes": "Became Kenya Colony 1920"
+    },
+    {
+      "extraction_name": "Falkland Islands",
+      "kg_name": "Falkland Islands",
+      "kg_alt": [],
+      "wikidata_qid": "Q9648",
+      "modern_nation_qids": [
+        "Q9648"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Federated Malay States",
+      "kg_name": "Federated Malay States",
+      "kg_alt": [],
+      "wikidata_qid": "Q1400154",
+      "modern_nation_qids": [
+        "Q833"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Federation of Malaya",
+      "kg_name": "Federation of Malaya",
+      "kg_alt": [],
+      "wikidata_qid": "Q1479726",
+      "modern_nation_qids": [
+        "Q833"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Fiji",
+      "kg_name": "Fiji",
+      "kg_alt": [],
+      "wikidata_qid": "Q5148320",
+      "modern_nation_qids": [
+        "Q712"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Gambia",
+      "kg_name": "Gambia Colony and Protectorate",
+      "kg_alt": [
+        "Gambia Colony"
+      ],
+      "wikidata_qid": "Q3557236",
+      "modern_nation_qids": [
+        "Q1005"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Gibraltar",
+      "kg_name": "Gibraltar",
+      "kg_alt": [],
+      "wikidata_qid": "Q1410",
+      "modern_nation_qids": [
+        "Q1410"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Gilbert and Ellice Islands",
+      "kg_name": "Gilbert and Ellice Islands",
+      "kg_alt": [],
+      "wikidata_qid": "Q1050859",
+      "modern_nation_qids": [
+        "Q710"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Gold Coast",
+      "kg_name": "British Gold Coast",
+      "kg_alt": [
+        "Gold Coast Colony"
+      ],
+      "wikidata_qid": "Q503623",
+      "modern_nation_qids": [
+        "Q117"
+      ],
+      "match_status": "verified",
+      "notes": "Also 'Gold Coast Colony' node; same QID"
+    },
+    {
+      "extraction_name": "Grenada",
+      "kg_name": "Grenada Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q3116419",
+      "modern_nation_qids": [
+        "Q769"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Griqualand West",
+      "kg_name": "Griqualand West",
+      "kg_alt": [],
+      "wikidata_qid": "Q2547918",
+      "modern_nation_qids": [
+        "Q258"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Heligoland",
+      "kg_name": null,
+      "kg_alt": [],
+      "wikidata_qid": null,
+      "modern_nation_qids": null,
+      "match_status": "no_kg_node",
+      "notes": "Not in KG. Ceded to Germany 1890. Wikidata: Q3084"
+    },
+    {
+      "extraction_name": "High Commission Territories",
+      "kg_name": null,
+      "kg_alt": [],
+      "wikidata_qid": null,
+      "modern_nation_qids": null,
+      "match_status": "no_kg_node",
+      "notes": "Administrative grouping of Basutoland, Bechuanaland, Swaziland"
+    },
+    {
+      "extraction_name": "Hong Kong",
+      "kg_name": "British Hong Kong",
+      "kg_alt": [
+        "Hong Kong"
+      ],
+      "wikidata_qid": "Q1054923",
+      "modern_nation_qids": [
+        "Q8646"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Imperial British East Africa Company",
+      "kg_name": "Imperial British East Africa Company Territory",
+      "kg_alt": [],
+      "wikidata_qid": "Q926921",
+      "modern_nation_qids": [
+        "Q114"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Iraq",
+      "kg_name": "Mandatory Iraq",
+      "kg_alt": [
+        "Iraq"
+      ],
+      "wikidata_qid": "Q796",
+      "modern_nation_qids": [
+        "Q796"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Jamaica",
+      "kg_name": "Jamaica",
+      "kg_alt": [],
+      "wikidata_qid": "Q2526023",
+      "modern_nation_qids": [
+        "Q766"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Johore",
+      "kg_name": "Unfederated Malay States",
+      "kg_alt": [],
+      "wikidata_qid": "Q1973084",
+      "modern_nation_qids": [
+        "Q833"
+      ],
+      "match_status": "verified",
+      "notes": "Johore was one of the Unfederated Malay States; no separate KG node"
+    },
+    {
+      "extraction_name": "Kedah",
+      "kg_name": "Unfederated Malay States",
+      "kg_alt": [],
+      "wikidata_qid": "Q1973084",
+      "modern_nation_qids": [
+        "Q833"
+      ],
+      "match_status": "verified",
+      "notes": "Kedah was one of the Unfederated Malay States; no separate KG node"
+    },
+    {
+      "extraction_name": "Kelantan",
+      "kg_name": "Unfederated Malay States",
+      "kg_alt": [],
+      "wikidata_qid": "Q1973084",
+      "modern_nation_qids": [
+        "Q833"
+      ],
+      "match_status": "verified",
+      "notes": "Kelantan was one of the Unfederated Malay States; no separate KG node"
+    },
+    {
+      "extraction_name": "Kenya",
+      "kg_name": "Kenya, Colony & Protectorate of",
+      "kg_alt": [],
+      "wikidata_qid": "Q2538511",
+      "modern_nation_qids": [
+        "Q114"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Labuan",
+      "kg_name": "Labuan",
+      "kg_alt": [],
+      "wikidata_qid": "Q1344",
+      "modern_nation_qids": [
+        "Q833"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Lagos",
+      "kg_name": "Lagos Protectorate",
+      "kg_alt": [],
+      "wikidata_qid": "Q1801433",
+      "modern_nation_qids": [
+        "Q1033"
+      ],
+      "match_status": "verified",
+      "notes": "Lagos Colony merged into Southern Nigeria 1906"
+    },
+    {
+      "extraction_name": "Leeward Islands",
+      "kg_name": "Federal Colony of the Leeward Islands",
+      "kg_alt": [
+        "Leeward Islands Colony (1671-1816)"
+      ],
+      "wikidata_qid": "Q1796551",
+      "modern_nation_qids": [
+        "Q781",
+        "Q763",
+        "Q13353",
+        "Q25305"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Leeward Islands - Antigua",
+      "kg_name": "Antigua Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q22007334",
+      "modern_nation_qids": [
+        "Q781"
+      ],
+      "match_status": "verified",
+      "notes": "Antigua presidency within Leeward Islands federation"
+    },
+    {
+      "extraction_name": "Leeward Islands - Dominica",
+      "kg_name": "Dominica Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q137394892",
+      "modern_nation_qids": [
+        "Q784"
+      ],
+      "match_status": "verified",
+      "notes": "Dominica presidency; transferred to Windward Islands 1940"
+    },
+    {
+      "extraction_name": "Leeward Islands - Montserrat",
+      "kg_name": "Montserrat",
+      "kg_alt": [],
+      "wikidata_qid": "Q13353",
+      "modern_nation_qids": [
+        "Q13353"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Leeward Islands - St Christopher Nevis",
+      "kg_name": "Saint Christopher-Nevis-Anguilla",
+      "kg_alt": [],
+      "wikidata_qid": "Q1637975",
+      "modern_nation_qids": [
+        "Q763"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Leeward Islands - Virgin Islands",
+      "kg_name": "British Virgin Islands",
+      "kg_alt": [],
+      "wikidata_qid": "Q25305",
+      "modern_nation_qids": [
+        "Q25305"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Lord Howe Island",
+      "kg_name": null,
+      "kg_alt": [],
+      "wikidata_qid": null,
+      "modern_nation_qids": null,
+      "match_status": "no_kg_node",
+      "notes": "Part of New South Wales; no separate KG node. Wikidata: Q172029"
+    },
+    {
+      "extraction_name": "Malaya",
+      "kg_name": "Malaya",
+      "kg_alt": [
+        "Malaya (Independent)",
+        "Malayan Union"
+      ],
+      "wikidata_qid": "Q871091",
+      "modern_nation_qids": [
+        "Q833"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Malaysia",
+      "kg_name": "Malaya (Independent)",
+      "kg_alt": [],
+      "wikidata_qid": "Q1479726",
+      "modern_nation_qids": [
+        "Q833"
+      ],
+      "match_status": "verified",
+      "notes": "Post-independence files"
+    },
+    {
+      "extraction_name": "Malta",
+      "kg_name": "Malta",
+      "kg_alt": [],
+      "wikidata_qid": "Q6744657",
+      "modern_nation_qids": [
+        "Q233"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Mauritius",
+      "kg_name": "Mauritius",
+      "kg_alt": [],
+      "wikidata_qid": "Q12053604",
+      "modern_nation_qids": [
+        "Q1027"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Miscellaneous Islands",
+      "kg_name": null,
+      "kg_alt": [],
+      "wikidata_qid": null,
+      "modern_nation_qids": null,
+      "match_status": "no_kg_node",
+      "notes": "Omnibus category; individual islands have separate KG nodes"
+    },
+    {
+      "extraction_name": "Montserrat",
+      "kg_name": "Montserrat",
+      "kg_alt": [],
+      "wikidata_qid": "Q13353",
+      "modern_nation_qids": [
+        "Q13353"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Natal",
+      "kg_name": "Colony of Natal",
+      "kg_alt": [],
+      "wikidata_qid": "Q1301901",
+      "modern_nation_qids": [
+        "Q258"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Nauru",
+      "kg_name": "Nauru",
+      "kg_alt": [],
+      "wikidata_qid": "Q697",
+      "modern_nation_qids": [
+        "Q697"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Nevis",
+      "kg_name": "Saint Christopher-Nevis-Anguilla",
+      "kg_alt": [],
+      "wikidata_qid": "Q1637975",
+      "modern_nation_qids": [
+        "Q763"
+      ],
+      "match_status": "verified",
+      "notes": "Nevis part of combined colony; no separate KG node"
+    },
+    {
+      "extraction_name": "New Brunswick",
+      "kg_name": "New Brunswick",
+      "kg_alt": [],
+      "wikidata_qid": "Q107499350",
+      "modern_nation_qids": [
+        "Q16"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "New Hebrides",
+      "kg_name": "New Hebrides",
+      "kg_alt": [],
+      "wikidata_qid": "Q686",
+      "modern_nation_qids": [
+        "Q686"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "New South Wales",
+      "kg_name": "New South Wales (Original)",
+      "kg_alt": [],
+      "wikidata_qid": "Q18348382",
+      "modern_nation_qids": [
+        "Q408"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "New Zealand",
+      "kg_name": "New Zealand",
+      "kg_alt": [],
+      "wikidata_qid": "Q5148518",
+      "modern_nation_qids": [
+        "Q664"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Newfoundland",
+      "kg_name": "Colony of Newfoundland",
+      "kg_alt": [
+        "Dominion of Newfoundland"
+      ],
+      "wikidata_qid": "Q2984260",
+      "modern_nation_qids": [
+        "Q16"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Niger Coast Protectorate",
+      "kg_name": "Niger Coast Protectorate",
+      "kg_alt": [
+        "Oil Rivers Protectorate"
+      ],
+      "wikidata_qid": "Q2566427",
+      "modern_nation_qids": [
+        "Q1033"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Niger Territories",
+      "kg_name": "Royal Niger Company Territory",
+      "kg_alt": [],
+      "wikidata_qid": "Q1806380",
+      "modern_nation_qids": [
+        "Q1033"
+      ],
+      "match_status": "verified",
+      "notes": "Approximate match \u2014 Niger Territories preceded formal protectorate"
+    },
+    {
+      "extraction_name": "Nigeria",
+      "kg_name": "Colony and Protectorate of Nigeria",
+      "kg_alt": [],
+      "wikidata_qid": "Q5148517",
+      "modern_nation_qids": [
+        "Q1033"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Nigeria (Federation)",
+      "kg_name": "Colony and Protectorate of Nigeria",
+      "kg_alt": [],
+      "wikidata_qid": "Q5148517",
+      "modern_nation_qids": [
+        "Q1033"
+      ],
+      "match_status": "verified",
+      "notes": "Same entity, later era name"
+    },
+    {
+      "extraction_name": "Norfolk Island",
+      "kg_name": "Norfolk Island",
+      "kg_alt": [],
+      "wikidata_qid": "Q31057",
+      "modern_nation_qids": [
+        "Q31057"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "North Borneo",
+      "kg_name": "British North Borneo",
+      "kg_alt": [
+        "North Borneo Crown Colony"
+      ],
+      "wikidata_qid": "Q1147441",
+      "modern_nation_qids": [
+        "Q833"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Northern Nigeria",
+      "kg_name": "Northern Nigeria",
+      "kg_alt": [],
+      "wikidata_qid": "Q585408",
+      "modern_nation_qids": [
+        "Q1033"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Northern Rhodesia",
+      "kg_name": "Northern Rhodesia Colony",
+      "kg_alt": [
+        "Northern Rhodesia",
+        "Northern Rhodesia (Post-Federation)"
+      ],
+      "wikidata_qid": "Q953903",
+      "modern_nation_qids": [
+        "Q954",
+        "Q953"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Northern Territories (Gold Coast)",
+      "kg_name": null,
+      "kg_alt": [],
+      "wikidata_qid": null,
+      "modern_nation_qids": null,
+      "match_status": "no_kg_node",
+      "notes": "No separate KG node; part of British Gold Coast"
+    },
+    {
+      "extraction_name": "Northern Territory (Australia)",
+      "kg_name": "Northern Territory",
+      "kg_alt": [],
+      "wikidata_qid": "Q3235",
+      "modern_nation_qids": [
+        "Q408"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Nova Scotia",
+      "kg_name": "Nova Scotia",
+      "kg_alt": [],
+      "wikidata_qid": "Q98931415",
+      "modern_nation_qids": [
+        "Q16"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Nyasaland",
+      "kg_name": "Nyasaland",
+      "kg_alt": [
+        "Nyasaland (Post-Federation)",
+        "British Central Africa Protectorate"
+      ],
+      "wikidata_qid": "Q1649306",
+      "modern_nation_qids": [
+        "Q1020"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Ontario",
+      "kg_name": "Upper Canada",
+      "kg_alt": [],
+      "wikidata_qid": "Q795427",
+      "modern_nation_qids": [
+        "Q16"
+      ],
+      "match_status": "verified",
+      "notes": "Ontario = Upper Canada post-Confederation"
+    },
+    {
+      "extraction_name": "Orange River Colony",
+      "kg_name": "Orange River Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q2005921",
+      "modern_nation_qids": [
+        "Q258"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Palestine",
+      "kg_name": "Mandatory Palestine",
+      "kg_alt": [
+        "Palestine"
+      ],
+      "wikidata_qid": "Q193714",
+      "modern_nation_qids": [
+        "Q219060",
+        "Q801"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Papua",
+      "kg_name": "Territory of Papua",
+      "kg_alt": [
+        "Territory of Papua and New Guinea"
+      ],
+      "wikidata_qid": "Q530560",
+      "modern_nation_qids": [
+        "Q691"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Perlis",
+      "kg_name": "Unfederated Malay States",
+      "kg_alt": [],
+      "wikidata_qid": "Q1973084",
+      "modern_nation_qids": [
+        "Q833"
+      ],
+      "match_status": "verified",
+      "notes": "Perlis was one of the Unfederated Malay States; no separate KG node"
+    },
+    {
+      "extraction_name": "Pitcairn Island",
+      "kg_name": "Pitcairn Islands",
+      "kg_alt": [],
+      "wikidata_qid": "Q35672",
+      "modern_nation_qids": [
+        "Q35672"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Prince Edward Island",
+      "kg_name": "Prince Edward Island",
+      "kg_alt": [],
+      "wikidata_qid": "Q137324703",
+      "modern_nation_qids": [
+        "Q16"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Queensland",
+      "kg_name": "Queensland",
+      "kg_alt": [],
+      "wikidata_qid": "Q28401203",
+      "modern_nation_qids": [
+        "Q408"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Rhodesia",
+      "kg_name": "British South Africa Company Territory",
+      "kg_alt": [],
+      "wikidata_qid": "Q5155572",
+      "modern_nation_qids": [
+        "Q258"
+      ],
+      "match_status": "verified",
+      "notes": "Pre-partition 'Rhodesia' = BSA Company territory"
+    },
+    {
+      "extraction_name": "Rhodesia and Nyasaland",
+      "kg_name": "Federation of Rhodesia and Nyasaland",
+      "kg_alt": [],
+      "wikidata_qid": "Q654342",
+      "modern_nation_qids": [
+        "Q954",
+        "Q953"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Rodrigues",
+      "kg_name": "Rodrigues",
+      "kg_alt": [],
+      "wikidata_qid": "Q1029547",
+      "modern_nation_qids": [
+        "Q1027"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Sarawak",
+      "kg_name": "Sarawak Crown Colony",
+      "kg_alt": [
+        "Sarawak"
+      ],
+      "wikidata_qid": "Q1166",
+      "modern_nation_qids": [
+        "Q833"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Seychelles",
+      "kg_name": "Seychelles",
+      "kg_alt": [
+        "Seychelles (Mauritius Dependency)"
+      ],
+      "wikidata_qid": "Q21821453",
+      "modern_nation_qids": [
+        "Q1042"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Sierra Leone",
+      "kg_name": "Sierra Leone Colony and Protectorate",
+      "kg_alt": [
+        "Sierra Leone Colony",
+        "Sierra Leone Company Settlement"
+      ],
+      "wikidata_qid": "Q1044",
+      "modern_nation_qids": [
+        "Q1044"
+      ],
+      "match_status": "verified",
+      "notes": "Colony and Protectorate is the main node (1808-1961)"
+    },
+    {
+      "extraction_name": "Singapore",
+      "kg_name": "Singapore Crown Colony",
+      "kg_alt": [
+        "Singapore",
+        "Singapore Settlement"
+      ],
+      "wikidata_qid": "Q4373718",
+      "modern_nation_qids": [
+        "Q334"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Somaliland",
+      "kg_name": "British Somaliland",
+      "kg_alt": [
+        "Somaliland Protectorate"
+      ],
+      "wikidata_qid": "Q662653",
+      "modern_nation_qids": [
+        "Q1045"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "South Africa",
+      "kg_name": "Union of South Africa",
+      "kg_alt": [],
+      "wikidata_qid": "Q193619",
+      "modern_nation_qids": [
+        "Q258"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "South Australia",
+      "kg_name": "South Australia",
+      "kg_alt": [],
+      "wikidata_qid": "Q35715",
+      "modern_nation_qids": [
+        "Q408"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Southern Nigeria",
+      "kg_name": "Southern Nigeria Protectorate",
+      "kg_alt": [],
+      "wikidata_qid": "Q2062030",
+      "modern_nation_qids": [
+        "Q1033"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Southern Rhodesia",
+      "kg_name": "Southern Rhodesia Colony",
+      "kg_alt": [
+        "Southern Rhodesia",
+        "Southern Rhodesia (Restored)"
+      ],
+      "wikidata_qid": "Q750583",
+      "modern_nation_qids": [
+        "Q954",
+        "Q953"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "St Christopher and Nevis",
+      "kg_name": "Saint Christopher-Nevis-Anguilla",
+      "kg_alt": [
+        "Colony of St. Kitts-Nevis-Anguilla"
+      ],
+      "wikidata_qid": "Q1637975",
+      "modern_nation_qids": [
+        "Q763"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "St Helena",
+      "kg_name": "St. Helena",
+      "kg_alt": [],
+      "wikidata_qid": "Q34497",
+      "modern_nation_qids": [
+        "Q192184"
+      ],
+      "match_status": "verified",
+      "notes": "KG also has 'Saint Helena, Ascension and Tristan da Cunha' (Q192184)"
+    },
+    {
+      "extraction_name": "St Lucia",
+      "kg_name": "Saint Lucia Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q760",
+      "modern_nation_qids": [
+        "Q760"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "St Vincent",
+      "kg_name": "St. Vincent Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q757",
+      "modern_nation_qids": [
+        "Q757"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Straits Settlements",
+      "kg_name": "Straits Settlements",
+      "kg_alt": [],
+      "wikidata_qid": "Q376178",
+      "modern_nation_qids": [
+        "Q833",
+        "Q334"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Swaziland",
+      "kg_name": "Swaziland",
+      "kg_alt": [],
+      "wikidata_qid": "Q1050",
+      "modern_nation_qids": [
+        "Q1050"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Tanganyika",
+      "kg_name": "Tanganyika",
+      "kg_alt": [
+        "Tanganyika Territory"
+      ],
+      "wikidata_qid": "Q158725",
+      "modern_nation_qids": [
+        "Q924"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Tasmania",
+      "kg_name": "Tasmania",
+      "kg_alt": [
+        "Van Diemen's Land"
+      ],
+      "wikidata_qid": "Q5148519",
+      "modern_nation_qids": [
+        "Q408"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Territory of New Guinea",
+      "kg_name": "Territory of New Guinea",
+      "kg_alt": [],
+      "wikidata_qid": "Q691",
+      "modern_nation_qids": [
+        "Q691"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Tobago",
+      "kg_name": "Trinidad and Tobago Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q116282722",
+      "modern_nation_qids": [
+        "Q754"
+      ],
+      "match_status": "verified",
+      "notes": "Tobago merged into Trinidad and Tobago 1889"
+    },
+    {
+      "extraction_name": "Togoland",
+      "kg_name": "British Togoland",
+      "kg_alt": [],
+      "wikidata_qid": "Q797527",
+      "modern_nation_qids": [
+        "Q117"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Tonga",
+      "kg_name": "Tonga Protectorate",
+      "kg_alt": [],
+      "wikidata_qid": "Q17197946",
+      "modern_nation_qids": [
+        "Q678"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Transjordan",
+      "kg_name": "Transjordan",
+      "kg_alt": [],
+      "wikidata_qid": "Q810",
+      "modern_nation_qids": [
+        "Q810"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Transvaal",
+      "kg_name": "Transvaal Colony (Second British)",
+      "kg_alt": [
+        "Transvaal Colony (First British)",
+        "South African Republic (Transvaal)"
+      ],
+      "wikidata_qid": "Q779805",
+      "modern_nation_qids": [
+        "Q258"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Trengganu",
+      "kg_name": "Unfederated Malay States",
+      "kg_alt": [],
+      "wikidata_qid": "Q1973084",
+      "modern_nation_qids": [
+        "Q833"
+      ],
+      "match_status": "verified",
+      "notes": "Trengganu was one of the Unfederated Malay States; no separate KG node"
+    },
+    {
+      "extraction_name": "Trinidad",
+      "kg_name": "Trinidad and Tobago Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q116282722",
+      "modern_nation_qids": [
+        "Q754"
+      ],
+      "match_status": "verified",
+      "notes": "Trinidad alone before merger with Tobago"
+    },
+    {
+      "extraction_name": "Trinidad and Tobago",
+      "kg_name": "Trinidad and Tobago Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q116282722",
+      "modern_nation_qids": [
+        "Q754"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Tristan da Cunha",
+      "kg_name": "Tristan da Cunha",
+      "kg_alt": [],
+      "wikidata_qid": "Q220982",
+      "modern_nation_qids": [
+        "Q192184"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Turks and Caicos Islands",
+      "kg_name": "Turks and Caicos Islands",
+      "kg_alt": [],
+      "wikidata_qid": "Q18221",
+      "modern_nation_qids": [
+        "Q18221"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Uganda",
+      "kg_name": "Uganda Protectorate",
+      "kg_alt": [
+        "Uganda"
+      ],
+      "wikidata_qid": "Q1097943",
+      "modern_nation_qids": [
+        "Q1036"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Unfederated Malay States",
+      "kg_name": "Unfederated Malay States",
+      "kg_alt": [],
+      "wikidata_qid": "Q1973084",
+      "modern_nation_qids": [
+        "Q833"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Vancouver's Island",
+      "kg_name": "Colony of Vancouver Island",
+      "kg_alt": [],
+      "wikidata_qid": "Q2510000",
+      "modern_nation_qids": [
+        "Q16"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Victoria",
+      "kg_name": "Victoria (Colony)",
+      "kg_alt": [],
+      "wikidata_qid": "Q56850459",
+      "modern_nation_qids": [
+        "Q408"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Virgin Islands",
+      "kg_name": "British Virgin Islands",
+      "kg_alt": [],
+      "wikidata_qid": "Q25305",
+      "modern_nation_qids": [
+        "Q25305"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Wei-hai-Wei",
+      "kg_name": "Weihaiwei",
+      "kg_alt": [],
+      "wikidata_qid": "Q15939896",
+      "modern_nation_qids": [
+        "Q148"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "West African Settlements",
+      "kg_name": null,
+      "kg_alt": [],
+      "wikidata_qid": null,
+      "modern_nation_qids": null,
+      "match_status": "no_kg_node",
+      "notes": "Administrative grouping, no single KG node; contained Gold Coast, Lagos, Gambia, Sierra Leone"
+    },
+    {
+      "extraction_name": "West Indies",
+      "kg_name": "West Indies Federation",
+      "kg_alt": [],
+      "wikidata_qid": "Q652560",
+      "modern_nation_qids": [
+        "Q766",
+        "Q754",
+        "Q244",
+        "Q769",
+        "Q760",
+        "Q757",
+        "Q784",
+        "Q781",
+        "Q763"
+      ],
+      "match_status": "verified",
+      "notes": "Late-era files referring to the Federation"
+    },
+    {
+      "extraction_name": "West Indies (Cayman/Turks)",
+      "kg_name": null,
+      "kg_alt": [],
+      "wikidata_qid": null,
+      "modern_nation_qids": null,
+      "match_status": "no_kg_node",
+      "notes": "Sub-section of West Indies files covering Cayman + Turks and Caicos"
+    },
+    {
+      "extraction_name": "West Indies (St Vincent)",
+      "kg_name": "St. Vincent Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q757",
+      "modern_nation_qids": [
+        "Q757"
+      ],
+      "match_status": "verified",
+      "notes": "Sub-section of West Indies files covering St Vincent"
+    },
+    {
+      "extraction_name": "West Indies Federation",
+      "kg_name": "West Indies Federation",
+      "kg_alt": [],
+      "wikidata_qid": "Q652560",
+      "modern_nation_qids": [
+        "Q766",
+        "Q754",
+        "Q244",
+        "Q769",
+        "Q760",
+        "Q757",
+        "Q784",
+        "Q781",
+        "Q763"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Western Australia",
+      "kg_name": "Western Australia",
+      "kg_alt": [
+        "Swan River Colony"
+      ],
+      "wikidata_qid": "Q3208",
+      "modern_nation_qids": [
+        "Q408"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Western Pacific",
+      "kg_name": "British Western Pacific Territories",
+      "kg_alt": [],
+      "wikidata_qid": "Q1545934",
+      "modern_nation_qids": [
+        "Q712",
+        "Q685",
+        "Q672",
+        "Q710"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Windward Islands",
+      "kg_name": "British Windward Islands",
+      "kg_alt": [],
+      "wikidata_qid": "Q2660774",
+      "modern_nation_qids": [
+        "Q760",
+        "Q757",
+        "Q784",
+        "Q769"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Windward Islands - Grenada",
+      "kg_name": "Grenada Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q3116419",
+      "modern_nation_qids": [
+        "Q769"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Windward Islands - St Lucia",
+      "kg_name": "Saint Lucia Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q760",
+      "modern_nation_qids": [
+        "Q760"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Windward Islands - St Vincent",
+      "kg_name": "St. Vincent Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q757",
+      "modern_nation_qids": [
+        "Q757"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Windward Islands - Tobago",
+      "kg_name": "Trinidad and Tobago Colony",
+      "kg_alt": [],
+      "wikidata_qid": "Q116282722",
+      "modern_nation_qids": [
+        "Q754"
+      ],
+      "match_status": "verified",
+      "notes": "Tobago was in Windward Islands before joining Trinidad 1889"
+    },
+    {
+      "extraction_name": "Zanzibar",
+      "kg_name": "Zanzibar",
+      "kg_alt": [
+        "Zanzibar (Independent)"
+      ],
+      "wikidata_qid": "Q3574782",
+      "modern_nation_qids": [
+        "Q924"
+      ],
+      "match_status": "verified",
+      "notes": null
+    },
+    {
+      "extraction_name": "Zululand",
+      "kg_name": "Zululand",
+      "kg_alt": [],
+      "wikidata_qid": "Q1009306",
+      "modern_nation_qids": [
+        "Q258"
+      ],
+      "match_status": "verified",
+      "notes": null
+    }
+  ]
+}

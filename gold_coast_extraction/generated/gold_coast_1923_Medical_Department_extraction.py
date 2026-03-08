@@ -1,0 +1,19 @@
+"""
+Gold Coast Colonial Office List 1923 - Extracted Data
+"""
+COLONY = "Gold Coast"
+YEAR = 1923
+
+OFFICIALS = [
+    {"name": "D. Alexander", "canonical_name": "Alexander, D.", "given_names": "D.", "surname": "Alexander", "position": "Director of Medical and Sanitary Services", "department": "Medical Department - Gold Coast", "salary_min": 1600, "salary_max": 1600, "duty_allowance": 320, "region": "Colony"},
+    {"name": "M. E. O'Dea", "canonical_name": "O'Dea, M. E.", "given_names": "M. E.", "surname": "O'Dea", "position": "Deputy Director of Medical and Sanitary Services", "department": "Medical Department - Gold Coast", "salary_min": 1400, "salary_max": 1400, "duty_allowance": 260, "region": "Colony"},
+    {"name": "C. V. Le Fanu", "canonical_name": "Le Fanu, C. V.", "given_names": "C. V.", "surname": "Le Fanu", "position": "Specialist", "department": "Medical Department - Gold Coast", "salary_min": 1300, "salary_max": 1300, "duty_allowance": 260, "region": "Colony"},
+    {"name": "A. J. R. O'Brien", "canonical_name": "O'Brien, A. J. R.", "given_names": "A. J. R.", "surname": "O'Brien", "position": "Specialist", "department": "Medical Department - Gold Coast", "salary_min": 1300, "salary_max": 1300, "duty_allowance": 260, "region": "Colony"},
+    {"name": "J. H. Collier", "canonical_name": "Collier, J. H.", "given_names": "J. H.", "surname": "Collier", "position": "Senior Medical Officer", "department": "Medical Department - Gold Coast", "salary_min": 1000, "salary_max": 1150, "allowances": "seniority allowance at 100l.", "region": "Colony"},
+    {"name": "R. O. White", "canonical_name": "White, R. O.", "given_names": "R. O.", "surname": "White", "position": "Senior Medical Officer", "department": "Medical Department - Gold Coast", "salary_min": 1000, "salary_max": 1150, "allowances": "seniority allowance at 100l.", "region": "Colony"},
+    {"name": "J. C. S. McDouall", "canonical_name": "McDouall, J. C. S.", "given_names": "J. C. S.", "surname": "McDouall", "position": "Senior Medical Officer", "department": "Medical Department - Gold Coast", "salary_min": 1000, "salary_max": 1150, "allowances": "seniority allowance at 100l.", "region": "Colony"},
+    {"name": "H. E. Arthuckle", "canonical_name": "Arthuckle, H. E.", "given_names": "H. E.", "surname": "Arthuckle", "position": "Senior Medical Officer", "department": "Medical Department - Gold Coast", "salary_min": 1000, "salary_max": 1150, "allowances": "seniority allowance at 100l.", "region": "Colony"},
+    {"name": "H. T. Palmer", "canonical_name": "Palmer, H. T.", "given_names": "H. T.", "surname": "Palmer", "position": "Senior Medical Officer", "department": "Medical Department - Gold Coast", "salary_min": 1000, "salary_max": 1150, "allowances": "seniority allowance at 100l.", "region": "Colony"},
+    {"name": "W. M. Wade", "canonical_name": "Wade, W. M.", "given_names": "W. M.", "surname": "Wade", "position": "Senior Medical Officer", "department": "Medical Department - Gold Coast", "salary_min": 1000, "salary_max": 1150, "allowances": "seniority allowance at 100l.", "region": "Colony"},
+    {"name": "G. E. H. Le Fanu", "canonical_name": "Le Fanu, G. E. H.", "given_names": "G. E. H.", "surname": "Le Fanu", "position": "Senior Medical Officer", "department": "Medical Department - Gold Coast", "salary_min": 1000, "salary_max": 1150, "allowances": "seniority allowance at 100l.", "region": "Colony"},
+    {"name": "J. M. O'Brien", "canonical_name": "O'Brien, J. M.", "given_names": "J. M.", "surname": "O'Brien", "position": "Senior Medical Officer", "department": "Medical Department - Gold Coast", "salary_min": 1000

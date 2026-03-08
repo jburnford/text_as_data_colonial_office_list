@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-02-08T13:09:24.142609",
+  "guide": "/home/jic823/textasdatacolonialofficelist/gold_coast_extraction/gold_coast_guide.md",
+  "results": [
+    {
+      "colony": "Gold Coast",
+      "year": 1923,
+      "source_file": "/home/jic823/textasdatacolonialofficelist/1923_manual_parsed/gold_coast.txt",
+      "code_file": "/home/jic823/textasdatacolonialofficelist/extraction/gold_coast/generated/1923_extraction.py",
+      "json_file": "/home/jic823/textasdatacolonialofficelist/extraction/gold_coast/json/gold_coast_1923.json",
+      "status": "success",
+      "official_count": 249,
+      "sections_extracted": 6,
+      "errors": [
+        "Section 'Audit Department. / Customs Department. / Railway Department.': Syntax error: unterminated string literal (detected at line 118) (1923_Audit_Department__Customs_Depa_retry_extraction.py, line 118)",
+        "Section 'Prisons Department. / Surveys Department. / Public Works Department.': Syntax error: '{' was never closed (1923_Prisons_Department__Surveys_De_retry_extraction.py, line 121)"
+      ],
+      "timestamp": "2026-02-08T13:03:20.224653"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+"""
+Gold Coast Colonial Office List 1923 - Extracted Data
+"""
+COLONY = "Gold Coast"
+YEAR = 1923
+
+OFFICIALS = [
+    {"name": "Brigadier-General Sir F. Gordon Guggisberg", "canonical_name": "Guggisberg, Sir F. Gordon", "given_names": "F. Gordon", "surname": "Guggisberg", "position": "Governor", "department": "Governor's Office - Gold Coast", "salary_min": 4500, "salary_max": 4500, "duty_allowance": 1500, "honors": ["K.C.M.G.", "D.S.O.", "R.F."], "military_rank": "Brigadier-General"},
+    {"name": "Vincent Basevi", "canonical_name": "Basevi, Vincent", "given_names": "Vincent", "surname": "Basevi", "position": "Private Secretary", "department": "Governor's Office - Gold Coast", "salary_min": 500, "salary_max": 500},
+    {"name": "Captain R. C. M. Buckby", "canonical_name": "Buckby, R. C. M.", "given_names": "R. C. M.", "surname": "Buckby", "position": "Aide-de-Camp", "department": "Governor's Office - Gold Coast", "salary_min": 500, "salary_max": 500, "military_rank": "Captain"},
+    {"name": "M. C. Hanson", "canonical_name": "Hanson, M. C.", "given_names": "M. C.", "surname": "Hanson", "position": "Chief Clerk", "department": "Governor's Office - Gold Coast", "salary_min": 396, "salary_max": 396},
+    {"name": "Dr. J. C. Maxwell", "canonical_name": "Maxwell, J. C.", "given_names": "J. C.", "surname": "Maxwell", "position": "Colonial Secretary", "department": "Colonial Secretary's Office - Gold Coast", "salary_min": 1800, "salary_max": 1800, "duty_allowance": 360, "honors": ["C.M.G."], "qualifications": ["Dr."]},
+    {"name": "A. A. C. Finlay", "canonical_name": "Finlay, A. A. C.", "given_names": "A. A. C.", "surname": "Finlay", "position": "Chief Assistant Colonial Secretary", "department": "Colonial Secretary's Office - Gold Coast", "salary_min": 1200, "salary_max": 1200, "duty_allowance": 240, "honors": ["I.S.O."]},
+    {"name": "D. B. Strathairn", "canonical_name": "Strathairn, D. B.", "given_names": "D. B.", "surname": "Strathairn", "position": "Senior Assistant Colonial Secretary", "department": "Colonial Secretary's Office - Gold Coast", "salary_min": 1050, "salary_max": 1050, "duty_allowance": 210},
+    {"name": "E. A. T. Taylor", "canonical_name": "Taylor, E. A. T.", "given_names": "E. A. T.", "surname": "Taylor", "position": "Senior Assistant Colonial Secretary", "department": "Colonial Secretary's Office - Gold Coast", "salary_min": 1050, "salary_max": 1050, "duty_allowance": 210},
+    {"name": "J. P. Ross", "canonical_name": "Ross, J. P.", "given_names": "J. P.", "surname": "Ross", "position": "Senior Assistant Colonial Secretary", "department": "Colonial Secretary's Office - Gold Coast", "salary_min": 1050, "salary_max": 1050, "duty_allowance": 210},
+    {"name": "J. L. Trafford", "canonical_name": "Trafford, J. L.", "given_names": "J. L.", "surname": "Trafford", "position": "Assistant Colonial Secretary", "department": "Colonial Secretary's Office - Gold Coast", "salary_min": 500, "salary_max": 960, "allowances": "seniority allowance 72l., Secretariat allowance 120l."},
+    {"name": "L. W. Wood", "canonical_name": "Wood, L. W.", "given_names": "L. W.", "surname": "Wood", "position": "Assistant Colonial Secretary", "department": "Colonial Secretary's Office - Gold Coast", "salary_min": 500, "salary_max": 960, "allowances": "seniority allowance 72l., Secretariat allowance 120l."},
+    {"name": "Capt. W. H. Gilliland", "canonical_name": "Gilliland, W. H.", "given_names": "W. H.", "surname": "Gilliland", "position": "Assistant Colonial Secretary", "department": "Colonial Secretary's Office - Gold Coast", "salary_min": 500, "salary_max": 960, "allowances": "seniority

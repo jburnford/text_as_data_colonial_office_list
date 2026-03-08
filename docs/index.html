@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>British Empire Knowledge Graph — Visualizations</title>
+<style>
+  body { font-family: 'Segoe UI', system-ui, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #222; line-height: 1.6; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 8px; }
+  .card { background: #f8f8f8; border: 1px solid #ddd; border-radius: 6px; padding: 16px 20px; margin: 16px 0; }
+  .card h2 { margin: 0 0 6px 0; font-size: 1.15em; }
+  .card p { margin: 0 0 10px 0; color: #555; font-size: 0.95em; }
+  .card a { color: #1a6fb5; text-decoration: none; font-weight: 500; }
+  .card a:hover { text-decoration: underline; }
+  .stats { font-size: 0.85em; color: #888; margin-top: 24px; }
+</style>
+</head>
+<body>
+<h1>British Empire Territorial Evolution</h1>
+<p>Interactive visualizations of the British Empire knowledge graph — 314 territories, 335 relationships, spanning 1583–1997.</p>
+
+<div class="card">
+  <h2><a href="empire_evolution.html">Empire Evolution Timeline</a></h2>
+  <p>D3.js swim-lane timeline showing every territory by region, with succession flows (partitions, mergers, independence). The main visualization.</p>
+</div>
+
+<div class="card">
+  <h2><a href="empire_timeline.html">Empire Timeline (Compact)</a></h2>
+  <p>Compact timeline view of territorial evolution.</p>
+</div>
+
+<div class="card">
+  <h2><a href="empire_sankey.html">Empire Sankey Diagram</a></h2>
+  <p>Sankey flow diagram showing how territories split, merged, and became independent.</p>
+</div>
+
+<div class="card">
+  <h2><a href="colony_review.html">Colony Review</a></h2>
+  <p>Detailed colony-by-colony data review interface.</p>
+</div>
+
+<p class="stats">Data: 314 Colony nodes, 335 relationships. Neo4j knowledge graph with Wikidata QIDs.<br>
+Source: <a href="https://github.com/jburnford/text_as_data_colonial_office_list">github.com/jburnford/text_as_data_colonial_office_list</a></p>
+</body>
+</html>

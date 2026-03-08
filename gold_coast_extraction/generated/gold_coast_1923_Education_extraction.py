@@ -1,0 +1,96 @@
+"""
+Gold Coast Colonial Office List 1923 - Extracted Data
+"""
+COLONY = "Gold Coast"
+YEAR = 1923
+
+OFFICIALS = [
+    {"name": "D. J. Oman", "canonical_name": "Oman, D. J.", "given_names": "D. J.", "surname": "Oman",
+     "position": "Director of Education", "department": "Education Department - Gold Coast", "salary_min": 1200, "salary_max": 1200,
+     "duty_allowance": 240},
+    {"name": "R. F. Houter", "canonical_name": "Houter, R. F.", "given_names": "R. F.", "surname": "Houter",
+     "position": "Deputy Director of Education", "department": "Education Department - Gold Coast", "salary_min": 1050, "salary_max": 1050,
+     "duty_allowance": 210},
+    {"name": "R. P. W. Mayall", "canonical_name": "Mayall, R. P. W.", "given_names": "R. P. W.", "surname": "Mayall",
+     "position": "Senior Inspector of Schools", "department": "Education Department - Gold Coast", "salary_min": 1050, "salary_max": 1050,
+     "duty_allowance": 210},
+    {"name": "J. P. Robertson", "canonical_name": "Robertson, J. P.", "given_names": "J. P.", "surname": "Robertson",
+     "position": "Provincial Inspector of Schools", "department": "Education Department - Gold Coast", "salary_min": 490, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l."},
+    {"name": "A. Gardner", "canonical_name": "Gardner, A.", "given_names": "A.", "surname": "Gardner",
+     "position": "Provincial Inspector of Schools", "department": "Education Department - Gold Coast", "salary_min": 490, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l."},
+    {"name": "H. A. Wright", "canonical_name": "Wright, H. A.", "given_names": "H. A.", "surname": "Wright",
+     "position": "Provincial Inspector of Schools", "department": "Education Department - Gold Coast", "salary_min": 490, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l."},
+    {"name": "H. Blackmore", "canonical_name": "Blackmore, H.", "given_names": "H.", "surname": "Blackmore",
+     "position": "Inspector of Schools", "department": "Education Department - Gold Coast", "salary_min": 480, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l."},
+    {"name": "A. Aitken", "canonical_name": "Aitken, A.", "given_names": "A.", "surname": "Aitken",
+     "position": "Inspector of Schools", "department": "Education Department - Gold Coast", "salary_min": 480, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l."},
+    {"name": "Capt. A. B. Douglas", "canonical_name": "Douglas, A. B.", "given_names": "A. B.", "surname": "Douglas",
+     "position": "Inspector of Schools", "department": "Education Department - Gold Coast", "salary_min": 480, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l.", "military_rank": "Captain"},
+    {"name": "E. J. Enstics", "canonical_name": "Enstics, E. J.", "given_names": "E. J.", "surname": "Enstics",
+     "position": "Shorthand Instructor and Office Assistant", "department": "Education Department - Gold Coast", "salary_min": 480, "salary_max": 720},
+    {"name": "Major D. Hedog-Jones", "canonical_name": "Hedog-Jones, D.", "given_names": "D.", "surname": "Hedog-Jones",
+     "position": "Organizer of Practical Education", "department": "Education Department - Gold Coast", "salary_min": 600, "salary_max": 920,
+     "allowances": "72l. seniority allowance", "military_rank": "Major"},
+    {"name": "T. D. Cranston", "canonical_name": "Cranston, T. D.", "given_names": "T. D.", "surname": "Cranston",
+     "position": "Acting Principal", "department": "Education Department - Gold Coast", "salary_min": 480, "salary_max": 920,
+     "allowances": "72l. seniority allowance, plus 120l. acting allowance", "acting_status": "Acting", "location": "Accra"},
+    {"name": "J. Dewhurst", "canonical_name": "Dewhurst, J.", "given_names": "J.", "surname": "Dewhurst",
+     "position": "Assistant Master", "department": "Education Department - Gold Coast", "salary_min": 480, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l.", "location": "Accra"},
+    {"name": "Capt. H. D. Harrison", "canonical_name": "Harrison, H. D.", "given_names": "H. D.", "surname": "Harrison",
+     "position": "Assistant Master", "department": "Education Department - Gold Coast", "salary_min": 480, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l.", "military_rank": "Captain", "location": "Accra"},
+    {"name": "Rev. A. H. Candler", "canonical_name": "Candler, A. H.", "given_names": "A. H.", "surname": "Candler",
+     "position": "Assistant Master", "department": "Education Department - Gold Coast", "salary_min": 480, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l.", "location": "Accra"},
+    {"name": "Rev. R. Fisher", "canonical_name": "Fisher, R.", "given_names": "R.", "surname": "Fisher",
+     "position": "House Master", "department": "Education Department - Gold Coast", "salary_min": 600, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l.", "location": "Accra"},
+    {"name": "H. McLaren", "canonical_name": "McLaren, H.", "given_names": "H.", "surname": "McLaren",
+     "position": "Principal", "department": "Education Department - Gold Coast", "salary_min": 800, "salary_max": 920,
+     "allowances": "72l. seniority allowance", "location": "Accra"},
+    {"name": "R. Horsley", "canonical_name": "Horsley, R.", "given_names": "R.", "surname": "Horsley",
+     "position": "Housemaster", "department": "Education Department - Gold Coast", "salary_min": 480, "salary_max": 720, "location": "Accra"},
+    {"name": "T. A. Calvin", "canonical_name": "Calvin, T. A.", "given_names": "T. A.", "surname": "Calvin",
+     "position": "European Master", "department": "Education Department - Gold Coast", "salary_min": 480, "salary_max": 720, "location": "Accra"},
+    {"name": "V. W. Wright", "canonical_name": "Wright, V. W.", "given_names": "V. W.", "surname": "Wright",
+     "position": "European Master", "department": "Education Department - Gold Coast", "salary_min": 480, "salary_max": 720, "location": "Accra"},
+    {"name": "D. J. Owen", "canonical_name": "Owen, D. J.", "given_names": "D. J.", "surname": "Owen",
+     "position": "European Master", "department": "Education Department - Gold Coast", "salary_min": 480, "salary_max": 720, "location": "Accra"},
+    {"name": "J. S. McDermid", "canonical_name": "McDermid, J. S.", "given_names": "J. S.", "surname": "McDermid",
+     "position": "Headmaster", "department": "Education Department - Gold Coast", "salary_min": 490, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l."},
+    {"name": "Major E. St. J. Christophers", "canonical_name": "Christophers, E. St. J.", "given_names": "E. St. J.", "surname": "Christophers",
+     "position": "Headmaster", "department": "Education Department - Gold Coast", "salary_min": 490, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l.", "military_rank": "Major"},
+    {"name": "Capt. H. G. Hendrie", "canonical_name": "Hendrie, H. G.", "given_names": "H. G.", "surname": "Hendrie",
+     "position": "Headmaster", "department": "Education Department - Gold Coast", "salary_min": 490, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l.", "military_rank": "Captain"},
+    {"name": "H. G. Ardron", "canonical_name": "Ardron, H. G.", "given_names": "H. G.", "surname": "Ardron",
+     "position": "Headmaster", "department": "Education Department - Gold Coast", "salary_min": 490, "salary_max": 920,
+     "allowances": "72l. seniority allowance from 720l."},
+    {"name": "J. Spio-Garbrah", "canonical_name": "Spio-Garbrah, J.", "given_names": "J.", "surname": "Spio-Garbrah",
+     "position": "Head Master", "department": "Education Department - Gold Coast", "salary_min": 400, "salary_max": 780},
+    {"name": "Jon. Attram", "canonical_name": "Attram, John", "given_names": "John", "surname": "Attram",
+     "position": "Head Master", "department": "Education Department - Gold Coast", "salary_min": 400, "salary_max": 780},
+    {"name": "J. D. Cranston (Mrs.)", "canonical_name": "Cranston, J. D.", "given_names": "J. D.", "surname": "Cranston",
+     "position": "Head Mistress", "department": "Education Department - Gold Coast", "salary_min": 480, "salary_max": 720},
+    {"name": "M. K. Quartery-Papafio", "canonical_name": "Quartery-Papafio, M. K.", "given_names": "M. K.", "surname": "Quartery-Papafio",
+     "position": "Head Mistress", "department": "Education Department - Gold Coast", "salary_min": 400, "salary_max": 600},
+]
+
+def get_extraction():
+    return {"colony": COLONY, "year": YEAR, "total_officials": len(OFFICIALS), "officials": OFFICIALS}
+
+def main():
+    import json
+    print(json.dumps(get_extraction(), indent=2))
+
+if __name__ == "__main__":
+    main()

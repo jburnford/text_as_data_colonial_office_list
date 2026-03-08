@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-02-04T20:21:24.002296",
+  "years_processed": 1,
+  "results": [
+    {
+      "year": 1923,
+      "source_file": "/home/jic823/textasdatacolonialofficelist/1923_manual_parsed/gold_coast.txt",
+      "code_file": "/home/jic823/textasdatacolonialofficelist/gold_coast_extraction/generated/gold_coast_1923_extraction.py",
+      "json_file": "/home/jic823/textasdatacolonialofficelist/gold_coast_extraction/json/gold_coast_1923.json",
+      "status": "invalid",
+      "official_count": 0,
+      "errors": [
+        "Syntax error: unterminated string literal (detected at line 19) (gold_coast_1923_extraction.py, line 19)"
+      ],
+      "timestamp": "2026-02-04T20:18:40.369747"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "_description": "Salary scale definitions for Sierra Leone Colonial Office List extractions. Scale letters (A-F) were used from ~1924-1940. Min/max represent the widest possible range across all appointment cohorts (pre/post Oct 1923, post Aug 1935). Source: RAG narrative sections from 1929, 1939, 1940 editions.",
+  "_note": "Post-1948 scales (M.3, N.1, N.2, C.1, C.2, C.3) use a different system and are NOT resolved here.",
+  "scales": {
+    "A": {
+      "salary_min": 400,
+      "salary_max": 920,
+      "description": "Scale A: 400-450 starting, rising by 30l. to 720l., by 40l. to 920l., with seniority allowance of 72l. from 720l."
+    },
+    "B": {
+      "salary_min": 400,
+      "salary_max": 960,
+      "description": "Scale B: 400-500 starting, rising by 30l. to 720l., by 40l. to 960l., with seniority allowance of 72l. from 720l. (Post-1935 cohort can reach 1000l.)"
+    },
+    "C": {
+      "salary_min": 450,
+      "salary_max": 920,
+      "description": "Scale C: 450-490 starting, rising by 30l. to 720l., by 40l. to 920l., with seniority allowance of 72l. from 720l."
+    },
+    "D": {
+      "salary_min": 360,
+      "salary_max": 460,
+      "description": "Scale D: 360-400 starting, rising by 12l. to 460l., the last increment being 18l."
+    },
+    "E": {
+      "salary_min": 390,
+      "salary_max": 460,
+      "description": "Scale E: 390-420 starting, rising by 12l. to 460l., the last increment being 18l."
+    },
+    "F": {
+      "salary_min": 400,
+      "salary_max": 500,
+      "description": "Scale F: 400-440 starting, rising by 12l. to 500l., the last increment being 18l."
+    }
+  },
+  "applicable_years": {
+    "min": 1924,
+    "max": 1940,
+    "note": "Scales A-F defined in narrative sections of these editions. Years 1949-1951 use 'A'/'B' labels but with different (post-war) definitions that are not resolved here."
+  }
+}

@@ -1,0 +1,589 @@
+
+================================================================================
+REGION: Africa (Islands) (12 nodes, 2 edges)
+================================================================================
+
+### Nodes
+  st._helena_1659_ongoing: St. Helena (1659-ongoing) [Crown Colony] QID=Q34497
+  isle_de_france_british_occupation_1810_1814: Isle de France (British Occupation) (1810-1814) [Military Administration] QID=Q12053604
+  seychelles_mauritius_dependency_1814_1903: Seychelles (Mauritius Dependency) (1814-1903) [Dependency] QID=Q21821453
+  mauritius_1814_1968: Mauritius (1814-1968) [Crown Colony] QID=Q12053604
+  rodrigues_1814_1968: Rodrigues (1814-1968) [Dependency] QID=Q208668
+  ascension_island_1815_ongoing: Ascension Island (1815-ongoing) [Dependency] QID=Q46197
+  tristan_da_cunha_1816_ongoing: Tristan da Cunha (1816-ongoing) [Dependency] QID=Q220982
+  fernando_po_british_1827_1843: Fernando Po (British) (1827-1843) [Possession] QID=Q205022
+  aldabra_islands_1903_1965: Aldabra Islands (1903-1965) [Dependency] QID=Q1426882
+  farquhar_islands_1903_1965: Farquhar Islands (1903-1965) [Dependency] QID=Q967943
+  desroches_islands_1903_1965: Desroches Islands (1903-1965) [Dependency] QID=Q620506
+  seychelles_1903_1976: Seychelles (1903-1976) [Crown Colony] QID=Q21821453
+
+### Edges (within and cross-region)
+  Isle de France (British Occupation) --[EVOLVED_INTO]--> Mauritius (local)(local)
+  Seychelles (Mauritius Dependency) --[EVOLVED_INTO]--> Seychelles (local)(local)
+
+================================================================================
+REGION: Antarctica (7 nodes, 0 edges)
+================================================================================
+
+### Nodes
+  south_georgia_1775_ongoing: South Georgia (1775-ongoing) [Dependency] QID=Q35086
+  south_sandwich_islands_1775_ongoing: South Sandwich Islands (1775-ongoing) [Dependency] QID=Q35086
+  south_shetland_islands_whaling_1820_1959: South Shetland Islands Whaling (1820-1959) [Whaling Station] QID=Q35086
+  bouvet_island_brief_claim_1825_1928: Bouvet Island (Brief Claim) (1825-1928) [Remote Island] QID=Q23408
+  heard_and_mcdonald_islands_1833_1947: Heard and McDonald Islands (1833-1947) [Remote Island] QID=Q35086
+  south_georgia_whaling_stations_1904_1965: South Georgia Whaling Stations (1904-ongoing) [Whaling Station] QID=Q35086
+  deception_island_whaling_1906_1931: Deception Island Whaling (1906-1931) [Whaling Station] QID=Q1045820
+
+### Edges (within and cross-region)
+
+================================================================================
+REGION: Atlantic (3 nodes, 0 edges)
+================================================================================
+
+### Nodes
+  saint_helena_ascension_and_tristan_da_cunha_1588_ongoing: Saint Helena, Ascension and Tristan da Cunha (1588-ongoing) [British Overseas Territory] QID=Q192184
+  bermuda_1609_ongoing: Bermuda (1609-ongoing) [Crown Colony] QID=Q23635
+  falkland_islands_1833_ongoing: Falkland Islands (1833-ongoing) [British Overseas Territory] QID=Q9648
+
+### Edges (within and cross-region)
+
+================================================================================
+REGION: Caribbean (24 nodes, 6 edges)
+================================================================================
+
+### Nodes
+  saint_christopher_nevis_anguilla_1958_1983: Saint Kitts and Nevis Colony (1624-1983) [Crown Colony] QID=Q1637975
+  barbados_colony_1627_1966: Barbados Colony (1627-1966) [Crown Colony] QID=Q63973349
+  antigua_colony_1632_1981: Antigua Colony (1632-1981) [Crown Colony] QID=Q22007334
+  montserrat_1632_ongoing: Montserrat (1632-ongoing) [Crown Colony] QID=Q13353
+  anguilla_1650_ongoing: Anguilla (1650-ongoing) [Crown Colony] QID=Q25228
+  jamaica_1655_1962: Jamaica (1655-1962) [Crown Colony] QID=Q2526023
+  bahamas_colony_1666_1973: Bahamas Colony (1666-1973) [Crown Colony] QID=Q1060894
+  cayman_islands_1670_ongoing: Cayman Islands (1670-ongoing) [Crown Colony] QID=Q5785
+  leeward_islands_colony_1671_1816: Leeward Islands Colony (1671-1816) [Federal Colony] QID=Q1796551
+  british_virgin_islands_1672_ongoing: British Virgin Islands (1672-ongoing) [Crown Colony] QID=Q25305
+  grenada_colony_1763_1974: Grenada Colony (1763-1974) [Crown Colony] QID=Q3116419
+  dominica_colony_1763_1978: Dominica Colony (1763-1978) [Crown Colony] QID=Q137394892
+  st_vincent_colony_1763_1979: St. Vincent Colony (1763-1979) [Crown Colony] QID=Q757
+  trinidad_and_tobago_colony_1797_1962: Trinidad Colony (1797-1888) [Crown Colony] QID=Q116282722
+  settlement_of_belize_1798_1862: English settlement of Belize (1798-1862) [] QID=Q115829224
+  turks_and_caicos_islands_1799_ongoing: Turks and Caicos Islands (1799-ongoing) [Crown Colony] QID=Q18221
+  saint_lucia_colony_1814_1979: Saint Lucia Colony (1814-1979) [Crown Colony] QID=Q15238409
+  antigua_montserrat_barbuda_1816_1833: Antigua-Barbuda-Montserrat (1816-1833) [] QID=None
+  stkitts_nevis_anguilla_1816_1833: St. Kitts-Nevis-Anguilla (1816-1833) [] QID=None
+  british_windward_islands_1833_1959: British Windward Islands (1833-1959) [Federal Colony] QID=Q2660774
+  federal_colony_leeward_islands_1833-1960: British Leeward Islands (1833-1960) [Federal Colony] QID=Q1796551
+  british_honduras_1862_1981: British Honduras (1862-1981) [Crown Colony] QID=Q1643555
+  trinidad_and_tobago_1889_1962: Colony of Trinidad and Tobago (1889-1962) [Crown Colony] QID=Q116282722
+  west_indies_federation_1958_1962: West Indies Federation (1958-1962) [Federation] QID=Q652560
+
+### Edges (within and cross-region)
+  Trinidad Colony --[EVOLVED_INTO]--> Colony of Trinidad and Tobago (local)(local)
+  English settlement of Belize --[EVOLVED_INTO]--> British Honduras (local)(local)
+  Leeward Islands Colony --[PARTITIONED_INTO]--> Antigua-Barbuda-Montserrat (local)(local)
+  Leeward Islands Colony --[PARTITIONED_INTO]--> St. Kitts-Nevis-Anguilla (local)(local)
+  Antigua-Barbuda-Montserrat --[EVOLVED_INTO]--> British Leeward Islands (local)(local)
+  St. Kitts-Nevis-Anguilla --[EVOLVED_INTO]--> British Leeward Islands (local)(local)
+
+================================================================================
+REGION: East Africa (10 nodes, 8 edges)
+================================================================================
+
+### Nodes
+  imperial_british_east_africa_company_territory_1888_1895: Imperial British East Africa Company Territory (1888-1895) [Company Territory] QID=Q926921
+  zanzibar_1890_1963: Zanzibar (1890-1963) [Protectorate] QID=Q3574782
+  uganda_1894_1962: Uganda (1894-1962) [Protectorate] QID=Q1097943
+  east_africa_protectorate_1895_1920: East Africa Protectorate (1895-1920) [Protectorate] QID=Q876185
+  german_east_africa_british_occupied_1916_1922: German East Africa (British Occupied) (1916-1922) [Military Administration] QID=Q153963
+  kenya_colony_and_protectorate_of_1920_1963: Kenya, Colony & Protectorate of (1920-1963) [Crown Colony] QID=Q2538511
+  tanganyika_territory_1922_1961: Tanganyika Territory (1922-1961) [Mandate/Trust Territory] QID=Q158725
+  tanganyika_1961_1964: Tanganyika (1961-1964) [Independence] QID=Q158725
+  zanzibar_independent_1963_1964: Zanzibar (Independent) (1963-1964) [Independence] QID=Q48769061
+  tanzania_1964: Tanzania (1964-ongoing) [Independence] QID=Q924
+
+### Edges (within and cross-region)
+  East Africa Protectorate --[EVOLVED_INTO]--> Kenya, Colony & Protectorate of (local)(local)
+  German East Africa (British Occupied) --[EVOLVED_INTO]--> Tanganyika Territory (local)(local)
+  Imperial British East Africa Company Territory --[EVOLVED_INTO]--> East Africa Protectorate (local)(local)
+  Imperial British East Africa Company Territory --[EVOLVED_INTO]--> Uganda (local)(local)
+  Tanganyika Territory --[EVOLVED_INTO]--> Tanganyika (local)(local)
+  Zanzibar --[EVOLVED_INTO]--> Zanzibar (Independent) (local)(local)
+  Tanganyika --[EVOLVED_INTO]--> Tanzania (local)(local)
+  Zanzibar (Independent) --[EVOLVED_INTO]--> Tanzania (local)(local)
+
+================================================================================
+REGION: Europe (13 nodes, 5 edges)
+================================================================================
+
+### Nodes
+  kingdom_of_ireland_1541_1801: Kingdom of Ireland (1541-1801) [Kingdom] QID=Q179876
+  gibraltar_1704_ongoing: Gibraltar (1704-ongoing) [British Overseas Territory] QID=Q1410
+  minorca_first_1708_1756: Minorca (1st British) (1708-1756) [Crown Colony] QID=Q173095
+  minorca_second_1763_1782: Minorca (2nd British) (1763-1782) [Crown Colony] QID=Q173095
+  corsica_1794_1796: Anglo-Corsican Kingdom (1794-1796) [Protectorate] QID=Q2259576
+  minorca_third_1798_1802: Minorca (3rd British) (1798-1802) [Crown Colony] QID=Q173095
+  malta_1800_1964: Malta (1800-1964) [Crown Colony] QID=Q6744657
+  ireland_uk_1801_1922: Ireland (UK) (1801-1922) [Union] QID=Q174193
+  heligoland_1807_1890: Heligoland (1807-1890) [Crown Colony] QID=Q3104
+  ionian_islands_1815_1864: Ionian Islands (1815-1864) [Protectorate] QID=Q1063498
+  cyprus_1878_1960: Cyprus (1878-1960) [Crown Colony] QID=Q15240466
+  northern_ireland_1920: Northern Ireland (1920-ongoing) [Devolved Government] QID=Q26
+  irish_free_state_1922_1937: Irish Free State (1922-1937) [Dominion] QID=Q31747
+
+### Edges (within and cross-region)
+  Minorca (1st British) --[EVOLVED_INTO]--> Minorca (2nd British) (local)(local)
+  Minorca (2nd British) --[EVOLVED_INTO]--> Minorca (3rd British) (local)(local)
+  Kingdom of Ireland --[EVOLVED_INTO]--> Ireland (UK) (local)(local)
+  Ireland (UK) --[PARTITIONED_INTO]--> Irish Free State (local)(local)
+  Ireland (UK) --[PARTITIONED_INTO]--> Northern Ireland (local)(local)
+
+================================================================================
+REGION: Middle East (18 nodes, 6 edges)
+================================================================================
+
+### Nodes
+  trucial_states_1820_1971: Trucial States (1820-1971) [Protectorate] QID=Q1852345
+  aden_1839_1963: Aden Province (1839-1937) [Colony/Protectorate] QID=Q17509767
+  bahrain_protectorate_1861_1971: Bahrain Protectorate (1861-1971) [Protectorate] QID=Q21816225
+  aden_protectorate_1839_1967: Aden Protectorate (1869-1967) [Protectorate] QID=Q1865132
+  egypt_1882_1922: Egypt (1882-1922) [Occupation/Protectorate] QID=Q2474428
+  british_somaliland_1884_1960: British Somaliland (1884-1960) [Protectorate] QID=Q662653
+  socotra_island_1886_1967: Socotra Island (1886-1967) [Protectorate] QID=Q82859
+  muscat_and_oman_protectorate_1891_1971: Muscat and Oman Protectorate (1891-1971) [Protectorate] QID=Q157734
+  sudan_anglo-egyptian_1899_1956: Sudan, Anglo-Egyptian (1899-1956) [Condominium] QID=Q541455
+  kuwait_1899_1961: Kuwait (1899-1961) [Protectorate] QID=Q3480281
+  mesopotamia_british_occupied_1914_1920: Mesopotamia (British Occupied) (1914-1920) [Military Administration] QID=None
+  qatar_protectorate_1916_1971: Qatar Protectorate (1916-1971) [Protectorate] QID=Q105633777
+  mandatory_iraq_1920_1932: Mandatory Iraq (1920-1932) [Mandate] QID=Q146720
+  palestine_1920_1948: Palestine (1920-1948) [Mandate] QID=Q193714
+  transjordan_1922_1946: Transjordan (1922-1946) [Mandate] QID=Q1121819
+  iraq_1932_ongoing: Iraq (1932-ongoing) [Independence] QID=Q146720
+  aden_colony_1937_1967: Aden Colony (1937-1967) [Crown Colony] QID=Q49910
+  south_yemen_1967_1990: South Yemen (1967-1990) [Independence] QID=Q199841
+
+### Edges (within and cross-region)
+  Mesopotamia (British Occupied) --[EVOLVED_INTO]--> Mandatory Iraq (local)(local)
+  Mandatory Iraq --[EVOLVED_INTO]--> Iraq (local)(local)
+  Aden Protectorate --[EVOLVED_INTO]--> South Yemen (local)(local)
+  Socotra Island --[EVOLVED_INTO]--> South Yemen (local)(local)
+  Aden Colony --[EVOLVED_INTO]--> South Yemen (local)(local)
+  Aden Province --[EVOLVED_INTO]--> Aden Colony (local)(local)
+
+================================================================================
+REGION: North America (37 nodes, 39 edges)
+================================================================================
+
+### Nodes
+  acadia_french_1604_1713: Acadia (1604-1713) [Colonial Territory] QID=Q207353
+  virginia_colony_1607_1783: Virginia Colony (1607-1783) [Royal Colony] QID=Q1070529
+  new_france_1608_1763: New France (1608-1763) [Colonial Empire] QID=Q170604
+  colony_of_newfoundland_1610_1949: Colony of Newfoundland (1610-1907) [Crown Colony] QID=Q2984260
+  nova_scotia_scottish_1621_1632: Nova Scotia (Scottish Charter) (1621-1632) [Charter Colony] QID=Q1854755
+  new_hampshire_colony_1623_1783: New Hampshire Colony (1629-1783) [Royal Colony] QID=Q1617382
+  massachusetts_bay_colony_1630_1783: Massachusetts Bay Colony (1630-1783) [Charter Colony] QID=Q1191350
+  maryland_colony_1634_1783: Maryland Colony (1634-1783) [Proprietary Colony] QID=Q2452027
+  connecticut_colony_1636_1783: Connecticut Colony (1636-1783) [Charter Colony] QID=Q951500
+  rhode_island_colony_1636_1783: Rhode Island Colony (1636-1783) [Charter Colony] QID=Q2335224
+  north_carolina_colony_1663_1783: North Carolina Colony (1663-1783) [Royal Colony] QID=Q2334526
+  south_carolina_colony_1663_1783: South Carolina Colony (1663-1783) [Royal Colony] QID=Q2513167
+  new_york_colony_1664_1783: New York Colony (1664-1783) [Royal Colony] QID=Q769668
+  delaware_colony_1664_1783: Delaware Colony (1664-1783) [Proprietary Colony] QID=Q2571194
+  new_jersey_colony_1664_1783: New Jersey Colony (1664-1783) [Royal Colony] QID=Q2335128
+  ruperts_land_1670_1870: Rupert's Land (1670-1870) [Hudson's Bay Company Territory] QID=Q738395
+  north_western_territory_1670_1870: North-Western Territory (1670-1870) [Territory] QID=Q1998931
+  pennsylvania_colony_1681_1783: Pennsylvania Colony (1681-1783) [Proprietary Colony] QID=Q2475732
+  ile_royale_1713_1763: Île Royale (1713-1763) [Colonial Territory] QID=Q3593199
+  nova_scotia_pre_1713_1784: Nova Scotia (1713-1784) [Crown Colony] QID=Q98931415
+  georgia_colony_1732_1783: Georgia Colony (1732-1783) [Royal Colony] QID=Q785035
+  province_of_quebec_british_1763_1791: Province of Quebec (British) (1763-1791) [Crown Colony] QID=Q251668
+  prince_edward_island_1769_1873: Prince Edward Island (1769-1873) [Crown Colony] QID=Q137324703
+  united_states_1776: United States of America (1776-ongoing) [Independence] QID=Q30
+  new_brunswick_1784_1867: New Brunswick (1784-1867) [Crown Colony] QID=Q107499350
+  nova_scotia_post_1784_1867: Nova Scotia (1784-1867) [Crown Colony] QID=Q98931415
+  upper_canada_1791_1841: Upper Canada (1791-1841) [Crown Colony] QID=Q795427
+  lower_canada_1791_1841: Lower Canada (1791-1841) [Crown Colony] QID=Q1134180
+  red_river_colony_1811_1870: Red River Colony (1811-1870) [Colony] QID=Q1143638
+  province_of_canada_1841_1867: Province of Canada (1841-1867) [United Province] QID=Q1121436
+  vancouver_island_1849_1866: Colony of Vancouver Island (1849-1866) [Crown Colony] QID=Q2510000
+  mainland_british_columbia_1858_1866: Colony of British Columbia (Mainland) (1858-1866) [Crown Colony] QID=Q2514958
+  united_colony_of_bc_1866_1871: United Colony of British Columbia (1866-1871) [] QID=Q2514958
+  canada_dominion_of_1867_ongoing: Dominion of Canada (1867-1931) [Dominion] QID=Q16
+  dominion_of_newfoundland_1907_1934: Dominion of Newfoundland (1907-1934) [Dominion] QID=Q38610
+  canada_independent_1931: Canada (1931-ongoing) [Independence] QID=Q16
+  newfoundland_commission_1934_1949: Newfoundland (Commission) (1934-1949) [Crown Colony] QID=Q48378
+
+### Edges (within and cross-region)
+  Province of Quebec (British) --[PARTITIONED_INTO]--> Upper Canada (local)(local)
+  Province of Quebec (British) --[PARTITIONED_INTO]--> Lower Canada (local)(local)
+  Lower Canada --[EVOLVED_INTO]--> Province of Canada (local)(local)
+  Upper Canada --[EVOLVED_INTO]--> Province of Canada (local)(local)
+  Colony of Vancouver Island --[EVOLVED_INTO]--> United Colony of British Columbia (local)(local)
+  Colony of British Columbia (Mainland) --[EVOLVED_INTO]--> United Colony of British Columbia (local)(local)
+  Prince Edward Island --[EVOLVED_INTO]--> Dominion of Canada (local)(local)
+  Nova Scotia --[EVOLVED_INTO]--> Dominion of Canada (local)(local)
+  New Brunswick --[EVOLVED_INTO]--> Dominion of Canada (local)(local)
+  Province of Canada --[EVOLVED_INTO]--> Dominion of Canada (local)(local)
+  United Colony of British Columbia --[EVOLVED_INTO]--> Dominion of Canada (local)(local)
+  Nova Scotia (Scottish Charter) --[EVOLVED_INTO]--> Nova Scotia (local)(local)
+  Acadia --[EVOLVED_INTO]--> Nova Scotia (local)(local)
+  Nova Scotia --[PARTITIONED_INTO]--> Nova Scotia (local)(local)
+  Nova Scotia --[PARTITIONED_INTO]--> New Brunswick (local)(local)
+  New France --[EVOLVED_INTO]--> Province of Quebec (British) (local)(local)
+  Île Royale --[EVOLVED_INTO]--> Nova Scotia (local)(local)
+  Dominion of Canada --[EVOLVED_INTO]--> Canada (local)(local)
+  Rupert's Land --[PARTITIONED_INTO]--> North-Western Territory (local)(local)
+  Rupert's Land --[PARTITIONED_INTO]--> Red River Colony (local)(local)
+  Rupert's Land --[EVOLVED_INTO]--> Dominion of Canada (local)(local)
+  Red River Colony --[EVOLVED_INTO]--> Dominion of Canada (local)(local)
+  North-Western Territory --[EVOLVED_INTO]--> Dominion of Canada (local)(local)
+  Colony of Newfoundland --[EVOLVED_INTO]--> Dominion of Newfoundland (local)(local)
+  Dominion of Newfoundland --[EVOLVED_INTO]--> Newfoundland (Commission) (local)(local)
+  Newfoundland (Commission) --[EVOLVED_INTO]--> Canada (local)(local)
+  Virginia Colony --[EVOLVED_INTO]--> United States of America (local)(local)
+  Massachusetts Bay Colony --[EVOLVED_INTO]--> United States of America (local)(local)
+  Pennsylvania Colony --[EVOLVED_INTO]--> United States of America (local)(local)
+  New York Colony --[EVOLVED_INTO]--> United States of America (local)(local)
+  Maryland Colony --[EVOLVED_INTO]--> United States of America (local)(local)
+  Connecticut Colony --[EVOLVED_INTO]--> United States of America (local)(local)
+  Rhode Island Colony --[EVOLVED_INTO]--> United States of America (local)(local)
+  Delaware Colony --[EVOLVED_INTO]--> United States of America (local)(local)
+  New Hampshire Colony --[EVOLVED_INTO]--> United States of America (local)(local)
+  New Jersey Colony --[EVOLVED_INTO]--> United States of America (local)(local)
+  North Carolina Colony --[EVOLVED_INTO]--> United States of America (local)(local)
+  South Carolina Colony --[EVOLVED_INTO]--> United States of America (local)(local)
+  Georgia Colony --[EVOLVED_INTO]--> United States of America (local)(local)
+
+================================================================================
+REGION: Pacific (37 nodes, 17 edges)
+================================================================================
+
+### Nodes
+  new_south_wales_original_1788_1901: New South Wales (1788-1901) [Penal Colony] QID=Q18348382
+  norfolk_island_1788_1914: Norfolk Island (1788-1914) [Crown Colony] QID=Q31057
+  van_diemens_land_1803_1856: Van Diemen's Land (1803-1856) [Penal Colony] QID=Q1780114
+  swan_river_colony_1829_1832: Swan River Colony (1829-1832) [Free Settlement Colony] QID=Q1162123
+  western_australia_1832_1901: Western Australia (1832-1901) [Crown Colony] QID=Q3206
+  south_australia_1836_1901: South Australia (1836-1901) [Planned Colony] QID=Q35715
+  pitcairn_islands_1838_ongoing: Pitcairn Islands (1838-ongoing) [Crown Colony] QID=Q35672
+  new_zealand_colony_1840_1907: New Zealand Colony (1840-1907) [Crown Colony] QID=Q664
+  victoria_colony_1851_1901: Victoria (Colony) (1851-1901) [Crown Colony] QID=Q56850459
+  tasmania_1856_1901: Tasmania (1856-1901) [Self-governing Colony] QID=Q5148519
+  cocos_keeling_islands_1857_1955: Cocos (Keeling) Islands (1857-1955) [Crown Colony] QID=Q36004
+  queensland_1859_1901: Queensland (1859-1901) [Crown Colony] QID=Q28401203
+  fiji_1874_1970: Fiji (1874-1970) [Crown Colony] QID=Q5148320
+  british_western_pacific_territories_1877_1978: British Western Pacific Territories (1877-1978) [Administration] QID=Q1545934
+  british_new_guinea_1884_1906: British New Guinea (1884-1906) [Protectorate] QID=Q2645837
+  cook_islands_1888_1901: Cook Islands (1888-1901) [Protectorate] QID=Q26988
+  christmas_island_1888_1958: Christmas Island (1888-1958) [Crown Colony] QID=Q31063
+  line_islands_british_1888_1979: Line Islands (British) (1888-1979) [Crown Colony] QID=Q234796
+  ellice_islands_separate_1892_1916: Ellice Islands (Separate) (1892-1916) [Crown Colony] QID=Q1050859
+  british_solomon_islands_1893_1978: British Solomon Islands (1893-1978) [Protectorate] QID=Q13410267
+  tonga_protectorate_1900_1970: Tonga Protectorate (1900-1970) [Protectorate] QID=Q17197946
+  ocean_island_banaba_1900_1979: Ocean Island (Banaba) (1900-1979) [Crown Colony] QID=Q271901
+  commonwealth_of_australia_1901_ongoing: Commonwealth of Australia (1901-1942) [Dominion] QID=Q408
+  henderson_island_1902_ongoing: Henderson Island (1902-ongoing) [Crown Colony] QID=Q35672
+  territory_of_papua_1906_1949: Territory of Papua (1906-1949) [Territory] QID=Q530560
+  new_hebrides_1906_1980: New Hebrides (1906-1980) [Anglo-French Condominium] QID=Q752431
+  dominion_of_new_zealand_1907_1947: Dominion of New Zealand (1907-1947) [Dominion] QID=Q664
+  gilbert_and_ellice_islands_1916_1976: Gilbert and Ellice Islands (1916-1976) [Crown Colony] QID=Q1050859
+  western_samoa_1920_1962: Western Samoa (1920-1962) [Mandate] QID=Q7988268
+  nauru_1920_1968: Nauru (1920-1968) [Mandate] QID=Q21816219
+  territory_of_new_guinea_1920_1975: Territory of New Guinea (1920-1975) [Mandate] QID=Q1443945
+  phoenix_islands_1937_1979: Phoenix Islands (1937-1979) [Crown Colony] QID=Q271674
+  australia_independent_1942: Australia (1942-ongoing) [Independence] QID=Q408
+  new_zealand_independent_1947: New Zealand (1947-ongoing) [Independence] QID=Q664
+  territory_of_papua_and_new_guinea_1949_1975: Territory of Papua and New Guinea (1949-1975) [Trust Territory] QID=Q2301972
+  ellice_islands_1976_1978: Ellice Islands (1976-1978) [Crown Colony] QID=Q1050859
+  gilbert_islands_1976_1979: Gilbert Islands (1976-1979) [Crown Colony] QID=Q1050859
+
+### Edges (within and cross-region)
+  New South Wales --[PARTITIONED_INTO]--> Van Diemen's Land (local)(local)
+  Van Diemen's Land --[EVOLVED_INTO]--> Tasmania (local)(local)
+  Swan River Colony --[EVOLVED_INTO]--> Western Australia (local)(local)
+  New South Wales --[PARTITIONED_INTO]--> Victoria (Colony) (local)(local)
+  New South Wales --[PARTITIONED_INTO]--> Queensland (local)(local)
+  Gilbert and Ellice Islands --[EVOLVED_INTO]--> Gilbert Islands (local)(local)
+  Gilbert and Ellice Islands --[EVOLVED_INTO]--> Ellice Islands (local)(local)
+  British New Guinea --[EVOLVED_INTO]--> Territory of Papua (local)(local)
+  Western Australia --[EVOLVED_INTO]--> Commonwealth of Australia (local)(local)
+  New South Wales --[EVOLVED_INTO]--> Commonwealth of Australia (local)(local)
+  South Australia --[EVOLVED_INTO]--> Commonwealth of Australia (local)(local)
+  Tasmania --[EVOLVED_INTO]--> Commonwealth of Australia (local)(local)
+  Queensland --[EVOLVED_INTO]--> Commonwealth of Australia (local)(local)
+  Victoria (Colony) --[EVOLVED_INTO]--> Commonwealth of Australia (local)(local)
+  Commonwealth of Australia --[EVOLVED_INTO]--> Australia (local)(local)
+  New Zealand Colony --[EVOLVED_INTO]--> Dominion of New Zealand (local)(local)
+  Dominion of New Zealand --[EVOLVED_INTO]--> New Zealand (local)(local)
+
+================================================================================
+REGION: Pacific (Guano/Whaling) (18 nodes, 0 edges)
+================================================================================
+
+### Nodes
+  campbell_island_whaling_1810_1860: Campbell Island Whaling (1810-1860) [Whaling Station] QID=Q3593036
+  norfolk_island_whaling_station_1830_1870: Norfolk Island Whaling Station (1830-1870) [Whaling Station] QID=Q31057
+  swains_island_1856_1925: Swains Island (1856-1925) [Guano Island] QID=Q1128488
+  howland_island_1857_1898: Howland Island (1857-1898) [Guano Island] QID=Q131305
+  jarvis_island_1857_1898: Jarvis Island (1857-1898) [Guano Island] QID=Q62218
+  christmas_island_line_islands_1857_1979: Christmas Island (Line Islands) (1857-1979) [Guano Island] QID=Q193331
+  enderbury_island_1860_1979: Enderbury Island (1860-1979) [Guano Island] QID=Q30638
+  mckean_island_1860_1979: McKean Island (1860-1979) [Guano Island] QID=Q1050899
+  birnie_island_1860_1979: Birnie Island (1860-1979) [Guano Island] QID=Q45295
+  rawaki_phoenix_island_1860_1979: Rawaki (Phoenix Island) (1860-1979) [Guano Island] QID=Q1059295
+  manra_sydney_island_1860_1979: Manra (Sydney Island) (1860-1979) [Guano Island] QID=Q48478
+  starbuck_island_1866_1979: Starbuck Island (1866-1979) [Guano Island] QID=Q911028
+  vostok_island_1866_1979: Vostok Island (1866-1979) [Guano Island] QID=Q976570
+  flint_island_1866_1979: Flint Island (1866-1979) [Guano Island] QID=Q741650
+  caroline_island_1868_1979: Caroline Island (1868-1979) [Guano Island] QID=Q822151
+  baker_island_1855_1898: Baker Island (1897-1898) [Guano Island] QID=Q46879
+  ducie_island_1902_ongoing: Ducie Island (1902-ongoing) [Remote Island] QID=Q35672
+  oeno_island_1902_ongoing: Oeno Island (1902-ongoing) [Remote Island] QID=Q35672
+
+### Edges (within and cross-region)
+
+================================================================================
+REGION: South America (1 nodes, 0 edges)
+================================================================================
+
+### Nodes
+  british_guiana_1831_1966: British Guiana (1831-1966) [Crown Colony] QID=Q918126
+
+### Edges (within and cross-region)
+
+================================================================================
+REGION: South Asia (32 nodes, 35 edges)
+================================================================================
+
+### Nodes
+  factory_at_surat_1612_1857: Factory at Surat (1612-1687) [Trading Post] QID=Q19898523
+  madras_presidency_company_1640_1858: Madras Presidency (Company) (1640-1858) [Presidency] QID=Q1772596
+  bombay_presidency_company_1687_1858: Bombay Presidency (Company) (1687-1858) [Presidency] QID=Q891827
+  fort_william_calcutta_1696_1857: Fort William (Calcutta) (1696-1757) [Trading Post] QID=Q2750027
+  bengal_presidency_company_1757_1858: Bengal Presidency (Company) (1757-1858) [Presidency] QID=Q817165
+  andaman_and_nicobar_islands_1789_1947: Andaman and Nicobar Islands (1789-1947) [Province] QID=Q40888
+  ceylon_1795_1948: Ceylon (1795-1948) [Crown Colony] QID=Q918153
+  chagos_islands_mauritius_dependency_1814_1965: Chagos Islands (Mauritius Dependency) (1814-1965) [Dependency] QID=Q192188
+  ajmer_merwara_1818_1947: Ajmer-Merwara (1818-1947) [Province] QID=Q4700553
+  lower_burma_1824_1886: Lower Burma (1824-1886) [Crown Colony] QID=Q1937196
+  assam_bengal_presidency_1826_1874: Assam (Bengal Presidency) (1826-1874) [Province of British India] QID=Q5148287
+  coorg_province_1834_1947: Coorg (1834-1947) [Province] QID=Q864930
+  punjab_province_1849_1947: Punjab Province (1849-1947) [Province] QID=Q2629708
+  bengal_presidency_crown_1858_1912: Bengal Presidency (Crown) (1858-1912) [Presidency] QID=Q817165
+  madras_presidency_crown_1858_1947: Madras Presidency (Crown) (1858-1947) [Presidency] QID=Q1772596
+  bombay_presidency_crown_1858_1947: Bombay Presidency (Crown) (1858-1947) [Presidency] QID=Q891827
+  central_provinces_1861_1947: Central Provinces (1861-1947) [Province] QID=Q521864
+  assam_province_1874_1905: Assam Province (1874-1905) (1874-1905) [Province] QID=Q17513379
+  united_provinces_1877_1947: United Provinces (1877-1947) [Province] QID=Q2160037
+  baluchistan_1877_1947: Baluchistan (1877-1947) [Province] QID=Q2336399
+  burma_british_india_1886_1937: Burma (British India) (1886-1937) [Province] QID=Q2376315
+  maldives_protectorate_1887_1965: Maldives Protectorate (1887-1965) [Protectorate] QID=Q11344632
+  north_west_frontier_province_1901_1947: North-West Frontier Province (1901-1947) [Province] QID=Q4412467
+  eastern_bengal_and_assam_1905_1912: Eastern Bengal and Assam (1905-1912) [Province] QID=Q4126447
+  bengal_province_partitioned_1905_1912: Bengal Province (Partitioned) (1905-1912) [Province] QID=None
+  bengal_province_reunited_1912_1947: Bengal Province (Reunited) (1912-1947) [Province] QID=None
+  bihar_and_orissa_1912_1947: Bihar and Orissa (1912-1947) [Province] QID=Q4907084
+  assam_province_restored_1912_1947: Assam Province (Restored) (1912-1947) [] QID=Q17513379
+  sind_province_1843_1947: Sind (1936-1947) [Province] QID=Q7523949
+  burma_separate_colony_1937_1948: Burma (Separate Colony) (1937-1948) [Crown Colony] QID=Q2376315
+  dominion_of_india_1947_1950: Dominion of India (1947-1950) [Dominion] QID=Q1775277
+  dominion_of_pakistan_1947_1956: Dominion of Pakistan (1947-1956) [Dominion] QID=Q2006542
+
+### Edges (within and cross-region)
+  Bengal Presidency (Company) --[EVOLVED_INTO]--> Bengal Presidency (Crown) (local)(local)
+  Madras Presidency (Company) --[EVOLVED_INTO]--> Madras Presidency (Crown) (local)(local)
+  Bombay Presidency (Company) --[EVOLVED_INTO]--> Bombay Presidency (Crown) (local)(local)
+  Eastern Bengal and Assam --[EVOLVED_INTO]--> Assam Province (Restored) (local)(local)
+  Assam (Bengal Presidency) --[EVOLVED_INTO]--> Assam Province (1874-1905) (local)(local)
+  Bengal Presidency (Crown) --[PARTITIONED_INTO]--> Assam Province (1874-1905) (local)(local)
+  Punjab Province --[PARTITIONED_INTO]--> North-West Frontier Province (local)(local)
+  Bengal Presidency (Crown) --[EVOLVED_INTO]--> Eastern Bengal and Assam (local)(local)
+  Assam Province (1874-1905) --[EVOLVED_INTO]--> Eastern Bengal and Assam (local)(local)
+  Bengal Presidency (Crown) --[EVOLVED_INTO]--> Bengal Province (Partitioned) (local)(local)
+  Eastern Bengal and Assam --[EVOLVED_INTO]--> Bengal Province (Reunited) (local)(local)
+  Bengal Province (Partitioned) --[EVOLVED_INTO]--> Bengal Province (Reunited) (local)(local)
+  Bengal Presidency (Crown) --[EVOLVED_INTO]--> Bihar and Orissa (local)(local)
+  Lower Burma --[EVOLVED_INTO]--> Burma (British India) (local)(local)
+  Burma (British India) --[EVOLVED_INTO]--> Burma (Separate Colony) (local)(local)
+  Madras Presidency (Crown) --[EVOLVED_INTO]--> Dominion of India (local)(local)
+  Bengal Province (Reunited) --[PARTITIONED_INTO]--> Dominion of India (local)(local)
+  United Provinces --[EVOLVED_INTO]--> Dominion of India (local)(local)
+  Central Provinces --[EVOLVED_INTO]--> Dominion of India (local)(local)
+  Bombay Presidency (Crown) --[EVOLVED_INTO]--> Dominion of India (local)(local)
+  Bihar and Orissa --[EVOLVED_INTO]--> Dominion of India (local)(local)
+  Assam Province (Restored) --[EVOLVED_INTO]--> Dominion of India (local)(local)
+  Punjab Province --[PARTITIONED_INTO]--> Dominion of India (local)(local)
+  Bengal Province (Reunited) --[PARTITIONED_INTO]--> Dominion of Pakistan (local)(local)
+  Punjab Province --[PARTITIONED_INTO]--> Dominion of Pakistan (local)(local)
+  North-West Frontier Province --[EVOLVED_INTO]--> Dominion of Pakistan (local)(local)
+  Factory at Surat --[EVOLVED_INTO]--> Bombay Presidency (Company) (local)(local)
+  Fort William (Calcutta) --[EVOLVED_INTO]--> Bengal Presidency (Company) (local)(local)
+  Baluchistan --[EVOLVED_INTO]--> Dominion of Pakistan (local)(local)
+  Bengal Presidency (Company) --[PARTITIONED_INTO]--> Assam (Bengal Presidency) (local)(local)
+  Coorg --[EVOLVED_INTO]--> Dominion of India (local)(local)
+  Ajmer-Merwara --[EVOLVED_INTO]--> Dominion of India (local)(local)
+  Andaman and Nicobar Islands --[EVOLVED_INTO]--> Dominion of India (local)(local)
+  Bombay Presidency (Crown) --[PARTITIONED_INTO]--> Sind (local)(local)
+  Sind --[EVOLVED_INTO]--> Dominion of Pakistan (local)(local)
+
+================================================================================
+REGION: Southeast Asia (27 nodes, 17 edges)
+================================================================================
+
+### Nodes
+  macao_british_co_administration_1622_1623: Macao (British Co-administration) (1622-1623) [Co-administration] QID=None
+  bencoolen_bengkulu_1685_1824: Bencoolen (Bengkulu) (1685-1824) [Trading Post] QID=Q4969562
+  penang_prince_of_wales_island_1786_1826: Penang (Prince of Wales Island) (1786-1826) [Trading Post] QID=Q1150673
+  moluccas_british_occupation_1810_1817: Moluccas (British Occupation) (1810-1817) [Military Administration] QID=None
+  banda_islands_british_occupation_1810_1817: Banda Islands (British Occupation) (1810-1817) [Military Administration] QID=Q76495389
+  java_british_occupation_1811_1816: Java (British Occupation) (1811-1816) [Military Administration] QID=None
+  singapore_settlement_1819_1826: Singapore Settlement (1819-1826) [Trading Post] QID=Q4420036
+  malacca_settlement_1824_1826: Malacca Settlement (1824-1826) [Crown Colony] QID=Q7621163
+  straits_settlements_1826_1946: Straits Settlements (1826-1946) [Crown Colony] QID=Q376178
+  sarawak_1841_1946: Sarawak (1841-1946) [Personal Rule] QID=Q1658411
+  hong_kong_1841_1997: Hong Kong (1841-1997) [Crown Colony] QID=Q1054923
+  labuan_1846_1963: Labuan (1846-1963) [Crown Colony] QID=Q6420545
+  shanghai_international_settlement_1863_1943: Shanghai International Settlement (1863-1943) [International Settlement] QID=Q2170587
+  british_north_borneo_1882_1946: British North Borneo (1882-1946) [Company Territory] QID=Q1147441
+  brunei_protectorate_1888_1984: Brunei Protectorate (1888-1984) [Protectorate] QID=Q921
+  federated_malay_states_1895_1946: Federated Malay States (1895-1946) [Protectorate] QID=Q1400154
+  weihaiwei_1898_1930: Weihaiwei (1898-1930) [Leased Territory] QID=Q15939896
+  unfederated_malay_states_1909_1946: Unfederated Malay States (1909-1946) [Protectorate] QID=Q1973084
+  netherlands_east_indies_british_administration_1945_1946: Netherlands East Indies (British Administration) (1945-1946) [Military Administration] QID=None
+  malayan_union_1946_1948: Malayan Union (1946-1948) [Crown Colony] QID=Q976099
+  north_borneo_crown_colony_1946_1963: North Borneo Crown Colony (1946-1963) [Crown Colony] QID=Q16933920
+  sarawak_crown_colony_1946_1963: Sarawak Crown Colony (1946-1963) [Crown Colony] QID=Q5589708
+  singapore_crown_colony_1946_1963: Singapore Crown Colony (1946-1963) [Crown Colony] QID=Q4373718
+  federation_of_malaya_1948_1957: Federation of Malaya (1948-1957) [Federation] QID=Q1479726
+  malaya_independent_1957_1963: Malaya (Independent) (1957-1963) [Independence] QID=Q1479726
+  malaysia_1963: Malaysia (1963-ongoing) [Independence] QID=Q833
+  singapore_independent_1965: Singapore (1965-ongoing) [Independence] QID=Q334
+
+### Edges (within and cross-region)
+  Federated Malay States --[EVOLVED_INTO]--> Malayan Union (local)(local)
+  Unfederated Malay States --[EVOLVED_INTO]--> Malayan Union (local)(local)
+  Straits Settlements --[EVOLVED_INTO]--> Malayan Union (local)(local)
+  Malayan Union --[EVOLVED_INTO]--> Federation of Malaya (local)(local)
+  Singapore Settlement --[EVOLVED_INTO]--> Straits Settlements (local)(local)
+  Penang (Prince of Wales Island) --[EVOLVED_INTO]--> Straits Settlements (local)(local)
+  Malacca Settlement --[EVOLVED_INTO]--> Straits Settlements (local)(local)
+  British North Borneo --[EVOLVED_INTO]--> North Borneo Crown Colony (local)(local)
+  Sarawak --[EVOLVED_INTO]--> Sarawak Crown Colony (local)(local)
+  Federation of Malaya --[EVOLVED_INTO]--> Malaya (Independent) (local)(local)
+  Straits Settlements --[PARTITIONED_INTO]--> Singapore Crown Colony (local)(local)
+  Malaya (Independent) --[EVOLVED_INTO]--> Malaysia (local)(local)
+  Singapore Crown Colony --[EVOLVED_INTO]--> Malaysia (local)(local)
+  North Borneo Crown Colony --[EVOLVED_INTO]--> Malaysia (local)(local)
+  Sarawak Crown Colony --[EVOLVED_INTO]--> Malaysia (local)(local)
+  Labuan --[EVOLVED_INTO]--> Malaysia (local)(local)
+  Malaysia --[PARTITIONED_INTO]--> Singapore (local)(local)
+
+================================================================================
+REGION: Southern Africa (32 nodes, 28 edges)
+================================================================================
+
+### Nodes
+  cape_colony_dutch_1652_1795: Cape Colony (Dutch) (1652-1795) [Dutch Company Colony] QID=Q4807130
+  cape_colony_british_1795_1803_1795_1803: Cape Colony (British 1795-1803) (1795-1803) [Crown Colony] QID=Q4806993
+  cape_colony_dutch_restored_1803_1806: Cape Colony (Dutch Restored) (1803-1806) [Dutch Colony] QID=Q4807130
+  cape_colony_british_1806_1910: Cape Colony (British) (1806-1910) [Crown Colony] QID=Q4806993
+  natalia_republic_1839_1843: Natalia Republic (1839-1843) [Boer Republic] QID=Q1029847
+  colony_of_natal_1843_1910: Colony of Natal (1843-1910) [Crown Colony] QID=Q1301901
+  orange_river_sovereignty_1848_1854: Orange River Sovereignty (1848-1854) [British Sovereignty] QID=Q3048062
+  south_african_republic_transvaal_1852_1877: South African Republic (Transvaal) (1852-1877) [Boer Republic] QID=Q550374
+  orange_free_state_1854_1900: Orange Free State (1854-1900) [Boer Republic] QID=Q218023
+  basutoland_1868_1966: Basutoland (1868-1966) [Crown Colony] QID=Q2340665
+  griqualand_west_1871_1880: Griqualand West (1871-1880) [Crown Colony] QID=Q2547918
+  transvaal_colony_first_british_1877_1881: Transvaal Colony (First British) (1877-1881) [Crown Colony] QID=Q1187978
+  south_african_republic_restored_1881_1900: South African Republic (Restored) (1881-1900) [Boer Republic] QID=Q550374
+  bechuanaland_protectorate_1884_1966: Bechuanaland Protectorate (1884-1966) [Protectorate] QID=Q747314
+  british_bechuanaland_1885_1895: British Bechuanaland (1885-1895) [Crown colony] QID=Q4530733
+  zululand_1887_1897: Zululand (1887-1897) [Crown Colony] QID=None
+  british_south_africa_company_territory_1889_1923: British South Africa Company Territory (1889-1923) [Company Territory] QID=Q5155572
+  british_central_africa_protectorate_1891_1907: British Central Africa Protectorate (1891-1907) [Protectorate] QID=Q2642989
+  nyasaland_1891_1964: Nyasaland (1891-1953) [Protectorate] QID=Q1649306
+  orange_river_colony_1900_1910: Orange River Colony (1900-1910) [Crown Colony] QID=Q1142179
+  transvaal_colony_second_british_1900_1910: Transvaal Colony (Second British) (1900-1910) [Crown Colony] QID=Q1187978
+  swaziland_1903_1968: Swaziland (1903-1968) [Protectorate] QID=Q1050
+  union_of_south_africa_1910_1961: Union of South Africa (1910-1961) [Dominion] QID=Q193619
+  southern_rhodesia_colony_1923_1953: Southern Rhodesia Colony (1923-1953) [Self-governing Colony] QID=Q750583
+  northern_rhodesia_colony_1924_1953: Northern Rhodesia Colony (1924-1953) [Crown Colony] QID=Q953903
+  federation_of_rhodesia_and_nyasaland_1953_1963: Federation of Rhodesia and Nyasaland (1953-1963) [Federation] QID=Q654342
+  nyasaland_post_federation_1963: Nyasaland (1963-1964) [Transitional] QID=Q1649306
+  northern_rhodesia_post_federation_1964: Northern Rhodesia (1963-1964) [Transitional] QID=Q953903
+  southern_rhodesia_post_federation_1963: Southern Rhodesia (1963-1965) [Self-governing Colony] QID=Q750583
+  rhodesia_udi_1965_1979: Rhodesia (UDI) (1965-1979) [Unilateral Independence] QID=Q217169
+  zimbabwe_rhodesia_1979_1979: Zimbabwe Rhodesia (1979-1979) [Transitional] QID=Q890120
+  southern_rhodesia_restored_1979_1980: Southern Rhodesia (Restored) (1979-1980) [Crown Colony] QID=Q750583
+
+### Edges (within and cross-region)
+  Colony of Natal --[EVOLVED_INTO]--> Union of South Africa (local)(local)
+  Orange River Colony --[EVOLVED_INTO]--> Union of South Africa (local)(local)
+  Transvaal Colony (Second British) --[EVOLVED_INTO]--> Union of South Africa (local)(local)
+  Cape Colony (British) --[EVOLVED_INTO]--> Union of South Africa (local)(local)
+  Nyasaland --[EVOLVED_INTO]--> Federation of Rhodesia and Nyasaland (local)(local)
+  Northern Rhodesia Colony --[EVOLVED_INTO]--> Federation of Rhodesia and Nyasaland (local)(local)
+  Southern Rhodesia Colony --[EVOLVED_INTO]--> Federation of Rhodesia and Nyasaland (local)(local)
+  South African Republic (Transvaal) --[EVOLVED_INTO]--> Transvaal Colony (First British) (local)(local)
+  Transvaal Colony (First British) --[EVOLVED_INTO]--> South African Republic (Restored) (local)(local)
+  Orange Free State --[EVOLVED_INTO]--> Orange River Colony (local)(local)
+  South African Republic (Restored) --[EVOLVED_INTO]--> Transvaal Colony (Second British) (local)(local)
+  Cape Colony (Dutch) --[EVOLVED_INTO]--> Cape Colony (British 1795-1803) (local)(local)
+  Cape Colony (British 1795-1803) --[EVOLVED_INTO]--> Cape Colony (Dutch Restored) (local)(local)
+  Cape Colony (Dutch Restored) --[EVOLVED_INTO]--> Cape Colony (British) (local)(local)
+  British Bechuanaland --[EVOLVED_INTO]--> Cape Colony (British) (local)(local)
+  Griqualand West --[EVOLVED_INTO]--> Cape Colony (British) (local)(local)
+  Zululand --[EVOLVED_INTO]--> Colony of Natal (local)(local)
+  Natalia Republic --[EVOLVED_INTO]--> Colony of Natal (local)(local)
+  Orange River Sovereignty --[EVOLVED_INTO]--> Orange Free State (local)(local)
+  British Central Africa Protectorate --[EVOLVED_INTO]--> Nyasaland (local)(local)
+  British South Africa Company Territory --[PARTITIONED_INTO]--> Northern Rhodesia Colony (local)(local)
+  British South Africa Company Territory --[PARTITIONED_INTO]--> Southern Rhodesia Colony (local)(local)
+  Rhodesia (UDI) --[EVOLVED_INTO]--> Zimbabwe Rhodesia (local)(local)
+  Zimbabwe Rhodesia --[EVOLVED_INTO]--> Southern Rhodesia (Restored) (local)(local)
+  Federation of Rhodesia and Nyasaland --[PARTITIONED_INTO]--> Southern Rhodesia (local)(local)
+  Federation of Rhodesia and Nyasaland --[PARTITIONED_INTO]--> Northern Rhodesia (local)(local)
+  Federation of Rhodesia and Nyasaland --[PARTITIONED_INTO]--> Nyasaland (local)(local)
+  Southern Rhodesia --[EVOLVED_INTO]--> Rhodesia (UDI) (local)(local)
+
+================================================================================
+REGION: West Africa (20 nodes, 15 edges)
+================================================================================
+
+### Nodes
+  james_island_trading_post_1661_1816: James Island Trading Post (1661-1816) [Trading Post] QID=
+  cape_coast_castle_1664_1821: Cape Coast Castle (1664-1821) [Trading Post] QID=Q1254826
+  province_of_freedom_1787_1792: Province of Freedom (1787-1792) [Settlement] QID=Q11300378
+  sierra_leone_company_settlement_1792_1808: Sierra Leone Company Settlement (1792-1808) [Company Settlement] QID=Q3483448
+  sierra_leone_colony_1808_1896: Sierra Leone Colony (1808-1896) [Crown Colony] QID=Q30059027
+  gambia_colony_1816_1888: Gambia Colony (1816-1888) [Crown Colony] QID=Q3557236
+  british_gold_coast_1821_1874: British Gold Coast (1821-1874) [Crown Colony] QID=Q503623
+  gold_coast_colony_1874_1957: Gold Coast Colony (1874-1957) [Crown Colony] QID=Q503623
+  oil_rivers_protectorate_1885_1893: Oil Rivers Protectorate (1885-1893) [Protectorate] QID=Q2566427
+  royal_niger_company_territory_1886_1900: Royal Niger Company Territory (1886-1900) [Company Territory] QID=Q1806380
+  lagos_protectorate_1887_1906: Lagos Protectorate (1887-1906) [Protectorate] QID=Q472146
+  gambia_colony_and_protectorate_1816_1965: Gambia Colony and Protectorate (1888-1965) [Crown Colony] QID=Q3557236
+  niger_coast_protectorate_1893_1900: Niger Coast Protectorate (1893-1900) [Protectorate] QID=Q2566427
+  sierra_leone_colony_and_protectorate_1787_1961: Sierra Leone Colony and Protectorate (1896-1961) [Colony/Protectorate] QID=Q30059027
+  southern_nigeria_protectorate_1900_1914: Southern Nigeria Protectorate (1900-1914) [Protectorate] QID=Q2062030
+  northern_nigeria_1900_1914: Northern Nigeria (1900-1914) [Protectorate] QID=Q585408
+  ashanti_1901_1957: Ashanti (1901-1957) [Crown Colony] QID=Q96372444
+  colony_and_protectorate_of_nigeria_1914_1960: Colony and Protectorate of Nigeria (1914-1960) [Colony/Protectorate] QID=Q5148517
+  british_cameroons_1916_1961: British Cameroons (1916-1961) [Mandate/Trust Territory] QID=Q1028835
+  british_togoland_1919_1957: British Togoland (1919-1957) [Mandate] QID=Q797527
+
+### Edges (within and cross-region)
+  Province of Freedom --[EVOLVED_INTO]--> Sierra Leone Company Settlement (local)(local)
+  Sierra Leone Company Settlement --[EVOLVED_INTO]--> Sierra Leone Colony (local)(local)
+  James Island Trading Post --[EVOLVED_INTO]--> Gambia Colony (local)(local)
+  Cape Coast Castle --[EVOLVED_INTO]--> British Gold Coast (local)(local)
+  British Gold Coast --[EVOLVED_INTO]--> Gold Coast Colony (local)(local)
+  Gambia Colony --[EVOLVED_INTO]--> Gambia Colony and Protectorate (local)(local)
+  Lagos Protectorate --[EVOLVED_INTO]--> Southern Nigeria Protectorate (local)(local)
+  Niger Coast Protectorate --[EVOLVED_INTO]--> Southern Nigeria Protectorate (local)(local)
+  Royal Niger Company Territory --[EVOLVED_INTO]--> Northern Nigeria (local)(local)
+  Southern Nigeria Protectorate --[EVOLVED_INTO]--> Colony and Protectorate of Nigeria (local)(local)
+  Northern Nigeria --[EVOLVED_INTO]--> Colony and Protectorate of Nigeria (local)(local)
+  Sierra Leone Colony --[EVOLVED_INTO]--> Sierra Leone Colony and Protectorate (local)(local)
+  Oil Rivers Protectorate --[EVOLVED_INTO]--> Niger Coast Protectorate (local)(local)
+  Gold Coast Colony --[PARTITIONED_INTO]--> Ashanti (local)(local)
+  Gold Coast Colony --[PARTITIONED_INTO]--> British Togoland (local)(local)

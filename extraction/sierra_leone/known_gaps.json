@@ -1,0 +1,38 @@
+{
+  "colony": "Sierra Leone",
+  "generated": "2026-02-11",
+  "known_gaps": [
+    {
+      "year": 1932,
+      "severity": "critical",
+      "type": "source_truncation",
+      "description": "Source text truncated — only Railway and WAFF Battalion sections survived. ~330 officials missing compared to ~350 expected (1931 had 367, 1933 had 166). Only 18 records extracted.",
+      "affected_departments": ["Railway", "Sierra Leone Battalion, WAFF"],
+      "missing_departments": [
+        "Governor's Office", "Colonial Secretary's Office", "Treasury",
+        "Customs", "Audit", "Port & Marine", "Judicial & Legal",
+        "Civil Police", "Prisons", "Survey", "Medical", "Sanitary",
+        "Education", "Post Office", "Agriculture", "Forests", "Public Works"
+      ],
+      "source_file_lines": 329,
+      "expected_lines": "~900 (1931 source: 904 lines)",
+      "remediation": "Re-OCR from original PDF (ColonialOfficeList1932) to recover full text"
+    },
+    {
+      "year": 1958,
+      "severity": "info",
+      "type": "empty_source",
+      "description": "Jamaica 1958 source file is empty. This was noted during Phase 0 corpus inventory.",
+      "note": "Not a Sierra Leone issue — listed here for cross-reference only"
+    }
+  ],
+  "format_changes": [
+    {
+      "years": [1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959],
+      "severity": "info",
+      "type": "publication_format_change",
+      "description": "Colonial Office List changed format after 1951. Post-1951 editions list only department heads and senior officials, not full civil establishments. No salary data published for most positions. Record counts drop from ~300 (1951) to 38-67 (1952-1959).",
+      "note": "This is NOT a parsing error — the publication itself changed scope. Pre-1952 and post-1952 data are not directly comparable for headcount analysis."
+    }
+  ]
+}

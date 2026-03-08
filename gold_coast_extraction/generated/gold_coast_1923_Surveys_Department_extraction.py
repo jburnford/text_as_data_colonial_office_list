@@ -1,0 +1,19 @@
+"""
+Gold Coast Colonial Office List 1923 - Extracted Data
+"""
+COLONY = "Gold Coast"
+YEAR = 1923
+
+OFFICIALS = [
+    {"name": "Lt.-Col. R. H. Rowe", "canonical_name": "Rowe, R. H.", "given_names": "R. H.", "surname": "Rowe", "position": "Surveyor General", "department": "Surveys Department - Gold Coast", "salary_min": 1200, "salary_max": 1200, "duty_allowance": 240, "honors": ["D.S.O.", "M.C."], "military_rank": "Lieutenant-Colonel", "region": "Colony"},
+    {"name": "H. R. Spencer", "canonical_name": "Spencer, H. R.", "given_names": "H. R.", "surname": "Spencer", "position": "Office Assistant", "department": "Surveys Department - Gold Coast", "salary_min": 480, "salary_max": 600, "honors": ["M.M."], "region": "Colony"},
+    {"name": "Sergt. A. F. R. Morris", "canonical_name": "Morris, A. F. R.", "given_names": "A. F. R.", "surname": "Morris", "position": "Draughtsman", "department": "Surveys Department - Gold Coast", "salary_min": 440, "salary_max": 50, "military_rank": "Sergeant", "region": "Colony"},
+    {"name": "D. J. Henry", "canonical_name": "Henry, D. J.", "given_names": "D. J.", "surname": "Henry", "position": "Lithographic Draughtsman", "department": "Surveys Department - Gold Coast", "salary_min": 500, "salary_max": 560, "region": "Colony"},
+    {"name": "Lieut. J. Cave-Higley", "canonical_name": "Cave-Higley, J.", "given_names": "J.", "surname": "Cave-Higley", "position": "Superintendent of Maps and Plans", "department": "Surveys Department - Gold Coast", "salary_min": 480, "salary_max": 800, "military_rank": "Lieutenant", "region": "Colony"},
+    {"name": "C. R. Petty", "canonical_name": "Petty, C. R.", "given_names": "C. R.", "surname": "Petty", "position": "Record Keeper", "department": "Surveys Department - Gold Coast", "salary_min": 480, "salary_max": 800, "region": "Colony"},
+    {"name": "Capt. C. L. T. Griffith", "canonical_name": "Griffith, C. L. T.", "given_names": "C. L. T.", "surname": "Griffith", "position": "Chief Instructor Survey School", "department": "Surveys Department - Gold Coast", "salary_min": 800, "salary_max": 920, "allowances": "72l. seniority allowance", "qualifications": ["A.M.I.C.E."], "military_rank": "Captain", "region": "Colony"},
+    {"name": "G. N. Warbrick", "canonical_name": "Warbrick, G. N.", "given_names": "G. N.", "surname": "Warbrick", "position": "Assistant Instructor Survey School", "department": "Surveys Department - Gold Coast", "salary_min": 480, "salary_max": 920, "region": "Colony"},
+    {"name": "W. Cutland", "canonical_name": "Cutland, W.", "given_names": "W.", "surname": "Cutland", "position": "Assistant Instructor Survey School", "department": "Surveys Department - Gold Coast", "salary_min": 480, "salary_max": 920, "region": "Colony"},
+    {"name": "J. Clendinning", "canonical_name": "Clendinning, J.", "given_names": "J.", "surname": "Clendinning", "position": "Director Cadastral Surveys", "department": "Surveys Department - Gold Coast", "salary_min": 1050, "salary_max": 1050, "duty_allowance": 210, "qualifications": ["B.Sc.", "A.M.I.C.E."], "region": "Colony"},
+    {"name": "Capt. N. B. Favell", "canonical_name": "Favell, N. B.", "given_names": "N. B.", "surname": "Favell", "position": "Deputy Director Cadastral Surveys", "department": "Surveys Department - Gold Coast", "salary_min": 960, "salary_max": 960, "duty_allowance": 96, "qualifications": ["B.A."], "military_rank": "Captain", "region": "Colony"},
+    {"name": "G. Coleman", "canonical_name": "Coleman, G.", "given_names": "G.", "surname": "Coleman", "position": "Chief Draughtsman", "department": "Surveys Department - Gold Coast", "salary_min": 480, "salary_max": 920, "region": "Colony

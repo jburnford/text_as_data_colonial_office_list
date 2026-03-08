@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-02-11T11:23:27.843529",
+  "guide": "/home/jic823/textasdatacolonialofficelist/guides/west_africa_guide.md",
+  "results": [
+    {
+      "colony": "Gambia",
+      "year": 1867,
+      "source_file": "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/the_gambia.txt",
+      "code_file": "/home/jic823/textasdatacolonialofficelist/extraction/gambia/generated/1867_extraction.py",
+      "json_file": "/home/jic823/textasdatacolonialofficelist/extraction/gambia/json/gambia_1867.json",
+      "status": "success",
+      "official_count": 13,
+      "sections_extracted": 2,
+      "errors": [],
+      "timestamp": "2026-02-11T11:19:09.685158"
+    },
+    {
+      "colony": "Gambia",
+      "year": 1925,
+      "source_file": "/home/jic823/textasdatacolonialofficelist/1925_manual_parsed/THE_GAMBIA.txt",
+      "code_file": "/home/jic823/textasdatacolonialofficelist/extraction/gambia/generated/1925_extraction.py",
+      "json_file": "/home/jic823/textasdatacolonialofficelist/extraction/gambia/json/gambia_1925.json",
+      "status": "success",
+      "official_count": 181,
+      "sections_extracted": 13,
+      "errors": [],
+      "timestamp": "2026-02-11T11:19:31.174507"
+    },
+    {
+      "colony": "Gambia",
+      "year": 1966,
+      "source_file": "/home/jic823/textasdatacolonialofficelist/1966_manual_parsed/gambia.txt",
+      "code_file": "/home/jic823/textasdatacolonialofficelist/extraction/gambia/generated/1966_extraction.py",
+      "json_file": "/home/jic823/textasdatacolonialofficelist/extraction/gambia/json/gambia_1966.json",
+      "status": "narrative_only",
+      "official_count": 0,
+      "sections_extracted": 0,
+      "errors": [
+        "No personnel sections in section map"
+      ],
+      "timestamp": "2026-02-11T11:23:24.749058"
+    }
+  ]
+}

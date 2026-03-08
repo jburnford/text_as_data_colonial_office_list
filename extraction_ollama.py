@@ -32,14 +32,35 @@ from datetime import datetime
 
 
 # =============================================================================
-# OLLAMA API
+# LLM BACKEND CONFIGURATION
 # =============================================================================
+#
+# Backend selection (env vars — no code changes needed for batch/corpus scripts):
+#   LLM_BACKEND=ollama   (default) — Ollama at localhost:11434
+#   LLM_BACKEND=openai   — OpenAI-compatible API (vLLM, etc.)
+#
+# URL override:
+#   LLM_BASE_URL=http://host:port  — overrides the default for chosen backend
+#
+# Model override:
+#   LLM_MODEL=openai/gpt-oss-120b  — overrides --model flag
+#
+# Example — use vLLM on Plato via SSH tunnel:
+#   ssh -N -L 8000:<plato-node>:8000 plato &
+#   LLM_BACKEND=openai LLM_BASE_URL=http://localhost:8000 LLM_MODEL=openai/gpt-oss-120b \
+#     python extraction_corpus.py --year 1896
 
-OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")
+LLM_BACKEND = os.environ.get("LLM_BACKEND", "ollama")
+LLM_BASE_URL = os.environ.get("LLM_BASE_URL", None)  # None = use backend default
+LLM_MODEL = os.environ.get("LLM_MODEL", None)         # None = use --model flag
+
+OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL",
+                                 LLM_BASE_URL or "http://localhost:11434")
+OPENAI_BASE_URL = LLM_BASE_URL or "http://localhost:8000"
 
 
 class OllamaError(Exception):
-    """Raised when Ollama API call fails (connection, timeout, etc.)."""
+    """Raised when LLM API call fails (connection, timeout, etc.)."""
     pass
 
 
@@ -119,6 +140,114 @@ def ollama_generate(model: str, prompt: str, timeout: int = 600,
     print(f"Generated in {elapsed:.1f}s ({total_tokens} tokens, {tok_per_sec:.1f} tok/s)")
 
     return text
+
+
+def openai_generate(model: str, prompt: str, timeout: int = 600,
+                    json_mode: bool = False, num_predict: int = 16384) -> str:
+    """Call an OpenAI-compatible API (vLLM, etc.) to generate a response.
+
+    Uses /v1/chat/completions with streaming. Compatible with vLLM, TGI,
+    and any server implementing the OpenAI chat completions spec.
+
+    Args:
+        model: Model name as registered on the server (e.g. 'openai/gpt-oss-120b')
+        prompt: The full prompt to send (sent as a single user message)
+        timeout: Wall-clock timeout in seconds
+        json_mode: If True, request JSON output via response_format
+        num_predict: Max tokens to generate
+
+    Returns:
+        The generated text response
+
+    Raises:
+        OllamaError: On connection failure or timeout.
+    """
+    url = f"{OPENAI_BASE_URL}/v1/chat/completions"
+
+    payload = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": num_predict,
+        "temperature": 0.1,
+        "stream": True,
+    }
+
+    if json_mode:
+        payload["response_format"] = {"type": "json_object"}
+
+    print(f"Sending request to vLLM ({model} at {OPENAI_BASE_URL}, "
+          f"max {num_predict} tokens)...")
+    start = time.time()
+
+    try:
+        response = requests.post(url, json=payload, timeout=(30, 60), stream=True)
+        response.raise_for_status()
+    except requests.exceptions.ConnectionError:
+        raise OllamaError(
+            f"Cannot connect to vLLM at {OPENAI_BASE_URL}. "
+            "Is the server running? Check: curl " + url.replace("/chat/completions", "/models")
+        )
+    except requests.exceptions.HTTPError as e:
+        raise OllamaError(f"vLLM HTTP error: {e}")
+    except requests.exceptions.Timeout:
+        raise OllamaError(f"Connection timed out connecting to {OPENAI_BASE_URL}")
+
+    # Read SSE streaming response
+    text_parts = []
+    total_tokens = 0
+    try:
+        for line in response.iter_lines():
+            if time.time() - start > timeout:
+                response.close()
+                raise OllamaError(f"Generation exceeded {timeout}s wall-clock timeout")
+            if not line:
+                continue
+            line = line.decode("utf-8") if isinstance(line, bytes) else line
+            if not line.startswith("data: "):
+                continue
+            data = line[6:]  # strip "data: " prefix
+            if data.strip() == "[DONE]":
+                break
+            try:
+                chunk = json.loads(data)
+            except json.JSONDecodeError:
+                continue
+            choices = chunk.get("choices", [])
+            if choices:
+                delta = choices[0].get("delta", {})
+                text_parts.append(delta.get("content", ""))
+            # Track token usage from final chunk
+            usage = chunk.get("usage")
+            if usage:
+                total_tokens = usage.get("completion_tokens", 0)
+    except requests.exceptions.ChunkedEncodingError:
+        raise OllamaError("Connection lost during streaming")
+
+    elapsed = time.time() - start
+    text = "".join(text_parts)
+    # Estimate tokens if server didn't report usage
+    if total_tokens == 0:
+        total_tokens = len(text) // 4  # rough estimate
+    tok_per_sec = total_tokens / elapsed if elapsed > 0 else 0
+
+    print(f"Generated in {elapsed:.1f}s (~{total_tokens} tokens, {tok_per_sec:.1f} tok/s)")
+
+    return text
+
+
+def llm_generate(model: str, prompt: str, timeout: int = 600,
+                 json_mode: bool = False, num_predict: int = 16384) -> str:
+    """Dispatch to the configured LLM backend.
+
+    Checks LLM_BACKEND to route to ollama_generate() or openai_generate().
+    Model name is overridden by LLM_MODEL env var if set.
+    """
+    if LLM_MODEL:
+        model = LLM_MODEL
+    if LLM_BACKEND == "openai":
+        return openai_generate(model, prompt, timeout, json_mode, num_predict)
+    else:
+        return ollama_generate(model, prompt, timeout, json_mode, num_predict)
 
 
 # =============================================================================
@@ -286,7 +415,7 @@ def extract_codegen(source_text: str, model: str, colony: str, year: int,
         year=year,
     )
 
-    code = ollama_generate(model, prompt, timeout=timeout)
+    code = llm_generate(model, prompt, timeout=timeout)
 
     # Strip markdown fences if present
     if code.startswith("```python"):
@@ -308,7 +437,7 @@ def extract_json_mode(source_text: str, model: str, colony: str, year: int,
         year=year,
     )
 
-    text = ollama_generate(model, prompt, timeout=timeout, json_mode=True)
+    text = llm_generate(model, prompt, timeout=timeout, json_mode=True)
 
     try:
         return json.loads(text)
@@ -617,6 +746,11 @@ def main():
                         help="Input text file to extract from")
     parser.add_argument("--model", default="gpt-oss:120b",
                         help="Ollama model name (default: gpt-oss:120b)")
+    parser.add_argument("--backend", choices=["ollama", "openai"],
+                        default=None,
+                        help="LLM backend: ollama or openai/vLLM (default: env LLM_BACKEND or ollama)")
+    parser.add_argument("--api-url", default=None,
+                        help="API base URL (default: env LLM_BASE_URL or backend default)")
     parser.add_argument("--colony", default="Sierra Leone",
                         help="Colony name (default: Sierra Leone)")
     parser.add_argument("--year", type=int, default=1896,
@@ -632,6 +766,17 @@ def main():
 
     args = parser.parse_args()
 
+    # Apply CLI overrides to module-level backend config
+    global LLM_BACKEND, LLM_BASE_URL, OPENAI_BASE_URL, OLLAMA_BASE_URL
+    if args.backend:
+        LLM_BACKEND = args.backend
+    if args.api_url:
+        LLM_BASE_URL = args.api_url
+        if LLM_BACKEND == "openai":
+            OPENAI_BASE_URL = args.api_url
+        else:
+            OLLAMA_BASE_URL = args.api_url
+
     # Resolve paths relative to script location
     script_dir = Path(__file__).parent
     input_file = Path(args.input_file)
@@ -642,15 +787,19 @@ def main():
     # Sanitize model name for filenames
     model_slug = args.model.replace(":", "_").replace("/", "_")
 
+    effective_model = LLM_MODEL or args.model
+    backend_url = OPENAI_BASE_URL if LLM_BACKEND == "openai" else OLLAMA_BASE_URL
+
     print("=" * 60)
-    print("COLONIAL OFFICE LIST - OLLAMA EXTRACTION")
+    print("COLONIAL OFFICE LIST - LLM EXTRACTION")
     print("=" * 60)
-    print(f"Input:  {input_file}")
-    print(f"Model:  {args.model}")
-    print(f"Colony: {args.colony}, Year: {args.year}")
+    print(f"Input:   {input_file}")
+    print(f"Backend: {LLM_BACKEND} ({backend_url})")
+    print(f"Model:   {effective_model}")
+    print(f"Colony:  {args.colony}, Year: {args.year}")
     mode_str = "Chunked " if args.chunked else ""
     mode_str += "JSON" if args.json_mode else "Code Generation"
-    print(f"Mode:   {mode_str}")
+    print(f"Mode:    {mode_str}")
     print()
 
     # Read source text

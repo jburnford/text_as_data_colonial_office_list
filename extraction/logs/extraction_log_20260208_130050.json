@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-02-08T13:00:50.558896",
+  "guide": "/home/jic823/textasdatacolonialofficelist/gold_coast_extraction/gold_coast_guide.md",
+  "results": [
+    {
+      "colony": "Gold Coast",
+      "year": 1867,
+      "source_file": "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/gold_coast.txt",
+      "code_file": "/home/jic823/textasdatacolonialofficelist/extraction/gold_coast/generated/1867_extraction.py",
+      "json_file": "/home/jic823/textasdatacolonialofficelist/extraction/gold_coast/json/gold_coast_1867.json",
+      "status": "success",
+      "official_count": 14,
+      "sections_extracted": 0,
+      "errors": [],
+      "timestamp": "2026-02-08T13:00:36.903517"
+    },
+    {
+      "colony": "Gold Coast",
+      "year": 1920,
+      "source_file": "/home/jic823/textasdatacolonialofficelist/1920_manual_parsed/GOLD_COAST.md",
+      "code_file": "/home/jic823/textasdatacolonialofficelist/extraction/gold_coast/generated/1920_extraction.py",
+      "json_file": "/home/jic823/textasdatacolonialofficelist/extraction/gold_coast/json/gold_coast_1920.json",
+      "status": "success",
+      "official_count": 1,
+      "sections_extracted": 1,
+      "errors": [],
+      "timestamp": "2026-02-08T13:00:45.549125"
+    },
+    {
+      "colony": "Gold Coast",
+      "year": 1957,
+      "source_file": "/home/jic823/textasdatacolonialofficelist/1957_manual_parsed/GOLD_COAST_GHANA.txt",
+      "code_file": "/home/jic823/textasdatacolonialofficelist/extraction/gold_coast/generated/1957_extraction.py",
+      "json_file": "/home/jic823/textasdatacolonialofficelist/extraction/gold_coast/json/gold_coast_1957.json",
+      "status": "invalid",
+      "official_count": 0,
+      "sections_extracted": 0,
+      "errors": [
+        "OFFICIALS list is empty"
+      ],
+      "timestamp": "2026-02-08T13:00:49.430273"
+    }
+  ]
+}

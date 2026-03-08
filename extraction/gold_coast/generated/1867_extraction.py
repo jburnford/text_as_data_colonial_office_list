@@ -1,0 +1,32 @@
+"""
+Gold Coast Colonial Office List 1867 - Extracted Data
+"""
+COLONY = "Gold Coast"
+YEAR = 1867
+
+OFFICIALS = [
+    {"name": "Col. Conran", "canonical_name": "Conran, Col.", "surname": "Conran", "position": "Administrator", "department": "Civil Establishment - Gold Coast", "acting_status": "Acting", "military_rank": "Colonel"},
+    {"name": "Col. Conran", "canonical_name": "Conran, Col.", "surname": "Conran", "position": "Commander of Forces", "department": "Civil Establishment - Gold Coast", "military_rank": "Colonel"},
+    {"name": "W. A. Parker", "canonical_name": "Parker, W. A.", "given_names": "W. A.", "surname": "Parker", "position": "Magistrate", "department": "Civil Establishment - Gold Coast"},
+    {"name": "Lieut. Brett", "canonical_name": "Brett, Lieut.", "surname": "Brett", "position": "Chief Civil Commandant", "department": "Civil Establishment - Gold Coast", "location": "Accra", "military_rank": "Lieutenant"},
+    {"name": "Rev. J. Blake", "canonical_name": "Blake, Rev. J.", "given_names": "J.", "surname": "Blake", "position": "Colonial and Garrison Chaplain", "department": "Civil Establishment - Gold Coast", "salary_min": 400, "salary_max": 400, "qualifications": ["M.A."]},
+    {"name": "J. Lovegrove", "canonical_name": "Lovegrove, J.", "given_names": "J.", "surname": "Lovegrove", "position": "Colonial Surgeon", "department": "Civil Establishment - Gold Coast"},
+    {"name": "— Ussher", "canonical_name": "Ussher, —", "surname": "Ussher", "position": "Collector of Customs", "department": "Civil Establishment - Gold Coast"},
+    {"name": "— Smith", "canonical_name": "Smith, —", "surname": "Smith", "position": "Deputy Assistant Commissary-General", "department": "Civil Establishment - Gold Coast"},
+    {"name": "W. Z. Coker", "canonical_name": "Coker, W. Z.", "given_names": "W. Z.", "surname": "Coker", "position": "1st Writer", "department": "Civil Establishment - Gold Coast", "salary_min": 175, "salary_max": 175},
+    {"name": "D. L. Carr", "canonical_name": "Carr, D. L.", "given_names": "D. L.", "surname": "Carr", "position": "2nd Writer", "department": "Civil Establishment - Gold Coast", "salary_min": 60, "salary_max": 60},
+    {"name": "W. C. Fynn", "canonical_name": "Fynn, W. C.", "given_names": "W. C.", "surname": "Fynn", "position": "Clerk of the Courts", "department": "Civil Establishment - Gold Coast", "salary_min": 120, "salary_max": 120},
+    {"name": "H. Thompson", "canonical_name": "Thompson, H.", "given_names": "H.", "surname": "Thompson", "position": "Interpreter", "department": "Civil Establishment - Gold Coast", "salary_min": 120, "salary_max": 120},
+    {"name": "Joseph Hagan", "canonical_name": "Hagan, Joseph", "given_names": "Joseph", "surname": "Hagan", "position": "Landings Writer", "department": "Civil Establishment - Gold Coast", "salary_min": 50, "salary_max": 50},
+    {"name": "John Smith", "canonical_name": "Smith, John", "given_names": "John", "surname": "Smith", "position": "Clerk of Court", "department": "Civil Establishment - Gold Coast", "location": "Accra", "salary_min": 75, "salary_max": 75}
+]
+
+def get_extraction():
+    return {"colony": COLONY, "year": YEAR, "total_officials": len(OFFICIALS), "officials": OFFICIALS}
+
+def main():
+    import json
+    print(json.dumps(get_extraction(), indent=2))
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,85 @@
+"""
+Sierra Leone Colonial Office List 1906 - Extracted Data
+"""
+COLONY = "Sierra Leone"
+YEAR = 1906
+
+OFFICIALS = [
+    {"name": "A. P. Viret", "canonical_name": "Viret, A. P.", "given_names": "A. P.", "surname": "Viret", "position": "Collector", "department": "Customs Department - Sierra Leone", "salary_min": 500, "salary_max": 650},
+    {"name": "W. J. Lamont", "canonical_name": "Lamont, W. J.", "given_names": "W. J.", "surname": "Lamont", "position": "Assistant Collector", "department": "Customs Department - Sierra Leone", "salary_min": 350, "salary_max": 400},
+    {"name": "H. N. Carroll", "canonical_name": "Carroll, H. N.", "given_names": "H. N.", "surname": "Carroll", "position": "Chief Clerk", "department": "Customs Department - Sierra Leone", "salary_min": 200, "salary_max": 250},
+    {"name": "A. C. A. Johnson", "canonical_name": "Johnson, A. C. A.", "given_names": "A. C. A.", "surname": "Johnson", "position": "Examining Officer", "department": "Customs Department - Sierra Leone", "salary_min": 120, "salary_max": 160},
+    {"name": "T. D. Brown", "canonical_name": "Brown, T. D.", "given_names": "T. D.", "surname": "Brown", "position": "Assistant Examining Officer", "department": "Customs Department - Sierra Leone", "salary_min": 80, "salary_max": 100},
+    {"name": "J. O. Turner", "canonical_name": "Turner, J. O.", "given_names": "J. O.", "surname": "Turner", "position": "1st Clerk and Statist", "department": "Customs Department - Sierra Leone", "salary_min": 120, "salary_max": 150},
+    {"name": "J. S. Caulker", "canonical_name": "Caulker, J. S.", "given_names": "J. S.", "surname": "Caulker", "position": "Assistant Statist", "department": "Customs Department - Sierra Leone", "salary_min": 80, "salary_max": 90},
+    {"name": "P. H. H. George", "canonical_name": "George, P. H. H.", "given_names": "P. H. H.", "surname": "George", "position": "2nd Clerk", "department": "Customs Department - Sierra Leone", "salary_min": 100, "salary_max": 125},
+    {"name": "T. H. R. Elba", "canonical_name": "Elba, T. H. R.", "given_names": "T. H. R.", "surname": "Elba", "position": "3rd Clerk", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 95},
+    {"name": "VACANT", "canonical_name": "VACANT", "surname": "VACANT", "position": "4th Clerk", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60},
+    {"name": "T. M. Johnson", "canonical_name": "Johnson, T. M.", "given_names": "T. M.", "surname": "Johnson", "position": "Correspondence Clerk", "department": "Customs Department - Sierra Leone", "salary_min": 80, "salary_max": 90},
+    {"name": "L. F. Campbell", "canonical_name": "Campbell, L. F.", "given_names": "L. F.", "surname": "Campbell", "position": "Warehousekeeper", "department": "Customs Department - Sierra Leone", "salary_min": 175, "salary_max": 200},
+    {"name": "T. A. Davies", "canonical_name": "Davies, T. A.", "given_names": "T. A.", "surname": "Davies", "position": "Senior Warehouseman", "department": "Customs Department - Sierra Leone", "salary_min": 90, "salary_max": 100},
+    {"name": "D. P. Richards", "canonical_name": "Richards, D. P.", "given_names": "D. P.", "surname": "Richards", "position": "Warehouseman", "department": "Customs Department - Sierra Leone", "salary_min": 60, "salary_max": 70},
+    {"name": "S. V. Hanciles", "canonical_name": "Hanciles, S. V.", "given_names": "S. V.", "surname": "Hanciles", "position": "Warehouseman", "department": "Customs Department - Sierra Leone", "salary_min": 60, "salary_max": 70},
+    {"name": "S. D. Palmer", "canonical_name": "Palmer, S. D.", "given_names": "S. D.", "surname": "Palmer", "position": "Warehouseman", "department": "Customs Department - Sierra Leone", "salary_min": 60, "salary_max": 70},
+    {"name": "N. J. Spain", "canonical_name": "Spain, N. J.", "given_names": "N. J.", "surname": "Spain", "position": "Supervisor", "department": "Customs Department - Sierra Leone", "salary_min": 300, "salary_max": 300, "location": "Sherbro"},
+    {"name": "G. T. Lewis", "canonical_name": "Lewis, G. T.", "given_names": "G. T.", "surname": "Lewis", "position": "Chief Clerk", "department": "Customs Department - Sierra Leone", "salary_min": 140, "salary_max": 170, "location": "Sherbro"},
+    {"name": "C. J. Campbell", "canonical_name": "Campbell, C. J.", "given_names": "C. J.", "surname": "Campbell", "position": "Warehousekeeper", "department": "Customs Department - Sierra Leone", "salary_min": 80, "salary_max": 90, "location": "Sherbro"},
+    {"name": "W. J. Lawrence", "canonical_name": "Lawrence, W. J.", "given_names": "W. J.", "surname": "Lawrence", "position": "Senior Outdoor Officer", "department": "Customs Department - Sierra Leone", "salary_min": 150, "salary_max": 175, "location": "Sherbro"},
+    {"name": "V. E. Spain", "canonical_name": "Spain, V. E.", "given_names": "V. E.", "surname": "Spain", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 90, "salary_max": 100, "location": "Sherbro"},
+    {"name": "A. D. Yaskey", "canonical_name": "Yaskey, A. D.", "given_names": "A. D.", "surname": "Yaskey", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "W. A. H. Smith", "canonical_name": "Smith, W. A. H.", "given_names": "W. A. H.", "surname": "Smith", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "F. S. Smart", "canonical_name": "Smart, F. S.", "given_names": "F. S.", "surname": "Smart", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "T. A. J. Clemens", "canonical_name": "Clemens, T. A. J.", "given_names": "T. A. J.", "surname": "Clemens", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "J. C. Danner", "canonical_name": "Danner, J. C.", "given_names": "J. C.", "surname": "Danner", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "M. A. Lewis", "canonical_name": "Lewis, M. A.", "given_names": "M. A.", "surname": "Lewis", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "J. N. S. Whitfield", "canonical_name": "Whitfield, J. N. S.", "given_names": "J. N. S.", "surname": "Whitfield", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "S. H. E. Baker", "canonical_name": "Baker, S. H. E.", "given_names": "S. H. E.", "surname": "Baker", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "F. N. Jones", "canonical_name": "Jones, F. N.", "given_names": "F. N.", "surname": "Jones", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "A. R. Harris", "canonical_name": "Harris, A. R.", "given_names": "A. R.", "surname": "Harris", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "W. M. Peeler", "canonical_name": "Peeler, W. M.", "given_names": "W. M.", "surname": "Peeler", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "M. A. Smith", "canonical_name": "Smith, M. A.", "given_names": "M. A.", "surname": "Smith", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "C. D. Williams", "canonical_name": "Williams, C. D.", "given_names": "C. D.", "surname": "Williams", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "F. Q. Martyn", "canonical_name": "Martyn, F. Q.", "given_names": "F. Q.", "surname": "Martyn", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "T. E. Johnson", "canonical_name": "Johnson, T. E.", "given_names": "T. E.", "surname": "Johnson", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "T. E. Martins", "canonical_name": "Martins, T. E.", "given_names": "T. E.", "surname": "Martins", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "H. H. P. Wilson", "canonical_name": "Wilson, H. H. P.", "given_names": "H. H. P.", "surname": "Wilson", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "I. F. T. George", "canonical_name": "George, I. F. T.", "given_names": "I. F. T.", "surname": "George", "position": "1st Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 70, "salary_max": 80, "location": "Sherbro"},
+    {"name": "A. B. Carew", "canonical_name": "Carew, A. B.", "given_names": "A. B.", "surname": "Carew", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "J. F. Smith", "canonical_name": "Smith, J. F.", "given_names": "J. F.", "surname": "Smith", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "J. E. Harding", "canonical_name": "Harding, J. E.", "given_names": "J. E.", "surname": "Harding", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "A. N. David", "canonical_name": "David, A. N.", "given_names": "A. N.", "surname": "David", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "M. J. John", "canonical_name": "John, M. J.", "given_names": "M. J.", "surname": "John", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "J. A. Williams", "canonical_name": "Williams, J. A.", "given_names": "J. A.", "surname": "Williams", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "H. M. Venn", "canonical_name": "Venn, H. M.", "given_names": "H. M.", "surname": "Venn", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "E. F. Clarke", "canonical_name": "Clarke, E. F.", "given_names": "E. F.", "surname": "Clarke", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "J. S. Walker", "canonical_name": "Walker, J. S.", "given_names": "J. S.", "surname": "Walker", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "J. W. Wray", "canonical_name": "Wray, J. W.", "given_names": "J. W.", "surname": "Wray", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "S. V. Felix", "canonical_name": "Felix, S. V.", "given_names": "S. V.", "surname": "Felix", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "H. A. Venn", "canonical_name": "Venn, H. A.", "given_names": "H. A.", "surname": "Venn", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "J. F. Kenny", "canonical_name": "Kenny, J. F.", "given_names": "J. F.", "surname": "Kenny", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "W. R. S. Renner", "canonical_name": "Renner, W. R. S.", "given_names": "W. R. S.", "surname": "Renner", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "E. A. Turner", "canonical_name": "Turner, E. A.", "given_names": "E. A.", "surname": "Turner", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "F. Humaru", "canonical_name": "Humaru, F.", "given_names": "F.", "surname": "Humaru", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "D. A. Thompson", "canonical_name": "Thompson, D. A.", "given_names": "D. A.", "surname": "Thompson", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "F. C. Campbell", "canonical_name": "Campbell, F. C.", "given_names": "F. C.", "surname": "Campbell", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "J. C. Pratt", "canonical_name": "Pratt, J. C.", "given_names": "J. C.", "surname": "Pratt", "position": "2nd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 50, "salary_max": 60, "location": "Sherbro"},
+    {"name": "D. A. Jones", "canonical_name": "Jones, D. A.", "given_names": "D. A.", "surname": "Jones", "position": "3rd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 30, "salary_max": 40, "location": "Sherbro"},
+    {"name": "J. E. Pratt", "canonical_name": "Pratt, J. E.", "given_names": "J. E.", "surname": "Pratt", "position": "3rd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 30, "salary_max": 40, "location": "Sherbro"},
+    {"name": "E. E. Cole", "canonical_name": "Cole, E. E.", "given_names": "E. E.", "surname": "Cole", "position": "3rd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 30, "salary_max": 40, "location": "Sherbro"},
+    {"name": "G. J. Gooding", "canonical_name": "Gooding, G. J.", "given_names": "G. J.", "surname": "Gooding", "position": "3rd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 30, "salary_max": 40, "location": "Sherbro"},
+    {"name": "A. W. Porter", "canonical_name": "Porter, A. W.", "given_names": "A. W.", "surname": "Porter", "position": "3rd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 30, "salary_max": 40, "location": "Sherbro"},
+    {"name": "J. B. Macauley", "canonical_name": "Macauley, J. B.", "given_names": "J. B.", "surname": "Macauley", "position": "3rd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 30, "salary_max": 40, "location": "Sherbro"},
+    {"name": "W. A. John", "canonical_name": "John, W. A.", "given_names": "W. A.", "surname": "John", "position": "3rd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 30, "salary_max": 40, "location": "Sherbro"},
+    {"name": "A. J. Yormah", "canonical_name": "Yormah, A. J.", "given_names": "A. J.", "surname": "Yormah", "position": "3rd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 30, "salary_max": 40, "location": "Sherbro"},
+    {"name": "F. L. Wilson", "canonical_name": "Wilson, F. L.", "given_names": "F. L.", "surname": "Wilson", "position": "3rd Class Officer", "department": "Customs Department - Sierra Leone", "salary_min": 30, "salary_max": 40, "location": "Sherbro"}
+]
+
+def get_extraction():
+    return {"colony": COLONY, "year": YEAR, "total_officials": len(OFFICIALS), "officials": OFFICIALS}
+
+def main():
+    import json
+    print(json.dumps(get_extraction(), indent=2))
+
+if __name__ == "__main__":
+    main()

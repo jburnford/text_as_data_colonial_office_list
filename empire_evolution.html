@@ -1,0 +1,1850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>British Empire — Territorial Evolution</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a1a; color: #eee; overflow: hidden; display: flex; flex-direction: column; height: 100vh; }
+
+#header {
+  flex-shrink: 0;
+  background: rgba(10,10,26,0.95); backdrop-filter: blur(8px);
+  padding: 8px 20px; border-bottom: 1px solid rgba(255,255,255,0.1);
+  display: flex; justify-content: space-between; align-items: center;
+}
+#header h1 { font-size: 16px; font-weight: 600; }
+.controls { display: flex; gap: 10px; align-items: center; font-size: 13px; }
+.controls select, .controls input { background: #1a1a2e; color: #eee; border: 1px solid #333; padding: 4px 8px; border-radius: 4px; font-size: 12px; }
+.controls button { background: #2c3e50; color: #eee; border: none; padding: 4px 12px; border-radius: 4px; cursor: pointer; font-size: 12px; }
+.controls button:hover { background: #3d566e; }
+.controls button.active { background: #4a90d9; }
+
+#panel-a {
+  flex-shrink: 0; height: 220px; position: relative;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+#area-chart { width: 100%; height: 100%; }
+#area-tooltip {
+  position: absolute; pointer-events: none; z-index: 50;
+  background: rgba(20,20,40,0.95); border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 6px; padding: 8px 12px; font-size: 12px;
+  display: none; white-space: nowrap;
+}
+
+#panel-b { flex: 1; overflow: hidden; position: relative; }
+#sankey-chart { width: 100%; height: 100%; cursor: grab; }
+#sankey-chart:active { cursor: grabbing; }
+
+#tooltip {
+  position: fixed; pointer-events: none; z-index: 200;
+  background: rgba(20,20,40,0.95); border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 6px; padding: 10px 14px; font-size: 13px;
+  max-width: 360px; display: none; backdrop-filter: blur(8px);
+}
+#tooltip .tt-name { font-weight: 600; font-size: 15px; margin-bottom: 4px; }
+#tooltip .tt-meta { color: #aaa; font-size: 12px; }
+#tooltip .tt-edges { margin-top: 6px; font-size: 11px; color: #88ccff; }
+
+#legend {
+  position: fixed; bottom: 8px; left: 20px; z-index: 100;
+  background: rgba(10,10,26,0.9); padding: 6px 14px; border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.1); font-size: 11px;
+  display: flex; flex-wrap: wrap; gap: 2px 12px;
+}
+.legend-item { display: inline-flex; align-items: center; }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; flex-shrink: 0; }
+
+#info { position: fixed; bottom: 8px; right: 20px; z-index: 100; color: #555; font-size: 11px; }
+
+/* Area chart */
+.area-region { opacity: 0.8; cursor: pointer; transition: opacity 0.15s; }
+.area-region:hover { opacity: 1; }
+.area-region.dimmed { opacity: 0.2; }
+.event-line-a { stroke: rgba(255,130,100,0.2); stroke-width: 1; stroke-dasharray: 4,3; }
+.event-label-a { fill: rgba(255,130,100,0.5); font-size: 9px; }
+.cursor-line { stroke: rgba(255,255,255,0.4); stroke-width: 1; pointer-events: none; }
+
+/* Sankey bars and flows */
+.node-bar { opacity: 0.85; cursor: pointer; transition: opacity 0.15s; }
+.node-bar:hover { opacity: 1; filter: brightness(1.2); }
+.node-bar.postimperial { opacity: 0.7; stroke-width: 2; stroke-dasharray: 4,2; }
+.node-bar.nonbritish { opacity: 0.7; stroke-width: 2; stroke-dasharray: 6,3; }
+.node-bar.standalone { opacity: 0.5; }
+.node-bar.dim { opacity: 0.08; }
+.node-bar.bright { opacity: 1; filter: brightness(1.2); }
+
+.node-label { fill: #fff; font-size: 9px; pointer-events: none; transition: opacity 0.15s; text-shadow: 0 1px 2px rgba(0,0,0,0.7); }
+.node-label.standalone { fill: #ddd; font-size: 7px; }
+.node-label.dim { opacity: 0.06; }
+.node-label.bright { fill: #fff; }
+
+.flow { opacity: 0.25; transition: opacity 0.15s; }
+.flow.dim { opacity: 0.03; }
+.flow.bright { opacity: 0.7; }
+.flow.gap-warning { stroke: #ff6644; stroke-width: 1; stroke-dasharray: 3,2; }
+
+.timeline-line { stroke: rgba(255,255,255,0.05); stroke-width: 1; }
+.timeline-label { fill: rgba(255,255,255,0.2); font-size: 11px; text-anchor: middle; }
+.event-line { stroke: rgba(255,130,100,0.12); stroke-width: 1; stroke-dasharray: 6,4; }
+.event-label { fill: rgba(255,130,100,0.35); font-size: 9px; }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <h1>The British Empire — Territorial Evolution</h1>
+  <div class="controls">
+    <label style="color:#999">Region:
+      <select id="filter-region"><option value="all">All Regions</option></select>
+    </label>
+    <label style="color:#999">Search: <input type="text" id="search" placeholder="colony name..."></label>
+    <button onclick="resetView()">Reset</button>
+  </div>
+</div>
+
+<div id="panel-a">
+  <svg id="area-chart"></svg>
+  <div id="area-tooltip"></div>
+</div>
+
+<div id="panel-b">
+  <svg id="sankey-chart"></svg>
+</div>
+
+<div id="tooltip"></div>
+<div id="legend"></div>
+<div id="info">Scroll to zoom · Drag to pan · Click a colony to highlight lineage · Click area chart to filter region</div>
+
+<script>
+// ── Configuration ──
+const REGION_COLORS = {
+  'Africa': '#e6a832', 'Asia': '#e05252', 'Pacific': '#52b5e0',
+  'Caribbean': '#52e0a0', 'North America': '#b87be0',
+  'Europe': '#e0c552', 'Antarctica': '#8ecae6', 'Atlantic': '#4ea8a8',
+  'South America': '#2ecc71', 'Unknown': '#777',
+  // Africa sub-regions (variants of Africa gold)
+  'Southern Africa': '#e6a832', 'West Africa': '#d4943a',
+  'East Africa': '#c98030', 'Africa (Islands)': '#d4b060',
+  // Middle East (warm red-orange, between Africa gold and Asia red)
+  'Middle East': '#d46a3a',
+  // Asia sub-regions (variants of Asia red)
+  'South Asia': '#e05252', 'Southeast Asia': '#c94040',
+  // Pacific sub-region
+  'Pacific (Guano/Whaling)': '#7ab8b0',
+};
+const REGION_ORDER = ['North America','Caribbean','Atlantic','South America','Europe',
+  'Middle East','Southern Africa','West Africa','East Africa','Africa (Islands)',
+  'Africa','South Asia','Southeast Asia','Asia',
+  'Pacific','Pacific (Guano/Whaling)',
+  'Antarctica','Unknown'];
+const POST_IMPERIAL = new Set(['Dominion','Independence','Former Colony (Independent)','Federation','Transitional','Unilateral Independence']);
+const NON_BRITISH = new Set(['Boer Republic','Dutch Company Colony','Dutch Colony','French Colony','Colonial Empire','Colonial Territory','Military Administration']);
+const YEAR_MIN = 1580;
+const YEAR_MAX = 1985;
+const UNIT = 14;
+const GAP = 3;
+const EVENTS = [
+  { year: 1776, label: 'American Independence' },
+  { year: 1834, label: 'Slavery Abolition' },
+  { year: 1857, label: 'Indian Rebellion' },
+  { year: 1914, label: 'WWI' },
+  { year: 1939, label: 'WWII' },
+  { year: 1947, label: 'Indian Independence' },
+  { year: 1960, label: 'Year of Africa' },
+];
+
+// ── State ──
+let activeRegion = 'all';
+let selectedNode = null;
+let allNodes, allEdges, nodeById, childrenOf, parentsOf;
+
+function init() {
+  const RAW = EMBED_DATA;
+
+  // Patch known data issues (fixes applied to Neo4j but not yet re-exported)
+  const DATA_FIXES = {
+    'united_colony_of_bc_1866_1871': { ind: 1871 },
+    // Commonwealth of Australia: Dominion ended with Statute of Westminster Adoption Act 1942
+    'commonwealth_of_australia_1901_ongoing': { ind: 1942 },
+    // BC Mainland ind should be 1866 (merged with Vancouver Island), not 1871
+    'mainland_british_columbia_1858_1866': { ind: 1866 },
+    // Colony of Newfoundland became a Dominion in 1907
+    'colony_of_newfoundland_1610_1949': { ind: 1907 },
+    // New Hampshire: 1623 is a fishing village (Pannaway); Province granted 1629 by John Mason
+    'new_hampshire_colony_1623_1783': { est: 1629 },
+    'canada_french_1608_1763': { ind: 1763 },
+    'settlement_of_belize_1798_1862': { ind: 1862, region: 'Caribbean' },
+    'british_honduras_1862_1981': { region: 'Caribbean' },
+    'antigua_montserrat_barbuda_1816_1833': { name: 'Antigua-Barbuda-Montserrat', est: 1816, ind: 1833, region: 'Caribbean' },
+    'stkitts_nevis_anguilla_1816_1833': { name: 'St. Kitts-Nevis-Anguilla', est: 1816, ind: 1833, region: 'Caribbean' },
+    'acadia_french_1604_1713': { ind: 1713 },
+    'bermuda_1609_ongoing': { region: 'Atlantic' },
+    'british_guiana_1831_1966': { region: 'South America' },
+    // #1: Rename Canada, Dominion of → Dominion of Canada, end at 1931
+    'canada_dominion_of_1867_ongoing': { name: 'Dominion of Canada', ind: 1931 },
+    // Nova Scotia date fix handled by node split below
+    // Caribbean fixes
+    'leeward_islands_colony_1671_1816': { ind: 1816 },  // reorganized 1816, not 1956
+    'federal_colony_leeward_islands_1833-1960': { type: 'Federal Colony', ind: 1960 },  // dissolved 1960
+    'antigua_colony_1632_1981': { ind: 1981 },  // independence as Antigua and Barbuda
+    'saint_christopher_nevis_anguilla_1958_1983': { est: 1624 },  // est was correct in data but confirm
+    // Trinidad & Tobago: split into Trinidad Colony (1797-1888) + Colony of T&T (1889-1962)
+    'trinidad_and_tobago_colony_1797_1962': { name: 'Trinidad Colony', ind: 1888 },
+    'trinidad_and_tobago_1889_1962': { name: 'Colony of Trinidad and Tobago' },
+    // Assam Province ended 1905 when merged into Eastern Bengal; restored version covers 1912-1947
+    'assam_province_1874_1905': { ind: 1905 },
+    // Lower Burma absorbed into Burma (British India) in 1886 after Third Anglo-Burmese War
+    'lower_burma_1824_1886': { ind: 1886 },
+    // Assam (Bengal Presidency) ended when separated as its own province
+    'assam_bengal_presidency_1826_1874': { ind: 1874 },
+    // Assam Province (Restored) ended at independence
+    'assam_province_restored_1912_1947': { ind: 1947 },
+    // Assam (Bengal Presidency) ended when separated as its own province
+    'assam_bengal_presidency_1826_1874': { ind: 1874 },
+    // Aden became a Crown Colony in 1937; the original Aden entity ended then
+    'aden_1839_1963': { ind: 1937 },
+    // Bencoolen ceded to Netherlands in 1824 (Anglo-Dutch Treaty)
+    'bencoolen_bengkulu_1685_1824': { ind: 1824 },
+    // Banda Islands returned to Netherlands in 1817
+    'banda_islands_british_occupation_1810_1817': { ind: 1817 },
+    // Forts end when their Presidencies are formally established
+    'factory_at_surat_1612_1857': { ind: 1687 },  // EIC moved HQ to Bombay
+    'fort_william_calcutta_1696_1857': { ind: 1757 },  // Battle of Plassey → Bengal Presidency
+    // Nyasaland end date: joined Federation 1953; post-federation node handles 1963-1964
+    'nyasaland_1891_1964': { ind: 1953 },
+  };
+  RAW.nodes.forEach(n => {
+    const fix = DATA_FIXES[n.id];
+    if (fix) Object.assign(n, fix);
+    // Treat empty string ind as null
+    if (n.ind === '') n.ind = null;
+    // Merge "America" region into "North America"
+    if (n.region === 'America') n.region = 'North America';
+  });
+
+  // Add new nodes not in the KG yet
+  // (Nova Scotia Scottish Charter 1621-1632 removed — no effective colonial presence)
+  // Acadia -> Nova Scotia (Treaty of Utrecht 1713)
+  RAW.edges.push({
+    source: 'acadia_french_1604_1713',
+    target: 'nova_scotia_1621_1867',
+    type: 'EVOLVED_INTO',
+  });
+  // Nova Scotia partition (1784): split into continuing NS + New Brunswick
+  // Replace single Nova Scotia node with pre/post partition nodes
+  const nsIdx = RAW.nodes.findIndex(n => n.id === 'nova_scotia_1621_1867');
+  if (nsIdx >= 0) RAW.nodes.splice(nsIdx, 1);
+  RAW.nodes.push(
+    { id: 'nova_scotia_pre_1713_1784', name: 'Nova Scotia', est: 1713, ind: 1784,
+      region: 'North America', type: 'Crown Colony', qid: 'Q98931415' },
+    { id: 'nova_scotia_post_1784_1867', name: 'Nova Scotia', est: 1784, ind: 1867,
+      region: 'North America', type: 'Crown Colony', qid: 'Q98931415' },
+  );
+  // Update edges that referenced old nova_scotia
+  RAW.edges.forEach(e => {
+    if (e.target === 'nova_scotia_1621_1867') e.target = 'nova_scotia_pre_1713_1784';
+    if (e.source === 'nova_scotia_1621_1867') e.source = 'nova_scotia_post_1784_1867';
+  });
+  // Pre-NS splits into post-NS + New Brunswick
+  RAW.edges.push(
+    { source: 'nova_scotia_pre_1713_1784', target: 'nova_scotia_post_1784_1867', type: 'PARTITIONED_INTO' },
+    { source: 'nova_scotia_pre_1713_1784', target: 'new_brunswick_1784_1867', type: 'PARTITIONED_INTO' },
+    { source: 'nova_scotia_pre_1713_1784', target: 'cape_breton_colony_1784_1820', type: 'PARTITIONED_INTO' },
+    { source: 'cape_breton_colony_1784_1820', target: 'nova_scotia_post_1784_1867', type: 'EVOLVED_INTO' },
+    { source: 'nova_scotia_post_1784_1867', target: 'canada_dominion_of_1867_ongoing', type: 'EVOLVED_INTO' },
+  );
+  // Cape Breton Colony — separated from Nova Scotia 1784, remerged 1820
+  RAW.nodes.push({
+    id: 'cape_breton_colony_1784_1820', name: 'Cape Breton Colony', est: 1784, ind: 1820,
+    region: 'North America', type: 'Crown Colony', qid: 'Q107457458',
+  });
+
+  // East Florida & West Florida — British 1763-1783 (Treaty of Paris to Treaty of Versailles)
+  RAW.nodes.push(
+    { id: 'east_florida_1763_1783', name: 'East Florida', est: 1763, ind: 1783,
+      region: 'North America', type: 'Crown Colony', qid: 'Q1770351' },
+    { id: 'west_florida_1763_1783', name: 'West Florida', est: 1763, ind: 1783,
+      region: 'North America', type: 'Crown Colony', qid: 'Q4971241' },
+  );
+
+  // New France -> Province of Quebec (Treaty of Paris 1763)
+  RAW.edges.push({
+    source: 'new_france_1608_1763',
+    target: 'province_of_quebec_british_1763_1791',
+    type: 'EVOLVED_INTO',
+  });
+  // Île Royale (Cape Breton) -> Nova Scotia (Treaty of Paris 1763)
+  RAW.edges.push({
+    source: 'ile_royale_1713_1763',
+    target: 'nova_scotia_pre_1713_1784',
+    type: 'EVOLVED_INTO',
+  });
+
+  // Add Red River Colony (Selkirk Settlement) — carved from Rupert's Land, became Manitoba
+  RAW.nodes.push({
+    id: 'red_river_colony_1811_1870', name: "Red River Colony", est: 1811, ind: 1870,
+    region: 'North America', type: 'Colony', qid: 'Q1143638',
+  });
+
+  // Australia — Dominion ended 1942 (Statute of Westminster Adoption Act), fully independent
+  RAW.nodes.push({
+    id: 'australia_independent_1942', name: 'Australia', est: 1942, ind: null,
+    region: 'Pacific', type: 'Independence', qid: 'Q408',
+  });
+  RAW.edges.push({
+    source: 'commonwealth_of_australia_1901_ongoing', target: 'australia_independent_1942', type: 'EVOLVED_INTO',
+  });
+
+  // New Zealand — split into Colony (1840-1907), Dominion (1907-1947), Independent (1947-)
+  const nzIdx = RAW.nodes.findIndex(n => n.id === 'new_zealand_1840_1947');
+  if (nzIdx >= 0) RAW.nodes.splice(nzIdx, 1);
+  RAW.nodes.push(
+    { id: 'new_zealand_colony_1840_1907', name: 'New Zealand Colony', est: 1840, ind: 1907,
+      region: 'Pacific', type: 'Crown Colony', qid: 'Q664' },
+    { id: 'dominion_of_new_zealand_1907_1947', name: 'Dominion of New Zealand', est: 1907, ind: 1947,
+      region: 'Pacific', type: 'Dominion', qid: 'Q664' },
+    { id: 'new_zealand_independent_1947', name: 'New Zealand', est: 1947, ind: null,
+      region: 'Pacific', type: 'Independence', qid: 'Q664' },
+  );
+  // Redirect any edges that referenced old NZ node
+  RAW.edges.forEach(e => {
+    if (e.target === 'new_zealand_1840_1947') e.target = 'new_zealand_colony_1840_1907';
+    if (e.source === 'new_zealand_1840_1947') e.source = 'dominion_of_new_zealand_1907_1947';
+  });
+  RAW.edges.push(
+    { source: 'new_zealand_colony_1840_1907', target: 'dominion_of_new_zealand_1907_1947', type: 'EVOLVED_INTO' },
+    { source: 'dominion_of_new_zealand_1907_1947', target: 'new_zealand_independent_1947', type: 'EVOLVED_INTO' },
+  );
+
+  // United States of America — 13 colonies all end 1783 (Treaty of Paris)
+  RAW.nodes.push({
+    id: 'united_states_1776', name: 'United States of America', est: 1776, ind: null,
+    region: 'North America', type: 'Independence', qid: 'Q30',
+  });
+  const THIRTEEN_COLONIES = [
+    'virginia_colony_1607_1783', 'massachusetts_bay_colony_1630_1783',
+    'pennsylvania_colony_1681_1783', 'new_york_colony_1664_1783',
+    'maryland_colony_1634_1783', 'connecticut_colony_1636_1783',
+    'rhode_island_colony_1636_1783', 'delaware_colony_1664_1783',
+    'new_hampshire_colony_1623_1783', 'new_jersey_colony_1664_1783',
+    'north_carolina_colony_1663_1783', 'south_carolina_colony_1663_1783',
+    'georgia_colony_1732_1783',
+  ];
+  THIRTEEN_COLONIES.forEach(id => {
+    RAW.edges.push({ source: id, target: 'united_states_1776', type: 'EVOLVED_INTO' });
+  });
+
+  // #2: Add post-Statute Canada (1931-ongoing) as independent nation
+  RAW.nodes.push({
+    id: 'canada_independent_1931', name: 'Canada', est: 1931, ind: null,
+    region: 'North America', type: 'Independence', qid: 'Q16',
+  });
+  RAW.edges.push({
+    source: 'canada_dominion_of_1867_ongoing', target: 'canada_independent_1931', type: 'EVOLVED_INTO',
+  });
+
+  // #4: NW Territory originated from HBC/Rupert's Land administration
+  RAW.edges.push({
+    source: 'ruperts_land_1670_1870', target: 'north_western_territory_1670_1870', type: 'PARTITIONED_INTO',
+  });
+
+  // Rupert's Land splits: Red River Colony carved out, remainder + Red River + NW Territory all flow into Canada
+  RAW.edges.push(
+    { source: 'ruperts_land_1670_1870', target: 'red_river_colony_1811_1870', type: 'PARTITIONED_INTO' },
+    { source: 'ruperts_land_1670_1870', target: 'canada_dominion_of_1867_ongoing', type: 'EVOLVED_INTO' },
+    { source: 'red_river_colony_1811_1870', target: 'canada_dominion_of_1867_ongoing', type: 'EVOLVED_INTO' },
+    { source: 'north_western_territory_1670_1870', target: 'canada_dominion_of_1867_ongoing', type: 'EVOLVED_INTO' },
+  );
+
+  // Newfoundland chain
+  // Colony (1610-1907) → Dominion (1907-1934) → Commission of Government (1934-1949) → Canada (1949)
+  RAW.nodes.push({
+    id: 'newfoundland_commission_1934_1949', name: 'Newfoundland (Commission)', est: 1934, ind: 1949,
+    region: 'North America', type: 'Crown Colony', qid: 'Q48378',
+  });
+  RAW.edges.push(
+    { source: 'colony_of_newfoundland_1610_1949', target: 'dominion_of_newfoundland_1907_1934', type: 'EVOLVED_INTO' },
+    { source: 'dominion_of_newfoundland_1907_1934', target: 'newfoundland_commission_1934_1949', type: 'EVOLVED_INTO' },
+    { source: 'newfoundland_commission_1934_1949', target: 'canada_independent_1931', type: 'EVOLVED_INTO' },
+  );
+
+  // ── Africa fixes ──
+
+  // Redirect edges that referenced removed Rhodesia envelope bars
+  RAW.edges.forEach(e => {
+    // northern_rhodesia_1911_1964 → northern_rhodesia_colony_1924_1953
+    if (e.target === 'northern_rhodesia_1911_1964') e.target = 'northern_rhodesia_colony_1924_1953';
+    if (e.source === 'northern_rhodesia_1911_1964') e.source = 'northern_rhodesia_colony_1924_1953';
+    // southern_rhodesia_1901_1980 has no inbound edges, but redirect outbound just in case
+    if (e.source === 'southern_rhodesia_1901_1980') e.source = 'southern_rhodesia_colony_1923_1953';
+    if (e.target === 'southern_rhodesia_1901_1980') e.target = 'southern_rhodesia_colony_1923_1953';
+    // Fix Assam cycle: Eastern Bengal → Assam (1874) is backwards; should point to Assam (Restored)
+    if (e.source === 'eastern_bengal_and_assam_1905_1912' && e.target === 'assam_province_1874_1905')
+      e.target = 'assam_province_restored_1912_1947';
+    // Redirect edges that referenced removed duplicates
+    if (e.target === 'uganda_protectorate_1894_1962') e.target = 'uganda_1894_1962';
+    if (e.source === 'uganda_protectorate_1894_1962') e.source = 'uganda_1894_1962';
+    if (e.target === 'somaliland_protectorate_1884_1960') e.target = 'british_somaliland_1884_1960';
+    if (e.source === 'somaliland_protectorate_1884_1960') e.source = 'british_somaliland_1884_1960';
+    if (e.target === 'anglo_egyptian_sudan_1899_1956') e.target = 'sudan_anglo-egyptian_1899_1956';
+    if (e.source === 'anglo_egyptian_sudan_1899_1956') e.source = 'sudan_anglo-egyptian_1899_1956';
+  });
+
+  // Remove wrong Cape Colony edges — Cape didn't "become" or "partition into" these entities
+  // Natalia Republic: Boer republic, annexed by Britain (not a Cape partition)
+  // ORS: proclaimed by Cape governor but over territory NORTH of the Orange River — not Cape territory
+  RAW.edges = RAW.edges.filter(e =>
+    !(e.source === 'cape_colony_british_1806_1910' && e.target === 'natalia_republic_1839_1843') &&
+    !(e.source === 'cape_colony_british_1806_1910' && e.target === 'orange_river_sovereignty_1848_1854')
+  );
+
+  // Leeward Islands Colony (1671-1816) split into two sub-groupings (Pattern E: Partition)
+  RAW.edges.forEach(e => {
+    if (e.source === 'leeward_islands_colony_1671_1816' &&
+        (e.target === 'antigua_montserrat_barbuda_1816_1833' || e.target === 'stkitts_nevis_anguilla_1816_1833'))
+      e.type = 'PARTITIONED_INTO';
+  });
+
+  // BSAC Territory was SPLIT between Southern and Northern Rhodesia (Pattern E: Partition)
+  RAW.edges.forEach(e => {
+    if (e.source === 'british_south_africa_company_territory_1889_1923' &&
+        (e.target === 'southern_rhodesia_colony_1923_1953' || e.target === 'northern_rhodesia_colony_1924_1953'))
+      e.type = 'PARTITIONED_INTO';
+  });
+
+  // Rhodesia: NR Colony + SR Colony + Nyasaland joined Federation (1953).
+  // Federation dissolved (1963) back into separate entities that then went independent.
+  // To avoid cycles (NR→Fed→NR), create post-federation nodes for SR and NR.
+  RAW.edges = RAW.edges.filter(e =>
+    !(e.source === 'federation_of_rhodesia_and_nyasaland_1953_1963' && e.target === 'rhodesia_udi_1965_1979')
+  );
+  RAW.nodes.push(
+    { id: 'southern_rhodesia_post_federation_1963', name: 'Southern Rhodesia', est: 1963, ind: 1965,
+      region: 'Southern Africa', type: 'Self-governing Colony', qid: 'Q750583' },
+    { id: 'northern_rhodesia_post_federation_1964', name: 'Northern Rhodesia', est: 1963, ind: 1964,
+      region: 'Southern Africa', type: 'Transitional', qid: 'Q953903' },
+  );
+  RAW.edges.push(
+    { source: 'federation_of_rhodesia_and_nyasaland_1953_1963', target: 'southern_rhodesia_post_federation_1963', type: 'PARTITIONED_INTO' },
+    { source: 'federation_of_rhodesia_and_nyasaland_1953_1963', target: 'northern_rhodesia_post_federation_1964', type: 'PARTITIONED_INTO' },
+    { source: 'federation_of_rhodesia_and_nyasaland_1953_1963', target: 'nyasaland_post_federation_1963', type: 'PARTITIONED_INTO' },
+    { source: 'southern_rhodesia_post_federation_1963', target: 'rhodesia_udi_1965_1979', type: 'EVOLVED_INTO' },
+  );
+
+  // Fix edge types: carve-outs where source continued should be PARTITIONED_INTO
+  RAW.edges.forEach(e => {
+    // Bengal Crown continued after Assam was carved out
+    if (e.source === 'bengal_presidency_crown_1858_1912' && e.target === 'assam_province_1874_1905')
+      e.type = 'PARTITIONED_INTO';
+    // Punjab continued after NWFP was carved out
+    if (e.source === 'punjab_province_1849_1947' && e.target === 'north_west_frontier_province_1901_1947')
+      e.type = 'PARTITIONED_INTO';
+  });
+
+  // Australia: NSW carved out Van Diemen's Land, Victoria, Queensland — NSW continued (Pattern C)
+  // South Australia → Northern Territory is wrong (SA transferred admin to federal govt, not succession)
+  RAW.edges.forEach(e => {
+    if (e.source === 'new_south_wales_original_1788_1901' &&
+        (e.target === 'van_diemens_land_1803_1856' || e.target === 'victoria_colony_1851_1901' || e.target === 'queensland_1859_1901'))
+      e.type = 'PARTITIONED_INTO';
+  });
+  RAW.edges = RAW.edges.filter(e =>
+    !(e.source === 'south_australia_1836_1901' && e.target === 'northern_territory_1911_ongoing')
+  );
+
+  // Rename NSW (Original) — it's just New South Wales
+  const nswFix = RAW.nodes.find(n => n.id === 'new_south_wales_original_1788_1901');
+  if (nswFix) nswFix.name = 'New South Wales';
+
+  // EIC Pre-Territorial → Bengal Presidency is the only true temporal succession (1757, Battle of Plassey).
+  // Madras (1640) and Bombay (1687) were concurrent EIC operations, not temporal splits from EIC ending.
+  // They remain standalone bars — no PARTITIONED_INTO edges added.
+
+  // Forts end when their Presidencies are established and flow into them.
+  // Fort St. George IS Madras Presidency (same entity, same year 1640) — remove as duplicate.
+  // Factory at Surat → Bombay Presidency Company (EIC moved HQ to Bombay 1687)
+  // Fort William → Bengal Presidency Company (Battle of Plassey 1757)
+  RAW.edges.push(
+    { source: 'factory_at_surat_1612_1857', target: 'bombay_presidency_company_1687_1858', type: 'EVOLVED_INTO' },
+    { source: 'fort_william_calcutta_1696_1857', target: 'bengal_presidency_company_1757_1858', type: 'EVOLVED_INTO' },
+  );
+
+  // 1947 Partition fixes:
+  // Bengal and Punjab were PARTITIONED between India and Pakistan, not simply "evolved into" both
+  RAW.edges.forEach(e => {
+    if (e.source === 'bengal_province_reunited_1912_1947' && (e.target === 'dominion_of_india_1947_1950' || e.target === 'dominion_of_pakistan_1947_1956'))
+      e.type = 'PARTITIONED_INTO';
+    if (e.source === 'punjab_province_1849_1947' && (e.target === 'dominion_of_india_1947_1950' || e.target === 'dominion_of_pakistan_1947_1956'))
+      e.type = 'PARTITIONED_INTO';
+  });
+  // Baluchistan → Pakistan (missing from KG)
+  RAW.edges.push(
+    { source: 'baluchistan_1877_1947', target: 'dominion_of_pakistan_1947_1956', type: 'EVOLVED_INTO' },
+  );
+  // Aden Province → Aden Colony (separated as Crown Colony 1937)
+  RAW.edges.push(
+    { source: 'aden_1839_1963', target: 'aden_colony_1937_1967', type: 'EVOLVED_INTO' },
+  );
+  // Assam was administered under Bengal Presidency (Company) from 1826
+  RAW.edges.push(
+    { source: 'bengal_presidency_company_1757_1858', target: 'assam_bengal_presidency_1826_1874', type: 'PARTITIONED_INTO' },
+  );
+
+  // Add missing Indian provinces (not in KG export)
+  RAW.nodes.push(
+    { id: 'coorg_province_1834_1947', name: 'Coorg', est: 1834, ind: 1947,
+      region: 'Asia', type: 'Province', qid: 'Q864930' },
+    { id: 'ajmer_merwara_1818_1947', name: 'Ajmer-Merwara', est: 1818, ind: 1947,
+      region: 'Asia', type: 'Province', qid: 'Q4700553' },
+    { id: 'sind_province_1843_1947', name: 'Sind', est: 1936, ind: 1947,
+      region: 'Asia', type: 'Province', qid: 'Q7523949' },
+    { id: 'andaman_and_nicobar_islands_1789_1947', name: 'Andaman and Nicobar Islands', est: 1789, ind: 1947,
+      region: 'Asia', type: 'Province', qid: 'Q40888' },
+  );
+  // These provinces all merged into Dominion of India at independence
+  RAW.edges.push(
+    { source: 'coorg_province_1834_1947', target: 'dominion_of_india_1947_1950', type: 'EVOLVED_INTO' },
+    { source: 'ajmer_merwara_1818_1947', target: 'dominion_of_india_1947_1950', type: 'EVOLVED_INTO' },
+    { source: 'andaman_and_nicobar_islands_1789_1947', target: 'dominion_of_india_1947_1950', type: 'EVOLVED_INTO' },
+  );
+  // Sind was part of Bombay Presidency, carved out as separate province in 1936
+  RAW.edges.push(
+    { source: 'bombay_presidency_crown_1858_1947', target: 'sind_province_1843_1947', type: 'PARTITIONED_INTO' },
+    { source: 'sind_province_1843_1947', target: 'dominion_of_pakistan_1947_1956', type: 'EVOLVED_INTO' },
+  );
+  // Post-1947 entities removed — too complex for this visualization.
+  // The Dominion bars serve as partition endpoints.
+
+  const AFRICA_FIXES = {
+    'northern_rhodesia_post_federation_1963': { type: 'Transitional' },
+    'nyasaland_post_federation_1963': { type: 'Transitional', est: 1963, ind: 1964 },
+  };
+  RAW.nodes.forEach(n => {
+    const fix = AFRICA_FIXES[n.id];
+    if (fix) Object.assign(n, fix);
+  });
+
+  // Gold Coast group: Ashanti (conquered 1901) and British Togoland (mandate 1919) were
+  // administered under the Gold Coast Colony. They are sub-administrations, not predecessors.
+  // At independence (1957) all three became Ghana together.
+  RAW.edges.push(
+    { source: 'gold_coast_colony_1874_1957', target: 'ashanti_1901_1957', type: 'PARTITIONED_INTO' },
+    { source: 'gold_coast_colony_1874_1957', target: 'british_togoland_1919_1957', type: 'PARTITIONED_INTO' },
+  );
+
+  // === Southeast Asia: Malaysia formation (1963) and Singapore separation (1965) ===
+  // Malaya (independent) + Singapore Crown Colony + North Borneo + Sarawak + Labuan → Malaysia (1963)
+  // Singapore separated from Malaysia in 1965 (Pattern E: Partition)
+  RAW.nodes.push(
+    { id: 'malaysia_1963', name: 'Malaysia', est: 1963, ind: null,
+      region: 'Asia', type: 'Independence', qid: 'Q833' },
+    { id: 'singapore_independent_1965', name: 'Singapore', est: 1965, ind: null,
+      region: 'Asia', type: 'Independence', qid: 'Q334' },
+  );
+  RAW.edges.push(
+    { source: 'malaya_independent_1957_1963', target: 'malaysia_1963', type: 'EVOLVED_INTO' },
+    { source: 'singapore_crown_colony_1946_1963', target: 'malaysia_1963', type: 'EVOLVED_INTO' },
+    { source: 'north_borneo_crown_colony_1946_1963', target: 'malaysia_1963', type: 'EVOLVED_INTO' },
+    { source: 'sarawak_crown_colony_1946_1963', target: 'malaysia_1963', type: 'EVOLVED_INTO' },
+    { source: 'labuan_1846_1963', target: 'malaysia_1963', type: 'EVOLVED_INTO' },
+    // Singapore separated from Malaysia in 1965
+    { source: 'malaysia_1963', target: 'singapore_independent_1965', type: 'PARTITIONED_INTO' },
+    // Brunei declined to join Malaysia — standalone protectorate to independence
+  );
+  // Straits Settlements dissolution (1946): Straits → Malayan Union + Singapore Crown Colony
+  // This is a partition (Straits ends, two successors), but the EVOLVED_INTO edges in source data
+  // already handle it. Fix the Straits→Singapore edge to PARTITIONED_INTO since Straits also → Malayan Union.
+  RAW.edges.forEach(e => {
+    if (e.source === 'straits_settlements_1826_1946' && e.target === 'singapore_crown_colony_1946_1963')
+      e.type = 'PARTITIONED_INTO';
+  });
+
+  // === East Africa: Fix Tanganyika/Zanzibar and add Tanzania ===
+  // BAD EDGE: Tanganyika Territory (1922-1961) → Zanzibar (1890-1963) — Zanzibar predates Tanganyika!
+  // They merged in 1964 to form Tanzania, but they are NOT a succession.
+  RAW.edges = RAW.edges.filter(e =>
+    !(e.source === 'tanganyika_territory_1922_1961' && e.target === 'zanzibar_1890_1963')
+  );
+  // Add Tanzania (1964): merger of Tanganyika (independent) + Zanzibar (independent)
+  RAW.nodes.push(
+    { id: 'tanzania_1964', name: 'Tanzania', est: 1964, ind: null,
+      region: 'Africa', type: 'Independence', qid: 'Q924' },
+  );
+  RAW.edges.push(
+    { source: 'tanganyika_1961_1964', target: 'tanzania_1964', type: 'EVOLVED_INTO' },
+    { source: 'zanzibar_independent_1963_1964', target: 'tanzania_1964', type: 'EVOLVED_INTO' },
+  );
+
+  // === Europe: Missing nodes — Minorca, Corsica, Heligoland ===
+  // Minorca had three separate periods of British control:
+  //   1708-1756 (captured in War of Spanish Succession, lost to France)
+  //   1763-1782 (restored by Treaty of Paris, lost to Spain in siege)
+  //   1798-1802 (recaptured, returned to Spain by Treaty of Amiens)
+  RAW.nodes.push(
+    { id: 'minorca_first_1708_1756', name: 'Minorca (1st British)', est: 1708, ind: 1756,
+      region: 'Europe', type: 'Crown Colony', qid: 'Q173095' },
+    { id: 'minorca_second_1763_1782', name: 'Minorca (2nd British)', est: 1763, ind: 1782,
+      region: 'Europe', type: 'Crown Colony', qid: 'Q173095' },
+    { id: 'minorca_third_1798_1802', name: 'Minorca (3rd British)', est: 1798, ind: 1802,
+      region: 'Europe', type: 'Crown Colony', qid: 'Q173095' },
+    // Anglo-Corsican Kingdom: brief British protectorate under George III
+    { id: 'corsica_1794_1796', name: 'Anglo-Corsican Kingdom', est: 1794, ind: 1796,
+      region: 'Europe', type: 'Protectorate', qid: 'Q2259576' },
+    // Heligoland: captured from Denmark 1807, ceded to Germany 1890 (Heligoland-Zanzibar Treaty)
+    { id: 'heligoland_1807_1890', name: 'Heligoland', est: 1807, ind: 1890,
+      region: 'Europe', type: 'Crown Colony', qid: 'Q3104' },
+  );
+  // Minorca succession: 1st → 2nd → 3rd (same island recaptured each time)
+  RAW.edges.push(
+    { source: 'minorca_first_1708_1756', target: 'minorca_second_1763_1782', type: 'EVOLVED_INTO' },
+    { source: 'minorca_second_1763_1782', target: 'minorca_third_1798_1802', type: 'EVOLVED_INTO' },
+  );
+
+  // === Europe: Ireland ===
+  // Kingdom of Ireland (1541-1801): Henry VIII declared King of Ireland; ended with Acts of Union.
+  // Ireland in the UK (1801-1922): United Kingdom of GB&I; ended with Anglo-Irish Treaty/partition.
+  // Irish Free State (1922-1937): Dominion status; became sovereign state (Éire/Republic).
+  // Northern Ireland (1920-ongoing): Remained in the UK after partition.
+  RAW.nodes.push(
+    { id: 'kingdom_of_ireland_1541_1801', name: 'Kingdom of Ireland', est: 1541, ind: 1801,
+      region: 'Europe', type: 'Kingdom', qid: 'Q179876' },
+    { id: 'ireland_uk_1801_1922', name: 'Ireland (UK)', est: 1801, ind: 1922,
+      region: 'Europe', type: 'Union', qid: 'Q174193' },
+    { id: 'irish_free_state_1922_1937', name: 'Irish Free State', est: 1922, ind: 1937,
+      region: 'Europe', type: 'Dominion', qid: 'Q31747' },
+    { id: 'northern_ireland_1920', name: 'Northern Ireland', est: 1920, ind: null,
+      region: 'Europe', type: 'Devolved Government', qid: 'Q26' },
+  );
+  RAW.edges.push(
+    { source: 'kingdom_of_ireland_1541_1801', target: 'ireland_uk_1801_1922', type: 'EVOLVED_INTO' },
+    // Partition of Ireland (1920-1922): Ireland split into Irish Free State + Northern Ireland
+    { source: 'ireland_uk_1801_1922', target: 'irish_free_state_1922_1937', type: 'PARTITIONED_INTO' },
+    { source: 'ireland_uk_1801_1922', target: 'northern_ireland_1920', type: 'PARTITIONED_INTO' },
+  );
+
+  // Sierra Leone Colony & Protectorate: est=1787 is wrong (that's Province of Freedom date).
+  // The protectorate over the hinterland was declared in 1896. Fix est to make clean succession.
+  const SL_FIX = { 'sierra_leone_colony_and_protectorate_1787_1961': { est: 1896 } };
+  RAW.nodes.forEach(n => { const f = SL_FIX[n.id]; if (f) Object.assign(n, f); });
+
+  // === Historian review additions (Cell 14) ===
+
+  // Princely States placeholder — ~565 states under British paramountcy
+  RAW.nodes.push({
+    id: 'princely_states_placeholder_1818_1947', name: 'Princely States (placeholder)',
+    est: 1818, ind: 1947, region: 'Asia', type: 'Princely State', qid: 'Q1336152',
+  });
+  RAW.edges.push(
+    { source: 'princely_states_placeholder_1818_1947', target: 'dominion_of_india_1947_1950', type: 'EVOLVED_INTO' },
+    { source: 'princely_states_placeholder_1818_1947', target: 'dominion_of_pakistan_1947_1956', type: 'PARTITIONED_INTO' },
+  );
+
+  // Pre-British Guiana: Essequibo, Demerara, Berbice (British 1803, merged 1831)
+  RAW.nodes.push(
+    { id: 'essequibo_colony_1803_1831', name: 'Essequibo', est: 1803, ind: 1831,
+      region: 'South America', type: 'Crown Colony', qid: 'Q2199929' },
+    { id: 'demerara_colony_1803_1831', name: 'Demerara', est: 1803, ind: 1831,
+      region: 'South America', type: 'Crown Colony', qid: 'Q2399707' },
+    { id: 'berbice_colony_1803_1831', name: 'Berbice', est: 1803, ind: 1831,
+      region: 'South America', type: 'Crown Colony', qid: 'Q861922' },
+  );
+  RAW.edges.push(
+    { source: 'essequibo_colony_1803_1831', target: 'british_guiana_1831_1966', type: 'EVOLVED_INTO' },
+    { source: 'demerara_colony_1803_1831', target: 'british_guiana_1831_1966', type: 'EVOLVED_INTO' },
+    { source: 'berbice_colony_1803_1831', target: 'british_guiana_1831_1966', type: 'EVOLVED_INTO' },
+  );
+
+  // Central American protectorates
+  RAW.nodes.push(
+    { id: 'mosquito_coast_1638_1860', name: 'Mosquito Coast', est: 1638, ind: 1860,
+      region: 'Caribbean', type: 'Protectorate', qid: 'Q1948981' },
+    { id: 'bay_islands_1852_1859', name: 'Bay Islands', est: 1852, ind: 1859,
+      region: 'Caribbean', type: 'Crown Colony', qid: 'Q1553529' },
+  );
+
+  // Dead-end successors
+  RAW.nodes.push(
+    { id: 'state_of_israel_1948', name: 'State of Israel', est: 1948, ind: null,
+      region: 'Middle East', type: 'Independence', qid: 'Q801' },
+    { id: 'somali_republic_1960', name: 'Somali Republic', est: 1960, ind: null,
+      region: 'Middle East', type: 'Independence', qid: 'Q1045' },
+  );
+  RAW.edges.push(
+    { source: 'palestine_1920_1948', target: 'state_of_israel_1948', type: 'PARTITIONED_INTO' },
+    { source: 'british_somaliland_1884_1960', target: 'somali_republic_1960', type: 'EVOLVED_INTO' },
+  );
+
+  // West Indies Federation membership (PART_OF, not succession)
+  const WIF_MEMBERS = [
+    'jamaica_1655_1962', 'trinidad_and_tobago_1889_1962', 'barbados_1627_1966',
+    'antigua_colony_1632_1981', 'st_lucia_colony_1814_1979', 'dominica_colony_1763_1978',
+    'grenada_colony_1763_1974', 'st_vincent_colony_1763_1979',
+    'saint_christopher_nevis_anguilla_1958_1983', 'montserrat_1632_ongoing',
+  ];
+  WIF_MEMBERS.forEach(id => {
+    RAW.edges.push({ source: id, target: 'west_indies_federation_1958_1962', type: 'PART_OF' });
+  });
+
+  // Split Africa into sub-regions for manageability
+  const AFRICA_SUBREGIONS = {
+    // Southern Africa (30)
+    'cape_colony_dutch_1652_1795': 'Southern Africa',
+    'cape_colony_british_1795_1803_1795_1803': 'Southern Africa',
+    'cape_colony_dutch_restored_1803_1806': 'Southern Africa',
+    'cape_colony_british_1806_1910': 'Southern Africa',
+    'natalia_republic_1839_1843': 'Southern Africa',
+    'colony_of_natal_1843_1910': 'Southern Africa',
+    'orange_river_sovereignty_1848_1854': 'Southern Africa',
+    'south_african_republic_transvaal_1852_1877': 'Southern Africa',
+    'orange_free_state_1854_1900': 'Southern Africa',
+    'basutoland_1868_1966': 'Southern Africa',
+    'griqualand_west_1871_1880': 'Southern Africa',
+    'transvaal_colony_first_british_1877_1881': 'Southern Africa',
+    'south_african_republic_restored_1881_1900': 'Southern Africa',
+    'bechuanaland_protectorate_1884_1966': 'Southern Africa',
+    'british_bechuanaland_1885_1895': 'Southern Africa',
+    'zululand_1887_1897': 'Southern Africa',
+    'british_south_africa_company_territory_1889_1923': 'Southern Africa',
+    'orange_river_colony_1900_1910': 'Southern Africa',
+    'transvaal_colony_second_british_1900_1910': 'Southern Africa',
+    'southern_rhodesia_1901_1980': 'Southern Africa',
+    'swaziland_1903_1968': 'Southern Africa',
+    'union_of_south_africa_1910_1961': 'Southern Africa',
+    'northern_rhodesia_1911_1964': 'Southern Africa',
+    'southern_rhodesia_colony_1923_1953': 'Southern Africa',
+    'northern_rhodesia_colony_1924_1953': 'Southern Africa',
+    'federation_of_rhodesia_and_nyasaland_1953_1963': 'Southern Africa',
+    'northern_rhodesia_post_federation_1963': 'Southern Africa',
+    'northern_rhodesia_post_federation_1964': 'Southern Africa',
+    'southern_rhodesia_post_federation_1963': 'Southern Africa',
+    'rhodesia_udi_1965_1979': 'Southern Africa',
+    'zimbabwe_rhodesia_1979_1979': 'Southern Africa',
+    'southern_rhodesia_restored_1979_1980': 'Southern Africa',
+    // West Africa (22)
+    'james_island_trading_post_1661_1816': 'West Africa',
+    'james_island_gambia_1661_1779': 'West Africa',
+    'cape_coast_castle_1664_1821': 'West Africa',
+    'gambia_colony_1816_1888': 'West Africa',
+    'british_gold_coast_1821_1874': 'West Africa',
+    'fernando_po_british_1827_1843': 'Africa (Islands)',
+    'gold_coast_colony_1874_1957': 'West Africa',
+    'oil_rivers_protectorate_1885_1893': 'West Africa',
+    'royal_niger_company_territory_1886_1900': 'West Africa',
+    'lagos_protectorate_1887_1906': 'West Africa',
+    'gambia_colony_and_protectorate_1816_1965': 'West Africa',
+    'niger_coast_protectorate_1893_1900': 'West Africa',
+    'ashanti_1901_1957': 'West Africa',
+    'southern_nigeria_protectorate_1900_1914': 'West Africa',
+    'northern_nigeria_1900_1914': 'West Africa',
+    'colony_and_protectorate_of_nigeria_1914_1960': 'West Africa',
+    'british_cameroons_1916_1961': 'West Africa',
+    'british_togoland_1919_1957': 'West Africa',
+    'province_of_freedom_1787_1792': 'West Africa',
+    'sierra_leone_company_settlement_1792_1808': 'West Africa',
+    'sierra_leone_colony_1808_1896': 'West Africa',
+    'sierra_leone_colony_and_protectorate_1787_1961': 'West Africa',
+    // East Africa (13)
+    'imperial_british_east_africa_company_territory_1888_1895': 'East Africa',
+    'british_central_africa_protectorate_1891_1907': 'Southern Africa',
+    'zanzibar_1890_1963': 'East Africa',
+    'nyasaland_1891_1964': 'Southern Africa',
+    'uganda_1894_1962': 'East Africa',
+    'uganda_protectorate_1894_1962': 'East Africa',
+    'east_africa_protectorate_1895_1920': 'East Africa',
+    'german_east_africa_british_occupied_1916_1922': 'East Africa',
+    'kenya_colony_and_protectorate_of_1920_1963': 'East Africa',
+    'tanganyika_territory_1922_1961': 'East Africa',
+    'tanganyika_1961_1964': 'East Africa',
+    'zanzibar_independent_1963_1964': 'East Africa',
+    'tanzania_1964': 'East Africa',
+    'nyasaland_post_federation_1963': 'Southern Africa',
+    // Middle East & NE Africa (20)
+    'egypt_1882_1922': 'Middle East',
+    'sudan_anglo-egyptian_1899_1956': 'Middle East',
+    'anglo_egyptian_sudan_1899_1956': 'Middle East',
+    'british_somaliland_1884_1960': 'Middle East',
+    'somaliland_protectorate_1884_1960': 'Middle East',
+    'aden_1839_1963': 'Middle East',
+    'aden_colony_1937_1967': 'Middle East',
+    'aden_protectorate_1839_1967': 'Middle East',
+    'south_yemen_1967_1990': 'Middle East',
+    'socotra_island_1886_1967': 'Middle East',
+    'bahrain_protectorate_1861_1971': 'Middle East',
+    'kuwait_1899_1961': 'Middle East',
+    'kuwait_protectorate_1899_1961': 'Middle East',
+    'qatar_protectorate_1916_1971': 'Middle East',
+    'trucial_states_1820_1971': 'Middle East',
+    'muscat_and_oman_protectorate_1891_1971': 'Middle East',
+    'palestine_1920_1948': 'Middle East',
+    'mandatory_palestine_1920_1948': 'Middle East',
+    'transjordan_1922_1946': 'Middle East',
+    'mesopotamia_british_occupied_1914_1920': 'Middle East',
+    'mandatory_iraq_1920_1932': 'Middle East',
+    'iraq_1932_ongoing': 'Middle East',
+    'state_of_israel_1948': 'Middle East',
+    'somali_republic_1960': 'Middle East',
+    // Cyprus stays in Europe (its original region)
+    // Indian Ocean & Atlantic Islands (11)
+    'st._helena_1659_ongoing': 'Africa (Islands)',
+    'ascension_island_1815_ongoing': 'Africa (Islands)',
+    'tristan_da_cunha_1816_ongoing': 'Africa (Islands)',
+    'isle_de_france_british_occupation_1810_1814': 'Africa (Islands)',
+    'mauritius_1814_1968': 'Africa (Islands)',
+    'seychelles_mauritius_dependency_1814_1903': 'Africa (Islands)',
+    'rodrigues_1814_1968': 'Africa (Islands)',
+    'seychelles_1903_1976': 'Africa (Islands)',
+    'aldabra_islands_1903_1965': 'Africa (Islands)',
+    'farquhar_islands_1903_1965': 'Africa (Islands)',
+    'desroches_islands_1903_1965': 'Africa (Islands)',
+    // South Asia (India subcontinent + Burma + Ceylon)
+    'bengal_presidency_company_1757_1858': 'South Asia',
+    'madras_presidency_company_1640_1858': 'South Asia',
+    'bombay_presidency_company_1687_1858': 'South Asia',
+    'bengal_presidency_crown_1858_1912': 'South Asia',
+    'madras_presidency_crown_1858_1947': 'South Asia',
+    'bombay_presidency_crown_1858_1947': 'South Asia',
+    'punjab_province_1849_1947': 'South Asia',
+    'central_provinces_1861_1947': 'South Asia',
+    'united_provinces_1877_1947': 'South Asia',
+    'assam_province_1874_1905': 'South Asia',
+    'north_west_frontier_province_1901_1947': 'South Asia',
+    'eastern_bengal_and_assam_1905_1912': 'South Asia',
+    'bengal_province_partitioned_1905_1912': 'South Asia',
+    'bengal_province_reunited_1912_1947': 'South Asia',
+    'bihar_and_orissa_1912_1947': 'South Asia',
+    'assam_bengal_presidency_1826_1874': 'South Asia',
+    'baluchistan_1877_1947': 'South Asia',
+    'assam_province_restored_1912_1947': 'South Asia',
+    'dominion_of_india_1947_1950': 'South Asia',
+    'dominion_of_pakistan_1947_1956': 'South Asia',
+    'lower_burma_1824_1886': 'South Asia',
+    'burma_british_india_1886_1937': 'South Asia',
+    'burma_separate_colony_1937_1948': 'South Asia',
+    'ceylon_1795_1948': 'South Asia',
+    'factory_at_surat_1612_1857': 'South Asia',
+    'coorg_province_1834_1947': 'South Asia',
+    'ajmer_merwara_1818_1947': 'South Asia',
+    'sind_province_1843_1947': 'South Asia',
+    'andaman_and_nicobar_islands_1789_1947': 'South Asia',
+    'maldives_protectorate_1887_1965': 'South Asia',
+    'chagos_islands_mauritius_dependency_1814_1965': 'South Asia',
+    'fort_st_george_madras_1640_1857': 'South Asia',
+    'fort_william_calcutta_1696_1857': 'South Asia',
+    'princely_states_placeholder_1818_1947': 'South Asia',
+    // Southeast & East Asia
+    'hong_kong_1841_1997': 'Southeast Asia',
+    'malaya_1824_1963': 'Southeast Asia',
+    'singapore_1824_1965': 'Southeast Asia',
+    'penang_prince_of_wales_island_1786_1826': 'Southeast Asia',
+    'singapore_settlement_1819_1826': 'Southeast Asia',
+    'malacca_settlement_1824_1826': 'Southeast Asia',
+    'straits_settlements_1826_1946': 'Southeast Asia',
+    'labuan_1846_1963': 'Southeast Asia',
+    'federated_malay_states_1895_1946': 'Southeast Asia',
+    'unfederated_malay_states_1909_1946': 'Southeast Asia',
+    'british_north_borneo_1882_1946': 'Southeast Asia',
+    'north_borneo_crown_colony_1946_1963': 'Southeast Asia',
+    'sarawak_1841_1946': 'Southeast Asia',
+    'sarawak_crown_colony_1946_1963': 'Southeast Asia',
+    'malayan_union_1946_1948': 'Southeast Asia',
+    'federation_of_malaya_1948_1957': 'Southeast Asia',
+    'malaya_independent_1957_1963': 'Southeast Asia',
+    'singapore_crown_colony_1946_1963': 'Southeast Asia',
+    'brunei_protectorate_1888_1984': 'Southeast Asia',
+    'malaysia_1963': 'Southeast Asia',
+    'singapore_independent_1965': 'Southeast Asia',
+    'weihaiwei_1898_1930': 'Southeast Asia',
+    'bencoolen_bengkulu_1685_1824': 'Southeast Asia',
+    'java_british_occupation_1811_1816': 'Southeast Asia',
+    'moluccas_british_occupation_1810_1817': 'Southeast Asia',
+    'banda_islands_british_occupation_1810_1817': 'Southeast Asia',
+    'netherlands_east_indies_british_administration_1945_1946': 'Southeast Asia',
+    'shanghai_international_settlement_1863_1943': 'Southeast Asia',
+    'macao_british_co_administration_1622_1623': 'Southeast Asia',
+
+    // Pacific: guano islands and whaling stations separated from real colonies
+    'campbell_island_whaling_1810_1860': 'Pacific (Guano/Whaling)',
+    'norfolk_island_whaling_station_1830_1870': 'Pacific (Guano/Whaling)',
+    'swains_island_1856_1925': 'Pacific (Guano/Whaling)',
+    'howland_island_1857_1898': 'Pacific (Guano/Whaling)',
+    'jarvis_island_1857_1898': 'Pacific (Guano/Whaling)',
+    'christmas_island_line_islands_1857_1979': 'Pacific (Guano/Whaling)',
+    'enderbury_island_1860_1979': 'Pacific (Guano/Whaling)',
+    'mckean_island_1860_1979': 'Pacific (Guano/Whaling)',
+    'birnie_island_1860_1979': 'Pacific (Guano/Whaling)',
+    'rawaki_phoenix_island_1860_1979': 'Pacific (Guano/Whaling)',
+    'manra_sydney_island_1860_1979': 'Pacific (Guano/Whaling)',
+    'starbuck_island_1866_1979': 'Pacific (Guano/Whaling)',
+    'vostok_island_1866_1979': 'Pacific (Guano/Whaling)',
+    'flint_island_1866_1979': 'Pacific (Guano/Whaling)',
+    'caroline_island_1868_1979': 'Pacific (Guano/Whaling)',
+    'baker_island_1855_1898': 'Pacific (Guano/Whaling)',
+    'ducie_island_1902_ongoing': 'Pacific (Guano/Whaling)',
+    'oeno_island_1902_ongoing': 'Pacific (Guano/Whaling)',
+  };
+  RAW.nodes.forEach(n => {
+    if (AFRICA_SUBREGIONS[n.id]) n.region = AFRICA_SUBREGIONS[n.id];
+  });
+
+  // Remove nodes that are internal subdivisions of Canada, duplicates, or misattributed
+  const REMOVE_IDS = new Set([
+    'manitoba_1870_1870_ongoing',
+    'northwest_territories_1870_1870_ongoing',
+    'canada_french_1608_1763',  // duplicate of New France
+    'newfoundland_1497_1949',   // 1497 is Cabot's arrival, not a colony; Colony of Newfoundland (1610) is the real start
+    // Australian internal territories — subdivisions of Commonwealth, not separate British colonies
+    'northern_territory_1911_ongoing',
+    'australian_capital_territory_1911_ongoing',
+    'australia_1901_1942',  // duplicate of Commonwealth of Australia
+    'louisiana_french_1682_1762', // French colony, never became British — ceded to Spain then sold to US
+    // Africa exact duplicates (same QID, same dates, same entity)
+    'uganda_protectorate_1894_1962',     // duplicate of Uganda (Q1097943)
+    'somaliland_protectorate_1884_1960', // duplicate of British Somaliland (Q662653)
+    'anglo_egyptian_sudan_1899_1956',    // duplicate of Sudan, Anglo-Egyptian (Q541455)
+    'james_island_gambia_1661_1779',     // duplicate of James Island Trading Post (same location, shorter dates, no edges)
+    // Rhodesia envelope bars — overlapping with sub-entities, edges redirected below
+    'southern_rhodesia_1901_1980',       // envelope bar; lineage goes through Southern Rhodesia Colony (1923-1953)
+    'northern_rhodesia_1911_1964',       // envelope bar; lineage goes through Northern Rhodesia Colony (1924-1953)
+    'northern_rhodesia_post_federation_1963',  // replaced by northern_rhodesia_post_federation_1964 to break cycle
+    'mandatory_palestine_1920_1948',  // duplicate of Palestine (Q193714), same dates
+    'kuwait_protectorate_1899_1961',  // duplicate of Kuwait (Q3480281), same dates
+    'british_hong_kong_1842_1997',  // duplicate of Hong Kong (Q1054923), same dates
+    'singapore_1824_1965',  // envelope bar overlapping Singapore Settlement + Singapore Crown Colony
+    'malaya_1824_1963',  // envelope bar overlapping Straits Settlements + Malayan Union + Federation
+    // India: envelope/standalone nodes that overlap with the presidency lineage
+    'indian_empire_(british_raj)_1613_1947',  // envelope bar, wrong est (1613 not 1858), no edges, overlaps presidencies
+    'east_india_company_pre_territorial_1612_1757',  // teleological framing
+    'fort_st_george_madras_1640_1857',  // Fort St. George IS Madras Presidency (same entity, same year 1640)
+    'british_guyana_1831_1966',  // duplicate of British Guiana (british_guiana_1831_1966), wrong est (1763 vs 1831), wrong spelling
+  ]);
+
+  // Remove bogus edges (membership, not succession)
+  const REMOVE_EDGES = new Set([
+    'west_indies_federation_1958_1962->trinidad_and_tobago_1889_1962',  // WIF membership, not succession
+    'west_indies_federation_1958_1962->jamaica_1655_1962',  // WIF membership, not succession; Jamaica existed 307 years before WIF
+    'southern_nigeria_protectorate_1900_1914->northern_nigeria_1900_1914',  // concurrent parallel protectorates, not succession
+    'assam_province_1874_1905->dominion_of_india_1947_1950',  // wrong Assam node; restored version has this edge
+    'assam_province_restored_1912_1947->dominion_of_pakistan_1947_1956',  // historically wrong; Assam went to India (only Sylhet district went to Pakistan)
+    // BC: Vancouver Island didn't evolve into Mainland BC — they were concurrent colonies that merged
+    'vancouver_island_1849_1866->mainland_british_columbia_1858_1866',
+    // BC: Mainland didn't join Confederation directly — United Colony did
+    'mainland_british_columbia_1858_1866->canada_dominion_of_1867_ongoing',
+  ]);
+
+  // Deduplicate edges (some appear twice in source data)
+  const edgeSeen = new Set();
+  RAW.edges = RAW.edges.filter(e => {
+    const key = e.source + '->' + e.target + ':' + e.type;
+    if (edgeSeen.has(key)) return false;
+    edgeSeen.add(key);
+    return true;
+  });
+
+  // Filter out nodes still missing name/est after patches, and removed nodes
+  allNodes = RAW.nodes.filter(n => n.name && n.est && !REMOVE_IDS.has(n.id));
+  allEdges = RAW.edges.filter(e =>
+    e.source !== e.target &&  // no self-loops (caused by redirecting duplicate nodes)
+    !REMOVE_IDS.has(e.source) && !REMOVE_IDS.has(e.target) &&
+    !REMOVE_EDGES.has(e.source + '->' + e.target)
+  );
+
+  // Build lookups
+  nodeById = {};
+  childrenOf = {};
+  parentsOf = {};
+  allNodes.forEach(n => { nodeById[n.id] = n; });
+  allEdges.forEach(e => {
+    if (!nodeById[e.source] || !nodeById[e.target]) return;
+    (childrenOf[e.source] = childrenOf[e.source] || []).push(e.target);
+    (parentsOf[e.target] = parentsOf[e.target] || []).push(e.source);
+  });
+
+  // Populate region dropdown
+  const regions = REGION_ORDER.filter(r => allNodes.some(n => n.region === r));
+  const sel = document.getElementById('filter-region');
+  regions.forEach(r => {
+    const opt = document.createElement('option');
+    opt.value = r;
+    opt.textContent = `${r} (${allNodes.filter(n => n.region === r).length})`;
+    sel.appendChild(opt);
+  });
+  sel.addEventListener('change', function() { setRegion(this.value); });
+
+  // Search
+  document.getElementById('search').addEventListener('input', function() {
+    const q = this.value.toLowerCase();
+    if (!q) { clearHighlight(); return; }
+    const matches = new Set(allNodes.filter(n => n.name.toLowerCase().includes(q)).map(n => n.id));
+    applyHighlight(matches);
+  });
+
+  // Legend
+  document.getElementById('legend').innerHTML = regions.map(r =>
+    `<span class="legend-item"><span class="legend-dot" style="background:${REGION_COLORS[r]}"></span>${r}</span>`
+  ).join('');
+
+  buildAreaChart();
+  buildSankey();
+}
+
+// ── Panel A: Stacked Area ──
+function buildAreaChart() {
+  const container = document.getElementById('panel-a');
+  const width = container.clientWidth;
+  const height = container.clientHeight;
+  const margin = { top: 15, right: 30, bottom: 22, left: 45 };
+
+  const svg = d3.select('#area-chart').attr('width', width).attr('height', height);
+  svg.selectAll('*').remove();
+
+  const regions = REGION_ORDER.filter(r => allNodes.some(n => n.region === r));
+
+  // Compute active counts per year per region
+  const years = d3.range(YEAR_MIN, YEAR_MAX + 1);
+  const stackData = years.map(y => {
+    const row = { year: y };
+    regions.forEach(r => { row[r] = 0; });
+    allNodes.forEach(n => {
+      const est = n.est || YEAR_MIN;
+      const ind = n.ind || YEAR_MAX;
+      if (y >= est && y <= ind && regions.includes(n.region)) {
+        row[n.region]++;
+      }
+    });
+    return row;
+  });
+
+  const x = d3.scaleLinear().domain([YEAR_MIN, YEAR_MAX]).range([margin.left, width - margin.right]);
+  const stack = d3.stack().keys(regions);
+  const series = stack(stackData);
+  const yMax = d3.max(series, s => d3.max(s, d => d[1]));
+  const y = d3.scaleLinear().domain([0, yMax]).range([height - margin.bottom, margin.top]);
+
+  const area = d3.area()
+    .x(d => x(d.data.year))
+    .y0(d => y(d[0]))
+    .y1(d => y(d[1]))
+    .curve(d3.curveMonotoneX);
+
+  // Event lines
+  EVENTS.forEach(ev => {
+    svg.append('line').attr('class', 'event-line-a')
+      .attr('x1', x(ev.year)).attr('x2', x(ev.year))
+      .attr('y1', margin.top).attr('y2', height - margin.bottom);
+    svg.append('text').attr('class', 'event-label-a')
+      .attr('x', x(ev.year) + 2).attr('y', margin.top + 8)
+      .attr('transform', `rotate(-35, ${x(ev.year) + 2}, ${margin.top + 8})`)
+      .text(ev.label);
+  });
+
+  // Areas
+  series.forEach(s => {
+    svg.append('path')
+      .attr('class', 'area-region')
+      .attr('d', area(s))
+      .attr('fill', REGION_COLORS[s.key])
+      .attr('data-region', s.key)
+      .on('click', () => setRegion(s.key === activeRegion ? 'all' : s.key));
+  });
+
+  // Axes
+  svg.append('g')
+    .attr('transform', `translate(0,${height - margin.bottom})`)
+    .call(d3.axisBottom(x).tickFormat(d3.format('d')).ticks(15))
+    .selectAll('text').attr('fill', '#666').attr('font-size', '10px');
+  svg.append('g')
+    .attr('transform', `translate(${margin.left},0)`)
+    .call(d3.axisLeft(y).ticks(5))
+    .selectAll('text').attr('fill', '#666').attr('font-size', '10px');
+  svg.selectAll('.domain, .tick line').attr('stroke', '#333');
+
+  // Y-axis label
+  svg.append('text').attr('fill', '#666').attr('font-size', '10px')
+    .attr('transform', `rotate(-90)`).attr('x', -(height/2)).attr('y', 12)
+    .attr('text-anchor', 'middle').text('Active Territories');
+
+  // Cursor + tooltip
+  const cursorLine = svg.append('line').attr('class', 'cursor-line')
+    .attr('y1', margin.top).attr('y2', height - margin.bottom).attr('display', 'none');
+
+  const tooltip = document.getElementById('area-tooltip');
+
+  svg.append('rect')
+    .attr('x', margin.left).attr('y', margin.top)
+    .attr('width', width - margin.left - margin.right)
+    .attr('height', height - margin.top - margin.bottom)
+    .attr('fill', 'transparent')
+    .on('mousemove', function(event) {
+      const [mx] = d3.pointer(event);
+      const yr = Math.round(x.invert(mx));
+      if (yr < YEAR_MIN || yr > YEAR_MAX) return;
+      cursorLine.attr('x1', x(yr)).attr('x2', x(yr)).attr('display', null);
+      const row = stackData.find(d => d.year === yr);
+      if (!row) return;
+      const total = regions.reduce((s, r) => s + row[r], 0);
+      let html = `<strong>${yr}</strong> — ${total} territories<br>`;
+      regions.forEach(r => {
+        if (row[r] > 0) {
+          html += `<span style="color:${REGION_COLORS[r]}">■</span> ${r}: ${row[r]}<br>`;
+        }
+      });
+      tooltip.innerHTML = html;
+      tooltip.style.display = 'block';
+      tooltip.style.left = Math.min(event.offsetX + 15, width - 200) + 'px';
+      tooltip.style.top = '30px';
+    })
+    .on('mouseleave', () => {
+      cursorLine.attr('display', 'none');
+      tooltip.style.display = 'none';
+    });
+}
+
+function setRegion(region) {
+  activeRegion = region;
+  document.getElementById('filter-region').value = region;
+  selectedNode = null;
+
+  // Highlight area chart
+  d3.selectAll('.area-region').classed('dimmed', region !== 'all')
+    .filter(function() { return d3.select(this).attr('data-region') === region; })
+    .classed('dimmed', false);
+
+  buildSankey();
+}
+
+// ── Panel B: Alluvial/Sankey ──
+function buildSankey() {
+  const container = document.getElementById('panel-b');
+  const width = Math.max(container.clientWidth, 1400);
+  const svgEl = d3.select('#sankey-chart');
+  svgEl.selectAll('*').remove();
+  svgEl.attr('width', width).attr('height', container.clientHeight);
+
+  // Filter nodes by region
+  const regionNodes = activeRegion === 'all' ? allNodes.slice() :
+    allNodes.filter(n => n.region === activeRegion);
+
+  if (regionNodes.length === 0) return;
+
+  const regionIds = new Set(regionNodes.map(n => n.id));
+  const regionEdges = allEdges.filter(e => regionIds.has(e.source) && regionIds.has(e.target));
+
+  // Separate connected vs standalone
+  const connected = new Set();
+  regionEdges.forEach(e => { connected.add(e.source); connected.add(e.target); });
+
+  const connectedNodes = regionNodes.filter(n => connected.has(n.id));
+  const standaloneNodes = regionNodes.filter(n => !connected.has(n.id));
+
+  // Build local adjacency
+  const localChildren = {};
+  const localParents = {};
+  regionEdges.forEach(e => {
+    (localChildren[e.source] = localChildren[e.source] || []).push(e.target);
+    (localParents[e.target] = localParents[e.target] || []).push(e.source);
+  });
+
+  // Find connected components
+  const visited = new Set();
+  const components = [];
+  function dfs(id, comp) {
+    if (visited.has(id)) return;
+    visited.add(id);
+    comp.push(id);
+    (localChildren[id] || []).forEach(c => dfs(c, comp));
+    (localParents[id] || []).forEach(p => dfs(p, comp));
+  }
+  connectedNodes.forEach(n => {
+    if (!visited.has(n.id)) {
+      const comp = [];
+      dfs(n.id, comp);
+      components.push(comp);
+    }
+  });
+
+  // Sort components by earliest est date
+  components.sort((a, b) => {
+    const ea = Math.min(...a.map(id => nodeById[id].est || 9999));
+    const eb = Math.min(...b.map(id => nodeById[id].est || 9999));
+    return ea - eb;
+  });
+
+  // Topological sort within each component
+  function topoSort(nodeIds) {
+    const inDeg = {};
+    nodeIds.forEach(id => { inDeg[id] = 0; });
+    nodeIds.forEach(id => {
+      (localChildren[id] || []).forEach(c => {
+        if (inDeg[c] !== undefined) inDeg[c]++;
+      });
+    });
+    const queue = nodeIds.filter(id => inDeg[id] === 0).sort((a, b) => (nodeById[a].est || 0) - (nodeById[b].est || 0));
+    const result = [];
+    while (queue.length > 0) {
+      const id = queue.shift();
+      result.push(id);
+      (localChildren[id] || []).forEach(c => {
+        if (inDeg[c] !== undefined) {
+          inDeg[c]--;
+          if (inDeg[c] === 0) queue.push(c);
+        }
+      });
+    }
+    // Add any remaining (cycles)
+    nodeIds.forEach(id => { if (!result.includes(id)) result.push(id); });
+    return result;
+  }
+
+  // Layout: assign y positions
+  const MARGIN = { top: 50, right: 60, bottom: 40, left: 60 };
+  const xScale = d3.scaleLinear().domain([YEAR_MIN, YEAR_MAX]).range([MARGIN.left, width - MARGIN.right]);
+
+  // For connected nodes: topological layout with weight-based heights
+  // Compute weight (number of leaf ancestors) for each node
+  const weights = {};
+  function getWeight(id) {
+    if (weights[id] !== undefined) return weights[id];
+    const parents = localParents[id] || [];
+    if (parents.length === 0) { weights[id] = 1; return 1; }
+    let w = 0;
+    parents.forEach(p => { w += getWeight(p); });
+    weights[id] = Math.max(w, 1);
+    return weights[id];
+  }
+
+  const layout = {};
+  let yPos = MARGIN.top;
+
+  // Layout connected components
+  // Weight = max(ancestor leaf count, descendant leaf count) so both merges AND splits get space
+  components.forEach((comp, ci) => {
+    const sorted = topoSort(comp);
+
+    // Ancestor weight: how many source-leaves feed into this node
+    const aWeight = {};
+    const aVisiting = new Set(); // cycle guard
+    function getAWeight(id) {
+      if (aWeight[id] !== undefined) return aWeight[id];
+      if (aVisiting.has(id)) return 1; // break cycle
+      aVisiting.add(id);
+      const parents = (localParents[id] || []).filter(p => comp.includes(p));
+      if (parents.length === 0) { aWeight[id] = 1; aVisiting.delete(id); return 1; }
+      let w = 0;
+      parents.forEach(p => { w += getAWeight(p); });
+      aWeight[id] = Math.max(w, 1);
+      aVisiting.delete(id);
+      return aWeight[id];
+    }
+    // Descendant weight: how many sink-leaves this node fans out to
+    const dWeight = {};
+    const dVisiting = new Set(); // cycle guard
+    function getDWeight(id) {
+      if (dWeight[id] !== undefined) return dWeight[id];
+      if (dVisiting.has(id)) return 1; // break cycle
+      dVisiting.add(id);
+      const children = (localChildren[id] || []).filter(c => comp.includes(c));
+      if (children.length === 0) { dWeight[id] = 1; dVisiting.delete(id); return 1; }
+      let w = 0;
+      children.forEach(c => { w += getDWeight(c); });
+      dWeight[id] = Math.max(w, 1);
+      dVisiting.delete(id);
+      return dWeight[id];
+    }
+    sorted.forEach(id => { getAWeight(id); getDWeight(id); });
+
+    // === DFS lineage layout ===
+    // Each node gets its own row (UNIT height). DFS from sources ensures
+    // parent → child lineages are on adjacent rows for visual continuity.
+    // Merge nodes (multiple parents) are deferred until all parents are placed.
+
+    const sources = sorted.filter(id => !(localParents[id] && localParents[id].length > 0));
+
+    // Order sources: DFS from sinks traces back to discover source order
+    const sinks = sorted.filter(id => !(localChildren[id] && localChildren[id].length > 0));
+    const sourceOrder = [];
+    const sourceSeen = new Set();
+    const collectVisited = new Set();
+    function collectSources(id) {
+      if (collectVisited.has(id)) return;
+      collectVisited.add(id);
+      const parents = (localParents[id] || []).filter(p => comp.includes(p));
+      parents.sort((a, b) => (dWeight[a] || 1) - (dWeight[b] || 1) || (nodeById[b].est || 0) - (nodeById[a].est || 0));
+      parents.forEach(pid => collectSources(pid));
+      if (!(localParents[id] && localParents[id].length > 0) && !sourceSeen.has(id)) {
+        sourceSeen.add(id);
+        sourceOrder.push(id);
+      }
+    }
+    sinks.forEach(s => collectSources(s));
+    sources.forEach(id => { if (!sourceSeen.has(id)) sourceOrder.push(id); });
+
+    // DFS layout: place a node and then immediately follow its lineage.
+    // Merge nodes (multiple parents) wait until all parents are placed.
+    const placed = new Set();
+    function layoutNode(id) {
+      if (placed.has(id)) return;
+      // Check all parents in component are placed (topo constraint)
+      const parents = (localParents[id] || []).filter(p => comp.includes(p));
+      if (parents.some(p => !placed.has(p))) return; // defer
+      placed.add(id);
+      layout[id] = { y: yPos, h: UNIT };
+      yPos += UNIT + GAP;
+      // Immediately follow children, sorted by est date
+      const children = (localChildren[id] || []).filter(c => comp.includes(c));
+      children.sort((a, b) => (nodeById[a].est || 0) - (nodeById[b].est || 0));
+      children.forEach(c => layoutNode(c));
+    }
+    sourceOrder.forEach(id => layoutNode(id));
+    // Catch any remaining nodes not reached by DFS
+    sorted.forEach(id => { if (!placed.has(id)) layoutNode(id); });
+
+    if (ci < components.length - 1) yPos += GAP * 3;
+  });
+
+  // Standalone separator
+  if (standaloneNodes.length > 0 && connectedNodes.length > 0) {
+    yPos += GAP * 4;
+  }
+
+  // Layout standalone nodes
+  standaloneNodes.sort((a, b) => (a.est || 0) - (b.est || 0));
+  standaloneNodes.forEach(n => {
+    layout[n.id] = { y: yPos, h: UNIT - 4 };
+    yPos += (UNIT - 4) + GAP;
+  });
+
+  const totalHeight = yPos + MARGIN.bottom;
+
+  // Create drawing groups
+  const g = svgEl.append('g');
+  const zoom = d3.zoom().scaleExtent([0.15, 8])
+    .on('zoom', event => g.attr('transform', event.transform));
+  svgEl.call(zoom);
+
+  // Grid lines
+  d3.range(1600, YEAR_MAX, 10).forEach(d => {
+    g.append('line').attr('class', 'timeline-line')
+      .attr('x1', xScale(d)).attr('x2', xScale(d))
+      .attr('y1', MARGIN.top - 20).attr('y2', totalHeight);
+  });
+  d3.range(1600, 2100, 100).forEach(c => {
+    g.append('text').attr('class', 'timeline-label')
+      .attr('x', xScale(c)).attr('y', MARGIN.top - 25).text(c);
+  });
+
+  // Event lines
+  EVENTS.forEach(ev => {
+    g.append('line').attr('class', 'event-line')
+      .attr('x1', xScale(ev.year)).attr('x2', xScale(ev.year))
+      .attr('y1', MARGIN.top - 15).attr('y2', totalHeight);
+    g.append('text').attr('class', 'event-label')
+      .attr('x', xScale(ev.year) + 3).attr('y', MARGIN.top - 5).text(ev.label);
+  });
+
+  // Component color variation
+  const compColorMap = {};
+  components.forEach((comp, ci) => {
+    const baseRegion = nodeById[comp[0]] ? nodeById[comp[0]].region : 'Unknown';
+    const baseColor = d3.color(REGION_COLORS[baseRegion] || '#777');
+    const shift = (ci % 5) * 15 - 30;
+    const varied = baseColor.brighter(shift / 60);
+    comp.forEach(id => { compColorMap[id] = varied.formatHex(); });
+  });
+
+  // French/pre-British colonial nodes get a distinct color
+  // Pre-British colonial nodes get distinct colors
+  const FRENCH_IDS = new Set([
+    'acadia_french_1604_1713', 'new_france_1608_1763', 'canada_french_1608_1763',
+    'ile_royale_1713_1763', 'louisiana_french_1682_1762',
+  ]);
+  const DUTCH_IDS = new Set([
+    'cape_colony_dutch_1652_1795', 'cape_colony_dutch_restored_1803_1806',
+  ]);
+  // India Office types — administered by the India Office, not the Colonial Office
+  const INDIA_OFFICE_TYPES = new Set([
+    'Trading Company', 'Trading Post', 'Presidency', 'Province', 'Province of British India',
+  ]);
+  const FRENCH_COLOR = '#3a8fd4'; // blue — Bourbon France
+  const SCOTTISH_COLOR = '#2e86ab'; // teal-blue — Scottish charter
+  const DUTCH_COLOR = '#e87d2f'; // orange — VOC / Dutch Republic
+  const INDIA_OFFICE_COLOR = '#cc3333'; // deeper red — India Office
+  const COLONIAL_OFFICE_SA_COLOR = '#e88080'; // lighter red — Colonial Office territories in South Asia
+
+  function getColor(id) {
+    if (FRENCH_IDS.has(id)) return FRENCH_COLOR;
+    if (DUTCH_IDS.has(id)) return DUTCH_COLOR;
+    // nova_scotia_scottish_1621_1632 removed
+    if (compColorMap[id]) return compColorMap[id];
+    const n = nodeById[id];
+    if (!n) return '#777';
+    // South Asia: distinguish India Office vs Colonial Office
+    if (n.region === 'South Asia') {
+      return INDIA_OFFICE_TYPES.has(n.type) ? INDIA_OFFICE_COLOR : COLONIAL_OFFICE_SA_COLOR;
+    }
+    return REGION_COLORS[n.region] || '#777';
+  }
+
+  // ── Draw flows ──
+  const flowGroup = g.append('g');
+  const flowElements = [];
+  const fallbackSlots = {};
+  regionNodes.forEach(n => { fallbackSlots[n.id] = 0; });
+
+  // Sort edges by source y position
+  const sortedEdges = regionEdges.slice().sort((a, b) =>
+    ((layout[a.source] || {}).y || 0) - ((layout[b.source] || {}).y || 0)
+  );
+
+  // Track source-side slot usage for partitions (multiple children from same source)
+  const srcSlots = {};
+  regionNodes.forEach(n => { srcSlots[n.id] = 0; });
+
+  sortedEdges.forEach(e => {
+    const src = layout[e.source];
+    const tgt = layout[e.target];
+    if (!src || !tgt) return;
+
+    const srcNode = nodeById[e.source];
+    const tgtNode = nodeById[e.target];
+    const isPartition = e.type === 'PARTITIONED_INTO';
+
+    // Band height: divide source height among outbound flows
+    const srcOutEdges = sortedEdges.filter(oe => oe.source === e.source);
+    const outCount = Math.max(srcOutEdges.length, 1);
+    const bandH = Math.max(Math.floor(src.h / outCount), 2);
+
+    // Slot within target
+    let slotY = tgt.y + fallbackSlots[e.target];
+    fallbackSlots[e.target] += bandH;
+
+    // Source-side Y: for partitions, stack bands within the source bar
+    let srcY = src.y + (srcSlots[e.source] || 0);
+    srcSlots[e.source] = (srcSlots[e.source] || 0) + bandH;
+
+    // X connection points:
+    const srcEnd = srcNode.ind || YEAR_MAX;
+    const tgtStart = tgtNode.est || YEAR_MIN;
+    // For partitions where target starts before source ends, connect at target's est date
+    // For absorptions (target started before source ended), connect at source's end on both sides
+    const isAbsorption = !isPartition && tgtStart < srcEnd;
+    const x1 = isPartition && tgtStart < srcEnd
+      ? xScale(tgtStart)  // connect at the partition year, not source end
+      : xScale(Math.min(srcEnd, YEAR_MAX));
+    const x2 = isAbsorption
+      ? xScale(Math.min(srcEnd, YEAR_MAX))  // land on target bar at absorption year
+      : xScale(tgtStart);
+    const cpOffset = Math.max(Math.abs(x2 - x1) * 0.45, 15);
+
+    // Detect temporal gaps > 2 years (only for non-partition, non-absorption forward flows)
+    const hasGap = !isPartition && !isAbsorption && Math.abs(tgtStart - srcEnd) > 2;
+
+    const path = `
+      M ${x1},${srcY}
+      C ${x1 + cpOffset},${srcY} ${x2 - cpOffset},${slotY} ${x2},${slotY}
+      L ${x2},${slotY + bandH}
+      C ${x2 - cpOffset},${slotY + bandH} ${x1 + cpOffset},${srcY + bandH} ${x1},${srcY + bandH}
+      Z`;
+
+    const el = flowGroup.append('path')
+      .attr('class', 'flow' + (hasGap ? ' gap-warning' : ''))
+      .attr('d', path)
+      .attr('fill', getColor(e.source))
+      .attr('data-source', e.source)
+      .attr('data-target', e.target);
+
+    flowElements.push({ el, source: e.source, target: e.target });
+  });
+
+  // ── Draw bars ──
+  const barGroup = g.append('g');
+  const allLayoutNodes = regionNodes.filter(n => layout[n.id]);
+
+  // Sort: draw tallest bars first so smaller bars render on top and stay clickable
+  allLayoutNodes.sort((a, b) => (layout[b.id].h) - (layout[a.id].h));
+
+  // Short display names for nodes whose bars are too narrow for full names
+  const SHORT_NAMES = {
+    'vancouver_island_1849_1866': 'Vancouver Is.',
+    'mainland_british_columbia_1858_1866': 'BC (Mainland)',
+    'united_colony_of_bc_1866_1871': 'United BC',
+    'nova_scotia_pre_1713_1784': 'Nova Scotia',
+    'nova_scotia_post_1784_1867': 'Nova Scotia',
+    'cape_breton_colony_1784_1820': 'Cape Breton',
+    'east_florida_1763_1783': 'East Florida',
+    'west_florida_1763_1783': 'West Florida',
+    'newfoundland_commission_1934_1949': 'Newfoundland (Comm.)',
+    // Pacific
+    'commonwealth_of_australia_1901_ongoing': 'Commonwealth of Australia',
+    'new_south_wales_original_1788_1901': 'New South Wales',
+    'van_diemens_land_1803_1856': "Van Diemen's Land",
+    'swan_river_colony_1829_1832': 'Swan River Colony',
+    'british_western_pacific_territories_1877_1978': 'Br. Western Pacific',
+    'territory_of_papua_1906_1949': 'Territory of Papua',
+    'territory_of_new_guinea_1920_1975': 'Territory of New Guinea',
+    'territory_of_papua_and_new_guinea_1949_1975': 'Papua & New Guinea',
+    'gilbert_and_ellice_islands_1916_1976': 'Gilbert & Ellice Is.',
+    'british_solomon_islands_1893_1978': 'Br. Solomon Is.',
+    'cocos_keeling_islands_1857_1955': 'Cocos (Keeling) Is.',
+    'new_zealand_colony_1840_1907': 'NZ Colony',
+    'dominion_of_new_zealand_1907_1947': 'Dominion of NZ',
+    'new_zealand_independent_1947': 'New Zealand',
+    'dominion_of_newfoundland_1907_1934': 'Dom. of Newfoundland',
+    'colony_of_newfoundland_1610_1949': 'Col. of Newfoundland',
+    'united_states_1776': 'United States',
+    'canada_dominion_of_1867_ongoing': 'Dominion of Canada',
+    'canada_independent_1931': 'Canada',
+    'province_of_quebec_british_1763_1791': 'Province of Quebec',
+    'province_of_canada_1841_1867': 'Province of Canada',
+    'north_western_territory_1670_1870': 'NW Territory',
+    'red_river_colony_1811_1870': 'Red River Colony',
+    'massachusetts_bay_colony_1630_1783': 'Massachusetts Bay',
+    'rhode_island_colony_1636_1783': 'Rhode Island',
+    'connecticut_colony_1636_1783': 'Connecticut',
+    'new_hampshire_colony_1623_1783': 'New Hampshire',
+    'north_carolina_colony_1663_1783': 'North Carolina',
+    'south_carolina_colony_1663_1783': 'South Carolina',
+    'pennsylvania_colony_1681_1783': 'Pennsylvania',
+    // Caribbean
+    'west_indies_federation_1958_1962': 'WIF',
+    'antigua_montserrat_barbuda_1816_1833': 'Antigua-Barbuda-Montserrat',
+    'stkitts_nevis_anguilla_1816_1833': 'St Kitts-Nevis-Anguilla',
+    'saint_christopher_nevis_anguilla_1958_1983': 'St Kitts & Nevis',
+    'federal_colony_leeward_islands_1833-1960': 'Br. Leeward Is.',
+    'leeward_islands_colony_1671_1816': 'Leeward Is.',
+    'british_windward_islands_1833_1959': 'Br. Windward Is.',
+    'trinidad_and_tobago_colony_1797_1962': 'Trinidad',
+    'trinidad_and_tobago_1889_1962': 'Trinidad & Tobago',
+    'settlement_of_belize_1798_1862': 'Belize Settlement',
+    'british_honduras_1862_1981': 'British Honduras',
+    'saint_christopher_nevis_anguilla_1958_1983': 'St Kitts-Nevis-Anguilla',
+    'turks_and_caicos_islands_1799_ongoing': 'Turks & Caicos',
+    'british_virgin_islands_1672_ongoing': 'British Virgin Is.',
+    'saint_lucia_colony_1814_1979': 'Saint Lucia',
+    'st_vincent_colony_1763_1979': 'St. Vincent',
+    'dominica_colony_1763_1978': 'Dominica',
+    'grenada_colony_1763_1974': 'Grenada',
+    'antigua_colony_1632_1981': 'Antigua',
+    'barbados_colony_1627_1966': 'Barbados',
+    'bahamas_colony_1666_1973': 'Bahamas',
+    // West Africa
+    'sierra_leone_company_settlement_1792_1808': 'SL Company Settlement',
+    'sierra_leone_colony_and_protectorate_1787_1961': 'Sierra Leone C&P',
+    'james_island_trading_post_1661_1816': 'James Island',
+    'gambia_colony_and_protectorate_1816_1965': 'Gambia C&P',
+    'oil_rivers_protectorate_1885_1893': 'Oil Rivers Prot.',
+    'niger_coast_protectorate_1893_1900': 'Niger Coast Prot.',
+    'royal_niger_company_territory_1886_1900': 'Royal Niger Co.',
+    'southern_nigeria_protectorate_1900_1914': 'Southern Nigeria',
+    'colony_and_protectorate_of_nigeria_1914_1960': 'Nigeria',
+    'province_of_freedom_1787_1792': 'Province of Freedom',
+    // Southern Africa
+    'cape_colony_dutch_1652_1795': 'Cape Colony (Dutch)',
+    'cape_colony_british_1795_1803_1795_1803': 'Cape Colony (Br. 1st)',
+    'cape_colony_dutch_restored_1803_1806': 'Cape Colony (Dutch Rest.)',
+    'cape_colony_british_1806_1910': 'Cape Colony (British)',
+    'south_african_republic_transvaal_1852_1877': 'S.A. Republic (Transvaal)',
+    'transvaal_colony_first_british_1877_1881': 'Transvaal (1st British)',
+    'south_african_republic_restored_1881_1900': 'S.A. Republic (Restored)',
+    'transvaal_colony_second_british_1900_1910': 'Transvaal Colony',
+    'orange_river_sovereignty_1848_1854': 'Orange River Sovereignty',
+    'orange_river_colony_1900_1910': 'Orange River Colony',
+    'british_south_africa_company_territory_1889_1923': 'BSAC Territory',
+    'southern_rhodesia_colony_1923_1953': 'S. Rhodesia Colony',
+    'northern_rhodesia_colony_1924_1953': 'N. Rhodesia Colony',
+    'federation_of_rhodesia_and_nyasaland_1953_1963': 'Fed. Rhodesia & Nyasaland',
+    'southern_rhodesia_post_federation_1963': 'S. Rhodesia (post-Fed.)',
+    'northern_rhodesia_post_federation_1964': 'N. Rhodesia (post-Fed.)',
+    'nyasaland_post_federation_1963': 'Nyasaland (post-Fed.)',
+    'british_central_africa_protectorate_1891_1907': 'Br. Central Africa Prot.',
+    'bechuanaland_protectorate_1884_1966': 'Bechuanaland Prot.',
+    'british_bechuanaland_1885_1895': 'Br. Bechuanaland',
+    'union_of_south_africa_1910_1961': 'Union of South Africa',
+    'rhodesia_udi_1965_1979': 'Rhodesia (UDI)',
+    'zimbabwe_rhodesia_1979_1979': 'Zimbabwe Rhodesia',
+    'southern_rhodesia_restored_1979_1980': 'S. Rhodesia (Restored)',
+    // South Asia
+    'bengal_presidency_company_1757_1858': 'Bengal Presidency (Co.)',
+    'bengal_presidency_crown_1858_1912': 'Bengal Presidency (Crown)',
+    'madras_presidency_company_1640_1858': 'Madras Presidency (Co.)',
+    'madras_presidency_crown_1858_1947': 'Madras Presidency (Crown)',
+    'bombay_presidency_company_1687_1858': 'Bombay Presidency (Co.)',
+    'bombay_presidency_crown_1858_1947': 'Bombay Presidency (Crown)',
+    'eastern_bengal_and_assam_1905_1912': 'Eastern Bengal & Assam',
+    'bengal_province_partitioned_1905_1912': 'Bengal (Partitioned)',
+    'bengal_province_reunited_1912_1947': 'Bengal (Reunited)',
+    'north_west_frontier_province_1901_1947': 'NW Frontier Province',
+    'assam_province_restored_1912_1947': 'Assam (Restored)',
+    'assam_bengal_presidency_1826_1874': 'Assam (Bengal Pres.)',
+    'andaman_and_nicobar_islands_1789_1947': 'Andaman & Nicobar',
+    'chagos_islands_mauritius_dependency_1814_1965': 'Chagos Islands',
+    'dominion_of_india_1947_1950': 'Dominion of India',
+    'dominion_of_pakistan_1947_1956': 'Dominion of Pakistan',
+    'burma_british_india_1886_1937': 'Burma (Br. India)',
+    'burma_separate_colony_1937_1948': 'Burma (Colony)',
+    'fort_st_george_madras_1640_1857': 'Fort St. George',
+    'fort_william_calcutta_1696_1857': 'Fort William',
+    // East Africa
+    'imperial_british_east_africa_company_territory_1888_1895': 'IBEAC Territory',
+    'east_africa_protectorate_1895_1920': 'East Africa Prot.',
+    'german_east_africa_british_occupied_1916_1922': 'German East Africa',
+    'kenya_colony_and_protectorate_of_1920_1963': 'Kenya',
+    'tanganyika_territory_1922_1961': 'Tanganyika Territory',
+    'zanzibar_independent_1963_1964': 'Zanzibar (Indep.)',
+    // Southeast Asia
+    'penang_prince_of_wales_island_1786_1826': 'Penang',
+    'singapore_settlement_1819_1826': 'Singapore Settlement',
+    'malacca_settlement_1824_1826': 'Malacca',
+    'straits_settlements_1826_1946': 'Straits Settlements',
+    'federated_malay_states_1895_1946': 'FMS',
+    'unfederated_malay_states_1909_1946': 'UMS',
+    'british_north_borneo_1882_1946': 'Br. North Borneo',
+    'north_borneo_crown_colony_1946_1963': 'North Borneo',
+    'sarawak_crown_colony_1946_1963': 'Sarawak',
+    'malayan_union_1946_1948': 'Malayan Union',
+    'federation_of_malaya_1948_1957': 'Fed. of Malaya',
+    'malaya_independent_1957_1963': 'Malaya',
+    'singapore_crown_colony_1946_1963': 'Singapore (Crown)',
+    'brunei_protectorate_1888_1984': 'Brunei',
+    'bencoolen_bengkulu_1685_1824': 'Bencoolen',
+    'java_british_occupation_1811_1816': 'Java (Br. Occ.)',
+    'moluccas_british_occupation_1810_1817': 'Moluccas (Br. Occ.)',
+    'banda_islands_british_occupation_1810_1817': 'Banda Is. (Br. Occ.)',
+    'netherlands_east_indies_british_administration_1945_1946': 'NEI (Br. Admin.)',
+    'shanghai_international_settlement_1863_1943': 'Shanghai Intl. Sett.',
+    // Middle East
+    'mesopotamia_british_occupied_1914_1920': 'Mesopotamia (Br. Occ.)',
+    'mandatory_iraq_1920_1932': 'Mandatory Iraq',
+    'mandatory_palestine_1920_1948': 'Mandatory Palestine',
+    'bahrain_protectorate_1861_1971': 'Bahrain',
+    'qatar_protectorate_1916_1971': 'Qatar',
+    'trucial_states_1820_1971': 'Trucial States',
+    'muscat_and_oman_protectorate_1891_1971': 'Muscat & Oman',
+    'aden_1839_1963': 'Aden Province',
+    'aden_colony_1937_1967': 'Aden Colony',
+    'aden_protectorate_1839_1967': 'Aden Protectorate',
+    'socotra_island_1886_1967': 'Socotra',
+    'sudan_anglo-egyptian_1899_1956': 'Anglo-Egyptian Sudan',
+    'british_somaliland_1884_1960': 'British Somaliland',
+    // Africa (Islands)
+    'isle_de_france_british_occupation_1810_1814': 'Isle de France (Br. Occ.)',
+    'seychelles_mauritius_dependency_1814_1903': 'Seychelles (Dep.)',
+    'saint_helena_ascension_and_tristan_da_cunha_1588_ongoing': 'St Helena, Ascension & Tristan',
+    // Antarctica
+    'south_georgia_whaling_stations_1904_1965': 'S. Georgia Whaling',
+    'south_shetland_islands_whaling_1820_1959': 'S. Shetland Whaling',
+    'deception_island_whaling_1906_1931': 'Deception Is. Whaling',
+    'bouvet_island_brief_claim_1825_1928': 'Bouvet Is.',
+    'heard_and_mcdonald_islands_1833_1947': 'Heard & McDonald Is.',
+    'south_sandwich_islands_1775_ongoing': 'S. Sandwich Is.',
+    // Europe
+    'minorca_first_1708_1756': 'Minorca (1st)',
+    'minorca_second_1763_1782': 'Minorca (2nd)',
+    'minorca_third_1798_1802': 'Minorca (3rd)',
+    'corsica_1794_1796': 'Anglo-Corsican Kingdom',
+    'ionian_islands_1815_1864': 'Ionian Islands',
+    'kingdom_of_ireland_1541_1801': 'Kingdom of Ireland',
+    'ireland_uk_1801_1922': 'Ireland (UK)',
+    'irish_free_state_1922_1937': 'Irish Free State',
+    'northern_ireland_1920': 'Northern Ireland',
+  };
+
+  allLayoutNodes.forEach(n => {
+    const l = layout[n.id];
+    if (!l) return;
+    const est = n.est || YEAR_MIN;
+    const ind = n.ind || YEAR_MAX;
+    const x = xScale(est);
+    const w = Math.max(xScale(Math.min(ind, YEAR_MAX)) - x, 3);
+    const color = getColor(n.id);
+    const pi = POST_IMPERIAL.has(n.type);
+    const nb = NON_BRITISH.has(n.type);
+    const standalone = !connected.has(n.id);
+
+    const cls = 'node-bar' + (pi ? ' postimperial' : '') + (nb ? ' nonbritish' : '') + (standalone ? ' standalone' : '');
+    const bar = barGroup.append('rect')
+      .attr('class', cls)
+      .attr('x', x).attr('y', l.y)
+      .attr('width', w).attr('height', l.h)
+      .attr('rx', 2).attr('ry', 2)
+      .attr('data-id', n.id)
+      .on('mouseenter', event => { showTooltip(event, n); if (!selectedNode) highlightLineage(n.id); })
+      .on('mouseleave', () => { hideTooltip(); if (!selectedNode) clearHighlight(); })
+      .on('click', event => {
+        event.stopPropagation();
+        if (selectedNode === n.id) { selectedNode = null; clearHighlight(); }
+        else { selectedNode = n.id; highlightLineage(n.id); }
+      });
+
+    if (pi || nb) {
+      const c = d3.color(color);
+      c.opacity = 0.25;
+      bar.attr('stroke', color).attr('fill', c.formatRgb());
+    } else { bar.attr('fill', color); }
+
+    // Label — inside the bar
+    const displayName = SHORT_NAMES[n.id] || n.name;
+    const fontSize = standalone ? 7 : Math.max(Math.min(10, l.h - 1), 7);
+    barGroup.append('text')
+      .attr('class', 'node-label' + (standalone ? ' standalone' : ''))
+      .attr('x', x + 4).attr('y', l.y + l.h / 2 + fontSize * 0.35)
+      .attr('text-anchor', 'start')
+      .attr('font-size', fontSize + 'px')
+      .attr('data-id', n.id)
+      .text(displayName)
+      .each(function() {
+        const textEl = d3.select(this);
+        const maxW = w - 6;
+        if (maxW < 8) { textEl.text(''); return; }
+        // Try abbreviations for common words
+        const abbrevs = [
+          [/\bProvince of\b/g, 'Prov.'],
+          [/\bColony of\b/g, 'Col.'],
+          [/\bDominion of\b/g, 'Dom.'],
+          [/\bBritish\b/g, 'Br.'],
+          [/\bNorth-Western\b/g, 'NW'],
+          [/\bNorthwest\b/g, 'NW'],
+          [/\b\(British\)\b/g, '(Br.)'],
+          [/\b\(Mainland\)\b/g, '(Mnld)'],
+        ];
+        let txt = displayName;
+        textEl.text(txt);
+        for (const [re, rep] of abbrevs) {
+          if (!this.getComputedTextLength || this.getComputedTextLength() <= maxW) break;
+          txt = txt.replace(re, rep);
+          textEl.text(txt);
+        }
+        // Still too long? Truncate with ellipsis
+        while (this.getComputedTextLength && this.getComputedTextLength() > maxW && txt.length > 3) {
+          txt = txt.slice(0, -2);
+          textEl.text(txt + '\u2026');
+        }
+      });
+  });
+
+  // Click background to deselect
+  svgEl.on('click', () => { selectedNode = null; clearHighlight(); });
+
+  // ── Lineage functions ──
+  function getLineage(id) {
+    const related = new Set();
+    function up(nid) { if (related.has(nid)) return; related.add(nid); (parentsOf[nid] || []).forEach(up); }
+    function down(nid) { if (related.has(nid)) return; related.add(nid); (childrenOf[nid] || []).forEach(down); }
+    up(id); down(id);
+    return related;
+  }
+
+  window._highlightLineage = function(id) {
+    const related = getLineage(id);
+
+    d3.selectAll('.node-bar').classed('dim', true).classed('bright', false);
+    d3.selectAll('.node-label').classed('dim', true).classed('bright', false);
+    d3.selectAll('.flow').classed('dim', true).classed('bright', false);
+
+    related.forEach(rid => {
+      d3.selectAll(`.node-bar[data-id="${rid}"]`).classed('dim', false).classed('bright', true);
+      d3.selectAll(`.node-label[data-id="${rid}"]`).classed('dim', false).classed('bright', true);
+    });
+
+    flowElements.forEach(f => {
+      if (related.has(f.source) && related.has(f.target)) {
+        f.el.classed('dim', false).classed('bright', true);
+      }
+    });
+  };
+
+  window._clearHighlight = function() {
+    d3.selectAll('.node-bar').classed('dim', false).classed('bright', false);
+    d3.selectAll('.node-label').classed('dim', false).classed('bright', false);
+    d3.selectAll('.flow').classed('dim', false).classed('bright', false);
+  };
+
+  window._applyHighlight = function(matchIds) {
+    d3.selectAll('.node-bar').classed('dim', true).classed('bright', false);
+    d3.selectAll('.node-label').classed('dim', true).classed('bright', false);
+    d3.selectAll('.flow').classed('dim', true).classed('bright', false);
+
+    matchIds.forEach(id => {
+      d3.selectAll(`.node-bar[data-id="${id}"]`).classed('dim', false).classed('bright', true);
+      d3.selectAll(`.node-label[data-id="${id}"]`).classed('dim', false).classed('bright', true);
+    });
+  };
+
+  // Fit to view
+  const scaleX = (container.clientWidth - 40) / (xScale(YEAR_MAX) - xScale(YEAR_MIN) + MARGIN.left + MARGIN.right);
+  const scaleY = (container.clientHeight - 40) / totalHeight;
+  const initialScale = Math.min(scaleX, scaleY, 0.85);
+  svgEl.call(zoom.transform, d3.zoomIdentity.scale(initialScale).translate(20, 20));
+
+  window._sankeyZoom = zoom;
+  window._sankeySvg = svgEl;
+  window._sankeyInitialScale = initialScale;
+}
+
+// ── Tooltip ──
+function showTooltip(event, n) {
+  const tt = document.getElementById('tooltip');
+  const est = n.est || '?';
+  const ind = n.ind || 'ongoing';
+
+  // Find edges with type info
+  // Build edge type lookup
+  const inEdges = allEdges.filter(e => e.target === n.id && nodeById[e.source]);
+  const outEdges = allEdges.filter(e => e.source === n.id && nodeById[e.target]);
+
+  let edgeHtml = '';
+  if (inEdges.length > 0) {
+    const evolved = inEdges.filter(e => e.type !== 'PARTITIONED_INTO').map(e => nodeById[e.source].name);
+    const partFrom = inEdges.filter(e => e.type === 'PARTITIONED_INTO').map(e => nodeById[e.source].name);
+    if (evolved.length > 0) edgeHtml += `<div class="tt-edges">From: ${evolved.join(', ')}</div>`;
+    if (partFrom.length > 0) edgeHtml += `<div class="tt-edges">Partitioned from: ${partFrom.join(', ')}</div>`;
+  }
+  if (outEdges.length > 0) {
+    const evolvedTo = outEdges.filter(e => e.type !== 'PARTITIONED_INTO').map(e => nodeById[e.target].name);
+    const partInto = outEdges.filter(e => e.type === 'PARTITIONED_INTO').map(e => nodeById[e.target].name);
+    if (evolvedTo.length > 0) edgeHtml += `<div class="tt-edges">Became: ${evolvedTo.join(', ')}</div>`;
+    if (partInto.length > 0) edgeHtml += `<div class="tt-edges">Partitioned into: ${partInto.join(', ')}</div>`;
+  }
+
+  const qidLink = n.qid ? `<a href="https://www.wikidata.org/wiki/${n.qid}" style="color:#88ccff" target="_blank">${n.qid}</a>` : '';
+
+  tt.innerHTML = `
+    <div class="tt-name">${n.name}</div>
+    <div class="tt-meta">${est} – ${ind} · ${n.type || 'Unknown type'} · ${n.region}</div>
+    ${qidLink ? `<div class="tt-meta">${qidLink}</div>` : ''}
+    ${edgeHtml}
+  `;
+  tt.style.display = 'block';
+  tt.style.left = Math.min(event.clientX + 15, window.innerWidth - 380) + 'px';
+  tt.style.top = (event.clientY - 10) + 'px';
+}
+
+function hideTooltip() { document.getElementById('tooltip').style.display = 'none'; }
+
+function highlightLineage(id) { if (window._highlightLineage) window._highlightLineage(id); }
+function clearHighlight() { if (window._clearHighlight) window._clearHighlight(); }
+function applyHighlight(ids) { if (window._applyHighlight) window._applyHighlight(ids); }
+
+function resetView() {
+  activeRegion = 'all';
+  selectedNode = null;
+  document.getElementById('filter-region').value = 'all';
+  document.getElementById('search').value = '';
+  d3.selectAll('.area-region').classed('dimmed', false);
+  buildSankey();
+}
+
+// Resize
+window.addEventListener('resize', () => {
+  buildAreaChart();
+  buildSankey();
+});
+
+// ── Embed data (replaced at build) ──
+const EMBED_DATA = {"nodes":[{"id":"union_of_south_africa_1910_1961","name":"Union of South Africa","est":1910,"ind":1961,"region":"Africa","type":"Dominion","qid":"Q193619"},{"id":"west_indies_federation_1958_1962","name":"West Indies Federation","est":1958,"ind":1962,"region":"Caribbean","type":"Federation","qid":"Q652560"},{"id":"federation_of_rhodesia_and_nyasaland_1953_1963","name":"Federation of Rhodesia and Nyasaland","est":1953,"ind":1963,"region":"Africa","type":"Federation","qid":"Q654342"},{"id":"malayan_union_1946_1948","name":"Malayan Union","est":1946,"ind":1948,"region":"Asia","type":"Crown Colony","qid":"Q976099"},{"id":"federation_of_malaya_1948_1957","name":"Federation of Malaya","est":1948,"ind":1957,"region":"Asia","type":"Federation","qid":"Q1479726"},{"id":"northern_rhodesia_post_federation_1963","name":"Northern Rhodesia","est":1964,"ind":1964,"region":"Africa","type":"","qid":"Q953903"},{"id":"nyasaland_post_federation_1963","name":"Nyasaland","est":1964,"ind":1964,"region":"Africa","type":"","qid":"Q1649306"},{"id":"transvaal_colony_first_british_1877_1881","name":"Transvaal Colony (First British)","est":1877,"ind":1881,"region":"Africa","type":"Crown Colony","qid":"Q1187978"},{"id":"south_african_republic_restored_1881_1900","name":"South African Republic (Restored)","est":1881,"ind":1900,"region":"Africa","type":"Boer Republic","qid":"Q550374"},{"id":"orange_river_colony_1900_1910","name":"Orange River Colony","est":1900,"ind":1910,"region":"Africa","type":"Crown Colony","qid":"Q1142179"},{"id":"transvaal_colony_second_british_1900_1910","name":"Transvaal Colony (Second British)","est":1900,"ind":1910,"region":"Africa","type":"Crown Colony","qid":"Q1187978"},{"id":"griqualand_west_1871_1880","name":"Griqualand West","est":1871,"ind":1880,"region":"Africa","type":"Crown Colony","qid":"Q2547918"},{"id":"zululand_1887_1897","name":"Zululand","est":1887,"ind":1897,"region":"Africa","type":"Crown Colony","qid":null},{"id":"swaziland_1903_1968","name":"Swaziland","est":1903,"ind":1968,"region":"Africa","type":"Protectorate","qid":"Q1050"},{"id":"upper_canada_1791_1841","name":"Upper Canada","est":1791,"ind":1841,"region":"North America","type":"Crown Colony","qid":"Q795427"},{"id":"lower_canada_1791_1841","name":"Lower Canada","est":1791,"ind":1841,"region":"North America","type":"Crown Colony","qid":"Q1134180"},{"id":"province_of_canada_1841_1867","name":"Province of Canada","est":1841,"ind":1867,"region":"North America","type":"United Province","qid":"Q1121436"},{"id":"ruperts_land_1670_1870","name":"Rupert's Land","est":1670,"ind":1870,"region":"North America","type":"Hudson's Bay Company Territory","qid":"Q738395"},{"id":"north_western_territory_1670_1870","name":"North-Western Territory","est":1670,"ind":1870,"region":"North America","type":"Territory","qid":"Q1998931"},{"id":"manitoba_1870_1870_ongoing","name":"Manitoba (1870)","est":1870,"ind":null,"region":"North America","type":"Province","qid":"Q1948"},{"id":"northwest_territories_1870_1870_ongoing","name":"Northwest Territories (1870)","est":1870,"ind":null,"region":"North America","type":"Territory","qid":"Q2007"},{"id":"vancouver_island_1849_1866","name":"Colony of Vancouver Island","est":1849,"ind":1866,"region":"North America","type":"Crown Colony","qid":"Q2510000"},{"id":"mainland_british_columbia_1858_1866","name":"Colony of British Columbia (Mainland)","est":1858,"ind":1871,"region":"North America","type":"Crown Colony","qid":"Q2514958"},{"id":"province_of_freedom_1787_1792","name":"Province of Freedom","est":1787,"ind":1792,"region":"Africa","type":"Settlement","qid":"Q11300378"},{"id":"sierra_leone_company_settlement_1792_1808","name":"Sierra Leone Company Settlement","est":1792,"ind":1808,"region":"Africa","type":"Company Settlement","qid":"Q3483448"},{"id":"sierra_leone_colony_1808_1896","name":"Sierra Leone Colony","est":1808,"ind":1896,"region":"Africa","type":"Crown Colony","qid":"Q30059027"},{"id":"james_island_trading_post_1661_1816","name":"James Island Trading Post","est":1661,"ind":1816,"region":"Africa","type":"Trading Post","qid":""},{"id":"new_south_wales_original_1788_1901","name":"New South Wales (Original)","est":1788,"ind":1901,"region":"Pacific","type":"Penal Colony","qid":"Q18348382"},{"id":"van_diemens_land_1803_1856","name":"Van Diemen's Land","est":1803,"ind":1856,"region":"Pacific","type":"Penal Colony","qid":"Q1780114"},{"id":"tasmania_1856_1901","name":"Tasmania","est":1856,"ind":1901,"region":"Pacific","type":"Self-governing Colony","qid":"Q5148519"},{"id":"swan_river_colony_1829_1832","name":"Swan River Colony","est":1829,"ind":1832,"region":"Pacific","type":"Free Settlement Colony","qid":"Q1162123"},{"id":"western_australia_1832_1901","name":"Western Australia","est":1832,"ind":1901,"region":"Pacific","type":"Crown Colony","qid":"Q3206"},{"id":"south_australia_1836_1901","name":"South Australia","est":1836,"ind":1901,"region":"Pacific","type":"Planned Colony","qid":"Q35715"},{"id":"victoria_colony_1851_1901","name":"Victoria (Colony)","est":1851,"ind":1901,"region":"Pacific","type":"Crown Colony","qid":"Q56850459"},{"id":"queensland_1859_1901","name":"Queensland","est":1859,"ind":1901,"region":"Pacific","type":"Crown Colony","qid":"Q28401203"},{"id":"northern_territory_1911_ongoing","name":"Northern Territory","est":1911,"ind":null,"region":"Pacific","type":"Territory","qid":"Q3235"},{"id":"australian_capital_territory_1911_ongoing","name":"Australian Capital Territory","est":1911,"ind":null,"region":"Pacific","type":"Federal Territory","qid":"Q3258"},{"id":"east_india_company_pre_territorial_1612_1757","name":"East India Company (Pre-Territorial)","est":1612,"ind":1757,"region":"Asia","type":"Trading Company","qid":"Q83164"},{"id":"bengal_presidency_company_1757_1858","name":"Bengal Presidency (Company)","est":1757,"ind":1858,"region":"Asia","type":"Presidency","qid":"Q817165"},{"id":"madras_presidency_company_1640_1858","name":"Madras Presidency (Company)","est":1640,"ind":1858,"region":"Asia","type":"Presidency","qid":"Q1772596"},{"id":"bombay_presidency_company_1687_1858","name":"Bombay Presidency (Company)","est":1687,"ind":1858,"region":"Asia","type":"Presidency","qid":"Q891827"},{"id":"bengal_presidency_crown_1858_1912","name":"Bengal Presidency (Crown)","est":1858,"ind":1912,"region":"Asia","type":"Presidency","qid":"Q817165"},{"id":"madras_presidency_crown_1858_1947","name":"Madras Presidency (Crown)","est":1858,"ind":1947,"region":"Asia","type":"Presidency","qid":"Q1772596"},{"id":"bombay_presidency_crown_1858_1947","name":"Bombay Presidency (Crown)","est":1858,"ind":1947,"region":"Asia","type":"Presidency","qid":"Q891827"},{"id":"punjab_province_1849_1947","name":"Punjab Province","est":1849,"ind":1947,"region":"Asia","type":"Province","qid":"Q2629708"},{"id":"central_provinces_1861_1947","name":"Central Provinces","est":1861,"ind":1947,"region":"Asia","type":"Province","qid":"Q521864"},{"id":"united_provinces_1877_1947","name":"United Provinces","est":1877,"ind":1947,"region":"Asia","type":"Province","qid":"Q2160037"},{"id":"assam_province_1874_1905","name":"Assam Province (1874-1905)","est":1874,"ind":1947,"region":"Asia","type":"Province","qid":"Q17513379"},{"id":"north_west_frontier_province_1901_1947","name":"North-West Frontier Province","est":1901,"ind":1947,"region":"Asia","type":"Province","qid":"Q4412467"},{"id":"eastern_bengal_and_assam_1905_1912","name":"Eastern Bengal and Assam","est":1905,"ind":1912,"region":"Asia","type":"Province","qid":"Q4126447"},{"id":"bengal_province_partitioned_1905_1912","name":"Bengal Province (Partitioned)","est":1905,"ind":1912,"region":"Asia","type":"Province","qid":null},{"id":"bengal_province_reunited_1912_1947","name":"Bengal Province (Reunited)","est":1912,"ind":1947,"region":"Asia","type":"Province","qid":null},{"id":"bihar_and_orissa_1912_1947","name":"Bihar and Orissa","est":1912,"ind":1947,"region":"Asia","type":"Province","qid":"Q4907084"},{"id":"burma_british_india_1886_1937","name":"Burma (British India)","est":1886,"ind":1937,"region":"Asia","type":"Province","qid":"Q2376315"},{"id":"burma_separate_colony_1937_1948","name":"Burma (Separate Colony)","est":1937,"ind":1948,"region":"Asia","type":"Crown Colony","qid":"Q2376315"},{"id":"gambia_colony_1816_1888","name":"Gambia Colony","est":1816,"ind":1888,"region":"Africa","type":"Crown Colony","qid":"Q3557236"},{"id":"cape_coast_castle_1664_1821","name":"Cape Coast Castle","est":1664,"ind":1821,"region":"Africa","type":"Trading Post","qid":"Q1254826"},{"id":"british_gold_coast_1821_1874","name":"British Gold Coast","est":1821,"ind":1874,"region":"Africa","type":"Crown Colony","qid":"Q503623"},{"id":"gold_coast_colony_1874_1957","name":"Gold Coast Colony","est":1874,"ind":1957,"region":"Africa","type":"Crown Colony","qid":"Q503623"},{"id":"cape_colony_dutch_1652_1795","name":"Cape Colony (Dutch)","est":1652,"ind":1795,"region":"Africa","type":"Dutch Company Colony","qid":"Q4807130"},{"id":"cape_colony_british_1795_1803_1795_1803","name":"Cape Colony (British 1795-1803)","est":1795,"ind":1803,"region":"Africa","type":"Crown Colony","qid":"Q4806993"},{"id":"cape_colony_dutch_restored_1803_1806","name":"Cape Colony (Dutch Restored)","est":1803,"ind":1806,"region":"Africa","type":"Dutch Colony","qid":"Q4807130"},{"id":"cape_colony_british_1806_1910","name":"Cape Colony (British)","est":1806,"ind":1910,"region":"Africa","type":"Crown Colony","qid":"Q4806993"},{"id":"natalia_republic_1839_1843","name":"Natalia Republic","est":1839,"ind":1843,"region":"Africa","type":"Boer Republic","qid":"Q1029847"},{"id":"colony_of_natal_1843_1910","name":"Colony of Natal","est":1843,"ind":1910,"region":"Africa","type":"Crown Colony","qid":"Q1301901"},{"id":"orange_river_sovereignty_1848_1854","name":"Orange River Sovereignty","est":1848,"ind":1854,"region":"Africa","type":"British Sovereignty","qid":"Q3048062"},{"id":"orange_free_state_1854_1900","name":"Orange Free State","est":1854,"ind":1900,"region":"Africa","type":"Boer Republic","qid":"Q218023"},{"id":"south_african_republic_transvaal_1852_1877","name":"South African Republic (Transvaal)","est":1852,"ind":1877,"region":"Africa","type":"Boer Republic","qid":"Q550374"},{"id":"ashanti_1901_1957","name":"Ashanti","est":1901,"ind":1957,"region":"Africa","type":"Crown Colony","qid":"Q96372444"},{"id":"basutoland_1868_1966","name":"Basutoland","est":1868,"ind":1966,"region":"Africa","type":"Crown Colony","qid":"Q2340665"},{"id":"bechuanaland_protectorate_1884_1966","name":"Bechuanaland Protectorate","est":1884,"ind":1966,"region":"Africa","type":"Protectorate","qid":"Q747314"},{"id":"british_bechuanaland_1885_1895","name":"British Bechuanaland","est":1885,"ind":1895,"region":"Africa","type":"Crown colony","qid":"Q4530733"},{"id":"british_cameroons_1916_1961","name":"British Cameroons","est":1916,"ind":1961,"region":"Africa","type":"Mandate/Trust Territory","qid":"Q1028835"},{"id":"british_somaliland_1884_1960","name":"British Somaliland","est":1884,"ind":1960,"region":"Africa","type":"Protectorate","qid":"Q662653"},{"id":"egypt_1882_1922","name":"Egypt","est":1882,"ind":1922,"region":"Africa","type":"Occupation/Protectorate","qid":"Q2474428"},{"id":"gambia_colony_and_protectorate_1816_1965","name":"Gambia Colony and Protectorate","est":1888,"ind":1965,"region":"Africa","type":"Crown Colony","qid":"Q3557236"},{"id":"kenya_colony_and_protectorate_of_1920_1963","name":"Kenya, Colony & Protectorate of","est":1920,"ind":1963,"region":"Africa","type":"Crown Colony","qid":"Q2538511"},{"id":"lagos_protectorate_1887_1906","name":"Lagos Protectorate","est":1887,"ind":1906,"region":"Africa","type":"Protectorate","qid":"Q472146"},{"id":"southern_nigeria_protectorate_1900_1914","name":"Southern Nigeria Protectorate","est":1900,"ind":1914,"region":"Africa","type":"Protectorate","qid":"Q2062030"},{"id":"northern_nigeria_1900_1914","name":"Northern Nigeria","est":1900,"ind":1914,"region":"Africa","type":"Protectorate","qid":"Q585408"},{"id":"colony_and_protectorate_of_nigeria_1914_1960","name":"Colony and Protectorate of Nigeria","est":1914,"ind":1960,"region":"Africa","type":"Colony/Protectorate","qid":"Q5148517"},{"id":"nyasaland_1891_1964","name":"Nyasaland","est":1891,"ind":1964,"region":"Africa","type":"Protectorate","qid":"Q1649306"},{"id":"northern_rhodesia_1911_1964","name":"Northern Rhodesia","est":1911,"ind":1964,"region":"Africa","type":"Protectorate","qid":"Q953903"},{"id":"southern_rhodesia_1901_1980","name":"Southern Rhodesia","est":1901,"ind":1980,"region":"Africa","type":"Crown Colony","qid":"Q750583"},{"id":"sierra_leone_colony_and_protectorate_1787_1961","name":"Sierra Leone Colony and Protectorate","est":1787,"ind":1961,"region":"Africa","type":"Colony/Protectorate","qid":"Q30059027"},{"id":"sudan_anglo-egyptian_1899_1956","name":"Sudan, Anglo-Egyptian","est":1899,"ind":1956,"region":"Africa","type":"Condominium","qid":"Q541455"},{"id":"tanganyika_territory_1922_1961","name":"Tanganyika Territory","est":1922,"ind":1961,"region":"Africa","type":"Mandate/Trust Territory","qid":"Q158725"},{"id":"uganda_1894_1962","name":"Uganda","est":1894,"ind":1962,"region":"Africa","type":"Protectorate","qid":"Q1097943"},{"id":"zanzibar_1890_1963","name":"Zanzibar","est":1890,"ind":1963,"region":"Africa","type":"Protectorate","qid":"Q3574782"},{"id":"aden_1839_1963","name":"Aden Province","est":1839,"ind":null,"region":"Asia","type":"Colony/Protectorate","qid":"Q17509767"},{"id":"assam_bengal_presidency_1826_1874","name":"Assam (Bengal Presidency)","est":1826,"ind":null,"region":"Asia","type":"Province of British India","qid":"Q5148287"},{"id":"bahrain_protectorate_1861_1971","name":"Bahrain Protectorate","est":1861,"ind":1971,"region":"Asia","type":"Protectorate","qid":"Q21816225"},{"id":"baluchistan_1877_1947","name":"Baluchistan","est":1877,"ind":1947,"region":"Asia","type":"Province","qid":"Q2336399"},{"id":"lower_burma_1824_1886","name":"Lower Burma","est":1824,"ind":1948,"region":"Asia","type":"Crown Colony","qid":"Q1937196"},{"id":"ceylon_1795_1948","name":"Ceylon","est":1795,"ind":1948,"region":"Asia","type":"Crown Colony","qid":"Q918153"},{"id":"hong_kong_1841_1997","name":"Hong Kong","est":1841,"ind":1997,"region":"Asia","type":"Crown Colony","qid":"Q1054923"},{"id":"kuwait_1899_1961","name":"Kuwait","est":1899,"ind":1961,"region":"Asia","type":"Protectorate","qid":"Q3480281"},{"id":"indian_empire_(british_raj)_1613_1947","name":"Indian Empire (British Raj)","est":1613,"ind":1947,"region":"Asia","type":"Colony/Empire","qid":"Q129286"},{"id":"malaya_1824_1963","name":"Malaya","est":1824,"ind":1963,"region":"Asia","type":"Crown Colony","qid":"Q871091"},{"id":"palestine_1920_1948","name":"Palestine","est":1920,"ind":1948,"region":"Asia","type":"Mandate","qid":"Q193714"},{"id":"singapore_1824_1965","name":"Singapore","est":1824,"ind":1965,"region":"Asia","type":"Crown Colony","qid":"Q376178"},{"id":"newfoundland_1497_1949","name":"Newfoundland","est":1497,"ind":1949,"region":"North America","type":"Colony/Dominion","qid":"Q2984260"},{"id":"nova_scotia_1621_1867","name":"Nova Scotia","est":1621,"ind":1867,"region":"North America","type":"Crown Colony","qid":"Q98931415"},{"id":"new_brunswick_1784_1867","name":"New Brunswick","est":1784,"ind":1867,"region":"North America","type":"Crown Colony","qid":"Q107499350"},{"id":"prince_edward_island_1769_1873","name":"Prince Edward Island","est":1769,"ind":1873,"region":"North America","type":"Crown Colony","qid":"Q137324703"},{"id":"jamaica_1655_1962","name":"Jamaica","est":1655,"ind":1962,"region":"Caribbean","type":"Crown Colony","qid":"Q2526023"},{"id":"trinidad_and_tobago_1889_1962","name":"Trinidad and Tobago","est":1889,"ind":1962,"region":"Caribbean","type":"Crown Colony","qid":"Q116282722"},{"id":"british_guyana_1831_1966","name":"British Guyana","est":1763,"ind":1966,"region":"South America","type":"Crown Colony","qid":"Q918126"},{"id":"gibraltar_1704_ongoing","name":"Gibraltar","est":1704,"ind":null,"region":"Europe","type":"British Overseas Territory","qid":"Q1410"},{"id":"malta_1800_1964","name":"Malta","est":1800,"ind":1964,"region":"Europe","type":"Crown Colony","qid":"Q6744657"},{"id":"cyprus_1878_1960","name":"Cyprus","est":1878,"ind":1960,"region":"Europe","type":"Crown Colony","qid":"Q15240466"},{"id":"falkland_islands_1833_ongoing","name":"Falkland Islands","est":1833,"ind":null,"region":"Atlantic","type":"British Overseas Territory","qid":"Q9648"},{"id":"saint_helena_ascension_and_tristan_da_cunha_1588_ongoing","name":"Saint Helena, Ascension and Tristan da Cunha","est":1588,"ind":null,"region":"Atlantic","type":"British Overseas Territory","qid":"Q192184"},{"id":"new_zealand_1840_1947","name":"New Zealand","est":1840,"ind":1947,"region":"Pacific","type":"Colony/Dominion","qid":"Q5148518"},{"id":"fiji_1874_1970","name":"Fiji","est":1874,"ind":1970,"region":"Pacific","type":"Crown Colony","qid":"Q5148320"},{"id":"royal_niger_company_territory_1886_1900","name":"Royal Niger Company Territory","est":1886,"ind":1900,"region":"Africa","type":"Company Territory","qid":"Q1806380"},{"id":"oil_rivers_protectorate_1885_1893","name":"Oil Rivers Protectorate","est":1885,"ind":1893,"region":"Africa","type":"Protectorate","qid":"Q2566427"},{"id":"niger_coast_protectorate_1893_1900","name":"Niger Coast Protectorate","est":1893,"ind":1900,"region":"Africa","type":"Protectorate","qid":"Q2566427"},{"id":"fernando_po_british_1827_1843","name":"Fernando Po (British)","est":1827,"ind":1843,"region":"Africa","type":"Possession","qid":"Q205022"},{"id":"british_togoland_1919_1957","name":"British Togoland","est":1919,"ind":1957,"region":"Africa","type":"Mandate","qid":"Q797527"},{"id":"imperial_british_east_africa_company_territory_1888_1895","name":"Imperial British East Africa Company Territory","est":1888,"ind":1895,"region":"Africa","type":"Company Territory","qid":"Q926921"},{"id":"east_africa_protectorate_1895_1920","name":"East Africa Protectorate","est":1895,"ind":1920,"region":"Africa","type":"Protectorate","qid":"Q876185"},{"id":"uganda_protectorate_1894_1962","name":"Uganda Protectorate","est":1894,"ind":1962,"region":"Africa","type":"Protectorate","qid":"Q1097943"},{"id":"german_east_africa_british_occupied_1916_1922","name":"German East Africa (British Occupied)","est":1916,"ind":1922,"region":"Africa","type":"Military Administration","qid":"Q153963"},{"id":"tanganyika_1961_1964","name":"Tanganyika","est":1961,"ind":1964,"region":"Africa","type":"Independence","qid":"Q158725"},{"id":"zanzibar_independent_1963_1964","name":"Zanzibar (Independent)","est":1963,"ind":1964,"region":"Africa","type":"Independence","qid":"Q48769061"},{"id":"british_south_africa_company_territory_1889_1923","name":"British South Africa Company Territory","est":1889,"ind":1923,"region":"Africa","type":"Company Territory","qid":"Q5155572"},{"id":"northern_rhodesia_colony_1924_1953","name":"Northern Rhodesia Colony","est":1924,"ind":1953,"region":"Africa","type":"Crown Colony","qid":"Q953903"},{"id":"southern_rhodesia_colony_1923_1953","name":"Southern Rhodesia Colony","est":1923,"ind":1953,"region":"Africa","type":"Self-governing Colony","qid":"Q750583"},{"id":"rhodesia_udi_1965_1979","name":"Rhodesia (UDI)","est":1965,"ind":1979,"region":"Africa","type":"Unilateral Independence","qid":"Q217169"},{"id":"zimbabwe_rhodesia_1979_1979","name":"Zimbabwe Rhodesia","est":1979,"ind":1979,"region":"Africa","type":"Transitional","qid":"Q890120"},{"id":"southern_rhodesia_restored_1979_1980","name":"Southern Rhodesia (Restored)","est":1979,"ind":1980,"region":"Africa","type":"Crown Colony","qid":"Q750583"},{"id":"british_central_africa_protectorate_1891_1907","name":"British Central Africa Protectorate","est":1891,"ind":1907,"region":"Africa","type":"Protectorate","qid":"Q2642989"},{"id":"somaliland_protectorate_1884_1960","name":"Somaliland Protectorate","est":1884,"ind":1960,"region":"Africa","type":"Protectorate","qid":"Q662653"},{"id":"anglo_egyptian_sudan_1899_1956","name":"Anglo-Egyptian Sudan","est":1899,"ind":1956,"region":"Africa","type":"Condominium","qid":"Q541455"},{"id":"barbados_colony_1627_1966","name":"Barbados Colony","est":1627,"ind":1966,"region":"Caribbean","type":"Crown Colony","qid":"Q63973349"},{"id":"trinidad_and_tobago_colony_1797_1962","name":"Trinidad and Tobago Colony","est":1797,"ind":1962,"region":"Caribbean","type":"Crown Colony","qid":"Q116282722"},{"id":"saint_lucia_colony_1814_1979","name":"Saint Lucia Colony","est":1814,"ind":1979,"region":"Caribbean","type":"Crown Colony","qid":"Q15238409"},{"id":"grenada_colony_1763_1974","name":"Grenada Colony","est":1763,"ind":1974,"region":"Caribbean","type":"Crown Colony","qid":"Q3116419"},{"id":"dominica_colony_1763_1978","name":"Dominica Colony","est":1763,"ind":1978,"region":"Caribbean","type":"Crown Colony","qid":"Q137394892"},{"id":"saint_christopher_nevis_anguilla_1958_1983","name":"Saint Kitts and Nevis Colony","est":1624,"ind":1983,"region":"Caribbean","type":"Crown Colony","qid":"Q1637975"},{"id":"bahamas_colony_1666_1973","name":"Bahamas Colony","est":1666,"ind":1973,"region":"Caribbean","type":"Crown Colony","qid":"Q1060894"},{"id":"british_guiana_1831_1966","name":"British Guiana","est":1831,"ind":1966,"region":"America","type":"Crown Colony","qid":"Q918126"},{"id":"british_honduras_1862_1981","name":"British Honduras","est":1862,"ind":1981,"region":"America","type":"Crown Colony","qid":"Q1643555"},{"id":"british_virgin_islands_1672_ongoing","name":"British Virgin Islands","est":1672,"ind":null,"region":"Caribbean","type":"Crown Colony","qid":"Q25305"},{"id":"cayman_islands_1670_ongoing","name":"Cayman Islands","est":1670,"ind":null,"region":"Caribbean","type":"Crown Colony","qid":"Q5785"},{"id":"turks_and_caicos_islands_1799_ongoing","name":"Turks and Caicos Islands","est":1799,"ind":null,"region":"Caribbean","type":"Crown Colony","qid":"Q18221"},{"id":"montserrat_1632_ongoing","name":"Montserrat","est":1632,"ind":null,"region":"Caribbean","type":"Crown Colony","qid":"Q13353"},{"id":"anguilla_1650_ongoing","name":"Anguilla","est":1650,"ind":null,"region":"Caribbean","type":"Crown Colony","qid":"Q25228"},{"id":"ionian_islands_1815_1864","name":"Ionian Islands","est":1815,"ind":1864,"region":"Europe","type":"Protectorate","qid":"Q1063498"},{"id":"mesopotamia_british_occupied_1914_1920","name":"Mesopotamia (British Occupied)","est":1914,"ind":1920,"region":"Asia","type":"Military Administration","qid":null},{"id":"mandatory_iraq_1920_1932","name":"Mandatory Iraq","est":1920,"ind":1932,"region":"Asia","type":"Mandate","qid":"Q146720"},{"id":"iraq_1932_ongoing","name":"Iraq","est":1932,"ind":null,"region":"Asia","type":"Independence","qid":"Q146720"},{"id":"mandatory_palestine_1920_1948","name":"Mandatory Palestine","est":1920,"ind":1948,"region":"Asia","type":"Mandate","qid":"Q193714"},{"id":"transjordan_1922_1946","name":"Transjordan","est":1922,"ind":1946,"region":"Asia","type":"Mandate","qid":"Q1121819"},{"id":"kuwait_protectorate_1899_1961","name":"Kuwait Protectorate","est":1899,"ind":1961,"region":"Asia","type":"Protectorate","qid":"Q3480281"},{"id":"qatar_protectorate_1916_1971","name":"Qatar Protectorate","est":1916,"ind":1971,"region":"Asia","type":"Protectorate","qid":"Q105633777"},{"id":"trucial_states_1820_1971","name":"Trucial States","est":1820,"ind":1971,"region":"Asia","type":"Protectorate","qid":"Q1852345"},{"id":"muscat_and_oman_protectorate_1891_1971","name":"Muscat and Oman Protectorate","est":1891,"ind":1971,"region":"Asia","type":"Protectorate","qid":"Q157734"},{"id":"aden_colony_1937_1967","name":"Aden Colony","est":1937,"ind":1967,"region":"Asia","type":"Crown Colony","qid":"Q49910"},{"id":"aden_protectorate_1839_1967","name":"Aden Protectorate","est":1869,"ind":1967,"region":"Asia","type":"Protectorate","qid":"Q1865132"},{"id":"south_yemen_1967_1990","name":"South Yemen","est":1967,"ind":1990,"region":"Asia","type":"Independence","qid":"Q199841"},{"id":"socotra_island_1886_1967","name":"Socotra Island","est":1886,"ind":1967,"region":"Asia","type":"Protectorate","qid":"Q82859"},{"id":"british_solomon_islands_1893_1978","name":"British Solomon Islands","est":1893,"ind":1978,"region":"Pacific","type":"Protectorate","qid":"Q13410267"},{"id":"new_hebrides_1906_1980","name":"New Hebrides","est":1906,"ind":1980,"region":"Pacific","type":"Anglo-French Condominium","qid":"Q752431"},{"id":"gilbert_and_ellice_islands_1916_1976","name":"Gilbert and Ellice Islands","est":1916,"ind":1976,"region":"Pacific","type":"Crown Colony","qid":"Q1050859"},{"id":"gilbert_islands_1976_1979","name":"Gilbert Islands","est":1976,"ind":1979,"region":"Pacific","type":"Crown Colony","qid":"Q1050859"},{"id":"ellice_islands_1976_1978","name":"Ellice Islands","est":1976,"ind":1978,"region":"Pacific","type":"Crown Colony","qid":"Q1050859"},{"id":"tonga_protectorate_1900_1970","name":"Tonga Protectorate","est":1900,"ind":1970,"region":"Pacific","type":"Protectorate","qid":"Q17197946"},{"id":"western_samoa_1920_1962","name":"Western Samoa","est":1920,"ind":1962,"region":"Pacific","type":"Mandate","qid":"Q7988268"},{"id":"nauru_1920_1968","name":"Nauru","est":1920,"ind":1968,"region":"Pacific","type":"Mandate","qid":"Q21816219"},{"id":"british_new_guinea_1884_1906","name":"British New Guinea","est":1884,"ind":1906,"region":"Pacific","type":"Protectorate","qid":"Q2645837"},{"id":"territory_of_papua_1906_1949","name":"Territory of Papua","est":1906,"ind":1949,"region":"Pacific","type":"Territory","qid":"Q530560"},{"id":"pitcairn_islands_1838_ongoing","name":"Pitcairn Islands","est":1838,"ind":null,"region":"Pacific","type":"Crown Colony","qid":"Q35672"},{"id":"norfolk_island_1788_1914","name":"Norfolk Island","est":1788,"ind":1914,"region":"Pacific","type":"Crown Colony","qid":"Q31057"},{"id":"cook_islands_1888_1901","name":"Cook Islands","est":1888,"ind":1901,"region":"Pacific","type":"Protectorate","qid":"Q26988"},{"id":"christmas_island_1888_1958","name":"Christmas Island","est":1888,"ind":1958,"region":"Pacific","type":"Crown Colony","qid":"Q31063"},{"id":"cocos_keeling_islands_1857_1955","name":"Cocos (Keeling) Islands","est":1857,"ind":1955,"region":"Pacific","type":"Crown Colony","qid":"Q36004"},{"id":"phoenix_islands_1937_1979","name":"Phoenix Islands","est":1937,"ind":1979,"region":"Pacific","type":"Crown Colony","qid":"Q271674"},{"id":"line_islands_british_1888_1979","name":"Line Islands (British)","est":1888,"ind":1979,"region":"Pacific","type":"Crown Colony","qid":"Q234796"},{"id":"ocean_island_banaba_1900_1979","name":"Ocean Island (Banaba)","est":1900,"ind":1979,"region":"Pacific","type":"Crown Colony","qid":"Q271901"},{"id":"british_western_pacific_territories_1877_1978","name":"British Western Pacific Territories","est":1877,"ind":1978,"region":"Pacific","type":"Administration","qid":"Q1545934"},{"id":"penang_prince_of_wales_island_1786_1826","name":"Penang (Prince of Wales Island)","est":1786,"ind":1826,"region":"Asia","type":"Trading Post","qid":"Q1150673"},{"id":"singapore_settlement_1819_1826","name":"Singapore Settlement","est":1819,"ind":1826,"region":"Asia","type":"Trading Post","qid":"Q4420036"},{"id":"malacca_settlement_1824_1826","name":"Malacca Settlement","est":1824,"ind":1826,"region":"Asia","type":"Crown Colony","qid":"Q7621163"},{"id":"straits_settlements_1826_1946","name":"Straits Settlements","est":1826,"ind":1946,"region":"Asia","type":"Crown Colony","qid":"Q376178"},{"id":"labuan_1846_1963","name":"Labuan","est":1846,"ind":1963,"region":"Asia","type":"Crown Colony","qid":"Q6420545"},{"id":"federated_malay_states_1895_1946","name":"Federated Malay States","est":1895,"ind":1946,"region":"Asia","type":"Protectorate","qid":"Q1400154"},{"id":"unfederated_malay_states_1909_1946","name":"Unfederated Malay States","est":1909,"ind":1946,"region":"Asia","type":"Protectorate","qid":"Q1973084"},{"id":"british_north_borneo_1882_1946","name":"British North Borneo","est":1882,"ind":1946,"region":"Asia","type":"Company Territory","qid":"Q1147441"},{"id":"north_borneo_crown_colony_1946_1963","name":"North Borneo Crown Colony","est":1946,"ind":1963,"region":"Asia","type":"Crown Colony","qid":"Q16933920"},{"id":"sarawak_1841_1946","name":"Sarawak","est":1841,"ind":1946,"region":"Asia","type":"Personal Rule","qid":"Q1658411"},{"id":"sarawak_crown_colony_1946_1963","name":"Sarawak Crown Colony","est":1946,"ind":1963,"region":"Asia","type":"Crown Colony","qid":"Q5589708"},{"id":"malaya_independent_1957_1963","name":"Malaya (Independent)","est":1957,"ind":1963,"region":"Asia","type":"Independence","qid":"Q1479726"},{"id":"singapore_crown_colony_1946_1963","name":"Singapore Crown Colony","est":1946,"ind":1963,"region":"Asia","type":"Crown Colony","qid":"Q4373718"},{"id":"brunei_protectorate_1888_1984","name":"Brunei Protectorate","est":1888,"ind":1984,"region":"Asia","type":"Protectorate","qid":"Q921"},{"id":"bencoolen_bengkulu_1685_1824","name":"Bencoolen (Bengkulu)","est":1685,"ind":null,"region":"Asia","type":"Trading Post","qid":"Q4969562"},{"id":"java_british_occupation_1811_1816","name":"Java (British Occupation)","est":1811,"ind":1816,"region":"Asia","type":"Military Administration","qid":null},{"id":"moluccas_british_occupation_1810_1817","name":"Moluccas (British Occupation)","est":1810,"ind":1817,"region":"Asia","type":"Military Administration","qid":null},{"id":"banda_islands_british_occupation_1810_1817","name":"Banda Islands (British Occupation)","est":1810,"ind":null,"region":"Asia","type":"Military Administration","qid":"Q76495389"},{"id":"netherlands_east_indies_british_administration_1945_1946","name":"Netherlands East Indies (British Administration)","est":1945,"ind":1946,"region":"Asia","type":"Military Administration","qid":null},{"id":"weihaiwei_1898_1930","name":"Weihaiwei","est":1898,"ind":1930,"region":"Asia","type":"Leased Territory","qid":"Q15939896"},{"id":"british_hong_kong_1842_1997","name":"British Hong Kong","est":1842,"ind":1997,"region":"Asia","type":"Crown Colony","qid":"Q1054923"},{"id":"shanghai_international_settlement_1863_1943","name":"Shanghai International Settlement","est":1863,"ind":1943,"region":"Asia","type":"International Settlement","qid":"Q2170587"},{"id":"macao_british_co_administration_1622_1623","name":"Macao (British Co-administration)","est":1622,"ind":1623,"region":"Asia","type":"Co-administration","qid":null},{"id":"ellice_islands_separate_1892_1916","name":"Ellice Islands (Separate)","est":1892,"ind":1916,"region":"Pacific","type":"Crown Colony","qid":"Q1050859"},{"id":"henderson_island_1902_ongoing","name":"Henderson Island","est":1902,"ind":null,"region":"Pacific","type":"Crown Colony","qid":"Q35672"},{"id":"isle_de_france_british_occupation_1810_1814","name":"Isle de France (British Occupation)","est":1810,"ind":1814,"region":"Africa","type":"Military Administration","qid":"Q12053604"},{"id":"mauritius_1814_1968","name":"Mauritius","est":1814,"ind":1968,"region":"Africa","type":"Crown Colony","qid":"Q12053604"},{"id":"seychelles_mauritius_dependency_1814_1903","name":"Seychelles (Mauritius Dependency)","est":1814,"ind":1903,"region":"Africa","type":"Dependency","qid":"Q21821453"},{"id":"seychelles_1903_1976","name":"Seychelles","est":1903,"ind":1976,"region":"Africa","type":"Crown Colony","qid":"Q21821453"},{"id":"rodrigues_1814_1968","name":"Rodrigues","est":1814,"ind":1968,"region":"Africa","type":"Dependency","qid":"Q208668"},{"id":"chagos_islands_mauritius_dependency_1814_1965","name":"Chagos Islands (Mauritius Dependency)","est":1814,"ind":1965,"region":"Asia","type":"Dependency","qid":"Q192188"},{"id":"maldives_protectorate_1887_1965","name":"Maldives Protectorate","est":1887,"ind":1965,"region":"Asia","type":"Protectorate","qid":"Q11344632"},{"id":"aldabra_islands_1903_1965","name":"Aldabra Islands","est":1903,"ind":1965,"region":"Africa","type":"Dependency","qid":"Q1426882"},{"id":"farquhar_islands_1903_1965","name":"Farquhar Islands","est":1903,"ind":1965,"region":"Africa","type":"Dependency","qid":"Q967943"},{"id":"desroches_islands_1903_1965","name":"Desroches Islands","est":1903,"ind":1965,"region":"Africa","type":"Dependency","qid":"Q620506"},{"id":"st._helena_1659_ongoing","name":"St. Helena","est":1659,"ind":null,"region":"Africa","type":"Crown Colony","qid":"Q34497"},{"id":"ascension_island_1815_ongoing","name":"Ascension Island","est":1815,"ind":null,"region":"Africa","type":"Dependency","qid":"Q46197"},{"id":"tristan_da_cunha_1816_ongoing","name":"Tristan da Cunha","est":1816,"ind":null,"region":"Africa","type":"Dependency","qid":"Q220982"},{"id":"baker_island_1855_1898","name":"Baker Island","est":1897,"ind":1898,"region":"Pacific","type":"Guano Island","qid":"Q46879"},{"id":"howland_island_1857_1898","name":"Howland Island","est":1857,"ind":1898,"region":"Pacific","type":"Guano Island","qid":"Q131305"},{"id":"jarvis_island_1857_1898","name":"Jarvis Island","est":1857,"ind":1898,"region":"Pacific","type":"Guano Island","qid":"Q62218"},{"id":"enderbury_island_1860_1979","name":"Enderbury Island","est":1860,"ind":1979,"region":"Pacific","type":"Guano Island","qid":"Q30638"},{"id":"mckean_island_1860_1979","name":"McKean Island","est":1860,"ind":1979,"region":"Pacific","type":"Guano Island","qid":"Q1050899"},{"id":"birnie_island_1860_1979","name":"Birnie Island","est":1860,"ind":1979,"region":"Pacific","type":"Guano Island","qid":"Q45295"},{"id":"rawaki_phoenix_island_1860_1979","name":"Rawaki (Phoenix Island)","est":1860,"ind":1979,"region":"Pacific","type":"Guano Island","qid":"Q1059295"},{"id":"manra_sydney_island_1860_1979","name":"Manra (Sydney Island)","est":1860,"ind":1979,"region":"Pacific","type":"Guano Island","qid":"Q48478"},{"id":"starbuck_island_1866_1979","name":"Starbuck Island","est":1866,"ind":1979,"region":"Pacific","type":"Guano Island","qid":"Q911028"},{"id":"vostok_island_1866_1979","name":"Vostok Island","est":1866,"ind":1979,"region":"Pacific","type":"Guano Island","qid":"Q976570"},{"id":"flint_island_1866_1979","name":"Flint Island","est":1866,"ind":1979,"region":"Pacific","type":"Guano Island","qid":"Q741650"},{"id":"caroline_island_1868_1979","name":"Caroline Island","est":1868,"ind":1979,"region":"Pacific","type":"Guano Island","qid":"Q822151"},{"id":"south_georgia_whaling_stations_1904_1965","name":"South Georgia Whaling Stations","est":1904,"ind":null,"region":"Antarctica","type":"Whaling Station","qid":"Q35086"},{"id":"south_shetland_islands_whaling_1820_1959","name":"South Shetland Islands Whaling","est":1820,"ind":1959,"region":"Antarctica","type":"Whaling Station","qid":"Q35086"},{"id":"deception_island_whaling_1906_1931","name":"Deception Island Whaling","est":1906,"ind":1931,"region":"Antarctica","type":"Whaling Station","qid":"Q1045820"},{"id":"norfolk_island_whaling_station_1830_1870","name":"Norfolk Island Whaling Station","est":1830,"ind":1870,"region":"Pacific","type":"Whaling Station","qid":"Q31057"},{"id":"campbell_island_whaling_1810_1860","name":"Campbell Island Whaling","est":1810,"ind":1860,"region":"Pacific","type":"Whaling Station","qid":"Q3593036"},{"id":"swains_island_1856_1925","name":"Swains Island","est":1856,"ind":1925,"region":"Pacific","type":"Guano Island","qid":"Q1128488"},{"id":"christmas_island_line_islands_1857_1979","name":"Christmas Island (Line Islands)","est":1857,"ind":1979,"region":"Pacific","type":"Guano Island","qid":"Q193331"},{"id":"ducie_island_1902_ongoing","name":"Ducie Island","est":1902,"ind":null,"region":"Pacific","type":"Remote Island","qid":"Q35672"},{"id":"oeno_island_1902_ongoing","name":"Oeno Island","est":1902,"ind":null,"region":"Pacific","type":"Remote Island","qid":"Q35672"},{"id":"bouvet_island_brief_claim_1825_1928","name":"Bouvet Island (Brief Claim)","est":1825,"ind":1928,"region":"Antarctica","type":"Remote Island","qid":"Q23408"},{"id":"heard_and_mcdonald_islands_1833_1947","name":"Heard and McDonald Islands","est":1833,"ind":1947,"region":"Antarctica","type":"Remote Island","qid":"Q35086"},{"id":"virginia_colony_1607_1783","name":"Virginia Colony","est":1607,"ind":1783,"region":"America","type":"Royal Colony","qid":"Q1070529"},{"id":"massachusetts_bay_colony_1630_1783","name":"Massachusetts Bay Colony","est":1630,"ind":1783,"region":"America","type":"Charter Colony","qid":"Q1191350"},{"id":"pennsylvania_colony_1681_1783","name":"Pennsylvania Colony","est":1681,"ind":1783,"region":"America","type":"Proprietary Colony","qid":"Q2475732"},{"id":"new_york_colony_1664_1783","name":"New York Colony","est":1664,"ind":1783,"region":"America","type":"Royal Colony","qid":"Q769668"},{"id":"maryland_colony_1634_1783","name":"Maryland Colony","est":1634,"ind":1783,"region":"America","type":"Proprietary Colony","qid":"Q2452027"},{"id":"connecticut_colony_1636_1783","name":"Connecticut Colony","est":1636,"ind":1783,"region":"America","type":"Charter Colony","qid":"Q951500"},{"id":"rhode_island_colony_1636_1783","name":"Rhode Island Colony","est":1636,"ind":1783,"region":"America","type":"Charter Colony","qid":"Q2335224"},{"id":"delaware_colony_1664_1783","name":"Delaware Colony","est":1664,"ind":1783,"region":"America","type":"Proprietary Colony","qid":"Q2571194"},{"id":"new_hampshire_colony_1623_1783","name":"New Hampshire Colony","est":1623,"ind":1783,"region":"America","type":"Royal Colony","qid":"Q1617382"},{"id":"new_jersey_colony_1664_1783","name":"New Jersey Colony","est":1664,"ind":1783,"region":"America","type":"Royal Colony","qid":"Q2335128"},{"id":"north_carolina_colony_1663_1783","name":"North Carolina Colony","est":1663,"ind":1783,"region":"America","type":"Royal Colony","qid":"Q2334526"},{"id":"south_carolina_colony_1663_1783","name":"South Carolina Colony","est":1663,"ind":1783,"region":"America","type":"Royal Colony","qid":"Q2513167"},{"id":"georgia_colony_1732_1783","name":"Georgia Colony","est":1732,"ind":1783,"region":"America","type":"Royal Colony","qid":"Q785035"},{"id":"province_of_quebec_british_1763_1791","name":"Province of Quebec (British)","est":1763,"ind":1791,"region":"America","type":"Crown Colony","qid":"Q251668"},{"id":"colony_of_newfoundland_1610_1949","name":"Colony of Newfoundland","est":1610,"ind":1949,"region":"America","type":"Crown Colony","qid":"Q2984260"},{"id":"dominion_of_newfoundland_1907_1934","name":"Dominion of Newfoundland","est":1907,"ind":1934,"region":"America","type":"Dominion","qid":"Q38610"},{"id":"bermuda_1609_ongoing","name":"Bermuda","est":1609,"ind":null,"region":"America","type":"Crown Colony","qid":"Q23635"},{"id":"leeward_islands_colony_1671_1816","name":"Leeward Islands Colony","est":1671,"ind":1956,"region":"Caribbean","type":"Federal Colony","qid":"Q1796551"},{"id":"british_windward_islands_1833_1959","name":"British Windward Islands","est":1833,"ind":1959,"region":"Caribbean","type":"Federal Colony","qid":"Q2660774"},{"id":"antigua_colony_1632_1981","name":"Antigua Colony","est":1632,"ind":null,"region":"Caribbean","type":"Crown Colony","qid":"Q22007334"},{"id":"st_vincent_colony_1763_1979","name":"St. Vincent Colony","est":1763,"ind":1979,"region":"Caribbean","type":"Crown Colony","qid":"Q757"},{"id":"territory_of_new_guinea_1920_1975","name":"Territory of New Guinea","est":1920,"ind":1975,"region":"Pacific","type":"Mandate","qid":"Q1443945"},{"id":"territory_of_papua_and_new_guinea_1949_1975","name":"Territory of Papua and New Guinea","est":1949,"ind":1975,"region":"Pacific","type":"Trust Territory","qid":"Q2301972"},{"id":"south_georgia_1775_ongoing","name":"South Georgia","est":1775,"ind":null,"region":"Antarctica","type":"Dependency","qid":"Q35086"},{"id":"south_sandwich_islands_1775_ongoing","name":"South Sandwich Islands","est":1775,"ind":null,"region":"Antarctica","type":"Dependency","qid":"Q35086"},{"id":"factory_at_surat_1612_1857","name":"Factory at Surat","est":1612,"ind":1857,"region":"Asia","type":"Trading Post","qid":"Q19898523"},{"id":"fort_st_george_madras_1640_1857","name":"Fort St. George (Madras)","est":1640,"ind":1857,"region":"Asia","type":"Trading Post","qid":"Q118994895"},{"id":"fort_william_calcutta_1696_1857","name":"Fort William (Calcutta)","est":1696,"ind":1857,"region":"Asia","type":"Trading Post","qid":"Q2750027"},{"id":"james_island_gambia_1661_1779","name":"James Island (Gambia)","est":1661,"ind":1779,"region":"Africa","type":"Trading Post","qid":"Q23498700"},{"id":"assam_province_restored_1912_1947","name":"Assam Province (Restored)","est":1912,"ind":null,"region":"Asia","type":"","qid":"Q17513379"},{"id":"united_colony_of_bc_1866_1871","name":"United Colony of British Columbia","est":1866,"ind":null,"region":"North America","type":"","qid":"Q2514958"},{"id":"settlement_of_belize_1798_1862","name":"English settlement of Belize","est":1798,"ind":null,"region":"America","type":"","qid":"Q115829224"},{"id":"antigua_montserrat_barbuda_1816_1833","name":null,"est":null,"ind":null,"region":"Unknown","type":"","qid":null},{"id":"stkitts_nevis_anguilla_1816_1833","name":null,"est":null,"ind":null,"region":"Unknown","type":"","qid":null},{"id":"federal_colony_leeward_islands_1833-1960","name":"British Leeward Islands","est":1833,"ind":null,"region":"Caribbean","type":"","qid":"Q1796551"},{"id":"new_france_1608_1763","name":"New France","est":1608,"ind":1763,"region":"North America","type":"Colonial Empire","qid":"Q170604"},{"id":"acadia_french_1604_1713","name":"Acadia","est":1604,"ind":"","region":"North America","type":"Colonial Territory","qid":"Q207353"},{"id":"canada_french_1608_1763","name":"Canada (French Colony)","est":1608,"ind":null,"region":"North America","type":"Colonial Territory","qid":"Q2569593"},{"id":"ile_royale_1713_1763","name":"\u00cele Royale","est":1713,"ind":1763,"region":"North America","type":"Colonial Territory","qid":"Q3593199"},{"id":"louisiana_french_1682_1762","name":"Louisiana","est":1682,"ind":1762,"region":"North America","type":"Colonial Territory","qid":"Q1244"},{"id":"commonwealth_of_australia_1901_ongoing","name":"Commonwealth of Australia","est":1901,"ind":null,"region":"Pacific","type":"Dominion","qid":"Q408"},{"id":"dominion_of_india_1947_1950","name":"Dominion of India","est":1947,"ind":1950,"region":"Asia","type":"Dominion","qid":"Q1775277"},{"id":"dominion_of_pakistan_1947_1956","name":"Dominion of Pakistan","est":1947,"ind":1956,"region":"Asia","type":"Dominion","qid":"Q2006542"},{"id":"canada_dominion_of_1867_ongoing","name":"Canada, Dominion of","est":1867,"ind":null,"region":"North America","type":"Dominion","qid":"Q16"},{"id":"australia_1901_1942","name":"Australia","est":1901,"ind":1942,"region":"Pacific","type":"Dominion","qid":"Q408"}],"edges":[{"source":"colony_of_natal_1843_1910","target":"union_of_south_africa_1910_1961","type":"EVOLVED_INTO"},{"source":"orange_river_colony_1900_1910","target":"union_of_south_africa_1910_1961","type":"EVOLVED_INTO"},{"source":"transvaal_colony_second_british_1900_1910","target":"union_of_south_africa_1910_1961","type":"EVOLVED_INTO"},{"source":"cape_colony_british_1806_1910","target":"union_of_south_africa_1910_1961","type":"EVOLVED_INTO"},{"source":"nyasaland_1891_1964","target":"federation_of_rhodesia_and_nyasaland_1953_1963","type":"EVOLVED_INTO"},{"source":"northern_rhodesia_colony_1924_1953","target":"federation_of_rhodesia_and_nyasaland_1953_1963","type":"EVOLVED_INTO"},{"source":"southern_rhodesia_colony_1923_1953","target":"federation_of_rhodesia_and_nyasaland_1953_1963","type":"EVOLVED_INTO"},{"source":"federated_malay_states_1895_1946","target":"malayan_union_1946_1948","type":"EVOLVED_INTO"},{"source":"unfederated_malay_states_1909_1946","target":"malayan_union_1946_1948","type":"EVOLVED_INTO"},{"source":"straits_settlements_1826_1946","target":"malayan_union_1946_1948","type":"EVOLVED_INTO"},{"source":"malayan_union_1946_1948","target":"federation_of_malaya_1948_1957","type":"EVOLVED_INTO"},{"source":"south_african_republic_transvaal_1852_1877","target":"transvaal_colony_first_british_1877_1881","type":"EVOLVED_INTO"},{"source":"transvaal_colony_first_british_1877_1881","target":"south_african_republic_restored_1881_1900","type":"EVOLVED_INTO"},{"source":"orange_free_state_1854_1900","target":"orange_river_colony_1900_1910","type":"EVOLVED_INTO"},{"source":"south_african_republic_restored_1881_1900","target":"transvaal_colony_second_british_1900_1910","type":"EVOLVED_INTO"},{"source":"province_of_quebec_british_1763_1791","target":"upper_canada_1791_1841","type":"PARTITIONED_INTO"},{"source":"province_of_quebec_british_1763_1791","target":"lower_canada_1791_1841","type":"PARTITIONED_INTO"},{"source":"lower_canada_1791_1841","target":"province_of_canada_1841_1867","type":"EVOLVED_INTO"},{"source":"upper_canada_1791_1841","target":"province_of_canada_1841_1867","type":"EVOLVED_INTO"},{"source":"ruperts_land_1670_1870","target":"manitoba_1870_1870_ongoing","type":"EVOLVED_INTO"},{"source":"north_western_territory_1670_1870","target":"northwest_territories_1870_1870_ongoing","type":"EVOLVED_INTO"},{"source":"ruperts_land_1670_1870","target":"northwest_territories_1870_1870_ongoing","type":"EVOLVED_INTO"},{"source":"vancouver_island_1849_1866","target":"mainland_british_columbia_1858_1866","type":"EVOLVED_INTO"},{"source":"province_of_freedom_1787_1792","target":"sierra_leone_company_settlement_1792_1808","type":"EVOLVED_INTO"},{"source":"sierra_leone_company_settlement_1792_1808","target":"sierra_leone_colony_1808_1896","type":"EVOLVED_INTO"},{"source":"new_south_wales_original_1788_1901","target":"van_diemens_land_1803_1856","type":"EVOLVED_INTO"},{"source":"van_diemens_land_1803_1856","target":"tasmania_1856_1901","type":"EVOLVED_INTO"},{"source":"swan_river_colony_1829_1832","target":"western_australia_1832_1901","type":"EVOLVED_INTO"},{"source":"new_south_wales_original_1788_1901","target":"victoria_colony_1851_1901","type":"EVOLVED_INTO"},{"source":"new_south_wales_original_1788_1901","target":"queensland_1859_1901","type":"EVOLVED_INTO"},{"source":"south_australia_1836_1901","target":"northern_territory_1911_ongoing","type":"EVOLVED_INTO"},{"source":"east_india_company_pre_territorial_1612_1757","target":"bengal_presidency_company_1757_1858","type":"EVOLVED_INTO"},{"source":"bengal_presidency_company_1757_1858","target":"bengal_presidency_crown_1858_1912","type":"EVOLVED_INTO"},{"source":"madras_presidency_company_1640_1858","target":"madras_presidency_crown_1858_1947","type":"EVOLVED_INTO"},{"source":"bombay_presidency_company_1687_1858","target":"bombay_presidency_crown_1858_1947","type":"EVOLVED_INTO"},{"source":"eastern_bengal_and_assam_1905_1912","target":"assam_province_1874_1905","type":"EVOLVED_INTO"},{"source":"assam_bengal_presidency_1826_1874","target":"assam_province_1874_1905","type":"EVOLVED_INTO"},{"source":"bengal_presidency_crown_1858_1912","target":"assam_province_1874_1905","type":"EVOLVED_INTO"},{"source":"punjab_province_1849_1947","target":"north_west_frontier_province_1901_1947","type":"EVOLVED_INTO"},{"source":"bengal_presidency_crown_1858_1912","target":"eastern_bengal_and_assam_1905_1912","type":"EVOLVED_INTO"},{"source":"assam_province_1874_1905","target":"eastern_bengal_and_assam_1905_1912","type":"EVOLVED_INTO"},{"source":"bengal_presidency_crown_1858_1912","target":"bengal_province_partitioned_1905_1912","type":"EVOLVED_INTO"},{"source":"eastern_bengal_and_assam_1905_1912","target":"bengal_province_reunited_1912_1947","type":"EVOLVED_INTO"},{"source":"bengal_province_partitioned_1905_1912","target":"bengal_province_reunited_1912_1947","type":"EVOLVED_INTO"},{"source":"bengal_presidency_crown_1858_1912","target":"bihar_and_orissa_1912_1947","type":"EVOLVED_INTO"},{"source":"lower_burma_1824_1886","target":"burma_british_india_1886_1937","type":"EVOLVED_INTO"},{"source":"burma_british_india_1886_1937","target":"burma_separate_colony_1937_1948","type":"EVOLVED_INTO"},{"source":"james_island_trading_post_1661_1816","target":"gambia_colony_1816_1888","type":"EVOLVED_INTO"},{"source":"cape_coast_castle_1664_1821","target":"british_gold_coast_1821_1874","type":"EVOLVED_INTO"},{"source":"british_gold_coast_1821_1874","target":"gold_coast_colony_1874_1957","type":"EVOLVED_INTO"},{"source":"cape_colony_dutch_1652_1795","target":"cape_colony_british_1795_1803_1795_1803","type":"EVOLVED_INTO"},{"source":"cape_colony_british_1795_1803_1795_1803","target":"cape_colony_dutch_restored_1803_1806","type":"EVOLVED_INTO"},{"source":"cape_colony_dutch_restored_1803_1806","target":"cape_colony_british_1806_1910","type":"EVOLVED_INTO"},{"source":"british_bechuanaland_1885_1895","target":"cape_colony_british_1806_1910","type":"EVOLVED_INTO"},{"source":"griqualand_west_1871_1880","target":"cape_colony_british_1806_1910","type":"EVOLVED_INTO"},{"source":"cape_colony_british_1806_1910","target":"natalia_republic_1839_1843","type":"EVOLVED_INTO"},{"source":"zululand_1887_1897","target":"colony_of_natal_1843_1910","type":"EVOLVED_INTO"},{"source":"natalia_republic_1839_1843","target":"colony_of_natal_1843_1910","type":"EVOLVED_INTO"},{"source":"cape_colony_british_1806_1910","target":"orange_river_sovereignty_1848_1854","type":"EVOLVED_INTO"},{"source":"orange_river_sovereignty_1848_1854","target":"orange_free_state_1854_1900","type":"EVOLVED_INTO"},{"source":"gambia_colony_1816_1888","target":"gambia_colony_and_protectorate_1816_1965","type":"EVOLVED_INTO"},{"source":"east_africa_protectorate_1895_1920","target":"kenya_colony_and_protectorate_of_1920_1963","type":"EVOLVED_INTO"},{"source":"lagos_protectorate_1887_1906","target":"southern_nigeria_protectorate_1900_1914","type":"EVOLVED_INTO"},{"source":"niger_coast_protectorate_1893_1900","target":"southern_nigeria_protectorate_1900_1914","type":"EVOLVED_INTO"},{"source":"lagos_protectorate_1887_1906","target":"southern_nigeria_protectorate_1900_1914","type":"EVOLVED_INTO"},{"source":"southern_nigeria_protectorate_1900_1914","target":"northern_nigeria_1900_1914","type":"EVOLVED_INTO"},{"source":"royal_niger_company_territory_1886_1900","target":"northern_nigeria_1900_1914","type":"EVOLVED_INTO"},{"source":"southern_nigeria_protectorate_1900_1914","target":"colony_and_protectorate_of_nigeria_1914_1960","type":"EVOLVED_INTO"},{"source":"southern_nigeria_protectorate_1900_1914","target":"colony_and_protectorate_of_nigeria_1914_1960","type":"EVOLVED_INTO"},{"source":"northern_nigeria_1900_1914","target":"colony_and_protectorate_of_nigeria_1914_1960","type":"EVOLVED_INTO"},{"source":"british_central_africa_protectorate_1891_1907","target":"nyasaland_1891_1964","type":"EVOLVED_INTO"},{"source":"british_south_africa_company_territory_1889_1923","target":"northern_rhodesia_1911_1964","type":"EVOLVED_INTO"},{"source":"sierra_leone_colony_1808_1896","target":"sierra_leone_colony_and_protectorate_1787_1961","type":"EVOLVED_INTO"},{"source":"german_east_africa_british_occupied_1916_1922","target":"tanganyika_territory_1922_1961","type":"EVOLVED_INTO"},{"source":"uganda_protectorate_1894_1962","target":"uganda_1894_1962","type":"EVOLVED_INTO"},{"source":"tanganyika_territory_1922_1961","target":"zanzibar_1890_1963","type":"EVOLVED_INTO"},{"source":"kuwait_protectorate_1899_1961","target":"kuwait_1899_1961","type":"EVOLVED_INTO"},{"source":"west_indies_federation_1958_1962","target":"jamaica_1655_1962","type":"EVOLVED_INTO"},{"source":"trinidad_and_tobago_colony_1797_1962","target":"trinidad_and_tobago_1889_1962","type":"EVOLVED_INTO"},{"source":"west_indies_federation_1958_1962","target":"trinidad_and_tobago_1889_1962","type":"EVOLVED_INTO"},{"source":"oil_rivers_protectorate_1885_1893","target":"niger_coast_protectorate_1893_1900","type":"EVOLVED_INTO"},{"source":"imperial_british_east_africa_company_territory_1888_1895","target":"east_africa_protectorate_1895_1920","type":"EVOLVED_INTO"},{"source":"imperial_british_east_africa_company_territory_1888_1895","target":"uganda_protectorate_1894_1962","type":"EVOLVED_INTO"},{"source":"tanganyika_territory_1922_1961","target":"tanganyika_1961_1964","type":"EVOLVED_INTO"},{"source":"zanzibar_1890_1963","target":"zanzibar_independent_1963_1964","type":"EVOLVED_INTO"},{"source":"northern_rhodesia_1911_1964","target":"northern_rhodesia_colony_1924_1953","type":"EVOLVED_INTO"},{"source":"british_south_africa_company_territory_1889_1923","target":"southern_rhodesia_colony_1923_1953","type":"EVOLVED_INTO"},{"source":"federation_of_rhodesia_and_nyasaland_1953_1963","target":"rhodesia_udi_1965_1979","type":"EVOLVED_INTO"},{"source":"rhodesia_udi_1965_1979","target":"zimbabwe_rhodesia_1979_1979","type":"EVOLVED_INTO"},{"source":"zimbabwe_rhodesia_1979_1979","target":"southern_rhodesia_restored_1979_1980","type":"EVOLVED_INTO"},{"source":"settlement_of_belize_1798_1862","target":"british_honduras_1862_1981","type":"EVOLVED_INTO"},{"source":"mesopotamia_british_occupied_1914_1920","target":"mandatory_iraq_1920_1932","type":"EVOLVED_INTO"},{"source":"mandatory_iraq_1920_1932","target":"iraq_1932_ongoing","type":"EVOLVED_INTO"},{"source":"aden_protectorate_1839_1967","target":"south_yemen_1967_1990","type":"EVOLVED_INTO"},{"source":"socotra_island_1886_1967","target":"south_yemen_1967_1990","type":"EVOLVED_INTO"},{"source":"aden_colony_1937_1967","target":"south_yemen_1967_1990","type":"EVOLVED_INTO"},{"source":"gilbert_and_ellice_islands_1916_1976","target":"gilbert_islands_1976_1979","type":"EVOLVED_INTO"},{"source":"gilbert_and_ellice_islands_1916_1976","target":"ellice_islands_1976_1978","type":"EVOLVED_INTO"},{"source":"british_new_guinea_1884_1906","target":"territory_of_papua_1906_1949","type":"EVOLVED_INTO"},{"source":"singapore_settlement_1819_1826","target":"straits_settlements_1826_1946","type":"EVOLVED_INTO"},{"source":"penang_prince_of_wales_island_1786_1826","target":"straits_settlements_1826_1946","type":"EVOLVED_INTO"},{"source":"malacca_settlement_1824_1826","target":"straits_settlements_1826_1946","type":"EVOLVED_INTO"},{"source":"british_north_borneo_1882_1946","target":"north_borneo_crown_colony_1946_1963","type":"EVOLVED_INTO"},{"source":"sarawak_1841_1946","target":"sarawak_crown_colony_1946_1963","type":"EVOLVED_INTO"},{"source":"federation_of_malaya_1948_1957","target":"malaya_independent_1957_1963","type":"EVOLVED_INTO"},{"source":"straits_settlements_1826_1946","target":"singapore_crown_colony_1946_1963","type":"EVOLVED_INTO"},{"source":"isle_de_france_british_occupation_1810_1814","target":"mauritius_1814_1968","type":"EVOLVED_INTO"},{"source":"seychelles_mauritius_dependency_1814_1903","target":"seychelles_1903_1976","type":"EVOLVED_INTO"},{"source":"eastern_bengal_and_assam_1905_1912","target":"assam_province_restored_1912_1947","type":"EVOLVED_INTO"},{"source":"vancouver_island_1849_1866","target":"united_colony_of_bc_1866_1871","type":"EVOLVED_INTO"},{"source":"mainland_british_columbia_1858_1866","target":"united_colony_of_bc_1866_1871","type":"EVOLVED_INTO"},{"source":"leeward_islands_colony_1671_1816","target":"antigua_montserrat_barbuda_1816_1833","type":"EVOLVED_INTO"},{"source":"leeward_islands_colony_1671_1816","target":"stkitts_nevis_anguilla_1816_1833","type":"EVOLVED_INTO"},{"source":"antigua_montserrat_barbuda_1816_1833","target":"federal_colony_leeward_islands_1833-1960","type":"EVOLVED_INTO"},{"source":"stkitts_nevis_anguilla_1816_1833","target":"federal_colony_leeward_islands_1833-1960","type":"EVOLVED_INTO"},{"source":"western_australia_1832_1901","target":"commonwealth_of_australia_1901_ongoing","type":"EVOLVED_INTO"},{"source":"new_south_wales_original_1788_1901","target":"commonwealth_of_australia_1901_ongoing","type":"EVOLVED_INTO"},{"source":"south_australia_1836_1901","target":"commonwealth_of_australia_1901_ongoing","type":"EVOLVED_INTO"},{"source":"tasmania_1856_1901","target":"commonwealth_of_australia_1901_ongoing","type":"EVOLVED_INTO"},{"source":"queensland_1859_1901","target":"commonwealth_of_australia_1901_ongoing","type":"EVOLVED_INTO"},{"source":"victoria_colony_1851_1901","target":"commonwealth_of_australia_1901_ongoing","type":"EVOLVED_INTO"},{"source":"madras_presidency_crown_1858_1947","target":"dominion_of_india_1947_1950","type":"EVOLVED_INTO"},{"source":"bengal_province_reunited_1912_1947","target":"dominion_of_india_1947_1950","type":"EVOLVED_INTO"},{"source":"united_provinces_1877_1947","target":"dominion_of_india_1947_1950","type":"EVOLVED_INTO"},{"source":"central_provinces_1861_1947","target":"dominion_of_india_1947_1950","type":"EVOLVED_INTO"},{"source":"bombay_presidency_crown_1858_1947","target":"dominion_of_india_1947_1950","type":"EVOLVED_INTO"},{"source":"bihar_and_orissa_1912_1947","target":"dominion_of_india_1947_1950","type":"EVOLVED_INTO"},{"source":"assam_province_1874_1905","target":"dominion_of_india_1947_1950","type":"EVOLVED_INTO"},{"source":"assam_province_restored_1912_1947","target":"dominion_of_india_1947_1950","type":"EVOLVED_INTO"},{"source":"punjab_province_1849_1947","target":"dominion_of_india_1947_1950","type":"EVOLVED_INTO"},{"source":"assam_province_restored_1912_1947","target":"dominion_of_pakistan_1947_1956","type":"EVOLVED_INTO"},{"source":"bengal_province_reunited_1912_1947","target":"dominion_of_pakistan_1947_1956","type":"EVOLVED_INTO"},{"source":"punjab_province_1849_1947","target":"dominion_of_pakistan_1947_1956","type":"EVOLVED_INTO"},{"source":"north_west_frontier_province_1901_1947","target":"dominion_of_pakistan_1947_1956","type":"EVOLVED_INTO"},{"source":"prince_edward_island_1769_1873","target":"canada_dominion_of_1867_ongoing","type":"EVOLVED_INTO"},{"source":"nova_scotia_1621_1867","target":"canada_dominion_of_1867_ongoing","type":"EVOLVED_INTO"},{"source":"new_brunswick_1784_1867","target":"canada_dominion_of_1867_ongoing","type":"EVOLVED_INTO"},{"source":"province_of_canada_1841_1867","target":"canada_dominion_of_1867_ongoing","type":"EVOLVED_INTO"},{"source":"mainland_british_columbia_1858_1866","target":"canada_dominion_of_1867_ongoing","type":"EVOLVED_INTO"},{"source":"united_colony_of_bc_1866_1871","target":"canada_dominion_of_1867_ongoing","type":"EVOLVED_INTO"},{"source":"manitoba_1870_1870_ongoing","target":"canada_dominion_of_1867_ongoing","type":"EVOLVED_INTO"}]};
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-02-05T06:54:30.607905",
+  "years_processed": 1,
+  "results": [
+    {
+      "year": 1923,
+      "source_file": "/home/jic823/textasdatacolonialofficelist/1923_manual_parsed/gold_coast.txt",
+      "code_file": "/home/jic823/textasdatacolonialofficelist/gold_coast_extraction/generated/gold_coast_1923_extraction.py",
+      "json_file": "/home/jic823/textasdatacolonialofficelist/gold_coast_extraction/json/gold_coast_1923.json",
+      "status": "success",
+      "official_count": 194,
+      "errors": [
+        "Section 'Railway Department.': Syntax error: '[' was never closed (gold_coast_1923_Railway_Department_extraction.py, line 7)",
+        "Section 'Medical Department.': Syntax error: '{' was never closed (gold_coast_1923_Medical_Department_extraction.py, line 19)",
+        "Section 'Education Department.': Syntax error: unterminated string literal (detected at line 32) (gold_coast_1923_Education_Department_extraction.py, line 32)",
+        "Section 'Surveys Department.': Syntax error: unterminated string literal (detected at line 19) (gold_coast_1923_Surveys_Department_extraction.py, line 19)",
+        "Section 'Public Works Department.': Syntax error: unterminated string literal (detected at line 41) (gold_coast_1923_Public_Works_Department_extraction.py, line 41)"
+      ],
+      "timestamp": "2026-02-05T06:24:23.164521"
+    }
+  ]
+}

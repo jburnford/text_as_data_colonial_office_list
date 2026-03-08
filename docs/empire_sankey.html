@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>British North America — Sankey Timeline</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a1a; color: #eee; }
+
+#header {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(10,10,26,0.95); backdrop-filter: blur(8px);
+  padding: 10px 20px; border-bottom: 1px solid rgba(255,255,255,0.1);
+  display: flex; justify-content: space-between; align-items: center;
+}
+#header h1 { font-size: 18px; font-weight: 600; }
+.controls button { background: #2c3e50; color: #eee; border: none; padding: 4px 12px; border-radius: 4px; cursor: pointer; font-size: 12px; }
+.controls button:hover { background: #3d566e; }
+
+#tooltip {
+  position: fixed; pointer-events: none; z-index: 200;
+  background: rgba(20,20,40,0.95); border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 6px; padding: 10px 14px; font-size: 13px;
+  max-width: 320px; display: none; backdrop-filter: blur(8px);
+}
+#tooltip .tt-name { font-weight: 600; font-size: 15px; margin-bottom: 4px; }
+#tooltip .tt-meta { color: #aaa; font-size: 12px; }
+
+#info { position: fixed; bottom: 10px; right: 20px; z-index: 100; color: #666; font-size: 11px; }
+
+svg { cursor: grab; }
+svg:active { cursor: grabbing; }
+
+.timeline-line { stroke: rgba(255,255,255,0.06); stroke-width: 1; }
+.timeline-label { fill: rgba(255,255,255,0.25); font-size: 12px; text-anchor: middle; }
+.event-line { stroke: rgba(255,130,100,0.15); stroke-width: 1; stroke-dasharray: 6,4; }
+.event-label { fill: rgba(255,130,100,0.4); font-size: 10px; }
+
+.flow { opacity: 0.3; transition: opacity 0.15s; }
+.flow.dim { opacity: 0.05; }
+.flow.bright { opacity: 0.75; }
+
+.node-bar { opacity: 0.85; cursor: pointer; transition: opacity 0.15s; }
+.node-bar:hover { opacity: 1; filter: brightness(1.2); }
+.node-bar.postimperial { opacity: 0.5; stroke-dasharray: 4,2; }
+.node-bar.dim { opacity: 0.12; }
+.node-bar.bright { opacity: 1; filter: brightness(1.2); }
+
+.node-label { fill: #ccc; font-size: 10px; pointer-events: none; transition: opacity 0.15s; }
+.node-label.dim { opacity: 0.08; }
+.node-label.bright { fill: #fff; }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <h1>British North America — Colonial Flows</h1>
+  <div class="controls">
+    <button onclick="resetView()">Reset View</button>
+  </div>
+</div>
+
+<div id="tooltip"></div>
+<div id="info">Scroll to zoom · Drag to pan · Click a colony to highlight its flows</div>
+
+<svg id="viz"></svg>
+
+<script>
+const UNIT = 18;
+const GAP = 4;
+const MARGIN = { top: 60, right: 60, bottom: 40, left: 250 };
+
+const POST_IMPERIAL = new Set(['Dominion', 'Independence', 'Former Colony (Independent)',
+  'Federation', 'Transitional', 'Unilateral Independence']);
+
+let selectedNode = null;
+
+function init() {
+  const data = EMBED_DATA;
+  const nodesById = {};
+  data.nodes.forEach(n => { nodesById[n.id] = n; });
+
+  const childrenOf = {};
+  const parentsOf = {};
+  data.edges.forEach(e => {
+    (childrenOf[e.source] = childrenOf[e.source] || []).push(e.target);
+    (parentsOf[e.target] = parentsOf[e.target] || []).push(e.source);
+  });
+
+  // Compute weights recursively
+  const weights = {};
+  function getWeight(id, visited) {
+    if (weights[id] !== undefined) return weights[id];
+    visited = visited || new Set();
+    if (visited.has(id)) return 1;
+    visited.add(id);
+    const parents = parentsOf[id] || [];
+    if (parents.length === 0) { weights[id] = 1; return 1; }
+    let w = 0;
+    parents.forEach(p => { w += getWeight(p, new Set(visited)); });
+    weights[id] = Math.max(w, 1);
+    return weights[id];
+  }
+  data.nodes.forEach(n => getWeight(n.id));
+
+  // Assign flow families for coloring
+  const family = {};
+  function assignFamily(id, fam) {
+    if (family[id] && family[id] !== fam) { family[id] = 'shared'; return; }
+    if (family[id]) return;
+    family[id] = fam;
+    (parentsOf[id] || []).forEach(p => assignFamily(p, fam));
+  }
+  assignFamily('united_states_of_america_1783', 'usa');
+  assignFamily('canada_dominion_of_1867_ongoing', 'canada');
+  data.nodes.forEach(n => { if (!family[n.id]) family[n.id] = 'other'; });
+
+  function getColor(id) {
+    const f = family[id] || 'other';
+    if (f === 'usa') return '#e05252';
+    if (f === 'canada') return '#b87be0';
+    if (f === 'shared') return '#e0c552';
+    return '#52b5e0';
+  }
+
+  // Identify leaf nodes (no EVOLVED_INTO parents) — these get independent rows
+  const leaves = data.nodes.filter(n => !(parentsOf[n.id] && parentsOf[n.id].length > 0));
+
+  // Sort leaves: Canada family top, then shared, then USA, then other
+  const familyOrder = { 'canada': 0, 'shared': 1, 'other': 2, 'usa': 3 };
+  leaves.sort((a, b) => {
+    const fa = familyOrder[family[a.id]] ?? 9;
+    const fb = familyOrder[family[b.id]] ?? 9;
+    if (fa !== fb) return fa - fb;
+    return (a.est || 9999) - (b.est || 9999);
+  });
+
+  // Layout leaves: each gets 1 UNIT height, stacked vertically
+  let yPos = MARGIN.top;
+  const layout = {};
+  leaves.forEach(n => {
+    layout[n.id] = { y: yPos, h: UNIT };
+    yPos += UNIT + GAP;
+  });
+
+  // Topological sort for non-leaf nodes, then position each
+  // at the vertical span of its parents' flows
+  const topoOrder = [];
+  const visited = new Set();
+  function topoVisit(id) {
+    if (visited.has(id)) return;
+    visited.add(id);
+    (parentsOf[id] || []).forEach(p => topoVisit(p));
+    topoOrder.push(id);
+  }
+  data.nodes.forEach(n => topoVisit(n.id));
+
+  // For non-leaf nodes: position = span of parent positions
+  // We also track "slots" — where within a target each source lands
+  const targetSlotTracker = {};
+  topoOrder.forEach(id => {
+    if (layout[id]) return; // already laid out (leaf)
+    const parents = parentsOf[id] || [];
+    if (parents.length === 0) { layout[id] = { y: yPos, h: UNIT }; yPos += UNIT + GAP; return; }
+
+    // Collect parent positions, sorted by y
+    const parentLayouts = parents
+      .filter(p => layout[p])
+      .sort((a, b) => layout[a].y - layout[b].y);
+
+    if (parentLayouts.length === 0) { layout[id] = { y: yPos, h: UNIT }; yPos += UNIT + GAP; return; }
+
+    // This node spans from first parent's slot to last parent's slot + height
+    // We need to track where each parent's flow lands in this node
+    let slotY = 0;
+    const slots = {};
+    parentLayouts.forEach(pid => {
+      const pH = layout[pid].h;
+      slots[pid] = slotY;
+      slotY += pH;
+    });
+    targetSlotTracker[id] = slots;
+
+    const minY = Math.min(...parentLayouts.map(p => layout[p].y));
+    const totalH = slotY;
+    layout[id] = { y: minY, h: totalH };
+  });
+
+  // Sort all nodes for drawing (leaves + non-leaves by y position)
+  const sorted = data.nodes.slice().sort((a, b) => {
+    return (layout[a.id] ? layout[a.id].y : 9999) - (layout[b.id] ? layout[b.id].y : 9999);
+  });
+
+  const totalHeight = yPos + MARGIN.bottom;
+  const width = Math.max(window.innerWidth, 1400);
+
+  const xScale = d3.scaleLinear().domain([1490, 2030]).range([MARGIN.left, width - MARGIN.right]);
+
+  const svg = d3.select('#viz').attr('width', width).attr('height', window.innerHeight);
+  const g = svg.append('g');
+
+  const zoom = d3.zoom().scaleExtent([0.15, 5])
+    .on('zoom', (event) => g.attr('transform', event.transform));
+  svg.call(zoom);
+
+  // Grid
+  d3.range(1500, 2030, 10).forEach(d => {
+    g.append('line').attr('class', 'timeline-line')
+      .attr('x1', xScale(d)).attr('x2', xScale(d))
+      .attr('y1', MARGIN.top - 20).attr('y2', totalHeight);
+  });
+  d3.range(1500, 2100, 100).forEach(c => {
+    g.append('text').attr('class', 'timeline-label')
+      .attr('x', xScale(c)).attr('y', MARGIN.top - 25).text(c);
+  });
+
+  // Events
+  [
+    { year: 1763, label: 'Treaty of Paris' },
+    { year: 1776, label: 'Declaration of Independence' },
+    { year: 1783, label: 'Treaty of Paris (1783)' },
+    { year: 1867, label: 'Canadian Confederation' },
+    { year: 1949, label: 'Newfoundland joins Canada' },
+  ].forEach(ev => {
+    g.append('line').attr('class', 'event-line')
+      .attr('x1', xScale(ev.year)).attr('x2', xScale(ev.year))
+      .attr('y1', MARGIN.top - 15).attr('y2', totalHeight);
+    g.append('text').attr('class', 'event-label')
+      .attr('x', xScale(ev.year) + 3).attr('y', MARGIN.top - 5).text(ev.label);
+  });
+
+  // Draw flow bands
+  const flowGroup = g.append('g');
+
+  // For targets without pre-computed slots, fall back to stacking
+  const fallbackSlots = {};
+  data.nodes.forEach(n => { fallbackSlots[n.id] = 0; });
+
+  // Sort edges so flows stack top-to-bottom within target
+  const sortedEdges = data.edges.slice().sort((a, b) =>
+    (layout[a.source] ? layout[a.source].y : 0) - (layout[b.source] ? layout[b.source].y : 0)
+  );
+
+  const flowElements = [];
+  sortedEdges.forEach(e => {
+    const src = layout[e.source];
+    const tgt = layout[e.target];
+    if (!src || !tgt) return;
+
+    const srcNode = nodesById[e.source];
+    const tgtNode = nodesById[e.target];
+    const srcH = src.h;
+    const bandH = src.h; // band height = source height (preserves visual mass)
+
+    // Where does this source land within the target?
+    let slotY;
+    const precomputed = targetSlotTracker[e.target];
+    if (precomputed && precomputed[e.source] !== undefined) {
+      slotY = tgt.y + precomputed[e.source];
+    } else {
+      slotY = tgt.y + fallbackSlots[e.target];
+      fallbackSlots[e.target] += bandH;
+    }
+
+    const x1 = xScale(Math.min(srcNode.ind || 2025, 2025));
+    const x2 = xScale(tgtNode.est || 1490);
+    const cpOffset = Math.max((x2 - x1) * 0.45, 20);
+
+    const path = `
+      M ${x1},${src.y}
+      C ${x1 + cpOffset},${src.y} ${x2 - cpOffset},${slotY} ${x2},${slotY}
+      L ${x2},${slotY + bandH}
+      C ${x2 - cpOffset},${slotY + bandH} ${x1 + cpOffset},${src.y + srcH} ${x1},${src.y + srcH}
+      Z
+    `;
+
+    const el = flowGroup.append('path')
+      .attr('class', 'flow')
+      .attr('d', path)
+      .attr('fill', getColor(e.source))
+      .attr('data-source', e.source)
+      .attr('data-target', e.target);
+
+    flowElements.push({ el, source: e.source, target: e.target });
+  });
+
+  // Draw bars
+  const barGroup = g.append('g');
+  sorted.forEach(n => {
+    const l = layout[n.id];
+    const x = xScale(n.est || 1490);
+    const w = Math.max(xScale(Math.min(n.ind || 2025, 2025)) - x, 3);
+    const color = getColor(n.id);
+    const pi = POST_IMPERIAL.has(n.type);
+
+    const bar = barGroup.append('rect')
+      .attr('class', 'node-bar' + (pi ? ' postimperial' : ''))
+      .attr('x', x).attr('y', l.y)
+      .attr('width', w).attr('height', l.h)
+      .attr('rx', 2).attr('ry', 2)
+      .attr('data-id', n.id)
+      .on('mouseenter', (event) => showTooltip(event, n, weights[n.id]))
+      .on('mouseleave', hideTooltip)
+      .on('click', (event) => {
+        event.stopPropagation();
+        if (selectedNode === n.id) { selectedNode = null; clearHighlight(); }
+        else { selectedNode = n.id; highlight(n.id); }
+      });
+
+    if (pi) { bar.attr('stroke', color).attr('fill', 'none').attr('stroke-width', 1.5); }
+    else { bar.attr('fill', color); }
+
+    // Label
+    const fontSize = Math.max(Math.min(11, l.h - 2), 7);
+    barGroup.append('text')
+      .attr('class', 'node-label')
+      .attr('x', x - 6).attr('y', l.y + l.h / 2 + fontSize * 0.35)
+      .attr('text-anchor', 'end')
+      .attr('font-size', fontSize + 'px')
+      .attr('data-id', n.id)
+      .text(n.name);
+  });
+
+  // Click background to deselect
+  svg.on('click', () => { selectedNode = null; clearHighlight(); });
+
+  // Highlight: trace full lineage
+  function getLineage(id) {
+    const related = new Set();
+    function up(nid) { if (related.has(nid)) return; related.add(nid); (parentsOf[nid] || []).forEach(up); }
+    function down(nid) { if (related.has(nid)) return; related.add(nid); (childrenOf[nid] || []).forEach(down); }
+    up(id); down(id);
+    return related;
+  }
+
+  window.highlight = function(id) {
+    const related = getLineage(id);
+    d3.selectAll('.node-bar').classed('dim', true).classed('bright', false);
+    d3.selectAll('.node-label').classed('dim', true).classed('bright', false);
+    d3.selectAll('.flow').classed('dim', true).classed('bright', false);
+
+    related.forEach(rid => {
+      d3.selectAll(`.node-bar[data-id="${rid}"]`).classed('dim', false).classed('bright', true);
+      d3.selectAll(`.node-label[data-id="${rid}"]`).classed('dim', false).classed('bright', true);
+    });
+
+    flowElements.forEach(f => {
+      if (related.has(f.source) && related.has(f.target)) {
+        f.el.classed('dim', false).classed('bright', true);
+      }
+    });
+  };
+
+  window.clearHighlight = function() {
+    d3.selectAll('.node-bar').classed('dim', false).classed('bright', false);
+    d3.selectAll('.node-label').classed('dim', false).classed('bright', false);
+    d3.selectAll('.flow').classed('dim', false).classed('bright', false);
+  };
+
+  // Initial zoom
+  const scaleX = (width - 40) / (xScale(2025) - xScale(1490) + MARGIN.left + MARGIN.right);
+  const scaleY = (window.innerHeight - 40) / totalHeight;
+  const initialScale = Math.min(scaleX, scaleY, 0.9);
+  svg.call(zoom.transform, d3.zoomIdentity.scale(initialScale).translate(20, 20));
+
+  window._zoom = zoom;
+  window._svg = svg;
+  window._initialScale = initialScale;
+}
+
+function showTooltip(event, n, weight) {
+  const tt = document.getElementById('tooltip');
+  tt.innerHTML = `
+    <div class="tt-name">${n.name}</div>
+    <div class="tt-meta">${n.est || '?'} – ${n.ind || 'ongoing'} · ${n.type || ''}</div>
+    ${weight > 1 ? `<div class="tt-meta" style="margin-top:4px">Formed from ${weight} colonies</div>` : ''}
+  `;
+  tt.style.display = 'block';
+  tt.style.left = Math.min(event.clientX + 15, window.innerWidth - 340) + 'px';
+  tt.style.top = (event.clientY - 10) + 'px';
+}
+
+function hideTooltip() { document.getElementById('tooltip').style.display = 'none'; }
+
+function resetView() {
+  selectedNode = null;
+  clearHighlight();
+  window._svg.call(window._zoom.transform,
+    d3.zoomIdentity.scale(window._initialScale).translate(20, 20));
+}
+
+const EMBED_DATA = {"nodes": [{"id": "upper_canada_1791_1841", "name": "Upper Canada", "est": 1791, "ind": 1841, "type": "Crown Colony"}, {"id": "lower_canada_1791_1841", "name": "Lower Canada", "est": 1791, "ind": 1841, "type": "Crown Colony"}, {"id": "province_of_canada_1841_1867", "name": "Province of Canada", "est": 1841, "ind": 1867, "type": "United Province"}, {"id": "ruperts_land_1670_1870", "name": "Rupert's Land", "est": 1670, "ind": 1870, "type": "Hudson's Bay Company Territory"}, {"id": "north_western_territory_1670_1870", "name": "North-Western Territory", "est": 1670, "ind": 1870, "type": "Territory"}, {"id": "vancouver_island_1849_1866", "name": "Colony of Vancouver Island", "est": 1849, "ind": 1866, "type": "Crown Colony"}, {"id": "mainland_british_columbia_1858_1866", "name": "Colony of British Columbia (Mainland)", "est": 1858, "ind": 1871, "type": "Crown Colony"}, {"id": "newfoundland_1497_1949", "name": "Newfoundland", "est": 1497, "ind": 1949, "type": "Colony/Dominion"}, {"id": "nova_scotia_1621_1867", "name": "Nova Scotia", "est": 1621, "ind": 1867, "type": "Crown Colony"}, {"id": "new_brunswick_1784_1867", "name": "New Brunswick", "est": 1784, "ind": 1867, "type": "Crown Colony"}, {"id": "prince_edward_island_1769_1873", "name": "Prince Edward Island", "est": 1769, "ind": 1873, "type": "Crown Colony"}, {"id": "virginia_colony_1607_1783", "name": "Virginia Colony", "est": 1607, "ind": 1783, "type": "Royal Colony"}, {"id": "massachusetts_bay_colony_1630_1783", "name": "Massachusetts Bay Colony", "est": 1630, "ind": 1783, "type": "Charter Colony"}, {"id": "pennsylvania_colony_1681_1783", "name": "Pennsylvania Colony", "est": 1681, "ind": 1783, "type": "Proprietary Colony"}, {"id": "new_york_colony_1664_1783", "name": "New York Colony", "est": 1664, "ind": 1783, "type": "Royal Colony"}, {"id": "maryland_colony_1634_1783", "name": "Maryland Colony", "est": 1634, "ind": 1783, "type": "Proprietary Colony"}, {"id": "connecticut_colony_1636_1783", "name": "Connecticut Colony", "est": 1636, "ind": 1783, "type": "Charter Colony"}, {"id": "rhode_island_colony_1636_1783", "name": "Rhode Island Colony", "est": 1636, "ind": 1783, "type": "Charter Colony"}, {"id": "delaware_colony_1664_1783", "name": "Delaware Colony", "est": 1664, "ind": 1783, "type": "Proprietary Colony"}, {"id": "new_hampshire_colony_1623_1783", "name": "New Hampshire Colony", "est": 1623, "ind": 1783, "type": "Royal Colony"}, {"id": "new_jersey_colony_1664_1783", "name": "New Jersey Colony", "est": 1664, "ind": 1783, "type": "Royal Colony"}, {"id": "north_carolina_colony_1663_1783", "name": "North Carolina Colony", "est": 1663, "ind": 1783, "type": "Royal Colony"}, {"id": "south_carolina_colony_1663_1783", "name": "South Carolina Colony", "est": 1663, "ind": 1783, "type": "Royal Colony"}, {"id": "georgia_colony_1732_1783", "name": "Georgia Colony", "est": 1732, "ind": 1783, "type": "Royal Colony"}, {"id": "province_of_quebec_british_1763_1791", "name": "Province of Quebec (British)", "est": 1763, "ind": 1791, "type": "Crown Colony"}, {"id": "colony_of_newfoundland_1610_1949", "name": "Colony of Newfoundland", "est": 1610, "ind": 1949, "type": "Crown Colony"}, {"id": "dominion_of_newfoundland_1907_1934", "name": "Dominion of Newfoundland", "est": 1907, "ind": 1934, "type": "Dominion"}, {"id": "united_colony_of_bc_1866_1871", "name": "United Colony of British Columbia", "est": 1866, "ind": 1871, "type": null}, {"id": "new_france_1608_1763", "name": "New France", "est": 1608, "ind": 1763, "type": "Colonial Empire"}, {"id": "acadia_french_1604_1713", "name": "Acadia", "est": 1604, "ind": 1713, "type": "Colonial Territory"}, {"id": "louisiana_french_1682_1762", "name": "Louisiana", "est": 1682, "ind": 1762, "type": "Colonial Territory"}, {"id": "canada_dominion_of_1867_ongoing", "name": "Canada, Dominion of", "est": 1867, "ind": null, "type": "Dominion"}, {"id": "united_states_of_america_1783", "name": "United States of America", "est": 1783, "ind": null, "type": "Former Colony (Independent)"}], "edges": [{"source": "lower_canada_1791_1841", "target": "province_of_canada_1841_1867"}, {"source": "upper_canada_1791_1841", "target": "province_of_canada_1841_1867"}, {"source": "vancouver_island_1849_1866", "target": "mainland_british_columbia_1858_1866"}, {"source": "newfoundland_1497_1949", "target": "colony_of_newfoundland_1610_1949"}, {"source": "colony_of_newfoundland_1610_1949", "target": "dominion_of_newfoundland_1907_1934"}, {"source": "vancouver_island_1849_1866", "target": "united_colony_of_bc_1866_1871"}, {"source": "mainland_british_columbia_1858_1866", "target": "united_colony_of_bc_1866_1871"}, {"source": "prince_edward_island_1769_1873", "target": "canada_dominion_of_1867_ongoing"}, {"source": "nova_scotia_1621_1867", "target": "canada_dominion_of_1867_ongoing"}, {"source": "new_brunswick_1784_1867", "target": "canada_dominion_of_1867_ongoing"}, {"source": "province_of_canada_1841_1867", "target": "canada_dominion_of_1867_ongoing"}, {"source": "mainland_british_columbia_1858_1866", "target": "canada_dominion_of_1867_ongoing"}, {"source": "united_colony_of_bc_1866_1871", "target": "canada_dominion_of_1867_ongoing"}, {"source": "virginia_colony_1607_1783", "target": "united_states_of_america_1783"}, {"source": "south_carolina_colony_1663_1783", "target": "united_states_of_america_1783"}, {"source": "rhode_island_colony_1636_1783", "target": "united_states_of_america_1783"}, {"source": "pennsylvania_colony_1681_1783", "target": "united_states_of_america_1783"}, {"source": "north_carolina_colony_1663_1783", "target": "united_states_of_america_1783"}, {"source": "new_york_colony_1664_1783", "target": "united_states_of_america_1783"}, {"source": "new_jersey_colony_1664_1783", "target": "united_states_of_america_1783"}, {"source": "new_hampshire_colony_1623_1783", "target": "united_states_of_america_1783"}, {"source": "massachusetts_bay_colony_1630_1783", "target": "united_states_of_america_1783"}, {"source": "maryland_colony_1634_1783", "target": "united_states_of_america_1783"}, {"source": "georgia_colony_1732_1783", "target": "united_states_of_america_1783"}, {"source": "delaware_colony_1664_1783", "target": "united_states_of_america_1783"}, {"source": "connecticut_colony_1636_1783", "target": "united_states_of_america_1783"}]};
+init();
+</script>
+</body>
+</html>

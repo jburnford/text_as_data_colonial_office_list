@@ -11,6 +11,9 @@ __pycache__/
 .venv/
 .env
 
+# Jupyter
+.ipynb_checkpoints/
+
 # Grant planning documents (not for public repo)
 GRANT_BRAINSTORM.md
 GRAPHRAG_ANALYSIS.md
