@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-09T15:59:51.649904",
+  "last_updated": "2026-03-09T16:54:38.865353",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -67696,6 +67696,51 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1910_data_gpt-oss_120b.json"
+    },
+    "Southern Nigeria_1910": {
+      "colony": "Southern Nigeria",
+      "year": 1910,
+      "tier": "LARGE",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1910_manual_parsed/SOUTHERN_NIGERIA.txt",
+      "timestamp": "2026-03-09T15:59:51.704235",
+      "total_officials": 324,
+      "passed_officials": 324,
+      "quarantined_officials": 0,
+      "departments": {
+        "Judicial Department": 17,
+        "Treasury Department": 34,
+        "Medical Department": 93,
+        "Post Office": 17,
+        "Government Telegraphs": 39,
+        "Forestry and Agriculture": 18,
+        "Prisons": 6,
+        "Survey Department": 12,
+        "Lands": 3,
+        "Audit": 18,
+        "Printing Department": 4,
+        "Education Department": 11,
+        "Administration": 3,
+        "Engineering Department": 21,
+        "Locomotive Department": 5,
+        "Traffic Department": 10,
+        "Telegraphs": 1,
+        "Accounts Department": 9,
+        "Stores Department": 3
+      },
+      "generation_time": 3287.0,
+      "validation_summary": {
+        "colony": "Southern Nigeria",
+        "year": 1910,
+        "total": 324,
+        "high_confidence": 324,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 324,
+        "anomaly_count": 1
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/southern_nigeria_1910_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
