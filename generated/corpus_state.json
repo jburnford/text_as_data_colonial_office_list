@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-09T02:29:16.975750",
+  "last_updated": "2026-03-09T03:03:00.225460",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -66411,6 +66411,51 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/cape_of_good_hope_1908_data_gpt-oss_120b.json"
+    },
+    "Gold Coast_1908": {
+      "colony": "Gold Coast",
+      "year": 1908,
+      "tier": "LARGE",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1908_manual_parsed/GOLD_COAST.txt",
+      "timestamp": "2026-03-09T02:29:17.007579",
+      "total_officials": 400,
+      "passed_officials": 400,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 2,
+        "Governor's Office": 5,
+        "Colonial Secretary's Office": 22,
+        "Native Affairs Department": 5,
+        "Mines Department": 3,
+        "Treasury": 31,
+        "Customs": 86,
+        "Medical Department": 58,
+        "WEST AFRICAN FRONTIER FORCE": 38,
+        "Volunteers": 3,
+        "Civil Police": 28,
+        "Constabulary (Northern Territories)": 6,
+        "Judicial Department": 24,
+        "Public Works Department": 44,
+        "Transport Department": 3,
+        "Printing Department": 3,
+        "Prisons Department": 21,
+        "Northern Territories": 15,
+        "Foreign Consuls": 3
+      },
+      "generation_time": 2023.0,
+      "validation_summary": {
+        "colony": "Gold Coast",
+        "year": 1908,
+        "total": 400,
+        "high_confidence": 400,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 400,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gold_coast_1908_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
