@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-09T15:20:17.532695",
+  "last_updated": "2026-03-09T15:59:51.649904",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -67642,6 +67642,60 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nyasaland_1910_data_gpt-oss_120b.json"
+    },
+    "Sierra Leone_1910": {
+      "colony": "Sierra Leone",
+      "year": 1910,
+      "tier": "LARGE",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1910_manual_parsed/SIERRA_LEONE.txt",
+      "timestamp": "2026-03-09T15:20:17.564682",
+      "total_officials": 402,
+      "passed_officials": 402,
+      "quarantined_officials": 0,
+      "departments": {
+        "Governor's Office": 5,
+        "Colonial Secretary's Office": 9,
+        "Printing Branch": 7,
+        "Provincial Administration": 38,
+        "Treasury Department": 20,
+        "Legal Department": 22,
+        "Civil Police": 2,
+        "Prisons Department": 5,
+        "Customs Department": 15,
+        "Sherbro Branch": 4,
+        "Outdoor Branch": 64,
+        "Preventive Service": 2,
+        "Port and Marine Department": 2,
+        "Medical Department": 39,
+        "Post Office": 23,
+        "Public Works Department": 18,
+        "Educational Department": 8,
+        "Agricultural Development Branch": 1,
+        "Audit Department": 8,
+        "Railway Department": 21,
+        "Sierra Leone Battalion, West African Frontier Force.": 25,
+        "Foreign Consuls": 8,
+        "null": 20,
+        "Civil Establishment": 8,
+        "Political Department": 6,
+        "Military Department": 4,
+        "High Commissioner and Staff": 13,
+        "South African Customs Statistical Bureau": 5
+      },
+      "generation_time": 2373.8,
+      "validation_summary": {
+        "colony": "Sierra Leone",
+        "year": 1910,
+        "total": 402,
+        "high_confidence": 395,
+        "medium_confidence": 7,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 402,
+        "anomaly_count": 6
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sierra_leone_1910_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
