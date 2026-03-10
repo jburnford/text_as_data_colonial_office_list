@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-10T09:03:35.867181",
+  "last_updated": "2026-03-10T09:53:21.465500",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -69033,6 +69033,58 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/new_zealand_1912_data_gpt-oss_120b.json"
+    },
+    "Southern Nigeria_1912": {
+      "colony": "Southern Nigeria",
+      "year": 1912,
+      "tier": "LARGE",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1912_manual_parsed/SOUTHERN_NIGERIA.txt",
+      "timestamp": "2026-03-10T09:03:35.899683",
+      "total_officials": 332,
+      "passed_officials": 332,
+      "quarantined_officials": 0,
+      "departments": {
+        "Legal": 3,
+        "Treasury": 36,
+        "Customs": 42,
+        "West African Frontier Force": 4,
+        "Artillery": 4,
+        "Infantry": 29,
+        "Southern Nigeria Volunteers": 1,
+        "Police": 26,
+        "Post Office": 18,
+        "Telegraphs": 38,
+        "Forestry": 11,
+        "Agriculture": 4,
+        "Prisons": 5,
+        "Surveys": 13,
+        "Lands": 4,
+        "Audit": 22,
+        "Printing Department": 4,
+        "Education": 16,
+        "Railway": 4,
+        "Engineering Department": 11,
+        "Locomotive Department": 5,
+        "Traffic Department": 12,
+        "Accounts Department": 12,
+        "Stores Branch": 4,
+        "Colonial Chaplaincy": 1,
+        "Motor Transport": 3
+      },
+      "generation_time": 2985.4,
+      "validation_summary": {
+        "colony": "Southern Nigeria",
+        "year": 1912,
+        "total": 332,
+        "high_confidence": 331,
+        "medium_confidence": 1,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 332,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/southern_nigeria_1912_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
