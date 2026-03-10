@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-09T21:10:38.181736",
+  "last_updated": "2026-03-09T21:59:42.336421",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -68081,6 +68081,57 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/fiji_1911_data_gpt-oss_120b.json"
+    },
+    "Gold Coast_1911": {
+      "colony": "Gold Coast",
+      "year": 1911,
+      "tier": "LARGE",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/gold_coast.txt",
+      "timestamp": "2026-03-09T21:10:38.214998",
+      "total_officials": 482,
+      "passed_officials": 481,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 1,
+        "Governor's Office": 4,
+        "Colonial Secretary's Office": 26,
+        "Native Affairs Department": 4,
+        "Mines Department": 3,
+        "Treasury": 35,
+        "Customs": 60,
+        "Post and Telegraph Department": 34,
+        "Medical Department": 69,
+        "Sanitary Branch": 3,
+        "Gold Coast Regiment": 41,
+        "Volunteers": 2,
+        "Civil Police": 30,
+        "Constabulary (Northern Territories)": 6,
+        "Judicial Department": 35,
+        "Land Registry Office": 1,
+        "Public Works Department": 61,
+        "Survey Department": 1,
+        "Transport Department": 3,
+        "Printing Department": 8,
+        "Prisons Department": 13,
+        "Education Department": 18,
+        "Audit Department": 12,
+        "Agricultural Department": 9,
+        "Forestry Department": 2
+      },
+      "generation_time": 2943.8,
+      "validation_summary": {
+        "colony": "Gold Coast",
+        "year": 1911,
+        "total": 482,
+        "high_confidence": 479,
+        "medium_confidence": 2,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 481,
+        "anomaly_count": 4
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gold_coast_1911_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
