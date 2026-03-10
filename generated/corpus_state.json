@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-10T05:41:04.931599",
+  "last_updated": "2026-03-10T06:34:54.668733",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -68758,6 +68758,60 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/ceylon_1912_data_gpt-oss_120b.json"
+    },
+    "Gold Coast_1912": {
+      "colony": "Gold Coast",
+      "year": 1912,
+      "tier": "LARGE",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1912_manual_parsed/GOLD_COAST.txt",
+      "timestamp": "2026-03-10T05:41:04.969008",
+      "total_officials": 545,
+      "passed_officials": 544,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 2,
+        "Governor's Office": 5,
+        "Colonial Secretary's Office": 29,
+        "Native Affairs Department": 4,
+        "Mines Department": 4,
+        "Treasury": 34,
+        "Post and Telegraph Department": 34,
+        "Medical Department": 69,
+        "Sanitary Branch": 5,
+        "Gold Coast Regiment": 38,
+        "Volunteers": 1,
+        "Civil Police": 33,
+        "Constabulary (Northern Territories)": 7,
+        "Judicial Department": 55,
+        "Land Registry Office": 1,
+        "Public Works Department": 79,
+        "Survey Department": 3,
+        "Transport Department": 3,
+        "Printing Department": 15,
+        "Prisons Department": 16,
+        "Education Department": 19,
+        "Audit Department": 11,
+        "Agricultural Department": 8,
+        "Forestry Department": 6,
+        "Railway Department": 26,
+        "ASHANTI": 13,
+        "NORTHERN TERRITORIES": 17,
+        "Foreign Consuls": 7
+      },
+      "generation_time": 3229.3,
+      "validation_summary": {
+        "colony": "Gold Coast",
+        "year": 1912,
+        "total": 545,
+        "high_confidence": 543,
+        "medium_confidence": 1,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 544,
+        "anomaly_count": 3
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gold_coast_1912_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
