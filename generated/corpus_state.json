@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-10T16:13:45.759681",
+  "last_updated": "2026-03-10T17:02:32.728526",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -69560,6 +69560,76 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/jamaica_1921_data_gpt-oss_120b.json"
+    },
+    "Nigeria_1921": {
+      "colony": "Nigeria",
+      "year": 1921,
+      "tier": "LARGE",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1921_manual_parsed/nigeria.txt",
+      "timestamp": "2026-03-10T16:13:45.796870",
+      "total_officials": 137,
+      "passed_officials": 137,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 3,
+        "Nigerian Secretariat": 12,
+        "Lieutenant-Governor Northern Provinces": 1,
+        "Secretariat, Northern Provinces": 7,
+        "Lieutenant-Governor Southern Provinces": 1,
+        "Secretariat, Southern Provinces and Colony": 9,
+        "Judicial": 5,
+        "Police Magistracy": 1,
+        "Station Magistracy": 5,
+        "Printing": 7,
+        "Treasury": 24,
+        "Forestry": 35,
+        "Prisons, Northern Provinces": 3,
+        "Prisons, Southern Provinces": 6,
+        "Agriculture, Northern Provinces": 5,
+        "Agriculture, Southern Provinces": 10,
+        "Veterinary Department": 3
+      },
+      "generation_time": 2509.8,
+      "validation_summary": {
+        "colony": "Nigeria",
+        "year": 1921,
+        "total": 137,
+        "high_confidence": 137,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 137,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/nigeria_1921_data_gpt-oss_120b.json"
+    },
+    "Sarawak_1921": {
+      "colony": "Sarawak",
+      "year": 1921,
+      "tier": "LARGE",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1921_manual_parsed/sarawak.txt",
+      "timestamp": "2026-03-10T16:55:35.750926",
+      "total_officials": 60,
+      "passed_officials": 60,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 60
+      },
+      "generation_time": 416.8,
+      "validation_summary": {
+        "colony": "Sarawak",
+        "year": 1921,
+        "total": 60,
+        "high_confidence": 60,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 60,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/sarawak_1921_data_gpt-oss_120b.json"
     }
   },
   "failed": {},
