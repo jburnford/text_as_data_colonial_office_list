@@ -1,0 +1,159 @@
+{
+  "colony": "St Helena",
+  "year": 1906,
+  "generated": "2026-03-12T01:37:53.741744",
+  "model": "openai/gpt-oss-120b",
+  "tier": "STANDARD",
+  "total_officials": 8,
+  "officials": [
+    {
+      "name": "George Middlemore",
+      "canonical_name": "Middlemore, George",
+      "given_names": "George",
+      "surname": "Middlemore",
+      "position": "Governor",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": "Major-General",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Hamelin Trelawny",
+      "canonical_name": "Trelawny, Hamelin",
+      "given_names": "Hamelin",
+      "surname": "Trelawny",
+      "position": "Governor",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Colonel",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sir Patrick Ross",
+      "canonical_name": "Ross, Sir Patrick",
+      "given_names": "Sir Patrick",
+      "surname": "Ross",
+      "position": "Governor",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "G.C.M.G.",
+        "K.C.B."
+      ],
+      "qualifications": [],
+      "military_rank": "Major-General",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sir Thomas Gore Browne",
+      "canonical_name": "Browne, Sir Thomas Gore",
+      "given_names": "Sir Thomas Gore",
+      "surname": "Browne",
+      "position": "Governor",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G.",
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": "Col.",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sir E. H. Drummond Hay",
+      "canonical_name": "Hay, Sir E. H. Drummond",
+      "given_names": "Sir E. H. Drummond",
+      "surname": "Hay",
+      "position": "Governor",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Sir",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sir Charles Elliot",
+      "canonical_name": "Elliot, Sir Charles",
+      "given_names": "Sir Charles",
+      "surname": "Elliot",
+      "position": "Governor",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.B."
+      ],
+      "qualifications": [],
+      "military_rank": "Admiral",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "H. R. Janisch",
+      "canonical_name": "Janisch, H. R.",
+      "given_names": "H. R.",
+      "surname": "Janisch",
+      "position": "Governor",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Patey",
+      "canonical_name": "Patey, ",
+      "given_names": "",
+      "surname": "Patey",
+      "position": "Governor",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Admiral",
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "St Helena",
+    "year": 1906,
+    "total": 8,
+    "high_confidence": 7,
+    "medium_confidence": 1,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 8,
+    "anomaly_count": 0
+  }
+}
