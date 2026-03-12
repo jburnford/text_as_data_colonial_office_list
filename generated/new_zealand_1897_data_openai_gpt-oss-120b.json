@@ -1,15 +1,15 @@
 {
   "colony": "New Zealand",
   "year": 1897,
-  "generated": "2026-03-12T06:36:25.649748",
+  "generated": "2026-03-12T12:24:56.024424",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 172,
+  "total_officials": 171,
   "officials": [
     {
       "name": "Earl of Ranfurly",
       "canonical_name": "Ranfurly, Earl of",
-      "given_names": "",
+      "given_names": "Earl of",
       "surname": "Ranfurly",
       "position": "Governor and Commander-in-Chief and Vice-Admiral",
       "department": "Civil Establishment",
@@ -303,7 +303,7 @@
       "department": "Lands and Survey Department",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "house allowance, 200l",
+      "allowances": "house allowance, 200l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -663,9 +663,9 @@
       "location": "Dunedin"
     },
     {
-      "name": "Hon. W. C. Walker",
-      "canonical_name": "Walker, W. C.",
-      "given_names": "W. C.",
+      "name": "W. C. Walker",
+      "canonical_name": "Walker, William C.",
+      "given_names": "William C.",
       "surname": "Walker",
       "position": "Minister",
       "department": "Education Office",
@@ -679,9 +679,9 @@
       "location": null
     },
     {
-      "name": "Rev. W. J. Habens",
-      "canonical_name": "Habens, W. J.",
-      "given_names": "W. J.",
+      "name": "W. J. Habens",
+      "canonical_name": "Habens, William J.",
+      "given_names": "William J.",
       "surname": "Habens",
       "position": "resident Secretary for Education and Inspector-General Schools",
       "department": "Education Office",
@@ -695,7 +695,7 @@
       "location": null
     },
     {
-      "name": "Sir E. O. Gibbes, Bart.",
+      "name": "E. O. Gibbes",
       "canonical_name": "Gibbes, E. O.",
       "given_names": "E. O.",
       "surname": "Gibbes",
@@ -759,7 +759,7 @@
       "location": null
     },
     {
-      "name": "Hon. W. Hall-Jones",
+      "name": "W. Hall-Jones",
       "canonical_name": "Hall-Jones, W.",
       "given_names": "W.",
       "surname": "Hall-Jones",
@@ -1114,7 +1114,7 @@
     },
     {
       "name": "Colonel Fox",
-      "canonical_name": "Fox",
+      "canonical_name": "Fox, Colonel",
       "given_names": "",
       "surname": "Fox",
       "position": "Military Adviser and Inspector of the N.Z. Forces",
@@ -1150,7 +1150,7 @@
       "given_names": "T. F.",
       "surname": "Grey",
       "position": "Senior Clerk",
-      "department": "Police Department",
+      "department": "Defence Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1177,9 +1177,9 @@
       "location": null
     },
     {
-      "name": "Jas. Carroll",
-      "canonical_name": "Carroll, Jas.",
-      "given_names": "Jas.",
+      "name": "Hon. Jas. Carroll",
+      "canonical_name": "Carroll, Hon. Jas.",
+      "given_names": "Hon. Jas.",
       "surname": "Carroll",
       "position": "Commissioner",
       "department": "Stamp Office",
@@ -1241,7 +1241,7 @@
       "location": null
     },
     {
-      "name": "Hon. T. Thompson",
+      "name": "T. Thompson",
       "canonical_name": "Thompson, T.",
       "given_names": "T.",
       "surname": "Thompson",
@@ -1265,7 +1265,7 @@
       "department": "Crown Law Office",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1281,7 +1281,7 @@
       "department": "Crown Law Office",
       "salary_min": 550,
       "salary_max": 550,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1297,7 +1297,7 @@
       "department": "Crown Law Office",
       "salary_min": 650,
       "salary_max": 650,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [
         "M.A.",
@@ -1316,7 +1316,7 @@
       "department": "Crown Law Office",
       "salary_min": 205,
       "salary_max": 205,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1360,7 +1360,7 @@
       "canonical_name": "Fox, Morris",
       "given_names": "Morris",
       "surname": "Fox",
-      "position": "",
+      "position": null,
       "department": "Government Life Insurance Department",
       "salary_min": 600,
       "salary_max": 600,
@@ -1376,7 +1376,7 @@
       "canonical_name": "Hudson, W. B.",
       "given_names": "W. B.",
       "surname": "Hudson",
-      "position": "",
+      "position": null,
       "department": "Government Life Insurance Department",
       "salary_min": 500,
       "salary_max": 500,
@@ -1392,7 +1392,7 @@
       "canonical_name": "Barltrop, G. W.",
       "given_names": "G. W.",
       "surname": "Barltrop",
-      "position": "",
+      "position": null,
       "department": "Government Life Insurance Department",
       "salary_min": 350,
       "salary_max": 350,
@@ -1551,9 +1551,9 @@
     },
     {
       "name": "von Dadelszen",
-      "canonical_name": "Dadelszen, von",
+      "canonical_name": "von Dadelszen",
       "given_names": "",
-      "surname": "Dadelszen",
+      "surname": "von Dadelszen",
       "position": "General of Births, Deaths, and Marriages",
       "department": "Registrar-General's Department",
       "salary_min": 400,
@@ -1567,8 +1567,8 @@
     },
     {
       "name": "Sir J. Hector",
-      "canonical_name": "Hector, Sir J.",
-      "given_names": "Sir J.",
+      "canonical_name": "Hector, J.",
+      "given_names": "J.",
       "surname": "Hector",
       "position": "Geological Surveys and Curator of Colonial Museum",
       "department": "Geological Survey Department",
@@ -1634,9 +1634,9 @@
       "location": null
     },
     {
-      "name": "Claud E. T. Conolly",
-      "canonical_name": "Conolly, Claud E. T.",
-      "given_names": "Claud E. T.",
+      "name": "E. T. Conolly",
+      "canonical_name": "Conolly, E. T.",
+      "given_names": "E. T.",
       "surname": "Conolly",
       "position": "Judge",
       "department": "Judicial",
@@ -1647,7 +1647,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Claud"
     },
     {
       "name": "W. B. Edwards",
@@ -1782,7 +1782,7 @@
       "canonical_name": "Bloxam, A. R.",
       "given_names": "A. R.",
       "surname": "Bloxam",
-      "position": "Registrar of the Supreme Court",
+      "position": "Registrar",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1798,7 +1798,7 @@
       "canonical_name": "Gordon, C. McK.",
       "given_names": "C. McK.",
       "surname": "Gordon",
-      "position": "Registrar of the Supreme Court",
+      "position": "Registrar",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1875,8 +1875,8 @@
     },
     {
       "name": "W. T. Glasgow",
-      "canonical_name": "Glasgow, William T.",
-      "given_names": "William T.",
+      "canonical_name": "Glasgow, W. T.",
+      "given_names": "W. T.",
       "surname": "Glasgow",
       "position": "Secretary and Inspector of Customs and Secretary of Marine",
       "department": "Customs",
@@ -2034,22 +2034,6 @@
       "military_rank": null,
       "salary_scale": null,
       "location": "Christchurch"
-    },
-    {
-      "name": "William Garden Cowie",
-      "canonical_name": "Cowie, William Garden",
-      "given_names": "William Garden",
-      "surname": "Cowie",
-      "position": "Clergy",
-      "department": "Church of England",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "Auckland"
     },
     {
       "name": "Charles Oliver Mules",
@@ -2781,12 +2765,12 @@
   "validation_summary": {
     "colony": "New Zealand",
     "year": 1897,
-    "total": 172,
+    "total": 171,
     "high_confidence": 168,
-    "medium_confidence": 4,
+    "medium_confidence": 3,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 172,
+    "passed": 171,
     "anomaly_count": 16
   }
 }

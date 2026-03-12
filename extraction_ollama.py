@@ -58,6 +58,13 @@ OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL",
                                  LLM_BASE_URL or "http://localhost:11434")
 OPENAI_BASE_URL = LLM_BASE_URL or "http://localhost:8000"
 
+# OpenRouter API configuration
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+
+# Provider selection: "ollama" (default) or "openrouter"
+LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "ollama")
+
 
 class OllamaError(Exception):
     """Raised when LLM API call fails (connection, timeout, etc.)."""
@@ -235,17 +242,88 @@ def openai_generate(model: str, prompt: str, timeout: int = 600,
     return text
 
 
+def openrouter_generate(model: str, prompt: str, timeout: int = 600,
+                        json_mode: bool = False, num_predict: int = 16384) -> str:
+    """Call OpenRouter API (OpenAI-compatible) to generate a response.
+
+    Args:
+        model: OpenRouter model name (e.g. 'deepseek/deepseek-r1')
+        prompt: The full prompt to send
+        timeout: Request timeout in seconds
+        json_mode: If True, request JSON output format
+        num_predict: Max tokens to generate
+    Returns:
+        The generated text response
+    Raises:
+        OllamaError: On connection failure, timeout, or API error
+    """
+    if not OPENROUTER_API_KEY:
+        raise OllamaError("OPENROUTER_API_KEY environment variable not set")
+
+    url = f"{OPENROUTER_BASE_URL}/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/colonial-office-list",
+    }
+    payload = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": num_predict,
+        "temperature": 0.1,
+        "stream": False,
+        "provider": {
+            "order": ["DeepInfra"],
+            "quantizations": ["bf16", "fp16"],
+        },
+    }
+
+    if json_mode:
+        payload["response_format"] = {"type": "json_object"}
+
+    print(f"Sending request to OpenRouter ({model}, max {num_predict} tokens)...")
+    start = time.time()
+
+    try:
+        response = requests.post(url, json=payload, headers=headers, timeout=timeout)
+        response.raise_for_status()
+    except requests.exceptions.ConnectionError:
+        raise OllamaError(f"Cannot connect to OpenRouter at {OPENROUTER_BASE_URL}")
+    except requests.exceptions.Timeout:
+        raise OllamaError(f"OpenRouter request timed out after {timeout}s")
+    except requests.exceptions.HTTPError as e:
+        raise OllamaError(f"OpenRouter API error: {e} — {response.text[:500]}")
+
+    data = response.json()
+
+    if "error" in data:
+        raise OllamaError(f"OpenRouter error: {data['error']}")
+
+    text = data["choices"][0]["message"]["content"]
+    usage = data.get("usage", {})
+    prompt_tokens = usage.get("prompt_tokens", 0)
+    completion_tokens = usage.get("completion_tokens", 0)
+
+    elapsed = time.time() - start
+    print(f"Generated in {elapsed:.1f}s ({completion_tokens} tokens, "
+          f"prompt={prompt_tokens} tokens)")
+
+    return text
+
+
 def llm_generate(model: str, prompt: str, timeout: int = 600,
                  json_mode: bool = False, num_predict: int = 16384) -> str:
     """Dispatch to the configured LLM backend.
 
-    Checks LLM_BACKEND to route to ollama_generate() or openai_generate().
+    Checks LLM_BACKEND to route to ollama, openai (vLLM), or openrouter.
     Model name is overridden by LLM_MODEL env var if set.
     """
     if LLM_MODEL:
         model = LLM_MODEL
     if LLM_BACKEND == "openai":
         return openai_generate(model, prompt, timeout, json_mode, num_predict)
+    elif LLM_PROVIDER == "openrouter":
+        return openrouter_generate(model, prompt, timeout, json_mode, num_predict)
     else:
         return ollama_generate(model, prompt, timeout, json_mode, num_predict)
 
@@ -550,9 +628,58 @@ DEPT_HEADER_NAMES = [
     r'Government Printer',
     r'Constabulary',
     r'Frontier (?:Force|Police)',
+    # Dominion / federal-style headers (word order: "Department of X")
+    r'Departments?\s+of\s+(?:the\s+)?[A-Za-z\s\-,&]+',
+    r'Ministry\s+of\s+[A-Za-z\s\-,&]+',
+    r'Bureau\s+of\s+[A-Za-z\s\-,&]+',
+    r'Office\s+of\s+(?:the\s+)?[A-Za-z\s\-,&]+',
+    # Province / territory section headers
+    r'Province\s+of\s+[A-Za-z\s\-]+',
+    r'(?:North.?West|North.?Eastern)\s+Territor(?:y|ies)',
+    # Canadian province names as standalone headers
+    r'Ontario',
+    r'Quebec',
+    r'Nova Scotia',
+    r'New Brunswick',
+    r'Manitoba',
+    r'British Columbia',
+    r'Prince Edward Island',
+    r'Saskatchewan',
+    r'Alberta',
+    # Australian colony names (for future multi-colony files)
+    r'New South Wales',
+    r'Victoria',
+    r'Queensland',
+    r'Tasmania',
+    # Federal legislative/judicial bodies
+    r'(?:The\s+)?Senate\b',
+    r'(?:The\s+)?House\s+of\s+(?:Commons|Assembly|Representatives)',
+    r'(?:The\s+)?Supreme\s+Court',
+    r'(?:The\s+)?Court\s+of\s+[A-Za-z\s]+',
+    r'Treasury\s+Board',
+    r'Privy\s+Council',
+    # Ecclesiastical sections (seen in Canada 1896)
+    r'Church\s+of\s+(?:England|Scotland)',
+    r'Roman\s+Catholic\s+Church',
+    r'Presbyterian\s+Church',
+    r'Methodist\s+Church',
+    # Consular sections
+    r'Consuls?\s+in\s+(?:the\s+)?[A-Za-z\s]+',
+    r'Consuls',
+    # Ecclesiastical (standalone, seen in NSW/NZ)
+    r'Ecclesiastical',
+    # Mounted Police (Canada)
+    r'Mounted\s+Police\s+Office',
+    # High Commissioner
+    r'High\s+Commissioner',
+    # Misc headings seen in dominion files
+    r'Registry\s+Branch',
+    r'Audit\s+Office',
     # Generic fallback for any "Foo Department/Office/Establishment/Board/Court/
     # Brigade/Commission/Service/Branch/Administration"
     r'[A-Z][A-Za-z\s\-\']+(?:Department|Office|Establishment|Board|Court|Brigade|Commission|Service|Branch|Administration)',
+    # Generic fallback: "Department of Foo" (dominion-style, reversed word order)
+    r'(?:Department|Office|Bureau|Ministry)\s+(?:of|for)\s+(?:the\s+)?[A-Za-z\s\-,&]+',
 ]
 
 DEPT_HEADERS = re.compile(
@@ -711,7 +838,24 @@ def extract_chunked(source_text: str, model: str, colony: str, year: int,
     if failed_chunks:
         print(f"\nWARNING: {len(failed_chunks)} chunk(s) failed: {', '.join(failed_chunks)}")
 
-    return all_officials
+    # Deduplicate officials that appear in repeated source sections.
+    # Some colony files contain the same text block twice (OCR/parsing artefact).
+    # Key on (canonical_name, department) — same person in same dept is a duplicate.
+    seen = set()
+    deduped = []
+    for o in all_officials:
+        key = (o.get("canonical_name", ""), o.get("department", ""))
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(o)
+
+    n_removed = len(all_officials) - len(deduped)
+    if n_removed:
+        print(f"\n  Deduplication: removed {n_removed} duplicate officials "
+              f"({len(all_officials)} → {len(deduped)})")
+
+    return deduped
 
 
 def run_generated_code(code_file: Path) -> dict | None:

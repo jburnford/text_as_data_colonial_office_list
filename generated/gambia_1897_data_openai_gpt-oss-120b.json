@@ -1,7 +1,7 @@
 {
   "colony": "Gambia",
   "year": 1897,
-  "generated": "2026-03-12T06:19:29.785385",
+  "generated": "2026-03-12T12:15:26.497243",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 25,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "300L duty allowance, table allowance 10L",
+      "allowances": "duty allowance, table allowance 10L per annum",
       "honors": [
         "C.M.G."
       ],
@@ -301,7 +301,7 @@
       "canonical_name": "Savage, J. A.",
       "given_names": "J. A.",
       "surname": "Savage",
-      "position": "2nd Senior Landing Waiter and Locker",
+      "position": "2nd Landing Waiter and Locker",
       "department": "Civil Establishment",
       "salary_min": 55,
       "salary_max": 55,
@@ -329,9 +329,9 @@
       "location": null
     },
     {
-      "name": "Reeve",
-      "canonical_name": "Reeve, ",
-      "given_names": "",
+      "name": "Mr. Reeve",
+      "canonical_name": "Reeve, Mr.",
+      "given_names": "Mr.",
       "surname": "Reeve",
       "position": "Colonial Engineer and Sanitary Inspector",
       "department": "Civil Establishment",
@@ -413,8 +413,8 @@
     "colony": "Gambia",
     "year": 1897,
     "total": 25,
-    "high_confidence": 24,
-    "medium_confidence": 1,
+    "high_confidence": 25,
+    "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 25,

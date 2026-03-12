@@ -1,7 +1,7 @@
 {
   "colony": "Western Pacific",
   "year": 1897,
-  "generated": "2026-03-12T06:38:14.333356",
+  "generated": "2026-03-12T12:27:20.870402",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 20,
@@ -12,7 +12,7 @@
       "given_names": "F. J.",
       "surname": "Moss",
       "position": "British Resident",
-      "department": "Cook Islands",
+      "department": "Resident",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -115,7 +115,7 @@
       "canonical_name": "Macgregor, W.",
       "given_names": "W.",
       "surname": "Macgregor",
-      "position": "Assistant High Commissioner (acting)",
+      "position": "Acting Assistant High Commissioner",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -267,7 +267,7 @@
       "canonical_name": "Leeve, R. B.",
       "given_names": "R. B.",
       "surname": "Leeve",
-      "position": "Deputy Commissioner",
+      "position": "Deputy Commissioner in Tonga",
       "department": "Establishment",
       "salary_min": 440,
       "salary_max": 440,
@@ -276,30 +276,30 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Tonga"
+      "location": null
     },
     {
       "name": "T. B. Cusack Smith",
       "canonical_name": "Cusack Smith, T. B.",
       "given_names": "T. B.",
       "surname": "Cusack Smith",
-      "position": "Deputy Commissioner",
+      "position": "Deputy Commissioner in Samoa, and for the Union Group",
       "department": "Establishment",
       "salary_min": 100,
-      "salary_max": 700,
-      "allowances": null,
+      "salary_max": 100,
+      "allowances": "700l. as Consul",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Samoa"
+      "location": null
     },
     {
       "name": "W. T. Campbell",
       "canonical_name": "Campbell, W. T.",
       "given_names": "W. T.",
       "surname": "Campbell",
-      "position": "Deputy Commissioner and Resident",
+      "position": "Deputy Commissioner and Resident, Gilbert and Ellice Groups",
       "department": "Establishment",
       "salary_min": 400,
       "salary_max": 400,
@@ -308,14 +308,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Gilbert and Ellice Groups"
+      "location": null
     },
     {
       "name": "C. M. Woodford",
       "canonical_name": "Woodford, C. M.",
       "given_names": "C. M.",
       "surname": "Woodford",
-      "position": "Deputy Commissioner and Resident",
+      "position": "Deputy Commissioner and Resident, Solomon Islands",
       "department": "Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -324,23 +324,23 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Solomon Islands"
+      "location": null
     },
     {
-      "name": "E. V. Stace",
+      "name": "Lieut.-Col. E. V. Stace",
       "canonical_name": "Stace, E. V.",
       "given_names": "E. V.",
       "surname": "Stace",
-      "position": "Acting Consul",
+      "position": "Acting Consul for the Somali Coast",
       "department": "Somali Coast",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": "Lieut.-Col.",
       "salary_scale": null,
-      "location": "Somali Coast"
+      "location": null
     }
   ],
   "validation_summary": {

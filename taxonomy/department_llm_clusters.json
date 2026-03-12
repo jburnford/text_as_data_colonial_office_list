@@ -1,0 +1,1690 @@
+{
+  "model": "gemini-3.1-pro-preview",
+  "clusters": [
+    {
+      "canonical_name": "Survey Department",
+      "members": [
+        "Surveyor's Department",
+        "District Surveyors",
+        "Survey of Lands",
+        "Survey Branch",
+        "Land Surveyors",
+        "Surveys and Lands",
+        "SURVEYS AND LANDS"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Survey",
+      "reasoning": "All refer to the surveying of land and mapping functions.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Supreme and High Courts",
+      "members": [
+        "High Court",
+        "High Court, Griqualand",
+        "Supreme Court of Canada",
+        "Judges of the Supreme Court",
+        "Judicial Establishment Supreme Court",
+        "Law and Justice Supreme Court",
+        "Their Honours the Judges",
+        "Judges, District Court, the Puisme Judges",
+        "Supreme Court Department"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Legal",
+      "reasoning": "These represent the highest judicial bodies and their judges.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Police and Minor Courts",
+      "members": [
+        "Police Court",
+        "Court of Requests and Police Court",
+        "Court of Summary Jurisdiction",
+        "Court of Requests",
+        "Summary Jurisdiction Court"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Legal",
+      "reasoning": "These are lower-level courts dealing with minor offenses and summary jurisdiction.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Insolvency Courts",
+      "members": [
+        "Insolvency Court",
+        "Court of Insolvency",
+        "Insolvent Court",
+        "Insolvent Branch"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Legal",
+      "reasoning": "Courts and branches specifically dedicated to bankruptcy and insolvency.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Education Department",
+      "members": [
+        "Department of Public Instruction",
+        "Board of Education",
+        "Educational Establishment",
+        "Education Office",
+        "Council of Education",
+        "Education Establishment",
+        "Department of Public Instruction and Subordinate Departments"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Education",
+      "reasoning": "Administrative bodies overseeing public education and instruction.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Government Schools and Colleges",
+      "members": [
+        "Primary Schools",
+        "Schools",
+        "Training Institution",
+        "Queen's College",
+        "Industrial Schools",
+        "Female Training College",
+        "Training School",
+        "Model Schools",
+        "Training College",
+        "Sturt Street Public School",
+        "Flinders Street Public School",
+        "Currie Street",
+        "Grote Street",
+        "North Adelaide Public School",
+        "Government School for Vagrants and Youthful Offenders",
+        "Government School for Vagrants and Youthful (Underworking) Offenders",
+        "Girls' Reformatory"
+      ],
+      "confidence": "MEDIUM",
+      "career_track": "Education",
+      "reasoning": "Specific educational institutions, schools, and training colleges run by the government.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Stamp Office",
+      "members": [
+        "Stamp Office",
+        "Stamp Department",
+        "Stamp Branch",
+        "STAMP OFFICE",
+        "Stamp Branch and Weights and Measures",
+        "Treasury and Stamp Office"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Offices responsible for issuing stamps and collecting stamp duties.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Receiver-General's Department",
+      "members": [
+        "Receiver-General's Department",
+        "Receiver General's Department",
+        "Receiver-General's Branch",
+        "Receiver General's Office",
+        "Department of Receiver-General",
+        "Clerks to Assistant Receiver-General, Berbice"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Financial departments headed by the Receiver-General, responsible for collecting public revenue.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Savings Bank",
+      "members": [
+        "Savings Bank",
+        "Savings' Bank",
+        "Government Savings' Bank",
+        "Savings Bank Branch",
+        "Government Savings Bank",
+        "Money Order and Government Savings Bank Department",
+        "Money Order Office and Government Savings Bank",
+        "Treasury and Savings Bank",
+        "Savings Bank and Postal Note Branch"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Government-run savings banks, often associated with the post office or treasury.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Inland Revenue Department",
+      "members": [
+        "Inland Revenue Department",
+        "Treasury, Inland Revenue Department",
+        "Department of Inland Revenue",
+        "Inland Revenue Branch"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Departments responsible for collecting domestic taxes and duties.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Treasury Branch",
+      "members": [
+        "Colonial Treasurer's Department",
+        "Collector and Treasurer's Office",
+        "Treasury Office",
+        "Treasury Branch",
+        "Clerks, Treasury Branch",
+        "TREASURY.",
+        "San Fernando Treasury",
+        "Treasury, Excise, and Savings Bank Department",
+        "Treasurer's Division"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Various branches and offices of the colonial treasury.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Audit Branch",
+      "members": [
+        "Audit-Office",
+        "Audit Branch",
+        "Commissioners of Audit",
+        "Audit and Contract Office",
+        "Oudit Office",
+        "Audit (under the Comptroller and Auditor-General)",
+        "Audit Department (under Comptroller and Auditor-General)",
+        "Assistant Colonial Secretary's and Audit Department"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Offices responsible for auditing government accounts.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Observatory and Meteorology",
+      "members": [
+        "Observatory",
+        "Royal Alfred Observatory",
+        "Natal Government Observatory",
+        "Royal Observatory",
+        "Hong Kong Observatory",
+        "Observatory and Telegraph Department",
+        "Meteorological Department",
+        "Meteorological",
+        "METEOROLOGICAL"
+      ],
+      "confidence": "HIGH",
+      "career_track": null,
+      "reasoning": "Scientific institutions for astronomical and meteorological observations.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Harbour and Marine Department",
+      "members": [
+        "Marine Board",
+        "Port and Marine Department",
+        "Harbours",
+        "Harbour-Master's Department",
+        "Harbour-Master's Office",
+        "Harbour and Light Department",
+        "Harbour Master and Boat Establishment",
+        "Harbour Branch",
+        "Ports and Harbours Department",
+        "Port Office Department",
+        "Master Attendants' Department",
+        "Government Marine Surveyor's Department",
+        "Marine Surveyor's Department",
+        "Marine Surveyor's (Sub-Department)",
+        "Port and Harbours' Department",
+        "Harbor and Light Department",
+        "Harbour Master's Department.",
+        "PORT AND MARINE",
+        "Port and Marine",
+        "Marine Depot",
+        "Marine D\u00e9p\u00f4t",
+        "Marine Department and Post Office"
+      ],
+      "confidence": "HIGH",
+      "career_track": null,
+      "reasoning": "Departments managing ports, harbours, and maritime affairs.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Hospitals and Asylums",
+      "members": [
+        "Lunatic Asylum",
+        "Public Hospital",
+        "Lock Hospital",
+        "Hospitals for the Insane",
+        "Hospital, Berbice",
+        "General Hospital",
+        "Colonial Hospital",
+        "Colonial Lunatic Asylum",
+        "Hospital",
+        "Suva Hospital",
+        "Adelaide Hospital",
+        "Lunatic Asylums",
+        "General Hospital, Hobart",
+        "General Hospital, Launceston",
+        "San Fernando Hospital",
+        "Hospitals for the Insane, Melbourne",
+        "Kew",
+        "Ararat",
+        "Beechworth",
+        "Orphan Asylum",
+        "Destitute Poor Asylum",
+        "Leper Asylum, Cocorite",
+        "Lunatic Asylum, Belmont",
+        "Lunatic Asylum and Lazaretto",
+        "Colonial Lunatic Asylum, Berbice",
+        "Colonial Hospital, Demerara and Essequebo",
+        "Robben Island Asylum for Lepers, Lunatics, &c.",
+        "Somerset Hospital",
+        "Native Hospitals, King William's Town",
+        "New Somerset Hospital",
+        "Old Somerset Hospital",
+        "Lunatic Asylum, &c., Grahamstown",
+        "Hospital at King William's Town",
+        "Lunatic Asylum, Port Alfred",
+        "Valkenburg Asylum",
+        "Lepre Asylum",
+        "Leper Asylum, Mahaica",
+        "Lepel Asylum, Mahaica",
+        "Leper Asylum",
+        "Colonial Hospital, Demerara",
+        "Hospital, Essequebo",
+        "Leper Asylum, Mahaiaca",
+        "Hospital for Insane, New Norfolk",
+        "Lunatic Asylum (St. George's, Grenada)"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Medical",
+      "reasoning": "Various medical facilities including general hospitals, lunatic asylums, and leper colonies.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Medical Officers and Departments",
+      "members": [
+        "Medical Officers",
+        "Medical Officers of Immigration Districts",
+        "District Medical Officers",
+        "District Medical Officers.",
+        "Medical Assistant",
+        "Colonial Surgeon",
+        "Medical Board",
+        "Medical and Vaccination Department",
+        "Government Medical Establishments",
+        "Medical Institutions",
+        "Medical Department, Kimberley",
+        "Medical Department, Du Toits Pan"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Medical",
+      "reasoning": "Administrative medical boards and specific medical officer roles.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Prisons and Penal Establishments",
+      "members": [
+        "Penal Department",
+        "Convict Settlement, Massaruni",
+        "Rottnest Prison Department",
+        "Corradino Prison",
+        "Convict and Prisons Branch",
+        "Tokai Convict Station",
+        "Convict Stations, Breakwater",
+        "Gaol.",
+        "Convict Settlement, Massacuri",
+        "Gaol and Convict Department",
+        "Superintendents of County Gaol and District Prisons",
+        "Labour Prison",
+        "Labour Prisons",
+        "Fremantle Prison",
+        "Rottwest Penal Establishment"
+      ],
+      "confidence": "HIGH",
+      "career_track": null,
+      "reasoning": "Institutions for incarceration and penal labour.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Police Force",
+      "members": [
+        "Civil Police",
+        "Jamaica Constabulary",
+        "Armed Native Constabulary",
+        "Water Police",
+        "Detective Department",
+        "Mounted Police",
+        "New Zealand Police Force",
+        "LAGOS CONSTABULARY",
+        "Houssa Force",
+        "Marine Police",
+        "Zululand Police",
+        "Police Commissioner",
+        "POLICE COMMISSIONER",
+        "Police, New Westminster and Douglas.",
+        "Police and Excise",
+        "Police and Gaols Establishment",
+        "Detective Department (Kimberley)"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Police",
+      "reasoning": "Law enforcement agencies and constabularies.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Military and Defence",
+      "members": [
+        "Defences",
+        "Militia",
+        "Colonial Defence",
+        "DEFENCE OFFICE",
+        "Naval Forces",
+        "Local Artillery",
+        "Military Department (Windward and Leeward Islands)",
+        "Military and Naval Officers",
+        "Chief Military and Naval Officers",
+        "Militia Establishment",
+        "Defence Office",
+        "Volunteer Military Force",
+        "Officers, Military (Barbados)",
+        "Chief Military Officers",
+        "Imperial Military Establishment (Halifax)",
+        "Cape Mounted Riflemen",
+        "Military Officers, &c. (in Mauritius)",
+        "Military Officers",
+        "Naval Defence",
+        "Sierra Leone Battalion, West African Frontier Force",
+        "Sierra Leone Battalion, West African Frontier Force.",
+        "Millia",
+        "Armoury",
+        "Warriors",
+        "Deputy Assistant Adjutant Generals",
+        "Head Quarters Staff",
+        "Ordnance",
+        "Regular Artillery",
+        "Engineers",
+        "Mounted Brigade",
+        "Infantry 1st Regiment",
+        "Infantry 2nd Regiment",
+        "Infantry 3rd Regiment",
+        "Infantry 4th Regiment",
+        "Medical Staff Corps",
+        "Commissariat and Transport Corps",
+        "Officers\u2014Military, Naval, &c.",
+        "Officers, Military, Naval, &c."
+      ],
+      "confidence": "HIGH",
+      "career_track": "Military",
+      "reasoning": "Military forces, defence departments, and associated military personnel.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Postal and Telegraph Department",
+      "members": [
+        "General Post-Office",
+        "Postmaster-General's Department",
+        "Telegraph Branch",
+        "Money Order Department",
+        "Postal and Telegraph Department",
+        "Department of the Postmaster-General",
+        "Central Telegraph Office",
+        "Circulation Branch",
+        "Post Office and Telegraph Department",
+        "Post Office and Telegraph Departments",
+        "Registered Letter Branch",
+        "Mail Branch",
+        "Money Order Branch",
+        "General Post-Office, Fredericton",
+        "Postmaster-General\u2019s Department",
+        "Posts and Telegraphs Department",
+        "Telegraph and Savings Bank Clerks",
+        "Telephones",
+        "Telegraph Clerks",
+        "Postmasters",
+        "Island Post Office"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Postal",
+      "reasoning": "Departments handling mail, telegraphs, and money orders.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Public Works and Engineering",
+      "members": [
+        "Colonial Architect's Department",
+        "Roads and Bridges",
+        "Lands and Works Department",
+        "Engineer-in-Chief's Department",
+        "Engineer-in-Chief",
+        "Public Works Branch",
+        "Department of Lands, Surveys, and Works",
+        "Land Revenue and Public Works Department",
+        "Architect's Department",
+        "Works and Buildings",
+        "Civil Engineer and Commissioner of Roads",
+        "Engineering and Architectural Branch",
+        "Roads and Bridges Branch",
+        "Board of Works",
+        "Department of Works and Subordinate Departments",
+        "Government Architect's Department",
+        "Office of Commissioner of Public Works Department",
+        "Public Buildings Department",
+        "Office of Works",
+        "Engineering",
+        "Engineer Department",
+        "Public Works, Roads, and Bridges",
+        "Roads Department",
+        "Public Works Stores",
+        "Foreman of Public Works",
+        "District Engineers"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Engineering",
+      "reasoning": "Departments responsible for civil engineering, architecture, and public infrastructure.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Railway Department",
+      "members": [
+        "Works and Railways Department",
+        "Natal Government Railways",
+        "Locomotive Branch",
+        "Traffic Branch",
+        "WORKING RAILWAYS BRANCH",
+        "Victorian Railways",
+        "South-Western Railway",
+        "Department of Commissioner of Railways and Director of Public Works",
+        "Existing Lines of Railways",
+        "Department of Railways and Tramways",
+        "Existing Lines",
+        "Signal and Interlocking Branch",
+        "Tramway Branch",
+        "Railway Construction",
+        "Department of Railways",
+        "Railway Management",
+        "Tasmanian Government Railways",
+        "Couva Extension Railway",
+        "San Fernando Extension Railway",
+        "Guaracara Extension Railway",
+        "Melbourne and Hobson's Bay Railway",
+        "Commissioner of Railways Division",
+        "Working Railways Branch",
+        "Locomotive",
+        "Traffic",
+        "Traffic Manager",
+        "Assistant ditto",
+        "Locomotive Superintendent",
+        "Maintenance Engineer",
+        "Maintenance and Traffic Branch"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Engineering",
+      "reasoning": "Departments and branches managing the construction and operation of railways.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Agriculture and Botanical Departments",
+      "members": [
+        "Royal Botanic Garden",
+        "Government Botanist",
+        "Botanical and Afforestation Department",
+        "Botanical Establishment",
+        "Botanical Station",
+        "Government Gardens",
+        "Bureau of Agriculture and Statistics",
+        "Public Gardens and Plantations",
+        "Department of Woods and Forests and Botanical Garden",
+        "Department of Forests and Gardens",
+        "Agricultural Development Branch",
+        "Agricultural Bureau",
+        "Agricultural College",
+        "Council of Agriculture",
+        "Botanical and Agricultural Department",
+        "Botanical Station, Aburi"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Agricultural",
+      "reasoning": "Departments managing agriculture, forestry, and botanical gardens.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Customs Department",
+      "members": [
+        "Sub-Collectors",
+        "Out-door Officers",
+        "Custom House",
+        "Customs and Treasury",
+        "Commissioner of Trade and Customs Division",
+        "Landing Waiters",
+        "Treasury and Customs",
+        "Customs' Department",
+        "Department of Customs",
+        "Customs Department, St. John",
+        "Department of Trade and Customs",
+        "Customs Departments",
+        "In-door Officers",
+        "Preventive Service",
+        "Assistant Landing Waiters",
+        "Boarding Officers",
+        "Customs Department (Hobarton)",
+        "Customs and Excise Department",
+        "Landing Waiters and Lockers",
+        "Landing Surveyors",
+        "Treasury, Customs, and Inland Revenue Department",
+        "Treasury and Customs Department, &c."
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Offices responsible for collecting customs duties and managing trade borders.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Lands Department",
+      "members": [
+        "Lands",
+        "Department of Lands",
+        "Department of Public Lands",
+        "Crown Lands Occupation Department",
+        "Land Office",
+        "Lands and Immigration Department",
+        "Government Land Department",
+        "Crown Property Department",
+        "Public and Crown Lands Department",
+        "Department of Lands and Subordinate Departments",
+        "Land Court",
+        "Chairmen Local Land Boards",
+        "Lands and Forest Department",
+        "Credit Lands Department",
+        "Crown Lands and Survey Office",
+        "Land Office, Prov. Wellesley"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Departments managing public and crown lands.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Registry and Deeds Department",
+      "members": [
+        "Registration of Births and Deaths",
+        "Deeds Branch",
+        "Land Titles Department",
+        "Registration and Mortgage Department",
+        "Registrar of Deeds",
+        "Registrar-General of Births, Deaths, and Marriages",
+        "Registrar of Deeds Office",
+        "Registrar General's Department of Land",
+        "Office of Titles",
+        "Registry Department",
+        "Registrar General's Department of Lands",
+        "Registry Branch",
+        "Registrar of Deeds\u2019 Office",
+        "Provisional Registrar-General's Department",
+        "Registrar of Births, Deaths, &c.",
+        "Registration Office and Mortgage Department",
+        "Registrar of Deeds Department",
+        "Real Property Office",
+        "Registrar-General's Department, Land Titles Branch",
+        "Statistical and General Registry Department",
+        "Lands Titles",
+        "Registry Office",
+        "Land Titles Office",
+        "Land Titles Commissioners",
+        "Land Title Commissioners"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Legal",
+      "reasoning": "Offices responsible for registering vital statistics, deeds, and land titles.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Crown Law Officers",
+      "members": [
+        "Crown Law Offices",
+        "Procureur-General's Department",
+        "Crown Solicitor",
+        "Law Officers' Department",
+        "Solicitor-General's Office",
+        "Solicitor-General",
+        "Crown Prosecutor's Office",
+        "Crown Lawyers",
+        "Attorney-General's Department.",
+        "Crown Law Department",
+        "Queen's Advocate Department",
+        "Prosecutors for the Queen"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Legal",
+      "reasoning": "Legal departments representing the Crown, including solicitors and prosecutors.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Magistracy",
+      "members": [
+        "Stipendiary Magistracy",
+        "Clerks of Petty Sessions",
+        "Stipendiary Justices",
+        "Stipendiary Magistrates",
+        "Magistrates",
+        "Additional Resident Magistrate's Department",
+        "Police and Stipendiary Magistracy",
+        "District and Stipendiary Magistracies",
+        "Police Magistracy",
+        "Magisterial Department and Staff",
+        "Subordinate Magistrates",
+        "Police Magistrates and Coroners",
+        "Gold Commissioners and Stipendiary Magistrates.",
+        "Special Magistrate",
+        "Resident Magistrate's Department",
+        "Police Magistrates",
+        "Stipendiary Justices and Clerks of the Peace",
+        "Police Magistrate and Coroner",
+        "Resident Magistrates",
+        "Police Magistrates and Wardens of the Goldfields of Victoria"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Legal",
+      "reasoning": "Local judicial officers and magistrates.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Sheriff's Department",
+      "members": [
+        "Sheriff's Department",
+        "The Sheriff",
+        "High Sheriff's Office",
+        "Under Sheriff",
+        "Sheriff"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Legal",
+      "reasoning": "Offices of the Sheriff, responsible for enforcing court orders.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Ecclesiastical Establishment",
+      "members": [
+        "Wesleyan Missionary Society",
+        "Church of Scotland",
+        "Ministers of Religion",
+        "Bishops",
+        "Church of England",
+        "Roman Catholic Clergy",
+        "Chief Ministers of Religion",
+        "List of Colonial Chaplains",
+        "Chief Clergy of the Church of England",
+        "Roman Catholic Bishop and Clergy",
+        "Ecclesiastical.",
+        "Ecclesiastical Establishments",
+        "Ecclesiastary Establishments",
+        "Colonial Chaplains",
+        "Scotch Presbyterian Church",
+        "Anglican Church",
+        "Roman Catholic",
+        "Wesleyan",
+        "Cathedral Church, Fredericton",
+        "Roman Catholic Bishops",
+        "Presbyterian Church of New South Wales",
+        "Presbyterian Church of Eastern Australia",
+        "Wesleyan Methodist Church",
+        "Primitive Methodist Church",
+        "Congregational Union of New South Wales",
+        "Baptist Union of New South Wales",
+        "Representatives of Christian Religious Bodies",
+        "Ecclesiastical - Diocesan",
+        "Ecclesiastical - Roman Catholic",
+        "Eclesiastical Establishment",
+        "Archdeacon and Vicar-General, The Venerable H. H. Jones, M.A",
+        "Second charge, Rev. Dalgethy"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Ecclesiastical",
+      "reasoning": "State-supported or recognized religious institutions and clergy.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Mines and Geological Department",
+      "members": [
+        "Geological Survey Department",
+        "Department of Mines",
+        "Geological Department",
+        "Gold Fields Department",
+        "Gold-fields",
+        "GEOLOGICAL",
+        "Geological"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Engineering",
+      "reasoning": "Departments managing mining operations and geological surveys.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Native Affairs Department",
+      "members": [
+        "NATIVE OFFICE",
+        "Central Board for the Protection of Aborigines",
+        "Aborigines' Department",
+        "Native Department",
+        "Native Office",
+        "Aborigines Branch",
+        "Department for Native Affairs",
+        "Registry of Natives, Kimberley",
+        "Registry of Natives, Du Toits Pan",
+        "Native Affairs Department"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Departments dedicated to the administration and protection of indigenous populations.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Government Printing Office",
+      "members": [
+        "Printing Branch",
+        "Government Printing Establishment (attached to Administrator's Office)",
+        "Government Press",
+        "Public Printing and Stationery",
+        "Stationery and Printing, and Depot for Police and Government Stores",
+        "Stationery and Printing, and D\u00e9pot for Police and Government Stores",
+        "Government Printing Establishment",
+        "Government Printer and Inspector of Stamps"
+      ],
+      "confidence": "HIGH",
+      "career_track": null,
+      "reasoning": "Offices responsible for official government printing and stationery.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Stores and Commissariat",
+      "members": [
+        "Colonial Store Department",
+        "Civil Commissariat Department",
+        "Ordnance and Barrack Department",
+        "Commissary Department",
+        "Colonial Store, Military",
+        "Stores",
+        "Storekeeper's Department",
+        "Volunteer and Government Store",
+        "Colonial Commissariat",
+        "Chief Commissary",
+        "Government Store",
+        "Storekeeper-General's Department",
+        "Stores and Stationery",
+        "Office of Stores",
+        "Colonial Storekeeper's Department",
+        "Storekeeper\u2019s Department"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Departments managing government supplies, stores, and commissariat.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Museums and Libraries",
+      "members": [
+        "Colombo Museum",
+        "Museum",
+        "National Museum",
+        "Public Library",
+        "Public Libraries",
+        "Melbourne Public Library",
+        "South African Museum",
+        "Institute of Jamaica",
+        "Australian Museum",
+        "National Art Gallery of New South Wales",
+        "Free Public Library",
+        "Technological Museum",
+        "South Australian Institute - Board of Governors",
+        "South Australian Institute",
+        "Library"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Education",
+      "reasoning": "Public cultural and educational institutions.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Poor Relief and Charitable Institutions",
+      "members": [
+        "Poor",
+        "Poor Law Commission",
+        "Poor Relief Department",
+        "Charitable Institutions Department",
+        "Charitable Institutions",
+        "House of Refuge",
+        "Board of Supervision for the Relief of the Poor",
+        "Poor Asylum",
+        "Superintendent of Poor Houses",
+        "House of Refuge, St. Clair",
+        "Poor Law Board"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Medical",
+      "reasoning": "Institutions and boards managing poor relief and charity.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Public Health and Sanitary Department",
+      "members": [
+        "Quarantine Establishments",
+        "General Board of Health Office",
+        "Central Board of Health",
+        "Health Officer",
+        "Health",
+        "Board of Sanitary Commissioners",
+        "Sanitary Sub-Department",
+        "Board of Health, St. Kitts",
+        "Board of Health, Nevis",
+        "Public Health Department.",
+        "Public Health and Local Government Dept."
+      ],
+      "confidence": "HIGH",
+      "career_track": "Medical",
+      "reasoning": "Departments managing public health, sanitation, and quarantine.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Immigration Department",
+      "members": [
+        "Immigration Agent",
+        "Protector of Immigrants' Department and Police Court",
+        "Protector of Immigrants' Department",
+        "Emigration Agents in India"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Offices managing immigration and the protection of immigrants.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Foreign Consuls and Agents",
+      "members": [
+        "Consuls for Foreign Countries",
+        "London Agency",
+        "Agent-General's Department",
+        "Agent-General's Department (London)",
+        "Agent-General for New Zealand in England",
+        "Agent-General's Department in London",
+        "Vice-Consuls and Consular Agents",
+        "Foreign Consuls (in Mauritius)",
+        "Agent-General in London",
+        "Agent-General for Victoria in the United Kingdom",
+        "Consuls of Foreign Countries",
+        "Foreign Consular Officers"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Representatives of foreign governments or colonial agents in London.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Legislative and Executive Councils",
+      "members": [
+        "Privy Council",
+        "Legislative Council Office",
+        "Non-Official Members",
+        "Official Members",
+        "Executive Council (Local)",
+        "Legislative Council (Local)",
+        "Supreme Council",
+        "The Queen's Privy Council for Canada",
+        "Senate of Canada",
+        "House of Commons",
+        "House of Assembly (41 Members)",
+        "General Legislative Council",
+        "Elective Members",
+        "Non-Elective Members",
+        "Members of Council",
+        "Nominated Unofficial Members",
+        "Elected Members",
+        "Legislative Board",
+        "Ex officio Members",
+        "Executive Committee",
+        "Legislative Council - Western Province"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Legislative bodies, executive councils, and their members.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Colonial Secretary's Office",
+      "members": [
+        "Government Secretariat",
+        "Administrative Branch",
+        "Colonial Secretariat",
+        "Secretarial Branch",
+        "Clerks, Secretarial Branch",
+        "Colonial Secretary's Office.",
+        "Department of Colonial Secretary",
+        "Premier's Department",
+        "Secretary of State",
+        "Provincial Secretary's Department",
+        "COLONIAL SECRETARY'S OFFICE.",
+        "Chief Secretary's Division"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "The central administrative secretariat of the colonial government.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Provincial and District Administration",
+      "members": [
+        "Southern Province",
+        "Northern Province",
+        "Eastern Province",
+        "Western District",
+        "Eastern District",
+        "Government Residents",
+        "Wardens",
+        "Managers of Districts",
+        "Manager of Districts",
+        "Provincial",
+        "Provincial Department",
+        "Civil Commissioner's Department",
+        "Board of Civil Commissioners",
+        "Civil Commissioner, District of Hay",
+        "Residents 2nd Class",
+        "Chief Local Officer",
+        "Territorial Administration",
+        "Provincial Establishment",
+        "SOUTHERN PROVINCE",
+        "NORTHERN PROVINCE",
+        "EASTERN PROVINCE",
+        "Provincial Governments",
+        "North Western District"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Administrative bodies governing specific provinces or districts.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Statistical Department",
+      "members": [
+        "Statistical Department",
+        "Statistical Branch",
+        "Statistical Dept.",
+        "Statistician's Department"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Departments responsible for collecting and managing statistics.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Water Supply and Irrigation",
+      "members": [
+        "Waterworks Department",
+        "Melbourne Water Supply Branch",
+        "Irrigation Officers",
+        "Central Irrigation Board",
+        "Victorian Water Supply Branch",
+        "Water Commissioners",
+        "Board of Water Supply and Sewerage",
+        "Water Conservation Branch",
+        "Melbourne Sewers and Water Supply Branch",
+        "Victorian Water Supply"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Engineering",
+      "reasoning": "Departments managing waterworks, sewerage, and irrigation.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Veterinary and Stock Department",
+      "members": [
+        "Inspector of Stock",
+        "Sheep Inspector's Department",
+        "Sheep Department",
+        "Sheep Inspectors",
+        "Inspector of Sheep Department"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Agricultural",
+      "reasoning": "Departments managing livestock health and inspection.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Coroner's Department",
+      "members": [
+        "Coroner's Department",
+        "Coroners",
+        "Coroner"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Legal",
+      "reasoning": "Offices of the coroner.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Master's Office (Supreme Court)",
+      "members": [
+        "Master in Equity",
+        "Master in Lunacy",
+        "Master's Office, Supreme Court",
+        "Master's Office"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Legal",
+      "reasoning": "Offices of the Master of the Supreme Court, handling equity and lunacy cases.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Government Laboratory",
+      "members": [
+        "Government Analytical Chemist",
+        "Government Laboratory",
+        "Laboratory",
+        "Analyst's Office"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Medical",
+      "reasoning": "Government analytical and chemical laboratories.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Fire Brigade",
+      "members": [
+        "Fire Brigades Board",
+        "Volunteer Fire Brigade"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Police",
+      "reasoning": "Organizations responsible for firefighting.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Friendly Societies and Annuities",
+      "members": [
+        "Friendly Societies",
+        "Government Actuary and Registrar of Friendly Societies",
+        "ANNUITIES OFFICE",
+        "Annuities Office",
+        "Government Life Insurance Department"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Offices managing friendly societies, annuities, and life insurance.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Patent Office",
+      "members": [
+        "Patent Office",
+        "Patents and Copyrights",
+        "Department of Justice and Patent Office"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Legal",
+      "reasoning": "Offices managing intellectual property.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "General and Administrative Staff",
+      "members": [
+        "General Branch",
+        "Clerks",
+        "Correspondence Branch",
+        "Record Branch",
+        "Correspondence and Record Branch",
+        "Clerical Staff",
+        "Local Staff",
+        "Professional Staff",
+        "Establishment",
+        "Miscellaneous",
+        "Miscellaneous Offices"
+      ],
+      "confidence": "MEDIUM",
+      "career_track": "Administrative",
+      "reasoning": "Generic administrative branches and clerical staff.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Judicial Circuits",
+      "members": [
+        "Southern Circuit",
+        "Northern Circuit",
+        "Midland Circuit",
+        "SOUTHERN CIRCUIT",
+        "NORTHERN CIRCUIT"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Legal",
+      "reasoning": "Regional judicial circuits.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Excise Department",
+      "members": [
+        "Excise",
+        "Distillery Branch",
+        "Excise, Licenses, and Stamps Branch",
+        "Excise Department",
+        "Distilleries and Excise",
+        "Excise Branch"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Departments managing excise duties and distilleries.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Accounting and Pay Branch",
+      "members": [
+        "Account Branch",
+        "Accounting Branch",
+        "Pay and Account Branch",
+        "Receipt Branch",
+        "Receipt and Payment Branch",
+        "Paymaster-General's Branch",
+        "Accounting and Pension Fund's Branch",
+        "Inspector of Chests and Accounts' Branch",
+        "Expenditure Branch",
+        "Accountant's Branch",
+        "Accounts Branch",
+        "Accounts",
+        "ACCOUNTANT-GENERAL",
+        "Receipt and Pay Branch"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Branches responsible for accounting, payments, and receipts.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Commerce and Industry",
+      "members": [
+        "Department of Trade and Commerce",
+        "COMMERCE AND INDUSTRY",
+        "Commerce and Industry"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Departments managing trade, commerce, and industry.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Mercantile Marine Office",
+      "members": [
+        "Shipping Master",
+        "Deputy Shipping Master",
+        "Mercantile Marine Office",
+        "Mercantile Marine",
+        "Registration of Trade and Shipping"
+      ],
+      "confidence": "HIGH",
+      "career_track": null,
+      "reasoning": "Offices managing merchant shipping and seamen.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Public Service Commission",
+      "members": [
+        "Civil Service Board",
+        "Board for the Examination of Candidates for admission to the Civil Service of Canada",
+        "Public Service Commission",
+        "Public Service Board",
+        "Civil Service Cadets"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Boards managing civil service examinations and appointments.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Fisheries Department",
+      "members": [
+        "Department of Fisheries",
+        "Fisheries Department"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Agricultural",
+      "reasoning": "Departments managing fisheries.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Local Government",
+      "members": [
+        "Local Government",
+        "Town Improvements Commissioners",
+        "Villages"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Bodies managing local and municipal government.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Monte di Piet\u00e0",
+      "members": [
+        "Monte di Piet\u00e0",
+        "Monte di Pieta",
+        "Monte di Piet\u00e0, including Savings Bank"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Institutional pawnbrokers/savings banks.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Chinese Protectorate",
+      "members": [
+        "Chinese Branch",
+        "Chinese Protectorate"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Departments managing Chinese affairs and immigration.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Markets",
+      "members": [
+        "Markets",
+        "Public Market"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Administration of public markets.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Taxation Department",
+      "members": [
+        "Income Tax",
+        "Land and Income Tax Department",
+        "Land Tax Commission",
+        "Land Tax",
+        "Office of Taxes"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Departments managing direct taxation.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Lighthouses",
+      "members": [
+        "Lighthouse",
+        "Lighthouses",
+        "Department of Harbours and Lighthouses"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Engineering",
+      "reasoning": "Management of lighthouses.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Government Vessels",
+      "members": [
+        "Colonial Steamer",
+        "Government Vessels"
+      ],
+      "confidence": "HIGH",
+      "career_track": null,
+      "reasoning": "Management of government-owned ships and steamers.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Arms and Ammunition",
+      "members": [
+        "Arms and Ammunition",
+        "Powder Magazines"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Military",
+      "reasoning": "Management of arms and powder magazines.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Governor's Office",
+      "members": [
+        "Governor's Department",
+        "Governor and Personal Staff",
+        "GOVERNOR AND PERSONAL STAFF",
+        "Governor-in-Chief's Department",
+        "List of Governors of South Australia",
+        "Governors of Antigua",
+        "Governors of Tobago",
+        "Administrating the Government of British Guiana"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "The office and staff of the colonial Governor.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Legal Departments",
+      "members": [
+        "Legal Departments",
+        "Judicial and Legal Departments, Canada East",
+        "Judicial and Legal Department, Canada West",
+        "Judicial, Legal, and Magisterial Departments",
+        "Departments under direction of the Attorney-General",
+        "LEGAL",
+        "Legal"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Legal",
+      "reasoning": "General legal and judicial departments.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Archives",
+      "members": [
+        "Archives",
+        "Archives Office"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Offices managing public records and archives.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Royal Mint",
+      "members": [
+        "Royal Branch Mint",
+        "Mint",
+        "Branch, Royal Mint",
+        "Assay and Refinery Office"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Branches of the Royal Mint and assay offices.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Department of the Interior",
+      "members": [
+        "Interior",
+        "Department of the Interior"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Departments managing internal affairs.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Dominion Officials",
+      "members": [
+        "Dominion Officials in Nova Scotia",
+        "Dominion Officials in New Brunswick",
+        "Dominion Officials in British Columbia"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Federal officials operating in specific provinces.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "University",
+      "members": [
+        "University",
+        "Professors in the Malta University",
+        "University of Sydney",
+        "University of Adelaide - Council",
+        "University of Adelaide - Professors"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Education",
+      "reasoning": "Higher education institutions.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Civil Status Office",
+      "members": [
+        "Civil Status Office",
+        "Civil Status Officer",
+        "Civil Status Department"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Offices managing civil status records.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Vaccination Department",
+      "members": [
+        "Vaccination Department",
+        "Vaccine Department"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Medical",
+      "reasoning": "Departments managing public vaccination programs.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Finance Department",
+      "members": [
+        "Finance Minister's Department",
+        "Finance Department",
+        "Finance Office",
+        "Finance"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Central finance ministries and departments.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Revenue Officers",
+      "members": [
+        "Revenue Officers",
+        "Ass. Revenue Officers",
+        "General and Revenue Branch"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Financial",
+      "reasoning": "Officers and branches responsible for revenue collection.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "District Administration (Cape Colony)",
+      "members": [
+        "Division of Aberdeen",
+        "Division of Albany",
+        "Division of Albert",
+        "Division of Alexandria",
+        "Division of Aliwal North",
+        "Division of Barkly East",
+        "Division of Barkly West",
+        "Division of Bathurst",
+        "Division of Beaufort West",
+        "Division of Bedford",
+        "Division of Bredasdorp",
+        "Division of Britstown",
+        "Division of Caledon",
+        "Division of Calvinia",
+        "Cape Division",
+        "DIVISION OF CARNARVON",
+        "DIVISION OF CATHCART",
+        "DIVISION OF CERES",
+        "DIVISION OF CLANWILLIAM",
+        "DIVISION OF COLESBERG",
+        "DIVISION OF CRADOCK",
+        "DIVISION OF EAST LONDON",
+        "DIVISION OF FORT BEAUFORT",
+        "DIVISION OF FRASERBURG",
+        "DIVISION OF GEORGE",
+        "DIVISION OF GLEN GREY",
+        "DIVISION OF HANOVER",
+        "DIVISION OF HAY",
+        "DIVISION OF HERBERT",
+        "DIVISION OF HERSCHEL",
+        "DIVISION OF HOPE TOWN",
+        "DIVISION OF HUMANSDORF",
+        "DIVISION OF JANSENVILLE",
+        "DISTRICT OF KENHARDT",
+        "DIVISION OF KIMBERLEY",
+        "DIVISION OF KING WILLIAM'S TOWN",
+        "DIVISION OF KNYSNA",
+        "DIVISION OF KOMGAHA",
+        "DIVISION OF LADISMITH",
+        "DIVISION OF MALMESBURY",
+        "DIVISION OF MIDDLEDURG",
+        "DIVISION OF MOSSEL BAY",
+        "DIVISION OF MURRAYSBURG",
+        "DIVISION OF NAMAGUALAND",
+        "DIVISION OF OUDTSHOORN",
+        "DIVISION OF THE PAARL",
+        "DIVISION OF PEDDIE",
+        "DIVISION OF PHILIPSTOWN",
+        "DIVISION OF PIQUETBERG",
+        "DIVISION OF PORT ELIZABETH",
+        "DISTRICT OF PORT NOLLOTH",
+        "DIVISION OF PRIESKA",
+        "DIVISION OF PRINCE ALBERT",
+        "DIVISION OF QUEEN'S TOWN",
+        "DIVISION OF RICHMOND",
+        "DIVISION OF RIVERSDALE",
+        "DIVISION OF ROBERTSON",
+        "DISTRICT OF SIMONSTOWN",
+        "DIVISION OF SOMERSET EAST",
+        "DIVISION OF STELLENBOSCH",
+        "DIVISION OF STEYNSBURG",
+        "DIVISION OF STOCKENSTROM",
+        "DIVISION OF STUTTERHEIM",
+        "DIVISION OF SUTHERLAND",
+        "DIVISION OF SWELLENDAM",
+        "Division of Tarka",
+        "Division of Tulbagh",
+        "Division of Uitenhage",
+        "Division of Uniondale",
+        "Division of Van Rhynsdorp",
+        "Division of Victoria East",
+        "Division of Victoria West",
+        "Division of Willowmore",
+        "Division of Wodehouse",
+        "Division of Worcester",
+        "District of Wynberg",
+        "CAPE DIVISION",
+        "DIVISION OF TARKA",
+        "DIVISION OF TULBAGH",
+        "DIVISION OF UITENHAGE",
+        "DIVISION OF UNIONDALE",
+        "DIVISION OF VAN RHYNSDORP",
+        "DIVISION OF VICTORIA EAST",
+        "DIVISION OF VICTORIA WEST",
+        "DIVISION OF WILLOWMORE",
+        "DIVISION OF WODEHOUSE",
+        "DIVISION OF WORCESTER",
+        "DISTRICT OF WYNBERG",
+        "Division of East London",
+        "Division and District of Kimberley",
+        "DIVISION AND DISTRICT OF KIMBERLEY",
+        "District of Herbert",
+        "District of Colombo and Midland Circuit",
+        "DISTRICT OF COLOMBO AND MIDLAND CIRCUIT",
+        "Waterloo District",
+        "Kurene District",
+        "Ronietta District",
+        "Bandajuma District",
+        "Panguma District",
+        "Koinadugu District",
+        "Sherbro District"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Specific geographical administrative divisions, primarily in the Cape Colony and Sierra Leone.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Geographical Divisions/Settlements",
+      "members": [
+        "East London",
+        "King William's Town",
+        "Graham's Town",
+        "Simon's Bay",
+        "Hondeklip Bay",
+        "Mossel Bay",
+        "Port Elizabeth",
+        "Knysna",
+        "Stutterheim",
+        "Middle Drift",
+        "Keeskama Hoek",
+        "Klipdam",
+        "Marabisburg",
+        "Molteno",
+        "Pearstown",
+        "Somerset West",
+        "Steytleraville",
+        "Ventersdadt",
+        "Venterstadt",
+        "Wellington",
+        "WELLINGTON",
+        "Gibraltar",
+        "Grenada",
+        "Malacca",
+        "Penang",
+        "PENANG",
+        "Perak",
+        "Dindings",
+        "Salangor",
+        "Sungei Ujong",
+        "Sherbro",
+        "British Sherbro",
+        "Isle de Los",
+        "Isles de Los",
+        "Kikomkhe (mouth of the Scarcies River)",
+        "Sulymah",
+        "Lavanah",
+        "Back Papelle",
+        "Gozo",
+        "Rodrigues",
+        "Minor Dependencies",
+        "Bechuanaland Protectorate",
+        "Somaliland Protectorate",
+        "Northern Territory"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Administrative",
+      "reasoning": "Specific towns, settlements, and protectorates listed as administrative units.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Public Works specific projects",
+      "members": [
+        "Table Bay Breakwater Works",
+        "KNTSNA ROAD WORKS",
+        "KOWIE HARBOUR WORKS",
+        "KATBERG ROAD WORKS",
+        "Sleeper Factory",
+        "Sleeper Factory, Knysna",
+        "Praya Reclamation Branch"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Engineering",
+      "reasoning": "Specific public works and engineering projects.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Mixed Commissions",
+      "members": [
+        "Mixed British and Portuguese Commission",
+        "Mixed British and American Court of Justice"
+      ],
+      "confidence": "HIGH",
+      "career_track": "Legal",
+      "reasoning": "International mixed courts and commissions.",
+      "method": "llm_assisted"
+    },
+    {
+      "canonical_name": "Various Acts",
+      "members": [
+        "The Cunningham Hospital Act, 1867",
+        "Board of Health Act, 145, 1858",
+        "Medical attendance for Labouring Population, Act No. 2, 1877",
+        "Officers appointed under the Coal-fields Act"
+      ],
+      "confidence": "HIGH",
+      "career_track": null,
+      "reasoning": "Specific legislative acts under which officers were appointed.",
+      "method": "llm_assisted"
+    }
+  ],
+  "count": 83
+}

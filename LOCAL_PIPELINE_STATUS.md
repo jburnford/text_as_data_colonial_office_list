@@ -1,6 +1,6 @@
 # Local Extraction Pipeline — Development Status
 
-**Date:** 19 February 2026
+**Last updated:** 22 February 2026
 **Machine:** Project DIGITS (NVIDIA GB10, 128 GB unified memory)
 **Model:** gpt-oss:120b via Ollama
 
@@ -10,9 +10,85 @@
 
 We have a working, benchmarked local extraction pipeline that converts OCR-parsed Colonial Office List text into structured JSON. On the Sierra Leone 1896 test case, the pipeline achieves **100% accuracy across all fields** against a Gemini 3.0 Flash reference.
 
-**Sierra Leone (17 years)** — complete. 2,747 officials extracted, 99.5% HIGH confidence.
+**Full corpus extraction is IN PROGRESS** — 239/2,164 files (11%), 32,416 officials, 99.65% pass rate, zero failures.
 
-**Full corpus infrastructure** — ready to go. New orchestrator (`extraction_corpus.py`) handles all ~2,200 colony-year files with checkpointing, source-text validation, and automatic resume.
+---
+
+## ACTIVE BACKGROUND PROCESSES
+
+**These processes are running unattended and must not be interrupted.**
+
+### 1. Corpus extraction (PID 137627)
+
+```
+Started:  19 Feb 2026, 16:47 UTC
+Command:  nohup python -u extraction_corpus.py > generated/corpus_full.log 2>&1 &
+PID:      137627
+Log:      generated/corpus_full.log
+State:    generated/corpus_state.json
+```
+
+- Processes all ~2,164 colony-year files (excluding 63 SKIP-tier stubs)
+- Checkpoints to `corpus_state.json` after every file — safe to restart
+- SIGINT-safe: Ctrl+C finishes current file, saves state, exits cleanly
+- To restart if it dies: `nohup python -u extraction_corpus.py > generated/corpus_full.log 2>&1 &`
+- Current rate: ~3.5 files/hour, estimated ~22 days total
+
+**Check progress:**
+```bash
+ps -p 137627 -o etime                                          # uptime
+tail -20 generated/corpus_full.log                             # live log
+python -c "
+import json
+with open('generated/corpus_state.json') as f:
+    state = json.load(f)
+done = state.get('completed', {})
+failed = state.get('failed', {})
+total_off = sum(v.get('total_officials',0) for v in done.values())
+total_q = sum(v.get('quarantined_officials',0) for v in done.values())
+print(f'Completed: {len(done)}/2164 ({len(done)/2164*100:.1f}%)')
+print(f'Failed: {len(failed)}')
+print(f'Officials: {total_off:,} ({total_q} quarantined)')
+"
+```
+
+### 2. Auto-push to GitHub (PID 161301)
+
+```
+Started:  21 Feb 2026, 17:42 UTC
+Command:  nohup bash auto_push.sh > generated/auto_push.log 2>&1 &
+PID:      161301
+Log:      generated/auto_push.log
+```
+
+- Commits and pushes new extraction JSONs to GitHub every hour
+- Stages: `generated/*_data_*.json`, `generated/*_quarantined_*.json`, `generated/corpus_state.json`
+- To restart if it dies: `nohup bash auto_push.sh > generated/auto_push.log 2>&1 &`
+
+**Check status:**
+```bash
+ps -p 161301                          # is it running?
+tail -5 generated/auto_push.log       # last push
+git log --oneline -5                  # recent commits
+```
+
+### If the machine reboots
+
+Both processes will need to be restarted manually:
+
+```bash
+cd /home/jic823/Documents/text_as_data_colonial_office_list
+
+# 1. Restart extraction (auto-resumes from checkpoint)
+nohup python -u extraction_corpus.py > generated/corpus_full.log 2>&1 &
+
+# 2. Restart auto-push
+nohup bash auto_push.sh > generated/auto_push.log 2>&1 &
+```
+
+### GPU usage
+
+The extraction uses gpt-oss:120b (~65 GB) via Ollama. **Do not load other large models or run GPU-heavy tasks while the extraction is running.** Ollama will keep the model loaded between requests. If the model gets evicted, the extraction script will reload it automatically (adds ~60s delay).
 
 ---
 
@@ -129,91 +205,62 @@ Three iterations to reach 100% on gpt-oss:120b:
 
 ---
 
-## Next steps — full corpus extraction
+## Current extraction progress
 
-### Prerequisites
+**Started:** 19 Feb 2026 (1896 reference year), expanded to full corpus 20 Feb 2026
 
-- gpt-oss:120b must be loaded in Ollama (`ollama run gpt-oss:120b` to verify)
-- No other GPU-heavy processes running (the model uses ~65 GB of 128 GB unified memory)
+| Milestone | Status |
+|-----------|--------|
+| 1896 reference year (48 colonies) | **Complete** — 9,483 officials, 15 quarantined, 0 failures |
+| Full corpus (2,164 files) | **In progress** — 239 done (11%), ~22 days remaining |
 
-### Step 1: 1896 reference year (~48 colonies, ~4-5 hours)
+### Completed years so far
 
-Start here. This is the reference year with the most colonies, and gives immediate quality signal.
+1867, 1877, 1878, 1879, 1880, 1883, 1886, 1896 — across 61 unique colonies.
 
-```bash
-nohup python -u extraction_corpus.py --year 1896 > generated/corpus_1896.log 2>&1 &
-```
+### Quality metrics (cumulative)
 
-**Check progress:**
-```bash
-tail -20 generated/corpus_1896.log
-python extraction_corpus.py --report
-```
+| Metric | Value |
+|--------|-------|
+| Total officials extracted | 32,416 |
+| Quarantined | 114 (0.35%) |
+| Pass rate | 99.65% |
+| Failed files | 0 |
 
-### Step 2: Review 1896 results
+### Known issues
 
-After 1896 finishes, spot-check before committing to the full run:
+- **Fiji 1896** — source file contains Ceylon + Cape of Good Hope content (upstream OCR/parsing). 1,524 officials extracted but ~11% are from wrong colonies. Flagged as XLARGE/mandatory review.
+- **Source duplication** — some colony files repeat text blocks (OCR artefact). Deduplication in `extract_chunked()` handles this automatically.
+- **Repetition collapse** — model occasionally fills output with repeated tokens on complex chunks (e.g. Barbados Mounted Police). Chunk is skipped, pipeline continues.
+- **Late-era salaries** — 1950+ em-dash format sometimes yields null salaries. Low priority.
 
-```bash
-# Quick quality report
-python extraction_corpus.py --report
+---
 
-# Spot-check a few colonies
-python review_extraction.py
+## Next steps
 
-# Look at quarantine rate — if >5% of records are quarantined,
-# investigate before proceeding
-```
+### 1. Neo4j loading (can start now)
 
-### Step 3: Full corpus run (~8 days wall-clock)
+32K+ officials are ready to load. Stage 0 scaffold (Years, Territories, TerritoryYear slices) already exists. Next: Stage 1 — Official nodes linked to TerritoryYear slices. Can load incrementally as extraction continues.
 
-The orchestrator auto-resumes from checkpoint, so it's safe across machine restarts.
+- See `GRAPHRAG_PIPELINE_DESIGN.md` for full schema
+- Neo4j Docker: `bolt://localhost:7687`, auth: `neo4j/colonial_office`
 
-```bash
-nohup python -u extraction_corpus.py > generated/corpus_full.log 2>&1 &
-```
-
-It can be stopped and restarted at any time — Ctrl+C or kill the process. On restart, it skips all completed files.
-
-**Monitor:**
-```bash
-tail -20 generated/corpus_full.log          # live log
-python extraction_corpus.py --report         # summary stats
-python monitor.py                            # live dashboard
-```
-
-**Retry failures:**
-```bash
-python extraction_corpus.py --retry-failed
-```
-
-### Corpus tier breakdown
-
-| Tier | Size | Files | Time/file | Total |
-|------|------|-------|-----------|-------|
-| SKIP | < 500 B | 63 | — | — |
-| SMALL | 500 B–5 KB | 196 | ~1 min | ~3 hr |
-| STANDARD | 5–50 KB | 1,537 | ~5 min | ~128 hr |
-| LARGE | 50–200 KB | 388 | ~8 min | ~52 hr |
-| XLARGE | > 200 KB | 43 | ~15 min | ~11 hr |
-| **Total** | | **2,227** | | **~194 hr (~8 days)** |
-
-### After extraction: human review
-
-Mandatory review targets (~200 files):
-- First year of each colony (~133 files) — establishes colony-specific patterns
-- All XLARGE files (~43 files)
-- Any file where >10% of names fail source-text anchoring
+### 2. Human review (after extraction completes)
 
 ```bash
 python review_extraction.py      # interactive review CLI
 ```
 
-### After review: Neo4j loading
+Mandatory review targets (~200 files):
+- First year of each colony (~133 files)
+- All XLARGE files (~27 files)
+- Any file where >10% of names fail source-text anchoring
 
-Once extraction and review are complete, load into the graph:
-- Only records that passed validation (not quarantined) and passed review (APPROVED or not reviewed)
-- Stage 1 of the GraphRAG pipeline (see `GRAPHRAG_PIPELINE_DESIGN.md`)
+### 3. Retry failures (if any)
+
+```bash
+python extraction_corpus.py --retry-failed
+```
 
 ---
 
@@ -245,6 +292,10 @@ Only one large model can be loaded at a time (128 GB total, models are 52–67 G
 | `GRAPHRAG_PIPELINE_DESIGN.md` | Full GraphRAG schema (Stages 0–4) |
 | `test_data/gold_standard.json` | Gemini 3.0 Flash reference (44 officials, Sierra Leone 1896) |
 | `test_data/sierra_leone_1896_test.txt` | Benchmark source text (5 depts, 88 lines) |
-| `generated/sierra_leone_{year}_data_*.json` | Per-year Sierra Leone extraction output |
-| `generated/corpus_state.json` | Full-corpus checkpoint state (created on first run) |
+| `auto_push.sh` | Hourly git commit+push of extraction results |
+| `generated/{colony}_{year}_data_gpt-oss_120b.json` | Extraction output (passed validation) |
+| `generated/{colony}_{year}_quarantined_gpt-oss_120b.json` | Quarantined records (failed validation) |
+| `generated/corpus_state.json` | Full-corpus checkpoint state |
+| `generated/corpus_full.log` | Current extraction run log |
+| `generated/auto_push.log` | Auto-push log |
 | `generated/review_state.json` | Human review state (created on first review) |

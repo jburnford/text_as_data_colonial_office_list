@@ -1,11 +1,27 @@
 {
   "colony": "British East Africa and Zanzibar",
   "year": 1897,
-  "generated": "2026-03-12T06:16:45.739124",
+  "generated": "2026-03-12T12:14:19.824664",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 2,
+  "total_officials": 3,
   "officials": [
+    {
+      "name": "Said Khaled",
+      "canonical_name": "Khaled, Said",
+      "given_names": "Said",
+      "surname": "Khaled",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
     {
       "name": "E. J. Berkeley",
       "canonical_name": "Berkeley, E. J.",
@@ -44,12 +60,12 @@
   "validation_summary": {
     "colony": "British East Africa and Zanzibar",
     "year": 1897,
-    "total": 2,
-    "high_confidence": 2,
+    "total": 3,
+    "high_confidence": 3,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 2,
+    "passed": 3,
     "anomaly_count": 0
   }
 }

@@ -1,10 +1,10 @@
 {
   "colony": "Tasmania",
   "year": 1897,
-  "generated": "2026-03-12T06:47:20.992824",
+  "generated": "2026-03-12T12:28:00.285086",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 299,
+  "total_officials": 295,
   "officials": [
     {
       "name": "Viscount Gormanston",
@@ -129,8 +129,8 @@
       "surname": "Reid",
       "position": "Minister without Portfolio",
       "department": "Cabinet",
-      "salary_min": 0,
-      "salary_max": 0,
+      "salary_min": null,
+      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -495,7 +495,7 @@
       "canonical_name": "Pate, H. E.",
       "given_names": "H. E.",
       "surname": "Pate",
-      "position": "Usher of Black Rod, Assist. Clerk",
+      "position": "Usher of Black Rod and Assist. Clerk",
       "department": "Legislative Council",
       "salary_min": 30,
       "salary_max": 30,
@@ -555,9 +555,9 @@
       "location": null
     },
     {
-      "name": "John P. Hamilton",
-      "canonical_name": "Hamilton, John P.",
-      "given_names": "John P.",
+      "name": "P. Hamilton",
+      "canonical_name": "Hamilton, P.",
+      "given_names": "P.",
       "surname": "Hamilton",
       "position": "Stt.",
       "department": "House of Assembly",
@@ -571,9 +571,9 @@
       "location": null
     },
     {
-      "name": "John W. Hartnoll",
-      "canonical_name": "Hartnoll, John W.",
-      "given_names": "John W.",
+      "name": "John Hartnoll",
+      "canonical_name": "Hartnoll, John",
+      "given_names": "John",
       "surname": "Hartnoll",
       "position": null,
       "department": "House of Assembly",
@@ -587,11 +587,11 @@
       "location": null
     },
     {
-      "name": "R. S. Hiddlestone",
-      "canonical_name": "Hiddlestone, R. S.",
-      "given_names": "R. S.",
+      "name": "Hiddlestone",
+      "canonical_name": "Hiddlestone",
+      "given_names": "",
       "surname": "Hiddlestone",
-      "position": "Speaker",
+      "position": "R. S. (Speaker)",
       "department": "House of Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -605,7 +605,7 @@
     {
       "name": "Sir E. N. C.",
       "canonical_name": "C., Sir E. N.",
-      "given_names": "Sir E. N.",
+      "given_names": "E. N.",
       "surname": "C.",
       "position": "don",
       "department": "House of Assembly",
@@ -619,25 +619,9 @@
       "location": null
     },
     {
-      "name": "John Henry",
-      "canonical_name": "Henry, John",
-      "given_names": "John",
-      "surname": "Henry",
-      "position": null,
-      "department": "House of Assembly",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "G. H. Leatham",
-      "canonical_name": "Leatham, G. H.",
-      "given_names": "G. H.",
+      "name": "Leatham",
+      "canonical_name": "Leatham",
+      "given_names": "",
       "surname": "Leatham",
       "position": null,
       "department": "House of Assembly",
@@ -653,11 +637,11 @@
       "location": null
     },
     {
-      "name": "J. Lewis Ley",
-      "canonical_name": "Ley, J. Lewis",
-      "given_names": "J. Lewis",
-      "surname": "Ley",
-      "position": null,
+      "name": "J. Lewis",
+      "canonical_name": "Lewis, J.",
+      "given_names": "J.",
+      "surname": "Lewis",
+      "position": "ley",
       "department": "House of Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -673,7 +657,7 @@
       "canonical_name": "McDonald, N. J.",
       "given_names": "N. J.",
       "surname": "McDonald",
-      "position": "RN",
+      "position": "rn",
       "department": "House of Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -689,7 +673,7 @@
       "canonical_name": "Mackenzie, W. T. H.",
       "given_names": "W. T. H.",
       "surname": "Mackenzie",
-      "position": "RN",
+      "position": "rn",
       "department": "House of Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -829,9 +813,9 @@
       "location": null
     },
     {
-      "name": "P. O. Von Stieglitz",
-      "canonical_name": "Von Stieglitz, P. O.",
-      "given_names": "P. O.",
+      "name": "Von Stieglitz",
+      "canonical_name": "Von Stieglitz",
+      "given_names": "",
       "surname": "Von Stieglitz",
       "position": null,
       "department": "House of Assembly",
@@ -845,9 +829,9 @@
       "location": null
     },
     {
-      "name": "J. A. B. Woollnough",
-      "canonical_name": "Woollnough, J. A. B.",
-      "given_names": "J. A. B.",
+      "name": "Woollnough",
+      "canonical_name": "Woollnough",
+      "given_names": "",
       "surname": "Woollnough",
       "position": null,
       "department": "House of Assembly",
@@ -899,7 +883,7 @@
       "canonical_name": "Clerk, R.",
       "given_names": "R.",
       "surname": "Clerk",
-      "position": "and-at-Arms",
+      "position": "Sergeant-at-Arms",
       "department": "House of Assembly",
       "salary_min": 75,
       "salary_max": 75,
@@ -911,9 +895,9 @@
       "location": null
     },
     {
-      "name": "W. Moore",
-      "canonical_name": "Moore, W.",
-      "given_names": "W.",
+      "name": "William Moore",
+      "canonical_name": "Moore, William",
+      "given_names": "William",
       "surname": "Moore",
       "position": "Secretary",
       "department": "Chief Secretary's Department",
@@ -947,7 +931,7 @@
       "canonical_name": "Honey, M. P.",
       "given_names": "M. P.",
       "surname": "Honey",
-      "position": null,
+      "position": "Clerk",
       "department": "Chief Secretary's Department",
       "salary_min": 188,
       "salary_max": 188,
@@ -963,7 +947,7 @@
       "canonical_name": "Coverdale, N. J.",
       "given_names": "N. J.",
       "surname": "Coverdale",
-      "position": null,
+      "position": "Clerk",
       "department": "Chief Secretary's Department",
       "salary_min": 145,
       "salary_max": 145,
@@ -1349,7 +1333,7 @@
       "canonical_name": "Gicleson, J.",
       "given_names": "J.",
       "surname": "Gicleson",
-      "position": null,
+      "position": "Senior Clerk",
       "department": "Customs and Excise Department",
       "salary_min": 220,
       "salary_max": 220,
@@ -1365,7 +1349,7 @@
       "canonical_name": "McDonald, F.",
       "given_names": "F.",
       "surname": "McDonald",
-      "position": null,
+      "position": "Senior Clerk",
       "department": "Customs and Excise Department",
       "salary_min": 140,
       "salary_max": 140,
@@ -1413,7 +1397,7 @@
       "canonical_name": "Packer, A. H.",
       "given_names": "A. H.",
       "surname": "Packer",
-      "position": "Landing Waiters",
+      "position": "Landing Waiter",
       "department": "Customs and Excise Department",
       "salary_min": 210,
       "salary_max": 210,
@@ -1429,7 +1413,7 @@
       "canonical_name": "Lette, A. E.",
       "given_names": "A. E.",
       "surname": "Lette",
-      "position": "Landing Waiters",
+      "position": "Landing Waiter",
       "department": "Customs and Excise Department",
       "salary_min": 160,
       "salary_max": 160,
@@ -1477,7 +1461,7 @@
       "canonical_name": "Wetton, H. C.",
       "given_names": "H. C.",
       "surname": "Wetton",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Customs and Excise Department",
       "salary_min": 150,
       "salary_max": 150,
@@ -1557,7 +1541,7 @@
       "canonical_name": "Latham, H. M.",
       "given_names": "H. M.",
       "surname": "Latham",
-      "position": "Landing Waiter and Warehouse-keeper",
+      "position": "Deconport, Landing Waiter and Warehouse-keeper",
       "department": "Customs and Excise Department",
       "salary_min": 150,
       "salary_max": 150,
@@ -1566,7 +1550,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Deconport"
+      "location": null
     },
     {
       "name": "A. G. Dixon",
@@ -1631,22 +1615,6 @@
       "military_rank": null,
       "salary_scale": null,
       "location": null
-    },
-    {
-      "name": "Stanley",
-      "canonical_name": "Stanley",
-      "given_names": "",
-      "surname": "Stanley",
-      "position": "Landing Waiter",
-      "department": "Customs and Excise Department",
-      "salary_min": 100,
-      "salary_max": 100,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "Stanley"
     },
     {
       "name": "Fras. Butler",
@@ -2357,7 +2325,7 @@
       "canonical_name": "Dawson, G. F.",
       "given_names": "G. F.",
       "surname": "Dawson",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Office of Stores",
       "salary_min": 150,
       "salary_max": 150,
@@ -2373,7 +2341,7 @@
       "canonical_name": "Hughes, J. W.",
       "given_names": "J. W.",
       "surname": "Hughes",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Office of Stores",
       "salary_min": 110,
       "salary_max": 110,
@@ -2759,7 +2727,7 @@
       "canonical_name": "Browne, George",
       "given_names": "George",
       "surname": "Browne",
-      "position": "Judges' Associate",
+      "position": "Judges' Associate (also Curator of Intestate Estates, &c., &c.)",
       "department": "Judicial and Legal Departments",
       "salary_min": 360,
       "salary_max": 360,
@@ -2905,8 +2873,8 @@
       "surname": "Shaw",
       "position": "Sheriff, Hobart (also Inspector of Police)",
       "department": "Law Officers",
-      "salary_min": 0,
-      "salary_max": 0,
+      "salary_min": null,
+      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -2999,7 +2967,7 @@
       "canonical_name": "Shaw, R.",
       "given_names": "R.",
       "surname": "Shaw",
-      "position": "P.M. and Coroner",
+      "position": "P.M. and Coroner, Hobart",
       "department": "Magistracy",
       "salary_min": 475,
       "salary_max": 475,
@@ -3047,7 +3015,7 @@
       "canonical_name": "Crowther, H. L.",
       "given_names": "H. L.",
       "surname": "Crowther",
-      "position": "S.M. and Coroner",
+      "position": "S.M. and Coroner, Kingborough and Franklin",
       "department": "Magistracy",
       "salary_min": 313,
       "salary_max": 313,
@@ -3063,7 +3031,7 @@
       "canonical_name": "Whitfield, E.",
       "given_names": "E.",
       "surname": "Whitfield",
-      "position": "P.M. and Coroner",
+      "position": "P.M. and Coroner, Selby",
       "department": "Magistracy",
       "salary_min": 175,
       "salary_max": 175,
@@ -3111,7 +3079,7 @@
       "canonical_name": "Clare, W. H.",
       "given_names": "W. H.",
       "surname": "Clare",
-      "position": "S.M.",
+      "position": "S.M., George Town, Beaconsfield",
       "department": "Magistracy",
       "salary_min": 135,
       "salary_max": 135,
@@ -3127,7 +3095,7 @@
       "canonical_name": "O'Reilly, C.",
       "given_names": "C.",
       "surname": "O'Reilly",
-      "position": "S.M.",
+      "position": "S.M., Ringarooma",
       "department": "Magistracy",
       "salary_min": 202,
       "salary_max": 202,
@@ -3143,7 +3111,7 @@
       "canonical_name": "Maxwell, P. C.",
       "given_names": "P. C.",
       "surname": "Maxwell",
-      "position": "P.M.",
+      "position": "P.M., East and West Devon",
       "department": "Magistracy",
       "salary_min": 150,
       "salary_max": 150,
@@ -3159,7 +3127,7 @@
       "canonical_name": "Chapman, A. K.",
       "given_names": "A. K.",
       "surname": "Chapman",
-      "position": "S.M.",
+      "position": "S.M., District of Russell, S.M., Barrie (Emu Bay)",
       "department": "Magistracy",
       "salary_min": 370,
       "salary_max": 370,
@@ -3175,7 +3143,7 @@
       "canonical_name": "Dawson, H.",
       "given_names": "H.",
       "surname": "Dawson",
-      "position": "S.M.",
+      "position": "S.M., Portland, George's Bay",
       "department": "Magistracy",
       "salary_min": 145,
       "salary_max": 145,
@@ -3191,7 +3159,7 @@
       "canonical_name": "Clarke, E.",
       "given_names": "E.",
       "surname": "Clarke",
-      "position": "S.M.",
+      "position": "S.M., Carnarvon",
       "department": "Magistracy",
       "salary_min": 95,
       "salary_max": 95,
@@ -3207,7 +3175,7 @@
       "canonical_name": "Hall, E. L.",
       "given_names": "E. L.",
       "surname": "Hall",
-      "position": "S.M.",
+      "position": "S.M., Zeehan",
       "department": "Magistracy",
       "salary_min": 333,
       "salary_max": 333,
@@ -3315,9 +3283,9 @@
       "location": null
     },
     {
-      "name": "Right Rev. Dr. Montagu",
-      "canonical_name": "Montagu, Right Rev. Dr.",
-      "given_names": "Right Rev. Dr.",
+      "name": "Montagu",
+      "canonical_name": "Montagu, ",
+      "given_names": "",
       "surname": "Montagu",
       "position": "Bishop of Tasmania",
       "department": "Ecclesiastical",
@@ -3346,7 +3314,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "F. Hales",
@@ -3364,12 +3332,12 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
-      "name": "Most Rev. D. Murphy",
-      "canonical_name": "Murphy, Most Rev. D.",
-      "given_names": "Most Rev. D.",
+      "name": "D. Murphy",
+      "canonical_name": "Murphy, D.",
+      "given_names": "D.",
       "surname": "Murphy",
       "position": "Roman Catholic Archbishop",
       "department": "Ecclesiastical",
@@ -3377,15 +3345,17 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "D.D."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Right Rev. P. Feeney",
-      "canonical_name": "Feeney, Right Rev. P.",
-      "given_names": "Right Rev. P.",
+      "name": "P. Feeney",
+      "canonical_name": "Feeney, P.",
+      "given_names": "P.",
       "surname": "Feeney",
       "position": "Conditor Bishop of Hobart",
       "department": "Ecclesiastical",
@@ -3393,10 +3363,12 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "D.D."
+      ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "Charles Woods",
@@ -3540,7 +3512,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "R. W. McGowan",
@@ -3556,7 +3528,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "F. H. Oldham",
@@ -3572,7 +3544,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "H. F. Murray",
@@ -3588,7 +3560,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "G. Olney",
@@ -3604,7 +3576,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "F. J. Drake",
@@ -3620,7 +3592,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "C. Parker",
@@ -3636,7 +3608,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "T. Gladman",
@@ -3652,7 +3624,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "W. Chambers",
@@ -3668,7 +3640,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "Jeanette Milne",
@@ -3684,7 +3656,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "E. J. Crouch",
@@ -3723,7 +3695,7 @@
       "canonical_name": "Paterson, F. J.",
       "given_names": "F. J.",
       "surname": "Paterson",
-      "position": null,
+      "position": "Magistrate and Commissioner of Police",
       "department": "Police",
       "salary_min": 234,
       "salary_max": 234,
@@ -3783,22 +3755,6 @@
       "location": null
     },
     {
-      "name": "M. Conlan",
-      "canonical_name": "Conlan, M.",
-      "given_names": "M.",
-      "surname": "Conlan",
-      "position": "Inspectors of Police",
-      "department": "Police",
-      "salary_min": 185,
-      "salary_max": 185,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "R. J. Harris",
       "canonical_name": "Harris, R. J.",
       "given_names": "R. J.",
@@ -3819,7 +3775,7 @@
       "canonical_name": "Burisford, H.",
       "given_names": "H.",
       "surname": "Burisford",
-      "position": null,
+      "position": "Police",
       "department": "Police",
       "salary_min": 10,
       "salary_max": 10,
@@ -3835,7 +3791,7 @@
       "canonical_name": "Warner, A. H.",
       "given_names": "A. H.",
       "surname": "Warner",
-      "position": null,
+      "position": "Police",
       "department": "Police",
       "salary_min": 225,
       "salary_max": 225,
@@ -4059,7 +4015,7 @@
       "canonical_name": "Cato, W. C.",
       "given_names": "W. C.",
       "surname": "Cato",
-      "position": "Surveyor of Land, Lands Survey, and Works",
+      "position": "Surveyor of Land, Lands Survey, and Works, Corresponding",
       "department": "Works Branch",
       "salary_min": null,
       "salary_max": null,
@@ -4075,7 +4031,7 @@
       "canonical_name": "Reilly, G. H.",
       "given_names": "G. H.",
       "surname": "Reilly",
-      "position": "Corresponding",
+      "position": "Surveyor of Land, Lands Survey, and Works, Corresponding",
       "department": "Works Branch",
       "salary_min": 230,
       "salary_max": 230,
@@ -4235,7 +4191,7 @@
       "canonical_name": "Sams, L. R.",
       "given_names": "L. R.",
       "surname": "Sams",
-      "position": "Surveyor",
+      "position": "Surveyor, Mining Registrar",
       "department": "Mines Branch",
       "salary_min": 74,
       "salary_max": 74,
@@ -4244,30 +4200,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Mining Registrar"
-    },
-    {
-      "name": "Hon. C.",
-      "canonical_name": "C., Hon.",
-      "given_names": "Hon.",
-      "surname": "C.",
-      "position": "Surveyor",
-      "department": "Mines Branch",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "North-Eastern District"
+      "location": null
     },
     {
       "name": "H. Dawson",
       "canonical_name": "Dawson, H.",
       "given_names": "H.",
       "surname": "Dawson",
-      "position": "Surveyor",
+      "position": "Surveyor, Eastern District",
       "department": "Mines Branch",
       "salary_min": 114,
       "salary_max": 114,
@@ -4276,14 +4216,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Eastern District"
+      "location": null
     },
     {
       "name": "E. H. Powell",
       "canonical_name": "Powell, E. H.",
       "given_names": "E. H.",
       "surname": "Powell",
-      "position": "Surveyor",
+      "position": "Surveyor, Western District",
       "department": "Mines Branch",
       "salary_min": 50,
       "salary_max": 50,
@@ -4292,14 +4232,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Western District"
+      "location": null
     },
     {
       "name": "J. Harrison",
       "canonical_name": "Harrison, J.",
       "given_names": "J.",
       "surname": "Harrison",
-      "position": "Surveyor of Mines",
+      "position": "Surveyor of Mines, West Coast",
       "department": "Mines Branch",
       "salary_min": 264,
       "salary_max": 264,
@@ -4308,14 +4248,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "West Coast"
+      "location": null
     },
     {
       "name": "E. L. Hall",
       "canonical_name": "Hall, E. L.",
       "given_names": "E. L.",
       "surname": "Hall",
-      "position": "Surveyor",
+      "position": "Surveyor, Zeehan",
       "department": "Mines Branch",
       "salary_min": 95,
       "salary_max": 95,
@@ -4324,7 +4264,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Zeehan"
+      "location": null
     },
     {
       "name": "F. Back",
@@ -4388,7 +4328,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "S. R. Fisher",
@@ -4571,7 +4511,7 @@
       "canonical_name": "Parry, T. S.",
       "given_names": "T. S.",
       "surname": "Parry",
-      "position": "Engineer",
+      "position": "Engineer, Strahan",
       "department": "Engineers",
       "salary_min": 200,
       "salary_max": 200,
@@ -4580,14 +4520,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Strahan"
+      "location": null
     },
     {
       "name": "E. J. Hughes",
       "canonical_name": "Hughes, E. J.",
       "given_names": "E. J.",
       "surname": "Hughes",
-      "position": "Engineer",
+      "position": "Engineer, Hobart",
       "department": "Engineers",
       "salary_min": 218,
       "salary_max": 218,
@@ -4596,14 +4536,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "J. R. Abey",
       "canonical_name": "Abey, J. R.",
       "given_names": "J. R.",
       "surname": "Abey",
-      "position": "Engineer",
+      "position": "Engineer, Launceston",
       "department": "Engineers",
       "salary_min": 218,
       "salary_max": 218,
@@ -4612,7 +4552,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "Sir W. B. Perceval",
@@ -4812,12 +4752,12 @@
   "validation_summary": {
     "colony": "Tasmania",
     "year": 1897,
-    "total": 301,
-    "high_confidence": 297,
-    "medium_confidence": 2,
-    "low_confidence": 2,
-    "quarantined": 2,
-    "passed": 299,
-    "anomaly_count": 19
+    "total": 296,
+    "high_confidence": 289,
+    "medium_confidence": 6,
+    "low_confidence": 1,
+    "quarantined": 1,
+    "passed": 295,
+    "anomaly_count": 14
   }
 }

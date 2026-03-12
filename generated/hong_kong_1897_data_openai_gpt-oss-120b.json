@@ -1,15 +1,15 @@
 {
   "colony": "Hong Kong",
   "year": 1897,
-  "generated": "2026-03-12T06:27:45.171978",
+  "generated": "2026-03-12T12:19:55.432525",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 93,
   "officials": [
     {
       "name": "Sir W. Robinson",
-      "canonical_name": "Robinson, Sir W.",
-      "given_names": "Sir W.",
+      "canonical_name": "Robinson, W.",
+      "given_names": "W.",
       "surname": "Robinson",
       "position": "Governor",
       "department": "Civil Establishment",
@@ -42,8 +42,8 @@
     },
     {
       "name": "Lieutenant J. T. Sterling",
-      "canonical_name": "Sterling, Lieutenant J. T.",
-      "given_names": "Lieutenant J. T.",
+      "canonical_name": "Sterling, J. T.",
+      "given_names": "J. T.",
       "surname": "Sterling",
       "position": "Aide-de-Camp",
       "department": "Civil Establishment",
@@ -52,7 +52,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieutenant",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -77,7 +77,7 @@
       "canonical_name": "Alves, J. M.",
       "given_names": "J. M.",
       "surname": "Alves",
-      "position": "Clerk",
+      "position": "1st Clerk",
       "department": "Colonial Secretary's Office",
       "salary_min": 2664,
       "salary_max": 2664,
@@ -93,7 +93,7 @@
       "canonical_name": "Rozario, P. H.",
       "given_names": "P. H.",
       "surname": "Rozario",
-      "position": "Clerk",
+      "position": "2nd Clerk",
       "department": "Colonial Secretary's Office",
       "salary_min": 1728,
       "salary_max": 1728,
@@ -109,7 +109,7 @@
       "canonical_name": "Gutierrez, J. M.",
       "given_names": "J. M.",
       "surname": "Gutierrez",
-      "position": "Clerk",
+      "position": "3rd Clerk",
       "department": "Colonial Secretary's Office",
       "salary_min": 1612,
       "salary_max": 1612,
@@ -125,7 +125,7 @@
       "canonical_name": "Remedios, J. A.",
       "given_names": "J. A.",
       "surname": "Remedios",
-      "position": "Clerk",
+      "position": "4th Clerk",
       "department": "Colonial Secretary's Office",
       "salary_min": 720,
       "salary_max": 720,
@@ -145,7 +145,7 @@
       "department": "Colonial Secretary's Office",
       "salary_min": 1800,
       "salary_max": 1800,
-      "allowances": "540 each for quarters",
+      "allowances": "\u00a3540 each for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -161,7 +161,7 @@
       "department": "Colonial Secretary's Office",
       "salary_min": 1800,
       "salary_max": 1800,
-      "allowances": "540 each for quarters",
+      "allowances": "\u00a3540 each for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -433,7 +433,7 @@
       "department": "Public Works Department",
       "salary_min": 1440,
       "salary_max": 1440,
-      "allowances": "288l. allowance",
+      "allowances": "288l. alce",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -497,7 +497,7 @@
       "department": "Praya Reclamation Branch",
       "salary_min": 3300,
       "salary_max": 3300,
-      "allowances": "\u00a3288 allowance",
+      "allowances": "\u00a3288 allowance; \u00a3288 chair allowance; \u00a3360 personal allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -765,7 +765,7 @@
       "canonical_name": "Ramsay, R. M.",
       "given_names": "R. M.",
       "surname": "Ramsay",
-      "position": "Harbour-Master, &c.",
+      "position": "Harbour-Master, &c., Commander",
       "department": "Harbour-Master's Department",
       "salary_min": 5400,
       "salary_max": 5400,
@@ -781,7 +781,7 @@
       "canonical_name": "Hastings, W. C.",
       "given_names": "W. C.",
       "surname": "Hastings",
-      "position": "Assistant Harbour-Master",
+      "position": "Assistant Harbour-Master, Commander",
       "department": "Harbour-Master's Department",
       "salary_min": 3000,
       "salary_max": 3000,
@@ -877,7 +877,7 @@
       "canonical_name": "Meugens, E. J.",
       "given_names": "E. J.",
       "surname": "Meugens",
-      "position": "Boarding Officer",
+      "position": "2nd Boarding Officer",
       "department": "Harbour-Master's Department",
       "salary_min": 1770,
       "salary_max": 1770,
@@ -1005,11 +1005,11 @@
       "canonical_name": "Carrington, J. W.",
       "given_names": "J. W.",
       "surname": "Carrington",
-      "position": "Chief Justice; Colonial Secretary",
+      "position": "Chief Justice",
       "department": "Supreme Court",
       "salary_min": 12000,
       "salary_max": 12000,
-      "allowances": null,
+      "allowances": "\u00a3360 personal allowance; \u00a3288 chair allowance; \u00a3120 personal allowance",
       "honors": [
         "C.M.G."
       ],
@@ -1098,7 +1098,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Austria"
+      "location": null
     },
     {
       "name": "J. J. Heemskirk",
@@ -1114,7 +1114,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Belgium"
+      "location": null
     },
     {
       "name": "A. G. Romano",
@@ -1130,7 +1130,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Brazil"
+      "location": null
     },
     {
       "name": "R. Shewan",
@@ -1146,7 +1146,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Chili"
+      "location": null
     },
     {
       "name": "J. Kramer",
@@ -1162,7 +1162,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Denmark"
+      "location": null
     },
     {
       "name": "E. Leroux",
@@ -1178,7 +1178,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "W. Knapp",
@@ -1194,7 +1194,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Germany"
+      "location": null
     },
     {
       "name": "J. J. Bell-Irving",
@@ -1210,7 +1210,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hawaiian Islands"
+      "location": null
     },
     {
       "name": "D. Musso",
@@ -1226,7 +1226,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Italy"
+      "location": null
     },
     {
       "name": "S. Shiariiza",
@@ -1242,14 +1242,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Japan"
+      "location": null
     },
     {
       "name": "A. J. do Rogario",
       "canonical_name": "do Rogario, A. J.",
       "given_names": "A. J.",
       "surname": "do Rogario",
-      "position": null,
+      "position": "",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1258,7 +1258,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Mexico"
+      "location": null
     },
     {
       "name": "F. J. Havel-Droese",
@@ -1274,7 +1274,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Netherlands"
+      "location": null
     },
     {
       "name": "F. S. Mesa",
@@ -1290,7 +1290,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Peru"
+      "location": null
     },
     {
       "name": "H. S. F. C. Michelsen",
@@ -1306,7 +1306,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Russia"
+      "location": null
     },
     {
       "name": "C. P. Chater",
@@ -1322,7 +1322,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Siam"
+      "location": null
     },
     {
       "name": "Jos\u00e9 Ravara",
@@ -1338,7 +1338,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Spain"
+      "location": null
     },
     {
       "name": "W. E. Hunt",
@@ -1354,7 +1354,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States"
+      "location": null
     },
     {
       "name": "Wilson Black",
@@ -1370,7 +1370,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Major-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1488,7 +1488,7 @@
     },
     {
       "name": "Evatt",
-      "canonical_name": "Evatt, ",
+      "canonical_name": "Evatt",
       "given_names": "",
       "surname": "Evatt",
       "position": "Principal Medical Officer (Military)",
@@ -1498,7 +1498,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Colonel",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     }

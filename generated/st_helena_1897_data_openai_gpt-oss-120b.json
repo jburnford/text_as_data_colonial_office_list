@@ -1,10 +1,10 @@
 {
   "colony": "St Helena",
   "year": 1897,
-  "generated": "2026-03-12T06:39:57.871779",
+  "generated": "2026-03-12T12:27:12.105627",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 173,
+  "total_officials": 170,
   "officials": [
     {
       "name": "R. Sterndale",
@@ -411,7 +411,7 @@
       "canonical_name": "Hill, William",
       "given_names": "William",
       "surname": "Hill",
-      "position": "Lieutenant Governor",
+      "position": "Governor",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -443,7 +443,7 @@
       "canonical_name": "Hennessey, J. P.",
       "given_names": "J. P.",
       "surname": "Hennessey",
-      "position": "Administrator-in-Chief",
+      "position": "Administrator",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -541,7 +541,7 @@
       "location": null
     },
     {
-      "name": "Sir Saml. Rowe",
+      "name": "Saml. Rowe",
       "canonical_name": "Rowe, Saml.",
       "given_names": "Saml.",
       "surname": "Rowe",
@@ -563,7 +563,7 @@
       "canonical_name": "Malby, J. M.",
       "given_names": "J. M.",
       "surname": "Malby",
-      "position": "Administrator-in-Chief",
+      "position": "Administrator",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -579,13 +579,14 @@
       "canonical_name": "Hay, J. S.",
       "given_names": "J. S.",
       "surname": "Hay",
-      "position": "Administrator-in-Chief",
+      "position": "Administrator",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [
-        "C.M.G."
+        "C.M.G.",
+        "K.C.M.G."
       ],
       "qualifications": [],
       "military_rank": null,
@@ -593,7 +594,7 @@
       "location": null
     },
     {
-      "name": "Major J. J. Crooks",
+      "name": "J. J. Crooks",
       "canonical_name": "Crooks, J. J.",
       "given_names": "J. J.",
       "surname": "Crooks",
@@ -609,7 +610,7 @@
       "location": null
     },
     {
-      "name": "Sir Francis Fleming",
+      "name": "Francis Fleming",
       "canonical_name": "Fleming, Francis",
       "given_names": "Francis",
       "surname": "Fleming",
@@ -627,7 +628,7 @@
       "location": null
     },
     {
-      "name": "Col. F. Cardew",
+      "name": "F. Cardew",
       "canonical_name": "Cardew, F.",
       "given_names": "F.",
       "surname": "Cardew",
@@ -649,7 +650,7 @@
       "canonical_name": "Lewis, Jacob W.",
       "given_names": "Jacob W.",
       "surname": "Lewis",
-      "position": "Clerk of Executive Council",
+      "position": "Clerk",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -661,16 +662,17 @@
       "location": null
     },
     {
-      "name": "Sir Samuel Lewis",
+      "name": "Samuel Lewis",
       "canonical_name": "Lewis, Samuel",
       "given_names": "Samuel",
       "surname": "Lewis",
-      "position": "Member of Legislative Council",
+      "position": "Legislative Council Member",
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [
+        "Kt.",
         "C.M.G."
       ],
       "qualifications": [],
@@ -683,23 +685,7 @@
       "canonical_name": "Bishop, T. C.",
       "given_names": "T. C.",
       "surname": "Bishop",
-      "position": "Member of Legislative Council",
-      "department": "Legislative Council",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Jacob W. Lewis",
-      "canonical_name": "Lewis, Jacob W.",
-      "given_names": "Jacob W.",
-      "surname": "Lewis",
-      "position": "Clerk of Legislative Council",
+      "position": "Legislative Council Member",
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
@@ -745,9 +731,9 @@
       "location": null
     },
     {
-      "name": "Jacob William Lewis",
-      "canonical_name": "Lewis, Jacob William",
-      "given_names": "Jacob William",
+      "name": "Jacob W. Lewis",
+      "canonical_name": "Lewis, Jacob W.",
+      "given_names": "Jacob W.",
       "surname": "Lewis",
       "position": "Governor's Clerk",
       "department": "Civil Establishment",
@@ -803,7 +789,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": 500,
       "salary_max": 400,
-      "allowances": "Rent 40l.",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1099,22 +1085,6 @@
       "location": null
     },
     {
-      "name": "Katherudeen",
-      "canonical_name": "Katherudeen",
-      "given_names": "",
-      "surname": "Katherudeen",
-      "position": "Clerk",
-      "department": "Native Affairs Department",
-      "salary_min": 36,
-      "salary_max": 36,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "A. B. Hanson",
       "canonical_name": "Hanson, A. B.",
       "given_names": "A. B.",
@@ -1148,11 +1118,11 @@
     },
     {
       "name": "Capt. J. N. Compton",
-      "canonical_name": "Compton, J. N.",
-      "given_names": "J. N.",
+      "canonical_name": "Compton, Capt. J. N.",
+      "given_names": "Capt. J. N.",
       "surname": "Compton",
       "position": "Captain",
-      "department": null,
+      "department": "Colonial Steamer",
       "salary_min": 384,
       "salary_max": 384,
       "allowances": null,
@@ -1168,7 +1138,7 @@
       "given_names": "A.",
       "surname": "Forrester",
       "position": "Engineer",
-      "department": null,
+      "department": "Colonial Steamer",
       "salary_min": 300,
       "salary_max": 300,
       "allowances": null,
@@ -1184,7 +1154,7 @@
       "given_names": "A.",
       "surname": "Eaton",
       "position": "Engineer",
-      "department": null,
+      "department": "Colonial Steamer",
       "salary_min": 252,
       "salary_max": 252,
       "allowances": null,
@@ -1544,7 +1514,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "District"
+      "location": null
     },
     {
       "name": "C. S. S. Parkinson",
@@ -1560,7 +1530,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "District"
+      "location": null
     },
     {
       "name": "T. D. K. Brown",
@@ -1576,7 +1546,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "District"
+      "location": null
     },
     {
       "name": "P. H. George",
@@ -1592,7 +1562,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "District"
+      "location": null
     },
     {
       "name": "W. A. H. Smith",
@@ -1608,15 +1578,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "District"
+      "location": null
     },
     {
       "name": "W. S. Saunders",
       "canonical_name": "Saunders, W. S.",
       "given_names": "W. S.",
       "surname": "Saunders",
-      "position": "Parish of St. George",
-      "department": "Civil Establishment",
+      "position": null,
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1631,8 +1601,8 @@
       "canonical_name": "Macaulay, G. J.",
       "given_names": "G. J.",
       "surname": "Macaulay",
-      "position": "Parish of St. Patrick",
-      "department": "Civil Establishment",
+      "position": "Rev.",
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1647,8 +1617,8 @@
       "canonical_name": "Taylor, L.",
       "given_names": "L.",
       "surname": "Taylor",
-      "position": "Waterloo District",
-      "department": "Civil Establishment",
+      "position": null,
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1663,8 +1633,8 @@
       "canonical_name": "Jarrett, M. L.",
       "given_names": "M. L.",
       "surname": "Jarrett",
-      "position": "Sherbro District",
-      "department": "Civil Establishment",
+      "position": null,
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1679,8 +1649,8 @@
       "canonical_name": "Williams, Z. E. T.",
       "given_names": "Z. E. T.",
       "surname": "Williams",
-      "position": "Isles de Los",
-      "department": "Civil Establishment",
+      "position": null,
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1691,7 +1661,7 @@
       "location": "Isles de Los"
     },
     {
-      "name": "Rev. S. Spain",
+      "name": "S. Spain",
       "canonical_name": "Spain, S.",
       "given_names": "S.",
       "surname": "Spain",
@@ -1757,7 +1727,7 @@
       "location": null
     },
     {
-      "name": "Hon. Sir Samuel Lewis",
+      "name": "Sir Samuel Lewis",
       "canonical_name": "Lewis, Samuel",
       "given_names": "Samuel",
       "surname": "Lewis",
@@ -1775,11 +1745,11 @@
       "location": null
     },
     {
-      "name": "Rev. J. Claudius May",
+      "name": "J. Claudius May",
       "canonical_name": "May, J. Claudius",
       "given_names": "J. Claudius",
       "surname": "May",
-      "position": "Rev.",
+      "position": null,
       "department": "Board of Education",
       "salary_min": null,
       "salary_max": null,
@@ -1791,11 +1761,11 @@
       "location": null
     },
     {
-      "name": "Rev. O. Moore",
+      "name": "O. Moore",
       "canonical_name": "Moore, O.",
       "given_names": "O.",
       "surname": "Moore",
-      "position": "Rev.",
+      "position": null,
       "department": "Board of Education",
       "salary_min": null,
       "salary_max": null,
@@ -1901,7 +1871,7 @@
       "department": "Medical Department",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "45l. 12s. 6d.",
+      "allowances": "allowance 45l. 12s. 6d.",
       "honors": [],
       "qualifications": [
         "M.B."
@@ -1981,7 +1951,7 @@
       "canonical_name": "Lewis, H. W.",
       "given_names": "H. W.",
       "surname": "Lewis",
-      "position": "Keeper, Lunatic Asylum",
+      "position": "Keeper, Lunatic Asylum, Kissy",
       "department": "Medical Department",
       "salary_min": 60,
       "salary_max": 60,
@@ -1990,7 +1960,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Kissy"
+      "location": null
     },
     {
       "name": "W. Z. Young",
@@ -2145,12 +2115,28 @@
       "department": "Medical Department",
       "salary_min": 63,
       "salary_max": 70,
-      "allowances": "qrs",
+      "allowances": "qrs.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": "Mongheri"
+    },
+    {
+      "name": "The Colonial Surgeon",
+      "canonical_name": "Colonial Surgeon, The",
+      "given_names": "",
+      "surname": "Colonial Surgeon",
+      "position": "Inspector of Health",
+      "department": "Sanitary Department",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
     },
     {
       "name": "T. M. Cole",
@@ -2433,7 +2419,7 @@
       "department": "Prison Department",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2477,7 +2463,7 @@
       "canonical_name": "Bull, Mary A.",
       "given_names": "Mary A.",
       "surname": "Bull",
-      "position": "Under Gaoler",
+      "position": "Under Matron",
       "department": "Prison Department",
       "salary_min": 30,
       "salary_max": 30,
@@ -2537,22 +2523,6 @@
       "location": null
     },
     {
-      "name": "The D. Commissioner",
-      "canonical_name": "Commissioner, The D.",
-      "given_names": "The D.",
-      "surname": "Commissioner",
-      "position": "Coroner",
-      "department": "Waterloo District",
-      "salary_min": 20,
-      "salary_max": 20,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "T. J. Alldridge",
       "canonical_name": "Alldridge, T. J.",
       "given_names": "T. J.",
@@ -2573,7 +2543,7 @@
       "canonical_name": "Macauley, S. A.",
       "given_names": "S. A.",
       "surname": "Macauley",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Sherbro District",
       "salary_min": 75,
       "salary_max": 90,
@@ -2593,22 +2563,6 @@
       "department": "Sherbro District",
       "salary_min": 36,
       "salary_max": 40,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "The D. Commissioner",
-      "canonical_name": "Commissioner, The D.",
-      "given_names": "The D.",
-      "surname": "Commissioner",
-      "position": "Coroner",
-      "department": "Sherbro District",
-      "salary_min": 20,
-      "salary_max": 20,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -2685,7 +2639,7 @@
       "canonical_name": "Rockley, T. S.",
       "given_names": "T. S.",
       "surname": "Rockley",
-      "position": "",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2701,7 +2655,7 @@
       "canonical_name": "Ellis, W.",
       "given_names": "W.",
       "surname": "Ellis",
-      "position": "",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2717,7 +2671,7 @@
       "canonical_name": "Zochonis, G. B.",
       "given_names": "G. B.",
       "surname": "Zochonis",
-      "position": "",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2733,7 +2687,7 @@
       "canonical_name": "Lemberg, Philip",
       "given_names": "Philip",
       "surname": "Lemberg",
-      "position": "",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2749,7 +2703,7 @@
       "canonical_name": "Cefalos, A. G.",
       "given_names": "A. G.",
       "surname": "Cefalos",
-      "position": "",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2781,7 +2735,7 @@
       "canonical_name": "Boyle, Moses S.",
       "given_names": "Moses S.",
       "surname": "Boyle",
-      "position": "",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2812,12 +2766,12 @@
   "validation_summary": {
     "colony": "St Helena",
     "year": 1897,
-    "total": 175,
-    "high_confidence": 171,
+    "total": 173,
+    "high_confidence": 168,
     "medium_confidence": 2,
-    "low_confidence": 2,
-    "quarantined": 2,
-    "passed": 173,
-    "anomaly_count": 7
+    "low_confidence": 3,
+    "quarantined": 3,
+    "passed": 170,
+    "anomaly_count": 6
   }
 }

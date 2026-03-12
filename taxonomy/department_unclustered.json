@@ -1,0 +1,5982 @@
+{
+  "pre_clustered": [
+    {
+      "id": "dept_civil_establishment",
+      "canonical_name": "Civil Establishment",
+      "career_track": null,
+      "members": [
+        {
+          "raw": "Civil Establishment",
+          "count": 202,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "General Establishment",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_ecclesiastical",
+      "canonical_name": "Ecclesiastical Establishment",
+      "career_track": "Ecclesiastical",
+      "members": [
+        {
+          "raw": "Ecclesiastical",
+          "count": 58,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Ecclesiastical Department",
+          "count": 36,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Ecclesiastical Establishment",
+          "count": 33,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Roman Catholic Church",
+          "count": 9,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Pastoral Districts",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Ecclesiastical Establishments (Church of England)",
+          "count": 4,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Clergy of the Church of England in the Diocese of Perth, W.A.",
+          "count": 4,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Clergy",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Church Establishment",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Ecclesiastical (Anglican Church)",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_judicial",
+      "canonical_name": "Judicial Department",
+      "career_track": "Legal",
+      "members": [
+        {
+          "raw": "Judicial Establishment",
+          "count": 101,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Judicial Department",
+          "count": 31,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Judicial",
+          "count": 17,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Judiciary",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Judicial and Legal",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_police",
+      "canonical_name": "Police Department",
+      "career_track": "Police",
+      "members": [
+        {
+          "raw": "Police",
+          "count": 44,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Police Department",
+          "count": 29,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Police and Gaols",
+          "count": 20,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Police and Gaol",
+          "count": 8,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Police and Prisons",
+          "count": 6,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Constabulary",
+          "count": 4,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Police Establishment",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "POLICE",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_postal",
+      "canonical_name": "Post Office",
+      "career_track": "Postal",
+      "members": [
+        {
+          "raw": "Post Office",
+          "count": 61,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "General Post Office",
+          "count": 12,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Post Office Department",
+          "count": 11,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Post-Office",
+          "count": 11,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Postal Department",
+          "count": 8,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Postal",
+          "count": 4,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Post-Office Department",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Post and Telegraph Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "GENERAL POST OFFICE",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "POST OFFICE",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Post-office Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_audit",
+      "canonical_name": "Audit Department",
+      "career_track": "Financial",
+      "members": [
+        {
+          "raw": "Audit Office",
+          "count": 64,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Auditor-General's Department",
+          "count": 17,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Audit Department",
+          "count": 16,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Auditor-General",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Audit",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Auditor-General\u2019s Department",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "AUDIT",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_medical",
+      "canonical_name": "Medical Department",
+      "career_track": "Medical",
+      "members": [
+        {
+          "raw": "Medical Department",
+          "count": 57,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Medical",
+          "count": 34,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Medical Establishment",
+          "count": 19,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_colonial_secretary",
+      "canonical_name": "Colonial Secretary's Office",
+      "career_track": "Administrative",
+      "members": [
+        {
+          "raw": "Colonial Secretary's Office",
+          "count": 45,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Colonial Secretary's Department",
+          "count": 44,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Chief Secretary's Department",
+          "count": 6,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Secretariat",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Colonial Secretary\u2019s Department",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Chief Secretary's Office",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Chief Secretary\u2019s Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "COLONIAL SECRETARY'S OFFICE",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Colonial Secretary\u2019s Office",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_treasury",
+      "canonical_name": "Treasury",
+      "career_track": "Financial",
+      "members": [
+        {
+          "raw": "Treasury",
+          "count": 45,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Treasury Department",
+          "count": 18,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Treasurer's Department",
+          "count": 15,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "The Treasury",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Treasurer's Office",
+          "count": 4,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "TREASURY",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Treasurer\u2019s Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Public Treasury",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_customs",
+      "canonical_name": "Customs Department",
+      "career_track": "Financial",
+      "members": [
+        {
+          "raw": "Customs Department",
+          "count": 49,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Customs",
+          "count": 37,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "CUSTOMS",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Collector of Customs",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_public_works",
+      "canonical_name": "Public Works Department",
+      "career_track": "Engineering",
+      "members": [
+        {
+          "raw": "Public Works Department",
+          "count": 41,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Public Works",
+          "count": 24,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Department of Public Works",
+          "count": 13,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Works Department",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_education",
+      "canonical_name": "Education Department",
+      "career_track": "Education",
+      "members": [
+        {
+          "raw": "Educational Department",
+          "count": 28,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Education",
+          "count": 19,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Education Department",
+          "count": 16,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Educational",
+          "count": 12,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "EDUCATION",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_prisons",
+      "canonical_name": "Prisons Department",
+      "career_track": "Police",
+      "members": [
+        {
+          "raw": "Prisons",
+          "count": 17,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Gaol Department",
+          "count": 12,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Gaols",
+          "count": 11,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Prison Department",
+          "count": 10,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Gaol",
+          "count": 6,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Gaol Establishment",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Prisons Department",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Prison",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "PRISONS",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_consular",
+      "canonical_name": "Foreign Consuls",
+      "career_track": null,
+      "members": [
+        {
+          "raw": "Foreign Consuls",
+          "count": 35,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Consuls",
+          "count": 15,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Consular Agent",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Consul",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_printing",
+      "canonical_name": "Government Printing Office",
+      "career_track": "Administrative",
+      "members": [
+        {
+          "raw": "Printing Department",
+          "count": 25,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Printing Office",
+          "count": 9,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Government Printer",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Printing",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Government Printing Office",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Government Printing Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "PRINTING",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_registrar",
+      "canonical_name": "Registrar's Office",
+      "career_track": "Legal",
+      "members": [
+        {
+          "raw": "Registrar-General's Department",
+          "count": 33,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Registrar General's Department",
+          "count": 4,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Registration Department",
+          "count": 4,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Registrar-General",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Registrar General",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Registrar-General\u2019s Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Registrar's Office",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_harbour",
+      "canonical_name": "Harbour Department",
+      "career_track": "Engineering",
+      "members": [
+        {
+          "raw": "Harbour Department",
+          "count": 11,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Harbour Master's Department",
+          "count": 8,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Port Department",
+          "count": 8,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Marine Department",
+          "count": 8,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Harbour Master",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Port Office",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Harbour Master\u2019s Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Harbour Master's Office",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Harbour",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Marine",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_survey",
+      "canonical_name": "Survey Department",
+      "career_track": "Survey",
+      "members": [
+        {
+          "raw": "Survey Department",
+          "count": 22,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Surveyor-General's Department",
+          "count": 10,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Surveyor-General's Office",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Lands and Survey Department",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Surveyor-General\u2019s Department",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Surveyor General's Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Land and Survey Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_immigration",
+      "canonical_name": "Immigration Department",
+      "career_track": "Administrative",
+      "members": [
+        {
+          "raw": "Immigration Department",
+          "count": 28,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Immigration",
+          "count": 7,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "IMMIGRATION OFFICE",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Immigration Office",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_legislative_council",
+      "canonical_name": "Legislative Council",
+      "career_track": "Administrative",
+      "members": [
+        {
+          "raw": "Legislative Council",
+          "count": 32,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Legislative Assembly",
+          "count": 6,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_railways",
+      "canonical_name": "Railway Department",
+      "career_track": "Engineering",
+      "members": [
+        {
+          "raw": "Railway Department",
+          "count": 28,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Railways",
+          "count": 4,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Railways Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Railway",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_attorney_general",
+      "canonical_name": "Attorney-General's Office",
+      "career_track": "Legal",
+      "members": [
+        {
+          "raw": "Attorney-General's Department",
+          "count": 17,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Attorney-General's Office",
+          "count": 7,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Legal Department",
+          "count": 4,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Law Officers",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_executive_council",
+      "canonical_name": "Executive Council",
+      "career_track": "Administrative",
+      "members": [
+        {
+          "raw": "Executive Council",
+          "count": 27,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_governor",
+      "canonical_name": "Governor's Office",
+      "career_track": "Administrative",
+      "members": [
+        {
+          "raw": "Governors",
+          "count": 12,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Governor's Office",
+          "count": 8,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Governor's Establishment",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Governor",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Lieutenant-Governors",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_crown_lands",
+      "canonical_name": "Crown Lands Department",
+      "career_track": "Survey",
+      "members": [
+        {
+          "raw": "Crown Lands Department",
+          "count": 14,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Crown Lands Office",
+          "count": 10,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Crown Lands",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_supreme_court",
+      "canonical_name": "Supreme Court",
+      "career_track": "Legal",
+      "members": [
+        {
+          "raw": "Supreme Court",
+          "count": 23,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Court of Appeal",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_sanitary",
+      "canonical_name": "Sanitary Department",
+      "career_track": "Medical",
+      "members": [
+        {
+          "raw": "Sanitary Department",
+          "count": 14,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Board of Health",
+          "count": 10,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_botanic_gardens",
+      "canonical_name": "Botanic Gardens",
+      "career_track": "Agricultural",
+      "members": [
+        {
+          "raw": "Botanic Gardens",
+          "count": 7,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Botanical Garden",
+          "count": 7,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Botanic Garden",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Botanical Gardens",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_justice",
+      "canonical_name": "Department of Justice",
+      "career_track": "Legal",
+      "members": [
+        {
+          "raw": "Judicial and Legal Departments",
+          "count": 10,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Department of Justice",
+          "count": 8,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "DEPARTMENT OF JUSTICE",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_mines",
+      "canonical_name": "Mines Department",
+      "career_track": "Engineering",
+      "members": [
+        {
+          "raw": "Mining Department",
+          "count": 7,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Geological Survey",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Mining",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Mines Department",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "MINES",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Mines",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_district_administration",
+      "canonical_name": "District Administration",
+      "career_track": "Administrative",
+      "members": [
+        {
+          "raw": "District Commissioners",
+          "count": 7,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "District Magistracy",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Provincial Administration",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Resident Commissioner",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_revenue",
+      "canonical_name": "Revenue Department",
+      "career_track": "Financial",
+      "members": [
+        {
+          "raw": "Revenue Department",
+          "count": 18,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_telegraph",
+      "canonical_name": "Telegraph Department",
+      "career_track": "Postal",
+      "members": [
+        {
+          "raw": "Telegraph Department",
+          "count": 7,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Telegraphs",
+          "count": 6,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Telegraph",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Electric Telegraph",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_medical_officers",
+      "canonical_name": "Government Medical Officers",
+      "career_track": "Medical",
+      "members": [
+        {
+          "raw": "Government Medical Officers",
+          "count": 9,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Civil Medical Department",
+          "count": 6,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_district_courts",
+      "canonical_name": "District and Minor Courts",
+      "career_track": "Legal",
+      "members": [
+        {
+          "raw": "District and Minor Courts",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "District Courts",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Magistrates and Local Courts",
+          "count": 4,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_agriculture",
+      "canonical_name": "Agriculture Department",
+      "career_track": "Agricultural",
+      "members": [
+        {
+          "raw": "Department of Agriculture",
+          "count": 6,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Agricultural",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Agricultural Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "AGRICULTURE",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_convict",
+      "canonical_name": "Convict Department",
+      "career_track": "Police",
+      "members": [
+        {
+          "raw": "Convict Department",
+          "count": 7,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Convict Establishment",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_government_agencies",
+      "canonical_name": "Government Agencies",
+      "career_track": "Administrative",
+      "members": [
+        {
+          "raw": "Government Agencies",
+          "count": 8,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Government Agents",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_veterinary",
+      "canonical_name": "Veterinary Department",
+      "career_track": "Agricultural",
+      "members": [
+        {
+          "raw": "Veterinary Department",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "VETERINARY",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Veterinary",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_works_department",
+      "canonical_name": "Works Department",
+      "career_track": "Engineering",
+      "members": [
+        {
+          "raw": "Department of Works",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Works",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_military",
+      "canonical_name": "Military Establishment",
+      "career_track": "Military",
+      "members": [
+        {
+          "raw": "Defence Department",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Military Establishment",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Defence",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Military Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_house_assembly",
+      "canonical_name": "House of Assembly",
+      "career_track": "Administrative",
+      "members": [
+        {
+          "raw": "House of Assembly",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_public_health",
+      "canonical_name": "Public Health Department",
+      "career_track": "Medical",
+      "members": [
+        {
+          "raw": "Public Health Department",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_fire_brigade",
+      "canonical_name": "Fire Brigade",
+      "career_track": "Police",
+      "members": [
+        {
+          "raw": "Fire Brigade",
+          "count": 4,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_forest",
+      "canonical_name": "Forest Department",
+      "career_track": "Agricultural",
+      "members": [
+        {
+          "raw": "Forest Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "FORESTRY",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Forestry",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_labour",
+      "canonical_name": "Labour Department",
+      "career_track": "Administrative",
+      "members": [
+        {
+          "raw": "LABOUR",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "Labour",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_water_supply",
+      "canonical_name": "Water Supply Department",
+      "career_track": "Engineering",
+      "members": [
+        {
+          "raw": "Water Works Department",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    },
+    {
+      "id": "dept_cooperative",
+      "canonical_name": "Co-operative Department",
+      "career_track": "Agricultural",
+      "members": [
+        {
+          "raw": "Co-operative Societies",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ]
+    }
+  ],
+  "unclustered": [
+    {
+      "raw": "Surveyor's Department",
+      "count": 13
+    },
+    {
+      "raw": "Vice-Admiralty Court",
+      "count": 13
+    },
+    {
+      "raw": "Department of Public Instruction",
+      "count": 13
+    },
+    {
+      "raw": "Stamp Office",
+      "count": 13
+    },
+    {
+      "raw": "Observatory",
+      "count": 12
+    },
+    {
+      "raw": "Police Court",
+      "count": 11
+    },
+    {
+      "raw": "Marine Board",
+      "count": 10
+    },
+    {
+      "raw": "Receiver-General's Department",
+      "count": 10
+    },
+    {
+      "raw": "Savings Bank",
+      "count": 9
+    },
+    {
+      "raw": "Board of Education",
+      "count": 9
+    },
+    {
+      "raw": "Lunatic Asylum",
+      "count": 9
+    },
+    {
+      "raw": "Educational Establishment",
+      "count": 9
+    },
+    {
+      "raw": "General Branch",
+      "count": 8
+    },
+    {
+      "raw": "Colonial Store Department",
+      "count": 8
+    },
+    {
+      "raw": "Defences",
+      "count": 8
+    },
+    {
+      "raw": "Medical Officers",
+      "count": 7
+    },
+    {
+      "raw": "Harbour-Master's Department",
+      "count": 7
+    },
+    {
+      "raw": "Orphan Asylum",
+      "count": 7
+    },
+    {
+      "raw": "Militia",
+      "count": 7
+    },
+    {
+      "raw": "Lands",
+      "count": 7
+    },
+    {
+      "raw": "Administrative Branch",
+      "count": 7
+    },
+    {
+      "raw": "Royal Botanic Garden",
+      "count": 7
+    },
+    {
+      "raw": "Civil Police",
+      "count": 7
+    },
+    {
+      "raw": "Sheriff's Department",
+      "count": 7
+    },
+    {
+      "raw": "Port and Marine Department",
+      "count": 6
+    },
+    {
+      "raw": "Government Secretariat",
+      "count": 6
+    },
+    {
+      "raw": "Harbours",
+      "count": 6
+    },
+    {
+      "raw": "Poor",
+      "count": 6
+    },
+    {
+      "raw": "Registration of Births and Deaths",
+      "count": 6
+    },
+    {
+      "raw": "General Post-Office",
+      "count": 6
+    },
+    {
+      "raw": "Southern Province",
+      "count": 6
+    },
+    {
+      "raw": "Northern Province",
+      "count": 6
+    },
+    {
+      "raw": "Colombo Museum",
+      "count": 6
+    },
+    {
+      "raw": "Government Residents",
+      "count": 6
+    },
+    {
+      "raw": "Postmaster-General's Department",
+      "count": 6
+    },
+    {
+      "raw": "Public Hospital",
+      "count": 6
+    },
+    {
+      "raw": "Jamaica Constabulary",
+      "count": 6
+    },
+    {
+      "raw": "Receipt Branch",
+      "count": 6
+    },
+    {
+      "raw": "Pay and Account Branch",
+      "count": 6
+    },
+    {
+      "raw": "Distillery Branch",
+      "count": 6
+    },
+    {
+      "raw": "Quarantine Establishments",
+      "count": 6
+    },
+    {
+      "raw": "General Board of Health Office",
+      "count": 6
+    },
+    {
+      "raw": "Museum",
+      "count": 6
+    },
+    {
+      "raw": "Royal Alfred Observatory",
+      "count": 6
+    },
+    {
+      "raw": "Poor Law Commission",
+      "count": 6
+    },
+    {
+      "raw": "Wardens",
+      "count": 6
+    },
+    {
+      "raw": "Arms and Ammunition",
+      "count": 6
+    },
+    {
+      "raw": "Geological Survey Department",
+      "count": 6
+    },
+    {
+      "raw": "Crown Law Offices",
+      "count": 6
+    },
+    {
+      "raw": "Public Works and Survey Departments",
+      "count": 6
+    },
+    {
+      "raw": "Statistical Department",
+      "count": 6
+    },
+    {
+      "raw": "Penal Department",
+      "count": 6
+    },
+    {
+      "raw": "Savings' Bank",
+      "count": 5
+    },
+    {
+      "raw": "Convict Settlement, Massaruni",
+      "count": 5
+    },
+    {
+      "raw": "Villages",
+      "count": 5
+    },
+    {
+      "raw": "Church of Scotland",
+      "count": 5
+    },
+    {
+      "raw": "Clerks",
+      "count": 5
+    },
+    {
+      "raw": "Deeds Branch",
+      "count": 5
+    },
+    {
+      "raw": "Eastern Province",
+      "count": 5
+    },
+    {
+      "raw": "District Surveyors",
+      "count": 5
+    },
+    {
+      "raw": "Revenue Officers",
+      "count": 5
+    },
+    {
+      "raw": "Miscellaneous",
+      "count": 5
+    },
+    {
+      "raw": "Collector and Treasurer's Office",
+      "count": 5
+    },
+    {
+      "raw": "Land Titles Department",
+      "count": 5
+    },
+    {
+      "raw": "Harbour and Light Department",
+      "count": 5
+    },
+    {
+      "raw": "Rottnest Prison Department",
+      "count": 5
+    },
+    {
+      "raw": "Poor Relief Department",
+      "count": 5
+    },
+    {
+      "raw": "Ministers of Religion",
+      "count": 5
+    },
+    {
+      "raw": "Stamp Department",
+      "count": 5
+    },
+    {
+      "raw": "Privy Council",
+      "count": 5
+    },
+    {
+      "raw": "Government Savings' Bank",
+      "count": 5
+    },
+    {
+      "raw": "Lock Hospital",
+      "count": 5
+    },
+    {
+      "raw": "Clerks of Petty Sessions",
+      "count": 5
+    },
+    {
+      "raw": "Registration and Mortgage Department",
+      "count": 5
+    },
+    {
+      "raw": "Civil Commissariat Department",
+      "count": 5
+    },
+    {
+      "raw": "Procureur-General's Department",
+      "count": 5
+    },
+    {
+      "raw": "Stipendiary Magistracy",
+      "count": 5
+    },
+    {
+      "raw": "Board of Civil Commissioners",
+      "count": 5
+    },
+    {
+      "raw": "Volunteer Department",
+      "count": 5
+    },
+    {
+      "raw": "Royal Branch Mint",
+      "count": 5
+    },
+    {
+      "raw": "Department of Lands",
+      "count": 5
+    },
+    {
+      "raw": "Extensions",
+      "count": 5
+    },
+    {
+      "raw": "Colonial Architect's Department",
+      "count": 5
+    },
+    {
+      "raw": "Department of Mines",
+      "count": 5
+    },
+    {
+      "raw": "Roads and Bridges",
+      "count": 5
+    },
+    {
+      "raw": "Council of Education",
+      "count": 5
+    },
+    {
+      "raw": "NATIVE OFFICE",
+      "count": 5
+    },
+    {
+      "raw": "Patent Office",
+      "count": 5
+    },
+    {
+      "raw": "Colonial Treasurer's Department",
+      "count": 5
+    },
+    {
+      "raw": "Department of Public Lands",
+      "count": 5
+    },
+    {
+      "raw": "Department of the Postmaster-General",
+      "count": 5
+    },
+    {
+      "raw": "Consuls for Foreign Countries",
+      "count": 5
+    },
+    {
+      "raw": "Coroner's Department",
+      "count": 5
+    },
+    {
+      "raw": "Central Board of Health",
+      "count": 5
+    },
+    {
+      "raw": "Hospitals for the Insane",
+      "count": 5
+    },
+    {
+      "raw": "Miscellaneous Offices",
+      "count": 5
+    },
+    {
+      "raw": "Lands and Works Department",
+      "count": 5
+    },
+    {
+      "raw": "Clerks of the Peace",
+      "count": 5
+    },
+    {
+      "raw": "Stipendiary Justices",
+      "count": 5
+    },
+    {
+      "raw": "National Museum",
+      "count": 5
+    },
+    {
+      "raw": "Government Botanist",
+      "count": 5
+    },
+    {
+      "raw": "Commissioners of Audit",
+      "count": 5
+    },
+    {
+      "raw": "Central Board for the Protection of Aborigines",
+      "count": 5
+    },
+    {
+      "raw": "Inspector of Stock",
+      "count": 5
+    },
+    {
+      "raw": "Their Honours the Judges",
+      "count": 5
+    },
+    {
+      "raw": "Crown Solicitor",
+      "count": 5
+    },
+    {
+      "raw": "Prothonotary",
+      "count": 5
+    },
+    {
+      "raw": "Master in Equity",
+      "count": 5
+    },
+    {
+      "raw": "Court of Insolvency",
+      "count": 5
+    },
+    {
+      "raw": "The Sheriff",
+      "count": 5
+    },
+    {
+      "raw": "Naval Forces",
+      "count": 5
+    },
+    {
+      "raw": "Professional Staff",
+      "count": 5
+    },
+    {
+      "raw": "Commissioner of Trade and Customs Division",
+      "count": 5
+    },
+    {
+      "raw": "Western District",
+      "count": 4
+    },
+    {
+      "raw": "Public Library",
+      "count": 4
+    },
+    {
+      "raw": "Wesleyan Missionary Society",
+      "count": 4
+    },
+    {
+      "raw": "Hospital, Berbice",
+      "count": 4
+    },
+    {
+      "raw": "Stipendiary Magistrates",
+      "count": 4
+    },
+    {
+      "raw": "Markets",
+      "count": 4
+    },
+    {
+      "raw": "Colonial Office",
+      "count": 4
+    },
+    {
+      "raw": "Civil Commissioner's Department",
+      "count": 4
+    },
+    {
+      "raw": "Postal and Telegraph Department",
+      "count": 4
+    },
+    {
+      "raw": "Water Police",
+      "count": 4
+    },
+    {
+      "raw": "Sub-Collectors",
+      "count": 4
+    },
+    {
+      "raw": "Department of the Director of Roads and Surveyor-General",
+      "count": 4
+    },
+    {
+      "raw": "Charitable Institutions Department",
+      "count": 4
+    },
+    {
+      "raw": "Public Registry",
+      "count": 4
+    },
+    {
+      "raw": "Corradino Prison",
+      "count": 4
+    },
+    {
+      "raw": "Civil Status Office",
+      "count": 4
+    },
+    {
+      "raw": "Telegraph Branch",
+      "count": 4
+    },
+    {
+      "raw": "Colonial Defence",
+      "count": 4
+    },
+    {
+      "raw": "Legislative Council Office",
+      "count": 4
+    },
+    {
+      "raw": "Registrar of Deeds",
+      "count": 4
+    },
+    {
+      "raw": "Crown Lands Occupation Department",
+      "count": 4
+    },
+    {
+      "raw": "Money Order Department",
+      "count": 4
+    },
+    {
+      "raw": "Statistical Branch",
+      "count": 4
+    },
+    {
+      "raw": "Industrial Schools",
+      "count": 4
+    },
+    {
+      "raw": "DEFENCE OFFICE",
+      "count": 4
+    },
+    {
+      "raw": "Crown Law Office",
+      "count": 4
+    },
+    {
+      "raw": "Rural Districts",
+      "count": 4
+    },
+    {
+      "raw": "Education Establishment",
+      "count": 4
+    },
+    {
+      "raw": "Secretariat and Treasury",
+      "count": 4
+    },
+    {
+      "raw": "General Hospital",
+      "count": 4
+    },
+    {
+      "raw": "Out-door Officers",
+      "count": 4
+    },
+    {
+      "raw": "Registrar-General of Births, Deaths, and Marriages",
+      "count": 4
+    },
+    {
+      "raw": "Destitute Poor Asylum",
+      "count": 4
+    },
+    {
+      "raw": "Law Officers' Department",
+      "count": 4
+    },
+    {
+      "raw": "Cemetery Department",
+      "count": 4
+    },
+    {
+      "raw": "Aborigines' Department",
+      "count": 4
+    },
+    {
+      "raw": "Sheep Inspector's Department",
+      "count": 4
+    },
+    {
+      "raw": "Land Office",
+      "count": 4
+    },
+    {
+      "raw": "College of the Immaculate Conception",
+      "count": 4
+    },
+    {
+      "raw": "Colonial Hospital, Port of Spain",
+      "count": 4
+    },
+    {
+      "raw": "Leper Asylum, Cocorite",
+      "count": 4
+    },
+    {
+      "raw": "Lunatic Asylum, Belmont",
+      "count": 4
+    },
+    {
+      "raw": "Master in Lunacy",
+      "count": 4
+    },
+    {
+      "raw": "Commissioner of Crown Lands and Survey Division",
+      "count": 4
+    },
+    {
+      "raw": "Port and Harbours' Commissioners",
+      "count": 4
+    },
+    {
+      "raw": "Postmaster General's Division",
+      "count": 4
+    },
+    {
+      "raw": "Inspection Branch",
+      "count": 4
+    },
+    {
+      "raw": "Melbourne Water Supply Branch",
+      "count": 4
+    },
+    {
+      "raw": "Colonial Steamer",
+      "count": 3
+    },
+    {
+      "raw": "Legal Departments",
+      "count": 3
+    },
+    {
+      "raw": "Sherbro District",
+      "count": 3
+    },
+    {
+      "raw": "Harbour-Master's Office",
+      "count": 3
+    },
+    {
+      "raw": "Lunatic Asylum and Lazaretto",
+      "count": 3
+    },
+    {
+      "raw": "Inland Revenue Department",
+      "count": 3
+    },
+    {
+      "raw": "Colonial Lunatic Asylum, Berbice",
+      "count": 3
+    },
+    {
+      "raw": "Account Branch",
+      "count": 3
+    },
+    {
+      "raw": "Primary Schools",
+      "count": 3
+    },
+    {
+      "raw": "Establishment",
+      "count": 3
+    },
+    {
+      "raw": "Geological Department",
+      "count": 3
+    },
+    {
+      "raw": "Stamp Branch",
+      "count": 3
+    },
+    {
+      "raw": "East London",
+      "count": 3
+    },
+    {
+      "raw": "Eastern Districts Court",
+      "count": 3
+    },
+    {
+      "raw": "Orphan Chamber Branch",
+      "count": 3
+    },
+    {
+      "raw": "Solicitor-General's Office",
+      "count": 3
+    },
+    {
+      "raw": "High Sheriff's Office",
+      "count": 3
+    },
+    {
+      "raw": "Ecclesiastary Department",
+      "count": 3
+    },
+    {
+      "raw": "Magistrates",
+      "count": 3
+    },
+    {
+      "raw": "Armed Native Constabulary",
+      "count": 3
+    },
+    {
+      "raw": "Managers of Districts",
+      "count": 3
+    },
+    {
+      "raw": "Government Printing Establishment (attached to Administrator's Office)",
+      "count": 3
+    },
+    {
+      "raw": "Works and Railways Department",
+      "count": 3
+    },
+    {
+      "raw": "Sheep Department",
+      "count": 3
+    },
+    {
+      "raw": "Customs and Treasury",
+      "count": 3
+    },
+    {
+      "raw": "High Court",
+      "count": 3
+    },
+    {
+      "raw": "Additional Resident Magistrate's Department",
+      "count": 3
+    },
+    {
+      "raw": "Medical Department, Kimberley",
+      "count": 3
+    },
+    {
+      "raw": "Medical Department, Du Toits Pan",
+      "count": 3
+    },
+    {
+      "raw": "Registry of Natives, Kimberley",
+      "count": 3
+    },
+    {
+      "raw": "Registry of Natives, Du Toits Pan",
+      "count": 3
+    },
+    {
+      "raw": "Non-Official Members",
+      "count": 3
+    },
+    {
+      "raw": "Official Members",
+      "count": 3
+    },
+    {
+      "raw": "Government Press",
+      "count": 3
+    },
+    {
+      "raw": "Island Post Office",
+      "count": 3
+    },
+    {
+      "raw": "Custom House",
+      "count": 3
+    },
+    {
+      "raw": "Public Libraries",
+      "count": 3
+    },
+    {
+      "raw": "Hospitals, &c.",
+      "count": 3
+    },
+    {
+      "raw": "Police and Stipendiary Magistracy",
+      "count": 3
+    },
+    {
+      "raw": "Native Department",
+      "count": 3
+    },
+    {
+      "raw": "Sheep Inspectors",
+      "count": 3
+    },
+    {
+      "raw": "Native Office",
+      "count": 3
+    },
+    {
+      "raw": "Excise",
+      "count": 3
+    },
+    {
+      "raw": "Civil Service Board",
+      "count": 3
+    },
+    {
+      "raw": "Survey of Lands",
+      "count": 3
+    },
+    {
+      "raw": "Ordnance and Barrack Department",
+      "count": 3
+    },
+    {
+      "raw": "Charitable Institutions",
+      "count": 3
+    },
+    {
+      "raw": "ANNUITIES OFFICE",
+      "count": 3
+    },
+    {
+      "raw": "Bishops",
+      "count": 3
+    },
+    {
+      "raw": "STAMP OFFICE",
+      "count": 3
+    },
+    {
+      "raw": "Church of England",
+      "count": 3
+    },
+    {
+      "raw": "Gold Fields Department",
+      "count": 3
+    },
+    {
+      "raw": "Education Office",
+      "count": 3
+    },
+    {
+      "raw": "London Agency",
+      "count": 3
+    },
+    {
+      "raw": "British Sherbro",
+      "count": 3
+    },
+    {
+      "raw": "Aborigines Branch",
+      "count": 3
+    },
+    {
+      "raw": "Harbour Master and Boat Establishment",
+      "count": 3
+    },
+    {
+      "raw": "Printing Branch",
+      "count": 3
+    },
+    {
+      "raw": "Hospital Branch",
+      "count": 3
+    },
+    {
+      "raw": "Insolvency Court",
+      "count": 3
+    },
+    {
+      "raw": "Harbour Branch",
+      "count": 3
+    },
+    {
+      "raw": "Waterworks Department",
+      "count": 3
+    },
+    {
+      "raw": "Vaccination Department",
+      "count": 3
+    },
+    {
+      "raw": "Engineer-in-Chief's Department",
+      "count": 3
+    },
+    {
+      "raw": "Friendly Societies",
+      "count": 3
+    },
+    {
+      "raw": "Judicial and Magisterial",
+      "count": 3
+    },
+    {
+      "raw": "Roman Catholic Clergy",
+      "count": 3
+    },
+    {
+      "raw": "Public Works and Survey Department",
+      "count": 3
+    },
+    {
+      "raw": "Solicitor-General",
+      "count": 3
+    },
+    {
+      "raw": "Malacca",
+      "count": 3
+    },
+    {
+      "raw": "Chinese Branch",
+      "count": 3
+    },
+    {
+      "raw": "Colonial Hospital, San Fernando",
+      "count": 3
+    },
+    {
+      "raw": "House of Refuge",
+      "count": 3
+    },
+    {
+      "raw": "Chief Ministers of Religion",
+      "count": 3
+    },
+    {
+      "raw": "Melbourne Public Library",
+      "count": 3
+    },
+    {
+      "raw": "Local Artillery",
+      "count": 3
+    },
+    {
+      "raw": "Engineer-in-Chief",
+      "count": 3
+    },
+    {
+      "raw": "Land Tax Commission",
+      "count": 3
+    },
+    {
+      "raw": "Clerical Staff",
+      "count": 3
+    },
+    {
+      "raw": "Department for Native Affairs",
+      "count": 2
+    },
+    {
+      "raw": "Audit Department (under Comptroller and Auditor-General)",
+      "count": 2
+    },
+    {
+      "raw": "Eastern District",
+      "count": 2
+    },
+    {
+      "raw": "Correspondence Branch",
+      "count": 2
+    },
+    {
+      "raw": "Record Branch",
+      "count": 2
+    },
+    {
+      "raw": "Military Department (Windward and Leeward Islands)",
+      "count": 2
+    },
+    {
+      "raw": "Colonial Hospital",
+      "count": 2
+    },
+    {
+      "raw": "Colonial Lunatic Asylum",
+      "count": 2
+    },
+    {
+      "raw": "Medical Officers of Immigration Districts",
+      "count": 2
+    },
+    {
+      "raw": "Colonial Hospital, Demerara and Essequebo",
+      "count": 2
+    },
+    {
+      "raw": "Queen's College",
+      "count": 2
+    },
+    {
+      "raw": "Training Institution",
+      "count": 2
+    },
+    {
+      "raw": "Commissary Department",
+      "count": 2
+    },
+    {
+      "raw": "Savings Bank Branch",
+      "count": 2
+    },
+    {
+      "raw": "Robben Island Asylum for Lepers, Lunatics, &c.",
+      "count": 2
+    },
+    {
+      "raw": "Statistical Dept.",
+      "count": 2
+    },
+    {
+      "raw": "Public Health and Local Government Dept.",
+      "count": 2
+    },
+    {
+      "raw": "Accounting Branch",
+      "count": 2
+    },
+    {
+      "raw": "South African Museum",
+      "count": 2
+    },
+    {
+      "raw": "Archives",
+      "count": 2
+    },
+    {
+      "raw": "Government Actuary and Registrar of Friendly Societies",
+      "count": 2
+    },
+    {
+      "raw": "Correspondence and Record Branch",
+      "count": 2
+    },
+    {
+      "raw": "Receiver-General's Branch",
+      "count": 2
+    },
+    {
+      "raw": "Paymaster-General's Branch",
+      "count": 2
+    },
+    {
+      "raw": "Accounting and Pension Fund's Branch",
+      "count": 2
+    },
+    {
+      "raw": "Inspector of Chests and Accounts' Branch",
+      "count": 2
+    },
+    {
+      "raw": "Agent-General's Department",
+      "count": 2
+    },
+    {
+      "raw": "Excise, Licenses, and Stamps Branch",
+      "count": 2
+    },
+    {
+      "raw": "General Management Department",
+      "count": 2
+    },
+    {
+      "raw": "Ports and Harbours Department",
+      "count": 2
+    },
+    {
+      "raw": "General and Revenue Branch",
+      "count": 2
+    },
+    {
+      "raw": "Expenditure Branch",
+      "count": 2
+    },
+    {
+      "raw": "Circulation Branch",
+      "count": 2
+    },
+    {
+      "raw": "Central Telegraph Office",
+      "count": 2
+    },
+    {
+      "raw": "Provincial",
+      "count": 2
+    },
+    {
+      "raw": "Judicial Branch",
+      "count": 2
+    },
+    {
+      "raw": "Crown Prosecutor's Office",
+      "count": 2
+    },
+    {
+      "raw": "Detective Department",
+      "count": 2
+    },
+    {
+      "raw": "Master's Office, Supreme Court",
+      "count": 2
+    },
+    {
+      "raw": "Insolvent Branch",
+      "count": 2
+    },
+    {
+      "raw": "High Court, Griqualand",
+      "count": 2
+    },
+    {
+      "raw": "Registrar of Deeds Office",
+      "count": 2
+    },
+    {
+      "raw": "Special Court (Diamond Trade Act)",
+      "count": 2
+    },
+    {
+      "raw": "Convict and Prisons Branch",
+      "count": 2
+    },
+    {
+      "raw": "Tokai Convict Station",
+      "count": 2
+    },
+    {
+      "raw": "Convict Stations, Breakwater",
+      "count": 2
+    },
+    {
+      "raw": "Sharks' River",
+      "count": 2
+    },
+    {
+      "raw": "Kluitje's Kraal",
+      "count": 2
+    },
+    {
+      "raw": "Fort Cunynghame",
+      "count": 2
+    },
+    {
+      "raw": "Commissioner's Office",
+      "count": 2
+    },
+    {
+      "raw": "Public Works Branch",
+      "count": 2
+    },
+    {
+      "raw": "Sleeper Factory",
+      "count": 2
+    },
+    {
+      "raw": "Loan Office",
+      "count": 2
+    },
+    {
+      "raw": "Southern Circuit",
+      "count": 2
+    },
+    {
+      "raw": "Northern Circuit",
+      "count": 2
+    },
+    {
+      "raw": "List of Colonial Chaplains",
+      "count": 2
+    },
+    {
+      "raw": "Registrar General's Department of Land",
+      "count": 2
+    },
+    {
+      "raw": "Irrigation Officers",
+      "count": 2
+    },
+    {
+      "raw": "Fiscal",
+      "count": 2
+    },
+    {
+      "raw": "Central Irrigation Board",
+      "count": 2
+    },
+    {
+      "raw": "Military and Naval Officers",
+      "count": 2
+    },
+    {
+      "raw": "Administration",
+      "count": 2
+    },
+    {
+      "raw": "Receiver General's Department",
+      "count": 2
+    },
+    {
+      "raw": "Lands and Immigration Department",
+      "count": 2
+    },
+    {
+      "raw": "Department of Lands, Surveys, and Works",
+      "count": 2
+    },
+    {
+      "raw": "Provincial Department",
+      "count": 2
+    },
+    {
+      "raw": "Chief Military and Naval Officers",
+      "count": 2
+    },
+    {
+      "raw": "Colonial Secretariat",
+      "count": 2
+    },
+    {
+      "raw": "Government Vessels",
+      "count": 2
+    },
+    {
+      "raw": "Government Office",
+      "count": 2
+    },
+    {
+      "raw": "Audit Branch",
+      "count": 2
+    },
+    {
+      "raw": "Foreman of Public Works",
+      "count": 2
+    },
+    {
+      "raw": "Division and District of Kimberley",
+      "count": 2
+    },
+    {
+      "raw": "Civil Commissioner, District of Hay",
+      "count": 2
+    },
+    {
+      "raw": "District of Herbert",
+      "count": 2
+    },
+    {
+      "raw": "Botanical and Afforestation Department",
+      "count": 2
+    },
+    {
+      "raw": "Landing Waiters",
+      "count": 2
+    },
+    {
+      "raw": "Botanical Establishment",
+      "count": 2
+    },
+    {
+      "raw": "Health Officer",
+      "count": 2
+    },
+    {
+      "raw": "Botanical Station",
+      "count": 2
+    },
+    {
+      "raw": "Land Revenue and Public Works Department",
+      "count": 2
+    },
+    {
+      "raw": "University",
+      "count": 2
+    },
+    {
+      "raw": "Monte di Piet\u00e0",
+      "count": 2
+    },
+    {
+      "raw": "Crown Lawyers",
+      "count": 2
+    },
+    {
+      "raw": "Audit and Contract Office",
+      "count": 2
+    },
+    {
+      "raw": "Professors in the Malta University",
+      "count": 2
+    },
+    {
+      "raw": "Receiver General's Office",
+      "count": 2
+    },
+    {
+      "raw": "District and Stipendiary Magistracies",
+      "count": 2
+    },
+    {
+      "raw": "Weights and Measures",
+      "count": 2
+    },
+    {
+      "raw": "Police Magistracy",
+      "count": 2
+    },
+    {
+      "raw": "Outdoor Branch",
+      "count": 2
+    },
+    {
+      "raw": "Excise Department",
+      "count": 2
+    },
+    {
+      "raw": "Port Office Department",
+      "count": 2
+    },
+    {
+      "raw": "Magisterial Department and Staff",
+      "count": 2
+    },
+    {
+      "raw": "Mounted Police",
+      "count": 2
+    },
+    {
+      "raw": "Treasury Office",
+      "count": 2
+    },
+    {
+      "raw": "Natal Government Railways",
+      "count": 2
+    },
+    {
+      "raw": "Natal Government Observatory",
+      "count": 2
+    },
+    {
+      "raw": "Militia Establishment",
+      "count": 2
+    },
+    {
+      "raw": "Colonial Store, Military",
+      "count": 2
+    },
+    {
+      "raw": "Land Titles Commissioners",
+      "count": 2
+    },
+    {
+      "raw": "Locomotive Branch",
+      "count": 2
+    },
+    {
+      "raw": "Traffic Branch",
+      "count": 2
+    },
+    {
+      "raw": "Agent-General for New Zealand in England",
+      "count": 2
+    },
+    {
+      "raw": "WORKING RAILWAYS BRANCH",
+      "count": 2
+    },
+    {
+      "raw": "Defence Office",
+      "count": 2
+    },
+    {
+      "raw": "Annuities Office",
+      "count": 2
+    },
+    {
+      "raw": "Post Office and Telegraph Department",
+      "count": 2
+    },
+    {
+      "raw": "Land and Income Tax Department",
+      "count": 2
+    },
+    {
+      "raw": "Isle de Los",
+      "count": 2
+    },
+    {
+      "raw": "Manager of Districts",
+      "count": 2
+    },
+    {
+      "raw": "Clerks, Secretarial Branch",
+      "count": 2
+    },
+    {
+      "raw": "Clerks, Treasury Branch",
+      "count": 2
+    },
+    {
+      "raw": "1st Eastern",
+      "count": 2
+    },
+    {
+      "raw": "2nd Eastern",
+      "count": 2
+    },
+    {
+      "raw": "Mountain District",
+      "count": 2
+    },
+    {
+      "raw": "Secretarial Branch",
+      "count": 2
+    },
+    {
+      "raw": "Treasury Branch",
+      "count": 2
+    },
+    {
+      "raw": "Sierra Leone Battalion, West African Frontier Force",
+      "count": 2
+    },
+    {
+      "raw": "ACCOUNTANT-GENERAL",
+      "count": 2
+    },
+    {
+      "raw": "Income Tax",
+      "count": 2
+    },
+    {
+      "raw": "Health",
+      "count": 2
+    },
+    {
+      "raw": "Engineering",
+      "count": 2
+    },
+    {
+      "raw": "Electricity",
+      "count": 2
+    },
+    {
+      "raw": "Public Relations",
+      "count": 2
+    },
+    {
+      "raw": "Accounts",
+      "count": 2
+    },
+    {
+      "raw": "Stores",
+      "count": 2
+    },
+    {
+      "raw": "Locomotive",
+      "count": 2
+    },
+    {
+      "raw": "Traffic",
+      "count": 2
+    },
+    {
+      "raw": "Road Transport",
+      "count": 2
+    },
+    {
+      "raw": "Agent-General's Department (London)",
+      "count": 2
+    },
+    {
+      "raw": "Central Road Board",
+      "count": 2
+    },
+    {
+      "raw": "Labour Prisons",
+      "count": 2
+    },
+    {
+      "raw": "Post Office and Telegraph Departments",
+      "count": 2
+    },
+    {
+      "raw": "Volunteer and Government Store",
+      "count": 2
+    },
+    {
+      "raw": "Inspector and Valuator's Department",
+      "count": 2
+    },
+    {
+      "raw": "Gold-fields",
+      "count": 2
+    },
+    {
+      "raw": "Architect's Department",
+      "count": 2
+    },
+    {
+      "raw": "Volunteer Military Force",
+      "count": 2
+    },
+    {
+      "raw": "Supreme Court Department",
+      "count": 2
+    },
+    {
+      "raw": "Treasury, Customs, and Inland Revenue Department",
+      "count": 2
+    },
+    {
+      "raw": "Penang",
+      "count": 2
+    },
+    {
+      "raw": "Marine Depot",
+      "count": 2
+    },
+    {
+      "raw": "Marine Department and Post Office",
+      "count": 2
+    },
+    {
+      "raw": "Court of Requests and Police Court",
+      "count": 2
+    },
+    {
+      "raw": "Perak",
+      "count": 2
+    },
+    {
+      "raw": "Chief Secretary's Division",
+      "count": 2
+    },
+    {
+      "raw": "Lighthouse",
+      "count": 2
+    },
+    {
+      "raw": "Office of Titles",
+      "count": 2
+    },
+    {
+      "raw": "County Courts, Courts of Insolvency, Courts of Mines, and General Sessions",
+      "count": 2
+    },
+    {
+      "raw": "Police Magistrates and Wardens of the Goldfields of Victoria",
+      "count": 2
+    },
+    {
+      "raw": "Treasurer's Division",
+      "count": 2
+    },
+    {
+      "raw": "Coroners",
+      "count": 2
+    },
+    {
+      "raw": "Government Analytical Chemist",
+      "count": 2
+    },
+    {
+      "raw": "Local Staff",
+      "count": 2
+    },
+    {
+      "raw": "Victorian Water Supply Branch",
+      "count": 2
+    },
+    {
+      "raw": "Immigration Agent",
+      "count": 2
+    },
+    {
+      "raw": "Victorian Railways",
+      "count": 2
+    },
+    {
+      "raw": "Melbourne Harbour Trust",
+      "count": 2
+    },
+    {
+      "raw": "Fremantle Prison",
+      "count": 2
+    },
+    {
+      "raw": "Inspector of Sheep Department",
+      "count": 2
+    },
+    {
+      "raw": "Registry Department",
+      "count": 2
+    },
+    {
+      "raw": "Government Gardens",
+      "count": 2
+    },
+    {
+      "raw": "Subordinate Magistrates",
+      "count": 2
+    },
+    {
+      "raw": "Storekeeper's Department",
+      "count": 2
+    },
+    {
+      "raw": "Accountant's Branch",
+      "count": 2
+    },
+    {
+      "raw": "Registered Letter Branch",
+      "count": 2
+    },
+    {
+      "raw": "Savings Bank and Postal Note Branch",
+      "count": 2
+    },
+    {
+      "raw": "Mail Branch",
+      "count": 2
+    },
+    {
+      "raw": "Money Order Branch",
+      "count": 2
+    },
+    {
+      "raw": "Department of Commissioner of Railways and Director of Public Works",
+      "count": 2
+    },
+    {
+      "raw": "South-Western Railway",
+      "count": 2
+    },
+    {
+      "raw": "Cossack and Robeowne Tramway",
+      "count": 2
+    },
+    {
+      "raw": "Works and Buildings",
+      "count": 2
+    },
+    {
+      "raw": "Chief Clergy of the Church of England",
+      "count": 2
+    },
+    {
+      "raw": "Roman Catholic Bishop and Clergy",
+      "count": 2
+    },
+    {
+      "raw": "Lunatic Asylum (St. George's, Grenada)",
+      "count": 2
+    },
+    {
+      "raw": "Treasury and Customs",
+      "count": 2
+    },
+    {
+      "raw": "Ass. Revenue Officers",
+      "count": 2
+    },
+    {
+      "raw": "Land Tax",
+      "count": 2
+    },
+    {
+      "raw": "Telephones",
+      "count": 2
+    },
+    {
+      "raw": "Police Magistrates and Coroners",
+      "count": 2
+    },
+    {
+      "raw": "Executive Council (Local)",
+      "count": 1
+    },
+    {
+      "raw": "Legislative Council (Local)",
+      "count": 1
+    },
+    {
+      "raw": "Public Market",
+      "count": 1
+    },
+    {
+      "raw": "Poor Law Board",
+      "count": 1
+    },
+    {
+      "raw": "Officers, Military (Barbados)",
+      "count": 1
+    },
+    {
+      "raw": "Admiralty Establishment",
+      "count": 1
+    },
+    {
+      "raw": "Chief Military Officers",
+      "count": 1
+    },
+    {
+      "raw": "Deputy Assistant Adjutant Generals",
+      "count": 1
+    },
+    {
+      "raw": "Bechuanaland Protectorate",
+      "count": 1
+    },
+    {
+      "raw": "Supreme Council",
+      "count": 1
+    },
+    {
+      "raw": "Chief Officers",
+      "count": 1
+    },
+    {
+      "raw": "Residents 2nd Class",
+      "count": 1
+    },
+    {
+      "raw": "Assay and Refinery Office",
+      "count": 1
+    },
+    {
+      "raw": "Commissioner of Lands and Surveyor General",
+      "count": 1
+    },
+    {
+      "raw": "Customs' Department",
+      "count": 1
+    },
+    {
+      "raw": "Attorney-General's Department.",
+      "count": 1
+    },
+    {
+      "raw": "Police, New Westminster and Douglas.",
+      "count": 1
+    },
+    {
+      "raw": "Gaol.",
+      "count": 1
+    },
+    {
+      "raw": "Gold Commissioners and Stipendiary Magistrates.",
+      "count": 1
+    },
+    {
+      "raw": "Ecclesiastical.",
+      "count": 1
+    },
+    {
+      "raw": "Chief Local Officer",
+      "count": 1
+    },
+    {
+      "raw": "Archdeacon and Vicar-General, The Venerable H. H. Jones, M.A",
+      "count": 1
+    },
+    {
+      "raw": "Second charge, Rev. Dalgethy",
+      "count": 1
+    },
+    {
+      "raw": "Hospital",
+      "count": 1
+    },
+    {
+      "raw": "Lepre Asylum",
+      "count": 1
+    },
+    {
+      "raw": "Schools",
+      "count": 1
+    },
+    {
+      "raw": "Chief Commissary",
+      "count": 1
+    },
+    {
+      "raw": "Leper Asylum, Mahaica",
+      "count": 1
+    },
+    {
+      "raw": "Ordinary Marshals",
+      "count": 1
+    },
+    {
+      "raw": "Police Magistrate of Georgetown, and Sheriff of Co.",
+      "count": 1
+    },
+    {
+      "raw": "Special Magistrate",
+      "count": 1
+    },
+    {
+      "raw": "Lepel Asylum, Mahaica",
+      "count": 1
+    },
+    {
+      "raw": "Ecclesiastical Establishments",
+      "count": 1
+    },
+    {
+      "raw": "Ecclesiastary Establishments",
+      "count": 1
+    },
+    {
+      "raw": "Leper Asylum",
+      "count": 1
+    },
+    {
+      "raw": "BRITISH GUIANA\u2014BRITISH HONDURAS",
+      "count": 1
+    },
+    {
+      "raw": "Receipt and Payment Branch",
+      "count": 1
+    },
+    {
+      "raw": "Clerks to Assistant Receiver-General, Berbice",
+      "count": 1
+    },
+    {
+      "raw": "Colonial Hospital, Demerara",
+      "count": 1
+    },
+    {
+      "raw": "Hospital, Essequebo",
+      "count": 1
+    },
+    {
+      "raw": "Leper Asylum, Mahaiaca",
+      "count": 1
+    },
+    {
+      "raw": "Government School for Vagrants and Youthful Offenders",
+      "count": 1
+    },
+    {
+      "raw": "Convict Settlement, Massacuri",
+      "count": 1
+    },
+    {
+      "raw": "Treasury and Savings Bank",
+      "count": 1
+    },
+    {
+      "raw": "Treasury, Inland Revenue Department",
+      "count": 1
+    },
+    {
+      "raw": "Medical Institutions",
+      "count": 1
+    },
+    {
+      "raw": "North Western District",
+      "count": 1
+    },
+    {
+      "raw": "Government School for Vagrants and Youthful (Underworking) Offenders",
+      "count": 1
+    },
+    {
+      "raw": "Girls' Reformatory",
+      "count": 1
+    },
+    {
+      "raw": "Government Land Department",
+      "count": 1
+    },
+    {
+      "raw": "Government Laboratory",
+      "count": 1
+    },
+    {
+      "raw": "Treasury and Customs Department, &c.",
+      "count": 1
+    },
+    {
+      "raw": "Finance Minister's Department",
+      "count": 1
+    },
+    {
+      "raw": "Crown Law Department",
+      "count": 1
+    },
+    {
+      "raw": "Bureau of Agriculture and Statistics",
+      "count": 1
+    },
+    {
+      "raw": "Militia Department",
+      "count": 1
+    },
+    {
+      "raw": "Legislature",
+      "count": 1
+    },
+    {
+      "raw": "Judicial and Legal Departments, Canada East",
+      "count": 1
+    },
+    {
+      "raw": "Judicial and Legal Department, Canada West",
+      "count": 1
+    },
+    {
+      "raw": "The Queen's Privy Council for Canada",
+      "count": 1
+    },
+    {
+      "raw": "Treasury Board",
+      "count": 1
+    },
+    {
+      "raw": "Supreme Court of Canada",
+      "count": 1
+    },
+    {
+      "raw": "Court of Exchequer of Canada",
+      "count": 1
+    },
+    {
+      "raw": "Senate of Canada",
+      "count": 1
+    },
+    {
+      "raw": "House of Commons",
+      "count": 1
+    },
+    {
+      "raw": "Secretary of State",
+      "count": 1
+    },
+    {
+      "raw": "Registry Branch",
+      "count": 1
+    },
+    {
+      "raw": "Public Printing and Stationery",
+      "count": 1
+    },
+    {
+      "raw": "Interior",
+      "count": 1
+    },
+    {
+      "raw": "Finance Department",
+      "count": 1
+    },
+    {
+      "raw": "Department of Trade and Commerce",
+      "count": 1
+    },
+    {
+      "raw": "Department of Inland Revenue",
+      "count": 1
+    },
+    {
+      "raw": "Department of Customs",
+      "count": 1
+    },
+    {
+      "raw": "Railways and Canals",
+      "count": 1
+    },
+    {
+      "raw": "Board for the Examination of Candidates for admission to the Civil Service of Canada",
+      "count": 1
+    },
+    {
+      "raw": "Department of the Interior",
+      "count": 1
+    },
+    {
+      "raw": "Provincial Secretary's Department",
+      "count": 1
+    },
+    {
+      "raw": "Seat of Government",
+      "count": 1
+    },
+    {
+      "raw": "County Court Judges",
+      "count": 1
+    },
+    {
+      "raw": "Imperial Military Establishment (Halifax)",
+      "count": 1
+    },
+    {
+      "raw": "Departmental Chiefs and Officers",
+      "count": 1
+    },
+    {
+      "raw": "Dominion Officials in Nova Scotia",
+      "count": 1
+    },
+    {
+      "raw": "House of Assembly (41 Members)",
+      "count": 1
+    },
+    {
+      "raw": "Constituencies",
+      "count": 1
+    },
+    {
+      "raw": "Provincial Establishment",
+      "count": 1
+    },
+    {
+      "raw": "Dominion Officials in New Brunswick",
+      "count": 1
+    },
+    {
+      "raw": "Dominion Officials in British Columbia",
+      "count": 1
+    },
+    {
+      "raw": "Local Departments",
+      "count": 1
+    },
+    {
+      "raw": "Territorial Administration",
+      "count": 1
+    },
+    {
+      "raw": "Registrar of Deeds\u2019 Office",
+      "count": 1
+    },
+    {
+      "raw": "King William's Town",
+      "count": 1
+    },
+    {
+      "raw": "Graham's Town",
+      "count": 1
+    },
+    {
+      "raw": "Wharf Department",
+      "count": 1
+    },
+    {
+      "raw": "Simon's Bay",
+      "count": 1
+    },
+    {
+      "raw": "Hondeklip Bay",
+      "count": 1
+    },
+    {
+      "raw": "Mossel Bay",
+      "count": 1
+    },
+    {
+      "raw": "Port Elizabeth",
+      "count": 1
+    },
+    {
+      "raw": "Knysna",
+      "count": 1
+    },
+    {
+      "raw": "Royal Observatory",
+      "count": 1
+    },
+    {
+      "raw": "Table Bay Breakwater Works",
+      "count": 1
+    },
+    {
+      "raw": "KNTSNA ROAD WORKS",
+      "count": 1
+    },
+    {
+      "raw": "KOWIE HARBOUR WORKS",
+      "count": 1
+    },
+    {
+      "raw": "KATBERG ROAD WORKS",
+      "count": 1
+    },
+    {
+      "raw": "Mixed British and Portuguese Commission",
+      "count": 1
+    },
+    {
+      "raw": "Mixed British and American Court of Justice",
+      "count": 1
+    },
+    {
+      "raw": "Insolvent and Law Branch",
+      "count": 1
+    },
+    {
+      "raw": "Colonial Medical Committee",
+      "count": 1
+    },
+    {
+      "raw": "Somerset Hospital",
+      "count": 1
+    },
+    {
+      "raw": "CAPE DIVISION",
+      "count": 1
+    },
+    {
+      "raw": "Resident Magistrate's Department",
+      "count": 1
+    },
+    {
+      "raw": "Stutterheim",
+      "count": 1
+    },
+    {
+      "raw": "Middle Drift",
+      "count": 1
+    },
+    {
+      "raw": "Keeskama Hoek",
+      "count": 1
+    },
+    {
+      "raw": "Native Hospitals, King William's Town",
+      "count": 1
+    },
+    {
+      "raw": "Division of East London",
+      "count": 1
+    },
+    {
+      "raw": "Stationery and Printing, and Depot for Police and Government Stores",
+      "count": 1
+    },
+    {
+      "raw": "Executive Branch (including Depot for Police and Government Stores)",
+      "count": 1
+    },
+    {
+      "raw": "New Somerset Hospital",
+      "count": 1
+    },
+    {
+      "raw": "Old Somerset Hospital",
+      "count": 1
+    },
+    {
+      "raw": "Lunatic Asylum, &c., Grahamstown",
+      "count": 1
+    },
+    {
+      "raw": "Hospital at King William's Town",
+      "count": 1
+    },
+    {
+      "raw": "Lunatic Asylum, Port Alfred",
+      "count": 1
+    },
+    {
+      "raw": "Valkenburg Asylum",
+      "count": 1
+    },
+    {
+      "raw": "Cape Mounted Riflemen",
+      "count": 1
+    },
+    {
+      "raw": "Division of Aberdeen",
+      "count": 1
+    },
+    {
+      "raw": "Division of Albany",
+      "count": 1
+    },
+    {
+      "raw": "Division of Albert",
+      "count": 1
+    },
+    {
+      "raw": "Division of Alexandria",
+      "count": 1
+    },
+    {
+      "raw": "Division of Aliwal North",
+      "count": 1
+    },
+    {
+      "raw": "Division of Barkly East",
+      "count": 1
+    },
+    {
+      "raw": "Division of Barkly West",
+      "count": 1
+    },
+    {
+      "raw": "Division of Bathurst",
+      "count": 1
+    },
+    {
+      "raw": "Division of Beaufort West",
+      "count": 1
+    },
+    {
+      "raw": "Division of Bedford",
+      "count": 1
+    },
+    {
+      "raw": "Division of Bredasdorp",
+      "count": 1
+    },
+    {
+      "raw": "Division of Britstown",
+      "count": 1
+    },
+    {
+      "raw": "Division of Caledon",
+      "count": 1
+    },
+    {
+      "raw": "Division of Calvinia",
+      "count": 1
+    },
+    {
+      "raw": "Cape Division",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF CARNARVON",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF CATHCART",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF CERES",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF CLANWILLIAM",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF COLESBERG",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF CRADOCK",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF EAST LONDON",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF FORT BEAUFORT",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF FRASERBURG",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF GEORGE",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF GLEN GREY",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF HANOVER",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF HAY",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF HERBERT",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF HERSCHEL",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF HOPE TOWN",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF HUMANSDORF",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF JANSENVILLE",
+      "count": 1
+    },
+    {
+      "raw": "DISTRICT OF KENHARDT",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF KIMBERLEY",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF KING WILLIAM'S TOWN",
+      "count": 1
+    },
+    {
+      "raw": "KLIPDAM",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF KNYSNA",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF KOMGAHA",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF LADISMITH",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF MALMESBURY",
+      "count": 1
+    },
+    {
+      "raw": "MARABISBURG",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF MIDDLEDURG",
+      "count": 1
+    },
+    {
+      "raw": "MOLTENO",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF MOSSEL BAY",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF MURRAYSBURG",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF NAMAGUALAND",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF OUDTSHOORN",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF THE PAARL",
+      "count": 1
+    },
+    {
+      "raw": "PEARSTOWN",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF PEDDIE",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF PHILIPSTOWN",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF PIQUETBERG",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF PORT ELIZABETH",
+      "count": 1
+    },
+    {
+      "raw": "DISTRICT OF PORT NOLLOTH",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF PRIESKA",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF PRINCE ALBERT",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF QUEEN'S TOWN",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF RICHMOND",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF RIVERSDALE",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF ROBERTSON",
+      "count": 1
+    },
+    {
+      "raw": "DISTRICT OF SIMONSTOWN",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF SOMERSET EAST",
+      "count": 1
+    },
+    {
+      "raw": "SOMERSET WEST",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF STELLENBOSCH",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF STEYNSBURG",
+      "count": 1
+    },
+    {
+      "raw": "STEYTLERAVILLE",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF STOCKENSTROM",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF STUTTERHEIM",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF SUTHERLAND",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF SWELLENDAM",
+      "count": 1
+    },
+    {
+      "raw": "Division of Tarka",
+      "count": 1
+    },
+    {
+      "raw": "Division of Tulbagh",
+      "count": 1
+    },
+    {
+      "raw": "Division of Uitenhage",
+      "count": 1
+    },
+    {
+      "raw": "Division of Uniondale",
+      "count": 1
+    },
+    {
+      "raw": "Division of Van Rhynsdorp",
+      "count": 1
+    },
+    {
+      "raw": "Ventersdadt",
+      "count": 1
+    },
+    {
+      "raw": "Division of Victoria East",
+      "count": 1
+    },
+    {
+      "raw": "Division of Victoria West",
+      "count": 1
+    },
+    {
+      "raw": "Wellington",
+      "count": 1
+    },
+    {
+      "raw": "Division of Willowmore",
+      "count": 1
+    },
+    {
+      "raw": "Division of Wodehouse",
+      "count": 1
+    },
+    {
+      "raw": "Division of Worcester",
+      "count": 1
+    },
+    {
+      "raw": "District of Wynberg",
+      "count": 1
+    },
+    {
+      "raw": "Police Commissioner",
+      "count": 1
+    },
+    {
+      "raw": "Civil Engineer and Commissioner of Roads",
+      "count": 1
+    },
+    {
+      "raw": "Provisional Registrar-General's Department",
+      "count": 1
+    },
+    {
+      "raw": "Master Attendants' Department",
+      "count": 1
+    },
+    {
+      "raw": "School Commission",
+      "count": 1
+    },
+    {
+      "raw": "Temple Land Commission",
+      "count": 1
+    },
+    {
+      "raw": "Midland Circuit",
+      "count": 1
+    },
+    {
+      "raw": "Medical Assistant",
+      "count": 1
+    },
+    {
+      "raw": "Colonial Commissariat",
+      "count": 1
+    },
+    {
+      "raw": "Scotch Presbyterian Church",
+      "count": 1
+    },
+    {
+      "raw": "Registrar General's Department of Lands",
+      "count": 1
+    },
+    {
+      "raw": "Colonial Chaplains",
+      "count": 1
+    },
+    {
+      "raw": "SOUTHERN PROVINCE",
+      "count": 1
+    },
+    {
+      "raw": "NORTHERN PROVINCE",
+      "count": 1
+    },
+    {
+      "raw": "EASTERN PROVINCE",
+      "count": 1
+    },
+    {
+      "raw": "Superintending Officers",
+      "count": 1
+    },
+    {
+      "raw": "Draftsmen and Framers of Estimates",
+      "count": 1
+    },
+    {
+      "raw": "Tracing Officers",
+      "count": 1
+    },
+    {
+      "raw": "District of Colombo and Midland Circuit",
+      "count": 1
+    },
+    {
+      "raw": "Courts of Justice",
+      "count": 1
+    },
+    {
+      "raw": "Cadi of",
+      "count": 1
+    },
+    {
+      "raw": "Royal Niger Company",
+      "count": 1
+    },
+    {
+      "raw": "Gibraltar",
+      "count": 1
+    },
+    {
+      "raw": "Grenada",
+      "count": 1
+    },
+    {
+      "raw": "Administrating the Government of British Guiana",
+      "count": 1
+    },
+    {
+      "raw": "Judges of the Court of Sessions",
+      "count": 1
+    },
+    {
+      "raw": "General",
+      "count": 1
+    },
+    {
+      "raw": "FIJI\u2014GIBRALTAR",
+      "count": 1
+    },
+    {
+      "raw": "Civil Service Cadets",
+      "count": 1
+    },
+    {
+      "raw": "DISTRICT OF COLOMBO AND MIDLAND CIRCUIT",
+      "count": 1
+    },
+    {
+      "raw": "SOUTHERN CIRCUIT",
+      "count": 1
+    },
+    {
+      "raw": "NORTHERN CIRCUIT",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF TARKA",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF TULBAGH",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF UITENHAGE",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF UNIONDALE",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF VAN RHYNSDORP",
+      "count": 1
+    },
+    {
+      "raw": "VENTERSTADT",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF VICTORIA EAST",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF VICTORIA WEST",
+      "count": 1
+    },
+    {
+      "raw": "WELLINGTON",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF WILLOWMORE",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF WODEHOUSE",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION OF WORCESTER",
+      "count": 1
+    },
+    {
+      "raw": "DISTRICT OF WYNBERG",
+      "count": 1
+    },
+    {
+      "raw": "POLICE COMMISSIONER",
+      "count": 1
+    },
+    {
+      "raw": "Agent-General's Department in London",
+      "count": 1
+    },
+    {
+      "raw": "Detective Department (Kimberley)",
+      "count": 1
+    },
+    {
+      "raw": "Constituency",
+      "count": 1
+    },
+    {
+      "raw": "Ministries",
+      "count": 1
+    },
+    {
+      "raw": "Legislative Council - Western Province",
+      "count": 1
+    },
+    {
+      "raw": "House of Assembly - Constituency Members",
+      "count": 1
+    },
+    {
+      "raw": "Finance",
+      "count": 1
+    },
+    {
+      "raw": "Stationery and Printing, and D\u00e9pot for Police and Government Stores",
+      "count": 1
+    },
+    {
+      "raw": "Executive Branch (including D\u00e9pot for Police and Government Stores)",
+      "count": 1
+    },
+    {
+      "raw": "Government Medical Establishments",
+      "count": 1
+    },
+    {
+      "raw": "Cape Of Good Hope:",
+      "count": 1
+    },
+    {
+      "raw": "Klutije's Kraal",
+      "count": 1
+    },
+    {
+      "raw": "United Western, Midland, Northern, and Eastern Systems",
+      "count": 1
+    },
+    {
+      "raw": "Sleeper Factory, Knysna",
+      "count": 1
+    },
+    {
+      "raw": "District Engineers",
+      "count": 1
+    },
+    {
+      "raw": "Department of Colonial Secretary",
+      "count": 1
+    },
+    {
+      "raw": "Department of Receiver-General",
+      "count": 1
+    },
+    {
+      "raw": "Government Store",
+      "count": 1
+    },
+    {
+      "raw": "Suva Hospital",
+      "count": 1
+    },
+    {
+      "raw": "Government Printing Establishment",
+      "count": 1
+    },
+    {
+      "raw": "Crown Property Department",
+      "count": 1
+    },
+    {
+      "raw": "Audit (under the Comptroller and Auditor-General)",
+      "count": 1
+    },
+    {
+      "raw": "Telegraph and Savings Bank Clerks",
+      "count": 1
+    },
+    {
+      "raw": "Board of Sanitary Commissioners",
+      "count": 1
+    },
+    {
+      "raw": "Engineer Department",
+      "count": 1
+    },
+    {
+      "raw": "Assistant Colonial Secretary's and Audit Department",
+      "count": 1
+    },
+    {
+      "raw": "Registrar of Births, Deaths, &c.",
+      "count": 1
+    },
+    {
+      "raw": "Public Works and Survey",
+      "count": 1
+    },
+    {
+      "raw": "Guards",
+      "count": 1
+    },
+    {
+      "raw": "Powder Magazines",
+      "count": 1
+    },
+    {
+      "raw": "Roads Department",
+      "count": 1
+    },
+    {
+      "raw": "Traveling Commissioners",
+      "count": 1
+    },
+    {
+      "raw": "Registrars and Clerks",
+      "count": 1
+    },
+    {
+      "raw": "Botanical Station, Aburi",
+      "count": 1
+    },
+    {
+      "raw": "Constabulary\u2014Hausa",
+      "count": 1
+    },
+    {
+      "raw": "Millia",
+      "count": 1
+    },
+    {
+      "raw": "Anglican Church",
+      "count": 1
+    },
+    {
+      "raw": "Roman Catholic",
+      "count": 1
+    },
+    {
+      "raw": "Wesleyan",
+      "count": 1
+    },
+    {
+      "raw": "Hay",
+      "count": 1
+    },
+    {
+      "raw": "Elected Members",
+      "count": 1
+    },
+    {
+      "raw": "Police\u2014Griqualand Armed Constabulary",
+      "count": 1
+    },
+    {
+      "raw": "DIVISION AND DISTRICT OF KIMBERLEY",
+      "count": 1
+    },
+    {
+      "raw": "Postmaster-General\u2019s Department",
+      "count": 1
+    },
+    {
+      "raw": "Mint",
+      "count": 1
+    },
+    {
+      "raw": "Summary Jurisdiction Court",
+      "count": 1
+    },
+    {
+      "raw": "Gaol and Convict Department",
+      "count": 1
+    },
+    {
+      "raw": "Ecclesiastical and Educational Department",
+      "count": 1
+    },
+    {
+      "raw": "Government Marine Surveyor's Department",
+      "count": 1
+    },
+    {
+      "raw": "Sanitary Sub-Department",
+      "count": 1
+    },
+    {
+      "raw": "Marine Surveyor's Department",
+      "count": 1
+    },
+    {
+      "raw": "Praya Reclamation Branch",
+      "count": 1
+    },
+    {
+      "raw": "Hong Kong Observatory",
+      "count": 1
+    },
+    {
+      "raw": "Marine Surveyor's (Sub-Department)",
+      "count": 1
+    },
+    {
+      "raw": "Officers\u2014Military, Naval, &c.",
+      "count": 1
+    },
+    {
+      "raw": "HONG KONG\u2014JAMAICA",
+      "count": 1
+    },
+    {
+      "raw": "Finance Office",
+      "count": 1
+    },
+    {
+      "raw": "Public Works, Roads, and Bridges",
+      "count": 1
+    },
+    {
+      "raw": "Principal Officers",
+      "count": 1
+    },
+    {
+      "raw": "Landing Surveyors",
+      "count": 1
+    },
+    {
+      "raw": "Audit-Office",
+      "count": 1
+    },
+    {
+      "raw": "Superintendents of County Gaol and District Prisons",
+      "count": 1
+    },
+    {
+      "raw": "Public Works Stores",
+      "count": 1
+    },
+    {
+      "raw": "Lighthouses",
+      "count": 1
+    },
+    {
+      "raw": "Public Gardens and Plantations",
+      "count": 1
+    },
+    {
+      "raw": "Institute of Jamaica",
+      "count": 1
+    },
+    {
+      "raw": "Government Savings Bank",
+      "count": 1
+    },
+    {
+      "raw": "Female Training College",
+      "count": 1
+    },
+    {
+      "raw": "Industrial School for Boys (Hope)",
+      "count": 1
+    },
+    {
+      "raw": "Industrial School for Girls (Shortwood)",
+      "count": 1
+    },
+    {
+      "raw": "Board of Supervision for the Relief of the Poor",
+      "count": 1
+    },
+    {
+      "raw": "Schools Commission",
+      "count": 1
+    },
+    {
+      "raw": "Vice-Consuls and Consular Agents",
+      "count": 1
+    },
+    {
+      "raw": "Officers, Military, Naval, &c.",
+      "count": 1
+    },
+    {
+      "raw": "Leeward Islands",
+      "count": 1
+    },
+    {
+      "raw": "General Legislative Council",
+      "count": 1
+    },
+    {
+      "raw": "Governors of Antigua",
+      "count": 1
+    },
+    {
+      "raw": "LAGOS CONSTABULARY",
+      "count": 1
+    },
+    {
+      "raw": "LAGOS",
+      "count": 1
+    },
+    {
+      "raw": "Queen's Advocate Department",
+      "count": 1
+    },
+    {
+      "raw": "Political Department",
+      "count": 1
+    },
+    {
+      "raw": "Houssa Force",
+      "count": 1
+    },
+    {
+      "raw": "Elective Members",
+      "count": 1
+    },
+    {
+      "raw": "Non-Elective Members",
+      "count": 1
+    },
+    {
+      "raw": "The Cunningham Hospital Act, 1867",
+      "count": 1
+    },
+    {
+      "raw": "Board of Health Act, 145, 1858",
+      "count": 1
+    },
+    {
+      "raw": "Medical attendance for Labouring Population, Act No. 2, 1877",
+      "count": 1
+    },
+    {
+      "raw": "Water Commissioners",
+      "count": 1
+    },
+    {
+      "raw": "Poor Asylum",
+      "count": 1
+    },
+    {
+      "raw": "Monte di Pieta",
+      "count": 1
+    },
+    {
+      "raw": "Land Surveyors",
+      "count": 1
+    },
+    {
+      "raw": "Monte di Piet\u00e0, including Savings Bank",
+      "count": 1
+    },
+    {
+      "raw": "Gozo",
+      "count": 1
+    },
+    {
+      "raw": "Customs and Port Department.",
+      "count": 1
+    },
+    {
+      "raw": "Public Health Department.",
+      "count": 1
+    },
+    {
+      "raw": "District Medical Officers.",
+      "count": 1
+    },
+    {
+      "raw": "Slaughterhouses.",
+      "count": 1
+    },
+    {
+      "raw": "Marine Police",
+      "count": 1
+    },
+    {
+      "raw": "Acting Chief Clerk",
+      "count": 1
+    },
+    {
+      "raw": "Active Chief Clerk",
+      "count": 1
+    },
+    {
+      "raw": "Public and Crown Lands Department",
+      "count": 1
+    },
+    {
+      "raw": "Colonial Secretary's Office.",
+      "count": 1
+    },
+    {
+      "raw": "Warriors",
+      "count": 1
+    },
+    {
+      "raw": "Civil Status Officer",
+      "count": 1
+    },
+    {
+      "raw": "Department of Woods and Forests and Botanical Garden",
+      "count": 1
+    },
+    {
+      "raw": "Establishment of Rodrigues",
+      "count": 1
+    },
+    {
+      "raw": "Stamp Branch and Weights and Measures",
+      "count": 1
+    },
+    {
+      "raw": "Inland Revenue Branch",
+      "count": 1
+    },
+    {
+      "raw": "Oudit Office",
+      "count": 1
+    },
+    {
+      "raw": "Engineering and Architectural Branch",
+      "count": 1
+    },
+    {
+      "raw": "Roads and Bridges Branch",
+      "count": 1
+    },
+    {
+      "raw": "Civil Status Department",
+      "count": 1
+    },
+    {
+      "raw": "Mercantile Marine Office",
+      "count": 1
+    },
+    {
+      "raw": "Registration Office and Mortgage Department",
+      "count": 1
+    },
+    {
+      "raw": "Archives Office",
+      "count": 1
+    },
+    {
+      "raw": "Emigration Agents in India",
+      "count": 1
+    },
+    {
+      "raw": "Department of Forests and Gardens",
+      "count": 1
+    },
+    {
+      "raw": "Storekeeper-General's Department",
+      "count": 1
+    },
+    {
+      "raw": "Master's Office",
+      "count": 1
+    },
+    {
+      "raw": "Rodrigues",
+      "count": 1
+    },
+    {
+      "raw": "Minor Dependencies",
+      "count": 1
+    },
+    {
+      "raw": "Military Officers, &c. (in Mauritius)",
+      "count": 1
+    },
+    {
+      "raw": "Foreign Consuls (in Mauritius)",
+      "count": 1
+    },
+    {
+      "raw": "Registrar of Deeds Department",
+      "count": 1
+    },
+    {
+      "raw": "Lands and Works",
+      "count": 1
+    },
+    {
+      "raw": "Military Officers",
+      "count": 1
+    },
+    {
+      "raw": "General Post-Office, Fredericton",
+      "count": 1
+    },
+    {
+      "raw": "Board of Works",
+      "count": 1
+    },
+    {
+      "raw": "Customs Department, St. John",
+      "count": 1
+    },
+    {
+      "raw": "Cathedral Church, Fredericton",
+      "count": 1
+    },
+    {
+      "raw": "Gold Commissioners",
+      "count": 1
+    },
+    {
+      "raw": "Officers appointed under the Coal-fields Act",
+      "count": 1
+    },
+    {
+      "raw": "Land Title Commissioners",
+      "count": 1
+    },
+    {
+      "raw": "Government Printer and Inspector of Stamps",
+      "count": 1
+    },
+    {
+      "raw": "Vaccine Department",
+      "count": 1
+    },
+    {
+      "raw": "Department of Harbours and Lighthouses",
+      "count": 1
+    },
+    {
+      "raw": "Existing Lines of Railways",
+      "count": 1
+    },
+    {
+      "raw": "Money Order and Government Savings Bank Department",
+      "count": 1
+    },
+    {
+      "raw": "District Court Judges, and Chairmen of Quarter Sessions",
+      "count": 1
+    },
+    {
+      "raw": "Statistician's Department",
+      "count": 1
+    },
+    {
+      "raw": "Medical Board",
+      "count": 1
+    },
+    {
+      "raw": "Lunacy",
+      "count": 1
+    },
+    {
+      "raw": "Head Quarters Staff",
+      "count": 1
+    },
+    {
+      "raw": "Departments",
+      "count": 1
+    },
+    {
+      "raw": "Ordnance",
+      "count": 1
+    },
+    {
+      "raw": "Regular Artillery",
+      "count": 1
+    },
+    {
+      "raw": "Engineers",
+      "count": 1
+    },
+    {
+      "raw": "Mounted Brigade",
+      "count": 1
+    },
+    {
+      "raw": "Infantry 1st Regiment",
+      "count": 1
+    },
+    {
+      "raw": "Infantry 2nd Regiment",
+      "count": 1
+    },
+    {
+      "raw": "Infantry 3rd Regiment",
+      "count": 1
+    },
+    {
+      "raw": "Infantry 4th Regiment",
+      "count": 1
+    },
+    {
+      "raw": "Medical Staff Corps",
+      "count": 1
+    },
+    {
+      "raw": "Commissariat and Transport Corps",
+      "count": 1
+    },
+    {
+      "raw": "Naval Defence",
+      "count": 1
+    },
+    {
+      "raw": "Department of Fisheries",
+      "count": 1
+    },
+    {
+      "raw": "Local Government",
+      "count": 1
+    },
+    {
+      "raw": "Fire Brigades Board",
+      "count": 1
+    },
+    {
+      "raw": "Board of International Exchanges",
+      "count": 1
+    },
+    {
+      "raw": "The Treasury and Subordinate Departments",
+      "count": 1
+    },
+    {
+      "raw": "Stores and Stationery",
+      "count": 1
+    },
+    {
+      "raw": "Board of Pharmacy",
+      "count": 1
+    },
+    {
+      "raw": "Shipping Master",
+      "count": 1
+    },
+    {
+      "raw": "Deputy Shipping Master",
+      "count": 1
+    },
+    {
+      "raw": "Department of Railways and Tramways",
+      "count": 1
+    },
+    {
+      "raw": "Accounts Branch",
+      "count": 1
+    },
+    {
+      "raw": "Existing Lines",
+      "count": 1
+    },
+    {
+      "raw": "Signal and Interlocking Branch",
+      "count": 1
+    },
+    {
+      "raw": "Tramway Branch",
+      "count": 1
+    },
+    {
+      "raw": "Department of Public Instruction and Subordinate Departments",
+      "count": 1
+    },
+    {
+      "raw": "Australian Museum",
+      "count": 1
+    },
+    {
+      "raw": "National Art Gallery of New South Wales",
+      "count": 1
+    },
+    {
+      "raw": "Free Public Library",
+      "count": 1
+    },
+    {
+      "raw": "Technical Education Branch",
+      "count": 1
+    },
+    {
+      "raw": "Technological Museum",
+      "count": 1
+    },
+    {
+      "raw": "Department of Justice and Subordinate Departments",
+      "count": 1
+    },
+    {
+      "raw": "Patents and Copyrights",
+      "count": 1
+    },
+    {
+      "raw": "Department of Works and Subordinate Departments",
+      "count": 1
+    },
+    {
+      "raw": "Board of Water Supply and Sewerage",
+      "count": 1
+    },
+    {
+      "raw": "Government Architect's Department",
+      "count": 1
+    },
+    {
+      "raw": "Railway Construction",
+      "count": 1
+    },
+    {
+      "raw": "Harbours and Rivers Department",
+      "count": 1
+    },
+    {
+      "raw": "Department of Lands and Subordinate Departments",
+      "count": 1
+    },
+    {
+      "raw": "Land Court",
+      "count": 1
+    },
+    {
+      "raw": "Survey Branch",
+      "count": 1
+    },
+    {
+      "raw": "Chairmen Local Land Boards",
+      "count": 1
+    },
+    {
+      "raw": "Mines and Agriculture and Subordinate Departments",
+      "count": 1
+    },
+    {
+      "raw": "Water Conservation Branch",
+      "count": 1
+    },
+    {
+      "raw": "Executive Branch",
+      "count": 1
+    },
+    {
+      "raw": "Money Order Office and Government Savings Bank",
+      "count": 1
+    },
+    {
+      "raw": "University of Sydney",
+      "count": 1
+    },
+    {
+      "raw": "Roman Catholic Bishops",
+      "count": 1
+    },
+    {
+      "raw": "Presbyterian Church of New South Wales",
+      "count": 1
+    },
+    {
+      "raw": "Presbyterian Church of Eastern Australia",
+      "count": 1
+    },
+    {
+      "raw": "Wesleyan Methodist Church",
+      "count": 1
+    },
+    {
+      "raw": "Primitive Methodist Church",
+      "count": 1
+    },
+    {
+      "raw": "Congregational Union of New South Wales",
+      "count": 1
+    },
+    {
+      "raw": "Baptist Union of New South Wales",
+      "count": 1
+    },
+    {
+      "raw": "Branch, Royal Mint",
+      "count": 1
+    },
+    {
+      "raw": "Provincial Governments",
+      "count": 1
+    },
+    {
+      "raw": "COLONIAL SECRETARY'S OFFICE.",
+      "count": 1
+    },
+    {
+      "raw": "TREASURY.",
+      "count": 1
+    },
+    {
+      "raw": "General Government",
+      "count": 1
+    },
+    {
+      "raw": "Working Railways Branch",
+      "count": 1
+    },
+    {
+      "raw": "Agent General's Department",
+      "count": 1
+    },
+    {
+      "raw": "Department of Justice and Patent Office",
+      "count": 1
+    },
+    {
+      "raw": "Department of Trade and Customs",
+      "count": 1
+    },
+    {
+      "raw": "New Zealand Police Force",
+      "count": 1
+    },
+    {
+      "raw": "Government Life Insurance Department",
+      "count": 1
+    },
+    {
+      "raw": "Public Trust Office",
+      "count": 1
+    },
+    {
+      "raw": "Government Advances to Settlers Office",
+      "count": 1
+    },
+    {
+      "raw": "Judicial Establishment Supreme Court",
+      "count": 1
+    },
+    {
+      "raw": "Real Property Office",
+      "count": 1
+    },
+    {
+      "raw": "Insolvent Court",
+      "count": 1
+    },
+    {
+      "raw": "Members of Council",
+      "count": 1
+    },
+    {
+      "raw": "Department of Railways",
+      "count": 1
+    },
+    {
+      "raw": "Customs Departments",
+      "count": 1
+    },
+    {
+      "raw": "In-door Officers",
+      "count": 1
+    },
+    {
+      "raw": "Native Affairs Department",
+      "count": 1
+    },
+    {
+      "raw": "Under Sheriff",
+      "count": 1
+    },
+    {
+      "raw": "Waterloo District",
+      "count": 1
+    },
+    {
+      "raw": "Kurene District",
+      "count": 1
+    },
+    {
+      "raw": "Ronietta District",
+      "count": 1
+    },
+    {
+      "raw": "Bandajuma District",
+      "count": 1
+    },
+    {
+      "raw": "Panguma District",
+      "count": 1
+    },
+    {
+      "raw": "Koinadugu District",
+      "count": 1
+    },
+    {
+      "raw": "Sherbro Branch",
+      "count": 1
+    },
+    {
+      "raw": "Preventive Service",
+      "count": 1
+    },
+    {
+      "raw": "Agricultural Development Branch",
+      "count": 1
+    },
+    {
+      "raw": "Somaliland Protectorate",
+      "count": 1
+    },
+    {
+      "raw": "Supply and Transport",
+      "count": 1
+    },
+    {
+      "raw": "Posts and Telegraphs Department",
+      "count": 1
+    },
+    {
+      "raw": "Sierra Leone Battalion, West African Frontier Force.",
+      "count": 1
+    },
+    {
+      "raw": "Lands and Forest Department",
+      "count": 1
+    },
+    {
+      "raw": "Nominated Unofficial Members",
+      "count": 1
+    },
+    {
+      "raw": "Representatives of Christian Religious Bodies",
+      "count": 1
+    },
+    {
+      "raw": "Foreign Consular Officers",
+      "count": 1
+    },
+    {
+      "raw": "Governor and Personal Staff",
+      "count": 1
+    },
+    {
+      "raw": "COMMERCE AND INDUSTRY",
+      "count": 1
+    },
+    {
+      "raw": "GEOLOGICAL",
+      "count": 1
+    },
+    {
+      "raw": "LEGAL",
+      "count": 1
+    },
+    {
+      "raw": "METEOROLOGICAL",
+      "count": 1
+    },
+    {
+      "raw": "PORT AND MARINE",
+      "count": 1
+    },
+    {
+      "raw": "SURVEYS AND LANDS",
+      "count": 1
+    },
+    {
+      "raw": "GOVERNOR AND PERSONAL STAFF",
+      "count": 1
+    },
+    {
+      "raw": "Civil Aviation",
+      "count": 1
+    },
+    {
+      "raw": "Commerce and Industry",
+      "count": 1
+    },
+    {
+      "raw": "Legal",
+      "count": 1
+    },
+    {
+      "raw": "Meteorological",
+      "count": 1
+    },
+    {
+      "raw": "Port and Marine",
+      "count": 1
+    },
+    {
+      "raw": "Land Drainage",
+      "count": 1
+    },
+    {
+      "raw": "Railway Management",
+      "count": 1
+    },
+    {
+      "raw": "Surveys and Lands",
+      "count": 1
+    },
+    {
+      "raw": "Public Service Commission",
+      "count": 1
+    },
+    {
+      "raw": "Treasury and Stamp Office",
+      "count": 1
+    },
+    {
+      "raw": "Land Revenue Survey Office",
+      "count": 1
+    },
+    {
+      "raw": "Collector\u2019s Office",
+      "count": 1
+    },
+    {
+      "raw": "Registration of Trade and Shipping",
+      "count": 1
+    },
+    {
+      "raw": "Law and Justice",
+      "count": 1
+    },
+    {
+      "raw": "Sheriff",
+      "count": 1
+    },
+    {
+      "raw": "Court of Summary Jurisdiction",
+      "count": 1
+    },
+    {
+      "raw": "Local Jail",
+      "count": 1
+    },
+    {
+      "raw": "Suppression of Piracy",
+      "count": 1
+    },
+    {
+      "raw": "Court of Requests",
+      "count": 1
+    },
+    {
+      "raw": "Law and Justice Supreme Court",
+      "count": 1
+    },
+    {
+      "raw": "High Commission",
+      "count": 1
+    },
+    {
+      "raw": "Governor-in-Chief's Department",
+      "count": 1
+    },
+    {
+      "raw": "Executive Council Department",
+      "count": 1
+    },
+    {
+      "raw": "Armoury",
+      "count": 1
+    },
+    {
+      "raw": "Departments under direction of the Attorney-General",
+      "count": 1
+    },
+    {
+      "raw": "Engineer and Architect Department",
+      "count": 1
+    },
+    {
+      "raw": "Observatory and Telegraph Department",
+      "count": 1
+    },
+    {
+      "raw": "Registrar-General's Department, Land Titles Branch",
+      "count": 1
+    },
+    {
+      "raw": "Assistant Landing Waiters",
+      "count": 1
+    },
+    {
+      "raw": "Boarding Officers",
+      "count": 1
+    },
+    {
+      "raw": "Engineer of Harbour and Jetties Department.",
+      "count": 1
+    },
+    {
+      "raw": "Agent-General's Department (London).",
+      "count": 1
+    },
+    {
+      "raw": "Offices connected with both Houses",
+      "count": 1
+    },
+    {
+      "raw": "Judges of the Supreme Court",
+      "count": 1
+    },
+    {
+      "raw": "Coroner",
+      "count": 1
+    },
+    {
+      "raw": "Engineer of Harbours and Jetties Department",
+      "count": 1
+    },
+    {
+      "raw": "Departments under Direction of the Minister of Agriculture and Education",
+      "count": 1
+    },
+    {
+      "raw": "Training School",
+      "count": 1
+    },
+    {
+      "raw": "Model Schools",
+      "count": 1
+    },
+    {
+      "raw": "South Australian Institute - Board of Governors",
+      "count": 1
+    },
+    {
+      "raw": "South Australian Institute",
+      "count": 1
+    },
+    {
+      "raw": "University of Adelaide - Council",
+      "count": 1
+    },
+    {
+      "raw": "University of Adelaide - Professors",
+      "count": 1
+    },
+    {
+      "raw": "List of Governors of South Australia",
+      "count": 1
+    },
+    {
+      "raw": "Labour Prison",
+      "count": 1
+    },
+    {
+      "raw": "Adelaide Hospital",
+      "count": 1
+    },
+    {
+      "raw": "Lunatic Asylums",
+      "count": 1
+    },
+    {
+      "raw": "State Children's Council",
+      "count": 1
+    },
+    {
+      "raw": "Credit Lands Department",
+      "count": 1
+    },
+    {
+      "raw": "Agricultural Bureau",
+      "count": 1
+    },
+    {
+      "raw": "Agricultural College",
+      "count": 1
+    },
+    {
+      "raw": "Woods and Forests",
+      "count": 1
+    },
+    {
+      "raw": "Office of Commissioner of Public Works Department",
+      "count": 1
+    },
+    {
+      "raw": "Public Buildings Department",
+      "count": 1
+    },
+    {
+      "raw": "Public Supply Department",
+      "count": 1
+    },
+    {
+      "raw": "Departments under Direction of the Minister of Education",
+      "count": 1
+    },
+    {
+      "raw": "Training College",
+      "count": 1
+    },
+    {
+      "raw": "Sturt Street Public School",
+      "count": 1
+    },
+    {
+      "raw": "Flinders Street Public School",
+      "count": 1
+    },
+    {
+      "raw": "Currie Street",
+      "count": 1
+    },
+    {
+      "raw": "Grote Street",
+      "count": 1
+    },
+    {
+      "raw": "North Adelaide Public School",
+      "count": 1
+    },
+    {
+      "raw": "Wine, Butter, and Produce Department",
+      "count": 1
+    },
+    {
+      "raw": "Northern Territory",
+      "count": 1
+    },
+    {
+      "raw": "Technical Education",
+      "count": 1
+    },
+    {
+      "raw": "Town Improvements Commissioners",
+      "count": 1
+    },
+    {
+      "raw": "Board of Health, St. Kitts",
+      "count": 1
+    },
+    {
+      "raw": "Board of Health, Nevis",
+      "count": 1
+    },
+    {
+      "raw": "District Medical Officers",
+      "count": 1
+    },
+    {
+      "raw": "Telephone Department",
+      "count": 1
+    },
+    {
+      "raw": "Consuls of Foreign Countries",
+      "count": 1
+    },
+    {
+      "raw": "Police and Excise",
+      "count": 1
+    },
+    {
+      "raw": "Police Magistrates",
+      "count": 1
+    },
+    {
+      "raw": "Crown Lands and Survey Office",
+      "count": 1
+    },
+    {
+      "raw": "Land Office, Prov. Wellesley",
+      "count": 1
+    },
+    {
+      "raw": "PENANG",
+      "count": 1
+    },
+    {
+      "raw": "Marine D\u00e9p\u00f4t",
+      "count": 1
+    },
+    {
+      "raw": "Protector of Immigrants' Department and Police Court",
+      "count": 1
+    },
+    {
+      "raw": "Dindings",
+      "count": 1
+    },
+    {
+      "raw": "Salangor",
+      "count": 1
+    },
+    {
+      "raw": "Sungei Ujong",
+      "count": 1
+    },
+    {
+      "raw": "Protector of Immigrants' Department",
+      "count": 1
+    },
+    {
+      "raw": "Premier's Department",
+      "count": 1
+    },
+    {
+      "raw": "Public Service Board",
+      "count": 1
+    },
+    {
+      "raw": "Chinese Protectorate",
+      "count": 1
+    },
+    {
+      "raw": "Customs Department (Hobarton)",
+      "count": 1
+    },
+    {
+      "raw": "Launceston",
+      "count": 1
+    },
+    {
+      "raw": "Judicial, Legal, and Magisterial Departments",
+      "count": 1
+    },
+    {
+      "raw": "Sherbro",
+      "count": 1
+    },
+    {
+      "raw": "Isles de Los",
+      "count": 1
+    },
+    {
+      "raw": "Kikomkhe (mouth of the Scarcies River)",
+      "count": 1
+    },
+    {
+      "raw": "Sulymah",
+      "count": 1
+    },
+    {
+      "raw": "Lavanah",
+      "count": 1
+    },
+    {
+      "raw": "Back Papelle",
+      "count": 1
+    },
+    {
+      "raw": "Treasury and Post Office",
+      "count": 1
+    },
+    {
+      "raw": "Cabinet",
+      "count": 1
+    },
+    {
+      "raw": "Statistical and General Registry Department",
+      "count": 1
+    },
+    {
+      "raw": "Customs and Excise Department",
+      "count": 1
+    },
+    {
+      "raw": "Office of Taxes",
+      "count": 1
+    },
+    {
+      "raw": "Office of Stores",
+      "count": 1
+    },
+    {
+      "raw": "Inspection of Machinery",
+      "count": 1
+    },
+    {
+      "raw": "Analyst's Office",
+      "count": 1
+    },
+    {
+      "raw": "Meteorological Department",
+      "count": 1
+    },
+    {
+      "raw": "Fisheries Department",
+      "count": 1
+    },
+    {
+      "raw": "Council of Agriculture",
+      "count": 1
+    },
+    {
+      "raw": "General Sessions, Court of Requests, and Court of Bankruptcy, Launceston",
+      "count": 1
+    },
+    {
+      "raw": "Magistracy",
+      "count": 1
+    },
+    {
+      "raw": "Lands Titles",
+      "count": 1
+    },
+    {
+      "raw": "Hospital for Insane, New Norfolk",
+      "count": 1
+    },
+    {
+      "raw": "General Hospital, Hobart",
+      "count": 1
+    },
+    {
+      "raw": "General Hospital, Launceston",
+      "count": 1
+    },
+    {
+      "raw": "Medical and Vaccination Department",
+      "count": 1
+    },
+    {
+      "raw": "Lands and Survey Branch",
+      "count": 1
+    },
+    {
+      "raw": "Works Branch",
+      "count": 1
+    },
+    {
+      "raw": "Mines Branch",
+      "count": 1
+    },
+    {
+      "raw": "Tasmanian Government Railways",
+      "count": 1
+    },
+    {
+      "raw": "Agent-General in London",
+      "count": 1
+    },
+    {
+      "raw": "Executive Committee",
+      "count": 1
+    },
+    {
+      "raw": "Spanish Government",
+      "count": 1
+    },
+    {
+      "raw": "British Administration",
+      "count": 1
+    },
+    {
+      "raw": "Commissioners",
+      "count": 1
+    },
+    {
+      "raw": "Stipendiary Justices and Clerks of the Peace",
+      "count": 1
+    },
+    {
+      "raw": "Roman Catholic Establishment",
+      "count": 1
+    },
+    {
+      "raw": "Police and Gaols Establishment",
+      "count": 1
+    },
+    {
+      "raw": "Ecclesiastical - Diocesan",
+      "count": 1
+    },
+    {
+      "raw": "Ecclesiastical - Roman Catholic",
+      "count": 1
+    },
+    {
+      "raw": "Resident Superintendent (Lunatic Asylum)",
+      "count": 1
+    },
+    {
+      "raw": "Harbour Master's Department.",
+      "count": 1
+    },
+    {
+      "raw": "Couva Extension Railway",
+      "count": 1
+    },
+    {
+      "raw": "Assistant Clerks",
+      "count": 1
+    },
+    {
+      "raw": "Landing Waiters and Lockers",
+      "count": 1
+    },
+    {
+      "raw": "San Fernando Extension Railway",
+      "count": 1
+    },
+    {
+      "raw": "W. S. Doorly",
+      "count": 1
+    },
+    {
+      "raw": "Traffic Manager",
+      "count": 1
+    },
+    {
+      "raw": "Assistant ditto",
+      "count": 1
+    },
+    {
+      "raw": "Locomotive Superintendent",
+      "count": 1
+    },
+    {
+      "raw": "Maintenance Engineer",
+      "count": 1
+    },
+    {
+      "raw": "Guaracara Extension Railway",
+      "count": 1
+    },
+    {
+      "raw": "Colonial Storekeeper's Department",
+      "count": 1
+    },
+    {
+      "raw": "Maintenance and Traffic Branch",
+      "count": 1
+    },
+    {
+      "raw": "Storekeeper\u2019s Department",
+      "count": 1
+    },
+    {
+      "raw": "Treasury, Excise, and Savings Bank Department",
+      "count": 1
+    },
+    {
+      "raw": "Receipt and Pay Branch",
+      "count": 1
+    },
+    {
+      "raw": "Excise Branch",
+      "count": 1
+    },
+    {
+      "raw": "San Fernando Treasury",
+      "count": 1
+    },
+    {
+      "raw": "Botanical and Agricultural Department",
+      "count": 1
+    },
+    {
+      "raw": "Judges, District Court, the Puisme Judges",
+      "count": 1
+    },
+    {
+      "raw": "Eclesiastical Establishment",
+      "count": 1
+    },
+    {
+      "raw": "San Fernando Hospital",
+      "count": 1
+    },
+    {
+      "raw": "House of Refuge, St. Clair",
+      "count": 1
+    },
+    {
+      "raw": "Laboratory",
+      "count": 1
+    },
+    {
+      "raw": "Volunteer Fire Brigade",
+      "count": 1
+    },
+    {
+      "raw": "Governors of Tobago",
+      "count": 1
+    },
+    {
+      "raw": "Financial Board",
+      "count": 1
+    },
+    {
+      "raw": "Police Magistrate and Coroner",
+      "count": 1
+    },
+    {
+      "raw": "Legislative Board",
+      "count": 1
+    },
+    {
+      "raw": "Ex officio Members",
+      "count": 1
+    },
+    {
+      "raw": "Government",
+      "count": 1
+    },
+    {
+      "raw": "Library",
+      "count": 1
+    },
+    {
+      "raw": "Hospitals for the Insane, Melbourne",
+      "count": 1
+    },
+    {
+      "raw": "Kew",
+      "count": 1
+    },
+    {
+      "raw": "Ararat",
+      "count": 1
+    },
+    {
+      "raw": "Beechworth",
+      "count": 1
+    },
+    {
+      "raw": "Melbourne Sewers and Water Supply Branch",
+      "count": 1
+    },
+    {
+      "raw": "Commissioner of Railways and Roads' Division",
+      "count": 1
+    },
+    {
+      "raw": "Agent-General for Victoria in the United Kingdom",
+      "count": 1
+    },
+    {
+      "raw": "Melbourne and Hobson's Bay Railway",
+      "count": 1
+    },
+    {
+      "raw": "Prosecutors for the Queen",
+      "count": 1
+    },
+    {
+      "raw": "Crown Lands and Survey Division",
+      "count": 1
+    },
+    {
+      "raw": "Victorian Water Supply",
+      "count": 1
+    },
+    {
+      "raw": "Port and Harbours' Department",
+      "count": 1
+    },
+    {
+      "raw": "Distilleries and Excise",
+      "count": 1
+    },
+    {
+      "raw": "Mercantile Marine",
+      "count": 1
+    },
+    {
+      "raw": "Commissioner of Railways Division",
+      "count": 1
+    },
+    {
+      "raw": "Colonial Surgeon",
+      "count": 1
+    },
+    {
+      "raw": "Office of Works",
+      "count": 1
+    },
+    {
+      "raw": "Registry Office",
+      "count": 1
+    },
+    {
+      "raw": "Land Titles Office",
+      "count": 1
+    },
+    {
+      "raw": "Harbor and Light Department",
+      "count": 1
+    },
+    {
+      "raw": "Rottwest Penal Establishment",
+      "count": 1
+    },
+    {
+      "raw": "Superintendent of Poor Houses",
+      "count": 1
+    },
+    {
+      "raw": "Governor's Department",
+      "count": 1
+    },
+    {
+      "raw": "Resident Magistrates",
+      "count": 1
+    },
+    {
+      "raw": "Zululand Police",
+      "count": 1
+    },
+    {
+      "raw": "Postmasters",
+      "count": 1
+    },
+    {
+      "raw": "Telegraph Clerks",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "total_distinct": 1308,
+    "total_instances": 4345,
+    "rule_clusters": 48,
+    "rule_claimed_instances": 2176
+  }
+}

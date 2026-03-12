@@ -26,6 +26,7 @@ Usage:
 """
 
 import argparse
+import fcntl
 import json
 import os
 import signal
@@ -166,10 +167,13 @@ def sort_for_processing(files: list[dict]) -> list[dict]:
 # =============================================================================
 
 def load_state() -> dict:
-    """Load checkpointed state from disk."""
+    """Load checkpointed state from disk (with shared file lock)."""
     if STATE_FILE.exists():
         with open(STATE_FILE) as f:
-            return json.load(f)
+            fcntl.flock(f.fileno(), fcntl.LOCK_SH)
+            data = json.load(f)
+            fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+            return data
     return {
         "started": datetime.now().isoformat(),
         "last_updated": None,
@@ -180,11 +184,14 @@ def load_state() -> dict:
 
 
 def save_state(state: dict):
-    """Save state to disk."""
+    """Save state to disk (with exclusive file lock)."""
     OUTPUT_DIR.mkdir(exist_ok=True)
     state["last_updated"] = datetime.now().isoformat()
     with open(STATE_FILE, 'w') as f:
+        fcntl.flock(f.fileno(), fcntl.LOCK_EX)
         json.dump(state, f, indent=2, default=str)
+        f.flush()
+        fcntl.flock(f.fileno(), fcntl.LOCK_UN)
 
 
 def state_key(colony: str, year: int) -> str:

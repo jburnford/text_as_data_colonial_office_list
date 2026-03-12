@@ -1,0 +1,5654 @@
+{
+  "scan_date": "2026-02-26T08:57:05.955184",
+  "total_scanned": 2227,
+  "contaminated_count": 157,
+  "files": [
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1888_manual_parsed/ASCENSION.txt",
+      "expected_colony": "Ascension",
+      "total_lines": 12691,
+      "foreign_colonies": {
+        "Cyprus": {
+          "hit_count": 1,
+          "lines": [
+            [
+              842,
+              "Cyprus."
+            ]
+          ]
+        },
+        "Heligoland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              871,
+              "Heligoland."
+            ]
+          ]
+        },
+        "Ceylon": {
+          "hit_count": 59,
+          "lines": [
+            [
+              895,
+              "Ceylon."
+            ],
+            [
+              1379,
+              "[SIG] Ceylon, J. Ferguson, Esq., Colombo."
+            ],
+            [
+              3831,
+              "[SIG] ARUNACHALAM, P.—Educated at the Academy, and Queen's College, Colombo, Ceylon, and at Christ's Colle"
+            ],
+            [
+              3972,
+              "[SIG] BAUMGARTNER, G. A.—Appointed writer in the Ceylon Civil Service, 14th July, 1871. Attached to Colomb"
+            ],
+            [
+              3974,
+              "[SIG] BAUMGARTNER, Harry Percy.—Writer in Ceylon service, October 29, 1875; extra office assistant at Colo"
+            ],
+            [
+              4013,
+              "[SIG] BELL, H. C. P.—Educated at Cheltenham College; appointed a writer in the Ceylon civil service, July,"
+            ],
+            [
+              4075,
+              "[SIG] BERWICK, T.—Of Lincoln's Inn, barrister-at-law, educated at Edinburgh university; admitted an advoca"
+            ],
+            [
+              4152,
+              "[SIG] Medicine and Surgery of the College of Physicians and Surgeons of Glasgow; appointed a writer in Cay"
+            ],
+            [
+              4383,
+              "[SIG] BURROWS, STEPHEN MONTAGU, B.A.—Scholar of Eton, scholar of Exeter College, Oxford, Jan., 1876; gradu"
+            ],
+            [
+              4402,
+              "[SIG] BYRDE, MABERLEY DURAND EVAN.—Educated at Queen Elizabeth's college, Guernsey; writer, Ceylon Civil S"
+            ]
+          ]
+        },
+        "Hong Kong": {
+          "hit_count": 1,
+          "lines": [
+            [
+              906,
+              "Hong Kong."
+            ]
+          ]
+        },
+        "Mauritius": {
+          "hit_count": 20,
+          "lines": [
+            [
+              924,
+              "Mauritius."
+            ],
+            [
+              1382,
+              "[SIG] Mauritius, A. De Boucherville, Esq., Port Louis."
+            ],
+            [
+              3696,
+              "[SIG] ACKROYD, EDWARD JAMES.—Clerk, registry, supreme court, Mauritius, Sept., 1858; clerk to first puisne"
+            ],
+            [
+              3878,
+              "[SIG] AYRES PHILIP BURNARD CHENERY, M.R.C.S.E., L.M., L.R.C.P., Edin., July, 1865.—Acting surgeon, Wandswo"
+            ],
+            [
+              4011,
+              "[SIG] BELL, H. REID, late lieutenant in East India Company's Service.—Appointed a police inspector at Maur"
+            ],
+            [
+              4077,
+              "[SIG] BESTEL, SIR NICHOLAS GUSTAVE, KNT. BACH. (1880).—Appointed third judge of the court of appeal at Mau"
+            ],
+            [
+              4081,
+              "[SIG] BEYTS, H. N. DUVERGER, C.M.G. (1881).—District clerk at Flacoq, Mauritius, April, 1862; clerk to the"
+            ],
+            [
+              5017,
+              "[SIG] DESMARAIS, HENRY EUGENE.—Called to the bar, Middle Temple, April, 1866; police magistrate, Rodrigues"
+            ],
+            [
+              5062,
+              "[SIG] DIDIER, ST. AMAND E.—Called to the bar, Middle Temple, 1864; district stipendiary magistrate, Maurit"
+            ],
+            [
+              6013,
+              "[SIG] HODGSON, F.—Stipendiary magistrate, Port Louis and Moka, Mauritius, 21 Aug., 1873."
+            ]
+          ]
+        },
+        "Straits Settlements": {
+          "hit_count": 1,
+          "lines": [
+            [
+              937,
+              "Straits Settlements."
+            ]
+          ]
+        },
+        "Basutoland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              964,
+              "Basutoland."
+            ]
+          ]
+        },
+        "Cape of Good Hope": {
+          "hit_count": 33,
+          "lines": [
+            [
+              984,
+              "[SIG] Griqualand West, Report on Colony, C—1825, 1877."
+            ],
+            [
+              1377,
+              "[SIG] Cape of Good Hope, Griqualand West, C. M. Bult, Esq., J.P."
+            ],
+            [
+              4147,
+              "[SIG] BLYTH, CAPTAIN MATTHEW SMITH, C.M.G. (1878).—Chief magistrate Griqualand East, Cape Colony, in 1877,"
+            ],
+            [
+              4320,
+              "[SIG] BROWNLEE, CHARLES, C.M.G. (1883).—Was Gaika commissioner, Dec. 18, 1846, to May, 1868; member of par"
+            ],
+            [
+              4334,
+              "[SIG] BUCHANAN, E. J.—Called to the bar by the Inner Temple, Jan., 1873; advocate of supreme court of Cape"
+            ],
+            [
+              4494,
+              "[SIG] Carrington, Colonel Sir Frederick, K.C.M.G. (1887), C.M.G. (1880)—24th Regt.; commander of the \"Fron"
+            ],
+            [
+              4556,
+              "[SIG] CHALMERS, W.B.—Entered the Kaffrarian civil service, Jan., 1856; magistrate Transkeian territory, Se"
+            ],
+            [
+              4855,
+              "[SIG] CROSSMAN, COL. SIR WILLIAM, R.E., K.C.M.G., (1884), C.M.G. (1877), M.P.—Visiting magistrate, West Au"
+            ],
+            [
+              5035,
+              "[SIG] DE WET, SIR JACOBUS PETRUS, KNT., 1883.—Educated at the South African College, Capetown, and Univers"
+            ],
+            [
+              5875,
+              "[SIG] HARTLEY, E. B.—Surgeon-Major, Cape Mounted Riflemen; created D.C.L. for gallantry in the operations "
+            ]
+          ]
+        },
+        "Natal": {
+          "hit_count": 1,
+          "lines": [
+            [
+              989,
+              "Natal."
+            ]
+          ]
+        },
+        "Sierra Leone": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1057,
+              "Sierra Leone."
+            ]
+          ]
+        },
+        "Gambia": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1065,
+              "Gambia."
+            ]
+          ]
+        },
+        "Dominion of Canada": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1080,
+              "Dominion of Canada."
+            ]
+          ]
+        },
+        "Newfoundland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1118,
+              "Newfoundland."
+            ]
+          ]
+        },
+        "Bahamas": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1150,
+              "Bahamas."
+            ]
+          ]
+        },
+        "Barbados": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1154,
+              "Barbados."
+            ]
+          ]
+        },
+        "British Guiana": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1164,
+              "British Guiana."
+            ]
+          ]
+        },
+        "British Honduras": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1168,
+              "British Honduras."
+            ]
+          ]
+        },
+        "Falkland Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1178,
+              "Falkland Islands."
+            ]
+          ]
+        },
+        "Jamaica": {
+          "hit_count": 8,
+          "lines": [
+            [
+              1184,
+              "Jamaica."
+            ],
+            [
+              3780,
+              "[SIG] ANDERSON, Izett William.—Graduated as M.D. of the University of Edinburgh in 1859; extraordinary mem"
+            ],
+            [
+              4086,
+              "[SIG] BICKNELL, H. J.—Police magistrate, Kingston, Jamaica, March, 1860; acting judge, eastern district, O"
+            ],
+            [
+              5594,
+              "[SIG] GILLARD, Richard.—Clerk in the customs, Bridgwater, England, Jan., 1852; third class clerk in secret"
+            ],
+            [
+              6048,
+              "[SIG] HONIBALL, OSCAR DUNSCOMB, M.D., M.C.H., Queen's University, Ireland (Scholar in mathematics and hono"
+            ],
+            [
+              6714,
+              "[SIG] MAINWARING, Captain K. H. A., R.N.—Entered the royal navy Sept., 1850; lieutenant, May, 1858; served"
+            ],
+            [
+              6802,
+              "[SIG] MAUNSELL, HORATIO EDMUND.—Graduated B.A., M.B., and M.Ch., Trinity College, Dublin, June, 1867; resi"
+            ],
+            [
+              9174,
+              "[SIG] | Kingston, Jamaica         | 135, 136 |"
+            ]
+          ]
+        },
+        "Leeward Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1206,
+              "Leeward Islands."
+            ]
+          ]
+        },
+        "Trinidad": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1237,
+              "Trinidad."
+            ]
+          ]
+        },
+        "New South Wales": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1279,
+              "New South Wales."
+            ]
+          ]
+        },
+        "New Zealand": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1283,
+              "New Zealand."
+            ]
+          ]
+        },
+        "South Australia": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1295,
+              "South Australia."
+            ]
+          ]
+        },
+        "Malta": {
+          "hit_count": 2,
+          "lines": [
+            [
+              5840,
+              "[SIG] HARDY, THE REV. EDWARD A.—Chaplain to govt., Malta, 1878; in charge of collegiate church of St. Paul"
+            ],
+            [
+              9592,
+              "[SIG] | Valletta                  | 159  |"
+            ]
+          ]
+        }
+      },
+      "severity_score": 468,
+      "contaminated_range": "L842-L9592",
+      "contaminated_pct": 69.0,
+      "key": "Ascension_1888",
+      "year": 1888
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1929_manual_parsed/MISCELLANEOUS_ISLANDS.txt",
+      "expected_colony": "Miscellaneous Islands",
+      "total_lines": 7276,
+      "foreign_colonies": {
+        "Cyprus": {
+          "hit_count": 1,
+          "lines": [
+            [
+              4663,
+              "CYPRUS."
+            ]
+          ]
+        },
+        "Gibraltar": {
+          "hit_count": 1,
+          "lines": [
+            [
+              4708,
+              "GIBRALTAR."
+            ]
+          ]
+        },
+        "Malta": {
+          "hit_count": 1,
+          "lines": [
+            [
+              4731,
+              "MALTA."
+            ]
+          ]
+        },
+        "Ceylon": {
+          "hit_count": 1,
+          "lines": [
+            [
+              4779,
+              "CEYLON."
+            ]
+          ]
+        },
+        "Labuan": {
+          "hit_count": 1,
+          "lines": [
+            [
+              4964,
+              "LABUAN."
+            ]
+          ]
+        },
+        "Mauritius": {
+          "hit_count": 1,
+          "lines": [
+            [
+              5002,
+              "MAURITIUS."
+            ]
+          ]
+        },
+        "Seychelles": {
+          "hit_count": 1,
+          "lines": [
+            [
+              5075,
+              "SEYCHELLES."
+            ]
+          ]
+        },
+        "Straits Settlements": {
+          "hit_count": 1,
+          "lines": [
+            [
+              5087,
+              "STRAITS SETTLEMENTS."
+            ]
+          ]
+        },
+        "Zanzibar": {
+          "hit_count": 1,
+          "lines": [
+            [
+              5373,
+              "ZANZIBAR."
+            ]
+          ]
+        },
+        "Basutoland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              5594,
+              "Basutoland."
+            ]
+          ]
+        },
+        "Cape of Good Hope": {
+          "hit_count": 2,
+          "lines": [
+            [
+              5715,
+              "CAPE OF GOOD HOPE."
+            ],
+            [
+              5730,
+              "[SIG] Griqualand West, Report on, C—1826, 1877."
+            ]
+          ]
+        },
+        "Natal": {
+          "hit_count": 1,
+          "lines": [
+            [
+              5749,
+              "Natal."
+            ]
+          ]
+        },
+        "Gambia": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6132,
+              "GAMBIA."
+            ]
+          ]
+        },
+        "Gold Coast": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6143,
+              "GOLD COAST."
+            ]
+          ]
+        },
+        "Sierra Leone": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6247,
+              "SIERRA LEONE."
+            ]
+          ]
+        },
+        "Bermuda": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6289,
+              "BERMUDA."
+            ]
+          ]
+        },
+        "Dominion of Canada": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6303,
+              "DOMINION OF CANADA."
+            ]
+          ]
+        },
+        "Newfoundland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6484,
+              "NEWFOUNDLAND."
+            ]
+          ]
+        },
+        "Bahamas": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6562,
+              "Bahamas."
+            ]
+          ]
+        },
+        "Barbados": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6571,
+              "BARBADOS."
+            ]
+          ]
+        },
+        "British Guiana": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6582,
+              "BRITISH GUIANA."
+            ]
+          ]
+        },
+        "British Honduras": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6599,
+              "BRITISH HONDURAS."
+            ]
+          ]
+        },
+        "Falkland Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6613,
+              "FALKLAND ISLANDS."
+            ]
+          ]
+        },
+        "Jamaica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6618,
+              "JAMAICA."
+            ]
+          ]
+        },
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6646,
+              "TURKS AND CAICOS ISLANDS."
+            ]
+          ]
+        },
+        "Leeward Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6651,
+              "LEEWARD ISLANDS."
+            ]
+          ]
+        },
+        "Antigua": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6657,
+              "ANTIGUA."
+            ]
+          ]
+        },
+        "Dominica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6661,
+              "DOMINICA."
+            ]
+          ]
+        },
+        "New South Wales": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6857,
+              "NEW SOUTH WALES."
+            ]
+          ]
+        },
+        "Queensland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6907,
+              "QUEENSLAND."
+            ]
+          ]
+        },
+        "South Australia": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6929,
+              "SOUTH AUSTRALIA."
+            ]
+          ]
+        },
+        "Tasmania": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6949,
+              "TASMANIA."
+            ]
+          ]
+        },
+        "Victoria": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6965,
+              "VICTORIA."
+            ]
+          ]
+        },
+        "Western Australia": {
+          "hit_count": 1,
+          "lines": [
+            [
+              6986,
+              "WESTERN AUSTRALIA."
+            ]
+          ]
+        },
+        "Fiji": {
+          "hit_count": 1,
+          "lines": [
+            [
+              7006,
+              "FIJI."
+            ]
+          ]
+        },
+        "New Zealand": {
+          "hit_count": 1,
+          "lines": [
+            [
+              7054,
+              "NEW ZEALAND."
+            ]
+          ]
+        }
+      },
+      "severity_score": 362,
+      "contaminated_range": "L4663-L7054",
+      "contaminated_pct": 32.9,
+      "key": "Miscellaneous Islands_1929",
+      "year": 1929
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1896_manual_parsed/fiji.txt",
+      "expected_colony": "Fiji",
+      "total_lines": 5626,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 96,
+          "lines": [
+            [
+              166,
+              "[SIG] There is one school of agriculture at Colombo which was opened at the beginning of 1884, and there a"
+            ],
+            [
+              168,
+              "[SIG] Technical education is provided at the Grant-in-Aid Industrial Schools and Orphanages, of which ther"
+            ],
+            [
+              172,
+              "[SIG] The Government maintains 45 hospitals exclusive of those for infectious diseases and sick prisoners,"
+            ],
+            [
+              177,
+              "[SIG] circulation is exclusively Indian and Ceylon rupee currency, which is alone legal tender. Ceylon cen"
+            ],
+            [
+              181,
+              "[SIG] The Ceylon Savings Bank, was established in 1832, and Post Office savings banks were opened in 1885,"
+            ],
+            [
+              185,
+              "[SIG] The Colombo South-West Breakwater was commenced in 1875, and was completed in 1885. A single arm com"
+            ],
+            [
+              195,
+              "[SIG] Works have been constructed for the storage and supply of water to Colombo. The water is stored in a"
+            ],
+            [
+              197,
+              "[SIG] In the matter of communication, great efforts have been made to keep pace with the growing requireme"
+            ],
+            [
+              199,
+              "[SIG] The lines of railway are distributed thus:—Colombo to Kandy (7¾ miles), Kandy and Matale (17½ miles)"
+            ],
+            [
+              203,
+              "[SIG] 1. A fortnightly mail service by P. and O. steamers between the United Kingdom, India, Ceylon, Strai"
+            ]
+          ]
+        },
+        "Falkland Islands": {
+          "hit_count": 2,
+          "lines": [
+            [
+              793,
+              "FALKLAND ISLANDS."
+            ],
+            [
+              5036,
+              "FALKLAND ISLANDS."
+            ]
+          ]
+        },
+        "Mauritius": {
+          "hit_count": 4,
+          "lines": [
+            [
+              803,
+              "[SIG] The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1768 they were ta"
+            ],
+            [
+              805,
+              "[SIG] In 1833 they were taken possession of by the British Government, for the protection of the Whale Fis"
+            ],
+            [
+              5046,
+              "[SIG] The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1763 they were ta"
+            ],
+            [
+              5048,
+              "[SIG] In 1833 they were taken possession of by the British Government, for the protection of the Whale Fis"
+            ]
+          ]
+        },
+        "Cape of Good Hope": {
+          "hit_count": 20,
+          "lines": [
+            [
+              1186,
+              "CAPE OF GOOD HOPE:"
+            ],
+            [
+              1313,
+              "CAPE OF GOOD HOPE."
+            ],
+            [
+              1668,
+              "[SIG] Commander-in-Chief, Cape of Good Hope Station, Rear-Admiral Harry H. Rawson, C.B."
+            ],
+            [
+              1919,
+              "[SIG] High Court, Griqualand."
+            ],
+            [
+              2016,
+              "CAPE OF GOOD HOPE."
+            ],
+            [
+              2295,
+              "[SIG] The diamond fields of South Africa are situated in the territory known as Griqualand West, which bec"
+            ],
+            [
+              2535,
+              "[SIG] Act No. 18 of 1874 provided for the division of the Colony into seven electoral provinces, each elec"
+            ],
+            [
+              2543,
+              "[SIG] The supreme court, as consolidated by Act No. 40, of 1882, consists of one Chief Justice and eight P"
+            ],
+            [
+              2547,
+              "[SIG] The Roman Dutch Law prevails in the Colony as modified by Colonial Legislation. A \"Native Territorie"
+            ],
+            [
+              2596,
+              "[SIG] The district of Mount Ayliff, or the Xesibe country, after having long been administered as a depend"
+            ]
+          ]
+        }
+      },
+      "severity_score": 324,
+      "contaminated_range": "L166-L5048",
+      "contaminated_pct": 86.8,
+      "key": "Fiji_1896",
+      "year": 1896
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/DOMINION_OF_CANADA.txt",
+      "expected_colony": "Canada",
+      "total_lines": 5019,
+      "foreign_colonies": {
+        "Cape of Good Hope": {
+          "hit_count": 17,
+          "lines": [
+            [
+              2148,
+              "CAPE OF GOOD HOPE."
+            ],
+            [
+              2160,
+              "[SIG] On the 15th October, 1880, the Province of Griqualand West was incorporated with the Cape Colony."
+            ],
+            [
+              2260,
+              "[SIG] The diamond fields of South Africa are situated in the territory known as Griqualand West, which bec"
+            ],
+            [
+              2298,
+              "[SIG] And the total exports from Griqualand West for the same period were:"
+            ],
+            [
+              2410,
+              "[SIG] Act No. 18 of 1874 provided for the division of the Colony into seven electoral provinces, each elec"
+            ],
+            [
+              2414,
+              "[SIG] The supreme court, as consolidated by Act No. 40, of 1882, consists of one Chief Justice and eight p"
+            ],
+            [
+              2457,
+              "[SIG] In March, 1879, Moirosi, the chief of the Quithing district, in the south-east of Basutoland, rescue"
+            ],
+            [
+              2492,
+              "[SIG] Griqualand East comprising Nomansland (late Adam Kok's Country), the Gatberg, and St. John's Territo"
+            ],
+            [
+              2507,
+              "[SIG] | Griqualand East| 22,526 2 11     | 22,502 10 11           |"
+            ],
+            [
+              2514,
+              "[SIG] | Griqualand East   | 88,875  | 15,716  | 131,806| 122,274| 77,550  | 180     | 2,556   |"
+            ]
+          ]
+        },
+        "Basutoland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              2420,
+              "BASUTOLAND."
+            ]
+          ]
+        },
+        "Ceylon": {
+          "hit_count": 37,
+          "lines": [
+            [
+              4126,
+              "[SIG] An island situated in the Indian Ocean, off the southern extremity of Hindostan; lying between 5° 55"
+            ],
+            [
+              4128,
+              "[SIG] The climate for a tropical country is comparatively healthy; the heat in the plains, which is nearly"
+            ],
+            [
+              4181,
+              "[SIG] The grand total—12,492,365 rupees—is exclusive of the local revenues raised by the Municipalities of"
+            ],
+            [
+              4183,
+              "[SIG] The imports (including specie) were valued at 51,322,142 rupees, and the exports (deducting specie, "
+            ],
+            [
+              4195,
+              "[SIG] The Colombo breakwater was commenced in 1875 and is now almost complete. A single arm composed of la"
+            ],
+            [
+              4197,
+              "[SIG] Works are being constructed for the storage and supply of water to Colombo, the estimated cost of wh"
+            ],
+            [
+              4202,
+              "[SIG] In the matter of communication, great efforts have been made to keep pace with the growing requireme"
+            ],
+            [
+              4220,
+              "[SIG] Further facilities are afforded for communication by the British India Steam Navigation Company. The"
+            ],
+            [
+              4585,
+              "[SIG] Office Assistant, Colombo, H. L. Crawford, Rs. 4,500."
+            ],
+            [
+              4642,
+              "[SIG] Colombo, R. H. Morgan, Rs. 3,000."
+            ]
+          ]
+        }
+      },
+      "severity_score": 142,
+      "contaminated_range": "L2148-L5017",
+      "contaminated_pct": 57.2,
+      "key": "Canada_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1908_manual_parsed/CAPE_OF_GOOD_HOPE.txt",
+      "expected_colony": "Cape of Good Hope",
+      "total_lines": 3749,
+      "foreign_colonies": {
+        "Natal": {
+          "hit_count": 2,
+          "lines": [
+            [
+              2766,
+              "Natal"
+            ],
+            [
+              2790,
+              "Natal"
+            ]
+          ]
+        },
+        "Ceylon": {
+          "hit_count": 46,
+          "lines": [
+            [
+              2911,
+              "[SIG] The climate for a tropical country is comparatively healthy; the heat in the plains, which is nearly"
+            ],
+            [
+              2917,
+              "[SIG] Ceylon was visited in early days by the Greeks, Romans, and Venetians; in 1505 the Portuguese formed"
+            ],
+            [
+              2929,
+              "[SIG] Imperial troops are stationed at Colombo and Kandy, and an annual contribution is paid to the Imperi"
+            ],
+            [
+              2931,
+              "[SIG] It is fixed by ordinance at 9½ per cent. of the general revenue (less land sales and railway charges"
+            ],
+            [
+              2953,
+              "[SIG] - Colombo, 158,228; Negombo, 19,946; Moratuwa, 29,600; Kalutara, 11,590; Kandy, 26,519; Jaffna, 33,8"
+            ],
+            [
+              2980,
+              "[SIG] The local revenues raised by the Municipalities of Colombo, Kandy, and Galle, by the Provincial Road"
+            ],
+            [
+              3005,
+              "[SIG] Technical education is provided at the Grant-in-Aid Industrial Schools and Orphanages, of which ther"
+            ],
+            [
+              3015,
+              "[SIG] The Ceylon Civil Medical Department consists of one Principal Civil Medical Officer and Inspector-Ge"
+            ],
+            [
+              3023,
+              "[SIG] Accounts are kept in rupees, and the money in circulation is Indian and Ceylon rupee currency and so"
+            ],
+            [
+              3028,
+              "[SIG] The Ceylon Savings Bank was established in 1832, and Post Office savings banks were opened in 1885, "
+            ]
+          ]
+        }
+      },
+      "severity_score": 112,
+      "contaminated_range": "L2766-L3736",
+      "contaminated_pct": 25.9,
+      "key": "Cape of Good Hope_1908",
+      "year": 1908
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1910_manual_parsed/BRITISH_HONDURAS.txt",
+      "expected_colony": "British Honduras",
+      "total_lines": 6159,
+      "foreign_colonies": {
+        "Dominion of Canada": {
+          "hit_count": 1,
+          "lines": [
+            [
+              349,
+              "DOMINION OF CANADA."
+            ]
+          ]
+        },
+        "Cape of Good Hope": {
+          "hit_count": 17,
+          "lines": [
+            [
+              3436,
+              "CAPE OF GOOD HOPE."
+            ],
+            [
+              3450,
+              "[SIG] On the 15th October, 1880, the Province of Griqualand West was incorporated with the Cape Colony."
+            ],
+            [
+              3713,
+              "[SIG] The diamond fields of South Africa are situated in the territory known as Griqualand West, which bec"
+            ],
+            [
+              3757,
+              "[SIG] The geological survey of the Colony was begun in 1896. The area mapped includes all that to the sout"
+            ],
+            [
+              3968,
+              "[SIG] Act No. 18 of 1874 provided for the division of the Colony into seven electoral provinces, each elec"
+            ],
+            [
+              3976,
+              "[SIG] The Supreme Court, as consolidated by Act 35 of 1896, consists of one Chief Justice and eight Puine "
+            ],
+            [
+              3978,
+              "[SIG] The Roman-Dutch Law prevails in the Colony, as modified by Colonial Legislation. A \"Native Territori"
+            ],
+            [
+              4025,
+              "[SIG] The district of Mount Ayliff, or the Xesibe country, after having long been administered as a depend"
+            ],
+            [
+              4031,
+              "[SIG] Griqualand East has nine subordinate magistrates. Its population at the Census of 1904 was—Europeans"
+            ],
+            [
+              4139,
+              "CAPE OF GOOD HOPE."
+            ]
+          ]
+        },
+        "British Bechuanaland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              4200,
+              "British Bechuanaland:"
+            ]
+          ]
+        },
+        "Natal": {
+          "hit_count": 2,
+          "lines": [
+            [
+              6020,
+              "Natal"
+            ],
+            [
+              6046,
+              "Natal"
+            ]
+          ]
+        }
+      },
+      "severity_score": 106,
+      "contaminated_range": "L349-L6046",
+      "contaminated_pct": 92.5,
+      "key": "British Honduras_1910",
+      "year": 1910
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/WESTERN_AUSTRALIA.txt",
+      "expected_colony": "Western Australia",
+      "total_lines": 1001,
+      "foreign_colonies": {
+        "New South Wales": {
+          "hit_count": 1,
+          "lines": [
+            [
+              400,
+              "NEW SOUTH WALES"
+            ]
+          ]
+        },
+        "Victoria": {
+          "hit_count": 1,
+          "lines": [
+            [
+              422,
+              "VICTORIA."
+            ]
+          ]
+        },
+        "South Australia": {
+          "hit_count": 1,
+          "lines": [
+            [
+              428,
+              "SOUTH AUSTRALIA."
+            ]
+          ]
+        },
+        "Queensland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              439,
+              "QUEENSLAND."
+            ]
+          ]
+        },
+        "Tasmania": {
+          "hit_count": 1,
+          "lines": [
+            [
+              459,
+              "TASMANIA."
+            ]
+          ]
+        },
+        "New Zealand": {
+          "hit_count": 1,
+          "lines": [
+            [
+              473,
+              "NEW ZEALAND."
+            ]
+          ]
+        },
+        "Cape of Good Hope": {
+          "hit_count": 1,
+          "lines": [
+            [
+              508,
+              "CAPE OF GOOD HOPE."
+            ]
+          ]
+        },
+        "Natal": {
+          "hit_count": 1,
+          "lines": [
+            [
+              532,
+              "NATAL."
+            ]
+          ]
+        },
+        "Dominion of Canada": {
+          "hit_count": 1,
+          "lines": [
+            [
+              537,
+              "DOMINION OF CANADA."
+            ]
+          ]
+        }
+      },
+      "severity_score": 90,
+      "contaminated_range": "L400-L537",
+      "contaminated_pct": 13.8,
+      "key": "Western Australia_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1939_manual_parsed/CEYLON.txt",
+      "expected_colony": "Ceylon",
+      "total_lines": 1763,
+      "foreign_colonies": {
+        "Basutoland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              324,
+              "Basutoland."
+            ]
+          ]
+        },
+        "Mauritius": {
+          "hit_count": 1,
+          "lines": [
+            [
+              336,
+              "Mauritius."
+            ]
+          ]
+        },
+        "Newfoundland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              337,
+              "Newfoundland."
+            ]
+          ]
+        },
+        "Seychelles": {
+          "hit_count": 1,
+          "lines": [
+            [
+              343,
+              "Seychelles."
+            ]
+          ]
+        },
+        "Straits Settlements": {
+          "hit_count": 1,
+          "lines": [
+            [
+              346,
+              "Straits Settlements."
+            ]
+          ]
+        },
+        "Zanzibar": {
+          "hit_count": 1,
+          "lines": [
+            [
+              353,
+              "Zanzibar."
+            ]
+          ]
+        }
+      },
+      "severity_score": 60,
+      "contaminated_range": "L324-L353",
+      "contaminated_pct": 1.7,
+      "key": "Ceylon_1939",
+      "year": 1939
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1877_manual_parsed/THE_GOLD_COAST_COLONY.txt",
+      "expected_colony": "Gold Coast",
+      "total_lines": 576,
+      "foreign_colonies": {
+        "Lagos": {
+          "hit_count": 5,
+          "lines": [
+            [
+              80,
+              "LAGOS."
+            ],
+            [
+              108,
+              "Lagos."
+            ],
+            [
+              142,
+              "Lagos."
+            ],
+            [
+              395,
+              "Lagos."
+            ],
+            [
+              474,
+              "Lagos."
+            ]
+          ]
+        }
+      },
+      "severity_score": 50,
+      "contaminated_range": "L80-L474",
+      "contaminated_pct": 68.6,
+      "key": "Gold Coast_1877",
+      "year": 1877
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/SIERRA_LEONE.txt",
+      "expected_colony": "Sierra Leone",
+      "total_lines": 501,
+      "foreign_colonies": {
+        "South Australia": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1,
+              "South Australia."
+            ]
+          ]
+        },
+        "Newfoundland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              3,
+              "Newfoundland."
+            ]
+          ]
+        },
+        "New Zealand": {
+          "hit_count": 1,
+          "lines": [
+            [
+              5,
+              "New Zealand."
+            ]
+          ]
+        },
+        "Dominion of Canada": {
+          "hit_count": 1,
+          "lines": [
+            [
+              15,
+              "Dominion of Canada."
+            ]
+          ]
+        },
+        "Jamaica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              40,
+              "Jamaica."
+            ]
+          ]
+        }
+      },
+      "severity_score": 50,
+      "contaminated_range": "L1-L40",
+      "contaminated_pct": 8.0,
+      "key": "Sierra Leone_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1878_manual_parsed/LAGOS.txt",
+      "expected_colony": "Lagos",
+      "total_lines": 728,
+      "foreign_colonies": {
+        "Gold Coast": {
+          "hit_count": 3,
+          "lines": [
+            [
+              19,
+              "Gold Coast."
+            ],
+            [
+              49,
+              "Gold Coast."
+            ],
+            [
+              305,
+              "### GOLD COAST"
+            ]
+          ]
+        },
+        "Cape of Good Hope": {
+          "hit_count": 9,
+          "lines": [
+            [
+              476,
+              "[SIG] **GRIQUALAND WEST.**"
+            ],
+            [
+              478,
+              "[SIG] Griqualand West is situated between 22° and 26° E. long, and 27° and 29° S. lat. Became British terr"
+            ],
+            [
+              480,
+              "[SIG] In the previous year, 1870, the existence of large deposits of diamonds along the banks of the Vaal "
+            ],
+            [
+              483,
+              "[SIG] Prior to the acceptance of the Griqua territory by Her Majesty, differences had existed between the "
+            ],
+            [
+              487,
+              "[SIG] Simultaneously with the issue of the proclamation for incorporating this territory with the British "
+            ],
+            [
+              489,
+              "[SIG] The letters patent by which the Constitution was granted, and these territories thereby created a se"
+            ],
+            [
+              491,
+              "[SIG] The claims of the Orange Free State, in the territory of Griqualand West, without being admitted, we"
+            ],
+            [
+              538,
+              "[SIG] Arrangements are in progress, and are on the point of completion, for the incorporation of Griqualan"
+            ],
+            [
+              621,
+              "[SIG] Police.—Griqualand Armed Constabulary."
+            ]
+          ]
+        }
+      },
+      "severity_score": 48,
+      "contaminated_range": "L19-L621",
+      "contaminated_pct": 82.8,
+      "key": "Lagos_1878",
+      "year": 1878
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/MALTA.txt",
+      "expected_colony": "Malta",
+      "total_lines": 1527,
+      "foreign_colonies": {
+        "Mauritius": {
+          "hit_count": 15,
+          "lines": [
+            [
+              481,
+              "MAURITIUS."
+            ],
+            [
+              487,
+              "[SIG] This famous and beautiful island, the fairer \"Malta of the Indian Ocean\" (as it is called by Thiers)"
+            ],
+            [
+              494,
+              "[SIG] Mauritius is divided into nine districts, Port Louis, Pamplemousses, Rivière du Rempart, Flacq, Gran"
+            ],
+            [
+              496,
+              "[SIG] The City of Port Louis is the capital, and seat of Government, and contains, with its suburbs, a pop"
+            ],
+            [
+              498,
+              "[SIG] The principal public edifices of Port Louis are the Government House, the Institute, the Roman Catho"
+            ],
+            [
+              502,
+              "[SIG] The constitution of Mauritius was altered in 1844-85. It now consists of a Governor, with an Executi"
+            ],
+            [
+              504,
+              "[SIG] Climate, &c.—From December to April is the hottest season of the year in Mauritius, but it is compar"
+            ],
+            [
+              508,
+              "[SIG] Railways.—There are two lines of railway, the North Line and the Midland. The former runs between Po"
+            ],
+            [
+              548,
+              "[SIG] The number of vessels that entered the harbour of Port Louis in 1884 was 593, with a total tonnage o"
+            ],
+            [
+              999,
+              "[SIG] Government Vaccinators, Port Louis, Dr. Jean Louis, fees."
+            ]
+          ]
+        },
+        "Natal": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1444,
+              "Natal."
+            ]
+          ]
+        }
+      },
+      "severity_score": 48,
+      "contaminated_range": "L481-L1444",
+      "contaminated_pct": 63.1,
+      "key": "Malta_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1928_manual_parsed/THE_LEEWARD_ISLANDS.txt",
+      "expected_colony": "Leeward Islands",
+      "total_lines": 2684,
+      "foreign_colonies": {
+        "Malta": {
+          "hit_count": 18,
+          "lines": [
+            [
+              1735,
+              "### MALTA."
+            ],
+            [
+              1750,
+              "[SIG] the Magnificent. It was after this great feat of arms that the city of Valletta was built, strong en"
+            ],
+            [
+              1764,
+              "[SIG] The island is highly cultivated. Besides products for home consumption, early potatoes, onions, cumi"
+            ],
+            [
+              1768,
+              "[SIG] The chief town and capital is Valletta, having, with its suburbs of Floriana, Sliema, and St. Julian"
+            ],
+            [
+              1780,
+              "[SIG] The railway, which is of metre gauge, is 7½ miles long; it was originally built by the Malta Railway"
+            ],
+            [
+              1800,
+              "[SIG] installed, and current is supplied to the following places, Valletta, Floriana, Sliema, St. Julian's"
+            ],
+            [
+              1806,
+              "[SIG] By Letters Patent dated April 14th, 1921, responsible government was established in Malta. The Lette"
+            ],
+            [
+              1810,
+              "[SIG] **The Legislature.**—The Senate consists of seventeen members, eight of whom form a quorum. Ten of t"
+            ],
+            [
+              1835,
+              "[SIG] the Magnificent. It was after this great feat of arms that the city of Valletta was built, strong en"
+            ],
+            [
+              1849,
+              "[SIG] The island is highly cultivated. Besides products for home consumption, early potatoes, onions, cumi"
+            ]
+          ]
+        }
+      },
+      "severity_score": 44,
+      "contaminated_range": "L1735-L2527",
+      "contaminated_pct": 29.5,
+      "key": "Leeward Islands_1928",
+      "year": 1928
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1923_manual_parsed/mauritius.txt",
+      "expected_colony": "Mauritius",
+      "total_lines": 2675,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 1,
+          "lines": [
+            [
+              188,
+              "[SIG] The British India Steam Navigation Company used to provide a direct four-weekly service between Colo"
+            ]
+          ]
+        },
+        "Newfoundland": {
+          "hit_count": 2,
+          "lines": [
+            [
+              793,
+              "NEWFOUNDLAND."
+            ],
+            [
+              864,
+              "NEWFOUNDLAND."
+            ]
+          ]
+        },
+        "New Zealand": {
+          "hit_count": 2,
+          "lines": [
+            [
+              1217,
+              "NEW ZEALAND."
+            ],
+            [
+              1740,
+              "### NEW ZEALAND"
+            ]
+          ]
+        }
+      },
+      "severity_score": 42,
+      "contaminated_range": "L188-L1740",
+      "contaminated_pct": 58.1,
+      "key": "Mauritius_1923",
+      "year": 1923
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1894_manual_parsed/dominion_of_canada.txt",
+      "expected_colony": "Canada",
+      "total_lines": 3522,
+      "foreign_colonies": {
+        "Cape of Good Hope": {
+          "hit_count": 12,
+          "lines": [
+            [
+              2509,
+              "Cape of Good Hope."
+            ],
+            [
+              2524,
+              "[SIG] On the 15th October, 1880, the Province of Griqualand West was incorporated with the Cape Colony."
+            ],
+            [
+              2585,
+              "[SIG] The diamond fields of South Africa are situated in the territory known as Griqualand West, which bec"
+            ],
+            [
+              2825,
+              "[SIG] Act No. 18 of 1874 provided for the division of the Colony into seven electoral provinces, each elec"
+            ],
+            [
+              2832,
+              "[SIG] The supreme court, as consolidated by Act No. 40, of 1882, consists of one Chief Justice and eight P"
+            ],
+            [
+              2836,
+              "[SIG] The Roman Dutch Law prevails in the Colony as modified by Colonial Legislation. A \"Native Territorie"
+            ],
+            [
+              2885,
+              "[SIG] The district of Mount Ayliff, or the Xesibe country, after having long been administered as a depend"
+            ],
+            [
+              2891,
+              "[SIG] Griqualand East, under one Chief Magistrate, Mr. W. E. Stanford, and nine subordinate magistrates. I"
+            ],
+            [
+              2928,
+              "**CAPE OF GOOD HOPE**"
+            ],
+            [
+              3067,
+              "[SIG] Griqualand West.—"
+            ]
+          ]
+        }
+      },
+      "severity_score": 40,
+      "contaminated_range": "L2509-L3465",
+      "contaminated_pct": 27.2,
+      "key": "Canada_1894",
+      "year": 1894
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1923_manual_parsed/somaliland.txt",
+      "expected_colony": "British Somaliland",
+      "total_lines": 2545,
+      "foreign_colonies": {
+        "Cape of Good Hope": {
+          "hit_count": 8,
+          "lines": [
+            [
+              696,
+              "[SIG] The District of Mount Ayllif, or the Xesibe country after having long been administered as a depende"
+            ],
+            [
+              698,
+              "[SIG] The whole of these territories are now within the Province of the Cape of Good Hope and are grouped "
+            ],
+            [
+              799,
+              "CAPE OF GOOD HOPE."
+            ],
+            [
+              832,
+              "[SIG] | Griqualand | J. G. King. |"
+            ],
+            [
+              1406,
+              "[SIG] Griqualand West Local Division."
+            ],
+            [
+              1737,
+              "[SIG] On the 15th October, 1880, the Province of Griqualand West was incorporated with the Cape Colony."
+            ],
+            [
+              1761,
+              "[SIG] The Census of 1918 showed the following European population: Colony proper, 585,021; E. Griqualand, "
+            ],
+            [
+              1859,
+              "[SIG] | Griqualand     | J. J. Malherbe |"
+            ]
+          ]
+        },
+        "Natal": {
+          "hit_count": 1,
+          "lines": [
+            [
+              864,
+              "NATAL."
+            ]
+          ]
+        }
+      },
+      "severity_score": 34,
+      "contaminated_range": "L696-L1859",
+      "contaminated_pct": 45.7,
+      "key": "British Somaliland_1923",
+      "year": 1923
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1925_manual_parsed/SOMALILAND_PROTECTORATE.txt",
+      "expected_colony": "British Somaliland",
+      "total_lines": 2505,
+      "foreign_colonies": {
+        "Cape of Good Hope": {
+          "hit_count": 7,
+          "lines": [
+            [
+              693,
+              "[SIG] The District of Mount Ayliff, or the Xesibe country after having long been administered as a depende"
+            ],
+            [
+              695,
+              "[SIG] The whole of these territories are now within the Province of the Cape of Good Hope and are grouped "
+            ],
+            [
+              788,
+              "CAPE OF GOOD HOPE."
+            ],
+            [
+              824,
+              "[SIG] | Griqualand                         | L. D. Gilson                |"
+            ],
+            [
+              1606,
+              "[SIG] On the 15th October, 1880, the Province of Griqualand West was incorporated with the Cape Colony."
+            ],
+            [
+              1629,
+              "[SIG] The Census of 1921 showed the following European population: Colony proper, 635,631; E. Griqualand, "
+            ],
+            [
+              1750,
+              "[SIG] Griqualand . . . . . . C. E. Tod"
+            ]
+          ]
+        },
+        "Natal": {
+          "hit_count": 1,
+          "lines": [
+            [
+              854,
+              "#### Natal"
+            ]
+          ]
+        }
+      },
+      "severity_score": 32,
+      "contaminated_range": "L693-L1750",
+      "contaminated_pct": 42.2,
+      "key": "British Somaliland_1925",
+      "year": 1925
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1867_manual_parsed/labuan.txt",
+      "expected_colony": "Labuan",
+      "total_lines": 1298,
+      "foreign_colonies": {
+        "Mauritius": {
+          "hit_count": 6,
+          "lines": [
+            [
+              451,
+              "Mauritius."
+            ],
+            [
+              684,
+              "[SIG] Civil Medical Storekeeper and Surgeon, Port Louis Dispensary, Dr. E. J. Riccard, 200l. to 300l."
+            ],
+            [
+              703,
+              "[SIG] Government Vaccinator, Port Louis, Dr. N. Burlinson, fees."
+            ],
+            [
+              768,
+              "[SIG] Senior District Magistrate, Port Louis, H. M. Self, 800l."
+            ],
+            [
+              774,
+              "[SIG] Junior District Magistrate, Port Louis, J. A. Robertson, 800l."
+            ],
+            [
+              862,
+              "[SIG] Inspector of Prisons and Gaoler, Port Louis, J. Dempsey, 300l. to 400l."
+            ]
+          ]
+        },
+        "Seychelles": {
+          "hit_count": 1,
+          "lines": [
+            [
+              944,
+              "Seychelles."
+            ]
+          ]
+        }
+      },
+      "severity_score": 30,
+      "contaminated_range": "L451-L944",
+      "contaminated_pct": 38.1,
+      "key": "Labuan_1867",
+      "year": 1867
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/NEW_SOUTH_WALES.txt",
+      "expected_colony": "New South Wales",
+      "total_lines": 1901,
+      "foreign_colonies": {
+        "New Zealand": {
+          "hit_count": 3,
+          "lines": [
+            [
+              883,
+              "NEW ZEALAND."
+            ],
+            [
+              1233,
+              "NEW ZEALAND."
+            ],
+            [
+              1463,
+              "NEW ZEALAND."
+            ]
+          ]
+        }
+      },
+      "severity_score": 30,
+      "contaminated_range": "L883-L1463",
+      "contaminated_pct": 30.6,
+      "key": "New South Wales_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/NEW_ZEALAND.txt",
+      "expected_colony": "New Zealand",
+      "total_lines": 1502,
+      "foreign_colonies": {
+        "Straits Settlements": {
+          "hit_count": 1,
+          "lines": [
+            [
+              106,
+              "### STRAITS SETTLEMENTS"
+            ]
+          ]
+        },
+        "Tasmania": {
+          "hit_count": 1,
+          "lines": [
+            [
+              574,
+              "TASMANIA."
+            ]
+          ]
+        },
+        "Trinidad": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1428,
+              "TRINIDAD."
+            ]
+          ]
+        }
+      },
+      "severity_score": 30,
+      "contaminated_range": "L106-L1428",
+      "contaminated_pct": 88.1,
+      "key": "New Zealand_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/SOUTH_AUSTRALIA.txt",
+      "expected_colony": "South Australia",
+      "total_lines": 1501,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              892,
+              "TURKS AND CAICOS ISLANDS."
+            ]
+          ]
+        },
+        "Victoria": {
+          "hit_count": 2,
+          "lines": [
+            [
+              1019,
+              "VICTORIA."
+            ],
+            [
+              1144,
+              "VICTORIA."
+            ]
+          ]
+        }
+      },
+      "severity_score": 30,
+      "contaminated_range": "L892-L1144",
+      "contaminated_pct": 16.9,
+      "key": "South Australia_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1910_manual_parsed/NEWFOUNDLAND.txt",
+      "expected_colony": "Newfoundland",
+      "total_lines": 1469,
+      "foreign_colonies": {
+        "New Zealand": {
+          "hit_count": 3,
+          "lines": [
+            [
+              425,
+              "NEW ZEALAND."
+            ],
+            [
+              852,
+              "### NEW ZEALAND"
+            ],
+            [
+              1169,
+              "NEW ZEALAND."
+            ]
+          ]
+        }
+      },
+      "severity_score": 30,
+      "contaminated_range": "L425-L1169",
+      "contaminated_pct": 50.7,
+      "key": "Newfoundland_1910",
+      "year": 1910
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1939_manual_parsed/SARAWAK.txt",
+      "expected_colony": "Sarawak",
+      "total_lines": 3346,
+      "foreign_colonies": {
+        "Trinidad": {
+          "hit_count": 2,
+          "lines": [
+            [
+              215,
+              "Trinidad."
+            ],
+            [
+              229,
+              "Trinidad."
+            ]
+          ]
+        },
+        "Zanzibar": {
+          "hit_count": 1,
+          "lines": [
+            [
+              2419,
+              "ZANZIBAR."
+            ]
+          ]
+        }
+      },
+      "severity_score": 30,
+      "contaminated_range": "L215-L2419",
+      "contaminated_pct": 65.9,
+      "key": "Sarawak_1939",
+      "year": 1939
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1940_manual_parsed/BERMUDA.txt",
+      "expected_colony": "Bermuda",
+      "total_lines": 293,
+      "foreign_colonies": {
+        "British Guiana": {
+          "hit_count": 3,
+          "lines": [
+            [
+              62,
+              "BRITISH GUIANA."
+            ],
+            [
+              227,
+              "BRITISH GUIANA."
+            ],
+            [
+              267,
+              "BRITISH GUIANA"
+            ]
+          ]
+        }
+      },
+      "severity_score": 30,
+      "contaminated_range": "L62-L267",
+      "contaminated_pct": 70.3,
+      "key": "Bermuda_1940",
+      "year": 1940
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/LEEWARD_ISLANDS.txt",
+      "expected_colony": "Leeward Islands",
+      "total_lines": 2452,
+      "foreign_colonies": {
+        "Malta": {
+          "hit_count": 10,
+          "lines": [
+            [
+              1599,
+              "**MALTA**"
+            ],
+            [
+              1614,
+              "[SIG] the attacks of the land and sea forces of Solyman the Magnificent. It was after this great feat of a"
+            ],
+            [
+              1628,
+              "[SIG] The island is highly cultivated. Besides products for home consumption, early potatoes, onions, cumi"
+            ],
+            [
+              1632,
+              "[SIG] The chief town and capital is Valletta, having, with its suburbs of Floriana, Sliema, and St. Julian"
+            ],
+            [
+              1644,
+              "[SIG] The railway, which is of metre gauge, is 7¼ miles long; it was originally built by the Malta Railway"
+            ],
+            [
+              1667,
+              "[SIG] made in public lighting, and in improving the roads and streets. Electric lighting has been installe"
+            ],
+            [
+              1673,
+              "[SIG] By Letters Patent dated April 14th, 1921, responsible government was established in Malta. The Lette"
+            ],
+            [
+              1677,
+              "[SIG] **The Legislature.**—The Senate consists of seventeen members, eight of whom form a quorum. Ten of t"
+            ],
+            [
+              1787,
+              "[SIG] There is, strictly speaking, no public debt in Malta, but interest at 2½% is paid by the Government "
+            ],
+            [
+              2294,
+              "[SIG] Valletta, J. T. Rutter, M.D.‡"
+            ]
+          ]
+        }
+      },
+      "severity_score": 28,
+      "contaminated_range": "L1599-L2294",
+      "contaminated_pct": 28.4,
+      "key": "Leeward Islands_1927",
+      "year": 1927
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/WINDWARD_ISLANDS.txt",
+      "expected_colony": "Windward Islands",
+      "total_lines": 1001,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 2,
+          "lines": [
+            [
+              413,
+              "[SIG] Correspondence relating to the privilege of Franking Letters attached to the Office of Bishop of Col"
+            ],
+            [
+              515,
+              "[SIG] Ceylon.—Correspondence relating to the Compensation granted on the abolition of the privilege of fra"
+            ]
+          ]
+        },
+        "New South Wales": {
+          "hit_count": 1,
+          "lines": [
+            [
+              996,
+              "New South Wales."
+            ]
+          ]
+        },
+        "Cape of Good Hope": {
+          "hit_count": 1,
+          "lines": [
+            [
+              999,
+              "Cape of Good Hope."
+            ]
+          ]
+        }
+      },
+      "severity_score": 24,
+      "contaminated_range": "L413-L999",
+      "contaminated_pct": 58.6,
+      "key": "Windward Islands_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1925_manual_parsed/MAURITIUS.txt",
+      "expected_colony": "Mauritius",
+      "total_lines": 2572,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 2,
+          "lines": [
+            [
+              192,
+              "[SIG] The British India Steam Navigation Company runs an irregular service between Colombo and Mauritius. "
+            ],
+            [
+              211,
+              "[SIG] | Vid France. | Vid Colombo. |"
+            ]
+          ]
+        },
+        "Newfoundland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              823,
+              "NEWFOUNDLAND."
+            ]
+          ]
+        },
+        "New Zealand": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1217,
+              "NEW ZEALAND."
+            ]
+          ]
+        }
+      },
+      "severity_score": 24,
+      "contaminated_range": "L192-L1217",
+      "contaminated_pct": 39.9,
+      "key": "Mauritius_1925",
+      "year": 1925
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1946_manual_parsed/leeward_islands.txt",
+      "expected_colony": "Leeward Islands",
+      "total_lines": 1085,
+      "foreign_colonies": {
+        "Malta": {
+          "hit_count": 7,
+          "lines": [
+            [
+              783,
+              "### MALTA"
+            ],
+            [
+              798,
+              "[SIG] arms that the city of Valletta was built, strong enough to defy the Turkish attacks threatened yearl"
+            ],
+            [
+              814,
+              "[SIG] The island is highly cultivated. Besides products for home consumption, early potatoes, onions, cumi"
+            ],
+            [
+              818,
+              "[SIG] The chief town and capital is Valletta, having, with its suburbs of Floriana, Sliema, and St. Julian"
+            ],
+            [
+              832,
+              "[SIG] Motor bus services run between all the towns and villages. The telephone service is under Government"
+            ],
+            [
+              859,
+              "[SIG] Since 1937 a scheme for the collection and disposal of domestic refuse has been in operation in Vall"
+            ],
+            [
+              991,
+              "[SIG] There is, strictly speaking, no public debt in Malta, but interest at 2½ per cent. is paid by the Go"
+            ]
+          ]
+        },
+        "Ceylon": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1056,
+              "[SIG] 2nd Electoral Division—R. Bencini; A. F. Colombo, M.D.; G. G. Ganado, LL.D.; H. Jones; A. Schembri A"
+            ]
+          ]
+        }
+      },
+      "severity_score": 24,
+      "contaminated_range": "L783-L1056",
+      "contaminated_pct": 25.3,
+      "key": "Leeward Islands_1946",
+      "year": 1946
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/zanzibar.txt",
+      "expected_colony": "Zanzibar",
+      "total_lines": 605,
+      "foreign_colonies": {
+        "Basutoland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              260,
+              "BASUTOLAND"
+            ]
+          ]
+        },
+        "Malta": {
+          "hit_count": 1,
+          "lines": [
+            [
+              408,
+              "[SIG] | **MALTA .** | Governor and Commander-in-Chief. | Sir Gerald Creasy, K.C.M.G., O.B.E. | 13. 7.49 | "
+            ]
+          ]
+        },
+        "Mauritius": {
+          "hit_count": 1,
+          "lines": [
+            [
+              409,
+              "[SIG] | **MAURITIUS** | | Sir Hilary Blood, K.C.M.G. | 16. 5.49 | 26. 9.49 | Port Louis | Rs.50,000 | Rs.1"
+            ]
+          ]
+        },
+        "Cyprus": {
+          "hit_count": 1,
+          "lines": [
+            [
+              538,
+              "#### Cyprus"
+            ]
+          ]
+        }
+      },
+      "severity_score": 24,
+      "contaminated_range": "L260-L538",
+      "contaminated_pct": 46.1,
+      "key": "Zanzibar_1953",
+      "year": 1953
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1908_manual_parsed/NEW_SOUTH_WALES.txt",
+      "expected_colony": "New South Wales",
+      "total_lines": 2344,
+      "foreign_colonies": {
+        "South Australia": {
+          "hit_count": 1,
+          "lines": [
+            [
+              97,
+              "**South Australia**"
+            ]
+          ]
+        },
+        "Western Australia": {
+          "hit_count": 1,
+          "lines": [
+            [
+              109,
+              "**Western Australia**"
+            ]
+          ]
+        },
+        "Ceylon": {
+          "hit_count": 1,
+          "lines": [
+            [
+              415,
+              "[SIG] parts of the world, but the direct communication with Europe is chiefly by the vessels of the P. and"
+            ]
+          ]
+        }
+      },
+      "severity_score": 22,
+      "contaminated_range": "L97-L415",
+      "contaminated_pct": 13.6,
+      "key": "New South Wales_1908",
+      "year": 1908
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1880_manual_parsed/the_gold_coast_colony.txt",
+      "expected_colony": "Gold Coast",
+      "total_lines": 562,
+      "foreign_colonies": {
+        "Lagos": {
+          "hit_count": 2,
+          "lines": [
+            [
+              113,
+              "Lagos."
+            ],
+            [
+              141,
+              "Lagos."
+            ]
+          ]
+        }
+      },
+      "severity_score": 20,
+      "contaminated_range": "L113-L141",
+      "contaminated_pct": 5.2,
+      "key": "Gold Coast_1880",
+      "year": 1880
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1883_manual_parsed/south_australia.txt",
+      "expected_colony": "South Australia",
+      "total_lines": 2049,
+      "foreign_colonies": {
+        "Straits Settlements": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1276,
+              "### STRAITS SETTLEMENTS"
+            ]
+          ]
+        },
+        "Tasmania": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1518,
+              "### TASMANIA"
+            ]
+          ]
+        }
+      },
+      "severity_score": 20,
+      "contaminated_range": "L1276-L1518",
+      "contaminated_pct": 11.9,
+      "key": "South Australia_1883",
+      "year": 1883
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/BRITISH_GUIANA.txt",
+      "expected_colony": "British Guiana",
+      "total_lines": 2191,
+      "foreign_colonies": {
+        "British Honduras": {
+          "hit_count": 1,
+          "lines": [
+            [
+              778,
+              "BRITISH HONDURAS."
+            ]
+          ]
+        },
+        "Dominion of Canada": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1034,
+              "DOMINION OF CANADA."
+            ]
+          ]
+        }
+      },
+      "severity_score": 20,
+      "contaminated_range": "L778-L1034",
+      "contaminated_pct": 11.7,
+      "key": "British Guiana_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/GOLD_COAST.txt",
+      "expected_colony": "Gold Coast",
+      "total_lines": 479,
+      "foreign_colonies": {
+        "Lagos": {
+          "hit_count": 2,
+          "lines": [
+            [
+              149,
+              "**Lagos**"
+            ],
+            [
+              183,
+              "**Lagos**"
+            ]
+          ]
+        }
+      },
+      "severity_score": 20,
+      "contaminated_range": "L149-L183",
+      "contaminated_pct": 7.3,
+      "key": "Gold Coast_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/QUEENSLAND.txt",
+      "expected_colony": "Queensland",
+      "total_lines": 2001,
+      "foreign_colonies": {
+        "South Australia": {
+          "hit_count": 1,
+          "lines": [
+            [
+              538,
+              "SOUTH AUSTRALIA."
+            ]
+          ]
+        },
+        "Straits Settlements": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1895,
+              "Straits Settlements."
+            ]
+          ]
+        }
+      },
+      "severity_score": 20,
+      "contaminated_range": "L538-L1895",
+      "contaminated_pct": 67.9,
+      "key": "Queensland_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/newfoundland.txt",
+      "expected_colony": "Newfoundland",
+      "total_lines": 1443,
+      "foreign_colonies": {
+        "New South Wales": {
+          "hit_count": 2,
+          "lines": [
+            [
+              591,
+              "### NEW SOUTH WALES"
+            ],
+            [
+              957,
+              "## NEW SOUTH WALES"
+            ]
+          ]
+        }
+      },
+      "severity_score": 20,
+      "contaminated_range": "L591-L957",
+      "contaminated_pct": 25.4,
+      "key": "Newfoundland_1890",
+      "year": 1890
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1922_manual_parsed/WINDWARD_ISLANDS.txt",
+      "expected_colony": "Windward Islands",
+      "total_lines": 2206,
+      "foreign_colonies": {
+        "Zanzibar": {
+          "hit_count": 2,
+          "lines": [
+            [
+              970,
+              "ZANZIBAR."
+            ],
+            [
+              1070,
+              "ZANZIBAR."
+            ]
+          ]
+        }
+      },
+      "severity_score": 20,
+      "contaminated_range": "L970-L1070",
+      "contaminated_pct": 4.6,
+      "key": "Windward Islands_1922",
+      "year": 1922
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1946_manual_parsed/windward_islands.txt",
+      "expected_colony": "Windward Islands",
+      "total_lines": 1287,
+      "foreign_colonies": {
+        "Dominica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              815,
+              "DOMINICA"
+            ]
+          ]
+        },
+        "Zanzibar": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1027,
+              "**ZANZIBAR**"
+            ]
+          ]
+        }
+      },
+      "severity_score": 20,
+      "contaminated_range": "L815-L1027",
+      "contaminated_pct": 16.6,
+      "key": "Windward Islands_1946",
+      "year": 1946
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/windward_islands.txt",
+      "expected_colony": "Windward Islands",
+      "total_lines": 817,
+      "foreign_colonies": {
+        "Dominica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              648,
+              "DOMINICA"
+            ]
+          ]
+        },
+        "Zanzibar": {
+          "hit_count": 1,
+          "lines": [
+            [
+              801,
+              "Zanzibar"
+            ]
+          ]
+        }
+      },
+      "severity_score": 20,
+      "contaminated_range": "L648-L801",
+      "contaminated_pct": 18.8,
+      "key": "Windward Islands_1948",
+      "year": 1948
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/THE_WINDWARD_ISLANDS.txt",
+      "expected_colony": "Windward Islands",
+      "total_lines": 1003,
+      "foreign_colonies": {
+        "Dominica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              111,
+              "DOMINICA"
+            ]
+          ]
+        },
+        "Zanzibar": {
+          "hit_count": 1,
+          "lines": [
+            [
+              921,
+              "**ZANZIBAR**"
+            ]
+          ]
+        }
+      },
+      "severity_score": 20,
+      "contaminated_range": "L111-L921",
+      "contaminated_pct": 80.9,
+      "key": "Windward Islands_1954",
+      "year": 1954
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1932_manual_parsed/THE_LEEWARD_ISLANDS.txt",
+      "expected_colony": "Leeward Islands",
+      "total_lines": 2203,
+      "foreign_colonies": {
+        "Malta": {
+          "hit_count": 9,
+          "lines": [
+            [
+              1531,
+              "[SIG] arms that the city of Valletta was built, strong enough to defy the Turkish attacks threatened yearl"
+            ],
+            [
+              1545,
+              "[SIG] The island is highly cultivated. Besides products for home consumption, early potatoes, onions, cumi"
+            ],
+            [
+              1549,
+              "[SIG] The chief town and capital is Valletta, having, with its suburbs of Floriana, Sliema, and St. Julian"
+            ],
+            [
+              1561,
+              "[SIG] The railway, which is of metre gauge, is 7¼ miles long; it was originally built by the Malta Railway"
+            ],
+            [
+              1584,
+              "[SIG] traffic. Electric lighting has been installed, and current is being supplied to the following places"
+            ],
+            [
+              1590,
+              "[SIG] By Letters Patent dated April 14th, 1921, responsible government was established in Malta. The Lette"
+            ],
+            [
+              1594,
+              "[SIG] The Legislature.—The Senate consists of seventeen members, eight of whom form a quorum. Ten of the s"
+            ],
+            [
+              1707,
+              "[SIG] March, 1931, of the debt known as \"Massa Frumentaria,\" incurred by the Municipality of Valletta unde"
+            ],
+            [
+              2087,
+              "[SIG] Valletta, C. Calamatta, M.D."
+            ]
+          ]
+        }
+      },
+      "severity_score": 18,
+      "contaminated_range": "L1531-L2087",
+      "contaminated_pct": 25.3,
+      "key": "Leeward Islands_1932",
+      "year": 1932
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1908_manual_parsed/MAURITIUS.txt",
+      "expected_colony": "Mauritius",
+      "total_lines": 1708,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 2,
+          "lines": [
+            [
+              143,
+              "[SIG] The British India Steam Navigation Company provides a direct four-weekly service between Colombo and"
+            ],
+            [
+              158,
+              "[SIG] | Via France. | Via Colombo. |"
+            ]
+          ]
+        },
+        "Natal": {
+          "hit_count": 1,
+          "lines": [
+            [
+              983,
+              "Natal."
+            ]
+          ]
+        },
+        "Cape of Good Hope": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1150,
+              "[SIG] A branch line runs from Pietermaritzburg (the Natal Trunk Line Junction) to Creighton, a distance of"
+            ]
+          ]
+        }
+      },
+      "severity_score": 16,
+      "contaminated_range": "L143-L1150",
+      "contaminated_pct": 59.0,
+      "key": "Mauritius_1908",
+      "year": 1908
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/somaliland_protectorate.txt",
+      "expected_colony": "British Somaliland",
+      "total_lines": 2557,
+      "foreign_colonies": {
+        "Cape of Good Hope": {
+          "hit_count": 8,
+          "lines": [
+            [
+              437,
+              "[SIG] | Griqualand | John Gavin King |"
+            ],
+            [
+              897,
+              "[SIG] Griqualand West Local Division."
+            ],
+            [
+              1306,
+              "[SIG] On the 15th October, 1880, the Province of Griqualand West was incorporated with the Cape Colony."
+            ],
+            [
+              1486,
+              "[SIG] The diamond fields of South Africa are situated in the territory known as Griqualand West, which bec"
+            ],
+            [
+              1529,
+              "[SIG] The geological survey of the Colony was begun in 1896. The area mapped includes all that to the sout"
+            ],
+            [
+              1593,
+              "[SIG] The district of Mount Ayliff, or the Xesibe country, after having long been administered as a depend"
+            ],
+            [
+              1597,
+              "[SIG] Griqualand East has nine subordinate magistrates. Its population at the Census of 1904 was—Europeans"
+            ],
+            [
+              1683,
+              "[SIG] Griqualand . . . . . . H. Nourse"
+            ]
+          ]
+        }
+      },
+      "severity_score": 16,
+      "contaminated_range": "L437-L1683",
+      "contaminated_pct": 48.8,
+      "key": "British Somaliland_1911",
+      "year": 1911
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1940_manual_parsed/CYPRUS.txt",
+      "expected_colony": "Cyprus",
+      "total_lines": 1246,
+      "foreign_colonies": {
+        "Malta": {
+          "hit_count": 1,
+          "lines": [
+            [
+              14,
+              "[SIG] and 1,117 miles from Valletta in Malta."
+            ]
+          ]
+        },
+        "Falkland Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              907,
+              "FALKLAND ISLANDS."
+            ]
+          ]
+        },
+        "Mauritius": {
+          "hit_count": 2,
+          "lines": [
+            [
+              919,
+              "[SIG] The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1764 Bougainville"
+            ],
+            [
+              923,
+              "[SIG] In 1833 occupation of the islands was resumed by the British Government. Until 1843, they were under"
+            ]
+          ]
+        }
+      },
+      "severity_score": 16,
+      "contaminated_range": "L14-L923",
+      "contaminated_pct": 73.0,
+      "key": "Cyprus_1940",
+      "year": 1940
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/VICTORIA.txt",
+      "expected_colony": "Victoria",
+      "total_lines": 801,
+      "foreign_colonies": {
+        "Cape of Good Hope": {
+          "hit_count": 1,
+          "lines": [
+            [
+              668,
+              "[SIG] On the 30th September, 1885, the territory south of the Molopo River and of the Ramatlalabama Spruit"
+            ]
+          ]
+        },
+        "Cyprus": {
+          "hit_count": 1,
+          "lines": [
+            [
+              770,
+              "CYPRUS."
+            ]
+          ]
+        },
+        "Malta": {
+          "hit_count": 1,
+          "lines": [
+            [
+              774,
+              "[SIG] The island of Cyprus is situated in the easternmost basin of the Mediterranean Sea, with Asia Minor "
+            ]
+          ]
+        }
+      },
+      "severity_score": 14,
+      "contaminated_range": "L668-L774",
+      "contaminated_pct": 13.4,
+      "key": "Victoria_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1900_manual_parsed/LEEWARD_ISLANDS.txt",
+      "expected_colony": "Leeward Islands",
+      "total_lines": 1807,
+      "foreign_colonies": {
+        "Malta": {
+          "hit_count": 7,
+          "lines": [
+            [
+              1250,
+              "[SIG] The Maltese Islands form a group in the Mediterranean Sea, about 58 miles from the nearest point of "
+            ],
+            [
+              1265,
+              "[SIG] The island is highly cultivated; its principal products are cotton, potatoes, and corn; the wine is "
+            ],
+            [
+              1269,
+              "[SIG] The population, according to the census, 1891, is 177,457, including garrison, Royal Navy, and merch"
+            ],
+            [
+              1281,
+              "[SIG] There is a railway 8 miles in length and 3 feet 3 inches gauge, now belonging to the Malta Governmen"
+            ],
+            [
+              1313,
+              "[SIG] The drainage of the fortified towns, which was commenced in 1876 at the joint charge of the Colonial"
+            ],
+            [
+              1328,
+              "[SIG] Malta is the principal naval station in the Mediterranean, and is strongly fortified. Valletta is de"
+            ],
+            [
+              1712,
+              "[SIG] Valletta, A. Portelli Carbone, M.D. (2nd class), 80l."
+            ]
+          ]
+        }
+      },
+      "severity_score": 14,
+      "contaminated_range": "L1250-L1712",
+      "contaminated_pct": 25.6,
+      "key": "Leeward Islands_1900",
+      "year": 1900
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1922_manual_parsed/MAURITIUS.txt",
+      "expected_colony": "Mauritius",
+      "total_lines": 1304,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 2,
+          "lines": [
+            [
+              176,
+              "[SIG] The British India Steam Navigation Company used to provide a direct four-weekly service between Colo"
+            ],
+            [
+              196,
+              "[SIG] | Vid France. | Vid Colombo. |"
+            ]
+          ]
+        },
+        "Newfoundland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              835,
+              "Newfoundland."
+            ]
+          ]
+        }
+      },
+      "severity_score": 14,
+      "contaminated_range": "L176-L835",
+      "contaminated_pct": 50.6,
+      "key": "Mauritius_1922",
+      "year": 1922
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/NEWFOUNDLAND.txt",
+      "expected_colony": "Newfoundland",
+      "total_lines": 2607,
+      "foreign_colonies": {
+        "New Zealand": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1681,
+              "NEW ZEALAND."
+            ]
+          ]
+        },
+        "Cape of Good Hope": {
+          "hit_count": 2,
+          "lines": [
+            [
+              2511,
+              "[SIG] The District of Mount Ayliff, or the Xesibe country, after having long been administered as a depend"
+            ],
+            [
+              2513,
+              "[SIG] The whole of these territories are now within the Province of the Cape of Good Hope and are grouped "
+            ]
+          ]
+        }
+      },
+      "severity_score": 14,
+      "contaminated_range": "L1681-L2513",
+      "contaminated_pct": 32.0,
+      "key": "Newfoundland_1927",
+      "year": 1927
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1946_manual_parsed/falkland_islands.txt",
+      "expected_colony": "Falkland Islands",
+      "total_lines": 255,
+      "foreign_colonies": {
+        "Mauritius": {
+          "hit_count": 2,
+          "lines": [
+            [
+              13,
+              "[SIG] The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1764 Bougainville"
+            ],
+            [
+              17,
+              "[SIG] In 1833 occupation of the islands was resumed by the British Government. Until 1843, they were under"
+            ]
+          ]
+        },
+        "Fiji": {
+          "hit_count": 1,
+          "lines": [
+            [
+              246,
+              "**FIJI**"
+            ]
+          ]
+        }
+      },
+      "severity_score": 14,
+      "contaminated_range": "L13-L246",
+      "contaminated_pct": 91.8,
+      "key": "Falkland Islands_1946",
+      "year": 1946
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/ZANZIBAR.txt",
+      "expected_colony": "Zanzibar",
+      "total_lines": 1388,
+      "foreign_colonies": {
+        "Basutoland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              322,
+              "**BASUTOLAND**"
+            ]
+          ]
+        },
+        "Malta": {
+          "hit_count": 1,
+          "lines": [
+            [
+              449,
+              "[SIG] | Malta    | Governor and Commander-in-Chief, Major-General Sir Robert Laycock, K.C.M.G., C.B., D.S."
+            ]
+          ]
+        },
+        "Ceylon": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1323,
+              "[SIG] All the British dependent territories in South-East Asia (with the exception of the small protected "
+            ]
+          ]
+        }
+      },
+      "severity_score": 14,
+      "contaminated_range": "L322-L1323",
+      "contaminated_pct": 72.2,
+      "key": "Zanzibar_1956",
+      "year": 1956
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/falkland_islands.txt",
+      "expected_colony": "Falkland Islands",
+      "total_lines": 567,
+      "foreign_colonies": {
+        "Mauritius": {
+          "hit_count": 1,
+          "lines": [
+            [
+              15,
+              "[SIG] In 1833 they were taken possession of by the British Government, for the protection of the Whale Fis"
+            ]
+          ]
+        },
+        "Fiji": {
+          "hit_count": 1,
+          "lines": [
+            [
+              197,
+              "### FIJI"
+            ]
+          ]
+        }
+      },
+      "severity_score": 12,
+      "contaminated_range": "L15-L197",
+      "contaminated_pct": 32.3,
+      "key": "Falkland Islands_1890",
+      "year": 1890
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/virgin_islands.txt",
+      "expected_colony": "Virgin Islands",
+      "total_lines": 602,
+      "foreign_colonies": {
+        "Malta": {
+          "hit_count": 6,
+          "lines": [
+            [
+              176,
+              "[SIG] The Maltese Islands form a group in the Mediterranean Sea, about 58 miles from the nearest point of "
+            ],
+            [
+              190,
+              "[SIG] The island is highly cultivated; its principal products are cotton, potatoes, and corn; the vine is "
+            ],
+            [
+              195,
+              "[SIG] The chief town and capital is Valletta, having with its suburbs of Floriana, Sliema, a population of"
+            ],
+            [
+              207,
+              "[SIG] There is a railway 7½ miles in length and 3 feet 3 in. gauge, belonging to the Malta Railway Company"
+            ],
+            [
+              233,
+              "[SIG] Mediterranean, and is strongly fortified. Valletta is defended by massive and extensive works, and t"
+            ],
+            [
+              469,
+              "[SIG] Valletta, P. Grillet, M.D. (1st class), 140l."
+            ]
+          ]
+        }
+      },
+      "severity_score": 12,
+      "contaminated_range": "L176-L469",
+      "contaminated_pct": 48.8,
+      "key": "Virgin Islands_1890",
+      "year": 1890
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/AUSTRALIA.txt",
+      "expected_colony": "Australia",
+      "total_lines": 10580,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1176,
+              "[SIG] Of inland rivers the Murray, Darling, Murrumbidgees, and Lachlan are navigable most of the year for "
+            ]
+          ]
+        },
+        "Dominion of Canada": {
+          "hit_count": 1,
+          "lines": [
+            [
+              7858,
+              "DOMINION OF CANADA."
+            ]
+          ]
+        }
+      },
+      "severity_score": 12,
+      "contaminated_range": "L1176-L7858",
+      "contaminated_pct": 63.2,
+      "key": "Australia_1927",
+      "year": 1927
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/CEYLON.txt",
+      "expected_colony": "Ceylon",
+      "total_lines": 2115,
+      "foreign_colonies": {
+        "Cyprus": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1371,
+              "Cyprus."
+            ]
+          ]
+        },
+        "Malta": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1375,
+              "[SIG] The Island of Cyprus is situated in the easternmost basin of the Mediterranean Sea, with Asia Minor "
+            ]
+          ]
+        }
+      },
+      "severity_score": 12,
+      "contaminated_range": "L1371-L1375",
+      "contaminated_pct": 0.2,
+      "key": "Ceylon_1927",
+      "year": 1927
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1928_manual_parsed/CEYLON.txt",
+      "expected_colony": "Ceylon",
+      "total_lines": 2400,
+      "foreign_colonies": {
+        "Cyprus": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1627,
+              "CYPRUS."
+            ]
+          ]
+        },
+        "Malta": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1631,
+              "[SIG] The Island of Cyprus is situated in the easternmost basin of the Mediterranean Sea, with Asia Minor "
+            ]
+          ]
+        }
+      },
+      "severity_score": 12,
+      "contaminated_range": "L1627-L1631",
+      "contaminated_pct": 0.2,
+      "key": "Ceylon_1928",
+      "year": 1928
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1929_manual_parsed/SEYCHELLES.txt",
+      "expected_colony": "Seychelles",
+      "total_lines": 345,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 1,
+          "lines": [
+            [
+              48,
+              "[SIG] Telegraphic communication with Mauritius and Europe via Zanzibar was completed in November, 1893. Di"
+            ]
+          ]
+        },
+        "Sierra Leone": {
+          "hit_count": 1,
+          "lines": [
+            [
+              284,
+              "SIERRA LEONE."
+            ]
+          ]
+        }
+      },
+      "severity_score": 12,
+      "contaminated_range": "L48-L284",
+      "contaminated_pct": 68.7,
+      "key": "Seychelles_1929",
+      "year": 1929
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1939_manual_parsed/ZANZIBAR.txt",
+      "expected_colony": "Zanzibar",
+      "total_lines": 280,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 1,
+          "lines": [
+            [
+              175,
+              "[SIG] Air Mail and Passenger Services are maintained by the Pan American Airways Inc. with the United Stat"
+            ]
+          ]
+        },
+        "Tobago": {
+          "hit_count": 1,
+          "lines": [
+            [
+              207,
+              "TOBAGO."
+            ]
+          ]
+        }
+      },
+      "severity_score": 12,
+      "contaminated_range": "L175-L207",
+      "contaminated_pct": 11.8,
+      "key": "Zanzibar_1939",
+      "year": 1939
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1946_manual_parsed/gambia.txt",
+      "expected_colony": "Gambia",
+      "total_lines": 467,
+      "foreign_colonies": {
+        "Gibraltar": {
+          "hit_count": 1,
+          "lines": [
+            [
+              291,
+              "**GIBRALTAR**"
+            ]
+          ]
+        },
+        "Ceylon": {
+          "hit_count": 1,
+          "lines": [
+            [
+              454,
+              "[SIG] Cuba—J. Colombo (Consular Agent)."
+            ]
+          ]
+        }
+      },
+      "severity_score": 12,
+      "contaminated_range": "L291-L454",
+      "contaminated_pct": 35.1,
+      "key": "Gambia_1946",
+      "year": 1946
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1877_manual_parsed/NEWFOUNDLAND.txt",
+      "expected_colony": "Newfoundland",
+      "total_lines": 665,
+      "foreign_colonies": {
+        "New South Wales": {
+          "hit_count": 1,
+          "lines": [
+            [
+              529,
+              "### NEW SOUTH WALES"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L529-L529",
+      "contaminated_pct": 0.2,
+      "key": "Newfoundland_1877",
+      "year": 1877
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1877_manual_parsed/THE_LEEWARD_ISLANDS.txt",
+      "expected_colony": "Leeward Islands",
+      "total_lines": 1249,
+      "foreign_colonies": {
+        "Malta": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1247,
+              "**MALTA**"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L1247-L1247",
+      "contaminated_pct": 0.1,
+      "key": "Leeward Islands_1877",
+      "year": 1877
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1877_manual_parsed/WEST_AFRICA_SETTLEMENTS.txt",
+      "expected_colony": "West Africa Settlements",
+      "total_lines": 394,
+      "foreign_colonies": {
+        "Sierra Leone": {
+          "hit_count": 1,
+          "lines": [
+            [
+              5,
+              "SIERRA LEONE."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L5-L5",
+      "contaminated_pct": 0.3,
+      "key": "West Africa Settlements_1877",
+      "year": 1877
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1878_manual_parsed/CEYLON.txt",
+      "expected_colony": "Ceylon",
+      "total_lines": 574,
+      "foreign_colonies": {
+        "Dominica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              570,
+              "DOMINICA."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L570-L570",
+      "contaminated_pct": 0.2,
+      "key": "Ceylon_1878",
+      "year": 1878
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1878_manual_parsed/LABUAN.txt",
+      "expected_colony": "Labuan",
+      "total_lines": 374,
+      "foreign_colonies": {
+        "Antigua": {
+          "hit_count": 1,
+          "lines": [
+            [
+              305,
+              "ANTIGUA."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L305-L305",
+      "contaminated_pct": 0.3,
+      "key": "Labuan_1878",
+      "year": 1878
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1878_manual_parsed/TASMANIA.txt",
+      "expected_colony": "Tasmania",
+      "total_lines": 597,
+      "foreign_colonies": {
+        "Tobago": {
+          "hit_count": 1,
+          "lines": [
+            [
+              593,
+              "TOBAGO:"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L593-L593",
+      "contaminated_pct": 0.2,
+      "key": "Tasmania_1878",
+      "year": 1878
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1879_manual_parsed/lagos.txt",
+      "expected_colony": "Lagos",
+      "total_lines": 468,
+      "foreign_colonies": {
+        "Gold Coast": {
+          "hit_count": 1,
+          "lines": [
+            [
+              51,
+              "Gold Coast."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L51-L51",
+      "contaminated_pct": 0.2,
+      "key": "Lagos_1879",
+      "year": 1879
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1883_manual_parsed/falkland_islands.txt",
+      "expected_colony": "Falkland Islands",
+      "total_lines": 385,
+      "foreign_colonies": {
+        "Fiji": {
+          "hit_count": 1,
+          "lines": [
+            [
+              119,
+              "### FIJI"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L119-L119",
+      "contaminated_pct": 0.3,
+      "key": "Falkland Islands_1883",
+      "year": 1883
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1883_manual_parsed/lagos.txt",
+      "expected_colony": "Lagos",
+      "total_lines": 543,
+      "foreign_colonies": {
+        "Gold Coast": {
+          "hit_count": 1,
+          "lines": [
+            [
+              79,
+              "GOLD COAST."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L79-L79",
+      "contaminated_pct": 0.2,
+      "key": "Lagos_1883",
+      "year": 1883
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/BERMUDA.txt",
+      "expected_colony": "Bermuda",
+      "total_lines": 1055,
+      "foreign_colonies": {
+        "Barbados": {
+          "hit_count": 1,
+          "lines": [
+            [
+              242,
+              "BARBADOS."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L242-L242",
+      "contaminated_pct": 0.1,
+      "key": "Bermuda_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/JAMAICA.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 1144,
+      "foreign_colonies": {
+        "Labuan": {
+          "hit_count": 1,
+          "lines": [
+            [
+              873,
+              "LABUAN."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L873-L873",
+      "contaminated_pct": 0.1,
+      "key": "Jamaica_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/NATAL.txt",
+      "expected_colony": "Natal",
+      "total_lines": 801,
+      "foreign_colonies": {
+        "Newfoundland": {
+          "hit_count": 1,
+          "lines": [
+            [
+              721,
+              "NEWFOUNDLAND."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L721-L721",
+      "contaminated_pct": 0.1,
+      "key": "Natal_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/TASMANIA.txt",
+      "expected_colony": "Tasmania",
+      "total_lines": 1001,
+      "foreign_colonies": {
+        "Sierra Leone": {
+          "hit_count": 1,
+          "lines": [
+            [
+              384,
+              "SIERRA LEONE."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L384-L384",
+      "contaminated_pct": 0.1,
+      "key": "Tasmania_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1886_manual_parsed/TRINIDAD.txt",
+      "expected_colony": "Trinidad",
+      "total_lines": 1001,
+      "foreign_colonies": {
+        "Western Australia": {
+          "hit_count": 1,
+          "lines": [
+            [
+              49,
+              "WESTERN AUSTRALIA"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L49-L49",
+      "contaminated_pct": 0.1,
+      "key": "Trinidad_1886",
+      "year": 1886
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1888_manual_parsed/NEWFOUNDLAND.txt",
+      "expected_colony": "Newfoundland",
+      "total_lines": 988,
+      "foreign_colonies": {
+        "New South Wales": {
+          "hit_count": 1,
+          "lines": [
+            [
+              681,
+              "### NEW SOUTH WALES"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L681-L681",
+      "contaminated_pct": 0.1,
+      "key": "Newfoundland_1888",
+      "year": 1888
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/labuan.txt",
+      "expected_colony": "Labuan",
+      "total_lines": 467,
+      "foreign_colonies": {
+        "Lagos": {
+          "hit_count": 1,
+          "lines": [
+            [
+              119,
+              "### Lagos"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L119-L119",
+      "contaminated_pct": 0.2,
+      "key": "Labuan_1890",
+      "year": 1890
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1890_manual_parsed/queensland.txt",
+      "expected_colony": "Queensland",
+      "total_lines": 1124,
+      "foreign_colonies": {
+        "Sierra Leone": {
+          "hit_count": 1,
+          "lines": [
+            [
+              707,
+              "Sierra Leone."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L707-L707",
+      "contaminated_pct": 0.1,
+      "key": "Queensland_1890",
+      "year": 1890
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1894_manual_parsed/labuan.txt",
+      "expected_colony": "Labuan",
+      "total_lines": 471,
+      "foreign_colonies": {
+        "Lagos": {
+          "hit_count": 1,
+          "lines": [
+            [
+              110,
+              "### Lagos"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L110-L110",
+      "contaminated_pct": 0.2,
+      "key": "Labuan_1894",
+      "year": 1894
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1894_manual_parsed/tobago.txt",
+      "expected_colony": "Tobago",
+      "total_lines": 332,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              147,
+              "### TURKS AND CAICOS ISLANDS."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L147-L147",
+      "contaminated_pct": 0.3,
+      "key": "Tobago_1894",
+      "year": 1894
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1894_manual_parsed/virgin_islands.txt",
+      "expected_colony": "Virgin Islands",
+      "total_lines": 549,
+      "foreign_colonies": {
+        "Malta": {
+          "hit_count": 5,
+          "lines": [
+            [
+              111,
+              "[SIG] The Maltese Islands form a group in the Mediterranean Sea, about 58 miles from the nearest point of "
+            ],
+            [
+              125,
+              "[SIG] The island is highly cultivated; its principal products are cotton, potatoes, and corn; the vine is "
+            ],
+            [
+              129,
+              "[SIG] The population, according to the census, 1891, is 177,225, including garrison and Royal Navy. The ch"
+            ],
+            [
+              165,
+              "[SIG] Malta is the principal naval station in the Mediterranean, and is strongly fortified. Valletta is de"
+            ],
+            [
+              381,
+              "[SIG] Valletta, A. Portelli Carbone, M.D. (2nd class), 65l."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L111-L381",
+      "contaminated_pct": 49.4,
+      "key": "Virgin Islands_1894",
+      "year": 1894
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1894_manual_parsed/zululand.txt",
+      "expected_colony": "Zululand",
+      "total_lines": 188,
+      "foreign_colonies": {
+        "Zanzibar": {
+          "hit_count": 1,
+          "lines": [
+            [
+              153,
+              "Zanzibar."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L153-L153",
+      "contaminated_pct": 0.5,
+      "key": "Zululand_1894",
+      "year": 1894
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1896_manual_parsed/british_east_africa_and_zanzibar.txt",
+      "expected_colony": "British East Africa and Zanzibar",
+      "total_lines": 52,
+      "foreign_colonies": {
+        "Zanzibar": {
+          "hit_count": 1,
+          "lines": [
+            [
+              7,
+              "Zanzibar."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L7-L7",
+      "contaminated_pct": 1.9,
+      "key": "British East Africa and Zanzibar_1896",
+      "year": 1896
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1899_manual_parsed/gambia.txt",
+      "expected_colony": "Gambia",
+      "total_lines": 478,
+      "foreign_colonies": {
+        "Gibraltar": {
+          "hit_count": 1,
+          "lines": [
+            [
+              257,
+              "GIBRALTAR."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L257-L257",
+      "contaminated_pct": 0.2,
+      "key": "Gambia_1899",
+      "year": 1899
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1899_manual_parsed/leeward_islands.txt",
+      "expected_colony": "Leeward Islands",
+      "total_lines": 1610,
+      "foreign_colonies": {
+        "Malta": {
+          "hit_count": 5,
+          "lines": [
+            [
+              1150,
+              "[SIG] The Maltese Islands form a group in the Mediterranean Sea, about 58 miles from the nearest point of "
+            ],
+            [
+              1164,
+              "[SIG] The island is highly cultivated; its principal products are cotton, potatoes, and corn; the vine is "
+            ],
+            [
+              1168,
+              "[SIG] The population, according to the census, 1891, is 177,457, including garrison, Royal Navy, and merch"
+            ],
+            [
+              1194,
+              "[SIG] The drainage of the fortified towns, which was commenced in 1876 at the joint charge of the Colonial"
+            ],
+            [
+              1437,
+              "[SIG] Valletta, A. Portelli Carbone, M.D. (2nd class), 70l."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L1150-L1437",
+      "contaminated_pct": 17.9,
+      "key": "Leeward Islands_1899",
+      "year": 1899
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1900_manual_parsed/GRENADE.txt",
+      "expected_colony": "Grenada",
+      "total_lines": 906,
+      "foreign_colonies": {
+        "British East Africa": {
+          "hit_count": 1,
+          "lines": [
+            [
+              903,
+              "BRITISH EAST AFRICA."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L903-L903",
+      "contaminated_pct": 0.1,
+      "key": "Grenada_1900",
+      "year": 1900
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1900_manual_parsed/TASMANIA.txt",
+      "expected_colony": "Tasmania",
+      "total_lines": 551,
+      "foreign_colonies": {
+        "Tobago": {
+          "hit_count": 1,
+          "lines": [
+            [
+              467,
+              "TOBAGO."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L467-L467",
+      "contaminated_pct": 0.2,
+      "key": "Tasmania_1900",
+      "year": 1900
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1908_manual_parsed/SOUTHERN_NIGERIA.txt",
+      "expected_colony": "Southern Nigeria",
+      "total_lines": 849,
+      "foreign_colonies": {
+        "Lagos": {
+          "hit_count": 1,
+          "lines": [
+            [
+              404,
+              "Lagos."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L404-L404",
+      "contaminated_pct": 0.1,
+      "key": "Southern Nigeria_1908",
+      "year": 1908
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/british_honduras.txt",
+      "expected_colony": "British Honduras",
+      "total_lines": 3352,
+      "foreign_colonies": {
+        "Dominion of Canada": {
+          "hit_count": 1,
+          "lines": [
+            [
+              355,
+              "DOMINION OF CANADA."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L355-L355",
+      "contaminated_pct": 0.0,
+      "key": "British Honduras_1911",
+      "year": 1911
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/cook_islands.txt",
+      "expected_colony": "Cook Islands",
+      "total_lines": 823,
+      "foreign_colonies": {
+        "New Zealand": {
+          "hit_count": 1,
+          "lines": [
+            [
+              696,
+              "NEW ZEALAND."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L696-L696",
+      "contaminated_pct": 0.1,
+      "key": "Cook Islands_1911",
+      "year": 1911
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1911_manual_parsed/newfoundland.txt",
+      "expected_colony": "Newfoundland",
+      "total_lines": 605,
+      "foreign_colonies": {
+        "New Zealand": {
+          "hit_count": 1,
+          "lines": [
+            [
+              359,
+              "NEW ZEALAND."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L359-L359",
+      "contaminated_pct": 0.2,
+      "key": "Newfoundland_1911",
+      "year": 1911
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1912_manual_parsed/TRINIDAD_AND_TOBAGO.txt",
+      "expected_colony": "Trinidad and Tobago",
+      "total_lines": 195,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1,
+              "TURKS AND CAICOS ISLANDS."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L1-L1",
+      "contaminated_pct": 0.5,
+      "key": "Trinidad and Tobago_1912",
+      "year": 1912
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1921_manual_parsed/tobago.txt",
+      "expected_colony": "Tobago",
+      "total_lines": 1440,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1266,
+              "Turks and Caicos Islands."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L1266-L1266",
+      "contaminated_pct": 0.1,
+      "key": "Tobago_1921",
+      "year": 1921
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1923_manual_parsed/british_honduras.txt",
+      "expected_colony": "British Honduras",
+      "total_lines": 3707,
+      "foreign_colonies": {
+        "Dominion of Canada": {
+          "hit_count": 1,
+          "lines": [
+            [
+              372,
+              "DOMINION OF CANADA."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L372-L372",
+      "contaminated_pct": 0.0,
+      "key": "British Honduras_1923",
+      "year": 1923
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1923_manual_parsed/jamaica.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 1229,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1057,
+              "TURKS AND CAICOS ISLANDS."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L1057-L1057",
+      "contaminated_pct": 0.1,
+      "key": "Jamaica_1923",
+      "year": 1923
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1923_manual_parsed/st_helena.txt",
+      "expected_colony": "St Helena",
+      "total_lines": 473,
+      "foreign_colonies": {
+        "Seychelles": {
+          "hit_count": 1,
+          "lines": [
+            [
+              182,
+              "### SEYCHELLES."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L182-L182",
+      "contaminated_pct": 0.2,
+      "key": "St Helena_1923",
+      "year": 1923
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1925_manual_parsed/BRITISH_HONDURAS.txt",
+      "expected_colony": "British Honduras",
+      "total_lines": 3899,
+      "foreign_colonies": {
+        "Dominion of Canada": {
+          "hit_count": 1,
+          "lines": [
+            [
+              380,
+              "DOMINION OF CANADA."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L380-L380",
+      "contaminated_pct": 0.0,
+      "key": "British Honduras_1925",
+      "year": 1925
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1925_manual_parsed/JAMAICA.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 1277,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1084,
+              "TURKS AND CAICOS ISLANDS."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L1084-L1084",
+      "contaminated_pct": 0.1,
+      "key": "Jamaica_1925",
+      "year": 1925
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/CAYMAN_ISLANDS.txt",
+      "expected_colony": "Cayman Islands",
+      "total_lines": 507,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              41,
+              "TURKS AND CAICOS ISLANDS."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L41-L41",
+      "contaminated_pct": 0.2,
+      "key": "Cayman Islands_1927",
+      "year": 1927
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/HONG_KONG.txt",
+      "expected_colony": "Hong Kong",
+      "total_lines": 645,
+      "foreign_colonies": {
+        "Jamaica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              542,
+              "**JAMAICA**"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L542-L542",
+      "contaminated_pct": 0.2,
+      "key": "Hong Kong_1927",
+      "year": 1927
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/NATAL.txt",
+      "expected_colony": "Natal",
+      "total_lines": 1881,
+      "foreign_colonies": {
+        "Cape of Good Hope": {
+          "hit_count": 5,
+          "lines": [
+            [
+              698,
+              "[SIG] Griqualand West Local Division."
+            ],
+            [
+              997,
+              "[SIG] On the 15th October, 1880, the Province of Griqualand West was incorporated with the Cape Colony."
+            ],
+            [
+              1018,
+              "[SIG] The preliminary figures for the European Census of 1926, are:—Cape Province proper, 688,875; E. Griq"
+            ],
+            [
+              1020,
+              "[SIG] The Census of 1921 showed the following European population: Colony proper, 636,631; E. Griqualand, "
+            ],
+            [
+              1133,
+              "[SIG] Griqualand . . . . . P. A. Myburgh."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L698-L1133",
+      "contaminated_pct": 23.2,
+      "key": "Natal_1927",
+      "year": 1927
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1929_manual_parsed/BRITISH_GUIANA.txt",
+      "expected_colony": "British Guiana",
+      "total_lines": 898,
+      "foreign_colonies": {
+        "British Honduras": {
+          "hit_count": 1,
+          "lines": [
+            [
+              842,
+              "BRITISH HONDURAS."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L842-L842",
+      "contaminated_pct": 0.1,
+      "key": "British Guiana_1929",
+      "year": 1929
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1929_manual_parsed/JAMAICA.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 1157,
+      "foreign_colonies": {
+        "Sierra Leone": {
+          "hit_count": 1,
+          "lines": [
+            [
+              171,
+              "Sierra Leone"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L171-L171",
+      "contaminated_pct": 0.1,
+      "key": "Jamaica_1929",
+      "year": 1929
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1930_manual_parsed/THE_LEEWARD_ISLANDS.txt",
+      "expected_colony": "Leeward Islands",
+      "total_lines": 1543,
+      "foreign_colonies": {
+        "Barbados": {
+          "hit_count": 1,
+          "lines": [
+            [
+              468,
+              "Barbados"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L468-L468",
+      "contaminated_pct": 0.1,
+      "key": "Leeward Islands_1930",
+      "year": 1930
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1931_manual_parsed/JAMAICA.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 1611,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              970,
+              "TURKS AND CAICOS ISLANDS."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L970-L970",
+      "contaminated_pct": 0.1,
+      "key": "Jamaica_1931",
+      "year": 1931
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1931_manual_parsed/THE_LEEWARD_ISLANDS.txt",
+      "expected_colony": "Leeward Islands",
+      "total_lines": 1777,
+      "foreign_colonies": {
+        "Barbados": {
+          "hit_count": 1,
+          "lines": [
+            [
+              465,
+              "Barbados"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L465-L465",
+      "contaminated_pct": 0.1,
+      "key": "Leeward Islands_1931",
+      "year": 1931
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1936_manual_parsed/MALAYA_FEDERATED_MALAY_STATES.txt",
+      "expected_colony": "Federated Malay States",
+      "total_lines": 1236,
+      "foreign_colonies": {
+        "Straits Settlements": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1173,
+              "STRAITS SETTLEMENTS."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L1173-L1173",
+      "contaminated_pct": 0.1,
+      "key": "Federated Malay States_1936",
+      "year": 1936
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1937_manual_parsed/THE_LEEWARD_ISLANDS.txt",
+      "expected_colony": "Leeward Islands",
+      "total_lines": 1452,
+      "foreign_colonies": {
+        "Barbados": {
+          "hit_count": 1,
+          "lines": [
+            [
+              464,
+              "Barbados"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L464-L464",
+      "contaminated_pct": 0.1,
+      "key": "Leeward Islands_1937",
+      "year": 1937
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1940_manual_parsed/CAYMAN_ISLANDS.txt",
+      "expected_colony": "Cayman Islands",
+      "total_lines": 66,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              36,
+              "TURKS AND CAICOS ISLANDS."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L36-L36",
+      "contaminated_pct": 1.5,
+      "key": "Cayman Islands_1940",
+      "year": 1940
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1940_manual_parsed/THE_WINDWARD_ISLANDS.txt",
+      "expected_colony": "Windward Islands",
+      "total_lines": 1244,
+      "foreign_colonies": {
+        "Dominica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              930,
+              "DOMINICA."
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L930-L930",
+      "contaminated_pct": 0.1,
+      "key": "Windward Islands_1940",
+      "year": 1940
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1946_manual_parsed/jamaica.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 1030,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              727,
+              "### Turks and Caicos Islands"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L727-L727",
+      "contaminated_pct": 0.1,
+      "key": "Jamaica_1946",
+      "year": 1946
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/brunei.txt",
+      "expected_colony": "Brunei",
+      "total_lines": 580,
+      "foreign_colonies": {
+        "Cyprus": {
+          "hit_count": 1,
+          "lines": [
+            [
+              144,
+              "**Cyprus**"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L144-L144",
+      "contaminated_pct": 0.2,
+      "key": "Brunei_1948",
+      "year": 1948
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/jamaica.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 877,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              776,
+              "### Turks and Caicos Islands"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L776-L776",
+      "contaminated_pct": 0.1,
+      "key": "Jamaica_1948",
+      "year": 1948
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1949_manual_parsed/Jamaica.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 1142,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              970,
+              "TURKS AND CAICOS ISLANDS"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L970-L970",
+      "contaminated_pct": 0.1,
+      "key": "Jamaica_1949",
+      "year": 1949
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1949_manual_parsed/Windward_Islands.txt",
+      "expected_colony": "Windward Islands",
+      "total_lines": 1176,
+      "foreign_colonies": {
+        "Dominica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              108,
+              "**DOMINICA**"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L108-L108",
+      "contaminated_pct": 0.1,
+      "key": "Windward Islands_1949",
+      "year": 1949
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1950_manual_parsed/jamaica.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 1134,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              931,
+              "TURKS AND CAICOS ISLANDS"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L931-L931",
+      "contaminated_pct": 0.1,
+      "key": "Jamaica_1950",
+      "year": 1950
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1950_manual_parsed/windward_islands.txt",
+      "expected_colony": "Windward Islands",
+      "total_lines": 1281,
+      "foreign_colonies": {
+        "Dominica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              109,
+              "**DOMINICA**"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L109-L109",
+      "contaminated_pct": 0.1,
+      "key": "Windward Islands_1950",
+      "year": 1950
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1951_manual_parsed/jamaica.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 1339,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1117,
+              "TURKS AND CAICOS ISLANDS"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L1117-L1117",
+      "contaminated_pct": 0.1,
+      "key": "Jamaica_1951",
+      "year": 1951
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/jamaica.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 603,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              493,
+              "TURKS AND CAICOS ISLANDS"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L493-L493",
+      "contaminated_pct": 0.2,
+      "key": "Jamaica_1953",
+      "year": 1953
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/windward_islands.txt",
+      "expected_colony": "Windward Islands",
+      "total_lines": 770,
+      "foreign_colonies": {
+        "Dominica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              78,
+              "### DOMINICA"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L78-L78",
+      "contaminated_pct": 0.1,
+      "key": "Windward Islands_1953",
+      "year": 1953
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/JAMAICA.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 694,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              563,
+              "TURKS AND CAICOS ISLANDS"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L563-L563",
+      "contaminated_pct": 0.1,
+      "key": "Jamaica_1954",
+      "year": 1954
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/WINDWARD_ISLANDS.txt",
+      "expected_colony": "Windward Islands",
+      "total_lines": 1013,
+      "foreign_colonies": {
+        "Dominica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              122,
+              "DOMINICA"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L122-L122",
+      "contaminated_pct": 0.1,
+      "key": "Windward Islands_1955",
+      "year": 1955
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/JAMAICA.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 691,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              554,
+              "TURKS AND CAICOS ISLANDS"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L554-L554",
+      "contaminated_pct": 0.1,
+      "key": "Jamaica_1956",
+      "year": 1956
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/KENYA.txt",
+      "expected_colony": "Kenya",
+      "total_lines": 710,
+      "foreign_colonies": {
+        "Antigua": {
+          "hit_count": 1,
+          "lines": [
+            [
+              596,
+              "ANTIGUA"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L596-L596",
+      "contaminated_pct": 0.1,
+      "key": "Kenya_1956",
+      "year": 1956
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1956_manual_parsed/THE_WINDWARD_ISLANDS.txt",
+      "expected_colony": "Windward Islands",
+      "total_lines": 1072,
+      "foreign_colonies": {
+        "Dominica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              119,
+              "DOMINICA"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L119-L119",
+      "contaminated_pct": 0.1,
+      "key": "Windward Islands_1956",
+      "year": 1956
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/JAMAICA.txt",
+      "expected_colony": "Jamaica",
+      "total_lines": 736,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              586,
+              "TURKS AND CAICOS ISLANDS"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L586-L586",
+      "contaminated_pct": 0.1,
+      "key": "Jamaica_1957",
+      "year": 1957
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1957_manual_parsed/WINDWARD_ISLANDS.txt",
+      "expected_colony": "Windward Islands",
+      "total_lines": 1155,
+      "foreign_colonies": {
+        "Dominica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              120,
+              "DOMINICA"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L120-L120",
+      "contaminated_pct": 0.1,
+      "key": "Windward Islands_1957",
+      "year": 1957
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/trinidad_and_tobago.txt",
+      "expected_colony": "Trinidad and Tobago",
+      "total_lines": 5,
+      "foreign_colonies": {
+        "Jamaica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              1,
+              "JAMAICA"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L1-L1",
+      "contaminated_pct": 20.0,
+      "key": "Trinidad and Tobago_1958",
+      "year": 1958
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1959_manual_parsed/Kenya.txt",
+      "expected_colony": "Kenya",
+      "total_lines": 539,
+      "foreign_colonies": {
+        "Jamaica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              48,
+              "JAMAICA"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L48-L48",
+      "contaminated_pct": 0.2,
+      "key": "Kenya_1959",
+      "year": 1959
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1959_manual_parsed/Tonga.txt",
+      "expected_colony": "Tonga",
+      "total_lines": 146,
+      "foreign_colonies": {
+        "Trinidad": {
+          "hit_count": 1,
+          "lines": [
+            [
+              141,
+              "**TRINIDAD**"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L141-L141",
+      "contaminated_pct": 0.7,
+      "key": "Tonga_1959",
+      "year": 1959
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1960_manual_parsed/bahama_islands.txt",
+      "expected_colony": "Bahamas",
+      "total_lines": 366,
+      "foreign_colonies": {
+        "Barbados": {
+          "hit_count": 1,
+          "lines": [
+            [
+              362,
+              "BARBADOS"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L362-L362",
+      "contaminated_pct": 0.3,
+      "key": "Bahamas_1960",
+      "year": 1960
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1960_manual_parsed/hong_kong.txt",
+      "expected_colony": "Hong Kong",
+      "total_lines": 431,
+      "foreign_colonies": {
+        "Jamaica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              426,
+              "JAMAICA"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L426-L426",
+      "contaminated_pct": 0.2,
+      "key": "Hong Kong_1960",
+      "year": 1960
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1960_manual_parsed/kingdom_of_tonga.txt",
+      "expected_colony": "Tonga",
+      "total_lines": 138,
+      "foreign_colonies": {
+        "Trinidad": {
+          "hit_count": 1,
+          "lines": [
+            [
+              135,
+              "TRINIDAD"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L135-L135",
+      "contaminated_pct": 0.7,
+      "key": "Tonga_1960",
+      "year": 1960
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/seychelles.txt",
+      "expected_colony": "Seychelles",
+      "total_lines": 742,
+      "foreign_colonies": {
+        "Sierra Leone": {
+          "hit_count": 1,
+          "lines": [
+            [
+              317,
+              "Sierra Leone"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L317-L317",
+      "contaminated_pct": 0.1,
+      "key": "Seychelles_1961",
+      "year": 1961
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1961_manual_parsed/west_indies_cayman_turks_caicos.txt",
+      "expected_colony": "West Indies - Cayman, Turks and Caicos",
+      "total_lines": 902,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              56,
+              "Turks and Caicos Islands"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L56-L56",
+      "contaminated_pct": 0.1,
+      "key": "West Indies - Cayman, Turks and Caicos_1961",
+      "year": 1961
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/The_West_Indies_-_Barbados.txt",
+      "expected_colony": "Barbados",
+      "total_lines": 2363,
+      "foreign_colonies": {
+        "Jamaica": {
+          "hit_count": 1,
+          "lines": [
+            [
+              823,
+              "### Jamaica"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L823-L823",
+      "contaminated_pct": 0.0,
+      "key": "Barbados_1962",
+      "year": 1962
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/The_West_Indies_-_Trinidad_and_Tobago.txt",
+      "expected_colony": "Trinidad and Tobago",
+      "total_lines": 392,
+      "foreign_colonies": {
+        "Turks and Caicos Islands": {
+          "hit_count": 1,
+          "lines": [
+            [
+              234,
+              "Turks and Caicos Islands"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L234-L234",
+      "contaminated_pct": 0.3,
+      "key": "Trinidad and Tobago_1962",
+      "year": 1962
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1962_manual_parsed/Western_Pacific_High_Commission.txt",
+      "expected_colony": "Western Pacific",
+      "total_lines": 937,
+      "foreign_colonies": {
+        "Zanzibar": {
+          "hit_count": 1,
+          "lines": [
+            [
+              656,
+              "**ZANZIBAR**"
+            ]
+          ]
+        }
+      },
+      "severity_score": 10,
+      "contaminated_range": "L656-L656",
+      "contaminated_pct": 0.1,
+      "key": "Western Pacific_1962",
+      "year": 1962
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1932_manual_parsed/STRAITS_SETTLEMENTS.txt",
+      "expected_colony": "Straits Settlements",
+      "total_lines": 2765,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 2,
+          "lines": [
+            [
+              222,
+              "[SIG] 5 to Penang, thence to Madras (2), Colombo (2), Deli (Sumatra (1); 2 to Batavia of which one thence "
+            ],
+            [
+              403,
+              "[SIG] 5 to Penang, thence to Madras (2), Colombo (2), Delhi (Sumatra (1); 2 to Batavia of which one thence"
+            ]
+          ]
+        },
+        "Hong Kong": {
+          "hit_count": 2,
+          "lines": [
+            [
+              256,
+              "[SIG] The standard coin of the Colony, by an Order of the Queen in Council dated 2nd February, 1896, was t"
+            ],
+            [
+              438,
+              "[SIG] The standard coin of the Colony, by an Order of the Queen in Council dated 2nd February, 1895, was t"
+            ]
+          ]
+        }
+      },
+      "severity_score": 8,
+      "contaminated_range": "L222-L438",
+      "contaminated_pct": 7.8,
+      "key": "Straits Settlements_1932",
+      "year": 1932
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1933_manual_parsed/STRAITS_SETTLEMENTS.txt",
+      "expected_colony": "Straits Settlements",
+      "total_lines": 2560,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 3,
+          "lines": [
+            [
+              241,
+              "[SIG] | 1 Nippon Yusen Kaisha | Fortnightly (via Colombo) thence by first available steamer. |"
+            ],
+            [
+              242,
+              "[SIG] | 2. In the absence of direct sailings P.& O. week | Fortnightly (via Colombo) thence by first avail"
+            ],
+            [
+              287,
+              "[SIG] Eleven submarine cables radiate from Singapore:—5 to Penang, thence to Madras (2), Colombo (2), Deli"
+            ]
+          ]
+        },
+        "Hong Kong": {
+          "hit_count": 1,
+          "lines": [
+            [
+              323,
+              "[SIG] The standard coin of the Colony, by an Order of the Queen in Council dated 2nd February, 1895, was t"
+            ]
+          ]
+        }
+      },
+      "severity_score": 8,
+      "contaminated_range": "L241-L323",
+      "contaminated_pct": 3.2,
+      "key": "Straits Settlements_1933",
+      "year": 1933
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1912_manual_parsed/AUSTRALIA.txt",
+      "expected_colony": "Australia",
+      "total_lines": 6381,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 3,
+          "lines": [
+            [
+              867,
+              "[SIG] Of inland rivers the Murray, Darling, Murrumbidgee, and Lachlan are navigable most of the year, and "
+            ],
+            [
+              3700,
+              "[SIG] Steamers run between Melbourne and Launceston three times a week. Direct mail steamer from Hobart to"
+            ],
+            [
+              3784,
+              "[SIG] mania and Melbourne every week. The mail steamers from Sydney calling for fruit, also carry passenge"
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L867-L3784",
+      "contaminated_pct": 45.7,
+      "key": "Australia_1912",
+      "year": 1912
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1921_manual_parsed/straits_settlements.txt",
+      "expected_colony": "Straits Settlements",
+      "total_lines": 1722,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 2,
+          "lines": [
+            [
+              118,
+              "[SIG] Over 50 lines of seagoing steamers touch a Singapore. There is regular communication with Europe wee"
+            ],
+            [
+              136,
+              "[SIG] Nine sub-marine cables radiate from Singapore: 4 to Penang, thence to Madras (2), Colombo (1), Deli,"
+            ]
+          ]
+        },
+        "Hong Kong": {
+          "hit_count": 1,
+          "lines": [
+            [
+              161,
+              "[SIG] The standard coin of the Colony, by an Order of the Queen in Council, dated 2nd February, 1895, was "
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L118-L161",
+      "contaminated_pct": 2.6,
+      "key": "Straits Settlements_1921",
+      "year": 1921
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1922_manual_parsed/STRAITS_SETTLEMENTS.txt",
+      "expected_colony": "Straits Settlements",
+      "total_lines": 837,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 2,
+          "lines": [
+            [
+              165,
+              "[SIG] Over 50 lines of seagoing steamers touch at Singapore. There is regular communication with Europe we"
+            ],
+            [
+              193,
+              "[SIG] Ten sub-marine cables radiate from Singapore: 1 direct to Madras; 4 to Penang, thence to Madras (2),"
+            ]
+          ]
+        },
+        "Hong Kong": {
+          "hit_count": 1,
+          "lines": [
+            [
+              215,
+              "[SIG] The standard coin of the Colony, by an Order of the Queen in Council, dated 2nd February, 1895, was "
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L165-L215",
+      "contaminated_pct": 6.1,
+      "key": "Straits Settlements_1922",
+      "year": 1922
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1923_manual_parsed/straits_settlements.txt",
+      "expected_colony": "Straits Settlements",
+      "total_lines": 843,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 2,
+          "lines": [
+            [
+              120,
+              "[SIG] Over 50 lines of seagoing steamers touch at Singapore. There is regular communication with Europe we"
+            ],
+            [
+              152,
+              "[SIG] Ten sub-marine cables radiate from Singapore: 1 direct to Madras; 4 to Penang, thence to Madras (2),"
+            ]
+          ]
+        },
+        "Hong Kong": {
+          "hit_count": 1,
+          "lines": [
+            [
+              175,
+              "[SIG] The standard coin of the Colony, by an Order of the Queen in Council, dated 2nd February, 1895, was "
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L120-L175",
+      "contaminated_pct": 6.6,
+      "key": "Straits Settlements_1923",
+      "year": 1923
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1925_manual_parsed/STRAITS_SETTLEMENTS.txt",
+      "expected_colony": "Straits Settlements",
+      "total_lines": 1394,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 2,
+          "lines": [
+            [
+              118,
+              "[SIG] Over 50 lines of seagoing steamers touch at Singapore. There is regular communication with Europe fo"
+            ],
+            [
+              151,
+              "[SIG] Ten sub-marine cables radiate from Singapore: 5 to Penang, thence to Madras (3), Colombo (2), Deli ("
+            ]
+          ]
+        },
+        "Hong Kong": {
+          "hit_count": 1,
+          "lines": [
+            [
+              175,
+              "[SIG] The standard coin of the Colony, by an Order of the Queen in Council, dated 2nd February, 1895, was "
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L118-L175",
+      "contaminated_pct": 4.2,
+      "key": "Straits Settlements_1925",
+      "year": 1925
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1927_manual_parsed/STRAITS_SETTLEMENTS.txt",
+      "expected_colony": "Straits Settlements",
+      "total_lines": 3230,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 2,
+          "lines": [
+            [
+              153,
+              "[SIG] Over 50 lines of seagoing steamers touch at Singapore. There is regular communication with Europe fo"
+            ],
+            [
+              186,
+              "[SIG] Eleven sub-marine cables radiate from Singapore: 5 to Penang, thence to Madras (3), Colombo (2), Del"
+            ]
+          ]
+        },
+        "Hong Kong": {
+          "hit_count": 1,
+          "lines": [
+            [
+              208,
+              "[SIG] The standard coin of the Colony, by an Order of the Queen in Council, dated 2nd February, 1893, was "
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L153-L208",
+      "contaminated_pct": 1.7,
+      "key": "Straits Settlements_1927",
+      "year": 1927
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1928_manual_parsed/STRAITS_SETTLEMENTS.txt",
+      "expected_colony": "Straits Settlements",
+      "total_lines": 3479,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 2,
+          "lines": [
+            [
+              141,
+              "[SIG] Over 50 lines of seagoing steamers touch at Singapore. There is regular communication with Europe fo"
+            ],
+            [
+              175,
+              "[SIG] Eleven sub-marine cables radiate from Singapore: 5 to Penang, thence to Madras (3), Colombo (2), Del"
+            ]
+          ]
+        },
+        "Hong Kong": {
+          "hit_count": 1,
+          "lines": [
+            [
+              196,
+              "[SIG] The standard coin of the Colony, by an Order of the Queen in Council, dated 2nd February, 1895, was "
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L141-L196",
+      "contaminated_pct": 1.6,
+      "key": "Straits Settlements_1928",
+      "year": 1928
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1929_manual_parsed/STRAITS_SETTLEMENTS.txt",
+      "expected_colony": "Straits Settlements",
+      "total_lines": 3682,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 2,
+          "lines": [
+            [
+              137,
+              "[SIG] Over 50 lines of seagoing steamers touch at Singapore. There is regular communication with Europe fo"
+            ],
+            [
+              166,
+              "[SIG] Eleven submarine cables radiate from Singapore: 5 to Penang, thence to Madras (3), Colombo (2), Delh"
+            ]
+          ]
+        },
+        "Hong Kong": {
+          "hit_count": 1,
+          "lines": [
+            [
+              188,
+              "[SIG] The standard coin of the Colony, by an Order of the Queen in Council, dated 2nd February, 1895, was "
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L137-L188",
+      "contaminated_pct": 1.4,
+      "key": "Straits Settlements_1929",
+      "year": 1929
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1930_manual_parsed/STRAITS_SETTLEMENTS.txt",
+      "expected_colony": "Straits Settlements",
+      "total_lines": 2972,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 2,
+          "lines": [
+            [
+              173,
+              "[SIG] Over 50 lines of seagoing steamers touch at Singapore. There is regular communication with Europe we"
+            ],
+            [
+              201,
+              "[SIG] Eleven submarine cables radiate from Singapore: 5 to Penang, thence to Madras (3), Colombo (2), Deli"
+            ]
+          ]
+        },
+        "Hong Kong": {
+          "hit_count": 1,
+          "lines": [
+            [
+              223,
+              "[SIG] The standard coin of the Colony, by an Order of the Queen in Council dated 2nd February 1896, was th"
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L173-L223",
+      "contaminated_pct": 1.7,
+      "key": "Straits Settlements_1930",
+      "year": 1930
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1948_manual_parsed/mauritius.txt",
+      "expected_colony": "Mauritius",
+      "total_lines": 702,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 3,
+          "lines": [
+            [
+              6,
+              "[SIG] A. Colombo, M.D."
+            ],
+            [
+              28,
+              "[SIG] Minister of Finance—A. Colombo, M.D."
+            ],
+            [
+              71,
+              "[SIG] A. Colombo, M.D. (Labour)."
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L6-L71",
+      "contaminated_pct": 9.4,
+      "key": "Mauritius_1948",
+      "year": 1948
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1949_manual_parsed/Malta.txt",
+      "expected_colony": "Malta",
+      "total_lines": 534,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 3,
+          "lines": [
+            [
+              276,
+              "[SIG] A. Colombo, M.D."
+            ],
+            [
+              297,
+              "[SIG] Minister of Finance—A. Colombo, M.D."
+            ],
+            [
+              339,
+              "[SIG] A. Colombo, M.D. (Labour)."
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L276-L339",
+      "contaminated_pct": 12.0,
+      "key": "Malta_1949",
+      "year": 1949
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1950_manual_parsed/malta.txt",
+      "expected_colony": "Malta",
+      "total_lines": 674,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 3,
+          "lines": [
+            [
+              336,
+              "[SIG] A. Colombo, M.D."
+            ],
+            [
+              361,
+              "[SIG] Minister of Finance—A. Colombo, M.D."
+            ],
+            [
+              403,
+              "[SIG] A. Colombo, M.D. (Labour)."
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L336-L403",
+      "contaminated_pct": 10.1,
+      "key": "Malta_1950",
+      "year": 1950
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1951_manual_parsed/miscellaneous_islands.txt",
+      "expected_colony": "Miscellaneous Islands",
+      "total_lines": 331,
+      "foreign_colonies": {
+        "Malta": {
+          "hit_count": 1,
+          "lines": [
+            [
+              45,
+              "[SIG] | MALTA       | Governor and Commander-in-Chief. | Sir Gerald Hallen Cressy, K.C.M.G., O.B.E. | 13. "
+            ]
+          ]
+        },
+        "Mauritius": {
+          "hit_count": 1,
+          "lines": [
+            [
+              46,
+              "[SIG] | MAURITIUS   | \"       | Sir Hilary Rudolph Robert Blood, K.C.M.G., LL.D. | 16. 5.49 | 26. 9.49 | P"
+            ]
+          ]
+        },
+        "Ceylon": {
+          "hit_count": 1,
+          "lines": [
+            [
+              154,
+              "[SIG] - In 1944: Colombo Port Trust and Ernest Cook's Fruit."
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L45-L154",
+      "contaminated_pct": 33.2,
+      "key": "Miscellaneous Islands_1951",
+      "year": 1951
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1953_manual_parsed/falkland_islands_and_dependencies.txt",
+      "expected_colony": "Falkland Islands",
+      "total_lines": 220,
+      "foreign_colonies": {
+        "Mauritius": {
+          "hit_count": 3,
+          "lines": [
+            [
+              22,
+              "[SIG] The Falklands are said to have been discovered by Davis in 1592 and were apparently visited by Hawki"
+            ],
+            [
+              24,
+              "[SIG] In 1820 the Republic of Buenos Aires established a settlement in the East Falkland at Soledad (Port "
+            ],
+            [
+              26,
+              "[SIG] In 1833 the occupation of the islands was resumed by the British Government. Until 1843 they were un"
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L22-L26",
+      "contaminated_pct": 2.3,
+      "key": "Falkland Islands_1953",
+      "year": 1953
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1954_manual_parsed/FALKLAND_ISLANDS_AND_DEPENDENCIES.txt",
+      "expected_colony": "Falkland Islands",
+      "total_lines": 256,
+      "foreign_colonies": {
+        "Mauritius": {
+          "hit_count": 3,
+          "lines": [
+            [
+              28,
+              "[SIG] by some historians that Vespucci was in the Falklands in 1502. In 1764 de Bougainville established a"
+            ],
+            [
+              30,
+              "[SIG] In 1820 the Republic of Buenos Aires established a settlement in the East Falkland at Soledad (Port "
+            ],
+            [
+              32,
+              "[SIG] In 1833 the occupation of the islands was resumed by the British Government. Until 1843 they were un"
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L28-L32",
+      "contaminated_pct": 2.0,
+      "key": "Falkland Islands_1954",
+      "year": 1954
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1955_manual_parsed/FALKLAND_ISLANDS.txt",
+      "expected_colony": "Falkland Islands",
+      "total_lines": 292,
+      "foreign_colonies": {
+        "Mauritius": {
+          "hit_count": 3,
+          "lines": [
+            [
+              34,
+              "[SIG] The Falklands are said to have been discovered by Davis in 1592 and were apparently visited by Hawki"
+            ],
+            [
+              36,
+              "[SIG] In 1820 the Republic of Buenos Aires established a settlement in the East Falkland at Soledad (Port "
+            ],
+            [
+              38,
+              "[SIG] In 1833 the occupation of the islands was resumed by the British Government. Until 1843 they were un"
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L34-L38",
+      "contaminated_pct": 1.7,
+      "key": "Falkland Islands_1955",
+      "year": 1955
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1958_manual_parsed/high_commission_territories.txt",
+      "expected_colony": "High Commission Territories",
+      "total_lines": 938,
+      "foreign_colonies": {
+        "Malta": {
+          "hit_count": 1,
+          "lines": [
+            [
+              168,
+              "[SIG] | Malta        | Sir Alexander Williams, K.C.M.G., M.B.E. | 3.9.54    | Valletta   | £4,000    | £3,"
+            ]
+          ]
+        },
+        "Mauritius": {
+          "hit_count": 1,
+          "lines": [
+            [
+              169,
+              "[SIG] | Mauritius    | Major-General Sir Robert Laycock, K.C.M.G., C.B., D.S.O. | 18.12.53  | Port Louis |"
+            ]
+          ]
+        },
+        "Ceylon": {
+          "hit_count": 1,
+          "lines": [
+            [
+              888,
+              "[SIG] Singapore, North Borneo and Sarawak participated in the preparation of the Colombo Plan for Co-opera"
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L168-L888",
+      "contaminated_pct": 76.9,
+      "key": "High Commission Territories_1958",
+      "year": 1958
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1959_manual_parsed/Singapore.txt",
+      "expected_colony": "Singapore",
+      "total_lines": 460,
+      "foreign_colonies": {
+        "Ceylon": {
+          "hit_count": 3,
+          "lines": [
+            [
+              135,
+              "[SIG] The establishment of a Tourist Promotion Board was the result of the recommendations of a Colombo Pl"
+            ],
+            [
+              168,
+              "[SIG] In the field of tuberculosis, in addition to a modern hospital with over 1,000 beds, out-patient tre"
+            ],
+            [
+              174,
+              "[SIG] There is a Medical Faculty in the University of Malaya where the qualifications of M.B. and B.S., re"
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L135-L174",
+      "contaminated_pct": 8.7,
+      "key": "Singapore_1959",
+      "year": 1959
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1960_manual_parsed/the_high_commission_territories.txt",
+      "expected_colony": "High Commission Territories",
+      "total_lines": 915,
+      "foreign_colonies": {
+        "Malta": {
+          "hit_count": 1,
+          "lines": [
+            [
+              178,
+              "[SIG] |                  | \"                                |            | Valletta   | £4,500 (duty).    "
+            ]
+          ]
+        },
+        "Mauritius": {
+          "hit_count": 1,
+          "lines": [
+            [
+              179,
+              "[SIG] |                  | \"                                |            | Port Louis | £7,000 (duty).    "
+            ]
+          ]
+        },
+        "Ceylon": {
+          "hit_count": 1,
+          "lines": [
+            [
+              870,
+              "[SIG] Singapore, North Borneo and Sarawak participated in the preparation of the Colombo Plan for Co-opera"
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L178-L870",
+      "contaminated_pct": 75.7,
+      "key": "High Commission Territories_1960",
+      "year": 1960
+    },
+    {
+      "file": "/home/jic823/Documents/text_as_data_colonial_office_list/1964_manual_parsed/falkland_islands.txt",
+      "expected_colony": "Falkland Islands",
+      "total_lines": 298,
+      "foreign_colonies": {
+        "Mauritius": {
+          "hit_count": 3,
+          "lines": [
+            [
+              33,
+              "[SIG] The Falklands are said to have been discovered by Davis in 1592 and were evidently visited by Hawkin"
+            ],
+            [
+              34,
+              "[SIG] the Spaniards in 1770. This action on the part of Spain brought that country and Britain to the verg"
+            ],
+            [
+              38,
+              "[SIG] In 1833 the occupation of the Islands was resumed by the British Government. In 1841 a civil Lieuten"
+            ]
+          ]
+        }
+      },
+      "severity_score": 6,
+      "contaminated_range": "L33-L38",
+      "contaminated_pct": 2.0,
+      "key": "Falkland Islands_1964",
+      "year": 1964
+    }
+  ]
+}

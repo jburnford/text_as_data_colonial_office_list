@@ -1,0 +1,78 @@
+{
+  "version": "0.1",
+  "description": "Career track taxonomy for British colonial administration, derived from Colonial Office Lists 1867-1966",
+  "career_tracks": [
+    {
+      "id": "administrative",
+      "uri": "col:ctrack/administrative",
+      "name": "Administrative",
+      "description": "General colonial administration: governors, colonial secretaries, district officers, cadets, clerks (when not department-specific)"
+    },
+    {
+      "id": "legal",
+      "uri": "col:ctrack/legal",
+      "name": "Legal",
+      "description": "Judicial and legal: chief justices, judges, attorneys-general, solicitors, registrars, magistrates, sheriffs, coroners"
+    },
+    {
+      "id": "medical",
+      "uri": "col:ctrack/medical",
+      "name": "Medical",
+      "description": "Medical and health: colonial surgeons, medical officers, dispensers, health officers, nurses"
+    },
+    {
+      "id": "financial",
+      "uri": "col:ctrack/financial",
+      "name": "Financial",
+      "description": "Treasury, revenue, and customs: treasurers, auditors, collectors, accountants, customs officers"
+    },
+    {
+      "id": "engineering",
+      "uri": "col:ctrack/engineering",
+      "name": "Engineering",
+      "description": "Public works, railways, harbours, water supply: engineers, harbour masters, railway managers"
+    },
+    {
+      "id": "survey",
+      "uri": "col:ctrack/survey",
+      "name": "Survey",
+      "description": "Land survey, cartography, and crown lands: surveyors-general, land commissioners, district surveyors"
+    },
+    {
+      "id": "police",
+      "uri": "col:ctrack/police",
+      "name": "Police",
+      "description": "Police, prisons, and constabulary: inspectors-general of police, constables, gaolers, prison wardens"
+    },
+    {
+      "id": "ecclesiastical",
+      "uri": "col:ctrack/ecclesiastical",
+      "name": "Ecclesiastical",
+      "description": "Church and religious establishment: bishops, archdeacons, chaplains, clergy, curates"
+    },
+    {
+      "id": "education",
+      "uri": "col:ctrack/education",
+      "name": "Education",
+      "description": "Education and public instruction: directors of education, inspectors of schools, schoolmasters, professors"
+    },
+    {
+      "id": "military",
+      "uri": "col:ctrack/military",
+      "name": "Military",
+      "description": "Military and defence: garrison commanders, WAFF/KAR officers, commandants, military secretaries"
+    },
+    {
+      "id": "postal",
+      "uri": "col:ctrack/postal",
+      "name": "Postal",
+      "description": "Post and telegraph: postmasters-general, telegraph operators, postal clerks"
+    },
+    {
+      "id": "agricultural",
+      "uri": "col:ctrack/agricultural",
+      "name": "Agricultural",
+      "description": "Agriculture, forestry, veterinary, and botanic: directors of agriculture, conservators of forests, veterinary officers"
+    }
+  ]
+}

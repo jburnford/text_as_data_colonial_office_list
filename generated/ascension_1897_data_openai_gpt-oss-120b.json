@@ -1,7 +1,7 @@
 {
   "colony": "Ascension",
   "year": 1897,
-  "generated": "2026-03-12T06:17:05.449181",
+  "generated": "2026-03-12T12:14:31.043112",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 8,
@@ -23,10 +23,10 @@
       "location": null
     },
     {
-      "name": "Tristan D'Acunha",
-      "canonical_name": "D'Acunha, Tristan",
-      "given_names": "Tristan",
-      "surname": "D'Acunha",
+      "name": "TRISTAN D'ACUNHA",
+      "canonical_name": "D'ACUNHA, TRISTAN",
+      "given_names": "TRISTAN",
+      "surname": "D'ACUNHA",
       "position": null,
       "department": null,
       "salary_min": null,
@@ -40,7 +40,7 @@
     },
     {
       "name": "Glass",
-      "canonical_name": "Glass, ",
+      "canonical_name": "Glass",
       "given_names": "",
       "surname": "Glass",
       "position": "Governor",
@@ -50,13 +50,13 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Corporal",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
       "name": "Arundel",
-      "canonical_name": "Arundel, ",
+      "canonical_name": "Arundel",
       "given_names": "",
       "surname": "Arundel",
       "position": null,
@@ -72,7 +72,7 @@
     },
     {
       "name": "Grice",
-      "canonical_name": "Grice, ",
+      "canonical_name": "Grice",
       "given_names": "",
       "surname": "Grice",
       "position": null,
@@ -88,7 +88,7 @@
     },
     {
       "name": "Sumner",
-      "canonical_name": "Sumner, ",
+      "canonical_name": "Sumner",
       "given_names": "",
       "surname": "Sumner",
       "position": null,
@@ -104,7 +104,7 @@
     },
     {
       "name": "Humphrey",
-      "canonical_name": "Humphrey, ",
+      "canonical_name": "Humphrey",
       "given_names": "",
       "surname": "Humphrey",
       "position": null,
@@ -116,11 +116,11 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Manahiki"
+      "location": null
     },
     {
       "name": "Ricorson",
-      "canonical_name": "Ricorson, ",
+      "canonical_name": "Ricorson",
       "given_names": "",
       "surname": "Ricorson",
       "position": null,
@@ -132,7 +132,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Rakahanga"
+      "location": null
     }
   ],
   "validation_summary": {

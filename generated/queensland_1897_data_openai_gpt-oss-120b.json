@@ -1,10 +1,10 @@
 {
   "colony": "Queensland",
   "year": 1897,
-  "generated": "2026-03-12T06:36:25.122645",
+  "generated": "2026-03-12T12:24:01.171267",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 78,
+  "total_officials": 79,
   "officials": [
     {
       "name": "W. L. G. Drew",
@@ -122,9 +122,9 @@
     },
     {
       "name": "W. E. Parry Ocoden",
-      "canonical_name": "Parry Ocoden, W. E.",
-      "given_names": "W. E.",
-      "surname": "Parry Ocoden",
+      "canonical_name": "Ocoden, W. E. Parry",
+      "given_names": "W. E. Parry",
+      "surname": "Ocoden",
       "position": "Commissioner of Police",
       "department": "Home Secretary's Department",
       "salary_min": 800,
@@ -169,7 +169,7 @@
       "location": null
     },
     {
-      "name": "C. J. H. Wray",
+      "name": "Dr. C. J. H. Wray",
       "canonical_name": "Wray, C. J. H.",
       "given_names": "C. J. H.",
       "surname": "Wray",
@@ -182,7 +182,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Brisbane"
+      "location": null
     },
     {
       "name": "P. R. Gordon",
@@ -237,7 +237,7 @@
       "canonical_name": "Douglas, John",
       "given_names": "John",
       "surname": "Douglas",
-      "position": "Government Resident, Thursday Island",
+      "position": "Government Resident",
       "department": "Home Secretary's Department",
       "salary_min": 700,
       "salary_max": 700,
@@ -267,7 +267,7 @@
       "location": null
     },
     {
-      "name": "S. W. Griffith",
+      "name": "Sir S. W. Griffith",
       "canonical_name": "Griffith, S. W.",
       "given_names": "S. W.",
       "surname": "Griffith",
@@ -1024,10 +1024,10 @@
     },
     {
       "name": "Sir H. W. Norman",
-      "canonical_name": "Norman, Sir H. W.",
-      "given_names": "Sir H. W.",
+      "canonical_name": "Norman, H. W.",
+      "given_names": "H. W.",
       "surname": "Norman",
-      "position": "London Agency",
+      "position": "",
       "department": "London Agency",
       "salary_min": null,
       "salary_max": null,
@@ -1176,7 +1176,7 @@
       "given_names": "W. J.",
       "surname": "Weatherill",
       "position": "Consular Agent",
-      "department": "Consular Agent for United States of America",
+      "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1192,7 +1192,7 @@
       "given_names": "William Villiers",
       "surname": "Brown",
       "position": "Consular Agent",
-      "department": "Consular Agent for United States of America",
+      "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1208,7 +1208,7 @@
       "given_names": "B. L.",
       "surname": "Barnett",
       "position": "Consular Agent for Italy",
-      "department": "Consular Agent for United States of America",
+      "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1224,7 +1224,7 @@
       "given_names": "E. B.",
       "surname": "Forrester",
       "position": "Vice-Consul for France",
-      "department": "Consular Agent for United States of America",
+      "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1239,8 +1239,8 @@
       "canonical_name": "L., H.",
       "given_names": "H.",
       "surname": "L.",
-      "position": "Consular Agent for Germany",
-      "department": "Consular Agent for United States of America",
+      "position": "Consular Agent",
+      "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1251,12 +1251,30 @@
       "location": "Cooktown"
     },
     {
+      "name": "Kortum",
+      "canonical_name": "Kortum",
+      "given_names": "",
+      "surname": "Kortum",
+      "position": "",
+      "department": "Consuls for Foreign Countries",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [
+        "M.D."
+      ],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
       "name": "F. H. Hart",
       "canonical_name": "Hart, F. H.",
       "given_names": "F. H.",
       "surname": "Hart",
-      "position": "Consular Agent for Portugal",
-      "department": "Consular Agent for United States of America",
+      "position": "Consul for Portugal",
+      "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1272,10 +1290,10 @@
     "year": 1897,
     "total": 79,
     "high_confidence": 75,
-    "medium_confidence": 3,
-    "low_confidence": 1,
-    "quarantined": 1,
-    "passed": 78,
+    "medium_confidence": 4,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 79,
     "anomaly_count": 0
   }
 }

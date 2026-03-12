@@ -1,17 +1,17 @@
 {
   "colony": "British East Africa Zanzibar Uganda",
   "year": 1898,
-  "generated": "2026-03-12T06:42:08.128582",
+  "generated": "2026-03-12T12:28:15.261951",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 1,
+  "total_officials": 2,
   "officials": [
     {
-      "name": "A. H. Hardinge",
+      "name": "Sir A. H. Hardinge",
       "canonical_name": "Hardinge, A. H.",
       "given_names": "A. H.",
       "surname": "Hardinge",
-      "position": "Agent and Consul-Gen. in Zanzibar and Commissioner in East Africa Protectorate",
+      "position": "Agent and Consul-Gen.; Commissioner",
       "department": null,
       "salary_min": null,
       "salary_max": null,
@@ -24,17 +24,33 @@
       "military_rank": null,
       "salary_scale": null,
       "location": null
+    },
+    {
+      "name": "Mr. E. J. Berkeley",
+      "canonical_name": "Berkeley, E. J.",
+      "given_names": "E. J.",
+      "surname": "Berkeley",
+      "position": "Imperial Commissioner",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
     }
   ],
   "validation_summary": {
     "colony": "British East Africa Zanzibar Uganda",
     "year": 1898,
-    "total": 1,
-    "high_confidence": 1,
+    "total": 2,
+    "high_confidence": 2,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 1,
+    "passed": 2,
     "anomaly_count": 0
   }
 }

@@ -1,7 +1,7 @@
 {
   "colony": "Bahamas",
   "year": 1898,
-  "generated": "2026-03-12T06:44:14.717053",
+  "generated": "2026-03-12T12:28:32.857516",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 61,
@@ -27,7 +27,7 @@
       "canonical_name": "Burnside, N. B.",
       "given_names": "N. B.",
       "surname": "Burnside",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Civil Establishment",
       "salary_min": 150,
       "salary_max": 150,
@@ -43,7 +43,7 @@
       "canonical_name": "Brace, Thomas E. D.",
       "given_names": "Thomas E. D.",
       "surname": "Brace",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Civil Establishment",
       "salary_min": 75,
       "salary_max": 75,
@@ -95,7 +95,7 @@
       "department": "Civil Establishment",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "30l. as Receiver of Crown Revenue",
+      "allowances": "fees, 30l. as Receiver of Crown Revenue",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -123,7 +123,7 @@
       "canonical_name": "Lighthourn, J. T.",
       "given_names": "J. T.",
       "surname": "Lighthourn",
-      "position": "2nd Clerk and Cashier",
+      "position": "Chief Clerk and Cashier",
       "department": "Civil Establishment",
       "salary_min": 200,
       "salary_max": 200,
@@ -139,7 +139,7 @@
       "canonical_name": "Brace, G. K. K.",
       "given_names": "G. K. K.",
       "surname": "Brace",
-      "position": "3rd Clerk and Cashier",
+      "position": "Chief Clerk and Cashier",
       "department": "Civil Establishment",
       "salary_min": 100,
       "salary_max": 100,
@@ -155,7 +155,7 @@
       "canonical_name": "Solomon, N. S. V.",
       "given_names": "N. S. V.",
       "surname": "Solomon",
-      "position": "4th Clerk and Cashier",
+      "position": "Chief Clerk and Cashier",
       "department": "Civil Establishment",
       "salary_min": 60,
       "salary_max": 60,
@@ -299,7 +299,7 @@
       "canonical_name": "Farrington, R. J. A.",
       "given_names": "R. J. A.",
       "surname": "Farrington",
-      "position": "2nd Clerk",
+      "position": "Clerk",
       "department": "Civil Establishment",
       "salary_min": 80,
       "salary_max": 80,
@@ -377,9 +377,9 @@
       "location": null
     },
     {
-      "name": "Staff Commander F. J. Lobb",
-      "canonical_name": "Lobb, Staff Commander F. J.",
-      "given_names": "Staff Commander F. J.",
+      "name": "F. J. Lobb",
+      "canonical_name": "Lobb, F. J.",
+      "given_names": "F. J.",
       "surname": "Lobb",
       "position": "Inspector of Lighthouses",
       "department": "Civil Establishment",
@@ -726,7 +726,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nassau"
     },
     {
       "name": "J. H. Fisher",
@@ -742,18 +742,18 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nassau"
     },
     {
       "name": "Maclure",
-      "canonical_name": "Maclure, ",
+      "canonical_name": "Maclure",
       "given_names": "",
       "surname": "Maclure",
       "position": "Medical Inspector",
       "department": "Judicial Establishment",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": null,
+      "allowances": "Medical Officer to Convictulary, &c.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -790,14 +790,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Nassau"
+      "location": null
     },
     {
       "name": "R. T. Bailey",
       "canonical_name": "Bailey, R. T.",
       "given_names": "R. T.",
       "surname": "Bailey",
-      "position": "St. Andrew's Presbyterian Church",
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": 400,
       "salary_max": 400,
@@ -824,7 +824,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Nassau"
+      "location": null
     },
     {
       "name": "J. H. Fisher",
@@ -840,7 +840,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Nassau"
+      "location": null
     },
     {
       "name": "W. L. Glanville",
@@ -856,7 +856,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Imagua"
+      "location": null
     },
     {
       "name": "W. W. Duncombe",
@@ -872,14 +872,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Crooked Island"
+      "location": null
     },
     {
       "name": "Chrysostom Schreiner",
       "canonical_name": "Schreiner, Chrysostom",
       "given_names": "Chrysostom",
       "surname": "Schreiner",
-      "position": "St. Xavier's Roman Catholic Church",
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -895,7 +895,7 @@
       "canonical_name": "McLain, T. J.",
       "given_names": "T. J.",
       "surname": "McLain",
-      "position": "United States of America",
+      "position": "Consul, United States of America",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -911,7 +911,7 @@
       "canonical_name": "Sawyer, R. W.",
       "given_names": "R. W.",
       "surname": "Sawyer",
-      "position": "Germany",
+      "position": "Consul, Germany",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -927,7 +927,7 @@
       "canonical_name": "Taylor, L.",
       "given_names": "L.",
       "surname": "Taylor",
-      "position": "France (Vice)",
+      "position": "Vice Consul, France",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -939,11 +939,11 @@
       "location": null
     },
     {
-      "name": "Se\u00f1or Don Pompeyo Diaz y Cossio",
-      "canonical_name": "Cossio, Se\u00f1or Don Pompeyo Diaz y",
-      "given_names": "Se\u00f1or Don Pompeyo Diaz y",
-      "surname": "Cossio",
-      "position": "Spain",
+      "name": "Pompeyo Diaz y Cossio",
+      "canonical_name": "Diaz y Cossio, Pompeyo",
+      "given_names": "Pompeyo",
+      "surname": "Diaz y Cossio",
+      "position": "Consul, Spain",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -959,7 +959,7 @@
       "canonical_name": "Menendez, M.",
       "given_names": "M.",
       "surname": "Menendez",
-      "position": "Spain (Honorary Vice)",
+      "position": "Honorary Vice Consul, Spain",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -975,7 +975,7 @@
       "canonical_name": "George, E.",
       "given_names": "E.",
       "surname": "George",
-      "position": "Denmark",
+      "position": "Consul, Denmark",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
