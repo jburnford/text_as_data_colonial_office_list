@@ -1,7 +1,7 @@
 {
   "colony": "Northern Nigeria",
   "year": 1905,
-  "generated": "2026-03-12T07:40:10.104430",
+  "generated": "2026-03-12T13:01:06.089386",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 28,
@@ -15,14 +15,14 @@
       "department": "Civil Establishment",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "duty allowance 1000l",
+      "allowances": "duty allowance 1,000l",
       "honors": [
         "C.M.G.",
         "C.B.",
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Brig.-Gen.",
       "salary_scale": null,
       "location": null
     },
@@ -263,7 +263,7 @@
       "department": "Marine",
       "salary_min": 400,
       "salary_max": 500,
-      "allowances": null,
+      "allowances": "by 20l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -279,7 +279,7 @@
       "department": "Engineer's Workshops",
       "salary_min": 300,
       "salary_max": 400,
-      "allowances": null,
+      "allowances": "by 15l., duty 48l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,

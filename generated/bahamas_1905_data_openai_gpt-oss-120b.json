@@ -1,7 +1,7 @@
 {
   "colony": "Bahamas",
   "year": 1905,
-  "generated": "2026-03-12T07:26:48.524879",
+  "generated": "2026-03-12T12:53:40.245734",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 87,
@@ -99,7 +99,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "30l. as Receiver of Crown Revenue",
+      "allowances": "fees, and 30l. as Receiver of Crown Revenue.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -115,7 +115,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 250,
       "salary_max": 250,
-      "allowances": "personal allowance, 50l. and fees",
+      "allowances": "personal allowance, 50l. and fees.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -179,7 +179,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": "60l. boat allowance",
+      "allowances": "60l. boat allowance.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -195,7 +195,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 250,
       "salary_max": 250,
-      "allowances": "personal allowance, 30l., and fees",
+      "allowances": "personal allowance, 30l., and fees.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -207,7 +207,7 @@
       "canonical_name": "Albury, S. V. S.",
       "given_names": "S. V. S.",
       "surname": "Albury",
-      "position": "Tide Waiter",
+      "position": "Tide Waiters",
       "department": "Treasury and Customs Department",
       "salary_min": 80,
       "salary_max": 80,
@@ -223,7 +223,7 @@
       "canonical_name": "Bethel, W. H.",
       "given_names": "W. H.",
       "surname": "Bethel",
-      "position": "Tide Waiter",
+      "position": "Tide Waiters",
       "department": "Treasury and Customs Department",
       "salary_min": 80,
       "salary_max": 80,
@@ -239,7 +239,7 @@
       "canonical_name": "Reeves, H. L.",
       "given_names": "H. L.",
       "surname": "Reeves",
-      "position": "Tide Waiter",
+      "position": "Tide Waiters",
       "department": "Treasury and Customs Department",
       "salary_min": 80,
       "salary_max": 80,
@@ -255,7 +255,7 @@
       "canonical_name": "Bethel, H. A.",
       "given_names": "H. A.",
       "surname": "Bethel",
-      "position": "Tide Waiter",
+      "position": "Tide Waiters",
       "department": "Treasury and Customs Department",
       "salary_min": 80,
       "salary_max": 80,
@@ -271,7 +271,7 @@
       "canonical_name": "McLeod, S. A.",
       "given_names": "S. A.",
       "surname": "McLeod",
-      "position": "Tide Waiter",
+      "position": "Tide Waiters",
       "department": "Treasury and Customs Department",
       "salary_min": 80,
       "salary_max": 80,
@@ -291,7 +291,7 @@
       "department": "Record Office",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "allowance in lieu of fees 10l.; personal allowances 90l.",
+      "allowances": "allowance in lieu of fees, 10l.; personal allowances, 90l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -300,7 +300,7 @@
     },
     {
       "name": "J. H. Lightbourn, jun.",
-      "canonical_name": "Lightbourn, J. H., jun.",
+      "canonical_name": "Lightbourn, J. H.",
       "given_names": "J. H.",
       "surname": "Lightbourn",
       "position": "Clerk",
@@ -575,11 +575,11 @@
       "canonical_name": "Parsons, L. D.",
       "given_names": "L. D.",
       "surname": "Parsons",
-      "position": "Resident Surgeon Superintendent",
+      "position": "Resident Surgeon Superintendent, New Providence Asylum",
       "department": "Medical Department",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "residence",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.B."
@@ -597,7 +597,7 @@
       "department": "Medical Department",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "house rent allowance, 40l.; carriage hire, 40l.",
+      "allowances": "house rent allowance 40l.; carriage hire 40l.",
       "honors": [],
       "qualifications": [
         "M.R.C.S.",
@@ -616,7 +616,7 @@
       "department": "Medical Department",
       "salary_min": 80,
       "salary_max": 80,
-      "allowances": "personal allowance, 20l.",
+      "allowances": "personal allowance 20l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -660,7 +660,7 @@
       "canonical_name": "Kellam, J. J.",
       "given_names": "J. J.",
       "surname": "Kellam",
-      "position": "Physicians to the Poor",
+      "position": "Physicians to the Poor, Governor's Harbour, Eleuthera",
       "department": "Medical Department",
       "salary_min": 30,
       "salary_max": 30,
@@ -678,7 +678,7 @@
       "canonical_name": "Johnson, A. T. W.",
       "given_names": "A. T. W.",
       "surname": "Johnson",
-      "position": "Physicians to the Poor",
+      "position": "Physicians to the Poor, Harbour Island",
       "department": "Medical Department",
       "salary_min": 30,
       "salary_max": 30,
@@ -780,7 +780,7 @@
       "department": "Police",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "and quarters (is also Provost-Marshal)",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -812,7 +812,7 @@
       "department": "Judicial",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "fees and private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -924,7 +924,7 @@
       "department": "Judicial",
       "salary_min": 50,
       "salary_max": 50,
-      "allowances": "acting",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -936,7 +936,7 @@
       "canonical_name": "Albury, G. A.",
       "given_names": "G. A.",
       "surname": "Albury",
-      "position": "Resident Justice",
+      "position": "Resident Justice (ex-officio Collector of Revenue)",
       "department": "Resident Justices",
       "salary_min": 150,
       "salary_max": 150,
@@ -945,14 +945,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Abaco"
+      "location": null
     },
     {
       "name": "L. E. Forsyth",
       "canonical_name": "Forsyth, L. E.",
       "given_names": "L. E.",
       "surname": "Forsyth",
-      "position": "Resident Justice",
+      "position": "Resident Justice (ex-officio Collector of Revenue)",
       "department": "Resident Justices",
       "salary_min": 100,
       "salary_max": 100,
@@ -961,14 +961,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Andros Island"
+      "location": null
     },
     {
       "name": "A. V. de Glanville",
       "canonical_name": "de Glanville, A. V.",
       "given_names": "A. V.",
       "surname": "de Glanville",
-      "position": "Resident Justice",
+      "position": "Resident Justice (ex-officio Collector of Revenue)",
       "department": "Resident Justices",
       "salary_min": 100,
       "salary_max": 100,
@@ -977,14 +977,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Bimini"
+      "location": null
     },
     {
       "name": "J. A. Bowe",
       "canonical_name": "Bowe, J. A.",
       "given_names": "J. A.",
       "surname": "Bowe",
-      "position": "Resident Justice",
+      "position": "Resident Justice (ex-officio Collector of Revenue)",
       "department": "Resident Justices",
       "salary_min": 200,
       "salary_max": 200,
@@ -993,14 +993,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Eleuthera"
+      "location": null
     },
     {
       "name": "E. H. McKinney",
       "canonical_name": "McKinney, E. H.",
       "given_names": "E. H.",
       "surname": "McKinney",
-      "position": "Resident Justice",
+      "position": "Resident Justice (ex-officio Collector of Revenue)",
       "department": "Resident Justices",
       "salary_min": 100,
       "salary_max": 100,
@@ -1009,14 +1009,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Exuma"
+      "location": null
     },
     {
       "name": "F. Armstrong",
       "canonical_name": "Armstrong, F.",
       "given_names": "F.",
       "surname": "Armstrong",
-      "position": "Resident Justice",
+      "position": "Resident Justice (ex-officio Collector of Revenue)",
       "department": "Resident Justices",
       "salary_min": 215,
       "salary_max": 215,
@@ -1025,14 +1025,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Harbour Island"
+      "location": null
     },
     {
       "name": "P. W. D. Armbrister",
       "canonical_name": "Armbrister, P. W. D.",
       "given_names": "P. W. D.",
       "surname": "Armbrister",
-      "position": "Resident Justice",
+      "position": "Resident Justice (ex-officio Collector of Revenue)",
       "department": "Resident Justices",
       "salary_min": 200,
       "salary_max": 200,
@@ -1041,14 +1041,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Inagua"
+      "location": null
     },
     {
       "name": "J. M. Aranha",
       "canonical_name": "Aranha, J. M.",
       "given_names": "J. M.",
       "surname": "Aranha",
-      "position": "Resident Justice",
+      "position": "Resident Justice (ex-officio Collector of Revenue)",
       "department": "Resident Justices",
       "salary_min": 150,
       "salary_max": 150,
@@ -1057,14 +1057,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Long Cay"
+      "location": null
     },
     {
       "name": "W. T. Cleare",
       "canonical_name": "Cleare, W. T.",
       "given_names": "W. T.",
       "surname": "Cleare",
-      "position": "Resident Justice",
+      "position": "Resident Justice (ex-officio Collector of Revenue)",
       "department": "Resident Justices",
       "salary_min": 100,
       "salary_max": 100,
@@ -1073,14 +1073,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Long Island"
+      "location": null
     },
     {
       "name": "A. S. M. O'Brien",
       "canonical_name": "O'Brien, A. S. M.",
       "given_names": "A. S. M.",
       "surname": "O'Brien",
-      "position": "Resident Justice",
+      "position": "Resident Justice (ex-officio Collector of Revenue)",
       "department": "Resident Justices",
       "salary_min": 80,
       "salary_max": 80,
@@ -1089,14 +1089,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Ragged Island"
+      "location": null
     },
     {
       "name": "R. J. A. Farrington",
       "canonical_name": "Farrington, R. J. A.",
       "given_names": "R. J. A.",
       "surname": "Farrington",
-      "position": "Resident Justice",
+      "position": "Resident Justice (ex-officio Collector of Revenue)",
       "department": "Resident Justices",
       "salary_min": 120,
       "salary_max": 120,
@@ -1105,14 +1105,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Rum Cay"
+      "location": null
     },
     {
       "name": "W. K. Duncombe",
       "canonical_name": "Duncombe, W. K.",
       "given_names": "W. K.",
       "surname": "Duncombe",
-      "position": "Resident Justice",
+      "position": "Resident Justice (ex-officio Collector of Revenue)",
       "department": "Resident Justices",
       "salary_min": 120,
       "salary_max": 120,
@@ -1121,7 +1121,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "San Salvador"
+      "location": null
     },
     {
       "name": "Dewees O. Johnson",
@@ -1137,7 +1137,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Abaco, Cherokee Sound"
+      "location": null
     },
     {
       "name": "C. A. L. Brook",
@@ -1153,7 +1153,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Abaco, Hope Town"
+      "location": null
     },
     {
       "name": "G. H. Clarke",
@@ -1169,7 +1169,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Andros I., Nicolls Town"
+      "location": null
     },
     {
       "name": "W. P. Smith",
@@ -1185,7 +1185,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Eleuthera, Rock Sound"
+      "location": null
     },
     {
       "name": "J. S. Culmer",
@@ -1201,7 +1201,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Eleuthera, Tarpon Bay"
+      "location": null
     },
     {
       "name": "J. E. Adderley",
@@ -1217,7 +1217,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Grand Bahama"
+      "location": null
     },
     {
       "name": "H. N. Burnside",
@@ -1233,7 +1233,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "San Salvador, Arthur's Town"
+      "location": null
     },
     {
       "name": "O. J. McDonald",
@@ -1249,10 +1249,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Watlings Island"
+      "location": null
     },
     {
-      "name": "Rev. R. T. Bailey",
+      "name": "R. T. Bailey",
       "canonical_name": "Bailey, R. T.",
       "given_names": "R. T.",
       "surname": "Bailey",
@@ -1278,7 +1278,7 @@
       "department": "Ecclesiastical",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "house rent, 30l.",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1286,7 +1286,7 @@
       "location": null
     },
     {
-      "name": "Rev. Chrysostom Schreiner",
+      "name": "Chrysostom Schreiner",
       "canonical_name": "Schreiner, Chrysostom",
       "given_names": "Chrysostom",
       "surname": "Schreiner",
@@ -1302,7 +1302,7 @@
       "location": null
     },
     {
-      "name": "Rev. F. W. Gostick",
+      "name": "F. W. Gostick",
       "canonical_name": "Gostick, F. W.",
       "given_names": "F. W.",
       "surname": "Gostick",
@@ -1318,18 +1318,18 @@
       "location": null
     },
     {
-      "name": "Staff Commander F. J. Lobb, R.N.",
+      "name": "F. J. Lobb",
       "canonical_name": "Lobb, F. J.",
       "given_names": "F. J.",
       "surname": "Lobb",
       "position": "Inspector of Lighthouses",
-      "department": null,
+      "department": "Civil Establishment",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Staff Commander",
       "salary_scale": null,
       "location": null
     },
@@ -1338,7 +1338,7 @@
       "canonical_name": "Potter, Julian",
       "given_names": "Julian",
       "surname": "Potter",
-      "position": "United States of America (Consul)",
+      "position": "Foreign Consul, United States of America",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1354,7 +1354,7 @@
       "canonical_name": "Sawyer, R. W.",
       "given_names": "R. W.",
       "surname": "Sawyer",
-      "position": "Germany (Consul)",
+      "position": "Foreign Consul, Germany",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1370,7 +1370,7 @@
       "canonical_name": "Taylor, L.",
       "given_names": "L.",
       "surname": "Taylor",
-      "position": "France (Vice) (Consul)",
+      "position": "Foreign Consul (Vice), France",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1386,7 +1386,7 @@
       "canonical_name": "Menendez, F. M.",
       "given_names": "F. M.",
       "surname": "Menendez",
-      "position": "Spain (Honorary) (Consul)",
+      "position": "Foreign Consul (Honorary), Spain",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1402,7 +1402,7 @@
       "canonical_name": "Larreur, Alphonse",
       "given_names": "Alphonse",
       "surname": "Larreur",
-      "position": "Hayti (Consul)",
+      "position": "Foreign Consul, Hayti",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,

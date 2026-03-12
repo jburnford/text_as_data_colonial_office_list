@@ -1,10 +1,10 @@
 {
   "colony": "St Lucia",
   "year": 1898,
-  "generated": "2026-03-12T07:17:25.803522",
+  "generated": "2026-03-12T12:47:47.111923",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 57,
+  "total_officials": 56,
   "officials": [
     {
       "name": "C. A. King Harman",
@@ -173,7 +173,7 @@
       "canonical_name": "Girard, V.",
       "given_names": "V.",
       "surname": "Girard",
-      "position": "Chief Landing Writer and Revenue Officer",
+      "position": "2nd Landing Writer and Revenue Officer",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 125,
       "salary_max": 150,
@@ -189,7 +189,7 @@
       "canonical_name": "Lewis, A. E.",
       "given_names": "A. E.",
       "surname": "Lewis",
-      "position": "Chief Landing Writer and Revenue Officer and Keeper of Spirit Warehouse",
+      "position": "3rd Landing Writer and Revenue Officer and Keeper of Spirit Warehouse",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 115,
       "salary_max": 160,
@@ -205,7 +205,7 @@
       "canonical_name": "Palmer, A. W. W.",
       "given_names": "A. W. W.",
       "surname": "Palmer",
-      "position": "Landing Writers and Revenue Officers",
+      "position": "Landing Writer and Revenue Officer",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 125,
       "salary_max": 125,
@@ -221,7 +221,7 @@
       "canonical_name": "Huggins, J. F.",
       "given_names": "J. F.",
       "surname": "Huggins",
-      "position": "Landing Writers and Revenue Officers",
+      "position": "Landing Writer and Revenue Officer",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 125,
       "salary_max": 125,
@@ -237,7 +237,7 @@
       "canonical_name": "Myers, A.",
       "given_names": "A.",
       "surname": "Myers",
-      "position": "Landing Writers and Revenue Officers",
+      "position": "Landing Writer and Revenue Officer",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 90,
       "salary_max": 125,
@@ -253,7 +253,7 @@
       "canonical_name": "Didier, E. H. P.",
       "given_names": "E. H. P.",
       "surname": "Didier",
-      "position": "Landing Writers and Revenue Officers",
+      "position": "Landing Writer and Revenue Officer",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 75,
       "salary_max": 100,
@@ -317,7 +317,7 @@
       "canonical_name": "Messervy, C.",
       "given_names": "C.",
       "surname": "Messervy",
-      "position": "Director of Public Works, Windward Islands, and Colonel Surveyor, St. Lucia",
+      "position": "Surveyor",
       "department": "Public Works and Survey Departments",
       "salary_min": null,
       "salary_max": null,
@@ -330,7 +330,7 @@
     },
     {
       "name": "R. P. Copper, jun.",
-      "canonical_name": "Copper, R. P., jun.",
+      "canonical_name": "Copper, R. P.",
       "given_names": "R. P.",
       "surname": "Copper",
       "position": "Staff Surveyor",
@@ -429,7 +429,7 @@
       "canonical_name": "Clavier, H.",
       "given_names": "H.",
       "surname": "Clavier",
-      "position": "Registrar of Royal Court, Registrar of Deeds and Mortgages, Sheriff, Registrar of Civil Status and Government Interpreter",
+      "position": "Clerk",
       "department": "Judicial",
       "salary_min": 125,
       "salary_max": 125,
@@ -445,7 +445,7 @@
       "canonical_name": "Garraway, D. J.",
       "given_names": "D. J.",
       "surname": "Garraway",
-      "position": "Registrar of Royal Court, Registrar of Deeds and Mortgages, Sheriff, Registrar of Civil Status and Government Interpreter",
+      "position": "Assistant",
       "department": "Judicial",
       "salary_min": 100,
       "salary_max": 100,
@@ -461,8 +461,8 @@
       "canonical_name": "Dix, T. H.",
       "given_names": "T. H.",
       "surname": "Dix",
-      "position": "1st District",
-      "department": "Stipendiary Magistrates",
+      "position": "Stipendiary Magistrate, 1st District",
+      "department": "Judicial",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": "50l. personal allowance",
@@ -477,8 +477,8 @@
       "canonical_name": "Elliot, John W.",
       "given_names": "John W.",
       "surname": "Elliot",
-      "position": "2nd District",
-      "department": "Stipendiary Magistrates",
+      "position": "Stipendiary Magistrate, 2nd District",
+      "department": "Judicial",
       "salary_min": 350,
       "salary_max": 350,
       "allowances": "50l.",
@@ -493,8 +493,8 @@
       "canonical_name": "Drysdale, T. A.",
       "given_names": "T. A.",
       "surname": "Drysdale",
-      "position": "1st District",
-      "department": "Clerks to the Magistrates and District Courts",
+      "position": "Clerk to the Magistrates and District Courts, 1st District",
+      "department": "Judicial",
       "salary_min": 125,
       "salary_max": 125,
       "allowances": "fees",
@@ -510,7 +510,7 @@
       "given_names": "N.",
       "surname": "Philip",
       "position": "Assistant Clerk",
-      "department": "Clerks to the Magistrates and District Courts",
+      "department": "Judicial",
       "salary_min": 75,
       "salary_max": 75,
       "allowances": null,
@@ -525,8 +525,8 @@
       "canonical_name": "Palmer, A. F.",
       "given_names": "A. F.",
       "surname": "Palmer",
-      "position": "2nd District",
-      "department": "Clerks to the Magistrates and District Courts",
+      "position": "Clerk to the Magistrates and District Courts, 2nd District",
+      "department": "Judicial",
       "salary_min": 100,
       "salary_max": 100,
       "allowances": null,
@@ -541,8 +541,8 @@
       "canonical_name": "Blanchard, E. S.",
       "given_names": "E. S.",
       "surname": "Blanchard",
-      "position": "3rd District",
-      "department": "Clerks to the Magistrates and District Courts",
+      "position": "Clerk to the Magistrates and District Courts, 3rd District",
+      "department": "Judicial",
       "salary_min": 100,
       "salary_max": 100,
       "allowances": null,
@@ -553,23 +553,7 @@
       "location": null
     },
     {
-      "name": "A. Clavier",
-      "canonical_name": "Clavier, A.",
-      "given_names": "A.",
-      "surname": "Clavier",
-      "position": "Administrator General of Vacant Successions, &c.",
-      "department": "Clerks to the Magistrates and District Courts",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": "fees",
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Chas. Dennehy",
+      "name": "Charles Dennehy",
       "canonical_name": "Dennehy, Charles",
       "given_names": "Charles",
       "surname": "Dennehy",
@@ -637,14 +621,14 @@
       "canonical_name": "Gray, St. George",
       "given_names": "St. George",
       "surname": "Gray",
-      "position": "Supernumerary Colonel Assistant Surgeon",
+      "position": "Supernumerary Col. Assist. Surgeon",
       "department": "Medical",
       "salary_min": 250,
       "salary_max": 250,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Colonel",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -776,14 +760,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Holy Trinity Church"
     },
     {
       "name": "R. J. Clarke",
       "canonical_name": "Clarke, R. J.",
       "given_names": "R. J.",
       "surname": "Clarke",
-      "position": "Anglican Minister of Grace Church",
+      "position": "Anglican Minister of Grace Church, River Dor\u00e9e",
       "department": "Ecclesiastical",
       "salary_min": 200,
       "salary_max": 200,
@@ -792,7 +776,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "River Dor\u00e9e"
+      "location": "Grace Church, River Dor\u00e9e"
     },
     {
       "name": "L. Tapon",
@@ -808,7 +792,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Castries"
     },
     {
       "name": "F. E. Bundy",
@@ -840,7 +824,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     },
     {
       "name": "W. Peter",
@@ -856,7 +840,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "German Empire"
     },
     {
       "name": "William Peter",
@@ -872,7 +856,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "United States of America"
     },
     {
       "name": "S. Renshaw",
@@ -888,7 +872,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Netherlands"
     },
     {
       "name": "S. Barnard",
@@ -904,7 +888,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "United States of Columbia"
     },
     {
       "name": "W. Barnard",
@@ -920,18 +904,18 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Portugal"
     }
   ],
   "validation_summary": {
     "colony": "St Lucia",
     "year": 1898,
-    "total": 60,
-    "high_confidence": 57,
+    "total": 59,
+    "high_confidence": 56,
     "medium_confidence": 0,
     "low_confidence": 3,
     "quarantined": 3,
-    "passed": 57,
-    "anomaly_count": 5
+    "passed": 56,
+    "anomaly_count": 4
   }
 }

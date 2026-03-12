@@ -1,10 +1,10 @@
 {
   "colony": "British New Guinea",
   "year": 1898,
-  "generated": "2026-03-12T12:30:12.725369",
+  "generated": "2026-03-12T13:32:05.749895",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 22,
+  "total_officials": 20,
   "officials": [
     {
       "name": "A. Musgrave",
@@ -27,7 +27,7 @@
       "canonical_name": "Winter, P. P.",
       "given_names": "P. P.",
       "surname": "Winter",
-      "position": "Executive Council Member",
+      "position": "Member",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -45,7 +45,7 @@
       "canonical_name": "Hely, B. A.",
       "given_names": "B. A.",
       "surname": "Hely",
-      "position": "Executive Council Member",
+      "position": "Member",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -57,45 +57,11 @@
       "location": null
     },
     {
-      "name": "A. Musgrave",
-      "canonical_name": "Musgrave, A.",
-      "given_names": "A.",
-      "surname": "Musgrave",
-      "position": "Legislative Council Member",
-      "department": "Legislative Council",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "P. P. Winter",
-      "canonical_name": "Winter, P. P.",
-      "given_names": "P. P.",
-      "surname": "Winter",
-      "position": "Legislative Council Member",
-      "department": "Legislative Council",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [
-        "C.M.G."
-      ],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "Gors",
-      "canonical_name": "Gors, ",
+      "canonical_name": "Gors",
       "given_names": "",
       "surname": "Gors",
-      "position": "Legislative Council Unofficial Member",
+      "position": "Unofficial Member",
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
@@ -108,8 +74,8 @@
     },
     {
       "name": "Sir W. MacGregor",
-      "canonical_name": "MacGregor, Sir W.",
-      "given_names": "Sir W.",
+      "canonical_name": "MacGregor, W.",
+      "given_names": "W.",
       "surname": "MacGregor",
       "position": "Lieut. Governor",
       "department": "Establishment",
@@ -195,9 +161,9 @@
       "location": null
     },
     {
-      "name": "Dr. J. A. Blayney",
-      "canonical_name": "Blayney, Dr. J. A.",
-      "given_names": "Dr. J. A.",
+      "name": "J. A. Blayney",
+      "canonical_name": "Blayney, J. A.",
+      "given_names": "J. A.",
       "surname": "Blayney",
       "position": "Resident Magistrate, Central Division, and Government Medical Officer",
       "department": "Establishment",
@@ -211,9 +177,9 @@
       "location": null
     },
     {
-      "name": "Hon. M. H. Moreton",
-      "canonical_name": "Moreton, Hon. M. H.",
-      "given_names": "Hon. M. H.",
+      "name": "M. H. Moreton",
+      "canonical_name": "Moreton, M. H.",
+      "given_names": "M. H.",
       "surname": "Moreton",
       "position": "Resident Magistrate, Eastern Division",
       "department": "Establishment",
@@ -374,12 +340,12 @@
   "validation_summary": {
     "colony": "British New Guinea",
     "year": 1898,
-    "total": 22,
-    "high_confidence": 21,
+    "total": 20,
+    "high_confidence": 19,
     "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 22,
-    "anomaly_count": 4
+    "passed": 20,
+    "anomaly_count": 2
   }
 }

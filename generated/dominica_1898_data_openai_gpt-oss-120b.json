@@ -1,7 +1,7 @@
 {
   "colony": "Dominica",
   "year": 1898,
-  "generated": "2026-03-12T12:33:51.875552",
+  "generated": "2026-03-12T13:34:28.750465",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 51,
@@ -113,23 +113,23 @@
       "department": "Government Officers",
       "salary_min": 250,
       "salary_max": 250,
-      "allowances": "50l. horse allowance",
+      "allowances": "50l horse allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Roseau District"
     },
     {
       "name": "V. P. Blanchard",
       "canonical_name": "Blanchard, V. P.",
       "given_names": "V. P.",
       "surname": "Blanchard",
-      "position": "Clerk to Roseau District",
+      "position": "Clerk",
       "department": "Government Officers",
       "salary_min": 75,
       "salary_max": 75,
-      "allowances": "23l. as Clerk of Commissioners of Valuation and Assessed Taxes",
+      "allowances": "23l as Clerk of Commissioners of Valuation and Assessed Taxes",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -145,19 +145,19 @@
       "department": "Government Officers",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": "25l. horse allowance",
+      "allowances": "25l horse allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Portsmouth District"
     },
     {
       "name": "R. P. Marie",
       "canonical_name": "Marie, R. P.",
       "given_names": "R. P.",
       "surname": "Marie",
-      "position": "Clerk to Portsmouth District and Deputy Postmaster",
+      "position": "Clerk and Deputy Postmaster",
       "department": "Government Officers",
       "salary_min": 75,
       "salary_max": 75,
@@ -177,12 +177,12 @@
       "department": "Government Officers",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": "25l. horse allowance",
+      "allowances": "25l horse allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Lasoye District"
     },
     {
       "name": "Alex. Robinson",
@@ -193,12 +193,12 @@
       "department": "Government Officers",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": "25l. horse allowance",
+      "allowances": "25l horse allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Windward District"
     },
     {
       "name": "J. M. Danavall",
@@ -253,7 +253,7 @@
       "canonical_name": "Sharp, G. A.",
       "given_names": "G. A.",
       "surname": "Sharp",
-      "position": "Second Chief Clerk in Registrar's Office",
+      "position": "Second Chief Clerk",
       "department": "Judicial Establishment",
       "salary_min": 60,
       "salary_max": 60,
@@ -389,7 +389,7 @@
       "department": "Medical Establishment",
       "salary_min": 250,
       "salary_max": 250,
-      "allowances": "fees, private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.R.C.S."
@@ -407,7 +407,7 @@
       "department": "Medical Establishment",
       "salary_min": 250,
       "salary_max": 250,
-      "allowances": "fees, private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.B."
@@ -425,10 +425,10 @@
       "department": "Medical Establishment",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "fees, private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [
-        "M.R.C.S."
+        "M.R.C.S. Eng."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -455,7 +455,7 @@
       "canonical_name": "Pinard, J. A.",
       "given_names": "J. A.",
       "surname": "Pinard",
-      "position": "Clerk",
+      "position": "Clerk to Colonial Engineer and Surveyor General",
       "department": "Public Works Department",
       "salary_min": 75,
       "salary_max": 75,
@@ -491,7 +491,7 @@
       "department": "Public Works Department",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": "horse, quarters",
+      "allowances": "a horse, and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -532,9 +532,9 @@
     },
     {
       "name": "H. A. Alford Nicholls",
-      "canonical_name": "Nicholls, H. A. Alford",
-      "given_names": "H. A. Alford",
-      "surname": "Nicholls",
+      "canonical_name": "Alford Nicholls, H. A.",
+      "given_names": "H. A.",
+      "surname": "Alford Nicholls",
       "position": "Surgeon to Police Force",
       "department": "Police and Prison",
       "salary_min": null,
@@ -559,7 +559,7 @@
       "department": "Police and Prison",
       "salary_min": 52,
       "salary_max": 52,
-      "allowances": "quarters",
+      "allowances": "and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -591,7 +591,7 @@
       "department": "Police and Prison",
       "salary_min": 80,
       "salary_max": 80,
-      "allowances": "quarters",
+      "allowances": "and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -615,7 +615,7 @@
       "location": null
     },
     {
-      "name": "Rev. P. Fogarty",
+      "name": "P. Fogarty",
       "canonical_name": "Fogarty, P.",
       "given_names": "P.",
       "surname": "Fogarty",
@@ -639,7 +639,7 @@
       "department": "Post Office",
       "salary_min": 175,
       "salary_max": 175,
-      "allowances": null,
+      "allowances": "10 per cent. commission on judicial stamps",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -651,7 +651,7 @@
       "canonical_name": "Elliott, W. R.",
       "given_names": "W. R.",
       "surname": "Elliott",
-      "position": "Clerk",
+      "position": "Clerk to Postmaster",
       "department": "Post Office",
       "salary_min": 40,
       "salary_max": 40,
@@ -699,7 +699,7 @@
       "canonical_name": "Skinner, William",
       "given_names": "William",
       "surname": "Skinner",
-      "position": "Head Master",
+      "position": "Head Master, Dominica Grammar School",
       "department": "Educational Establishment",
       "salary_min": 200,
       "salary_max": 200,
@@ -710,14 +710,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Dominica Grammar School"
+      "location": null
     },
     {
       "name": "G. A. Barraclough",
       "canonical_name": "Barraclough, G. A.",
       "given_names": "G. A.",
       "surname": "Barraclough",
-      "position": "Assistant Master",
+      "position": "Assistant Master, Dominica Grammar School",
       "department": "Educational Establishment",
       "salary_min": 100,
       "salary_max": 100,
@@ -726,14 +726,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Dominica Grammar School"
+      "location": null
     },
     {
       "name": "P. F. Simon",
       "canonical_name": "Simon, P. F.",
       "given_names": "P. F.",
       "surname": "Simon",
-      "position": "Head Teacher",
+      "position": "Head Teacher, Roseau Boy's School",
       "department": "Educational Establishment",
       "salary_min": 135,
       "salary_max": 135,
@@ -742,14 +742,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Roseau Boy's School"
+      "location": null
     },
     {
       "name": "Amanda Roach",
       "canonical_name": "Roach, Amanda",
       "given_names": "Amanda",
       "surname": "Roach",
-      "position": "Head Teacher",
+      "position": "Head Teacher, Roseau Girls' School",
       "department": "Educational Establishment",
       "salary_min": 74,
       "salary_max": 74,
@@ -758,14 +758,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Roseau Girls' School"
+      "location": null
     },
     {
       "name": "Thomas Dent",
       "canonical_name": "Dent, Thomas",
       "given_names": "Thomas",
       "surname": "Dent",
-      "position": "Anglican Church",
+      "position": "Rector of St. George",
       "department": "Chief Ministers of Religion",
       "salary_min": null,
       "salary_max": null,
@@ -774,14 +774,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "St. George"
+      "location": null
     },
     {
       "name": "M. Naughten",
       "canonical_name": "Naughten, M.",
       "given_names": "M.",
       "surname": "Naughten",
-      "position": "Roman Catholic Church",
+      "position": "Bishop of Roseau",
       "department": "Chief Ministers of Religion",
       "salary_min": null,
       "salary_max": null,
@@ -790,14 +790,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Roseau"
+      "location": null
     },
     {
       "name": "E. A. Jones",
       "canonical_name": "Jones, E. A.",
       "given_names": "E. A.",
       "surname": "Jones",
-      "position": "Westcynn Mission",
+      "position": "Superintendent",
       "department": "Chief Ministers of Religion",
       "salary_min": null,
       "salary_max": null,
@@ -813,7 +813,7 @@
       "canonical_name": "Giraud, L. A.",
       "given_names": "L. A.",
       "surname": "Giraud",
-      "position": "France",
+      "position": "consular agent",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -829,7 +829,7 @@
       "canonical_name": "Frampton, H. A.",
       "given_names": "H. A.",
       "surname": "Frampton",
-      "position": "United States of America",
+      "position": "consular agent",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -850,6 +850,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 51,
-    "anomaly_count": 6
+    "anomaly_count": 5
   }
 }

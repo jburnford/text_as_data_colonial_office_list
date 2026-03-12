@@ -1,7 +1,7 @@
 {
   "colony": "Western Pacific",
   "year": 1897,
-  "generated": "2026-03-12T12:27:20.870402",
+  "generated": "2026-03-12T13:27:04.974625",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 20,
@@ -23,7 +23,7 @@
       "location": null
     },
     {
-      "name": "Sir Arthur Gordon",
+      "name": "Arthur Gordon",
       "canonical_name": "Gordon, Arthur",
       "given_names": "Arthur",
       "surname": "Gordon",
@@ -45,7 +45,7 @@
       "canonical_name": "Gorrie, John",
       "given_names": "John",
       "surname": "Gorrie",
-      "position": "High Commissioner (acting)",
+      "position": "Acting High Commissioner",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -57,7 +57,7 @@
       "location": null
     },
     {
-      "name": "Sir A. Gordon",
+      "name": "A. Gordon",
       "canonical_name": "Gordon, A.",
       "given_names": "A.",
       "surname": "Gordon",
@@ -75,11 +75,11 @@
       "location": null
     },
     {
-      "name": "Sir G. W. Des Voeux",
+      "name": "G. W. Des Voeux",
       "canonical_name": "Des Voeux, G. W.",
       "given_names": "G. W.",
       "surname": "Des Voeux",
-      "position": "High Commissioner (acting)",
+      "position": "Acting High Commissioner",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -147,7 +147,7 @@
       "location": null
     },
     {
-      "name": "Sir C. B. H. Mitchell",
+      "name": "C. B. H. Mitchell",
       "canonical_name": "Mitchell, C. B. H.",
       "given_names": "C. B. H.",
       "surname": "Mitchell",
@@ -169,7 +169,7 @@
       "canonical_name": "Berkeley, H. S.",
       "given_names": "H. S.",
       "surname": "Berkeley",
-      "position": "High Commissioner (acting)",
+      "position": "Acting High Commissioner",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -181,7 +181,7 @@
       "location": null
     },
     {
-      "name": "Sir G. T. M. O'Brien",
+      "name": "G. T. M. O'Brien",
       "canonical_name": "O'Brien, G. T. M.",
       "given_names": "G. T. M.",
       "surname": "O'Brien",
@@ -197,7 +197,7 @@
       "location": null
     },
     {
-      "name": "Sir G. T. M. O'Brien",
+      "name": "G. T. M. O'Brien",
       "canonical_name": "O'Brien, G. T. M.",
       "given_names": "G. T. M.",
       "surname": "O'Brien",
@@ -271,7 +271,7 @@
       "department": "Establishment",
       "salary_min": 440,
       "salary_max": 440,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -283,11 +283,11 @@
       "canonical_name": "Cusack Smith, T. B.",
       "given_names": "T. B.",
       "surname": "Cusack Smith",
-      "position": "Deputy Commissioner in Samoa, and for the Union Group",
+      "position": "Deputy Commissioner in Samoa and for the Union Group",
       "department": "Establishment",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "700l. as Consul",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -303,7 +303,7 @@
       "department": "Establishment",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -327,18 +327,18 @@
       "location": null
     },
     {
-      "name": "Lieut.-Col. E. V. Stace",
+      "name": "E. V. Stace",
       "canonical_name": "Stace, E. V.",
       "given_names": "E. V.",
       "surname": "Stace",
       "position": "Acting Consul for the Somali Coast",
-      "department": "Somali Coast",
+      "department": "Other Miscellaneous Possessions",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Col.",
+      "military_rank": "Lt.-Col.",
       "salary_scale": null,
       "location": null
     }

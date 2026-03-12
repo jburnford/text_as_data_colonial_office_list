@@ -1,7 +1,7 @@
 {
   "colony": "Newfoundland",
   "year": 1897,
-  "generated": "2026-03-12T12:20:48.729516",
+  "generated": "2026-03-12T13:23:24.216384",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 117,
@@ -301,7 +301,7 @@
       "canonical_name": "Shea, Henry",
       "given_names": "Henry",
       "surname": "Shea",
-      "position": "Hospital Surgeon, Resident Surgeon",
+      "position": "Hospital Surgeons, Resident Surgeon",
       "department": "Civil Establishment",
       "salary_min": 2000,
       "salary_max": 2000,
@@ -1041,7 +1041,7 @@
       "canonical_name": "Talbot, Thomas",
       "given_names": "Thomas",
       "surname": "Talbot",
-      "position": "Sheriff Central District",
+      "position": "Sheriff",
       "department": "Judicial Establishment",
       "salary_min": 1385,
       "salary_max": 1385,
@@ -1050,14 +1050,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central District"
     },
     {
       "name": "A. H. Seymour",
       "canonical_name": "Seymour, A. H.",
       "given_names": "A. H.",
       "surname": "Seymour",
-      "position": "Sheriff Northern District",
+      "position": "Sheriff",
       "department": "Judicial Establishment",
       "salary_min": 1385,
       "salary_max": 1385,
@@ -1066,14 +1066,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Northern District"
     },
     {
       "name": "James Carter",
       "canonical_name": "Carter, James",
       "given_names": "James",
       "surname": "Carter",
-      "position": "Sheriff Southern District",
+      "position": "Sheriff",
       "department": "Judicial Establishment",
       "salary_min": 924,
       "salary_max": 924,
@@ -1082,7 +1082,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Southern District"
     },
     {
       "name": "D. W. Prowse",
@@ -1309,9 +1309,9 @@
       "location": "Ferryland"
     },
     {
-      "name": "Dr. R. Carey",
-      "canonical_name": "Carey, Dr. R.",
-      "given_names": "Dr. R.",
+      "name": "R. Carey",
+      "canonical_name": "Carey, R.",
+      "given_names": "R.",
       "surname": "Carey",
       "position": "Magistrate",
       "department": "Judicial Establishment",
@@ -1325,9 +1325,9 @@
       "location": "Trepussey"
     },
     {
-      "name": "Dr. Win. Hogan",
-      "canonical_name": "Hogan, Dr. Win.",
-      "given_names": "Dr. Win.",
+      "name": "Win. Hogan",
+      "canonical_name": "Hogan, Win.",
+      "given_names": "Win.",
       "surname": "Hogan",
       "position": "Magistrate",
       "department": "Judicial Establishment",
@@ -1421,9 +1421,9 @@
       "location": "Harbour Breton"
     },
     {
-      "name": "Dr. G. Q. Hunt",
-      "canonical_name": "Hunt, Dr. G. Q.",
-      "given_names": "Dr. G. Q.",
+      "name": "G. Q. Hunt",
+      "canonical_name": "Hunt, G. Q.",
+      "given_names": "G. Q.",
       "surname": "Hunt",
       "position": "Magistrate",
       "department": "Judicial Establishment",
@@ -1505,7 +1505,7 @@
       "canonical_name": "Flannery, J. J.",
       "given_names": "J. J.",
       "surname": "Flannery",
-      "position": "Clerk of the Peace at St. John's, and Clerk of Central District Court",
+      "position": "Clerk of the Peace and Clerk of Central District Court",
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -1523,6 +1523,22 @@
       "surname": "McCowen",
       "position": "Inspector and General Superintendent of Censory",
       "department": "Judicial Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Theos. R. Smith",
+      "canonical_name": "Smith, Theos. R.",
+      "given_names": "Theos. R.",
+      "surname": "Smith",
+      "position": "Consul-General",
+      "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1562,7 +1578,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Trinity"
+      "location": "Harbour Grace"
     },
     {
       "name": "J. Henry Clement",
@@ -1681,7 +1697,7 @@
       "canonical_name": "Fisher, W. J.",
       "given_names": "W. J.",
       "surname": "Fisher",
-      "position": "Consul for Newfoundland",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1713,7 +1729,7 @@
       "canonical_name": "Ryan, Sam",
       "given_names": "Sam",
       "surname": "Ryan",
-      "position": "Consul for Newfoundland",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1745,7 +1761,7 @@
       "canonical_name": "Prowse, Robert H.",
       "given_names": "Robert H.",
       "surname": "Prowse",
-      "position": "Vice-Consul for Newfoundland",
+      "position": "Vice-Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1867,32 +1883,16 @@
       "military_rank": null,
       "salary_scale": null,
       "location": null
-    },
-    {
-      "name": "Mr. Martin",
-      "canonical_name": "Martin, Mr.",
-      "given_names": "Mr.",
-      "surname": "Martin",
-      "position": "Consular Agent",
-      "department": "Foreign Consuls",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "Port of Nain, Labrador"
     }
   ],
   "validation_summary": {
     "colony": "Newfoundland",
     "year": 1897,
-    "total": 117,
+    "total": 119,
     "high_confidence": 117,
     "medium_confidence": 0,
-    "low_confidence": 0,
-    "quarantined": 0,
+    "low_confidence": 2,
+    "quarantined": 2,
     "passed": 117,
     "anomaly_count": 2
   }

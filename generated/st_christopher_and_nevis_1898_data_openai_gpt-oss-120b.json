@@ -1,7 +1,7 @@
 {
   "colony": "St Christopher and Nevis",
   "year": 1898,
-  "generated": "2026-03-12T07:21:06.363524",
+  "generated": "2026-03-12T12:48:42.781330",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 99,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 900,
       "salary_max": 900,
-      "allowances": "and residence",
+      "allowances": null,
       "honors": [
         "C.M.G."
       ],
@@ -41,7 +41,7 @@
       "location": null
     },
     {
-      "name": "S. Percival",
+      "name": "Miss S. Percival",
       "canonical_name": "Percival, S.",
       "given_names": "S.",
       "surname": "Percival",
@@ -77,7 +77,7 @@
       "canonical_name": "Johnson, E. O.",
       "given_names": "E. O.",
       "surname": "Johnson",
-      "position": "1st Clerk",
+      "position": "Clerk",
       "department": "Treasury",
       "salary_min": 150,
       "salary_max": 150,
@@ -93,7 +93,7 @@
       "canonical_name": "Johnson, Geo.",
       "given_names": "Geo.",
       "surname": "Johnson",
-      "position": "2nd Clerk",
+      "position": "Clerk",
       "department": "Treasury",
       "salary_min": 60,
       "salary_max": 60,
@@ -109,7 +109,7 @@
       "canonical_name": "Deravin, E.",
       "given_names": "E.",
       "surname": "Deravin",
-      "position": "1st Revenue Officer",
+      "position": "Revenue Officer",
       "department": "Treasury",
       "salary_min": 175,
       "salary_max": 175,
@@ -125,7 +125,7 @@
       "canonical_name": "Moir, C. E.",
       "given_names": "C. E.",
       "surname": "Moir",
-      "position": "2nd Revenue Officer",
+      "position": "Revenue Officer",
       "department": "Treasury",
       "salary_min": 125,
       "salary_max": 125,
@@ -141,7 +141,7 @@
       "canonical_name": "Macwilliam, D. A.",
       "given_names": "D. A.",
       "surname": "Macwilliam",
-      "position": "3rd Revenue Officer",
+      "position": "Revenue Officer",
       "department": "Treasury",
       "salary_min": 75,
       "salary_max": 75,
@@ -157,7 +157,7 @@
       "canonical_name": "Wilson, S.",
       "given_names": "S.",
       "surname": "Wilson",
-      "position": "4th Revenue Officer",
+      "position": "Revenue Officer",
       "department": "Treasury",
       "salary_min": 50,
       "salary_max": 50,
@@ -397,7 +397,7 @@
       "canonical_name": "Wigley, F. S.",
       "given_names": "F. S.",
       "surname": "Wigley",
-      "position": "Commissioner",
+      "position": null,
       "department": "Town Improvements Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -413,7 +413,7 @@
       "canonical_name": "Delisle, E. S.",
       "given_names": "E. S.",
       "surname": "Delisle",
-      "position": "Commissioner",
+      "position": null,
       "department": "Town Improvements Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -429,7 +429,7 @@
       "canonical_name": "Todd, E. G.",
       "given_names": "E. G.",
       "surname": "Todd",
-      "position": "Commissioner",
+      "position": null,
       "department": "Town Improvements Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -445,7 +445,7 @@
       "canonical_name": "Horsford, S. L.",
       "given_names": "S. L.",
       "surname": "Horsford",
-      "position": "Commissioner",
+      "position": null,
       "department": "Town Improvements Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -461,7 +461,7 @@
       "canonical_name": "Davis, B. S.",
       "given_names": "B. S.",
       "surname": "Davis",
-      "position": "Commissioner",
+      "position": null,
       "department": "Town Improvements Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -477,7 +477,7 @@
       "canonical_name": "Munro, A.",
       "given_names": "A.",
       "surname": "Munro",
-      "position": "Commissioner",
+      "position": null,
       "department": "Town Improvements Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -493,7 +493,7 @@
       "canonical_name": "Branch, W. J.",
       "given_names": "W. J.",
       "surname": "Branch",
-      "position": "Commissioner",
+      "position": null,
       "department": "Town Improvements Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -509,7 +509,7 @@
       "canonical_name": "Procope, F.",
       "given_names": "F.",
       "surname": "Procope",
-      "position": "Commissioner",
+      "position": null,
       "department": "Town Improvements Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -574,7 +574,7 @@
       "given_names": "The",
       "surname": "Administrator",
       "position": "Chairman",
-      "department": "Board of Health, St. Kitts",
+      "department": "Board of Health",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -582,7 +582,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Kitts"
     },
     {
       "name": "J. G. Piguenit",
@@ -590,7 +590,7 @@
       "given_names": "J. G.",
       "surname": "Piguenit",
       "position": "Clerk to Board",
-      "department": "Board of Health, St. Kitts",
+      "department": "Board of Health",
       "salary_min": 50,
       "salary_max": 50,
       "allowances": null,
@@ -598,7 +598,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Kitts"
     },
     {
       "name": "W. J. Branch",
@@ -606,7 +606,7 @@
       "given_names": "W. J.",
       "surname": "Branch",
       "position": "Medical Officer",
-      "department": "Board of Health, St. Kitts",
+      "department": "Board of Health",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -616,15 +616,15 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Kitts"
     },
     {
       "name": "T. J. Christopher",
       "canonical_name": "Christopher, T. J.",
       "given_names": "T. J.",
       "surname": "Christopher",
-      "position": "Sanitary Officer",
-      "department": "Board of Health, St. Kitts",
+      "position": "Sanitary Officers",
+      "department": "Board of Health",
       "salary_min": 50,
       "salary_max": 50,
       "allowances": null,
@@ -639,8 +639,8 @@
       "canonical_name": "Dowell, I.",
       "given_names": "I.",
       "surname": "Dowell",
-      "position": "Sanitary Officer",
-      "department": "Board of Health, St. Kitts",
+      "position": "Sanitary Officers",
+      "department": "Board of Health",
       "salary_min": 50,
       "salary_max": 50,
       "allowances": null,
@@ -655,8 +655,8 @@
       "canonical_name": "Wilson, S.",
       "given_names": "S.",
       "surname": "Wilson",
-      "position": "Sanitary Officer",
-      "department": "Board of Health, St. Kitts",
+      "position": "Sanitary Officers",
+      "department": "Board of Health",
       "salary_min": 75,
       "salary_max": 75,
       "allowances": null,
@@ -671,8 +671,8 @@
       "canonical_name": "Howe, J. A.",
       "given_names": "J. A.",
       "surname": "Howe",
-      "position": "Sanitary Officer",
-      "department": "Board of Health, St. Kitts",
+      "position": null,
+      "department": "Board of Health",
       "salary_min": 50,
       "salary_max": 50,
       "allowances": null,
@@ -688,7 +688,7 @@
       "given_names": "J.",
       "surname": "Briggs",
       "position": "Chairman",
-      "department": "Board of Health, Nevis",
+      "department": "Board of Health",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -696,15 +696,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nevis"
     },
     {
-      "name": "Dr. J. D. Bell",
-      "canonical_name": "Bell, Dr. J. D.",
-      "given_names": "Dr. J. D.",
+      "name": "J. D. Bell",
+      "canonical_name": "Bell, J. D.",
+      "given_names": "J. D.",
       "surname": "Bell",
       "position": "Health Officer",
-      "department": "Board of Health, Nevis",
+      "department": "Board of Health",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -712,7 +712,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nevis"
     },
     {
       "name": "H. Amory",
@@ -720,7 +720,7 @@
       "given_names": "H.",
       "surname": "Amory",
       "position": "Clerk",
-      "department": "Board of Health, Nevis",
+      "department": "Board of Health",
       "salary_min": 12,
       "salary_max": 12,
       "allowances": null,
@@ -728,7 +728,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nevis"
     },
     {
       "name": "J. B. Morris",
@@ -736,7 +736,7 @@
       "given_names": "J. B.",
       "surname": "Morris",
       "position": "Sanitary Officer",
-      "department": "Board of Health, Nevis",
+      "department": "Board of Health",
       "salary_min": 12,
       "salary_max": 12,
       "allowances": null,
@@ -744,7 +744,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nevis"
     },
     {
       "name": "W. Hull",
@@ -752,7 +752,7 @@
       "given_names": "W.",
       "surname": "Hull",
       "position": "Market Keeper",
-      "department": "Board of Health, Nevis",
+      "department": "Board of Health",
       "salary_min": 25,
       "salary_max": 25,
       "allowances": null,
@@ -760,14 +760,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nevis"
     },
     {
-      "name": "Dr. W. J. Branch",
+      "name": "W. J. Branch",
       "canonical_name": "Branch, W. J.",
       "given_names": "W. J.",
       "surname": "Branch",
-      "position": "Superintendent, Cunningham Hospital; Analyst of Vital Statistics",
+      "position": "Superintendent, Cunningham Hospital",
       "department": "Medical Department",
       "salary_min": 200,
       "salary_max": 200,
@@ -797,11 +797,11 @@
       "location": null
     },
     {
-      "name": "Mrs. L. A. Hodgson",
+      "name": "L. A. Hodgson",
       "canonical_name": "Hodgson, L. A.",
       "given_names": "L. A.",
       "surname": "Hodgson",
-      "position": "Matron",
+      "position": "Matron, Cunningham Hospital",
       "department": "Medical Department",
       "salary_min": 50,
       "salary_max": 50,
@@ -817,7 +817,7 @@
       "canonical_name": "Jordan, J.",
       "given_names": "J.",
       "surname": "Jordan",
-      "position": "Dispenser",
+      "position": "Dispenser, Cunningham Hospital",
       "department": "Medical Department",
       "salary_min": 50,
       "salary_max": 50,
@@ -829,7 +829,7 @@
       "location": null
     },
     {
-      "name": "Dr. J. Foreman",
+      "name": "J. Foreman",
       "canonical_name": "Foreman, J.",
       "given_names": "J.",
       "surname": "Foreman",
@@ -861,11 +861,11 @@
       "location": null
     },
     {
-      "name": "Dr. J. D. Bell",
+      "name": "J. D. Bell",
       "canonical_name": "Bell, J. D.",
       "given_names": "J. D.",
       "surname": "Bell",
-      "position": "Medical Officer-in-Charge, Infirmary, Nevis",
+      "position": "Medical Officer-in-Charge, Infirmary",
       "department": "Medical Department",
       "salary_min": 40,
       "salary_max": 40,
@@ -874,7 +874,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nevis"
     },
     {
       "name": "H. Weeks",
@@ -906,7 +906,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Kitts"
     },
     {
       "name": "J. S. Nurse",
@@ -924,7 +924,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Kitts"
     },
     {
       "name": "E. W. R. Branch",
@@ -942,7 +942,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Kitts"
     },
     {
       "name": "C. W. Branch",
@@ -960,10 +960,10 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Kitts"
     },
     {
-      "name": "Dr. Foreman (acting)",
+      "name": "Foreman",
       "canonical_name": "Foreman, ",
       "given_names": "",
       "surname": "Foreman",
@@ -976,7 +976,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Kitts"
     },
     {
       "name": "J. H. Cooke",
@@ -994,7 +994,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nevis"
     },
     {
       "name": "J. N. Rat",
@@ -1012,7 +1012,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Anguilla"
     },
     {
       "name": "J. P. Turner",
@@ -1031,7 +1031,7 @@
       "location": "Basseterre"
     },
     {
-      "name": "Miss C. Bridgewater",
+      "name": "C. Bridgewater",
       "canonical_name": "Bridgewater, C.",
       "given_names": "C.",
       "surname": "Bridgewater",
@@ -1063,7 +1063,7 @@
       "location": null
     },
     {
-      "name": "Mrs. A. J. MacWilliam",
+      "name": "A. J. MacWilliam",
       "canonical_name": "MacWilliam, A. J.",
       "given_names": "A. J.",
       "surname": "MacWilliam",
@@ -1147,7 +1147,7 @@
       "canonical_name": "Baynes, Thomas",
       "given_names": "Thomas",
       "surname": "Baynes",
-      "position": "1st Puisne Judge, Supreme Court (see Federal Establishment)",
+      "position": "1st Puisne Judge, Supreme Court",
       "department": "Judicial Department",
       "salary_min": 850,
       "salary_max": 850,
@@ -1220,7 +1220,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "St. Kitts"
+      "location": null
     },
     {
       "name": "F. Spencer Wigley",
@@ -1406,7 +1406,7 @@
       "given_names": "W. J.",
       "surname": "Branch",
       "position": "Medical Officer",
-      "department": "Medical Officer",
+      "department": "Gaol",
       "salary_min": 75,
       "salary_max": 75,
       "allowances": null,
@@ -1551,7 +1551,7 @@
       "canonical_name": "Duchilleau, Marquis",
       "given_names": "Marquis",
       "surname": "Duchilleau",
-      "position": "Governor (Dominica)",
+      "position": "Governor",
       "department": null,
       "salary_min": null,
       "salary_max": null,
@@ -1563,7 +1563,7 @@
       "location": null
     },
     {
-      "name": "John Ord",
+      "name": "Sir John Ord",
       "canonical_name": "Ord, John",
       "given_names": "John",
       "surname": "Ord",
@@ -1579,7 +1579,7 @@
       "location": null
     },
     {
-      "name": "George Pr\u00e9vost",
+      "name": "Sir George Pr\u00e9vost",
       "canonical_name": "Pr\u00e9vost, George",
       "given_names": "George",
       "surname": "Pr\u00e9vost",
@@ -1595,11 +1595,11 @@
       "location": null
     },
     {
-      "name": "R. Hamilton",
+      "name": "Sir R. Hamilton",
       "canonical_name": "Hamilton, R.",
       "given_names": "R.",
       "surname": "Hamilton",
-      "position": "Commissioner of Inquiry (1893)",
+      "position": "Commissioner (Inquiry into Administration)",
       "department": null,
       "salary_min": null,
       "salary_max": null,
@@ -1620,6 +1620,6 @@
     "low_confidence": 2,
     "quarantined": 2,
     "passed": 99,
-    "anomaly_count": 10
+    "anomaly_count": 11
   }
 }

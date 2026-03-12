@@ -1,17 +1,17 @@
 {
   "colony": "Ascension",
   "year": 1897,
-  "generated": "2026-03-12T12:14:31.043112",
+  "generated": "2026-03-12T13:16:01.535640",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 8,
+  "total_officials": 5,
   "officials": [
     {
       "name": "R. Evans",
       "canonical_name": "Evans, R.",
       "given_names": "R.",
       "surname": "Evans",
-      "position": "Captain",
+      "position": "Captain, R.N.",
       "department": null,
       "salary_min": null,
       "salary_max": null,
@@ -23,23 +23,7 @@
       "location": null
     },
     {
-      "name": "TRISTAN D'ACUNHA",
-      "canonical_name": "D'ACUNHA, TRISTAN",
-      "given_names": "TRISTAN",
-      "surname": "D'ACUNHA",
-      "position": null,
-      "department": null,
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Glass",
+      "name": "Governor Glass",
       "canonical_name": "Glass",
       "given_names": "",
       "surname": "Glass",
@@ -50,12 +34,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Corporal",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Arundel",
+      "name": "Mr. Arundel",
       "canonical_name": "Arundel",
       "given_names": "",
       "surname": "Arundel",
@@ -101,49 +85,17 @@
       "military_rank": null,
       "salary_scale": null,
       "location": null
-    },
-    {
-      "name": "Humphrey",
-      "canonical_name": "Humphrey",
-      "given_names": "",
-      "surname": "Humphrey",
-      "position": null,
-      "department": null,
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Ricorson",
-      "canonical_name": "Ricorson",
-      "given_names": "",
-      "surname": "Ricorson",
-      "position": null,
-      "department": null,
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
     }
   ],
   "validation_summary": {
     "colony": "Ascension",
     "year": 1897,
-    "total": 9,
-    "high_confidence": 2,
-    "medium_confidence": 6,
+    "total": 6,
+    "high_confidence": 1,
+    "medium_confidence": 4,
     "low_confidence": 1,
     "quarantined": 1,
-    "passed": 8,
+    "passed": 5,
     "anomaly_count": 0
   }
 }

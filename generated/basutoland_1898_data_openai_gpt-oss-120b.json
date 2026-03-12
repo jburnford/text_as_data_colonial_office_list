@@ -1,7 +1,7 @@
 {
   "colony": "Basutoland",
   "year": 1898,
-  "generated": "2026-03-12T12:28:11.128892",
+  "generated": "2026-03-12T13:31:40.118670",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 26,
@@ -15,7 +15,7 @@
       "department": "Establishment",
       "salary_min": 1800,
       "salary_max": 1800,
-      "allowances": "200",
+      "allowances": "200 travelling allowance",
       "honors": [
         "K.C.M.G."
       ],
@@ -284,9 +284,9 @@
     },
     {
       "name": "R. M. Bosworth Smith",
-      "canonical_name": "Bosworth Smith, R. M.",
-      "given_names": "R. M.",
-      "surname": "Bosworth Smith",
+      "canonical_name": "Smith, R. M. Bosworth",
+      "given_names": "R. M. Bosworth",
+      "surname": "Smith",
       "position": "Sub-Inspector of Police",
       "department": "Establishment",
       "salary_min": null,

@@ -1,14 +1,14 @@
 {
   "colony": "Bechuanaland",
   "year": 1905,
-  "generated": "2026-03-12T07:22:36.407268",
+  "generated": "2026-03-12T12:50:30.012175",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 22,
+  "total_officials": 21,
   "officials": [
     {
       "name": "Sekgoma",
-      "canonical_name": "Sekgoma, ",
+      "canonical_name": "Sekgoma",
       "given_names": "",
       "surname": "Sekgoma",
       "position": "Chief of the Batswana",
@@ -20,11 +20,11 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Lake Ngami"
+      "location": null
     },
     {
       "name": "Mokgosi",
-      "canonical_name": "Mokgosi, ",
+      "canonical_name": "Mokgosi",
       "given_names": "",
       "surname": "Mokgosi",
       "position": "Chief of the Bamaletse",
@@ -36,7 +36,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Ramotusa"
+      "location": null
     },
     {
       "name": "Ralph Williams",
@@ -61,26 +61,10 @@
       "canonical_name": "May, Barry",
       "given_names": "Barry",
       "surname": "May",
-      "position": "Government Secretary and Accountant to Resident Commissioner",
+      "position": "Clerk and Accountant to Resident Commissioner",
       "department": "Establishment",
       "salary_min": 650,
       "salary_max": 650,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "K. C. Bishop",
-      "canonical_name": "Bishop, K. C.",
-      "given_names": "K. C.",
-      "surname": "Bishop",
-      "position": "Clerk and Registrar to Resident Commissioner",
-      "department": "Establishment",
-      "salary_min": 350,
-      "salary_max": 350,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -364,12 +348,12 @@
   "validation_summary": {
     "colony": "Bechuanaland",
     "year": 1905,
-    "total": 22,
-    "high_confidence": 20,
+    "total": 21,
+    "high_confidence": 19,
     "medium_confidence": 2,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 22,
+    "passed": 21,
     "anomaly_count": 0
   }
 }

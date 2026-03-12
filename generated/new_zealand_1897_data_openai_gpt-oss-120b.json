@@ -1,10 +1,10 @@
 {
   "colony": "New Zealand",
   "year": 1897,
-  "generated": "2026-03-12T12:24:56.024424",
+  "generated": "2026-03-12T13:26:13.254981",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 171,
+  "total_officials": 172,
   "officials": [
     {
       "name": "Earl of Ranfurly",
@@ -159,7 +159,7 @@
       "department": "Colonial Secretary's Office",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "200l. house allowance",
+      "allowances": "house allowance 200l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -207,7 +207,7 @@
       "department": "Treasury",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "200l. house allowance",
+      "allowances": "house allowance, 200l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -290,7 +290,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": "Lieut.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -663,7 +663,7 @@
       "location": "Dunedin"
     },
     {
-      "name": "W. C. Walker",
+      "name": "William C. Walker",
       "canonical_name": "Walker, William C.",
       "given_names": "William C.",
       "surname": "Walker",
@@ -679,7 +679,7 @@
       "location": null
     },
     {
-      "name": "W. J. Habens",
+      "name": "William J. Habens",
       "canonical_name": "Habens, William J.",
       "given_names": "William J.",
       "surname": "Habens",
@@ -767,7 +767,7 @@
       "department": "Public Works Department",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "200l.",
+      "allowances": "200l. allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1097,7 +1097,7 @@
       "location": null
     },
     {
-      "name": "Hon. T. Thompson",
+      "name": "T. Thompson",
       "canonical_name": "Thompson, T.",
       "given_names": "T.",
       "surname": "Thompson",
@@ -1113,8 +1113,8 @@
       "location": null
     },
     {
-      "name": "Colonel Fox",
-      "canonical_name": "Fox, Colonel",
+      "name": "Fox",
+      "canonical_name": "Fox",
       "given_names": "",
       "surname": "Fox",
       "position": "Military Adviser and Inspector of the N.Z. Forces",
@@ -1129,7 +1129,7 @@
       "location": null
     },
     {
-      "name": "Major Sir A. P. Douglas",
+      "name": "A. P. Douglas",
       "canonical_name": "Douglas, A. P.",
       "given_names": "A. P.",
       "surname": "Douglas",
@@ -1149,7 +1149,7 @@
       "canonical_name": "Grey, T. F.",
       "given_names": "T. F.",
       "surname": "Grey",
-      "position": "Senior Clerk",
+      "position": "Senior Clerk, Police Department",
       "department": "Defence Department",
       "salary_min": null,
       "salary_max": null,
@@ -1161,7 +1161,7 @@
       "location": null
     },
     {
-      "name": "Lieut.-Colonel A. Hume",
+      "name": "A. Hume",
       "canonical_name": "Hume, A.",
       "given_names": "A.",
       "surname": "Hume",
@@ -1177,9 +1177,9 @@
       "location": null
     },
     {
-      "name": "Hon. Jas. Carroll",
-      "canonical_name": "Carroll, Hon. Jas.",
-      "given_names": "Hon. Jas.",
+      "name": "Jas. Carroll",
+      "canonical_name": "Carroll, Jas.",
+      "given_names": "Jas.",
       "surname": "Carroll",
       "position": "Commissioner",
       "department": "Stamp Office",
@@ -1252,7 +1252,7 @@
       "allowances": "200l. house allowance",
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "General",
       "salary_scale": null,
       "location": null
     },
@@ -1265,10 +1265,10 @@
       "department": "Crown Law Office",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "General",
       "salary_scale": null,
       "location": null
     },
@@ -1281,7 +1281,7 @@
       "department": "Crown Law Office",
       "salary_min": 550,
       "salary_max": 550,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1297,7 +1297,7 @@
       "department": "Crown Law Office",
       "salary_min": 650,
       "salary_max": 650,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.A.",
@@ -1316,7 +1316,7 @@
       "department": "Crown Law Office",
       "salary_min": 205,
       "salary_max": 205,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1619,8 +1619,8 @@
     },
     {
       "name": "Sir J. Prendorgast",
-      "canonical_name": "Prendorgast, Sir J.",
-      "given_names": "Sir J.",
+      "canonical_name": "Prendorgast, J.",
+      "given_names": "J.",
       "surname": "Prendorgast",
       "position": "Justice",
       "department": "Judicial",
@@ -1634,9 +1634,9 @@
       "location": null
     },
     {
-      "name": "E. T. Conolly",
-      "canonical_name": "Conolly, E. T.",
-      "given_names": "E. T.",
+      "name": "Claud E. T. Conolly",
+      "canonical_name": "Conolly, Claud E. T.",
+      "given_names": "Claud E. T.",
       "surname": "Conolly",
       "position": "Judge",
       "department": "Judicial",
@@ -1647,7 +1647,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Claud"
+      "location": null
     },
     {
       "name": "W. B. Edwards",
@@ -1702,7 +1702,7 @@
       "canonical_name": "Kettle, C. C.",
       "given_names": "C. C.",
       "surname": "Kettle",
-      "position": "Court Judge",
+      "position": "Judge",
       "department": "Judicial",
       "salary_min": 500,
       "salary_max": 500,
@@ -1718,7 +1718,7 @@
       "canonical_name": "Robinson, H. W.",
       "given_names": "H. W.",
       "surname": "Robinson",
-      "position": "Court Judge",
+      "position": "Judge",
       "department": "Judicial",
       "salary_min": 550,
       "salary_max": 550,
@@ -1734,7 +1734,7 @@
       "canonical_name": "Ward, C. D. R.",
       "given_names": "C. D. R.",
       "surname": "Ward",
-      "position": "Court Judge",
+      "position": "Judge",
       "department": "Judicial",
       "salary_min": 900,
       "salary_max": 900,
@@ -1839,7 +1839,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Wellington"
+      "location": "Wellington, &c."
     },
     {
       "name": "R. Beatham",
@@ -2034,6 +2034,22 @@
       "military_rank": null,
       "salary_scale": null,
       "location": "Christchurch"
+    },
+    {
+      "name": "William Garden Cowie",
+      "canonical_name": "Cowie, William Garden",
+      "given_names": "William Garden",
+      "surname": "Cowie",
+      "position": "Primate",
+      "department": "Church of England",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Auckland"
     },
     {
       "name": "Charles Oliver Mules",
@@ -2248,10 +2264,10 @@
       "location": "Wellington"
     },
     {
-      "name": "Alexandre Louis Ferdinand de Jouffroy d'Abbans",
-      "canonical_name": "de Jouffroy d'Abbans, Alexandre Louis Ferdinand",
-      "given_names": "Alexandre Louis Ferdinand",
-      "surname": "de Jouffroy d'Abbans",
+      "name": "Vicomte Alexandre Louis Ferdinand de Jouffroy d'Abbans",
+      "canonical_name": "d'Abbans, Vicomte Alexandre Louis Ferdinand de Jouffroy",
+      "given_names": "Vicomte Alexandre Louis Ferdinand de Jouffroy",
+      "surname": "d'Abbans",
       "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -2345,9 +2361,9 @@
     },
     {
       "name": "Heinrich von Haest",
-      "canonical_name": "von Haest, Heinrich",
-      "given_names": "Heinrich",
-      "surname": "von Haest",
+      "canonical_name": "Haest, Heinrich von",
+      "given_names": "Heinrich von",
+      "surname": "Haest",
       "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -2428,7 +2444,7 @@
       "canonical_name": "Dixon, W. F.",
       "given_names": "W. F.",
       "surname": "Dixon",
-      "position": "Consul-General for Australasia",
+      "position": "Consul-General",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2472,11 +2488,11 @@
       "location": "Dunedin"
     },
     {
-      "name": "P. Corte",
-      "canonical_name": "Corte, P.",
-      "given_names": "P.",
+      "name": "Commendatore P. Corte",
+      "canonical_name": "Corte, Commendatore P.",
+      "given_names": "Commendatore P.",
       "surname": "Corte",
-      "position": "Consul-General in Australia",
+      "position": "Consul-General",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2552,10 +2568,10 @@
       "location": "Auckland"
     },
     {
-      "name": "Laon Adrian de Vierq",
-      "canonical_name": "de Vierq, Laon Adrian",
-      "given_names": "Laon Adrian",
-      "surname": "de Vierq",
+      "name": "Dr. Laon Adrian de Vierq",
+      "canonical_name": "Vierq, Dr. Laon Adrian de",
+      "given_names": "Dr. Laon Adrian de",
+      "surname": "Vierq",
       "position": "Consul-General",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -2572,7 +2588,7 @@
       "canonical_name": "Amora, J. H.",
       "given_names": "J. H.",
       "surname": "Amora",
-      "position": "Consul-General for Australia",
+      "position": "Consul-General",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2616,10 +2632,10 @@
       "location": "Auckland"
     },
     {
-      "name": "Francisco Arenas Y Bonet",
-      "canonical_name": "Arenas Y Bonet, Francisco",
-      "given_names": "Francisco",
-      "surname": "Arenas Y Bonet",
+      "name": "Don Francisco Arenas Y Bonet",
+      "canonical_name": "Bonet, Don Francisco Arenas Y",
+      "given_names": "Don Francisco Arenas Y",
+      "surname": "Bonet",
       "position": "Vice-Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -2765,12 +2781,12 @@
   "validation_summary": {
     "colony": "New Zealand",
     "year": 1897,
-    "total": 171,
-    "high_confidence": 168,
+    "total": 172,
+    "high_confidence": 169,
     "medium_confidence": 3,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 171,
+    "passed": 172,
     "anomaly_count": 16
   }
 }

@@ -1,35 +1,17 @@
 {
   "colony": "Sarawak",
   "year": 1897,
-  "generated": "2026-03-12T12:21:30.359285",
+  "generated": "2026-03-12T13:23:21.449865",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 39,
   "officials": [
     {
-      "name": "His Highness Sir Charles Brooke",
-      "canonical_name": "Brooke, Charles",
-      "given_names": "Charles",
+      "name": "Sir Charles Brooke",
+      "canonical_name": "Brooke, Sir Charles",
+      "given_names": "Sir Charles",
       "surname": "Brooke",
-      "position": "Chief of Sarawak",
-      "department": "Civil Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [
-        "G.C.M.G."
-      ],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "His Highness the Rajah",
-      "canonical_name": "Rajah, His Highness the",
-      "given_names": "His Highness the",
-      "surname": "Rajah",
-      "position": "President, Supreme Council",
+      "position": "Chief of Sarawak, Commander of the Crown of Italy",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -59,11 +41,29 @@
       "location": null
     },
     {
-      "name": "Hon. C. A. Bampfylde",
+      "name": "His Highness the Rajah",
+      "canonical_name": "Rajah, His Highness the",
+      "given_names": "His Highness the",
+      "surname": "Rajah",
+      "position": "President",
+      "department": "Civil Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "G.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "C. A. Bampfylde",
       "canonical_name": "Bampfylde, C. A.",
       "given_names": "C. A.",
       "surname": "Bampfylde",
-      "position": "Member, Supreme Council",
+      "position": "Member",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -75,11 +75,11 @@
       "location": null
     },
     {
-      "name": "Hon. C. S. Pearse",
+      "name": "C. S. Pearse",
       "canonical_name": "Pearse, C. S.",
       "given_names": "C. S.",
       "surname": "Pearse",
-      "position": "Member, Supreme Council",
+      "position": "Member",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -95,7 +95,7 @@
       "canonical_name": "Bandar, Datu",
       "given_names": "Datu",
       "surname": "Bandar",
-      "position": "Member, Supreme Council",
+      "position": "Member",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -111,7 +111,7 @@
       "canonical_name": "Imaua, Datu",
       "given_names": "Datu",
       "surname": "Imaua",
-      "position": "Member, Supreme Council",
+      "position": "Member",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -127,7 +127,7 @@
       "canonical_name": "Kassim, Abang Mahomad",
       "given_names": "Abang Mahomad",
       "surname": "Kassim",
-      "position": "Member, Supreme Council",
+      "position": "Member",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -155,7 +155,7 @@
       "location": null
     },
     {
-      "name": "Captain H. W. Peck",
+      "name": "H. W. Peck",
       "canonical_name": "Peck, H. W.",
       "given_names": "H. W.",
       "surname": "Peck",
@@ -458,7 +458,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Cape Town"
+      "location": null
     },
     {
       "name": "Sir Graham Bower",
@@ -469,7 +469,7 @@
       "department": "High Commission",
       "salary_min": 700,
       "salary_max": 700,
-      "allowances": "personal allowance 250l., Naval half pay",
+      "allowances": "personal allowance, 250l., and Naval half pay",
       "honors": [
         "K.C.M.G."
       ],
@@ -487,7 +487,7 @@
       "department": "High Commission",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "50l. as Auditor, Basutoland",
+      "allowances": "50l. as Auditor",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -556,7 +556,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Bechuanaland Protectorate"
+      "location": null
     },
     {
       "name": "W. H. Surmon",
@@ -572,7 +572,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Protectorate"
+      "location": null
     },
     {
       "name": "J. Ashburnham",
@@ -588,13 +588,13 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Protectorate"
+      "location": null
     },
     {
       "name": "W. Conyngham Greene",
-      "canonical_name": "Conyngham Greene, W.",
-      "given_names": "W.",
-      "surname": "Conyngham Greene",
+      "canonical_name": "Greene, W. Conyngham",
+      "given_names": "W. Conyngham",
+      "surname": "Greene",
       "position": "British Agent at Pretoria",
       "department": "High Commission",
       "salary_min": 2000,
@@ -604,7 +604,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Pretoria"
+      "location": null
     },
     {
       "name": "Sir H. H. Johnston",
@@ -622,7 +622,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Nyassaland"
+      "location": null
     },
     {
       "name": "J. Smuts",
@@ -638,7 +638,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Swaziland"
+      "location": null
     }
   ],
   "validation_summary": {

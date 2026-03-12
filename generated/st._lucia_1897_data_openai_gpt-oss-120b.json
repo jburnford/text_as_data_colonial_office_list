@@ -1,15 +1,15 @@
 {
   "colony": "St. Lucia",
   "year": 1897,
-  "generated": "2026-03-12T12:22:46.307329",
+  "generated": "2026-03-12T13:24:19.595389",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 19,
+  "total_officials": 18,
   "officials": [
     {
       "name": "C. A. King Harman",
-      "canonical_name": "Harman, C. A.",
-      "given_names": "C. A.",
+      "canonical_name": "Harman, C. A. King",
+      "given_names": "C. A. King",
       "surname": "Harman",
       "position": "Administrator of the Government and Colonial Secretary",
       "department": "Civil Establishment",
@@ -175,7 +175,7 @@
       "canonical_name": "Clarke, R. J.",
       "given_names": "R. J.",
       "surname": "Clarke",
-      "position": "Anglican Minister of Grace Church",
+      "position": "Anglican Minister of Grace Church, River Doree",
       "department": "Ecclesiastical",
       "salary_min": 200,
       "salary_max": 200,
@@ -184,7 +184,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "River Doree"
+      "location": null
     },
     {
       "name": "L. Tapon",
@@ -223,22 +223,6 @@
       "canonical_name": "Chastanet, Charles",
       "given_names": "Charles",
       "surname": "Chastanet",
-      "position": "Consul",
-      "department": "Foreign Consuls",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "W. Peter",
-      "canonical_name": "Peter, W.",
-      "given_names": "W.",
-      "surname": "Peter",
       "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -299,9 +283,9 @@
       "location": null
     },
     {
-      "name": "W. Barnard",
-      "canonical_name": "Barnard, W.",
-      "given_names": "W.",
+      "name": "William Barnard",
+      "canonical_name": "Barnard, William",
+      "given_names": "William",
       "surname": "Barnard",
       "position": "Consul",
       "department": "Foreign Consuls",
@@ -318,12 +302,12 @@
   "validation_summary": {
     "colony": "St. Lucia",
     "year": 1897,
-    "total": 20,
-    "high_confidence": 19,
+    "total": 19,
+    "high_confidence": 18,
     "medium_confidence": 0,
     "low_confidence": 1,
     "quarantined": 1,
-    "passed": 19,
+    "passed": 18,
     "anomaly_count": 0
   }
 }
