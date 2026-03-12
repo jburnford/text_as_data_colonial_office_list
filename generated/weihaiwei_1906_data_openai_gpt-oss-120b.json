@@ -1,0 +1,71 @@
+{
+  "colony": "Weihaiwei",
+  "year": 1906,
+  "generated": "2026-03-12T01:46:12.790929",
+  "model": "openai/gpt-oss-120b",
+  "tier": "STANDARD",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "J. H. Stewart Lockhart",
+      "canonical_name": "Lockhart, J. H. Stewart",
+      "given_names": "J. H. Stewart",
+      "surname": "Lockhart",
+      "position": "Commissioner",
+      "department": null,
+      "salary_min": 1500,
+      "salary_max": 1500,
+      "allowances": "100l. entertainment allowance and house",
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "R. Walter",
+      "canonical_name": "Walter, R.",
+      "given_names": "R.",
+      "surname": "Walter",
+      "position": "Secretary to Government and Magistrate",
+      "department": null,
+      "salary_min": 500,
+      "salary_max": 500,
+      "allowances": "free quarters",
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "E. Carpmel",
+      "canonical_name": "Carpmel, E.",
+      "given_names": "E.",
+      "surname": "Carpmel",
+      "position": "Cadet",
+      "department": null,
+      "salary_min": 225,
+      "salary_max": 225,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Weihaiwei",
+    "year": 1906,
+    "total": 3,
+    "high_confidence": 3,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}
