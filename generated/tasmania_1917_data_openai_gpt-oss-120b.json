@@ -1,15 +1,15 @@
 {
   "colony": "Tasmania",
   "year": 1917,
-  "generated": "2026-03-12T08:05:39.568422",
+  "generated": "2026-03-12T09:34:56.429905",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 440,
   "officials": [
     {
-      "name": "Sir William Grey Ellison-Macartney",
-      "canonical_name": "Ellison-Macartney, Sir William Grey",
-      "given_names": "Sir William Grey",
+      "name": "William Grey Ellison-Macartney",
+      "canonical_name": "Ellison-Macartney, William Grey",
+      "given_names": "William Grey",
       "surname": "Ellison-Macartney",
       "position": "Governor",
       "department": "Civil Establishment",
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "Captain Charles Lionel Grey Matthews Matthews-Donaldson",
+      "name": "Charles Lionel Grey Matthews Matthews-Donaldson",
       "canonical_name": "Matthews-Donaldson, Charles Lionel Grey",
       "given_names": "Charles Lionel Grey",
       "surname": "Matthews-Donaldson",
@@ -57,7 +57,7 @@
       "location": null
     },
     {
-      "name": "Colonel Thomas May Evans",
+      "name": "Thomas May Evans",
       "canonical_name": "Evans, Thomas May",
       "given_names": "Thomas May",
       "surname": "Evans",
@@ -73,7 +73,7 @@
       "location": null
     },
     {
-      "name": "Lt.-Colonel George Edward Harrap",
+      "name": "George Edward Harrap",
       "canonical_name": "Harrap, George Edward",
       "given_names": "George Edward",
       "surname": "Harrap",
@@ -89,7 +89,7 @@
       "location": null
     },
     {
-      "name": "Hon. W. H. Lee",
+      "name": "W. H. Lee",
       "canonical_name": "Lee, W. H.",
       "given_names": "W. H.",
       "surname": "Lee",
@@ -105,7 +105,7 @@
       "location": null
     },
     {
-      "name": "Hon. W. B. Propsting",
+      "name": "W. B. Propsting",
       "canonical_name": "Propsting, W. B.",
       "given_names": "W. B.",
       "surname": "Propsting",
@@ -121,7 +121,7 @@
       "location": null
     },
     {
-      "name": "Hon. J. Belton",
+      "name": "J. Belton",
       "canonical_name": "Belton, J.",
       "given_names": "J.",
       "surname": "Belton",
@@ -137,7 +137,7 @@
       "location": null
     },
     {
-      "name": "Hon. J. A. Lyons",
+      "name": "J. A. Lyons",
       "canonical_name": "Lyons, J. A.",
       "given_names": "J. A.",
       "surname": "Lyons",
@@ -153,7 +153,7 @@
       "location": null
     },
     {
-      "name": "W. H. Lee",
+      "name": "Hon. W. H. Lee",
       "canonical_name": "Lee, W. H.",
       "given_names": "W. H.",
       "surname": "Lee",
@@ -201,7 +201,7 @@
       "location": null
     },
     {
-      "name": "Tetley Gant",
+      "name": "Hon. Tetley Gant",
       "canonical_name": "Gant, Tetley",
       "given_names": "Tetley",
       "surname": "Gant",
@@ -217,7 +217,7 @@
       "location": null
     },
     {
-      "name": "R. J. S. McKenzie",
+      "name": "Hon. R. J. S. McKenzie",
       "canonical_name": "McKenzie, R. J. S.",
       "given_names": "R. J. S.",
       "surname": "McKenzie",
@@ -233,7 +233,7 @@
       "location": null
     },
     {
-      "name": "C. H. Hall",
+      "name": "Hon. C. H. Hall",
       "canonical_name": "Hall, C. H.",
       "given_names": "C. H.",
       "surname": "Hall",
@@ -747,9 +747,9 @@
       "location": null
     },
     {
-      "name": "Whitsitt, J. T. H. Sheridan",
-      "canonical_name": "Sheridan, Whitsitt, J. T. H.",
-      "given_names": "Whitsitt, J. T. H.",
+      "name": "J. T. H. Sheridan",
+      "canonical_name": "Sheridan, J. T. H.",
+      "given_names": "J. T. H.",
       "surname": "Sheridan",
       "position": "Member",
       "department": "House of Assembly",
@@ -1436,8 +1436,8 @@
     },
     {
       "name": "Miss M. G. Innes",
-      "canonical_name": "Innes, Miss M. G.",
-      "given_names": "Miss M. G.",
+      "canonical_name": "Innes, M. G.",
+      "given_names": "M. G.",
       "surname": "Innes",
       "position": "Clerks",
       "department": "Statistical Registrar-General's Department",
@@ -1452,8 +1452,8 @@
     },
     {
       "name": "Hon. J. A. Lyons",
-      "canonical_name": "Lyons, Hon. J. A.",
-      "given_names": "Hon. J. A.",
+      "canonical_name": "Lyons, J. A.",
+      "given_names": "J. A.",
       "surname": "Lyons",
       "position": "Treasurer",
       "department": "Treasury",
@@ -1660,8 +1660,8 @@
     },
     {
       "name": "Miss A. M. Johnston",
-      "canonical_name": "Johnston, Miss A. M.",
-      "given_names": "Miss A. M.",
+      "canonical_name": "Johnston, A. M.",
+      "given_names": "A. M.",
       "surname": "Johnston",
       "position": "Clerks",
       "department": "Treasury",
@@ -2127,7 +2127,7 @@
       "canonical_name": "Purkiss, J. S.",
       "given_names": "J. S.",
       "surname": "Purkiss",
-      "position": "Inspector, South Division",
+      "position": "Inspector",
       "department": "Magazines and Explosives",
       "salary_min": 146,
       "salary_max": 146,
@@ -2136,7 +2136,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South Division"
     },
     {
       "name": "M. J. Griffin",
@@ -2159,7 +2159,7 @@
       "canonical_name": "Ross, A. P. C.",
       "given_names": "A. P. C.",
       "surname": "Ross",
-      "position": "Magazine, Strahan",
+      "position": "Magazine",
       "department": "Magazines and Explosives",
       "salary_min": 50,
       "salary_max": 50,
@@ -2168,7 +2168,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Strahan"
     },
     {
       "name": "Jas. Harrison",
@@ -2303,7 +2303,7 @@
       "canonical_name": "Crowther, E. M. P.",
       "given_names": "E. M. P.",
       "surname": "Crowther",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Government Printing Office",
       "salary_min": 110,
       "salary_max": 110,
@@ -2319,7 +2319,7 @@
       "canonical_name": "Tenniswood, G. H.",
       "given_names": "G. H.",
       "surname": "Tenniswood",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Government Printing Office",
       "salary_min": 110,
       "salary_max": 110,
@@ -2335,7 +2335,7 @@
       "canonical_name": "Freney, J. T.",
       "given_names": "J. T.",
       "surname": "Freney",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Government Printing Office",
       "salary_min": 62,
       "salary_max": 62,
@@ -2395,7 +2395,7 @@
       "location": null
     },
     {
-      "name": "William F. Ward",
+      "name": "W. F. Ward",
       "canonical_name": "Ward, William F.",
       "given_names": "William F.",
       "surname": "Ward",
@@ -2732,7 +2732,7 @@
     },
     {
       "name": "J. Osborne, jr.",
-      "canonical_name": "Osborne, J.",
+      "canonical_name": "Osborne, J., jr.",
       "given_names": "J.",
       "surname": "Osborne",
       "position": "Fruit Expert",
@@ -3168,7 +3168,7 @@
       "given_names": "L.",
       "surname": "Dechaineux",
       "position": "Principal",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Hobart",
       "salary_min": 300,
       "salary_max": 300,
       "allowances": null,
@@ -3176,7 +3176,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "P. J. McLeod",
@@ -3184,7 +3184,7 @@
       "given_names": "P. J.",
       "surname": "McLeod",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Hobart",
       "salary_min": 75,
       "salary_max": 75,
       "allowances": null,
@@ -3192,15 +3192,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "Miss S. Cheeseman",
-      "canonical_name": "Cheeseman, Miss S.",
-      "given_names": "Miss S.",
+      "canonical_name": "Cheeseman, S.",
+      "given_names": "S.",
       "surname": "Cheeseman",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Hobart",
       "salary_min": 40,
       "salary_max": 40,
       "allowances": null,
@@ -3208,7 +3208,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "A. T. Johnston",
@@ -3216,7 +3216,7 @@
       "given_names": "A. T.",
       "surname": "Johnston",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Hobart",
       "salary_min": 50,
       "salary_max": 50,
       "allowances": null,
@@ -3224,7 +3224,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "R. C. Procter",
@@ -3232,7 +3232,7 @@
       "given_names": "R. C.",
       "surname": "Procter",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Hobart",
       "salary_min": 40,
       "salary_max": 40,
       "allowances": null,
@@ -3240,7 +3240,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "J. R. Pringle",
@@ -3248,7 +3248,7 @@
       "given_names": "J. R.",
       "surname": "Pringle",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Hobart",
       "salary_min": 80,
       "salary_max": 80,
       "allowances": null,
@@ -3256,7 +3256,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "E. J. Reading",
@@ -3264,7 +3264,7 @@
       "given_names": "E. J.",
       "surname": "Reading",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Hobart",
       "salary_min": 35,
       "salary_max": 35,
       "allowances": null,
@@ -3272,7 +3272,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "W. Russell",
@@ -3280,7 +3280,7 @@
       "given_names": "W.",
       "surname": "Russell",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Hobart",
       "salary_min": 125,
       "salary_max": 125,
       "allowances": null,
@@ -3288,7 +3288,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "J. Quarnty",
@@ -3296,7 +3296,7 @@
       "given_names": "J.",
       "surname": "Quarnty",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Hobart",
       "salary_min": 25,
       "salary_max": 25,
       "allowances": null,
@@ -3304,15 +3304,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "Mrs. A. Thompson",
-      "canonical_name": "Thompson, Mrs. A.",
-      "given_names": "Mrs. A.",
+      "canonical_name": "Thompson, A.",
+      "given_names": "A.",
       "surname": "Thompson",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Hobart",
       "salary_min": 50,
       "salary_max": 50,
       "allowances": null,
@@ -3320,7 +3320,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "F. J. Hanson",
@@ -3328,7 +3328,7 @@
       "given_names": "F. J.",
       "surname": "Hanson",
       "position": "Laboratory Assistant",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Hobart",
       "salary_min": 12,
       "salary_max": 12,
       "allowances": null,
@@ -3336,7 +3336,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "Frank M. Lovett",
@@ -3344,7 +3344,7 @@
       "given_names": "Frank M.",
       "surname": "Lovett",
       "position": "Laboratory Assistant",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Hobart",
       "salary_min": 45,
       "salary_max": 45,
       "allowances": null,
@@ -3352,7 +3352,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "Edward Slevin",
@@ -3360,7 +3360,7 @@
       "given_names": "Edward",
       "surname": "Slevin",
       "position": "Laboratory Assistant",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Hobart",
       "salary_min": 45,
       "salary_max": 45,
       "allowances": null,
@@ -3368,7 +3368,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hobart"
+      "location": null
     },
     {
       "name": "A. H. Masters",
@@ -3376,7 +3376,7 @@
       "given_names": "A. H.",
       "surname": "Masters",
       "position": "Principal",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Launceston",
       "salary_min": 150,
       "salary_max": 150,
       "allowances": null,
@@ -3384,7 +3384,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "C. H. Slater",
@@ -3392,7 +3392,7 @@
       "given_names": "C. H.",
       "surname": "Slater",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Launceston",
       "salary_min": 60,
       "salary_max": 60,
       "allowances": null,
@@ -3400,7 +3400,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "H. Cunningham",
@@ -3408,7 +3408,7 @@
       "given_names": "H.",
       "surname": "Cunningham",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Launceston",
       "salary_min": 40,
       "salary_max": 40,
       "allowances": null,
@@ -3416,7 +3416,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "G. Allen",
@@ -3424,7 +3424,7 @@
       "given_names": "G.",
       "surname": "Allen",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Launceston",
       "salary_min": 80,
       "salary_max": 80,
       "allowances": null,
@@ -3432,7 +3432,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "H. S. Everhard",
@@ -3440,7 +3440,7 @@
       "given_names": "H. S.",
       "surname": "Everhard",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Launceston",
       "salary_min": 100,
       "salary_max": 100,
       "allowances": null,
@@ -3448,7 +3448,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "H. R. Everhard",
@@ -3456,7 +3456,7 @@
       "given_names": "H. R.",
       "surname": "Everhard",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Launceston",
       "salary_min": 80,
       "salary_max": 80,
       "allowances": null,
@@ -3464,7 +3464,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "H. Fraser",
@@ -3472,7 +3472,7 @@
       "given_names": "H.",
       "surname": "Fraser",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Launceston",
       "salary_min": 100,
       "salary_max": 100,
       "allowances": null,
@@ -3480,7 +3480,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "L. H. Lakin",
@@ -3488,7 +3488,7 @@
       "given_names": "L. H.",
       "surname": "Lakin",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Launceston",
       "salary_min": 80,
       "salary_max": 80,
       "allowances": null,
@@ -3496,7 +3496,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "E. A. Perry",
@@ -3504,7 +3504,7 @@
       "given_names": "E. A.",
       "surname": "Perry",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Launceston",
       "salary_min": 50,
       "salary_max": 50,
       "allowances": null,
@@ -3512,15 +3512,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "Mrs. West Garth",
-      "canonical_name": "Garth, Mrs. West",
-      "given_names": "Mrs. West",
+      "canonical_name": "Garth, West",
+      "given_names": "West",
       "surname": "Garth",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Launceston",
       "salary_min": 40,
       "salary_max": 40,
       "allowances": null,
@@ -3528,7 +3528,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "Lydia Morrison",
@@ -3536,7 +3536,7 @@
       "given_names": "Lydia",
       "surname": "Morrison",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Launceston",
       "salary_min": 18,
       "salary_max": 18,
       "allowances": null,
@@ -3544,7 +3544,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "Eva Simmons",
@@ -3552,7 +3552,7 @@
       "given_names": "Eva",
       "surname": "Simmons",
       "position": "Instructor",
-      "department": "Education Department",
+      "department": "Technical School Instructors\u2014Launceston",
       "salary_min": 12,
       "salary_max": 12,
       "allowances": null,
@@ -3560,12 +3560,12 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Launceston"
+      "location": null
     },
     {
       "name": "Hon. H. Nicholls",
-      "canonical_name": "Nicholls, Hon. H.",
-      "given_names": "Hon. H.",
+      "canonical_name": "Nicholls, H.",
+      "given_names": "H.",
       "surname": "Nicholls",
       "position": "Chief Justice",
       "department": "Judicial and Legal Departments",
@@ -3851,9 +3851,9 @@
       "location": null
     },
     {
-      "name": "Miss M. E. Dwyer",
-      "canonical_name": "Dwyer, Miss M. E.",
-      "given_names": "Miss M. E.",
+      "name": "M. E. Dwyer",
+      "canonical_name": "Dwyer, M. E.",
+      "given_names": "M. E.",
       "surname": "Dwyer",
       "position": "Clerk",
       "department": "Law Officers",
@@ -4661,7 +4661,7 @@
       "canonical_name": "Burke, J.",
       "given_names": "J.",
       "surname": "Burke",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Mental Diseases Hospital, New Norfolk",
       "salary_min": 165,
       "salary_max": 165,
@@ -4677,7 +4677,7 @@
       "canonical_name": "Browne, R.",
       "given_names": "R.",
       "surname": "Browne",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Mental Diseases Hospital, New Norfolk",
       "salary_min": 62,
       "salary_max": 62,
@@ -5205,7 +5205,7 @@
       "canonical_name": "Roper, O. J.",
       "given_names": "O. J.",
       "surname": "Roper",
-      "position": "Draftsman",
+      "position": "Draftsmen",
       "department": "Lands and Survey Branch",
       "salary_min": 310,
       "salary_max": 310,
@@ -5221,7 +5221,7 @@
       "canonical_name": "Howell, A. B.",
       "given_names": "A. B.",
       "surname": "Howell",
-      "position": "Draftsman",
+      "position": "Draftsmen",
       "department": "Lands and Survey Branch",
       "salary_min": 335,
       "salary_max": 335,
@@ -5237,7 +5237,7 @@
       "canonical_name": "Lovett, E. P.",
       "given_names": "E. P.",
       "surname": "Lovett",
-      "position": "Draftsman",
+      "position": "Draftsmen",
       "department": "Lands and Survey Branch",
       "salary_min": 310,
       "salary_max": 310,
@@ -5253,7 +5253,7 @@
       "canonical_name": "Turner, L.",
       "given_names": "L.",
       "surname": "Turner",
-      "position": "Draftsman",
+      "position": "Draftsmen",
       "department": "Lands and Survey Branch",
       "salary_min": 260,
       "salary_max": 260,
@@ -5269,7 +5269,7 @@
       "canonical_name": "Oldmeadow, C.",
       "given_names": "C.",
       "surname": "Oldmeadow",
-      "position": "Draftsman",
+      "position": "Draftsmen",
       "department": "Lands and Survey Branch",
       "salary_min": 260,
       "salary_max": 260,
@@ -5285,7 +5285,7 @@
       "canonical_name": "Scott, W.",
       "given_names": "W.",
       "surname": "Scott",
-      "position": "Draftsman",
+      "position": "Draftsmen",
       "department": "Lands and Survey Branch",
       "salary_min": 260,
       "salary_max": 260,
@@ -5301,7 +5301,7 @@
       "canonical_name": "Oldmeadow, A.",
       "given_names": "A.",
       "surname": "Oldmeadow",
-      "position": "Draftsman",
+      "position": "Draftsmen",
       "department": "Lands and Survey Branch",
       "salary_min": 240,
       "salary_max": 240,
@@ -5317,7 +5317,7 @@
       "canonical_name": "Weber, A.",
       "given_names": "A.",
       "surname": "Weber",
-      "position": "Draftsman",
+      "position": "Draftsmen",
       "department": "Lands and Survey Branch",
       "salary_min": 240,
       "salary_max": 240,
@@ -5333,7 +5333,7 @@
       "canonical_name": "Clarke, J. M.",
       "given_names": "J. M.",
       "surname": "Clarke",
-      "position": "Draftsman",
+      "position": "Draftsmen",
       "department": "Lands and Survey Branch",
       "salary_min": 180,
       "salary_max": 180,
@@ -5349,7 +5349,7 @@
       "canonical_name": "Garrard, T.",
       "given_names": "T.",
       "surname": "Garrard",
-      "position": "Draftsman",
+      "position": "Draftsmen",
       "department": "Lands and Survey Branch",
       "salary_min": 260,
       "salary_max": 260,
@@ -5365,7 +5365,7 @@
       "canonical_name": "Weber, O.",
       "given_names": "O.",
       "surname": "Weber",
-      "position": "Draftsman",
+      "position": "Draftsmen",
       "department": "Lands and Survey Branch",
       "salary_min": 200,
       "salary_max": 200,
@@ -5381,7 +5381,7 @@
       "canonical_name": "Barnett, H. S.",
       "given_names": "H. S.",
       "surname": "Barnett",
-      "position": "Draftsman",
+      "position": "Draftsmen",
       "department": "Lands and Survey Branch",
       "salary_min": 100,
       "salary_max": 100,
@@ -5413,7 +5413,7 @@
       "canonical_name": "Molloy, T. P.",
       "given_names": "T. P.",
       "surname": "Molloy",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Lands and Survey Branch",
       "salary_min": 300,
       "salary_max": 300,
@@ -5429,7 +5429,7 @@
       "canonical_name": "Pitman, C. B.",
       "given_names": "C. B.",
       "surname": "Pitman",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Lands and Survey Branch",
       "salary_min": 240,
       "salary_max": 240,
@@ -5445,7 +5445,7 @@
       "canonical_name": "McGough, J. L.",
       "given_names": "J. L.",
       "surname": "McGough",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Lands and Survey Branch",
       "salary_min": 240,
       "salary_max": 240,
@@ -5461,7 +5461,7 @@
       "canonical_name": "Cronly, J.",
       "given_names": "J.",
       "surname": "Cronly",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Lands and Survey Branch",
       "salary_min": 155,
       "salary_max": 155,
@@ -5477,7 +5477,7 @@
       "canonical_name": "Guillbert, D.",
       "given_names": "D.",
       "surname": "Guillbert",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Lands and Survey Branch",
       "salary_min": 180,
       "salary_max": 180,
@@ -5493,7 +5493,7 @@
       "canonical_name": "Todd, E.",
       "given_names": "E.",
       "surname": "Todd",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Lands and Survey Branch",
       "salary_min": 125,
       "salary_max": 125,
@@ -5509,7 +5509,7 @@
       "canonical_name": "Lewis, F. R.",
       "given_names": "F. R.",
       "surname": "Lewis",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Lands and Survey Branch",
       "salary_min": 86,
       "salary_max": 86,
@@ -5525,7 +5525,7 @@
       "canonical_name": "St. Ledger, L. F.",
       "given_names": "L. F.",
       "surname": "St. Ledger",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Lands and Survey Branch",
       "salary_min": 50,
       "salary_max": 50,
@@ -5761,7 +5761,7 @@
       "location": null
     },
     {
-      "name": "Miss K. B. Packer",
+      "name": "K. B. Packer",
       "canonical_name": "Packer, K. B.",
       "given_names": "K. B.",
       "surname": "Packer",
@@ -5777,7 +5777,7 @@
       "location": null
     },
     {
-      "name": "Miss Eva Crabtree",
+      "name": "Eva Crabtree",
       "canonical_name": "Crabtree, Eva",
       "given_names": "Eva",
       "surname": "Crabtree",
@@ -6149,7 +6149,7 @@
       "canonical_name": "Bryan, A. B.",
       "given_names": "A. B.",
       "surname": "Bryan",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Miners Branch",
       "salary_min": 300,
       "salary_max": 300,
@@ -6165,7 +6165,7 @@
       "canonical_name": "Park, H. W.",
       "given_names": "H. W.",
       "surname": "Park",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Miners Branch",
       "salary_min": 195,
       "salary_max": 195,
@@ -6181,7 +6181,7 @@
       "canonical_name": "Fletcher, L. W.",
       "given_names": "L. W.",
       "surname": "Fletcher",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Miners Branch",
       "salary_min": 86,
       "salary_max": 86,
@@ -6197,10 +6197,10 @@
       "canonical_name": "Driscoll, H. R.",
       "given_names": "H. R.",
       "surname": "Driscoll",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Miners Branch",
       "salary_min": 77,
-      "salary_max": 77,
+      "salary_max": 108,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -6229,16 +6229,16 @@
       "canonical_name": "Hall, E. L.",
       "given_names": "E. L.",
       "surname": "Hall",
-      "position": "Warden, Launceston and North-Eastern District, and Eastern; Magistrate",
+      "position": "Warden",
       "department": "Miners Branch",
       "salary_min": 150,
-      "salary_max": 400,
+      "salary_max": 150,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Launceston and North-Eastern District, and Eastern"
     },
     {
       "name": "J. O. Hudson",
@@ -6293,7 +6293,7 @@
       "canonical_name": "Waterhouse, Lionel",
       "given_names": "Lionel",
       "surname": "Waterhouse",
-      "position": "Assistant Geologist",
+      "position": "Assistant Geologists",
       "department": "Miners Branch",
       "salary_min": 300,
       "salary_max": 300,
@@ -6309,7 +6309,7 @@
       "canonical_name": "Hills, Loftus",
       "given_names": "Loftus",
       "surname": "Hills",
-      "position": "Assistant Geologist",
+      "position": "Assistant Geologists",
       "department": "Miners Branch",
       "salary_min": 360,
       "salary_max": 360,
@@ -6373,7 +6373,7 @@
       "canonical_name": "Turner, E. W.",
       "given_names": "E. W.",
       "surname": "Turner",
-      "position": "Warden, North-Western Division (also Magistrate)",
+      "position": "Warden",
       "department": "Miners Branch",
       "salary_min": 50,
       "salary_max": 50,
@@ -6382,14 +6382,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "North-Western Division"
     },
     {
       "name": "F. N. Stope",
       "canonical_name": "Stope, F. N.",
       "given_names": "F. N.",
       "surname": "Stope",
-      "position": "Warden, Western Division (also Magistrate)",
+      "position": "Warden",
       "department": "Miners Branch",
       "salary_min": 75,
       "salary_max": 75,
@@ -6398,7 +6398,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Western Division"
     },
     {
       "name": "J. Gatty",
@@ -6549,7 +6549,7 @@
       "canonical_name": "Nairn, C. C.",
       "given_names": "C. C.",
       "surname": "Nairn",
-      "position": "Resident Engineer",
+      "position": "Resident Engineers",
       "department": "Tasmanian Government Railways",
       "salary_min": 600,
       "salary_max": 600,
@@ -6565,7 +6565,7 @@
       "canonical_name": "Hales, W. P.",
       "given_names": "W. P.",
       "surname": "Hales",
-      "position": "Resident Engineer",
+      "position": "Resident Engineers",
       "department": "Tasmanian Government Railways",
       "salary_min": 400,
       "salary_max": 400,
@@ -6725,7 +6725,7 @@
       "canonical_name": "Barnes, P. N.",
       "given_names": "P. N.",
       "surname": "Barnes",
-      "position": "Chief Clerk",
+      "position": "Chief Clerks",
       "department": "Tasmanian Government Railways",
       "salary_min": 318,
       "salary_max": 318,
@@ -6741,7 +6741,7 @@
       "canonical_name": "Rollins, C.",
       "given_names": "C.",
       "surname": "Rollins",
-      "position": "Chief Clerk",
+      "position": "Chief Clerks",
       "department": "Tasmanian Government Railways",
       "salary_min": 270,
       "salary_max": 270,
@@ -6757,7 +6757,7 @@
       "canonical_name": "Curtis, W. O.",
       "given_names": "W. O.",
       "surname": "Curtis",
-      "position": "Chief Clerk",
+      "position": "Chief Clerks",
       "department": "Tasmanian Government Railways",
       "salary_min": 260,
       "salary_max": 260,
@@ -6773,7 +6773,7 @@
       "canonical_name": "Proctor, R. C.",
       "given_names": "R. C.",
       "surname": "Proctor",
-      "position": "Chief Clerk",
+      "position": "Chief Clerks",
       "department": "Tasmanian Government Railways",
       "salary_min": 240,
       "salary_max": 240,
@@ -6789,7 +6789,7 @@
       "canonical_name": "Whittington, G.",
       "given_names": "G.",
       "surname": "Whittington",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Tasmanian Government Railways",
       "salary_min": 290,
       "salary_max": 290,
@@ -6805,7 +6805,7 @@
       "canonical_name": "Boyes, C. E.",
       "given_names": "C. E.",
       "surname": "Boyes",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Tasmanian Government Railways",
       "salary_min": 283,
       "salary_max": 283,
@@ -6821,7 +6821,7 @@
       "canonical_name": "Spong, R. W.",
       "given_names": "R. W.",
       "surname": "Spong",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Tasmanian Government Railways",
       "salary_min": 245,
       "salary_max": 245,
@@ -6837,7 +6837,7 @@
       "canonical_name": "Harrison, G. E.",
       "given_names": "G. E.",
       "surname": "Harrison",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Tasmanian Government Railways",
       "salary_min": 245,
       "salary_max": 245,
@@ -6853,7 +6853,7 @@
       "canonical_name": "Lumsden, A. H.",
       "given_names": "A. H.",
       "surname": "Lumsden",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Tasmanian Government Railways",
       "salary_min": 190,
       "salary_max": 190,
@@ -6869,7 +6869,7 @@
       "canonical_name": "Fisher, W. H.",
       "given_names": "W. H.",
       "surname": "Fisher",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Tasmanian Government Railways",
       "salary_min": 180,
       "salary_max": 180,
@@ -6885,7 +6885,7 @@
       "canonical_name": "Weaver, A.",
       "given_names": "A.",
       "surname": "Weaver",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Tasmanian Government Railways",
       "salary_min": 160,
       "salary_max": 160,
@@ -6965,7 +6965,7 @@
       "canonical_name": "Webb, H.",
       "given_names": "H.",
       "surname": "Webb",
-      "position": "Manager",
+      "position": "Manager (Melbourne)",
       "department": "Tasmania Tourist Bureau",
       "salary_min": 270,
       "salary_max": 270,
@@ -6974,7 +6974,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Melbourne"
+      "location": null
     },
     {
       "name": "S. H. Donelly",
@@ -7070,6 +7070,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 440,
-    "anomaly_count": 14
+    "anomaly_count": 15
   }
 }

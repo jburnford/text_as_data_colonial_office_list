@@ -1,10 +1,10 @@
 {
   "colony": "Bermuda",
   "year": 1918,
-  "generated": "2026-03-12T08:09:29.314594",
+  "generated": "2026-03-12T09:32:55.894056",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 82,
+  "total_officials": 83,
   "officials": [
     {
       "name": "C. H. Tucker",
@@ -71,7 +71,7 @@
       "location": null
     },
     {
-      "name": "Miss E. A. Steele",
+      "name": "E. A. Steele",
       "canonical_name": "Steele, E. A.",
       "given_names": "E. A.",
       "surname": "Steele",
@@ -87,7 +87,23 @@
       "location": null
     },
     {
-      "name": "Miss S. M. Doe",
+      "name": "D. Hallett",
+      "canonical_name": "Hallett, D.",
+      "given_names": "D.",
+      "surname": "Hallett",
+      "position": "Senior Female Clerks",
+      "department": "Post Office Department",
+      "salary_min": 60,
+      "salary_max": 75,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "S. M. Doe",
       "canonical_name": "Doe, S. M.",
       "given_names": "S. M.",
       "surname": "Doe",
@@ -103,7 +119,7 @@
       "location": null
     },
     {
-      "name": "Miss G. Dickinson",
+      "name": "G. Dickinson",
       "canonical_name": "Dickinson, G.",
       "given_names": "G.",
       "surname": "Dickinson",
@@ -139,7 +155,7 @@
       "canonical_name": "Higinbothom, R. H.",
       "given_names": "R. H.",
       "surname": "Higinbothom",
-      "position": "Clerk, Post Office",
+      "position": "Clerk",
       "department": "Post Office Department",
       "salary_min": 125,
       "salary_max": 150,
@@ -151,7 +167,7 @@
       "location": "St. George's"
     },
     {
-      "name": "Miss F. Fowle",
+      "name": "F. Fowle",
       "canonical_name": "Fowle, F.",
       "given_names": "F.",
       "surname": "Fowle",
@@ -167,7 +183,7 @@
       "location": "Sandy's"
     },
     {
-      "name": "Mrs. L. A. Merrick",
+      "name": "L. A. Merrick",
       "canonical_name": "Merrick, L. A.",
       "given_names": "L. A.",
       "surname": "Merrick",
@@ -357,7 +373,8 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "M.B."
+        "M.B.",
+        "B.C."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -568,7 +585,7 @@
       "given_names": "J. R.",
       "surname": "Pearson",
       "position": "Board of Trade Inspector",
-      "department": "General",
+      "department": "Other Offices",
       "salary_min": 250,
       "salary_max": 250,
       "allowances": null,
@@ -583,8 +600,8 @@
       "canonical_name": "Eve, H. S.",
       "given_names": "H. S.",
       "surname": "Eve",
-      "position": "Secretary",
-      "department": "Trade Development Board",
+      "position": "Secretary, Trade Development Board",
+      "department": "Other Offices",
       "salary_min": 120,
       "salary_max": 120,
       "allowances": null,
@@ -651,7 +668,7 @@
       "department": "Judicial Establishment",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "fees, with 50l. from Crown funds and 60l. in lieu of clerk",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -667,7 +684,7 @@
       "department": "Judicial Establishment",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -683,7 +700,7 @@
       "department": "Judicial Establishment",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -699,7 +716,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -715,7 +732,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -731,7 +748,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -768,14 +785,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "St. George's"
+      "location": null
     },
     {
       "name": "L. L. Havard",
       "canonical_name": "Havard, L. L.",
       "given_names": "L. L.",
       "surname": "Havard",
-      "position": "Rector, Hamilton and Smith",
+      "position": "Rector, St. George's",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -791,7 +808,7 @@
       "canonical_name": "Davidson, J.",
       "given_names": "J.",
       "surname": "Davidson",
-      "position": "Rector, Pembroke and Devonshire",
+      "position": "Rector, St. George's",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -807,7 +824,7 @@
       "canonical_name": "Lough, E. I.",
       "given_names": "E. I.",
       "surname": "Lough",
-      "position": "Rector, Paget and Warwick",
+      "position": "Rector, St. George's",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -823,11 +840,11 @@
       "canonical_name": "Mackay, Bruce",
       "given_names": "Bruce",
       "surname": "Mackay",
-      "position": "Rector, Sandy's and Southampton",
+      "position": "Rector, St. George's",
       "department": "Ecclesiastical Establishment",
       "salary_min": 140,
       "salary_max": 140,
-      "allowances": null,
+      "allowances": "with fees from parish",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1076,8 +1093,8 @@
     },
     {
       "name": "General Sir James Willcocks",
-      "canonical_name": "Willcocks, James",
-      "given_names": "James",
+      "canonical_name": "Willcocks, General Sir James",
+      "given_names": "General Sir James",
       "surname": "Willcocks",
       "position": "General Commanding",
       "department": "Chief Military Officers",
@@ -1087,17 +1104,16 @@
       "honors": [
         "G.C.M.G.",
         "K.C.B.",
-        "K.C.S.I.",
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "A. C. B. Alexander",
-      "canonical_name": "Alexander, A. C. B.",
+      "name": "Capt. A. C. B. Alexander",
+      "canonical_name": "Alexander, Capt. A. C. B.",
       "given_names": "A. C. B.",
       "surname": "Alexander",
       "position": "Deputy Assistant Adjutant and Quartermaster General",
@@ -1112,7 +1128,7 @@
       "location": null
     },
     {
-      "name": "St. L. M. Moore",
+      "name": "Lieut.-Colonel St. L. M. Moore",
       "canonical_name": "Moore, St. L. M.",
       "given_names": "St. L. M.",
       "surname": "Moore",
@@ -1123,15 +1139,15 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": "Lt.-Colonel",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "H. B. Des. Vaux",
-      "canonical_name": "Des. Vaux, H. B.",
+      "name": "Lieut.-Colonel H. B. Des. Vaux",
+      "canonical_name": "Vaux, H. B.",
       "given_names": "H. B.",
-      "surname": "Des. Vaux",
+      "surname": "Vaux",
       "position": "Commanding Royal Engineers",
       "department": "Chief Military Officers",
       "salary_min": null,
@@ -1139,12 +1155,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": "Lt.-Colonel",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "A. Smith",
+      "name": "Capt. A. Smith",
       "canonical_name": "Smith, A.",
       "given_names": "A.",
       "surname": "Smith",
@@ -1160,7 +1176,7 @@
       "location": null
     },
     {
-      "name": "A. V. Hill",
+      "name": "Major A. V. Hill",
       "canonical_name": "Hill, A. V.",
       "given_names": "A. V.",
       "surname": "Hill",
@@ -1176,7 +1192,7 @@
       "location": null
     },
     {
-      "name": "M. D. Ahern",
+      "name": "Major M. D. Ahern",
       "canonical_name": "Ahern, M. D.",
       "given_names": "M. D.",
       "surname": "Ahern",
@@ -1212,7 +1228,7 @@
       "canonical_name": "Eells, Stillman W.",
       "given_names": "Stillman W.",
       "surname": "Eells",
-      "position": "Vice and Deputy Consul for the United States",
+      "position": "Vice and Deputy",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1340,11 +1356,11 @@
     "colony": "Bermuda",
     "year": 1918,
     "total": 83,
-    "high_confidence": 82,
+    "high_confidence": 83,
     "medium_confidence": 0,
-    "low_confidence": 1,
-    "quarantined": 1,
-    "passed": 82,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 83,
     "anomaly_count": 3
   }
 }

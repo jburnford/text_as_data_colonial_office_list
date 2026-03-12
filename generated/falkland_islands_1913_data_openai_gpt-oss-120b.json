@@ -1,10 +1,10 @@
 {
   "colony": "Falkland Islands",
   "year": 1913,
-  "generated": "2026-03-12T05:02:44.508578",
+  "generated": "2026-03-12T08:50:43.043980",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 22,
+  "total_officials": 21,
   "officials": [
     {
       "name": "W. L. Allardyce",
@@ -118,7 +118,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "New Island"
+      "location": null
     },
     {
       "name": "F. Berling",
@@ -173,7 +173,7 @@
       "canonical_name": "Stanley-Turner, Dr. H. M.",
       "given_names": "Dr. H. M.",
       "surname": "Stanley-Turner",
-      "position": "Assistant Colonial Surgeon and Public Vaccinator",
+      "position": "Assistant Colonial Surgeon and Public Vaccinator, West Falkland",
       "department": "Civil Establishment",
       "salary_min": 200,
       "salary_max": 200,
@@ -189,7 +189,7 @@
       "canonical_name": "Browne, Dr. W. M.",
       "given_names": "Dr. W. M.",
       "surname": "Browne",
-      "position": "Assistant Colonial Surgeon",
+      "position": "Assistant Colonial Surgeon, East Falkland",
       "department": "Civil Establishment",
       "salary_min": 150,
       "salary_max": 150,
@@ -265,9 +265,9 @@
       "location": null
     },
     {
-      "name": "the Right Rev. L. F. D. Blair",
-      "canonical_name": "Blair, the Right Rev. L. F. D.",
-      "given_names": "the Right Rev. L. F. D.",
+      "name": "L. F. D. Blair",
+      "canonical_name": "Blair, L. F. D.",
+      "given_names": "L. F. D.",
       "surname": "Blair",
       "position": "Bishop",
       "department": "Civil Establishment",
@@ -281,9 +281,9 @@
       "location": null
     },
     {
-      "name": "The Very Rev. Dean E. J. Seymour",
-      "canonical_name": "Seymour, The Very Rev. Dean E. J.",
-      "given_names": "The Very Rev. Dean E. J.",
+      "name": "E. J. Seymour",
+      "canonical_name": "Seymour, E. J.",
+      "given_names": "E. J.",
       "surname": "Seymour",
       "position": "Incumbent of Christ Church Cathedral",
       "department": "Civil Establishment",
@@ -297,9 +297,9 @@
       "location": null
     },
     {
-      "name": "Rev. M. L. Migone",
-      "canonical_name": "Migone, Rev. M. L.",
-      "given_names": "Rev. M. L.",
+      "name": "M. L. Migone",
+      "canonical_name": "Migone, M. L.",
+      "given_names": "M. L.",
       "surname": "Migone",
       "position": "Roman Catholic Priest",
       "department": "Civil Establishment",
@@ -313,28 +313,12 @@
       "location": null
     },
     {
-      "name": "Captain I. Watt",
-      "canonical_name": "Watt, Captain I.",
-      "given_names": "Captain I.",
-      "surname": "Watt",
-      "position": "Commandant of Volunteers (Acting)",
-      "department": "Civil Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": "Captain",
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "W. A. Harding",
       "canonical_name": "Harding, W. A.",
       "given_names": "W. A.",
       "surname": "Harding",
       "position": "Consul for German Empire, Italy, Chili",
-      "department": "Foreign Consuls",
+      "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -350,7 +334,7 @@
       "given_names": "L.",
       "surname": "Williams",
       "position": "French Consular Agent",
-      "department": "Foreign Consuls",
+      "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -364,12 +348,12 @@
   "validation_summary": {
     "colony": "Falkland Islands",
     "year": 1913,
-    "total": 22,
-    "high_confidence": 22,
+    "total": 21,
+    "high_confidence": 21,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 22,
+    "passed": 21,
     "anomaly_count": 0
   }
 }

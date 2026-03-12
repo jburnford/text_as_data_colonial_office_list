@@ -1,7 +1,7 @@
 {
   "colony": "Bahamas",
   "year": 1917,
-  "generated": "2026-03-12T07:24:35.480267",
+  "generated": "2026-03-12T09:15:15.055714",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 109,
@@ -20,15 +20,15 @@
         "K.C.M.G."
       ],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Vice-Admiral",
       "salary_scale": null,
       "location": null
     },
     {
       "name": "A. D. Sherwood Smith",
-      "canonical_name": "Smith, A. D. Sherwood",
-      "given_names": "A. D. Sherwood",
-      "surname": "Smith",
+      "canonical_name": "Sherwood Smith, A. D.",
+      "given_names": "A. D.",
+      "surname": "Sherwood Smith",
       "position": "A.D.C., also Private Secretary and Clerk to Executive Council",
       "department": "Civil Establishment",
       "salary_min": 200,
@@ -179,7 +179,7 @@
       "department": "Customs",
       "salary_min": 350,
       "salary_max": 350,
-      "allowances": "fees as Registrar of Shipping",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -223,7 +223,7 @@
       "canonical_name": "Wallace, E.",
       "given_names": "E.",
       "surname": "Wallace",
-      "position": "Tide Waiter",
+      "position": "Tide Waiters",
       "department": "Customs",
       "salary_min": 80,
       "salary_max": 80,
@@ -239,7 +239,7 @@
       "canonical_name": "Bascome, H. D.",
       "given_names": "H. D.",
       "surname": "Bascome",
-      "position": "Tide Waiter",
+      "position": "Tide Waiters",
       "department": "Customs",
       "salary_min": 80,
       "salary_max": 80,
@@ -255,7 +255,7 @@
       "canonical_name": "Haxton, B. W.",
       "given_names": "B. W.",
       "surname": "Haxton",
-      "position": "Tide Waiter",
+      "position": "Tide Waiters",
       "department": "Customs",
       "salary_min": 80,
       "salary_max": 80,
@@ -271,7 +271,7 @@
       "canonical_name": "Wallace, S.",
       "given_names": "S.",
       "surname": "Wallace",
-      "position": "Tide Waiter",
+      "position": "Tide Waiters",
       "department": "Customs",
       "salary_min": 80,
       "salary_max": 80,
@@ -589,8 +589,8 @@
       "location": null
     },
     {
-      "name": "E. M. Johnson",
-      "canonical_name": "Johnson, E. M.",
+      "name": "Miss E. M. Johnson",
+      "canonical_name": "Johnson, Miss E. M.",
       "given_names": "E. M.",
       "surname": "Johnson",
       "position": "4th Clerk",
@@ -605,8 +605,8 @@
       "location": null
     },
     {
-      "name": "J. E. Sutton",
-      "canonical_name": "Sutton, J. E.",
+      "name": "Miss J. E. Sutton",
+      "canonical_name": "Sutton, Miss J. E.",
       "given_names": "J. E.",
       "surname": "Sutton",
       "position": "Asst. Clerk",
@@ -621,8 +621,8 @@
       "location": null
     },
     {
-      "name": "L. I. Peters",
-      "canonical_name": "Peters, L. I.",
+      "name": "Miss L. I. Peters",
+      "canonical_name": "Peters, Miss L. I.",
       "given_names": "L. I.",
       "surname": "Peters",
       "position": "Asst. Clerk",
@@ -637,8 +637,8 @@
       "location": null
     },
     {
-      "name": "E. M. Bethel",
-      "canonical_name": "Bethel, E. M.",
+      "name": "Miss E. M. Bethel",
+      "canonical_name": "Bethel, Miss E. M.",
       "given_names": "E. M.",
       "surname": "Bethel",
       "position": "Asst. Clerk",
@@ -744,7 +744,7 @@
       "department": "Medical Department",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -760,7 +760,7 @@
       "department": "Medical Department",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1196,7 +1196,7 @@
       "department": "Judicial",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "personal",
+      "allowances": "50l. personal",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1228,7 +1228,7 @@
       "department": "Judicial",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "personal allowance \u00a325",
+      "allowances": "\u00a325 personal",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1529,7 +1529,7 @@
       "given_names": "F. C. C.",
       "surname": "Lightbourn",
       "position": "Cadet",
-      "department": "Cadets",
+      "department": "Commissioners of Out-Island Districts",
       "salary_min": 60,
       "salary_max": 60,
       "allowances": null,
@@ -1540,7 +1540,7 @@
       "location": null
     },
     {
-      "name": "Rt. Rev. W. B. Hornby",
+      "name": "W. B. Hornby",
       "canonical_name": "Hornby, W. B.",
       "given_names": "W. B.",
       "surname": "Hornby",
@@ -1556,11 +1556,11 @@
       "location": null
     },
     {
-      "name": "Rev. S. J. Bennett",
+      "name": "S. J. Bennett",
       "canonical_name": "Bennett, S. J.",
       "given_names": "S. J.",
       "surname": "Bennett",
-      "position": null,
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1569,14 +1569,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Andrew's Presbyterian Church"
     },
     {
-      "name": "Rev. Chrysostom Schreiner",
+      "name": "Chrysostom Schreiner",
       "canonical_name": "Schreiner, Chrysostom",
       "given_names": "Chrysostom",
       "surname": "Schreiner",
-      "position": null,
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1585,10 +1585,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Xavier's Roman Catholic Church"
     },
     {
-      "name": "Rev. W. H. F. Bleby",
+      "name": "W. H. F. Bleby",
       "canonical_name": "Bleby, W. H. F.",
       "given_names": "W. H. F.",
       "surname": "Bleby",
@@ -1601,14 +1601,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Wesleyan Church"
     },
     {
-      "name": "Rev. D. Wilshire",
+      "name": "D. Wilshire",
       "canonical_name": "Wilshire, D.",
       "given_names": "D.",
       "surname": "Wilshire",
-      "position": "Baptist",
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1617,14 +1617,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Baptist"
     },
     {
-      "name": "Rev. C. A. Dann",
+      "name": "C. A. Dann",
       "canonical_name": "Dann, C. A.",
       "given_names": "C. A.",
       "surname": "Dann",
-      "position": "Baptist",
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1633,7 +1633,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Baptist"
     },
     {
       "name": "F. J. Lobb",
@@ -1647,7 +1647,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Commander",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1732,9 +1732,9 @@
       "location": null
     },
     {
-      "name": "Prudhomme Pierre",
-      "canonical_name": "Pierre, Prudhomme",
-      "given_names": "Prudhomme",
+      "name": "Prudhumme Pierre",
+      "canonical_name": "Pierre, Prudhumme",
+      "given_names": "Prudhumme",
       "surname": "Pierre",
       "position": "Consul",
       "department": "Foreign Consuls",
@@ -1768,8 +1768,8 @@
     "colony": "Bahamas",
     "year": 1917,
     "total": 109,
-    "high_confidence": 109,
-    "medium_confidence": 0,
+    "high_confidence": 108,
+    "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 109,

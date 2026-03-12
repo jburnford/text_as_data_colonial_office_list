@@ -1,7 +1,7 @@
 {
   "colony": "British Somaliland",
   "year": 1917,
-  "generated": "2026-03-12T07:31:37.252359",
+  "generated": "2026-03-12T09:14:33.559589",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 39,
@@ -68,7 +68,7 @@
       "allowances": "60l. duty allowance",
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": "Capt.",
       "salary_scale": null,
       "location": null
     },
@@ -106,9 +106,9 @@
     },
     {
       "name": "G. M. Castle Smith",
-      "canonical_name": "Castle Smith, G. M.",
-      "given_names": "G. M.",
-      "surname": "Castle Smith",
+      "canonical_name": "Smith, G. M. Castle",
+      "given_names": "G. M. Castle",
+      "surname": "Smith",
       "position": "District Commissioner",
       "department": "Administration",
       "salary_min": 400,
@@ -209,7 +209,7 @@
       "department": "Medical Department",
       "salary_min": 400,
       "salary_max": 500,
-      "allowances": "personal duty allowance, 80l",
+      "allowances": "personal duty allowance, 80l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -225,7 +225,7 @@
       "department": "Medical Department",
       "salary_min": 400,
       "salary_max": 500,
-      "allowances": "personal duty allowance, 80l",
+      "allowances": "personal duty allowance, 80l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -241,7 +241,7 @@
       "department": "Medical Department",
       "salary_min": 400,
       "salary_max": 500,
-      "allowances": "personal duty allowance, 80l",
+      "allowances": "personal duty allowance, 80l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -288,8 +288,8 @@
       "position": "Assistant Superintendent of Telegraphs",
       "department": "Telegraph Department",
       "salary_min": 250,
-      "salary_max": 300,
-      "allowances": "10l.",
+      "salary_max": 250,
+      "allowances": "10l. to 300l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -313,7 +313,7 @@
       "location": null
     },
     {
-      "name": "Lt.-Col. G. H. Summers",
+      "name": "G. H. Summers",
       "canonical_name": "Summers, G. H.",
       "given_names": "G. H.",
       "surname": "Summers",
@@ -321,7 +321,7 @@
       "department": "Military Department",
       "salary_min": 700,
       "salary_max": 700,
-      "allowances": "duty allowance, 144l.",
+      "allowances": "duty allowance, 144l",
       "honors": [],
       "qualifications": [],
       "military_rank": "Lt.-Col.",
@@ -329,7 +329,7 @@
       "location": null
     },
     {
-      "name": "Capt. H. L. Ismay",
+      "name": "H. L. Ismay",
       "canonical_name": "Ismay, H. L.",
       "given_names": "H. L.",
       "surname": "Ismay",
@@ -337,15 +337,15 @@
       "department": "Military Department",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "duty allowance 60l.",
+      "allowances": "duty allowance 60l",
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": "Capt.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Major H. C. Dobbs",
+      "name": "H. C. Dobbs",
       "canonical_name": "Dobbs, H. C.",
       "given_names": "H. C.",
       "surname": "Dobbs",
@@ -361,7 +361,7 @@
       "location": null
     },
     {
-      "name": "Capt. C. A. L. Howard",
+      "name": "C. A. L. Howard",
       "canonical_name": "Howard, C. A. L.",
       "given_names": "C. A. L.",
       "surname": "Howard",
@@ -372,12 +372,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": "Capt.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Capt. H. B. Davidson",
+      "name": "H. B. Davidson",
       "canonical_name": "Davidson, H. B.",
       "given_names": "H. B.",
       "surname": "Davidson",
@@ -388,12 +388,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": "Capt.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Capt. A. C. Eales",
+      "name": "A. C. Eales",
       "canonical_name": "Eales, A. C.",
       "given_names": "A. C.",
       "surname": "Eales",
@@ -404,12 +404,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": "Capt.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Lieut. R. L. Curtis",
+      "name": "R. L. Curtis",
       "canonical_name": "Curtis, R. L.",
       "given_names": "R. L.",
       "surname": "Curtis",
@@ -420,12 +420,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Major G. R. Breading",
+      "name": "G. R. Breading",
       "canonical_name": "Breading, G. R.",
       "given_names": "G. R.",
       "surname": "Breading",
@@ -443,7 +443,7 @@
       "location": null
     },
     {
-      "name": "Capt. A. Gibb",
+      "name": "A. Gibb",
       "canonical_name": "Gibb, A.",
       "given_names": "A.",
       "surname": "Gibb",
@@ -454,12 +454,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": "Capt.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Capt. A. G. C. Colquhoun",
+      "name": "A. G. C. Colquhoun",
       "canonical_name": "Colquhoun, A. G. C.",
       "given_names": "A. G. C.",
       "surname": "Colquhoun",
@@ -470,12 +470,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": "Capt.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Capt. J. W. Hornby",
+      "name": "J. W. Hornby",
       "canonical_name": "Hornby, J. W.",
       "given_names": "J. W.",
       "surname": "Hornby",
@@ -486,12 +486,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": "Capt.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Lieut. J. H. Bloomburgh",
+      "name": "J. H. Bloomburgh",
       "canonical_name": "Bloomburgh, J. H.",
       "given_names": "J. H.",
       "surname": "Bloomburgh",
@@ -502,12 +502,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Capt. H. G. de M. Prior",
+      "name": "H. G. de M. Prior",
       "canonical_name": "Prior, H. G. de M.",
       "given_names": "H. G. de M.",
       "surname": "Prior",
@@ -518,12 +518,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": "Capt.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Lieut. A. W. Back",
+      "name": "A. W. Back",
       "canonical_name": "Back, A. W.",
       "given_names": "A. W.",
       "surname": "Back",
@@ -534,12 +534,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Lieut. A. H. Fitzmaurice",
+      "name": "A. H. Fitzmaurice",
       "canonical_name": "Fitzmaurice, A. H.",
       "given_names": "A. H.",
       "surname": "Fitzmaurice",
@@ -550,12 +550,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Lieut. S. T. Humphreys-Jones",
+      "name": "S. T. Humphreys-Jones",
       "canonical_name": "Humphreys-Jones, S. T.",
       "given_names": "S. T.",
       "surname": "Humphreys-Jones",
@@ -566,12 +566,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Lieut. A. Russell",
+      "name": "A. Russell",
       "canonical_name": "Russell, A.",
       "given_names": "A.",
       "surname": "Russell",
@@ -582,12 +582,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Capt. R. F. Simons",
+      "name": "R. F. Simons",
       "canonical_name": "Simons, R. F.",
       "given_names": "R. F.",
       "surname": "Simons",
@@ -598,12 +598,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": "Capt.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Capt. A. Mac. D. Mackenzie-Penderel",
+      "name": "A. Mac. D. Mackenzie-Penderel",
       "canonical_name": "Mackenzie-Penderel, A. Mac. D.",
       "given_names": "A. Mac. D.",
       "surname": "Mackenzie-Penderel",
@@ -614,12 +614,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": "Capt.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Lieut. J. F. Godman",
+      "name": "J. F. Godman",
       "canonical_name": "Godman, J. F.",
       "given_names": "J. F.",
       "surname": "Godman",
@@ -630,7 +630,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     }

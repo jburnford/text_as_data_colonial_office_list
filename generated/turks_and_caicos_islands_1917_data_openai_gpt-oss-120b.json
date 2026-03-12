@@ -1,7 +1,7 @@
 {
   "colony": "Turks and Caicos Islands",
   "year": 1917,
-  "generated": "2026-03-12T07:59:48.065873",
+  "generated": "2026-03-12T09:28:05.363502",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 23,
@@ -11,7 +11,7 @@
       "canonical_name": "Smith, G. Whitfield",
       "given_names": "G. Whitfield",
       "surname": "Smith",
-      "position": "The Commissioner and Judge",
+      "position": "Commissioner and Judge",
       "department": "Civil Establishment",
       "salary_min": 500,
       "salary_max": 600,
@@ -127,7 +127,7 @@
       "department": "Civil Establishment",
       "salary_min": 130,
       "salary_max": 130,
-      "allowances": "120l. and 10l. for boat",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -249,7 +249,7 @@
       "location": null
     },
     {
-      "name": "S. F. Reeve",
+      "name": "Rev. S. F. Reeve",
       "canonical_name": "Reeve, S. F.",
       "given_names": "S. F.",
       "surname": "Reeve",
@@ -265,7 +265,7 @@
       "location": null
     },
     {
-      "name": "Stanley Cannon",
+      "name": "Rev. Stanley Cannon",
       "canonical_name": "Cannon, Stanley",
       "given_names": "Stanley",
       "surname": "Cannon",
@@ -281,7 +281,7 @@
       "location": null
     },
     {
-      "name": "F. Edmonds",
+      "name": "Rev. F. Edmonds",
       "canonical_name": "Edmonds, F.",
       "given_names": "F.",
       "surname": "Edmonds",
@@ -310,7 +310,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     },
     {
       "name": "F. Roque",
@@ -326,7 +326,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "San Domingo"
     },
     {
       "name": "W. R. Tatem",
@@ -342,7 +342,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "San Domingo"
     },
     {
       "name": "C. H. Durham",
@@ -365,7 +365,7 @@
       "canonical_name": "Darrell, R.",
       "given_names": "R.",
       "surname": "Darrell",
-      "position": null,
+      "position": "",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -374,7 +374,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Norway"
     }
   ],
   "validation_summary": {

@@ -1,15 +1,15 @@
 {
   "colony": "Gambia",
   "year": 1917,
-  "generated": "2026-03-12T07:38:13.371764",
+  "generated": "2026-03-12T09:18:51.339709",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 126,
+  "total_officials": 127,
   "officials": [
     {
       "name": "Sir E. J. Cameron",
-      "canonical_name": "Cameron, E. J.",
-      "given_names": "E. J.",
+      "canonical_name": "Cameron, Sir E. J.",
+      "given_names": "Sir E. J.",
       "surname": "Cameron",
       "position": "Governor and Commander-in-Chief",
       "department": "Civil Establishment",
@@ -221,7 +221,7 @@
       "canonical_name": "Johnson, M. C.",
       "given_names": "M. C.",
       "surname": "Johnson",
-      "position": "1st Class Compositor",
+      "position": "One 1st Class Compositor",
       "department": "Printing Branch",
       "salary_min": 60,
       "salary_max": 75,
@@ -237,7 +237,7 @@
       "canonical_name": "Cummings, O. D.",
       "given_names": "O. D.",
       "surname": "Cummings",
-      "position": "2nd Class Compositor",
+      "position": "Two 2nd Class Compositors",
       "department": "Printing Branch",
       "salary_min": 50,
       "salary_max": 60,
@@ -253,7 +253,7 @@
       "canonical_name": "John, V. A.",
       "given_names": "V. A.",
       "surname": "John",
-      "position": "2nd Class Compositor",
+      "position": "Two 2nd Class Compositors",
       "department": "Printing Branch",
       "salary_min": 50,
       "salary_max": 60,
@@ -269,7 +269,7 @@
       "canonical_name": "See, E.",
       "given_names": "E.",
       "surname": "See",
-      "position": "3rd Class Compositor",
+      "position": "Two 3rd Class Compositors",
       "department": "Printing Branch",
       "salary_min": 30,
       "salary_max": 40,
@@ -285,7 +285,7 @@
       "canonical_name": "Harding, S. V.",
       "given_names": "S. V.",
       "surname": "Harding",
-      "position": "3rd Class Compositor",
+      "position": "Two 3rd Class Compositors",
       "department": "Printing Branch",
       "salary_min": 30,
       "salary_max": 40,
@@ -953,6 +953,24 @@
       "location": null
     },
     {
+      "name": "H. L. Pryce",
+      "canonical_name": "Pryce, H. L.",
+      "given_names": "H. L.",
+      "surname": "Pryce",
+      "position": "Travelling Commissioner",
+      "department": "Protectorate",
+      "salary_min": 350,
+      "salary_max": 450,
+      "allowances": "10s. per diem travelling allowance",
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
       "name": "E. Hopkinson",
       "canonical_name": "Hopkinson, E.",
       "given_names": "E.",
@@ -1091,7 +1109,7 @@
       "department": "West African Frontier Force",
       "salary_min": 120,
       "salary_max": 120,
-      "allowances": "duty pay 24l",
+      "allowances": "duty pay 24l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1211,7 +1229,7 @@
       "location": null
     },
     {
-      "name": "Rev. W. de Piver Jones",
+      "name": "W. de Piver Jones",
       "canonical_name": "de Piver Jones, W.",
       "given_names": "W.",
       "surname": "de Piver Jones",
@@ -1247,7 +1265,7 @@
       "canonical_name": "Orpen, R. W.",
       "given_names": "R. W.",
       "surname": "Orpen",
-      "position": "Health Officer",
+      "position": "Medical Officer (Health Officer)",
       "department": "Medical",
       "salary_min": 500,
       "salary_max": 600,
@@ -1339,7 +1357,7 @@
       "location": null
     },
     {
-      "name": "K. M. Gordon",
+      "name": "Miss K. M. Gordon",
       "canonical_name": "Gordon, K. M.",
       "given_names": "K. M.",
       "surname": "Gordon",
@@ -1619,7 +1637,7 @@
       "department": "Colonial Engineer's Department",
       "salary_min": 300,
       "salary_max": 400,
-      "allowances": "10s. per diem travelling allowance",
+      "allowances": "10s. per diem travelling allowance.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1843,7 +1861,7 @@
       "department": "Government Vessels",
       "salary_min": 300,
       "salary_max": 360,
-      "allowances": "50l. duty allowance, 50l. messing allowance",
+      "allowances": "50l. duty allowance, and 50l. messing allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1992,7 +2010,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Belgium"
+      "location": null
     },
     {
       "name": "F. Orcel",
@@ -2008,7 +2026,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "J. Howie",
@@ -2024,18 +2042,18 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Portugal"
+      "location": null
     }
   ],
   "validation_summary": {
     "colony": "Gambia",
     "year": 1917,
     "total": 127,
-    "high_confidence": 126,
+    "high_confidence": 127,
     "medium_confidence": 0,
-    "low_confidence": 1,
-    "quarantined": 1,
-    "passed": 126,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 127,
     "anomaly_count": 2
   }
 }

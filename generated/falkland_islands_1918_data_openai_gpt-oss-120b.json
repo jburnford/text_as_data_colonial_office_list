@@ -1,7 +1,7 @@
 {
   "colony": "Falkland Islands",
   "year": 1918,
-  "generated": "2026-03-12T08:12:18.333241",
+  "generated": "2026-03-12T09:35:06.807835",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 51,
@@ -142,7 +142,7 @@
       "given_names": "G. R. L.",
       "surname": "Brown",
       "position": "First Clerk and Shipping Master",
-      "department": "Treasury and Customs",
+      "department": "Stanley",
       "salary_min": 160,
       "salary_max": 180,
       "allowances": null,
@@ -150,7 +150,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Stanley"
+      "location": null
     },
     {
       "name": "A. G. Bennett",
@@ -158,7 +158,7 @@
       "given_names": "A. G.",
       "surname": "Bennett",
       "position": "Customs Officer",
-      "department": "Treasury and Customs",
+      "department": "Stanley",
       "salary_min": 132,
       "salary_max": 132,
       "allowances": null,
@@ -166,7 +166,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Stanley"
+      "location": null
     },
     {
       "name": "S. Riches",
@@ -174,7 +174,7 @@
       "given_names": "S.",
       "surname": "Riches",
       "position": "Assistant Customs Officer",
-      "department": "Treasury and Customs",
+      "department": "Stanley",
       "salary_min": 132,
       "salary_max": 132,
       "allowances": null,
@@ -182,15 +182,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Stanley"
+      "location": null
     },
     {
       "name": "W. Barlas",
       "canonical_name": "Barlas, W.",
       "given_names": "W.",
       "surname": "Barlas",
-      "position": "Deputy Collector, etc.",
-      "department": "Treasury and Customs",
+      "position": "Deputy Collector",
+      "department": "New Island",
       "salary_min": 150,
       "salary_max": 150,
       "allowances": null,
@@ -198,15 +198,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "New Island"
+      "location": null
     },
     {
       "name": "E. B. Binnie",
       "canonical_name": "Binnie, E. B.",
       "given_names": "E. B.",
       "surname": "Binnie",
-      "position": "Deputy Collector (also Magistrate)",
-      "department": "Treasury and Customs",
+      "position": "Deputy Collector",
+      "department": "South Georgia",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -214,7 +214,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "South Georgia"
+      "location": null
     },
     {
       "name": "A. G. Simon",
@@ -222,7 +222,7 @@
       "given_names": "A. G.",
       "surname": "Simon",
       "position": "Customs Officer",
-      "department": "Treasury and Customs",
+      "department": "Stanley",
       "salary_min": 150,
       "salary_max": 150,
       "allowances": null,
@@ -230,7 +230,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "South Georgia"
+      "location": null
     },
     {
       "name": "J. Wood",
@@ -238,7 +238,7 @@
       "given_names": "J.",
       "surname": "Wood",
       "position": "Customs Officer",
-      "department": "Treasury and Customs",
+      "department": "Stanley",
       "salary_min": 150,
       "salary_max": 150,
       "allowances": null,
@@ -246,7 +246,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "South Georgia"
+      "location": null
     },
     {
       "name": "M. Craigie-Halkett",
@@ -257,7 +257,7 @@
       "department": "Post Office",
       "salary_min": 350,
       "salary_max": 350,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -289,7 +289,7 @@
       "department": "Medical",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "25l. as Health Officer",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "L.R.C.P."
@@ -307,7 +307,7 @@
       "department": "Medical",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "200l. from Farmers' Association",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.R.C.S.",
@@ -326,7 +326,7 @@
       "department": "Medical",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "50l. personal",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -334,7 +334,7 @@
       "location": null
     },
     {
-      "name": "Miss K. C. Yule",
+      "name": "K. C. Yule",
       "canonical_name": "Yule, K. C.",
       "given_names": "K. C.",
       "surname": "Yule",
@@ -342,7 +342,7 @@
       "department": "Medical",
       "salary_min": 90,
       "salary_max": 90,
-      "allowances": "board and quarters at Hospital",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -415,8 +415,8 @@
     },
     {
       "name": "Mrs. E. Hoare",
-      "canonical_name": "Hoare, Mrs. E.",
-      "given_names": "Mrs. E.",
+      "canonical_name": "Hoare, E.",
+      "given_names": "E.",
       "surname": "Hoare",
       "position": "Schoolmistress",
       "department": "Educational",
@@ -447,8 +447,8 @@
     },
     {
       "name": "Miss M. Carey",
-      "canonical_name": "Carey, Miss M.",
-      "given_names": "Miss M.",
+      "canonical_name": "Carey, M.",
+      "given_names": "M.",
       "surname": "Carey",
       "position": "Assistant Mistress",
       "department": "Educational",
@@ -470,7 +470,7 @@
       "department": "Educational",
       "salary_min": 60,
       "salary_max": 80,
-      "allowances": "free board and lodging in homes visited",
+      "allowances": "free board and lodging",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -486,7 +486,7 @@
       "department": "Educational",
       "salary_min": 60,
       "salary_max": 80,
-      "allowances": "free board and lodging in homes visited",
+      "allowances": "free board and lodging",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -510,7 +510,7 @@
       "location": null
     },
     {
-      "name": "D. J. Sullivan",
+      "name": "Sgt. Police D. J. Sullivan",
       "canonical_name": "Sullivan, D. J.",
       "given_names": "D. J.",
       "surname": "Sullivan",
@@ -562,7 +562,7 @@
       "canonical_name": "Atkins, W.",
       "given_names": "W.",
       "surname": "Atkins",
-      "position": "Foreman of Works, Outdoor",
+      "position": "Foreman of Works",
       "department": "Public Works",
       "salary_min": 36,
       "salary_max": 36,
@@ -571,7 +571,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Outdoor"
     },
     {
       "name": "T. King",
@@ -594,7 +594,7 @@
       "canonical_name": "Ball, G. F.",
       "given_names": "G. F.",
       "surname": "Ball",
-      "position": "Senior Wireless Operator",
+      "position": "Senior Wireless Operator (acting)",
       "department": "Public Works",
       "salary_min": 250,
       "salary_max": 250,
@@ -638,9 +638,9 @@
       "location": "Stanley"
     },
     {
-      "name": "Miss E. Enstrom",
-      "canonical_name": "Enstrom, Miss E.",
-      "given_names": "Miss E.",
+      "name": "E. Enstrom",
+      "canonical_name": "Enstrom, E.",
+      "given_names": "E.",
       "surname": "Enstrom",
       "position": "Telephone Operator",
       "department": "Public Works",

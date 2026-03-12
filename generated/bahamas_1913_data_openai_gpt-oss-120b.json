@@ -1,7 +1,7 @@
 {
   "colony": "Bahamas",
   "year": 1913,
-  "generated": "2026-03-12T04:57:31.436424",
+  "generated": "2026-03-12T08:52:09.423573",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 115,
@@ -20,14 +20,14 @@
         "C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Vice-Admiral",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
       "name": "W. Hart Bennett",
-      "canonical_name": "Bennett, W. Hart",
-      "given_names": "W. Hart",
+      "canonical_name": "Bennett, William Hart",
+      "given_names": "William Hart",
       "surname": "Bennett",
       "position": "Colonial Secretary",
       "department": "Colonial Secretary's Office",
@@ -323,7 +323,7 @@
       "department": "Audit Office",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": null,
+      "allowances": "10l. Auditor Crown Revenue",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -347,9 +347,9 @@
       "location": null
     },
     {
-      "name": "William Miller",
-      "canonical_name": "Miller, William",
-      "given_names": "William",
+      "name": "W. Miller",
+      "canonical_name": "Miller, W.",
+      "given_names": "W.",
       "surname": "Miller",
       "position": "Surveyor-General and Civil Engineer",
       "department": "Surveyor-General's and Civil Engineer's Office",
@@ -483,7 +483,7 @@
       "department": "Education Department",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -499,7 +499,7 @@
       "department": "Education Department",
       "salary_min": 50,
       "salary_max": 50,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -515,7 +515,7 @@
       "department": "Post Office",
       "salary_min": 350,
       "salary_max": 350,
-      "allowances": "50l. personal allowance",
+      "allowances": "personal allowance, 50l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -531,7 +531,7 @@
       "department": "Post Office",
       "salary_min": 190,
       "salary_max": 190,
-      "allowances": "50l. personal allowance",
+      "allowances": "50l. personal allowance.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -622,9 +622,9 @@
     },
     {
       "name": "J. M. Hall (acting)",
-      "canonical_name": "Hall, J. M.",
+      "canonical_name": "Hall (acting), J. M.",
       "given_names": "J. M.",
-      "surname": "Hall",
+      "surname": "Hall (acting)",
       "position": "Quarantine Officer",
       "department": "Medical Department",
       "salary_min": 40,
@@ -755,8 +755,8 @@
     },
     {
       "name": "Rev. D. Wilshire",
-      "canonical_name": "Wilshire, D.",
-      "given_names": "D.",
+      "canonical_name": "Wilshire, Rev. D.",
+      "given_names": "Rev. D.",
       "surname": "Wilshire",
       "position": "Chaplain",
       "department": "Medical Department",
@@ -810,7 +810,7 @@
       "department": "Medical Department",
       "salary_min": 30,
       "salary_max": 30,
-      "allowances": "personal allowance, 10l. fees",
+      "allowances": "personal allowance, 10l. fees.",
       "honors": [],
       "qualifications": [
         "M.D."
@@ -1697,7 +1697,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Commander",
       "salary_scale": null,
       "location": null
     },
@@ -1871,6 +1871,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 115,
-    "anomaly_count": 4
+    "anomaly_count": 3
   }
 }

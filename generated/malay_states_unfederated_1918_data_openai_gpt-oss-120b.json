@@ -1,13 +1,13 @@
 {
   "colony": "Malay States Unfederated",
   "year": 1918,
-  "generated": "2026-03-12T08:17:17.088558",
+  "generated": "2026-03-12T09:35:28.714864",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 17,
+  "total_officials": 13,
   "officials": [
     {
-      "name": "R. J. Farrer",
+      "name": "R. J. Farrer (acting)",
       "canonical_name": "Farrer, R. J.",
       "given_names": "R. J.",
       "surname": "Farrer",
@@ -23,7 +23,7 @@
       "location": null
     },
     {
-      "name": "H. Norman",
+      "name": "H. Norman (acting)",
       "canonical_name": "Norman, H.",
       "given_names": "H.",
       "surname": "Norman",
@@ -39,7 +39,7 @@
       "location": null
     },
     {
-      "name": "J. D. Gimlette",
+      "name": "J. D. Gimlette (on leave)",
       "canonical_name": "Gimlette, J. D.",
       "given_names": "J. D.",
       "surname": "Gimlette",
@@ -47,22 +47,6 @@
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "H.H. the Rajah Kelantan bin H.H. Sultan Mohamed IV.",
-      "canonical_name": "Mohamed IV, H.H. the Rajah Kelantan bin H.H. Sultan",
-      "given_names": "H.H. the Rajah Kelantan bin H.H. Sultan",
-      "surname": "Mohamed IV",
-      "position": "Treasurer",
-      "department": "Civil Establishment",
-      "salary_min": 1260,
-      "salary_max": 1260,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -87,23 +71,7 @@
       "location": null
     },
     {
-      "name": "H.H. the Raja",
-      "canonical_name": "Raja, H.H. the",
-      "given_names": "H.H. the",
-      "surname": "Raja",
-      "position": "Judges, High Court",
-      "department": "Civil Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Tunku Hassan",
+      "name": "Tunku Hassan (acting)",
       "canonical_name": "Hassan, Tunku",
       "given_names": "Tunku",
       "surname": "Hassan",
@@ -116,23 +84,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Tunku Ahmad bin Tunku Sri Pekerma Raja",
-      "canonical_name": "Raja, Tunku Ahmad bin Tunku Sri Pekerma",
-      "given_names": "Tunku Ahmad bin Tunku Sri Pekerma",
-      "surname": "Raja",
-      "position": "Magistrate, Small Court",
-      "department": "Civil Establishment",
-      "salary_min": 600,
-      "salary_max": 600,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
+      "location": "Central Court"
     },
     {
       "name": "H. A. Anderson",
@@ -187,7 +139,7 @@
       "canonical_name": "Adams, T. S.",
       "given_names": "T. S.",
       "surname": "Adams",
-      "position": "District Officer, Ulu Kelantan",
+      "position": "District Officer",
       "department": "Civil Establishment",
       "salary_min": 520,
       "salary_max": 520,
@@ -196,14 +148,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ulu Kelantan"
     },
     {
       "name": "L. V. J. Laville",
       "canonical_name": "Laville, L. V. J.",
       "given_names": "L. V. J.",
       "surname": "Laville",
-      "position": "District Officer, Pasir Putih",
+      "position": "District Officer",
       "department": "Civil Establishment",
       "salary_min": 520,
       "salary_max": 520,
@@ -212,7 +164,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Pasir Putih"
     },
     {
       "name": "W. Kerr",
@@ -247,24 +199,6 @@
       "location": null
     },
     {
-      "name": "H.H. Sir Zuinal Abdin ibni Almerhum Ahmad",
-      "canonical_name": "Ahmad, H.H. Sir Zuinal Abdin ibni Almerhum",
-      "given_names": "H.H. Sir Zuinal Abdin ibni Almerhum",
-      "surname": "Ahmad",
-      "position": "Sultan",
-      "department": "TRENGGANU",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [
-        "K.C.M.G."
-      ],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "J. L. Humphreys",
       "canonical_name": "Humphreys, J. L.",
       "given_names": "J. L.",
@@ -285,11 +219,11 @@
     "colony": "Malay States Unfederated",
     "year": 1918,
     "total": 17,
-    "high_confidence": 17,
+    "high_confidence": 13,
     "medium_confidence": 0,
-    "low_confidence": 0,
-    "quarantined": 0,
-    "passed": 17,
+    "low_confidence": 4,
+    "quarantined": 4,
+    "passed": 13,
     "anomaly_count": 0
   }
 }

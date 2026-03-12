@@ -1,10 +1,10 @@
 {
   "colony": "Malta",
   "year": 1915,
-  "generated": "2026-03-12T07:11:26.158675",
+  "generated": "2026-03-12T09:10:39.507649",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 190,
+  "total_officials": 195,
   "officials": [
     {
       "name": "H. A. Byatt",
@@ -74,8 +74,8 @@
     },
     {
       "name": "W. C. Millard",
-      "canonical_name": "Millard, W. C.",
-      "given_names": "W. C.",
+      "canonical_name": "Millard, William C.",
+      "given_names": "William C.",
       "surname": "Millard",
       "position": "Assistant Secretary",
       "department": "Gozo",
@@ -105,9 +105,9 @@
       "location": null
     },
     {
-      "name": "V. Frendo Azopardi",
-      "canonical_name": "Frendo Azopardi, V.",
-      "given_names": "V.",
+      "name": "Sir V. Frendo Azopardi",
+      "canonical_name": "Frendo Azopardi, Sir V.",
+      "given_names": "Sir V.",
       "surname": "Frendo Azopardi",
       "position": "Crown Advocate",
       "department": "Crown Lawyers",
@@ -125,7 +125,7 @@
       "location": null
     },
     {
-      "name": "M. A. Refalo",
+      "name": "Prof. M. A. Refalo",
       "canonical_name": "Refalo, M. A.",
       "given_names": "M. A.",
       "surname": "Refalo",
@@ -255,9 +255,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "B.A.",
-        "D.D.",
-        "J.U.D."
+        "B.A."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -274,9 +272,7 @@
       "salary_max": 180,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "D.D."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -363,13 +359,11 @@
       "surname": "Vassallo",
       "position": "Lecturer in Canon Law",
       "department": "Professors and Lecturers in the Malta University",
-      "salary_min": 33,
-      "salary_max": 33,
+      "salary_min": null,
+      "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "J.U.D."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -381,8 +375,8 @@
       "surname": "Sultana",
       "position": "Lecturer in Political Economy",
       "department": "Professors and Lecturers in the Malta University",
-      "salary_min": 33,
-      "salary_max": 33,
+      "salary_min": null,
+      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [
@@ -422,7 +416,6 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "B.Sc.",
         "M.D."
       ],
       "military_rank": null,
@@ -495,8 +488,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "M.D.",
-        "D.P.H."
+        "M.D."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -546,13 +538,12 @@
       "surname": "Samut",
       "position": "Lecturer in Physiology",
       "department": "Professors and Lecturers in the Malta University",
-      "salary_min": 33,
-      "salary_max": 33,
+      "salary_min": null,
+      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "M.B.",
-        "C.M. (Edin.)"
+        "M.B."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -565,8 +556,8 @@
       "surname": "Xuereb",
       "position": "Lecturer in Mental Diseases",
       "department": "Professors and Lecturers in the Malta University",
-      "salary_min": 33,
-      "salary_max": 33,
+      "salary_min": null,
+      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [
@@ -602,8 +593,8 @@
       "surname": "Cassar",
       "position": "Lecturer in Materia Medica",
       "department": "Professors and Lecturers in the Malta University",
-      "salary_min": 66,
-      "salary_max": 66,
+      "salary_min": null,
+      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [
@@ -729,9 +720,7 @@
       "salary_max": 180,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "L.S. & A."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -747,9 +736,7 @@
       "salary_max": 150,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "L.S. & A."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -766,7 +753,6 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "A.R.C.Sc.",
         "B.Sc."
       ],
       "military_rank": null,
@@ -864,11 +850,7 @@
       "salary_max": 200,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "Phil. D.",
-        "D.D.",
-        "LL.B."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -939,9 +921,9 @@
     },
     {
       "name": "G. Zarb Mallin",
-      "canonical_name": "Zarb Mallin, G.",
-      "given_names": "G.",
-      "surname": "Zarb Mallin",
+      "canonical_name": "Mallin, G. Zarb",
+      "given_names": "G. Zarb",
+      "surname": "Mallin",
       "position": "First Class Officer Revenue Guards Branch",
       "department": "Customs and Port Department",
       "salary_min": 220,
@@ -1023,7 +1005,7 @@
       "given_names": "G.",
       "surname": "Ferris",
       "position": "Financial Assistant",
-      "department": "Savings Bank",
+      "department": "Charitable Institutions",
       "salary_min": 200,
       "salary_max": 250,
       "allowances": "50l. personal",
@@ -1126,9 +1108,9 @@
     },
     {
       "name": "A. Portelli Carbone",
-      "canonical_name": "Portelli Carbone, A.",
-      "given_names": "A.",
-      "surname": "Portelli Carbone",
+      "canonical_name": "Carbone, A. Portelli",
+      "given_names": "A. Portelli",
+      "surname": "Carbone",
       "position": "Junior Visiting Physician and Medical Inspector under Order IV. of 1861",
       "department": "Hospitals",
       "salary_min": 100,
@@ -1173,6 +1155,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
+        "B.Sc.",
         "M.D."
       ],
       "military_rank": null,
@@ -1274,7 +1257,7 @@
       "canonical_name": "Muscat, S.",
       "given_names": "S.",
       "surname": "Muscat",
-      "position": "Resident Assistant Physician, Surgeon and Superintendent, Connaught Hospital",
+      "position": "Resident Assistant Physician, Surgeon and Superintendent",
       "department": "Hospitals",
       "salary_min": 70,
       "salary_max": 90,
@@ -1357,7 +1340,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Lunatic Asylum"
+      "location": null
     },
     {
       "name": "R. Toledo",
@@ -1391,39 +1374,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Orphan Asylum"
-    },
-    {
-      "name": "The Mother Superior of the Sisters of Charity",
-      "canonical_name": "The Mother Superior of the Sisters of Charity",
-      "given_names": "",
-      "surname": "The Mother Superior of the Sisters of Charity",
-      "position": "Resident Female Superintendent of Orphan Asylum",
-      "department": "Hospitals",
-      "salary_min": 75,
-      "salary_max": 75,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "Orphan Asylum"
-    },
-    {
-      "name": "A Sister of Charity",
-      "canonical_name": "A Sister of Charity",
-      "given_names": "",
-      "surname": "A Sister of Charity",
-      "position": "Matron of Magdalen Asylum",
-      "department": "Hospitals",
-      "salary_min": 30,
-      "salary_max": 30,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "Magdalen Asylum"
+      "location": null
     },
     {
       "name": "N. Tabone",
@@ -1441,7 +1392,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Gozo"
+      "location": null
     },
     {
       "name": "G. Caruana Scicluna",
@@ -1550,7 +1501,7 @@
       "location": null
     },
     {
-      "name": "T. Zammit",
+      "name": "Prof. T. Zammit",
       "canonical_name": "Zammit, T.",
       "given_names": "T.",
       "surname": "Zammit",
@@ -1838,7 +1789,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Samra"
+      "location": "Hamrun"
     },
     {
       "name": "G. Busuttil",
@@ -2082,7 +2033,7 @@
       "position": "District Medical Officer",
       "department": "District Medical Officers",
       "salary_min": 60,
-      "salary_max": 60,
+      "salary_max": 140,
       "allowances": null,
       "honors": [],
       "qualifications": [
@@ -2103,7 +2054,10 @@
       "salary_max": 350,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "M.R.C.V.S.",
+        "F.E.V.M.A."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -2119,7 +2073,11 @@
       "salary_max": 200,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "M.R.C.V.S.",
+        "F.E.V.M.A.",
+        "Ed."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": "Malta"
@@ -2284,6 +2242,120 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "H. W. Engerer",
+      "canonical_name": "Engerer, H. W.",
+      "given_names": "H. W.",
+      "surname": "Engerer",
+      "position": "Superintendent of Posts",
+      "department": "Post Office",
+      "salary_min": 400,
+      "salary_max": 400,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Lieut.-Col.",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "G. Busuttil",
+      "canonical_name": "Busuttil, G.",
+      "given_names": "G.",
+      "surname": "Busuttil",
+      "position": "Chief Clerk",
+      "department": "Post Office",
+      "salary_min": 200,
+      "salary_max": 250,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "G. Delali",
+      "canonical_name": "Delali, G.",
+      "given_names": "G.",
+      "surname": "Delali",
+      "position": "Chief Accountant",
+      "department": "Post Office",
+      "salary_min": 200,
+      "salary_max": 250,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "G. Zammit",
+      "canonical_name": "Zammit, G.",
+      "given_names": "G.",
+      "surname": "Zammit",
+      "position": "Director of Public Registry and Keeper of the Government and Notarial Archives",
+      "department": "Public Registry",
+      "salary_min": 270,
+      "salary_max": 270,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "M. L. Casolani",
+      "canonical_name": "Casolani, M. L.",
+      "given_names": "M. L.",
+      "surname": "Casolani",
+      "position": "Notary to Government",
+      "department": "Public Registry",
+      "salary_min": 270,
+      "salary_max": 270,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "S. Cremona",
+      "canonical_name": "Cremona, S.",
+      "given_names": "S.",
+      "surname": "Cremona",
+      "position": "Assistant Director of the Public Registry",
+      "department": "Public Registry",
+      "salary_min": 120,
+      "salary_max": 120,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "G. Portelli Carbone",
+      "canonical_name": "Portelli Carbone, G.",
+      "given_names": "G.",
+      "surname": "Portelli Carbone",
+      "position": "Assistant Keeper of Government Archives and of Notarial Acts",
+      "department": "Public Registry",
+      "salary_min": 110,
+      "salary_max": 110,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [
+        "LL.D."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -2621,7 +2693,7 @@
       "canonical_name": "Barker, J. S. S.",
       "given_names": "J. S. S.",
       "surname": "Barker",
-      "position": "Major-General",
+      "position": "Commanding Royal Artillery",
       "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
@@ -2648,7 +2720,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Brigadier General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -3287,12 +3359,12 @@
   "validation_summary": {
     "colony": "Malta",
     "year": 1915,
-    "total": 190,
-    "high_confidence": 187,
-    "medium_confidence": 3,
-    "low_confidence": 0,
-    "quarantined": 0,
-    "passed": 190,
-    "anomaly_count": 10
+    "total": 197,
+    "high_confidence": 194,
+    "medium_confidence": 1,
+    "low_confidence": 2,
+    "quarantined": 2,
+    "passed": 195,
+    "anomaly_count": 11
   }
 }

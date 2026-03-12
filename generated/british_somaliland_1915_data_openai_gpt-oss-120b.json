@@ -1,7 +1,7 @@
 {
   "colony": "British Somaliland",
   "year": 1915,
-  "generated": "2026-03-12T06:45:07.718990",
+  "generated": "2026-03-12T09:04:56.397202",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 35,
@@ -41,7 +41,7 @@
       "location": null
     },
     {
-      "name": "T. Astley Cubitt",
+      "name": "Lt.-Col. T. Astley Cubitt",
       "canonical_name": "Cubitt, T. Astley",
       "given_names": "T. Astley",
       "surname": "Cubitt",
@@ -59,7 +59,7 @@
       "location": null
     },
     {
-      "name": "G. H. Summers",
+      "name": "Brevet Major G. H. Summers",
       "canonical_name": "Summers, G. H.",
       "given_names": "G. H.",
       "surname": "Summers",
@@ -70,7 +70,7 @@
       "allowances": "40l. duty allowance",
       "honors": [],
       "qualifications": [],
-      "military_rank": "Major",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -91,7 +91,7 @@
       "location": null
     },
     {
-      "name": "Captain J. L. Berne",
+      "name": "J. L. Berne",
       "canonical_name": "Berne, J. L.",
       "given_names": "J. L.",
       "surname": "Berne",
@@ -107,7 +107,7 @@
       "location": null
     },
     {
-      "name": "Lieut.-Commander J. M. Barker",
+      "name": "J. M. Barker",
       "canonical_name": "Barker, J. M.",
       "given_names": "J. M.",
       "surname": "Barker",
@@ -325,7 +325,7 @@
       "department": "Military Department",
       "salary_min": 700,
       "salary_max": 700,
-      "allowances": "duty allowance, 144l",
+      "allowances": "duty allowance, 144l.",
       "honors": [
         "D.S.O."
       ],

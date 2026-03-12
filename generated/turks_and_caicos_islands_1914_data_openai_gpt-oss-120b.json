@@ -1,7 +1,7 @@
 {
   "colony": "Turks and Caicos Islands",
   "year": 1914,
-  "generated": "2026-03-12T06:32:43.443935",
+  "generated": "2026-03-12T09:01:21.236352",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 23,
@@ -95,7 +95,7 @@
       "department": "Civil Establishment",
       "salary_min": 110,
       "salary_max": 110,
-      "allowances": null,
+      "allowances": "10l. for boat",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -180,7 +180,8 @@
       "allowances": "25l. drug allowance (and private practice)",
       "honors": [],
       "qualifications": [
-        "M.B."
+        "M.B.",
+        "Ch.B."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -198,7 +199,8 @@
       "allowances": "25l. drug allowance (and private practice)",
       "honors": [],
       "qualifications": [
-        "M.B."
+        "M.B.",
+        "Ch.B."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -301,9 +303,9 @@
       "location": null
     },
     {
-      "name": "W. S. Jones",
-      "canonical_name": "Jones, W. S.",
-      "given_names": "W. S.",
+      "name": "William S. Jones",
+      "canonical_name": "Jones, William S.",
+      "given_names": "William S.",
       "surname": "Jones",
       "position": "Consular Agent",
       "department": "Foreign Consuls",
@@ -314,12 +316,12 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
-      "name": "W. R. Tatton",
-      "canonical_name": "Tatton, W. R.",
-      "given_names": "W. R.",
+      "name": "William R. Tatton",
+      "canonical_name": "Tatton, William R.",
+      "given_names": "William R.",
       "surname": "Tatton",
       "position": "Vice-Consul",
       "department": "Foreign Consuls",
@@ -362,7 +364,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Norway"
+      "location": null
     },
     {
       "name": "C. Forman",
@@ -378,7 +380,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States of America"
+      "location": null
     }
   ],
   "validation_summary": {

@@ -1,10 +1,10 @@
 {
   "colony": "Seychelles",
   "year": 1915,
-  "generated": "2026-03-12T07:17:56.302734",
+  "generated": "2026-03-12T09:11:25.448468",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 92,
+  "total_officials": 97,
   "officials": [
     {
       "name": "C. R. M. O'Brien",
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 18000,
       "salary_max": 18000,
-      "allowances": "Rs. 3,000 entertaining allowance",
+      "allowances": "3,000 entertaining allowance",
       "honors": [
         "C.M.G."
       ],
@@ -597,7 +597,7 @@
       "department": "Police Department",
       "salary_min": 2500,
       "salary_max": 2500,
-      "allowances": "Rs. 500 for quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -613,7 +613,7 @@
       "department": "Police Department",
       "salary_min": 900,
       "salary_max": 1200,
-      "allowances": "Rs. 240 for quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -629,7 +629,7 @@
       "department": "Prison Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "unpaid",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -696,14 +696,14 @@
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "Rs. 500 as Superintendent of Leper Asylum and Pauper Camp",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.D."
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Praslin District"
+      "location": null
     },
     {
       "name": "J. T. Bradley",
@@ -722,7 +722,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "South Mah\u00e9 District"
+      "location": null
     },
     {
       "name": "M. S. Power",
@@ -740,7 +740,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Victoria"
+      "location": null
     },
     {
       "name": "D. Watson",
@@ -756,7 +756,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Victoria Hospital"
+      "location": null
     },
     {
       "name": "A. Cauvin",
@@ -767,6 +767,22 @@
       "department": "Medical Department",
       "salary_min": 300,
       "salary_max": 840,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sister Lucy",
+      "canonical_name": "Lucy, Sister",
+      "given_names": "Sister",
+      "surname": "Lucy",
+      "position": "Matron, do.",
+      "department": "Medical Department",
+      "salary_min": 400,
+      "salary_max": 400,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -807,9 +823,25 @@
       "location": null
     },
     {
-      "name": "M. G. Halkett",
-      "canonical_name": "Halkett, M. G.",
-      "given_names": "M. G.",
+      "name": "Sister Herbert",
+      "canonical_name": "Herbert, Sister",
+      "given_names": "Sister",
+      "surname": "Herbert",
+      "position": "Housekeeper, do.",
+      "department": "Medical Department",
+      "salary_min": 400,
+      "salary_max": 400,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Miss M. G. Halkett",
+      "canonical_name": "Halkett, Miss M. G.",
+      "given_names": "Miss M. G.",
       "surname": "Halkett",
       "position": "Matron in Charge of Maternity Home",
       "department": "Medical Department",
@@ -823,9 +855,9 @@
       "location": null
     },
     {
-      "name": "D. Leonard",
-      "canonical_name": "Leonard, D.",
-      "given_names": "D.",
+      "name": "Miss D. Leonard",
+      "canonical_name": "Leonard, Miss D.",
+      "given_names": "Miss D.",
       "surname": "Leonard",
       "position": "Nurse",
       "department": "Medical Department",
@@ -852,7 +884,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Praslin"
+      "location": null
     },
     {
       "name": "C. Lablache",
@@ -868,7 +900,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "South Mah\u00e9 District"
+      "location": null
     },
     {
       "name": "L. Gendron",
@@ -884,7 +916,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Leper Asylum and Pauper Camp"
+      "location": null
     },
     {
       "name": "T. Bernardin Clark",
@@ -903,7 +935,55 @@
       "location": null
     },
     {
-      "name": "Rev. H. Manning",
+      "name": "Damascene",
+      "canonical_name": "Damascene",
+      "given_names": "",
+      "surname": "Damascene",
+      "position": "Priest",
+      "department": "Roman Catholic Church",
+      "salary_min": 1500,
+      "salary_max": 1500,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "C\u00e9saire",
+      "canonical_name": "C\u00e9saire",
+      "given_names": "",
+      "surname": "C\u00e9saire",
+      "position": "Priest",
+      "department": "Roman Catholic Church",
+      "salary_min": 750,
+      "salary_max": 750,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Laurent",
+      "canonical_name": "Laurent",
+      "given_names": "",
+      "surname": "Laurent",
+      "position": "Priest",
+      "department": "Roman Catholic Church",
+      "salary_min": 750,
+      "salary_max": 750,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "H. Manning",
       "canonical_name": "Manning, H.",
       "given_names": "H.",
       "surname": "Manning",
@@ -919,7 +999,7 @@
       "location": null
     },
     {
-      "name": "Rev. R. H. Pickwood",
+      "name": "R. H. Pickwood",
       "canonical_name": "Pickwood, R. H.",
       "given_names": "R. H.",
       "surname": "Pickwood",
@@ -1098,7 +1178,7 @@
     },
     {
       "name": "F. Godley, jr.",
-      "canonical_name": "Godley, F.",
+      "canonical_name": "Godley, F., jr.",
       "given_names": "F.",
       "surname": "Godley",
       "position": "Sergeant Forest Ranger",
@@ -1438,7 +1518,7 @@
       "given_names": "P. Loustau",
       "surname": "Lalanne",
       "position": "Consular Agent (acting)",
-      "department": "Foreign Consuls",
+      "department": "Foreign Consuls (France)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1454,7 +1534,7 @@
       "given_names": "H. A.",
       "surname": "Pare",
       "position": "Consul",
-      "department": "Foreign Consuls",
+      "department": "Foreign Consuls (Italy)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1470,7 +1550,7 @@
       "given_names": "A d'Emmerez de",
       "surname": "Charmoy",
       "position": "Vice-Consul",
-      "department": "Foreign Consuls",
+      "department": "Foreign Consuls (Netherlands)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1486,7 +1566,7 @@
       "given_names": "A.",
       "surname": "Merian",
       "position": "Consul",
-      "department": "Foreign Consuls",
+      "department": "Foreign Consuls (Portugal)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1501,11 +1581,11 @@
     "colony": "Seychelles",
     "year": 1915,
     "total": 97,
-    "high_confidence": 92,
-    "medium_confidence": 0,
-    "low_confidence": 5,
-    "quarantined": 5,
-    "passed": 92,
+    "high_confidence": 94,
+    "medium_confidence": 3,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 97,
     "anomaly_count": 12
   }
 }

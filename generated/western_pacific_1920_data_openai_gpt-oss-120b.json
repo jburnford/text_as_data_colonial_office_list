@@ -1,0 +1,55 @@
+{
+  "colony": "Western Pacific",
+  "year": 1920,
+  "generated": "2026-03-12T09:22:40.948875",
+  "model": "openai/gpt-oss-120b",
+  "tier": "STANDARD",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "Sir George B. Hadden-Smith",
+      "canonical_name": "Hadden-Smith, George B.",
+      "given_names": "George B.",
+      "surname": "Hadden-Smith",
+      "position": "Governor and Commander-in-Chief of the Windward Islands",
+      "department": "Civil Establishment",
+      "salary_min": 2500,
+      "salary_max": 2500,
+      "allowances": "200l. travelling allowance",
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Cecil N. Rice",
+      "canonical_name": "Rice, Cecil N.",
+      "given_names": "Cecil N.",
+      "surname": "Rice",
+      "position": "Chief Clerk",
+      "department": "Civil Establishment",
+      "salary_min": 300,
+      "salary_max": 350,
+      "allowances": "by 10l., and travelling and house allowance",
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Western Pacific",
+    "year": 1920,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}

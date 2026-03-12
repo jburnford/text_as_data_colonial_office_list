@@ -1,7 +1,7 @@
 {
   "colony": "Falkland Islands",
   "year": 1915,
-  "generated": "2026-03-12T06:47:04.341290",
+  "generated": "2026-03-12T09:05:34.585724",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 26,
@@ -138,7 +138,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "New Island"
     },
     {
       "name": "M. Craigie-Halkett",
@@ -202,14 +202,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "West Falkland"
     },
     {
       "name": "J. Inne Wilson",
       "canonical_name": "Wilson, J. Inne",
       "given_names": "J. Inne",
       "surname": "Wilson",
-      "position": "Stipendiary Magistrate",
+      "position": "Stipendiary Magistrate, S. Georgia",
       "department": "Civil Establishment",
       "salary_min": 300,
       "salary_max": 300,
@@ -225,7 +225,7 @@
       "canonical_name": "Newing, A.",
       "given_names": "A.",
       "surname": "Newing",
-      "position": "Customs Officer",
+      "position": "Customs Officer, S. Georgia",
       "department": "Civil Establishment",
       "salary_min": 150,
       "salary_max": 150,
@@ -402,7 +402,7 @@
       "given_names": "W.",
       "surname": "Hardling",
       "position": "Consul for Italy, Chili, and Norway",
-      "department": "Civil Establishment",
+      "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -418,7 +418,7 @@
       "given_names": "G. T.",
       "surname": "Turner",
       "position": "French Consular Agent",
-      "department": "Civil Establishment",
+      "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
