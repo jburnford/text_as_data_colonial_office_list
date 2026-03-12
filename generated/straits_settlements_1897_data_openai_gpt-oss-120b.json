@@ -1,10 +1,10 @@
 {
   "colony": "Straits Settlements",
   "year": 1897,
-  "generated": "2026-03-11T20:26:41.354918",
+  "generated": "2026-03-12T06:38:52.726788",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 143,
+  "total_officials": 144,
   "officials": [
     {
       "name": "C. B. H. Mitchell",
@@ -22,7 +22,7 @@
       "qualifications": [],
       "military_rank": "Lt.-Col.",
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "Lieut. E. A. Herbert",
@@ -38,7 +38,7 @@
       "qualifications": [],
       "military_rank": "Lieutenant-Colonel",
       "salary_scale": null,
-      "location": "6th Battalion"
+      "location": "Singapore"
     },
     {
       "name": "Claud Severn",
@@ -54,7 +54,7 @@
       "qualifications": [],
       "military_rank": "Lieutenant-Colonel",
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "D. H. Wise",
@@ -70,7 +70,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "J. A. Swettenham",
@@ -443,7 +443,7 @@
       "location": null
     },
     {
-      "name": "H. E. McCallum",
+      "name": "Major H. E. McCallum",
       "canonical_name": "McCallum, H. E.",
       "given_names": "H. E.",
       "surname": "McCallum",
@@ -451,7 +451,7 @@
       "department": "Public Works and Survey Departments",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "personal allowance, \u00a3600",
+      "allowances": "\u00a3600 personal allowance",
       "honors": [
         "C.M.G."
       ],
@@ -753,7 +753,7 @@
       "canonical_name": "Hose, G. F.",
       "given_names": "G. F.",
       "surname": "Hose",
-      "position": "Bishop",
+      "position": "Bishop, Rt. Rev.",
       "department": "Ecclesiastical",
       "salary_min": 100,
       "salary_max": 100,
@@ -1319,7 +1319,7 @@
       "canonical_name": "Leask, J. T.",
       "given_names": "J. T.",
       "surname": "Leask",
-      "position": "Resident",
+      "position": "Colonial Surgeon",
       "department": "Penang",
       "salary_min": 3600,
       "salary_max": 3600,
@@ -1383,7 +1383,7 @@
       "canonical_name": "Michell, W. C.",
       "given_names": "W. C.",
       "surname": "Michell",
-      "position": "District Officer",
+      "position": null,
       "department": "Penang",
       "salary_min": 2400,
       "salary_max": 2400,
@@ -1399,7 +1399,7 @@
       "canonical_name": "Lemon, A. H.",
       "given_names": "A. H.",
       "surname": "Lemon",
-      "position": "District Officer",
+      "position": null,
       "department": "Penang",
       "salary_min": 2400,
       "salary_max": 2400,
@@ -1760,7 +1760,23 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": "Lt.-Colonel",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Major",
+      "canonical_name": "Major, ",
+      "given_names": "",
+      "surname": "Major",
+      "position": "Principal Medical Officer, Brigade-Surgeon",
+      "department": "Troops in the Straits Settlements",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Lt. Col.",
       "salary_scale": null,
       "location": null
     },
@@ -1824,7 +1840,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Col.",
+      "military_rank": "Lt.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -1868,7 +1884,7 @@
       "given_names": "D.",
       "surname": "Brandt",
       "position": "Consul",
-      "department": "Consuls",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1876,7 +1892,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "H. Hinnekindt",
@@ -1884,7 +1900,7 @@
       "given_names": "H.",
       "surname": "Hinnekindt",
       "position": "Consul",
-      "department": "Consuls",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1892,15 +1908,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "Thio Tianu Siat",
       "canonical_name": "Siat, Thio Tianu",
       "given_names": "Thio Tianu",
       "surname": "Siat",
-      "position": "Acting Consul-S.S.",
-      "department": "Consuls",
+      "position": "Acting Consul\u2011S.S.",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1908,7 +1924,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "C. A. Rauch",
@@ -1916,7 +1932,7 @@
       "given_names": "C. A.",
       "surname": "Rauch",
       "position": "Consul",
-      "department": "Consuls",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1924,7 +1940,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "C. Pinard",
@@ -1932,7 +1948,7 @@
       "given_names": "C.",
       "surname": "Pinard",
       "position": "Consul",
-      "department": "Consuls",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1940,7 +1956,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "H. Eschke",
@@ -1948,7 +1964,7 @@
       "given_names": "H.",
       "surname": "Eschke",
       "position": "Consul",
-      "department": "Consuls",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1956,7 +1972,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "F. de Goyzueta",
@@ -1964,7 +1980,7 @@
       "given_names": "F.",
       "surname": "de Goyzueta",
       "position": "Consul",
-      "department": "Consuls",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1972,7 +1988,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "Joshiro Fugita",
@@ -1980,7 +1996,7 @@
       "given_names": "Joshiro",
       "surname": "Fugita",
       "position": "Consul",
-      "department": "Consuls",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1988,15 +2004,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "G. Lavino",
       "canonical_name": "Lavino, G.",
       "given_names": "G.",
       "surname": "Lavino",
-      "position": "Consul-General",
-      "department": "Consuls",
+      "position": "Consul\u2011General",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2004,7 +2020,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "F. A. Pereira",
@@ -2012,7 +2028,7 @@
       "given_names": "F. A.",
       "surname": "Pereira",
       "position": "Consul",
-      "department": "Consuls",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2020,7 +2036,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "C. W. Kleinemon",
@@ -2028,7 +2044,7 @@
       "given_names": "C. W.",
       "surname": "Kleinemon",
       "position": "Consul",
-      "department": "Consuls",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2036,15 +2052,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "J. Anderson",
       "canonical_name": "Anderson, J.",
       "given_names": "J.",
       "surname": "Anderson",
-      "position": "Consul-General",
-      "department": "Consuls",
+      "position": "Consul\u2011General",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2052,7 +2068,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "D. de la Pedraja",
@@ -2060,7 +2076,7 @@
       "given_names": "D.",
       "surname": "de la Pedraja",
       "position": "Consul",
-      "department": "Consuls",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2068,15 +2084,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "Don Luis y Peralta",
       "canonical_name": "Peralta, Don Luis y",
       "given_names": "Don Luis y",
       "surname": "Peralta",
-      "position": "Vice-Consul",
-      "department": "Consuls",
+      "position": "Vice\u2011Consul",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2084,7 +2100,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "J. R. Cuthbertson",
@@ -2092,7 +2108,7 @@
       "given_names": "J. R.",
       "surname": "Cuthbertson",
       "position": "Consul",
-      "department": "Consuls",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2100,15 +2116,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "E. Spencer Pratt",
       "canonical_name": "Pratt, E. Spencer",
       "given_names": "E. Spencer",
       "surname": "Pratt",
-      "position": "Consul-General S.S.",
-      "department": "Consuls",
+      "position": "Consul\u2011General S.S.",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2116,7 +2132,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "J. P. Joaquim",
@@ -2124,7 +2140,7 @@
       "given_names": "J. P.",
       "surname": "Joaquim",
       "position": "Vice and Deputy Consul",
-      "department": "Consuls",
+      "department": "Consuls (Singapore)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2132,7 +2148,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "R. Morstadt",
@@ -2140,7 +2156,7 @@
       "given_names": "R.",
       "surname": "Morstadt",
       "position": "Consul",
-      "department": "Penang",
+      "department": "Consuls (Penang)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2148,7 +2164,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Penang"
     },
     {
       "name": "W. C. Brown",
@@ -2156,7 +2172,7 @@
       "given_names": "W. C.",
       "surname": "Brown",
       "position": "Consul",
-      "department": "Penang",
+      "department": "Consuls (Penang)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2166,15 +2182,15 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Penang"
     },
     {
       "name": "Chang Chin Hsin",
       "canonical_name": "Hsin, Chang Chin",
       "given_names": "Chang Chin",
       "surname": "Hsin",
-      "position": "Vice-Consul",
-      "department": "Penang",
+      "position": "Vice\u2011Consul",
+      "department": "Consuls (Penang)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2182,15 +2198,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Penang"
     },
     {
       "name": "M. Schifflmann",
       "canonical_name": "Schifflmann, M.",
       "given_names": "M.",
       "surname": "Schifflmann",
-      "position": "Vice-Consul",
-      "department": "Penang",
+      "position": "Vice\u2011Consul",
+      "department": "Consuls (Penang)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2198,7 +2214,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Penang"
     },
     {
       "name": "E. Engler",
@@ -2206,7 +2222,7 @@
       "given_names": "E.",
       "surname": "Engler",
       "position": "Consular Agent",
-      "department": "Penang",
+      "department": "Consuls (Penang)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2214,15 +2230,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Penang"
     },
     {
       "name": "J. A. du Vieq",
       "canonical_name": "du Vieq, J. A.",
       "given_names": "J. A.",
       "surname": "du Vieq",
-      "position": "Consul with personal rank of Consul-General",
-      "department": "Penang",
+      "position": "Consul with personal rank of Consul\u2011General",
+      "department": "Consuls (Penang)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2230,7 +2246,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Penang"
     },
     {
       "name": "P. F. Mountcastle",
@@ -2238,7 +2254,7 @@
       "given_names": "P. F.",
       "surname": "Mountcastle",
       "position": "Consul",
-      "department": "Penang",
+      "department": "Consuls (Penang)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2246,7 +2262,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Penang"
     },
     {
       "name": "A. D. Neubronner",
@@ -2254,7 +2270,7 @@
       "given_names": "A. D.",
       "surname": "Neubronner",
       "position": "Consul",
-      "department": "Penang",
+      "department": "Consuls (Penang)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2262,7 +2278,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Penang"
     },
     {
       "name": "F. Lederer",
@@ -2270,7 +2286,7 @@
       "given_names": "F.",
       "surname": "Lederer",
       "position": "Consular Agent",
-      "department": "Penang",
+      "department": "Consuls (Penang)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2278,12 +2294,12 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Penang"
     },
     {
       "name": "Sir C. E. Mitchell",
-      "canonical_name": "Mitchell, C. E.",
-      "given_names": "C. E.",
+      "canonical_name": "Mitchell, Sir C. E.",
+      "given_names": "Sir C. E.",
       "surname": "Mitchell",
       "position": "High Commissioner",
       "department": "Federation Officers",
@@ -2305,8 +2321,8 @@
       "surname": "W.",
       "position": "Secretary to High Commissioner",
       "department": "Federation Officers",
-      "salary_min": 3600,
-      "salary_max": 3600,
+      "salary_min": null,
+      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -2318,12 +2334,12 @@
   "validation_summary": {
     "colony": "Straits Settlements",
     "year": 1897,
-    "total": 143,
+    "total": 144,
     "high_confidence": 142,
-    "medium_confidence": 1,
+    "medium_confidence": 2,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 143,
+    "passed": 144,
     "anomaly_count": 2
   }
 }
