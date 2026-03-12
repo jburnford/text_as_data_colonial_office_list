@@ -1,7 +1,7 @@
 {
   "colony": "Zanzibar",
   "year": 1918,
-  "generated": "2026-03-12T08:29:40.377400",
+  "generated": "2026-03-12T09:42:29.770652",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 11,
@@ -23,8 +23,8 @@
       "location": null
     },
     {
-      "name": "Seyyid Thwain",
-      "canonical_name": "Thwain, Seyyid",
+      "name": "Seyyid Thwain of Muscat",
+      "canonical_name": "Thwain, Seyyid of Muscat",
       "given_names": "Seyyid",
       "surname": "Thwain",
       "position": null,
@@ -39,8 +39,8 @@
       "location": null
     },
     {
-      "name": "Seyyid Majid",
-      "canonical_name": "Majid, Seyyid",
+      "name": "Seyyid Majid of Zanzibar",
+      "canonical_name": "Majid, Seyyid of Zanzibar",
       "given_names": "Seyyid",
       "surname": "Majid",
       "position": null,
@@ -104,9 +104,9 @@
     },
     {
       "name": "Seyyid Khalifa bin Harub",
-      "canonical_name": "Harub, Seyyid Khalifa bin",
-      "given_names": "Seyyid Khalifa bin",
-      "surname": "Harub",
+      "canonical_name": "Khalifa bin Harub, Seyyid",
+      "given_names": "Seyyid",
+      "surname": "Khalifa bin Harub",
       "position": null,
       "department": null,
       "salary_min": null,
@@ -120,8 +120,8 @@
     },
     {
       "name": "Sir Richard Burton",
-      "canonical_name": "Burton, Richard",
-      "given_names": "Richard",
+      "canonical_name": "Burton, Sir Richard",
+      "given_names": "Sir Richard",
       "surname": "Burton",
       "position": null,
       "department": null,
@@ -136,8 +136,8 @@
     },
     {
       "name": "Colonel Rigby",
-      "canonical_name": "Rigby, ",
-      "given_names": "",
+      "canonical_name": "Rigby, Colonel",
+      "given_names": "Colonel",
       "surname": "Rigby",
       "position": null,
       "department": null,
@@ -152,8 +152,8 @@
     },
     {
       "name": "Lord Canning",
-      "canonical_name": "Canning, ",
-      "given_names": "",
+      "canonical_name": "Canning, Lord",
+      "given_names": "Lord",
       "surname": "Canning",
       "position": null,
       "department": null,
@@ -168,8 +168,8 @@
     },
     {
       "name": "Lord Acton",
-      "canonical_name": "Acton, ",
-      "given_names": "",
+      "canonical_name": "Acton, Lord",
+      "given_names": "Lord",
       "surname": "Acton",
       "position": null,
       "department": null,
@@ -187,8 +187,8 @@
     "colony": "Zanzibar",
     "year": 1918,
     "total": 11,
-    "high_confidence": 7,
-    "medium_confidence": 4,
+    "high_confidence": 10,
+    "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 11,

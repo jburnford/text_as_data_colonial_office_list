@@ -1,7 +1,7 @@
 {
   "colony": "Turks and Caicos Islands",
   "year": 1918,
-  "generated": "2026-03-12T08:28:31.131557",
+  "generated": "2026-03-12T09:42:03.370620",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 11,
@@ -15,14 +15,14 @@
       "department": "Medical",
       "salary_min": 275,
       "salary_max": 275,
-      "allowances": "37l. drug allowance",
+      "allowances": "37l. drug allowance (and private practice)",
       "honors": [],
       "qualifications": [
         "M.D."
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Turks Islands"
+      "location": null
     },
     {
       "name": "R. R. Higinbothom",
@@ -33,14 +33,14 @@
       "department": "Medical",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "25l. drug allowance",
+      "allowances": "25l. drug allowance (and private practice)",
       "honors": [],
       "qualifications": [
         "M.D."
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Caicos Islands"
+      "location": null
     },
     {
       "name": "R. C. Macy",
@@ -58,7 +58,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Caicos Islands"
+      "location": null
     },
     {
       "name": "F. E. Todd",

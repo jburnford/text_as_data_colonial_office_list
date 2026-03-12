@@ -1,15 +1,15 @@
 {
   "colony": "North Borneo",
   "year": 1918,
-  "generated": "2026-03-12T08:27:03.613015",
+  "generated": "2026-03-12T09:39:36.255595",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 45,
   "officials": [
     {
       "name": "Dr. L. A. Andrade",
-      "canonical_name": "Andrade, Dr. L. A.",
-      "given_names": "Dr. L. A.",
+      "canonical_name": "Andrade, L. A.",
+      "given_names": "L. A.",
       "surname": "Andrade",
       "position": "District Commissioner",
       "department": "District Administration",
@@ -39,9 +39,9 @@
       "location": null
     },
     {
-      "name": "Lieut.-Comdr. A. M. Clark, R.N.",
-      "canonical_name": "Clark, Lieut.-Comdr. A. M.",
-      "given_names": "Lieut.-Comdr. A. M.",
+      "name": "A. M. Clark",
+      "canonical_name": "Clark, A. M.",
+      "given_names": "A. M.",
       "surname": "Clark",
       "position": "Assistant District Commissioner",
       "department": "District Administration",
@@ -151,9 +151,9 @@
       "location": null
     },
     {
-      "name": "W. B. Swinerd",
-      "canonical_name": "Swinerd, W. B.",
-      "given_names": "W. B.",
+      "name": "William B. Swinerd",
+      "canonical_name": "Swinerd, William B.",
+      "given_names": "William B.",
       "surname": "Swinerd",
       "position": "Chief of Customs",
       "department": "Customs",
@@ -376,7 +376,7 @@
     },
     {
       "name": "Mead",
-      "canonical_name": "Mead",
+      "canonical_name": "Mead, ",
       "given_names": "",
       "surname": "Mead",
       "position": "Crown Solicitor",
@@ -392,7 +392,7 @@
     },
     {
       "name": "Wiggins",
-      "canonical_name": "Wiggins",
+      "canonical_name": "Wiggins, ",
       "given_names": "",
       "surname": "Wiggins",
       "position": "Crown Solicitor",
@@ -407,7 +407,7 @@
       "location": null
     },
     {
-      "name": "Major H. R. Cartwright",
+      "name": "H. R. Cartwright",
       "canonical_name": "Cartwright, H. R.",
       "given_names": "H. R.",
       "surname": "Cartwright",
@@ -415,7 +415,7 @@
       "department": "Police and Prisons Departments",
       "salary_min": 500,
       "salary_max": 600,
-      "allowances": "100l. gaul allowance and quarters",
+      "allowances": "100l. gaol allowance and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": "Major",
@@ -631,9 +631,9 @@
       "location": null
     },
     {
-      "name": "W. M. Aders",
-      "canonical_name": "Aders, W. M.",
-      "given_names": "W. M.",
+      "name": "Dr. W. M. Aders",
+      "canonical_name": "Aders, Dr. W. M.",
+      "given_names": "Dr. W. M.",
       "surname": "Aders",
       "position": "Economic Biologist",
       "department": "Public Health Department",
@@ -655,7 +655,7 @@
       "department": "Education Department",
       "salary_min": 500,
       "salary_max": 700,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
