@@ -1,15 +1,15 @@
 {
   "colony": "Barbados",
   "year": 1898,
-  "generated": "2026-03-12T06:49:58.489389",
+  "generated": "2026-03-12T12:34:38.463451",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 200,
+  "total_officials": 199,
   "officials": [
     {
       "name": "Sir James Shaw Hay",
-      "canonical_name": "Hay, James Shaw",
-      "given_names": "James Shaw",
+      "canonical_name": "Hay, Sir James Shaw",
+      "given_names": "Sir James Shaw",
       "surname": "Hay",
       "position": "Governor and Commander-in-Chief",
       "department": "Civil Establishment",
@@ -25,8 +25,8 @@
       "location": null
     },
     {
-      "name": "F. R. Barton",
-      "canonical_name": "Barton, F. R.",
+      "name": "Lieut. F. R. Barton",
+      "canonical_name": "Barton, Lieut. F. R.",
       "given_names": "F. R.",
       "surname": "Barton",
       "position": "Private Secretary and A.D.C.",
@@ -58,8 +58,8 @@
     },
     {
       "name": "W. H. Bailey",
-      "canonical_name": "Bailey, W. H.",
-      "given_names": "W. H.",
+      "canonical_name": "Bailey, William H.",
+      "given_names": "William H.",
       "surname": "Bailey",
       "position": "Chief Clerk",
       "department": "Correspondence Branch",
@@ -74,8 +74,8 @@
     },
     {
       "name": "H. W. Collymore",
-      "canonical_name": "Collymore, H. W.",
-      "given_names": "H. W.",
+      "canonical_name": "Collymore, H. William",
+      "given_names": "H. William",
       "surname": "Collymore",
       "position": "Clerk",
       "department": "Correspondence Branch",
@@ -122,8 +122,8 @@
     },
     {
       "name": "W. H. Allder",
-      "canonical_name": "Allder, W. H.",
-      "given_names": "W. H.",
+      "canonical_name": "Allder, William H.",
+      "given_names": "William H.",
       "surname": "Allder",
       "position": "Clerk",
       "department": "Correspondence Branch",
@@ -161,22 +161,6 @@
       "department": "Record Branch",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "W. L. Crompton",
-      "canonical_name": "Crompton, W. L.",
-      "given_names": "W. L.",
-      "surname": "Crompton",
-      "position": "Clerk",
-      "department": "Record Branch",
-      "salary_min": 60,
-      "salary_max": 60,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -337,7 +321,7 @@
       "department": "Customs",
       "salary_min": 600,
       "salary_max": 600,
-      "allowances": "fees as Registrar of Shipping, averaging 10l.",
+      "allowances": "with fees as Registrar of Shipping, averaging 10l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -639,9 +623,9 @@
       "surname": "Stephenson",
       "position": "Admeasurer of Ships",
       "department": "Customs",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": "fees 44l. in 1896",
+      "salary_min": 44,
+      "salary_max": 44,
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -705,7 +689,7 @@
       "department": "Police and Prisons",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -721,7 +705,7 @@
       "department": "Police and Prisons",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -749,7 +733,7 @@
       "canonical_name": "Bowen, T.",
       "given_names": "T.",
       "surname": "Bowen",
-      "position": "Medical Officer Central Station",
+      "position": "Medical Officer Central Station, &c.",
       "department": "Police and Prisons",
       "salary_min": 160,
       "salary_max": 160,
@@ -835,7 +819,7 @@
       "department": "Police and Prisons",
       "salary_min": 350,
       "salary_max": 350,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -883,7 +867,7 @@
       "department": "Police and Prisons",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -899,7 +883,7 @@
       "department": "Police and Prisons",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1155,7 +1139,7 @@
       "department": "Harbour Master's Department",
       "salary_min": 275,
       "salary_max": 292,
-      "allowances": "allowance of 54l. for boats and office rent",
+      "allowances": "54l. for boats and office rent",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1171,7 +1155,7 @@
       "department": "Harbour Master's Department",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": "fees 23l",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1195,7 +1179,7 @@
       "location": null
     },
     {
-      "name": "Thomas Bowen",
+      "name": "Thos. Bowen",
       "canonical_name": "Bowen, Thomas",
       "given_names": "Thomas",
       "surname": "Bowen",
@@ -1239,7 +1223,7 @@
       "department": "Savings Bank",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "bonus, 100l",
+      "allowances": "100l. bonus",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1255,7 +1239,7 @@
       "department": "Savings Bank",
       "salary_min": 75,
       "salary_max": 75,
-      "allowances": "bonus 25l",
+      "allowances": "25l. bonus",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1271,7 +1255,7 @@
       "department": "Savings Bank",
       "salary_min": 50,
       "salary_max": 50,
-      "allowances": "bonus 25l",
+      "allowances": "25l. bonus",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1466,7 +1450,7 @@
       "canonical_name": "Haynes, Robert",
       "given_names": "Robert",
       "surname": "Haynes",
-      "position": "Registrar in Chancery; Clerk of the Crown; Prothonotary and Clerk of the Court of Common Pleas",
+      "position": "Registrar in Chancery",
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -1514,7 +1498,7 @@
       "canonical_name": "Phillips, W. L. C.",
       "given_names": "W. L. C.",
       "surname": "Phillips",
-      "position": "Five Commissioners for taking the Probates of Deeds, &c.",
+      "position": "Five Commissioner for taking the Probates of Deeds",
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -1530,7 +1514,7 @@
       "canonical_name": "Bowen, C. P.",
       "given_names": "C. P.",
       "surname": "Bowen",
-      "position": "Five Commissioners for taking the Probates of Deeds, &c.",
+      "position": "Five Commissioner for taking the Probates of Deeds",
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -1546,7 +1530,7 @@
       "canonical_name": "Peterkin, Thomas",
       "given_names": "Thomas",
       "surname": "Peterkin",
-      "position": "Five Commissioners for taking the Probates of Deeds, &c.",
+      "position": "Five Commissioner for taking the Probates of Deeds",
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -1562,7 +1546,7 @@
       "canonical_name": "Catford, J. W. C.",
       "given_names": "J. W. C.",
       "surname": "Catford",
-      "position": "Five Commissioners for taking the Probates of Deeds, &c.",
+      "position": "Five Commissioner for taking the Probates of Deeds",
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -1578,7 +1562,7 @@
       "canonical_name": "Sealy, T. H.",
       "given_names": "T. H.",
       "surname": "Sealy",
-      "position": "Five Commissioners for taking the Probates of Deeds, &c.",
+      "position": "Five Commissioner for taking the Probates of Deeds",
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -1596,7 +1580,7 @@
       "canonical_name": "Briggs, N. F.",
       "given_names": "N. F.",
       "surname": "Briggs",
-      "position": "Judge of Assistant Court of Appeal",
+      "position": "Judge of the Assistant Court of Appeal",
       "department": "Judicial Establishment",
       "salary_min": 450,
       "salary_max": 450,
@@ -1614,7 +1598,7 @@
       "canonical_name": "Knight, J. G.",
       "given_names": "J. G.",
       "surname": "Knight",
-      "position": "Judge of Assistant Court of Appeal",
+      "position": "Judge of the Assistant Court of Appeal",
       "department": "Judicial Establishment",
       "salary_min": 450,
       "salary_max": 450,
@@ -1630,7 +1614,7 @@
       "canonical_name": "Sinclair, E. G.",
       "given_names": "E. G.",
       "surname": "Sinclair",
-      "position": "Clerk to Judges of the Assistant Court of Appeal",
+      "position": "Clerk",
       "department": "Judicial Establishment",
       "salary_min": 250,
       "salary_max": 250,
@@ -1662,7 +1646,7 @@
       "canonical_name": "Hodge, H. E. S.",
       "given_names": "H. E. S.",
       "surname": "Hodge",
-      "position": "Chief Clerk Petty Debt Court, St. Michael's",
+      "position": "Chief Clerk Petty Debt Court",
       "department": "Judicial Establishment",
       "salary_min": 200,
       "salary_max": 200,
@@ -1671,7 +1655,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Michael's"
     },
     {
       "name": "C. C. Gill",
@@ -1901,7 +1885,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "General Hospital"
     },
     {
       "name": "T. Sinclaire Browne",
@@ -1919,7 +1903,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "General Hospital"
     },
     {
       "name": "T. L. Gaskin",
@@ -1935,7 +1919,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "General Hospital"
     },
     {
       "name": "C. Bowen",
@@ -2021,7 +2005,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Lunatic Asylum"
     },
     {
       "name": "J. L. Greaves",
@@ -2069,7 +2053,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Lazaretto"
     },
     {
       "name": "A. B. Winter",
@@ -2133,7 +2117,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Board of Health"
     },
     {
       "name": "H. Bree",
@@ -2167,14 +2151,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Codrington College"
     },
     {
       "name": "H. J. Wolseley",
       "canonical_name": "Wolseley, H. J.",
       "given_names": "H. J.",
       "surname": "Wolseley",
-      "position": "Medical Lecturer, Codrington College",
+      "position": "Medical Lecturer",
       "department": "Educational",
       "salary_min": 40,
       "salary_max": 40,
@@ -2235,14 +2219,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Harrison College"
     },
     {
       "name": "O. de C. Entage",
       "canonical_name": "Entage, O. de C.",
       "given_names": "O. de C.",
       "surname": "Entage",
-      "position": "Assistant-Masters of Harrison College",
+      "position": "Assistant-Master",
       "department": "Educational",
       "salary_min": null,
       "salary_max": null,
@@ -2253,14 +2237,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Harrison College"
     },
     {
       "name": "C. G. Eden",
       "canonical_name": "Eden, C. G.",
       "given_names": "C. G.",
       "surname": "Eden",
-      "position": "Assistant-Masters of Harrison College",
+      "position": "Assistant-Master",
       "department": "Educational",
       "salary_min": null,
       "salary_max": null,
@@ -2271,14 +2255,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Harrison College"
     },
     {
       "name": "E. Ross Barker",
       "canonical_name": "Barker, E. Ross",
       "given_names": "E. Ross",
       "surname": "Barker",
-      "position": "Assistant-Masters of Harrison College",
+      "position": "Assistant-Master",
       "department": "Educational",
       "salary_min": null,
       "salary_max": null,
@@ -2289,14 +2273,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Harrison College"
     },
     {
       "name": "A. S. Cocks",
       "canonical_name": "Cocks, A. S.",
       "given_names": "A. S.",
       "surname": "Cocks",
-      "position": "Assistant-Masters of Harrison College",
+      "position": "Assistant-Master",
       "department": "Educational",
       "salary_min": null,
       "salary_max": null,
@@ -2307,14 +2291,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Harrison College"
     },
     {
       "name": "G. B. Cox",
       "canonical_name": "Cox, G. B.",
       "given_names": "G. B.",
       "surname": "Cox",
-      "position": "Assistant-Masters of Harrison College",
+      "position": "Assistant-Master",
       "department": "Educational",
       "salary_min": null,
       "salary_max": null,
@@ -2325,14 +2309,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Harrison College"
     },
     {
       "name": "H. M. Sylvanus",
       "canonical_name": "Sylvanus, H. M.",
       "given_names": "H. M.",
       "surname": "Sylvanus",
-      "position": "Assistant-Masters of Harrison College",
+      "position": "Assistant-Master",
       "department": "Educational",
       "salary_min": null,
       "salary_max": null,
@@ -2343,12 +2327,12 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Harrison College"
     },
     {
-      "name": "Ludow",
-      "canonical_name": "Ludow, Ludow",
-      "given_names": "Ludow",
+      "name": "Herr Ludow",
+      "canonical_name": "Ludow, Herr",
+      "given_names": "Herr",
       "surname": "Ludow",
       "position": "German Master",
       "department": "Educational",
@@ -2459,7 +2443,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Dodges Reformatory"
     },
     {
       "name": "Hon. W. P. Leacock",
@@ -2600,7 +2584,7 @@
       "canonical_name": "Leacock, W. P.",
       "given_names": "W. P.",
       "surname": "Leacock",
-      "position": "Member",
+      "position": null,
       "department": "Water Works Department",
       "salary_min": null,
       "salary_max": null,
@@ -2616,7 +2600,7 @@
       "canonical_name": "Cottle, C. T.",
       "given_names": "C. T.",
       "surname": "Cottle",
-      "position": "Member",
+      "position": null,
       "department": "Water Works Department",
       "salary_min": null,
       "salary_max": null,
@@ -2632,7 +2616,7 @@
       "canonical_name": "Scaly, G. A.",
       "given_names": "G. A.",
       "surname": "Scaly",
-      "position": "Member",
+      "position": null,
       "department": "Water Works Department",
       "salary_min": null,
       "salary_max": null,
@@ -2648,7 +2632,7 @@
       "canonical_name": "Ince, J. E.",
       "given_names": "J. E.",
       "surname": "Ince",
-      "position": "Member",
+      "position": null,
       "department": "Water Works Department",
       "salary_min": null,
       "salary_max": null,
@@ -2664,7 +2648,7 @@
       "canonical_name": "Law, J. J.",
       "given_names": "J. J.",
       "surname": "Law",
-      "position": "Member",
+      "position": null,
       "department": "Water Works Department",
       "salary_min": null,
       "salary_max": null,
@@ -2680,7 +2664,7 @@
       "canonical_name": "Simpson, D. M.",
       "given_names": "D. M.",
       "surname": "Simpson",
-      "position": "Member",
+      "position": null,
       "department": "Water Works Department",
       "salary_min": null,
       "salary_max": null,
@@ -2709,9 +2693,9 @@
     },
     {
       "name": "A. de Saubergue",
-      "canonical_name": "Saubergue, A. de",
-      "given_names": "A. de",
-      "surname": "Saubergue",
+      "canonical_name": "de Saubergue, A.",
+      "given_names": "A.",
+      "surname": "de Saubergue",
       "position": "Assistant Engineer",
       "department": "Water Works Department",
       "salary_min": 350,
@@ -2762,8 +2746,8 @@
       "surname": "Doorly",
       "position": "Timekeeper",
       "department": "Water Works Department",
-      "salary_min": 37.5,
-      "salary_max": 37.5,
+      "salary_min": 37,
+      "salary_max": 37,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -2926,7 +2910,7 @@
       "canonical_name": "Allder, A.",
       "given_names": "A.",
       "surname": "Allder",
-      "position": "Christ Church",
+      "position": "Rev. Canon",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -2935,14 +2919,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Christ Church"
     },
     {
       "name": "E. L. Smith",
       "canonical_name": "Smith, E. L.",
       "given_names": "E. L.",
       "surname": "Smith",
-      "position": "St. Philip",
+      "position": "Rev. Canon",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -2951,14 +2935,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Philip"
     },
     {
       "name": "G. Sisnett",
       "canonical_name": "Sisnett, G.",
       "given_names": "G.",
       "surname": "Sisnett",
-      "position": "St. George",
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -2967,14 +2951,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. George"
     },
     {
       "name": "E. M. Sealy",
       "canonical_name": "Sealy, E. M.",
       "given_names": "E. M.",
       "surname": "Sealy",
-      "position": "St. John",
+      "position": "Rev. Canon",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -2985,14 +2969,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. John"
     },
     {
       "name": "E. S. Thorne",
       "canonical_name": "Thorne, E. S.",
       "given_names": "E. S.",
       "surname": "Thorne",
-      "position": "St. Joseph",
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -3001,14 +2985,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Joseph"
     },
     {
       "name": "G. E. Elliott",
       "canonical_name": "Elliott, G. E.",
       "given_names": "G. E.",
       "surname": "Elliott",
-      "position": "St. Andrew",
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -3017,14 +3001,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Andrew"
     },
     {
       "name": "E. N. Thomas",
       "canonical_name": "Thomas, E. N.",
       "given_names": "E. N.",
       "surname": "Thomas",
-      "position": "St. Thomas",
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -3033,14 +3017,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Thomas"
     },
     {
       "name": "W. C. Watson",
       "canonical_name": "Watson, W. C.",
       "given_names": "W. C.",
       "surname": "Watson",
-      "position": "St. James",
+      "position": "Rev. Canon",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -3049,14 +3033,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. James"
     },
     {
       "name": "H. Hutson",
       "canonical_name": "Hutson, H.",
       "given_names": "H.",
       "surname": "Hutson",
-      "position": "St. Lucy",
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -3065,7 +3049,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Lucy"
     },
     {
       "name": "R. Fowler Butler",
@@ -3073,13 +3057,13 @@
       "given_names": "R. Fowler",
       "surname": "Butler",
       "position": "Major-General",
-      "department": "Officers, Military (Barbados)",
+      "department": "Military",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Major-General",
       "salary_scale": null,
       "location": null
     },
@@ -3089,7 +3073,7 @@
       "given_names": "A. M.",
       "surname": "Paterson",
       "position": "Deputy Assistant Adjutant-General",
-      "department": "Officers, Military (Barbados)",
+      "department": "Military",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -3105,7 +3089,7 @@
       "given_names": "E.",
       "surname": "Dickenson",
       "position": "Commanding Royal Engineer",
-      "department": "Officers, Military (Barbados)",
+      "department": "Military",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -3121,7 +3105,7 @@
       "given_names": "J. B.",
       "surname": "Archdale",
       "position": "Senior Ordnance Store Officer, Dep. Assistant Commissary-General",
-      "department": "Officers, Military (Barbados)",
+      "department": "Military",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -3137,13 +3121,13 @@
       "given_names": "S. D.",
       "surname": "Crookenden",
       "position": "District Paymaster",
-      "department": "Officers, Military (Barbados)",
+      "department": "Military",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lt.-Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -3152,7 +3136,7 @@
       "canonical_name": "Tate, Geo. T.",
       "given_names": "Geo. T.",
       "surname": "Tate",
-      "position": "Consul, United States",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3161,14 +3145,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "United States"
     },
     {
       "name": "A. R. Raven",
       "canonical_name": "Raven, A. R.",
       "given_names": "A. R.",
       "surname": "Raven",
-      "position": "Consul, Denmark",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3177,14 +3161,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Denmark"
     },
     {
       "name": "J. G. Austin, jun.",
-      "canonical_name": "Austin, J. G.",
+      "canonical_name": "Austin, J. G., jun.",
       "given_names": "J. G.",
       "surname": "Austin",
-      "position": "Agent Vice-Consul, France",
+      "position": "Agent Vice-Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3193,14 +3177,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     },
     {
       "name": "N. E. Parravicino",
       "canonical_name": "Parravicino, N. E.",
       "given_names": "N. E.",
       "surname": "Parravicino",
-      "position": "Consul, Portugal",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3209,14 +3193,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Portugal"
     },
     {
       "name": "V. H\u00e4nschell",
       "canonical_name": "H\u00e4nschell, V.",
       "given_names": "V.",
       "surname": "H\u00e4nschell",
-      "position": "Consul, Netherlands",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3225,14 +3209,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Netherlands"
     },
     {
       "name": "C. A. Daniel",
       "canonical_name": "Daniel, C. A.",
       "given_names": "C. A.",
       "surname": "Daniel",
-      "position": "Consul, Venezuela",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3241,14 +3225,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Venezuela"
     },
     {
       "name": "L. E. De Lagarde",
       "canonical_name": "De Lagarde, L. E.",
       "given_names": "L. E.",
       "surname": "De Lagarde",
-      "position": "Consul-General, Haiti",
+      "position": "Consul-General",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3257,14 +3241,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Haiti"
     },
     {
       "name": "S. H. McCormick",
       "canonical_name": "McCormick, S. H.",
       "given_names": "S. H.",
       "surname": "McCormick",
-      "position": "Consul, Spain",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3273,18 +3257,18 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Spain"
     }
   ],
   "validation_summary": {
     "colony": "Barbados",
     "year": 1898,
     "total": 200,
-    "high_confidence": 200,
+    "high_confidence": 199,
     "medium_confidence": 0,
-    "low_confidence": 0,
-    "quarantined": 0,
-    "passed": 200,
+    "low_confidence": 1,
+    "quarantined": 1,
+    "passed": 199,
     "anomaly_count": 10
   }
 }

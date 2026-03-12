@@ -1,7 +1,7 @@
 {
   "colony": "Dominica",
   "year": 1898,
-  "generated": "2026-03-12T06:51:18.892555",
+  "generated": "2026-03-12T12:33:51.875552",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 51,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 900,
       "salary_max": 900,
-      "allowances": "300l. from Imperial funds",
+      "allowances": null,
       "honors": [
         "C.M.G."
       ],
@@ -61,7 +61,7 @@
       "canonical_name": "Trail, J. W.",
       "given_names": "J. W.",
       "surname": "Trail",
-      "position": "Treasury Government Officers",
+      "position": "Treasury Government Officer",
       "department": "Treasury and Customs",
       "salary_min": 150,
       "salary_max": 150,
@@ -77,7 +77,7 @@
       "canonical_name": "Seignoret, C. A.",
       "given_names": "C. A.",
       "surname": "Seignoret",
-      "position": "Treasury Government Officers",
+      "position": "Treasury Government Officer",
       "department": "Treasury and Customs",
       "salary_min": 125,
       "salary_max": 125,
@@ -93,7 +93,7 @@
       "canonical_name": "Boyd, A. D.",
       "given_names": "A. D.",
       "surname": "Boyd",
-      "position": "Treasury Government Officers",
+      "position": "Treasury Government Officer",
       "department": "Treasury and Customs",
       "salary_min": 40,
       "salary_max": 40,
@@ -205,7 +205,7 @@
       "canonical_name": "Danavall, J. M.",
       "given_names": "J. M.",
       "surname": "Danavall",
-      "position": "Resident Judge (Second Puisne Judge of the Leeward Islands)",
+      "position": "Resident Judge, Second Puisne Judge of the Leeward Islands",
       "department": "Judicial Establishment",
       "salary_min": 800,
       "salary_max": 800,
@@ -253,7 +253,7 @@
       "canonical_name": "Sharp, G. A.",
       "given_names": "G. A.",
       "surname": "Sharp",
-      "position": "Chief Clerk in Registrar's Office",
+      "position": "Second Chief Clerk in Registrar's Office",
       "department": "Judicial Establishment",
       "salary_min": 60,
       "salary_max": 60,
@@ -285,7 +285,7 @@
       "canonical_name": "Coull, William",
       "given_names": "William",
       "surname": "Coull",
-      "position": "Magistrate",
+      "position": "Magistrate, District E.",
       "department": "Judicial Establishment",
       "salary_min": 300,
       "salary_max": 300,
@@ -294,14 +294,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "District E"
+      "location": null
     },
     {
       "name": "W. H. Roper",
       "canonical_name": "Roper, W. H.",
       "given_names": "W. H.",
       "surname": "Roper",
-      "position": "Magistrate",
+      "position": "Magistrate, District F.",
       "department": "Judicial Establishment",
       "salary_min": 250,
       "salary_max": 250,
@@ -310,14 +310,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "District F"
+      "location": null
     },
     {
       "name": "R. F. Garraway",
       "canonical_name": "Garraway, R. F.",
       "given_names": "R. F.",
       "surname": "Garraway",
-      "position": "Magistrate",
+      "position": "Magistrate, District G.",
       "department": "Judicial Establishment",
       "salary_min": 300,
       "salary_max": 300,
@@ -326,7 +326,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "District G"
+      "location": null
     },
     {
       "name": "H. A. Alford Nicholls",
@@ -357,15 +357,15 @@
       "department": "Medical Establishment",
       "salary_min": 80,
       "salary_max": 80,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Roseau Infirmary"
+      "location": null
     },
     {
-      "name": "Miss J. G. Johnstone",
+      "name": "J. G. Johnstone",
       "canonical_name": "Johnstone, J. G.",
       "given_names": "J. G.",
       "surname": "Johnstone",
@@ -373,7 +373,7 @@
       "department": "Medical Establishment",
       "salary_min": 60,
       "salary_max": 60,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -389,7 +389,7 @@
       "department": "Medical Establishment",
       "salary_min": 250,
       "salary_max": 250,
-      "allowances": null,
+      "allowances": "fees, private practice",
       "honors": [],
       "qualifications": [
         "M.R.C.S."
@@ -407,7 +407,7 @@
       "department": "Medical Establishment",
       "salary_min": 250,
       "salary_max": 250,
-      "allowances": null,
+      "allowances": "fees, private practice",
       "honors": [],
       "qualifications": [
         "M.B."
@@ -425,7 +425,7 @@
       "department": "Medical Establishment",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "fees, private practice",
       "honors": [],
       "qualifications": [
         "M.R.C.S."
@@ -455,7 +455,7 @@
       "canonical_name": "Pinard, J. A.",
       "given_names": "J. A.",
       "surname": "Pinard",
-      "position": "Clerk to Colonial Engineer and Surveyor General",
+      "position": "Clerk",
       "department": "Public Works Department",
       "salary_min": 75,
       "salary_max": 75,
@@ -491,7 +491,7 @@
       "department": "Public Works Department",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": "a horse, and quarters",
+      "allowances": "horse, quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -559,7 +559,7 @@
       "department": "Police and Prison",
       "salary_min": 52,
       "salary_max": 52,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -591,7 +591,7 @@
       "department": "Police and Prison",
       "salary_min": 80,
       "salary_max": 80,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -639,7 +639,7 @@
       "department": "Post Office",
       "salary_min": 175,
       "salary_max": 175,
-      "allowances": "10 per cent. commission on judicial stamps",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -765,7 +765,7 @@
       "canonical_name": "Dent, Thomas",
       "given_names": "Thomas",
       "surname": "Dent",
-      "position": "Rector of St. George",
+      "position": "Anglican Church",
       "department": "Chief Ministers of Religion",
       "salary_min": null,
       "salary_max": null,
@@ -774,14 +774,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Anglican Church"
+      "location": "St. George"
     },
     {
       "name": "M. Naughten",
       "canonical_name": "Naughten, M.",
       "given_names": "M.",
       "surname": "Naughten",
-      "position": "Bishop of Roseau",
+      "position": "Roman Catholic Church",
       "department": "Chief Ministers of Religion",
       "salary_min": null,
       "salary_max": null,
@@ -790,14 +790,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Roman Catholic Church"
+      "location": "Roseau"
     },
     {
       "name": "E. A. Jones",
       "canonical_name": "Jones, E. A.",
       "given_names": "E. A.",
       "surname": "Jones",
-      "position": "Superintendent",
+      "position": "Westcynn Mission",
       "department": "Chief Ministers of Religion",
       "salary_min": null,
       "salary_max": null,
@@ -806,14 +806,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Westcynn Mission"
+      "location": null
     },
     {
       "name": "L. A. Giraud",
       "canonical_name": "Giraud, L. A.",
       "given_names": "L. A.",
       "surname": "Giraud",
-      "position": "consular agent",
+      "position": "France",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -822,14 +822,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "H. A. Frampton",
       "canonical_name": "Frampton, H. A.",
       "given_names": "H. A.",
       "surname": "Frampton",
-      "position": "consular agent",
+      "position": "United States of America",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -838,7 +838,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States of America"
+      "location": null
     }
   ],
   "validation_summary": {

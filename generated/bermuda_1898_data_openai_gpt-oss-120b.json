@@ -1,13 +1,13 @@
 {
   "colony": "Bermuda",
   "year": 1898,
-  "generated": "2026-03-12T06:47:33.947635",
+  "generated": "2026-03-12T12:30:24.402247",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 87,
   "officials": [
     {
-      "name": "Lieut.-General George Digby Barker",
+      "name": "George Digby Barker",
       "canonical_name": "Barker, George Digby",
       "given_names": "George Digby",
       "surname": "Barker",
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "Captain H. O. D. Hickman",
+      "name": "H. O. D. Hickman",
       "canonical_name": "Hickman, H. O. D.",
       "given_names": "H. O. D.",
       "surname": "Hickman",
@@ -41,7 +41,7 @@
       "location": null
     },
     {
-      "name": "Lieut. H. E. Platt",
+      "name": "H. E. Platt",
       "canonical_name": "Platt, H. E.",
       "given_names": "H. E.",
       "surname": "Platt",
@@ -65,7 +65,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -328,7 +328,7 @@
       "department": "Revenue Department",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "fees",
+      "allowances": "and fees",
       "honors": [
         "C.M.G."
       ],
@@ -642,9 +642,9 @@
       "location": "Ireland Island"
     },
     {
-      "name": "Sir Josiah Rees, Kt.",
-      "canonical_name": "Rees, Sir Josiah",
-      "given_names": "Sir Josiah",
+      "name": "Sir Josiah Rees",
+      "canonical_name": "Rees, Josiah",
+      "given_names": "Josiah",
       "surname": "Rees",
       "position": "Chief Justice (and Judge of Vice-Admiralty Court)",
       "department": "Judicial Establishment",
@@ -810,11 +810,11 @@
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -826,11 +826,11 @@
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -842,11 +842,11 @@
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -858,11 +858,11 @@
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -874,11 +874,11 @@
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -890,11 +890,11 @@
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -906,11 +906,11 @@
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -922,11 +922,11 @@
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -934,15 +934,15 @@
       "canonical_name": "Prestwood, J. W.",
       "given_names": "J. W.",
       "surname": "Prestwood",
-      "position": "Wesleyan Ministers",
+      "position": "Wesleyan Minister",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -950,15 +950,15 @@
       "canonical_name": "Burgess, Harry",
       "given_names": "Harry",
       "surname": "Burgess",
-      "position": "Wesleyan Ministers",
+      "position": "Wesleyan Minister",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -966,15 +966,15 @@
       "canonical_name": "Hickey, David",
       "given_names": "David",
       "surname": "Hickey",
-      "position": "Wesleyan Ministers",
+      "position": "Wesleyan Minister",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -982,15 +982,15 @@
       "canonical_name": "Outerbridge, W. A.",
       "given_names": "W. A.",
       "surname": "Outerbridge",
-      "position": "Wesleyan Ministers",
+      "position": "Wesleyan Minister",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -1002,11 +1002,11 @@
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -1018,11 +1018,11 @@
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -1034,11 +1034,11 @@
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -1185,7 +1185,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1201,7 +1201,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1217,7 +1217,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1281,7 +1281,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1322,7 +1322,7 @@
       "canonical_name": "Heyl, J. B.",
       "given_names": "J. B.",
       "surname": "Heyl",
-      "position": "Vice and Deputy Consul for the United States",
+      "position": "Vice and Deputy",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1354,7 +1354,7 @@
       "canonical_name": "Hayward, J. M.",
       "given_names": "J. M.",
       "surname": "Hayward",
-      "position": "Consul for France",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1363,14 +1363,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     },
     {
       "name": "James A. Conyers",
       "canonical_name": "Conyers, James A.",
       "given_names": "James A.",
       "surname": "Conyers",
-      "position": "Consul for Spain",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1379,14 +1379,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Spain"
     },
     {
       "name": "J. S. Darrell",
       "canonical_name": "Darrell, J. S.",
       "given_names": "J. S.",
       "surname": "Darrell",
-      "position": "Consul for Denmark, Netherlands, and Portugal",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1395,14 +1395,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Denmark, Netherlands, and Portugal"
     },
     {
       "name": "Jas. A. Conyers",
       "canonical_name": "Conyers, Jas. A.",
       "given_names": "Jas. A.",
       "surname": "Conyers",
-      "position": "Consul for German Empire",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1411,7 +1411,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "German Empire"
     }
   ],
   "validation_summary": {
