@@ -1,13 +1,13 @@
 {
   "colony": "New Zealand",
   "year": 1898,
-  "generated": "2026-03-12T07:13:09.423906",
+  "generated": "2026-03-12T12:44:59.084219",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 179,
   "officials": [
     {
-      "name": "Rt. Hon. Earl of Ranfurly",
+      "name": "Earl of Ranfurly",
       "canonical_name": "Ranfurly, Earl of",
       "given_names": "Earl of",
       "surname": "Ranfurly",
@@ -209,7 +209,7 @@
       "department": "Colonial Secretary's Office",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "house allowance 200l.",
+      "allowances": "house allowance 200l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -273,7 +273,7 @@
       "department": "Treasury",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "house allowance, 200l",
+      "allowances": "house allowance, 200l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -361,7 +361,7 @@
       "location": null
     },
     {
-      "name": "Hon. J. McKenzie",
+      "name": "J. McKenzie",
       "canonical_name": "McKenzie, J.",
       "given_names": "J.",
       "surname": "McKenzie",
@@ -685,7 +685,7 @@
       "canonical_name": "Hoggard, J.",
       "given_names": "J.",
       "surname": "Hoggard",
-      "position": "Chief Clerk, Circulation Branch",
+      "position": "Chief Clerk",
       "department": "Post Office and Telegraph Department",
       "salary_min": null,
       "salary_max": null,
@@ -729,9 +729,9 @@
       "location": "Dunedin"
     },
     {
-      "name": "Hon. W. C. Walker",
-      "canonical_name": "Walker, William C.",
-      "given_names": "William C.",
+      "name": "W. C. Walker",
+      "canonical_name": "Walker, W. C.",
+      "given_names": "W. C.",
       "surname": "Walker",
       "position": "Minister",
       "department": "Education Office",
@@ -745,9 +745,9 @@
       "location": null
     },
     {
-      "name": "Rev. W. J. Habens",
-      "canonical_name": "Habens, William J.",
-      "given_names": "William J.",
+      "name": "W. J. Habens",
+      "canonical_name": "Habens, W. J.",
+      "given_names": "W. J.",
       "surname": "Habens",
       "position": "Secretary for Education and Inspector-General of Schools",
       "department": "Education Office",
@@ -763,7 +763,7 @@
       "location": null
     },
     {
-      "name": "Sir E. O. Gibbes, Bart.",
+      "name": "E. O. Gibbes",
       "canonical_name": "Gibbes, E. O.",
       "given_names": "E. O.",
       "surname": "Gibbes",
@@ -827,7 +827,7 @@
       "location": null
     },
     {
-      "name": "W. Hall-Jones",
+      "name": "Hon. W. Hall-Jones",
       "canonical_name": "Hall-Jones, W.",
       "given_names": "W.",
       "surname": "Hall-Jones",
@@ -835,7 +835,7 @@
       "department": "Public Works Department",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "200l. allowances",
+      "allowances": "200l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1069,7 +1069,7 @@
       "location": null
     },
     {
-      "name": "Hon. A. J. Cadman",
+      "name": "A. J. Cadman",
       "canonical_name": "Cadman, A. J.",
       "given_names": "A. J.",
       "surname": "Cadman",
@@ -1149,7 +1149,7 @@
       "location": null
     },
     {
-      "name": "T. Thompson",
+      "name": "Hon. T. Thompson",
       "canonical_name": "Thompson, T.",
       "given_names": "T.",
       "surname": "Thompson",
@@ -1181,7 +1181,7 @@
       "location": null
     },
     {
-      "name": "A. P. Douglas",
+      "name": "Sir A. P. Douglas",
       "canonical_name": "Douglas, A. P.",
       "given_names": "A. P.",
       "surname": "Douglas",
@@ -1208,7 +1208,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": "Lieut.-Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -1357,7 +1357,7 @@
       "location": null
     },
     {
-      "name": "Hon. J. McKenzie",
+      "name": "J. McKenzie",
       "canonical_name": "McKenzie, J.",
       "given_names": "J.",
       "surname": "McKenzie",
@@ -1682,7 +1682,7 @@
       "location": null
     },
     {
-      "name": "Sir J. Hector",
+      "name": "J. Hector",
       "canonical_name": "Hector, J.",
       "given_names": "J.",
       "surname": "Hector",
@@ -1734,9 +1734,9 @@
       "location": null
     },
     {
-      "name": "Sir J. Prendergast",
-      "canonical_name": "Prendergast, Sir J.",
-      "given_names": "Sir J.",
+      "name": "J. Prendergast",
+      "canonical_name": "Prendergast, J.",
+      "given_names": "J.",
       "surname": "Prendergast",
       "position": "Chief Justice",
       "department": "Judicial",
@@ -1882,7 +1882,7 @@
       "canonical_name": "Cooper, D. G. A.",
       "given_names": "D. G. A.",
       "surname": "Cooper",
-      "position": "Registrar of the Supreme Court",
+      "position": "Registrar of Court of Appeal",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1891,14 +1891,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Wellington"
+      "location": null
     },
     {
       "name": "A. R. Bloxam",
       "canonical_name": "Bloxam, A. R.",
       "given_names": "A. R.",
       "surname": "Bloxam",
-      "position": "Registrar of the Supreme Court",
+      "position": "Registrar of Court of Appeal",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1914,7 +1914,7 @@
       "canonical_name": "Gordon, C. McK.",
       "given_names": "C. McK.",
       "surname": "Gordon",
-      "position": "Registrar of the Supreme Court",
+      "position": "Registrar of Court of Appeal",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -2381,8 +2381,8 @@
     },
     {
       "name": "Vicomte Alexandre Louis Ferdinand de Jouffroy d'Abbans",
-      "canonical_name": "d'Abbans, Vicomte Alexandre Louis Ferdinand de",
-      "given_names": "Vicomte Alexandre Louis Ferdinand de",
+      "canonical_name": "d'Abbans, Alexandre Louis Ferdinand",
+      "given_names": "Alexandre Louis Ferdinand",
       "surname": "d'Abbans",
       "position": "Consul",
       "department": "Foreign Consuls",
@@ -2589,8 +2589,8 @@
     },
     {
       "name": "Commendatore P. Corte",
-      "canonical_name": "Corte, Commendatore P.",
-      "given_names": "Commendatore P.",
+      "canonical_name": "Corte, P.",
+      "given_names": "P.",
       "surname": "Corte",
       "position": "Consul-General in Australia",
       "department": "Foreign Consuls",
@@ -2669,8 +2669,8 @@
     },
     {
       "name": "Dr. Laon Adrian de Vicq",
-      "canonical_name": "Vicq, Dr. Laon Adrian de",
-      "given_names": "Dr. Laon Adrian de",
+      "canonical_name": "Vicq, Laon Adrian de",
+      "given_names": "Laon Adrian de",
       "surname": "Vicq",
       "position": "Consul-General",
       "department": "Foreign Consuls",
@@ -2733,8 +2733,8 @@
     },
     {
       "name": "Don Francisco Arenas Y. Bonet",
-      "canonical_name": "Bonet, Don Francisco Arenas Y.",
-      "given_names": "Don Francisco Arenas Y.",
+      "canonical_name": "Bonet, Francisco Arenas Y.",
+      "given_names": "Francisco Arenas Y.",
       "surname": "Bonet",
       "position": "Vice-Consul",
       "department": "Foreign Consuls",
@@ -2903,6 +2903,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 179,
-    "anomaly_count": 15
+    "anomaly_count": 16
   }
 }

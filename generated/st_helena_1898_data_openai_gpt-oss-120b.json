@@ -1,10 +1,10 @@
 {
   "colony": "St Helena",
   "year": 1898,
-  "generated": "2026-03-12T07:14:40.157075",
+  "generated": "2026-03-12T12:44:33.439039",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 21,
+  "total_officials": 23,
   "officials": [
     {
       "name": "R. A. Sterndale",
@@ -56,7 +56,7 @@
     },
     {
       "name": "Caldwell",
-      "canonical_name": "Caldwell, ",
+      "canonical_name": "Caldwell",
       "given_names": "",
       "surname": "Caldwell",
       "position": "Auditor",
@@ -71,9 +71,9 @@
       "location": null
     },
     {
-      "name": "James Homagee",
-      "canonical_name": "Homagee, James",
-      "given_names": "James",
+      "name": "Jas. Homagee",
+      "canonical_name": "Homagee, Jas.",
+      "given_names": "Jas.",
       "surname": "Homagee",
       "position": "Officers of Customs, Supervisor",
       "department": "Civil Establishment",
@@ -103,6 +103,22 @@
       "location": null
     },
     {
+      "name": "Com. Hewetson",
+      "canonical_name": "Hewetson, Com.",
+      "given_names": "Com.",
+      "surname": "Hewetson",
+      "position": "Harbour Master",
+      "department": "Civil Establishment",
+      "salary_min": 200,
+      "salary_max": 200,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
       "name": "F. E. Welby",
       "canonical_name": "Welby, F. E.",
       "given_names": "F. E.",
@@ -112,6 +128,22 @@
       "salary_min": 200,
       "salary_max": 200,
       "allowances": "30l. for horse allowance",
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "James Homagee",
+      "canonical_name": "Homagee, James",
+      "given_names": "James",
+      "surname": "Homagee",
+      "position": "Crown Prosecutor, Clerk of the Peace, Judge of Summary Court and Police Magistrate",
+      "department": "Civil Establishment",
+      "salary_min": 300,
+      "salary_max": 300,
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -135,15 +167,15 @@
       "location": null
     },
     {
-      "name": "James Storer",
-      "canonical_name": "Storer, James",
-      "given_names": "James",
+      "name": "Jas. Storer",
+      "canonical_name": "Storer, Jas.",
+      "given_names": "Jas.",
       "surname": "Storer",
       "position": "Government School Masters",
       "department": "Civil Establishment",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -159,7 +191,7 @@
       "department": "Civil Establishment",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -175,7 +207,7 @@
       "department": "Civil Establishment",
       "salary_min": 168,
       "salary_max": 168,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -191,7 +223,7 @@
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -247,7 +279,7 @@
       "location": null
     },
     {
-      "name": "T. E. Welby",
+      "name": "Right Rev. T. E. Welby",
       "canonical_name": "Welby, T. E.",
       "given_names": "T. E.",
       "surname": "Welby",
@@ -263,7 +295,7 @@
       "location": null
     },
     {
-      "name": "E. H. Dodgson",
+      "name": "Rev. E. H. Dodgson",
       "canonical_name": "Dodgson, E. H.",
       "given_names": "E. H.",
       "surname": "Dodgson",
@@ -346,12 +378,12 @@
   "validation_summary": {
     "colony": "St Helena",
     "year": 1898,
-    "total": 21,
-    "high_confidence": 18,
-    "medium_confidence": 3,
+    "total": 23,
+    "high_confidence": 21,
+    "medium_confidence": 2,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 21,
+    "passed": 23,
     "anomaly_count": 0
   }
 }
