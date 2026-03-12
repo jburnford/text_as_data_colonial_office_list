@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-12T02:37:51.079577",
+  "last_updated": "2026-03-12T02:45:14.816069",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -72743,6 +72743,43 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/labuan_1907_data_openai_gpt-oss-120b.json"
+    },
+    "Northern Nigeria_1907": {
+      "colony": "Northern Nigeria",
+      "year": 1907,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1907_manual_parsed/NORTHERN_NIGERIA.txt",
+      "timestamp": "2026-03-12T02:37:01.909446",
+      "total_officials": 106,
+      "passed_officials": 106,
+      "quarantined_officials": 0,
+      "departments": {
+        "Civil Establishment": 4,
+        "Medical": 36,
+        "Audit": 2,
+        "Constabulary and Prisons": 32,
+        "Marine": 9,
+        "Engineer's Workshops": 1,
+        "Customs": 2,
+        "Botanical and Forestry": 1,
+        "Mineral Survey": 2,
+        "Public Works": 10,
+        "Transport": 7
+      },
+      "generation_time": 492.8,
+      "validation_summary": {
+        "colony": "Northern Nigeria",
+        "year": 1907,
+        "total": 106,
+        "high_confidence": 106,
+        "medium_confidence": 0,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 106,
+        "anomaly_count": 0
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/northern_nigeria_1907_data_openai_gpt-oss-120b.json"
     }
   },
   "failed": {},
