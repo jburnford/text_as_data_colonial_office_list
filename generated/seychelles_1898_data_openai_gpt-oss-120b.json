@@ -1,10 +1,10 @@
 {
   "colony": "Seychelles",
   "year": 1898,
-  "generated": "2026-03-12T12:43:47.147722",
+  "generated": "2026-03-12T13:43:25.699845",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 32,
+  "total_officials": 34,
   "officials": [
     {
       "name": "H. Cockburn Stewart",
@@ -95,7 +95,7 @@
       "department": "Revenue Department",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": "2\u00bd per cent. on taxes collected, averaging Rs. 550",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -175,7 +175,7 @@
       "department": "Judicial Department",
       "salary_min": 850,
       "salary_max": 1000,
-      "allowances": "Rs. 2,500 table allowance",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -269,8 +269,8 @@
       "surname": "Touris",
       "position": "Postmaster and Revenue Stamp Officer",
       "department": "Post Office",
-      "salary_min": 1000,
-      "salary_max": 1000,
+      "salary_min": null,
+      "salary_max": null,
       "allowances": "fees",
       "honors": [],
       "qualifications": [],
@@ -347,7 +347,7 @@
       "location": null
     },
     {
-      "name": "Capt. D. Sauvage",
+      "name": "D. Sauvage",
       "canonical_name": "Sauvage, D.",
       "given_names": "D.",
       "surname": "Sauvage",
@@ -475,6 +475,22 @@
       "location": null
     },
     {
+      "name": "E. D. Lagreze",
+      "canonical_name": "Lagreze, E. D.",
+      "given_names": "E. D.",
+      "surname": "Lagreze",
+      "position": "Acting Vice-Consul",
+      "department": "Foreign Consuls",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
       "name": "L. Lemarchand",
       "canonical_name": "Lemarchand, L.",
       "given_names": "L.",
@@ -521,17 +537,33 @@
       "military_rank": null,
       "salary_scale": null,
       "location": null
+    },
+    {
+      "name": "H. W. Blyth",
+      "canonical_name": "Blyth, H. W.",
+      "given_names": "H. W.",
+      "surname": "Blyth",
+      "position": "Consul",
+      "department": "Foreign Consuls",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
     }
   ],
   "validation_summary": {
     "colony": "Seychelles",
     "year": 1898,
     "total": 34,
-    "high_confidence": 32,
+    "high_confidence": 34,
     "medium_confidence": 0,
-    "low_confidence": 2,
-    "quarantined": 2,
-    "passed": 32,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 34,
     "anomaly_count": 0
   }
 }
