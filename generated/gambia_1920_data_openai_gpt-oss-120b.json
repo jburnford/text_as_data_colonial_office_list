@@ -1,15 +1,15 @@
 {
   "colony": "Gambia",
   "year": 1920,
-  "generated": "2026-03-12T09:07:57.165471",
+  "generated": "2026-03-12T15:47:35.598716",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 109,
   "officials": [
     {
       "name": "Sir Edward J. Cameron",
-      "canonical_name": "Cameron, Sir Edward J.",
-      "given_names": "Sir Edward J.",
+      "canonical_name": "Cameron, Edward J.",
+      "given_names": "Edward J.",
       "surname": "Cameron",
       "position": "Governor and Commander-in-Chief",
       "department": "Civil Establishment",
@@ -345,7 +345,7 @@
       "location": null
     },
     {
-      "name": "A. N. Maurice",
+      "name": "Miss A. N. Maurice",
       "canonical_name": "Maurice, A. N.",
       "given_names": "A. N.",
       "surname": "Maurice",
@@ -825,7 +825,7 @@
       "location": null
     },
     {
-      "name": "Capt. C. Greig",
+      "name": "C. Greig",
       "canonical_name": "Greig, C.",
       "given_names": "C.",
       "surname": "Greig",
@@ -902,7 +902,7 @@
       "allowances": "10s. per diem travelling allowance",
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -917,7 +917,8 @@
       "salary_max": 400,
       "allowances": "command pay, 90l.",
       "honors": [
-        "D.S.O."
+        "D.S.O.",
+        "M.C."
       ],
       "qualifications": [],
       "military_rank": "Captain",
@@ -1053,11 +1054,11 @@
       "location": null
     },
     {
-      "name": "Rev. W. de River Jones",
-      "canonical_name": "Jones, Rev. W. de River",
-      "given_names": "Rev. W. de River",
+      "name": "W. de River Jones",
+      "canonical_name": "Jones, W. de River",
+      "given_names": "W. de River",
       "surname": "Jones",
-      "position": "Chaplain (acting)",
+      "position": "Chaplain",
       "department": "Prison",
       "salary_min": null,
       "salary_max": null,
@@ -1550,8 +1551,8 @@
     },
     {
       "name": "W. F. Crook",
-      "canonical_name": "Crook, W. F.",
-      "given_names": "W. F.",
+      "canonical_name": "Crook, William F.",
+      "given_names": "William F.",
       "surname": "Crook",
       "position": "Land Officer and Surveyor",
       "department": "Land and Survey Department",
@@ -1605,7 +1606,7 @@
       "department": "Audit Office",
       "salary_min": 300,
       "salary_max": 400,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1621,7 +1622,7 @@
       "department": "Audit Office",
       "salary_min": 100,
       "salary_max": 125,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1637,7 +1638,7 @@
       "department": "Audit Office",
       "salary_min": 50,
       "salary_max": 60,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1669,7 +1670,7 @@
       "department": "Government Vessels",
       "salary_min": 75,
       "salary_max": 100,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1713,7 +1714,7 @@
       "canonical_name": "Bourquin, P.",
       "given_names": "P.",
       "surname": "Bourquin",
-      "position": "Vice-Consul (Belgium)",
+      "position": "Vice-Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1722,14 +1723,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Belgium"
     },
     {
       "name": "F. Orcel",
       "canonical_name": "Orcel, F.",
       "given_names": "F.",
       "surname": "Orcel",
-      "position": "Consular Agent (France)",
+      "position": "Consular Agent",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1738,14 +1739,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     },
     {
       "name": "J. Howie",
       "canonical_name": "Howie, J.",
       "given_names": "J.",
       "surname": "Howie",
-      "position": "Consul (Portugal)",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1754,7 +1755,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Portugal"
     }
   ],
   "validation_summary": {

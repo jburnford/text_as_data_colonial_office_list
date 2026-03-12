@@ -1,7 +1,7 @@
 {
   "colony": "Malta",
   "year": 1924,
-  "generated": "2026-03-12T10:10:44.531036",
+  "generated": "2026-03-12T16:03:05.865596",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 203,
@@ -242,7 +242,7 @@
       "location": null
     },
     {
-      "name": "A. Trapani",
+      "name": "Major A. Trapani",
       "canonical_name": "Trapani, A.",
       "given_names": "A.",
       "surname": "Trapani",
@@ -274,7 +274,7 @@
       "location": null
     },
     {
-      "name": "T. Zammit",
+      "name": "The Hon. Professor T. Zammit",
       "canonical_name": "Zammit, T.",
       "given_names": "T.",
       "surname": "Zammit",
@@ -287,7 +287,8 @@
         "C.M.G."
       ],
       "qualifications": [
-        "M.D."
+        "M.D.",
+        "D.Litt."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -310,7 +311,7 @@
       "location": null
     },
     {
-      "name": "Giovanni Formosa",
+      "name": "Most Rev. Mons. Giovanni Formosa",
       "canonical_name": "Formosa, Giovanni",
       "given_names": "Giovanni",
       "surname": "Formosa",
@@ -321,14 +322,16 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "B.A."
+        "B.A.",
+        "D.D.",
+        "J.U.D."
       ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Carmelo Zammit",
+      "name": "Very Rev. Carmelo Zammit",
       "canonical_name": "Zammit, Carmelo",
       "given_names": "Carmelo",
       "surname": "Zammit",
@@ -338,13 +341,15 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "D.D."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Emmanuele Vassallo",
+      "name": "Most Rev. Canon Mons. Emmanuele Vassallo",
       "canonical_name": "Vassallo, Emmanuele",
       "given_names": "Emmanuele",
       "surname": "Vassallo",
@@ -354,13 +359,15 @@
       "salary_max": 90,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "J.C.D."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Michele Gonzi",
+      "name": "Rev. Michele Gonzi",
       "canonical_name": "Gonzi, Michele",
       "given_names": "Michele",
       "surname": "Gonzi",
@@ -370,7 +377,11 @@
       "salary_max": 190,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "B. Litt.",
+        "J.C.D.",
+        "D.D."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -424,7 +435,8 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "LL.D."
+        "LL.D.",
+        "B. Lit."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -461,7 +473,8 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "LL.D."
+        "LL.D.",
+        "B. Lit."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -523,7 +536,7 @@
       "location": null
     },
     {
-      "name": "Robert Samut",
+      "name": "Surg. Major Robert Samut",
       "canonical_name": "Samut, Robert",
       "given_names": "Robert",
       "surname": "Samut",
@@ -534,7 +547,8 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "M.B."
+        "M.B.",
+        "C.M."
       ],
       "military_rank": "Major",
       "salary_scale": null,
@@ -570,7 +584,9 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "M.D."
+        "M.B.E.",
+        "M.D.",
+        "D.P.H."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -624,7 +640,9 @@
       "salary_max": 220,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "L.S."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -640,7 +658,9 @@
       "salary_max": 220,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "L.S."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -656,7 +676,12 @@
       "salary_max": 240,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "B. Sc.",
+        "A.R.C. Sc.",
+        "Wh.",
+        "Exh."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -678,7 +703,7 @@
       "location": null
     },
     {
-      "name": "Anastasio Cuschieri",
+      "name": "Very Rev. Anastasio Cuschieri",
       "canonical_name": "Cuschieri, Anastasio",
       "given_names": "Anastasio",
       "surname": "Cuschieri",
@@ -706,7 +731,10 @@
       "honors": [],
       "qualifications": [
         "M.D.",
-        "M.A."
+        "M.A.",
+        "F.R.",
+        "Met.",
+        "S."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -802,7 +830,7 @@
       "location": null
     },
     {
-      "name": "T. Agius",
+      "name": "Prof. T. Agius",
       "canonical_name": "Agius, T.",
       "given_names": "T.",
       "surname": "Agius",
@@ -837,7 +865,7 @@
       "location": null
     },
     {
-      "name": "M. E. Collins",
+      "name": "Mistress Miss M. E. Collins",
       "canonical_name": "Collins, M. E.",
       "given_names": "M. E.",
       "surname": "Collins",
@@ -847,13 +875,15 @@
       "salary_max": 250,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "LL.A."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "F. S. Scott",
+      "name": "Master F. S. Scott",
       "canonical_name": "Scott, F. S.",
       "given_names": "F. S.",
       "surname": "Scott",
@@ -903,7 +933,7 @@
       "location": null
     },
     {
-      "name": "C. Ferris",
+      "name": "Miss C. Ferris",
       "canonical_name": "Ferris, C.",
       "given_names": "C.",
       "surname": "Ferris",
@@ -919,7 +949,7 @@
       "location": null
     },
     {
-      "name": "S. Busuttil",
+      "name": "Miss S. Busuttil",
       "canonical_name": "Busuttil, S.",
       "given_names": "S.",
       "surname": "Busuttil",
@@ -945,13 +975,15 @@
       "salary_max": 320,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "L.P."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "C. Pasila",
+      "name": "Rev. Prof. C. Pasila",
       "canonical_name": "Pasila, C.",
       "given_names": "C.",
       "surname": "Pasila",
@@ -961,7 +993,9 @@
       "salary_max": 120,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "D.D."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -1016,9 +1050,9 @@
     },
     {
       "name": "G. Darmanin Demajo",
-      "canonical_name": "Demajo, G. Darmanin",
-      "given_names": "G. Darmanin",
-      "surname": "Demajo",
+      "canonical_name": "Darmanin Demajo, G.",
+      "given_names": "G.",
+      "surname": "Darmanin Demajo",
       "position": "Customs and Excise Surveyor",
       "department": "Customs and Port Department",
       "salary_min": 300,
@@ -1239,9 +1273,9 @@
     },
     {
       "name": "A. Portelli Carbone",
-      "canonical_name": "Carbone, A. Portelli",
-      "given_names": "A. Portelli",
-      "surname": "Carbone",
+      "canonical_name": "Portelli Carbone, A.",
+      "given_names": "A.",
+      "surname": "Portelli Carbone",
       "position": "Junior Visiting Physician",
       "department": "Hospitals, etc.",
       "salary_min": 67,
@@ -1307,7 +1341,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Santo Spirito"
     },
     {
       "name": "S. Muscat",
@@ -1325,7 +1359,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Connaught Hospital"
     },
     {
       "name": "E. Micallef",
@@ -1365,9 +1399,9 @@
     },
     {
       "name": "G. Ullo Xuereb",
-      "canonical_name": "Ullo Xuereb, G.",
-      "given_names": "G.",
-      "surname": "Ullo Xuereb",
+      "canonical_name": "Xuereb, G. Ullo",
+      "given_names": "G. Ullo",
+      "surname": "Xuereb",
       "position": "Visiting Physician and Surgeon, Lunatic Asylum",
       "department": "Hospitals, etc.",
       "salary_min": 90,
@@ -1404,7 +1438,7 @@
       "canonical_name": "Attard, G.",
       "given_names": "G.",
       "surname": "Attard",
-      "position": "Assistants",
+      "position": "Assistant",
       "department": "Hospitals, etc.",
       "salary_min": 170,
       "salary_max": 225,
@@ -1422,7 +1456,7 @@
       "canonical_name": "Frendo, L.",
       "given_names": "L.",
       "surname": "Frendo",
-      "position": "Assistants",
+      "position": "Assistant",
       "department": "Hospitals, etc.",
       "salary_min": 170,
       "salary_max": 225,
@@ -1467,7 +1501,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hospital for Infectious Diseases"
     },
     {
       "name": "N. Tabone",
@@ -1485,7 +1519,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Gozo"
     },
     {
       "name": "A. Denaro",
@@ -1539,11 +1573,11 @@
       "location": null
     },
     {
-      "name": "A. V. Bernard",
+      "name": "Prof. A. V. Bernard",
       "canonical_name": "Bernard, A. V.",
       "given_names": "A. V.",
       "surname": "Bernard",
-      "position": "Medical Officer of Health, Malta",
+      "position": "Medical Officer of Health",
       "department": "Sanitary Branch",
       "salary_min": 430,
       "salary_max": 470,
@@ -1555,14 +1589,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Malta"
     },
     {
       "name": "Edw. Calleja",
       "canonical_name": "Calleja, Edw.",
       "given_names": "Edw.",
       "surname": "Calleja",
-      "position": "Medical Officer of Health, Malta",
+      "position": "Medical Officer of Health",
       "department": "Sanitary Branch",
       "salary_min": 360,
       "salary_max": 430,
@@ -1574,14 +1608,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Malta"
     },
     {
       "name": "A. Cremona",
       "canonical_name": "Cremona, A.",
       "given_names": "A.",
       "surname": "Cremona",
-      "position": "Medical Officer of Health, Gozo",
+      "position": "Medical Officer of Health",
       "department": "Sanitary Branch",
       "salary_min": 250,
       "salary_max": 350,
@@ -1593,7 +1627,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Gozo"
     },
     {
       "name": "C. Mallia",
@@ -1612,7 +1646,7 @@
       "location": null
     },
     {
-      "name": "Alex. Sultana",
+      "name": "Prof. Alex. Sultana",
       "canonical_name": "Sultana, Alex.",
       "given_names": "Alex.",
       "surname": "Sultana",
@@ -1730,7 +1764,9 @@
       "salary_min": 460,
       "salary_max": 460,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -2188,7 +2224,7 @@
       "canonical_name": "Mercieca, T.",
       "given_names": "T.",
       "surname": "Mercieca",
-      "position": "Assistants",
+      "position": "Assistant Veterinary Surgeon",
       "department": "Veterinary Branch and Slaughterhouses",
       "salary_min": 320,
       "salary_max": 320,
@@ -2349,7 +2385,7 @@
       "location": null
     },
     {
-      "name": "The Hon. J. A. Galizia",
+      "name": "J. A. Galizia",
       "canonical_name": "Galizia, J. A.",
       "given_names": "J. A.",
       "surname": "Galizia",
@@ -2542,8 +2578,8 @@
     },
     {
       "name": "Sir M. A. Refalo",
-      "canonical_name": "Refalo, Sir M. A.",
-      "given_names": "Sir M. A.",
+      "canonical_name": "Refalo, M. A.",
+      "given_names": "M. A.",
       "surname": "Refalo",
       "position": "Chief Justice of Malta and President of the Court of Appeal",
       "department": "Judicial Establishment",
@@ -2632,9 +2668,9 @@
       "location": null
     },
     {
-      "name": "A. Mercieca",
-      "canonical_name": "Mercieca, Prof. The Hon. A.",
-      "given_names": "Prof. The Hon. A.",
+      "name": "Prof. The Hon. A. Mercieca",
+      "canonical_name": "Mercieca, A.",
+      "given_names": "A.",
       "surname": "Mercieca",
       "position": "Judge",
       "department": "Judicial Establishment",
@@ -2935,11 +2971,11 @@
       "location": null
     },
     {
-      "name": "Dom Maurus Caruana",
-      "canonical_name": "Caruana, Dom Maurus",
-      "given_names": "Dom Maurus",
+      "name": "Maurus Caruana",
+      "canonical_name": "Caruana, Maurus",
+      "given_names": "Maurus",
       "surname": "Caruana",
-      "position": "Archbishop of Rhodes; Bishop of Malta",
+      "position": "Archbishop of Rhodes, Bishop of Malta, His Grace",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -3135,7 +3171,7 @@
       "canonical_name": "Smith, R.",
       "given_names": "R.",
       "surname": "Smith",
-      "position": "Consul",
+      "position": "Consul (Belgium)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3151,7 +3187,7 @@
       "canonical_name": "Moore, Edgar",
       "given_names": "Edgar",
       "surname": "Moore",
-      "position": "Consul",
+      "position": "Consul (Bolivia)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3164,10 +3200,10 @@
     },
     {
       "name": "J. Dunbar Vella",
-      "canonical_name": "Dunbar Vella, J.",
-      "given_names": "J.",
-      "surname": "Dunbar Vella",
-      "position": "Consul",
+      "canonical_name": "Vella, J. Dunbar",
+      "given_names": "J. Dunbar",
+      "surname": "Vella",
+      "position": "Consul (Brazil)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3186,7 +3222,7 @@
       "canonical_name": "Vadala, Rinaldo",
       "given_names": "Rinaldo",
       "surname": "Vadala",
-      "position": "Consul",
+      "position": "Consul (Bulgaria)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3199,10 +3235,10 @@
     },
     {
       "name": "C. Micallef Eynaud",
-      "canonical_name": "Micallef Eynaud, C.",
-      "given_names": "C.",
-      "surname": "Micallef Eynaud",
-      "position": "Consul",
+      "canonical_name": "Eynaud, C. Micallef",
+      "given_names": "C. Micallef",
+      "surname": "Eynaud",
+      "position": "Consul (Chile)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3218,7 +3254,7 @@
       "canonical_name": "Golcher, William",
       "given_names": "William",
       "surname": "Golcher",
-      "position": "Consul",
+      "position": "Consul (Denmark)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3234,7 +3270,7 @@
       "canonical_name": "Muscat, J. L.",
       "given_names": "J. L.",
       "surname": "Muscat",
-      "position": "Consul",
+      "position": "Vice-Consul (Finland)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3250,7 +3286,7 @@
       "canonical_name": "Gar\u00e9s, Pierre Louis Elio",
       "given_names": "Pierre Louis Elio",
       "surname": "Gar\u00e9s",
-      "position": "Consul",
+      "position": "Consul (France)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3266,7 +3302,7 @@
       "canonical_name": "Yanopoulos, M.",
       "given_names": "M.",
       "surname": "Yanopoulos",
-      "position": "Consul",
+      "position": "Consul (Greece)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3282,7 +3318,7 @@
       "canonical_name": "Tabone, A.",
       "given_names": "A.",
       "surname": "Tabone",
-      "position": "Consul",
+      "position": "Consul (Guatemala)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3298,7 +3334,7 @@
       "canonical_name": "Vadala, Remigio",
       "given_names": "Remigio",
       "surname": "Vadala",
-      "position": "Consul",
+      "position": "Consul (Haiti)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3314,7 +3350,7 @@
       "canonical_name": "de Prozier, A",
       "given_names": "A",
       "surname": "de Prozier",
-      "position": "Consul",
+      "position": "Consul (Italy)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3330,7 +3366,7 @@
       "canonical_name": "Howard, Robert",
       "given_names": "Robert",
       "surname": "Howard",
-      "position": "Consul",
+      "position": "Acting Consul (Japan)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3346,7 +3382,7 @@
       "canonical_name": "Patterson, F. W.",
       "given_names": "F. W.",
       "surname": "Patterson",
-      "position": "Consul",
+      "position": "Consul (Norway)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3362,7 +3398,7 @@
       "canonical_name": "Ellis, John",
       "given_names": "John",
       "surname": "Ellis",
-      "position": "Consul",
+      "position": "Consul (Panama)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3378,7 +3414,7 @@
       "canonical_name": "Mazzone, L.",
       "given_names": "L.",
       "surname": "Mazzone",
-      "position": "Consul",
+      "position": "Vice Consul (Paraguay)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3394,7 +3430,7 @@
       "canonical_name": "Camilleri, J. C.",
       "given_names": "J. C.",
       "surname": "Camilleri",
-      "position": "Consul",
+      "position": "Consul (Persia)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3407,10 +3443,10 @@
     },
     {
       "name": "A. Cassar Torreggiani",
-      "canonical_name": "Cassar Torreggiani, A.",
-      "given_names": "A.",
-      "surname": "Cassar Torreggiani",
-      "position": "Consul",
+      "canonical_name": "Torreggiani, A. Cassar",
+      "given_names": "A. Cassar",
+      "surname": "Torreggiani",
+      "position": "Consul (Peru)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3426,7 +3462,7 @@
       "canonical_name": "Agius, John R.",
       "given_names": "John R.",
       "surname": "Agius",
-      "position": "Consul",
+      "position": "Consul (Servia Croatia & Slovenia)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3439,10 +3475,10 @@
     },
     {
       "name": "Stefano Micallef Eynaud",
-      "canonical_name": "Micallef Eynaud, Stefano",
-      "given_names": "Stefano",
-      "surname": "Micallef Eynaud",
-      "position": "Consul",
+      "canonical_name": "Eynaud, Stefano Micallef",
+      "given_names": "Stefano Micallef",
+      "surname": "Eynaud",
+      "position": "Consul (Sierra Leone)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -3458,7 +3494,7 @@
       "canonical_name": "Mitchell, Mason",
       "given_names": "Mason",
       "surname": "Mitchell",
-      "position": "Consul",
+      "position": "Consul (United States of America)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,

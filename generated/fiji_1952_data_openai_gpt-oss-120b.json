@@ -1,23 +1,24 @@
 {
   "colony": "Fiji",
   "year": 1952,
-  "generated": "2026-03-12T09:55:12.694715",
+  "generated": "2026-03-12T16:04:01.442057",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 23,
   "officials": [
     {
       "name": "Sir Ronald Herbert Garvey",
-      "canonical_name": "Garvey, Ronald Herbert",
-      "given_names": "Ronald Herbert",
+      "canonical_name": "Garvey, Sir Ronald Herbert",
+      "given_names": "Sir Ronald Herbert",
       "surname": "Garvey",
       "position": "Governor and Commander-in-Chief (Designate)",
       "department": "Civil Establishment",
       "salary_min": 3250,
       "salary_max": 3250,
-      "allowances": "Duty allowance \u00a31,200; \u00a3150 (atg.) as Consul-General; Free quarters",
+      "allowances": "Duty allowance, \u00a31,200. \u00a3150 (atg.) as Consul-General. Free quarters.",
       "honors": [
-        "K.C.M.G."
+        "K.C.M.G.",
+        "M.B.E."
       ],
       "qualifications": [],
       "military_rank": null,
@@ -58,15 +59,17 @@
     },
     {
       "name": "Ratu Sir Lala Sukuna",
-      "canonical_name": "Sukuna, Lala",
-      "given_names": "Lala",
+      "canonical_name": "Sukuna, Ratu Sir Lala",
+      "given_names": "Ratu Sir Lala",
       "surname": "Sukuna",
       "position": "Secretary for Fijian Affairs",
       "department": "Civil Establishment",
       "salary_min": 1950,
       "salary_max": 1950,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "K.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -98,7 +101,9 @@
       "salary_min": 1850,
       "salary_max": 1850,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "C.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -130,7 +135,9 @@
       "salary_min": 1500,
       "salary_max": 1500,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -194,7 +201,9 @@
       "salary_min": 2400,
       "salary_max": 2400,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.C."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -226,7 +235,9 @@
       "salary_min": 1600,
       "salary_max": 1600,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "C.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -242,7 +253,9 @@
       "salary_min": 2000,
       "salary_max": 2000,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "Q.C."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -259,7 +272,8 @@
       "salary_max": 1950,
       "allowances": null,
       "honors": [
-        "C.M.G."
+        "C.M.G.",
+        "O.B.E."
       ],
       "qualifications": [],
       "military_rank": null,

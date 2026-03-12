@@ -1,15 +1,15 @@
 {
   "colony": "Bermuda",
   "year": 1924,
-  "generated": "2026-03-12T09:33:00.650211",
+  "generated": "2026-03-12T15:54:47.184170",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 89,
   "officials": [
     {
       "name": "Sir Joseph John Asser",
-      "canonical_name": "Asser, Joseph John",
-      "given_names": "Joseph John",
+      "canonical_name": "Asser, Sir Joseph John",
+      "given_names": "Sir Joseph John",
       "surname": "Asser",
       "position": "Governor and Commander-in-Chief",
       "department": "Civil Establishment",
@@ -26,7 +26,7 @@
       "location": null
     },
     {
-      "name": "Capt. G. W. N. Hoskyns",
+      "name": "G. W. N. Hoskyns",
       "canonical_name": "Hoskyns, G. W. N.",
       "given_names": "G. W. N.",
       "surname": "Hoskyns",
@@ -90,7 +90,7 @@
       "location": null
     },
     {
-      "name": "M. E. Hallett",
+      "name": "Miss M. E. Hallett",
       "canonical_name": "Hallett, M. E.",
       "given_names": "M. E.",
       "surname": "Hallett",
@@ -206,7 +206,7 @@
       "canonical_name": "McCullan, C. M.",
       "given_names": "C. M.",
       "surname": "McCullan",
-      "position": "Collector of Customs and Assistant Receiver-General",
+      "position": "Collector of Customs, St. George's and Assistant Receiver-General",
       "department": "Revenue Department",
       "salary_min": 450,
       "salary_max": 450,
@@ -295,7 +295,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hamilton"
     },
     {
       "name": "L. Wrigg",
@@ -311,7 +311,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hamilton"
     },
     {
       "name": "H. D. Cooper",
@@ -327,10 +327,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hamilton"
     },
     {
-      "name": "Miss G. Dickinson",
+      "name": "G. Dickinson",
       "canonical_name": "Dickinson, G.",
       "given_names": "G.",
       "surname": "Dickinson",
@@ -343,10 +343,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hamilton"
     },
     {
-      "name": "Miss A. Beek",
+      "name": "A. Beek",
       "canonical_name": "Beek, A.",
       "given_names": "A.",
       "surname": "Beek",
@@ -359,10 +359,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hamilton"
     },
     {
-      "name": "Miss D. Williams",
+      "name": "D. Williams",
       "canonical_name": "Williams, D.",
       "given_names": "D.",
       "surname": "Williams",
@@ -375,10 +375,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hamilton"
     },
     {
-      "name": "Miss A. Dale",
+      "name": "A. Dale",
       "canonical_name": "Dale, A.",
       "given_names": "A.",
       "surname": "Dale",
@@ -391,7 +391,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hamilton"
     },
     {
       "name": "R. H. Kemsbothom",
@@ -410,7 +410,7 @@
       "location": "St. George's"
     },
     {
-      "name": "Miss I. C. Brown",
+      "name": "I. C. Brown",
       "canonical_name": "Brown, I. C.",
       "given_names": "I. C.",
       "surname": "Brown",
@@ -426,7 +426,7 @@
       "location": "St. George's"
     },
     {
-      "name": "Mrs. L. A. Merrick",
+      "name": "L. A. Merrick",
       "canonical_name": "Merrick, L. A.",
       "given_names": "L. A.",
       "surname": "Merrick",
@@ -442,7 +442,7 @@
       "location": "Ireland Island"
     },
     {
-      "name": "Miss F. Fowle",
+      "name": "F. Fowle",
       "canonical_name": "Fowle, F.",
       "given_names": "F.",
       "surname": "Fowle",
@@ -798,7 +798,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -814,7 +814,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -822,7 +822,7 @@
       "location": null
     },
     {
-      "name": "Major T. M. Dill",
+      "name": "T. M. Dill",
       "canonical_name": "Dill, T. M.",
       "given_names": "T. M.",
       "surname": "Dill",
@@ -890,7 +890,7 @@
       "canonical_name": "Appleby, R. W.",
       "given_names": "R. W.",
       "surname": "Appleby",
-      "position": "Police Magistrate, Central District",
+      "position": "Police Magistrate, Central District, Wor.",
       "department": "Judicial Establishment",
       "salary_min": 500,
       "salary_max": 500,
@@ -906,7 +906,7 @@
       "canonical_name": "Tucker, R. J.",
       "given_names": "R. J.",
       "surname": "Tucker",
-      "position": "Police Magistrate, Eastern District",
+      "position": "Police Magistrate, Eastern District, Wor.",
       "department": "Judicial Establishment",
       "salary_min": 400,
       "salary_max": 400,
@@ -922,7 +922,7 @@
       "canonical_name": "Smith, H. Villiers",
       "given_names": "H. Villiers",
       "surname": "Smith",
-      "position": "Police Magistrate, Western District",
+      "position": "Police Magistrate, Western District, Wor.",
       "department": "Judicial Establishment",
       "salary_min": 400,
       "salary_max": 400,
@@ -958,7 +958,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -974,7 +974,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1111,8 +1111,8 @@
     },
     {
       "name": "Sir Joseph John Asser",
-      "canonical_name": "Asser, Joseph John",
-      "given_names": "Joseph John",
+      "canonical_name": "Asser, Sir Joseph John",
+      "given_names": "Sir Joseph John",
       "surname": "Asser",
       "position": "General Commanding",
       "department": "Chief Military Officers",
@@ -1121,11 +1121,10 @@
       "allowances": null,
       "honors": [
         "K.C.M.G.",
-        "K.C.V.O.",
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1159,7 +1158,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1175,7 +1174,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1190,11 +1189,10 @@
       "salary_max": null,
       "allowances": null,
       "honors": [
-        "C.I.E.",
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-Col.",
+      "military_rank": "Lt.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -1212,7 +1210,7 @@
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1246,7 +1244,7 @@
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-Col.",
+      "military_rank": "Lt.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -1280,7 +1278,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Belgium"
+      "location": null
     },
     {
       "name": "E. J. Thompson",
@@ -1296,7 +1294,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Chile"
+      "location": null
     },
     {
       "name": "John S. Darrell",
@@ -1312,7 +1310,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Denmark"
+      "location": null
     },
     {
       "name": "J. D. C. Darrell",
@@ -1328,7 +1326,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Denmark"
+      "location": null
     },
     {
       "name": "William Dowle",
@@ -1344,7 +1342,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "E. P. T. Tucker",
@@ -1360,7 +1358,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Greece"
+      "location": null
     },
     {
       "name": "W. E. Meyer",
@@ -1376,14 +1374,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Italy"
+      "location": null
     },
     {
       "name": "W. M. Conyers",
       "canonical_name": "Conyers, W. M.",
       "given_names": "W. M.",
       "surname": "Conyers",
-      "position": "Acting Consul",
+      "position": "Acting",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1392,7 +1390,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Norway"
+      "location": null
     },
     {
       "name": "F. K. Outerbridge",
@@ -1408,7 +1406,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Russia"
+      "location": null
     },
     {
       "name": "W. P. Kent",
@@ -1424,7 +1422,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States"
+      "location": null
     },
     {
       "name": "E. C. Merrell",
@@ -1440,7 +1438,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States"
+      "location": null
     },
     {
       "name": "F. J. Robinson",
@@ -1456,7 +1454,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States"
+      "location": null
     }
   ],
   "validation_summary": {

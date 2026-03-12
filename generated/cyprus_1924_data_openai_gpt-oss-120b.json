@@ -1,15 +1,15 @@
 {
   "colony": "Cyprus",
   "year": 1924,
-  "generated": "2026-03-12T09:35:30.441904",
+  "generated": "2026-03-12T15:56:27.496118",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 145,
+  "total_officials": 147,
   "officials": [
     {
       "name": "Sir Malcolm Stevenson",
-      "canonical_name": "Stevenson, Sir Malcolm",
-      "given_names": "Sir Malcolm",
+      "canonical_name": "Stevenson, Malcolm",
+      "given_names": "Malcolm",
       "surname": "Stevenson",
       "position": "High Commissioner and Commander-in-Chief",
       "department": "Civil Establishment",
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "W. H. Flinn",
+      "name": "Major W. H. Flinn",
       "canonical_name": "Flinn, W. H.",
       "given_names": "W. H.",
       "surname": "Flinn",
@@ -84,7 +84,9 @@
       "salary_min": 360,
       "salary_max": 500,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": "Major",
       "salary_scale": null,
@@ -100,7 +102,9 @@
       "salary_min": 360,
       "salary_max": 500,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.C."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -116,7 +120,9 @@
       "salary_min": 360,
       "salary_max": 600,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -163,7 +169,7 @@
       "department": "Government Printing Office",
       "salary_min": 360,
       "salary_max": 500,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -179,7 +185,7 @@
       "department": "Government Printing Office",
       "salary_min": 260,
       "salary_max": 300,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -235,7 +241,7 @@
       "location": null
     },
     {
-      "name": "A. M. Fleury",
+      "name": "Capt. A. M. Fleury",
       "canonical_name": "Fleury, A. M.",
       "given_names": "A. M.",
       "surname": "Fleury",
@@ -540,9 +546,9 @@
     },
     {
       "name": "M. Hji Gavriel",
-      "canonical_name": "Gavriel, M. Hji",
-      "given_names": "M. Hji",
-      "surname": "Gavriel",
+      "canonical_name": "Hji Gavriel, M.",
+      "given_names": "M.",
+      "surname": "Hji Gavriel",
       "position": "Surveyor, Second Grade",
       "department": "Survey Staff",
       "salary_min": 250,
@@ -619,9 +625,9 @@
       "location": null
     },
     {
-      "name": "Stanley Fisher",
-      "canonical_name": "Fisher, Stanley",
-      "given_names": "Stanley",
+      "name": "Sir Stanley Fisher",
+      "canonical_name": "Fisher, Sir Stanley",
+      "given_names": "Sir Stanley",
       "surname": "Fisher",
       "position": "Chief Justice",
       "department": "Legal Departments",
@@ -708,11 +714,11 @@
       "salary_min": 720,
       "salary_max": 900,
       "allowances": null,
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null,
-      "honors": []
+      "location": null
     },
     {
       "name": "C. C. Geraghty",
@@ -740,9 +746,7 @@
       "salary_min": 720,
       "salary_max": 900,
       "allowances": null,
-      "honors": [
-        "O.B.E."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -1310,7 +1314,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central Prison"
     },
     {
       "name": "H. A. Marshall",
@@ -1326,7 +1330,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central Prison"
     },
     {
       "name": "E. S. Corsellis",
@@ -1349,7 +1353,7 @@
       "canonical_name": "Ralph, C. H. D.",
       "given_names": "C. H. D.",
       "surname": "Ralph",
-      "position": "First Grade District Medical Officer",
+      "position": "District Medical Officer, First Grade",
       "department": "Medical Department",
       "salary_min": 500,
       "salary_max": 600,
@@ -1365,7 +1369,7 @@
       "canonical_name": "Fraser, L.",
       "given_names": "L.",
       "surname": "Fraser",
-      "position": "First Grade District Medical Officer",
+      "position": "District Medical Officer, First Grade",
       "department": "Medical Department",
       "salary_min": 500,
       "salary_max": 600,
@@ -1381,7 +1385,7 @@
       "canonical_name": "Peck, E. F.",
       "given_names": "E. F.",
       "surname": "Peck",
-      "position": "First Grade District Medical Officer",
+      "position": "District Medical Officer, First Grade",
       "department": "Medical Department",
       "salary_min": 500,
       "salary_max": 600,
@@ -1397,7 +1401,7 @@
       "canonical_name": "Pavlides, O.",
       "given_names": "O.",
       "surname": "Pavlides",
-      "position": "Second Grade District Medical Officer",
+      "position": "District Medical Officer, Second Grade",
       "department": "Medical Department",
       "salary_min": 300,
       "salary_max": 300,
@@ -1413,7 +1417,7 @@
       "canonical_name": "Vasiliades, S.",
       "given_names": "S.",
       "surname": "Vasiliades",
-      "position": "Second Grade District Medical Officer",
+      "position": "District Medical Officer, Second Grade",
       "department": "Medical Department",
       "salary_min": 300,
       "salary_max": 300,
@@ -1429,7 +1433,7 @@
       "canonical_name": "Terezopoulos, C.",
       "given_names": "C.",
       "surname": "Terezopoulos",
-      "position": "Second Grade District Medical Officer",
+      "position": "District Medical Officer, Second Grade",
       "department": "Medical Department",
       "salary_min": 300,
       "salary_max": 300,
@@ -1691,7 +1695,7 @@
       "department": "Agricultural Department",
       "salary_min": 600,
       "salary_max": 720,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1707,7 +1711,7 @@
       "department": "Agricultural Department",
       "salary_min": 360,
       "salary_max": 500,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1723,7 +1727,7 @@
       "department": "Agricultural Department",
       "salary_min": 360,
       "salary_max": 500,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1739,7 +1743,7 @@
       "department": "Agricultural Department",
       "salary_min": 360,
       "salary_max": 500,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1787,7 +1791,7 @@
       "department": "Forest Department",
       "salary_min": 660,
       "salary_max": 660,
-      "allowances": null,
+      "allowances": "personal",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2019,9 +2023,9 @@
       "location": null
     },
     {
-      "name": "Capt. G. S. Morley",
-      "canonical_name": "Morley, Capt. G. S.",
-      "given_names": "Capt. G. S.",
+      "name": "G. S. Morley",
+      "canonical_name": "Morley, G. S.",
+      "given_names": "G. S.",
       "surname": "Morley",
       "position": "Assistant Engineer",
       "department": "Public Works Department",
@@ -2043,6 +2047,22 @@
       "department": "Public Works Department",
       "salary_min": 360,
       "salary_max": 500,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "The Director of Public Works",
+      "canonical_name": "Director of Public Works, The",
+      "given_names": "",
+      "surname": "Director of Public Works",
+      "position": "Officer-in-Charge",
+      "department": "Irrigation Department",
+      "salary_min": 50,
+      "salary_max": 50,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -2115,6 +2135,22 @@
       "location": null
     },
     {
+      "name": "Kyrylos III.",
+      "canonical_name": "III., Kyrylos",
+      "given_names": "Kyrylos",
+      "surname": "III.",
+      "position": "Archbishop of Cyprus",
+      "department": "Ecclesiastical",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
       "name": "Beresford Potter",
       "canonical_name": "Potter, Beresford",
       "given_names": "Beresford",
@@ -2151,7 +2187,7 @@
       "canonical_name": "Zeitoun, Antonios",
       "given_names": "Antonios",
       "surname": "Zeitoun",
-      "position": "Vicar-General, Larnaca",
+      "position": "Vicar-General",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -2160,7 +2196,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Larnaca"
     },
     {
       "name": "G. Cirilli",
@@ -2311,7 +2347,7 @@
       "canonical_name": "Papadopoulos, L.",
       "given_names": "L.",
       "surname": "Papadopoulos",
-      "position": "Consul",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2342,12 +2378,12 @@
   "validation_summary": {
     "colony": "Cyprus",
     "year": 1924,
-    "total": 146,
-    "high_confidence": 145,
-    "medium_confidence": 0,
-    "low_confidence": 1,
-    "quarantined": 1,
-    "passed": 145,
+    "total": 147,
+    "high_confidence": 146,
+    "medium_confidence": 1,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 147,
     "anomaly_count": 3
   }
 }

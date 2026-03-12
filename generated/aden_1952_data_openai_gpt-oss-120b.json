@@ -1,7 +1,7 @@
 {
   "colony": "Aden",
   "year": 1952,
-  "generated": "2026-03-12T09:50:20.121504",
+  "generated": "2026-03-12T16:01:40.513741",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 22,
@@ -277,10 +277,8 @@
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "Rs.1,200 p.a.",
-      "honors": [
-        "O.B.E."
-      ],
+      "allowances": "Allowance of Rs.1,200 p.a.",
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -304,9 +302,9 @@
     },
     {
       "name": "J. A. M. Loustau Lalanne",
-      "canonical_name": "Lalanne, J. A. M. Loustau",
-      "given_names": "J. A. M. Loustau",
-      "surname": "Lalanne",
+      "canonical_name": "Loustau Lalanne, J. A. M.",
+      "given_names": "J. A. M.",
+      "surname": "Loustau Lalanne",
       "position": "Chief Accountant",
       "department": "Civil Establishment",
       "salary_min": 450,
@@ -327,7 +325,7 @@
       "department": "Aden Protectorate",
       "salary_min": 1300,
       "salary_max": 1300,
-      "allowances": "\u00a3100 entertainment allowance",
+      "allowances": "plus \u00a3100 entertainment allowance",
       "honors": [
         "C.M.G."
       ],
@@ -345,7 +343,7 @@
       "department": "Aden Protectorate",
       "salary_min": 1300,
       "salary_max": 1300,
-      "allowances": "\u00a3200 entertainment allowance",
+      "allowances": "plus \u00a3200 entertainment allowance",
       "honors": [
         "D.S.O."
       ],

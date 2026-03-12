@@ -1,13 +1,13 @@
 {
   "colony": "Nigeria",
   "year": 1952,
-  "generated": "2026-03-12T09:59:09.763826",
+  "generated": "2026-03-12T16:06:44.187094",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 49,
   "officials": [
     {
-      "name": "John Stuart Macpherson",
+      "name": "Sir John Stuart Macpherson",
       "canonical_name": "Macpherson, John Stuart",
       "given_names": "John Stuart",
       "surname": "Macpherson",
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 6500,
       "salary_max": 6500,
-      "allowances": "and \u00a31,750 duty pay",
+      "allowances": "\u00a31,750 duty pay",
       "honors": [
         "G.C.M.G."
       ],
@@ -34,7 +34,9 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": "Scale A",
@@ -91,7 +93,7 @@
       "location": null
     },
     {
-      "name": "J. G. Pyke-Knott",
+      "name": "Commander Sir J. G. Pyke-Knott",
       "canonical_name": "Pyke-Knott, J. G.",
       "given_names": "J. G.",
       "surname": "Pyke-Knott",
@@ -167,7 +169,7 @@
       "canonical_name": "Smith, F. E. V.",
       "given_names": "F. E. V.",
       "surname": "Smith",
-      "position": "Commissioner on Special Duties",
+      "position": "Commissioners on Special Duties",
       "department": "Civil Establishment",
       "salary_min": 2500,
       "salary_max": 2500,
@@ -181,14 +183,14 @@
       "location": null
     },
     {
-      "name": "S. Phillipson",
+      "name": "Sir S. Phillipson",
       "canonical_name": "Phillipson, S.",
       "given_names": "S.",
       "surname": "Phillipson",
-      "position": "Commissioner on Special Duties",
+      "position": "Commissioners on Special Duties",
       "department": "Civil Establishment",
-      "salary_min": null,
-      "salary_max": null,
+      "salary_min": 2500,
+      "salary_max": 2500,
       "allowances": null,
       "honors": [
         "C.M.G."
@@ -199,16 +201,18 @@
       "location": null
     },
     {
-      "name": "C. Raeburn",
+      "name": "Dr. C. Raeburn",
       "canonical_name": "Raeburn, C.",
       "given_names": "C.",
       "surname": "Raeburn",
-      "position": "Commissioner on Special Duties",
+      "position": "Commissioners on Special Duties",
       "department": "Civil Establishment",
-      "salary_min": null,
-      "salary_max": null,
+      "salary_min": 2500,
+      "salary_max": 2500,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "C.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -258,7 +262,9 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "C.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -329,7 +335,7 @@
       "location": null
     },
     {
-      "name": "E. H. Coleman",
+      "name": "Wing-Commander E. H. Coleman",
       "canonical_name": "Coleman, E. H.",
       "given_names": "E. H.",
       "surname": "Coleman",
@@ -459,7 +465,7 @@
       "location": null
     },
     {
-      "name": "R. R. E. Jacobson",
+      "name": "Dr. R. R. E. Jacobson",
       "canonical_name": "Jacobson, R. R. E.",
       "given_names": "R. R. E.",
       "surname": "Jacobson",
@@ -491,7 +497,7 @@
       "location": null
     },
     {
-      "name": "John Verity",
+      "name": "Sir John Verity",
       "canonical_name": "Verity, John",
       "given_names": "John",
       "surname": "Verity",
@@ -500,7 +506,9 @@
       "salary_min": 3000,
       "salary_max": 3000,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "Kt."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -555,7 +563,7 @@
       "location": null
     },
     {
-      "name": "A. Skinner",
+      "name": "Lt.-Commdr. A. Skinner",
       "canonical_name": "Skinner, A.",
       "given_names": "A.",
       "surname": "Skinner",
@@ -596,7 +604,9 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -644,7 +654,9 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -750,9 +762,9 @@
     },
     {
       "name": "W. A. Stuart Williams",
-      "canonical_name": "Williams, W. A. Stuart",
-      "given_names": "W. A. Stuart",
-      "surname": "Williams",
+      "canonical_name": "Stuart Williams, W. A.",
+      "given_names": "W. A.",
+      "surname": "Stuart Williams",
       "position": "Government Statistician",
       "department": "Civil Establishment",
       "salary_min": null,
@@ -799,11 +811,11 @@
       "location": null
     },
     {
-      "name": "H. W. Mulligan",
+      "name": "Col. H. W. Mulligan",
       "canonical_name": "Mulligan, H. W.",
       "given_names": "H. W.",
       "surname": "Mulligan",
-      "position": "Director (Nigerian Organisation) of West African Institute for Trypanosomiasis Research",
+      "position": "West African Institute for Trypanosomiasis Research\u2014Director (Nigerian Organisation)",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,

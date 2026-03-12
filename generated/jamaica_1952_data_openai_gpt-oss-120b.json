@@ -1,15 +1,15 @@
 {
   "colony": "Jamaica",
   "year": 1952,
-  "generated": "2026-03-12T09:56:29.259065",
+  "generated": "2026-03-12T16:08:36.002389",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 59,
   "officials": [
     {
       "name": "Sir Hugh Mackintosh Foot",
-      "canonical_name": "Foot, Sir Hugh Mackintosh",
-      "given_names": "Sir Hugh Mackintosh",
+      "canonical_name": "Foot, Hugh Mackintosh",
+      "given_names": "Hugh Mackintosh",
       "surname": "Foot",
       "position": "Captain-General and Governor-in-Chief",
       "department": "Civil Establishment",
@@ -630,7 +630,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Grand Cayman"
+      "location": null
     },
     {
       "name": "A. S. Rutty",
@@ -646,7 +646,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Lesser Islands"
+      "location": null
     },
     {
       "name": "B. St. J. Hylton",
@@ -657,7 +657,7 @@
       "department": "Civil Establishment",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "\u00a3300",
+      "allowances": "\u00a3300 allowance in lieu of private practice",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -785,7 +785,7 @@
       "department": "Civil Establishment",
       "salary_min": 1300,
       "salary_max": 1300,
-      "allowances": "\u00a3100 duty allowance; furnished quarters (Government House) provided, rental \u00a315 per annum.",
+      "allowances": "\u00a3100 duty allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -817,12 +817,12 @@
       "department": "Civil Establishment",
       "salary_min": 325,
       "salary_max": 550,
-      "allowances": "Furnished quarters not rated for pension purposes.",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Caicos Islands"
     },
     {
       "name": "C. B. Jennings",
@@ -833,12 +833,12 @@
       "department": "Civil Establishment",
       "salary_min": 200,
       "salary_max": 270,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Salt Cay"
     },
     {
       "name": "H. E. Sadler",
@@ -849,7 +849,7 @@
       "department": "Civil Establishment",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "Furnished quarters not rated for pension purposes.",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -865,7 +865,7 @@
       "department": "Civil Establishment",
       "salary_min": 700,
       "salary_max": 800,
-      "allowances": "Furnished quarters not rated for pension purposes.",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -877,11 +877,11 @@
       "canonical_name": "Godet, G. A.",
       "given_names": "G. A.",
       "surname": "Godet",
-      "position": "Lighthouse Keeper",
+      "position": "Lighthouse Keeper, Grand Turk",
       "department": "Civil Establishment",
       "salary_min": 215,
       "salary_max": 215,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -897,7 +897,7 @@
       "department": "Civil Establishment",
       "salary_min": 230,
       "salary_max": 270,
-      "allowances": "\u00a350 as Clerk of Courts and certain other duties.",
+      "allowances": "\u00a350 as Clerk of Courts and certain other duties",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -913,7 +913,7 @@
       "department": "Civil Establishment",
       "salary_min": 200,
       "salary_max": 270,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -945,7 +945,7 @@
       "department": "Civil Establishment",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "House allowance, \u00a350.",
+      "allowances": "House allowance, \u00a350",
       "honors": [],
       "qualifications": [],
       "military_rank": null,

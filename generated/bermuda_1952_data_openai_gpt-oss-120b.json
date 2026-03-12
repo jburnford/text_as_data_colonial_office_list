@@ -1,31 +1,32 @@
 {
   "colony": "Bermuda",
   "year": 1952,
-  "generated": "2026-03-12T09:51:21.361767",
+  "generated": "2026-03-12T16:03:38.377141",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 21,
   "officials": [
     {
-      "name": "Lieut.-Gen. Sir Alexander Hood",
-      "canonical_name": "Hood, Sir Alexander",
-      "given_names": "Sir Alexander",
+      "name": "Sir Alexander Hood",
+      "canonical_name": "Hood, Alexander",
+      "given_names": "Alexander",
       "surname": "Hood",
       "position": "Governor and Commander-in-Chief",
       "department": "Civil Establishment",
       "salary_min": 4250,
       "salary_max": 4250,
-      "allowances": "\u00a32,000 entertainment allowance and a grant of \u00a33,400 per annum towards the cost of operating Government House.",
+      "allowances": "plus \u00a32,000 entertainment allowance and a grant of \u00a33,400 per annum towards the cost of operating Government House",
       "honors": [
+        "G.B.E.",
         "K.C.B."
       ],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.-Gen.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Lt.-Cdr. H. Hood",
+      "name": "H. Hood",
       "canonical_name": "Hood, H.",
       "given_names": "H.",
       "surname": "Hood",
@@ -36,7 +37,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lt.-Cdr.",
       "salary_scale": null,
       "location": null
     },
@@ -65,11 +66,11 @@
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "unfurnished quarters.*",
+      "allowances": "unfurnished quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": "Grade III",
+      "salary_scale": "III",
       "location": null
     },
     {
@@ -89,7 +90,7 @@
       "location": null
     },
     {
-      "name": "Wing-Cdr. E. M. Ware",
+      "name": "E. M. Ware",
       "canonical_name": "Ware, E. M.",
       "given_names": "E. M.",
       "surname": "Ware",
@@ -98,9 +99,11 @@
       "salary_min": 1452,
       "salary_max": 1452,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "D.F.C."
+      ],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Wing-Cdr.",
       "salary_scale": null,
       "location": null
     },
@@ -114,10 +117,12 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": "Grade III",
+      "salary_scale": "III",
       "location": null
     },
     {
@@ -130,27 +135,29 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.C."
+      ],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": "Grade I",
+      "salary_scale": "I",
       "location": null
     },
     {
-      "name": "Dr. O. A. Arton",
+      "name": "O. A. Arton",
       "canonical_name": "Arton, O. A.",
       "given_names": "O. A.",
       "surname": "Arton",
-      "position": "Medical Superintendent",
+      "position": "Medical Superintendent, Mental Hospital",
       "department": "Civil Establishment",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "and practice",
+      "allowances": "practice",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Mental Hospital"
+      "location": null
     },
     {
       "name": "A. T. Guest",
@@ -165,7 +172,7 @@
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": "Grade IV",
+      "salary_scale": "IV",
       "location": null
     },
     {
@@ -178,7 +185,10 @@
       "salary_min": 2100,
       "salary_max": 2100,
       "allowances": "\u00a3300* rent allowance",
-      "honors": [],
+      "honors": [
+        "C.B.E.",
+        "Q.C."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -213,7 +223,7 @@
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": "Grade VIII",
+      "salary_scale": "VIII",
       "location": null
     },
     {
@@ -261,7 +271,7 @@
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": "Grade V",
+      "salary_scale": "V",
       "location": null
     },
     {
@@ -277,7 +287,7 @@
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": "Grade I",
+      "salary_scale": "I",
       "location": null
     },
     {
@@ -293,7 +303,7 @@
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": "Grade I",
+      "salary_scale": "I",
       "location": null
     },
     {
@@ -306,7 +316,9 @@
       "salary_min": 1800,
       "salary_max": 1800,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -322,7 +334,9 @@
       "salary_min": 1200,
       "salary_max": 1200,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -341,7 +355,7 @@
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": "Grade III",
+      "salary_scale": "III",
       "location": null
     }
   ],

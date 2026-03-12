@@ -1,7 +1,7 @@
 {
   "colony": "Singapore",
   "year": 1952,
-  "generated": "2026-03-12T09:58:02.487895",
+  "generated": "2026-03-12T16:10:41.861852",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 54,
@@ -77,7 +77,7 @@
       "canonical_name": "Taylor, W. C.",
       "given_names": "W. C.",
       "surname": "Taylor",
-      "position": "Financial Secretary (Acting)",
+      "position": "Financial Secretary",
       "department": "Civil Establishment",
       "salary_min": 1600,
       "salary_max": 1600,
@@ -93,7 +93,7 @@
       "canonical_name": "Luckham, H. A. L.",
       "given_names": "H. A. L.",
       "surname": "Luckham",
-      "position": "Secretary for Economic Affairs (Acting)",
+      "position": "Secretary for Economic Affairs",
       "department": "Civil Establishment",
       "salary_min": 1500,
       "salary_max": 1500,
@@ -114,7 +114,9 @@
       "salary_min": 1350,
       "salary_max": 1350,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -125,7 +127,7 @@
       "canonical_name": "Turner, H. G.",
       "given_names": "H. G.",
       "surname": "Turner",
-      "position": "Secretary for Defence and Internal Security (Acting)",
+      "position": "Secretary for Defence and Internal Security",
       "department": "Civil Establishment",
       "salary_min": 1350,
       "salary_max": 1350,
@@ -141,7 +143,7 @@
       "canonical_name": "Blacker, K. A.",
       "given_names": "K. A.",
       "surname": "Blacker",
-      "position": "Organisation Secretary (Acting)",
+      "position": "Organisation Secretary",
       "department": "Civil Establishment",
       "salary_min": 1200,
       "salary_max": 1200,
@@ -157,7 +159,7 @@
       "canonical_name": "Ewart, J. W.",
       "given_names": "J. W.",
       "surname": "Ewart",
-      "position": "Agricultural Officer (Acting)",
+      "position": "Agricultural Officer",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -189,7 +191,7 @@
       "canonical_name": "Jackson, H. W.",
       "given_names": "H. W.",
       "surname": "Jackson",
-      "position": "Director of Broadcasting, Malaya (Acting)",
+      "position": "Director of Broadcasting",
       "department": "Civil Establishment",
       "salary_min": 1200,
       "salary_max": 1200,
@@ -198,14 +200,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Malaya"
     },
     {
       "name": "A. C. Brooks",
       "canonical_name": "Brooks, A. C.",
       "given_names": "A. C.",
       "surname": "Brooks",
-      "position": "Director of Chemistry, Malaya",
+      "position": "Director of Chemistry",
       "department": "Civil Establishment",
       "salary_min": 1250,
       "salary_max": 1250,
@@ -214,7 +216,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Malaya"
     },
     {
       "name": "G. W. Webb",
@@ -237,7 +239,7 @@
       "canonical_name": "Savage, A. W.",
       "given_names": "A. W.",
       "surname": "Savage",
-      "position": "Director of Civil Aviation, Malaya",
+      "position": "Director of Civil Aviation",
       "department": "Civil Establishment",
       "salary_min": 1350,
       "salary_max": 1350,
@@ -246,7 +248,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Malaya"
     },
     {
       "name": "G. G. Thomson",
@@ -301,7 +303,7 @@
       "canonical_name": "Kiang, Oon Khye",
       "given_names": "Oon Khye",
       "surname": "Kiang",
-      "position": "Commissioner of Estate Duties and Stamps (Acting)",
+      "position": "Commissioner of Estate Duties and Stamps",
       "department": "Civil Establishment",
       "salary_min": 1050,
       "salary_max": 1050,
@@ -317,7 +319,7 @@
       "canonical_name": "Evans, J.",
       "given_names": "J.",
       "surname": "Evans",
-      "position": "Official Film Censor, Malaya",
+      "position": "Official Film Censor",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -326,7 +328,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": "Scale B.1.",
-      "location": null
+      "location": "Malaya"
     },
     {
       "name": "T. W. Burdon",
@@ -381,7 +383,7 @@
       "canonical_name": "King, S. E.",
       "given_names": "S. E.",
       "surname": "King",
-      "position": "Director of Immigration, Federation of Malaya and Singapore",
+      "position": "Director of Immigration",
       "department": "Civil Establishment",
       "salary_min": 1350,
       "salary_max": 1350,
@@ -390,7 +392,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Federation of Malaya and Singapore"
     },
     {
       "name": "W. H. Walker",
@@ -413,7 +415,7 @@
       "canonical_name": "Tudor, D. H.",
       "given_names": "D. H.",
       "surname": "Tudor",
-      "position": "Comptroller of Income Tax (Acting)",
+      "position": "Comptroller of Income Tax",
       "department": "Civil Establishment",
       "salary_min": 1200,
       "salary_max": 1200,
@@ -457,7 +459,7 @@
       "location": null
     },
     {
-      "name": "G. W. Davis",
+      "name": "G. W Davis",
       "canonical_name": "Davis, G. W.",
       "given_names": "G. W.",
       "surname": "Davis",
@@ -509,16 +511,18 @@
       "canonical_name": "Lane, L. P.",
       "given_names": "L. P.",
       "surname": "Lane",
-      "position": "Master Attendant, Marine Department",
+      "position": "Master Attendant",
       "department": "Civil Establishment",
       "salary_min": 1200,
       "salary_max": 1200,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Marine Department"
     },
     {
       "name": "A. Graham",
@@ -530,7 +534,9 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -575,7 +581,7 @@
       "canonical_name": "Lea, C. A.",
       "given_names": "C. A.",
       "surname": "Lea",
-      "position": "Director of Meteorological Services (Acting)",
+      "position": "Director of Meteorological Services",
       "department": "Civil Establishment",
       "salary_min": 1250,
       "salary_max": 1250,
@@ -591,7 +597,7 @@
       "canonical_name": "Marshall, J. A.",
       "given_names": "J. A.",
       "surname": "Marshall",
-      "position": "Officer-in-Charge, Volunteer Forces Record Office",
+      "position": "Officer-in-Charge",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -600,7 +606,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": "Scale B.1.",
-      "location": null
+      "location": "Volunteer Forces Record Office"
     },
     {
       "name": "Michael Forster",
@@ -660,7 +666,9 @@
       "salary_min": 1350,
       "salary_max": 1350,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "C.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -719,7 +727,7 @@
       "canonical_name": "Gordon-Smith, F.",
       "given_names": "F.",
       "surname": "Gordon-Smith",
-      "position": "Chairman, Public Services Commission",
+      "position": "Chairman",
       "department": "Civil Establishment",
       "salary_min": 1450,
       "salary_max": 1450,
@@ -728,7 +736,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Public Services Commission"
     },
     {
       "name": "E. A. Gardiner",
@@ -751,7 +759,7 @@
       "canonical_name": "Band, R. W. I.",
       "given_names": "R. W. I.",
       "surname": "Band",
-      "position": "Secretary for Social Welfare (Acting)",
+      "position": "Secretary for Social Welfare",
       "department": "Civil Establishment",
       "salary_min": 1200,
       "salary_max": 1200,
@@ -799,7 +807,7 @@
       "canonical_name": "O'Farrell, G. C.",
       "given_names": "G. C.",
       "surname": "O'Farrell",
-      "position": "Director of Telecommunications (Acting)",
+      "position": "Director of Telecommunications",
       "department": "Civil Establishment",
       "salary_min": 1200,
       "salary_max": 1200,
