@@ -1,7 +1,7 @@
 {
   "colony": "St Helena",
   "year": 1917,
-  "generated": "2026-03-12T09:24:16.445560",
+  "generated": "2026-03-12T15:23:43.874912",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 22,
@@ -114,7 +114,7 @@
       "department": "Civil Establishment",
       "salary_min": 270,
       "salary_max": 270,
-      "allowances": "27l. horse allowance",
+      "allowances": "27l. for horse allowance",
       "honors": [],
       "qualifications": [
         "B.A.",
@@ -285,9 +285,9 @@
       "location": null
     },
     {
-      "name": "Miss Girdwood",
-      "canonical_name": "Girdwood, Miss",
-      "given_names": "Miss",
+      "name": "Girdwood",
+      "canonical_name": "Girdwood",
+      "given_names": "",
       "surname": "Girdwood",
       "position": "Manageress, Government Lace School",
       "department": "Civil Establishment",
@@ -301,7 +301,7 @@
       "location": null
     },
     {
-      "name": "The Rt. Rev. W. A. Holbech",
+      "name": "W. A. Holbech",
       "canonical_name": "Holbech, W. A.",
       "given_names": "W. A.",
       "surname": "Holbech",
@@ -317,7 +317,7 @@
       "location": null
     },
     {
-      "name": "Rev. L. C. Walcott",
+      "name": "L. C. Walcott",
       "canonical_name": "Walcott, L. C.",
       "given_names": "L. C.",
       "surname": "Walcott",
@@ -369,8 +369,8 @@
     "colony": "St Helena",
     "year": 1917,
     "total": 22,
-    "high_confidence": 22,
-    "medium_confidence": 0,
+    "high_confidence": 21,
+    "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 22,

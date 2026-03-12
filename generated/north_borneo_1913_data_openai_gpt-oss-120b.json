@@ -1,10 +1,10 @@
 {
   "colony": "North Borneo",
   "year": 1913,
-  "generated": "2026-03-12T05:41:20.393951",
+  "generated": "2026-03-12T14:56:51.764011",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 92,
+  "total_officials": 93,
   "officials": [
     {
       "name": "J. West Ridgeway",
@@ -331,7 +331,7 @@
       "location": null
     },
     {
-      "name": "A. C. Pearson",
+      "name": "A. C. Pearson (officiating)",
       "canonical_name": "Pearson, A. C.",
       "given_names": "A. C.",
       "surname": "Pearson",
@@ -379,7 +379,7 @@
       "location": null
     },
     {
-      "name": "J. W. Wilson",
+      "name": "J. W. Wilson (on leave)",
       "canonical_name": "Wilson, J. W.",
       "given_names": "J. W.",
       "surname": "Wilson",
@@ -395,7 +395,7 @@
       "location": null
     },
     {
-      "name": "B. McEnroe",
+      "name": "B. McEnroe (acting)",
       "canonical_name": "McEnroe, B.",
       "given_names": "B.",
       "surname": "McEnroe",
@@ -411,7 +411,7 @@
       "location": null
     },
     {
-      "name": "G. C. Woolley",
+      "name": "G. C. Woolley (on leave)",
       "canonical_name": "Woolley, G. C.",
       "given_names": "G. C.",
       "surname": "Woolley",
@@ -459,7 +459,7 @@
       "location": null
     },
     {
-      "name": "C. P. van Kinschot",
+      "name": "C. P. van Kinschot (acting)",
       "canonical_name": "van Kinschot, C. P.",
       "given_names": "C. P.",
       "surname": "van Kinschot",
@@ -491,7 +491,7 @@
       "location": null
     },
     {
-      "name": "C. H. Harington",
+      "name": "C. H. Harington (on leave)",
       "canonical_name": "Harington, C. H.",
       "given_names": "C. H.",
       "surname": "Harington",
@@ -507,7 +507,7 @@
       "location": null
     },
     {
-      "name": "H. S. Bond",
+      "name": "H. S. Bond (acting)",
       "canonical_name": "Bond, H. S.",
       "given_names": "H. S.",
       "surname": "Bond",
@@ -573,7 +573,7 @@
       "location": null
     },
     {
-      "name": "R. Scott-Atkinson",
+      "name": "R. Scott-Atkinson (on leave)",
       "canonical_name": "Scott-Atkinson, R.",
       "given_names": "R.",
       "surname": "Scott-Atkinson",
@@ -589,7 +589,7 @@
       "location": null
     },
     {
-      "name": "G. C. Irving",
+      "name": "G. C. Irving (acting)",
       "canonical_name": "Irving, G. C.",
       "given_names": "G. C.",
       "surname": "Irving",
@@ -597,6 +597,22 @@
       "department": "Civil Service",
       "salary_min": 4200,
       "salary_max": 4200,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "The Commandant",
+      "canonical_name": "Commandant, The",
+      "given_names": "The",
+      "surname": "Commandant",
+      "position": "Inspector of Prisons",
+      "department": "Civil Service",
+      "salary_min": null,
+      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -641,7 +657,7 @@
       "canonical_name": "Dunlop, A. R.",
       "given_names": "A. R.",
       "surname": "Dunlop",
-      "position": "Resident",
+      "position": "Resident, Sandakan",
       "department": "Civil Service",
       "salary_min": 5100,
       "salary_max": 5100,
@@ -657,7 +673,7 @@
       "canonical_name": "Hastings, W. H.",
       "given_names": "W. H.",
       "surname": "Hastings",
-      "position": "Resident",
+      "position": "Resident, Kudat",
       "department": "Civil Service",
       "salary_min": 4540,
       "salary_max": 4540,
@@ -669,11 +685,11 @@
       "location": "Kudat"
     },
     {
-      "name": "F. J. Moysey",
+      "name": "F. J. Moysey (acting)",
       "canonical_name": "Moysey, F. J.",
       "given_names": "F. J.",
       "surname": "Moysey",
-      "position": "Resident",
+      "position": "Resident, East Coast",
       "department": "Civil Service",
       "salary_min": 3768,
       "salary_max": 3768,
@@ -689,7 +705,7 @@
       "canonical_name": "Barratt, E. H.",
       "given_names": "E. H.",
       "surname": "Barratt",
-      "position": "Resident",
+      "position": "Resident, West Coast",
       "department": "Civil Service",
       "salary_min": 5100,
       "salary_max": 5100,
@@ -705,7 +721,7 @@
       "canonical_name": "Francis, A. B. C.",
       "given_names": "A. B. C.",
       "surname": "Francis",
-      "position": "Resident",
+      "position": "Resident, Interior",
       "department": "Civil Service",
       "salary_min": 4200,
       "salary_max": 4200,
@@ -717,7 +733,7 @@
       "location": "Interior"
     },
     {
-      "name": "H. S. Bond",
+      "name": "H. S. Bond (acting as Commandant)",
       "canonical_name": "Bond, H. S.",
       "given_names": "H. S.",
       "surname": "Bond",
@@ -733,7 +749,7 @@
       "location": null
     },
     {
-      "name": "J. M. Reeves",
+      "name": "J. M. Reeves (acting)",
       "canonical_name": "Reeves, J. M.",
       "given_names": "J. M.",
       "surname": "Reeves",
@@ -744,7 +760,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Captain",
       "salary_scale": null,
       "location": null
     },
@@ -794,7 +810,7 @@
       "qualifications": [],
       "military_rank": "Captain",
       "salary_scale": null,
-      "location": "Beaufort"
+      "location": null
     },
     {
       "name": "E. G. French",
@@ -819,8 +835,8 @@
       "surname": "McDowell",
       "position": "Personal Assistant to G.M.R.",
       "department": "Railways",
-      "salary_min": 50000,
-      "salary_max": 50000,
+      "salary_min": 50,
+      "salary_max": 50,
       "allowances": "allowances",
       "honors": [],
       "qualifications": [],
@@ -941,7 +957,7 @@
       "location": null
     },
     {
-      "name": "P. A. Dingle",
+      "name": "Dr. P. A. Dingle",
       "canonical_name": "Dingle, P. A.",
       "given_names": "P. A.",
       "surname": "Dingle",
@@ -957,7 +973,7 @@
       "location": "Sandakan"
     },
     {
-      "name": "H. J. McGrigor",
+      "name": "Dr. H. J. McGrigor",
       "canonical_name": "McGrigor, H. J.",
       "given_names": "H. J.",
       "surname": "McGrigor",
@@ -993,7 +1009,7 @@
       "canonical_name": "Woollett, G. F. C.",
       "given_names": "G. F. C.",
       "surname": "Woollett",
-      "position": "Supervisor",
+      "position": "Supervisor, Jesselton",
       "department": "Customs",
       "salary_min": 2640,
       "salary_max": 2640,
@@ -1089,7 +1105,7 @@
       "canonical_name": "Pearson, E. A.",
       "given_names": "E. A.",
       "surname": "Pearson",
-      "position": "District Officer (acting)",
+      "position": "District Officer",
       "department": "Public Works Department",
       "salary_min": 3300,
       "salary_max": 3300,
@@ -1137,7 +1153,7 @@
       "canonical_name": "Baboneau, N. B.",
       "given_names": "N. B.",
       "surname": "Baboneau",
-      "position": "District Officer (acting)",
+      "position": "District Officer",
       "department": "Public Works Department",
       "salary_min": 3300,
       "salary_max": 3300,
@@ -1377,7 +1393,7 @@
       "canonical_name": "White, T. J. C.",
       "given_names": "T. J. C.",
       "surname": "White",
-      "position": "District Treasurer (Senior, acting)",
+      "position": "District Treasurer",
       "department": "Public Works Department",
       "salary_min": 3864,
       "salary_max": 3864,
@@ -1504,12 +1520,12 @@
   "validation_summary": {
     "colony": "North Borneo",
     "year": 1913,
-    "total": 93,
-    "high_confidence": 92,
+    "total": 94,
+    "high_confidence": 93,
     "medium_confidence": 0,
     "low_confidence": 1,
     "quarantined": 1,
-    "passed": 92,
+    "passed": 93,
     "anomaly_count": 3
   }
 }

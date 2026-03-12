@@ -1,10 +1,10 @@
 {
   "colony": "Falkland Islands",
   "year": 1914,
-  "generated": "2026-03-12T06:02:41.746408",
+  "generated": "2026-03-12T15:03:00.652800",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 23,
+  "total_officials": 22,
   "officials": [
     {
       "name": "W. L. Allardyce",
@@ -123,7 +123,7 @@
       "location": null
     },
     {
-      "name": "A. H. B. Pearce",
+      "name": "Dr. A. H. B. Pearce",
       "canonical_name": "Pearce, A. H. B.",
       "given_names": "A. H. B.",
       "surname": "Pearce",
@@ -139,7 +139,7 @@
       "location": null
     },
     {
-      "name": "H. M. Stanley-Turner",
+      "name": "Dr. H. M. Stanley-Turner",
       "canonical_name": "Stanley-Turner, H. M.",
       "given_names": "H. M.",
       "surname": "Stanley-Turner",
@@ -147,22 +147,6 @@
       "department": "Civil Establishment",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "West Falkland"
-    },
-    {
-      "name": "S. Georgia",
-      "canonical_name": "Georgia, S.",
-      "given_names": "S.",
-      "surname": "Georgia",
-      "position": "Stipendiary Magistrate",
-      "department": "Civil Establishment",
-      "salary_min": 300,
-      "salary_max": 300,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -184,14 +168,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South Georgia"
     },
     {
       "name": "E. B. Binnie",
       "canonical_name": "Binnie, E. B.",
       "given_names": "E. B.",
       "surname": "Binnie",
-      "position": "Deputy Collector of Customs, New Island",
+      "position": "Deputy Collector of Customs",
       "department": "Civil Establishment",
       "salary_min": 120,
       "salary_max": 120,
@@ -245,13 +229,15 @@
       "salary_max": 300,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "M.I. Marine E."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "G. M. Smith",
+      "name": "Capt. G. M. Smith",
       "canonical_name": "Smith, G. M.",
       "given_names": "G. M.",
       "surname": "Smith",
@@ -299,7 +285,7 @@
       "location": null
     },
     {
-      "name": "E. J. Seymour",
+      "name": "The Very Rev. Dean E. J. Seymour",
       "canonical_name": "Seymour, E. J.",
       "given_names": "E. J.",
       "surname": "Seymour",
@@ -315,7 +301,7 @@
       "location": null
     },
     {
-      "name": "C. McD. Hobley",
+      "name": "The Rev. C. McD. Hobley",
       "canonical_name": "Hobley, C. McD.",
       "given_names": "C. McD.",
       "surname": "Hobley",
@@ -331,7 +317,7 @@
       "location": null
     },
     {
-      "name": "Robt. Johnson",
+      "name": "The Rev. Robt. Johnson",
       "canonical_name": "Johnson, Robt.",
       "given_names": "Robt.",
       "surname": "Johnson",
@@ -347,7 +333,7 @@
       "location": null
     },
     {
-      "name": "M. L. Migone",
+      "name": "Rev. M. L. Migone",
       "canonical_name": "Migone, M. L.",
       "given_names": "M. L.",
       "surname": "Migone",
@@ -382,12 +368,12 @@
   "validation_summary": {
     "colony": "Falkland Islands",
     "year": 1914,
-    "total": 23,
-    "high_confidence": 23,
+    "total": 22,
+    "high_confidence": 22,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 23,
+    "passed": 22,
     "anomaly_count": 0
   }
 }

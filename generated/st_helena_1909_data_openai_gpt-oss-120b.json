@@ -1,13 +1,13 @@
 {
   "colony": "St Helena",
   "year": 1909,
-  "generated": "2026-03-12T08:46:58.284835",
+  "generated": "2026-03-12T14:48:40.821921",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 31,
   "officials": [
     {
-      "name": "Lieut.-Colonel H. L. Gallwey",
+      "name": "H. L. Gallwey",
       "canonical_name": "Gallwey, H. L.",
       "given_names": "H. L.",
       "surname": "Gallwey",
@@ -114,7 +114,7 @@
       "department": "Civil Establishment",
       "salary_min": 270,
       "salary_max": 270,
-      "allowances": "27l. horse allowance",
+      "allowances": "27l. for horse allowance",
       "honors": [],
       "qualifications": [
         "B.A.",
@@ -141,7 +141,7 @@
       "location": null
     },
     {
-      "name": "Rev. Canon A. Porter",
+      "name": "A. Porter",
       "canonical_name": "Porter, A.",
       "given_names": "A.",
       "surname": "Porter",
@@ -231,7 +231,7 @@
       "department": "Civil Establishment",
       "salary_min": 146,
       "salary_max": 146,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -451,7 +451,7 @@
       "canonical_name": "Antrobus, R. L.",
       "given_names": "R. L.",
       "surname": "Antrobus",
-      "position": "Governor",
+      "position": "Governor (acting)",
       "department": "Governors since 1889",
       "salary_min": null,
       "salary_max": null,

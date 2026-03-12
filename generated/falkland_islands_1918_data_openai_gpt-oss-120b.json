@@ -1,7 +1,7 @@
 {
   "colony": "Falkland Islands",
   "year": 1918,
-  "generated": "2026-03-12T09:35:06.807835",
+  "generated": "2026-03-12T15:30:10.426879",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 51,
@@ -129,7 +129,7 @@
       "department": "Treasury and Customs",
       "salary_min": 300,
       "salary_max": 400,
-      "allowances": null,
+      "allowances": "fees, 50l. as Manager Savings Bank",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -145,12 +145,12 @@
       "department": "Stanley",
       "salary_min": 160,
       "salary_max": 180,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Stanley"
     },
     {
       "name": "A. G. Bennett",
@@ -161,12 +161,12 @@
       "department": "Stanley",
       "salary_min": 132,
       "salary_max": 132,
-      "allowances": null,
+      "allowances": "fees and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Stanley"
     },
     {
       "name": "S. Riches",
@@ -177,12 +177,12 @@
       "department": "Stanley",
       "salary_min": 132,
       "salary_max": 132,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Stanley"
     },
     {
       "name": "W. Barlas",
@@ -198,14 +198,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "New Island"
     },
     {
       "name": "E. B. Binnie",
       "canonical_name": "Binnie, E. B.",
       "given_names": "E. B.",
       "surname": "Binnie",
-      "position": "Deputy Collector",
+      "position": "Deputy Collector (also Magistrate)",
       "department": "South Georgia",
       "salary_min": null,
       "salary_max": null,
@@ -214,7 +214,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South Georgia"
     },
     {
       "name": "A. G. Simon",
@@ -222,7 +222,7 @@
       "given_names": "A. G.",
       "surname": "Simon",
       "position": "Customs Officer",
-      "department": "Stanley",
+      "department": "South Georgia",
       "salary_min": 150,
       "salary_max": 150,
       "allowances": null,
@@ -238,7 +238,7 @@
       "given_names": "J.",
       "surname": "Wood",
       "position": "Customs Officer",
-      "department": "Stanley",
+      "department": "South Georgia",
       "salary_min": 150,
       "salary_max": 150,
       "allowances": null,
@@ -257,7 +257,7 @@
       "department": "Post Office",
       "salary_min": 350,
       "salary_max": 350,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -289,7 +289,7 @@
       "department": "Medical",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": null,
+      "allowances": "25l. as Health Officer",
       "honors": [],
       "qualifications": [
         "L.R.C.P."
@@ -307,7 +307,7 @@
       "department": "Medical",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "200l. from Farmers' Association",
       "honors": [],
       "qualifications": [
         "M.R.C.S.",
@@ -326,7 +326,7 @@
       "department": "Medical",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": null,
+      "allowances": "50l. personal",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -334,7 +334,7 @@
       "location": null
     },
     {
-      "name": "K. C. Yule",
+      "name": "Miss K. C. Yule",
       "canonical_name": "Yule, K. C.",
       "given_names": "K. C.",
       "surname": "Yule",
@@ -342,7 +342,7 @@
       "department": "Medical",
       "salary_min": 90,
       "salary_max": 90,
-      "allowances": null,
+      "allowances": "board and quarters at Hospital",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -354,7 +354,7 @@
       "canonical_name": "Craigie-Halkett, M.",
       "given_names": "M.",
       "surname": "Craigie-Halkett",
-      "position": "Registrar, etc.",
+      "position": "Registrar, etc.; Postmaster, etc.",
       "department": "Judicial Department",
       "salary_min": null,
       "salary_max": null,
@@ -367,9 +367,9 @@
     },
     {
       "name": "J. Innes Wilson",
-      "canonical_name": "Wilson, J. Innes",
-      "given_names": "J. Innes",
-      "surname": "Wilson",
+      "canonical_name": "Innes Wilson, J.",
+      "given_names": "J.",
+      "surname": "Innes Wilson",
       "position": "Magistrate, West Falkland",
       "department": "Judicial Department",
       "salary_min": 250,
@@ -414,7 +414,7 @@
       "location": null
     },
     {
-      "name": "Mrs. E. Hoare",
+      "name": "E. Hoare",
       "canonical_name": "Hoare, E.",
       "given_names": "E.",
       "surname": "Hoare",
@@ -446,7 +446,7 @@
       "location": null
     },
     {
-      "name": "Miss M. Carey",
+      "name": "M. Carey",
       "canonical_name": "Carey, M.",
       "given_names": "M.",
       "surname": "Carey",
@@ -466,7 +466,7 @@
       "canonical_name": "Thompson, F. P.",
       "given_names": "F. P.",
       "surname": "Thompson",
-      "position": "Travelling Teachers",
+      "position": "Travelling Teacher",
       "department": "Educational",
       "salary_min": 60,
       "salary_max": 80,
@@ -482,7 +482,7 @@
       "canonical_name": "Currie, W. U. M.",
       "given_names": "W. U. M.",
       "surname": "Currie",
-      "position": "Travelling Teachers",
+      "position": "Travelling Teacher",
       "department": "Educational",
       "salary_min": 60,
       "salary_max": 80,
@@ -510,7 +510,7 @@
       "location": null
     },
     {
-      "name": "Sgt. Police D. J. Sullivan",
+      "name": "D. J. Sullivan",
       "canonical_name": "Sullivan, D. J.",
       "given_names": "D. J.",
       "surname": "Sullivan",
@@ -562,7 +562,7 @@
       "canonical_name": "Atkins, W.",
       "given_names": "W.",
       "surname": "Atkins",
-      "position": "Foreman of Works",
+      "position": "Foreman of Works, Outdoor",
       "department": "Public Works",
       "salary_min": 36,
       "salary_max": 36,
@@ -571,7 +571,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Outdoor"
+      "location": null
     },
     {
       "name": "T. King",

@@ -1,11 +1,63 @@
 {
   "colony": "Western Pacific",
   "year": 1914,
-  "generated": "2026-03-12T09:02:32.844190",
+  "generated": "2026-03-12T15:08:14.109100",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 37,
   "officials": [
+    {
+      "name": "Charles Major",
+      "canonical_name": "Major, Charles",
+      "given_names": "Charles",
+      "surname": "Major",
+      "position": "High Commissioner (acting)",
+      "department": "High Commissioner",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sir Henry May",
+      "canonical_name": "May, Henry",
+      "given_names": "Henry",
+      "surname": "May",
+      "position": "High Commissioner",
+      "department": "High Commissioner",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sir Ernest Bickham Sweet-Escott",
+      "canonical_name": "Escott, Ernest Bickham Sweet",
+      "given_names": "Ernest Bickham Sweet",
+      "surname": "Escott",
+      "position": "High Commissioner",
+      "department": "High Commissioner",
+      "salary_min": 1000,
+      "salary_max": 1000,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
     {
       "name": "Sir Ernest Bickham Sweet Escott",
       "canonical_name": "Escott, Ernest Bickham Sweet",
@@ -113,17 +165,17 @@
       "department": "Establishment",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "and quarters, and 60l. as Consul",
+      "allowances": "quarters; 60l. as Consul",
       "honors": [
         "C.M.G."
       ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Tonga"
     },
     {
-      "name": "E. C. Eliot, Esq.",
+      "name": "E. C. Eliot",
       "canonical_name": "Eliot, E. C.",
       "given_names": "E. C.",
       "surname": "Eliot",
@@ -131,12 +183,12 @@
       "department": "Establishment",
       "salary_min": 500,
       "salary_max": 800,
-      "allowances": "and quarters (paid from Protectorate Funds)",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Gilbert and Ellice Islands Protectorate"
     },
     {
       "name": "A. Loibl",
@@ -147,7 +199,7 @@
       "department": "Establishment",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -179,7 +231,7 @@
       "department": "Establishment",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -195,7 +247,7 @@
       "department": "Establishment",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -207,80 +259,80 @@
       "canonical_name": "O'Reilly, B. C. N.",
       "given_names": "B. C. N.",
       "surname": "O'Reilly",
-      "position": "District Officer and Medical Officer, Tarawa",
+      "position": "District Officer and Medical Officer",
       "department": "Establishment",
       "salary_min": 350,
       "salary_max": 550,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Tarawa"
     },
     {
       "name": "C. Workman",
       "canonical_name": "Workman, C.",
       "given_names": "C.",
       "surname": "Workman",
-      "position": "District Officer, Butaritari",
+      "position": "District Officer",
       "department": "Establishment",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Butaritari"
     },
     {
       "name": "G. M. Murdoch",
       "canonical_name": "Murdoch, G. M.",
       "given_names": "G. M.",
       "surname": "Murdoch",
-      "position": "District Officer, Abemama",
+      "position": "District Officer",
       "department": "Establishment",
       "salary_min": 325,
       "salary_max": 325,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Abemama"
     },
     {
       "name": "G. B. Smith-Rewse",
       "canonical_name": "Smith-Rewse, G. B.",
       "given_names": "G. B.",
       "surname": "Smith-Rewse",
-      "position": "District Officer, Beru",
+      "position": "District Officer",
       "department": "Establishment",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Beru"
     },
     {
       "name": "Dr. F. J. Hoare",
       "canonical_name": "Hoare, F. J.",
       "given_names": "F. J.",
       "surname": "Hoare",
-      "position": "District and Medical Officer, Union Group",
+      "position": "District and Medical Officer",
       "department": "Establishment",
       "salary_min": 350,
       "salary_max": 550,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Union Group"
     },
     {
       "name": "C. M. Woodford",
@@ -291,14 +343,14 @@
       "department": "Establishment",
       "salary_min": 900,
       "salary_max": 900,
-      "allowances": "and 50l. duty allowance and quarters (paid from Protectorate Funds)",
+      "allowances": "50l. duty allowance; quarters",
       "honors": [
         "C.M.G."
       ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "British Solomon Islands Protectorate"
     },
     {
       "name": "T. W. Edge-Partington",
@@ -309,12 +361,12 @@
       "department": "Establishment",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "and quarters (from Protectorate Funds)",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Mala"
     },
     {
       "name": "G. C. M. Davies",
@@ -325,7 +377,7 @@
       "department": "Establishment",
       "salary_min": 350,
       "salary_max": 500,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [
         "B.A.",
@@ -344,12 +396,12 @@
       "department": "Establishment",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Shortland Island"
     },
     {
       "name": "R. Brodhurst Hill",
@@ -360,12 +412,12 @@
       "department": "Establishment",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Gizo"
     },
     {
       "name": "F. J. Barnett",
@@ -376,7 +428,7 @@
       "department": "Establishment",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -392,7 +444,7 @@
       "department": "Establishment",
       "salary_min": 250,
       "salary_max": 250,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -408,7 +460,7 @@
       "department": "Establishment",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -424,7 +476,7 @@
       "department": "Establishment",
       "salary_min": 350,
       "salary_max": 350,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -440,12 +492,12 @@
       "department": "Establishment",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "N. Hebrides"
     },
     {
       "name": "T. E. Roseby",
@@ -456,7 +508,7 @@
       "department": "Establishment",
       "salary_min": 700,
       "salary_max": 700,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -472,7 +524,7 @@
       "department": "Establishment",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -488,7 +540,7 @@
       "department": "Establishment",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": "Captain",
@@ -504,7 +556,7 @@
       "department": "Establishment",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -520,7 +572,7 @@
       "department": "Establishment",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -541,7 +593,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Society Islands"
+      "location": "Pitcairn Island"
     },
     {
       "name": "A. Smith",
@@ -557,57 +609,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Charles Major",
-      "canonical_name": "Major, Charles",
-      "given_names": "Charles",
-      "surname": "Major",
-      "position": null,
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Sir Henry May",
-      "canonical_name": "May, Henry",
-      "given_names": "Henry",
-      "surname": "May",
-      "position": null,
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [
-        "K.C.M.G."
-      ],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "G. B. Christian",
-      "canonical_name": "Christian, G. B.",
-      "given_names": "G. B.",
-      "surname": "Christian",
-      "position": "Chief Magistrate",
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
+      "location": "Fanning Island"
     }
   ],
   "validation_summary": {
@@ -619,6 +621,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 37,
-    "anomaly_count": 0
+    "anomaly_count": 1
   }
 }

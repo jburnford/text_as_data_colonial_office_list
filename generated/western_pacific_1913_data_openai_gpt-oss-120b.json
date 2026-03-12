@@ -1,47 +1,13 @@
 {
   "colony": "Western Pacific",
   "year": 1913,
-  "generated": "2026-03-12T05:51:01.496172",
+  "generated": "2026-03-12T15:00:21.823439",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 39,
+  "total_officials": 37,
   "officials": [
     {
-      "name": "Charles Major",
-      "canonical_name": "Major, Charles",
-      "given_names": "Charles",
-      "surname": "Major",
-      "position": "High Commissioner (acting)",
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Sir Henry May",
-      "canonical_name": "May, Henry",
-      "given_names": "Henry",
-      "surname": "May",
-      "position": "",
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [
-        "K.C.M.G."
-      ],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Sir Ernest Bickham Sweet-Escott",
+      "name": "Ernest Bickham Sweet-Escott",
       "canonical_name": "Sweet-Escott, Ernest Bickham",
       "given_names": "Ernest Bickham",
       "surname": "Sweet-Escott",
@@ -49,7 +15,7 @@
       "department": "Establishment",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": null,
+      "allowances": "in addition to Fiji salary",
       "honors": [
         "K.C.M.G."
       ],
@@ -59,7 +25,7 @@
       "location": null
     },
     {
-      "name": "Sir Charles H. Major",
+      "name": "Charles H. Major",
       "canonical_name": "Major, Charles H.",
       "given_names": "Charles H.",
       "surname": "Major",
@@ -67,7 +33,7 @@
       "department": "Establishment",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": null,
+      "allowances": "in addition to salary as Chief Justice of Fiji",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -215,7 +181,7 @@
       "department": "Establishment",
       "salary_min": 350,
       "salary_max": 500,
-      "allowances": "and quarters",
+      "allowances": "(from Protectorate Funds), and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -406,9 +372,9 @@
     },
     {
       "name": "R. Brodhurst Hill",
-      "canonical_name": "Hill, R. Brodhurst",
-      "given_names": "R. Brodhurst",
-      "surname": "Hill",
+      "canonical_name": "Brodhurst Hill, R.",
+      "given_names": "R.",
+      "surname": "Brodhurst Hill",
       "position": "Magistrate, Gizoo",
       "department": "Establishment",
       "salary_min": 300,
@@ -585,7 +551,7 @@
       "canonical_name": "Johnstone, F.",
       "given_names": "F.",
       "surname": "Johnstone",
-      "position": "Inspectors of Labour",
+      "position": "Inspector of Labour",
       "department": "Establishment",
       "salary_min": 200,
       "salary_max": 200,
@@ -601,7 +567,7 @@
       "canonical_name": "Seagoe, E. A. G.",
       "given_names": "E. A. G.",
       "surname": "Seagoe",
-      "position": "Inspectors of Labour",
+      "position": "Inspector of Labour",
       "department": "Establishment",
       "salary_min": 200,
       "salary_max": 200,
@@ -621,12 +587,12 @@
       "department": "Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": null,
+      "allowances": "Consul, Society Islands",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Society Islands"
+      "location": "Pitcairn Island"
     },
     {
       "name": "C. L. Hertalet",
@@ -642,18 +608,18 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Fanning Island"
     }
   ],
   "validation_summary": {
     "colony": "Western Pacific",
     "year": 1913,
-    "total": 39,
-    "high_confidence": 38,
+    "total": 37,
+    "high_confidence": 36,
     "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 39,
+    "passed": 37,
     "anomaly_count": 0
   }
 }

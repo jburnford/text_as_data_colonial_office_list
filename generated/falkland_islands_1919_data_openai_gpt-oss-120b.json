@@ -1,7 +1,7 @@
 {
   "colony": "Falkland Islands",
   "year": 1919,
-  "generated": "2026-03-12T08:35:58.927311",
+  "generated": "2026-03-12T15:37:19.245957",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 48,
@@ -33,7 +33,7 @@
       "department": "Civil Establishment",
       "salary_min": 108,
       "salary_max": 108,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -131,7 +131,7 @@
       "department": "Treasury and Customs",
       "salary_min": 300,
       "salary_max": 400,
-      "allowances": null,
+      "allowances": "fees, 50l. as Manager Savings Bank",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -147,12 +147,12 @@
       "department": "Stanley",
       "salary_min": 160,
       "salary_max": 180,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Stanley"
+      "location": null
     },
     {
       "name": "A. G. Bennett",
@@ -163,12 +163,12 @@
       "department": "Stanley",
       "salary_min": 132,
       "salary_max": 132,
-      "allowances": null,
+      "allowances": "fees and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Stanley"
+      "location": null
     },
     {
       "name": "S. Riches",
@@ -179,12 +179,12 @@
       "department": "Stanley",
       "salary_min": 132,
       "salary_max": 132,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Stanley"
+      "location": null
     },
     {
       "name": "W. Barlas",
@@ -200,14 +200,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "New Island"
+      "location": null
     },
     {
       "name": "E. B. Binnie",
       "canonical_name": "Binnie, E. B.",
       "given_names": "E. B.",
       "surname": "Binnie",
-      "position": "Deputy Collector, also Magistrate",
+      "position": "Deputy Collector",
       "department": "South Georgia",
       "salary_min": null,
       "salary_max": null,
@@ -216,7 +216,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "South Georgia"
+      "location": null
     },
     {
       "name": "A. G. Simon",
@@ -226,13 +226,13 @@
       "position": "Customs Officer",
       "department": "South Georgia",
       "salary_min": 150,
-      "salary_max:": 150,
+      "salary_max": 150,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "South Georgia"
+      "location": null
     },
     {
       "name": "J. Wood",
@@ -248,7 +248,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "South Georgia"
+      "location": null
     },
     {
       "name": "M. Craigie-Halkett",
@@ -291,7 +291,7 @@
       "department": "Medical",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "25l.",
+      "allowances": "25l. as Health Officer",
       "honors": [],
       "qualifications": [
         "L.R.C.P."
@@ -344,12 +344,12 @@
       "department": "Medical",
       "salary_min": 90,
       "salary_max": 90,
-      "allowances": null,
+      "allowances": "board and quarters at Hospital",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "King Edward VII. Memorial Hospital"
     },
     {
       "name": "M. Craigie-Halkett",
@@ -372,7 +372,7 @@
       "canonical_name": "Binnie, E. B.",
       "given_names": "E. B.",
       "surname": "Binnie",
-      "position": "Magistrate, South Georgia",
+      "position": "Magistrate",
       "department": "Judicial Department",
       "salary_min": 300,
       "salary_max": 300,
@@ -381,7 +381,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South Georgia"
     },
     {
       "name": "A. R. Hoare",
@@ -392,7 +392,7 @@
       "department": "Educational",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "quarters, 40l. personal",
+      "allowances": "and quarters, and 40l. personal",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -408,7 +408,7 @@
       "department": "Educational",
       "salary_min": 75,
       "salary_max": 75,
-      "allowances": "25l. personal",
+      "allowances": "and 25l. personal",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -472,7 +472,7 @@
       "department": "Police and Prisons",
       "salary_min": 108,
       "salary_max": 108,
-      "allowances": "quarters",
+      "allowances": "and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -488,7 +488,7 @@
       "department": "Police and Prisons",
       "salary_min": 96,
       "salary_max": 96,
-      "allowances": "quarters",
+      "allowances": "and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -504,7 +504,7 @@
       "department": "Public Works",
       "salary_min": 325,
       "salary_max": 400,
-      "allowances": null,
+      "allowances": "by 25l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -532,7 +532,7 @@
       "canonical_name": "Atkins, W.",
       "given_names": "W.",
       "surname": "Atkins",
-      "position": "Foreman of Works",
+      "position": "Foreman of Works, Outdoor",
       "department": "Public Works",
       "salary_min": 36,
       "salary_max": 36,
@@ -541,7 +541,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Outdoor"
+      "location": null
     },
     {
       "name": "T. King",
@@ -568,7 +568,7 @@
       "department": "Public Works",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -632,7 +632,7 @@
       "department": "Port and Harbour",
       "salary_min": 180,
       "salary_max": 180,
-      "allowances": "50l. personal",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -676,11 +676,11 @@
       "canonical_name": "Sully, A. W.",
       "given_names": "A. W.",
       "surname": "Sully",
-      "position": "Two Assistants",
+      "position": "Assistant",
       "department": "Port and Harbour",
       "salary_min": 130,
       "salary_max": 130,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -692,11 +692,11 @@
       "canonical_name": "Liddell, J.",
       "given_names": "J.",
       "surname": "Liddell",
-      "position": "Two Assistants",
+      "position": "Assistant",
       "department": "Port and Harbour",
       "salary_min": 96,
       "salary_max": 96,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,

@@ -1,10 +1,10 @@
 {
   "colony": "Seychelles",
   "year": 1909,
-  "generated": "2026-03-12T08:48:31.722259",
+  "generated": "2026-03-12T14:49:53.081668",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 109,
+  "total_officials": 107,
   "officials": [
     {
       "name": "Walter Edward Davidson",
@@ -281,7 +281,7 @@
       "location": null
     },
     {
-      "name": "Capt. D. Sauvage",
+      "name": "D. Sauvage",
       "canonical_name": "Sauvage, D.",
       "given_names": "D.",
       "surname": "Sauvage",
@@ -413,7 +413,7 @@
       "canonical_name": "Tregarthen, J. H.",
       "given_names": "J. H.",
       "surname": "Tregarthen",
-      "position": "2nd Clerk",
+      "position": "2nd",
       "department": "Legal Department",
       "salary_min": 840,
       "salary_max": 840,
@@ -429,7 +429,7 @@
       "canonical_name": "Petit, E.",
       "given_names": "E.",
       "surname": "Petit",
-      "position": "3rd Clerk",
+      "position": "3rd",
       "department": "Legal Department",
       "salary_min": 240,
       "salary_max": 480,
@@ -491,22 +491,6 @@
       "location": "Praslin District"
     },
     {
-      "name": "A. Williamson",
-      "canonical_name": "Williamson, A.",
-      "given_names": "A.",
-      "surname": "Williamson",
-      "position": "Conservator of Mortgages and Receiver of Registration Dues",
-      "department": "Mortgage and Registration Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "G. A. Poussou",
       "canonical_name": "Poussou, G. A.",
       "given_names": "G. A.",
@@ -527,7 +511,7 @@
       "canonical_name": "Cosgrow, C.",
       "given_names": "C.",
       "surname": "Cosgrow",
-      "position": "2nd Clerk",
+      "position": "Chief Clerk",
       "department": "Mortgage and Registration Department",
       "salary_min": 480,
       "salary_max": 600,
@@ -543,26 +527,10 @@
       "canonical_name": "Calais, J.",
       "given_names": "J.",
       "surname": "Calais",
-      "position": "3rd Clerk",
+      "position": "Chief Clerk",
       "department": "Mortgage and Registration Department",
       "salary_min": 240,
       "salary_max": 480,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "A. Williamson",
-      "canonical_name": "Williamson, A.",
-      "given_names": "A.",
-      "surname": "Williamson",
-      "position": "Official Assignee in Bankruptcy and Curator of Vacant Estates",
-      "department": "Bankruptcy and Curatele",
-      "salary_min": null,
-      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -659,7 +627,7 @@
       "department": "Police Department",
       "salary_min": 720,
       "salary_max": 720,
-      "allowances": "Rs. 120 personal allowance",
+      "allowances": "personal allowance of Rs. 120",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -683,9 +651,9 @@
       "location": null
     },
     {
-      "name": "William L. Rind",
-      "canonical_name": "Rind, William L.",
-      "given_names": "William L.",
+      "name": "W. L. Rind",
+      "canonical_name": "Rind, W. L.",
+      "given_names": "W. L.",
       "surname": "Rind",
       "position": "Superintendent of Printing",
       "department": "Prison Department",
@@ -867,7 +835,7 @@
       "department": "Medical Department",
       "salary_min": 4500,
       "salary_max": 4500,
-      "allowances": "with private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.R.C.S.",
@@ -882,11 +850,11 @@
       "canonical_name": "Martin, G. J. M.",
       "given_names": "G. J. M.",
       "surname": "Martin",
-      "position": "Assistant Medical Officer",
+      "position": "Assistant Medical Officer, Praslin District",
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "with quarters and private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "L.R.C.P."
@@ -900,11 +868,11 @@
       "canonical_name": "Bradley, J. T.",
       "given_names": "J. T.",
       "surname": "Bradley",
-      "position": "Assistant Medical Officer",
+      "position": "Assistant Medical Officer, South Mah\u00e9 District",
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "with quarters and private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.D.",
@@ -923,7 +891,7 @@
       "department": "Medical Department",
       "salary_min": 1500,
       "salary_max": 1500,
-      "allowances": "with quarters and private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "L.R.C.P."
@@ -966,9 +934,9 @@
     },
     {
       "name": "S. St. Landri",
-      "canonical_name": "Landri, S. St.",
-      "given_names": "S. St.",
-      "surname": "Landri",
+      "canonical_name": "St. Landri, S.",
+      "given_names": "S.",
+      "surname": "St. Landri",
       "position": "Matron, do.",
       "department": "Medical Department",
       "salary_min": 400,
@@ -1021,7 +989,7 @@
       "department": "Medical Department",
       "salary_min": 840,
       "salary_max": 840,
-      "allowances": "with Rs. 120 for quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1037,7 +1005,7 @@
       "department": "Medical Department",
       "salary_min": 840,
       "salary_max": 840,
-      "allowances": "with Rs. 120 for quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1053,7 +1021,7 @@
       "department": "Medical Department",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "quarters and rations",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1079,7 +1047,7 @@
     {
       "name": "Damascene",
       "canonical_name": "Damascene",
-      "given_names": "",
+      "given_names": null,
       "surname": "Damascene",
       "position": "Priest",
       "department": "Roman Catholic Church",
@@ -1095,7 +1063,7 @@
     {
       "name": "C\u00e9saire",
       "canonical_name": "C\u00e9saire",
-      "given_names": "",
+      "given_names": null,
       "surname": "C\u00e9saire",
       "position": "Priest",
       "department": "Roman Catholic Church",
@@ -1111,7 +1079,7 @@
     {
       "name": "Laurent",
       "canonical_name": "Laurent",
-      "given_names": "",
+      "given_names": null,
       "surname": "Laurent",
       "position": "Priest",
       "department": "Roman Catholic Church",
@@ -1225,7 +1193,7 @@
       "location": null
     },
     {
-      "name": "R. Harter (acting)",
+      "name": "R. Harter",
       "canonical_name": "Harter, R.",
       "given_names": "R.",
       "surname": "Harter",
@@ -1257,7 +1225,7 @@
       "location": null
     },
     {
-      "name": "K. Power (acting)",
+      "name": "K. Power",
       "canonical_name": "Power, K.",
       "given_names": "K.",
       "surname": "Power",
@@ -1273,7 +1241,7 @@
       "location": null
     },
     {
-      "name": "Miss Rosalie Vel",
+      "name": "Rosalie Vel",
       "canonical_name": "Vel, Rosalie",
       "given_names": "Rosalie",
       "surname": "Vel",
@@ -1369,7 +1337,7 @@
       "location": null
     },
     {
-      "name": "F. Godley, jr.",
+      "name": "F. Godley",
       "canonical_name": "Godley, F.",
       "given_names": "F.",
       "surname": "Godley",
@@ -1713,7 +1681,7 @@
       "canonical_name": "Brooks, J. H.",
       "given_names": "J. H.",
       "surname": "Brooks",
-      "position": "Consul",
+      "position": "Germany",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1729,7 +1697,7 @@
       "canonical_name": "Parc, H. A.",
       "given_names": "H. A.",
       "surname": "Parc",
-      "position": "Consul (acting)",
+      "position": "Italy",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1745,7 +1713,7 @@
       "canonical_name": "Merian, A.",
       "given_names": "A.",
       "surname": "Merian",
-      "position": "Consul",
+      "position": "Portugal",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1761,7 +1729,7 @@
       "canonical_name": "Lanier, E.",
       "given_names": "E.",
       "surname": "Lanier",
-      "position": "Consular Agent",
+      "position": "France",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1776,12 +1744,12 @@
   "validation_summary": {
     "colony": "Seychelles",
     "year": 1909,
-    "total": 109,
-    "high_confidence": 106,
+    "total": 107,
+    "high_confidence": 104,
     "medium_confidence": 3,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 109,
-    "anomaly_count": 14
+    "passed": 107,
+    "anomaly_count": 13
   }
 }

@@ -1,7 +1,7 @@
 {
   "colony": "Gambia",
   "year": 1914,
-  "generated": "2026-03-12T06:14:09.055491",
+  "generated": "2026-03-12T15:07:32.239121",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 191,
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "A. M. Inglis",
+      "name": "Capt. A. M. Inglis",
       "canonical_name": "Inglis, A. M.",
       "given_names": "A. M.",
       "surname": "Inglis",
@@ -65,7 +65,7 @@
       "department": "Secretariat",
       "salary_min": 600,
       "salary_max": 700,
-      "allowances": "by 25l. per annum, and 120l. duty allowance",
+      "allowances": "120l. duty allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -81,7 +81,7 @@
       "department": "Secretariat",
       "salary_min": 400,
       "salary_max": 500,
-      "allowances": "by 20l. per annum, and 50l. duty allowance",
+      "allowances": "50l. duty allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -97,7 +97,7 @@
       "department": "Secretariat",
       "salary_min": 160,
       "salary_max": 200,
-      "allowances": "by 10l. per annum",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -113,7 +113,7 @@
       "department": "Secretariat",
       "salary_min": 100,
       "salary_max": 125,
-      "allowances": "by 5l. per annum",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -177,7 +177,7 @@
       "department": "Treasury Branch",
       "salary_min": 200,
       "salary_max": 250,
-      "allowances": "by 10l.",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -289,7 +289,7 @@
       "department": "Customs Branch",
       "salary_min": 175,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "5l. per annum",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -609,7 +609,7 @@
       "department": "Education",
       "salary_min": 250,
       "salary_max": 300,
-      "allowances": "10l. per annum",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -643,7 +643,7 @@
       "department": "Protectorate",
       "salary_min": 300,
       "salary_max": 400,
-      "allowances": "10s. per diem travelling allowance",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -659,7 +659,7 @@
       "department": "Protectorate",
       "salary_min": 300,
       "salary_max": 400,
-      "allowances": "10s. per diem travelling allowance",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -675,7 +675,7 @@
       "department": "Protectorate",
       "salary_min": 300,
       "salary_max": 400,
-      "allowances": "10s. per diem travelling allowance",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Captain",
@@ -691,7 +691,7 @@
       "department": "Protectorate",
       "salary_min": 300,
       "salary_max": 400,
-      "allowances": "10s. per diem travelling allowance",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -707,7 +707,7 @@
       "department": "West African Frontier Force",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "command pay, 96l.",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Captain",
@@ -754,7 +754,7 @@
       "position": "Sergeant",
       "department": "West African Frontier Force",
       "salary_min": 120,
-      "salary_max:": 120,
+      "salary_max": 120,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -1043,7 +1043,7 @@
       "department": "Colonial Engineer's Department",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "100l. duty allowance, forage allowance 2s. 3d. per diem",
+      "allowances": "100l. duty allowance, forage allowance 2s. 3d. per diem.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1139,7 +1139,7 @@
       "department": "Colonial Engineer's Department",
       "salary_min": 150,
       "salary_max": 200,
-      "allowances": "by 10l. per annum",
+      "allowances": "by 10l. per annum.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1219,7 +1219,7 @@
       "department": "Audit Office",
       "salary_min": 75,
       "salary_max": 100,
-      "allowances": null,
+      "allowances": "by 5l. per annum",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1235,7 +1235,7 @@
       "department": "Audit Office",
       "salary_min": 50,
       "salary_max": 60,
-      "allowances": null,
+      "allowances": "by 2l. per annum",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1251,7 +1251,7 @@
       "department": "Government Vessels",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "50l. messing allowance",
+      "allowances": "and 50l. messing allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1327,7 +1327,7 @@
       "canonical_name": "Hughes, C. A.",
       "given_names": "C. A.",
       "surname": "Hughes",
-      "position": "6th Grade Clerks",
+      "position": "6th Grade Clerk",
       "department": "Post Office",
       "salary_min": 30,
       "salary_max": 40,
@@ -1343,7 +1343,7 @@
       "canonical_name": "Davies, T. W.",
       "given_names": "T. W.",
       "surname": "Davies",
-      "position": "6th Grade Clerks",
+      "position": "6th Grade Clerk",
       "department": "Post Office",
       "salary_min": 30,
       "salary_max": 40,
@@ -1403,7 +1403,7 @@
       "location": null
     },
     {
-      "name": "Sir H. S. G. Miles",
+      "name": "Lieut.-General Sir H. S. G. Miles",
       "canonical_name": "Miles, H. S. G.",
       "given_names": "H. S. G.",
       "surname": "Miles",
@@ -1412,14 +1412,17 @@
       "salary_min": 4500,
       "salary_max": 4500,
       "allowances": "table allowance of 500l. from Army Funds",
-      "honors": [],
+      "honors": [
+        "G.C.B.",
+        "C.V.O."
+      ],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.-General",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "T. D. Jackson",
+      "name": "Captain T. D. Jackson",
       "canonical_name": "Jackson, T. D.",
       "given_names": "T. D.",
       "surname": "Jackson",
@@ -1429,6 +1432,7 @@
       "salary_max": null,
       "allowances": null,
       "honors": [
+        "M.V.O.",
         "D.S.O."
       ],
       "qualifications": [],
@@ -1437,7 +1441,7 @@
       "location": null
     },
     {
-      "name": "C. H. Grenville",
+      "name": "Lieut. C. H. Grenville",
       "canonical_name": "Grenville, C. H.",
       "given_names": "C. H.",
       "surname": "Grenville",
@@ -1448,7 +1452,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
@@ -1632,7 +1636,7 @@
       "location": null
     },
     {
-      "name": "Commander W. H. Niles",
+      "name": "Commander W. H. Niles, R.D.R.N.R.",
       "canonical_name": "Niles, W. H.",
       "given_names": "W. H.",
       "surname": "Niles",
@@ -1643,7 +1647,7 @@
       "allowances": "60l. as Superintendent of Lighthouse",
       "honors": [],
       "qualifications": [],
-      "military_rank": "Commander",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1688,7 +1692,7 @@
       "department": "Public Works",
       "salary_min": 500,
       "salary_max": 600,
-      "allowances": "42l. forage allowance",
+      "allowances": "42l. for forage allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2187,7 +2191,7 @@
       "canonical_name": "Montegriffo, M.",
       "given_names": "M.",
       "surname": "Montegriffo",
-      "position": "1st Class Clerk, Colonial Hospital",
+      "position": "1st Class Clerk, Secretary, Colonial Hospital",
       "department": "Medical Department",
       "salary_min": 210,
       "salary_max": 300,
@@ -2458,7 +2462,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Major-General",
       "salary_scale": null,
       "location": null
     },
@@ -2522,7 +2526,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Rear-Admiral",
       "salary_scale": null,
       "location": null
     },
@@ -2547,19 +2551,19 @@
       "canonical_name": "Harvey, I.",
       "given_names": "I.",
       "surname": "Harvey",
-      "position": "Commander H.M.S. Cormorant",
+      "position": "Commander H.M.S. \"Cormorant,\"",
       "department": "Chief Military and Naval Officers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Commander",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "C. Rugeroni (Vice-Consul)",
+      "name": "C. Rugeroni",
       "canonical_name": "Rugeroni, C.",
       "given_names": "C.",
       "surname": "Rugeroni",
@@ -2607,7 +2611,7 @@
       "location": null
     },
     {
-      "name": "A. Onetti (Consul)",
+      "name": "A. Onetti",
       "canonical_name": "Onetti, A.",
       "given_names": "A.",
       "surname": "Onetti",
@@ -2623,7 +2627,7 @@
       "location": null
     },
     {
-      "name": "J. Onetti (Vice-Consul)",
+      "name": "J. Onetti",
       "canonical_name": "Onetti, J.",
       "given_names": "J.",
       "surname": "Onetti",
@@ -2751,7 +2755,7 @@
       "location": null
     },
     {
-      "name": "J. A. Patron, C.M. G. (Consul)",
+      "name": "J. A. Patron",
       "canonical_name": "Patron, J. A.",
       "given_names": "J. A.",
       "surname": "Patron",
@@ -2760,16 +2764,14 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [
-        "C.M.G."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "W. J. J. Thomson (Vice-Consul)",
+      "name": "W. J. J. Thomson",
       "canonical_name": "Thomson, W. J. J.",
       "given_names": "W. J. J.",
       "surname": "Thomson",
@@ -2897,7 +2899,7 @@
       "location": null
     },
     {
-      "name": "V. Nunes Tavares (Consul)",
+      "name": "V. Nunes Tavares",
       "canonical_name": "Nunes Tavares, V.",
       "given_names": "V.",
       "surname": "Nunes Tavares",
@@ -2913,7 +2915,7 @@
       "location": null
     },
     {
-      "name": "J. F. dos Santos (Vice-Consul)",
+      "name": "J. F. dos Santos",
       "canonical_name": "dos Santos, J. F.",
       "given_names": "J. F.",
       "surname": "dos Santos",
@@ -2929,7 +2931,7 @@
       "location": null
     },
     {
-      "name": "A. Porral, C.M.G., I.S.O.",
+      "name": "A. Porral",
       "canonical_name": "Porral, A.",
       "given_names": "A.",
       "surname": "Porral",
@@ -2939,8 +2941,7 @@
       "salary_max": null,
       "allowances": null,
       "honors": [
-        "C.M.G.",
-        "I.S.O."
+        "C.M.G."
       ],
       "qualifications": [],
       "military_rank": null,
@@ -2948,7 +2949,7 @@
       "location": null
     },
     {
-      "name": "F. Marti y Diaz de J\u00e1uregui (Consul-General)",
+      "name": "F. Marti y Diaz de J\u00e1uregui",
       "canonical_name": "Marti y Diaz de J\u00e1uregui, F.",
       "given_names": "F.",
       "surname": "Marti y Diaz de J\u00e1uregui",
@@ -2964,7 +2965,7 @@
       "location": null
     },
     {
-      "name": "I. Fernandez Gambos (Vice-Consul)",
+      "name": "I. Fernandez Gambos",
       "canonical_name": "Fernandez Gambos, I.",
       "given_names": "I.",
       "surname": "Fernandez Gambos",
@@ -3012,7 +3013,7 @@
       "location": null
     },
     {
-      "name": "R. L. Sprague (Consul)",
+      "name": "R. L. Sprague",
       "canonical_name": "Sprague, R. L.",
       "given_names": "R. L.",
       "surname": "Sprague",
@@ -3028,7 +3029,7 @@
       "location": null
     },
     {
-      "name": "A. D. Hayden (Vice and Deputy Consul)",
+      "name": "A. D. Hayden",
       "canonical_name": "Hayden, A. D.",
       "given_names": "A. D.",
       "surname": "Hayden",
@@ -3044,7 +3045,7 @@
       "location": null
     },
     {
-      "name": "A. Corsi (Consul)",
+      "name": "A. Corsi",
       "canonical_name": "Corsi, A.",
       "given_names": "A.",
       "surname": "Corsi",
@@ -3060,7 +3061,7 @@
       "location": null
     },
     {
-      "name": "M. Corsi (Vice-Consul)",
+      "name": "M. Corsi",
       "canonical_name": "Corsi, M.",
       "given_names": "M.",
       "surname": "Corsi",
@@ -3076,7 +3077,7 @@
       "location": null
     },
     {
-      "name": "F. Vasquez (Vice-Consul)",
+      "name": "F. Vasquez",
       "canonical_name": "Vasquez, F.",
       "given_names": "F.",
       "surname": "Vasquez",

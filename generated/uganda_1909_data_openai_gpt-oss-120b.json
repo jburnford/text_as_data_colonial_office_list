@@ -1,13 +1,13 @@
 {
   "colony": "Uganda",
   "year": 1909,
-  "generated": "2026-03-12T08:46:57.881401",
+  "generated": "2026-03-12T14:48:55.273318",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 13,
+  "total_officials": 14,
   "officials": [
     {
-      "name": "Sir H. H. Johnston",
+      "name": "H. H. Johnston",
       "canonical_name": "Johnston, H. H.",
       "given_names": "H. H.",
       "surname": "Johnston",
@@ -44,7 +44,7 @@
       "location": null
     },
     {
-      "name": "Colonel J. Hayes-Sadler",
+      "name": "J. Hayes-Sadler",
       "canonical_name": "Hayes-Sadler, J.",
       "given_names": "J.",
       "surname": "Hayes-Sadler",
@@ -62,9 +62,27 @@
       "location": null
     },
     {
-      "name": "Sir J. H. Stewart Lockhart",
-      "canonical_name": "Lockhart, J. H. Stewart",
-      "given_names": "J. H. Stewart",
+      "name": "H. Hesketh-Bell",
+      "canonical_name": "Hesketh-Bell, H.",
+      "given_names": "H.",
+      "surname": "Hesketh-Bell",
+      "position": "Administrator",
+      "department": "Administration",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "J. H. Stewart Lockhart",
+      "canonical_name": "Lockhart, J. H.",
+      "given_names": "J. H.",
       "surname": "Lockhart",
       "position": "Commissioner",
       "department": "Administration",
@@ -228,11 +246,11 @@
     "colony": "Uganda",
     "year": 1909,
     "total": 14,
-    "high_confidence": 13,
+    "high_confidence": 14,
     "medium_confidence": 0,
-    "low_confidence": 1,
-    "quarantined": 1,
-    "passed": 13,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 14,
     "anomaly_count": 0
   }
 }

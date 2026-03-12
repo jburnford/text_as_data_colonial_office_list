@@ -1,13 +1,13 @@
 {
   "colony": "St. Lucia",
   "year": 1917,
-  "generated": "2026-03-12T09:26:53.402370",
+  "generated": "2026-03-12T15:25:31.892496",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 89,
   "officials": [
     {
-      "name": "C. Gideon Murray",
+      "name": "The Hon. C. Gideon Murray",
       "canonical_name": "Murray, C. Gideon",
       "given_names": "C. Gideon",
       "surname": "Murray",
@@ -281,10 +281,10 @@
       "location": null
     },
     {
-      "name": "G. L. Phillip",
-      "canonical_name": "Phillip, G. L.",
-      "given_names": "G. L.",
-      "surname": "Phillip",
+      "name": "G. L. Phillip Denney",
+      "canonical_name": "Denney, G. L. Phillip",
+      "given_names": "G. L. Phillip",
+      "surname": "Denney",
       "position": "Sub-Collector and District Government Officer",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 100,
@@ -294,7 +294,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Denney"
+      "location": null
     },
     {
       "name": "F. H. Otway",
@@ -358,7 +358,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "W. Islands"
+      "location": null
     },
     {
       "name": "S. W. Brathwaite",
@@ -529,7 +529,7 @@
       "department": "Colonial Engineer's Department",
       "salary_min": 250,
       "salary_max": 250,
-      "allowances": "forage allowance, 50l.",
+      "allowances": "forage allowance, 50l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -589,7 +589,7 @@
       "canonical_name": "Chalon, T.",
       "given_names": "T.",
       "surname": "Chalon",
-      "position": "District Officers",
+      "position": "District Officer",
       "department": "Colonial Engineer's Department",
       "salary_min": 130,
       "salary_max": 130,
@@ -605,7 +605,7 @@
       "canonical_name": "Davis, W. E.",
       "given_names": "W. E.",
       "surname": "Davis",
-      "position": "District Officers",
+      "position": "District Officer",
       "department": "Colonial Engineer's Department",
       "salary_min": 100,
       "salary_max": 100,
@@ -689,7 +689,7 @@
       "department": "Colonial Engineer's Department",
       "salary_min": 75,
       "salary_max": 75,
-      "allowances": "travelling allowance, 72l.",
+      "allowances": "travelling allowance, 72l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -714,9 +714,9 @@
     },
     {
       "name": "G. O'D. Walton",
-      "canonical_name": "O'D. Walton, G.",
-      "given_names": "G.",
-      "surname": "O'D. Walton",
+      "canonical_name": "Walton, G. O'D.",
+      "given_names": "G. O'D.",
+      "surname": "Walton",
       "position": "Attorney-General",
       "department": "Judicial",
       "salary_min": 500,
@@ -833,7 +833,7 @@
       "department": "Judicial",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "fees, and 50l. travelling allowance",
+      "allowances": "fees, 3rd ditto, and 50l. travelling allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -881,7 +881,7 @@
       "department": "Judicial",
       "salary_min": 75,
       "salary_max": 75,
-      "allowances": "fees, is also assistant to Sub-Collector and Government Officer",
+      "allowances": "fees, is also assistant to Sub-Collector and Government Officer, Soufriere",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -993,7 +993,7 @@
       "department": "Medical",
       "salary_min": 125,
       "salary_max": 125,
-      "allowances": "48l. forage allowance, and 24l. subsistence allowance",
+      "allowances": "48l. forage allowance, 24l. subsistence allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1005,7 +1005,7 @@
       "canonical_name": "Kidd, A.",
       "given_names": "A.",
       "surname": "Kidd",
-      "position": "House Surgeon, Victoria Hospital, Bacteriologist and Medical Superintendent Lunatic Asylum",
+      "position": "House Surgeon, Bacteriologist and Medical Superintendent",
       "department": "Medical",
       "salary_min": 350,
       "salary_max": 350,
@@ -1025,7 +1025,7 @@
       "department": "Agricultural",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "free quarters, and forage allowance 48l.",
+      "allowances": "free quarters, forage allowance 48l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1069,7 +1069,7 @@
       "canonical_name": "Smith, J.",
       "given_names": "J.",
       "surname": "Smith",
-      "position": "Foreman, Reunion Experimental Station",
+      "position": "Foreman",
       "department": "Agricultural",
       "salary_min": 60,
       "salary_max": 60,
@@ -1078,7 +1078,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Reunion Experimental Station"
     },
     {
       "name": "Major G. J. L. Golding",
@@ -1165,7 +1165,7 @@
       "canonical_name": "Kirby, A. R.",
       "given_names": "A. R.",
       "surname": "Kirby",
-      "position": "West Indian Minister, Castries",
+      "position": "West Indian Minister",
       "department": "Ecclesiastical",
       "salary_min": 100,
       "salary_max": 100,
@@ -1215,30 +1215,30 @@
       "canonical_name": "Paret, Louis Mallet",
       "given_names": "Louis Mallet",
       "surname": "Paret",
-      "position": "Captain",
+      "position": "Captains",
       "department": "St. Lucia Volunteers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
       "name": "H. de Minville",
-      "canonical_name": "de Minville, H.",
-      "given_names": "H.",
-      "surname": "de Minville",
-      "position": "Captain",
+      "canonical_name": "Minville, H. de",
+      "given_names": "H. de",
+      "surname": "Minville",
+      "position": "Captains",
       "department": "St. Lucia Volunteers",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1254,7 +1254,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieutenant",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1263,7 +1263,7 @@
       "canonical_name": "Harris, W. B.",
       "given_names": "W. B.",
       "surname": "Harris",
-      "position": "Second Lieutenant",
+      "position": "Second Lieutenants",
       "department": "St. Lucia Volunteers",
       "salary_min": null,
       "salary_max": null,
@@ -1279,7 +1279,7 @@
       "canonical_name": "Gordon, G. S. E.",
       "given_names": "G. S. E.",
       "surname": "Gordon",
-      "position": "Second Lieutenant",
+      "position": "Second Lieutenants",
       "department": "St. Lucia Volunteers",
       "salary_min": null,
       "salary_max": null,
@@ -1295,7 +1295,7 @@
       "canonical_name": "Ferguson, A. J. K.",
       "given_names": "A. J. K.",
       "surname": "Ferguson",
-      "position": "Second Lieutenant",
+      "position": "Second Lieutenants",
       "department": "St. Lucia Volunteers",
       "salary_min": null,
       "salary_max": null,
@@ -1311,7 +1311,7 @@
       "canonical_name": "Ryan, T.",
       "given_names": "T.",
       "surname": "Ryan",
-      "position": "Second Lieutenant",
+      "position": "Second Lieutenants",
       "department": "St. Lucia Volunteers",
       "salary_min": null,
       "salary_max": null,
@@ -1327,7 +1327,7 @@
       "canonical_name": "Johnson, F.",
       "given_names": "F.",
       "surname": "Johnson",
-      "position": "Second Lieutenant",
+      "position": "Second Lieutenants",
       "department": "St. Lucia Volunteers",
       "salary_min": null,
       "salary_max": null,
@@ -1352,13 +1352,13 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Brazil"
     },
     {
       "name": "H. de Minville",
-      "canonical_name": "de Minville, H.",
-      "given_names": "H.",
-      "surname": "de Minville",
+      "canonical_name": "Minville, H. de",
+      "given_names": "H. de",
+      "surname": "Minville",
       "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -1368,7 +1368,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     },
     {
       "name": "George Davidson",
@@ -1384,7 +1384,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Norway"
     },
     {
       "name": "W. Barnard",
@@ -1400,7 +1400,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Portugal"
     },
     {
       "name": "William Peter",
@@ -1416,12 +1416,12 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "United States of America"
     },
     {
-      "name": "M. F. Eizaguirre",
-      "canonical_name": "Eizaguirre, M. F.",
-      "given_names": "M. F.",
+      "name": "Dr. M. F. Eizaguirre",
+      "canonical_name": "Eizaguirre, Dr. M. F.",
+      "given_names": "Dr. M. F.",
       "surname": "Eizaguirre",
       "position": "Consul",
       "department": "Foreign Consuls",
@@ -1432,7 +1432,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Grenada"
+      "location": "Venezuela"
     }
   ],
   "validation_summary": {

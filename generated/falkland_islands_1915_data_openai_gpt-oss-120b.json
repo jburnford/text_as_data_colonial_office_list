@@ -1,7 +1,7 @@
 {
   "colony": "Falkland Islands",
   "year": 1915,
-  "generated": "2026-03-12T09:05:34.585724",
+  "generated": "2026-03-12T15:11:16.424658",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 26,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 1250,
       "salary_max": 1250,
-      "allowances": "entertaining allowance 250l.",
+      "allowances": "entertaining allowance 250l., and fees",
       "honors": [
         "C.M.G."
       ],
@@ -138,7 +138,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "New Island"
+      "location": null
     },
     {
       "name": "M. Craigie-Halkett",
@@ -157,7 +157,7 @@
       "location": null
     },
     {
-      "name": "I. Atkins",
+      "name": "Miss I. Atkins",
       "canonical_name": "Atkins, I.",
       "given_names": "I.",
       "surname": "Atkins",
@@ -173,7 +173,7 @@
       "location": null
     },
     {
-      "name": "A. H. B. Pearce",
+      "name": "Dr. A. H. B. Pearce",
       "canonical_name": "Pearce, A. H. B.",
       "given_names": "A. H. B.",
       "surname": "Pearce",
@@ -189,7 +189,7 @@
       "location": null
     },
     {
-      "name": "H. M. Stanley-Turner",
+      "name": "Dr. H. M. Stanley-Turner",
       "canonical_name": "Stanley-Turner, H. M.",
       "given_names": "H. M.",
       "surname": "Stanley-Turner",
@@ -209,7 +209,7 @@
       "canonical_name": "Wilson, J. Inne",
       "given_names": "J. Inne",
       "surname": "Wilson",
-      "position": "Stipendiary Magistrate, S. Georgia",
+      "position": "Stipendiary Magistrate",
       "department": "Civil Establishment",
       "salary_min": 300,
       "salary_max": 300,
@@ -225,7 +225,7 @@
       "canonical_name": "Newing, A.",
       "given_names": "A.",
       "surname": "Newing",
-      "position": "Customs Officer, S. Georgia",
+      "position": "Customs Officer",
       "department": "Civil Establishment",
       "salary_min": 150,
       "salary_max": 150,
@@ -253,7 +253,7 @@
       "location": null
     },
     {
-      "name": "J. Souter",
+      "name": "Mrs. J. Souter",
       "canonical_name": "Souter, J.",
       "given_names": "J.",
       "surname": "Souter",
@@ -285,7 +285,7 @@
       "location": null
     },
     {
-      "name": "G. M. Smith",
+      "name": "Capt. G. M. Smith",
       "canonical_name": "Smith, G. M.",
       "given_names": "G. M.",
       "surname": "Smith",
@@ -317,7 +317,7 @@
       "location": null
     },
     {
-      "name": "L. F. D. Blair",
+      "name": "the Right Rev. L. F. D. Blair",
       "canonical_name": "Blair, L. F. D.",
       "given_names": "L. F. D.",
       "surname": "Blair",
@@ -333,7 +333,7 @@
       "location": null
     },
     {
-      "name": "E. J. Seymour",
+      "name": "The Very Rev. Dean E. J. Seymour",
       "canonical_name": "Seymour, E. J.",
       "given_names": "E. J.",
       "surname": "Seymour",
@@ -349,7 +349,7 @@
       "location": null
     },
     {
-      "name": "C. McD. Hobley",
+      "name": "The Rev. C. McD. Hobley",
       "canonical_name": "Hobley, C. McD.",
       "given_names": "C. McD.",
       "surname": "Hobley",
@@ -365,7 +365,7 @@
       "location": null
     },
     {
-      "name": "Robt. Johnson",
+      "name": "The Rev. Robt. Johnson",
       "canonical_name": "Johnson, Robt.",
       "given_names": "Robt.",
       "surname": "Johnson",
@@ -381,7 +381,7 @@
       "location": null
     },
     {
-      "name": "M. L. Migone",
+      "name": "Rev. M. L. Migone",
       "canonical_name": "Migone, M. L.",
       "given_names": "M. L.",
       "surname": "Migone",

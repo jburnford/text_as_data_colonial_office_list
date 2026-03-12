@@ -1,7 +1,7 @@
 {
   "colony": "Bahamas",
   "year": 1917,
-  "generated": "2026-03-12T09:15:15.055714",
+  "generated": "2026-03-12T15:18:21.123507",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 109,
@@ -20,15 +20,15 @@
         "K.C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Vice-Admiral",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
       "name": "A. D. Sherwood Smith",
-      "canonical_name": "Sherwood Smith, A. D.",
-      "given_names": "A. D.",
-      "surname": "Sherwood Smith",
+      "canonical_name": "Smith, A. D. Sherwood",
+      "given_names": "A. D. Sherwood",
+      "surname": "Smith",
       "position": "A.D.C., also Private Secretary and Clerk to Executive Council",
       "department": "Civil Establishment",
       "salary_min": 200,
@@ -175,7 +175,7 @@
       "canonical_name": "Pashley, E. R.",
       "given_names": "E. R.",
       "surname": "Pashley",
-      "position": "Comptroller",
+      "position": "Comptroller; Registrar of Shipping",
       "department": "Customs",
       "salary_min": 350,
       "salary_max": 350,
@@ -223,7 +223,7 @@
       "canonical_name": "Wallace, E.",
       "given_names": "E.",
       "surname": "Wallace",
-      "position": "Tide Waiters",
+      "position": "Tide Waiter",
       "department": "Customs",
       "salary_min": 80,
       "salary_max": 80,
@@ -239,7 +239,7 @@
       "canonical_name": "Bascome, H. D.",
       "given_names": "H. D.",
       "surname": "Bascome",
-      "position": "Tide Waiters",
+      "position": "Tide Waiter",
       "department": "Customs",
       "salary_min": 80,
       "salary_max": 80,
@@ -255,7 +255,7 @@
       "canonical_name": "Haxton, B. W.",
       "given_names": "B. W.",
       "surname": "Haxton",
-      "position": "Tide Waiters",
+      "position": "Tide Waiter",
       "department": "Customs",
       "salary_min": 80,
       "salary_max": 80,
@@ -271,7 +271,7 @@
       "canonical_name": "Wallace, S.",
       "given_names": "S.",
       "surname": "Wallace",
-      "position": "Tide Waiters",
+      "position": "Tide Waiter",
       "department": "Customs",
       "salary_min": 80,
       "salary_max": 80,
@@ -324,9 +324,7 @@
       "salary_min": 300,
       "salary_max": 300,
       "allowances": "10l. Auditor Crown Revenue; personal allowance, 50l.",
-      "honors": [
-        "I.S.O."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -365,9 +363,9 @@
       "location": null
     },
     {
-      "name": "W. Miller",
-      "canonical_name": "Miller, W.",
-      "given_names": "W.",
+      "name": "William Miller",
+      "canonical_name": "Miller, William",
+      "given_names": "William",
       "surname": "Miller",
       "position": "Surveyor-General and Civil Engineer",
       "department": "Surveyor-General's and Civil Engineer's Office",
@@ -512,7 +510,7 @@
       "name": "C. C. Mason",
       "canonical_name": "Mason, C. C.",
       "given_names": "C. C.",
-      "surname": "Mason",
+      "surname": "C. Mason",
       "position": "Constable to Board",
       "department": "Education Department",
       "salary_min": 50,
@@ -590,7 +588,7 @@
     },
     {
       "name": "Miss E. M. Johnson",
-      "canonical_name": "Johnson, Miss E. M.",
+      "canonical_name": "Johnson, E. M.",
       "given_names": "E. M.",
       "surname": "Johnson",
       "position": "4th Clerk",
@@ -605,8 +603,8 @@
       "location": null
     },
     {
-      "name": "Miss J. E. Sutton",
-      "canonical_name": "Sutton, Miss J. E.",
+      "name": "J. E. Sutton",
+      "canonical_name": "Sutton, J. E.",
       "given_names": "J. E.",
       "surname": "Sutton",
       "position": "Asst. Clerk",
@@ -621,8 +619,8 @@
       "location": null
     },
     {
-      "name": "Miss L. I. Peters",
-      "canonical_name": "Peters, Miss L. I.",
+      "name": "L. I. Peters",
+      "canonical_name": "Peters, L. I.",
       "given_names": "L. I.",
       "surname": "Peters",
       "position": "Asst. Clerk",
@@ -637,8 +635,8 @@
       "location": null
     },
     {
-      "name": "Miss E. M. Bethel",
-      "canonical_name": "Bethel, Miss E. M.",
+      "name": "E. M. Bethel",
+      "canonical_name": "Bethel, E. M.",
       "given_names": "E. M.",
       "surname": "Bethel",
       "position": "Asst. Clerk",
@@ -701,7 +699,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "The Hospital"
+      "location": null
     },
     {
       "name": "F. A. Burnside",
@@ -768,7 +766,7 @@
       "location": null
     },
     {
-      "name": "D. Wilshire",
+      "name": "Rev. D. Wilshire",
       "canonical_name": "Wilshire, D.",
       "given_names": "D.",
       "surname": "Wilshire",
@@ -854,7 +852,7 @@
       "canonical_name": "Moore, R. K.",
       "given_names": "R. K.",
       "surname": "Moore",
-      "position": "Operators",
+      "position": "Operator",
       "department": "Telegraph Department",
       "salary_min": 115,
       "salary_max": 115,
@@ -870,7 +868,7 @@
       "canonical_name": "Crawford, A. F. C.",
       "given_names": "A. F. C.",
       "surname": "Crawford",
-      "position": "Operators",
+      "position": "Operator",
       "department": "Telegraph Department",
       "salary_min": 90,
       "salary_max": 90,
@@ -1106,9 +1104,9 @@
       "location": null
     },
     {
-      "name": "Audley J. Browne",
-      "canonical_name": "Browne, Audley J.",
-      "given_names": "Audley J.",
+      "name": "Rev. Audley J. Browne",
+      "canonical_name": "Browne, Rev. Audley J.",
+      "given_names": "Rev. Audley J.",
       "surname": "Browne",
       "position": "Chaplain to Prison",
       "department": "Prison Department",
@@ -1130,7 +1128,7 @@
       "department": "Police",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1192,7 +1190,7 @@
       "canonical_name": "Rae, J. M.",
       "given_names": "J. M.",
       "surname": "Rae",
-      "position": "Stipendiary and Circuit Magistrate",
+      "position": "Stipendiary and Circuit Magistrates",
       "department": "Judicial",
       "salary_min": 500,
       "salary_max": 500,
@@ -1208,7 +1206,7 @@
       "canonical_name": "Stronge, H. C.",
       "given_names": "H. C.",
       "surname": "Stronge",
-      "position": "Stipendiary and Circuit Magistrate",
+      "position": "Stipendiary and Circuit Magistrates",
       "department": "Judicial",
       "salary_min": 450,
       "salary_max": 450,
@@ -1228,7 +1226,7 @@
       "department": "Judicial",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "\u00a325 personal",
+      "allowances": "personal allowance, \u00a325",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1529,7 +1527,7 @@
       "given_names": "F. C. C.",
       "surname": "Lightbourn",
       "position": "Cadet",
-      "department": "Commissioners of Out-Island Districts",
+      "department": "Cadets",
       "salary_min": 60,
       "salary_max": 60,
       "allowances": null,
@@ -1569,7 +1567,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "St. Andrew's Presbyterian Church"
+      "location": null
     },
     {
       "name": "Chrysostom Schreiner",
@@ -1585,14 +1583,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "St. Xavier's Roman Catholic Church"
+      "location": null
     },
     {
       "name": "W. H. F. Bleby",
       "canonical_name": "Bleby, W. H. F.",
       "given_names": "W. H. F.",
       "surname": "Bleby",
-      "position": "Superintendent",
+      "position": "Rev. Superintendent",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1601,7 +1599,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Wesleyan Church"
+      "location": null
     },
     {
       "name": "D. Wilshire",
@@ -1617,7 +1615,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Baptist"
+      "location": null
     },
     {
       "name": "C. A. Dann",
@@ -1633,7 +1631,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Baptist"
+      "location": null
     },
     {
       "name": "F. J. Lobb",
@@ -1732,9 +1730,9 @@
       "location": null
     },
     {
-      "name": "Prudhumme Pierre",
-      "canonical_name": "Pierre, Prudhumme",
-      "given_names": "Prudhumme",
+      "name": "Prudhomme Pierre",
+      "canonical_name": "Pierre, Prudhomme",
+      "given_names": "Prudhomme",
       "surname": "Pierre",
       "position": "Consul",
       "department": "Foreign Consuls",
@@ -1768,8 +1766,8 @@
     "colony": "Bahamas",
     "year": 1917,
     "total": 109,
-    "high_confidence": 108,
-    "medium_confidence": 1,
+    "high_confidence": 109,
+    "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 109,

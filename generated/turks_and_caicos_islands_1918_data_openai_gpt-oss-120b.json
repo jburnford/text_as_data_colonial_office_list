@@ -1,7 +1,7 @@
 {
   "colony": "Turks and Caicos Islands",
   "year": 1918,
-  "generated": "2026-03-12T09:42:03.370620",
+  "generated": "2026-03-12T15:34:32.834402",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 11,
@@ -15,7 +15,7 @@
       "department": "Medical",
       "salary_min": 275,
       "salary_max": 275,
-      "allowances": "37l. drug allowance (and private practice)",
+      "allowances": "37l. drug allowance",
       "honors": [],
       "qualifications": [
         "M.D."
@@ -33,7 +33,7 @@
       "department": "Medical",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "25l. drug allowance (and private practice)",
+      "allowances": "25l. drug allowance",
       "honors": [],
       "qualifications": [
         "M.D."
@@ -109,7 +109,7 @@
       "location": null
     },
     {
-      "name": "Rev. S. F. Reeve",
+      "name": "S. F. Reeve",
       "canonical_name": "Reeve, S. F.",
       "given_names": "S. F.",
       "surname": "Reeve",
@@ -125,7 +125,7 @@
       "location": null
     },
     {
-      "name": "Rev. Stanley Cannon",
+      "name": "Stanley Cannon",
       "canonical_name": "Cannon, Stanley",
       "given_names": "Stanley",
       "surname": "Cannon",
@@ -186,7 +186,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Cockburn Harbour"
+      "location": "Harbour"
     }
   ],
   "validation_summary": {

@@ -1,7 +1,7 @@
 {
   "colony": "Turks and Caicos Islands",
   "year": 1915,
-  "generated": "2026-03-12T09:11:51.855363",
+  "generated": "2026-03-12T15:15:57.386000",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 24,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 500,
       "salary_max": 600,
-      "allowances": "with residence",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -281,9 +281,9 @@
       "location": null
     },
     {
-      "name": "W. S. Jones",
-      "canonical_name": "Jones, W. S.",
-      "given_names": "W. S.",
+      "name": "William S. Jones",
+      "canonical_name": "Jones, William S.",
+      "given_names": "William S.",
       "surname": "Jones",
       "position": "Consular Agent",
       "department": "Foreign Consuls",
@@ -294,7 +294,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "P. McDougall",
@@ -310,12 +310,12 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "San Domingo"
+      "location": null
     },
     {
-      "name": "W. R. Tate",
-      "canonical_name": "Tate, W. R.",
-      "given_names": "W. R.",
+      "name": "William R. Tate",
+      "canonical_name": "Tate, William R.",
+      "given_names": "William R.",
       "surname": "Tate",
       "position": "Vice-Consul",
       "department": "Foreign Consuls",
@@ -326,14 +326,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "San Domingo"
+      "location": null
     },
     {
       "name": "C. H. Durham",
       "canonical_name": "Durham, C. H.",
       "given_names": "C. H.",
       "surname": "Durham",
-      "position": "Vice-Consul",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -342,14 +342,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "San Domingo"
+      "location": null
     },
     {
       "name": "H. T. Morgan",
       "canonical_name": "Morgan, H. T.",
       "given_names": "H. T.",
       "surname": "Morgan",
-      "position": "Vice-Consul",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -358,7 +358,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "San Domingo"
+      "location": null
     },
     {
       "name": "R. Darrell",
@@ -374,7 +374,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Norway"
+      "location": null
     },
     {
       "name": "J. A. Gore",
@@ -390,7 +390,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States of America"
+      "location": null
     }
   ],
   "validation_summary": {

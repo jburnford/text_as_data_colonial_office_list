@@ -1,7 +1,7 @@
 {
   "colony": "Queensland",
   "year": 1917,
-  "generated": "2026-03-12T09:27:17.134958",
+  "generated": "2026-03-12T15:24:34.801386",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 137,
@@ -123,7 +123,7 @@
       "canonical_name": "Craig, T. L.",
       "given_names": "T. L.",
       "surname": "Craig",
-      "position": "Master, Q.G.S.Y. \"Lucinda,\"",
+      "position": "Master, Q.G.S.Y. \"Lucinda\"",
       "department": "Chief Secretary's Department",
       "salary_min": 300,
       "salary_max": 300,
@@ -136,7 +136,7 @@
     },
     {
       "name": "Sir T. B. Robinson",
-      "canonical_name": "Robinson, T. B.",
+      "canonical_name": "Robinson, Sir T. B.",
       "given_names": "T. B.",
       "surname": "Robinson",
       "position": "Agent-General",
@@ -293,7 +293,7 @@
       "canonical_name": "Row, L. E.",
       "given_names": "L. E.",
       "surname": "Row",
-      "position": "Medical Superintendent",
+      "position": "Medical Superintendent, Dunwich Benevolent Asylum",
       "department": "Home Secretary's Department",
       "salary_min": 650,
       "salary_max": 650,
@@ -305,7 +305,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Dunwich Benevolent Asylum"
+      "location": null
     },
     {
       "name": "C. E. de F. Pennefather",
@@ -598,7 +598,7 @@
       "location": null
     },
     {
-      "name": "Pope A. Cooper",
+      "name": "Sir Pope A. Cooper",
       "canonical_name": "Cooper, Pope A.",
       "given_names": "Pope A.",
       "surname": "Cooper",
@@ -684,7 +684,7 @@
       "location": null
     },
     {
-      "name": "Arthur Rutledge",
+      "name": "Sir Arthur Rutledge",
       "canonical_name": "Rutledge, Arthur",
       "given_names": "Arthur",
       "surname": "Rutledge",
@@ -753,7 +753,7 @@
       "given_names": "J. D.",
       "surname": "Story",
       "position": "Under-Secretary",
-      "department": "Public Instruction",
+      "department": "Department of Public Instruction",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -769,7 +769,7 @@
       "given_names": "R. H.",
       "surname": "Roe",
       "position": "Inspector-General of Schools",
-      "department": "Public Instruction",
+      "department": "Department of Public Instruction",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -787,13 +787,14 @@
       "given_names": "Eleanor E.",
       "surname": "Bourne",
       "position": "Medical Inspector of Schools",
-      "department": "Public Instruction",
+      "department": "Department of Public Instruction",
       "salary_min": 450,
       "salary_max": 450,
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "M.B."
+        "M.B.",
+        "M.S."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -805,12 +806,14 @@
       "given_names": "L. C.",
       "surname": "Morris",
       "position": "Superintendent of Technical Education",
-      "department": "Public Instruction",
+      "department": "Department of Public Instruction",
       "salary_min": 600,
       "salary_max": 600,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "B.E."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -821,12 +824,14 @@
       "given_names": "J.",
       "surname": "Shirley",
       "position": "Principal Teachers' Training College",
-      "department": "Public Instruction",
+      "department": "Department of Public Instruction",
       "salary_min": 650,
       "salary_max": 650,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "D.Sc."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -836,7 +841,7 @@
       "canonical_name": "Fowles, W. L.",
       "given_names": "W. L.",
       "surname": "Fowles",
-      "position": "Under-Secretary; also Chairman Workers' Dwelling Board",
+      "position": "Under-Secretary",
       "department": "Treasury Department",
       "salary_min": 800,
       "salary_max": 800,
@@ -998,8 +1003,8 @@
       "canonical_name": "Heaney, F. X.",
       "given_names": "F. X.",
       "surname": "Heaney",
-      "position": "Member of Land Court",
-      "department": "Department of Public Lands",
+      "position": "Members of Land Court",
+      "department": "Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -1014,8 +1019,8 @@
       "canonical_name": "Kidston, W.",
       "given_names": "W.",
       "surname": "Kidston",
-      "position": "Member of Land Court",
-      "department": "Department of Public Lands",
+      "position": "Members of Land Court",
+      "department": "Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -1032,8 +1037,8 @@
       "canonical_name": "Shannon, P. W.",
       "given_names": "P. W.",
       "surname": "Shannon",
-      "position": "Member of Land Court",
-      "department": "Department of Public Lands",
+      "position": "Members of Land Court",
+      "department": "Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -1049,7 +1054,7 @@
       "given_names": "W. G.",
       "surname": "Graham",
       "position": "Under-Secretary",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -1065,7 +1070,7 @@
       "given_names": "G. L.",
       "surname": "Board",
       "position": "Assistant Under-Secretary",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 700,
       "salary_max": 700,
       "allowances": null,
@@ -1081,7 +1086,7 @@
       "given_names": "N. W.",
       "surname": "Jolly",
       "position": "Director of Forests",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 600,
       "salary_max": 600,
       "allowances": null,
@@ -1099,7 +1104,7 @@
       "given_names": "H.",
       "surname": "Browne",
       "position": "Registrar Land Court",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 300,
       "salary_max": 300,
       "allowances": null,
@@ -1115,7 +1120,7 @@
       "given_names": "A. A.",
       "surname": "Spowers",
       "position": "Surveyor-General",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 750,
       "salary_max": 750,
       "allowances": null,
@@ -1131,7 +1136,7 @@
       "given_names": "H. H.",
       "surname": "Hamley",
       "position": "Engineer, Public Estate Improvement Works",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 350,
       "salary_max": 350,
       "allowances": null,
@@ -1147,7 +1152,7 @@
       "given_names": "G. F. L.",
       "surname": "Foxton",
       "position": "Managing Director, Agricultural Bank",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -1929,7 +1934,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Belgium"
     },
     {
       "name": "T. W. Bouchard",
@@ -1945,7 +1950,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Denmark"
     },
     {
       "name": "L. H. Spence",
@@ -1961,10 +1966,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Greece"
     },
     {
-      "name": "F. H. Hart, junr.",
+      "name": "F. H. Hart",
       "canonical_name": "Hart, F. H.",
       "given_names": "F. H.",
       "surname": "Hart",
@@ -1977,10 +1982,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Netherlands"
     },
     {
-      "name": "Hon. A. J. Carter",
+      "name": "A. J. Carter",
       "canonical_name": "Carter, A. J.",
       "given_names": "A. J.",
       "surname": "Carter",
@@ -1993,7 +1998,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Norway"
     },
     {
       "name": "F. S. Lucas",
@@ -2009,7 +2014,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Chile"
     },
     {
       "name": "W. Schoch",
@@ -2025,7 +2030,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Switzerland"
     },
     {
       "name": "T. F. Moxon",
@@ -2041,7 +2046,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Panama"
     },
     {
       "name": "B. W. Macdonald",
@@ -2057,7 +2062,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Russia"
     },
     {
       "name": "J. Stodart",
@@ -2073,10 +2078,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Sweden"
     },
     {
-      "name": "Hon. A. J. Carter",
+      "name": "A. J. Carter",
       "canonical_name": "Carter, A. J.",
       "given_names": "A. J.",
       "surname": "Carter",
@@ -2092,7 +2097,7 @@
       "location": "Brisbane"
     },
     {
-      "name": "Hon. A. H. Whittingham",
+      "name": "A. H. Whittingham",
       "canonical_name": "Whittingham, A. H.",
       "given_names": "A. H.",
       "surname": "Whittingham",
@@ -2185,7 +2190,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Thursday Island"
     },
     {
       "name": "W. H. Budd",

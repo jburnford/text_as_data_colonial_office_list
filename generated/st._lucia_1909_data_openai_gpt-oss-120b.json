@@ -1,10 +1,10 @@
 {
   "colony": "St. Lucia",
   "year": 1909,
-  "generated": "2026-03-12T08:48:18.607324",
+  "generated": "2026-03-12T14:49:48.488628",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 72,
+  "total_officials": 71,
   "officials": [
     {
       "name": "P. C. Cork",
@@ -173,7 +173,7 @@
       "canonical_name": "Girard, V.",
       "given_names": "V.",
       "surname": "Girard",
-      "position": "2nd Chief Landing Waiter and Revenue Officer",
+      "position": "2nd Landing Waiter and Revenue Officer",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 125,
       "salary_max": 150,
@@ -189,7 +189,7 @@
       "canonical_name": "Beaubrun, B.",
       "given_names": "B.",
       "surname": "Beaubrun",
-      "position": "Landing Waiter and Revenue Officer",
+      "position": "Landing Waiters and Revenue Officers",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 120,
       "salary_max": 120,
@@ -205,7 +205,7 @@
       "canonical_name": "Myers, A.",
       "given_names": "A.",
       "surname": "Myers",
-      "position": "Landing Waiter and Revenue Officer",
+      "position": "Landing Waiters and Revenue Officers",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 100,
       "salary_max": 125,
@@ -221,7 +221,7 @@
       "canonical_name": "de Brossard, J.",
       "given_names": "J.",
       "surname": "de Brossard",
-      "position": "Landing Waiter and Revenue Officer",
+      "position": "Landing Waiters and Revenue Officers",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 100,
       "salary_max": 125,
@@ -237,7 +237,7 @@
       "canonical_name": "Newton, L.",
       "given_names": "L.",
       "surname": "Newton",
-      "position": "Landing Waiter and Revenue Officer",
+      "position": "Landing Waiters and Revenue Officers",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 75,
       "salary_max": 100,
@@ -253,7 +253,7 @@
       "canonical_name": "Haynes, H.",
       "given_names": "H.",
       "surname": "Haynes",
-      "position": "Landing Waiter and Revenue Officer",
+      "position": "Landing Waiters and Revenue Officers",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 75,
       "salary_max": 100,
@@ -269,7 +269,7 @@
       "canonical_name": "Lewis, G. F. M.",
       "given_names": "G. F. M.",
       "surname": "Lewis",
-      "position": "Landing Waiter and Revenue Officer",
+      "position": "Landing Waiters and Revenue Officers",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 75,
       "salary_max": 100,
@@ -342,7 +342,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "2nd District"
+      "location": null
     },
     {
       "name": "N. Phillip",
@@ -374,7 +374,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "W. Islands"
+      "location": null
     },
     {
       "name": "D. C. Thomson",
@@ -717,7 +717,7 @@
       "canonical_name": "Auguste, E. E.",
       "given_names": "E. E.",
       "surname": "Auguste",
-      "position": "Assistant Clerk",
+      "position": "Assistant Registrar of Royal Court, Registrar of Deeds and Mortgages, Sheriff, Registrar of Civil Status and Assistant Magistrate, 1st District",
       "department": "Judicial",
       "salary_min": 50,
       "salary_max": 75,
@@ -961,7 +961,7 @@
       "department": "Police and Gaols",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "100l. allowances",
+      "allowances": "100l. allowances, 50l. as Inspector of Prisons",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -977,7 +977,7 @@
       "department": "Police and Gaols",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1065,9 +1065,9 @@
       "location": null
     },
     {
-      "name": "W. Peter",
-      "canonical_name": "Peter, W.",
-      "given_names": "W.",
+      "name": "William Peter",
+      "canonical_name": "Peter, William",
+      "given_names": "William",
       "surname": "Peter",
       "position": "Consul",
       "department": "Foreign Consuls",
@@ -1097,25 +1097,9 @@
       "location": null
     },
     {
-      "name": "William Peter",
-      "canonical_name": "Peter, William",
+      "name": "William Barnard",
+      "canonical_name": "Barnard, William",
       "given_names": "William",
-      "surname": "Peter",
-      "position": "Consul",
-      "department": "Foreign Consuls",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "W. Barnard",
-      "canonical_name": "Barnard, W.",
-      "given_names": "W.",
       "surname": "Barnard",
       "position": "Consul",
       "department": "Foreign Consuls",
@@ -1164,12 +1148,12 @@
   "validation_summary": {
     "colony": "St. Lucia",
     "year": 1909,
-    "total": 72,
-    "high_confidence": 72,
+    "total": 71,
+    "high_confidence": 71,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 72,
+    "passed": 71,
     "anomaly_count": 2
   }
 }

@@ -1,17 +1,17 @@
 {
   "colony": "Western Pacific",
   "year": 1915,
-  "generated": "2026-03-12T09:12:03.366738",
+  "generated": "2026-03-12T15:16:26.965539",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 42,
   "officials": [
     {
-      "name": "Charles Major",
+      "name": "Charles Major (acting)",
       "canonical_name": "Major, Charles",
       "given_names": "Charles",
       "surname": "Major",
-      "position": null,
+      "position": "Acting",
       "department": null,
       "salary_min": null,
       "salary_max": null,
@@ -60,14 +60,14 @@
     },
     {
       "name": "Sir Ernest Bickham Sweet Escott",
-      "canonical_name": "Escott, Ernest Bickham",
-      "given_names": "Ernest Bickham",
+      "canonical_name": "Escott, Ernest Bickham Sweet",
+      "given_names": "Ernest Bickham Sweet",
       "surname": "Escott",
       "position": "High Commissioner",
       "department": "Civil Establishment",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": "150l. as Consul-General for Western Pacific",
+      "allowances": "allowance of 150l. as Consul-General for Western Pacific",
       "honors": [
         "K.C.M.G."
       ],
@@ -133,7 +133,7 @@
       "department": "Civil Establishment",
       "salary_min": 150,
       "salary_max": 200,
-      "allowances": "by 10l.",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -172,7 +172,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Tonga"
     },
     {
       "name": "E. C. Eliot",
@@ -316,7 +316,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Ellice Group (Funafuti)"
+      "location": "Funafuti"
     },
     {
       "name": "L. Indermaur",
@@ -350,7 +350,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "British Solomon Island Protectorate"
+      "location": null
     },
     {
       "name": "T. W. Edge-Partington",
@@ -366,7 +366,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "British Solomon Islands Protectorate"
+      "location": null
     },
     {
       "name": "G. C. M. Davies",
@@ -612,7 +612,7 @@
       "location": null
     },
     {
-      "name": "E. Harrowell",
+      "name": "Captain E. Harrowell",
       "canonical_name": "Harrowell, E.",
       "given_names": "E.",
       "surname": "Harrowell",
@@ -665,7 +665,7 @@
       "given_names": "H. A.",
       "surname": "Richards",
       "position": "Deputy Commissioner, Pitcairn Island",
-      "department": null,
+      "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -681,7 +681,7 @@
       "given_names": "A.",
       "surname": "Smith",
       "position": "Deputy Commissioner, Fanning Island",
-      "department": null,
+      "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,

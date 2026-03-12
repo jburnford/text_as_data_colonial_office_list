@@ -1,7 +1,7 @@
 {
   "colony": "Seychelles",
   "year": 1915,
-  "generated": "2026-03-12T09:11:25.448468",
+  "generated": "2026-03-12T15:15:48.440783",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 97,
@@ -61,7 +61,7 @@
       "canonical_name": "Adeline, J. B.",
       "given_names": "J. B.",
       "surname": "Adeline",
-      "position": "1st Clerk",
+      "position": "Clerk",
       "department": "Governor's Office",
       "salary_min": 720,
       "salary_max": 960,
@@ -77,7 +77,7 @@
       "canonical_name": "Ahtou, M.",
       "given_names": "M.",
       "surname": "Ahtou",
-      "position": "2nd Clerk",
+      "position": "Clerk",
       "department": "Governor's Office",
       "salary_min": 380,
       "salary_max": 720,
@@ -125,7 +125,7 @@
       "canonical_name": "Morgan, F.",
       "given_names": "F.",
       "surname": "Morgan",
-      "position": "2nd Clerk",
+      "position": "Clerk",
       "department": "Treasury and Customs",
       "salary_min": 1200,
       "salary_max": 1800,
@@ -141,7 +141,7 @@
       "canonical_name": "Vel, F.",
       "given_names": "F.",
       "surname": "Vel",
-      "position": "3rd Clerk",
+      "position": "Clerk",
       "department": "Treasury and Customs",
       "salary_min": 1000,
       "salary_max": 1200,
@@ -157,7 +157,7 @@
       "canonical_name": "Rouillon, H.",
       "given_names": "H.",
       "surname": "Rouillon",
-      "position": "4th Clerk",
+      "position": "Clerk",
       "department": "Treasury and Customs",
       "salary_min": 800,
       "salary_max": 1000,
@@ -173,7 +173,7 @@
       "canonical_name": "Philogene, E.",
       "given_names": "E.",
       "surname": "Philogene",
-      "position": "5th Clerk",
+      "position": "Clerk",
       "department": "Treasury and Customs",
       "salary_min": 360,
       "salary_max": 480,
@@ -189,7 +189,7 @@
       "canonical_name": "Vel, L.",
       "given_names": "L.",
       "surname": "Vel",
-      "position": "6th Clerk",
+      "position": "Clerk",
       "department": "Treasury and Customs",
       "salary_min": 360,
       "salary_max": 360,
@@ -205,7 +205,7 @@
       "canonical_name": "Hibbs, B.",
       "given_names": "B.",
       "surname": "Hibbs",
-      "position": "1st Customs Officer",
+      "position": "Customs Officer",
       "department": "Treasury and Customs",
       "salary_min": 1600,
       "salary_max": 2400,
@@ -221,7 +221,7 @@
       "canonical_name": "de St. Jorre, A.",
       "given_names": "A.",
       "surname": "de St. Jorre",
-      "position": "2nd Customs Officer",
+      "position": "Customs Officer",
       "department": "Treasury and Customs",
       "salary_min": 1300,
       "salary_max": 1600,
@@ -237,7 +237,7 @@
       "canonical_name": "Mesl\u00e9, M.",
       "given_names": "M.",
       "surname": "Mesl\u00e9",
-      "position": "3rd Customs Officer",
+      "position": "Customs Officer",
       "department": "Treasury and Customs",
       "salary_min": 720,
       "salary_max": 960,
@@ -253,7 +253,7 @@
       "canonical_name": "Bossy, A. E.",
       "given_names": "A. E.",
       "surname": "Bossy",
-      "position": "4th Customs Officer",
+      "position": "Customs Officer",
       "department": "Treasury and Customs",
       "salary_min": 600,
       "salary_max": 750,
@@ -297,7 +297,7 @@
       "location": null
     },
     {
-      "name": "D. Sauvage",
+      "name": "Capt. D. Sauvage",
       "canonical_name": "Sauvage, D.",
       "given_names": "D.",
       "surname": "Sauvage",
@@ -562,7 +562,7 @@
       "given_names": "R.",
       "surname": "D'Unienville",
       "position": "Official Assignee in Bankruptcy and Curator of Vacant Estates",
-      "department": "Bankruptcy and Curatelle",
+      "department": "Legal Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -597,7 +597,7 @@
       "department": "Police Department",
       "salary_min": 2500,
       "salary_max": 2500,
-      "allowances": null,
+      "allowances": "500 Rs. for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -613,7 +613,7 @@
       "department": "Police Department",
       "salary_min": 900,
       "salary_max": 1200,
-      "allowances": null,
+      "allowances": "240 Rs. for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -677,7 +677,7 @@
       "department": "Medical Department",
       "salary_min": 4500,
       "salary_max": 4500,
-      "allowances": null,
+      "allowances": "with private practice",
       "honors": [],
       "qualifications": [
         "M.R.C.S.",
@@ -692,18 +692,18 @@
       "canonical_name": "Jewell, N. P.",
       "given_names": "N. P.",
       "surname": "Jewell",
-      "position": "Assistant Medical Officer, Praslin District",
+      "position": "Assistant Medical Officer, Praslin District; Superintendent of Leper Asylum and Pauper Camp",
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": null,
+      "allowances": "with quarters and private practice; Rs. 500 as Superintendent of Leper Asylum and Pauper Camp",
       "honors": [],
       "qualifications": [
         "M.D."
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Praslin District"
     },
     {
       "name": "J. T. Bradley",
@@ -714,7 +714,7 @@
       "department": "Medical Department",
       "salary_min": 4200,
       "salary_max": 4200,
-      "allowances": null,
+      "allowances": "with quarters and private practice",
       "honors": [],
       "qualifications": [
         "M.D.",
@@ -722,25 +722,25 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South Mah\u00e9 District"
     },
     {
       "name": "M. S. Power",
       "canonical_name": "Power, M. S.",
       "given_names": "M. S.",
       "surname": "Power",
-      "position": "Assistant Medical Officer, Victoria, and Visiting Magistrate, Outlying Islands",
+      "position": "Assistant Medical Officer, Victoria; Visiting Magistrate, Outlying Islands",
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": null,
+      "allowances": "with quarters and private practice",
       "honors": [],
       "qualifications": [
         "L.R.C.P."
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Victoria"
     },
     {
       "name": "D. Watson",
@@ -756,7 +756,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Victoria Hospital"
     },
     {
       "name": "A. Cauvin",
@@ -884,7 +884,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Praslin"
     },
     {
       "name": "C. Lablache",
@@ -900,7 +900,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South Mah\u00e9 District"
     },
     {
       "name": "L. Gendron",
@@ -916,7 +916,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Leper Asylum and Pauper Camp"
     },
     {
       "name": "T. Bernardin Clark",
@@ -983,7 +983,7 @@
       "location": null
     },
     {
-      "name": "H. Manning",
+      "name": "Rev. H. Manning",
       "canonical_name": "Manning, H.",
       "given_names": "H.",
       "surname": "Manning",
@@ -999,7 +999,7 @@
       "location": null
     },
     {
-      "name": "R. H. Pickwood",
+      "name": "Rev. R. H. Pickwood",
       "canonical_name": "Pickwood, R. H.",
       "given_names": "R. H.",
       "surname": "Pickwood",
@@ -1073,7 +1073,7 @@
       "department": "Education Department",
       "salary_min": 1500,
       "salary_max": 1800,
-      "allowances": "personal allowance of Rs. 180",
+      "allowances": "Rs. 180 personal allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1153,7 +1153,7 @@
       "department": "Botanic Station",
       "salary_min": 3400,
       "salary_max": 3400,
-      "allowances": "Rs. 500 for quarters",
+      "allowances": "500 for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1482,9 +1482,9 @@
     },
     {
       "name": "H. Jean Louis",
-      "canonical_name": "Louis, H. Jean",
-      "given_names": "H. Jean",
-      "surname": "Louis",
+      "canonical_name": "Jean Louis, H.",
+      "given_names": "H.",
+      "surname": "Jean Louis",
       "position": "Clerk to Board",
       "department": "Local Boards of Health, Praslin and La Digue",
       "salary_min": null,
@@ -1517,8 +1517,8 @@
       "canonical_name": "Lalanne, P. Loustau",
       "given_names": "P. Loustau",
       "surname": "Lalanne",
-      "position": "Consular Agent (acting)",
-      "department": "Foreign Consuls (France)",
+      "position": "Consular Agent (acting) for France",
+      "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1533,8 +1533,8 @@
       "canonical_name": "Pare, H. A.",
       "given_names": "H. A.",
       "surname": "Pare",
-      "position": "Consul",
-      "department": "Foreign Consuls (Italy)",
+      "position": "Consular Agent for Italy",
+      "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1549,8 +1549,8 @@
       "canonical_name": "Charmoy, A d'Emmerez de",
       "given_names": "A d'Emmerez de",
       "surname": "Charmoy",
-      "position": "Vice-Consul",
-      "department": "Foreign Consuls (Netherlands)",
+      "position": "Consular Agent for Netherlands",
+      "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1565,8 +1565,8 @@
       "canonical_name": "Merian, A.",
       "given_names": "A.",
       "surname": "Merian",
-      "position": "Consul",
-      "department": "Foreign Consuls (Portugal)",
+      "position": "Consular Agent for Portugal",
+      "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1586,6 +1586,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 97,
-    "anomaly_count": 12
+    "anomaly_count": 11
   }
 }

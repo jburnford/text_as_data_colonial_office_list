@@ -1,7 +1,7 @@
 {
   "colony": "British Honduras",
   "year": 1914,
-  "generated": "2026-03-12T06:05:17.808221",
+  "generated": "2026-03-12T15:03:22.691957",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 132,
@@ -43,7 +43,7 @@
       "canonical_name": "Furness, R. H.",
       "given_names": "R. H.",
       "surname": "Furness",
-      "position": "A.D.C.",
+      "position": "A.D.C., 2nd Lieut.",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -63,7 +63,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": 3500,
       "salary_max": 3500,
-      "allowances": "and house",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -171,7 +171,7 @@
       "canonical_name": "Tennyson, P. L. A.",
       "given_names": "P. L. A.",
       "surname": "Tennyson",
-      "position": "Printers",
+      "position": "Printer",
       "department": "Colonial Secretary's Department",
       "salary_min": 240,
       "salary_max": 360,
@@ -187,7 +187,7 @@
       "canonical_name": "McField, J.",
       "given_names": "J.",
       "surname": "McField",
-      "position": "Printers",
+      "position": "Printer",
       "department": "Colonial Secretary's Department",
       "salary_min": 240,
       "salary_max": 360,
@@ -203,7 +203,7 @@
       "canonical_name": "Gabourel, J. R.",
       "given_names": "J. R.",
       "surname": "Gabourel",
-      "position": "Printers",
+      "position": "Printer",
       "department": "Colonial Secretary's Department",
       "salary_min": 240,
       "salary_max": 360,
@@ -1279,7 +1279,7 @@
       "department": "Botanic Garden",
       "salary_min": 750,
       "salary_max": 750,
-      "allowances": null,
+      "allowances": "house",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1367,7 +1367,7 @@
       "location": null
     },
     {
-      "name": "A. Newstead (temporary)",
+      "name": "A. Newstead",
       "canonical_name": "Newstead, A.",
       "given_names": "A.",
       "surname": "Newstead",
@@ -1463,11 +1463,11 @@
       "location": null
     },
     {
-      "name": "Miss B. Canton",
-      "canonical_name": "Canton, Miss B.",
-      "given_names": "Miss B.",
+      "name": "B. Canton",
+      "canonical_name": "Canton, B.",
+      "given_names": "B.",
       "surname": "Canton",
-      "position": "Switch Operators",
+      "position": "Switch Operator",
       "department": "Public Works, &c.",
       "salary_min": 300,
       "salary_max": 300,
@@ -1479,11 +1479,11 @@
       "location": null
     },
     {
-      "name": "Miss D. Whiteside",
-      "canonical_name": "Whiteside, Miss D.",
-      "given_names": "Miss D.",
+      "name": "D. Whiteside",
+      "canonical_name": "Whiteside, D.",
+      "given_names": "D.",
       "surname": "Whiteside",
-      "position": "Switch Operators",
+      "position": "Switch Operator",
       "department": "Public Works, &c.",
       "salary_min": 300,
       "salary_max": 300,
@@ -1495,11 +1495,11 @@
       "location": null
     },
     {
-      "name": "Miss F. Gabourel",
-      "canonical_name": "Gabourel, Miss F.",
-      "given_names": "Miss F.",
+      "name": "F. Gabourel",
+      "canonical_name": "Gabourel, F.",
+      "given_names": "F.",
       "surname": "Gabourel",
-      "position": "Switch Operators",
+      "position": "Switch Operator",
       "department": "Public Works, &c.",
       "salary_min": 300,
       "salary_max": 300,
@@ -1511,11 +1511,11 @@
       "location": null
     },
     {
-      "name": "Miss M. Fuller",
-      "canonical_name": "Fuller, Miss M.",
-      "given_names": "Miss M.",
+      "name": "M. Fuller",
+      "canonical_name": "Fuller, M.",
+      "given_names": "M.",
       "surname": "Fuller",
-      "position": "Switch Operators",
+      "position": "Switch Operator",
       "department": "Public Works, &c.",
       "salary_min": 300,
       "salary_max": 300,
@@ -1531,7 +1531,7 @@
       "canonical_name": "Kirkwood, A.",
       "given_names": "A.",
       "surname": "Kirkwood",
-      "position": "Switch Operators",
+      "position": "Switch Operator",
       "department": "Public Works, &c.",
       "salary_min": 180,
       "salary_max": 180,
@@ -1543,11 +1543,11 @@
       "location": null
     },
     {
-      "name": "Miss C. Mahler",
-      "canonical_name": "Mahler, Miss C.",
-      "given_names": "Miss C.",
+      "name": "C. Mahler",
+      "canonical_name": "Mahler, C.",
+      "given_names": "C.",
       "surname": "Mahler",
-      "position": "Switch Operators",
+      "position": "Switch Operator",
       "department": "Public Works, &c.",
       "salary_min": 120,
       "salary_max": 120,
@@ -1563,7 +1563,7 @@
       "canonical_name": "Martin, A.",
       "given_names": "A.",
       "surname": "Martin",
-      "position": "Keeper Half-Moon Cay Light",
+      "position": "Keeper",
       "department": "Public Works, &c.",
       "salary_min": 400,
       "salary_max": 400,
@@ -1579,7 +1579,7 @@
       "canonical_name": "Miller, W. G.",
       "given_names": "W. G.",
       "surname": "Miller",
-      "position": "Keeper Half-Moon Cay Light",
+      "position": "Keeper",
       "department": "Public Works, &c.",
       "salary_min": 360,
       "salary_max": 360,
@@ -1595,7 +1595,7 @@
       "canonical_name": "Longsworth, G.",
       "given_names": "G.",
       "surname": "Longsworth",
-      "position": "Keeper Half-Moon Cay Light",
+      "position": "Keeper",
       "department": "Public Works, &c.",
       "salary_min": 300,
       "salary_max": 300,
@@ -1611,7 +1611,7 @@
       "canonical_name": "Miller, S.",
       "given_names": "S.",
       "surname": "Miller",
-      "position": "Keeper Half-Moon Cay Light",
+      "position": "Keeper",
       "department": "Public Works, &c.",
       "salary_min": 300,
       "salary_max": 300,
@@ -1627,7 +1627,7 @@
       "canonical_name": "Young, J.",
       "given_names": "J.",
       "surname": "Young",
-      "position": "Keeper Half-Moon Cay Light",
+      "position": "Keeper",
       "department": "Public Works, &c.",
       "salary_min": 240,
       "salary_max": 240,
@@ -1643,7 +1643,7 @@
       "canonical_name": "Miller, C.",
       "given_names": "C.",
       "surname": "Miller",
-      "position": "Keeper Bugle Cay",
+      "position": "Keeper",
       "department": "Public Works, &c.",
       "salary_min": 240,
       "salary_max": 240,
@@ -1823,7 +1823,7 @@
       "department": "Police",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": "200 personal allowance",
+      "allowances": "quarters, 200 personal allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1844,7 +1844,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States"
+      "location": null
     },
     {
       "name": "C. Hildebrandt",
@@ -1860,7 +1860,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Germany"
+      "location": null
     },
     {
       "name": "H. Krug",
@@ -1876,7 +1876,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Austria and Hungary"
+      "location": null
     },
     {
       "name": "A. D. P. Williamson",
@@ -1892,7 +1892,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Norway"
+      "location": null
     },
     {
       "name": "W. J. Slack",
@@ -1908,7 +1908,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sweden"
+      "location": null
     },
     {
       "name": "L. E. Arevas",
@@ -1924,7 +1924,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Republic of Honduras"
+      "location": null
     },
     {
       "name": "A. R. Usher",
@@ -1940,7 +1940,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "V. L. Bryant",
@@ -1956,13 +1956,13 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Guatemala"
+      "location": null
     },
     {
       "name": "Salvador del Toro",
-      "canonical_name": "Toro, Salvador del",
-      "given_names": "Salvador del",
-      "surname": "Toro",
+      "canonical_name": "del Toro, Salvador",
+      "given_names": "Salvador",
+      "surname": "del Toro",
       "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -1972,7 +1972,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Mexico"
+      "location": null
     },
     {
       "name": "A. E. Morlan",
@@ -1988,7 +1988,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Belgium"
+      "location": null
     },
     {
       "name": "O. A. Meyer",
@@ -2004,7 +2004,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Nicaragua"
+      "location": null
     },
     {
       "name": "L. E. Cuevas",
@@ -2020,7 +2020,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Panama"
+      "location": null
     },
     {
       "name": "D. Fraser",
@@ -2036,7 +2036,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Netherlands"
+      "location": null
     },
     {
       "name": "W. Farrar",
@@ -2059,7 +2059,7 @@
       "canonical_name": "Hopkins, F. C.",
       "given_names": "F. C.",
       "surname": "Hopkins",
-      "position": "Right Rev.",
+      "position": "The Right Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -2075,7 +2075,7 @@
       "canonical_name": "Hunt, J. M.",
       "given_names": "J. M.",
       "surname": "Hunt",
-      "position": "Rev.",
+      "position": "The Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -2091,7 +2091,7 @@
       "canonical_name": "Brindley, J. B.",
       "given_names": "J. B.",
       "surname": "Brindley",
-      "position": "Superintendent",
+      "position": "The Rev., Superintendent",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -2107,7 +2107,7 @@
       "canonical_name": "Cleghorn, R.",
       "given_names": "R.",
       "surname": "Cleghorn",
-      "position": "Rev.",
+      "position": "The Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,

@@ -1,13 +1,13 @@
 {
   "colony": "Basutoland",
   "year": 1917,
-  "generated": "2026-03-12T09:12:40.013290",
+  "generated": "2026-03-12T15:16:23.493242",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 39,
   "officials": [
     {
-      "name": "Robert Thorne Coryndon Esq., C.M.G.",
+      "name": "Robert Thorne Coryndon",
       "canonical_name": "Coryndon, Robert Thorne",
       "given_names": "Robert Thorne",
       "surname": "Coryndon",
@@ -201,7 +201,7 @@
       "location": null
     },
     {
-      "name": "Frederick Hugh Dutton, M.A.",
+      "name": "Frederick Hugh Dutton",
       "canonical_name": "Dutton, Frederick Hugh",
       "given_names": "Frederick Hugh",
       "surname": "Dutton",
@@ -347,9 +347,9 @@
       "location": null
     },
     {
-      "name": "Reginall Collier",
-      "canonical_name": "Collier, Reginall",
-      "given_names": "Reginall",
+      "name": "Reginald Collier",
+      "canonical_name": "Collier, Reginald",
+      "given_names": "Reginald",
       "surname": "Collier",
       "position": "Sub-Inspector of Police",
       "department": "Establishment",
@@ -427,9 +427,9 @@
       "location": null
     },
     {
-      "name": "Reginall Seymour Balfe",
-      "canonical_name": "Balfe, Reginall Seymour",
-      "given_names": "Reginall Seymour",
+      "name": "Reginald Seymour Balfe",
+      "canonical_name": "Balfe, Reginald Seymour",
+      "given_names": "Reginald Seymour",
       "surname": "Balfe",
       "position": "Sub-Inspector of Police",
       "department": "Establishment",
@@ -492,9 +492,9 @@
     },
     {
       "name": "Harold Rundle Fitz Nattle",
-      "canonical_name": "Nattle, Harold Rundle Fitz",
-      "given_names": "Harold Rundle Fitz",
-      "surname": "Nattle",
+      "canonical_name": "Fitz Nattle, Harold Rundle",
+      "given_names": "Harold Rundle",
+      "surname": "Fitz Nattle",
       "position": "Medical Officer",
       "department": "Establishment",
       "salary_min": 585,
@@ -523,11 +523,11 @@
       "location": "Quthing"
     },
     {
-      "name": "Walter L. Stuart (Medical Officer, Lepor Asylum)",
+      "name": "Walter L. Stuart",
       "canonical_name": "Stuart, Walter L.",
       "given_names": "Walter L.",
       "surname": "Stuart",
-      "position": "Medical Officer",
+      "position": "Medical Officer, Lepor Asylum",
       "department": "Establishment",
       "salary_min": 400,
       "salary_max": 400,
@@ -536,7 +536,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Lepor Asylum"
+      "location": null
     },
     {
       "name": "John Wrightman Stirling",
@@ -639,8 +639,8 @@
     "colony": "Basutoland",
     "year": 1917,
     "total": 39,
-    "high_confidence": 38,
-    "medium_confidence": 1,
+    "high_confidence": 39,
+    "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 39,

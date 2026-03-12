@@ -1,7 +1,7 @@
 {
   "colony": "Newfoundland",
   "year": 1913,
-  "generated": "2026-03-12T05:32:36.628377",
+  "generated": "2026-03-12T14:59:39.501129",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 187,
@@ -317,7 +317,7 @@
       "canonical_name": "Duncan, J. G.",
       "given_names": "J. G.",
       "surname": "Duncan",
-      "position": "Lunatic Asylum, resident physician",
+      "position": "Lunatic Asylum",
       "department": "Public Charities",
       "salary_min": 1700,
       "salary_max": 1700,
@@ -333,7 +333,7 @@
       "canonical_name": "Brehm, R. A.",
       "given_names": "R. A.",
       "surname": "Brehm",
-      "position": "Medical Health Officer, St. John's",
+      "position": "Medical Health Officer",
       "department": "Public Charities",
       "salary_min": 2000,
       "salary_max": 2000,
@@ -366,7 +366,7 @@
       "given_names": "J. S.",
       "surname": "Keating",
       "position": "Deputy Minister",
-      "department": "Finance",
+      "department": "Department of Finance",
       "salary_min": 1500,
       "salary_max": 1500,
       "allowances": null,
@@ -382,7 +382,7 @@
       "given_names": "George",
       "surname": "Bursell",
       "position": "1st Clerk",
-      "department": "Finance",
+      "department": "Department of Finance",
       "salary_min": 900,
       "salary_max": 900,
       "allowances": null,
@@ -681,7 +681,7 @@
       "location": null
     },
     {
-      "name": "Wm. Paul",
+      "name": "William Paul",
       "canonical_name": "Paul, William",
       "given_names": "William",
       "surname": "Paul",
@@ -1497,7 +1497,7 @@
       "location": null
     },
     {
-      "name": "S. D. Blandford",
+      "name": "Hon. S. D. Blandford",
       "canonical_name": "Blandford, S. D.",
       "given_names": "S. D.",
       "surname": "Blandford",
@@ -1651,11 +1651,11 @@
       "department": "Office of Comptroller and Auditor-General",
       "salary_min": 2000,
       "salary_max": 2000,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -1667,11 +1667,11 @@
       "department": "Office of Comptroller and Auditor-General",
       "salary_min": 1000,
       "salary_max": 1000,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -1683,11 +1683,11 @@
       "department": "Office of Comptroller and Auditor-General",
       "salary_min": 1000,
       "salary_max": 1000,
+      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
       "location": null
     },
     {
@@ -1755,9 +1755,9 @@
       "location": null
     },
     {
-      "name": "Sir W. H. Horwood",
-      "canonical_name": "Horwood, W. H.",
-      "given_names": "W. H.",
+      "name": "Hon. Sir W. H. Horwood",
+      "canonical_name": "Horwood, Hon. Sir W. H.",
+      "given_names": "Hon. Sir W. H.",
       "surname": "Horwood",
       "position": "Chief Justice and Judge of the Vice-Admiralty Court",
       "department": "Judicial Establishment",
@@ -1771,9 +1771,9 @@
       "location": null
     },
     {
-      "name": "G. H. Emerson",
-      "canonical_name": "Emerson, G. H.",
-      "given_names": "G. H.",
+      "name": "Hon. G. H. Emerson",
+      "canonical_name": "Emerson, Hon. G. H.",
+      "given_names": "Hon. G. H.",
       "surname": "Emerson",
       "position": "Judge",
       "department": "Judicial Establishment",
@@ -1787,9 +1787,9 @@
       "location": null
     },
     {
-      "name": "G. M. Johnson",
-      "canonical_name": "Johnson, G. M.",
-      "given_names": "G. M.",
+      "name": "Hon. G. M. Johnson",
+      "canonical_name": "Johnson, Hon. G. M.",
+      "given_names": "Hon. G. M.",
       "surname": "Johnson",
       "position": "Judge",
       "department": "Judicial Establishment",
@@ -2035,9 +2035,9 @@
       "location": "Ferryland"
     },
     {
-      "name": "L. J. Giovannetti",
-      "canonical_name": "Giovannetti, L. J.",
-      "given_names": "L. J.",
+      "name": "Dr. L. J. Giovannetti",
+      "canonical_name": "Giovannetti, Dr. L. J.",
+      "given_names": "Dr. L. J.",
       "surname": "Giovannetti",
       "position": "Magistrate",
       "department": "Judicial Establishment",
@@ -2051,9 +2051,9 @@
       "location": "Trepassey"
     },
     {
-      "name": "William Hogan",
-      "canonical_name": "Hogan, William",
-      "given_names": "William",
+      "name": "Dr. William Hogan",
+      "canonical_name": "Hogan, Dr. William",
+      "given_names": "Dr. William",
       "surname": "Hogan",
       "position": "Magistrate",
       "department": "Judicial Establishment",
@@ -2359,7 +2359,7 @@
       "canonical_name": "Knight, A. W.",
       "given_names": "A. W.",
       "surname": "Knight",
-      "position": "Clerk of the Peace at St. John's, and Clerk of Central District Court",
+      "position": "Clerk of the Peace and Clerk of Central District Court",
       "department": "Judicial Establishment",
       "salary_min": 1583,
       "salary_max": 1583,
@@ -2368,7 +2368,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. John's"
     },
     {
       "name": "John Sullivan",
@@ -2391,7 +2391,7 @@
       "canonical_name": "Blackall, W. W.",
       "given_names": "W. W.",
       "surname": "Blackall",
-      "position": "Superintendent of Schools",
+      "position": "Church of England",
       "department": "Educational Establishment",
       "salary_min": 1620,
       "salary_max": 1620,
@@ -2457,7 +2457,7 @@
       "canonical_name": "Burke, Vincent P.",
       "given_names": "Vincent P.",
       "surname": "Burke",
-      "position": "Roman Catholic",
+      "position": "Diocese of St. John's and St. George's",
       "department": "Educational Establishment",
       "salary_min": 1620,
       "salary_max": 1620,
@@ -2473,7 +2473,7 @@
       "canonical_name": "Hanrahan, Thomas",
       "given_names": "Thomas",
       "surname": "Hanrahan",
-      "position": "Roman Catholic",
+      "position": "Diocese of Harbor Grace",
       "department": "Educational Establishment",
       "salary_min": 1620,
       "salary_max": 1620,
@@ -2505,7 +2505,7 @@
       "canonical_name": "Hayward, E. A.",
       "given_names": "E. A.",
       "surname": "Hayward",
-      "position": "",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2514,7 +2514,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Newfoundland"
+      "location": null
     },
     {
       "name": "Charles Blackburn",
@@ -2569,7 +2569,7 @@
       "canonical_name": "Cook, Tasker",
       "given_names": "Tasker",
       "surname": "Cook",
-      "position": "",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2633,7 +2633,7 @@
       "canonical_name": "Martin, E. A.",
       "given_names": "E. A.",
       "surname": "Martin",
-      "position": "Consul",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2665,7 +2665,7 @@
       "canonical_name": "Outerbridge, N.",
       "given_names": "N.",
       "surname": "Outerbridge",
-      "position": "",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
