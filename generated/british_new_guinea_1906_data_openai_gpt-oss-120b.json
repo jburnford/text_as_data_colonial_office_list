@@ -1,7 +1,7 @@
 {
   "colony": "British New Guinea",
   "year": 1906,
-  "generated": "2026-03-12T07:56:42.094495",
+  "generated": "2026-03-12T14:08:20.150452",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 54,
@@ -27,7 +27,7 @@
       "canonical_name": "Murray, J. H. P.",
       "given_names": "J. H. P.",
       "surname": "Murray",
-      "position": "Member",
+      "position": null,
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -43,7 +43,7 @@
       "canonical_name": "Ballantine, D.",
       "given_names": "D.",
       "surname": "Ballantine",
-      "position": "Member",
+      "position": null,
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -59,7 +59,7 @@
       "canonical_name": "Musgrave, A.",
       "given_names": "A.",
       "surname": "Musgrave",
-      "position": "Member",
+      "position": null,
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -93,11 +93,11 @@
       "canonical_name": "Barton, F. R.",
       "given_names": "F. R.",
       "surname": "Barton",
-      "position": "Administrator, (acting)",
+      "position": "Administrator (acting)",
       "department": "Establishment",
       "salary_min": 1250,
       "salary_max": 1250,
-      "allowances": "200l",
+      "allowances": "200l.",
       "honors": [
         "C.M.G."
       ],
@@ -147,7 +147,7 @@
       "department": "Establishment",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "200l",
+      "allowances": "200l.",
       "honors": [
         "C.M.G."
       ],
@@ -282,7 +282,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Western Division"
+      "location": null
     },
     {
       "name": "B. W. Bramall",
@@ -298,7 +298,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Central Division"
+      "location": null
     },
     {
       "name": "C. H. Boucher",
@@ -346,7 +346,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Eastern Division"
+      "location": null
     },
     {
       "name": "R. L. Bellamy",
@@ -362,7 +362,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Trobriands"
+      "location": null
     },
     {
       "name": "A. M. Campbell",
@@ -378,7 +378,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Eastern Division"
+      "location": null
     },
     {
       "name": "C. O. Turner",
@@ -442,7 +442,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "South-Eastern Division"
+      "location": null
     },
     {
       "name": "F. Gill",
@@ -474,7 +474,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Northern Division"
+      "location": null
     },
     {
       "name": "J. B. Higginson",
@@ -554,7 +554,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "North-Eastern Division"
+      "location": null
     },
     {
       "name": "C. B. Higginson",
@@ -641,7 +641,7 @@
       "canonical_name": "Drummond, R. M.",
       "given_names": "R. M.",
       "surname": "Drummond",
-      "position": "Government Surveyors",
+      "position": "Government Surveyor",
       "department": "Establishment",
       "salary_min": 400,
       "salary_max": 400,
@@ -657,7 +657,7 @@
       "canonical_name": "Markwell, W. A.",
       "given_names": "W. A.",
       "surname": "Markwell",
-      "position": "Government Surveyors",
+      "position": "Government Surveyor",
       "department": "Establishment",
       "salary_min": 400,
       "salary_max": 400,
@@ -673,7 +673,7 @@
       "canonical_name": "Haviland, C. V.",
       "given_names": "C. V.",
       "surname": "Haviland",
-      "position": "Assistants",
+      "position": "Assistant",
       "department": "Establishment",
       "salary_min": 200,
       "salary_max": 200,
@@ -689,7 +689,7 @@
       "canonical_name": "Phillips, G.",
       "given_names": "G.",
       "surname": "Phillips",
-      "position": "Assistants",
+      "position": "Assistant",
       "department": "Establishment",
       "salary_min": 200,
       "salary_max": 200,
@@ -702,8 +702,8 @@
     },
     {
       "name": "J. R. S. Stuart Russell",
-      "canonical_name": "Russell, J. R. S. Stuart",
-      "given_names": "J. R. S. Stuart",
+      "canonical_name": "Russell, J. R. S.",
+      "given_names": "J. R. S.",
       "surname": "Russell",
       "position": "Record Clerk",
       "department": "Establishment",
@@ -737,7 +737,7 @@
       "canonical_name": "English, A. C.",
       "given_names": "A. C.",
       "surname": "English",
-      "position": "Assistant Resident Magistrate, Rigo",
+      "position": "Assistant Resident Magistrate",
       "department": "Establishment",
       "salary_min": 275,
       "salary_max": 275,
@@ -753,7 +753,7 @@
       "canonical_name": "Strong, W. M.",
       "given_names": "W. M.",
       "surname": "Strong",
-      "position": "Assistant Resident Magistrate, Mekeo",
+      "position": "Assistant Resident Magistrate",
       "department": "Establishment",
       "salary_min": 225,
       "salary_max": 225,
@@ -771,7 +771,7 @@
       "canonical_name": "Haughton, S. P.",
       "given_names": "S. P.",
       "surname": "Haughton",
-      "position": "Sub-Collector of Customs, Samarai",
+      "position": "Sub-Collector of Customs",
       "department": "Establishment",
       "salary_min": 250,
       "salary_max": 250,
@@ -787,7 +787,7 @@
       "canonical_name": "Kendrick, R. W.",
       "given_names": "R. W.",
       "surname": "Kendrick",
-      "position": "Clerk and Customs Officer, Samarai",
+      "position": "Clerk and Customs Officer",
       "department": "Establishment",
       "salary_min": 200,
       "salary_max": 200,
@@ -803,7 +803,7 @@
       "canonical_name": "Armit, L. J. B.",
       "given_names": "L. J. B.",
       "surname": "Armit",
-      "position": "Clerk, Post Office, Samarai",
+      "position": "Clerk, Post Office",
       "department": "Establishment",
       "salary_min": 150,
       "salary_max": 150,
@@ -819,7 +819,7 @@
       "canonical_name": "Symons, A. H.",
       "given_names": "A. H.",
       "surname": "Symons",
-      "position": "Sub-Collector of Customs, Daru",
+      "position": "Sub-Collector of Customs",
       "department": "Establishment",
       "salary_min": 275,
       "salary_max": 275,
@@ -867,7 +867,7 @@
       "canonical_name": "Hunter, A.",
       "given_names": "A.",
       "surname": "Hunter",
-      "position": "Commander ss. \"Merrie England,\"",
+      "position": "Commander ss. \"Merrie England\"",
       "department": "Establishment",
       "salary_min": 300,
       "salary_max": 300,

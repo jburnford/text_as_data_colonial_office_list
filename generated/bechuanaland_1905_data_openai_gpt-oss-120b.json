@@ -1,10 +1,10 @@
 {
   "colony": "Bechuanaland",
   "year": 1905,
-  "generated": "2026-03-12T12:50:30.012175",
+  "generated": "2026-03-12T13:47:40.410795",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 21,
+  "total_officials": 22,
   "officials": [
     {
       "name": "Sekgoma",
@@ -20,7 +20,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Lake Ngami"
     },
     {
       "name": "Mokgosi",
@@ -36,7 +36,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ramotusa"
     },
     {
       "name": "Ralph Williams",
@@ -61,10 +61,26 @@
       "canonical_name": "May, Barry",
       "given_names": "Barry",
       "surname": "May",
-      "position": "Clerk and Accountant to Resident Commissioner",
+      "position": "Government Secretary and Accountant to Resident Commissioner",
       "department": "Establishment",
       "salary_min": 650,
       "salary_max": 650,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "K. C. Bishop",
+      "canonical_name": "Bishop, K. C.",
+      "given_names": "K. C.",
+      "surname": "Bishop",
+      "position": "Clerk and Registrar to Resident Commissioner",
+      "department": "Establishment",
+      "salary_min": 350,
+      "salary_max": 350,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -348,12 +364,12 @@
   "validation_summary": {
     "colony": "Bechuanaland",
     "year": 1905,
-    "total": 21,
-    "high_confidence": 19,
+    "total": 22,
+    "high_confidence": 20,
     "medium_confidence": 2,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 21,
+    "passed": 22,
     "anomaly_count": 0
   }
 }

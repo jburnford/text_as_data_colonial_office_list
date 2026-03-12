@@ -1,7 +1,7 @@
 {
   "colony": "Orange River Colony",
   "year": 1907,
-  "generated": "2026-03-12T08:29:07.627393",
+  "generated": "2026-03-12T14:33:59.095622",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 210,
@@ -34,9 +34,7 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [
-        "K.C."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -52,9 +50,7 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [
-        "I.S.O."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -141,18 +137,16 @@
       "location": null
     },
     {
-      "name": "Sir John George Fraser",
-      "canonical_name": "Fraser, Sir John George",
-      "given_names": "Sir John George",
+      "name": "John George Fraser",
+      "canonical_name": "Fraser, John George",
+      "given_names": "John George",
       "surname": "Fraser",
-      "position": null,
+      "position": "Member",
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [
-        "Kt."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -163,7 +157,7 @@
       "canonical_name": "van Rensburg, Johannes Frederik Janse",
       "given_names": "Johannes Frederik Janse",
       "surname": "van Rensburg",
-      "position": null,
+      "position": "Member",
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
@@ -179,7 +173,7 @@
       "canonical_name": "Wessels, Johannes Matheus",
       "given_names": "Johannes Matheus",
       "surname": "Wessels",
-      "position": null,
+      "position": "Member",
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
@@ -195,7 +189,7 @@
       "canonical_name": "Olivier, Jan Hendrik",
       "given_names": "Jan Hendrik",
       "surname": "Olivier",
-      "position": null,
+      "position": "Member",
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
@@ -211,7 +205,7 @@
       "canonical_name": "Stockdale, Henry Walter",
       "given_names": "Henry Walter",
       "surname": "Stockdale",
-      "position": null,
+      "position": "Member",
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
@@ -227,7 +221,7 @@
       "canonical_name": "Wessels, Barend Johannes Swart",
       "given_names": "Barend Johannes Swart",
       "surname": "Wessels",
-      "position": null,
+      "position": "Member",
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
@@ -243,7 +237,7 @@
       "canonical_name": "Whitworth, Walter Stanley",
       "given_names": "Walter Stanley",
       "surname": "Whitworth",
-      "position": null,
+      "position": "Member",
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
@@ -259,7 +253,7 @@
       "canonical_name": "Burns-Thomson, W.",
       "given_names": "W.",
       "surname": "Burns-Thomson",
-      "position": null,
+      "position": "Member",
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
@@ -273,7 +267,7 @@
     {
       "name": "The Earl of Selborne",
       "canonical_name": "Selborne, The Earl of",
-      "given_names": null,
+      "given_names": "",
       "surname": "Selborne",
       "position": "Governor",
       "department": "Executive Council",
@@ -281,7 +275,6 @@
       "salary_max": 8000,
       "allowances": null,
       "honors": [
-        "P.C.",
         "G.C.M.G."
       ],
       "qualifications": [],
@@ -290,8 +283,8 @@
       "location": null
     },
     {
-      "name": "Capt. The Hon. D. C. Marjoribanks",
-      "canonical_name": "Marjoribanks, Capt. The Hon. D. C.",
+      "name": "The Hon. D. C. Marjoribanks",
+      "canonical_name": "Marjoribanks, The Hon. D. C.",
       "given_names": "The Hon. D. C.",
       "surname": "Marjoribanks",
       "position": "Military Secretary",
@@ -300,7 +293,6 @@
       "salary_max": 750,
       "allowances": null,
       "honors": [
-        "M.V.O.",
         "D.S.O."
       ],
       "qualifications": [],
@@ -327,7 +319,7 @@
     {
       "name": "Viscount Howick",
       "canonical_name": "Howick, Viscount",
-      "given_names": null,
+      "given_names": "Viscount",
       "surname": "Howick",
       "position": "Assistant Secretary",
       "department": "Executive Council",
@@ -341,8 +333,8 @@
       "location": null
     },
     {
-      "name": "Lieut. The Hon. J. C. Lyttleton",
-      "canonical_name": "Lyttleton, Lieut. The Hon. J. C.",
+      "name": "The Hon. J. C. Lyttleton",
+      "canonical_name": "Lyttleton, The Hon. J. C.",
       "given_names": "The Hon. J. C.",
       "surname": "Lyttleton",
       "position": "Aide-de-Camp",
@@ -359,7 +351,7 @@
     {
       "name": "Geo. E. Birch",
       "canonical_name": "Birch, Geo. E.",
-      "given_names": "E.",
+      "given_names": "Geo. E.",
       "surname": "Birch",
       "position": "Chief Clerk",
       "department": "Executive Council",
@@ -423,7 +415,7 @@
     {
       "name": "Sir H. J. Goold-Adams",
       "canonical_name": "Goold-Adams, Sir H. J.",
-      "given_names": "H. J.",
+      "given_names": "Sir H. J.",
       "surname": "Goold-Adams",
       "position": "Lieutenant-Governor",
       "department": "Executive Council",
@@ -456,8 +448,8 @@
       "location": null
     },
     {
-      "name": "Bt.-Maj. P. G. A. Cox",
-      "canonical_name": "Cox, Bt.-Maj. P. G. A.",
+      "name": "P. G. A. Cox",
+      "canonical_name": "Cox, P. G. A.",
       "given_names": "P. G. A.",
       "surname": "Cox",
       "position": "Aide-de-Camp",
@@ -608,8 +600,8 @@
       "surname": "Smith",
       "position": "Clerk",
       "department": "Colonial Secretary's Department",
-      "salary_min": 200,
-      "salary_max": 200,
+      "salary_min": 225,
+      "salary_max": 225,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -666,7 +658,7 @@
       "location": null
     },
     {
-      "name": "Capt. J. Q. Dickson",
+      "name": "J. Q. Dickson",
       "canonical_name": "Dickson, J. Q.",
       "given_names": "J. Q.",
       "surname": "Dickson",
@@ -732,7 +724,7 @@
       "location": "Witteboek"
     },
     {
-      "name": "Capt. C. S. Calverly",
+      "name": "C. S. Calverly",
       "canonical_name": "Calverly, C. S.",
       "given_names": "C. S.",
       "surname": "Calverly",
@@ -748,7 +740,7 @@
       "location": null
     },
     {
-      "name": "Rev. W. Robertson",
+      "name": "W. Robertson",
       "canonical_name": "Robertson, W.",
       "given_names": "W.",
       "surname": "Robertson",
@@ -944,7 +936,7 @@
       "canonical_name": "Collie, A.",
       "given_names": "A.",
       "surname": "Collie",
-      "position": "District Examiners of Accounts",
+      "position": "District Examiner of Accounts",
       "department": "Auditor-General's Department",
       "salary_min": 330,
       "salary_max": 330,
@@ -960,7 +952,7 @@
       "canonical_name": "Steele, T. M.",
       "given_names": "T. M.",
       "surname": "Steele",
-      "position": "District Examiners of Accounts",
+      "position": "District Examiner of Accounts",
       "department": "Auditor-General's Department",
       "salary_min": 300,
       "salary_max": 300,
@@ -976,7 +968,7 @@
       "canonical_name": "Wilkinson, J. E.",
       "given_names": "J. E.",
       "surname": "Wilkinson",
-      "position": "Examiners of Accounts",
+      "position": "Examiner of Accounts",
       "department": "Auditor-General's Department",
       "salary_min": 310,
       "salary_max": 310,
@@ -992,7 +984,7 @@
       "canonical_name": "Thatcher, J.",
       "given_names": "J.",
       "surname": "Thatcher",
-      "position": "Examiners of Accounts",
+      "position": "Examiner of Accounts",
       "department": "Auditor-General's Department",
       "salary_min": 310,
       "salary_max": 310,
@@ -1008,7 +1000,7 @@
       "canonical_name": "Collison, P. L.",
       "given_names": "P. L.",
       "surname": "Collison",
-      "position": "Examiners of Accounts",
+      "position": "Examiner of Accounts",
       "department": "Auditor-General's Department",
       "salary_min": 300,
       "salary_max": 300,
@@ -1024,7 +1016,7 @@
       "canonical_name": "Keller, T. W.",
       "given_names": "T. W.",
       "surname": "Keller",
-      "position": "Examiners of Accounts",
+      "position": "Examiner of Accounts",
       "department": "Auditor-General's Department",
       "salary_min": 260,
       "salary_max": 260,
@@ -1040,7 +1032,7 @@
       "canonical_name": "Tobias, M. S.",
       "given_names": "M. S.",
       "surname": "Tobias",
-      "position": "Examiners of Accounts",
+      "position": "Examiner of Accounts",
       "department": "Auditor-General's Department",
       "salary_min": 220,
       "salary_max": 220,
@@ -1472,7 +1464,7 @@
       "canonical_name": "Taylor, F.",
       "given_names": "F.",
       "surname": "Taylor",
-      "position": "Secretary for Public Works and Chief Architect",
+      "position": "Secretary for Public Works; Chief Architect",
       "department": "Public Works Department",
       "salary_min": 600,
       "salary_max": 600,
@@ -1856,7 +1848,7 @@
       "canonical_name": "Yule, G. P.",
       "given_names": "G. P.",
       "surname": "Yule",
-      "position": "Medical Officer of Health and Registrar of Births and Deaths",
+      "position": "Medical Officer of Health; Registrar of Births and Deaths",
       "department": "Public Health",
       "salary_min": 950,
       "salary_max": 950,
@@ -1875,7 +1867,7 @@
       "canonical_name": "Adams, P. T.",
       "given_names": "P. T.",
       "surname": "Adams",
-      "position": "Deputy Medical Officer of Health and Analyst and Bacteriologist",
+      "position": "Deputy Medical Officer of Health; Analyst and Bacteriologist",
       "department": "Public Health",
       "salary_min": 750,
       "salary_max": 750,
@@ -2628,7 +2620,7 @@
       "location": null
     },
     {
-      "name": "A. M. Wilson",
+      "name": "Miss A. M. Wilson",
       "canonical_name": "Wilson, A. M.",
       "given_names": "A. M.",
       "surname": "Wilson",
@@ -2644,7 +2636,7 @@
       "location": null
     },
     {
-      "name": "J. Brill",
+      "name": "Dr. J. Brill",
       "canonical_name": "Brill, J.",
       "given_names": "J.",
       "surname": "Brill",
@@ -2657,7 +2649,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Grey College"
+      "location": null
     },
     {
       "name": "J. Lyle",
@@ -2724,7 +2716,7 @@
       "location": null
     },
     {
-      "name": "G. Potts",
+      "name": "Dr. G. Potts",
       "canonical_name": "Potts, G.",
       "given_names": "G.",
       "surname": "Potts",
@@ -2785,7 +2777,7 @@
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "Lieutenant-Colonel",
+      "military_rank": "Lt.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -3219,7 +3211,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Vredefort, at Parys"
+      "location": "Vredefort (at Parys)"
     },
     {
       "name": "J. de Castilla",
@@ -3402,8 +3394,8 @@
     "colony": "Orange River Colony",
     "year": 1907,
     "total": 210,
-    "high_confidence": 208,
-    "medium_confidence": 2,
+    "high_confidence": 209,
+    "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 210,

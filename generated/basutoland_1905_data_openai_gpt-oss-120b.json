@@ -1,10 +1,10 @@
 {
   "colony": "Basutoland",
   "year": 1905,
-  "generated": "2026-03-12T12:49:23.209462",
+  "generated": "2026-03-12T13:48:38.751247",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 30,
+  "total_officials": 29,
   "officials": [
     {
       "name": "H. C. Sloley",
@@ -232,9 +232,9 @@
     },
     {
       "name": "L. H. Goring Lloyd",
-      "canonical_name": "Goring Lloyd, L. H.",
-      "given_names": "L. H.",
-      "surname": "Goring Lloyd",
+      "canonical_name": "Lloyd, L. H. Goring",
+      "given_names": "L. H. Goring",
+      "surname": "Lloyd",
       "position": "Sub-Inspector of Police",
       "department": "Establishment",
       "salary_min": 250,
@@ -423,22 +423,6 @@
       "location": null
     },
     {
-      "name": "P. M. O.",
-      "canonical_name": "O., P. M.",
-      "given_names": "P. M.",
-      "surname": "O.",
-      "position": "Medical Officer",
-      "department": "Establishment",
-      "salary_min": 350,
-      "salary_max": 635,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "N. M. Macfarlane",
       "canonical_name": "Macfarlane, N. M.",
       "given_names": "N. M.",
@@ -471,7 +455,7 @@
       "location": null
     },
     {
-      "name": "Dr. H. M. Cory",
+      "name": "H. M. Cory",
       "canonical_name": "Cory, H. M.",
       "given_names": "H. M.",
       "surname": "Cory",
@@ -491,11 +475,11 @@
     "colony": "Basutoland",
     "year": 1905,
     "total": 30,
-    "high_confidence": 30,
+    "high_confidence": 29,
     "medium_confidence": 0,
-    "low_confidence": 0,
-    "quarantined": 0,
-    "passed": 30,
+    "low_confidence": 1,
+    "quarantined": 1,
+    "passed": 29,
     "anomaly_count": 0
   }
 }

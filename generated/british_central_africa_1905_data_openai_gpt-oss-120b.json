@@ -1,7 +1,7 @@
 {
   "colony": "British Central Africa",
   "year": 1905,
-  "generated": "2026-03-12T12:53:03.105663",
+  "generated": "2026-03-12T13:49:43.607813",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 67,
@@ -242,7 +242,7 @@
       "canonical_name": "Ridge, A.",
       "given_names": "A.",
       "surname": "Ridge",
-      "position": "Clerk, Treasury",
+      "position": "Clerk",
       "department": "Treasury Department",
       "salary_min": 200,
       "salary_max": 250,
@@ -258,7 +258,7 @@
       "canonical_name": "Turnbull, A. M. D.",
       "given_names": "A. M. D.",
       "surname": "Turnbull",
-      "position": "Clerk, Treasury",
+      "position": "Clerk",
       "department": "Treasury Department",
       "salary_min": 200,
       "salary_max": 250,
@@ -274,7 +274,7 @@
       "canonical_name": "Wyatt, A. L.",
       "given_names": "A. L.",
       "surname": "Wyatt",
-      "position": "Clerk, Treasury",
+      "position": "Clerk",
       "department": "Treasury Department",
       "salary_min": 200,
       "salary_max": 250,
@@ -578,7 +578,7 @@
       "canonical_name": "Bowhill, J. O.",
       "given_names": "J. O.",
       "surname": "Bowhill",
-      "position": "Assistant",
+      "position": "1st Assistant",
       "department": "District Collectorate Department",
       "salary_min": 450,
       "salary_max": 600,
@@ -594,7 +594,7 @@
       "canonical_name": "Swann, A. J.",
       "given_names": "A. J.",
       "surname": "Swann",
-      "position": "Assistant",
+      "position": "1st Assistant",
       "department": "District Collectorate Department",
       "salary_min": 450,
       "salary_max": 600,
@@ -610,7 +610,7 @@
       "canonical_name": "Ray, G. C. L.",
       "given_names": "G. C. L.",
       "surname": "Ray",
-      "position": "Assistant",
+      "position": "1st Assistant",
       "department": "District Collectorate Department",
       "salary_min": 450,
       "salary_max": 600,
@@ -626,7 +626,7 @@
       "canonical_name": "MacDonald, H. C.",
       "given_names": "H. C.",
       "surname": "MacDonald",
-      "position": "Assistant",
+      "position": "1st Assistant",
       "department": "District Collectorate Department",
       "salary_min": 450,
       "salary_max": 600,
@@ -865,7 +865,7 @@
       "location": null
     },
     {
-      "name": "Captain A. S. Cobbe",
+      "name": "Captain (local Lieut.-Colonel) A. S. Cobbe",
       "canonical_name": "Cobbe, A. S.",
       "given_names": "A. S.",
       "surname": "Cobbe",
@@ -875,6 +875,7 @@
       "salary_max": 900,
       "allowances": null,
       "honors": [
+        "V.C.",
         "D.S.O."
       ],
       "qualifications": [],
@@ -1070,11 +1071,13 @@
       "salary_min": 450,
       "salary_max": 600,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "C.M.G."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Chinde"
+      "location": null
     },
     {
       "name": "J. S. Bell",
@@ -1090,7 +1093,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Chinde"
+      "location": null
     }
   ],
   "validation_summary": {

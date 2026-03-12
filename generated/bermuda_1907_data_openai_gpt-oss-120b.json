@@ -1,7 +1,7 @@
 {
   "colony": "Bermuda",
   "year": 1907,
-  "generated": "2026-03-12T08:15:58.198945",
+  "generated": "2026-03-12T14:25:14.818946",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 85,
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "Captain Soltau Symons",
+      "name": "Soltau Symons",
       "canonical_name": "Symons, Soltau",
       "given_names": "Soltau",
       "surname": "Symons",
@@ -49,7 +49,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "fees",
+      "allowances": "and fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -360,7 +360,7 @@
       "department": "Revenue Department",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -836,7 +836,7 @@
       "canonical_name": "Tucker, G.",
       "given_names": "G.",
       "surname": "Tucker",
-      "position": "Rector, Hamilton and Smith; Archdeacon",
+      "position": "Rector, Hamilton and Smith",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -1106,9 +1106,9 @@
       "location": null
     },
     {
-      "name": "Sir Robert MacGregor Stewart",
-      "canonical_name": "Stewart, Sir Robert MacGregor",
-      "given_names": "Sir Robert MacGregor",
+      "name": "Robert MacGregor Stewart",
+      "canonical_name": "Stewart, Robert MacGregor",
+      "given_names": "Robert MacGregor",
       "surname": "Stewart",
       "position": "General Commanding",
       "department": "Chief Military Officers",
@@ -1119,7 +1119,7 @@
         "K.C.B."
       ],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.-General",
       "salary_scale": null,
       "location": null
     },
@@ -1173,7 +1173,7 @@
     },
     {
       "name": "Caird",
-      "canonical_name": "Caird, ",
+      "canonical_name": "Caird",
       "given_names": "",
       "surname": "Caird",
       "position": "Chief Ordnance Officer",
@@ -1258,7 +1258,7 @@
       "canonical_name": "Heyl, W. H.",
       "given_names": "W. H.",
       "surname": "Heyl",
-      "position": "Vice and Deputy Consul for the United States",
+      "position": "Vice and Deputy",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1283,7 +1283,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. George"
     },
     {
       "name": "R. H. James",
@@ -1391,6 +1391,6 @@
     "low_confidence": 1,
     "quarantined": 1,
     "passed": 85,
-    "anomaly_count": 3
+    "anomaly_count": 4
   }
 }

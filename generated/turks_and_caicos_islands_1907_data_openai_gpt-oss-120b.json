@@ -1,7 +1,7 @@
 {
   "colony": "Turks and Caicos Islands",
   "year": 1907,
-  "generated": "2026-03-12T08:30:41.742153",
+  "generated": "2026-03-12T14:34:50.287655",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 27,
@@ -100,7 +100,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Grand Turk"
+      "location": null
     },
     {
       "name": "George S. S. Hirst",
@@ -109,14 +109,14 @@
       "surname": "Hirst",
       "position": "Assistant Commissioner, Salt Cay",
       "department": "Civil Establishment",
-      "salary_min": 200,
+      "salary_min": 210,
       "salary_max": 210,
-      "allowances": null,
+      "allowances": "200l. and 10l. for boat",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Salt Cay"
+      "location": null
     },
     {
       "name": "T. R. Robertson",
@@ -127,12 +127,12 @@
       "department": "Civil Establishment",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": null,
+      "allowances": "100l. (also paid as Government Medical Officer)",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Caicos Islands"
+      "location": null
     },
     {
       "name": "D. B. Hinson",
@@ -148,7 +148,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Cockburn Harbour"
+      "location": null
     },
     {
       "name": "Edward G. Reid",
@@ -388,12 +388,12 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Denmark"
+      "location": null
     },
     {
       "name": "W. S. Jones",
-      "canonical_name": "Jones, W.",
-      "given_names": "W.",
+      "canonical_name": "Jones, W. S.",
+      "given_names": "W. S.",
       "surname": "Jones",
       "position": "Consular Agent",
       "department": "Foreign Consuls",
@@ -404,7 +404,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "W. Andrew Manuel",
@@ -420,7 +420,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "San Domingo"
+      "location": null
     },
     {
       "name": "I. A. Howells",
@@ -436,7 +436,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States of America"
+      "location": null
     }
   ],
   "validation_summary": {

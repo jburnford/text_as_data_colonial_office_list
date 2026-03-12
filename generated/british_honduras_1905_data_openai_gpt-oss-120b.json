@@ -1,13 +1,13 @@
 {
   "colony": "British Honduras",
   "year": 1905,
-  "generated": "2026-03-12T12:55:59.911248",
+  "generated": "2026-03-12T13:50:46.663409",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 84,
   "officials": [
     {
-      "name": "Ernest Bickham Sweet-Escott",
+      "name": "Sir Ernest Bickham Sweet-Escott",
       "canonical_name": "Sweet-Escott, Ernest Bickham",
       "given_names": "Ernest Bickham",
       "surname": "Sweet-Escott",
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "H. W. Peebles",
+      "name": "Captain H. W. Peebles",
       "canonical_name": "Peebles, H. W.",
       "given_names": "H. W.",
       "surname": "Peebles",
@@ -895,7 +895,7 @@
       "canonical_name": "Martin, A.",
       "given_names": "A.",
       "surname": "Martin",
-      "position": "Keeper",
+      "position": "Keeper Half-Moon Cay Light",
       "department": "Public Works",
       "salary_min": 400,
       "salary_max": 400,
@@ -904,14 +904,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Half-Moon Cay Light"
+      "location": null
     },
     {
       "name": "G. Longsworth",
       "canonical_name": "Longsworth, G.",
       "given_names": "G.",
       "surname": "Longsworth",
-      "position": "Keeper",
+      "position": "Keeper Mauagre Cay",
       "department": "Public Works",
       "salary_min": 300,
       "salary_max": 300,
@@ -920,14 +920,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Mauagre Cay"
+      "location": null
     },
     {
       "name": "S. Miller",
       "canonical_name": "Miller, S.",
       "given_names": "S.",
       "surname": "Miller",
-      "position": "Keeper",
+      "position": "Keeper Cay Bokel",
       "department": "Public Works",
       "salary_min": 300,
       "salary_max": 300,
@@ -936,14 +936,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Cay Bokel"
+      "location": null
     },
     {
       "name": "J. Young",
       "canonical_name": "Young, J.",
       "given_names": "J.",
       "surname": "Young",
-      "position": "Keeper",
+      "position": "Keeper English Cay",
       "department": "Public Works",
       "salary_min": 240,
       "salary_max": 240,
@@ -952,14 +952,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "English Cay"
+      "location": null
     },
     {
       "name": "C. Miller",
       "canonical_name": "Miller, C.",
       "given_names": "C.",
       "surname": "Miller",
-      "position": "Keeper",
+      "position": "Keeper Bugle Cay",
       "department": "Public Works",
       "salary_min": 240,
       "salary_max": 240,
@@ -968,7 +968,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Bugle Cay"
+      "location": null
     },
     {
       "name": "C. H. Eyles",
@@ -1107,7 +1107,7 @@
       "department": "Police",
       "salary_min": 2187,
       "salary_max": 2187,
-      "allowances": "$360 in lieu of quarters",
+      "allowances": "360 in lieu of quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1123,7 +1123,7 @@
       "department": "Police",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1135,11 +1135,11 @@
       "canonical_name": "Bell, G. C.",
       "given_names": "G. C.",
       "surname": "Bell",
-      "position": "Superintendent",
+      "position": "Assistant Superintendent",
       "department": "Police",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": "$240 in lieu of quarters",
+      "allowances": "240 in lieu of quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1313,7 +1313,7 @@
       "canonical_name": "Hopkins, F. C.",
       "given_names": "F. C.",
       "surname": "Hopkins",
-      "position": null,
+      "position": "Roman Catholic",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,

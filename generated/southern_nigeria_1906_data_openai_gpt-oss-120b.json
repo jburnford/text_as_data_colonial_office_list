@@ -1,15 +1,15 @@
 {
   "colony": "Southern Nigeria",
   "year": 1906,
-  "generated": "2026-03-12T08:13:48.622439",
+  "generated": "2026-03-12T14:23:36.346574",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 123,
   "officials": [
     {
       "name": "Sir John Anderson",
-      "canonical_name": "Anderson, John",
-      "given_names": "John",
+      "canonical_name": "Anderson, Sir John",
+      "given_names": "Sir John",
       "surname": "Anderson",
       "position": "Governor",
       "department": "Civil Establishment",
@@ -22,7 +22,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "O. Marks",
@@ -38,7 +38,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "Capt. H. H. F. Stockley",
@@ -54,7 +54,7 @@
       "qualifications": [],
       "military_rank": "Captain",
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "E. L. Brockman",
@@ -65,7 +65,7 @@
       "department": "Colonial Secretary's Office",
       "salary_min": 900,
       "salary_max": 1020,
-      "allowances": "1,200l. entertainment allowance",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -505,7 +505,7 @@
       "location": null
     },
     {
-      "name": "Captain A. H. Boldero, R.N.",
+      "name": "Captain A. H. Boldero",
       "canonical_name": "Boldero, A. H.",
       "given_names": "A. H.",
       "surname": "Boldero",
@@ -521,7 +521,7 @@
       "location": null
     },
     {
-      "name": "Commander C. A. Radcliffe, R.N.",
+      "name": "Commander C. A. Radcliffe",
       "canonical_name": "Radcliffe, C. A.",
       "given_names": "C. A.",
       "surname": "Radcliffe",
@@ -580,7 +580,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Commander",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1059,7 +1059,7 @@
       "canonical_name": "Pennefather, E. G.",
       "given_names": "E. G.",
       "surname": "Pennefather",
-      "position": "Inspector General",
+      "position": "Insp. Gen.",
       "department": "Police",
       "salary_min": 900,
       "salary_max": 1000,
@@ -1394,9 +1394,9 @@
     },
     {
       "name": "George Clunies Ross",
-      "canonical_name": "Clunies Ross, George",
-      "given_names": "George",
-      "surname": "Clunies Ross",
+      "canonical_name": "Ross, George Clunies",
+      "given_names": "George Clunies",
+      "surname": "Ross",
       "position": "Superintendent",
       "department": "Cocos and Keeling Islands",
       "salary_min": null,
@@ -1502,7 +1502,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": "Capt.",
       "salary_scale": null,
       "location": null
     },
@@ -1604,9 +1604,9 @@
     },
     {
       "name": "Lo Tsung Yao",
-      "canonical_name": "Tsung Yao, Lo",
-      "given_names": "Lo",
-      "surname": "Tsung Yao",
+      "canonical_name": "Yao, Lo Tsung",
+      "given_names": "Lo Tsung",
+      "surname": "Yao",
       "position": "Consul-General, S.S.",
       "department": "Consuls",
       "salary_min": null,
@@ -1636,9 +1636,9 @@
     },
     {
       "name": "M. le Viscomte de Boudy",
-      "canonical_name": "le Viscomte de Boudy, M.",
-      "given_names": "M.",
-      "surname": "le Viscomte de Boudy",
+      "canonical_name": "Boudy, M. le Viscomte de",
+      "given_names": "M. le Viscomte de",
+      "surname": "Boudy",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -1732,9 +1732,9 @@
     },
     {
       "name": "Don Jos\u00e9 Ping Ferrer",
-      "canonical_name": "Ping Ferrer, Don Jos\u00e9",
-      "given_names": "Don Jos\u00e9",
-      "surname": "Ping Ferrer",
+      "canonical_name": "Ferrer, Don Jos\u00e9 Ping",
+      "given_names": "Don Jos\u00e9 Ping",
+      "surname": "Ferrer",
       "position": "Honorary Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -1830,9 +1830,9 @@
     },
     {
       "name": "Liang Ting Fang",
-      "canonical_name": "Ting Fang, Liang",
-      "given_names": "Liang",
-      "surname": "Ting Fang",
+      "canonical_name": "Fang, Liang Ting",
+      "given_names": "Liang Ting",
+      "surname": "Fang",
       "position": "Vice-Consul",
       "department": "Consuls",
       "salary_min": null,

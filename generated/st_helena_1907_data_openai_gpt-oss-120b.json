@@ -1,7 +1,7 @@
 {
   "colony": "St Helena",
   "year": 1907,
-  "generated": "2026-03-12T08:28:07.045943",
+  "generated": "2026-03-12T14:34:09.893471",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 28,
@@ -15,10 +15,10 @@
       "department": "Civil Establishment",
       "salary_min": 750,
       "salary_max": 750,
-      "allowances": "table allowance 200l.",
+      "allowances": "table allowance 200l",
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": "Lt.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -180,7 +180,7 @@
       "department": "Civil Establishment",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -212,7 +212,7 @@
       "department": "Civil Establishment",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -228,7 +228,7 @@
       "department": "Civil Establishment",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "45l.",
+      "allowances": "allowances 45l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -348,7 +348,7 @@
       "location": null
     },
     {
-      "name": "W. A. Holbech",
+      "name": "The Very Rev. W. A. Holbech",
       "canonical_name": "Holbech, W. A.",
       "given_names": "W. A.",
       "surname": "Holbech",
@@ -366,7 +366,7 @@
       "location": null
     },
     {
-      "name": "H. Gibbons",
+      "name": "Rev. H. Gibbons",
       "canonical_name": "Gibbons, H.",
       "given_names": "H.",
       "surname": "Gibbons",
@@ -382,7 +382,7 @@
       "location": null
     },
     {
-      "name": "J. H. Daine",
+      "name": "Rev. Father J. H. Daine",
       "canonical_name": "Daine, J. H.",
       "given_names": "J. H.",
       "surname": "Daine",

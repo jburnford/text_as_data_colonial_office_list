@@ -1,10 +1,10 @@
 {
   "colony": "Basutoland",
   "year": 1906,
-  "generated": "2026-03-12T13:11:51.351129",
+  "generated": "2026-03-12T14:05:19.590846",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 32,
+  "total_officials": 33,
   "officials": [
     {
       "name": "H. C. Sloley",
@@ -393,9 +393,9 @@
       "location": null
     },
     {
-      "name": "N. W. Fogarty",
-      "canonical_name": "Fogarty, N. W.",
-      "given_names": "N. W.",
+      "name": "Rev. N. W. Fogarty",
+      "canonical_name": "Fogarty, Rev. N. W.",
+      "given_names": "Rev. N. W.",
       "surname": "Fogarty",
       "position": "Director, Industrial School",
       "department": "Establishment",
@@ -457,6 +457,22 @@
       "location": null
     },
     {
+      "name": "P.M.O.",
+      "canonical_name": "P.M.O., ",
+      "given_names": "",
+      "surname": "P.M.O.",
+      "position": "Medical Officer",
+      "department": "Establishment",
+      "salary_min": 350,
+      "salary_max": 635,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
       "name": "N. M. Macfarlane",
       "canonical_name": "Macfarlane, N. M.",
       "given_names": "N. M.",
@@ -489,9 +505,9 @@
       "location": null
     },
     {
-      "name": "H. M. Cory",
-      "canonical_name": "Cory, H. M.",
-      "given_names": "H. M.",
+      "name": "H. M Cory",
+      "canonical_name": "Cory, H. M",
+      "given_names": "H. M",
       "surname": "Cory",
       "position": "Medical Officer",
       "department": "Establishment",
@@ -524,12 +540,12 @@
   "validation_summary": {
     "colony": "Basutoland",
     "year": 1906,
-    "total": 32,
+    "total": 33,
     "high_confidence": 32,
-    "medium_confidence": 0,
+    "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 32,
+    "passed": 33,
     "anomaly_count": 0
   }
 }

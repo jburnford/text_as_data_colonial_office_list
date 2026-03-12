@@ -1,7 +1,7 @@
 {
   "colony": "British Honduras",
   "year": 1906,
-  "generated": "2026-03-12T07:56:27.501384",
+  "generated": "2026-03-12T14:10:48.758796",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 88,
@@ -441,9 +441,9 @@
       "location": null
     },
     {
-      "name": "Sir Walter Llewellyn Lewis",
-      "canonical_name": "Lewis, Sir Walter Llewellyn",
-      "given_names": "Sir Walter Llewellyn",
+      "name": "Walter Llewellyn Lewis",
+      "canonical_name": "Lewis, Walter Llewellyn",
+      "given_names": "Walter Llewellyn",
       "surname": "Lewis",
       "position": "Chief Justice and Judge, Vice-Admiralty Court",
       "department": "Judicial Department",
@@ -605,7 +605,7 @@
       "canonical_name": "Strange, H. P. C.",
       "given_names": "H. P. C.",
       "surname": "Strange",
-      "position": "District Commissioner",
+      "position": "Corosol",
       "department": "District Commissioners",
       "salary_min": 1800,
       "salary_max": 1800,
@@ -614,7 +614,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Corosol"
+      "location": null
     },
     {
       "name": "A. Majarrez",
@@ -1185,7 +1185,7 @@
       "department": "Police",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": "240 in lieu of quarters",
+      "allowances": "$240 in lieu of quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,

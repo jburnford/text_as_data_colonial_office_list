@@ -1,7 +1,7 @@
 {
   "colony": "Gambia",
   "year": 1907,
-  "generated": "2026-03-12T08:21:17.319870",
+  "generated": "2026-03-12T14:27:40.704662",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 73,
@@ -58,14 +58,14 @@
     },
     {
       "name": "Hon. H. M. Brandford Griffith",
-      "canonical_name": "Brandford Griffith, H. M.",
-      "given_names": "H. M.",
-      "surname": "Brandford Griffith",
+      "canonical_name": "Griffith, H. M. Brandford",
+      "given_names": "H. M. Brandford",
+      "surname": "Griffith",
       "position": "Colonial Secretary",
       "department": "Secretariat",
       "salary_min": 600,
       "salary_max": 700,
-      "allowances": "100l. duty allowance",
+      "allowances": "by 25l. per annum, and 100l. duty allowance",
       "honors": [
         "C.M.G."
       ],
@@ -83,7 +83,7 @@
       "department": "Secretariat",
       "salary_min": 200,
       "salary_max": 250,
-      "allowances": null,
+      "allowances": "by 10l. per annum",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -291,7 +291,7 @@
       "department": "Customs",
       "salary_min": 175,
       "salary_max": 200,
-      "allowances": "5l. per annum",
+      "allowances": "by 5l. per annum",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -412,8 +412,8 @@
     },
     {
       "name": "Hon. W. R. Townsend",
-      "canonical_name": "Townsend, W. R.",
-      "given_names": "W. R.",
+      "canonical_name": "Townsend, Hon. W. R.",
+      "given_names": "Hon. W. R.",
       "surname": "Townsend",
       "position": "Chief Magistrate",
       "department": "Judicial Department",
@@ -579,7 +579,7 @@
       "department": "West African Frontier Force",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "command pay, 96l.",
+      "allowances": "command pay 96l",
       "honors": [
         "D.S.O."
       ],
@@ -616,7 +616,7 @@
       "allowances": "duty pay 24l",
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Colour-Sergeant",
       "salary_scale": null,
       "location": null
     },
@@ -632,7 +632,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Sergeant",
       "salary_scale": null,
       "location": null
     },
@@ -725,7 +725,7 @@
       "department": "Medical",
       "salary_min": 600,
       "salary_max": 700,
-      "allowances": "2s. 3d. per diem",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -741,7 +741,7 @@
       "department": "Medical",
       "salary_min": 400,
       "salary_max": 500,
-      "allowances": "2s. 3d. per diem",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -757,7 +757,7 @@
       "department": "Medical",
       "salary_min": 400,
       "salary_max": 500,
-      "allowances": "2s. 3d. per diem",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -773,7 +773,7 @@
       "department": "Medical",
       "salary_min": 400,
       "salary_max": 500,
-      "allowances": "2s. 3d. per diem",
+      "allowances": null,
       "honors": [
         "D.S.O."
       ],
@@ -791,7 +791,7 @@
       "department": "Medical",
       "salary_min": 75,
       "salary_max": 85,
-      "allowances": "2s. 3d. per diem",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -807,7 +807,7 @@
       "department": "Medical",
       "salary_min": 70,
       "salary_max": 80,
-      "allowances": "2s. 3d. per diem",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -899,7 +899,7 @@
       "canonical_name": "Vaughan, E.",
       "given_names": "E.",
       "surname": "Vaughan",
-      "position": "Colonial Engineer; Inspector of Schools",
+      "position": "Colonial Engineer",
       "department": "Colonial Engineer's Department",
       "salary_min": 450,
       "salary_max": 450,
@@ -1095,7 +1095,7 @@
       "department": "Post Office",
       "salary_min": 150,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "by 10l. per annum",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1148,7 +1148,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     },
     {
       "name": "A. L. Bennett",
@@ -1164,7 +1164,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Portugal"
     },
     {
       "name": "M. Fredericks",
@@ -1180,7 +1180,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Norway"
     }
   ],
   "validation_summary": {

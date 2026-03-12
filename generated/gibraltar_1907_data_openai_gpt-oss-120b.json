@@ -1,7 +1,7 @@
 {
   "colony": "Gibraltar",
   "year": 1907,
-  "generated": "2026-03-12T08:19:11.592222",
+  "generated": "2026-03-12T14:27:33.095874",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 68,
@@ -17,7 +17,6 @@
       "salary_max": 1000,
       "allowances": "free house",
       "honors": [
-        "C.V.O.",
         "C.M.G."
       ],
       "qualifications": [],
@@ -373,9 +372,9 @@
       "location": null
     },
     {
-      "name": "D. S. Govett",
-      "canonical_name": "Govett, D. S.",
-      "given_names": "D. S.",
+      "name": "Dean D. S. Govett",
+      "canonical_name": "Govett, Dean D. S.",
+      "given_names": "Dean D. S.",
       "surname": "Govett",
       "position": "Civil Chaplain",
       "department": "Ecclesiastical",
@@ -391,9 +390,9 @@
       "location": null
     },
     {
-      "name": "Guido Remigio Barbieri",
-      "canonical_name": "Barbieri, Guido Remigio",
-      "given_names": "Guido Remigio",
+      "name": "Dom Guido Remigio Barbieri",
+      "canonical_name": "Barbieri, Dom Guido Remigio",
+      "given_names": "Dom Guido Remigio",
       "surname": "Barbieri",
       "position": "Roman Catholic Vicar Apostolic",
       "department": "Ecclesiastical",
@@ -454,7 +453,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Colonel (temp. Brig.-Gen.)",
+      "military_rank": "Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -835,9 +834,9 @@
     },
     {
       "name": "J. da Costa Freire",
-      "canonical_name": "Freire, J. da Costa",
-      "given_names": "J. da Costa",
-      "surname": "Freire",
+      "canonical_name": "da Costa Freire, J.",
+      "given_names": "J.",
+      "surname": "da Costa Freire",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -963,9 +962,9 @@
     },
     {
       "name": "J. Nunes Tavares",
-      "canonical_name": "Tavares, J. Nunes",
-      "given_names": "J. Nunes",
-      "surname": "Tavares",
+      "canonical_name": "Nunes Tavares, J.",
+      "given_names": "J.",
+      "surname": "Nunes Tavares",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -979,9 +978,9 @@
     },
     {
       "name": "J. F. dos Santos",
-      "canonical_name": "Santos, J. F. dos",
-      "given_names": "J. F. dos",
-      "surname": "Santos",
+      "canonical_name": "dos Santos, J. F.",
+      "given_names": "J. F.",
+      "surname": "dos Santos",
       "position": "Vice-Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -1011,9 +1010,9 @@
     },
     {
       "name": "F. Marti y Jauregui",
-      "canonical_name": "Jauregui, F. Marti y",
-      "given_names": "F. Marti y",
-      "surname": "Jauregui",
+      "canonical_name": "Marti y Jauregui, F.",
+      "given_names": "F.",
+      "surname": "Marti y Jauregui",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,

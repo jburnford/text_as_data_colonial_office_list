@@ -1,10 +1,10 @@
 {
   "colony": "British Somaliland",
   "year": 1906,
-  "generated": "2026-03-12T07:55:03.003055",
+  "generated": "2026-03-12T14:09:14.841772",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 34,
+  "total_officials": 28,
   "officials": [
     {
       "name": "E. J. E. Swayne",
@@ -20,7 +20,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Brigadier-General",
       "salary_scale": null,
       "location": null
     },
@@ -220,7 +220,7 @@
       "location": null
     },
     {
-      "name": "William Manning",
+      "name": "Sir William Manning",
       "canonical_name": "Manning, William",
       "given_names": "William",
       "surname": "Manning",
@@ -230,7 +230,7 @@
       "salary_max": 1000,
       "allowances": null,
       "honors": [
-        "K.C.M.G.",
+        "C.M.G.",
         "C.B."
       ],
       "qualifications": [],
@@ -270,7 +270,7 @@
       "qualifications": [],
       "military_rank": "Lieut.-Colonel",
       "salary_scale": null,
-      "location": null
+      "location": "Somaliland"
     },
     {
       "name": "J. A. Hannington",
@@ -305,105 +305,9 @@
       "location": null
     },
     {
-      "name": "Max Klein",
-      "canonical_name": "Klein, Max",
-      "given_names": "Max",
-      "surname": "Klein",
-      "position": null,
-      "department": "Military Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "W. H. Lockerman",
-      "canonical_name": "Lockerman, W. H.",
-      "given_names": "W. H.",
-      "surname": "Lockerman",
-      "position": null,
-      "department": "Military Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Paul E. Slipp",
-      "canonical_name": "Slipp, Paul E.",
-      "given_names": "Paul E.",
-      "surname": "Slipp",
-      "position": null,
-      "department": "Military Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Menahim Messa",
-      "canonical_name": "Messa, Menahim",
-      "given_names": "Menahim",
-      "surname": "Messa",
-      "position": null,
-      "department": "Military Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Cesar Tian",
-      "canonical_name": "Tian, Cesar",
-      "given_names": "Cesar",
-      "surname": "Tian",
-      "position": null,
-      "department": "Military Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Maurice Ries",
-      "canonical_name": "Ries, Maurice",
-      "given_names": "Maurice",
-      "surname": "Ries",
-      "position": null,
-      "department": "Military Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "The Earl of Selborne",
-      "canonical_name": "Selborne, The Earl of",
-      "given_names": "The Earl of",
+      "canonical_name": "Selborne, Earl of",
+      "given_names": "",
       "surname": "Selborne",
       "position": "High Commissioner",
       "department": "High Commissioner and Staff",
@@ -439,7 +343,7 @@
       "canonical_name": "Roberts, H. J.",
       "given_names": "H. J.",
       "surname": "Roberts",
-      "position": "Clerical Staff (Assistant Accountant)",
+      "position": "Assistant Accountant",
       "department": "High Commissioner and Staff",
       "salary_min": null,
       "salary_max": null,
@@ -469,7 +373,7 @@
     {
       "name": "Miss Hanbury",
       "canonical_name": "Hanbury, Miss",
-      "given_names": "Miss",
+      "given_names": "",
       "surname": "Hanbury",
       "position": "Clerical Staff",
       "department": "High Commissioner and Staff",
@@ -533,7 +437,7 @@
     {
       "name": "Miss Dickson",
       "canonical_name": "Dickson, Miss",
-      "given_names": "Miss",
+      "given_names": "",
       "surname": "Dickson",
       "position": "Clerical Staff",
       "department": "High Commissioner and Staff",
@@ -549,7 +453,7 @@
     {
       "name": "Miss Honey",
       "canonical_name": "Honey, Miss",
-      "given_names": "Miss",
+      "given_names": "",
       "surname": "Honey",
       "position": "Clerical Staff",
       "department": "High Commissioner and Staff",
@@ -566,12 +470,12 @@
   "validation_summary": {
     "colony": "British Somaliland",
     "year": 1906,
-    "total": 34,
-    "high_confidence": 34,
-    "medium_confidence": 0,
+    "total": 28,
+    "high_confidence": 24,
+    "medium_confidence": 4,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 34,
+    "passed": 28,
     "anomaly_count": 0
   }
 }

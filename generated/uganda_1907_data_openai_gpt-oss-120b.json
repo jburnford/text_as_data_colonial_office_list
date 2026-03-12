@@ -1,7 +1,7 @@
 {
   "colony": "Uganda",
   "year": 1907,
-  "generated": "2026-03-12T08:31:48.827808",
+  "generated": "2026-03-12T14:36:37.291123",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 125,
@@ -49,7 +49,7 @@
       "department": "Administration",
       "salary_min": 900,
       "salary_max": 900,
-      "allowances": "100l. personal",
+      "allowances": null,
       "honors": [
         "C.B."
       ],
@@ -67,7 +67,7 @@
       "department": "Administration",
       "salary_min": 650,
       "salary_max": 650,
-      "allowances": "50l. as Registrar-General of Births, Deaths and Marriages",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -135,7 +135,7 @@
       "department": "Administration",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "100l. personal",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -336,9 +336,9 @@
     },
     {
       "name": "L. Talbot Smith",
-      "canonical_name": "Talbot Smith, L.",
-      "given_names": "L.",
-      "surname": "Talbot Smith",
+      "canonical_name": "Smith, L. Talbot",
+      "given_names": "L. Talbot",
+      "surname": "Smith",
       "position": "Assistant Collector",
       "department": "Administration",
       "salary_min": 250,
@@ -480,9 +480,9 @@
     },
     {
       "name": "R. Paske Smith",
-      "canonical_name": "Paske Smith, R.",
-      "given_names": "R.",
-      "surname": "Paske Smith",
+      "canonical_name": "Smith, R. Paske",
+      "given_names": "R. Paske",
+      "surname": "Smith",
       "position": "Assistant Collector",
       "department": "Administration",
       "salary_min": 250,
@@ -705,7 +705,7 @@
       "location": null
     },
     {
-      "name": "H. Hutchinson",
+      "name": "Commander H. Hutchinson",
       "canonical_name": "Hutchinson, H.",
       "given_names": "H.",
       "surname": "Hutchinson",
@@ -716,7 +716,7 @@
       "allowances": "50l. personal",
       "honors": [],
       "qualifications": [],
-      "military_rank": "Commander",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -866,9 +866,9 @@
     },
     {
       "name": "R. A. L. von Someron",
-      "canonical_name": "Someron, R. A. L. von",
-      "given_names": "R. A. L. von",
-      "surname": "Someron",
+      "canonical_name": "von Someron, R. A. L.",
+      "given_names": "R. A. L.",
+      "surname": "von Someron",
       "position": "Medical Officer",
       "department": "Medical",
       "salary_min": 400,
@@ -1327,7 +1327,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieutenant",
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
@@ -1343,7 +1343,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieutenant",
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
@@ -1359,7 +1359,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieutenant",
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
@@ -1375,7 +1375,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieutenant",
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
@@ -1391,7 +1391,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieutenant",
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
@@ -1407,7 +1407,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieutenant",
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
@@ -1423,7 +1423,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieutenant",
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },
@@ -1471,7 +1471,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieutenant",
+      "military_rank": "Lieut.",
       "salary_scale": null,
       "location": null
     },

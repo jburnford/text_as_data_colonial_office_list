@@ -1,7 +1,7 @@
 {
   "colony": "Seychelles",
   "year": 1905,
-  "generated": "2026-03-12T13:09:07.676068",
+  "generated": "2026-03-12T14:02:39.379495",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 125,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 18000,
       "salary_max": 18000,
-      "allowances": "including Rs. 3,000 entertaining allowance",
+      "allowances": "Rs. 3,000 entertaining allowance",
       "honors": [
         "C.M.G."
       ],
@@ -314,9 +314,9 @@
     },
     {
       "name": "J. Jean Louis",
-      "canonical_name": "Louis, J. Jean",
-      "given_names": "J. Jean",
-      "surname": "Louis",
+      "canonical_name": "Jean Louis, J.",
+      "given_names": "J.",
+      "surname": "Jean Louis",
       "position": "Pilot and Assistant Port Officer",
       "department": "Port Department",
       "salary_min": 1200,
@@ -897,7 +897,7 @@
       "department": "Prison Department",
       "salary_min": 600,
       "salary_max": 600,
-      "allowances": "personal allowance of Rs. 120",
+      "allowances": "personal allowance of Rs.120",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -993,7 +993,7 @@
       "department": "Medical Department",
       "salary_min": 4000,
       "salary_max": 4000,
-      "allowances": null,
+      "allowances": "with quarters and private practice",
       "honors": [],
       "qualifications": [
         "M.R.C.S."
@@ -1011,7 +1011,7 @@
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": null,
+      "allowances": "with quarters and private practice",
       "honors": [],
       "qualifications": [
         "M.D."
@@ -1029,7 +1029,7 @@
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": null,
+      "allowances": "with quarters and private practice",
       "honors": [],
       "qualifications": [
         "L.R.C.P."
@@ -1047,7 +1047,7 @@
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": null,
+      "allowances": "with quarters and private practice",
       "honors": [],
       "qualifications": [
         "M.B."
@@ -1145,7 +1145,7 @@
       "department": "Medical Department",
       "salary_min": 840,
       "salary_max": 840,
-      "allowances": null,
+      "allowances": "with Rs. 120 for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1161,7 +1161,7 @@
       "department": "Medical Department",
       "salary_min": 840,
       "salary_max": 840,
-      "allowances": null,
+      "allowances": "with Rs. 120 for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1177,7 +1177,7 @@
       "department": "Medical Department",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": null,
+      "allowances": "quarters and rations",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1250,10 +1250,10 @@
     },
     {
       "name": "Rev. R. H. Pickwood",
-      "canonical_name": "Pickwood, R. H.",
-      "given_names": "R. H.",
+      "canonical_name": "Pickwood, Rev. R. H.",
+      "given_names": "Rev. R. H.",
       "surname": "Pickwood",
-      "position": "Minister",
+      "position": "Minister, Praslin",
       "department": "Church of England",
       "salary_min": 750,
       "salary_max": 750,
@@ -1262,7 +1262,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Praslin"
+      "location": null
     },
     {
       "name": "G. Mackay",
@@ -1270,7 +1270,7 @@
       "given_names": "G.",
       "surname": "Mackay",
       "position": "Assistant Master",
-      "department": "Education Department",
+      "department": "Education",
       "salary_min": 2400,
       "salary_max": 3000,
       "allowances": null,
@@ -1288,7 +1288,7 @@
       "given_names": "J. A.",
       "surname": "de Gaye",
       "position": "Assistant Master",
-      "department": "Education Department",
+      "department": "Education",
       "salary_min": 2000,
       "salary_max": 2000,
       "allowances": null,
@@ -1304,7 +1304,7 @@
       "given_names": "A. E.",
       "surname": "Power",
       "position": "Assistant Master",
-      "department": "Education Department",
+      "department": "Education",
       "salary_min": 1000,
       "salary_max": 1500,
       "allowances": null,
@@ -1320,7 +1320,7 @@
       "given_names": "E.",
       "surname": "Harter",
       "position": "Assistant Master",
-      "department": "Education Department",
+      "department": "Education",
       "salary_min": 1000,
       "salary_max": 1500,
       "allowances": null,
@@ -1336,7 +1336,7 @@
       "given_names": "S. G.",
       "surname": "Shipp",
       "position": "Assistant Master",
-      "department": "Education Department",
+      "department": "Education",
       "salary_min": 480,
       "salary_max": 600,
       "allowances": null,
@@ -1348,11 +1348,11 @@
     },
     {
       "name": "H. Jean Louis",
-      "canonical_name": "Jean Louis, H.",
-      "given_names": "H.",
-      "surname": "Jean Louis",
+      "canonical_name": "Louis, H. Jean",
+      "given_names": "H. Jean",
+      "surname": "Louis",
       "position": "Pupil Teacher",
-      "department": "Education Department",
+      "department": "Education",
       "salary_min": 180,
       "salary_max": 480,
       "allowances": null,
@@ -1368,7 +1368,7 @@
       "given_names": "M.",
       "surname": "Philog\u00e8ne",
       "position": "Pupil Teacher",
-      "department": "Education Department",
+      "department": "Education",
       "salary_min": 180,
       "salary_max": 480,
       "allowances": null,
@@ -1383,8 +1383,8 @@
       "canonical_name": "Vel, Rosalie",
       "given_names": "Rosalie",
       "surname": "Vel",
-      "position": "Mistress, Infant School",
-      "department": "Education Department",
+      "position": "Mistress",
+      "department": "Education",
       "salary_min": 480,
       "salary_max": 480,
       "allowances": null,
@@ -1959,7 +1959,7 @@
       "canonical_name": "Brooks, J. H.",
       "given_names": "J. H.",
       "surname": "Brooks",
-      "position": "Consul",
+      "position": "Consul (Germany)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1968,14 +1968,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Germany"
+      "location": null
     },
     {
       "name": "H. \u00e0 C. Bergne",
       "canonical_name": "Bergne, H. \u00e0 C.",
       "given_names": "H. \u00e0 C.",
       "surname": "Bergne",
-      "position": "Consul (acting)",
+      "position": "Consul (Italy) (acting)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1984,14 +1984,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Italy"
+      "location": null
     },
     {
       "name": "A. Merian",
       "canonical_name": "Merian, A.",
       "given_names": "A.",
       "surname": "Merian",
-      "position": "Consul",
+      "position": "Consul (Portugal)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2000,14 +2000,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Portugal"
+      "location": null
     },
     {
       "name": "E. Lanier",
       "canonical_name": "Lanier, E.",
       "given_names": "E.",
       "surname": "Lanier",
-      "position": "Consular Agent",
+      "position": "Consular Agent (France)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2016,7 +2016,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     }
   ],
   "validation_summary": {

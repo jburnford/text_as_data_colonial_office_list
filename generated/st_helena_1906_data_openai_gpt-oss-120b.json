@@ -1,13 +1,13 @@
 {
   "colony": "St Helena",
   "year": 1906,
-  "generated": "2026-03-12T08:09:19.654130",
+  "generated": "2026-03-12T14:21:25.655681",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 8,
   "officials": [
     {
-      "name": "George Middlemore",
+      "name": "Major-General George Middlemore, C.B.",
       "canonical_name": "Middlemore, George",
       "given_names": "George",
       "surname": "Middlemore",
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "Hamelin Trelawny",
+      "name": "Colonel Hamelin Trelawny.",
       "canonical_name": "Trelawny, Hamelin",
       "given_names": "Hamelin",
       "surname": "Trelawny",
@@ -41,7 +41,7 @@
       "location": null
     },
     {
-      "name": "Patrick Ross",
+      "name": "Major-General Sir Patrick Ross, G.C.M.G., K.C.B.",
       "canonical_name": "Ross, Patrick",
       "given_names": "Patrick",
       "surname": "Ross",
@@ -60,9 +60,9 @@
       "location": null
     },
     {
-      "name": "Thomas Gore Browne",
-      "canonical_name": "Browne, Thomas",
-      "given_names": "Thomas",
+      "name": "Col. Sir Thomas Gore Browne, K.C.M.G., C.B.",
+      "canonical_name": "Browne, Thomas Gore",
+      "given_names": "Thomas Gore",
       "surname": "Browne",
       "position": "Governor",
       "department": "Governors",
@@ -79,9 +79,9 @@
       "location": null
     },
     {
-      "name": "E. H. Drummond Hay",
+      "name": "Sir E. H. Drummond Hay.",
       "canonical_name": "Hay, E. H. Drummond",
-      "given_names": "E. H.",
+      "given_names": "E. H. Drummond",
       "surname": "Hay",
       "position": "Governor",
       "department": "Governors",
@@ -95,7 +95,7 @@
       "location": null
     },
     {
-      "name": "Charles Elliot",
+      "name": "Admiral Sir Charles Elliot, K.C.B.",
       "canonical_name": "Elliot, Charles",
       "given_names": "Charles",
       "surname": "Elliot",
@@ -113,7 +113,7 @@
       "location": null
     },
     {
-      "name": "H. R. Janisch",
+      "name": "H. R. Janisch (acting).",
       "canonical_name": "Janisch, H. R.",
       "given_names": "H. R.",
       "surname": "Janisch",
@@ -129,7 +129,7 @@
       "location": null
     },
     {
-      "name": "Patey",
+      "name": "Admiral Patey.",
       "canonical_name": "Patey",
       "given_names": "",
       "surname": "Patey",
@@ -149,8 +149,8 @@
     "colony": "St Helena",
     "year": 1906,
     "total": 8,
-    "high_confidence": 6,
-    "medium_confidence": 2,
+    "high_confidence": 7,
+    "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 8,

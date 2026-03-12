@@ -1,7 +1,7 @@
 {
   "colony": "Seychelles",
   "year": 1907,
-  "generated": "2026-03-12T08:28:35.986140",
+  "generated": "2026-03-12T14:34:08.978561",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 103,
@@ -249,7 +249,7 @@
       "location": null
     },
     {
-      "name": "D. Sauvage",
+      "name": "Capt. D. Sauvage",
       "canonical_name": "Sauvage, D.",
       "given_names": "D.",
       "surname": "Sauvage",
@@ -365,7 +365,7 @@
       "canonical_name": "Savvy, D.",
       "given_names": "D.",
       "surname": "Savvy",
-      "position": "1st Clerk",
+      "position": "1st Clerk (Acting)",
       "department": "Legal Department",
       "salary_min": 1000,
       "salary_max": 1000,
@@ -381,7 +381,7 @@
       "canonical_name": "Shipp, S. G.",
       "given_names": "S. G.",
       "surname": "Shipp",
-      "position": "2nd Clerk",
+      "position": "2nd Clerk (Acting)",
       "department": "Legal Department",
       "salary_min": 600,
       "salary_max": 600,
@@ -497,7 +497,7 @@
       "department": "Police Department",
       "salary_min": 2500,
       "salary_max": 2500,
-      "allowances": "Rs. 500 for quarters",
+      "allowances": "500 for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -513,7 +513,7 @@
       "department": "Police Department",
       "salary_min": 1800,
       "salary_max": 1800,
-      "allowances": "Rs. 240 for quarters",
+      "allowances": "240 for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -529,7 +529,7 @@
       "department": "Police Department",
       "salary_min": 900,
       "salary_max": 1200,
-      "allowances": "Rs. 240 for quarters",
+      "allowances": "240 for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -545,7 +545,7 @@
       "department": "Police Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "Rs. 240 for quarters",
+      "allowances": "240 for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -577,7 +577,7 @@
       "department": "Police Department",
       "salary_min": 720,
       "salary_max": 720,
-      "allowances": "Rs. 120 personal allowance",
+      "allowances": "personal allowance of Rs. 120",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -593,7 +593,7 @@
       "department": "Prison Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": null,
+      "allowances": "unpaid",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -803,7 +803,7 @@
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "quarters and private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.D."
@@ -821,7 +821,7 @@
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "quarters and private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "L.R.C.P."
@@ -919,7 +919,7 @@
       "department": "Medical Department",
       "salary_min": 840,
       "salary_max": 840,
-      "allowances": "Rs. 120 for quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -935,7 +935,7 @@
       "department": "Medical Department",
       "salary_min": 840,
       "salary_max": 840,
-      "allowances": "Rs. 120 for quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -951,7 +951,7 @@
       "department": "Medical Department",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "quarters and rations",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1023,7 +1023,7 @@
       "location": null
     },
     {
-      "name": "Rev. J. H. Valpy",
+      "name": "J. H. Valpy",
       "canonical_name": "Valpy, J. H.",
       "given_names": "J. H.",
       "surname": "Valpy",
@@ -1041,7 +1041,7 @@
       "location": null
     },
     {
-      "name": "Rev. R. H. Pickwood",
+      "name": "R. H. Pickwood",
       "canonical_name": "Pickwood, R. H.",
       "given_names": "R. H.",
       "surname": "Pickwood",
@@ -1123,7 +1123,7 @@
       "location": null
     },
     {
-      "name": "R. Harter",
+      "name": "R. Harter (acting)",
       "canonical_name": "Harter, R.",
       "given_names": "R.",
       "surname": "Harter",
@@ -1171,7 +1171,7 @@
       "location": null
     },
     {
-      "name": "Rosalie Vel",
+      "name": "Miss Rosalie Vel",
       "canonical_name": "Vel, Rosalie",
       "given_names": "Rosalie",
       "surname": "Vel",
@@ -1243,7 +1243,7 @@
       "department": "Botanic Station",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "500 for quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1291,11 +1291,11 @@
       "department": "Public Works Department",
       "salary_min": 4000,
       "salary_max": 4000,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1307,11 +1307,11 @@
       "department": "Public Works Department",
       "salary_min": 480,
       "salary_max": 600,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1323,11 +1323,11 @@
       "department": "Public Works Department",
       "salary_min": 480,
       "salary_max": 720,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1339,11 +1339,11 @@
       "department": "Public Works Department",
       "salary_min": 360,
       "salary_max": 480,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1355,11 +1355,11 @@
       "department": "Public Works Department",
       "salary_min": 600,
       "salary_max": 780,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1371,11 +1371,11 @@
       "department": "Public Works Department",
       "salary_min": 600,
       "salary_max": 720,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1387,11 +1387,11 @@
       "department": "Public Works Department",
       "salary_min": 420,
       "salary_max": 600,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1403,11 +1403,11 @@
       "department": "Local Board of Health, Central District",
       "salary_min": 720,
       "salary_max": 720,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1419,11 +1419,11 @@
       "department": "Local Board of Health, Central District",
       "salary_min": 960,
       "salary_max": 1200,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1435,11 +1435,11 @@
       "department": "Local Board of Health, Central District",
       "salary_min": 540,
       "salary_max": 540,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1451,11 +1451,11 @@
       "department": "Local Board of Health, Central District",
       "salary_min": 360,
       "salary_max": 360,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1467,11 +1467,11 @@
       "department": "Local Board of Health, Central District",
       "salary_min": 480,
       "salary_max": 480,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1483,11 +1483,11 @@
       "department": "Local Board of Health, Central District",
       "salary_min": 600,
       "salary_max": 600,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1499,11 +1499,11 @@
       "department": "Local Board of Health, South Mah\u00e9 District",
       "salary_min": null,
       "salary_max": null,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1515,11 +1515,11 @@
       "department": "Local Board of Health, South Mah\u00e9 District",
       "salary_min": 120,
       "salary_max": 120,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1531,11 +1531,11 @@
       "department": "Local Board of Health, South Mah\u00e9 District",
       "salary_min": 420,
       "salary_max": 420,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1547,11 +1547,11 @@
       "department": "Local Board of Health, Praslin",
       "salary_min": null,
       "salary_max": null,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1563,11 +1563,11 @@
       "department": "Local Board of Health, Praslin",
       "salary_min": 60,
       "salary_max": 60,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1579,11 +1579,11 @@
       "department": "Local Board of Health, La Digue",
       "salary_min": null,
       "salary_max": null,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1595,11 +1595,11 @@
       "department": "Local Board of Health, La Digue",
       "salary_min": 60,
       "salary_max": 60,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1611,11 +1611,11 @@
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1623,15 +1623,15 @@
       "canonical_name": "Bergne, H. \u00e0 C.",
       "given_names": "H. \u00e0 C.",
       "surname": "Bergne",
-      "position": "Consul, Italy (acting)",
+      "position": "Consul, Italy",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1643,11 +1643,11 @@
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -1659,11 +1659,11 @@
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     }
   ],

@@ -1,7 +1,7 @@
 {
   "colony": "British Honduras",
   "year": 1907,
-  "generated": "2026-03-12T08:17:04.866769",
+  "generated": "2026-03-12T14:25:55.413111",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 91,
@@ -49,7 +49,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": 3500,
       "salary_max": 3500,
-      "allowances": null,
+      "allowances": "house",
       "honors": [
         "C.M.G."
       ],
@@ -179,7 +179,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 2624.4,
       "salary_max": 2916.0,
-      "allowances": null,
+      "allowances": "house",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -195,7 +195,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 1100,
       "salary_max": 1500,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -211,7 +211,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 720,
       "salary_max": 960,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -227,7 +227,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 480,
       "salary_max": 720,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -243,7 +243,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 1000,
       "salary_max": 1200,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -259,7 +259,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 360,
       "salary_max": 480,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -275,7 +275,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 800,
       "salary_max": 1000,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -291,7 +291,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 800,
       "salary_max": 1000,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -307,7 +307,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 800,
       "salary_max": 1000,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -323,7 +323,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 600,
       "salary_max": 800,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -339,7 +339,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 480,
       "salary_max": 600,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -355,7 +355,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 480,
       "salary_max": 600,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -371,7 +371,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 480,
       "salary_max": 600,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -387,7 +387,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 480,
       "salary_max": 600,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -403,7 +403,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 480,
       "salary_max": 600,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -419,7 +419,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 480,
       "salary_max": 600,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -431,16 +431,16 @@
       "canonical_name": "Graham, C. M. O.",
       "given_names": "C. M. O.",
       "surname": "Graham",
-      "position": "Customs and Excise Officer, 3rd grade",
+      "position": "Customs and Excise Officer",
       "department": "Treasury and Customs Department",
       "salary_min": 240,
       "salary_max": 240,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Cayo"
     },
     {
       "name": "W. B. Gutteron",
@@ -451,7 +451,7 @@
       "department": "Post Office and Telegraphs Department",
       "salary_min": 1600,
       "salary_max": 2000,
-      "allowances": "by $100",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -467,7 +467,7 @@
       "department": "Post Office and Telegraphs Department",
       "salary_min": 720,
       "salary_max": 960,
-      "allowances": "by $40",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -530,7 +530,7 @@
       "position": "2nd Class Clerk",
       "department": "Judicial Department",
       "salary_min": 480,
-      "salary_max": 400,
+      "salary_max": 720,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -851,7 +851,7 @@
       "department": "Education",
       "salary_min": 1200,
       "salary_max": 1500,
-      "allowances": "by $50",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -963,7 +963,7 @@
       "department": "Botanic Garden",
       "salary_min": 750,
       "salary_max": 750,
-      "allowances": "and house",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -976,7 +976,7 @@
       "given_names": "B. W.",
       "surname": "Baher",
       "position": "Colonial Engineer",
-      "department": "Public Works",
+      "department": "Public Works, &c.",
       "salary_min": 1944,
       "salary_max": 1944,
       "allowances": null,
@@ -992,10 +992,10 @@
       "given_names": "H. W.",
       "surname": "Beaumont",
       "position": "2nd Class Clerk",
-      "department": "Public Works",
+      "department": "Public Works, &c.",
       "salary_min": 480,
       "salary_max": 720,
-      "allowances": "by $30",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1007,8 +1007,8 @@
       "canonical_name": "Martin, A.",
       "given_names": "A.",
       "surname": "Martin",
-      "position": "Keeper Half-Moon Cay Light",
-      "department": "Public Works",
+      "position": "Keeper",
+      "department": "Public Works, &c.",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -1016,15 +1016,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Half-Moon Cay Light"
     },
     {
-      "name": "W. G. Miller (temporary)",
-      "canonical_name": "Miller (temporary), W. G.",
+      "name": "W. G. Miller",
+      "canonical_name": "Miller, W. G.",
       "given_names": "W. G.",
-      "surname": "Miller (temporary)",
-      "position": "Keeper Northern Two Cays",
-      "department": "Public Works",
+      "surname": "Miller",
+      "position": "Keeper",
+      "department": "Public Works, &c.",
       "salary_min": 360,
       "salary_max": 360,
       "allowances": null,
@@ -1032,15 +1032,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Northern Two Cays"
     },
     {
       "name": "G. Longsworth",
       "canonical_name": "Longsworth, G.",
       "given_names": "G.",
       "surname": "Longsworth",
-      "position": "Keeper Maugre Cay",
-      "department": "Public Works",
+      "position": "Keeper",
+      "department": "Public Works, &c.",
       "salary_min": 300,
       "salary_max": 300,
       "allowances": null,
@@ -1048,15 +1048,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Maugre Cay"
     },
     {
       "name": "S. Miller",
       "canonical_name": "Miller, S.",
       "given_names": "S.",
       "surname": "Miller",
-      "position": "Keeper Cay Bokel",
-      "department": "Public Works",
+      "position": "Keeper",
+      "department": "Public Works, &c.",
       "salary_min": 300,
       "salary_max": 300,
       "allowances": null,
@@ -1064,15 +1064,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Cay Bokel"
     },
     {
       "name": "J. Young",
       "canonical_name": "Young, J.",
       "given_names": "J.",
       "surname": "Young",
-      "position": "Keeper English Cay",
-      "department": "Public Works",
+      "position": "Keeper",
+      "department": "Public Works, &c.",
       "salary_min": 240,
       "salary_max": 240,
       "allowances": null,
@@ -1080,15 +1080,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "English Cay"
     },
     {
       "name": "C. Miller",
       "canonical_name": "Miller, C.",
       "given_names": "C.",
       "surname": "Miller",
-      "position": "Keeper Bugle Cay",
-      "department": "Public Works",
+      "position": "Keeper",
+      "department": "Public Works, &c.",
       "salary_min": 240,
       "salary_max": 240,
       "allowances": null,
@@ -1096,7 +1096,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Bugle Cay"
     },
     {
       "name": "J. H. H. Harrison",
@@ -1240,7 +1240,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States"
+      "location": null
     },
     {
       "name": "C. Hildebrandt",
@@ -1256,7 +1256,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Germany"
+      "location": null
     },
     {
       "name": "H. Krug",
@@ -1272,7 +1272,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Austria and Hungary"
+      "location": null
     },
     {
       "name": "A. D. P. Williamson",
@@ -1288,7 +1288,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Norway"
+      "location": null
     },
     {
       "name": "L. E. Cuevas",
@@ -1304,7 +1304,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Republic of Honduras"
+      "location": null
     },
     {
       "name": "A. R. Usher",
@@ -1320,7 +1320,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "C. Melhado",
@@ -1336,7 +1336,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Guatemala"
+      "location": null
     },
     {
       "name": "L. Gomez",
@@ -1352,7 +1352,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Mexico"
+      "location": null
     },
     {
       "name": "A. E. Morlan",
@@ -1368,7 +1368,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Belgium"
+      "location": null
     },
     {
       "name": "O. A. Meyer",
@@ -1384,7 +1384,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Nicaragua"
+      "location": null
     },
     {
       "name": "G. A. Ormsby",
@@ -1397,7 +1397,9 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "D.D."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -1407,13 +1409,15 @@
       "canonical_name": "Hopkins, F. C.",
       "given_names": "F. C.",
       "surname": "Hopkins",
-      "position": null,
+      "position": "Right Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "S.J."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -1423,7 +1427,7 @@
       "canonical_name": "Hunt, J. M.",
       "given_names": "J. M.",
       "surname": "Hunt",
-      "position": null,
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1455,7 +1459,7 @@
       "canonical_name": "Cleghorn, R.",
       "given_names": "R.",
       "surname": "Cleghorn",
-      "position": null,
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
