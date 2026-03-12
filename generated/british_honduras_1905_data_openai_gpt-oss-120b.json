@@ -1,13 +1,13 @@
 {
   "colony": "British Honduras",
   "year": 1905,
-  "generated": "2026-03-11T22:58:37.731624",
+  "generated": "2026-03-12T07:32:26.397246",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 84,
   "officials": [
     {
-      "name": "Ernest Bickham Sweet-Escott",
+      "name": "Sir Ernest Bickham Sweet-Escott",
       "canonical_name": "Sweet-Escott, Ernest Bickham",
       "given_names": "Ernest Bickham",
       "surname": "Sweet-Escott",
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "H. W. Peebles",
+      "name": "Captain H. W. Peebles",
       "canonical_name": "Peebles, H. W.",
       "given_names": "H. W.",
       "surname": "Peebles",
@@ -396,8 +396,8 @@
     },
     {
       "name": "W. B. Gutteron",
-      "canonical_name": "Gutteron, William B.",
-      "given_names": "William B.",
+      "canonical_name": "Gutteron, W. B.",
+      "given_names": "W. B.",
       "surname": "Gutteron",
       "position": "Postmaster",
       "department": "Post Office Department",
@@ -412,8 +412,8 @@
     },
     {
       "name": "H. W. Beaumont",
-      "canonical_name": "Beaumont, H. William",
-      "given_names": "H. William",
+      "canonical_name": "Beaumont, H. W.",
+      "given_names": "H. W.",
       "surname": "Beaumont",
       "position": "Clerk",
       "department": "Post Office Department",
@@ -479,7 +479,7 @@
       "canonical_name": "Barnes, D. D.",
       "given_names": "D. D.",
       "surname": "Barnes",
-      "position": "Registrar-General (acting)",
+      "position": "Registrar-General",
       "department": "Judicial Department",
       "salary_min": 1944,
       "salary_max": 1944,
@@ -639,7 +639,7 @@
       "canonical_name": "Ormsby, A. V. B.",
       "given_names": "A. V. B.",
       "surname": "Ormsby",
-      "position": "District Commissioner",
+      "position": "District Commissioner (acting)",
       "department": "District Commissioners",
       "salary_min": 750,
       "salary_max": 750,
@@ -799,7 +799,7 @@
       "canonical_name": "Carlin, W. H.",
       "given_names": "W. H.",
       "surname": "Carlin",
-      "position": "Assistant Surveyor",
+      "position": "Assistant Surveyors",
       "department": "Lands",
       "salary_min": 1458,
       "salary_max": 1458,
@@ -815,7 +815,7 @@
       "canonical_name": "Brunton, F.W.",
       "given_names": "F.W.",
       "surname": "Brunton",
-      "position": "Assistant Surveyor",
+      "position": "Assistant Surveyors",
       "department": "Lands",
       "salary_min": 1080,
       "salary_max": 1080,
@@ -851,7 +851,7 @@
       "department": "Botanic Garden",
       "salary_min": 750,
       "salary_max": 750,
-      "allowances": "house",
+      "allowances": "and house",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -904,7 +904,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Half-Moon Cay Light"
+      "location": null
     },
     {
       "name": "G. Longsworth",
@@ -920,7 +920,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Mauagre Cay"
+      "location": null
     },
     {
       "name": "S. Miller",
@@ -936,7 +936,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Cay Bokel"
+      "location": null
     },
     {
       "name": "J. Young",
@@ -952,7 +952,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "English Cay"
+      "location": null
     },
     {
       "name": "C. Miller",
@@ -968,7 +968,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Bugle Cay"
+      "location": null
     },
     {
       "name": "C. H. Eyles",
@@ -1313,7 +1313,7 @@
       "canonical_name": "Hopkins, F. C.",
       "given_names": "F. C.",
       "surname": "Hopkins",
-      "position": null,
+      "position": "",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1345,7 +1345,7 @@
       "canonical_name": "Cleghorn, R.",
       "given_names": "R.",
       "surname": "Cleghorn",
-      "position": null,
+      "position": "",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,

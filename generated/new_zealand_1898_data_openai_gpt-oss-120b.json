@@ -1,7 +1,7 @@
 {
   "colony": "New Zealand",
   "year": 1898,
-  "generated": "2026-03-11T22:04:37.751625",
+  "generated": "2026-03-12T07:13:09.423906",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 179,
@@ -9,7 +9,7 @@
     {
       "name": "Rt. Hon. Earl of Ranfurly",
       "canonical_name": "Ranfurly, Earl of",
-      "given_names": "Rt. Hon. Earl of",
+      "given_names": "Earl of",
       "surname": "Ranfurly",
       "position": "Governor and Commander-in-Chief and Vice-Admiral",
       "department": "Civil Establishment",
@@ -25,9 +25,9 @@
       "location": null
     },
     {
-      "name": "Captain Dudley Alexander",
+      "name": "Dudley Alexander",
       "canonical_name": "Alexander, Dudley",
-      "given_names": "Captain Dudley",
+      "given_names": "Dudley",
       "surname": "Alexander",
       "position": "Private Secretary, and Aide-de-Camp",
       "department": "Civil Establishment",
@@ -41,9 +41,9 @@
       "location": null
     },
     {
-      "name": "Honourable Charles Hill-Trevor",
+      "name": "Charles Hill-Trevor",
       "canonical_name": "Hill-Trevor, Charles",
-      "given_names": "Honourable Charles",
+      "given_names": "Charles",
       "surname": "Hill-Trevor",
       "position": "Second Private Secretary",
       "department": "Civil Establishment",
@@ -73,9 +73,9 @@
       "location": null
     },
     {
-      "name": "Right Hon. R. J. Seddon",
+      "name": "R. J. Seddon",
       "canonical_name": "Seddon, R. J.",
-      "given_names": "Right Hon. R. J.",
+      "given_names": "R. J.",
       "surname": "Seddon",
       "position": "Premier, Colonial Treasurer, Postmaster-General and Electric Telegraph Commissioner, Commissioner of Trade and Customs, Minister of Labour and Native Affairs",
       "department": "Executive Council",
@@ -89,9 +89,9 @@
       "location": null
     },
     {
-      "name": "Hon. J. McKenzie",
+      "name": "J. McKenzie",
       "canonical_name": "McKenzie, J.",
-      "given_names": "Hon. J.",
+      "given_names": "J.",
       "surname": "McKenzie",
       "position": "Minister of Lands, Minister of Agriculture, and Commissioner of Forests, Minister in Charge of Advances to Settlers Office",
       "department": "Executive Council",
@@ -105,9 +105,9 @@
       "location": null
     },
     {
-      "name": "Hon. T. Thompson",
+      "name": "T. Thompson",
       "canonical_name": "Thompson, T.",
-      "given_names": "Hon. T.",
+      "given_names": "T.",
       "surname": "Thompson",
       "position": "Minister of Justice, of Defence, of Industries and Commerce",
       "department": "Executive Council",
@@ -121,9 +121,9 @@
       "location": null
     },
     {
-      "name": "Hon. A. J. Cadman",
+      "name": "A. J. Cadman",
       "canonical_name": "Cadman, A. J.",
-      "given_names": "Hon. A. J.",
+      "given_names": "A. J.",
       "surname": "Cadman",
       "position": "Minister of Railways and Minister of Mines",
       "department": "Executive Council",
@@ -137,9 +137,9 @@
       "location": null
     },
     {
-      "name": "Hon. W. Hall-Jones",
+      "name": "W. Hall-Jones",
       "canonical_name": "Hall-Jones, W.",
-      "given_names": "Hon. W.",
+      "given_names": "W.",
       "surname": "Hall-Jones",
       "position": "Minister of Public Works and Minister of Marine, Minister in Charge of Printing Office",
       "department": "Executive Council",
@@ -153,9 +153,9 @@
       "location": null
     },
     {
-      "name": "Hon. James Carroll",
+      "name": "James Carroll",
       "canonical_name": "Carroll, James",
-      "given_names": "Hon. James",
+      "given_names": "James",
       "surname": "Carroll",
       "position": "Commissioner of Stamp Duties, Acting Colonial Secretary, and Member of Executive Council representing Native Race",
       "department": "Executive Council",
@@ -169,9 +169,9 @@
       "location": null
     },
     {
-      "name": "Hon. W. C. Walker",
+      "name": "W. C. Walker",
       "canonical_name": "Walker, W. C.",
-      "given_names": "Hon. W. C.",
+      "given_names": "W. C.",
       "surname": "Walker",
       "position": "Minister of Education and Immigration, Minister in Charge of Hospitals and Charitable Aid",
       "department": "Executive Council",
@@ -205,7 +205,7 @@
       "canonical_name": "Carroll, James",
       "given_names": "James",
       "surname": "Carroll",
-      "position": "Colonial Secretary (acting)",
+      "position": "Colonial Secretary",
       "department": "Colonial Secretary's Office",
       "salary_min": 800,
       "salary_max": 800,
@@ -369,7 +369,7 @@
       "department": "Lands and Survey Department",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "house allowance, 200l",
+      "allowances": "200l. house allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -569,7 +569,7 @@
       "location": "Southland"
     },
     {
-      "name": "Rt. Hon. R. J. Seddon, P.C.",
+      "name": "R. J. Seddon",
       "canonical_name": "Seddon, R. J.",
       "given_names": "R. J.",
       "surname": "Seddon",
@@ -730,8 +730,8 @@
     },
     {
       "name": "Hon. W. C. Walker",
-      "canonical_name": "Walker, W. C.",
-      "given_names": "W. C.",
+      "canonical_name": "Walker, William C.",
+      "given_names": "William C.",
       "surname": "Walker",
       "position": "Minister",
       "department": "Education Office",
@@ -746,8 +746,8 @@
     },
     {
       "name": "Rev. W. J. Habens",
-      "canonical_name": "Habens, W. J.",
-      "given_names": "W. J.",
+      "canonical_name": "Habens, William J.",
+      "given_names": "William J.",
       "surname": "Habens",
       "position": "Secretary for Education and Inspector-General of Schools",
       "department": "Education Office",
@@ -763,7 +763,7 @@
       "location": null
     },
     {
-      "name": "Sir E. O. Gibbes",
+      "name": "Sir E. O. Gibbes, Bart.",
       "canonical_name": "Gibbes, E. O.",
       "given_names": "E. O.",
       "surname": "Gibbes",
@@ -779,7 +779,7 @@
       "location": null
     },
     {
-      "name": "Rt. Hon. R. J. Seddon, P.C.",
+      "name": "R. J. Seddon",
       "canonical_name": "Seddon, R. J.",
       "given_names": "R. J.",
       "surname": "Seddon",
@@ -827,7 +827,7 @@
       "location": null
     },
     {
-      "name": "Hon. W. Hall-Jones",
+      "name": "W. Hall-Jones",
       "canonical_name": "Hall-Jones, W.",
       "given_names": "W.",
       "surname": "Hall-Jones",
@@ -1069,7 +1069,7 @@
       "location": null
     },
     {
-      "name": "A. J. Cadman",
+      "name": "Hon. A. J. Cadman",
       "canonical_name": "Cadman, A. J.",
       "given_names": "A. J.",
       "surname": "Cadman",
@@ -1357,7 +1357,7 @@
       "location": null
     },
     {
-      "name": "J. McKenzie",
+      "name": "Hon. J. McKenzie",
       "canonical_name": "McKenzie, J.",
       "given_names": "J.",
       "surname": "McKenzie",
@@ -1706,7 +1706,7 @@
       "canonical_name": "Gore, R. B.",
       "given_names": "R. B.",
       "surname": "Gore",
-      "position": "Clerk, Curator, and Meteorological Observer for Wellington",
+      "position": "Clerk, Curator, and Meteorological Observer",
       "department": "Geological Survey Department",
       "salary_min": null,
       "salary_max": null,
@@ -1735,8 +1735,8 @@
     },
     {
       "name": "Sir J. Prendergast",
-      "canonical_name": "Prendergast, J.",
-      "given_names": "J.",
+      "canonical_name": "Prendergast, Sir J.",
+      "given_names": "Sir J.",
       "surname": "Prendergast",
       "position": "Chief Justice",
       "department": "Judicial",
@@ -1878,6 +1878,22 @@
       "location": "Auckland"
     },
     {
+      "name": "D. G. A. Cooper",
+      "canonical_name": "Cooper, D. G. A.",
+      "given_names": "D. G. A.",
+      "surname": "Cooper",
+      "position": "Registrar of the Supreme Court",
+      "department": "Judicial",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Wellington"
+    },
+    {
       "name": "A. R. Bloxam",
       "canonical_name": "Bloxam, A. R.",
       "given_names": "A. R.",
@@ -1910,22 +1926,6 @@
       "location": "Dunedin"
     },
     {
-      "name": "D. G. A. Cooper",
-      "canonical_name": "Cooper, D. G. A.",
-      "given_names": "D. G. A.",
-      "surname": "Cooper",
-      "position": "Registrar of Court of Appeal",
-      "department": "Judicial",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "H. W. Brabant",
       "canonical_name": "Brabant, H. W.",
       "given_names": "H. W.",
@@ -1943,9 +1943,9 @@
     },
     {
       "name": "H. Eyre Kenny",
-      "canonical_name": "Kenny, H.",
-      "given_names": "H.",
-      "surname": "Eyre Kenny",
+      "canonical_name": "Kenny, H. Eyre",
+      "given_names": "H. Eyre",
+      "surname": "Kenny",
       "position": "Stipendiary Magistrate",
       "department": "Judicial",
       "salary_min": null,
@@ -2112,9 +2112,7 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "D.D."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": "Wellington"
@@ -2148,9 +2146,7 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "D.D."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": "Christchurch"
@@ -2166,9 +2162,7 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "D.D."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": "Auckland"
@@ -2202,9 +2196,7 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "D.D."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": "Dunedin"
@@ -2389,9 +2381,9 @@
     },
     {
       "name": "Vicomte Alexandre Louis Ferdinand de Jouffroy d'Abbans",
-      "canonical_name": "de Jouffroy d'Abbans, Vicomte Alexandre Louis Ferdinand",
-      "given_names": "Vicomte Alexandre Louis Ferdinand",
-      "surname": "de Jouffroy d'Abbans",
+      "canonical_name": "d'Abbans, Vicomte Alexandre Louis Ferdinand de",
+      "given_names": "Vicomte Alexandre Louis Ferdinand de",
+      "surname": "d'Abbans",
       "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -2677,9 +2669,9 @@
     },
     {
       "name": "Dr. Laon Adrian de Vicq",
-      "canonical_name": "de Vicq, Dr. Laon Adrian",
-      "given_names": "Dr. Laon Adrian",
-      "surname": "de Vicq",
+      "canonical_name": "Vicq, Dr. Laon Adrian de",
+      "given_names": "Dr. Laon Adrian de",
+      "surname": "Vicq",
       "position": "Consul-General",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -2887,8 +2879,8 @@
     },
     {
       "name": "W. G. Neill",
-      "canonical_name": "Neill, W.",
-      "given_names": "W.",
+      "canonical_name": "Neill, W. G.",
+      "given_names": "W. G.",
       "surname": "Neill",
       "position": "Consular Agent",
       "department": "Foreign Consuls",
@@ -2911,6 +2903,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 179,
-    "anomaly_count": 16
+    "anomaly_count": 15
   }
 }

@@ -1,13 +1,13 @@
 {
   "colony": "British Central Africa",
   "year": 1905,
-  "generated": "2026-03-11T22:52:41.271504",
+  "generated": "2026-03-12T07:28:57.577650",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 67,
   "officials": [
     {
-      "name": "A. Sharpe",
+      "name": "Sir A. Sharpe",
       "canonical_name": "Sharpe, A.",
       "given_names": "A.",
       "surname": "Sharpe",
@@ -26,7 +26,7 @@
       "location": null
     },
     {
-      "name": "F. B. Pearce",
+      "name": "Major F. B. Pearce",
       "canonical_name": "Pearce, F. B.",
       "given_names": "F. B.",
       "surname": "Pearce",
@@ -242,7 +242,7 @@
       "canonical_name": "Ridge, A.",
       "given_names": "A.",
       "surname": "Ridge",
-      "position": "Clerks in Treasury",
+      "position": "Clerk",
       "department": "Treasury Department",
       "salary_min": 200,
       "salary_max": 250,
@@ -258,7 +258,7 @@
       "canonical_name": "Turnbull, A. M. D.",
       "given_names": "A. M. D.",
       "surname": "Turnbull",
-      "position": "Clerks in Treasury",
+      "position": "Clerk",
       "department": "Treasury Department",
       "salary_min": 200,
       "salary_max": 250,
@@ -274,7 +274,7 @@
       "canonical_name": "Wyatt, A. L.",
       "given_names": "A. L.",
       "surname": "Wyatt",
-      "position": "Clerks in Treasury",
+      "position": "Clerk",
       "department": "Treasury Department",
       "salary_min": 200,
       "salary_max": 250,
@@ -655,7 +655,7 @@
     },
     {
       "name": "Van der Welde",
-      "canonical_name": "Van der Welde",
+      "canonical_name": "Van der Welde, ",
       "given_names": "",
       "surname": "Van der Welde",
       "position": "Assistant Auditor",
@@ -818,7 +818,7 @@
       "canonical_name": "Wightman, A. E.",
       "given_names": "A. E.",
       "surname": "Wightman",
-      "position": "Assistants",
+      "position": "Assistant",
       "department": "Public Works Department",
       "salary_min": 250,
       "salary_max": 300,
@@ -831,7 +831,7 @@
     },
     {
       "name": "Sir William Manning",
-      "canonical_name": "Manning, William",
+      "canonical_name": "Manning, Sir William",
       "given_names": "William",
       "surname": "Manning",
       "position": "Inspector-General of Protectorate Forces",
@@ -844,12 +844,12 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Brigadier-General",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Major H. W. Rattigan",
+      "name": "H. W. Rattigan",
       "canonical_name": "Rattigan, H. W.",
       "given_names": "H. W.",
       "surname": "Rattigan",
@@ -865,7 +865,7 @@
       "location": null
     },
     {
-      "name": "Captain (local Lieut.-Colonel) A. S. Cobbe",
+      "name": "A. S. Cobbe",
       "canonical_name": "Cobbe, A. S.",
       "given_names": "A. S.",
       "surname": "Cobbe",
@@ -1075,7 +1075,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Chinde"
+      "location": null
     },
     {
       "name": "J. S. Bell",
@@ -1091,7 +1091,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Chinde"
+      "location": null
     }
   ],
   "validation_summary": {

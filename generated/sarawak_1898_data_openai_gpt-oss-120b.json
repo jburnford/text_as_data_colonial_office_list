@@ -1,17 +1,17 @@
 {
   "colony": "Sarawak",
   "year": 1898,
-  "generated": "2026-03-11T22:02:24.724545",
+  "generated": "2026-03-12T07:10:14.115642",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 39,
   "officials": [
     {
-      "name": "Sir Charles Johnson Brooke",
-      "canonical_name": "Brooke, Sir Charles Johnson",
-      "given_names": "Sir Charles Johnson",
+      "name": "Charles Johnson Brooke",
+      "canonical_name": "Brooke, Charles Johnson",
+      "given_names": "Charles Johnson",
       "surname": "Brooke",
-      "position": "Rajah of Sarawak",
+      "position": "Rajah of Sarawak, Commander of the Crown of Italy",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -45,7 +45,7 @@
       "canonical_name": "Bampfylde, C. A.",
       "given_names": "C. A.",
       "surname": "Bampfylde",
-      "position": "Member, Supreme Council",
+      "position": "Member (Supreme Council)",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -61,7 +61,7 @@
       "canonical_name": "Pearse, C. S.",
       "given_names": "C. S.",
       "surname": "Pearse",
-      "position": "Member, Supreme Council",
+      "position": "Member (Supreme Council)",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -74,10 +74,10 @@
     },
     {
       "name": "Haji Bua Hassan",
-      "canonical_name": "Haji Bua Hassan",
+      "canonical_name": "Hassan, Haji Bua",
       "given_names": "Haji Bua",
       "surname": "Hassan",
-      "position": "Member, Supreme Council",
+      "position": "Member (Supreme Council)",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -90,10 +90,10 @@
     },
     {
       "name": "Haji Metaimi",
-      "canonical_name": "Haji Metaimi",
+      "canonical_name": "Metaimi, Haji",
       "given_names": "Haji",
       "surname": "Metaimi",
-      "position": "Member, Supreme Council",
+      "position": "Member (Supreme Council)",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -105,11 +105,11 @@
       "location": null
     },
     {
-      "name": "Abang Mahomad Kassim Haji Sudin",
-      "canonical_name": "Sudin, Abang Mahomad Kassim Haji",
-      "given_names": "Abang Mahomad Kassim Haji",
+      "name": "Mahomad Kassim Haji Sudin",
+      "canonical_name": "Sudin, Mahomad Kassim Haji",
+      "given_names": "Mahomad Kassim Haji",
       "surname": "Sudin",
-      "position": "Member, Supreme Council",
+      "position": "Member (Supreme Council)",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -412,8 +412,8 @@
     },
     {
       "name": "Sir Alfred Milner",
-      "canonical_name": "Milner, Alfred",
-      "given_names": "Alfred",
+      "canonical_name": "Milner, Sir Alfred",
+      "given_names": "Sir Alfred",
       "surname": "Milner",
       "position": "High Commissioner",
       "department": "High Commission",
@@ -454,7 +454,7 @@
       "department": "High Commission",
       "salary_min": 470,
       "salary_max": 470,
-      "allowances": "50l. as Auditor, Basutoland",
+      "allowances": "50l. as Auditor",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -542,7 +542,7 @@
       "qualifications": [],
       "military_rank": "Major",
       "salary_scale": null,
-      "location": "Bechuanaland Protectorate"
+      "location": null
     },
     {
       "name": "W. H. Surmon",
@@ -577,10 +577,10 @@
       "location": null
     },
     {
-      "name": "W. Conyngham Greene, Esq.",
-      "canonical_name": "Conyngham Greene, W.",
-      "given_names": "W.",
-      "surname": "Conyngham Greene",
+      "name": "W. Conyngham Greene",
+      "canonical_name": "Greene, W. Conyngham",
+      "given_names": "W. Conyngham",
+      "surname": "Greene",
       "position": "British Agent at Pretoria",
       "department": "High Commission",
       "salary_min": 2000,
@@ -615,7 +615,7 @@
       "canonical_name": "Evans, J. E.",
       "given_names": "J. E.",
       "surname": "Evans",
-      "position": "British Vice-Consul, Johannesburg",
+      "position": "British Vice-Consul",
       "department": "High Commission",
       "salary_min": 500,
       "salary_max": 500,
@@ -631,7 +631,7 @@
       "canonical_name": "Smuts, J.",
       "given_names": "J.",
       "surname": "Smuts",
-      "position": "British Consul in Swaziland",
+      "position": "British Consul",
       "department": "High Commission",
       "salary_min": 800,
       "salary_max": 800,
@@ -640,7 +640,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Swaziland"
+      "location": "Swazieland"
     }
   ],
   "validation_summary": {

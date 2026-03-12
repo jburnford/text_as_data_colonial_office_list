@@ -1,7 +1,7 @@
 {
   "colony": "Bahamas",
   "year": 1905,
-  "generated": "2026-03-11T18:46:43.058881",
+  "generated": "2026-03-12T07:26:48.524879",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 87,
@@ -99,7 +99,7 @@
       "department": "Treasury and Customs Department",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "fees, and 30l. as Receiver of Crown Revenue",
+      "allowances": "30l. as Receiver of Crown Revenue",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -291,7 +291,7 @@
       "department": "Record Office",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "allowance in lieu of fees, 10l.; personal allowances, 90l.",
+      "allowances": "allowance in lieu of fees 10l.; personal allowances 90l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -331,15 +331,15 @@
       "location": null
     },
     {
-      "name": "William Miller",
-      "canonical_name": "Miller, William",
-      "given_names": "William",
+      "name": "W. Miller",
+      "canonical_name": "Miller, W.",
+      "given_names": "W.",
       "surname": "Miller",
       "position": "Surveyor-General and Civil Engineer",
       "department": "Surveyor-General's Office",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "100l. personal allowance",
+      "allowances": "personal allowance, 100l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -347,9 +347,9 @@
       "location": null
     },
     {
-      "name": "William F. Hartman",
-      "canonical_name": "Hartman, William F.",
-      "given_names": "William F.",
+      "name": "W. F. Hartman",
+      "canonical_name": "Hartman, W. F.",
+      "given_names": "W. F.",
       "surname": "Hartman",
       "position": "Chief Clerk",
       "department": "Surveyor-General's Office",
@@ -579,7 +579,7 @@
       "department": "Medical Department",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": null,
+      "allowances": "residence",
       "honors": [],
       "qualifications": [
         "M.B."
@@ -593,7 +593,7 @@
       "canonical_name": "Culmer, J. J.",
       "given_names": "J. J.",
       "surname": "Culmer",
-      "position": "Assistant Surgeon",
+      "position": "Assistant Surgeon of New Providence Asylum",
       "department": "Medical Department",
       "salary_min": 200,
       "salary_max": 200,
@@ -640,9 +640,9 @@
       "location": null
     },
     {
-      "name": "D. Wilshire",
-      "canonical_name": "Wilshire, D.",
-      "given_names": "D.",
+      "name": "Rev. D. Wilshire",
+      "canonical_name": "Wilshire, Rev. D.",
+      "given_names": "Rev. D.",
       "surname": "Wilshire",
       "position": "Chaplain to Asylum",
       "department": "Medical Department",
@@ -757,8 +757,8 @@
     },
     {
       "name": "Rev. J. H. Fisher",
-      "canonical_name": "Fisher, Rev. J. H.",
-      "given_names": "Rev. J. H.",
+      "canonical_name": "Fisher, J. H.",
+      "given_names": "J. H.",
       "surname": "Fisher",
       "position": "Chaplain to Prison",
       "department": "Prison Department",
@@ -788,7 +788,7 @@
       "location": null
     },
     {
-      "name": "O. D. Malcolm",
+      "name": "Sir O. D. Malcolm",
       "canonical_name": "Malcolm, O. D.",
       "given_names": "O. D.",
       "surname": "Malcolm",
@@ -872,7 +872,7 @@
       "canonical_name": "Rae, J. M.",
       "given_names": "J. M.",
       "surname": "Rae",
-      "position": "Stipendiary and Circuit Magistrates",
+      "position": "Stipendiary and Circuit Magistrate",
       "department": "Judicial",
       "salary_min": 500,
       "salary_max": 500,
@@ -888,7 +888,7 @@
       "canonical_name": "Johnstone, R. S.",
       "given_names": "R. S.",
       "surname": "Johnstone",
-      "position": "Stipendiary and Circuit Magistrates",
+      "position": "Stipendiary and Circuit Magistrate",
       "department": "Judicial",
       "salary_min": 500,
       "salary_max": 500,
@@ -924,7 +924,7 @@
       "department": "Judicial",
       "salary_min": 50,
       "salary_max": 50,
-      "allowances": null,
+      "allowances": "acting",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1252,7 +1252,7 @@
       "location": "Watlings Island"
     },
     {
-      "name": "R. T. Bailey",
+      "name": "Rev. R. T. Bailey",
       "canonical_name": "Bailey, R. T.",
       "given_names": "R. T.",
       "surname": "Bailey",
@@ -1278,7 +1278,7 @@
       "department": "Ecclesiastical",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "house rent, 30l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1286,7 +1286,7 @@
       "location": null
     },
     {
-      "name": "Chrysostom Schreiner",
+      "name": "Rev. Chrysostom Schreiner",
       "canonical_name": "Schreiner, Chrysostom",
       "given_names": "Chrysostom",
       "surname": "Schreiner",
@@ -1302,11 +1302,11 @@
       "location": null
     },
     {
-      "name": "F. W. Gostick",
+      "name": "Rev. F. W. Gostick",
       "canonical_name": "Gostick, F. W.",
       "given_names": "F. W.",
       "surname": "Gostick",
-      "position": "Superintendent, Wesleyan Church",
+      "position": "Wesleyan Church, Superintendent",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1318,7 +1318,7 @@
       "location": null
     },
     {
-      "name": "F. J. Lobb",
+      "name": "Staff Commander F. J. Lobb, R.N.",
       "canonical_name": "Lobb, F. J.",
       "given_names": "F. J.",
       "surname": "Lobb",
@@ -1338,7 +1338,7 @@
       "canonical_name": "Potter, Julian",
       "given_names": "Julian",
       "surname": "Potter",
-      "position": "United States of America",
+      "position": "United States of America (Consul)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1354,7 +1354,7 @@
       "canonical_name": "Sawyer, R. W.",
       "given_names": "R. W.",
       "surname": "Sawyer",
-      "position": "Germany",
+      "position": "Germany (Consul)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1370,7 +1370,7 @@
       "canonical_name": "Taylor, L.",
       "given_names": "L.",
       "surname": "Taylor",
-      "position": "France (Vice)",
+      "position": "France (Vice) (Consul)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1386,7 +1386,7 @@
       "canonical_name": "Menendez, F. M.",
       "given_names": "F. M.",
       "surname": "Menendez",
-      "position": "Spain (Honorary)",
+      "position": "Spain (Honorary) (Consul)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1402,7 +1402,7 @@
       "canonical_name": "Larreur, Alphonse",
       "given_names": "Alphonse",
       "surname": "Larreur",
-      "position": "Hayti",
+      "position": "Hayti (Consul)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1423,6 +1423,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 87,
-    "anomaly_count": 2
+    "anomaly_count": 3
   }
 }

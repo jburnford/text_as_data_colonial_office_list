@@ -1,10 +1,10 @@
 {
   "colony": "Queensland",
   "year": 1898,
-  "generated": "2026-03-11T22:13:37.346844",
+  "generated": "2026-03-12T07:14:15.992858",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 207,
+  "total_officials": 208,
   "officials": [
     {
       "name": "Lord Lamington",
@@ -59,9 +59,9 @@
       "location": null
     },
     {
-      "name": "Cecil Henry Anderson Pellam",
-      "canonical_name": "Pellam, Cecil Henry Anderson",
-      "given_names": "Cecil Henry Anderson",
+      "name": "Capt. Cecil Henry Anderson Pellam",
+      "canonical_name": "Pellam, Capt. Cecil Henry Anderson",
+      "given_names": "Capt. Cecil Henry Anderson",
       "surname": "Pellam",
       "position": "Aide-de-Camp",
       "department": "Civil Establishment",
@@ -873,7 +873,7 @@
       "location": null
     },
     {
-      "name": "A. S. Cowley",
+      "name": "Hon. A. S. Cowley",
       "canonical_name": "Cowley, A. S.",
       "given_names": "A. S.",
       "surname": "Cowley",
@@ -921,7 +921,7 @@
       "location": null
     },
     {
-      "name": "P. C. Holmes A'Court",
+      "name": "Hon. P. C. Holmes A'Court",
       "canonical_name": "A'Court, P. C. Holmes",
       "given_names": "P. C. Holmes",
       "surname": "A'Court",
@@ -1099,7 +1099,7 @@
       "location": null
     },
     {
-      "name": "J. R. Dickson",
+      "name": "Hon. J. R. Dickson",
       "canonical_name": "Dickson, J. R.",
       "given_names": "J. R.",
       "surname": "Dickson",
@@ -1229,7 +1229,7 @@
       "location": null
     },
     {
-      "name": "Justin F. G. Foxton",
+      "name": "Hon. Justin F. G. Foxton",
       "canonical_name": "Foxton, Justin F. G.",
       "given_names": "Justin F. G.",
       "surname": "Foxton",
@@ -1266,6 +1266,22 @@
       "given_names": "A.",
       "surname": "Dawson",
       "position": "Member for Charters Towers",
+      "department": "Legislative Assembly",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "J. H. Dunsford",
+      "canonical_name": "Dunsford, J. H.",
+      "given_names": "J. H.",
+      "surname": "Dunsford",
+      "position": "Member for Clermont",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1389,7 +1405,7 @@
       "location": null
     },
     {
-      "name": "Geo. Thorn",
+      "name": "Hon. Geo. Thorn",
       "canonical_name": "Thorn, Geo.",
       "given_names": "Geo.",
       "surname": "Thorn",
@@ -1521,7 +1537,7 @@
       "canonical_name": "Stephenson, A. J.",
       "given_names": "A. J.",
       "surname": "Stephenson",
-      "position": "Member for Unknown",
+      "position": "Member for Herbert",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1629,7 +1645,7 @@
       "location": null
     },
     {
-      "name": "D. H. Dalrymple",
+      "name": "Hon. D. H. Dalrymple",
       "canonical_name": "Dalrymple, D. H.",
       "given_names": "D. H.",
       "surname": "Dalrymple",
@@ -1709,7 +1725,7 @@
       "location": null
     },
     {
-      "name": "H. M. Nelson",
+      "name": "Rt. Hon. Sir H. M. Nelson",
       "canonical_name": "Nelson, H. M.",
       "given_names": "H. M.",
       "surname": "Nelson",
@@ -1919,7 +1935,7 @@
       "location": null
     },
     {
-      "name": "R. Philp",
+      "name": "Hon. R. Philp",
       "canonical_name": "Philp, R.",
       "given_names": "R.",
       "surname": "Philp",
@@ -1967,7 +1983,7 @@
       "location": null
     },
     {
-      "name": "T. J. Byrnes",
+      "name": "Hon. T. J. Byrnes",
       "canonical_name": "Byrnes, T. J.",
       "given_names": "T. J.",
       "surname": "Byrnes",
@@ -1983,7 +1999,7 @@
       "location": null
     },
     {
-      "name": "H. Tozer",
+      "name": "Sir H. Tozer",
       "canonical_name": "Tozer, H.",
       "given_names": "H.",
       "surname": "Tozer",
@@ -2148,9 +2164,9 @@
     },
     {
       "name": "W. E. Parry Okeden",
-      "canonical_name": "Okeden, W. E. Parry",
-      "given_names": "W. E. Parry",
-      "surname": "Okeden",
+      "canonical_name": "Parry Okeden, W. E.",
+      "given_names": "W. E.",
+      "surname": "Parry Okeden",
       "position": "Commissioner of Police",
       "department": "Home Secretary's Department",
       "salary_min": 800,
@@ -2180,9 +2196,9 @@
     },
     {
       "name": "J. O'N. Brennan",
-      "canonical_name": "Brennan, J. O'N.",
-      "given_names": "J. O'N.",
-      "surname": "Brennan",
+      "canonical_name": "O'N. Brennan, J.",
+      "given_names": "J.",
+      "surname": "O'N. Brennan",
       "position": "Immigration Agent",
       "department": "Home Secretary's Department",
       "salary_min": 450,
@@ -2277,9 +2293,9 @@
       "location": null
     },
     {
-      "name": "Sir S. W. Griffith",
-      "canonical_name": "Griffith, Sir S. W.",
-      "given_names": "Sir S. W.",
+      "name": "S. W. Griffith",
+      "canonical_name": "Griffith, S. W.",
+      "given_names": "S. W.",
       "surname": "Griffith",
       "position": "Chief Justice",
       "department": "Supreme Court Bench",
@@ -3098,8 +3114,8 @@
     },
     {
       "name": "Sir Horace Tozer",
-      "canonical_name": "Tozer, Horace",
-      "given_names": "Horace",
+      "canonical_name": "Tozer, Sir Horace",
+      "given_names": "Sir Horace",
       "surname": "Tozer",
       "position": "Agent-General",
       "department": "London Agency",
@@ -3150,8 +3166,8 @@
     },
     {
       "name": "Hon. J. C. Heussler",
-      "canonical_name": "Heussler, J. C.",
-      "given_names": "J. C.",
+      "canonical_name": "Heussler, Hon. J. C.",
+      "given_names": "Hon. J. C.",
       "surname": "Heussler",
       "position": "Consul for Netherlands",
       "department": "Consuls for Foreign Countries",
@@ -3165,11 +3181,11 @@
       "location": null
     },
     {
-      "name": "W. von Ploennies",
+      "name": "W. von Ploennies (acting)",
       "canonical_name": "von Ploennies, W.",
       "given_names": "W.",
       "surname": "von Ploennies",
-      "position": "Consul for Netherlands (acting)",
+      "position": "Consul for Netherlands",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -3181,11 +3197,11 @@
       "location": null
     },
     {
-      "name": "R. W. Thurlow",
+      "name": "R. W. Thurlow (acting)",
       "canonical_name": "Thurlow, R. W.",
       "given_names": "R. W.",
       "surname": "Thurlow",
-      "position": "Consul for Belgium (acting)",
+      "position": "Consul for Belgium",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -3277,11 +3293,11 @@
       "location": "Brisbane"
     },
     {
-      "name": "J. H. Rogers",
+      "name": "J. H. Rogers (provisionally)",
       "canonical_name": "Rogers, J. H.",
       "given_names": "J. H.",
       "surname": "Rogers",
-      "position": "Consular Agent for United States of America (provisionally)",
+      "position": "Consular Agent for United States of America",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -3310,8 +3326,8 @@
     },
     {
       "name": "Hon. E. B. Forrest",
-      "canonical_name": "Forrest, E. B.",
-      "given_names": "E. B.",
+      "canonical_name": "Forrest, Hon. E. B.",
+      "given_names": "Hon. E. B.",
       "surname": "Forrest",
       "position": "Vice-Consul for France",
       "department": "Consuls for Foreign Countries",
@@ -3343,9 +3359,9 @@
       "location": "Cooktown"
     },
     {
-      "name": "F. H. Hart",
-      "canonical_name": "Hart, F. H.",
-      "given_names": "F. H.",
+      "name": "Hon. F. H. Hart",
+      "canonical_name": "Hart, Hon. F. H.",
+      "given_names": "Hon. F. H.",
       "surname": "Hart",
       "position": "Consul for Portugal",
       "department": "Consuls for Foreign Countries",
@@ -3363,11 +3379,11 @@
     "colony": "Queensland",
     "year": 1898,
     "total": 208,
-    "high_confidence": 204,
+    "high_confidence": 205,
     "medium_confidence": 3,
-    "low_confidence": 1,
-    "quarantined": 1,
-    "passed": 207,
-    "anomaly_count": 6
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 208,
+    "anomaly_count": 3
   }
 }

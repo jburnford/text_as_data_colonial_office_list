@@ -1,10 +1,10 @@
 {
   "colony": "Western Australia",
   "year": 1897,
-  "generated": "2026-03-11T20:46:48.879960",
+  "generated": "2026-03-12T06:53:02.979540",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 263,
+  "total_officials": 273,
   "officials": [
     {
       "name": "Sir Gerard Smith",
@@ -29,7 +29,7 @@
       "canonical_name": "St. Leger, A. J. D.",
       "given_names": "A. J. D.",
       "surname": "St. Leger",
-      "position": "Secretary",
+      "position": "Chief Secretary",
       "department": "Civil Establishment",
       "salary_min": 350,
       "salary_max": 350,
@@ -61,7 +61,7 @@
       "canonical_name": "De Satg\u00e9, H. V.",
       "given_names": "H. V.",
       "surname": "De Satg\u00e9",
-      "position": "Chief of Camps",
+      "position": "le-Camps",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -73,9 +73,9 @@
       "location": null
     },
     {
-      "name": "Sir John Forrest",
-      "canonical_name": "Forrest, Sir John",
-      "given_names": "Sir John",
+      "name": "Hon. Sir John Forrest",
+      "canonical_name": "Forrest, John",
+      "given_names": "John",
       "surname": "Forrest",
       "position": "Colonial Secretary",
       "department": "Colonial Secretary's Department",
@@ -127,7 +127,7 @@
       "canonical_name": "Laurance, John",
       "given_names": "John",
       "surname": "Laurance",
-      "position": "out Registrar and Clerk",
+      "position": "Deputy Registrar and Clerk",
       "department": "Colonial Secretary's Department",
       "salary_min": 225,
       "salary_max": 225,
@@ -239,11 +239,11 @@
       "canonical_name": "Lovegrove, H.",
       "given_names": "H.",
       "surname": "Lovegrove",
-      "position": "Medical Surgeon and Principal Medical Officer",
+      "position": "Surgeon and Principal Medical Officer",
       "department": "Medical Department",
       "salary_min": 350,
       "salary_max": 350,
-      "allowances": "50l. allowance",
+      "allowances": "50l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -255,7 +255,7 @@
       "canonical_name": "Spencer, E.",
       "given_names": "E.",
       "surname": "Spencer",
-      "position": "Assistant Medical Officer",
+      "position": "Medical Officers, Perth",
       "department": "Medical Department",
       "salary_min": 225,
       "salary_max": 225,
@@ -264,14 +264,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Perth"
+      "location": null
     },
     {
       "name": "C. Barnett",
       "canonical_name": "Barnett, C.",
       "given_names": "C.",
       "surname": "Barnett",
-      "position": "Superintendent, Lunatic Asylum",
+      "position": "Superintendent, Lunatic Asylum, Fremantle",
       "department": "Medical Department",
       "salary_min": 500,
       "salary_max": 500,
@@ -280,7 +280,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Fremantle"
+      "location": null
     },
     {
       "name": "J. W. Hope",
@@ -851,12 +851,12 @@
       "department": "Gaol Department",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Fremantle Prison"
+      "location": null
     },
     {
       "name": "S. Hope",
@@ -872,7 +872,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Fremantle Prison"
+      "location": null
     },
     {
       "name": "F. J. Townsend",
@@ -888,13 +888,13 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Fremantle Prison"
+      "location": null
     },
     {
       "name": "E. Fox Angolo",
-      "canonical_name": "Angolo, E. Fox",
-      "given_names": "E. Fox",
-      "surname": "Angolo",
+      "canonical_name": "Fox Angolo, E.",
+      "given_names": "E.",
+      "surname": "Fox Angolo",
       "position": "Superintendent",
       "department": "Rottnest Prison Department",
       "salary_min": 325,
@@ -1327,7 +1327,7 @@
       "canonical_name": "Moseley, F. A.",
       "given_names": "F. A.",
       "surname": "Moseley",
-      "position": "Registrar and Master of Supreme Court",
+      "position": "Registrar, and Master of Supreme Court",
       "department": "Supreme Court",
       "salary_min": 600,
       "salary_max": 600,
@@ -1427,12 +1427,12 @@
       "department": "Chairmen of Quarter Sessions",
       "salary_min": 475,
       "salary_max": 475,
-      "allowances": "allowance 75l., and quarters",
+      "allowances": "75l., and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "North District"
+      "location": null
     },
     {
       "name": "F. Pearse",
@@ -1443,12 +1443,12 @@
       "department": "Chairmen of Quarter Sessions",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "allowance 75l., and quarters",
+      "allowances": "75l., and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "East Kimberley"
+      "location": null
     },
     {
       "name": "M. S. Warton",
@@ -1459,12 +1459,12 @@
       "department": "Chairmen of Quarter Sessions",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "allowance 75l., and quarters",
+      "allowances": "75l., and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "West Kimberley"
+      "location": null
     },
     {
       "name": "Maitland Brown",
@@ -1475,12 +1475,12 @@
       "department": "Chairmen of Quarter Sessions",
       "salary_min": 535,
       "salary_max": 535,
-      "allowances": "allowance with quarters, 100l",
+      "allowances": "with quarters, 100l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Victoria District"
+      "location": null
     },
     {
       "name": "R. C. Loftie",
@@ -1491,12 +1491,12 @@
       "department": "Chairmen of Quarter Sessions",
       "salary_min": 510,
       "salary_max": 510,
-      "allowances": "allowances, 150l., and quarters",
+      "allowances": "150l., and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Plantagenet District"
+      "location": null
     },
     {
       "name": "W. H. Timperley",
@@ -1507,12 +1507,12 @@
       "department": "Chairmen of Quarter Sessions",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "allowance 50l",
+      "allowances": "50l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Wellington District"
+      "location": null
     },
     {
       "name": "E. Black",
@@ -1523,12 +1523,12 @@
       "department": "Chairmen of Quarter Sessions",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "allowance 50l., and quarters",
+      "allowances": "50l., and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Esperance District"
+      "location": null
     },
     {
       "name": "R. C. Loftie",
@@ -1544,7 +1544,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Plantagenet"
+      "location": null
     },
     {
       "name": "W. D. Cowan",
@@ -1560,7 +1560,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Northern"
+      "location": null
     },
     {
       "name": "M. Brown",
@@ -1576,7 +1576,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Victoria"
+      "location": null
     },
     {
       "name": "M. S. Warton",
@@ -1592,7 +1592,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "West Kimberley"
+      "location": null
     },
     {
       "name": "F. Pearse",
@@ -1608,7 +1608,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "East Kimberley"
+      "location": null
     },
     {
       "name": "J. Cowan",
@@ -1616,15 +1616,15 @@
       "given_names": "J.",
       "surname": "Cowan",
       "position": "Police Magistrate",
-      "department": "Police Magistrates",
+      "department": "Stipendiary Magistrates",
       "salary_min": 525,
       "salary_max": 525,
-      "allowances": "allowance, 50l",
+      "allowances": "50l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Perth and Swan"
+      "location": null
     },
     {
       "name": "L. M. Hungerford",
@@ -1632,15 +1632,15 @@
       "given_names": "L. M.",
       "surname": "Hungerford",
       "position": "Police Magistrate",
-      "department": "Police Magistrates",
+      "department": "Stipendiary Magistrates",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "allowance 50l",
+      "allowances": "50l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sussex District"
+      "location": null
     },
     {
       "name": "C. Lovegrove",
@@ -1648,15 +1648,15 @@
       "given_names": "C.",
       "surname": "Lovegrove",
       "position": "Police Magistrate",
-      "department": "Police Magistrates",
+      "department": "Stipendiary Magistrates",
       "salary_min": 155,
       "salary_max": 155,
-      "allowances": "allowance 50l",
+      "allowances": "50l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Murray District"
+      "location": null
     },
     {
       "name": "W. K. Adam",
@@ -1664,15 +1664,15 @@
       "given_names": "W. K.",
       "surname": "Adam",
       "position": "Police Magistrate",
-      "department": "Police Magistrates",
+      "department": "Stipendiary Magistrates",
       "salary_min": 315,
       "salary_max": 315,
-      "allowances": "allowance 75l",
+      "allowances": "75l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Williams District"
+      "location": null
     },
     {
       "name": "R. Fairbairn",
@@ -1680,7 +1680,7 @@
       "given_names": "R.",
       "surname": "Fairbairn",
       "position": "Police Magistrate",
-      "department": "Police Magistrates",
+      "department": "Stipendiary Magistrates",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -1688,7 +1688,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Fremantle District"
+      "location": null
     },
     {
       "name": "J. Adam",
@@ -1696,15 +1696,15 @@
       "given_names": "J.",
       "surname": "Adam",
       "position": "Police Magistrate",
-      "department": "Police Magistrates",
+      "department": "Stipendiary Magistrates",
       "salary_min": 365,
       "salary_max": 365,
-      "allowances": "allowance 50l",
+      "allowances": "50l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Toodyay District"
+      "location": null
     },
     {
       "name": "F. A. Hare",
@@ -1712,15 +1712,15 @@
       "given_names": "F. A.",
       "surname": "Hare",
       "position": "Police Magistrate",
-      "department": "Police Magistrates",
+      "department": "Stipendiary Magistrates",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "allowance 50l",
+      "allowances": "50l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "York District"
+      "location": null
     },
     {
       "name": "C. D. V. Foss",
@@ -1728,15 +1728,15 @@
       "given_names": "C. D. V.",
       "surname": "Foss",
       "position": "Police Magistrate",
-      "department": "Police Magistrates",
+      "department": "Stipendiary Magistrates",
       "salary_min": 375,
       "salary_max": 375,
-      "allowances": "allowance 100l., and quarters",
+      "allowances": "100l., and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Gascoyne"
+      "location": null
     },
     {
       "name": "W. A. G. Walter",
@@ -1744,7 +1744,7 @@
       "given_names": "W. A. G.",
       "surname": "Walter",
       "position": "Police Magistrate",
-      "department": "Police Magistrates",
+      "department": "Stipendiary Magistrates",
       "salary_min": 315,
       "salary_max": 315,
       "allowances": "50l. allowance",
@@ -1752,7 +1752,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Blackwood District"
+      "location": null
     },
     {
       "name": "W. H. Timperley",
@@ -1760,15 +1760,15 @@
       "given_names": "W. H.",
       "surname": "Timperley",
       "position": "Police Magistrate",
-      "department": "Police Magistrates",
+      "department": "Stipendiary Magistrates",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "allowance 50l",
+      "allowances": "50l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Banbury"
+      "location": null
     },
     {
       "name": "V. Black",
@@ -1776,7 +1776,7 @@
       "given_names": "V.",
       "surname": "Black",
       "position": "Police Magistrate",
-      "department": "Police Magistrates",
+      "department": "Stipendiary Magistrates",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1784,7 +1784,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Yilgarn"
+      "location": null
     },
     {
       "name": "W. D. Cummins",
@@ -1792,7 +1792,7 @@
       "given_names": "W. D.",
       "surname": "Cummins",
       "position": "Police Magistrate",
-      "department": "Police Magistrates",
+      "department": "Stipendiary Magistrates",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1800,7 +1800,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Kimberley Goldfields"
+      "location": null
     },
     {
       "name": "J. Maunsell",
@@ -1811,12 +1811,12 @@
       "department": "Stipendiary Magistrates",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "allowance 100l., and quarters",
+      "allowances": "100l., and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "North West District"
+      "location": null
     },
     {
       "name": "E. Black",
@@ -1832,7 +1832,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Esperance District"
+      "location": null
     },
     {
       "name": "H. B. Walsh",
@@ -1848,7 +1848,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Gascoyne and Murdochson"
+      "location": null
     },
     {
       "name": "J. M. Finnelly",
@@ -1864,7 +1864,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Coolgardie"
+      "location": null
     },
     {
       "name": "E. P. Dowley",
@@ -1880,7 +1880,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Murdochson Goldfields"
+      "location": null
     },
     {
       "name": "P. L. Gibbon",
@@ -1896,7 +1896,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Yalgoo"
+      "location": null
     },
     {
       "name": "P. Fielding",
@@ -1912,7 +1912,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "East Coolgardie"
+      "location": null
     },
     {
       "name": "H. W. Nix",
@@ -1928,7 +1928,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Pilbara Goldfields"
+      "location": null
     },
     {
       "name": "A. S. Hicks",
@@ -1944,7 +1944,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Dundas"
+      "location": null
     },
     {
       "name": "F. Gill",
@@ -1960,7 +1960,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "North Coolgardie"
+      "location": null
     },
     {
       "name": "J. C. H. James",
@@ -2113,7 +2113,7 @@
       "canonical_name": "Angove, T.",
       "given_names": "T.",
       "surname": "Angove",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Treasury Department",
       "salary_min": 280,
       "salary_max": 280,
@@ -2129,7 +2129,7 @@
       "canonical_name": "Randell, S. J.",
       "given_names": "S. J.",
       "surname": "Randell",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Treasury Department",
       "salary_min": 280,
       "salary_max": 280,
@@ -2145,7 +2145,7 @@
       "canonical_name": "Wilson, J. F.",
       "given_names": "J. F.",
       "surname": "Wilson",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Treasury Department",
       "salary_min": 280,
       "salary_max": 280,
@@ -2247,7 +2247,7 @@
       "department": "Customs Department",
       "salary_min": 340,
       "salary_max": 340,
-      "allowances": null,
+      "allowances": "and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2351,11 +2351,11 @@
       "location": "Albany"
     },
     {
-      "name": "C. R. Russell",
+      "name": "Captain C. R. Russell",
       "canonical_name": "Russell, C. R.",
       "given_names": "C. R.",
       "surname": "Russell",
-      "position": "Chief Harbourmaster",
+      "position": "Chief Harbourmaster, Fremantle",
       "department": "Harbour and Light Department",
       "salary_min": 450,
       "salary_max": 450,
@@ -2371,7 +2371,7 @@
       "canonical_name": "Bain, G. T.",
       "given_names": "G. T.",
       "surname": "Bain",
-      "position": "Harbourmaster and Pilot",
+      "position": "Harbourmaster and Pilot, Albany",
       "department": "Harbour and Light Department",
       "salary_min": 350,
       "salary_max": 350,
@@ -2387,7 +2387,7 @@
       "canonical_name": "Butcher, S. G.",
       "given_names": "S. G.",
       "surname": "Butcher",
-      "position": "Pilot",
+      "position": "Pilot, Fremantle",
       "department": "Harbour and Light Department",
       "salary_min": 250,
       "salary_max": 250,
@@ -2403,7 +2403,7 @@
       "canonical_name": "Abrahamson, J. G.",
       "given_names": "J. G.",
       "surname": "Abrahamson",
-      "position": "Pilot",
+      "position": "Pilot, Rottnest",
       "department": "Harbour and Light Department",
       "salary_min": 250,
       "salary_max": 250,
@@ -2419,7 +2419,7 @@
       "canonical_name": "Irvine, C. J.",
       "given_names": "C. J.",
       "surname": "Irvine",
-      "position": "Pilot",
+      "position": "Pilot, Albany",
       "department": "Harbour and Light Department",
       "salary_min": 300,
       "salary_max": 300,
@@ -2435,7 +2435,7 @@
       "canonical_name": "Weller, F.",
       "given_names": "F.",
       "surname": "Weller",
-      "position": "Harbour Master and Pilot",
+      "position": "Harbour Master and Pilot, Geraldton",
       "department": "Harbour and Light Department",
       "salary_min": 250,
       "salary_max": 250,
@@ -2643,7 +2643,7 @@
       "canonical_name": "Spencer, C.",
       "given_names": "C.",
       "surname": "Spencer",
-      "position": null,
+      "position": "",
       "department": "Lands and Survey Department",
       "salary_min": 300,
       "salary_max": 300,
@@ -2659,7 +2659,7 @@
       "canonical_name": "Sherwood, T.",
       "given_names": "T.",
       "surname": "Sherwood",
-      "position": null,
+      "position": "",
       "department": "Lands and Survey Department",
       "salary_min": 270,
       "salary_max": 270,
@@ -2675,7 +2675,7 @@
       "canonical_name": "Hamersley, T.",
       "given_names": "T.",
       "surname": "Hamersley",
-      "position": null,
+      "position": "",
       "department": "Lands and Survey Department",
       "salary_min": 230,
       "salary_max": 230,
@@ -2691,7 +2691,7 @@
       "canonical_name": "Spencer, A. E.",
       "given_names": "A. E.",
       "surname": "Spencer",
-      "position": null,
+      "position": "",
       "department": "Lands and Survey Department",
       "salary_min": 210,
       "salary_max": 210,
@@ -2723,7 +2723,7 @@
       "canonical_name": "Dean, E. C.",
       "given_names": "E. C.",
       "surname": "Dean",
-      "position": null,
+      "position": "",
       "department": "Lands and Survey Department",
       "salary_min": 350,
       "salary_max": 350,
@@ -2739,7 +2739,7 @@
       "canonical_name": "Dean, C. Y.",
       "given_names": "C. Y.",
       "surname": "Dean",
-      "position": null,
+      "position": "",
       "department": "Lands and Survey Department",
       "salary_min": 330,
       "salary_max": 330,
@@ -2755,7 +2755,7 @@
       "canonical_name": "Wigglesworth, W.",
       "given_names": "W.",
       "surname": "Wigglesworth",
-      "position": null,
+      "position": "",
       "department": "Lands and Survey Department",
       "salary_min": 260,
       "salary_max": 260,
@@ -2836,7 +2836,7 @@
       "given_names": "F. H.",
       "surname": "Piessis",
       "position": "Commissioner of Railways and Director of Public Works",
-      "department": "Railways and Tramways",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -2852,7 +2852,7 @@
       "given_names": "C. Y.",
       "surname": "O'Connor",
       "position": "Director-in-Chief",
-      "department": "Railways and Tramways",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 1200,
       "salary_max": 1200,
       "allowances": null,
@@ -2868,7 +2868,7 @@
       "given_names": "J.",
       "surname": "Davies",
       "position": "Traffic Manager",
-      "department": "Railways and Tramways",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -2884,7 +2884,7 @@
       "given_names": "W. W.",
       "surname": "Russell",
       "position": "Superintendent of Existing Lines",
-      "department": "Railways and Tramways",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 600,
       "salary_max": 600,
       "allowances": null,
@@ -2900,7 +2900,7 @@
       "given_names": "A. F.",
       "surname": "Thomson",
       "position": "Secretary, Railways",
-      "department": "Railways and Tramways",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -2916,7 +2916,7 @@
       "given_names": "M. E.",
       "surname": "Jull",
       "position": "Secretary, Works",
-      "department": "Railways and Tramways",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 450,
       "salary_max": 450,
       "allowances": null,
@@ -2932,7 +2932,7 @@
       "given_names": "Carl",
       "surname": "Fuchs",
       "position": "Accountant",
-      "department": "Railways and Tramways",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -2948,7 +2948,7 @@
       "given_names": "W.",
       "surname": "Mather",
       "position": "Superintendent",
-      "department": "Railways and Tramways",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -2964,7 +2964,7 @@
       "given_names": "W. G.",
       "surname": "Hancock",
       "position": "Electrician",
-      "department": "Railways and Tramways",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 350,
       "salary_max": 350,
       "allowances": null,
@@ -2980,7 +2980,7 @@
       "given_names": "A. D.",
       "surname": "Bell",
       "position": "Engineer",
-      "department": "Railways and Tramways",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 600,
       "salary_max": 600,
       "allowances": null,
@@ -2996,7 +2996,7 @@
       "given_names": "J.",
       "surname": "Muir",
       "position": "Surveyor of Surveys",
-      "department": "Railways and Tramways",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -3012,7 +3012,7 @@
       "given_names": "M.",
       "surname": "Daly",
       "position": "Fremantle Harbour Works",
-      "department": "Railways and Tramways",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3028,7 +3028,7 @@
       "given_names": "T.",
       "surname": "Poole",
       "position": "Architect and Superintendent of Works",
-      "department": "Works and Buildings",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 600,
       "salary_max": 600,
       "allowances": null,
@@ -3044,7 +3044,7 @@
       "given_names": "E. E.",
       "surname": "Salter",
       "position": "Draughtsman",
-      "department": "Works and Buildings",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 350,
       "salary_max": 350,
       "allowances": null,
@@ -3060,7 +3060,7 @@
       "given_names": "J. B.",
       "surname": "Simmons",
       "position": null,
-      "department": "Works and Buildings",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 350,
       "salary_max": 350,
       "allowances": null,
@@ -3076,7 +3076,7 @@
       "given_names": "J. J.",
       "surname": "Harwood",
       "position": "Surveyor of Works",
-      "department": "Works and Buildings",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 375,
       "salary_max": 375,
       "allowances": null,
@@ -3092,7 +3092,7 @@
       "given_names": "T. B.",
       "surname": "Barratt",
       "position": "Surveyor",
-      "department": "Works and Buildings",
+      "department": "Commissioner of Railways and Director of Public Works",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3887,6 +3887,172 @@
       "location": null
     },
     {
+      "name": "C. O. L. Riley",
+      "canonical_name": "Riley, C. O. L.",
+      "given_names": "C. O. L.",
+      "surname": "Riley",
+      "position": "Bishop",
+      "department": "Chief Clergy of the Church of England",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "F. Goldsmith",
+      "canonical_name": "Goldsmith, F.",
+      "given_names": "F.",
+      "surname": "Goldsmith",
+      "position": "Dean",
+      "department": "Chief Clergy of the Church of England",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [
+        "M.A."
+      ],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "D. G. Watkins",
+      "canonical_name": "Watkins, D. G.",
+      "given_names": "D. G.",
+      "surname": "Watkins",
+      "position": "Archdeacon",
+      "department": "Chief Clergy of the Church of England",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "D. J. Garland",
+      "canonical_name": "Garland, D. J.",
+      "given_names": "D. J.",
+      "surname": "Garland",
+      "position": "Rev.",
+      "department": "Chief Clergy of the Church of England",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Perth"
+    },
+    {
+      "name": "T. Louck",
+      "canonical_name": "Louck, T.",
+      "given_names": "T.",
+      "surname": "Louck",
+      "position": "Rev. Canon",
+      "department": "Chief Clergy of the Church of England",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Geraldton"
+    },
+    {
+      "name": "G. H. Sweeting",
+      "canonical_name": "Sweeting, G. H.",
+      "given_names": "G. H.",
+      "surname": "Sweeting",
+      "position": "Rev. Canon",
+      "department": "Chief Clergy of the Church of England",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [
+        "B.A."
+      ],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Guildford"
+    },
+    {
+      "name": "James Brown",
+      "canonical_name": "Brown, James",
+      "given_names": "James",
+      "surname": "Brown",
+      "position": "Rev. Canon",
+      "department": "Chief Clergy of the Church of England",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [
+        "M.A."
+      ],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Swan"
+    },
+    {
+      "name": "Groser",
+      "canonical_name": "Groser",
+      "given_names": "",
+      "surname": "Groser",
+      "position": "Rev. Canon",
+      "department": "Chief Clergy of the Church of England",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Berkeley"
+    },
+    {
+      "name": "J. Allen",
+      "canonical_name": "Allen, J.",
+      "given_names": "J.",
+      "surname": "Allen",
+      "position": "Rev. Canon",
+      "department": "Chief Clergy of the Church of England",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Pinejura"
+    },
+    {
+      "name": "E. M. Collick",
+      "canonical_name": "Collick, E. M.",
+      "given_names": "E. M.",
+      "surname": "Collick",
+      "position": "Rev.",
+      "department": "Chief Clergy of the Church of England",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Coolgardie"
+    },
+    {
       "name": "Mathew Gibney",
       "canonical_name": "Gibney, Mathew",
       "given_names": "Mathew",
@@ -3916,7 +4082,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "New Norcia"
+      "location": null
     },
     {
       "name": "A. Bourke",
@@ -3948,7 +4114,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Denmark"
     },
     {
       "name": "S. Burt",
@@ -3964,7 +4130,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Denmark"
     },
     {
       "name": "F. R. Dynes",
@@ -4028,7 +4194,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Italy"
     },
     {
       "name": "W. F. Samson",
@@ -4044,14 +4210,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     },
     {
       "name": "J. W. Bateman",
       "canonical_name": "Bateman, J. W.",
       "given_names": "J. W.",
       "surname": "Bateman",
-      "position": "",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -4060,14 +4226,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Germany"
     },
     {
       "name": "J. W. Fergusson",
       "canonical_name": "Fergusson, J. W.",
       "given_names": "J. W.",
       "surname": "Fergusson",
-      "position": "",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -4076,14 +4242,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Sweden and Norway"
     },
     {
       "name": "G. T. Simpson",
       "canonical_name": "Simpson, G. T.",
       "given_names": "G. T.",
       "surname": "Simpson",
-      "position": "",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -4092,11 +4258,11 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Liberia"
     },
     {
-      "name": "Sir C. A. Moloney",
-      "canonical_name": "Moloney, Sir C. A.",
+      "name": "C. A. Moloney",
+      "canonical_name": "Moloney, C. A.",
       "given_names": "C. A.",
       "surname": "Moloney",
       "position": "Commander-in-Chief of the Windward Islands",
@@ -4137,7 +4303,7 @@
       "department": "Civil Establishment",
       "salary_min": 650,
       "salary_max": 650,
-      "allowances": "iv. allee 100l., house allee 50l.",
+      "allowances": "iv. allee, 100l., and house allee, 50l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -4230,12 +4396,12 @@
   "validation_summary": {
     "colony": "Western Australia",
     "year": 1897,
-    "total": 263,
-    "high_confidence": 263,
-    "medium_confidence": 0,
+    "total": 273,
+    "high_confidence": 272,
+    "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 263,
-    "anomaly_count": 23
+    "passed": 273,
+    "anomaly_count": 24
   }
 }

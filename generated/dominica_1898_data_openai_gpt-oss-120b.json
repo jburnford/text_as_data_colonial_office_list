@@ -1,7 +1,7 @@
 {
   "colony": "Dominica",
   "year": 1898,
-  "generated": "2026-03-11T21:04:02.250584",
+  "generated": "2026-03-12T06:51:18.892555",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 51,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 900,
       "salary_max": 900,
-      "allowances": null,
+      "allowances": "300l. from Imperial funds",
       "honors": [
         "C.M.G."
       ],
@@ -81,7 +81,7 @@
       "department": "Treasury and Customs",
       "salary_min": 125,
       "salary_max": 125,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -97,7 +97,7 @@
       "department": "Treasury and Customs",
       "salary_min": 40,
       "salary_max": 40,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -205,7 +205,7 @@
       "canonical_name": "Danavall, J. M.",
       "given_names": "J. M.",
       "surname": "Danavall",
-      "position": "Resident Judge, Second Puisne Judge of the Leeward Islands",
+      "position": "Resident Judge (Second Puisne Judge of the Leeward Islands)",
       "department": "Judicial Establishment",
       "salary_min": 800,
       "salary_max": 800,
@@ -253,7 +253,7 @@
       "canonical_name": "Sharp, G. A.",
       "given_names": "G. A.",
       "surname": "Sharp",
-      "position": "Second Clerk in Registrar's Office",
+      "position": "Chief Clerk in Registrar's Office",
       "department": "Judicial Establishment",
       "salary_min": 60,
       "salary_max": 60,
@@ -285,7 +285,7 @@
       "canonical_name": "Coull, William",
       "given_names": "William",
       "surname": "Coull",
-      "position": "Magistrate, District E.",
+      "position": "Magistrate",
       "department": "Judicial Establishment",
       "salary_min": 300,
       "salary_max": 300,
@@ -294,14 +294,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "District E"
     },
     {
       "name": "W. H. Roper",
       "canonical_name": "Roper, W. H.",
       "given_names": "W. H.",
       "surname": "Roper",
-      "position": "Magistrate, District F.",
+      "position": "Magistrate",
       "department": "Judicial Establishment",
       "salary_min": 250,
       "salary_max": 250,
@@ -310,14 +310,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "District F"
     },
     {
       "name": "R. F. Garraway",
       "canonical_name": "Garraway, R. F.",
       "given_names": "R. F.",
       "surname": "Garraway",
-      "position": "Magistrate, District G.",
+      "position": "Magistrate",
       "department": "Judicial Establishment",
       "salary_min": 300,
       "salary_max": 300,
@@ -326,7 +326,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "District G"
     },
     {
       "name": "H. A. Alford Nicholls",
@@ -362,7 +362,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Roseau"
+      "location": "Roseau Infirmary"
     },
     {
       "name": "Miss J. G. Johnstone",
@@ -396,7 +396,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Roseau District"
     },
     {
       "name": "S. L. Senhouse",
@@ -414,7 +414,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Portsmouth District"
     },
     {
       "name": "J. B. H. Davson",
@@ -432,7 +432,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Windward District"
     },
     {
       "name": "C. V. Bellamy",
@@ -774,7 +774,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Anglican Church"
     },
     {
       "name": "M. Naughten",
@@ -790,7 +790,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Roman Catholic Church"
     },
     {
       "name": "E. A. Jones",
@@ -806,7 +806,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Westcynn Mission"
     },
     {
       "name": "L. A. Giraud",
@@ -822,7 +822,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     },
     {
       "name": "H. A. Frampton",
@@ -838,7 +838,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "United States of America"
     }
   ],
   "validation_summary": {

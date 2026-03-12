@@ -1,7 +1,7 @@
 {
   "colony": "North Borneo",
   "year": 1905,
-  "generated": "2026-03-11T23:26:12.127758",
+  "generated": "2026-03-12T07:38:27.077988",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 31,
@@ -11,7 +11,7 @@
       "canonical_name": "Brooke, Charles Johnson",
       "given_names": "Charles Johnson",
       "surname": "Brooke",
-      "position": "Rajah of Sarawak, Commander of the Crown of Italy",
+      "position": "Rajah of Sarawak, His Highness",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -29,7 +29,7 @@
       "canonical_name": "Brooke, C. Vyner",
       "given_names": "C. Vyner",
       "surname": "Brooke",
-      "position": "Rajah Muda, Administering the Government",
+      "position": "Rajah Muda, His Highness",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -42,9 +42,9 @@
     },
     {
       "name": "Inchi Mahomat Alli bin Abu Baka",
-      "canonical_name": "Baka, Inchi Mahomat Alli bin Abu",
-      "given_names": "Inchi Mahomat Alli bin Abu",
-      "surname": "Baka",
+      "canonical_name": "Abu Baka, Inchi Mahomat Alli bin",
+      "given_names": "Inchi Mahomat Alli bin",
+      "surname": "Abu Baka",
       "position": "Private Secretary",
       "department": "Civil Establishment",
       "salary_min": null,
@@ -57,7 +57,7 @@
       "location": null
     },
     {
-      "name": "P. F. Cunynghame",
+      "name": "Sir P. F. Cunynghame",
       "canonical_name": "Cunynghame, P. F.",
       "given_names": "P. F.",
       "surname": "Cunynghame",
@@ -461,7 +461,7 @@
       "location": null
     },
     {
-      "name": "Percy F. Cunynghame",
+      "name": "Capt. Sir Percy F. Cunynghame",
       "canonical_name": "Cunynghame, Percy F.",
       "given_names": "Percy F.",
       "surname": "Cunynghame",

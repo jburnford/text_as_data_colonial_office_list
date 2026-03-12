@@ -1,14 +1,14 @@
 {
   "colony": "Bechuanaland",
   "year": 1905,
-  "generated": "2026-03-11T22:46:22.850171",
+  "generated": "2026-03-12T07:22:36.407268",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 22,
   "officials": [
     {
       "name": "Sekgoma",
-      "canonical_name": "Sekgoma",
+      "canonical_name": "Sekgoma, ",
       "given_names": "",
       "surname": "Sekgoma",
       "position": "Chief of the Batswana",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Mokgosi",
-      "canonical_name": "Mokgosi",
+      "canonical_name": "Mokgosi, ",
       "given_names": "",
       "surname": "Mokgosi",
       "position": "Chief of the Bamaletse",
@@ -173,7 +173,7 @@
       "canonical_name": "Williams, M. G.",
       "given_names": "M. G.",
       "surname": "Williams",
-      "position": "Magistrate",
+      "position": "Magistrate, N'Gamiland",
       "department": "Establishment",
       "salary_min": 200,
       "salary_max": 200,
@@ -182,14 +182,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "N'Gamiland"
+      "location": null
     },
     {
       "name": "R. M. Daniel",
       "canonical_name": "Daniel, R. M.",
       "given_names": "R. M.",
       "surname": "Daniel",
-      "position": "Assistant Resident Magistrate",
+      "position": "Assistant Resident Magistrate, Serowe",
       "department": "Establishment",
       "salary_min": 100,
       "salary_max": 100,
@@ -198,7 +198,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Serowe"
+      "location": null
     },
     {
       "name": "C. R. Nettelton",

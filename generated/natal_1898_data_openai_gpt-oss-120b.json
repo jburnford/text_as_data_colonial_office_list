@@ -1,15 +1,15 @@
 {
   "colony": "Natal",
   "year": 1898,
-  "generated": "2026-03-11T21:53:06.573745",
+  "generated": "2026-03-12T07:11:04.687552",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 147,
   "officials": [
     {
       "name": "The Hon. Sir Walter Francis Hely-Hutchinson",
-      "canonical_name": "Hely-Hutchinson, Walter Francis",
-      "given_names": "Walter Francis",
+      "canonical_name": "Hely-Hutchinson, The Hon. Sir Walter Francis",
+      "given_names": "The Hon. Sir Walter Francis",
       "surname": "Hely-Hutchinson",
       "position": "Governor",
       "department": "Civil Establishment",
@@ -236,8 +236,8 @@
     },
     {
       "name": "Sir Walter Peace",
-      "canonical_name": "Peace, Sir Walter",
-      "given_names": "Sir Walter",
+      "canonical_name": "Peace, Walter",
+      "given_names": "Walter",
       "surname": "Peace",
       "position": "Agent-General for Natal",
       "department": "Civil Service Board",
@@ -1003,6 +1003,7 @@
       "salary_max": 1500,
       "allowances": null,
       "honors": [
+        "Q.C.",
         "K.C.M.G."
       ],
       "qualifications": [],
@@ -1022,7 +1023,8 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "M.A."
+        "M.A.",
+        "D.C.L."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -1545,7 +1547,7 @@
       "location": "New Hanover"
     },
     {
-      "name": "Colonel J. G. Dartnell",
+      "name": "J. G. Dartnell",
       "canonical_name": "Dartnell, J. G.",
       "given_names": "J. G.",
       "surname": "Dartnell",
@@ -1567,7 +1569,7 @@
       "canonical_name": "Campbell, F. A.",
       "given_names": "F. A.",
       "surname": "Campbell",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Police Department",
       "salary_min": 350,
       "salary_max": 500,
@@ -1583,7 +1585,7 @@
       "canonical_name": "Fairlie, W. F.",
       "given_names": "W. F.",
       "surname": "Fairlie",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Police Department",
       "salary_min": 350,
       "salary_max": 500,
@@ -1599,7 +1601,7 @@
       "canonical_name": "Phillips, F. L.",
       "given_names": "F. L.",
       "surname": "Phillips",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Police Department",
       "salary_min": 350,
       "salary_max": 500,
@@ -1615,7 +1617,7 @@
       "canonical_name": "Clarke, W. J.",
       "given_names": "W. J.",
       "surname": "Clarke",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Police Department",
       "salary_min": 350,
       "salary_max": 500,
@@ -1631,7 +1633,7 @@
       "canonical_name": "Dorchill, W. V.",
       "given_names": "W. V.",
       "surname": "Dorchill",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Police Department",
       "salary_min": 350,
       "salary_max": 500,
@@ -1647,7 +1649,7 @@
       "canonical_name": "Preud'engast, A.",
       "given_names": "A.",
       "surname": "Preud'engast",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Police Department",
       "salary_min": 350,
       "salary_max": 500,
@@ -1663,7 +1665,7 @@
       "canonical_name": "Mardall, G. S.",
       "given_names": "G. S.",
       "surname": "Mardall",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Police Department",
       "salary_min": 350,
       "salary_max": 500,
@@ -1679,7 +1681,7 @@
       "canonical_name": "Shekleton, A.",
       "given_names": "A.",
       "surname": "Shekleton",
-      "position": "Sub-Inspector",
+      "position": "Sub-Inspectors",
       "department": "Police Department",
       "salary_min": 250,
       "salary_max": 350,
@@ -1695,7 +1697,7 @@
       "canonical_name": "George, W. C. H.",
       "given_names": "W. C. H.",
       "surname": "George",
-      "position": "Sub-Inspector",
+      "position": "Sub-Inspectors",
       "department": "Police Department",
       "salary_min": 250,
       "salary_max": 350,
@@ -1711,7 +1713,7 @@
       "canonical_name": "Petley, A. G.",
       "given_names": "A. G.",
       "surname": "Petley",
-      "position": "Sub-Inspector",
+      "position": "Sub-Inspectors",
       "department": "Police Department",
       "salary_min": 250,
       "salary_max": 350,
@@ -1727,7 +1729,7 @@
       "canonical_name": "Strutt, I.",
       "given_names": "I.",
       "surname": "Strutt",
-      "position": "Sub-Inspector",
+      "position": "Sub-Inspectors",
       "department": "Police Department",
       "salary_min": 250,
       "salary_max": 350,
@@ -1743,7 +1745,7 @@
       "canonical_name": "Rose, J. E.",
       "given_names": "J. E.",
       "surname": "Rose",
-      "position": "Sub-Inspector",
+      "position": "Sub-Inspectors",
       "department": "Police Department",
       "salary_min": 250,
       "salary_max": 350,
@@ -1759,7 +1761,7 @@
       "canonical_name": "Campbell, W. D.",
       "given_names": "W. D.",
       "surname": "Campbell",
-      "position": "Sub-Inspector",
+      "position": "Sub-Inspectors",
       "department": "Police Department",
       "salary_min": 250,
       "salary_max": 350,
@@ -1775,7 +1777,7 @@
       "canonical_name": "Dimnick, O.",
       "given_names": "O.",
       "surname": "Dimnick",
-      "position": "Sub-Inspector",
+      "position": "Sub-Inspectors",
       "department": "Police Department",
       "salary_min": 250,
       "salary_max": 350,
@@ -1791,7 +1793,7 @@
       "canonical_name": "Ives, W. E.",
       "given_names": "W. E.",
       "surname": "Ives",
-      "position": "Sub-Inspector",
+      "position": "Sub-Inspectors",
       "department": "Police Department",
       "salary_min": 250,
       "salary_max": 350,
@@ -1807,7 +1809,7 @@
       "canonical_name": "Abraham, A. G.",
       "given_names": "A. G.",
       "surname": "Abraham",
-      "position": "Sub-Inspector",
+      "position": "Sub-Inspectors",
       "department": "Police Department",
       "salary_min": 250,
       "salary_max": 350,
@@ -1823,7 +1825,7 @@
       "canonical_name": "Meiners, L.",
       "given_names": "L.",
       "surname": "Meiners",
-      "position": "Sub-Inspector",
+      "position": "Sub-Inspectors",
       "department": "Police Department",
       "salary_min": 250,
       "salary_max": 350,
@@ -1839,7 +1841,7 @@
       "canonical_name": "Lyttle, W. E.",
       "given_names": "W. E.",
       "surname": "Lyttle",
-      "position": "Sub-Inspector",
+      "position": "Sub-Inspectors",
       "department": "Police Department",
       "salary_min": 250,
       "salary_max": 350,
@@ -1855,7 +1857,7 @@
       "canonical_name": "Keating, R.",
       "given_names": "R.",
       "surname": "Keating",
-      "position": "Sub-Inspector",
+      "position": "Sub-Inspectors",
       "department": "Police Department",
       "salary_min": 250,
       "salary_max": 350,
@@ -1875,7 +1877,7 @@
       "department": "Police Department",
       "salary_min": 350,
       "salary_max": 400,
-      "allowances": null,
+      "allowances": "50l. personal to present holder",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1915,7 +1917,7 @@
       "location": "Durban"
     },
     {
-      "name": "Colonel J. G. Dartnell",
+      "name": "J. G. Dartnell",
       "canonical_name": "Dartnell, J. G.",
       "given_names": "J. G.",
       "surname": "Dartnell",
@@ -1933,7 +1935,7 @@
       "location": null
     },
     {
-      "name": "Lt.-Col. W. Royston",
+      "name": "W. Royston",
       "canonical_name": "Royston, W.",
       "given_names": "W.",
       "surname": "Royston",
@@ -1985,7 +1987,7 @@
       "canonical_name": "Mudie, C. J.",
       "given_names": "C. J.",
       "surname": "Mudie",
-      "position": "Assistant Inspectors",
+      "position": "Assistant Inspector",
       "department": "Education Department",
       "salary_min": 420,
       "salary_max": 420,
@@ -2012,7 +2014,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Pietermaritzburg College"
+      "location": null
     },
     {
       "name": "W. H. Nicholas",
@@ -2030,7 +2032,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Durban"
+      "location": null
     },
     {
       "name": "R. Plant",
@@ -2076,7 +2078,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Major-General",
       "salary_scale": null,
       "location": null
     },
@@ -2321,7 +2323,7 @@
       "location": null
     },
     {
-      "name": "J. Hyslop",
+      "name": "Dr. J. Hyslop",
       "canonical_name": "Hyslop, J.",
       "given_names": "J.",
       "surname": "Hyslop",
@@ -2337,7 +2339,7 @@
       "location": null
     },
     {
-      "name": "G. C Henderson",
+      "name": "Dr. G. C Henderson",
       "canonical_name": "Henderson, G. C",
       "given_names": "G. C",
       "surname": "Henderson",
@@ -2350,10 +2352,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Durban"
     },
     {
-      "name": "J. F Allen",
+      "name": "Dr. J. F. Allen",
       "canonical_name": "Allen, J. F",
       "given_names": "J. F",
       "surname": "Allen",
@@ -2366,7 +2368,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Pietermaritzburg"
     },
     {
       "name": "H. Watkins-Pitchford",
