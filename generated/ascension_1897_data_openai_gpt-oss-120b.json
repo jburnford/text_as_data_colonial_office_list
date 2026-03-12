@@ -1,0 +1,53 @@
+{
+  "colony": "Ascension",
+  "year": 1897,
+  "generated": "2026-03-11T19:24:26.254415",
+  "model": "openai/gpt-oss-120b",
+  "tier": "STANDARD",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "R. Evans",
+      "canonical_name": "Evans, R.",
+      "given_names": "R.",
+      "surname": "Evans",
+      "position": "Captain",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Captain",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Tristan D'Acunha",
+      "canonical_name": "D'Acunha, Tristan",
+      "given_names": "Tristan",
+      "surname": "D'Acunha",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Ascension",
+    "year": 1897,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}

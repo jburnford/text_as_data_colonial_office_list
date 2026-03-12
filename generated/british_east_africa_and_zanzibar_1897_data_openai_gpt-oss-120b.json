@@ -1,0 +1,55 @@
+{
+  "colony": "British East Africa and Zanzibar",
+  "year": 1897,
+  "generated": "2026-03-11T19:26:38.720917",
+  "model": "openai/gpt-oss-120b",
+  "tier": "STANDARD",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "E. J. Berkeley",
+      "canonical_name": "Berkeley, E. J.",
+      "given_names": "E. J.",
+      "surname": "Berkeley",
+      "position": "Administrator",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "A. H. Hardinge",
+      "canonical_name": "Hardinge, A. H.",
+      "given_names": "A. H.",
+      "surname": "Hardinge",
+      "position": "Agent and Consul-Gen. in Zanzibar",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "British East Africa and Zanzibar",
+    "year": 1897,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}

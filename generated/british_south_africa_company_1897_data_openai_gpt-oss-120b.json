@@ -1,0 +1,55 @@
+{
+  "colony": "British South Africa Company",
+  "year": 1897,
+  "generated": "2026-03-11T19:32:07.895478",
+  "model": "openai/gpt-oss-120b",
+  "tier": "STANDARD",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "The Right Hon. Earl Grey",
+      "canonical_name": "Grey, Earl",
+      "given_names": "Earl",
+      "surname": "Grey",
+      "position": "Administrator",
+      "department": "Administrators' Department",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Col. Sir R. Martin",
+      "canonical_name": "Martin, R.",
+      "given_names": "R.",
+      "surname": "Martin",
+      "position": "Commandant of Police",
+      "department": "Administrators' Department",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": "Colonel",
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "British South Africa Company",
+    "year": 1897,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}
