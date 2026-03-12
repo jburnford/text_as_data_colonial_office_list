@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-11T21:38:46.702484",
+  "last_updated": "2026-03-11T21:45:44.521157",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -71968,6 +71968,60 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/montserrat_1898_data_openai_gpt-oss-120b.json"
+    },
+    "Malta_1898": {
+      "colony": "Malta",
+      "year": 1898,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1898_manual_parsed/MALTA.txt",
+      "timestamp": "2026-03-11T21:24:55.223509",
+      "total_officials": 272,
+      "passed_officials": 272,
+      "quarantined_officials": 0,
+      "departments": {
+        "Chief Secretary's Office": 12,
+        "Crown Lawyers": 3,
+        "Audit and Contract Office": 8,
+        "Educational": 2,
+        "Professors in the Malta University": 16,
+        "Customs and Port Department": 18,
+        "Receiver-General's Office": 9,
+        "Charitable Institutions Department": 5,
+        "Hospitals, &c.": 21,
+        "Public Health Department - Office": 6,
+        "Public Health Department - Sanitary Branch": 4,
+        "Public Health Department - District Medical Service": 24,
+        "Public Health Department - Drainage Branch": 1,
+        "Public Health Department - Slaughterhouses": 2,
+        "Public Works Department": 17,
+        "Water Works and Electric Lighting Department": 3,
+        "Railway Department": 2,
+        "Government Press": 1,
+        "Post Office": 13,
+        "Public Registry": 3,
+        "Judicial Establishment": 45,
+        "Ecclesiastical": 2,
+        "Police Department": 9,
+        "Marine Police": 3,
+        "Corradino Prison": 2,
+        "Monte di Piet\u00e0": 3,
+        "Chief Military and Naval Officers": 21,
+        "Foreign Consuls": 17
+      },
+      "generation_time": 1249.1,
+      "validation_summary": {
+        "colony": "Malta",
+        "year": 1898,
+        "total": 272,
+        "high_confidence": 269,
+        "medium_confidence": 3,
+        "low_confidence": 0,
+        "quarantined": 0,
+        "passed": 272,
+        "anomaly_count": 9
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/malta_1898_data_openai_gpt-oss-120b.json"
     }
   },
   "failed": {},
