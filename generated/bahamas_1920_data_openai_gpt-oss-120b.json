@@ -1,7 +1,7 @@
 {
   "colony": "Bahamas",
   "year": 1920,
-  "generated": "2026-03-12T09:00:19.549003",
+  "generated": "2026-03-12T15:44:38.149627",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 107,
@@ -109,7 +109,7 @@
       "canonical_name": "Armbrister, P. W. D.",
       "given_names": "P. W. D.",
       "surname": "Armbrister",
-      "position": "Receiver-General and Treasurer; Receiver of Crown Revenue",
+      "position": "Receiver-General and Treasurer",
       "department": "Treasury Department",
       "salary_min": 400,
       "salary_max": 400,
@@ -157,11 +157,11 @@
       "canonical_name": "Pashley, E. R.",
       "given_names": "E. R.",
       "surname": "Pashley",
-      "position": "Comptroller",
+      "position": "Comptroller; Registrar of Shipping",
       "department": "Customs",
       "salary_min": 350,
       "salary_max": 350,
-      "allowances": "fees as Registrar of Shipping",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -346,8 +346,8 @@
     },
     {
       "name": "W. H. Bethell",
-      "canonical_name": "Bethell, W. H.",
-      "given_names": "W. H.",
+      "canonical_name": "Bethell, William H.",
+      "given_names": "William H.",
       "surname": "Bethell",
       "position": "Chief Clerk",
       "department": "Audit Office",
@@ -377,15 +377,15 @@
       "location": null
     },
     {
-      "name": "William Miller",
-      "canonical_name": "Miller, William",
-      "given_names": "William",
+      "name": "W. Miller",
+      "canonical_name": "Miller, W.",
+      "given_names": "W.",
       "surname": "Miller",
       "position": "Surveyor-General and Civil Engineer",
       "department": "Surveyor-General's and Civil Engineer's Office",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "personal allowance, 100l",
+      "allowances": "personal allowance, 100l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -585,7 +585,7 @@
       "location": null
     },
     {
-      "name": "E. M. Johnson",
+      "name": "Miss E. M. Johnson",
       "canonical_name": "Johnson, E. M.",
       "given_names": "E. M.",
       "surname": "Johnson",
@@ -601,7 +601,7 @@
       "location": null
     },
     {
-      "name": "J. E. Sutton",
+      "name": "Miss J. E. Sutton",
       "canonical_name": "Sutton, J. E.",
       "given_names": "J. E.",
       "surname": "Sutton",
@@ -617,7 +617,7 @@
       "location": null
     },
     {
-      "name": "L. I. Peters",
+      "name": "Miss L. I. Peters",
       "canonical_name": "Peters, L. I.",
       "given_names": "L. I.",
       "surname": "Peters",
@@ -633,7 +633,7 @@
       "location": null
     },
     {
-      "name": "E. M. Bethel",
+      "name": "Miss E. M. Bethel",
       "canonical_name": "Bethel, E. M.",
       "given_names": "E. M.",
       "surname": "Bethel",
@@ -649,7 +649,7 @@
       "location": null
     },
     {
-      "name": "Dr. A. H. B. Pierce",
+      "name": "A. H. B. Pierce",
       "canonical_name": "Pierce, A. H. B.",
       "given_names": "A. H. B.",
       "surname": "Pierce",
@@ -742,7 +742,7 @@
       "department": "Medical Department",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "personal allowance, 40l",
+      "allowances": "personal allowance, 40l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -766,7 +766,7 @@
       "location": null
     },
     {
-      "name": "Miss Mary Jacobs",
+      "name": "Mary Jacobs",
       "canonical_name": "Jacobs, Mary",
       "given_names": "Mary",
       "surname": "Jacobs",
@@ -798,7 +798,7 @@
       "location": null
     },
     {
-      "name": "Rev. C. B. Wilkinson",
+      "name": "C. B. Wilkinson",
       "canonical_name": "Wilkinson, C. B.",
       "given_names": "C. B.",
       "surname": "Wilkinson",
@@ -1056,9 +1056,9 @@
       "location": null
     },
     {
-      "name": "Rev. Audley J. Browne",
-      "canonical_name": "Browne, Rev. Audley J.",
-      "given_names": "Rev. Audley J.",
+      "name": "Audley J. Browne",
+      "canonical_name": "Browne, Audley J.",
+      "given_names": "Audley J.",
       "surname": "Browne",
       "position": "Chaplain to Prison",
       "department": "Prison Department",
@@ -1121,8 +1121,8 @@
     },
     {
       "name": "Sir D. T. Tudor",
-      "canonical_name": "Tudor, D. T.",
-      "given_names": "D. T.",
+      "canonical_name": "Tudor, Sir D. T.",
+      "given_names": "Sir D. T.",
       "surname": "Tudor",
       "position": "Chief Justice of the Supreme Court",
       "department": "Judicial",
@@ -1217,9 +1217,9 @@
     },
     {
       "name": "R. J. A. P. G. de Glanville",
-      "canonical_name": "de Glanville, R. J. A. P. G.",
-      "given_names": "R. J. A. P. G.",
-      "surname": "de Glanville",
+      "canonical_name": "Glanville, R. J. A. P. G. de",
+      "given_names": "R. J. A. P. G. de",
+      "surname": "Glanville",
       "position": "Coroner for New Providence",
       "department": "Judicial",
       "salary_min": 50,
@@ -1508,7 +1508,7 @@
       "canonical_name": "Hassold, F. A.",
       "given_names": "F. A.",
       "surname": "Hassold",
-      "position": "Rev.",
+      "position": "St. Andrew's Presbyterian Church",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1524,7 +1524,7 @@
       "canonical_name": "Schreiner, Chrysostom",
       "given_names": "Chrysostom",
       "surname": "Schreiner",
-      "position": "Rev.",
+      "position": "St. Xavier's Roman Catholic Church",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1556,7 +1556,7 @@
       "canonical_name": "Wilshere, D.",
       "given_names": "D.",
       "surname": "Wilshere",
-      "position": "Rev.",
+      "position": "Baptist",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1568,7 +1568,7 @@
       "location": null
     },
     {
-      "name": "Capt. G. E. Corbett",
+      "name": "G. E. Corbett",
       "canonical_name": "Corbett, G. E.",
       "given_names": "G. E.",
       "surname": "Corbett",
@@ -1668,7 +1668,7 @@
       "canonical_name": "Curry, R. H.",
       "given_names": "R. H.",
       "surname": "Curry",
-      "position": "",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1684,7 +1684,7 @@
       "canonical_name": "Moseley, D. S. D.",
       "given_names": "D. S. D.",
       "surname": "Moseley",
-      "position": "",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1700,7 +1700,7 @@
       "canonical_name": "Symmonette, A. L.",
       "given_names": "A. L.",
       "surname": "Symmonette",
-      "position": "",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1716,7 +1716,7 @@
       "canonical_name": "Menendez, C. R. A.",
       "given_names": "C. R. A.",
       "surname": "Menendez",
-      "position": "",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,

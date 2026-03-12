@@ -1,7 +1,7 @@
 {
   "colony": "Zanzibar",
   "year": 1919,
-  "generated": "2026-03-12T08:58:50.761083",
+  "generated": "2026-03-12T15:43:12.229912",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 45,
@@ -18,7 +18,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Major-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -107,7 +107,7 @@
       "location": null
     },
     {
-      "name": "Dr. L. A. Andrade",
+      "name": "L. A. Andrade",
       "canonical_name": "Andrade, L. A.",
       "given_names": "L. A.",
       "surname": "Andrade",
@@ -141,7 +141,7 @@
       "location": null
     },
     {
-      "name": "Lieut.-Comdr. A. M. Clark, R.N.",
+      "name": "A. M. Clark",
       "canonical_name": "Clark, A. M.",
       "given_names": "A. M.",
       "surname": "Clark",
@@ -253,7 +253,7 @@
       "location": null
     },
     {
-      "name": "Capt. F. S. Bardo",
+      "name": "F. S. Bardo",
       "canonical_name": "Bardo, F. S.",
       "given_names": "F. S.",
       "surname": "Bardo",
@@ -293,7 +293,7 @@
       "department": "Agricultural Department",
       "salary_min": 350,
       "salary_max": 400,
-      "allowances": "quarters",
+      "allowances": "and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -309,7 +309,7 @@
       "department": "Agricultural Department",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "quarters",
+      "allowances": "and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -317,8 +317,8 @@
       "location": null
     },
     {
-      "name": "Sir J. W. Murison",
-      "canonical_name": "Murison, Sir J. W.",
+      "name": "J. W. Murison",
+      "canonical_name": "Murison, J. W.",
       "given_names": "J. W.",
       "surname": "Murison",
       "position": "Judge",
@@ -341,7 +341,7 @@
       "department": "Judicial and Legal Departments",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "quarters",
+      "allowances": "and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -357,7 +357,7 @@
       "department": "Judicial and Legal Departments",
       "salary_min": 600,
       "salary_max": 700,
-      "allowances": "quarters",
+      "allowances": "and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -373,7 +373,7 @@
       "department": "Judicial and Legal Departments",
       "salary_min": 500,
       "salary_max": 600,
-      "allowances": "quarters",
+      "allowances": "and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -430,7 +430,7 @@
     },
     {
       "name": "Mead",
-      "canonical_name": "Mead",
+      "canonical_name": "Mead, ",
       "given_names": "",
       "surname": "Mead",
       "position": "Crown Solicitor",
@@ -446,7 +446,7 @@
     },
     {
       "name": "Wiggins",
-      "canonical_name": "Wiggins",
+      "canonical_name": "Wiggins, ",
       "given_names": "",
       "surname": "Wiggins",
       "position": "Crown Solicitor",
@@ -637,9 +637,9 @@
       "location": null
     },
     {
-      "name": "W. M. Aders",
-      "canonical_name": "Aders, W. M.",
-      "given_names": "W. M.",
+      "name": "Dr. W. M. Aders",
+      "canonical_name": "Aders, Dr. W. M.",
+      "given_names": "Dr. W. M.",
       "surname": "Aders",
       "position": "Economic Biologist",
       "department": "Public Health Department",
@@ -677,7 +677,7 @@
       "department": "Public Works Department",
       "salary_min": 500,
       "salary_max": 600,
-      "allowances": "60l. duty allowance; quarters",
+      "allowances": "60l. duty allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -693,7 +693,7 @@
       "department": "Public Works Department",
       "salary_min": 400,
       "salary_max": 500,
-      "allowances": "40l. duty allowance; quarters",
+      "allowances": "40l. duty allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,

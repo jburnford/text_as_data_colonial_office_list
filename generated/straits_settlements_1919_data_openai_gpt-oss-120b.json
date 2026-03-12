@@ -1,15 +1,15 @@
 {
   "colony": "Straits Settlements",
   "year": 1919,
-  "generated": "2026-03-12T08:57:23.993348",
+  "generated": "2026-03-12T15:45:47.267886",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 175,
   "officials": [
     {
       "name": "Sir A. H. Young",
-      "canonical_name": "Young, A. H.",
-      "given_names": "A. H.",
+      "canonical_name": "Young, Sir A. H.",
+      "given_names": "Sir A. H.",
       "surname": "Young",
       "position": "Governor",
       "department": "Civil Establishment",
@@ -41,11 +41,11 @@
       "location": null
     },
     {
-      "name": "William G. Maxwell",
-      "canonical_name": "Maxwell, William G.",
-      "given_names": "William G.",
+      "name": "W. G. Maxwell",
+      "canonical_name": "Maxwell, W. G.",
+      "given_names": "W. G.",
       "surname": "Maxwell",
-      "position": "Aide-de-Camp, Secretary to High Commissioner, Federated Malay States",
+      "position": "Secretary to High Commissioner, Federated Malay States",
       "department": "Civil Establishment",
       "salary_min": 800,
       "salary_max": 1000,
@@ -63,7 +63,7 @@
       "canonical_name": "Firmstone, H. W.",
       "given_names": "H. W.",
       "surname": "Firmstone",
-      "position": "Cadet Service Officer - Class I",
+      "position": "Class I",
       "department": "Cadet Service",
       "salary_min": 1050,
       "salary_max": 2000,
@@ -72,62 +72,62 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "C. J. Saunders",
       "canonical_name": "Saunders, C. J.",
       "given_names": "C. J.",
       "surname": "Saunders",
-      "position": "Cadet Service Officer - Class I",
+      "position": "Class I",
       "department": "Cadet Service",
       "salary_min": 1050,
-      "salary_max": 2000,
+      "salary_max": 1200,
       "allowances": "200l. duty allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "A. M. Pountney",
       "canonical_name": "Pountney, A. M.",
       "given_names": "A. M.",
       "surname": "Pountney",
-      "position": "Cadet Service Officer - Class I",
+      "position": "Class I",
       "department": "Cadet Service",
       "salary_min": 1050,
-      "salary_max": 2000,
-      "allowances": "200l. duty allowance",
+      "salary_max": 1200,
+      "allowances": "300l. duty allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "F. M. Baddeley",
       "canonical_name": "Baddeley, F. M.",
       "given_names": "F. M.",
       "surname": "Baddeley",
-      "position": "Cadet Service Officer - Class I",
+      "position": "Class I",
       "department": "Cadet Service",
       "salary_min": 1050,
-      "salary_max": 2000,
+      "salary_max": 1200,
       "allowances": "200l. duty allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "W. C. Michell",
       "canonical_name": "Michell, W. C.",
       "given_names": "W. C.",
       "surname": "Michell",
-      "position": "Cadet Service Officer - Class I",
+      "position": "Class I",
       "department": "Cadet Service",
       "salary_min": 9600,
       "salary_max": 9600,
@@ -136,14 +136,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "G. A. Hall",
       "canonical_name": "Hall, G. A.",
       "given_names": "G. A.",
       "surname": "Hall",
-      "position": "Cadet Service Officer - Class II",
+      "position": "Class II",
       "department": "Cadet Service",
       "salary_min": 6000,
       "salary_max": 6000,
@@ -152,14 +152,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "L. E. P. Wolferton",
       "canonical_name": "Wolferton, L. E. P.",
       "given_names": "L. E. P.",
       "surname": "Wolferton",
-      "position": "Cadet Service Officer - Class II",
+      "position": "Class II",
       "department": "Cadet Service",
       "salary_min": 800,
       "salary_max": 1000,
@@ -168,14 +168,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "F. J. Halifax",
       "canonical_name": "Halifax, F. J.",
       "given_names": "F. J.",
       "surname": "Halifax",
-      "position": "Cadet Service Officer - Class II",
+      "position": "Class II",
       "department": "Cadet Service",
       "salary_min": 800,
       "salary_max": 1000,
@@ -184,14 +184,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "R. Scott",
       "canonical_name": "Scott, R.",
       "given_names": "R.",
       "surname": "Scott",
-      "position": "Cadet Service Officer - Class II",
+      "position": "Class II",
       "department": "Cadet Service",
       "salary_min": 800,
       "salary_max": 1000,
@@ -200,14 +200,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "A. V. Brown",
       "canonical_name": "Brown, A. V.",
       "given_names": "A. V.",
       "surname": "Brown",
-      "position": "Cadet Service Officer - Class II",
+      "position": "Class II",
       "department": "Cadet Service",
       "salary_min": 800,
       "salary_max": 1000,
@@ -216,14 +216,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "H. Marriott",
       "canonical_name": "Marriott, H.",
       "given_names": "H.",
       "surname": "Marriott",
-      "position": "Cadet Service Officer - Class II",
+      "position": "Class II",
       "department": "Cadet Service",
       "salary_min": 800,
       "salary_max": 1000,
@@ -232,14 +232,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "B. D. Aston",
       "canonical_name": "Aston, B. D.",
       "given_names": "B. D.",
       "surname": "Aston",
-      "position": "Cadet Service Officer - Class II",
+      "position": "Class II",
       "department": "Cadet Service",
       "salary_min": 800,
       "salary_max": 1000,
@@ -248,14 +248,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "P. A. F. David",
       "canonical_name": "David, P. A. F.",
       "given_names": "P. A. F.",
       "surname": "David",
-      "position": "Cadet Service Officer - Class II",
+      "position": "Class II",
       "department": "Cadet Service",
       "salary_min": 800,
       "salary_max": 1000,
@@ -264,14 +264,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "E. L. Talma",
       "canonical_name": "Talma, E. L.",
       "given_names": "E. L.",
       "surname": "Talma",
-      "position": "Cadet Service Officer - Class II",
+      "position": "Class II",
       "department": "Cadet Service",
       "salary_min": 800,
       "salary_max": 1000,
@@ -280,14 +280,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "R. J. Farrer",
       "canonical_name": "Farrer, R. J.",
       "given_names": "R. J.",
       "surname": "Farrer",
-      "position": "Cadet Service Officer - Class II",
+      "position": "Class II",
       "department": "Cadet Service",
       "salary_min": 800,
       "salary_max": 1000,
@@ -296,14 +296,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "F. A. S. McClelland",
       "canonical_name": "McClelland, F. A. S.",
       "given_names": "F. A. S.",
       "surname": "McClelland",
-      "position": "Cadet Service Officer - Class II",
+      "position": "Class II",
       "department": "Cadet Service",
       "salary_min": 800,
       "salary_max": 1000,
@@ -312,14 +312,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "H. G. Sarwar",
       "canonical_name": "Sarwar, H. G.",
       "given_names": "H. G.",
       "surname": "Sarwar",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -328,14 +328,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "S. Codrington",
       "canonical_name": "Codrington, S.",
       "given_names": "S.",
       "surname": "Codrington",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -344,14 +344,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "G. A. Hereford",
       "canonical_name": "Hereford, G. A.",
       "given_names": "G. A.",
       "surname": "Hereford",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -360,14 +360,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "M. Frost",
       "canonical_name": "Frost, M.",
       "given_names": "M.",
       "surname": "Frost",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -376,14 +376,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "D. Beatty",
       "canonical_name": "Beatty, D.",
       "given_names": "D.",
       "surname": "Beatty",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -392,14 +392,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "E. Pratt",
       "canonical_name": "Pratt, E.",
       "given_names": "E.",
       "surname": "Pratt",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -408,14 +408,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "G. G. Wilson",
       "canonical_name": "Wilson, G. G.",
       "given_names": "G. G.",
       "surname": "Wilson",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -424,14 +424,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "E. W. F. Gilman",
       "canonical_name": "Gilman, E. W. F.",
       "given_names": "E. W. F.",
       "surname": "Gilman",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -440,14 +440,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "J. Lornie",
       "canonical_name": "Lornie, J.",
       "given_names": "J.",
       "surname": "Lornie",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -456,14 +456,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "H. Norman",
       "canonical_name": "Norman, H.",
       "given_names": "H.",
       "surname": "Norman",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -472,14 +472,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "H. C. Eskhardt",
       "canonical_name": "Eskhardt, H. C.",
       "given_names": "H. C.",
       "surname": "Eskhardt",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -488,14 +488,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "G. C. Valpy",
       "canonical_name": "Valpy, G. C.",
       "given_names": "G. C.",
       "surname": "Valpy",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -504,14 +504,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "C. H. G. Clarke",
       "canonical_name": "Clarke, C. H. G.",
       "given_names": "C. H. G.",
       "surname": "Clarke",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -520,14 +520,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "A. Cavendish",
       "canonical_name": "Cavendish, A.",
       "given_names": "A.",
       "surname": "Cavendish",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -536,14 +536,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "W. H. Dinmore",
       "canonical_name": "Dinmore, W. H.",
       "given_names": "W. H.",
       "surname": "Dinmore",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -552,14 +552,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "A. S. Haynes",
       "canonical_name": "Haynes, A. S.",
       "given_names": "A. S.",
       "surname": "Haynes",
-      "position": "Cadet Service Officer - Class III",
+      "position": "Class III",
       "department": "Cadet Service",
       "salary_min": 650,
       "salary_max": 750,
@@ -568,14 +568,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "E. W. N. Wyatt",
       "canonical_name": "Wyatt, E. W. N.",
       "given_names": "E. W. N.",
       "surname": "Wyatt",
-      "position": "Cadet Service Officer - Class IV",
+      "position": "Class IV",
       "department": "Cadet Service",
       "salary_min": 520,
       "salary_max": 600,
@@ -584,14 +584,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "J. W. Goldthorp",
       "canonical_name": "Goldthorp, J. W.",
       "given_names": "J. W.",
       "surname": "Goldthorp",
-      "position": "Cadet Service Officer - Class IV",
+      "position": "Class IV",
       "department": "Cadet Service",
       "salary_min": 520,
       "salary_max": 600,
@@ -600,14 +600,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "W. H. Lee-Warner",
       "canonical_name": "Lee-Warner, W. H.",
       "given_names": "W. H.",
       "surname": "Lee-Warner",
-      "position": "Cadet Service Officer - Class IV",
+      "position": "Class IV",
       "department": "Cadet Service",
       "salary_min": 520,
       "salary_max": 600,
@@ -616,14 +616,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "J. S. W. Arthur",
       "canonical_name": "Arthur, J. S. W.",
       "given_names": "J. S. W.",
       "surname": "Arthur",
-      "position": "Cadet Service Officer - Class IV",
+      "position": "Class IV",
       "department": "Cadet Service",
       "salary_min": 520,
       "salary_max": 600,
@@ -632,14 +632,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "J. E. Nathan",
       "canonical_name": "Nathan, J. E.",
       "given_names": "J. E.",
       "surname": "Nathan",
-      "position": "Cadet Service Officer - Class IV",
+      "position": "Class IV",
       "department": "Cadet Service",
       "salary_min": 520,
       "salary_max": 600,
@@ -648,14 +648,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "N. K. Bain",
       "canonical_name": "Bain, N. K.",
       "given_names": "N. K.",
       "surname": "Bain",
-      "position": "Cadet Service Officer - Class IV",
+      "position": "Class IV",
       "department": "Cadet Service",
       "salary_min": 520,
       "salary_max": 600,
@@ -664,14 +664,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "G. E. Cator",
       "canonical_name": "Cator, G. E.",
       "given_names": "G. E.",
       "surname": "Cator",
-      "position": "Cadet Service Officer - Class IV",
+      "position": "Class IV",
       "department": "Cadet Service",
       "salary_min": 520,
       "salary_max": 600,
@@ -680,14 +680,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "M. E. Sherwood",
       "canonical_name": "Sherwood, M. E.",
       "given_names": "M. E.",
       "surname": "Sherwood",
-      "position": "Cadet Service Officer - Class IV",
+      "position": "Class IV",
       "department": "Cadet Service",
       "salary_min": 520,
       "salary_max": 600,
@@ -696,14 +696,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "N. D. Mudie",
       "canonical_name": "Mudie, N. D.",
       "given_names": "N. D.",
       "surname": "Mudie",
-      "position": "Cadet Service Officer - Class IV",
+      "position": "Class IV",
       "department": "Cadet Service",
       "salary_min": 520,
       "salary_max": 600,
@@ -712,14 +712,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "V. G. Ezekiel",
       "canonical_name": "Ezekiel, V. G.",
       "given_names": "V. G.",
       "surname": "Ezekiel",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -728,14 +728,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "G. H. M. Robertson",
       "canonical_name": "Robertson, G. H. M.",
       "given_names": "G. H. M.",
       "surname": "Robertson",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -744,14 +744,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "W. Bartley",
       "canonical_name": "Bartley, W.",
       "given_names": "W.",
       "surname": "Bartley",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -760,14 +760,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "A. C. Baker",
       "canonical_name": "Baker, A. C.",
       "given_names": "A. C.",
       "surname": "Baker",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -776,14 +776,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "R. B. Osborne",
       "canonical_name": "Osborne, R. B.",
       "given_names": "R. B.",
       "surname": "Osborne",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -792,14 +792,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "H. A. Forrer",
       "canonical_name": "Forrer, H. A.",
       "given_names": "H. A.",
       "surname": "Forrer",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -808,14 +808,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "J. L. McFall",
       "canonical_name": "McFall, J. L.",
       "given_names": "J. L.",
       "surname": "McFall",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -824,14 +824,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "C. D. Ahearne",
       "canonical_name": "Ahearne, C. D.",
       "given_names": "C. D.",
       "surname": "Ahearne",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -840,14 +840,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "J. D. Hall",
       "canonical_name": "Hall, J. D.",
       "given_names": "J. D.",
       "surname": "Hall",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -856,14 +856,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "H. R. Bull",
       "canonical_name": "Bull, H. R.",
       "given_names": "H. R.",
       "surname": "Bull",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -872,14 +872,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "W. S. Ebden",
       "canonical_name": "Ebden, W. S.",
       "given_names": "W. S.",
       "surname": "Ebden",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -888,14 +888,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "F. J. Morten",
       "canonical_name": "Morten, F. J.",
       "given_names": "F. J.",
       "surname": "Morten",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -904,14 +904,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "G. G. C. Muller",
       "canonical_name": "Muller, G. G. C.",
       "given_names": "G. G. C.",
       "surname": "Muller",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -920,14 +920,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "L. V. J. Laville",
       "canonical_name": "Laville, L. V. J.",
       "given_names": "L. V. J.",
       "surname": "Laville",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -936,14 +936,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "E. T. Williams",
       "canonical_name": "Williams, E. T.",
       "given_names": "E. T.",
       "surname": "Williams",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -952,14 +952,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "R. Ingham",
       "canonical_name": "Ingham, R.",
       "given_names": "R.",
       "surname": "Ingham",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -968,14 +968,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "J. H. Pedlow",
       "canonical_name": "Pedlow, J. H.",
       "given_names": "J. H.",
       "surname": "Pedlow",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -984,14 +984,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "G. B. Kellagher",
       "canonical_name": "Kellagher, G. B.",
       "given_names": "G. B.",
       "surname": "Kellagher",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -1000,14 +1000,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "N. A. Sedwick",
       "canonical_name": "Sedwick, N. A.",
       "given_names": "N. A.",
       "surname": "Sedwick",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -1016,14 +1016,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "B. S. Walton",
       "canonical_name": "Walton, B. S.",
       "given_names": "B. S.",
       "surname": "Walton",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -1032,14 +1032,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "G. R. Sykes",
       "canonical_name": "Sykes, G. R.",
       "given_names": "G. R.",
       "surname": "Sykes",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -1048,14 +1048,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "F. K. Wilson",
       "canonical_name": "Wilson, F. K.",
       "given_names": "F. K.",
       "surname": "Wilson",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -1064,14 +1064,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "G. C. Dodd",
       "canonical_name": "Dodd, G. C.",
       "given_names": "G. C.",
       "surname": "Dodd",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -1080,14 +1080,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "H. F. Monk",
       "canonical_name": "Monk, H. F.",
       "given_names": "H. F.",
       "surname": "Monk",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -1096,14 +1096,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "E. E. F. Pretty",
       "canonical_name": "Pretty, E. E. F.",
       "given_names": "E. E. F.",
       "surname": "Pretty",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -1112,14 +1112,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "C. W. A. Sennett",
       "canonical_name": "Sennett, C. W. A.",
       "given_names": "C. W. A.",
       "surname": "Sennett",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -1128,14 +1128,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "B. R. Whitehouse",
       "canonical_name": "Whitehouse, B. R.",
       "given_names": "B. R.",
       "surname": "Whitehouse",
-      "position": "Cadet Service Officer - Class V",
+      "position": "Class V",
       "department": "Cadet Service",
       "salary_min": 400,
       "salary_max": 500,
@@ -1144,7 +1144,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "O. E. Venables",
@@ -1160,7 +1160,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore"
     },
     {
       "name": "F. S. James",
@@ -1168,7 +1168,7 @@
       "given_names": "F. S.",
       "surname": "James",
       "position": "Colonial Secretary",
-      "department": "Colonial Secretary's Department",
+      "department": "Colonial Secretary's Office",
       "salary_min": 1500,
       "salary_max": 1500,
       "allowances": "300l. duty allowance",
@@ -1186,7 +1186,7 @@
       "given_names": "E. C. H.",
       "surname": "Wolff",
       "position": "Assistant Colonial Secretary and Clerk of Councils",
-      "department": "Colonial Secretary's Department",
+      "department": "Colonial Secretary's Office",
       "salary_min": 800,
       "salary_max": 1000,
       "allowances": "175l. duty allowance",
@@ -1202,7 +1202,7 @@
       "given_names": "R.",
       "surname": "Crichton",
       "position": "2nd Assistant Colonial Secretary",
-      "department": "Colonial Secretary's Department",
+      "department": "Colonial Secretary's Office",
       "salary_min": 650,
       "salary_max": 750,
       "allowances": "150l. duty allowance",
@@ -1218,7 +1218,7 @@
       "given_names": "O. E.",
       "surname": "Venables",
       "position": "Cadet",
-      "department": "Colonial Secretary's Department",
+      "department": "Colonial Secretary's Office",
       "salary_min": 250,
       "salary_max": 250,
       "allowances": null,
@@ -1234,7 +1234,7 @@
       "given_names": "R. G.",
       "surname": "Evans",
       "position": "Office Assistant",
-      "department": "Colonial Secretary's Department",
+      "department": "Colonial Secretary's Office",
       "salary_min": 400,
       "salary_max": 500,
       "allowances": "100l. duty allowance",
@@ -1245,9 +1245,9 @@
       "location": null
     },
     {
-      "name": "S.S., D. Beatty",
-      "canonical_name": "Beatty, S.S., D.",
-      "given_names": "S.S., D.",
+      "name": "S.S. D. Beatty",
+      "canonical_name": "Beatty, S.S. D.",
+      "given_names": "S.S. D.",
       "surname": "Beatty",
       "position": "Protector of Chinese",
       "department": "Chinese Protectorate",
@@ -1448,14 +1448,14 @@
       "allowances": "150l. duty allowance",
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieutenant-Com.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "W. Gordon Bennett",
-      "canonical_name": "Bennett, W. Gordon",
-      "given_names": "W. Gordon",
+      "name": "William Gordon Bennett",
+      "canonical_name": "Bennett, William Gordon",
+      "given_names": "William Gordon",
       "surname": "Bennett",
       "position": "Deputy Master Attendant",
       "department": "Marine Department",
@@ -1469,9 +1469,9 @@
       "location": null
     },
     {
-      "name": "J. W. Salmon",
-      "canonical_name": "Salmon, J. W.",
-      "given_names": "J. W.",
+      "name": "J. William Salmon",
+      "canonical_name": "Salmon, J. William",
+      "given_names": "J. William",
       "surname": "Salmon",
       "position": "Registrar of Imports and Exports",
       "department": "Marine Department",
@@ -1512,14 +1512,14 @@
       "allowances": "75l. duty allowance",
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.-Com.",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "W. J. Trowell",
-      "canonical_name": "Trowell, W. J.",
-      "given_names": "W. J.",
+      "name": "William J. Trowell",
+      "canonical_name": "Trowell, William J.",
+      "given_names": "William J.",
       "surname": "Trowell",
       "position": "Surveyor-General of Ships",
       "department": "Marine Department",
@@ -1533,9 +1533,9 @@
       "location": null
     },
     {
-      "name": "W. N. Masterton",
-      "canonical_name": "Masterton, W. N.",
-      "given_names": "W. N.",
+      "name": "William N. Masterton",
+      "canonical_name": "Masterton, William N.",
+      "given_names": "William N.",
       "surname": "Masterton",
       "position": "Surveyor of Ships",
       "department": "Marine Department",
@@ -1565,9 +1565,9 @@
       "location": null
     },
     {
-      "name": "W. Mellor",
-      "canonical_name": "Mellor, W.",
-      "given_names": "W.",
+      "name": "William Mellor",
+      "canonical_name": "Mellor, William",
+      "given_names": "William",
       "surname": "Mellor",
       "position": "Assistant Surveyor of Ships",
       "department": "Marine Department",
@@ -1697,7 +1697,7 @@
       "canonical_name": "Savage, George",
       "given_names": "George",
       "surname": "Savage",
-      "position": "Superintendent",
+      "position": "Superintendents",
       "department": "Post Office",
       "salary_min": 400,
       "salary_max": 500,
@@ -1713,7 +1713,7 @@
       "canonical_name": "Savage, G.",
       "given_names": "G.",
       "surname": "Savage",
-      "position": "Superintendent",
+      "position": "Superintendents",
       "department": "Post Office",
       "salary_min": 350,
       "salary_max": 420,
@@ -1729,7 +1729,7 @@
       "canonical_name": "Nonis, T. H.",
       "given_names": "T. H.",
       "surname": "Nonis",
-      "position": "Superintendent",
+      "position": "Superintendents",
       "department": "Post Office",
       "salary_min": 350,
       "salary_max": 420,
@@ -1745,7 +1745,7 @@
       "canonical_name": "Smith, A.",
       "given_names": "A.",
       "surname": "Smith",
-      "position": "Assistant Superintendent",
+      "position": "Assistant Superintendents",
       "department": "Post Office",
       "salary_min": 300,
       "salary_max": 420,
@@ -1761,7 +1761,7 @@
       "canonical_name": "Bacon, E.",
       "given_names": "E.",
       "surname": "Bacon",
-      "position": "Assistant Superintendent",
+      "position": "Assistant Superintendents",
       "department": "Post Office",
       "salary_min": 300,
       "salary_max": 420,
@@ -1777,7 +1777,7 @@
       "canonical_name": "Kiang, Kwek Boon",
       "given_names": "Kwek Boon",
       "surname": "Kiang",
-      "position": "Assistant Superintendent",
+      "position": "Assistant Superintendents",
       "department": "Post Office",
       "salary_min": 300,
       "salary_max": 420,
@@ -1917,7 +1917,7 @@
       "location": null
     },
     {
-      "name": "W. M. Beins",
+      "name": "W. M. Beins (acting)",
       "canonical_name": "Beins, W. M.",
       "given_names": "W. M.",
       "surname": "Beins",
@@ -1949,7 +1949,7 @@
       "location": null
     },
     {
-      "name": "W. H. Dinsmore",
+      "name": "W. H. Dinsmore (acting)",
       "canonical_name": "Dinsmore, W. H.",
       "given_names": "W. H.",
       "surname": "Dinsmore",
@@ -1965,7 +1965,7 @@
       "location": null
     },
     {
-      "name": "A. V. Brown",
+      "name": "A. V. Brown (acting)",
       "canonical_name": "Brown, A. V.",
       "given_names": "A. V.",
       "surname": "Brown",
@@ -1997,7 +1997,7 @@
       "location": null
     },
     {
-      "name": "W. Langham Carter",
+      "name": "W. Langham Carter (acting)",
       "canonical_name": "Carter, W. Langham",
       "given_names": "W. Langham",
       "surname": "Carter",
@@ -2013,7 +2013,7 @@
       "location": null
     },
     {
-      "name": "R. Scott",
+      "name": "R. Scott (acting)",
       "canonical_name": "Scott, R.",
       "given_names": "R.",
       "surname": "Scott",
@@ -2029,7 +2029,7 @@
       "location": null
     },
     {
-      "name": "J. C. Sugars",
+      "name": "J. C. Sugars (acting)",
       "canonical_name": "Sugars, J. C.",
       "given_names": "J. C.",
       "surname": "Sugars",
@@ -2045,7 +2045,7 @@
       "location": null
     },
     {
-      "name": "G. L. Ham",
+      "name": "G. L. Ham (acting)",
       "canonical_name": "Ham, G. L.",
       "given_names": "G. L.",
       "surname": "Ham",
@@ -2065,7 +2065,7 @@
       "canonical_name": "Ferguson-Davie, C. J.",
       "given_names": "C. J.",
       "surname": "Ferguson-Davie",
-      "position": "Bishop, Rt. Rev.",
+      "position": "Bishop",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -2081,7 +2081,7 @@
       "canonical_name": "Swindell, F. G.",
       "given_names": "F. G.",
       "surname": "Swindell",
-      "position": "Colonial Chaplain, Venerable",
+      "position": "Colonial Chaplain",
       "department": "Ecclesiastical",
       "salary_min": 700,
       "salary_max": 700,
@@ -2129,7 +2129,7 @@
       "canonical_name": "Bartlett, R. J.",
       "given_names": "R. J.",
       "surname": "Bartlett",
-      "position": "Inspector of Schools, Singapore and Malacca",
+      "position": "Inspector of Schools",
       "department": "Educational",
       "salary_min": 480,
       "salary_max": 560,
@@ -2138,14 +2138,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore and Malacca"
     },
     {
       "name": "P. A. Nearwood",
       "canonical_name": "Nearwood, P. A.",
       "given_names": "P. A.",
       "surname": "Nearwood",
-      "position": "Inspector of Schools, Singapore and Malacca (acting)",
+      "position": "Inspector of Schools",
       "department": "Educational",
       "salary_min": 480,
       "salary_max": 560,
@@ -2154,7 +2154,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Singapore and Malacca"
     },
     {
       "name": "S. H. R. Lucy",
@@ -2202,7 +2202,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Penang"
+      "location": null
     },
     {
       "name": "C. J. Smith",
@@ -2250,7 +2250,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Province Wellesley"
+      "location": null
     },
     {
       "name": "W. A. Taylor",
@@ -2330,7 +2330,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Penang"
+      "location": null
     },
     {
       "name": "V. B. Kyle",
@@ -2465,7 +2465,7 @@
       "canonical_name": "Danjou, Andr\u00e9",
       "given_names": "Andr\u00e9",
       "surname": "Danjou",
-      "position": "Consul (in charge)",
+      "position": "in charge",
       "department": "Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2602,7 +2602,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Stam"
+      "location": "Singapore"
     },
     {
       "name": "F. L. Tomlin",
@@ -2778,7 +2778,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Stam"
+      "location": "Penang"
     },
     {
       "name": "F. Duxbury",

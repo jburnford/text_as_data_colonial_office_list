@@ -1,10 +1,10 @@
 {
   "colony": "Uganda",
   "year": 1919,
-  "generated": "2026-03-12T08:57:57.517948",
+  "generated": "2026-03-12T15:45:12.885461",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 221,
+  "total_officials": 220,
   "officials": [
     {
       "name": "Sir R. T. Coryndon",
@@ -81,7 +81,7 @@
       "department": "Civil Establishment",
       "salary_min": 500,
       "salary_max": 600,
-      "allowances": "50l. duty allowance; 50l. as Registrar-General of Marriages",
+      "allowances": "50l. duty allowance, and 50l. as Registrar-General of Marriages, &c.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -468,9 +468,7 @@
       "salary_min": 250,
       "salary_max": 400,
       "allowances": null,
-      "honors": [
-        "M.C."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -686,9 +684,9 @@
     },
     {
       "name": "R. W. G. Murray Jardine",
-      "canonical_name": "Murray Jardine, R. W. G.",
-      "given_names": "R. W. G.",
-      "surname": "Murray Jardine",
+      "canonical_name": "Jardine, R. W. G. Murray",
+      "given_names": "R. W. G. Murray",
+      "surname": "Jardine",
       "position": "Assistant District Commissioner",
       "department": "Civil Establishment",
       "salary_min": 250,
@@ -758,9 +756,7 @@
       "salary_min": 250,
       "salary_max": 400,
       "allowances": null,
-      "honors": [
-        "M.C."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -980,7 +976,7 @@
       "given_names": "C. W.",
       "surname": "Bovington",
       "position": "European Clerk",
-      "department": "Provincial Commissioner's Offices",
+      "department": "Civil Establishment",
       "salary_min": 150,
       "salary_max": 250,
       "allowances": "subsistence allowance at 25l. decreasing by 5l. yearly to zero",
@@ -996,7 +992,7 @@
       "given_names": "M. A. M.",
       "surname": "Van de Velde",
       "position": "Auditor",
-      "department": "Civil Establishment",
+      "department": "Audit",
       "salary_min": 500,
       "salary_max": 600,
       "allowances": "50l. duty allowance",
@@ -1012,7 +1008,7 @@
       "given_names": "A. S.",
       "surname": "Cremer",
       "position": "Assistant Auditor",
-      "department": "Civil Establishment",
+      "department": "Audit",
       "salary_min": 250,
       "salary_max": 400,
       "allowances": null,
@@ -1028,7 +1024,7 @@
       "given_names": "R. H.",
       "surname": "Carter",
       "position": "Assistant Auditor",
-      "department": "Civil Establishment",
+      "department": "Audit",
       "salary_min": 250,
       "salary_max": 400,
       "allowances": null,
@@ -1072,9 +1068,9 @@
     },
     {
       "name": "F. Guthrie Smith",
-      "canonical_name": "Smith, F. Guthrie",
-      "given_names": "F. Guthrie",
-      "surname": "Smith",
+      "canonical_name": "Guthrie Smith, F.",
+      "given_names": "F.",
+      "surname": "Guthrie Smith",
       "position": "Magistrate",
       "department": "Legal",
       "salary_min": 400,
@@ -1146,7 +1142,7 @@
       "allowances": "40l. duty allowance",
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Commander",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1162,7 +1158,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Commander",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1264,9 +1260,9 @@
     },
     {
       "name": "R. A. L. van Someren",
-      "canonical_name": "Someren, R. A. L. van",
-      "given_names": "R. A. L. van",
-      "surname": "Someren",
+      "canonical_name": "van Someren, R. A. L.",
+      "given_names": "R. A. L.",
+      "surname": "van Someren",
       "position": "Senior Medical Officer",
       "department": "Medical",
       "salary_min": 500,
@@ -1279,9 +1275,9 @@
       "location": null
     },
     {
-      "name": "Major G. Lane",
-      "canonical_name": "Lane, Major G.",
-      "given_names": "Major G.",
+      "name": "G. Lane",
+      "canonical_name": "Lane, G.",
+      "given_names": "G.",
       "surname": "Lane",
       "position": "Medical Officer",
       "department": "Medical",
@@ -1551,9 +1547,9 @@
       "location": null
     },
     {
-      "name": "Capt. G. J. Keane",
-      "canonical_name": "Keane, Capt. G. J.",
-      "given_names": "Capt. G. J.",
+      "name": "G. J. Keane",
+      "canonical_name": "Keane, G. J.",
+      "given_names": "G. J.",
       "surname": "Keane",
       "position": "Special Service",
       "department": "Medical",
@@ -1617,9 +1613,9 @@
       "location": null
     },
     {
-      "name": "Miss B. Petherbridge",
-      "canonical_name": "Petherbridge, Miss B.",
-      "given_names": "Miss B.",
+      "name": "B. Petherbridge",
+      "canonical_name": "Petherbridge, B.",
+      "given_names": "B.",
       "surname": "Petherbridge",
       "position": "Matron",
       "department": "Medical",
@@ -1633,9 +1629,9 @@
       "location": null
     },
     {
-      "name": "Miss E. M. Pratt",
-      "canonical_name": "Pratt, Miss E. M.",
-      "given_names": "Miss E. M.",
+      "name": "E. M. Pratt",
+      "canonical_name": "Pratt, E. M.",
+      "given_names": "E. M.",
       "surname": "Pratt",
       "position": "Nursing Sister",
       "department": "Medical",
@@ -1649,9 +1645,9 @@
       "location": null
     },
     {
-      "name": "Mrs. Hudson",
-      "canonical_name": "Hudson, Mrs.",
-      "given_names": "Mrs.",
+      "name": "Hudson",
+      "canonical_name": "Hudson, ",
+      "given_names": "",
       "surname": "Hudson",
       "position": "Nursing Sister",
       "department": "Medical",
@@ -1665,9 +1661,9 @@
       "location": null
     },
     {
-      "name": "Mrs. Brigham",
-      "canonical_name": "Brigham, Mrs.",
-      "given_names": "Mrs.",
+      "name": "Brigham",
+      "canonical_name": "Brigham, ",
+      "given_names": "",
       "surname": "Brigham",
       "position": "Nursing Sister",
       "department": "Medical",
@@ -1681,9 +1677,9 @@
       "location": null
     },
     {
-      "name": "Miss Ivers",
-      "canonical_name": "Ivers, Miss",
-      "given_names": "Miss",
+      "name": "Ivers",
+      "canonical_name": "Ivers, ",
+      "given_names": "",
       "surname": "Ivers",
       "position": "Temporary Nursing Sister",
       "department": "Medical",
@@ -1793,9 +1789,9 @@
       "location": "Kampala"
     },
     {
-      "name": "Major W. F. S. Edwards",
-      "canonical_name": "Edwards, Major W. F. S.",
-      "given_names": "Major W. F. S.",
+      "name": "W. F. S. Edwards",
+      "canonical_name": "Edwards, W. F. S.",
+      "given_names": "W. F. S.",
       "surname": "Edwards",
       "position": "Inspector-General of Police and Prisons for Uganda and East Africa",
       "department": "Police and Prisons",
@@ -1827,9 +1823,9 @@
       "location": null
     },
     {
-      "name": "Capt. C. Riddick",
-      "canonical_name": "Riddick, Capt. C.",
-      "given_names": "Capt. C.",
+      "name": "C. Riddick",
+      "canonical_name": "Riddick, C.",
+      "given_names": "C.",
       "surname": "Riddick",
       "position": "Commissioner of Police and Prisons",
       "department": "Police and Prisons",
@@ -1843,9 +1839,9 @@
       "location": null
     },
     {
-      "name": "Capt. E. H. T. Lawrence",
-      "canonical_name": "Lawrence, Capt. E. H. T.",
-      "given_names": "Capt. E. H. T.",
+      "name": "E. H. T. Lawrence",
+      "canonical_name": "Lawrence, E. H. T.",
+      "given_names": "E. H. T.",
       "surname": "Lawrence",
       "position": "Assistant Commissioner",
       "department": "Police and Prisons",
@@ -1859,9 +1855,9 @@
       "location": null
     },
     {
-      "name": "Capt. F. A. Flint",
-      "canonical_name": "Flint, Capt. F. A.",
-      "given_names": "Capt. F. A.",
+      "name": "F. A. Flint",
+      "canonical_name": "Flint, F. A.",
+      "given_names": "F. A.",
       "surname": "Flint",
       "position": "Superintendent",
       "department": "Police and Prisons",
@@ -2051,9 +2047,9 @@
       "location": null
     },
     {
-      "name": "Capt. T. Greenwood",
-      "canonical_name": "Greenwood, Capt. T.",
-      "given_names": "Capt. T.",
+      "name": "T. Greenwood",
+      "canonical_name": "Greenwood, T.",
+      "given_names": "T.",
       "surname": "Greenwood",
       "position": "Quartermaster",
       "department": "Police and Prisons",
@@ -2124,22 +2120,6 @@
       "salary_min": 150,
       "salary_max": 150,
       "allowances": "10l. each for clothing",
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "A. Claiden",
-      "canonical_name": "Claiden, A.",
-      "given_names": "A.",
-      "surname": "Claiden",
-      "position": "Head Gaoler",
-      "department": "Police and Prisons",
-      "salary_min": 200,
-      "salary_max": 200,
-      "allowances": "10l. for clothing",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2331,7 +2311,7 @@
       "department": "Public Works",
       "salary_min": 200,
       "salary_max": 250,
-      "allowances": null,
+      "allowances": "by 20l., 20l. and 10l. to 250l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2868,7 +2848,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Toro Forest"
     },
     {
       "name": "S. Simpson",
@@ -3225,7 +3205,7 @@
       "location": null
     },
     {
-      "name": "R. B. Hill",
+      "name": "Capt. R. B. Hill",
       "canonical_name": "Hill, R. B.",
       "given_names": "R. B.",
       "surname": "Hill",
@@ -3449,7 +3429,7 @@
       "location": null
     },
     {
-      "name": "H. Hutchinson",
+      "name": "Commander H. Hutchinson",
       "canonical_name": "Hutchinson, H.",
       "given_names": "H.",
       "surname": "Hutchinson",
@@ -3460,7 +3440,7 @@
       "allowances": "50l. duty allowance",
       "honors": [],
       "qualifications": [],
-      "military_rank": "Commander",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -3498,8 +3478,8 @@
     },
     {
       "name": "St. C. Grant-Davie",
-      "canonical_name": "Grant-Davie, St. C.",
-      "given_names": "St. C.",
+      "canonical_name": "Grant-Davie, C.",
+      "given_names": "C.",
       "surname": "Grant-Davie",
       "position": "Superintendent",
       "department": "Busoga Railway",
@@ -3565,11 +3545,11 @@
     "colony": "Uganda",
     "year": 1919,
     "total": 221,
-    "high_confidence": 220,
-    "medium_confidence": 1,
-    "low_confidence": 0,
-    "quarantined": 0,
-    "passed": 221,
+    "high_confidence": 216,
+    "medium_confidence": 4,
+    "low_confidence": 1,
+    "quarantined": 1,
+    "passed": 220,
     "anomaly_count": 0
   }
 }
