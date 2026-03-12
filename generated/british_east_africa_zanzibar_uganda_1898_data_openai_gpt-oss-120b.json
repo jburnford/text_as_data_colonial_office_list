@@ -1,0 +1,72 @@
+{
+  "colony": "British East Africa Zanzibar Uganda",
+  "year": 1898,
+  "generated": "2026-03-11T20:47:44.700972",
+  "model": "openai/gpt-oss-120b",
+  "tier": "STANDARD",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "Sir A. H. Hardinge",
+      "canonical_name": "Hardinge, A. H.",
+      "given_names": "A. H.",
+      "surname": "Hardinge",
+      "position": "Agent and Consul-Gen. in Zanzibar and Commissioner in East Africa Protectorate",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G.",
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Mr. E. J. Berkeley",
+      "canonical_name": "Berkeley, E. J.",
+      "given_names": "E. J.",
+      "surname": "Berkeley",
+      "position": "Imperial Commissioner",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Said Khaled",
+      "canonical_name": "Khaled, Said",
+      "given_names": "Said",
+      "surname": "Khaled",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "British East Africa Zanzibar Uganda",
+    "year": 1898,
+    "total": 3,
+    "high_confidence": 3,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}
