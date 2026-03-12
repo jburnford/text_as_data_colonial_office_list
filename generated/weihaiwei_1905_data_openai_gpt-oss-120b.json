@@ -1,0 +1,71 @@
+{
+  "colony": "Weihaiwei",
+  "year": 1905,
+  "generated": "2026-03-12T00:03:08.702976",
+  "model": "openai/gpt-oss-120b",
+  "tier": "STANDARD",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "J. H. Stewart Lockhart",
+      "canonical_name": "Lockhart, J. H.",
+      "given_names": "J. H.",
+      "surname": "Lockhart",
+      "position": "Commissioner",
+      "department": "Civil Establishment",
+      "salary_min": 1500,
+      "salary_max": 1500,
+      "allowances": "100l. entertainment allowance and house",
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "R. F. Johnston",
+      "canonical_name": "Johnston, R. F.",
+      "given_names": "R. F.",
+      "surname": "Johnston",
+      "position": "Secretary to Government and Magistrate",
+      "department": "Civil Establishment",
+      "salary_min": 500,
+      "salary_max": 500,
+      "allowances": "free quarters",
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "E. Carpmael",
+      "canonical_name": "Carpmael, E.",
+      "given_names": "E.",
+      "surname": "Carpmael",
+      "position": "Cadet",
+      "department": "Civil Establishment",
+      "salary_min": 225,
+      "salary_max": 225,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Weihaiwei",
+    "year": 1905,
+    "total": 3,
+    "high_confidence": 3,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}

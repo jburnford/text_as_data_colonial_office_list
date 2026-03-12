@@ -1,0 +1,69 @@
+{
+  "colony": "Turks and Caicos Islands",
+  "year": 1905,
+  "generated": "2026-03-12T00:02:23.870963",
+  "model": "openai/gpt-oss-120b",
+  "tier": "STANDARD",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "Douglas Young",
+      "canonical_name": "Young, Douglas",
+      "given_names": "Douglas",
+      "surname": "Young",
+      "position": "Commissioner",
+      "department": "Civil Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "L. Lea Smith",
+      "canonical_name": "Smith, L. Lea",
+      "given_names": "L. Lea",
+      "surname": "Smith",
+      "position": "Clerk (Executive Department)",
+      "department": "Civil Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "E. C. Harriott",
+      "canonical_name": "Harriott, E. C.",
+      "given_names": "E. C.",
+      "surname": "Harriott",
+      "position": "Clerk and Accountant (Revenue Department), Collector of Customs and Postmaster",
+      "department": "Civil Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Turks and Caicos Islands",
+    "year": 1905,
+    "total": 3,
+    "high_confidence": 3,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}

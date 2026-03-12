@@ -1,0 +1,139 @@
+{
+  "colony": "Uganda",
+  "year": 1905,
+  "generated": "2026-03-12T00:02:54.193217",
+  "model": "openai/gpt-oss-120b",
+  "tier": "STANDARD",
+  "total_officials": 7,
+  "officials": [
+    {
+      "name": "J. H. Sadler",
+      "canonical_name": "Sadler, J. H.",
+      "given_names": "J. H.",
+      "surname": "Sadler",
+      "position": "H.M. Commissioner and Commander-in-Chief",
+      "department": null,
+      "salary_min": 1500,
+      "salary_max": 1500,
+      "allowances": null,
+      "honors": [
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": "Lieut.-Col.",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "George Wilson",
+      "canonical_name": "Wilson, George",
+      "given_names": "George",
+      "surname": "Wilson",
+      "position": "Deputy Commissioner",
+      "department": null,
+      "salary_min": 800,
+      "salary_max": 800,
+      "allowances": null,
+      "honors": [
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "A. H. Coles",
+      "canonical_name": "Coles, A. H.",
+      "given_names": "A. H.",
+      "surname": "Coles",
+      "position": "Commandant of the King's African Rifles and of the Troops in the Protectorate",
+      "department": null,
+      "salary_min": 900,
+      "salary_max": 900,
+      "allowances": null,
+      "honors": [
+        "D.S.O."
+      ],
+      "qualifications": [],
+      "military_rank": "Colonel",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "J. F. Cunningham",
+      "canonical_name": "Cunningham, J. F.",
+      "given_names": "J. F.",
+      "surname": "Cunningham",
+      "position": "Secretary",
+      "department": null,
+      "salary_min": 650,
+      "salary_max": 650,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "G. F. M. Ennis",
+      "canonical_name": "Ennis, G. F. M.",
+      "given_names": "G. F. M.",
+      "surname": "Ennis",
+      "position": "Judge of High Court",
+      "department": null,
+      "salary_min": 650,
+      "salary_max": 650,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "J. Will",
+      "canonical_name": "Will, J.",
+      "given_names": "J.",
+      "surname": "Will",
+      "position": "Principal Medical Officer, Uganda and East African Protectorates",
+      "department": null,
+      "salary_min": 800,
+      "salary_max": 800,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Major",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "G. D. Smith",
+      "canonical_name": "Smith, G. D.",
+      "given_names": "G. D.",
+      "surname": "Smith",
+      "position": "Treasurer",
+      "department": null,
+      "salary_min": 700,
+      "salary_max": 700,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Uganda",
+    "year": 1905,
+    "total": 7,
+    "high_confidence": 7,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 7,
+    "anomaly_count": 0
+  }
+}
