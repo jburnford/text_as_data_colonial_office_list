@@ -1,15 +1,15 @@
 {
   "colony": "Nova Scotia",
   "year": 1909,
-  "generated": "2026-03-12T08:46:31.316950",
+  "generated": "2026-03-12T14:46:09.323183",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 125,
+  "total_officials": 129,
   "officials": [
     {
       "name": "Sir C. Hastings Doyle",
-      "canonical_name": "Doyle, Sir C. Hastings",
-      "given_names": "Sir C. Hastings",
+      "canonical_name": "Doyle, C. Hastings",
+      "given_names": "C. Hastings",
       "surname": "Doyle",
       "position": "Lieutenant-Governor",
       "department": "Lieutenant-Governors",
@@ -26,10 +26,10 @@
     },
     {
       "name": "Sir Ed. Kenny",
-      "canonical_name": "Kenny, Sir Ed.",
-      "given_names": "Sir Ed.",
+      "canonical_name": "Kenny, Ed.",
+      "given_names": "Ed.",
       "surname": "Kenny",
-      "position": "Lieutenant-Governor",
+      "position": "Lieutenant-Governor (Administrator)",
       "department": "Lieutenant-Governors",
       "salary_min": null,
       "salary_max": null,
@@ -42,8 +42,8 @@
     },
     {
       "name": "Hon. Joseph Howe",
-      "canonical_name": "Howe, Hon. Joseph",
-      "given_names": "Hon. Joseph",
+      "canonical_name": "Howe, Joseph",
+      "given_names": "Joseph",
       "surname": "Howe",
       "position": "Lieutenant-Governor",
       "department": "Lieutenant-Governors",
@@ -58,8 +58,8 @@
     },
     {
       "name": "Sir A. G. Archibald",
-      "canonical_name": "Archibald, Sir A. G.",
-      "given_names": "Sir A. G.",
+      "canonical_name": "Archibald, A. G.",
+      "given_names": "A. G.",
       "surname": "Archibald",
       "position": "Lieutenant-Governor",
       "department": "Lieutenant-Governors",
@@ -67,8 +67,7 @@
       "salary_max": null,
       "allowances": null,
       "honors": [
-        "K.C.M.G.",
-        "K.C."
+        "K.C.M.G."
       ],
       "qualifications": [],
       "military_rank": null,
@@ -85,9 +84,7 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [
-        "K.C."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -95,8 +92,8 @@
     },
     {
       "name": "Hon. A. W. McLellan",
-      "canonical_name": "McLellan, Hon. A. W.",
-      "given_names": "Hon. A. W.",
+      "canonical_name": "McLellan, A. W.",
+      "given_names": "A. W.",
       "surname": "McLellan",
       "position": "Lieutenant-Governor",
       "department": "Lieutenant-Governors",
@@ -111,8 +108,8 @@
     },
     {
       "name": "Sir M. B. Daly",
-      "canonical_name": "Daly, Sir M. B.",
-      "given_names": "Sir M. B.",
+      "canonical_name": "Daly, M. B.",
+      "given_names": "M. B.",
       "surname": "Daly",
       "position": "Lieutenant-Governor",
       "department": "Lieutenant-Governors",
@@ -129,8 +126,8 @@
     },
     {
       "name": "Hon. A. G. Jones",
-      "canonical_name": "Jones, Hon. A. G.",
-      "given_names": "Hon. A. G.",
+      "canonical_name": "Jones, A. G.",
+      "given_names": "A. G.",
       "surname": "Jones",
       "position": "Lieutenant-Governor",
       "department": "Lieutenant-Governors",
@@ -145,8 +142,8 @@
     },
     {
       "name": "Hon. D. C. Fraser",
-      "canonical_name": "Fraser, Hon. D. C.",
-      "given_names": "Hon. D. C.",
+      "canonical_name": "Fraser, D. C.",
+      "given_names": "D. C.",
       "surname": "Fraser",
       "position": "Lieutenant-Governor",
       "department": "Lieutenant-Governors",
@@ -160,9 +157,9 @@
       "location": null
     },
     {
-      "name": "The Honourable Duncan Cameron Fraser",
-      "canonical_name": "Fraser, The Honourable Duncan Cameron",
-      "given_names": "The Honourable Duncan Cameron",
+      "name": "Duncan Cameron Fraser",
+      "canonical_name": "Fraser, Duncan Cameron",
+      "given_names": "Duncan Cameron",
       "surname": "Fraser",
       "position": "Lieutenant-Governor",
       "department": "Seat of Government",
@@ -224,11 +221,11 @@
       "location": null
     },
     {
-      "name": "Hon. George H. Murray",
-      "canonical_name": "Murray, Hon. George H.",
-      "given_names": "Hon. George H.",
+      "name": "George H. Murray",
+      "canonical_name": "Murray, George H.",
+      "given_names": "George H.",
       "surname": "Murray",
-      "position": "President of the Council; Premier and Provincial Secretary",
+      "position": "President of the Council",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -240,27 +237,25 @@
       "location": null
     },
     {
-      "name": "Hon. William T. Pipes",
-      "canonical_name": "Pipes, Hon. William T.",
-      "given_names": "Hon. William T.",
+      "name": "William T. Pipes",
+      "canonical_name": "Pipes, William T.",
+      "given_names": "William T.",
       "surname": "Pipes",
       "position": "Attorney-General",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [
-        "K.C."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Hon. Christopher P. Chisholm",
-      "canonical_name": "Chisholm, Hon. Christopher P.",
-      "given_names": "Hon. Christopher P.",
+      "name": "Christopher P. Chisholm",
+      "canonical_name": "Chisholm, Christopher P.",
+      "given_names": "Christopher P.",
       "surname": "Chisholm",
       "position": "Commissioner of Public Works and Mines",
       "department": "Executive Council",
@@ -450,10 +445,10 @@
       "location": "Clementsport"
     },
     {
-      "name": "John McNeil",
-      "canonical_name": "McNeil, John",
-      "given_names": "John",
-      "surname": "McNeil",
+      "name": "John McNeil Mabon",
+      "canonical_name": "Mabon, John McNeil",
+      "given_names": "John McNeil",
+      "surname": "Mabon",
       "position": "Member",
       "department": "Legislative Council",
       "salary_min": null,
@@ -463,7 +458,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Mabon"
+      "location": null
     },
     {
       "name": "Jason Mack",
@@ -760,7 +755,7 @@
       "canonical_name": "Bancroft, Joseph",
       "given_names": "Joseph",
       "surname": "Bancroft",
-      "position": "Member",
+      "position": "Member for Annapolis County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -769,14 +764,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Annapolis County"
+      "location": null
     },
     {
       "name": "O. T. Daniels",
       "canonical_name": "Daniels, O. T.",
       "given_names": "O. T.",
       "surname": "Daniels",
-      "position": "Member",
+      "position": "Member for Annapolis County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -785,14 +780,46 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Annapolis County"
+      "location": null
+    },
+    {
+      "name": "C. P. Chisholm",
+      "canonical_name": "Chisholm, C. P.",
+      "given_names": "C. P.",
+      "surname": "Chisholm",
+      "position": "Member for Antigonish",
+      "department": "Legislative Assembly",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "F. R. Trotter",
+      "canonical_name": "Trotter, F. R.",
+      "given_names": "F. R.",
+      "surname": "Trotter",
+      "position": "Member for Antigonish",
+      "department": "Legislative Assembly",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
     },
     {
       "name": "A. S. Kendall",
       "canonical_name": "Kendall, A. S.",
       "given_names": "A. S.",
       "surname": "Kendall",
-      "position": "Member",
+      "position": "Member for Cape Breton",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -801,14 +828,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Cape Breton"
+      "location": null
     },
     {
       "name": "Neil J. Gillis",
       "canonical_name": "Gillis, Neil J.",
       "given_names": "Neil J.",
       "surname": "Gillis",
-      "position": "Member",
+      "position": "Member for Cape Breton",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -817,14 +844,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Cape Breton"
+      "location": null
     },
     {
       "name": "W. Davison Hill",
       "canonical_name": "Hill, W. Davison",
       "given_names": "W. Davison",
       "surname": "Hill",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -833,14 +860,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "B. F. Pearson",
       "canonical_name": "Pearson, B. F.",
       "given_names": "B. F.",
       "surname": "Pearson",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -849,14 +876,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "W. T. Pipes",
       "canonical_name": "Pipes, W. T.",
       "given_names": "W. T.",
       "surname": "Pipes",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -865,14 +892,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "E. B. Paul",
       "canonical_name": "Paul, E. B.",
       "given_names": "E. B.",
       "surname": "Paul",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -881,14 +908,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "J. W. Comeau",
       "canonical_name": "Comeau, J. W.",
       "given_names": "J. W.",
       "surname": "Comeau",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -897,14 +924,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "A. M. Kidney",
       "canonical_name": "Kidney, A. M.",
       "given_names": "A. M.",
       "surname": "Kidney",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -913,14 +940,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "William Whitman",
       "canonical_name": "Whitman, William",
       "given_names": "William",
       "surname": "Whitman",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -929,14 +956,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "J. F. Ellis",
       "canonical_name": "Ellis, J. F.",
       "given_names": "J. F.",
       "surname": "Ellis",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -945,14 +972,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "R. E. Finn",
       "canonical_name": "Finn, R. E.",
       "given_names": "R. E.",
       "surname": "Finn",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -961,14 +988,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "Geo. E. Faulkner",
       "canonical_name": "Faulkner, Geo. E.",
       "given_names": "Geo. E.",
       "surname": "Faulkner",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -977,14 +1004,30 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
+    },
+    {
+      "name": "D. McPherson",
+      "canonical_name": "McPherson, D.",
+      "given_names": "D.",
+      "surname": "McPherson",
+      "position": "Member for Colchester County",
+      "department": "Legislative Assembly",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
     },
     {
       "name": "James O'Brien",
       "canonical_name": "O'Brien, James",
       "given_names": "James",
       "surname": "O'Brien",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -993,14 +1036,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "C. S. Wilcox",
       "canonical_name": "Wilcox, C. S.",
       "given_names": "C. S.",
       "surname": "Wilcox",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1009,14 +1052,30 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
+    },
+    {
+      "name": "James Macdonald",
+      "canonical_name": "Macdonald, James",
+      "given_names": "James",
+      "surname": "Macdonald",
+      "position": "Member for Colchester County",
+      "department": "Legislative Assembly",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
     },
     {
       "name": "Charles MacMillan",
       "canonical_name": "MacMillan, Charles",
       "given_names": "Charles",
       "surname": "MacMillan",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1025,14 +1084,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "B. H. Dodge",
       "canonical_name": "Dodge, B. H.",
       "given_names": "B. H.",
       "surname": "Dodge",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1041,14 +1100,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "Charles A. Campbell",
       "canonical_name": "Campbell, Charles A.",
       "given_names": "Charles A.",
       "surname": "Campbell",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1057,14 +1116,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "C. U. Mader",
       "canonical_name": "Mader, C. U.",
       "given_names": "C. U.",
       "surname": "Mader",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1073,14 +1132,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "H. A. March",
       "canonical_name": "March, H. A.",
       "given_names": "H. A.",
       "surname": "March",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1089,14 +1148,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "C. E. Tanner",
       "canonical_name": "Tanner, C. E.",
       "given_names": "C. E.",
       "surname": "Tanner",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1105,14 +1164,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "R. M. McGregor",
       "canonical_name": "McGregor, R. M.",
       "given_names": "R. M.",
       "surname": "McGregor",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1121,14 +1180,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "John M. Baillie",
       "canonical_name": "Baillie, John M.",
       "given_names": "John M.",
       "surname": "Baillie",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1137,14 +1196,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "C. F. Cooper",
       "canonical_name": "Cooper, C. F.",
       "given_names": "C. F.",
       "surname": "Cooper",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1153,14 +1212,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "Felix Laudry",
       "canonical_name": "Laudry, Felix",
       "given_names": "Felix",
       "surname": "Laudry",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1169,14 +1228,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "C. P. Bisnett",
       "canonical_name": "Bisnett, C. P.",
       "given_names": "C. P.",
       "surname": "Bisnett",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1185,14 +1244,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "M. H. Nickerson",
       "canonical_name": "Nickerson, M. H.",
       "given_names": "M. H.",
       "surname": "Nickerson",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1201,14 +1260,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "Robert Irwin",
       "canonical_name": "Irwin, Robert",
       "given_names": "Robert",
       "surname": "Irwin",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1217,14 +1276,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "G. H. Murray",
       "canonical_name": "Murray, G. H.",
       "given_names": "G. H.",
       "surname": "Murray",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1233,14 +1292,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "John G. Morrison",
       "canonical_name": "Morrison, John G.",
       "given_names": "John G.",
       "surname": "Morrison",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1249,14 +1308,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "E. H. Armstrong",
       "canonical_name": "Armstrong, E. H.",
       "given_names": "E. H.",
       "surname": "Armstrong",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1265,14 +1324,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "H. S. LeBlanc",
       "canonical_name": "LeBlanc, H. S.",
       "given_names": "H. S.",
       "surname": "LeBlanc",
-      "position": "Member",
+      "position": "Member for Colchester County",
       "department": "Legislative Assembly",
       "salary_min": null,
       "salary_max": null,
@@ -1281,7 +1340,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Colchester County"
+      "location": null
     },
     {
       "name": "C. J. Townshend",
@@ -1417,7 +1476,7 @@
       "given_names": "W. B.",
       "surname": "Wallace",
       "position": "County Court Judge",
-      "department": "County Court Judges",
+      "department": "Judicial Establishment",
       "salary_min": 3000,
       "salary_max": 3000,
       "allowances": null,
@@ -1433,7 +1492,7 @@
       "given_names": "J. P.",
       "surname": "Chipman",
       "position": "County Court Judge",
-      "department": "County Court Judges",
+      "department": "Judicial Establishment",
       "salary_min": 3000,
       "salary_max": 3000,
       "allowances": null,
@@ -1449,7 +1508,7 @@
       "given_names": "F. G.",
       "surname": "Forbes",
       "position": "County Court Judge",
-      "department": "County Court Judges",
+      "department": "Judicial Establishment",
       "salary_min": 3000,
       "salary_max": 3000,
       "allowances": null,
@@ -1465,7 +1524,7 @@
       "given_names": "A. W.",
       "surname": "Savery",
       "position": "County Court Judge",
-      "department": "County Court Judges",
+      "department": "Judicial Establishment",
       "salary_min": 3000,
       "salary_max": 3000,
       "allowances": null,
@@ -1481,7 +1540,7 @@
       "given_names": "D. D.",
       "surname": "McKenzie",
       "position": "County Court Judge",
-      "department": "County Court Judges",
+      "department": "Judicial Establishment",
       "salary_min": 3000,
       "salary_max": 3000,
       "allowances": null,
@@ -1497,7 +1556,7 @@
       "given_names": "Angus",
       "surname": "McGillivray",
       "position": "County Court Judge",
-      "department": "County Court Judges",
+      "department": "Judicial Establishment",
       "salary_min": 3000,
       "salary_max": 3000,
       "allowances": null,
@@ -1513,7 +1572,7 @@
       "given_names": "George",
       "surname": "Patterson",
       "position": "County Court Judge",
-      "department": "County Court Judges",
+      "department": "Judicial Establishment",
       "salary_min": 3000,
       "salary_max": 3000,
       "allowances": null,
@@ -1529,7 +1588,7 @@
       "given_names": "S. H.",
       "surname": "Pelton",
       "position": "County Court Judge",
-      "department": "County Court Judges",
+      "department": "Judicial Establishment",
       "salary_min": 3000,
       "salary_max": 3000,
       "allowances": null,
@@ -1541,7 +1600,7 @@
     },
     {
       "name": "Drury",
-      "canonical_name": "Drury, ",
+      "canonical_name": "Drury",
       "given_names": "",
       "surname": "Drury",
       "position": "Officer Commanding",
@@ -1559,7 +1618,7 @@
     },
     {
       "name": "Irving",
-      "canonical_name": "Irving, ",
+      "canonical_name": "Irving",
       "given_names": "",
       "surname": "Irving",
       "position": "Chief Staff Officer",
@@ -1575,7 +1634,7 @@
     },
     {
       "name": "Humphrey",
-      "canonical_name": "Humphrey, ",
+      "canonical_name": "Humphrey",
       "given_names": "",
       "surname": "Humphrey",
       "position": "D.A.A.G.",
@@ -1591,7 +1650,7 @@
     },
     {
       "name": "McNinis",
-      "canonical_name": "McNinis, ",
+      "canonical_name": "McNinis",
       "given_names": "",
       "surname": "McNinis",
       "position": "D.A.Q.M.G.",
@@ -1625,7 +1684,7 @@
     },
     {
       "name": "Simmons",
-      "canonical_name": "Simmons, ",
+      "canonical_name": "Simmons",
       "given_names": "",
       "surname": "Simmons",
       "position": "Principal Veterinary Officer",
@@ -1641,7 +1700,7 @@
     },
     {
       "name": "Sircom",
-      "canonical_name": "Sircom, ",
+      "canonical_name": "Sircom",
       "given_names": "",
       "surname": "Sircom",
       "position": "Senior Paymaster",
@@ -2031,12 +2090,12 @@
   "validation_summary": {
     "colony": "Nova Scotia",
     "year": 1909,
-    "total": 126,
-    "high_confidence": 118,
+    "total": 130,
+    "high_confidence": 122,
     "medium_confidence": 7,
     "low_confidence": 1,
     "quarantined": 1,
-    "passed": 125,
-    "anomaly_count": 5
+    "passed": 129,
+    "anomaly_count": 8
   }
 }

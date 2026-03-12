@@ -1,15 +1,15 @@
 {
   "colony": "British Columbia",
   "year": 1909,
-  "generated": "2026-03-12T08:35:01.249427",
+  "generated": "2026-03-12T14:40:23.920576",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 87,
   "officials": [
     {
-      "name": "Sir Joseph W. Trutch",
-      "canonical_name": "Trutch, Sir Joseph W.",
-      "given_names": "Sir Joseph W.",
+      "name": "Joseph W. Trutch",
+      "canonical_name": "Trutch, Joseph W.",
+      "given_names": "Joseph W.",
       "surname": "Trutch",
       "position": "Lieutenant-Governor",
       "department": "Lieutenant-Governors",
@@ -25,16 +25,18 @@
       "location": null
     },
     {
-      "name": "Hon. Albert Norton Richards",
-      "canonical_name": "Richards, Hon. Albert Norton",
-      "given_names": "Hon. Albert Norton",
+      "name": "Albert Norton Richards",
+      "canonical_name": "Richards, Albert Norton",
+      "given_names": "Albert Norton",
       "surname": "Richards",
       "position": "Lieutenant-Governor",
       "department": "Lieutenant-Governors",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "K.C."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -73,9 +75,9 @@
       "location": null
     },
     {
-      "name": "Hon. Edgar Dewdney",
-      "canonical_name": "Dewdney, Hon. Edgar",
-      "given_names": "Hon. Edgar",
+      "name": "Edgar Dewdney",
+      "canonical_name": "Dewdney, Edgar",
+      "given_names": "Edgar",
       "surname": "Dewdney",
       "position": "Lieutenant-Governor",
       "department": "Lieutenant-Governors",
@@ -105,22 +107,20 @@
       "location": null
     },
     {
-      "name": "The Hon. Sir Henri Gustave Joly de Lotbini\u00e8re",
-      "canonical_name": "Lotbini\u00e8re, The Hon. Sir Henri Gustave Joly de",
-      "given_names": "The Hon. Sir Henri Gustave Joly de",
-      "surname": "Lotbini\u00e8re",
+      "name": "Henri Gustave Joly de Lotbini\u00e8re",
+      "canonical_name": "Joly de Lotbini\u00e8re, Henri Gustave",
+      "given_names": "Henri Gustave",
+      "surname": "Joly de Lotbini\u00e8re",
       "position": "Lieutenant-Governor",
       "department": "Lieutenant-Governors",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [
-        "K.C.M.G."
+        "K.C.M.G.",
+        "LL.D."
       ],
-      "qualifications": [
-        "LL.D.",
-        "D.C.L."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -142,12 +142,12 @@
       "location": null
     },
     {
-      "name": "His Honour James Dunsmuir",
-      "canonical_name": "Dunsmuir, His Honour James",
-      "given_names": "His Honour James",
+      "name": "James Dunsmuir",
+      "canonical_name": "Dunsmuir, James",
+      "given_names": "James",
       "surname": "Dunsmuir",
       "position": "Lieut.-Governor",
-      "department": "Seat of Government, Victoria",
+      "department": "Seat of Government",
       "salary_min": 9000,
       "salary_max": 9000,
       "allowances": null,
@@ -163,7 +163,7 @@
       "given_names": "H. J. S.",
       "surname": "Musckett",
       "position": "Private Secretary",
-      "department": "Seat of Government, Victoria",
+      "department": "Seat of Government",
       "salary_min": 1200,
       "salary_max": 1200,
       "allowances": null,
@@ -174,12 +174,12 @@
       "location": null
     },
     {
-      "name": "Captain B. H. Tyrwhitt-Drake",
-      "canonical_name": "Tyrwhitt-Drake, Captain B. H.",
-      "given_names": "Captain B. H.",
+      "name": "B. H. Tyrwhitt-Drake",
+      "canonical_name": "Tyrwhitt-Drake, B. H.",
+      "given_names": "B. H.",
       "surname": "Tyrwhitt-Drake",
       "position": "A. D. C.",
-      "department": "Seat of Government, Victoria",
+      "department": "Seat of Government",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -190,9 +190,9 @@
       "location": null
     },
     {
-      "name": "Hon. Richard McBride",
-      "canonical_name": "McBride, Hon. Richard",
-      "given_names": "Hon. Richard",
+      "name": "Richard McBride",
+      "canonical_name": "McBride, Richard",
+      "given_names": "Richard",
       "surname": "McBride",
       "position": "Premier",
       "department": "Executive Council",
@@ -206,9 +206,9 @@
       "location": null
     },
     {
-      "name": "Hon. Robert G. Tatlow",
-      "canonical_name": "Tatlow, Hon. Robert G.",
-      "given_names": "Hon. Robert G.",
+      "name": "Robert G. Tatlow",
+      "canonical_name": "Tatlow, Robert G.",
+      "given_names": "Robert G.",
       "surname": "Tatlow",
       "position": "Minister of Finance and Agriculture",
       "department": "Executive Council",
@@ -222,9 +222,9 @@
       "location": null
     },
     {
-      "name": "Hon. R. McBride",
-      "canonical_name": "McBride, Hon. R.",
-      "given_names": "Hon. R.",
+      "name": "R. McBride",
+      "canonical_name": "McBride, R.",
+      "given_names": "R.",
       "surname": "McBride",
       "position": "Minister of Mines",
       "department": "Executive Council",
@@ -238,9 +238,9 @@
       "location": null
     },
     {
-      "name": "Hon. William J. Bowser",
-      "canonical_name": "Bowser, Hon. William J.",
-      "given_names": "Hon. William J.",
+      "name": "William J. Bowser",
+      "canonical_name": "Bowser, William J.",
+      "given_names": "William J.",
       "surname": "Bowser",
       "position": "Attorney-General",
       "department": "Executive Council",
@@ -254,9 +254,9 @@
       "location": null
     },
     {
-      "name": "Hon. Henry E. Young",
-      "canonical_name": "Young, Hon. Henry E.",
-      "given_names": "Hon. Henry E.",
+      "name": "Henry E. Young",
+      "canonical_name": "Young, Henry E.",
+      "given_names": "Henry E.",
       "surname": "Young",
       "position": "Provincial Secretary, Minister of Education and Immigration",
       "department": "Executive Council",
@@ -272,9 +272,9 @@
       "location": null
     },
     {
-      "name": "Hon. F. J. Fulton",
-      "canonical_name": "Fulton, Hon. F. J.",
-      "given_names": "Hon. F. J.",
+      "name": "F. J. Fulton",
+      "canonical_name": "Fulton, F. J.",
+      "given_names": "F. J.",
       "surname": "Fulton",
       "position": "Chief Commissioner of Lands and Works",
       "department": "Executive Council",
@@ -288,10 +288,10 @@
       "location": null
     },
     {
-      "name": "Hon. F. L. Carter Cotton",
-      "canonical_name": "Cotton, Hon. F. L. Carter",
-      "given_names": "Hon. F. L. Carter",
-      "surname": "Cotton",
+      "name": "F. L. Carter Cotton",
+      "canonical_name": "Carter Cotton, F. L.",
+      "given_names": "F. L.",
+      "surname": "Carter Cotton",
       "position": "President of the Council",
       "department": "Executive Council",
       "salary_min": null,
@@ -304,9 +304,9 @@
       "location": null
     },
     {
-      "name": "Hon. D. M. Eberts",
-      "canonical_name": "Eberts, Hon. D. M.",
-      "given_names": "Hon. D. M.",
+      "name": "D. M. Eberts",
+      "canonical_name": "Eberts, D. M.",
+      "given_names": "D. M.",
       "surname": "Eberts",
       "position": "Speaker",
       "department": "Legislative Assembly",
@@ -384,9 +384,9 @@
       "location": null
     },
     {
-      "name": "Hon. R. G. Tatlow",
-      "canonical_name": "Tatlow, Hon. R. G.",
-      "given_names": "Hon. R. G.",
+      "name": "R. G. Tatlow",
+      "canonical_name": "Tatlow, R. G.",
+      "given_names": "R. G.",
       "surname": "Tatlow",
       "position": "Member",
       "department": "Legislative Assembly",
@@ -448,9 +448,9 @@
       "location": null
     },
     {
-      "name": "Hon. R. McBride",
-      "canonical_name": "McBride, Hon. R.",
-      "given_names": "Hon. R.",
+      "name": "R. McBride",
+      "canonical_name": "McBride, R.",
+      "given_names": "R.",
       "surname": "McBride",
       "position": "Member",
       "department": "Legislative Assembly",
@@ -480,9 +480,9 @@
       "location": null
     },
     {
-      "name": "Hon. F. L. Carter-Cotton",
-      "canonical_name": "Carter-Cotton, Hon. F. L.",
-      "given_names": "Hon. F. L.",
+      "name": "F. L. Carter-Cotton",
+      "canonical_name": "Carter-Cotton, F. L.",
+      "given_names": "F. L.",
       "surname": "Carter-Cotton",
       "position": "Member",
       "department": "Legislative Assembly",
@@ -578,9 +578,9 @@
       "location": null
     },
     {
-      "name": "Hon. F. J. Fulton",
-      "canonical_name": "Fulton, Hon. F. J.",
-      "given_names": "Hon. F. J.",
+      "name": "F. J. Fulton",
+      "canonical_name": "Fulton, F. J.",
+      "given_names": "F. J.",
       "surname": "Fulton",
       "position": "Member",
       "department": "Legislative Assembly",
@@ -684,9 +684,7 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "M.D."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -902,9 +900,9 @@
       "location": null
     },
     {
-      "name": "Hon. David MacEwen",
-      "canonical_name": "MacEwen, Hon. David",
-      "given_names": "Hon. David",
+      "name": "David MacEwen",
+      "canonical_name": "MacEwen, David",
+      "given_names": "David",
       "surname": "MacEwen",
       "position": "Member",
       "department": "Legislative Assembly",
@@ -1016,9 +1014,9 @@
       "location": null
     },
     {
-      "name": "Hon. H. E. Young",
-      "canonical_name": "Young, Hon. H. E.",
-      "given_names": "Hon. H. E.",
+      "name": "H. E. Young",
+      "canonical_name": "Young, H. E.",
+      "given_names": "H. E.",
       "surname": "Young",
       "position": "Provincial Secretary and Minister of Education",
       "department": "Local Departments",
@@ -1102,9 +1100,9 @@
       "location": null
     },
     {
-      "name": "Hon. W. J. Bowser",
-      "canonical_name": "Bowser, Hon. W. J.",
-      "given_names": "Hon. W. J.",
+      "name": "W. J. Bowser",
+      "canonical_name": "Bowser, W. J.",
+      "given_names": "W. J.",
       "surname": "Bowser",
       "position": "Attorney-General",
       "department": "Local Departments",
@@ -1150,9 +1148,9 @@
       "location": null
     },
     {
-      "name": "Hon. F. J. Fulton",
-      "canonical_name": "Fulton, Hon. F. J.",
-      "given_names": "Hon. F. J.",
+      "name": "F. J. Fulton",
+      "canonical_name": "Fulton, F. J.",
+      "given_names": "F. J.",
       "surname": "Fulton",
       "position": "Chief Commissioner of Lands and Works",
       "department": "Local Departments",
@@ -1198,9 +1196,9 @@
       "location": null
     },
     {
-      "name": "Hon. Robert G. Tatlow",
-      "canonical_name": "Tatlow, Hon. Robert G.",
-      "given_names": "Hon. Robert G.",
+      "name": "Robert G. Tatlow",
+      "canonical_name": "Tatlow, Robert G.",
+      "given_names": "Robert G.",
       "surname": "Tatlow",
       "position": "Minister of Finance and Agriculture",
       "department": "Local Departments",
@@ -1264,9 +1262,9 @@
       "location": null
     },
     {
-      "name": "Hon. R. McBride",
-      "canonical_name": "McBride, Hon. R.",
-      "given_names": "Hon. R.",
+      "name": "R. McBride",
+      "canonical_name": "McBride, R.",
+      "given_names": "R.",
       "surname": "McBride",
       "position": "Minister of Mines",
       "department": "Local Departments",
@@ -1433,6 +1431,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 87,
-    "anomaly_count": 5
+    "anomaly_count": 7
   }
 }
