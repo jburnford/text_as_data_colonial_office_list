@@ -1,18 +1,18 @@
 {
   "colony": "Nova Scotia",
   "year": 1909,
-  "generated": "2026-03-12T04:25:52.581366",
+  "generated": "2026-03-12T08:46:31.316950",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 129,
+  "total_officials": 125,
   "officials": [
     {
       "name": "Sir C. Hastings Doyle",
-      "canonical_name": "Doyle, C. Hastings",
-      "given_names": "C. Hastings",
+      "canonical_name": "Doyle, Sir C. Hastings",
+      "given_names": "Sir C. Hastings",
       "surname": "Doyle",
       "position": "Lieutenant-Governor",
-      "department": "Lieutenant-Governors since Confederation.",
+      "department": "Lieutenant-Governors",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -26,11 +26,11 @@
     },
     {
       "name": "Sir Ed. Kenny",
-      "canonical_name": "Kenny, Ed.",
-      "given_names": "Ed.",
+      "canonical_name": "Kenny, Sir Ed.",
+      "given_names": "Sir Ed.",
       "surname": "Kenny",
       "position": "Lieutenant-Governor",
-      "department": "Lieutenant-Governors since Confederation.",
+      "department": "Lieutenant-Governors",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -42,11 +42,11 @@
     },
     {
       "name": "Hon. Joseph Howe",
-      "canonical_name": "Howe, Joseph",
-      "given_names": "Joseph",
+      "canonical_name": "Howe, Hon. Joseph",
+      "given_names": "Hon. Joseph",
       "surname": "Howe",
       "position": "Lieutenant-Governor",
-      "department": "Lieutenant-Governors since Confederation.",
+      "department": "Lieutenant-Governors",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -58,16 +58,17 @@
     },
     {
       "name": "Sir A. G. Archibald",
-      "canonical_name": "Archibald, A. G.",
-      "given_names": "A. G.",
+      "canonical_name": "Archibald, Sir A. G.",
+      "given_names": "Sir A. G.",
       "surname": "Archibald",
       "position": "Lieutenant-Governor",
-      "department": "Lieutenant-Governors since Confederation.",
+      "department": "Lieutenant-Governors",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [
-        "K.C.M.G."
+        "K.C.M.G.",
+        "K.C."
       ],
       "qualifications": [],
       "military_rank": null,
@@ -80,11 +81,13 @@
       "given_names": "Matthew H.",
       "surname": "Richey",
       "position": "Lieutenant-Governor",
-      "department": "Lieutenant-Governors since Confederation.",
+      "department": "Lieutenant-Governors",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "K.C."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -92,11 +95,11 @@
     },
     {
       "name": "Hon. A. W. McLellan",
-      "canonical_name": "McLellan, A. W.",
-      "given_names": "A. W.",
+      "canonical_name": "McLellan, Hon. A. W.",
+      "given_names": "Hon. A. W.",
       "surname": "McLellan",
       "position": "Lieutenant-Governor",
-      "department": "Lieutenant-Governors since Confederation.",
+      "department": "Lieutenant-Governors",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -108,11 +111,11 @@
     },
     {
       "name": "Sir M. B. Daly",
-      "canonical_name": "Daly, M. B.",
-      "given_names": "M. B.",
+      "canonical_name": "Daly, Sir M. B.",
+      "given_names": "Sir M. B.",
       "surname": "Daly",
       "position": "Lieutenant-Governor",
-      "department": "Lieutenant-Governors since Confederation.",
+      "department": "Lieutenant-Governors",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -126,11 +129,11 @@
     },
     {
       "name": "Hon. A. G. Jones",
-      "canonical_name": "Jones, A. G.",
-      "given_names": "A. G.",
+      "canonical_name": "Jones, Hon. A. G.",
+      "given_names": "Hon. A. G.",
       "surname": "Jones",
       "position": "Lieutenant-Governor",
-      "department": "Lieutenant-Governors since Confederation.",
+      "department": "Lieutenant-Governors",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -142,11 +145,11 @@
     },
     {
       "name": "Hon. D. C. Fraser",
-      "canonical_name": "Fraser, D. C.",
-      "given_names": "D. C.",
+      "canonical_name": "Fraser, Hon. D. C.",
+      "given_names": "Hon. D. C.",
       "surname": "Fraser",
       "position": "Lieutenant-Governor",
-      "department": "Lieutenant-Governors since Confederation.",
+      "department": "Lieutenant-Governors",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -157,12 +160,12 @@
       "location": null
     },
     {
-      "name": "His Honour The Honourable Duncan Cameron Fraser",
-      "canonical_name": "Fraser, Duncan Cameron",
-      "given_names": "Duncan Cameron",
+      "name": "The Honourable Duncan Cameron Fraser",
+      "canonical_name": "Fraser, The Honourable Duncan Cameron",
+      "given_names": "The Honourable Duncan Cameron",
       "surname": "Fraser",
       "position": "Lieutenant-Governor",
-      "department": "Seat of Government\u2014Halifax.",
+      "department": "Seat of Government",
       "salary_min": 9000,
       "salary_max": 9000,
       "allowances": null,
@@ -178,7 +181,7 @@
       "given_names": "Alister",
       "surname": "Fraser",
       "position": "Private Secretary",
-      "department": "Seat of Government\u2014Halifax.",
+      "department": "Seat of Government",
       "salary_min": 1250,
       "salary_max": 1250,
       "allowances": null,
@@ -194,7 +197,7 @@
       "given_names": "Alan",
       "surname": "Duffus",
       "position": "Provincial Aides-de-Camp",
-      "department": "Seat of Government\u2014Halifax.",
+      "department": "Seat of Government",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -210,7 +213,7 @@
       "given_names": "J. L.",
       "surname": "Mackinnon",
       "position": "Provincial Aides-de-Camp",
-      "department": "Seat of Government\u2014Halifax.",
+      "department": "Seat of Government",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -222,11 +225,11 @@
     },
     {
       "name": "Hon. George H. Murray",
-      "canonical_name": "Murray, George H.",
-      "given_names": "George H.",
+      "canonical_name": "Murray, Hon. George H.",
+      "given_names": "Hon. George H.",
       "surname": "Murray",
-      "position": "President of the Council",
-      "department": "Executive Council.",
+      "position": "President of the Council; Premier and Provincial Secretary",
+      "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -238,15 +241,17 @@
     },
     {
       "name": "Hon. William T. Pipes",
-      "canonical_name": "Pipes, William T.",
-      "given_names": "William T.",
+      "canonical_name": "Pipes, Hon. William T.",
+      "given_names": "Hon. William T.",
       "surname": "Pipes",
       "position": "Attorney-General",
-      "department": "Executive Council.",
+      "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "K.C."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -254,11 +259,11 @@
     },
     {
       "name": "Hon. Christopher P. Chisholm",
-      "canonical_name": "Chisholm, Christopher P.",
-      "given_names": "Christopher P.",
+      "canonical_name": "Chisholm, Hon. Christopher P.",
+      "given_names": "Hon. Christopher P.",
       "surname": "Chisholm",
       "position": "Commissioner of Public Works and Mines",
-      "department": "Executive Council.",
+      "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -273,8 +278,8 @@
       "canonical_name": "McPherson, D.",
       "given_names": "D.",
       "surname": "McPherson",
-      "position": null,
-      "department": null,
+      "position": "Member",
+      "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -289,8 +294,8 @@
       "canonical_name": "Daniels, O. T.",
       "given_names": "O. T.",
       "surname": "Daniels",
-      "position": null,
-      "department": null,
+      "position": "Member",
+      "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -305,8 +310,8 @@
       "canonical_name": "Pearson, B. F.",
       "given_names": "B. F.",
       "surname": "Pearson",
-      "position": null,
-      "department": null,
+      "position": "Member",
+      "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -321,8 +326,8 @@
       "canonical_name": "Macdonald, James",
       "given_names": "James",
       "surname": "Macdonald",
-      "position": null,
-      "department": null,
+      "position": "Member",
+      "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -337,8 +342,8 @@
       "canonical_name": "Mack, J. M.",
       "given_names": "J. M.",
       "surname": "Mack",
-      "position": null,
-      "department": null,
+      "position": "Member",
+      "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -353,8 +358,8 @@
       "canonical_name": "Le Blanc, H. S.",
       "given_names": "H. S.",
       "surname": "Le Blanc",
-      "position": null,
-      "department": null,
+      "position": "Member",
+      "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -397,10 +402,10 @@
       "location": null
     },
     {
-      "name": "William H. Owen Bridgewater",
-      "canonical_name": "Bridgewater, William H. Owen",
-      "given_names": "William H. Owen",
-      "surname": "Bridgewater",
+      "name": "William H. Owen",
+      "canonical_name": "Owen, William H.",
+      "given_names": "William H.",
+      "surname": "Owen",
       "position": "Member",
       "department": "Legislative Council",
       "salary_min": null,
@@ -410,7 +415,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Bridgewater"
     },
     {
       "name": "George Whitman",
@@ -445,10 +450,10 @@
       "location": "Clementsport"
     },
     {
-      "name": "John McNeil Mabon",
-      "canonical_name": "Mabon, John McNeil",
-      "given_names": "John McNeil",
-      "surname": "Mabon",
+      "name": "John McNeil",
+      "canonical_name": "McNeil, John",
+      "given_names": "John",
+      "surname": "McNeil",
       "position": "Member",
       "department": "Legislative Council",
       "salary_min": null,
@@ -458,7 +463,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Mabon"
     },
     {
       "name": "Jason Mack",
@@ -554,7 +559,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Kingston"
+      "location": "Kingston, N.S."
     },
     {
       "name": "W. B. Smith",
@@ -570,7 +575,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Cape Island"
+      "location": "Cape Island, N.S."
     },
     {
       "name": "J. E. Corbett",
@@ -586,7 +591,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Antigonish"
+      "location": "Antigonish, N.S."
     },
     {
       "name": "W. F. McCurdy",
@@ -764,7 +769,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Annapolis County"
     },
     {
       "name": "O. T. Daniels",
@@ -780,39 +785,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "C. P. Chisholm",
-      "canonical_name": "Chisholm, C. P.",
-      "given_names": "C. P.",
-      "surname": "Chisholm",
-      "position": "Member",
-      "department": "Legislative Assembly",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "F. R. Trotter",
-      "canonical_name": "Trotter, F. R.",
-      "given_names": "F. R.",
-      "surname": "Trotter",
-      "position": "Member",
-      "department": "Legislative Assembly",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
+      "location": "Annapolis County"
     },
     {
       "name": "A. S. Kendall",
@@ -828,7 +801,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Cape Breton"
     },
     {
       "name": "Neil J. Gillis",
@@ -844,7 +817,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Cape Breton"
     },
     {
       "name": "W. Davison Hill",
@@ -860,7 +833,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "B. F. Pearson",
@@ -876,7 +849,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "W. T. Pipes",
@@ -892,7 +865,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "E. B. Paul",
@@ -908,7 +881,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "J. W. Comeau",
@@ -924,7 +897,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "A. M. Kidney",
@@ -940,10 +913,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
-      "name": "Wm. Whitman",
+      "name": "William Whitman",
       "canonical_name": "Whitman, William",
       "given_names": "William",
       "surname": "Whitman",
@@ -956,7 +929,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "J. F. Ellis",
@@ -972,7 +945,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "R. E. Finn",
@@ -988,7 +961,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "Geo. E. Faulkner",
@@ -1004,23 +977,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "D. McPherson",
-      "canonical_name": "McPherson, D.",
-      "given_names": "D.",
-      "surname": "McPherson",
-      "position": "Member",
-      "department": "Legislative Assembly",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "James O'Brien",
@@ -1036,7 +993,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "C. S. Wilcox",
@@ -1052,23 +1009,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "James Macdonald",
-      "canonical_name": "Macdonald, James",
-      "given_names": "James",
-      "surname": "Macdonald",
-      "position": "Member",
-      "department": "Legislative Assembly",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "Charles MacMillan",
@@ -1084,7 +1025,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "B. H. Dodge",
@@ -1100,7 +1041,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "Charles A. Campbell",
@@ -1116,7 +1057,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "C. U. Mader",
@@ -1132,7 +1073,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "H. A. March",
@@ -1148,7 +1089,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "C. E. Tanner",
@@ -1164,7 +1105,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "R. M. McGregor",
@@ -1180,7 +1121,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "John M. Baillie",
@@ -1196,10 +1137,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
-      "name": "Rev. C. F. Cooper",
+      "name": "C. F. Cooper",
       "canonical_name": "Cooper, C. F.",
       "given_names": "C. F.",
       "surname": "Cooper",
@@ -1212,7 +1153,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "Felix Laudry",
@@ -1228,7 +1169,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "C. P. Bisnett",
@@ -1244,7 +1185,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "M. H. Nickerson",
@@ -1260,7 +1201,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "Robert Irwin",
@@ -1276,7 +1217,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "G. H. Murray",
@@ -1292,7 +1233,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "John G. Morrison",
@@ -1308,7 +1249,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "E. H. Armstrong",
@@ -1324,7 +1265,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "H. S. LeBlanc",
@@ -1340,7 +1281,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Colchester County"
     },
     {
       "name": "C. J. Townshend",
@@ -1351,7 +1292,7 @@
       "department": "Judicial Establishment",
       "salary_min": 7000,
       "salary_max": 7000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1367,7 +1308,7 @@
       "department": "Judicial Establishment",
       "salary_min": 6000,
       "salary_max": 6000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1383,7 +1324,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1399,7 +1340,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1415,7 +1356,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1431,7 +1372,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1447,7 +1388,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1463,7 +1404,7 @@
       "department": "Judicial Establishment",
       "salary_min": 600,
       "salary_max": 600,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1477,9 +1418,9 @@
       "surname": "Wallace",
       "position": "County Court Judge",
       "department": "County Court Judges",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": "",
+      "salary_min": 3000,
+      "salary_max": 3000,
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1493,9 +1434,9 @@
       "surname": "Chipman",
       "position": "County Court Judge",
       "department": "County Court Judges",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": "",
+      "salary_min": 3000,
+      "salary_max": 3000,
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1509,9 +1450,9 @@
       "surname": "Forbes",
       "position": "County Court Judge",
       "department": "County Court Judges",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": "",
+      "salary_min": 3000,
+      "salary_max": 3000,
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1527,7 +1468,7 @@
       "department": "County Court Judges",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1543,7 +1484,7 @@
       "department": "County Court Judges",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1559,7 +1500,7 @@
       "department": "County Court Judges",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1575,7 +1516,7 @@
       "department": "County Court Judges",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1591,7 +1532,7 @@
       "department": "County Court Judges",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1600,14 +1541,14 @@
     },
     {
       "name": "Drury",
-      "canonical_name": "Drury",
+      "canonical_name": "Drury, ",
       "given_names": "",
       "surname": "Drury",
       "position": "Officer Commanding",
       "department": "Staff of Canadian Militia, Maritime Provinces",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [
         "C.B."
       ],
@@ -1618,14 +1559,14 @@
     },
     {
       "name": "Irving",
-      "canonical_name": "Irving",
+      "canonical_name": "Irving, ",
       "given_names": "",
       "surname": "Irving",
       "position": "Chief Staff Officer",
       "department": "Staff of Canadian Militia, Maritime Provinces",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Colonel",
@@ -1634,14 +1575,14 @@
     },
     {
       "name": "Humphrey",
-      "canonical_name": "Humphrey",
+      "canonical_name": "Humphrey, ",
       "given_names": "",
       "surname": "Humphrey",
       "position": "D.A.A.G.",
       "department": "Staff of Canadian Militia, Maritime Provinces",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Lt.-Col.",
@@ -1650,14 +1591,14 @@
     },
     {
       "name": "McNinis",
-      "canonical_name": "McNinis",
+      "canonical_name": "McNinis, ",
       "given_names": "",
       "surname": "McNinis",
       "position": "D.A.Q.M.G.",
       "department": "Staff of Canadian Militia, Maritime Provinces",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [
         "D.S.O."
       ],
@@ -1675,7 +1616,7 @@
       "department": "Staff of Canadian Militia, Maritime Provinces",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Captain",
@@ -1684,14 +1625,14 @@
     },
     {
       "name": "Simmons",
-      "canonical_name": "Simmons",
+      "canonical_name": "Simmons, ",
       "given_names": "",
       "surname": "Simmons",
       "position": "Principal Veterinary Officer",
       "department": "Staff of Canadian Militia, Maritime Provinces",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Captain",
@@ -1700,14 +1641,14 @@
     },
     {
       "name": "Sircom",
-      "canonical_name": "Sircom",
+      "canonical_name": "Sircom, ",
       "given_names": "",
       "surname": "Sircom",
       "position": "Senior Paymaster",
       "department": "Staff of Canadian Militia, Maritime Provinces",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Major",
@@ -1723,7 +1664,7 @@
       "department": "Departmental Chiefs and Officers",
       "salary_min": 5000,
       "salary_max": 5000,
-      "allowances": "1,000 as Premier",
+      "allowances": "$1,000 as Premier",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1739,7 +1680,7 @@
       "department": "Departmental Chiefs and Officers",
       "salary_min": 2400,
       "salary_max": 2400,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1755,7 +1696,7 @@
       "department": "Departmental Chiefs and Officers",
       "salary_min": 5000,
       "salary_max": 5000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1771,7 +1712,7 @@
       "department": "Departmental Chiefs and Officers",
       "salary_min": 2100,
       "salary_max": 2100,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1787,7 +1728,7 @@
       "department": "Departmental Chiefs and Officers",
       "salary_min": 5000,
       "salary_max": 5000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1803,7 +1744,7 @@
       "department": "Departmental Chiefs and Officers",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1819,7 +1760,7 @@
       "department": "Departmental Chiefs and Officers",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1835,7 +1776,7 @@
       "department": "Departmental Chiefs and Officers",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.D."
@@ -1853,7 +1794,7 @@
       "department": "Departmental Chiefs and Officers",
       "salary_min": 1400,
       "salary_max": 1400,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1869,7 +1810,7 @@
       "department": "Departmental Chiefs and Officers",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1885,7 +1826,7 @@
       "department": "Departmental Chiefs and Officers",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "LL.D."
@@ -1903,7 +1844,7 @@
       "department": "Departmental Chiefs and Officers",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1919,7 +1860,7 @@
       "department": "Departmental Chiefs and Officers",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1935,7 +1876,7 @@
       "department": "DOMINION OFFICIALS IN NOVA SCOTIA",
       "salary_min": 2200,
       "salary_max": 2200,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1951,7 +1892,7 @@
       "department": "DOMINION OFFICIALS IN NOVA SCOTIA",
       "salary_min": 1800,
       "salary_max": 1800,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1967,7 +1908,7 @@
       "department": "DOMINION OFFICIALS IN NOVA SCOTIA",
       "salary_min": 2600,
       "salary_max": 2600,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1983,7 +1924,7 @@
       "department": "DOMINION OFFICIALS IN NOVA SCOTIA",
       "salary_min": 2400,
       "salary_max": 2400,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1999,7 +1940,7 @@
       "department": "DOMINION OFFICIALS IN NOVA SCOTIA",
       "salary_min": 2400,
       "salary_max": 2400,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2015,7 +1956,7 @@
       "department": "DOMINION OFFICIALS IN NOVA SCOTIA",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2031,7 +1972,7 @@
       "department": "DOMINION OFFICIALS IN NOVA SCOTIA",
       "salary_min": 1600,
       "salary_max": 1600,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2047,7 +1988,7 @@
       "department": "DOMINION OFFICIALS IN NOVA SCOTIA",
       "salary_min": 2400,
       "salary_max": 2400,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2063,7 +2004,7 @@
       "department": "DOMINION OFFICIALS IN NOVA SCOTIA",
       "salary_min": 2400,
       "salary_max": 2400,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2071,15 +2012,15 @@
       "location": null
     },
     {
-      "name": "Charles Foot",
-      "canonical_name": "Foot, Charles",
-      "given_names": "Charles",
+      "name": "Thomas Foot",
+      "canonical_name": "Foot, Thomas",
+      "given_names": "Thomas",
       "surname": "Foot",
       "position": "Chief Accountant and Secretary",
       "department": "DOMINION OFFICIALS IN NOVA SCOTIA",
       "salary_min": 1600,
       "salary_max": 1600,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2090,12 +2031,12 @@
   "validation_summary": {
     "colony": "Nova Scotia",
     "year": 1909,
-    "total": 130,
-    "high_confidence": 122,
+    "total": 126,
+    "high_confidence": 118,
     "medium_confidence": 7,
     "low_confidence": 1,
     "quarantined": 1,
-    "passed": 129,
-    "anomaly_count": 8
+    "passed": 125,
+    "anomaly_count": 5
   }
 }

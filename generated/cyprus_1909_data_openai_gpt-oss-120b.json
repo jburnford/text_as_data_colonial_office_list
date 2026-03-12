@@ -1,10 +1,10 @@
 {
   "colony": "Cyprus",
   "year": 1909,
-  "generated": "2026-03-12T03:56:56.962531",
+  "generated": "2026-03-12T08:42:02.856832",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 205,
+  "total_officials": 203,
   "officials": [
     {
       "name": "Sir Charles A. King-Harman",
@@ -479,8 +479,8 @@
       "canonical_name": "Clauson",
       "given_names": "",
       "surname": "Clauson",
-      "position": null,
-      "department": null,
+      "position": "",
+      "department": "Chief Secretary\u2019s office",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -619,7 +619,7 @@
       "location": null
     },
     {
-      "name": "Major W. N. Bolton",
+      "name": "W. N. Bolton",
       "canonical_name": "Bolton, W. N.",
       "given_names": "W. N.",
       "surname": "Bolton",
@@ -683,7 +683,7 @@
       "location": null
     },
     {
-      "name": "Lieut.-Col. J. C. Gore",
+      "name": "J. C. Gore",
       "canonical_name": "Gore, J. C.",
       "given_names": "J. C.",
       "surname": "Gore",
@@ -707,7 +707,7 @@
       "department": "Treasury",
       "salary_min": 180,
       "salary_max": 250,
-      "allowances": null,
+      "allowances": "10l.-30l. personal",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -755,7 +755,7 @@
       "department": "Treasury",
       "salary_min": 120,
       "salary_max": 250,
-      "allowances": null,
+      "allowances": "10l.-30l. personal",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -803,7 +803,7 @@
       "department": "Treasury",
       "salary_min": 200,
       "salary_max": 240,
-      "allowances": null,
+      "allowances": "forage allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -963,7 +963,7 @@
       "department": "Customs Department",
       "salary_min": 120,
       "salary_max": 120,
-      "allowances": "60l.-30l. personal",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -985,22 +985,6 @@
       "military_rank": null,
       "salary_scale": null,
       "location": "Limassol"
-    },
-    {
-      "name": "Bolton",
-      "canonical_name": "Bolton",
-      "given_names": "",
-      "surname": "Bolton",
-      "position": null,
-      "department": "Customs Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": "Major",
-      "salary_scale": null,
-      "location": null
     },
     {
       "name": "F. Gaffiero",
@@ -1123,7 +1107,7 @@
       "department": "Land Registration",
       "salary_min": 150,
       "salary_max": 200,
-      "allowances": "30l. personal",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1264,7 +1248,7 @@
       "given_names": "C. R.",
       "surname": "Tyser",
       "position": "Chief Justice",
-      "department": "Legal Departments",
+      "department": "Supreme Court",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -1280,7 +1264,7 @@
       "given_names": "A.",
       "surname": "Bertram",
       "position": "Puisne Judge",
-      "department": "Legal Departments",
+      "department": "Supreme Court",
       "salary_min": 750,
       "salary_max": 750,
       "allowances": null,
@@ -1296,7 +1280,7 @@
       "given_names": "N.",
       "surname": "Vitalis",
       "position": "Chief Interpreter and Registrar",
-      "department": "Legal Departments",
+      "department": "Supreme Court",
       "salary_min": 250,
       "salary_max": 250,
       "allowances": null,
@@ -1312,7 +1296,7 @@
       "given_names": "M. Izzet",
       "surname": "Sarajzade",
       "position": "Assistant Registrar and Clerk to the Judges",
-      "department": "Legal Departments",
+      "department": "Supreme Court",
       "salary_min": 120,
       "salary_max": 120,
       "allowances": null,
@@ -1328,7 +1312,7 @@
       "given_names": "J. R.",
       "surname": "Holmes",
       "position": "President",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 525,
       "salary_max": 525,
       "allowances": null,
@@ -1336,7 +1320,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nicosia"
     },
     {
       "name": "T. Mitzi",
@@ -1344,7 +1328,7 @@
       "given_names": "T.",
       "surname": "Mitzi",
       "position": "Judge",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 240,
       "salary_max": 240,
       "allowances": null,
@@ -1352,7 +1336,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nicosia"
     },
     {
       "name": "A. Izzet",
@@ -1360,7 +1344,7 @@
       "given_names": "A.",
       "surname": "Izzet",
       "position": "Judge",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 240,
       "salary_max": 240,
       "allowances": null,
@@ -1368,7 +1352,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nicosia"
     },
     {
       "name": "N. Cababe",
@@ -1376,7 +1360,7 @@
       "given_names": "N.",
       "surname": "Cababe",
       "position": "Interpreter and Registrar",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 174,
       "salary_max": 174,
       "allowances": "includes 18l. personal",
@@ -1384,7 +1368,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nicosia"
     },
     {
       "name": "C. Yiannaki",
@@ -1392,7 +1376,7 @@
       "given_names": "C.",
       "surname": "Yiannaki",
       "position": "Assistant Interpreter and Registrar",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 84,
       "salary_max": 84,
       "allowances": null,
@@ -1400,7 +1384,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nicosia"
     },
     {
       "name": "T. W. Haycraft",
@@ -1408,7 +1392,7 @@
       "given_names": "T. W.",
       "surname": "Haycraft",
       "position": "President",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -1416,7 +1400,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Larnaca"
     },
     {
       "name": "A. K. Palaeologos",
@@ -1424,7 +1408,7 @@
       "given_names": "A. K.",
       "surname": "Palaeologos",
       "position": "Judge",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 220,
       "salary_max": 220,
       "allowances": null,
@@ -1432,7 +1416,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Larnaca"
     },
     {
       "name": "H. Hilmi Muftizade",
@@ -1440,7 +1424,7 @@
       "given_names": "H. Hilmi",
       "surname": "Muftizade",
       "position": "Judge",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 220,
       "salary_max": 220,
       "allowances": null,
@@ -1448,7 +1432,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Larnaca"
     },
     {
       "name": "B. P. T. Carletti",
@@ -1456,7 +1440,7 @@
       "given_names": "B. P. T.",
       "surname": "Carletti",
       "position": "Interpreter and Registrar",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 150,
       "salary_max": 150,
       "allowances": null,
@@ -1464,7 +1448,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Larnaca"
     },
     {
       "name": "C. Dandolo",
@@ -1472,7 +1456,7 @@
       "given_names": "C.",
       "surname": "Dandolo",
       "position": "Clerk and Assistant Interpreter and Registrar",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 78,
       "salary_max": 78,
       "allowances": null,
@@ -1480,7 +1464,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Larnaca"
     },
     {
       "name": "A. L. C. Stuart",
@@ -1488,7 +1472,7 @@
       "given_names": "A. L. C.",
       "surname": "Stuart",
       "position": "President",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 525,
       "salary_max": 525,
       "allowances": null,
@@ -1496,7 +1480,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Limassol"
     },
     {
       "name": "I. Economides",
@@ -1504,7 +1488,7 @@
       "given_names": "I.",
       "surname": "Economides",
       "position": "Judge",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 220,
       "salary_max": 220,
       "allowances": null,
@@ -1512,7 +1496,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Limassol"
     },
     {
       "name": "M. Atta",
@@ -1520,7 +1504,7 @@
       "given_names": "M.",
       "surname": "Atta",
       "position": "Judge",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 220,
       "salary_max": 220,
       "allowances": null,
@@ -1528,7 +1512,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Limassol"
     },
     {
       "name": "J. S. Markides",
@@ -1536,7 +1520,7 @@
       "given_names": "J. S.",
       "surname": "Markides",
       "position": "Interpreter and Registrar",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 144,
       "salary_max": 144,
       "allowances": null,
@@ -1544,7 +1528,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Limassol"
     },
     {
       "name": "G. A. Vondiziano",
@@ -1552,7 +1536,7 @@
       "given_names": "G. A.",
       "surname": "Vondiziano",
       "position": "Clerk and Assistant Interpreter and Registrar",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 78,
       "salary_max": 78,
       "allowances": null,
@@ -1560,7 +1544,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Limassol"
     },
     {
       "name": "J. C. Macaskie",
@@ -1568,7 +1552,7 @@
       "given_names": "J. C.",
       "surname": "Macaskie",
       "position": "President",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -1576,7 +1560,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Famagusta"
     },
     {
       "name": "S. M. Macridi",
@@ -1584,7 +1568,7 @@
       "given_names": "S. M.",
       "surname": "Macridi",
       "position": "Judge",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 200,
       "salary_max": 200,
       "allowances": null,
@@ -1592,7 +1576,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Famagusta"
     },
     {
       "name": "A. V. Baroutjizade",
@@ -1600,7 +1584,7 @@
       "given_names": "A. V.",
       "surname": "Baroutjizade",
       "position": "Judge",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 200,
       "salary_max": 200,
       "allowances": null,
@@ -1608,7 +1592,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Famagusta"
     },
     {
       "name": "M. P. Efthymiades",
@@ -1616,7 +1600,7 @@
       "given_names": "M. P.",
       "surname": "Efthymiades",
       "position": "Interpreter and Registrar",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 120,
       "salary_max": 120,
       "allowances": null,
@@ -1624,7 +1608,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Famagusta"
     },
     {
       "name": "S. Papadopoulos",
@@ -1632,7 +1616,7 @@
       "given_names": "S.",
       "surname": "Papadopoulos",
       "position": "Clerk and Assistant Interpreter and Registrar",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 60,
       "salary_max": 60,
       "allowances": null,
@@ -1640,7 +1624,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Famagusta"
     },
     {
       "name": "H. A. Bros",
@@ -1648,7 +1632,7 @@
       "given_names": "H. A.",
       "surname": "Bros",
       "position": "President",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 450,
       "salary_max": 450,
       "allowances": null,
@@ -1656,7 +1640,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Paphos"
     },
     {
       "name": "D. G. Demetriades",
@@ -1664,7 +1648,7 @@
       "given_names": "D. G.",
       "surname": "Demetriades",
       "position": "Judge",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 200,
       "salary_max": 200,
       "allowances": null,
@@ -1672,7 +1656,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Paphos"
     },
     {
       "name": "M. Sami",
@@ -1680,7 +1664,7 @@
       "given_names": "M.",
       "surname": "Sami",
       "position": "Judge",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 200,
       "salary_max": 200,
       "allowances": null,
@@ -1688,7 +1672,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Paphos"
     },
     {
       "name": "N. G. Papadopoulos",
@@ -1696,7 +1680,7 @@
       "given_names": "N. G.",
       "surname": "Papadopoulos",
       "position": "Interpreter and Registrar",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 120,
       "salary_max": 120,
       "allowances": null,
@@ -1704,7 +1688,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Paphos"
     },
     {
       "name": "Y. J. Eliades",
@@ -1712,7 +1696,7 @@
       "given_names": "Y. J.",
       "surname": "Eliades",
       "position": "Assistant Registrar",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 60,
       "salary_max": 60,
       "allowances": null,
@@ -1720,7 +1704,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Paphos"
     },
     {
       "name": "S. Fisher",
@@ -1728,7 +1712,7 @@
       "given_names": "S.",
       "surname": "Fisher",
       "position": "President",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 450,
       "salary_max": 450,
       "allowances": null,
@@ -1736,7 +1720,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Kyrenia"
     },
     {
       "name": "P. Christopoulos",
@@ -1744,7 +1728,7 @@
       "given_names": "P.",
       "surname": "Christopoulos",
       "position": "Judge",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 175,
       "salary_max": 175,
       "allowances": null,
@@ -1752,15 +1736,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Kyrenia"
     },
     {
       "name": "A. Nadiri Potami-lazide",
-      "canonical_name": "Nadiri Potami-lazide, A.",
-      "given_names": "A.",
-      "surname": "Nadiri Potami-lazide",
+      "canonical_name": "Potami-lazide, A. Nadiri",
+      "given_names": "A. Nadiri",
+      "surname": "Potami-lazide",
       "position": "Judge",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 175,
       "salary_max": 175,
       "allowances": null,
@@ -1768,7 +1752,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Kyrenia"
     },
     {
       "name": "M. Kaasilian",
@@ -1776,7 +1760,7 @@
       "given_names": "M.",
       "surname": "Kaasilian",
       "position": "Interpreter and Registrar",
-      "department": "Legal Departments",
+      "department": "District Courts",
       "salary_min": 144,
       "salary_max": 144,
       "allowances": null,
@@ -1784,7 +1768,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Kyrenia"
     },
     {
       "name": "Numan Effendi",
@@ -1792,7 +1776,7 @@
       "given_names": "Numan",
       "surname": "Effendi",
       "position": "Chief Cadi of Mahkeme-i-Sheri",
-      "department": "Legal Departments",
+      "department": "Sheri Courts",
       "salary_min": 300,
       "salary_max": 300,
       "allowances": null,
@@ -1808,7 +1792,7 @@
       "given_names": "Hj. Haffuz Ziai",
       "surname": "Effendi",
       "position": "Cadi, Nicosia and Kyrenia",
-      "department": "Legal Departments",
+      "department": "Sheri Courts",
       "salary_min": 144,
       "salary_max": 144,
       "allowances": null,
@@ -1820,11 +1804,11 @@
     },
     {
       "name": "A. Houloussi Effendi",
-      "canonical_name": "Effendi, A.",
-      "given_names": "A.",
-      "surname": "Houloussi Effendi",
+      "canonical_name": "Effendi, A. Houloussi",
+      "given_names": "A. Houloussi",
+      "surname": "Effendi",
       "position": "Cadi, Famagusta and Larnaca",
-      "department": "Legal Departments",
+      "department": "Sheri Courts",
       "salary_min": 120,
       "salary_max": 120,
       "allowances": null,
@@ -1836,11 +1820,11 @@
     },
     {
       "name": "E. Niazi Abdurrahman Effendi",
-      "canonical_name": "Effendi, E.",
-      "given_names": "E.",
-      "surname": "Niazi Abdurrahman Effendi",
+      "canonical_name": "Effendi, E. Niazi Abdurrahman",
+      "given_names": "E. Niazi Abdurrahman",
+      "surname": "Effendi",
       "position": "Cadi, Limassol and Paphos",
-      "department": "Legal Departments",
+      "department": "Sheri Courts",
       "salary_min": 120,
       "salary_max": 120,
       "allowances": null,
@@ -1856,7 +1840,7 @@
       "given_names": "J. A. S.",
       "surname": "Bucknill",
       "position": "King's Advocate",
-      "department": "Legal Departments",
+      "department": "King's Advocate",
       "salary_min": 750,
       "salary_max": 750,
       "allowances": null,
@@ -1872,7 +1856,7 @@
       "given_names": "G. G.",
       "surname": "Amirayan",
       "position": "Assistant King's Advocate",
-      "department": "Legal Departments",
+      "department": "King's Advocate",
       "salary_min": 350,
       "salary_max": 350,
       "allowances": null,
@@ -1888,7 +1872,7 @@
       "given_names": "S.",
       "surname": "Stavrinides",
       "position": "Clerk and Interpreter",
-      "department": "Legal Departments",
+      "department": "King's Advocate",
       "salary_min": 100,
       "salary_max": 120,
       "allowances": null,
@@ -1904,7 +1888,7 @@
       "given_names": "Hadji Ali Rifky",
       "surname": "Effendi",
       "position": "The Mufti",
-      "department": "Legal Departments",
+      "department": "The Mufti",
       "salary_min": 72,
       "salary_max": 72,
       "allowances": null,
@@ -1964,9 +1948,9 @@
     },
     {
       "name": "W. W. Durham Hall",
-      "canonical_name": "Hall, W. W. Durham",
-      "given_names": "W. W. Durham",
-      "surname": "Hall",
+      "canonical_name": "Durham Hall, W. W.",
+      "given_names": "W. W.",
+      "surname": "Durham Hall",
       "position": "Local Commandants of Police",
       "department": "Police Department",
       "salary_min": 305,
@@ -2203,7 +2187,7 @@
       "location": null
     },
     {
-      "name": "Captain J. H. Learmonth",
+      "name": "J. H. Learmonth",
       "canonical_name": "Learmonth, J. H.",
       "given_names": "J. H.",
       "surname": "Learmonth",
@@ -2227,7 +2211,7 @@
       "department": "Prison Department",
       "salary_min": 180,
       "salary_max": 240,
-      "allowances": "free quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2243,7 +2227,7 @@
       "department": "Prison Department",
       "salary_min": 120,
       "salary_max": 160,
-      "allowances": "free quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2275,7 +2259,7 @@
       "department": "Prison Department",
       "salary_min": 55,
       "salary_max": 55,
-      "allowances": "6l house allowance",
+      "allowances": "6l. house allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2309,7 +2293,7 @@
       "department": "Medical Department",
       "salary_min": 120,
       "salary_max": 120,
-      "allowances": "and 6l. to 30l. personal",
+      "allowances": "6l. to 30l. personal",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2526,8 +2510,8 @@
     },
     {
       "name": "Rev. F. D. Newham",
-      "canonical_name": "Newham, Rev. F. D.",
-      "given_names": "Rev. F. D.",
+      "canonical_name": "Newham, F. D.",
+      "given_names": "F. D.",
       "surname": "Newham",
       "position": "Chief Inspector of Schools",
       "department": "Education Department",
@@ -2645,7 +2629,7 @@
       "department": "Post Office Department",
       "salary_min": 320,
       "salary_max": 400,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2693,7 +2677,7 @@
       "department": "Post Office Department",
       "salary_min": 75,
       "salary_max": 120,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2709,7 +2693,7 @@
       "department": "Post Office Department",
       "salary_min": 75,
       "salary_max": 120,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2941,9 +2925,9 @@
       "location": null
     },
     {
-      "name": "W. Williams",
-      "canonical_name": "Williams, W.",
-      "given_names": "W.",
+      "name": "William Williams",
+      "canonical_name": "Williams, William",
+      "given_names": "William",
       "surname": "Williams",
       "position": "1st Divisional Engineer",
       "department": "Public Works Department",
@@ -3197,22 +3181,6 @@
       "location": "Famagusta"
     },
     {
-      "name": "J. Caloutsis",
-      "canonical_name": "Caloutsis, J.",
-      "given_names": "J.",
-      "surname": "Caloutsis",
-      "position": "Consul",
-      "department": "Foreign Consuls",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "Larnaca"
-    },
-    {
       "name": "A. L. Mantovani",
       "canonical_name": "Mantovani, A. L.",
       "given_names": "A. L.",
@@ -3296,12 +3264,12 @@
   "validation_summary": {
     "colony": "Cyprus",
     "year": 1909,
-    "total": 206,
-    "high_confidence": 203,
-    "medium_confidence": 2,
+    "total": 204,
+    "high_confidence": 202,
+    "medium_confidence": 1,
     "low_confidence": 1,
     "quarantined": 1,
-    "passed": 205,
+    "passed": 203,
     "anomaly_count": 3
   }
 }
