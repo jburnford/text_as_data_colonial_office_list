@@ -1,7 +1,7 @@
 {
   "colony": "Sierra Leone",
   "year": 1907,
-  "generated": "2026-03-12T03:07:32.353964",
+  "generated": "2026-03-12T08:34:24.931385",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 300,
@@ -99,7 +99,7 @@
       "department": "Colonial Secretary's Office",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "160l. duty allowance",
+      "allowances": "160l duty allowance",
       "honors": [
         "C.M.G."
       ],
@@ -190,7 +190,7 @@
     },
     {
       "name": "Hadir-u-deen",
-      "canonical_name": "Hadir-u-deen",
+      "canonical_name": "Hadir-u-deen, ",
       "given_names": "",
       "surname": "Hadir-u-deen",
       "position": "Chief Clerk",
@@ -369,8 +369,8 @@
       "canonical_name": "Johnson, A. G.",
       "given_names": "A. G.",
       "surname": "Johnson",
-      "position": "1st Clerk",
-      "department": "Examining and Correspondence Branch",
+      "position": "Clerk",
+      "department": "Treasury Department",
       "salary_min": 120,
       "salary_max": 150,
       "allowances": null,
@@ -385,8 +385,8 @@
       "canonical_name": "Gilpin, W. B.",
       "given_names": "W. B.",
       "surname": "Gilpin",
-      "position": "2nd Clerk",
-      "department": "Examining and Correspondence Branch",
+      "position": "Clerk",
+      "department": "Treasury Department",
       "salary_min": 100,
       "salary_max": 120,
       "allowances": null,
@@ -401,8 +401,8 @@
       "canonical_name": "Kelson, J. H.",
       "given_names": "J. H.",
       "surname": "Kelson",
-      "position": "3rd Clerk",
-      "department": "Examining and Correspondence Branch",
+      "position": "Clerk",
+      "department": "Treasury Department",
       "salary_min": 65,
       "salary_max": 80,
       "allowances": null,
@@ -417,8 +417,8 @@
       "canonical_name": "Knox, J. F.",
       "given_names": "J. F.",
       "surname": "Knox",
-      "position": "4th Clerk",
-      "department": "Examining and Correspondence Branch",
+      "position": "Clerk",
+      "department": "Treasury Department",
       "salary_min": 45,
       "salary_max": 55,
       "allowances": null,
@@ -433,8 +433,8 @@
       "canonical_name": "Bull, G. P.",
       "given_names": "G. P.",
       "surname": "Bull",
-      "position": "5th Clerk",
-      "department": "Examining and Correspondence Branch",
+      "position": "Clerk",
+      "department": "Treasury Department",
       "salary_min": 35,
       "salary_max": 45,
       "allowances": null,
@@ -449,8 +449,8 @@
       "canonical_name": "Taylor, E. G.",
       "given_names": "E. G.",
       "surname": "Taylor",
-      "position": "1st Clerk",
-      "department": "Accounting Branch",
+      "position": "Clerk",
+      "department": "Treasury Department",
       "salary_min": 100,
       "salary_max": 120,
       "allowances": null,
@@ -465,8 +465,8 @@
       "canonical_name": "Benjamin, S.",
       "given_names": "S.",
       "surname": "Benjamin",
-      "position": "2nd Clerk",
-      "department": "Accounting Branch",
+      "position": "Clerk",
+      "department": "Treasury Department",
       "salary_min": 70,
       "salary_max": 90,
       "allowances": null,
@@ -481,8 +481,8 @@
       "canonical_name": "Elba, C. J.",
       "given_names": "C. J.",
       "surname": "Elba",
-      "position": "3rd Clerk",
-      "department": "Accounting Branch",
+      "position": "Clerk",
+      "department": "Treasury Department",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -497,8 +497,8 @@
       "canonical_name": "Zizer, W. S.",
       "given_names": "W. S.",
       "surname": "Zizer",
-      "position": "4th Clerk",
-      "department": "Accounting Branch",
+      "position": "Clerk",
+      "department": "Treasury Department",
       "salary_min": 30,
       "salary_max": 40,
       "allowances": null,
@@ -1217,7 +1217,7 @@
       "canonical_name": "Coker, J. S.",
       "given_names": "J. S.",
       "surname": "Coker",
-      "position": "Clerk to Postmaster, Sherbro",
+      "position": "Clerk to Postmaster",
       "department": "Post Office",
       "salary_min": 30,
       "salary_max": 40,
@@ -1539,7 +1539,7 @@
       "canonical_name": "Nicol, J.",
       "given_names": "J.",
       "surname": "Nicol",
-      "position": "Clerk, do.",
+      "position": "Clerk",
       "department": "Legal Department",
       "salary_min": 40,
       "salary_max": 50,
@@ -1828,7 +1828,7 @@
       "given_names": "N. J.",
       "surname": "Spain",
       "position": "Supervisor",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 300,
       "salary_max": 300,
       "allowances": null,
@@ -1844,7 +1844,7 @@
       "given_names": "G. T.",
       "surname": "Lewis",
       "position": "Chief Clerk",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 140,
       "salary_max": 170,
       "allowances": null,
@@ -1860,7 +1860,7 @@
       "given_names": "W. A. H.",
       "surname": "Smith",
       "position": "Warehousekeeper",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 80,
       "salary_max": 90,
       "allowances": null,
@@ -3750,7 +3750,7 @@
       "given_names": "T. L.",
       "surname": "Morland",
       "position": "Inspector-General",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Sierra Leone Battalion",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -3768,8 +3768,8 @@
       "canonical_name": "Lyon, ",
       "given_names": "",
       "surname": "Lyon",
-      "position": "Staff Officers",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Staff Officer",
+      "department": "Sierra Leone Battalion",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -3786,8 +3786,8 @@
       "canonical_name": "Maud, W. H.",
       "given_names": "W. H.",
       "surname": "Maud",
-      "position": "Staff Officers",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Staff Officer",
+      "department": "Sierra Leone Battalion",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -3803,7 +3803,7 @@
       "given_names": "C. E.",
       "surname": "Palmer",
       "position": "Major",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Sierra Leone Battalion",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -3818,8 +3818,8 @@
       "canonical_name": "Le Mesurier, F. N.",
       "given_names": "F. N.",
       "surname": "Le Mesurier",
-      "position": "Captains",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Captain",
+      "department": "Sierra Leone Battalion",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3834,8 +3834,8 @@
       "canonical_name": "Bond, H. H.",
       "given_names": "H. H.",
       "surname": "Bond",
-      "position": "Captains",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Captain",
+      "department": "Sierra Leone Battalion",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3850,8 +3850,8 @@
       "canonical_name": "Murray, L.",
       "given_names": "L.",
       "surname": "Murray",
-      "position": "Captains",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Captain",
+      "department": "Sierra Leone Battalion",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3866,8 +3866,8 @@
       "canonical_name": "Norman, C. C.",
       "given_names": "C. C.",
       "surname": "Norman",
-      "position": "Captains",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Captain",
+      "department": "Sierra Leone Battalion",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3882,8 +3882,8 @@
       "canonical_name": "Newstead, G. P.",
       "given_names": "G. P.",
       "surname": "Newstead",
-      "position": "Captains",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Captain",
+      "department": "Sierra Leone Battalion",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3898,8 +3898,8 @@
       "canonical_name": "Cookson, P. S.",
       "given_names": "P. S.",
       "surname": "Cookson",
-      "position": "Captains",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Captain",
+      "department": "Sierra Leone Battalion",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3914,8 +3914,8 @@
       "canonical_name": "Hart, J. G. V.",
       "given_names": "J. G. V.",
       "surname": "Hart",
-      "position": "Lieutenants",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Lieutenant",
+      "department": "Sierra Leone Battalion",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3930,8 +3930,8 @@
       "canonical_name": "Supple, W. H.",
       "given_names": "W. H.",
       "surname": "Supple",
-      "position": "Lieutenants",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Lieutenant",
+      "department": "Sierra Leone Battalion",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3946,8 +3946,8 @@
       "canonical_name": "Bill, J. F.",
       "given_names": "J. F.",
       "surname": "Bill",
-      "position": "Lieutenants",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Lieutenant",
+      "department": "Sierra Leone Battalion",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3962,8 +3962,8 @@
       "canonical_name": "Goodwin, H.",
       "given_names": "H.",
       "surname": "Goodwin",
-      "position": "Lieutenants",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Lieutenant",
+      "department": "Sierra Leone Battalion",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3978,8 +3978,8 @@
       "canonical_name": "Dawes, G. W. P.",
       "given_names": "G. W. P.",
       "surname": "Dawes",
-      "position": "Lieutenants",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Lieutenant",
+      "department": "Sierra Leone Battalion",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3994,8 +3994,8 @@
       "canonical_name": "Ayton, H. R.",
       "given_names": "H. R.",
       "surname": "Ayton",
-      "position": "Lieutenants",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Lieutenant",
+      "department": "Sierra Leone Battalion",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -4010,8 +4010,8 @@
       "canonical_name": "Lawrence, K. E.",
       "given_names": "K. E.",
       "surname": "Lawrence",
-      "position": "Lieutenants",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Lieutenant",
+      "department": "Sierra Leone Battalion",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -4026,8 +4026,8 @@
       "canonical_name": "Patterson, J.",
       "given_names": "J.",
       "surname": "Patterson",
-      "position": "Lieutenants",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Lieutenant",
+      "department": "Sierra Leone Battalion",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -4042,8 +4042,8 @@
       "canonical_name": "Gill, R. H.",
       "given_names": "R. H.",
       "surname": "Gill",
-      "position": "Lieutenants",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Lieutenant",
+      "department": "Sierra Leone Battalion",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -4058,8 +4058,8 @@
       "canonical_name": "Skelton, E. G.",
       "given_names": "E. G.",
       "surname": "Skelton",
-      "position": "Lieutenants",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Lieutenant",
+      "department": "Sierra Leone Battalion",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -4075,7 +4075,7 @@
       "given_names": "A. E.",
       "surname": "Bickersteth",
       "position": "Paymaster Clerk",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Sierra Leone Battalion",
       "salary_min": 50,
       "salary_max": 50,
       "allowances": null,
@@ -4091,7 +4091,7 @@
       "given_names": "J. W.",
       "surname": "Carew",
       "position": "Quartermaster Clerk",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Sierra Leone Battalion",
       "salary_min": 65,
       "salary_max": 65,
       "allowances": null,
@@ -4106,8 +4106,8 @@
       "canonical_name": "Macaulay, J. B.",
       "given_names": "J. B.",
       "surname": "Macaulay",
-      "position": "Company Pay Clerks",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Company Pay Clerk",
+      "department": "Sierra Leone Battalion",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -4122,8 +4122,8 @@
       "canonical_name": "Lavers, F.",
       "given_names": "F.",
       "surname": "Lavers",
-      "position": "Company Pay Clerks",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Company Pay Clerk",
+      "department": "Sierra Leone Battalion",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -4138,8 +4138,8 @@
       "canonical_name": "Harding, G. A.",
       "given_names": "G. A.",
       "surname": "Harding",
-      "position": "Company Pay Clerks",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Company Pay Clerk",
+      "department": "Sierra Leone Battalion",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -4154,8 +4154,8 @@
       "canonical_name": "Coker, S. J.",
       "given_names": "S. J.",
       "surname": "Coker",
-      "position": "Company Pay Clerks",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Company Pay Clerk",
+      "department": "Sierra Leone Battalion",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -4171,7 +4171,7 @@
       "given_names": "M.",
       "surname": "Deen",
       "position": "Orderly Room Clerk",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Sierra Leone Battalion",
       "salary_min": 50,
       "salary_max": 50,
       "allowances": null,
@@ -4195,7 +4195,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro"
+      "location": null
     },
     {
       "name": "C. T. Reaney",
@@ -4211,7 +4211,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro"
+      "location": null
     },
     {
       "name": "L. A. Fyne",
@@ -4227,7 +4227,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro"
+      "location": null
     },
     {
       "name": "E. Faulkner",
@@ -4243,7 +4243,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "H. A. Williams",
@@ -4259,7 +4259,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "A. Hudson",
@@ -4275,7 +4275,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "J. R. Wright",
@@ -4291,7 +4291,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "E. C. D. Fairtough",
@@ -4310,7 +4310,7 @@
       "qualifications": [],
       "military_rank": "Major",
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "J. C. Maxwell",
@@ -4326,7 +4326,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "G. D. Anderson",
@@ -4342,7 +4342,7 @@
       "qualifications": [],
       "military_rank": "Major",
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "H. G. Warren",
@@ -4358,7 +4358,7 @@
       "qualifications": [],
       "military_rank": "Major",
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "W. St. John Oswell",
@@ -4374,7 +4374,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "A. G. F. Paling",
@@ -4390,7 +4390,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "W. D. D. Bowden",
@@ -4406,7 +4406,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "A. W. Boddy",
@@ -4422,7 +4422,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "H. E. Bailey",
@@ -4438,7 +4438,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "J. J. K. Greenway",
@@ -4454,7 +4454,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "J. Craven",
@@ -4470,7 +4470,7 @@
       "qualifications": [],
       "military_rank": "Captain",
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "W. Addison",
@@ -4484,9 +4484,9 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.",
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "J. S. Burra",
@@ -4500,9 +4500,9 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.",
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "J. A. S. Davies",
@@ -4518,7 +4518,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "C. A. Morrison",
@@ -4534,7 +4534,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "A. N. Morrison",
@@ -4550,7 +4550,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "T. N. Joah",
@@ -4566,7 +4566,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "J. G. Pearce",
@@ -4582,7 +4582,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "J. B. Jarrett",
@@ -4598,7 +4598,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "M. J. Cole",
@@ -4614,7 +4614,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "E. A. Turner",
@@ -4630,7 +4630,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "T. N. Spencer",
@@ -4646,7 +4646,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "T. R. Jones",
@@ -4662,7 +4662,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "O. C. H. Thompson",
@@ -4678,7 +4678,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Waterloo"
+      "location": null
     },
     {
       "name": "C. Perineaux",

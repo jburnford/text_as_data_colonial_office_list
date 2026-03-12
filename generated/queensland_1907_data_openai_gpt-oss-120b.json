@@ -1,13 +1,13 @@
 {
   "colony": "Queensland",
   "year": 1907,
-  "generated": "2026-03-12T02:49:41.863319",
+  "generated": "2026-03-12T08:26:42.986113",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 172,
+  "total_officials": 175,
   "officials": [
     {
-      "name": "Rt. Hon. Lord Chelmsford",
+      "name": "Lord Chelmsford",
       "canonical_name": "Chelmsford, Lord",
       "given_names": "Lord",
       "surname": "Chelmsford",
@@ -23,7 +23,7 @@
       "location": null
     },
     {
-      "name": "Capt. F. G. Newton",
+      "name": "F. G. Newton",
       "canonical_name": "Newton, F. G.",
       "given_names": "F. G.",
       "surname": "Newton",
@@ -39,7 +39,7 @@
       "location": null
     },
     {
-      "name": "Capt. N. B. Brooke",
+      "name": "N. B. Brooke",
       "canonical_name": "Brooke, N. B.",
       "given_names": "N. B.",
       "surname": "Brooke",
@@ -55,10 +55,10 @@
       "location": null
     },
     {
-      "name": "His Excellency the Governor",
-      "canonical_name": "Governor, His Excellency the",
-      "given_names": "His Excellency the",
-      "surname": "Governor",
+      "name": "Lord Chelmsford",
+      "canonical_name": "Chelmsford, Lord",
+      "given_names": "Lord",
+      "surname": "Chelmsford",
       "position": "President",
       "department": "Executive Council",
       "salary_min": null,
@@ -71,7 +71,7 @@
       "location": null
     },
     {
-      "name": "Hon. W. Kidston",
+      "name": "W. Kidston",
       "canonical_name": "Kidston, W.",
       "given_names": "W.",
       "surname": "Kidston",
@@ -87,7 +87,7 @@
       "location": null
     },
     {
-      "name": "Hon. A. H. Barlow",
+      "name": "A. H. Barlow",
       "canonical_name": "Barlow, A. H.",
       "given_names": "A. H.",
       "surname": "Barlow",
@@ -103,7 +103,7 @@
       "location": null
     },
     {
-      "name": "Hon. J. W. Blair",
+      "name": "J. W. Blair",
       "canonical_name": "Blair, J. W.",
       "given_names": "J. W.",
       "surname": "Blair",
@@ -119,7 +119,7 @@
       "location": null
     },
     {
-      "name": "Hon. J. T. Bell",
+      "name": "J. T. Bell",
       "canonical_name": "Bell, J. T.",
       "given_names": "J. T.",
       "surname": "Bell",
@@ -135,7 +135,7 @@
       "location": null
     },
     {
-      "name": "Hon. D. F. Denham",
+      "name": "D. F. Denham",
       "canonical_name": "Denham, D. F.",
       "given_names": "D. F.",
       "surname": "Denham",
@@ -151,7 +151,7 @@
       "location": null
     },
     {
-      "name": "Hon. P. Airey",
+      "name": "P. Airey",
       "canonical_name": "Airey, P.",
       "given_names": "P.",
       "surname": "Airey",
@@ -167,7 +167,7 @@
       "location": null
     },
     {
-      "name": "Hon. T. O'Sullivan",
+      "name": "T. O'Sullivan",
       "canonical_name": "O'Sullivan, T.",
       "given_names": "T.",
       "surname": "O'Sullivan",
@@ -199,7 +199,7 @@
       "location": null
     },
     {
-      "name": "Hon. A. Morgan",
+      "name": "A. Morgan",
       "canonical_name": "Morgan, A.",
       "given_names": "A.",
       "surname": "Morgan",
@@ -215,7 +215,7 @@
       "location": null
     },
     {
-      "name": "Hon. A. Norton",
+      "name": "A. Norton",
       "canonical_name": "Norton, A.",
       "given_names": "A.",
       "surname": "Norton",
@@ -247,9 +247,9 @@
       "location": null
     },
     {
-      "name": "Hon. Sir Alfred S. Cowley",
-      "canonical_name": "Cowley, Alfred S.",
-      "given_names": "Alfred S.",
+      "name": "Sir Alfred S. Cowley",
+      "canonical_name": "Cowley, Sir Alfred S.",
+      "given_names": "Sir Alfred S.",
       "surname": "Cowley",
       "position": "Speaker",
       "department": "Legislative Assembly",
@@ -288,17 +288,19 @@
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "C.M.G."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Hon. C. G. Holmes A'Court",
-      "canonical_name": "A'Court, C. G. Holmes",
-      "given_names": "C. G. Holmes",
-      "surname": "A'Court",
+      "name": "C. G. Holmes A'Court",
+      "canonical_name": "Holmes A'Court, C. G.",
+      "given_names": "C. G.",
+      "surname": "Holmes A'Court",
       "position": "Clerk Assistant and Sergeant-at-Arms",
       "department": "Legislative Assembly",
       "salary_min": 450,
@@ -311,7 +313,7 @@
       "location": null
     },
     {
-      "name": "J. Murray (Acting)",
+      "name": "J. Murray",
       "canonical_name": "Murray, J.",
       "given_names": "J.",
       "surname": "Murray",
@@ -423,7 +425,7 @@
       "location": null
     },
     {
-      "name": "Hon. E. B. Forrest",
+      "name": "E. B. Forrest",
       "canonical_name": "Forrest, E. B.",
       "given_names": "E. B.",
       "surname": "Forrest",
@@ -443,7 +445,7 @@
       "canonical_name": "Bouchard, T. W.",
       "given_names": "T. W.",
       "surname": "Bouchard",
-      "position": "Member (unspecified district)",
+      "position": "Member for Brisbane, South",
       "department": "Electoral Districts",
       "salary_min": null,
       "salary_max": null,
@@ -459,7 +461,7 @@
       "canonical_name": "Reinhold, C. W. H.",
       "given_names": "C. W. H.",
       "surname": "Reinhold",
-      "position": "Member (unspecified district)",
+      "position": "Member for Brisbane, South",
       "department": "Electoral Districts",
       "salary_min": null,
       "salary_max": null,
@@ -647,6 +649,22 @@
       "location": null
     },
     {
+      "name": "J. Burrows",
+      "canonical_name": "Burrows, J.",
+      "given_names": "J.",
+      "surname": "Burrows",
+      "position": "Member for Charters Towers",
+      "department": "Electoral Districts",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
       "name": "W. J. Paul",
       "canonical_name": "Paul, W. J.",
       "given_names": "W. J.",
@@ -711,7 +729,7 @@
       "location": null
     },
     {
-      "name": "Hon. J. T. Bell",
+      "name": "J. T. Bell",
       "canonical_name": "Bell, J. T.",
       "given_names": "J. T.",
       "surname": "Bell",
@@ -791,7 +809,7 @@
       "location": null
     },
     {
-      "name": "Hon. P. Airey",
+      "name": "P. Airey",
       "canonical_name": "Airey, P.",
       "given_names": "P.",
       "surname": "Airey",
@@ -855,7 +873,23 @@
       "location": null
     },
     {
-      "name": "Hon. J. W. Blair",
+      "name": "D. Mulcahy",
+      "canonical_name": "Mulcahy, D.",
+      "given_names": "D.",
+      "surname": "Mulcahy",
+      "position": "Member for Herbert",
+      "department": "Electoral Districts",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "J. W. Blair",
       "canonical_name": "Blair, J. W.",
       "given_names": "J. W.",
       "surname": "Blair",
@@ -1127,7 +1161,7 @@
       "location": null
     },
     {
-      "name": "Hon. D. F. Denham",
+      "name": "D. F. Denham",
       "canonical_name": "Denham, D. F.",
       "given_names": "D. F.",
       "surname": "Denham",
@@ -1271,7 +1305,7 @@
       "location": null
     },
     {
-      "name": "Hon. R. Philp",
+      "name": "R. Philp",
       "canonical_name": "Philp, R.",
       "given_names": "R.",
       "surname": "Philp",
@@ -1319,7 +1353,7 @@
       "location": null
     },
     {
-      "name": "Hon. T. O'Sullivan",
+      "name": "T. O'Sullivan",
       "canonical_name": "O'Sullivan, T.",
       "given_names": "T.",
       "surname": "O'Sullivan",
@@ -1463,8 +1497,8 @@
       "location": null
     },
     {
-      "name": "Horace Tozer",
-      "canonical_name": "Tozer, Horace",
+      "name": "Sir Horace Tozer",
+      "canonical_name": "Tozer, Sir Horace",
       "given_names": "Horace",
       "surname": "Tozer",
       "position": "Agent-General",
@@ -1547,7 +1581,7 @@
     {
       "name": "Dr. B. B. Ham",
       "canonical_name": "Ham, B. B.",
-      "given_names": "Dr. B. B.",
+      "given_names": "B. B.",
       "surname": "Ham",
       "position": "Commissioner of Public Health",
       "department": "Home Secretary's Department",
@@ -1578,9 +1612,9 @@
     },
     {
       "name": "C. E. de F. Pennefather",
-      "canonical_name": "de F. Pennefather, C. E.",
-      "given_names": "C. E.",
-      "surname": "de F. Pennefather",
+      "canonical_name": "Pennefather, C. E. de F.",
+      "given_names": "C. E. de F.",
+      "surname": "Pennefather",
       "position": "Comptroller-General of Prisons",
       "department": "Home Secretary's Department",
       "salary_min": 550,
@@ -1611,7 +1645,7 @@
     {
       "name": "Sir Pope A. Cooper",
       "canonical_name": "Cooper, Pope A.",
-      "given_names": "Sir Pope A.",
+      "given_names": "Pope A.",
       "surname": "Cooper",
       "position": "Chief Justice",
       "department": "Supreme Court Bench",
@@ -1723,7 +1757,7 @@
     {
       "name": "Sir Arthur Rutledge",
       "canonical_name": "Rutledge, Arthur",
-      "given_names": "Sir Arthur",
+      "given_names": "Arthur",
       "surname": "Rutledge",
       "position": "District Court Judge",
       "department": "Supreme Court Bench",
@@ -2073,9 +2107,9 @@
       "location": null
     },
     {
-      "name": "Dr. H. Maxwell",
-      "canonical_name": "Maxwell, Dr. H.",
-      "given_names": "Dr. H.",
+      "name": "H. Maxwell",
+      "canonical_name": "Maxwell, H.",
+      "given_names": "H.",
       "surname": "Maxwell",
       "position": "Comptroller, Bureau of Central Sugar Mills",
       "department": "Treasury Department",
@@ -2094,7 +2128,7 @@
       "given_names": "T. S.",
       "surname": "Sword",
       "position": "Members of Land Court",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -2110,7 +2144,7 @@
       "given_names": "F. X.",
       "surname": "Heaney",
       "position": "Members of Land Court",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -2126,7 +2160,7 @@
       "given_names": "F. W.",
       "surname": "Woodbine",
       "position": "Members of Land Court",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -2142,7 +2176,7 @@
       "given_names": "W. J.",
       "surname": "Scott",
       "position": "Under-Secretary and Chief Commissioner of Crown Lands",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 700,
       "salary_max": 700,
       "allowances": null,
@@ -2158,7 +2192,7 @@
       "given_names": "P. W.",
       "surname": "Shannon",
       "position": "Assistant Under-Secretary",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 480,
       "salary_max": 480,
       "allowances": null,
@@ -2174,7 +2208,7 @@
       "given_names": "J. S.",
       "surname": "Bennett",
       "position": "Registrar Land Court",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 350,
       "salary_max": 350,
       "allowances": null,
@@ -2190,7 +2224,7 @@
       "given_names": "A. A.",
       "surname": "Sporrers",
       "position": "Chief Surveyor",
-      "department": "Department of Public Lands",
+      "department": "Public Lands",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -2413,7 +2447,7 @@
       "canonical_name": "Donkin, H.",
       "given_names": "H.",
       "surname": "Donkin",
-      "position": "Consul",
+      "position": "Consul for Belgium",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2429,7 +2463,7 @@
       "canonical_name": "Brown, J. H.",
       "given_names": "J. H.",
       "surname": "Brown",
-      "position": "Consul",
+      "position": "Consul for Chili",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2445,7 +2479,7 @@
       "canonical_name": "Lee-Bryce, R.",
       "given_names": "R.",
       "surname": "Lee-Bryce",
-      "position": "Consul",
+      "position": "Consul for Denmark",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2457,11 +2491,11 @@
       "location": null
     },
     {
-      "name": "E. Hirachfeld",
+      "name": "Dr. E. Hirachfeld",
       "canonical_name": "Hirachfeld, E.",
       "given_names": "E.",
       "surname": "Hirachfeld",
-      "position": "Consul",
+      "position": "Consul for German Empire",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2477,7 +2511,7 @@
       "canonical_name": "Spence, L. H.",
       "given_names": "L. H.",
       "surname": "Spence",
-      "position": "Consul",
+      "position": "Consul for Greece",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2493,7 +2527,7 @@
       "canonical_name": "Narita, Goro",
       "given_names": "Goro",
       "surname": "Narita",
-      "position": "Consul",
+      "position": "Consul for Japan",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2509,7 +2543,7 @@
       "canonical_name": "Clark, J.",
       "given_names": "J.",
       "surname": "Clark",
-      "position": "Consul",
+      "position": "Consul for Netherlands",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2518,14 +2552,30 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "G. T. Southern"
+      "location": null
     },
     {
-      "name": "A. J. Carter",
+      "name": "G. T. Southern",
+      "canonical_name": "Southern, G. T.",
+      "given_names": "G. T.",
+      "surname": "Southern",
+      "position": "Vice-Consul",
+      "department": "Consuls for Foreign Countries",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Hon. A. J. Carter",
       "canonical_name": "Carter, A. J.",
       "given_names": "A. J.",
       "surname": "Carter",
-      "position": "Consul",
+      "position": "Consul for Norway",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2541,7 +2591,7 @@
       "canonical_name": "Leutenegger, J.",
       "given_names": "J.",
       "surname": "Leutenegger",
-      "position": "Consul",
+      "position": "Consul for Switzerland",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2553,7 +2603,7 @@
       "location": null
     },
     {
-      "name": "A. J. Carter",
+      "name": "Hon. A. J. Carter",
       "canonical_name": "Carter, A. J.",
       "given_names": "A. J.",
       "surname": "Carter",
@@ -2699,7 +2749,7 @@
       "location": "Rockhampton"
     },
     {
-      "name": "F. H. Hart",
+      "name": "Hon. F. H. Hart",
       "canonical_name": "Hart, F. H.",
       "given_names": "F. H.",
       "surname": "Hart",
@@ -2766,12 +2816,12 @@
   "validation_summary": {
     "colony": "Queensland",
     "year": 1907,
-    "total": 172,
-    "high_confidence": 172,
+    "total": 175,
+    "high_confidence": 175,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 172,
-    "anomaly_count": 11
+    "passed": 175,
+    "anomaly_count": 12
   }
 }

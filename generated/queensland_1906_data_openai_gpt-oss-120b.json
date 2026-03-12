@@ -1,10 +1,10 @@
 {
   "colony": "Queensland",
   "year": 1906,
-  "generated": "2026-03-12T01:37:12.638836",
+  "generated": "2026-03-12T08:09:25.885362",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 77,
+  "total_officials": 76,
   "officials": [
     {
       "name": "P. J. McDermott",
@@ -72,8 +72,8 @@
     },
     {
       "name": "Sir Horace Tozer",
-      "canonical_name": "Tozer, Sir Horace",
-      "given_names": "Sir Horace",
+      "canonical_name": "Tozer, Horace",
+      "given_names": "Horace",
       "surname": "Tozer",
       "position": "Agent-General",
       "department": "London Agency",
@@ -105,22 +105,6 @@
       "location": null
     },
     {
-      "name": "H. M. Milman",
-      "canonical_name": "Milman, H. M.",
-      "given_names": "H. M.",
-      "surname": "Milman",
-      "position": "Government Resident",
-      "department": "London Agency",
-      "salary_min": 500,
-      "salary_max": 500,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "Thursday Island"
-    },
-    {
       "name": "W. H. Ryder",
       "canonical_name": "Ryder, W. H.",
       "given_names": "W. H.",
@@ -130,9 +114,7 @@
       "salary_min": 700,
       "salary_max": 700,
       "allowances": null,
-      "honors": [
-        "I.S.O."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -171,9 +153,9 @@
       "location": null
     },
     {
-      "name": "B. B. Ham",
-      "canonical_name": "Ham, B. B.",
-      "given_names": "B. B.",
+      "name": "Dr. B. B. Ham",
+      "canonical_name": "Ham, Dr. B. B.",
+      "given_names": "Dr. B. B.",
       "surname": "Ham",
       "position": "Commissioner of Public Health",
       "department": "Home Secretary's Department",
@@ -212,16 +194,14 @@
       "salary_min": 430,
       "salary_max": 430,
       "allowances": null,
-      "honors": [
-        "F.S.S."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Pope A. Cooper",
+      "name": "Sir Pope A. Cooper",
       "canonical_name": "Cooper, Pope A.",
       "given_names": "Pope A.",
       "surname": "Cooper",
@@ -230,9 +210,7 @@
       "salary_min": 2500,
       "salary_max": 2500,
       "allowances": null,
-      "honors": [
-        "Kt."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -900,7 +878,7 @@
       "given_names": "A. B.",
       "surname": "Brady",
       "position": "Under-Secretary, Government Architect and Engineer for Bridges",
-      "department": "Department of Public Works",
+      "department": "Public Works",
       "salary_min": 750,
       "salary_max": 750,
       "allowances": null,
@@ -1091,7 +1069,7 @@
       "canonical_name": "Barnett, G. B.",
       "given_names": "G. B.",
       "surname": "Barnett",
-      "position": "Consular Agent",
+      "position": "Consular Agent (acting)",
       "department": "Consular Agents",
       "salary_min": null,
       "salary_max": null,
@@ -1253,11 +1231,11 @@
     "colony": "Queensland",
     "year": 1906,
     "total": 77,
-    "high_confidence": 77,
+    "high_confidence": 76,
     "medium_confidence": 0,
-    "low_confidence": 0,
-    "quarantined": 0,
-    "passed": 77,
+    "low_confidence": 1,
+    "quarantined": 1,
+    "passed": 76,
     "anomaly_count": 3
   }
 }

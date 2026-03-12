@@ -1,7 +1,7 @@
 {
   "colony": "Cyprus",
   "year": 1907,
-  "generated": "2026-03-12T02:22:50.863461",
+  "generated": "2026-03-12T08:20:42.187550",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 192,
@@ -358,7 +358,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Col.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1327,8 +1327,8 @@
       "location": null
     },
     {
-      "name": "Major Chamberlayne",
-      "canonical_name": "Chamberlayne, Major",
+      "name": "Chamberlayne",
+      "canonical_name": "Chamberlayne",
       "given_names": "",
       "surname": "Chamberlayne",
       "position": "Commissioner",
@@ -1551,9 +1551,9 @@
       "location": null
     },
     {
-      "name": "W. Bevan",
-      "canonical_name": "Bevan, W.",
-      "given_names": "W.",
+      "name": "William Bevan",
+      "canonical_name": "Bevan, William",
+      "given_names": "William",
       "surname": "Bevan",
       "position": "1st Assistant Director of Agriculture",
       "department": "Agricultural Department",
@@ -1763,7 +1763,7 @@
       "canonical_name": "Smith, W. F.",
       "given_names": "W. F.",
       "surname": "Smith",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Post Office Department",
       "salary_min": 175,
       "salary_max": 175,
@@ -1779,7 +1779,7 @@
       "canonical_name": "Kypriades, B. J.",
       "given_names": "B. J.",
       "surname": "Kypriades",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Post Office Department",
       "salary_min": 155,
       "salary_max": 155,
@@ -1795,7 +1795,7 @@
       "canonical_name": "Pantelides, T. C.",
       "given_names": "T. C.",
       "surname": "Pantelides",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Post Office Department",
       "salary_min": 120,
       "salary_max": 120,
@@ -1811,7 +1811,7 @@
       "canonical_name": "Zirigovich, D.",
       "given_names": "D.",
       "surname": "Zirigovich",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Post Office Department",
       "salary_min": 120,
       "salary_max": 120,
@@ -1827,7 +1827,7 @@
       "canonical_name": "Caruana, A. W.",
       "given_names": "A. W.",
       "surname": "Caruana",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Post Office Department",
       "salary_min": 85,
       "salary_max": 85,
@@ -1839,11 +1839,11 @@
       "location": null
     },
     {
-      "name": "Major T. J. Chamberlayne",
+      "name": "T. J. Chamberlayne",
       "canonical_name": "Chamberlayne, T. J.",
       "given_names": "T. J.",
       "surname": "Chamberlayne",
-      "position": "Major",
+      "position": null,
       "department": "Post Office Department",
       "salary_min": null,
       "salary_max": null,
@@ -1855,7 +1855,7 @@
       "location": null
     },
     {
-      "name": "Captain J. H. Learmonth",
+      "name": "J. H. Learmonth",
       "canonical_name": "Learmonth, J. H.",
       "given_names": "J. H.",
       "surname": "Learmonth",
@@ -1863,7 +1863,7 @@
       "department": "Post Office Department",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": null,
+      "allowances": "73l. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": "Captain",
@@ -1871,15 +1871,15 @@
       "location": null
     },
     {
-      "name": "Major G. C. Bayly",
+      "name": "G. C. Bayly",
       "canonical_name": "Bayly, G. C.",
       "given_names": "G. C.",
       "surname": "Bayly",
-      "position": "Local Commandant",
+      "position": "Local Commandants",
       "department": "Post Office Department",
       "salary_min": 306,
       "salary_max": 306,
-      "allowances": null,
+      "allowances": "36l. 10s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": "Major",
@@ -1891,11 +1891,11 @@
       "canonical_name": "Greenwood, T.",
       "given_names": "T.",
       "surname": "Greenwood",
-      "position": "Local Commandant",
+      "position": "Local Commandants",
       "department": "Post Office Department",
       "salary_min": 306,
       "salary_max": 306,
-      "allowances": null,
+      "allowances": "36l. 10s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1903,15 +1903,15 @@
       "location": null
     },
     {
-      "name": "Captain R. Feilden",
+      "name": "R. Feilden",
       "canonical_name": "Feilden, R.",
       "given_names": "R.",
       "surname": "Feilden",
-      "position": "Local Commandant",
+      "position": "Local Commandants",
       "department": "Post Office Department",
       "salary_min": 306,
       "salary_max": 306,
-      "allowances": null,
+      "allowances": "36l. 10s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": "Captain",
@@ -1919,15 +1919,15 @@
       "location": null
     },
     {
-      "name": "Captain W. W. Durham Hall",
-      "canonical_name": "Hall, W. W. Durham",
-      "given_names": "W. W. Durham",
-      "surname": "Hall",
-      "position": "Local Commandant",
+      "name": "W. W. Durham Hall",
+      "canonical_name": "Durham Hall, W. W.",
+      "given_names": "W. W.",
+      "surname": "Durham Hall",
+      "position": "Local Commandants",
       "department": "Post Office Department",
       "salary_min": 306,
       "salary_max": 306,
-      "allowances": null,
+      "allowances": "36l. 10s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": "Captain",
@@ -1955,11 +1955,11 @@
       "canonical_name": "Spencer, C. E.",
       "given_names": "C. E.",
       "surname": "Spencer",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Post Office Department",
       "salary_min": 100,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "18l. 5s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1971,11 +1971,11 @@
       "canonical_name": "Braggiotti, F.",
       "given_names": "F.",
       "surname": "Braggiotti",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Post Office Department",
       "salary_min": 100,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "18l. 5s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1987,11 +1987,11 @@
       "canonical_name": "Televantou, S. G.",
       "given_names": "S. G.",
       "surname": "Televantou",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Post Office Department",
       "salary_min": 100,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "18l. 5s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2003,11 +2003,11 @@
       "canonical_name": "Shefki, M.",
       "given_names": "M.",
       "surname": "Shefki",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Post Office Department",
       "salary_min": 100,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "18l. 5s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2019,11 +2019,11 @@
       "canonical_name": "Greenwood, W. J.",
       "given_names": "W. J.",
       "surname": "Greenwood",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Post Office Department",
       "salary_min": 100,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "18l. 5s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2035,11 +2035,11 @@
       "canonical_name": "Wodehouse, J.",
       "given_names": "J.",
       "surname": "Wodehouse",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Post Office Department",
       "salary_min": 100,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "18l. 5s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2051,11 +2051,11 @@
       "canonical_name": "Heidenstam, O.",
       "given_names": "O.",
       "surname": "Heidenstam",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Post Office Department",
       "salary_min": 100,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "18l. 5s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2067,11 +2067,11 @@
       "canonical_name": "Heidenstam, E.",
       "given_names": "E.",
       "surname": "Heidenstam",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Post Office Department",
       "salary_min": 100,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "18l. 5s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2083,11 +2083,11 @@
       "canonical_name": "Mavrogordato, A.",
       "given_names": "A.",
       "surname": "Mavrogordato",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Post Office Department",
       "salary_min": 100,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "18l. 5s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2099,11 +2099,11 @@
       "canonical_name": "McLaughlan, R.",
       "given_names": "R.",
       "surname": "McLaughlan",
-      "position": "Inspector",
+      "position": "Inspectors",
       "department": "Post Office Department",
       "salary_min": 100,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "18l. 5s. forage",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2131,7 +2131,7 @@
       "canonical_name": "Loisides, A. M.",
       "given_names": "A. M.",
       "surname": "Loisides",
-      "position": "Clerk and Interpreter",
+      "position": "Clerks and Interpreters",
       "department": "Post Office Department",
       "salary_min": 60,
       "salary_max": 72,
@@ -2147,7 +2147,7 @@
       "canonical_name": "Berbery, I.",
       "given_names": "I.",
       "surname": "Berbery",
-      "position": "Clerk and Interpreter",
+      "position": "Clerks and Interpreters",
       "department": "Post Office Department",
       "salary_min": 60,
       "salary_max": 72,
@@ -2163,7 +2163,7 @@
       "canonical_name": "Neury, J.",
       "given_names": "J.",
       "surname": "Neury",
-      "position": "Clerk and Interpreter",
+      "position": "Clerks and Interpreters",
       "department": "Post Office Department",
       "salary_min": 60,
       "salary_max": 72,
@@ -2179,7 +2179,7 @@
       "canonical_name": "Nikolopulos, J.",
       "given_names": "J.",
       "surname": "Nikolopulos",
-      "position": "Clerk and Interpreter",
+      "position": "Clerks and Interpreters",
       "department": "Post Office Department",
       "salary_min": 60,
       "salary_max": 72,
@@ -2195,7 +2195,7 @@
       "canonical_name": "Gregoriou, G.",
       "given_names": "G.",
       "surname": "Gregoriou",
-      "position": "Clerk and Interpreter",
+      "position": "Clerks and Interpreters",
       "department": "Post Office Department",
       "salary_min": 60,
       "salary_max": 72,
@@ -2207,9 +2207,9 @@
       "location": null
     },
     {
-      "name": "W. Giles",
-      "canonical_name": "Giles, W.",
-      "given_names": "W.",
+      "name": "William Giles",
+      "canonical_name": "Giles, William",
+      "given_names": "William",
       "surname": "Giles",
       "position": "Resident Superintendent, Central Prison",
       "department": "Prison Department",
@@ -2243,7 +2243,7 @@
       "canonical_name": "Shefket, M.",
       "given_names": "M.",
       "surname": "Shefket",
-      "position": "Clerks and Interpreters",
+      "position": "Clerk and Interpreter",
       "department": "Prison Department",
       "salary_min": 60,
       "salary_max": 60,
@@ -2259,7 +2259,7 @@
       "canonical_name": "Constantinides, Th.",
       "given_names": "Th.",
       "surname": "Constantinides",
-      "position": "Clerks and Interpreters",
+      "position": "Clerk and Interpreter",
       "department": "Prison Department",
       "salary_min": 60,
       "salary_max": 60,
@@ -2348,14 +2348,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nicosia"
     },
     {
       "name": "T. Mitzi",
       "canonical_name": "Mitzi, T.",
       "given_names": "T.",
       "surname": "Mitzi",
-      "position": "Judges",
+      "position": "Judge",
       "department": "Courts of Justice",
       "salary_min": 216,
       "salary_max": 216,
@@ -2364,14 +2364,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nicosia"
     },
     {
       "name": "A. Izzet",
       "canonical_name": "Izzet, A.",
       "given_names": "A.",
       "surname": "Izzet",
-      "position": "Judges",
+      "position": "Judge",
       "department": "Courts of Justice",
       "salary_min": 216,
       "salary_max": 216,
@@ -2380,7 +2380,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nicosia"
     },
     {
       "name": "N. Cababe",
@@ -2396,7 +2396,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nicosia"
     },
     {
       "name": "C. Yannakis",
@@ -2412,7 +2412,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nicosia"
     },
     {
       "name": "T. W. Haycraft",
@@ -2428,14 +2428,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Larnaca"
     },
     {
       "name": "A. K. Paleologos",
       "canonical_name": "Paleologos, A. K.",
       "given_names": "A. K.",
       "surname": "Paleologos",
-      "position": "Judges",
+      "position": "Judge",
       "department": "Courts of Justice",
       "salary_min": 200,
       "salary_max": 200,
@@ -2444,14 +2444,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Larnaca"
     },
     {
       "name": "H. Hilmi",
       "canonical_name": "Hilmi, H.",
       "given_names": "H.",
       "surname": "Hilmi",
-      "position": "Judges",
+      "position": "Judge",
       "department": "Courts of Justice",
       "salary_min": 200,
       "salary_max": 200,
@@ -2460,7 +2460,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Larnaca"
     },
     {
       "name": "B. Carletti",
@@ -2476,7 +2476,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Larnaca"
     },
     {
       "name": "C. Dandolo",
@@ -2492,7 +2492,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Larnaca"
     },
     {
       "name": "J. R. Holmes",
@@ -2508,14 +2508,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Limassol"
     },
     {
       "name": "J. Economides",
       "canonical_name": "Economides, J.",
       "given_names": "J.",
       "surname": "Economides",
-      "position": "Judges",
+      "position": "Judge",
       "department": "Courts of Justice",
       "salary_min": 200,
       "salary_max": 200,
@@ -2524,14 +2524,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Limassol"
     },
     {
       "name": "M. Atta",
       "canonical_name": "Atta, M.",
       "given_names": "M.",
       "surname": "Atta",
-      "position": "Judges",
+      "position": "Judge",
       "department": "Courts of Justice",
       "salary_min": 200,
       "salary_max": 200,
@@ -2540,7 +2540,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Limassol"
     },
     {
       "name": "S. Markides",
@@ -2556,7 +2556,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Limassol"
     },
     {
       "name": "A. Vondizianos",
@@ -2572,7 +2572,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Limassol"
     },
     {
       "name": "J. C. Macaskie",
@@ -2588,14 +2588,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Famagusta"
     },
     {
       "name": "S. W. Macridi",
       "canonical_name": "Macridi, S. W.",
       "given_names": "S. W.",
       "surname": "Macridi",
-      "position": "Judges",
+      "position": "Judge",
       "department": "Courts of Justice",
       "salary_min": 176,
       "salary_max": 176,
@@ -2604,14 +2604,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Famagusta"
     },
     {
       "name": "A. V. Barutizade",
       "canonical_name": "Barutizade, A. V.",
       "given_names": "A. V.",
       "surname": "Barutizade",
-      "position": "Judges",
+      "position": "Judge",
       "department": "Courts of Justice",
       "salary_min": 176,
       "salary_max": 176,
@@ -2620,7 +2620,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Famagusta"
     },
     {
       "name": "M. Efthymiadis",
@@ -2636,7 +2636,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Famagusta"
     },
     {
       "name": "A. L. C. Stuart",
@@ -2652,14 +2652,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Papho"
     },
     {
       "name": "D. G. Demetriades",
       "canonical_name": "Demetriades, D. G.",
       "given_names": "D. G.",
       "surname": "Demetriades",
-      "position": "Judges",
+      "position": "Judge",
       "department": "Courts of Justice",
       "salary_min": 175,
       "salary_max": 175,
@@ -2668,14 +2668,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Papho"
     },
     {
       "name": "M. Sami",
       "canonical_name": "Sami, M.",
       "given_names": "M.",
       "surname": "Sami",
-      "position": "Judges",
+      "position": "Judge",
       "department": "Courts of Justice",
       "salary_min": 175,
       "salary_max": 175,
@@ -2684,7 +2684,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Papho"
     },
     {
       "name": "N. Papadopoulos",
@@ -2700,7 +2700,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Papho"
     },
     {
       "name": "Stanley Fisher",
@@ -2716,14 +2716,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Kyrenia"
     },
     {
       "name": "P. Christopoulos",
       "canonical_name": "Christopoulos, P.",
       "given_names": "P.",
       "surname": "Christopoulos",
-      "position": "Judges",
+      "position": "Judge",
       "department": "Courts of Justice",
       "salary_min": 150,
       "salary_max": 150,
@@ -2732,14 +2732,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Kyrenia"
     },
     {
       "name": "A. Nadiri",
       "canonical_name": "Nadiri, A.",
       "given_names": "A.",
       "surname": "Nadiri",
-      "position": "Judges",
+      "position": "Judge",
       "department": "Courts of Justice",
       "salary_min": 150,
       "salary_max": 150,
@@ -2748,7 +2748,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Kyrenia"
     },
     {
       "name": "M. Kissilian",
@@ -2764,14 +2764,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Kyrenia"
     },
     {
       "name": "Osman Nouri Effendi",
       "canonical_name": "Effendi, Osman Nouri",
       "given_names": "Osman Nouri",
       "surname": "Effendi",
-      "position": "Cadis of Cyprus",
+      "position": "Cadis",
       "department": "Courts of Justice",
       "salary_min": 300,
       "salary_max": 300,
@@ -2780,14 +2780,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Cyprus"
     },
     {
       "name": "Hadji Hafiz Zia Effendi",
       "canonical_name": "Effendi, Hadji Hafiz Zia",
       "given_names": "Hadji Hafiz Zia",
       "surname": "Effendi",
-      "position": "Cadis of Nicosia and Kyrenia Districts",
+      "position": "Cadis",
       "department": "Courts of Justice",
       "salary_min": 144,
       "salary_max": 144,
@@ -2796,14 +2796,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nicosia and Kyrenia Districts"
     },
     {
       "name": "Ahmed Khouloussi Effendi",
       "canonical_name": "Effendi, Ahmed Khouloussi",
       "given_names": "Ahmed Khouloussi",
       "surname": "Effendi",
-      "position": "Cadis of Famagusta and Larnaca",
+      "position": "Cadis",
       "department": "Courts of Justice",
       "salary_min": 120,
       "salary_max": 120,
@@ -2812,14 +2812,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Famagusta and Larnaca"
     },
     {
       "name": "Esseid Abdurrahman Niazi Effendi",
       "canonical_name": "Effendi, Esseid Abdurrahman Niazi",
       "given_names": "Esseid Abdurrahman Niazi",
       "surname": "Effendi",
-      "position": "Cadis of Limassol and Papho",
+      "position": "Cadis",
       "department": "Courts of Justice",
       "salary_min": 120,
       "salary_max": 120,
@@ -2828,7 +2828,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Limassol and Papho"
     },
     {
       "name": "Hadji Ali Rifki Effendi",
@@ -3068,7 +3068,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Norway"
     },
     {
       "name": "Z. D. Pierides",

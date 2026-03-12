@@ -1,20 +1,53 @@
 {
   "colony": "Tristan da Cunha",
   "year": 1905,
-  "generated": "2026-03-12T00:02:08.316153",
+  "generated": "2026-03-12T07:47:56.847601",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 0,
-  "officials": [],
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "Grice",
+      "canonical_name": "Grice",
+      "given_names": "",
+      "surname": "Grice",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sumner",
+      "canonical_name": "Sumner",
+      "given_names": "",
+      "surname": "Sumner",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
   "validation_summary": {
     "colony": "Tristan da Cunha",
     "year": 1905,
-    "total": 0,
+    "total": 2,
     "high_confidence": 0,
-    "medium_confidence": 0,
+    "medium_confidence": 2,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 0,
+    "passed": 2,
     "anomaly_count": 0
   }
 }

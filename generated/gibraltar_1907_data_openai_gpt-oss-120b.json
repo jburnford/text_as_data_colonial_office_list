@@ -1,7 +1,7 @@
 {
   "colony": "Gibraltar",
   "year": 1907,
-  "generated": "2026-03-12T02:23:31.523060",
+  "generated": "2026-03-12T08:19:11.592222",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 68,
@@ -114,7 +114,7 @@
       "department": "Medical Department",
       "salary_min": 37,
       "salary_max": 37,
-      "allowances": null,
+      "allowances": "free quarters",
       "honors": [],
       "qualifications": [
         "M.D.",
@@ -133,7 +133,7 @@
       "department": "Medical Department",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": null,
+      "allowances": "free quarters",
       "honors": [],
       "qualifications": [
         "M.B."
@@ -201,7 +201,7 @@
       "department": "Civil Prison",
       "salary_min": 187,
       "salary_max": 187,
-      "allowances": null,
+      "allowances": "quarters, fuel, and light",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -217,7 +217,7 @@
       "department": "Lunatic Asylum",
       "salary_min": 150,
       "salary_max": 180,
-      "allowances": null,
+      "allowances": "quarters, fuel and light",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -404,7 +404,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Teodosiopolis"
+      "location": null
     },
     {
       "name": "H. E. B. Leach",
@@ -454,7 +454,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Colonel",
+      "military_rank": "Colonel (temp. Brig.-Gen.)",
       "salary_scale": null,
       "location": null
     },
@@ -573,7 +573,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Engineer-Commander",
       "salary_scale": null,
       "location": null
     },
@@ -835,9 +835,9 @@
     },
     {
       "name": "J. da Costa Freire",
-      "canonical_name": "da Costa Freire, J.",
-      "given_names": "J.",
-      "surname": "da Costa Freire",
+      "canonical_name": "Freire, J. da Costa",
+      "given_names": "J. da Costa",
+      "surname": "Freire",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -963,9 +963,9 @@
     },
     {
       "name": "J. Nunes Tavares",
-      "canonical_name": "Nunes Tavares, J.",
-      "given_names": "J.",
-      "surname": "Nunes Tavares",
+      "canonical_name": "Tavares, J. Nunes",
+      "given_names": "J. Nunes",
+      "surname": "Tavares",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -979,9 +979,9 @@
     },
     {
       "name": "J. F. dos Santos",
-      "canonical_name": "dos Santos, J. F.",
-      "given_names": "J. F.",
-      "surname": "dos Santos",
+      "canonical_name": "Santos, J. F. dos",
+      "given_names": "J. F. dos",
+      "surname": "Santos",
       "position": "Vice-Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -1011,9 +1011,9 @@
     },
     {
       "name": "F. Marti y Jauregui",
-      "canonical_name": "Marti y Jauregui, F.",
-      "given_names": "F.",
-      "surname": "Marti y Jauregui",
+      "canonical_name": "Jauregui, F. Marti y",
+      "given_names": "F. Marti y",
+      "surname": "Jauregui",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,

@@ -1,10 +1,10 @@
 {
   "colony": "Dominica",
   "year": 1909,
-  "generated": "2026-03-12T03:48:36.001459",
+  "generated": "2026-03-12T08:37:21.633727",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 64,
+  "total_officials": 63,
   "officials": [
     {
       "name": "W. Douglas Young",
@@ -157,7 +157,7 @@
       "canonical_name": "Devin, J. R.",
       "given_names": "J. R.",
       "surname": "Devin",
-      "position": "Roseau District",
+      "position": "Roseau District Officer",
       "department": "Government Officers",
       "salary_min": 150,
       "salary_max": 150,
@@ -173,7 +173,7 @@
       "canonical_name": "Garraway, R. F.",
       "given_names": "R. F.",
       "surname": "Garraway",
-      "position": "Portsmouth District",
+      "position": "Portsmouth District Officer",
       "department": "Government Officers",
       "salary_min": 50,
       "salary_max": 300,
@@ -193,7 +193,7 @@
       "department": "Government Officers",
       "salary_min": 50,
       "salary_max": 60,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -205,7 +205,7 @@
       "canonical_name": "Marie, B. P.",
       "given_names": "B. P.",
       "surname": "Marie",
-      "position": "Northern District",
+      "position": "Northern District Officer",
       "department": "Government Officers",
       "salary_min": 120,
       "salary_max": 120,
@@ -221,7 +221,7 @@
       "canonical_name": "Green, E. R.",
       "given_names": "E. R.",
       "surname": "Green",
-      "position": "Eastern District",
+      "position": "Eastern District Officer",
       "department": "Government Officers",
       "salary_min": 175,
       "salary_max": 175,
@@ -345,7 +345,7 @@
       "location": null
     },
     {
-      "name": "Dr. G. B. Mason",
+      "name": "G. B. Mason",
       "canonical_name": "Mason, G. B.",
       "given_names": "G. B.",
       "surname": "Mason",
@@ -353,7 +353,7 @@
       "department": "Judicial Establishment",
       "salary_min": 100,
       "salary_max": 200,
-      "allowances": "in conjunction with medical duties",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -377,7 +377,7 @@
       "location": null
     },
     {
-      "name": "H. A. Alford, Nicholls",
+      "name": "H. A. Alford",
       "canonical_name": "Alford, H. A.",
       "given_names": "H. A.",
       "surname": "Alford",
@@ -394,7 +394,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nicholls"
     },
     {
       "name": "A. M. Meltz",
@@ -481,7 +481,7 @@
       "canonical_name": "Williams, W. Rees",
       "given_names": "W. Rees",
       "surname": "Williams",
-      "position": "Medical Officer, District A.",
+      "position": "Medical Officer",
       "department": "Medical Establishment",
       "salary_min": 300,
       "salary_max": 300,
@@ -492,14 +492,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "District A."
     },
     {
       "name": "C. H. Bellot",
       "canonical_name": "Bellot, C. H.",
       "given_names": "C. H.",
       "surname": "Bellot",
-      "position": "Medical Officer, District B.",
+      "position": "Medical Officer",
       "department": "Medical Establishment",
       "salary_min": 250,
       "salary_max": 250,
@@ -510,14 +510,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "District B."
     },
     {
       "name": "L. S. Senhouse",
       "canonical_name": "Senhouse, L. S.",
       "given_names": "L. S.",
       "surname": "Senhouse",
-      "position": "Medical Officer, District C.",
+      "position": "Medical Officer",
       "department": "Medical Establishment",
       "salary_min": 250,
       "salary_max": 250,
@@ -528,14 +528,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "District C."
     },
     {
       "name": "G. B. Mason",
       "canonical_name": "Mason, G. B.",
       "given_names": "G. B.",
       "surname": "Mason",
-      "position": "Medical Officer and Magistrate, District D.",
+      "position": "Medical Officer and Magistrate",
       "department": "Medical Establishment",
       "salary_min": 200,
       "salary_max": 200,
@@ -544,7 +544,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "District D."
     },
     {
       "name": "W. R. Williams",
@@ -593,7 +593,7 @@
       "department": "Public Works Department",
       "salary_min": 600,
       "salary_max": 600,
-      "allowances": "250l. being personal, 30l. horse allowance",
+      "allowances": "250l. being personal, and 30l. horse allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -605,7 +605,7 @@
       "canonical_name": "Pinard, J. A.",
       "given_names": "J. A.",
       "surname": "Pinard",
-      "position": "Clerk",
+      "position": "Clerk to Colonial Engineer and Surveyor-General",
       "department": "Public Works Department",
       "salary_min": 75,
       "salary_max": 75,
@@ -640,8 +640,8 @@
       "position": "Curator of Botanical Garden",
       "department": "Botanical",
       "salary_min": 200,
-      "salary_max": 200,
-      "allowances": "10l. to 250l., horse and quarters",
+      "salary_max": 250,
+      "allowances": "10l., horse and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -673,7 +673,7 @@
       "department": "Police",
       "salary_min": 175,
       "salary_max": 175,
-      "allowances": "horse allowance 35l., and quarters; as Keeper of Powder Magazine, 5l.; and as Drill Instructor to Defence Force, 25l.",
+      "allowances": "horse allowance 35l., quarters; Keeper of Powder Magazine 5l.; Drill Instructor to Defence Force 25l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -717,11 +717,11 @@
       "canonical_name": "Blondel, W.",
       "given_names": "W.",
       "surname": "Blondel",
-      "position": "Keeper of H.M. Prison",
+      "position": "Keeper of H.M. Prison, Roseau",
       "department": "Prison",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -745,22 +745,6 @@
       "location": null
     },
     {
-      "name": "Rev. The R.C. Vicar-General",
-      "canonical_name": "Vicar-General, Rev. The R.C.",
-      "given_names": "Rev. The R.C.",
-      "surname": "Vicar-General",
-      "position": "Chaplain",
-      "department": "Prison",
-      "salary_min": 20,
-      "salary_max": 20,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "V. Blanchard",
       "canonical_name": "Blanchard, V.",
       "given_names": "V.",
@@ -769,7 +753,7 @@
       "department": "Post Office",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "50l. being personal",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -781,7 +765,7 @@
       "canonical_name": "Shillingford, H.",
       "given_names": "H.",
       "surname": "Shillingford",
-      "position": "Clerk to Postmaster",
+      "position": "Clerk",
       "department": "Post Office",
       "salary_min": 50,
       "salary_max": 75,
@@ -877,7 +861,7 @@
       "location": null
     },
     {
-      "name": "Jane Pemberton",
+      "name": "Miss Jane Pemberton",
       "canonical_name": "Pemberton, Jane",
       "given_names": "Jane",
       "surname": "Pemberton",
@@ -957,7 +941,7 @@
       "location": null
     },
     {
-      "name": "M. E. Pigott",
+      "name": "Miss M. E. Pigott",
       "canonical_name": "Pigott, M. E.",
       "given_names": "M. E.",
       "surname": "Pigott",
@@ -973,7 +957,7 @@
       "location": null
     },
     {
-      "name": "H. A. Walton",
+      "name": "The Rev. H. A. Walton",
       "canonical_name": "Walton, H. A.",
       "given_names": "H. A.",
       "surname": "Walton",
@@ -989,7 +973,7 @@
       "location": null
     },
     {
-      "name": "P. Scheffhaut",
+      "name": "The Right Rev. P. Scheffhaut",
       "canonical_name": "Scheffhaut, P.",
       "given_names": "P.",
       "surname": "Scheffhaut",
@@ -1005,7 +989,7 @@
       "location": null
     },
     {
-      "name": "G. H. Ryves",
+      "name": "The Rev. G. H. Ryves",
       "canonical_name": "Ryves, G. H.",
       "given_names": "G. H.",
       "surname": "Ryves",
@@ -1056,12 +1040,12 @@
   "validation_summary": {
     "colony": "Dominica",
     "year": 1909,
-    "total": 64,
-    "high_confidence": 64,
+    "total": 63,
+    "high_confidence": 63,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 64,
+    "passed": 63,
     "anomaly_count": 11
   }
 }

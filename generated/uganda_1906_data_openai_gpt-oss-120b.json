@@ -1,10 +1,10 @@
 {
   "colony": "Uganda",
   "year": 1906,
-  "generated": "2026-03-12T01:48:05.043819",
+  "generated": "2026-03-12T08:11:27.361985",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 111,
+  "total_officials": 109,
   "officials": [
     {
       "name": "H. Hesketh-Bell",
@@ -336,9 +336,9 @@
     },
     {
       "name": "L. Talbot Smith",
-      "canonical_name": "Talbot Smith, L.",
-      "given_names": "L.",
-      "surname": "Talbot Smith",
+      "canonical_name": "Smith, L. Talbot",
+      "given_names": "L. Talbot",
+      "surname": "Smith",
       "position": "Assistant Collector",
       "department": "Administration",
       "salary_min": 250,
@@ -480,9 +480,9 @@
     },
     {
       "name": "R. Paske Smith",
-      "canonical_name": "Paske Smith, R.",
-      "given_names": "R.",
-      "surname": "Paske Smith",
+      "canonical_name": "Smith, R. Paske",
+      "given_names": "R. Paske",
+      "surname": "Smith",
       "position": "Assistant Collector",
       "department": "Administration",
       "salary_min": 250,
@@ -641,9 +641,9 @@
       "location": null
     },
     {
-      "name": "H. Hutchinson",
-      "canonical_name": "Hutchinson, H.",
-      "given_names": "H.",
+      "name": "Lieut. H. Hutchinson",
+      "canonical_name": "Hutchinson, Lieut. H.",
+      "given_names": "Lieut. H.",
       "surname": "Hutchinson",
       "position": "Assistant Superintendent",
       "department": "Marine",
@@ -929,7 +929,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Brigadier-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1595,38 +1595,6 @@
       "location": null
     },
     {
-      "name": "H. D. R. Hunt",
-      "canonical_name": "Hunt, H. D. R.",
-      "given_names": "H. D. R.",
-      "surname": "Hunt",
-      "position": "Assistant",
-      "department": "Scientific and Forestry",
-      "salary_min": 220,
-      "salary_max": 220,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "E. Brown",
-      "canonical_name": "Brown, E.",
-      "given_names": "E.",
-      "surname": "Brown",
-      "position": "Assistant",
-      "department": "Scientific and Forestry",
-      "salary_min": 200,
-      "salary_max": 200,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "L. E. Caine",
       "canonical_name": "Caine, L. E.",
       "given_names": "L. E.",
@@ -1793,7 +1761,7 @@
       "canonical_name": "Sturrock, J. C. R.",
       "given_names": "J. C. R.",
       "surname": "Sturrock",
-      "position": "Tutor to the Kabaka of Uganda",
+      "position": "Tutor to the Kabaka",
       "department": "Tutor to Kabaka",
       "salary_min": 400,
       "salary_max": 400,
@@ -1808,12 +1776,12 @@
   "validation_summary": {
     "colony": "Uganda",
     "year": 1906,
-    "total": 111,
-    "high_confidence": 111,
+    "total": 109,
+    "high_confidence": 109,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 111,
+    "passed": 109,
     "anomaly_count": 1
   }
 }

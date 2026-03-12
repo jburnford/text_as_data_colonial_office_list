@@ -1,10 +1,10 @@
 {
   "colony": "Seychelles",
   "year": 1905,
-  "generated": "2026-03-11T23:53:33.178261",
+  "generated": "2026-03-12T07:47:30.771404",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 126,
+  "total_officials": 123,
   "officials": [
     {
       "name": "Walter Edward Davidson",
@@ -474,9 +474,9 @@
     },
     {
       "name": "A. St. Jorre",
-      "canonical_name": "St. Jorre, A.",
-      "given_names": "A.",
-      "surname": "St. Jorre",
+      "canonical_name": "Jorre, A. St.",
+      "given_names": "A. St.",
+      "surname": "Jorre",
       "position": "3rd Clerk",
       "department": "Legal Department",
       "salary_min": 240,
@@ -865,7 +865,7 @@
       "department": "Prison Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "unpaid",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -881,7 +881,7 @@
       "department": "Prison Department",
       "salary_min": 1000,
       "salary_max": 1250,
-      "allowances": "with quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -893,7 +893,7 @@
       "canonical_name": "Natal, M.",
       "given_names": "M.",
       "surname": "Natal",
-      "position": "First Class Guard",
+      "position": "First Class Guards",
       "department": "Prison Department",
       "salary_min": 600,
       "salary_max": 600,
@@ -909,7 +909,7 @@
       "canonical_name": "Gill, E.",
       "given_names": "E.",
       "surname": "Gill",
-      "position": "First Class Guard",
+      "position": "First Class Guards",
       "department": "Prison Department",
       "salary_min": 600,
       "salary_max": 600,
@@ -925,7 +925,7 @@
       "canonical_name": "Prera, T.",
       "given_names": "T.",
       "surname": "Prera",
-      "position": "Second Class Guard",
+      "position": "Second Class Guards",
       "department": "Prison Department",
       "salary_min": 480,
       "salary_max": 480,
@@ -941,7 +941,7 @@
       "canonical_name": "Rosette, T.",
       "given_names": "T.",
       "surname": "Rosette",
-      "position": "Second Class Guard",
+      "position": "Second Class Guards",
       "department": "Prison Department",
       "salary_min": 480,
       "salary_max": 480,
@@ -957,7 +957,7 @@
       "canonical_name": "Anta, N.",
       "given_names": "N.",
       "surname": "Anta",
-      "position": "Third Class Guard",
+      "position": "Third Class Guards",
       "department": "Prison Department",
       "salary_min": 360,
       "salary_max": 360,
@@ -973,7 +973,7 @@
       "canonical_name": "Leperre, C.",
       "given_names": "C.",
       "surname": "Leperre",
-      "position": "Third Class Guard",
+      "position": "Third Class Guards",
       "department": "Prison Department",
       "salary_min": 360,
       "salary_max": 360,
@@ -1009,7 +1009,7 @@
       "department": "Medical Department",
       "salary_min": 4000,
       "salary_max": 4000,
-      "allowances": "with quarters and private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.R.C.S."
@@ -1027,7 +1027,7 @@
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "with quarters and private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.D."
@@ -1045,7 +1045,7 @@
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "with quarters and private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "L.R.C.P."
@@ -1063,7 +1063,7 @@
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "with quarters and private practice",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.B."
@@ -1161,7 +1161,7 @@
       "department": "Medical Department",
       "salary_min": 840,
       "salary_max": 840,
-      "allowances": "with Rs. 120 for quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1177,7 +1177,7 @@
       "department": "Medical Department",
       "salary_min": 840,
       "salary_max": 840,
-      "allowances": "with Rs. 120 for quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1193,7 +1193,7 @@
       "department": "Medical Department",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "quarters and rations",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1217,57 +1217,9 @@
       "location": null
     },
     {
-      "name": "Damascene",
-      "canonical_name": "Damascene",
-      "given_names": "",
-      "surname": "Damascene",
-      "position": "Priest",
-      "department": "Roman Catholic Church",
-      "salary_min": 1500,
-      "salary_max": 1500,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "C\u00e9saire",
-      "canonical_name": "C\u00e9saire",
-      "given_names": "",
-      "surname": "C\u00e9saire",
-      "position": "Priest",
-      "department": "Roman Catholic Church",
-      "salary_min": 750,
-      "salary_max": 750,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Laurent",
-      "canonical_name": "Laurent",
-      "given_names": "",
-      "surname": "Laurent",
-      "position": "Priest",
-      "department": "Roman Catholic Church",
-      "salary_min": 750,
-      "salary_max": 750,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "Rev. R. H. Pickwood",
-      "canonical_name": "Pickwood, Rev. R. H.",
-      "given_names": "Rev. R. H.",
+      "canonical_name": "Pickwood, R. H.",
+      "given_names": "R. H.",
       "surname": "Pickwood",
       "position": "Minister",
       "department": "Church of England",
@@ -1395,7 +1347,7 @@
       "location": null
     },
     {
-      "name": "Rosalie Vel",
+      "name": "Miss Rosalie Vel",
       "canonical_name": "Vel, Rosalie",
       "given_names": "Rosalie",
       "surname": "Vel",
@@ -1408,7 +1360,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Infant School"
     },
     {
       "name": "J. M. Harris",
@@ -1975,7 +1927,7 @@
       "canonical_name": "Brooks, J. H.",
       "given_names": "J. H.",
       "surname": "Brooks",
-      "position": "Germany",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1984,14 +1936,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Germany"
     },
     {
       "name": "H. \u00e0 C. Bergne",
       "canonical_name": "Bergne, H. \u00e0 C.",
       "given_names": "H. \u00e0 C.",
       "surname": "Bergne",
-      "position": "Italy",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2000,14 +1952,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Italy"
     },
     {
       "name": "A. Merian",
       "canonical_name": "Merian, A.",
       "given_names": "A.",
       "surname": "Merian",
-      "position": "Portugal",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2016,14 +1968,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Portugal"
     },
     {
       "name": "E. Lanier",
       "canonical_name": "Lanier, E.",
       "given_names": "E.",
       "surname": "Lanier",
-      "position": "France",
+      "position": "Consular Agent",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2032,7 +1984,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     }
   ],
   "validation_summary": {
@@ -2040,10 +1992,10 @@
     "year": 1905,
     "total": 126,
     "high_confidence": 123,
-    "medium_confidence": 3,
-    "low_confidence": 0,
-    "quarantined": 0,
-    "passed": 126,
+    "medium_confidence": 0,
+    "low_confidence": 3,
+    "quarantined": 3,
+    "passed": 123,
     "anomaly_count": 14
   }
 }

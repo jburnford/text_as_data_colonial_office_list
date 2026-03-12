@@ -1,10 +1,10 @@
 {
   "colony": "Cyprus",
   "year": 1906,
-  "generated": "2026-03-12T00:46:02.983288",
+  "generated": "2026-03-12T08:00:51.544363",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 190,
+  "total_officials": 189,
   "officials": [
     {
       "name": "Sir Charles A. King-Harman",
@@ -41,7 +41,7 @@
       "location": null
     },
     {
-      "name": "Capt. A. H. Young",
+      "name": "A. H. Young",
       "canonical_name": "Young, A. H.",
       "given_names": "A. H.",
       "surname": "Young",
@@ -60,9 +60,9 @@
     },
     {
       "name": "T. H. Hatton Richards",
-      "canonical_name": "Richards, T. H. Hatton",
-      "given_names": "T. H. Hatton",
-      "surname": "Richards",
+      "canonical_name": "Hatton Richards, T. H.",
+      "given_names": "T. H.",
+      "surname": "Hatton Richards",
       "position": "Assistant Secretary",
       "department": "Office of the Chief Secretary to Government",
       "salary_min": 350,
@@ -271,7 +271,7 @@
       "canonical_name": "Krikorian, M.",
       "given_names": "M.",
       "surname": "Krikorian",
-      "position": "1st Class Compositors",
+      "position": "1st Class Compositor",
       "department": "Printing Establishment",
       "salary_min": 69,
       "salary_max": 69,
@@ -287,7 +287,7 @@
       "canonical_name": "Tallianos, K. L.",
       "given_names": "K. L.",
       "surname": "Tallianos",
-      "position": "1st Class Compositors",
+      "position": "1st Class Compositor",
       "department": "Printing Establishment",
       "salary_min": 69,
       "salary_max": 69,
@@ -552,7 +552,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "London"
+      "location": null
     },
     {
       "name": "P. Karageorgiades",
@@ -614,7 +614,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": "Lieut.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -735,7 +735,7 @@
       "canonical_name": "Gaffiero, C.",
       "given_names": "C.",
       "surname": "Gaffiero",
-      "position": "Tide Surveyors",
+      "position": "Tide Surveyor",
       "department": "Customs Department",
       "salary_min": 120,
       "salary_max": 120,
@@ -751,7 +751,7 @@
       "canonical_name": "Mavroidi, C. P.",
       "given_names": "C. P.",
       "surname": "Mavroidi",
-      "position": "Tide Surveyors",
+      "position": "Tide Surveyor",
       "department": "Customs Department",
       "salary_min": 100,
       "salary_max": 100,
@@ -1619,7 +1619,7 @@
       "canonical_name": "Zirigovitch, J.",
       "given_names": "J.",
       "surname": "Zirigovitch",
-      "position": "Head Clerk",
+      "position": "Head Clerk, Public Works Department",
       "department": "Public Works Department",
       "salary_min": 90,
       "salary_max": 120,
@@ -1632,8 +1632,8 @@
     },
     {
       "name": "Rev. F. D. Newham",
-      "canonical_name": "Newham, F. D.",
-      "given_names": "F. D.",
+      "canonical_name": "Newham, Rev. F. D.",
+      "given_names": "Rev. F. D.",
       "surname": "Newham",
       "position": "Inspector of Schools",
       "department": "Education Department",
@@ -1819,22 +1819,6 @@
       "honors": [],
       "qualifications": [],
       "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "T. J. Chamberlayne",
-      "canonical_name": "Chamberlayne, T. J.",
-      "given_names": "T. J.",
-      "surname": "Chamberlayne",
-      "position": "Major",
-      "department": "Post Office Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": "Major",
       "salary_scale": null,
       "location": null
     },
@@ -2259,7 +2243,7 @@
       "canonical_name": "Shefket, M.",
       "given_names": "M.",
       "surname": "Shefket",
-      "position": "Clerks and Interpreters",
+      "position": "Clerk and Interpreter",
       "department": "Prison Department",
       "salary_min": 60,
       "salary_max": 60,
@@ -2275,7 +2259,7 @@
       "canonical_name": "Constantiniades, Th.",
       "given_names": "Th.",
       "surname": "Constantiniades",
-      "position": "Clerks and Interpreters",
+      "position": "Clerk and Interpreter",
       "department": "Prison Department",
       "salary_min": 60,
       "salary_max": 60,
@@ -2287,9 +2271,9 @@
       "location": null
     },
     {
-      "name": "J. Hutchinson",
-      "canonical_name": "Hutchinson, J.",
-      "given_names": "J.",
+      "name": "Sir J. Hutchinson",
+      "canonical_name": "Hutchinson, Sir J.",
+      "given_names": "Sir J.",
       "surname": "Hutchinson",
       "position": "Chief Justice",
       "department": "Courts of Justice",
@@ -3058,12 +3042,12 @@
   "validation_summary": {
     "colony": "Cyprus",
     "year": 1906,
-    "total": 190,
-    "high_confidence": 189,
+    "total": 189,
+    "high_confidence": 188,
     "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 190,
+    "passed": 189,
     "anomaly_count": 2
   }
 }

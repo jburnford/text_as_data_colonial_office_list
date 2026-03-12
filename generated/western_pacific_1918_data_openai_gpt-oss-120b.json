@@ -1,0 +1,71 @@
+{
+  "colony": "Western Pacific",
+  "year": 1918,
+  "generated": "2026-03-12T08:28:52.684624",
+  "model": "openai/gpt-oss-120b",
+  "tier": "STANDARD",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "Sir George B. Haddon-Smith",
+      "canonical_name": "Haddon-Smith, George B.",
+      "given_names": "George B.",
+      "surname": "Haddon-Smith",
+      "position": "Governor and Commander-in-Chief of the Windward Islands",
+      "department": "Civil Establishment",
+      "salary_min": 2500,
+      "salary_max": 2500,
+      "allowances": "250l. travelling allowance",
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Cecil N. Rice",
+      "canonical_name": "Rice, Cecil N.",
+      "given_names": "Cecil N.",
+      "surname": "Rice",
+      "position": "Chief Clerk",
+      "department": "Civil Establishment",
+      "salary_min": 300,
+      "salary_max": 300,
+      "allowances": "travelling and house allowance",
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "T. B. Comissiong",
+      "canonical_name": "Comissiong, T. B.",
+      "given_names": "T. B.",
+      "surname": "Comissiong",
+      "position": "Second Clerk",
+      "department": "Civil Establishment",
+      "salary_min": 100,
+      "salary_max": 150,
+      "allowances": "by 5l. per annum",
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Western Pacific",
+    "year": 1918,
+    "total": 3,
+    "high_confidence": 3,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}

@@ -1,7 +1,7 @@
 {
   "colony": "Orange River Colony",
   "year": 1906,
-  "generated": "2026-03-12T01:35:44.603962",
+  "generated": "2026-03-12T08:09:06.059685",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 186,
@@ -312,7 +312,7 @@
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -360,7 +360,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieutenant",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -437,7 +437,7 @@
       "department": "Governor",
       "salary_min": 4000,
       "salary_max": 4000,
-      "allowances": "1000l. allowance",
+      "allowances": "1,000l. allowance",
       "honors": [
         "K.C.M.G.",
         "C.B."
@@ -502,7 +502,7 @@
       "canonical_name": "Blackwood, Lord B. T.",
       "given_names": "Lord B. T.",
       "surname": "Blackwood",
-      "position": "Ass. Colonial Sec.",
+      "position": "Assistant Colonial Secretary",
       "department": "Colonial Secretary's Department",
       "salary_min": 800,
       "salary_max": 800,
@@ -550,7 +550,7 @@
       "canonical_name": "Burmester, C. M.",
       "given_names": "C. M.",
       "surname": "Burmester",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Colonial Secretary's Department",
       "salary_min": 400,
       "salary_max": 400,
@@ -566,7 +566,7 @@
       "canonical_name": "Irving, H. E.",
       "given_names": "H. E.",
       "surname": "Irving",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Colonial Secretary's Department",
       "salary_min": 350,
       "salary_max": 350,
@@ -582,7 +582,7 @@
       "canonical_name": "Macdonald, J. A.",
       "given_names": "J. A.",
       "surname": "Macdonald",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Colonial Secretary's Department",
       "salary_min": 300,
       "salary_max": 300,
@@ -598,7 +598,7 @@
       "canonical_name": "Halley, R. H.",
       "given_names": "R. H.",
       "surname": "Halley",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Colonial Secretary's Department",
       "salary_min": 250,
       "salary_max": 250,
@@ -614,7 +614,7 @@
       "canonical_name": "Smith, H. L.",
       "given_names": "H. L.",
       "surname": "Smith",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Colonial Secretary's Department",
       "salary_min": 200,
       "salary_max": 200,
@@ -630,7 +630,7 @@
       "canonical_name": "Child, W. O.",
       "given_names": "W. O.",
       "surname": "Child",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Colonial Secretary's Department",
       "salary_min": 180,
       "salary_max": 180,
@@ -669,7 +669,9 @@
       "salary_min": 1750,
       "salary_max": 1750,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "K.C."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -1032,7 +1034,7 @@
       "canonical_name": "Raby, H.",
       "given_names": "H.",
       "surname": "Raby",
-      "position": "Manager",
+      "position": "Grootvlei Farm, Manager",
       "department": "Agricultural Department",
       "salary_min": 300,
       "salary_max": 300,
@@ -1041,14 +1043,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Grootvlei Farm"
+      "location": null
     },
     {
       "name": "J. J. Morton",
       "canonical_name": "Morton, J. J.",
       "given_names": "J. J.",
       "surname": "Morton",
-      "position": "Superintendent",
+      "position": "Tweespruit Farm, Superintendent",
       "department": "Agricultural Department",
       "salary_min": 365,
       "salary_max": 365,
@@ -1057,7 +1059,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Tweespruit Farm"
+      "location": null
     },
     {
       "name": "Sir A. F. S. Massorp",
@@ -1256,7 +1258,7 @@
       "canonical_name": "Taylor, F.",
       "given_names": "F.",
       "surname": "Taylor",
-      "position": "Secretary for Public Works and Chief Architect",
+      "position": "Secretary for Public Works; Chief Architect",
       "department": "Public Works Department",
       "salary_min": 550,
       "salary_max": 550,
@@ -1640,7 +1642,7 @@
       "canonical_name": "Yule, G. P.",
       "given_names": "G. P.",
       "surname": "Yule",
-      "position": "Medical Officer of Health and Registrar of Births and Deaths",
+      "position": "Medical Officer of Health; Registrar of Births and Deaths",
       "department": "Public Health",
       "salary_min": 900,
       "salary_max": 900,
@@ -1659,7 +1661,7 @@
       "canonical_name": "Adams, P. T.",
       "given_names": "P. T.",
       "surname": "Adams",
-      "position": "Deputy Medical Officer of Health and Analyst and Bacteriologist",
+      "position": "Deputy Medical Officer of Health; Analyst and Bacteriologist",
       "department": "Public Health",
       "salary_min": 700,
       "salary_max": 700,
@@ -1709,8 +1711,8 @@
     },
     {
       "name": "Dr. E. W. D. Swift",
-      "canonical_name": "Swift, Dr. E. W. D.",
-      "given_names": "Dr. E. W. D.",
+      "canonical_name": "Swift, E. W. D.",
+      "given_names": "E. W. D.",
       "surname": "Swift",
       "position": "Medical Superintendent, Lunatic Asylum",
       "department": "Public Health",
@@ -2096,7 +2098,7 @@
       "canonical_name": "Creighton, T. A. W.",
       "given_names": "T. A. W.",
       "surname": "Creighton",
-      "position": "Superintendent, Central Telegraph Office",
+      "position": "Superintendent",
       "department": "Postmaster-General",
       "salary_min": 430,
       "salary_max": 430,
@@ -2105,7 +2107,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Bloemfontein"
+      "location": "Central Telegraph Office, Bloemfontein"
     },
     {
       "name": "W. E. Braybon",
@@ -2252,7 +2254,7 @@
       "location": null
     },
     {
-      "name": "J. Brill",
+      "name": "Dr. J. Brill",
       "canonical_name": "Brill, J.",
       "given_names": "J.",
       "surname": "Brill",
@@ -2332,7 +2334,7 @@
       "location": null
     },
     {
-      "name": "G. Potts",
+      "name": "Dr. G. Potts",
       "canonical_name": "Potts, G.",
       "given_names": "G.",
       "surname": "Potts",
@@ -2348,7 +2350,7 @@
       "location": null
     },
     {
-      "name": "A. A. C. Nelson",
+      "name": "Major A. A. C. Nelson",
       "canonical_name": "Nelson, A. A. C.",
       "given_names": "A. A. C.",
       "surname": "Nelson",
@@ -2402,7 +2404,7 @@
       "canonical_name": "Scriven, J. B.",
       "given_names": "J. B.",
       "surname": "Scriven",
-      "position": "Majors",
+      "position": "Major",
       "department": "South African Constabulary",
       "salary_min": 900,
       "salary_max": 900,
@@ -2418,7 +2420,7 @@
       "canonical_name": "Vaughan, C. D.",
       "given_names": "C. D.",
       "surname": "Vaughan",
-      "position": "Majors",
+      "position": "Major",
       "department": "South African Constabulary",
       "salary_min": 750,
       "salary_max": 750,
@@ -2434,7 +2436,7 @@
       "canonical_name": "Luther, E. L.",
       "given_names": "E. L.",
       "surname": "Luther",
-      "position": "Majors",
+      "position": "Major",
       "department": "South African Constabulary",
       "salary_min": 750,
       "salary_max": 750,
@@ -2450,7 +2452,7 @@
       "canonical_name": "Cartwright, H. R.",
       "given_names": "H. R.",
       "surname": "Cartwright",
-      "position": "Majors",
+      "position": "Major",
       "department": "South African Constabulary",
       "salary_min": 750,
       "salary_max": 750,
@@ -2466,7 +2468,7 @@
       "canonical_name": "Gray, G. D.",
       "given_names": "G. D.",
       "surname": "Gray",
-      "position": "Majors",
+      "position": "Major",
       "department": "South African Constabulary",
       "salary_min": 600,
       "salary_max": 600,
@@ -2766,7 +2768,7 @@
       "location": "Senekal"
     },
     {
-      "name": "A. G. Trollope",
+      "name": "Capt. A. G. Trollope",
       "canonical_name": "Trollope, A. G.",
       "given_names": "A. G.",
       "surname": "Trollope",
@@ -2894,9 +2896,9 @@
       "location": null
     },
     {
-      "name": "Major K. P. Apthorp",
-      "canonical_name": "Apthorp, Major K. P.",
-      "given_names": "Major K. P.",
+      "name": "K. P. Apthorp",
+      "canonical_name": "Apthorp, K. P.",
+      "given_names": "K. P.",
       "surname": "Apthorp",
       "position": "Director",
       "department": "Land Settlement Department",

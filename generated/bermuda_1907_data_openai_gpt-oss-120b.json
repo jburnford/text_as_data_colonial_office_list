@@ -1,7 +1,7 @@
 {
   "colony": "Bermuda",
   "year": 1907,
-  "generated": "2026-03-12T01:58:13.507540",
+  "generated": "2026-03-12T08:15:58.198945",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 85,
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "Soltau Symons",
+      "name": "Captain Soltau Symons",
       "canonical_name": "Symons, Soltau",
       "given_names": "Soltau",
       "surname": "Symons",
@@ -49,7 +49,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -829,14 +829,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "St. George"
+      "location": null
     },
     {
       "name": "G. Tucker",
       "canonical_name": "Tucker, G.",
       "given_names": "G.",
       "surname": "Tucker",
-      "position": "Rector, Hamilton and Smith",
+      "position": "Rector, Hamilton and Smith; Archdeacon",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -845,7 +845,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Hamilton and Smith"
+      "location": null
     },
     {
       "name": "J. Davidson",
@@ -861,7 +861,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Pembroke and Devonshire"
+      "location": null
     },
     {
       "name": "Bruce Mackay",
@@ -877,7 +877,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sandys and Southampton"
+      "location": null
     },
     {
       "name": "D. Comeau",
@@ -932,7 +932,7 @@
       "canonical_name": "Hale, Joseph",
       "given_names": "Joseph",
       "surname": "Hale",
-      "position": "Wesleyan Minister",
+      "position": "Wesleyan Ministers",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -948,7 +948,7 @@
       "canonical_name": "England, E.",
       "given_names": "E.",
       "surname": "England",
-      "position": "Wesleyan Minister",
+      "position": "Wesleyan Ministers",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -964,7 +964,7 @@
       "canonical_name": "Porter, B. J.",
       "given_names": "B. J.",
       "surname": "Porter",
-      "position": "Wesleyan Minister",
+      "position": "Wesleyan Ministers",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -980,7 +980,7 @@
       "canonical_name": "Mader, J.",
       "given_names": "J.",
       "surname": "Mader",
-      "position": "Wesleyan Minister",
+      "position": "Wesleyan Ministers",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -1135,7 +1135,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.-Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -1151,7 +1151,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.-Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -1167,7 +1167,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.-Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -1183,7 +1183,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.-Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -1283,7 +1283,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "St. George"
+      "location": null
     },
     {
       "name": "R. H. James",

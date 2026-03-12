@@ -1,7 +1,7 @@
 {
   "colony": "British Honduras",
   "year": 1907,
-  "generated": "2026-03-12T02:12:02.510382",
+  "generated": "2026-03-12T08:17:04.866769",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 91,
@@ -440,7 +440,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Cayo"
+      "location": null
     },
     {
       "name": "W. B. Gutteron",
@@ -451,7 +451,7 @@
       "department": "Post Office and Telegraphs Department",
       "salary_min": 1600,
       "salary_max": 2000,
-      "allowances": null,
+      "allowances": "by $100",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -467,7 +467,7 @@
       "department": "Post Office and Telegraphs Department",
       "salary_min": 720,
       "salary_max": 960,
-      "allowances": null,
+      "allowances": "by $40",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -530,7 +530,7 @@
       "position": "2nd Class Clerk",
       "department": "Judicial Department",
       "salary_min": 480,
-      "salary_max": 720,
+      "salary_max": 400,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -655,7 +655,7 @@
       "canonical_name": "Strange, H. P. C.",
       "given_names": "H. P. C.",
       "surname": "Strange",
-      "position": "Corosol",
+      "position": "District Commissioner",
       "department": "District Commissioners",
       "salary_min": 1800,
       "salary_max": 1800,
@@ -664,7 +664,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Corosol"
     },
     {
       "name": "A. Majarrez",
@@ -851,7 +851,7 @@
       "department": "Education",
       "salary_min": 1200,
       "salary_max": 1500,
-      "allowances": null,
+      "allowances": "by $50",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -879,7 +879,7 @@
       "canonical_name": "Carlin, W. H.",
       "given_names": "W. H.",
       "surname": "Carlin",
-      "position": "Assistant Surveyors",
+      "position": "Assistant Surveyor",
       "department": "Lands",
       "salary_min": 1944,
       "salary_max": 1944,
@@ -895,10 +895,10 @@
       "canonical_name": "Ridley, C. L.",
       "given_names": "C. L.",
       "surname": "Ridley",
-      "position": "Assistant Surveyors",
+      "position": "Assistant Surveyor",
       "department": "Lands",
-      "salary_min": null,
-      "salary_max": null,
+      "salary_min": 1080,
+      "salary_max": 1200,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -911,10 +911,10 @@
       "canonical_name": "Brunton, F. W.",
       "given_names": "F. W.",
       "surname": "Brunton",
-      "position": "Assistant Surveyors",
+      "position": "Assistant Surveyor",
       "department": "Lands",
-      "salary_min": null,
-      "salary_max": null,
+      "salary_min": 1080,
+      "salary_max": 1200,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -927,7 +927,7 @@
       "canonical_name": "Williams, L. E.",
       "given_names": "L. E.",
       "surname": "Williams",
-      "position": "Assistant Surveyors",
+      "position": "Assistant Surveyor",
       "department": "Lands",
       "salary_min": 1080,
       "salary_max": 1200,
@@ -995,7 +995,7 @@
       "department": "Public Works",
       "salary_min": 480,
       "salary_max": 720,
-      "allowances": null,
+      "allowances": "by $30",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1019,10 +1019,10 @@
       "location": null
     },
     {
-      "name": "W. G. Miller",
-      "canonical_name": "Miller, W. G.",
+      "name": "W. G. Miller (temporary)",
+      "canonical_name": "Miller (temporary), W. G.",
       "given_names": "W. G.",
-      "surname": "Miller",
+      "surname": "Miller (temporary)",
       "position": "Keeper Northern Two Cays",
       "department": "Public Works",
       "salary_min": 360,
@@ -1203,7 +1203,7 @@
       "department": "Police",
       "salary_min": 1500,
       "salary_max": 1500,
-      "allowances": "$360 in lieu of quarters",
+      "allowances": "360 in lieu of quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1240,7 +1240,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "United States"
     },
     {
       "name": "C. Hildebrandt",
@@ -1256,7 +1256,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Germany"
     },
     {
       "name": "H. Krug",
@@ -1272,7 +1272,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Austria and Hungary"
     },
     {
       "name": "A. D. P. Williamson",
@@ -1288,7 +1288,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Norway"
     },
     {
       "name": "L. E. Cuevas",
@@ -1304,7 +1304,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Republic of Honduras"
     },
     {
       "name": "A. R. Usher",
@@ -1320,7 +1320,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     },
     {
       "name": "C. Melhado",
@@ -1336,7 +1336,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Guatemala"
     },
     {
       "name": "L. Gomez",
@@ -1352,7 +1352,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Mexico"
     },
     {
       "name": "A. E. Morlan",
@@ -1368,7 +1368,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Belgium"
     },
     {
       "name": "O. A. Meyer",
@@ -1384,7 +1384,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nicaragua"
     },
     {
       "name": "G. A. Ormsby",
@@ -1407,7 +1407,7 @@
       "canonical_name": "Hopkins, F. C.",
       "given_names": "F. C.",
       "surname": "Hopkins",
-      "position": "Right Rev.",
+      "position": null,
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1423,7 +1423,7 @@
       "canonical_name": "Hunt, J. M.",
       "given_names": "J. M.",
       "surname": "Hunt",
-      "position": "Rev.",
+      "position": null,
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1439,7 +1439,7 @@
       "canonical_name": "Lord, J. W.",
       "given_names": "J. W.",
       "surname": "Lord",
-      "position": "Rev., Superintendent",
+      "position": "Superintendent",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -1455,7 +1455,7 @@
       "canonical_name": "Cleghorn, R.",
       "given_names": "R.",
       "surname": "Cleghorn",
-      "position": "Rev.",
+      "position": null,
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,

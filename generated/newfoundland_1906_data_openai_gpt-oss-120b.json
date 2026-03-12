@@ -1,13 +1,13 @@
 {
   "colony": "Newfoundland",
   "year": 1906,
-  "generated": "2026-03-12T01:25:31.313520",
+  "generated": "2026-03-12T08:05:55.478881",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 133,
   "officials": [
     {
-      "name": "William MacGregor",
+      "name": "Sir William MacGregor",
       "canonical_name": "MacGregor, William",
       "given_names": "William",
       "surname": "MacGregor",
@@ -77,7 +77,7 @@
       "location": null
     },
     {
-      "name": "R. Bond",
+      "name": "Right Hon. Sir R. Bond",
       "canonical_name": "Bond, R.",
       "given_names": "R.",
       "surname": "Bond",
@@ -159,7 +159,7 @@
       "location": null
     },
     {
-      "name": "H. J. B. Woods",
+      "name": "Hon. H. J. B. Woods",
       "canonical_name": "Woods, H. J. B.",
       "given_names": "H. J. B.",
       "surname": "Woods",
@@ -308,7 +308,7 @@
       "given_names": "E. M.",
       "surname": "Jackman",
       "position": "Minister of Finance and Customs",
-      "department": "Finance and Customs",
+      "department": "Department of Finance and Customs",
       "salary_min": 2000,
       "salary_max": 2000,
       "allowances": null,
@@ -868,7 +868,7 @@
       "given_names": "E.",
       "surname": "Dawe",
       "position": "Minister of Marine and Fisheries",
-      "department": "Department of Marine and Fisheries",
+      "department": "Marine and Fisheries",
       "salary_min": 2000,
       "salary_max": 2000,
       "allowances": null,
@@ -884,7 +884,7 @@
       "given_names": "E. C.",
       "surname": "Watson",
       "position": "Deputy Minister",
-      "department": "Department of Marine and Fisheries",
+      "department": "Marine and Fisheries",
       "salary_min": 1200,
       "salary_max": 1200,
       "allowances": null,
@@ -900,7 +900,7 @@
       "given_names": "R.",
       "surname": "White",
       "position": "Inspector of Marine Works",
-      "department": "Department of Marine and Fisheries",
+      "department": "Marine and Fisheries",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -916,7 +916,7 @@
       "given_names": "H. C.",
       "surname": "Morris",
       "position": "Accountant",
-      "department": "Department of Marine and Fisheries",
+      "department": "Marine and Fisheries",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -1060,7 +1060,7 @@
       "given_names": "F. C.",
       "surname": "Berteau",
       "position": "Comptroller and A.G.",
-      "department": "Department of Comptroller and Auditor-General",
+      "department": "Comptroller and Auditor-General",
       "salary_min": 2000,
       "salary_max": 2000,
       "allowances": null,
@@ -1076,7 +1076,7 @@
       "given_names": "W. L.",
       "surname": "Donnelly",
       "position": "Assistant",
-      "department": "Department of Comptroller and Auditor-General",
+      "department": "Comptroller and Auditor-General",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -1097,9 +1097,7 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "D.D."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -1115,9 +1113,7 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "D.D."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -1133,9 +1129,7 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "D.D."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -1151,17 +1145,15 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "D.D."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Sir W. H. Horwood",
-      "canonical_name": "Horwood, Sir W. H.",
-      "given_names": "Sir W. H.",
+      "name": "W. H. Horwood",
+      "canonical_name": "Horwood, W. H.",
+      "given_names": "W. H.",
       "surname": "Horwood",
       "position": "Chief Justice and Judge of the Vice-Admiralty Court",
       "department": "Judicial Establishment",
@@ -1179,7 +1171,7 @@
       "canonical_name": "Emerson, G. H.",
       "given_names": "G. H.",
       "surname": "Emerson",
-      "position": "Judge",
+      "position": "Judges",
       "department": "Judicial Establishment",
       "salary_min": 4000,
       "salary_max": 4000,
@@ -1195,7 +1187,7 @@
       "canonical_name": "Johnson, G. M.",
       "given_names": "G. M.",
       "surname": "Johnson",
-      "position": "Judge",
+      "position": "Judges",
       "department": "Judicial Establishment",
       "salary_min": 4000,
       "salary_max": 4000,
@@ -1207,9 +1199,9 @@
       "location": null
     },
     {
-      "name": "Sir E. P. Morris",
-      "canonical_name": "Morris, Sir E. P.",
-      "given_names": "Sir E. P.",
+      "name": "E. P. Morris",
+      "canonical_name": "Morris, E. P.",
+      "given_names": "E. P.",
       "surname": "Morris",
       "position": "Minister of Justice",
       "department": "Judicial Establishment",
@@ -1453,9 +1445,9 @@
       "location": "Trepassy"
     },
     {
-      "name": "Dr. William Hogan",
-      "canonical_name": "Hogan, Dr. William",
-      "given_names": "Dr. William",
+      "name": "William Hogan",
+      "canonical_name": "Hogan, William",
+      "given_names": "William",
       "surname": "Hogan",
       "position": "Magistrate",
       "department": "Judicial Establishment",
@@ -1729,7 +1721,7 @@
       "canonical_name": "Pilot, Rev. Canon",
       "given_names": "Rev. Canon",
       "surname": "Pilot",
-      "position": "Superintendent of Schools, Church of England",
+      "position": "Superintendent of Schools",
       "department": "Educational Establishment",
       "salary_min": 1620,
       "salary_max": 1620,
@@ -1761,7 +1753,7 @@
       "canonical_name": "Curtis, Rev. Levi",
       "given_names": "Rev. Levi",
       "surname": "Curtis",
-      "position": "Superintendent of Schools, Methodist",
+      "position": "Superintendent of Schools",
       "department": "Educational Establishment",
       "salary_min": 1620,
       "salary_max": 1620,
@@ -1779,7 +1771,7 @@
       "canonical_name": "Burke, Vincent P.",
       "given_names": "Vincent P.",
       "surname": "Burke",
-      "position": "Superintendent of Schools, Roman Catholic, Diocese of St. John's and St. George's",
+      "position": "Roman Catholic",
       "department": "Educational Establishment",
       "salary_min": 1620,
       "salary_max": 1620,
@@ -1795,7 +1787,7 @@
       "canonical_name": "Hanrahan, Thomas",
       "given_names": "Thomas",
       "surname": "Hanrahan",
-      "position": "Superintendent of Schools, Roman Catholic, Diocese of Harbor Grace",
+      "position": "Roman Catholic",
       "department": "Educational Establishment",
       "salary_min": 1620,
       "salary_max": 1620,

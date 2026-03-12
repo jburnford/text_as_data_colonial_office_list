@@ -1,7 +1,7 @@
 {
   "colony": "Sierra Leone",
   "year": 1905,
-  "generated": "2026-03-12T00:02:00.742632",
+  "generated": "2026-03-12T07:50:51.629334",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 272,
@@ -96,7 +96,7 @@
       "given_names": "G. B. Haddon",
       "surname": "Smith",
       "position": "Colonial Secretary",
-      "department": "Colonial Secretary's Office",
+      "department": "Colonial Secretary's Department",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": "100l. duty allowance",
@@ -114,7 +114,7 @@
       "given_names": "E. E.",
       "surname": "Evelyn",
       "position": "Assistant Colonial Secretary",
-      "department": "Colonial Secretary's Office",
+      "department": "Colonial Secretary's Department",
       "salary_min": 350,
       "salary_max": 400,
       "allowances": null,
@@ -130,7 +130,7 @@
       "given_names": "A. W. M.",
       "surname": "Nylander",
       "position": "Chief Clerk",
-      "department": "Colonial Secretary's Office",
+      "department": "Colonial Secretary's Department",
       "salary_min": 200,
       "salary_max": 250,
       "allowances": null,
@@ -146,7 +146,7 @@
       "given_names": "D. W.",
       "surname": "Carroll",
       "position": "Chief Clerk",
-      "department": "Colonial Secretary's Office",
+      "department": "Colonial Secretary's Department",
       "salary_min": 120,
       "salary_max": 150,
       "allowances": null,
@@ -162,7 +162,7 @@
       "given_names": "C. L.",
       "surname": "Leigh",
       "position": "Chief Clerk",
-      "department": "Colonial Secretary's Office",
+      "department": "Colonial Secretary's Department",
       "salary_min": 115,
       "salary_max": 140,
       "allowances": null,
@@ -178,7 +178,7 @@
       "given_names": "J. T. D.",
       "surname": "Smith",
       "position": "Chief Clerk",
-      "department": "Colonial Secretary's Office",
+      "department": "Colonial Secretary's Department",
       "salary_min": 110,
       "salary_max": 130,
       "allowances": null,
@@ -190,11 +190,11 @@
     },
     {
       "name": "Hadir-u-deen",
-      "canonical_name": "Hadir-u-deen, Hadir-u-deen",
-      "given_names": "Hadir-u-deen",
+      "canonical_name": "Hadir-u-deen",
+      "given_names": "",
       "surname": "Hadir-u-deen",
       "position": "Chief Clerk",
-      "department": "Colonial Secretary's Office",
+      "department": "Colonial Secretary's Department",
       "salary_min": 100,
       "salary_max": 120,
       "allowances": null,
@@ -241,7 +241,7 @@
       "canonical_name": "Macfoy, J.",
       "given_names": "J.",
       "surname": "Macfoy",
-      "position": "1st Class Compositors",
+      "position": "1st Class Compositor",
       "department": "Printing Branch",
       "salary_min": 40,
       "salary_max": 50,
@@ -257,7 +257,7 @@
       "canonical_name": "Turner, C. E.",
       "given_names": "C. E.",
       "surname": "Turner",
-      "position": "1st Class Compositors",
+      "position": "1st Class Compositor",
       "department": "Printing Branch",
       "salary_min": 40,
       "salary_max": 50,
@@ -273,7 +273,7 @@
       "canonical_name": "Thomas, N. S.",
       "given_names": "N. S.",
       "surname": "Thomas",
-      "position": "1st Class Compositors",
+      "position": "1st Class Compositor",
       "department": "Printing Branch",
       "salary_min": 40,
       "salary_max": 50,
@@ -289,7 +289,7 @@
       "canonical_name": "George, A. T.",
       "given_names": "A. T.",
       "surname": "George",
-      "position": "2nd Class Compositors",
+      "position": "2nd Class Compositor",
       "department": "Printing Branch",
       "salary_min": 30,
       "salary_max": 40,
@@ -305,7 +305,7 @@
       "canonical_name": "Danner, J. H.",
       "given_names": "J. H.",
       "surname": "Danner",
-      "position": "2nd Class Compositors",
+      "position": "2nd Class Compositor",
       "department": "Printing Branch",
       "salary_min": 30,
       "salary_max": 40,
@@ -1109,19 +1109,19 @@
       "department": "Post Office",
       "salary_min": 100,
       "salary_max": 120,
-      "allowances": "plus 20l. as Savings Bank Clerk",
+      "allowances": "20l. as Savings Bank Clerk",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Sherbro"
     },
     {
       "name": "A. E. Mammah",
       "canonical_name": "Mammah, A. E.",
       "given_names": "A. E.",
       "surname": "Mammah",
-      "position": "Clerk, Sherbro",
+      "position": "Clerk to Postmaster",
       "department": "Post Office",
       "salary_min": 30,
       "salary_max": 40,
@@ -1666,7 +1666,7 @@
       "given_names": "N. J.",
       "surname": "Spain",
       "position": "Supervisor",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 300,
       "salary_max": 300,
       "allowances": null,
@@ -1674,7 +1674,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "G. T. Lewis",
@@ -1682,7 +1682,7 @@
       "given_names": "G. T.",
       "surname": "Lewis",
       "position": "Chief Clerk",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 140,
       "salary_max": 170,
       "allowances": null,
@@ -1690,7 +1690,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "J. A. Songo Davies",
@@ -1698,7 +1698,7 @@
       "given_names": "J. A. Songo",
       "surname": "Davies",
       "position": "Warehousekeeper",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 80,
       "salary_max": 90,
       "allowances": null,
@@ -1706,7 +1706,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "W. J. Lawrence",
@@ -1714,7 +1714,7 @@
       "given_names": "W. J.",
       "surname": "Lawrence",
       "position": "Senior Outdoor Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 150,
       "salary_max": 175,
       "allowances": null,
@@ -1722,7 +1722,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "P. H. H. George",
@@ -1730,7 +1730,7 @@
       "given_names": "P. H. H.",
       "surname": "George",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 90,
       "salary_max": 100,
       "allowances": null,
@@ -1738,7 +1738,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "J. O. Turner",
@@ -1746,7 +1746,7 @@
       "given_names": "J. O.",
       "surname": "Turner",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 90,
       "salary_max": 90,
       "allowances": null,
@@ -1754,7 +1754,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "T. A. Davies",
@@ -1762,7 +1762,7 @@
       "given_names": "T. A.",
       "surname": "Davies",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 70,
       "salary_max": 80,
       "allowances": null,
@@ -1770,7 +1770,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "T. D. Brown",
@@ -1778,7 +1778,7 @@
       "given_names": "T. D.",
       "surname": "Brown",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 70,
       "salary_max": 80,
       "allowances": null,
@@ -1786,7 +1786,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "T. R. Elba",
@@ -1794,7 +1794,7 @@
       "given_names": "T. R.",
       "surname": "Elba",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 70,
       "salary_max": 80,
       "allowances": null,
@@ -1802,7 +1802,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "A. D. Yasky",
@@ -1810,7 +1810,7 @@
       "given_names": "A. D.",
       "surname": "Yasky",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 70,
       "salary_max": 80,
       "allowances": null,
@@ -1818,7 +1818,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "W. A. H. Smith",
@@ -1826,7 +1826,7 @@
       "given_names": "W. A. H.",
       "surname": "Smith",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 70,
       "salary_max": 80,
       "allowances": null,
@@ -1834,7 +1834,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "F. S. Smart",
@@ -1842,7 +1842,7 @@
       "given_names": "F. S.",
       "surname": "Smart",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 70,
       "salary_max": 80,
       "allowances": null,
@@ -1850,7 +1850,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "T. A. Clemens",
@@ -1858,7 +1858,7 @@
       "given_names": "T. A.",
       "surname": "Clemens",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 70,
       "salary_max": 80,
       "allowances": null,
@@ -1866,7 +1866,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "J. C. Danner",
@@ -1874,7 +1874,7 @@
       "given_names": "J. C.",
       "surname": "Danner",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 70,
       "salary_max": 80,
       "allowances": null,
@@ -1882,7 +1882,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "N. A. Lewis",
@@ -1890,7 +1890,7 @@
       "given_names": "N. A.",
       "surname": "Lewis",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 70,
       "salary_max": 80,
       "allowances": null,
@@ -1898,7 +1898,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "T. N. Johnson",
@@ -1906,7 +1906,7 @@
       "given_names": "T. N.",
       "surname": "Johnson",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 70,
       "salary_max": 80,
       "allowances": null,
@@ -1914,7 +1914,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "J. Whitfield",
@@ -1922,7 +1922,7 @@
       "given_names": "J.",
       "surname": "Whitfield",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 70,
       "salary_max": 80,
       "allowances": null,
@@ -1930,7 +1930,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "S. A. Baker",
@@ -1938,7 +1938,7 @@
       "given_names": "S. A.",
       "surname": "Baker",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 70,
       "salary_max": 80,
       "allowances": null,
@@ -1946,7 +1946,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "F. N. Jones",
@@ -1954,7 +1954,7 @@
       "given_names": "F. N.",
       "surname": "Jones",
       "position": "1st Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 70,
       "salary_max": 80,
       "allowances": null,
@@ -1962,7 +1962,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "C. D. Williams",
@@ -1970,7 +1970,7 @@
       "given_names": "C. D.",
       "surname": "Williams",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -1978,7 +1978,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "F. Q. Martin",
@@ -1986,7 +1986,7 @@
       "given_names": "F. Q.",
       "surname": "Martin",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -1994,7 +1994,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "T. E. Martin",
@@ -2002,7 +2002,7 @@
       "given_names": "T. E.",
       "surname": "Martin",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2010,7 +2010,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "V. K. Edwin",
@@ -2018,7 +2018,7 @@
       "given_names": "V. K.",
       "surname": "Edwin",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2026,7 +2026,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "S. D. Macarthy",
@@ -2034,7 +2034,7 @@
       "given_names": "S. D.",
       "surname": "Macarthy",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2042,7 +2042,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "H. H. Wilson",
@@ -2050,7 +2050,7 @@
       "given_names": "H. H.",
       "surname": "Wilson",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2058,7 +2058,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "A. B. Carew",
@@ -2066,7 +2066,7 @@
       "given_names": "A. B.",
       "surname": "Carew",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2074,7 +2074,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "T. E. Johnson",
@@ -2082,7 +2082,7 @@
       "given_names": "T. E.",
       "surname": "Johnson",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2090,7 +2090,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "J. F. Smith",
@@ -2098,7 +2098,7 @@
       "given_names": "J. F.",
       "surname": "Smith",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2106,7 +2106,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "J. E. Harding",
@@ -2114,7 +2114,7 @@
       "given_names": "J. E.",
       "surname": "Harding",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2122,7 +2122,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "I. F. George",
@@ -2130,7 +2130,7 @@
       "given_names": "I. F.",
       "surname": "George",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2138,7 +2138,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "A. N. David",
@@ -2146,7 +2146,7 @@
       "given_names": "A. N.",
       "surname": "David",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2154,7 +2154,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "M. J. John",
@@ -2162,7 +2162,7 @@
       "given_names": "M. J.",
       "surname": "John",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2170,7 +2170,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "J. A. Williams",
@@ -2178,7 +2178,7 @@
       "given_names": "J. A.",
       "surname": "Williams",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2186,7 +2186,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "E. F. Clarke",
@@ -2194,7 +2194,7 @@
       "given_names": "E. F.",
       "surname": "Clarke",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2202,7 +2202,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "H. M. Venn",
@@ -2210,7 +2210,7 @@
       "given_names": "H. M.",
       "surname": "Venn",
       "position": "2nd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -2218,7 +2218,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "H. A. Venn",
@@ -2226,7 +2226,7 @@
       "given_names": "H. A.",
       "surname": "Venn",
       "position": "3rd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 30,
       "salary_max": 40,
       "allowances": null,
@@ -2234,7 +2234,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "J. M. Jacobs",
@@ -2242,7 +2242,7 @@
       "given_names": "J. M.",
       "surname": "Jacobs",
       "position": "3rd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 30,
       "salary_max": 40,
       "allowances": null,
@@ -2250,7 +2250,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "J. W. Wray",
@@ -2258,7 +2258,7 @@
       "given_names": "J. W.",
       "surname": "Wray",
       "position": "3rd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 30,
       "salary_max": 40,
       "allowances": null,
@@ -2266,7 +2266,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "S. V. Felix",
@@ -2274,7 +2274,7 @@
       "given_names": "S. V.",
       "surname": "Felix",
       "position": "3rd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 30,
       "salary_max": 40,
       "allowances": null,
@@ -2282,7 +2282,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "J. F. Kenny",
@@ -2290,7 +2290,7 @@
       "given_names": "J. F.",
       "surname": "Kenny",
       "position": "3rd Class Officer",
-      "department": "Customs Department",
+      "department": "Sherbro Branch",
       "salary_min": 30,
       "salary_max": 40,
       "allowances": null,
@@ -2298,7 +2298,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sherbro Branch"
+      "location": null
     },
     {
       "name": "G. L. Brooks",
@@ -2693,7 +2693,7 @@
       "department": "Medical Department",
       "salary_min": 300,
       "salary_max": 350,
-      "allowances": "plus 50l. personal",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -3313,8 +3313,8 @@
       "canonical_name": "Kemball, G. V.",
       "given_names": "G. V.",
       "surname": "Kemball",
-      "position": "Inspector-General",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "position": "Inspector-General, Brigadier-General",
+      "department": "Military",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -3326,11 +3326,11 @@
     },
     {
       "name": "Lyon",
-      "canonical_name": "Lyon",
+      "canonical_name": "Lyon, ",
       "given_names": "",
       "surname": "Lyon",
       "position": "Staff Officer to Inspector-General",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -3348,7 +3348,7 @@
       "given_names": "W. H.",
       "surname": "Maud",
       "position": "Staff Officer to Inspector-General",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -3364,7 +3364,7 @@
       "given_names": "C. E.",
       "surname": "Palmer",
       "position": "Major Commanding",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -3380,7 +3380,7 @@
       "given_names": "T. B.",
       "surname": "Eames",
       "position": "Captain",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3396,7 +3396,7 @@
       "given_names": "C. C.",
       "surname": "Norman",
       "position": "Captain",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3412,7 +3412,7 @@
       "given_names": "R. A.",
       "surname": "Cockburn",
       "position": "Captain",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3428,7 +3428,7 @@
       "given_names": "F. N.",
       "surname": "Le Mesurier",
       "position": "Captain",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3444,7 +3444,7 @@
       "given_names": "H. H.",
       "surname": "Bond",
       "position": "Captain",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3460,7 +3460,7 @@
       "given_names": "L.",
       "surname": "Murray",
       "position": "Captain",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 400,
       "salary_max": 400,
       "allowances": null,
@@ -3476,7 +3476,7 @@
       "given_names": "P. A.",
       "surname": "Legg",
       "position": "Lieutenant",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3492,7 +3492,7 @@
       "given_names": "A. H. P.",
       "surname": "Luckhardt",
       "position": "Lieutenant",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3508,7 +3508,7 @@
       "given_names": "A.",
       "surname": "Farrar",
       "position": "Lieutenant",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3524,7 +3524,7 @@
       "given_names": "H. E.",
       "surname": "Bailey",
       "position": "Lieutenant",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3540,7 +3540,7 @@
       "given_names": "A. W.",
       "surname": "Boddy",
       "position": "Lieutenant",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3556,7 +3556,7 @@
       "given_names": "G. M. B.",
       "surname": "Needham",
       "position": "Lieutenant",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3572,7 +3572,7 @@
       "given_names": "E.",
       "surname": "Von Brockdorff",
       "position": "Lieutenant",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3588,7 +3588,7 @@
       "given_names": "G. W. P.",
       "surname": "Dawes",
       "position": "Lieutenant",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3604,7 +3604,7 @@
       "given_names": "W.",
       "surname": "Addison",
       "position": "Lieutenant",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": null,
@@ -3620,7 +3620,7 @@
       "given_names": "H.",
       "surname": "Le Mesurier",
       "position": "Adjutant",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -3636,7 +3636,7 @@
       "given_names": "A. E.",
       "surname": "Bickersteth",
       "position": "Paymaster's Clerk",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 50,
       "salary_max": 50,
       "allowances": null,
@@ -3652,13 +3652,13 @@
       "given_names": "J. W.",
       "surname": "Carew",
       "position": "Quartermaster-Sergeant",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 65,
       "salary_max": 65,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Sergeant",
       "salary_scale": null,
       "location": null
     },
@@ -3668,7 +3668,7 @@
       "given_names": "F.",
       "surname": "Humaru",
       "position": "Company Pay Clerk",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -3684,7 +3684,7 @@
       "given_names": "J.",
       "surname": "Terry",
       "position": "Company Pay Clerk",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -3700,7 +3700,7 @@
       "given_names": "S. J.",
       "surname": "Coker",
       "position": "Company Pay Clerk",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -3716,7 +3716,7 @@
       "given_names": "G. A.",
       "surname": "Harding",
       "position": "Company Pay Clerk",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -3732,7 +3732,7 @@
       "given_names": "J. B.",
       "surname": "Macaulay",
       "position": "Company Pay Clerk",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 50,
       "salary_max": 60,
       "allowances": null,
@@ -3748,7 +3748,7 @@
       "given_names": "M.",
       "surname": "Deen",
       "position": "Orderly Room Clerk",
-      "department": "Sierra Leone Battalion, West African Frontier Force",
+      "department": "Military",
       "salary_min": 50,
       "salary_max": 50,
       "allowances": null,
@@ -3767,12 +3767,12 @@
       "department": "Provincial Administration",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "plus 100l. personal",
+      "allowances": "100l. personal",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Sherbro"
     },
     {
       "name": "L. A. Fyne",
@@ -3788,7 +3788,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Sherbro"
     },
     {
       "name": "E. Faulkner",
@@ -3804,7 +3804,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Waterloo"
     },
     {
       "name": "H. A. Williams",
@@ -3820,7 +3820,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Waterloo"
     },
     {
       "name": "A. Hudson",
@@ -4198,7 +4198,7 @@
       "canonical_name": "Perineaux, C.",
       "given_names": "C.",
       "surname": "Perineaux",
-      "position": "Foreign Consul",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -4214,7 +4214,7 @@
       "canonical_name": "Eschborn, W.",
       "given_names": "W.",
       "surname": "Eschborn",
-      "position": "Foreign Consul",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -4230,7 +4230,7 @@
       "canonical_name": "Mansell, W. V.",
       "given_names": "W. V.",
       "surname": "Mansell",
-      "position": "Foreign Consul",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -4246,7 +4246,7 @@
       "canonical_name": "Davey, P.",
       "given_names": "P.",
       "surname": "Davey",
-      "position": "Foreign Consul",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -4262,7 +4262,7 @@
       "canonical_name": "Hall, W. H.",
       "given_names": "W. H.",
       "surname": "Hall",
-      "position": "Foreign Consul",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -4278,7 +4278,7 @@
       "canonical_name": "Zolia, G. T.",
       "given_names": "G. T.",
       "surname": "Zolia",
-      "position": "Foreign Consul",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -4294,7 +4294,7 @@
       "canonical_name": "Lemberg, Philip",
       "given_names": "Philip",
       "surname": "Lemberg",
-      "position": "Foreign Consul",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -4310,7 +4310,7 @@
       "canonical_name": "Williams, J. T.",
       "given_names": "J. T.",
       "surname": "Williams",
-      "position": "Foreign Consul",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -4326,7 +4326,7 @@
       "canonical_name": "May, C.",
       "given_names": "C.",
       "surname": "May",
-      "position": "Foreign Consul",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -4343,7 +4343,7 @@
       "given_names": "Lord",
       "surname": "Milner",
       "position": "Governor of the Transvaal and Orange River Colony; High Commissioner",
-      "department": "High Commission",
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4354,12 +4354,12 @@
       "location": null
     },
     {
-      "name": "Dr. Jameson",
-      "canonical_name": "Jameson, Dr.",
-      "given_names": "Dr.",
+      "name": "Jameson",
+      "canonical_name": "Jameson",
+      "given_names": null,
       "surname": "Jameson",
       "position": null,
-      "department": "High Commission",
+      "department": null,
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -4374,8 +4374,8 @@
     "colony": "Sierra Leone",
     "year": 1905,
     "total": 272,
-    "high_confidence": 271,
-    "medium_confidence": 1,
+    "high_confidence": 269,
+    "medium_confidence": 3,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 272,
