@@ -1,7 +1,7 @@
 {
   "colony": "Western Pacific",
   "year": 1898,
-  "generated": "2026-03-12T13:46:44.117627",
+  "generated": "2026-03-13T07:54:29.690294",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 19,
@@ -12,7 +12,7 @@
       "given_names": "F. J.",
       "surname": "Moss",
       "position": "British Resident",
-      "department": "Resident",
+      "department": "Establishment",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -23,7 +23,7 @@
       "location": null
     },
     {
-      "name": "Sir Arthur Gordon",
+      "name": "Arthur Gordon",
       "canonical_name": "Gordon, Arthur",
       "given_names": "Arthur",
       "surname": "Gordon",
@@ -45,7 +45,7 @@
       "canonical_name": "Gorrie, John",
       "given_names": "John",
       "surname": "Gorrie",
-      "position": "High Commissioner",
+      "position": "High Commissioner (acting)",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -57,7 +57,7 @@
       "location": null
     },
     {
-      "name": "Sir A. Gordon",
+      "name": "A. Gordon",
       "canonical_name": "Gordon, A.",
       "given_names": "A.",
       "surname": "Gordon",
@@ -75,11 +75,11 @@
       "location": null
     },
     {
-      "name": "Sir G. W. Des Voeux",
+      "name": "G. W. Des Voeux",
       "canonical_name": "Des Voeux, G. W.",
       "given_names": "G. W.",
       "surname": "Des Voeux",
-      "position": "High Commissioner",
+      "position": "High Commissioner (acting)",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -97,7 +97,7 @@
       "canonical_name": "Thurston, J. B.",
       "given_names": "J. B.",
       "surname": "Thurston",
-      "position": "High Commissioner",
+      "position": "High Commissioner (Assistant)",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -115,7 +115,7 @@
       "canonical_name": "Macgregor, W.",
       "given_names": "W.",
       "surname": "Macgregor",
-      "position": "High Commissioner",
+      "position": "High Commissioner (Acting Assistant)",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -129,7 +129,7 @@
       "location": null
     },
     {
-      "name": "Sir C. B. H. Mitchell",
+      "name": "C. B. H. Mitchell",
       "canonical_name": "Mitchell, C. B. H.",
       "given_names": "C. B. H.",
       "surname": "Mitchell",
@@ -151,7 +151,7 @@
       "canonical_name": "Berkeley, H. S.",
       "given_names": "H. S.",
       "surname": "Berkeley",
-      "position": "High Commissioner",
+      "position": "High Commissioner (acting)",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -163,7 +163,7 @@
       "location": null
     },
     {
-      "name": "Sir G. T. M. O'Brien",
+      "name": "G. T. M. O'Brien",
       "canonical_name": "O'Brien, G. T. M.",
       "given_names": "G. T. M.",
       "surname": "O'Brien",
@@ -181,7 +181,7 @@
       "location": null
     },
     {
-      "name": "Sir G. T. M. O'Brien",
+      "name": "G. T. M. O'Brien",
       "canonical_name": "O'Brien, G. T. M.",
       "given_names": "G. T. M.",
       "surname": "O'Brien",
@@ -251,7 +251,7 @@
       "canonical_name": "Leefe, R. B.",
       "given_names": "R. B.",
       "surname": "Leefe",
-      "position": "Deputy Commissioner in Tonga",
+      "position": "Deputy Commissioner",
       "department": "Establishment",
       "salary_min": 440,
       "salary_max": 440,
@@ -267,10 +267,10 @@
       "canonical_name": "Maxse, E. G. B.",
       "given_names": "E. G. B.",
       "surname": "Maxse",
-      "position": "Deputy Commissioner in Samoa",
+      "position": "Deputy Commissioner",
       "department": "Establishment",
       "salary_min": 100,
-      "salary_max": 100,
+      "salary_max": 700,
       "allowances": null,
       "honors": [],
       "qualifications": [],

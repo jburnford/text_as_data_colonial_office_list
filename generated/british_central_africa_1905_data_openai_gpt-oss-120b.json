@@ -1,15 +1,15 @@
 {
   "colony": "British Central Africa",
   "year": 1905,
-  "generated": "2026-03-12T13:49:43.607813",
+  "generated": "2026-03-13T08:03:56.264204",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 67,
   "officials": [
     {
       "name": "Sir A. Sharpe",
-      "canonical_name": "Sharpe, A.",
-      "given_names": "A.",
+      "canonical_name": "Sharpe, Sir A.",
+      "given_names": "Sir A.",
       "surname": "Sharpe",
       "position": "Commissioner, Commander-in-Chief, and Consul-General",
       "department": "Civil Establishment",
@@ -242,7 +242,7 @@
       "canonical_name": "Ridge, A.",
       "given_names": "A.",
       "surname": "Ridge",
-      "position": "Clerk",
+      "position": "Clerk in Treasury",
       "department": "Treasury Department",
       "salary_min": 200,
       "salary_max": 250,
@@ -258,7 +258,7 @@
       "canonical_name": "Turnbull, A. M. D.",
       "given_names": "A. M. D.",
       "surname": "Turnbull",
-      "position": "Clerk",
+      "position": "Clerk in Treasury",
       "department": "Treasury Department",
       "salary_min": 200,
       "salary_max": 250,
@@ -274,7 +274,7 @@
       "canonical_name": "Wyatt, A. L.",
       "given_names": "A. L.",
       "surname": "Wyatt",
-      "position": "Clerk",
+      "position": "Clerk in Treasury",
       "department": "Treasury Department",
       "salary_min": 200,
       "salary_max": 250,
@@ -818,7 +818,7 @@
       "canonical_name": "Wightman, A. E.",
       "given_names": "A. E.",
       "surname": "Wightman",
-      "position": "Assistant",
+      "position": "Assistants",
       "department": "Public Works Department",
       "salary_min": 250,
       "salary_max": 300,
@@ -844,7 +844,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Brigadier-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -875,7 +875,6 @@
       "salary_max": 900,
       "allowances": null,
       "honors": [
-        "V.C.",
         "D.S.O."
       ],
       "qualifications": [],
@@ -1066,25 +1065,23 @@
       "canonical_name": "Fletcher, S. Hewitt",
       "given_names": "S. Hewitt",
       "surname": "Fletcher",
-      "position": "Agent and Vice-Consul at Chinde",
+      "position": "Agent and Vice-Consul",
       "department": "Chinde Concession",
       "salary_min": 450,
       "salary_max": 600,
       "allowances": null,
-      "honors": [
-        "C.M.G."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Chinde"
     },
     {
       "name": "J. S. Bell",
       "canonical_name": "Bell, J. S.",
       "given_names": "J. S.",
       "surname": "Bell",
-      "position": "Clerk in Chinde Vice-Consulate",
+      "position": "Clerk",
       "department": "Chinde Concession",
       "salary_min": 200,
       "salary_max": 250,
@@ -1093,7 +1090,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Chinde"
     }
   ],
   "validation_summary": {

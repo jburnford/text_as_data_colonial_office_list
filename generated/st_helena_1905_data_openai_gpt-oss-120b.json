@@ -1,13 +1,13 @@
 {
   "colony": "St Helena",
   "year": 1905,
-  "generated": "2026-03-12T14:01:25.985613",
+  "generated": "2026-03-13T08:23:54.438837",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 26,
+  "total_officials": 25,
   "officials": [
     {
-      "name": "Lieut.-Colonel H. L. Gallwey",
+      "name": "H. L. Gallwey",
       "canonical_name": "Gallwey, H. L.",
       "given_names": "H. L.",
       "surname": "Gallwey",
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 750,
       "salary_max": 750,
-      "allowances": "table allowance 200l",
+      "allowances": "table allowance 200l.",
       "honors": [],
       "qualifications": [],
       "military_rank": "Lieut.-Colonel",
@@ -23,7 +23,7 @@
       "location": null
     },
     {
-      "name": "Lieut. H. St. J. L. Winterbotham",
+      "name": "H. St. J. L. Winterbotham",
       "canonical_name": "Winterbotham, H. St. J. L.",
       "given_names": "H. St. J. L.",
       "surname": "Winterbotham",
@@ -87,7 +87,7 @@
       "location": null
     },
     {
-      "name": "Lieut. A. Jones",
+      "name": "A. Jones",
       "canonical_name": "Jones, A.",
       "given_names": "A.",
       "surname": "Jones",
@@ -210,7 +210,7 @@
       "department": "Civil Establishment",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -282,22 +282,6 @@
       "location": null
     },
     {
-      "name": "Thomas Broadway (acting)",
-      "canonical_name": "Broadway, Thomas (acting)",
-      "given_names": "Thomas (acting)",
-      "surname": "Broadway",
-      "position": "Foreman of Works",
-      "department": "Civil Establishment",
-      "salary_min": 38,
-      "salary_max": 38,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "C. Bruce",
       "canonical_name": "Bruce, C.",
       "given_names": "C.",
@@ -346,7 +330,7 @@
       "location": null
     },
     {
-      "name": "The Very Rev. W. A. Holbech",
+      "name": "W. A. Holbech",
       "canonical_name": "Holbech, W. A.",
       "given_names": "W. A.",
       "surname": "Holbech",
@@ -362,7 +346,7 @@
       "location": null
     },
     {
-      "name": "Rev. H. Gibbons",
+      "name": "H. Gibbons",
       "canonical_name": "Gibbons, H.",
       "given_names": "H.",
       "surname": "Gibbons",
@@ -382,7 +366,7 @@
       "canonical_name": "Solomon, H. W.",
       "given_names": "H. W.",
       "surname": "Solomon",
-      "position": "Consul for Netherlands, Germany (acting), Denmark, Portugal (acting), Norway and Sweden; Vice-Consul for Russia (acting)",
+      "position": "Consul for Netherlands, Germany (acting), Denmark, Portugal (acting), Norway and Sweden, Vice-Consul for Russia (acting)",
       "department": "Consuls of Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -429,12 +413,12 @@
   "validation_summary": {
     "colony": "St Helena",
     "year": 1905,
-    "total": 26,
-    "high_confidence": 26,
+    "total": 25,
+    "high_confidence": 25,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 26,
+    "passed": 25,
     "anomaly_count": 1
   }
 }

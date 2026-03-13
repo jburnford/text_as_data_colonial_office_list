@@ -1,43 +1,11 @@
 {
   "colony": "Bechuanaland",
   "year": 1905,
-  "generated": "2026-03-12T13:47:40.410795",
+  "generated": "2026-03-13T07:59:03.625303",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 22,
   "officials": [
-    {
-      "name": "Sekgoma",
-      "canonical_name": "Sekgoma",
-      "given_names": "",
-      "surname": "Sekgoma",
-      "position": "Chief of the Batswana",
-      "department": null,
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "Lake Ngami"
-    },
-    {
-      "name": "Mokgosi",
-      "canonical_name": "Mokgosi",
-      "given_names": "",
-      "surname": "Mokgosi",
-      "position": "Chief of the Bamaletse",
-      "department": null,
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "Ramotusa"
-    },
     {
       "name": "Ralph Williams",
       "canonical_name": "Williams, Ralph",
@@ -359,6 +327,38 @@
       "military_rank": null,
       "salary_scale": null,
       "location": null
+    },
+    {
+      "name": "Sekgoma",
+      "canonical_name": "Sekgoma",
+      "given_names": "",
+      "surname": "Sekgoma",
+      "position": "Chief of the Batswana",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Lake Ngami"
+    },
+    {
+      "name": "Mokgosi",
+      "canonical_name": "Mokgosi",
+      "given_names": "",
+      "surname": "Mokgosi",
+      "position": "Chief of the Bamaletse",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Ramotusa"
     }
   ],
   "validation_summary": {

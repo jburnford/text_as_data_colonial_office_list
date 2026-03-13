@@ -1,7 +1,7 @@
 {
   "colony": "British Honduras",
   "year": 1905,
-  "generated": "2026-03-12T13:50:46.663409",
+  "generated": "2026-03-13T08:06:48.229194",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 84,
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "Captain H. W. Peebles",
+      "name": "H. W. Peebles",
       "canonical_name": "Peebles, H. W.",
       "given_names": "H. W.",
       "surname": "Peebles",
@@ -428,8 +428,8 @@
     },
     {
       "name": "Sir Walter Llewellyn Lewis",
-      "canonical_name": "Lewis, Sir Walter Llewellyn",
-      "given_names": "Sir Walter Llewellyn",
+      "canonical_name": "Lewis, Walter Llewellyn",
+      "given_names": "Walter Llewellyn",
       "surname": "Lewis",
       "position": "Chief Justice and Judge, Vice-Admiralty Court",
       "department": "Judicial Department",
@@ -475,7 +475,7 @@
       "location": null
     },
     {
-      "name": "D. D. Barnes",
+      "name": "D. D. Barnes (acting)",
       "canonical_name": "Barnes, D. D.",
       "given_names": "D. D.",
       "surname": "Barnes",
@@ -895,7 +895,7 @@
       "canonical_name": "Martin, A.",
       "given_names": "A.",
       "surname": "Martin",
-      "position": "Keeper Half-Moon Cay Light",
+      "position": "Keeper",
       "department": "Public Works",
       "salary_min": 400,
       "salary_max": 400,
@@ -904,14 +904,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Half-Moon Cay Light"
     },
     {
       "name": "G. Longsworth",
       "canonical_name": "Longsworth, G.",
       "given_names": "G.",
       "surname": "Longsworth",
-      "position": "Keeper Mauagre Cay",
+      "position": "Keeper",
       "department": "Public Works",
       "salary_min": 300,
       "salary_max": 300,
@@ -920,14 +920,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Mauagre Cay"
     },
     {
       "name": "S. Miller",
       "canonical_name": "Miller, S.",
       "given_names": "S.",
       "surname": "Miller",
-      "position": "Keeper Cay Bokel",
+      "position": "Keeper",
       "department": "Public Works",
       "salary_min": 300,
       "salary_max": 300,
@@ -936,14 +936,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Cay Bokel"
     },
     {
       "name": "J. Young",
       "canonical_name": "Young, J.",
       "given_names": "J.",
       "surname": "Young",
-      "position": "Keeper English Cay",
+      "position": "Keeper",
       "department": "Public Works",
       "salary_min": 240,
       "salary_max": 240,
@@ -952,14 +952,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "English Cay"
     },
     {
       "name": "C. Miller",
       "canonical_name": "Miller, C.",
       "given_names": "C.",
       "surname": "Miller",
-      "position": "Keeper Bugle Cay",
+      "position": "Keeper",
       "department": "Public Works",
       "salary_min": 240,
       "salary_max": 240,
@@ -968,7 +968,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Bugle Cay"
     },
     {
       "name": "C. H. Eyles",
@@ -1123,7 +1123,7 @@
       "department": "Police",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1313,7 +1313,7 @@
       "canonical_name": "Hopkins, F. C.",
       "given_names": "F. C.",
       "surname": "Hopkins",
-      "position": "Roman Catholic",
+      "position": null,
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,

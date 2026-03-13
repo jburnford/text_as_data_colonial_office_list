@@ -1,13 +1,13 @@
 {
   "colony": "Rhodesia",
   "year": 1905,
-  "total_quarantined": 1,
+  "total_quarantined": 2,
   "officials": [
     {
-      "name": "Mahoon",
-      "canonical_name": "Mahoon, ",
+      "name": "Mahony",
+      "canonical_name": "Mahony, ",
       "given_names": "",
-      "surname": "Mahoon",
+      "surname": "Mahony",
       "position": null,
       "department": null,
       "salary_min": null,
@@ -18,6 +18,22 @@
       "military_rank": null,
       "salary_scale": null,
       "location": null
+    },
+    {
+      "name": "Sir Charles Metcale",
+      "canonical_name": "Metcale, Charles",
+      "given_names": "Charles",
+      "surname": "Metcale",
+      "position": "Consulting Engineer",
+      "department": "Railways",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Rhodesia"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "colony": "British New Guinea",
   "year": 1906,
-  "generated": "2026-03-12T14:08:20.150452",
+  "generated": "2026-03-13T08:33:53.772515",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 54,
@@ -27,7 +27,7 @@
       "canonical_name": "Murray, J. H. P.",
       "given_names": "J. H. P.",
       "surname": "Murray",
-      "position": null,
+      "position": "Member",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -43,7 +43,7 @@
       "canonical_name": "Ballantine, D.",
       "given_names": "D.",
       "surname": "Ballantine",
-      "position": null,
+      "position": "Member",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -59,7 +59,7 @@
       "canonical_name": "Musgrave, A.",
       "given_names": "A.",
       "surname": "Musgrave",
-      "position": null,
+      "position": "Member",
       "department": "Executive Council",
       "salary_min": null,
       "salary_max": null,
@@ -89,7 +89,7 @@
       "location": null
     },
     {
-      "name": "F. R. Barton",
+      "name": "Captain F. R. Barton",
       "canonical_name": "Barton, F. R.",
       "given_names": "F. R.",
       "surname": "Barton",
@@ -97,7 +97,7 @@
       "department": "Establishment",
       "salary_min": 1250,
       "salary_max": 1250,
-      "allowances": "200l.",
+      "allowances": "200l",
       "honors": [
         "C.M.G."
       ],
@@ -147,7 +147,7 @@
       "department": "Establishment",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "200l.",
+      "allowances": "200l",
       "honors": [
         "C.M.G."
       ],
@@ -702,9 +702,9 @@
     },
     {
       "name": "J. R. S. Stuart Russell",
-      "canonical_name": "Russell, J. R. S.",
+      "canonical_name": "Stuart Russell, J. R. S.",
       "given_names": "J. R. S.",
-      "surname": "Russell",
+      "surname": "Stuart Russell",
       "position": "Record Clerk",
       "department": "Establishment",
       "salary_min": 225,
@@ -848,7 +848,7 @@
     },
     {
       "name": "Erna",
-      "canonical_name": "Erna, ",
+      "canonical_name": "Erna",
       "given_names": "",
       "surname": "Erna",
       "position": "Cadet, Government Store",

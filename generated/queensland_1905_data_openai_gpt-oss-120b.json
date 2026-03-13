@@ -1,7 +1,7 @@
 {
   "colony": "Queensland",
   "year": 1905,
-  "generated": "2026-03-12T14:00:17.644191",
+  "generated": "2026-03-13T08:21:49.642351",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 108,
@@ -27,7 +27,7 @@
       "canonical_name": "Brennan, J. O'N.",
       "given_names": "J. O'N.",
       "surname": "Brennan",
-      "position": "Immigration Agent, &c.",
+      "position": "Immigration Agent",
       "department": "Chief Secretary's Department",
       "salary_min": 400,
       "salary_max": 400,
@@ -136,9 +136,9 @@
     },
     {
       "name": "C. E. de F. Pennefather",
-      "canonical_name": "de F. Pennefather, C. E.",
-      "given_names": "C. E.",
-      "surname": "de F. Pennefather",
+      "canonical_name": "Pennefather, C. E. de F.",
+      "given_names": "C. E. de F.",
+      "surname": "Pennefather",
       "position": "Comptroller-General of Prisons",
       "department": "Home Secretary's Department",
       "salary_min": 500,
@@ -167,7 +167,7 @@
       "location": null
     },
     {
-      "name": "Sir Pope A. Cooper",
+      "name": "Pope A. Cooper",
       "canonical_name": "Cooper, Pope A.",
       "given_names": "Pope A.",
       "surname": "Cooper",
@@ -868,7 +868,7 @@
         "C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Major and Brevet-Lieutenant-Colonel",
+      "military_rank": "Major",
       "salary_scale": null,
       "location": null
     },
@@ -1016,7 +1016,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain and Brevet-Major",
+      "military_rank": "Captain",
       "salary_scale": null,
       "location": null
     },
@@ -1062,7 +1062,9 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "C.M.G."
+      ],
       "qualifications": [],
       "military_rank": "Captain",
       "salary_scale": null,
@@ -1089,7 +1091,7 @@
       "canonical_name": "Tickell, Frederick",
       "given_names": "Frederick",
       "surname": "Tickell",
-      "position": "Naval Commandant, and Captain, H.M.A.S., Gayundah",
+      "position": "Naval Commandant, and Captain, H.M.A.S., \"Gayundah\"",
       "department": "Naval Headquarters' Staff",
       "salary_min": null,
       "salary_max": null,
@@ -1196,7 +1198,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Brisbane"
     },
     {
       "name": "D. G. Bloomfield",
@@ -1212,7 +1214,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Brisbane"
     },
     {
       "name": "A. R. Knowles",
@@ -1402,16 +1404,14 @@
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
-      "honors": [
-        "I.S.O."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Horace Tozer",
+      "name": "Sir Horace Tozer",
       "canonical_name": "Tozer, Horace",
       "given_names": "Horace",
       "surname": "Tozer",
@@ -1481,7 +1481,7 @@
       "canonical_name": "Lee-Bryce, R.",
       "given_names": "R.",
       "surname": "Lee-Bryce",
-      "position": "Consul for Denmark (acting)",
+      "position": "Consul for Denmark",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -1541,7 +1541,7 @@
       "location": null
     },
     {
-      "name": "A. J. Carter",
+      "name": "Hon. A. J. Carter",
       "canonical_name": "Carter, A. J.",
       "given_names": "A. J.",
       "surname": "Carter",
@@ -1609,7 +1609,7 @@
       "canonical_name": "Feez, Adolph",
       "given_names": "Adolph",
       "surname": "Feez",
-      "position": "Vice-Consul for Argentina Republic (provisionally)",
+      "position": "Vice-Consul for Argentina Republic",
       "department": "Vice-Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1659,7 +1659,7 @@
       "canonical_name": "Spence, L. H.",
       "given_names": "L. H.",
       "surname": "Spence",
-      "position": "Vice-Consul for Greece (provisionally)",
+      "position": "Vice-Consul for Greece",
       "department": "Vice-Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1687,7 +1687,7 @@
       "location": "Thursday Island"
     },
     {
-      "name": "F. H. Hart",
+      "name": "Hon. F. H. Hart",
       "canonical_name": "Hart, F. H.",
       "given_names": "F. H.",
       "surname": "Hart",
@@ -1703,11 +1703,11 @@
       "location": null
     },
     {
-      "name": "A. J. Carter",
+      "name": "Hon. A. J. Carter",
       "canonical_name": "Carter, A. J.",
       "given_names": "A. J.",
       "surname": "Carter",
-      "position": "Vice-Consul for Sweden and Norway (provisionally)",
+      "position": "Vice-Consul for Sweden and Norway",
       "department": "Vice-Consuls",
       "salary_min": null,
       "salary_max": null,

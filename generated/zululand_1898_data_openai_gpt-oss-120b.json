@@ -1,7 +1,7 @@
 {
   "colony": "Zululand",
   "year": 1898,
-  "generated": "2026-03-12T13:47:16.646006",
+  "generated": "2026-03-13T07:54:09.521708",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 80,
@@ -259,7 +259,7 @@
       "department": "Governor's Department",
       "salary_min": 350,
       "salary_max": 350,
-      "allowances": "and allowances",
+      "allowances": "allowances",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -303,7 +303,7 @@
       "canonical_name": "Hedges, J. S.",
       "given_names": "J. S.",
       "surname": "Hedges",
-      "position": "Deputy Commissioner of Mines, Nondweni",
+      "position": "Deputy Commissioner of Mines",
       "department": "Governor's Department",
       "salary_min": 120,
       "salary_max": 120,
@@ -312,14 +312,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nkandhla"
     },
     {
       "name": "B. Colenbrander",
       "canonical_name": "Colenbrander, B.",
       "given_names": "B.",
       "surname": "Colenbrander",
-      "position": "Deputy Commissioner of Mines, Nondweni",
+      "position": "Deputy Commissioner of Mines",
       "department": "Governor's Department",
       "salary_min": 1,
       "salary_max": 1,
@@ -328,7 +328,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Entonjaneni"
     },
     {
       "name": "C. R. Saunders",
@@ -339,7 +339,7 @@
       "department": "Resident Magistrates",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "and 50l. allowance",
+      "allowances": "50l. allowance",
       "honors": [
         "C.M.G."
       ],
@@ -353,7 +353,7 @@
       "canonical_name": "Alexander, C. W.",
       "given_names": "C. W.",
       "surname": "Alexander",
-      "position": "1st Clerk and Interpreter",
+      "position": "Clerk and Interpreter",
       "department": "Resident Magistrates",
       "salary_min": 150,
       "salary_max": 250,
@@ -362,14 +362,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Eshowe District"
     },
     {
       "name": "H. Kambulo",
       "canonical_name": "Kambulo, H.",
       "given_names": "H.",
       "surname": "Kambulo",
-      "position": "2nd Clerk",
+      "position": "Clerk",
       "department": "Resident Magistrates",
       "salary_min": 60,
       "salary_max": 60,
@@ -378,7 +378,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Eshowe District"
     },
     {
       "name": "J. Schram",
@@ -394,7 +394,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Eshowe District"
     },
     {
       "name": "D. Deane",
@@ -410,7 +410,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Eshowe District"
     },
     {
       "name": "J. Ogden",
@@ -426,7 +426,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Eshowe District"
     },
     {
       "name": "J. H. Balfe",
@@ -437,12 +437,12 @@
       "department": "Resident Magistrates",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "allowances, 150l.",
+      "allowances": "150l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Eshowe District"
     },
     {
       "name": "R. H. Addison",
@@ -453,7 +453,7 @@
       "department": "Resident Magistrates",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "and 50l. allowance",
+      "allowances": "50l. allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -474,14 +474,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ngutu District"
     },
     {
       "name": "G. B. Dartnall",
       "canonical_name": "Dartnall, G. B.",
       "given_names": "G. B.",
       "surname": "Dartnall",
-      "position": "2nd Clerk",
+      "position": "Clerk",
       "department": "Resident Magistrates",
       "salary_min": 100,
       "salary_max": 150,
@@ -490,14 +490,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ngutu District"
     },
     {
       "name": "F. G. Elliot",
       "canonical_name": "Elliot, F. G.",
       "given_names": "F. G.",
       "surname": "Elliot",
-      "position": "European Constables",
+      "position": "European Constable",
       "department": "Resident Magistrates",
       "salary_min": 84,
       "salary_max": 84,
@@ -506,14 +506,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ngutu District"
     },
     {
       "name": "H. Watson",
       "canonical_name": "Watson, H.",
       "given_names": "H.",
       "surname": "Watson",
-      "position": "European Constables",
+      "position": "European Constable",
       "department": "Resident Magistrates",
       "salary_min": 84,
       "salary_max": 84,
@@ -522,7 +522,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ngutu District"
     },
     {
       "name": "F. A. Robinson",
@@ -538,7 +538,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ngutu District"
     },
     {
       "name": "J. L. Knight",
@@ -549,7 +549,7 @@
       "department": "Resident Magistrates",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "and 50l. allowance",
+      "allowances": "50l. allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -570,14 +570,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nkandhla District"
     },
     {
       "name": "J. S. Hedges",
       "canonical_name": "Hedges, J. S.",
       "given_names": "J. S.",
       "surname": "Hedges",
-      "position": "2nd Clerk",
+      "position": "Clerk",
       "department": "Resident Magistrates",
       "salary_min": 1,
       "salary_max": 1,
@@ -586,7 +586,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nkandhla District"
     },
     {
       "name": "W. Calverley",
@@ -602,7 +602,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Nkandhla District"
     },
     {
       "name": "A. J. Shepstone",
@@ -613,7 +613,7 @@
       "department": "Resident Magistrates",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "and 50l. allowance",
+      "allowances": "50l. allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -634,7 +634,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Entonjaneni District"
     },
     {
       "name": "H. A. Elliott",
@@ -650,7 +650,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Entonjaneni District"
     },
     {
       "name": "J. Petrie",
@@ -666,7 +666,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Entonjaneni District"
     },
     {
       "name": "J. Y. Gibson",
@@ -677,7 +677,7 @@
       "department": "Resident Magistrates",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "and 50l. allowance",
+      "allowances": "50l. allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -698,7 +698,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ndwandwe District"
     },
     {
       "name": "F. W. Walters",
@@ -714,7 +714,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ndwandwe District"
     },
     {
       "name": "T. Maxwell",
@@ -725,7 +725,7 @@
       "department": "Resident Magistrates",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "and 50l. allowance",
+      "allowances": "50l. allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": "Major",
@@ -746,7 +746,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Lower Umfolosi District"
     },
     {
       "name": "J. Alexander",
@@ -762,7 +762,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Lower Umfolosi District"
     },
     {
       "name": "A. Hulley",
@@ -773,7 +773,7 @@
       "department": "Resident Magistrates",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "and 50l. allowance",
+      "allowances": "50l. allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -794,7 +794,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ubombo District"
     },
     {
       "name": "A. Boast",
@@ -805,7 +805,7 @@
       "department": "Resident Magistrates",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "and 50l. allowance",
+      "allowances": "50l. allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -826,7 +826,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hlabisa District"
     },
     {
       "name": "J. M. Robertson",
@@ -842,7 +842,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hlabisa District"
     },
     {
       "name": "J. Stuart",
@@ -853,7 +853,7 @@
       "department": "Resident Magistrates",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "and 50l. allowance",
+      "allowances": "50l. allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -874,7 +874,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ingcavuma"
     },
     {
       "name": "W. H. Moore",
@@ -890,7 +890,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ingcavuma"
     },
     {
       "name": "W. H. Stevens",
@@ -906,23 +906,23 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ingcavuma"
     },
     {
       "name": "C. F. Higuett",
       "canonical_name": "Higuett, C. F.",
       "given_names": "C. F.",
       "surname": "Higuett",
-      "position": "Assistant Res. Magistrate",
+      "position": "Assistant Resident Magistrate",
       "department": "Resident Magistrates",
       "salary_min": 350,
       "salary_max": 350,
-      "allowances": "allowance 50l",
+      "allowances": "50l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Umlalazi Division, Eshowe District"
     },
     {
       "name": "R. D. Lyle",
@@ -938,12 +938,12 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Umlalazi Division, Eshowe District"
     },
     {
-      "name": "William Bosman",
-      "canonical_name": "Bosman, William",
-      "given_names": "William",
+      "name": "W. Bosman",
+      "canonical_name": "Bosman, W.",
+      "given_names": "W.",
       "surname": "Bosman",
       "position": "Director of Public Works and Surveys",
       "department": "Public Works Department",

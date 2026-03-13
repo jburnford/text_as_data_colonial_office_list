@@ -1,13 +1,13 @@
 {
   "colony": "New Zealand",
   "year": 1898,
-  "generated": "2026-03-12T13:44:01.301237",
+  "generated": "2026-03-13T07:47:51.674501",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 179,
   "officials": [
     {
-      "name": "Rt. Hon. Earl of Ranfurly",
+      "name": "Earl of Ranfurly",
       "canonical_name": "Ranfurly, Earl of",
       "given_names": "Earl of",
       "surname": "Ranfurly",
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "Captain Dudley Alexander",
+      "name": "Dudley Alexander",
       "canonical_name": "Alexander, Dudley",
       "given_names": "Dudley",
       "surname": "Alexander",
@@ -41,7 +41,7 @@
       "location": null
     },
     {
-      "name": "Honourable Charles Hill-Trevor",
+      "name": "Charles Hill-Trevor",
       "canonical_name": "Hill-Trevor, Charles",
       "given_names": "Charles",
       "surname": "Hill-Trevor",
@@ -73,7 +73,7 @@
       "location": null
     },
     {
-      "name": "Right Hon. R. J. Seddon",
+      "name": "R. J. Seddon",
       "canonical_name": "Seddon, R. J.",
       "given_names": "R. J.",
       "surname": "Seddon",
@@ -89,7 +89,7 @@
       "location": null
     },
     {
-      "name": "Hon. J. McKenzie",
+      "name": "J. McKenzie",
       "canonical_name": "McKenzie, J.",
       "given_names": "J.",
       "surname": "McKenzie",
@@ -105,7 +105,7 @@
       "location": null
     },
     {
-      "name": "Hon. T. Thompson",
+      "name": "T. Thompson",
       "canonical_name": "Thompson, T.",
       "given_names": "T.",
       "surname": "Thompson",
@@ -121,7 +121,7 @@
       "location": null
     },
     {
-      "name": "Hon. A. J. Cadman",
+      "name": "A. J. Cadman",
       "canonical_name": "Cadman, A. J.",
       "given_names": "A. J.",
       "surname": "Cadman",
@@ -137,7 +137,7 @@
       "location": null
     },
     {
-      "name": "Hon. W. Hall-Jones",
+      "name": "W. Hall-Jones",
       "canonical_name": "Hall-Jones, W.",
       "given_names": "W.",
       "surname": "Hall-Jones",
@@ -153,7 +153,7 @@
       "location": null
     },
     {
-      "name": "Hon. James Carroll",
+      "name": "James Carroll",
       "canonical_name": "Carroll, James",
       "given_names": "James",
       "surname": "Carroll",
@@ -169,7 +169,7 @@
       "location": null
     },
     {
-      "name": "Hon. W. C. Walker",
+      "name": "W. C. Walker",
       "canonical_name": "Walker, W. C.",
       "given_names": "W. C.",
       "surname": "Walker",
@@ -209,7 +209,7 @@
       "department": "Colonial Secretary's Office",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "house allowance 200l",
+      "allowances": "200l. house allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -273,7 +273,7 @@
       "department": "Treasury",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "house allowance, 200l.",
+      "allowances": "house allowance, 200l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -318,7 +318,7 @@
       "given_names": "T.",
       "surname": "Thompson",
       "position": "Minister of Justice",
-      "department": "Department of Justice and Patent Office",
+      "department": "Justice and Patent Office",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -334,7 +334,7 @@
       "given_names": "F.",
       "surname": "Waldegrave",
       "position": "Under Secretary, Registrar of Patents, Designs, and Trade Marks",
-      "department": "Department of Justice and Patent Office",
+      "department": "Justice and Patent Office",
       "salary_min": 450,
       "salary_max": 450,
       "allowances": null,
@@ -350,13 +350,13 @@
       "given_names": "A.",
       "surname": "Hume",
       "position": "Inspector of Prisons",
-      "department": "Department of Justice and Patent Office",
+      "department": "Justice and Patent Office",
       "salary_min": 700,
       "salary_max": 700,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": "Lieut.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -369,7 +369,7 @@
       "department": "Lands and Survey Department",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "house allowance, 200l.",
+      "allowances": "200l. house allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -585,9 +585,9 @@
       "location": null
     },
     {
-      "name": "W. Gray",
-      "canonical_name": "Gray, W.",
-      "given_names": "W.",
+      "name": "William Gray",
+      "canonical_name": "Gray, William",
+      "given_names": "William",
       "surname": "Gray",
       "position": "Secretary",
       "department": "Post Office and Telegraph Department",
@@ -665,10 +665,10 @@
       "location": null
     },
     {
-      "name": "S. B. Biss.",
-      "canonical_name": "Biss., S. B.",
+      "name": "S. B. Biss",
+      "canonical_name": "Biss, S. B.",
       "given_names": "S. B.",
-      "surname": "Biss.",
+      "surname": "Biss",
       "position": "Postmaster",
       "department": "Post Office and Telegraph Department",
       "salary_min": null,
@@ -685,7 +685,7 @@
       "canonical_name": "Hoggard, J.",
       "given_names": "J.",
       "surname": "Hoggard",
-      "position": "Chief Clerk, Circulation Branch",
+      "position": "Chief Clerk",
       "department": "Post Office and Telegraph Department",
       "salary_min": null,
       "salary_max": null,
@@ -1149,7 +1149,7 @@
       "location": null
     },
     {
-      "name": "Hon. T. Thompson",
+      "name": "T. Thompson",
       "canonical_name": "Thompson, T.",
       "given_names": "T.",
       "surname": "Thompson",
@@ -1165,7 +1165,7 @@
       "location": null
     },
     {
-      "name": "Colonel Arthur Pole Penton, R.A.",
+      "name": "Arthur Pole Penton",
       "canonical_name": "Penton, Arthur Pole",
       "given_names": "Arthur Pole",
       "surname": "Penton",
@@ -1181,7 +1181,7 @@
       "location": null
     },
     {
-      "name": "Major Sir A. P. Douglas, Bart., late R.N.",
+      "name": "A. P. Douglas",
       "canonical_name": "Douglas, A. P.",
       "given_names": "A. P.",
       "surname": "Douglas",
@@ -1197,12 +1197,12 @@
       "location": null
     },
     {
-      "name": "Lieut.-Colonel A. Hume",
+      "name": "A. Hume",
       "canonical_name": "Hume, A.",
       "given_names": "A.",
       "surname": "Hume",
       "position": "Commissioner",
-      "department": "Defence Department",
+      "department": "New Zealand Police Force",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1706,7 +1706,7 @@
       "canonical_name": "Gore, R. B.",
       "given_names": "R. B.",
       "surname": "Gore",
-      "position": "Clerk, Curator, and Meteorological Observer for Wellington",
+      "position": "Clerk, Curator, and Meteorological Observer",
       "department": "Geological Survey Department",
       "salary_min": null,
       "salary_max": null,
@@ -1734,7 +1734,7 @@
       "location": null
     },
     {
-      "name": "Sir J. Prendergast",
+      "name": "J. Prendergast",
       "canonical_name": "Prendergast, J.",
       "given_names": "J.",
       "surname": "Prendergast",
@@ -1882,7 +1882,7 @@
       "canonical_name": "Cooper, D. G. A.",
       "given_names": "D. G. A.",
       "surname": "Cooper",
-      "position": "Registrar of Court of Appeal",
+      "position": "Registrar of the Supreme Court",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1891,14 +1891,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Wellington"
     },
     {
       "name": "A. R. Bloxam",
       "canonical_name": "Bloxam, A. R.",
       "given_names": "A. R.",
       "surname": "Bloxam",
-      "position": "Registrar of Court of Appeal",
+      "position": "Registrar of the Supreme Court",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1914,7 +1914,7 @@
       "canonical_name": "Gordon, C. McK.",
       "given_names": "C. McK.",
       "surname": "Gordon",
-      "position": "Registrar of Court of Appeal",
+      "position": "Registrar of the Supreme Court",
       "department": "Judicial",
       "salary_min": null,
       "salary_max": null,
@@ -1943,9 +1943,9 @@
     },
     {
       "name": "H. Eyre Kenny",
-      "canonical_name": "Eyre Kenny, H.",
-      "given_names": "H.",
-      "surname": "Eyre Kenny",
+      "canonical_name": "Kenny, H. Eyre",
+      "given_names": "H. Eyre",
+      "surname": "Kenny",
       "position": "Stipendiary Magistrate",
       "department": "Judicial",
       "salary_min": null,
@@ -2381,8 +2381,8 @@
     },
     {
       "name": "Vicomte Alexandre Louis Ferdinand de Jouffroy d'Abbans",
-      "canonical_name": "d'Abbans, Alexandre Louis Ferdinand de Jouffroy",
-      "given_names": "Alexandre Louis Ferdinand de Jouffroy",
+      "canonical_name": "d'Abbans, Alexandre Louis Ferdinand de",
+      "given_names": "Alexandre Louis Ferdinand de",
       "surname": "d'Abbans",
       "position": "Consul",
       "department": "Foreign Consuls",
@@ -2733,9 +2733,9 @@
     },
     {
       "name": "Don Francisco Arenas Y. Bonet",
-      "canonical_name": "Arenas Y. Bonet, Don Francisco",
-      "given_names": "Don Francisco",
-      "surname": "Arenas Y. Bonet",
+      "canonical_name": "Bonet, Francisco Arenas Y.",
+      "given_names": "Francisco Arenas Y.",
+      "surname": "Bonet",
       "position": "Vice-Consul",
       "department": "Foreign Consuls",
       "salary_min": null,

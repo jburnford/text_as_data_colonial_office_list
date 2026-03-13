@@ -1,7 +1,7 @@
 {
   "colony": "Barbados",
   "year": 1906,
-  "generated": "2026-03-12T14:10:33.365268",
+  "generated": "2026-03-13T08:33:17.263032",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 210,
@@ -77,7 +77,7 @@
       "canonical_name": "Howell, J. B.",
       "given_names": "J. B.",
       "surname": "Howell",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Colonial Secretary's Department",
       "salary_min": 150,
       "salary_max": 150,
@@ -93,7 +93,7 @@
       "canonical_name": "Mahon, W. G.",
       "given_names": "W. G.",
       "surname": "Mahon",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Colonial Secretary's Department",
       "salary_min": 100,
       "salary_max": 100,
@@ -109,7 +109,7 @@
       "canonical_name": "Bailey, A. C.",
       "given_names": "A. C.",
       "surname": "Bailey",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "Colonial Secretary's Department",
       "salary_min": 75,
       "salary_max": 75,
@@ -138,8 +138,8 @@
     },
     {
       "name": "W. L. C. Phillips",
-      "canonical_name": "Phillips, W. L. C.",
-      "given_names": "W. L. C.",
+      "canonical_name": "Phillips, William L. C.",
+      "given_names": "William L. C.",
       "surname": "Phillips",
       "position": "Colonial Treasurer",
       "department": "Treasurer's Office",
@@ -170,8 +170,8 @@
     },
     {
       "name": "W. N. Phillips",
-      "canonical_name": "Phillips, W. N.",
-      "given_names": "W. N.",
+      "canonical_name": "Phillips, William N.",
+      "given_names": "William N.",
       "surname": "Phillips",
       "position": "Clerk",
       "department": "Treasurer's Office",
@@ -186,8 +186,8 @@
     },
     {
       "name": "W. L. Crumpton",
-      "canonical_name": "Crumpton, W. L.",
-      "given_names": "W. L.",
+      "canonical_name": "Crumpton, William L.",
+      "given_names": "William L.",
       "surname": "Crumpton",
       "position": "Clerk",
       "department": "Treasurer's Office",
@@ -237,7 +237,7 @@
       "canonical_name": "Lamming, D.",
       "given_names": "D.",
       "surname": "Lamming",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Audit Office",
       "salary_min": 150,
       "salary_max": 150,
@@ -253,7 +253,7 @@
       "canonical_name": "Fields, A. R.",
       "given_names": "A. R.",
       "surname": "Fields",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Audit Office",
       "salary_min": 100,
       "salary_max": 100,
@@ -269,7 +269,7 @@
       "canonical_name": "Knight, A. L.",
       "given_names": "A. L.",
       "surname": "Knight",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "Audit Office",
       "salary_min": 75,
       "salary_max": 75,
@@ -289,7 +289,7 @@
       "department": "Customs",
       "salary_min": 600,
       "salary_max": 600,
-      "allowances": "with fees as Registrar of Shipping, &c., 22l. 14s.",
+      "allowances": "22l. 14s.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -301,7 +301,7 @@
       "canonical_name": "Bynoe, A. D.",
       "given_names": "A. D.",
       "surname": "Bynoe",
-      "position": "Customs Officer",
+      "position": "Customs Officers",
       "department": "Customs",
       "salary_min": 300,
       "salary_max": 300,
@@ -317,7 +317,7 @@
       "canonical_name": "McKinstry, W. L.",
       "given_names": "W. L.",
       "surname": "McKinstry",
-      "position": "Customs Officer",
+      "position": "Customs Officers",
       "department": "Customs",
       "salary_min": 225,
       "salary_max": 225,
@@ -333,7 +333,7 @@
       "canonical_name": "Lloyd, J. S.",
       "given_names": "J. S.",
       "surname": "Lloyd",
-      "position": "Customs Officer",
+      "position": "Customs Officers",
       "department": "Customs",
       "salary_min": 200,
       "salary_max": 200,
@@ -349,7 +349,7 @@
       "canonical_name": "Collymore, J. A.",
       "given_names": "J. A.",
       "surname": "Collymore",
-      "position": "Customs Officer",
+      "position": "Customs Officers",
       "department": "Customs",
       "salary_min": 200,
       "salary_max": 200,
@@ -365,7 +365,7 @@
       "canonical_name": "Lord, W. L.",
       "given_names": "W. L.",
       "surname": "Lord",
-      "position": "Customs Officer",
+      "position": "Customs Officers",
       "department": "Customs",
       "salary_min": 200,
       "salary_max": 200,
@@ -381,7 +381,7 @@
       "canonical_name": "Sainsbury, J. S.",
       "given_names": "J. S.",
       "surname": "Sainsbury",
-      "position": "Customs Officer",
+      "position": "Customs Officers",
       "department": "Customs",
       "salary_min": 175,
       "salary_max": 175,
@@ -397,7 +397,7 @@
       "canonical_name": "Hoad, C. F.",
       "given_names": "C. F.",
       "surname": "Hoad",
-      "position": "Customs Officer",
+      "position": "Customs Officers",
       "department": "Customs",
       "salary_min": 175,
       "salary_max": 175,
@@ -413,7 +413,7 @@
       "canonical_name": "Newnam, W. E.",
       "given_names": "W. E.",
       "surname": "Newnam",
-      "position": "Customs Officer",
+      "position": "Customs Officers",
       "department": "Customs",
       "salary_min": 150,
       "salary_max": 150,
@@ -429,7 +429,7 @@
       "canonical_name": "Bynoe, E. B.",
       "given_names": "E. B.",
       "surname": "Bynoe",
-      "position": "Customs Officer",
+      "position": "Customs Officers",
       "department": "Customs",
       "salary_min": 150,
       "salary_max": 150,
@@ -445,7 +445,7 @@
       "canonical_name": "Boyce, J. O. D.",
       "given_names": "J. O. D.",
       "surname": "Boyce",
-      "position": "Customs Officer",
+      "position": "Customs Officers",
       "department": "Customs",
       "salary_min": 150,
       "salary_max": 150,
@@ -461,11 +461,11 @@
       "canonical_name": "Haynes, C. A.",
       "given_names": "C. A.",
       "surname": "Haynes",
-      "position": "Customs Officer",
+      "position": "Customs Officers",
       "department": "Customs",
       "salary_min": 75,
       "salary_max": 75,
-      "allowances": "with fees",
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -477,7 +477,7 @@
       "canonical_name": "Grant, J. F. H.",
       "given_names": "J. F. H.",
       "surname": "Grant",
-      "position": "Customs Officer",
+      "position": "Customs Officers",
       "department": "Customs",
       "salary_min": 60,
       "salary_max": 60,
@@ -513,7 +513,7 @@
       "department": "Police and Prisons",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": "Lt.-Col.",
@@ -529,7 +529,7 @@
       "department": "Police and Prisons",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": "Major",
@@ -541,7 +541,7 @@
       "canonical_name": "Browne, T. S.",
       "given_names": "T. S.",
       "surname": "Browne",
-      "position": "Medical Officer Central Station, &c.",
+      "position": "Medical Officer Central Station",
       "department": "Police and Prisons",
       "salary_min": 100,
       "salary_max": 100,
@@ -573,7 +573,7 @@
       "canonical_name": "Knight, J. G.",
       "given_names": "J. G.",
       "surname": "Knight",
-      "position": "Visiting Justice at Glendairy",
+      "position": "Visiting Justices at Glendairy",
       "department": "Police and Prisons",
       "salary_min": null,
       "salary_max": null,
@@ -589,7 +589,7 @@
       "canonical_name": "Roden, R. B.",
       "given_names": "R. B.",
       "surname": "Roden",
-      "position": "Visiting Justice at Glendairy",
+      "position": "Visiting Justices at Glendairy",
       "department": "Police and Prisons",
       "salary_min": null,
       "salary_max": null,
@@ -609,7 +609,7 @@
       "department": "Police and Prisons",
       "salary_min": 360,
       "salary_max": 360,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -675,7 +675,7 @@
       "department": "Police and Prisons",
       "salary_min": 250,
       "salary_max": 250,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -691,7 +691,7 @@
       "department": "Police and Prisons",
       "salary_min": 125,
       "salary_max": 125,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1011,7 +1011,7 @@
       "department": "Harbour Master's Department",
       "salary_min": 275,
       "salary_max": 275,
-      "allowances": "510l. 17s. fees, 54l. allowance",
+      "allowances": "54l. for boats and office rent",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1027,7 +1027,7 @@
       "department": "Harbour Master's Department",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": "56l. 5s. fees",
+      "allowances": "fees, in 1904, 56l. 5s.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1043,7 +1043,7 @@
       "department": "Harbour Master's Department",
       "salary_min": 40,
       "salary_max": 40,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1059,7 +1059,7 @@
       "department": "Harbour Master's Department",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.D."
@@ -1077,7 +1077,7 @@
       "department": "Savings Bank",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "bonus, 100l",
+      "allowances": "bonus 100l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1093,7 +1093,7 @@
       "department": "Savings Bank",
       "salary_min": 75,
       "salary_max": 75,
-      "allowances": "bonus, 25l",
+      "allowances": "bonus 25l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1109,7 +1109,7 @@
       "department": "Savings Bank",
       "salary_min": 50,
       "salary_max": 50,
-      "allowances": "bonus, 25l",
+      "allowances": "bonus 25l",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1215,9 +1215,9 @@
       "location": null
     },
     {
-      "name": "Sir W. H. Greaves",
-      "canonical_name": "Greaves, Sir W. H.",
-      "given_names": "Sir W. H.",
+      "name": "W. H. Greaves",
+      "canonical_name": "Greaves, W. H.",
+      "given_names": "W. H.",
       "surname": "Greaves",
       "position": "Chief Justice",
       "department": "Judicial Establishment",
@@ -1516,7 +1516,7 @@
       "canonical_name": "Boyce, E. P.",
       "given_names": "E. P.",
       "surname": "Boyce",
-      "position": "Clerk to Judges of the Assistant Court of Appeal",
+      "position": "Clerk",
       "department": "Judicial Establishment",
       "salary_min": 250,
       "salary_max": 250,
@@ -1532,7 +1532,7 @@
       "canonical_name": "Browne, P. W.",
       "given_names": "P. W.",
       "surname": "Browne",
-      "position": "Chief Clerk Petty Debt Court",
+      "position": "Chief Clerk Petty Debt Court, St. Michael's",
       "department": "Judicial Establishment",
       "salary_min": 200,
       "salary_max": 200,
@@ -1541,7 +1541,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "St. Michael's"
+      "location": null
     },
     {
       "name": "C. C. Gill",
@@ -1831,7 +1831,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Philip and St. John"
     },
     {
       "name": "Eustace Greaves",
@@ -1849,7 +1849,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Joseph and St. Andrew"
     },
     {
       "name": "L. T. F. Archer",
@@ -1867,7 +1867,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. James and St. Thomas"
     },
     {
       "name": "C. C. Greenidge",
@@ -1885,7 +1885,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Peter and St. Lucy"
     },
     {
       "name": "T. Sinclair Browne",
@@ -1935,8 +1935,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "M.B.",
-        "C.M."
+        "M.B."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -1951,13 +1950,12 @@
       "department": "Medical",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.R.C.S.",
         "L.R.C.P.",
-        "M.B.",
-        "C.M."
+        "M.B."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -1972,7 +1970,7 @@
       "department": "Medical",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.B."
@@ -2038,7 +2036,7 @@
       "department": "Medical",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2070,7 +2068,7 @@
       "department": "Medical",
       "salary_min": 125,
       "salary_max": 125,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2150,7 +2148,7 @@
       "department": "Educational",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "house",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.A."
@@ -2164,15 +2162,14 @@
       "canonical_name": "Wolseley, H. J.",
       "given_names": "H. J.",
       "surname": "Wolseley",
-      "position": "Principal of Codrington College",
+      "position": "Medical Lecturer",
       "department": "Educational",
       "salary_min": 40,
       "salary_max": 40,
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "M.B.",
-        "C.M."
+        "M.B."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -2201,7 +2198,7 @@
       "canonical_name": "Hall, R. R.",
       "given_names": "R. R.",
       "surname": "Hall",
-      "position": "Assistant Professor of Chemistry, &c.",
+      "position": "Assistant Professor of Chemistry",
       "department": "Educational",
       "salary_min": 350,
       "salary_max": 350,
@@ -2363,7 +2360,7 @@
       "department": "Educational",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "house",
+      "allowances": "and house",
       "honors": [],
       "qualifications": [
         "M.A."
@@ -2446,7 +2443,7 @@
       "given_names": "W. K.",
       "surname": "Chandler",
       "position": "President",
-      "department": null,
+      "department": "Poor Law Board",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2466,7 +2463,7 @@
       "given_names": "F. J.",
       "surname": "Clarke",
       "position": "Member",
-      "department": null,
+      "department": "Poor Law Board",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2482,7 +2479,7 @@
       "given_names": "C. P.",
       "surname": "Clarke",
       "position": "Member",
-      "department": null,
+      "department": "Poor Law Board",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2498,7 +2495,7 @@
       "given_names": "J. R.",
       "surname": "Bovell",
       "position": "Member",
-      "department": null,
+      "department": "Poor Law Board",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -2514,7 +2511,7 @@
       "given_names": "John",
       "surname": "Hutson",
       "position": "Poor Law Inspector",
-      "department": null,
+      "department": "Poor Law Board",
       "salary_min": 350,
       "salary_max": 350,
       "allowances": null,
@@ -2532,7 +2529,7 @@
       "given_names": "E. D.",
       "surname": "Stokes",
       "position": "Secretary",
-      "department": null,
+      "department": "Poor Law Board",
       "salary_min": 125,
       "salary_max": 125,
       "allowances": null,
@@ -2672,8 +2669,8 @@
     },
     {
       "name": "Sir D. Morris",
-      "canonical_name": "Morris, Sir D.",
-      "given_names": "Sir D.",
+      "canonical_name": "Morris, D.",
+      "given_names": "D.",
       "surname": "Morris",
       "position": "Commissioner",
       "department": "Imperial Department of Agriculture for the West Indies",
@@ -2811,7 +2808,7 @@
       "canonical_name": "Seale, D. E.",
       "given_names": "D. E.",
       "surname": "Seale",
-      "position": "Laboratory Assistant",
+      "position": "Laboratory Assistants",
       "department": "Chemistry Department",
       "salary_min": null,
       "salary_max": null,
@@ -2827,7 +2824,7 @@
       "canonical_name": "Bascom, S. D.",
       "given_names": "S. D.",
       "surname": "Bascom",
-      "position": "Laboratory Assistant",
+      "position": "Laboratory Assistants",
       "department": "Chemistry Department",
       "salary_min": null,
       "salary_max": null,
@@ -2907,7 +2904,7 @@
       "canonical_name": "Murphy, C. T.",
       "given_names": "C. T.",
       "surname": "Murphy",
-      "position": "Assistant to Superintendent",
+      "position": "Clerical Assistant to Superintendent",
       "department": "Sugar Cane Experiments",
       "salary_min": 100,
       "salary_max": 100,
@@ -2989,7 +2986,7 @@
       "canonical_name": "Bindley, T. H.",
       "given_names": "T. H.",
       "surname": "Bindley",
-      "position": "Archdeacon",
+      "position": "Archdeacon, The Ven.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -3032,7 +3029,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Christ Church"
     },
     {
       "name": "A. P. Berkeley",
@@ -3048,7 +3045,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Philip"
     },
     {
       "name": "E. B. Bovell",
@@ -3064,7 +3061,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. George"
     },
     {
       "name": "C. G. Clarke-Hunt",
@@ -3080,7 +3077,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. John"
     },
     {
       "name": "R. Skeete",
@@ -3096,7 +3093,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Joseph"
     },
     {
       "name": "J. M. Alleyne",
@@ -3112,7 +3109,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Andrew"
     },
     {
       "name": "E. N. Thomas",
@@ -3128,7 +3125,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Thomas"
     },
     {
       "name": "H. W. Moore",
@@ -3144,7 +3141,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. James"
     },
     {
       "name": "G. E. Elliott",
@@ -3160,7 +3157,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Peter"
     },
     {
       "name": "H. Hutson",
@@ -3176,7 +3173,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. Lucy"
     },
     {
       "name": "A. J. Clare",
@@ -3460,6 +3457,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 210,
-    "anomaly_count": 19
+    "anomaly_count": 18
   }
 }

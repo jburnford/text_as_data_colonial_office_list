@@ -1,169 +1,11 @@
 {
   "colony": "Labuan",
   "year": 1905,
-  "generated": "2026-03-12T13:53:55.685246",
+  "generated": "2026-03-13T08:14:11.377721",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 16,
   "officials": [
-    {
-      "name": "Sir H. E. Bulwer",
-      "canonical_name": "Bulwer, H. E.",
-      "given_names": "H. E.",
-      "surname": "Bulwer",
-      "position": "Governor",
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [
-        "K.C.M.G."
-      ],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Herbert Taylor Usher",
-      "canonical_name": "Usher, Herbert Taylor",
-      "given_names": "Herbert Taylor",
-      "surname": "Usher",
-      "position": "Governor",
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [
-        "C.M.G."
-      ],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Charles Cameron Lee",
-      "canonical_name": "Lee, Charles Cameron",
-      "given_names": "Charles Cameron",
-      "surname": "Lee",
-      "position": "Governor",
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [
-        "C.M.G."
-      ],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "P. Leys",
-      "canonical_name": "Leys, P.",
-      "given_names": "P.",
-      "surname": "Leys",
-      "position": "Governor (acting)",
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [
-        "C.M.G."
-      ],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "A. S. Hamilton",
-      "canonical_name": "Hamilton, A. S.",
-      "given_names": "A. S.",
-      "surname": "Hamilton",
-      "position": "Governor (acting)",
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Charles Vandeleur Creagh",
-      "canonical_name": "Creagh, Charles Vandeleur",
-      "given_names": "Charles Vandeleur",
-      "surname": "Creagh",
-      "position": "Governor",
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [
-        "C.M.G."
-      ],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Leicester Paul Beaufort",
-      "canonical_name": "Beaufort, Leicester Paul",
-      "given_names": "Leicester Paul",
-      "surname": "Beaufort",
-      "position": "Governor",
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Hugh Clifford",
-      "canonical_name": "Clifford, Hugh",
-      "given_names": "Hugh",
-      "surname": "Clifford",
-      "position": "Governor",
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [
-        "C.M.G."
-      ],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "E. W. Birch",
-      "canonical_name": "Birch, E. W.",
-      "given_names": "E. W.",
-      "surname": "Birch",
-      "position": "Governor",
-      "department": "Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [
-        "C.M.G."
-      ],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
     {
       "name": "E. P. Gueritz",
       "canonical_name": "Gueritz, E. P.",
@@ -276,6 +118,164 @@
       "honors": [],
       "qualifications": [],
       "military_rank": "Captain",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "H. E. Bulwer",
+      "canonical_name": "Bulwer, H. E.",
+      "given_names": "H. E.",
+      "surname": "Bulwer",
+      "position": "Governor",
+      "department": "Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Herbert Taylor Usher",
+      "canonical_name": "Usher, Herbert Taylor",
+      "given_names": "Herbert Taylor",
+      "surname": "Usher",
+      "position": "Governor",
+      "department": "Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Charles Cameron Lee",
+      "canonical_name": "Lee, Charles Cameron",
+      "given_names": "Charles Cameron",
+      "surname": "Lee",
+      "position": "Governor",
+      "department": "Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "P. Leys",
+      "canonical_name": "Leys, P.",
+      "given_names": "P.",
+      "surname": "Leys",
+      "position": "Governor",
+      "department": "Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "A. S. Hamilton",
+      "canonical_name": "Hamilton, A. S.",
+      "given_names": "A. S.",
+      "surname": "Hamilton",
+      "position": "Governor",
+      "department": "Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Charles Vandeleur Creagh",
+      "canonical_name": "Creagh, Charles Vandeleur",
+      "given_names": "Charles Vandeleur",
+      "surname": "Creagh",
+      "position": "Governor",
+      "department": "Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Leicester Paul Beaufort",
+      "canonical_name": "Beaufort, Leicester Paul",
+      "given_names": "Leicester Paul",
+      "surname": "Beaufort",
+      "position": "Governor",
+      "department": "Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Hugh Clifford",
+      "canonical_name": "Clifford, Hugh",
+      "given_names": "Hugh",
+      "surname": "Clifford",
+      "position": "Governor",
+      "department": "Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "E. W. Birch",
+      "canonical_name": "Birch, E. W.",
+      "given_names": "E. W.",
+      "surname": "Birch",
+      "position": "Governor",
+      "department": "Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     }
