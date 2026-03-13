@@ -1,15 +1,15 @@
 {
   "colony": "Bermuda",
   "year": 1920,
-  "generated": "2026-03-12T15:45:24.248863",
+  "generated": "2026-03-13T12:24:23.562136",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 97,
   "officials": [
     {
       "name": "General Sir James Willcocks",
-      "canonical_name": "Willcocks, James",
-      "given_names": "James",
+      "canonical_name": "Willcocks, Sir James",
+      "given_names": "Sir James",
       "surname": "Willcocks",
       "position": "Governor and Commander-in-Chief",
       "department": "Civil Establishment",
@@ -52,7 +52,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [
         "C.M.G."
       ],
@@ -110,7 +110,7 @@
       "location": null
     },
     {
-      "name": "M. E. Hallett",
+      "name": "Miss M. E. Hallett",
       "canonical_name": "Hallett, M. E.",
       "given_names": "M. E.",
       "surname": "Hallett",
@@ -729,9 +729,9 @@
       "location": null
     },
     {
-      "name": "G. S. Patton",
-      "canonical_name": "Patton, G. S.",
-      "given_names": "G. S.",
+      "name": "Prof. G. S. Patton",
+      "canonical_name": "Patton, Prof. G. S.",
+      "given_names": "Prof. G. S.",
       "surname": "Patton",
       "position": "Director of Education",
       "department": "Other Offices",
@@ -975,7 +975,7 @@
       "canonical_name": "Havard, L. L.",
       "given_names": "L. L.",
       "surname": "Havard",
-      "position": "Rector, Hamilton and Smith",
+      "position": "Canon of Cathedral",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -991,7 +991,7 @@
       "canonical_name": "Davidson, J.",
       "given_names": "J.",
       "surname": "Davidson",
-      "position": "Rector, Pembroke and Devonshire",
+      "position": "Canon of Cathedral",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -1007,7 +1007,7 @@
       "canonical_name": "Cooley, J. B.",
       "given_names": "J. B.",
       "surname": "Cooley",
-      "position": "Rector, Paget and Warwick",
+      "position": "Canon of Cathedral",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -1023,7 +1023,7 @@
       "canonical_name": "Mackay, Bruce",
       "given_names": "Bruce",
       "surname": "Mackay",
-      "position": "Rector, Sandy's and Southampton",
+      "position": "Canon of Cathedral",
       "department": "Ecclesiastical Establishment",
       "salary_min": 140,
       "salary_max": 140,
@@ -1242,7 +1242,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Vice-Admiral",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1326,7 +1326,7 @@
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1362,15 +1362,15 @@
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": "Lt.-Col.",
       "salary_scale": null,
       "location": null
     },
     {
       "name": "Lieut.-Colonel H. B. Des. Vaux.",
-      "canonical_name": "Des. Vaux., H. B.",
+      "canonical_name": "Des. Vaux, H. B.",
       "given_names": "H. B.",
-      "surname": "Des. Vaux.",
+      "surname": "Des. Vaux",
       "position": "Commanding Royal Engineers",
       "department": "Chief Military Officers",
       "salary_min": null,
@@ -1380,7 +1380,7 @@
         "C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": "Lt.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -1396,7 +1396,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Capt.",
+      "military_rank": "Captain",
       "salary_scale": null,
       "location": null
     },
@@ -1431,7 +1431,7 @@
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-Col.",
+      "military_rank": "Lt.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -1472,7 +1472,7 @@
       "canonical_name": "Padgett, W. L.",
       "given_names": "W. L.",
       "surname": "Padgett",
-      "position": "Vice and Deputy Consul-General for the United States",
+      "position": "Consul-General for the United States",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1605,6 +1605,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 97,
-    "anomaly_count": 5
+    "anomaly_count": 4
   }
 }

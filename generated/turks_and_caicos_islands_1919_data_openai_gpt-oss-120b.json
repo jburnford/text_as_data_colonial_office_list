@@ -1,7 +1,7 @@
 {
   "colony": "Turks and Caicos Islands",
   "year": 1919,
-  "generated": "2026-03-12T15:42:14.471879",
+  "generated": "2026-03-13T12:16:24.265821",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 20,
@@ -125,8 +125,8 @@
       "surname": "Astwood",
       "position": "Government Officer, Salt Cay",
       "department": "Civil Establishment",
-      "salary_min": 120,
-      "salary_max": 120,
+      "salary_min": 130,
+      "salary_max": 130,
       "allowances": "10l. for boat",
       "honors": [],
       "qualifications": [],
@@ -139,7 +139,7 @@
       "canonical_name": "Ewing, E. G.",
       "given_names": "E. G.",
       "surname": "Ewing",
-      "position": "District Commissioner, Caicos Islands",
+      "position": "District Commissioner, Caicos Islands (acting)",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -187,7 +187,7 @@
       "canonical_name": "O'Reilly, Robert",
       "given_names": "Robert",
       "surname": "O'Reilly",
-      "position": "Government Medical Officer (Turks Islands)",
+      "position": "Government Medical Officer (Turks Islands) (acting)",
       "department": "Medical",
       "salary_min": 275,
       "salary_max": 275,
@@ -198,7 +198,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Turks Islands"
+      "location": null
     },
     {
       "name": "F. E. Todd",
@@ -250,8 +250,8 @@
     },
     {
       "name": "Rev. S. F. Reeve",
-      "canonical_name": "Reeve, S. F.",
-      "given_names": "S. F.",
+      "canonical_name": "Reeve, Rev. S. F.",
+      "given_names": "Rev. S. F.",
       "surname": "Reeve",
       "position": "Anglican Rector",
       "department": "Ecclesiastical",
@@ -266,8 +266,8 @@
     },
     {
       "name": "Rev. Stanley Cannon",
-      "canonical_name": "Cannon, Stanley",
-      "given_names": "Stanley",
+      "canonical_name": "Cannon, Rev. Stanley",
+      "given_names": "Rev. Stanley",
       "surname": "Cannon",
       "position": "Wesleyan Minister",
       "department": "Ecclesiastical",

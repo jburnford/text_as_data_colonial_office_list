@@ -1,15 +1,15 @@
 {
   "colony": "Weihaiwei",
   "year": 1919,
-  "generated": "2026-03-12T15:42:00.125165",
+  "generated": "2026-03-13T12:15:32.341784",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 10,
   "officials": [
     {
       "name": "Sir J. H. Stewart Lockhart",
-      "canonical_name": "Lockhart, Sir J. H. Stewart",
-      "given_names": "Sir J. H. Stewart",
+      "canonical_name": "Lockhart, J. H. Stewart",
+      "given_names": "J. H. Stewart",
       "surname": "Lockhart",
       "position": "Commissioner",
       "department": "Civil Establishment",
@@ -51,7 +51,7 @@
       "department": "Civil Establishment",
       "salary_min": 700,
       "salary_max": 700,
-      "allowances": "Personal allowance 150l.",
+      "allowances": "Personal allowance 150l., free quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -93,9 +93,9 @@
       "location": null
     },
     {
-      "name": "William M. Muat",
-      "canonical_name": "Muat, William M.",
-      "given_names": "William M.",
+      "name": "W. M. Muat",
+      "canonical_name": "Muat, W. M.",
+      "given_names": "W. M.",
       "surname": "Muat",
       "position": "Senior Medical Officer",
       "department": "Civil Establishment",

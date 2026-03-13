@@ -1,7 +1,7 @@
 {
   "colony": "British Somaliland",
   "year": 1920,
-  "generated": "2026-03-12T15:45:51.576093",
+  "generated": "2026-03-13T12:27:35.370260",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 47,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": "250l. allowance",
+      "allowances": "250l. duty allowance",
       "honors": [
         "C.M.G."
       ],
@@ -31,9 +31,9 @@
       "surname": "Jardine",
       "position": "Secretary to the Administration",
       "department": "Civil Establishment",
-      "salary_min": 400,
+      "salary_min": 20,
       "salary_max": 500,
-      "allowances": "40l. allowance",
+      "allowances": "40l. duty allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -47,7 +47,7 @@
       "surname": "Heape",
       "position": "Assistant Secretary",
       "department": "Civil Establishment",
-      "salary_min": 250,
+      "salary_min": 15,
       "salary_max": 400,
       "allowances": null,
       "honors": [],
@@ -65,7 +65,7 @@
       "department": "Civil Establishment",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "200l. allowance",
+      "allowances": "200l. duty allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": "Lt.-Col.",
@@ -98,7 +98,9 @@
       "salary_min": 400,
       "salary_max": 500,
       "allowances": "40l. duty allowance",
-      "honors": [],
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": "Captain",
       "salary_scale": null,
@@ -130,7 +132,9 @@
       "salary_min": 400,
       "salary_max": 500,
       "allowances": "40l. duty allowance",
-      "honors": [],
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -146,7 +150,9 @@
       "salary_min": 400,
       "salary_max": 500,
       "allowances": "40l. duty allowance",
-      "honors": [],
+      "honors": [
+        "M.C."
+      ],
       "qualifications": [],
       "military_rank": "Major",
       "salary_scale": null,
@@ -178,7 +184,9 @@
       "salary_min": 400,
       "salary_max": 500,
       "allowances": "40l. duty allowance",
-      "honors": [],
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -194,7 +202,9 @@
       "salary_min": 250,
       "salary_max": 400,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.C."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -210,7 +220,9 @@
       "salary_min": 250,
       "salary_max": 400,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.C."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -246,7 +258,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Capt.",
+      "military_rank": "Captain",
       "salary_scale": null,
       "location": null
     },
@@ -262,7 +274,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Capt.",
+      "military_rank": "Captain",
       "salary_scale": null,
       "location": null
     },
@@ -453,7 +465,7 @@
       "department": "Posts and Telegraphs Department",
       "salary_min": 250,
       "salary_max": 300,
-      "allowances": "10l.",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -469,7 +481,7 @@
       "department": "Public Works Department",
       "salary_min": 200,
       "salary_max": 250,
-      "allowances": "10l. to 250l",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -485,7 +497,7 @@
       "department": "Military",
       "salary_min": 800,
       "salary_max": 800,
-      "allowances": "200l",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Lt.-Col.",
@@ -501,7 +513,7 @@
       "department": "Military",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "60l",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Capt.",
@@ -517,7 +529,7 @@
       "department": "Military",
       "salary_min": 700,
       "salary_max": 700,
-      "allowances": "144l",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Lt.-Col.",
@@ -533,7 +545,7 @@
       "department": "Military",
       "salary_min": 600,
       "salary_max": 600,
-      "allowances": "96l",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Major",
@@ -549,10 +561,8 @@
       "department": "Military",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "48l",
-      "honors": [
-        "M.C."
-      ],
+      "allowances": null,
+      "honors": [],
       "qualifications": [],
       "military_rank": "Capt.",
       "salary_scale": null,
@@ -567,10 +577,8 @@
       "department": "Military",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "48l",
-      "honors": [
-        "M.C."
-      ],
+      "allowances": null,
+      "honors": [],
       "qualifications": [],
       "military_rank": "Capt.",
       "salary_scale": null,
@@ -585,7 +593,7 @@
       "department": "Military",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "48l",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Capt.",
@@ -601,7 +609,7 @@
       "department": "Military",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "48l",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Capt.",
@@ -617,7 +625,7 @@
       "department": "Military",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "48l",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Capt.",
@@ -633,7 +641,7 @@
       "department": "Military",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "48l",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Capt.",
@@ -652,7 +660,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -668,7 +676,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -683,11 +691,10 @@
       "salary_max": 350,
       "allowances": null,
       "honors": [
-        "D.S.O.",
-        "M.C."
+        "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -703,7 +710,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -735,7 +742,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lt.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -751,7 +758,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },

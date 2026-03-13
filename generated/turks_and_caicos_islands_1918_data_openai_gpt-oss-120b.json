@@ -1,7 +1,7 @@
 {
   "colony": "Turks and Caicos Islands",
   "year": 1918,
-  "generated": "2026-03-12T15:34:32.834402",
+  "generated": "2026-03-13T11:58:34.924550",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 11,
@@ -11,7 +11,7 @@
       "canonical_name": "Auden, F. T.",
       "given_names": "F. T.",
       "surname": "Auden",
-      "position": "Government Medical Officer (Turks Islands)",
+      "position": "Government Medical Officer",
       "department": "Medical",
       "salary_min": 275,
       "salary_max": 275,
@@ -22,14 +22,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Turks Islands"
     },
     {
       "name": "R. R. Higinbothom",
       "canonical_name": "Higinbothom, R. R.",
       "given_names": "R. R.",
       "surname": "Higinbothom",
-      "position": "Government Medical Officer (Caicos Islands)",
+      "position": "Government Medical Officer",
       "department": "Medical",
       "salary_min": 200,
       "salary_max": 200,
@@ -40,14 +40,14 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Caicos Islands"
     },
     {
       "name": "R. C. Macy",
       "canonical_name": "Macy, R. C.",
       "given_names": "R. C.",
       "surname": "Macy",
-      "position": "Government Medical Officer (Caicos Islands)",
+      "position": "Government Medical Officer",
       "department": "Medical",
       "salary_min": 309,
       "salary_max": 309,
@@ -58,7 +58,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Caicos Islands"
     },
     {
       "name": "F. E. Todd",
@@ -186,7 +186,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Harbour"
+      "location": "Cockburn Harbour"
     }
   ],
   "validation_summary": {

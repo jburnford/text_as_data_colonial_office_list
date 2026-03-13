@@ -1,13 +1,13 @@
 {
   "colony": "Seychelles",
   "year": 1918,
-  "generated": "2026-03-12T15:35:14.975733",
+  "generated": "2026-03-13T11:59:45.195156",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 91,
+  "total_officials": 90,
   "officials": [
     {
-      "name": "C. R. M. O'Brien",
+      "name": "Lt.-Col. C. R. M. O'Brien",
       "canonical_name": "O'Brien, C. R. M.",
       "given_names": "C. R. M.",
       "surname": "O'Brien",
@@ -486,7 +486,8 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "M.B."
+        "M.B.",
+        "Ch.B."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -541,6 +542,22 @@
       "location": null
     },
     {
+      "name": "P. B. Petrides",
+      "canonical_name": "Petrides, P. B.",
+      "given_names": "P. B.",
+      "surname": "Petrides",
+      "position": "Official Assignee in Bankruptcy and Curator of Vacant Estates",
+      "department": "Bankruptcy and Curatelle",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
       "name": "E. Petit",
       "canonical_name": "Petit, E.",
       "given_names": "E.",
@@ -565,7 +582,7 @@
       "department": "Police Department",
       "salary_min": 2000,
       "salary_max": 2000,
-      "allowances": "500 Rs. for quarters",
+      "allowances": "Rs. 500 for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -581,7 +598,7 @@
       "department": "Police Department",
       "salary_min": 900,
       "salary_max": 1200,
-      "allowances": "240 Rs. for quarters",
+      "allowances": "Rs. 240 for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -609,7 +626,7 @@
       "canonical_name": "Jean-Louis, H. J.",
       "given_names": "H. J.",
       "surname": "Jean-Louis",
-      "position": "Gaulier",
+      "position": "Gaoler",
       "department": "Prison Department",
       "salary_min": 1000,
       "salary_max": 1250,
@@ -664,14 +681,15 @@
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "Rs. 500 as Superintendent of Leper Asylum and Pauper Camp",
+      "allowances": null,
       "honors": [],
       "qualifications": [
-        "M.D."
+        "M.D.",
+        "Ch.B."
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Praslin District"
     },
     {
       "name": "J. T. Bradley",
@@ -690,7 +708,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South Mah\u00e9 District"
     },
     {
       "name": "D. Watson",
@@ -725,9 +743,9 @@
       "location": null
     },
     {
-      "name": "Sister Lucy",
-      "canonical_name": "Lucy, Sister",
-      "given_names": "Sister",
+      "name": "Lucy",
+      "canonical_name": "Lucy",
+      "given_names": "",
       "surname": "Lucy",
       "position": "Matron",
       "department": "Medical Department",
@@ -773,7 +791,7 @@
       "location": null
     },
     {
-      "name": "Sister Herbert",
+      "name": "Herbert",
       "canonical_name": "Herbert, Sister",
       "given_names": "Sister",
       "surname": "Herbert",
@@ -789,7 +807,7 @@
       "location": null
     },
     {
-      "name": "Miss M. G. Halkett",
+      "name": "M. G. Halkett",
       "canonical_name": "Halkett, M. G.",
       "given_names": "M. G.",
       "surname": "Halkett",
@@ -797,7 +815,7 @@
       "department": "Medical Department",
       "salary_min": 1200,
       "salary_max": 1200,
-      "allowances": "with quarters and allowances",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -818,7 +836,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Praslin"
     },
     {
       "name": "C. Lablache",
@@ -834,7 +852,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South Mah\u00e9 District"
     },
     {
       "name": "H. Tirant",
@@ -845,7 +863,7 @@
       "department": "Medical Department",
       "salary_min": 720,
       "salary_max": 1000,
-      "allowances": "quarters and rations",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -869,41 +887,9 @@
       "location": null
     },
     {
-      "name": "Rev. Father C\u00e9saire",
-      "canonical_name": "C\u00e9saire, Rev. Father",
-      "given_names": "Rev. Father",
-      "surname": "C\u00e9saire",
-      "position": "Priest",
-      "department": "Roman Catholic Church",
-      "salary_min": 750,
-      "salary_max": 750,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Rev. Father Laurent",
-      "canonical_name": "Laurent, Rev. Father",
-      "given_names": "Rev. Father",
-      "surname": "Laurent",
-      "position": "Priest",
-      "department": "Roman Catholic Church",
-      "salary_min": 750,
-      "salary_max": 750,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Rev. W. S. Klamborowski",
-      "canonical_name": "Klamborowski, Rev. W. S.",
-      "given_names": "Rev. W. S.",
+      "name": "W. S. Klamborowski",
+      "canonical_name": "Klamborowski, W. S.",
+      "given_names": "W. S.",
       "surname": "Klamborowski",
       "position": "Civil Chaplain",
       "department": "Church of England",
@@ -917,9 +903,9 @@
       "location": null
     },
     {
-      "name": "Rev. G. A. Lambert",
-      "canonical_name": "Lambert, Rev. G. A.",
-      "given_names": "Rev. G. A.",
+      "name": "G. A. Lambert",
+      "canonical_name": "Lambert, G. A.",
+      "given_names": "G. A.",
       "surname": "Lambert",
       "position": "Minister",
       "department": "Church of England",
@@ -1071,7 +1057,7 @@
       "department": "Botanic Station",
       "salary_min": 3400,
       "salary_max": 3400,
-      "allowances": "500 for quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1096,7 +1082,7 @@
     },
     {
       "name": "F. Godley, Jr.",
-      "canonical_name": "Godley, F., Jr.",
+      "canonical_name": "Godley, F.",
       "given_names": "F.",
       "surname": "Godley",
       "position": "Sergeant Forest Ranger",
@@ -1386,9 +1372,9 @@
     },
     {
       "name": "H. Jean Louis",
-      "canonical_name": "Louis, H. Jean",
-      "given_names": "H. Jean",
-      "surname": "Louis",
+      "canonical_name": "Jean Louis, H.",
+      "given_names": "H.",
+      "surname": "Jean Louis",
       "position": "Clerk to Board",
       "department": "Local Boards of Health, Praslin and La Digue",
       "salary_min": null,
@@ -1422,7 +1408,7 @@
       "given_names": "L. E.",
       "surname": "Lanier",
       "position": "Consular Agent",
-      "department": "Foreign Consuls - France",
+      "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1438,7 +1424,7 @@
       "given_names": "G. C.",
       "surname": "Jouanis",
       "position": "Captain",
-      "department": "Foreign Consuls - Italy",
+      "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1450,11 +1436,11 @@
     },
     {
       "name": "A d'Emmerez de Charmoy",
-      "canonical_name": "Charmoy, A d'Emmerez de",
-      "given_names": "A d'Emmerez de",
-      "surname": "Charmoy",
+      "canonical_name": "d'Emmerez de Charmoy, A",
+      "given_names": "A",
+      "surname": "d'Emmerez de Charmoy",
       "position": "Vice-Consul",
-      "department": "Foreign Consuls - Netherlands",
+      "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1469,8 +1455,8 @@
       "canonical_name": "Merian, A.",
       "given_names": "A.",
       "surname": "Merian",
-      "position": "Consul",
-      "department": "Foreign Consuls - Portugal",
+      "position": "",
+      "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1484,12 +1470,12 @@
   "validation_summary": {
     "colony": "Seychelles",
     "year": 1918,
-    "total": 91,
-    "high_confidence": 91,
-    "medium_confidence": 0,
-    "low_confidence": 0,
-    "quarantined": 0,
-    "passed": 91,
-    "anomaly_count": 12
+    "total": 92,
+    "high_confidence": 89,
+    "medium_confidence": 1,
+    "low_confidence": 2,
+    "quarantined": 2,
+    "passed": 90,
+    "anomaly_count": 13
   }
 }

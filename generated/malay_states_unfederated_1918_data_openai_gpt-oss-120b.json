@@ -1,10 +1,10 @@
 {
   "colony": "Malay States Unfederated",
   "year": 1918,
-  "generated": "2026-03-12T15:31:38.633683",
+  "generated": "2026-03-13T11:52:08.436629",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 17,
+  "total_officials": 16,
   "officials": [
     {
       "name": "R. J. Farrer",
@@ -55,22 +55,6 @@
       "location": null
     },
     {
-      "name": "H.H. the Rajah Kelantan bin H.H. Sultan Mohamed IV.",
-      "canonical_name": "Mohamed IV., H.H. the Rajah Kelantan bin H.H. Sultan",
-      "given_names": "H.H. the Rajah Kelantan bin H.H. Sultan",
-      "surname": "Mohamed IV.",
-      "position": "Treasurer",
-      "department": "Civil Establishment",
-      "salary_min": 1260,
-      "salary_max": 1260,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "W. E. Pepys",
       "canonical_name": "Pepys, W. E.",
       "given_names": "W. E.",
@@ -80,22 +64,6 @@
       "salary_min": 520,
       "salary_max": 520,
       "allowances": "125l. duty allowance",
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "H.H. the Raja",
-      "canonical_name": "Raja, H.H.",
-      "given_names": "H.H.",
-      "surname": "Raja",
-      "position": "Judge, High Court",
-      "department": "Civil Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -135,7 +103,7 @@
       "location": null
     },
     {
-      "name": "Captain H. A. Anderson",
+      "name": "H. A. Anderson",
       "canonical_name": "Anderson, H. A.",
       "given_names": "H. A.",
       "surname": "Anderson",
@@ -248,8 +216,8 @@
     },
     {
       "name": "H.H. Sir Zuinal Abdin ibni Almerhum Ahmad",
-      "canonical_name": "Ahmad, H.H. Sir Zuinal Abdin ibni Almerhum",
-      "given_names": "H.H. Sir Zuinal Abdin ibni Almerhum",
+      "canonical_name": "Abdin, H.H. Sir Zuinal ibni Almerhum Ahmad",
+      "given_names": "H.H. Sir Zuinal ibni Almerhum",
       "surname": "Ahmad",
       "position": "Sultan",
       "department": "TRENGGANU",
@@ -279,17 +247,33 @@
       "military_rank": null,
       "salary_scale": null,
       "location": null
+    },
+    {
+      "name": "W. L. Conlay",
+      "canonical_name": "Conlay, W. L.",
+      "given_names": "W. L.",
+      "surname": "Conlay",
+      "position": "British Officer",
+      "department": "TRENGGANU",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
     }
   ],
   "validation_summary": {
     "colony": "Malay States Unfederated",
     "year": 1918,
-    "total": 17,
-    "high_confidence": 17,
+    "total": 18,
+    "high_confidence": 16,
     "medium_confidence": 0,
-    "low_confidence": 0,
-    "quarantined": 0,
-    "passed": 17,
+    "low_confidence": 2,
+    "quarantined": 2,
+    "passed": 16,
     "anomaly_count": 0
   }
 }
