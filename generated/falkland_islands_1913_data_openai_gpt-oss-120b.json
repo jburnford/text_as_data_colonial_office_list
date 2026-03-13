@@ -1,7 +1,7 @@
 {
   "colony": "Falkland Islands",
   "year": 1913,
-  "generated": "2026-03-12T14:51:50.345243",
+  "generated": "2026-03-13T10:08:44.829138",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 21,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 1250,
       "salary_max": 1250,
-      "allowances": "entertaining allowance 250l.",
+      "allowances": "entertaining allowance 250l., and fees.",
       "honors": [
         "C.M.G."
       ],
@@ -49,7 +49,7 @@
       "department": "Civil Establishment",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": null,
+      "allowances": "Official Administrator's fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -65,7 +65,7 @@
       "department": "Civil Establishment",
       "salary_min": 140,
       "salary_max": 180,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -118,7 +118,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "New Island"
     },
     {
       "name": "F. Berling",
@@ -169,7 +169,7 @@
       "location": null
     },
     {
-      "name": "H. M. Stanley-Turner",
+      "name": "Dr. H. M. Stanley-Turner",
       "canonical_name": "Stanley-Turner, H. M.",
       "given_names": "H. M.",
       "surname": "Stanley-Turner",
@@ -177,7 +177,7 @@
       "department": "Civil Establishment",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "fees, and private practice",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -185,7 +185,7 @@
       "location": "West Falkland"
     },
     {
-      "name": "W. M. Browne",
+      "name": "Dr. W. M. Browne",
       "canonical_name": "Browne, W. M.",
       "given_names": "W. M.",
       "surname": "Browne",
@@ -193,7 +193,7 @@
       "department": "Civil Establishment",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": null,
+      "allowances": "private practice",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -225,7 +225,7 @@
       "department": "Civil Establishment",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": null,
+      "allowances": "paid by Board of Trade",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -281,7 +281,7 @@
       "location": null
     },
     {
-      "name": "E. J. Seymour",
+      "name": "Dean E. J. Seymour",
       "canonical_name": "Seymour, E. J.",
       "given_names": "E. J.",
       "surname": "Seymour",

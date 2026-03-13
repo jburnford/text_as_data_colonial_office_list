@@ -1,10 +1,10 @@
 {
   "colony": "Virgin Islands",
   "year": 1909,
-  "generated": "2026-03-12T14:49:49.853208",
+  "generated": "2026-03-13T10:01:56.975446",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 24,
+  "total_officials": 25,
   "officials": [
     {
       "name": "R. S. Earl",
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 30,
       "salary_max": 30,
-      "allowances": "horse allowance 12l., and residence",
+      "allowances": "horse allowance 12l.",
       "honors": [],
       "qualifications": [
         "M.A.",
@@ -42,7 +42,7 @@
       "location": null
     },
     {
-      "name": "Miss Floress Pickering",
+      "name": "Floress Pickering",
       "canonical_name": "Pickering, Floress",
       "given_names": "Floress",
       "surname": "Pickering",
@@ -96,8 +96,8 @@
       "surname": "Evans",
       "position": "Government Officer",
       "department": "Treasury and Customs",
-      "salary_min": 45.9,
-      "salary_max": 45.9,
+      "salary_min": 45,
+      "salary_max": 45,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -178,7 +178,7 @@
       "department": "Prison Department",
       "salary_min": 30,
       "salary_max": 30,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -317,6 +317,22 @@
       "location": null
     },
     {
+      "name": "The Commissioner (ex-officio)",
+      "canonical_name": "Commissioner, The (ex-officio)",
+      "given_names": "",
+      "surname": "Commissioner",
+      "position": "Postmaster",
+      "department": "Post Office Department",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
       "name": "Henry A. Evans",
       "canonical_name": "Evans, Henry A.",
       "given_names": "Henry A.",
@@ -357,7 +373,7 @@
       "department": "Agricultural Department",
       "salary_min": 150,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "with quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -369,7 +385,7 @@
       "canonical_name": "Easten, Stanley E.",
       "given_names": "Stanley E.",
       "surname": "Easten",
-      "position": "Rev.",
+      "position": "Clergy",
       "department": "Clergy",
       "salary_min": null,
       "salary_max": null,
@@ -385,7 +401,7 @@
       "canonical_name": "Wright, Wilfred",
       "given_names": "Wilfred",
       "surname": "Wright",
-      "position": "Rev.",
+      "position": "Clergy",
       "department": "Clergy",
       "salary_min": null,
       "salary_max": null,
@@ -400,12 +416,12 @@
   "validation_summary": {
     "colony": "Virgin Islands",
     "year": 1909,
-    "total": 24,
+    "total": 25,
     "high_confidence": 24,
-    "medium_confidence": 0,
+    "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 24,
+    "passed": 25,
     "anomaly_count": 9
   }
 }

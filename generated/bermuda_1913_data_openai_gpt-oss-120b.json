@@ -1,10 +1,10 @@
 {
   "colony": "Bermuda",
   "year": 1913,
-  "generated": "2026-03-12T14:51:24.766593",
+  "generated": "2026-03-13T10:07:23.494831",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 79,
+  "total_officials": 78,
   "officials": [
     {
       "name": "Sir George Bullock",
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "P. R. B. Laurence",
+      "name": "Lieut. P. R. B. Laurence",
       "canonical_name": "Laurence, P. R. B.",
       "given_names": "P. R. B.",
       "surname": "Laurence",
@@ -49,7 +49,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -89,7 +89,7 @@
       "location": null
     },
     {
-      "name": "L. Hayward",
+      "name": "Miss L. Hayward",
       "canonical_name": "Hayward, L.",
       "given_names": "L.",
       "surname": "Hayward",
@@ -97,7 +97,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -113,7 +113,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -129,7 +129,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -145,7 +145,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -161,7 +161,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -177,7 +177,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -296,7 +296,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "under contract",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -324,7 +324,7 @@
       "canonical_name": "McCallan, C. M.",
       "given_names": "C. M.",
       "surname": "McCallan",
-      "position": "Receiver-General, Comptroller of Customs and Navigation Laws, and Registrar of Shipping",
+      "position": "Assistant Receiver-General, Comptroller of Customs and Navigation Laws, and Registrar of Shipping",
       "department": "Revenue Department",
       "salary_min": 200,
       "salary_max": 250,
@@ -484,7 +484,7 @@
       "canonical_name": "McCallan, C. W.",
       "given_names": "C. W.",
       "surname": "McCallan",
-      "position": "Assist. Colonial Postmaster",
+      "position": "Assistant Colonial Postmaster",
       "department": "General Post Office",
       "salary_min": null,
       "salary_max": null,
@@ -500,7 +500,7 @@
       "canonical_name": "Jones, A. C. C.",
       "given_names": "A. C. C.",
       "surname": "Jones",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "General Post Office",
       "salary_min": 150,
       "salary_max": 200,
@@ -516,7 +516,7 @@
       "canonical_name": "Skeen, W. H.",
       "given_names": "W. H.",
       "surname": "Skeen",
-      "position": "Clerks",
+      "position": "Clerk",
       "department": "General Post Office",
       "salary_min": 125,
       "salary_max": 150,
@@ -676,7 +676,7 @@
       "canonical_name": "Lighthoun, T. J.",
       "given_names": "T. J.",
       "surname": "Lighthoun",
-      "position": "Coroner",
+      "position": "Coroners",
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -692,7 +692,7 @@
       "canonical_name": "Boyle, W. J.",
       "given_names": "W. J.",
       "surname": "Boyle",
-      "position": "Coroner",
+      "position": "Coroners",
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -740,7 +740,7 @@
       "canonical_name": "Lightbourn, F. J. F.",
       "given_names": "F. J. F.",
       "surname": "Lightbourn",
-      "position": "Rector, St. George's",
+      "position": "Rector",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -749,14 +749,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. George's"
     },
     {
       "name": "L. L. Havard",
       "canonical_name": "Havard, L. L.",
       "given_names": "L. L.",
       "surname": "Havard",
-      "position": "Rector, Hamilton and Smith",
+      "position": "Rector",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -765,14 +765,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hamilton and Smith"
     },
     {
       "name": "J. Davidson",
       "canonical_name": "Davidson, J.",
       "given_names": "J.",
       "surname": "Davidson",
-      "position": "Rector, Pembroke and Devonshire",
+      "position": "Rector",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -781,14 +781,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Pembroke and Devonshire"
     },
     {
       "name": "E. I. Lough",
       "canonical_name": "Lough, E. I.",
       "given_names": "E. I.",
       "surname": "Lough",
-      "position": "Rector, Paget and Warwick",
+      "position": "Rector",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -797,14 +797,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Paget and Warwick"
     },
     {
       "name": "Bruce Mackay",
       "canonical_name": "Mackay, Bruce",
       "given_names": "Bruce",
       "surname": "Mackay",
-      "position": "Rector, Sandys's and Southampton",
+      "position": "Rector",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -813,7 +813,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Sandys's and Southampton"
     },
     {
       "name": "D. Comeau",
@@ -836,7 +836,7 @@
       "canonical_name": "Cameron, A. B.",
       "given_names": "A. B.",
       "surname": "Cameron",
-      "position": "Presbyterian Ministers",
+      "position": "Presbyterian Minister",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -852,7 +852,7 @@
       "canonical_name": "Smith, Edwin",
       "given_names": "Edwin",
       "surname": "Smith",
-      "position": "Presbyterian Ministers",
+      "position": "Presbyterian Minister",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -868,7 +868,7 @@
       "canonical_name": "Hemmeon, D.",
       "given_names": "D.",
       "surname": "Hemmeon",
-      "position": "Methodist Ministers",
+      "position": "Methodist Minister",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -884,7 +884,7 @@
       "canonical_name": "Watts, W. H.",
       "given_names": "W. H.",
       "surname": "Watts",
-      "position": "Methodist Ministers",
+      "position": "Methodist Minister",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -900,7 +900,7 @@
       "canonical_name": "Hale, J.",
       "given_names": "J.",
       "surname": "Hale",
-      "position": "Methodist Ministers",
+      "position": "Methodist Minister",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -916,7 +916,7 @@
       "canonical_name": "Jefferson, S.",
       "given_names": "S.",
       "surname": "Jefferson",
-      "position": "Methodist Ministers",
+      "position": "Methodist Minister",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -1025,7 +1025,7 @@
     },
     {
       "name": "Sir George Bullock",
-      "canonical_name": "Bullock, George",
+      "canonical_name": "Bullock, Sir George",
       "given_names": "George",
       "surname": "Bullock",
       "position": "General Commanding",
@@ -1169,7 +1169,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States"
+      "location": null
     },
     {
       "name": "W. H. Allen",
@@ -1185,14 +1185,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States"
+      "location": null
     },
     {
       "name": "R. H. James",
       "canonical_name": "James, R. H.",
       "given_names": "R. H.",
       "surname": "James",
-      "position": "Consular Agent for France",
+      "position": "Consular Agent (France)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1201,7 +1201,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "W. M. Conyers",
@@ -1217,7 +1217,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Spain"
+      "location": null
     },
     {
       "name": "J. S. Darrell",
@@ -1233,23 +1233,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Denmark, Netherlands and Portugal"
-    },
-    {
-      "name": "F. K. Outerbridge",
-      "canonical_name": "Outerbridge, F. K.",
-      "given_names": "F. K.",
-      "surname": "Outerbridge",
-      "position": "Consul for Russia",
-      "department": "Foreign Consuls",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "Russia"
+      "location": null
     },
     {
       "name": "E. J. Thompson",
@@ -1265,7 +1249,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Chile"
+      "location": null
     },
     {
       "name": "W. E. Meyer",
@@ -1281,18 +1265,18 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Italy"
+      "location": null
     }
   ],
   "validation_summary": {
     "colony": "Bermuda",
     "year": 1913,
-    "total": 80,
-    "high_confidence": 79,
+    "total": 79,
+    "high_confidence": 78,
     "medium_confidence": 0,
     "low_confidence": 1,
     "quarantined": 1,
-    "passed": 79,
-    "anomaly_count": 2
+    "passed": 78,
+    "anomaly_count": 1
   }
 }

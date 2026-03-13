@@ -1,10 +1,10 @@
 {
   "colony": "North Borneo",
   "year": 1913,
-  "generated": "2026-03-12T14:56:51.764011",
+  "generated": "2026-03-13T10:22:35.906286",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 93,
+  "total_officials": 92,
   "officials": [
     {
       "name": "J. West Ridgeway",
@@ -17,7 +17,6 @@
       "salary_max": null,
       "allowances": null,
       "honors": [
-        "G.C.B.",
         "G.C.M.G."
       ],
       "qualifications": [],
@@ -46,7 +45,7 @@
       "canonical_name": "Turner, A. E.",
       "given_names": "A. E.",
       "surname": "Turner",
-      "position": null,
+      "position": "Major-General",
       "department": "Court of Directors",
       "salary_min": null,
       "salary_max": null,
@@ -64,7 +63,7 @@
       "canonical_name": "Clark, Bouverie F.",
       "given_names": "Bouverie F.",
       "surname": "Clark",
-      "position": null,
+      "position": "Vice-Admiral",
       "department": "Court of Directors",
       "salary_min": null,
       "salary_max": null,
@@ -331,7 +330,7 @@
       "location": null
     },
     {
-      "name": "A. C. Pearson (officiating)",
+      "name": "A. C. Pearson",
       "canonical_name": "Pearson, A. C.",
       "given_names": "A. C.",
       "surname": "Pearson",
@@ -379,7 +378,7 @@
       "location": null
     },
     {
-      "name": "J. W. Wilson (on leave)",
+      "name": "J. W. Wilson",
       "canonical_name": "Wilson, J. W.",
       "given_names": "J. W.",
       "surname": "Wilson",
@@ -395,7 +394,7 @@
       "location": null
     },
     {
-      "name": "B. McEnroe (acting)",
+      "name": "B. McEnroe",
       "canonical_name": "McEnroe, B.",
       "given_names": "B.",
       "surname": "McEnroe",
@@ -411,7 +410,7 @@
       "location": null
     },
     {
-      "name": "G. C. Woolley (on leave)",
+      "name": "G. C. Woolley",
       "canonical_name": "Woolley, G. C.",
       "given_names": "G. C.",
       "surname": "Woolley",
@@ -459,7 +458,7 @@
       "location": null
     },
     {
-      "name": "C. P. van Kinschot (acting)",
+      "name": "C. P. van Kinschot",
       "canonical_name": "van Kinschot, C. P.",
       "given_names": "C. P.",
       "surname": "van Kinschot",
@@ -491,7 +490,7 @@
       "location": null
     },
     {
-      "name": "C. H. Harington (on leave)",
+      "name": "C. H. Harington",
       "canonical_name": "Harington, C. H.",
       "given_names": "C. H.",
       "surname": "Harington",
@@ -507,7 +506,7 @@
       "location": null
     },
     {
-      "name": "H. S. Bond (acting)",
+      "name": "H. S. Bond",
       "canonical_name": "Bond, H. S.",
       "given_names": "H. S.",
       "surname": "Bond",
@@ -573,7 +572,7 @@
       "location": null
     },
     {
-      "name": "R. Scott-Atkinson (on leave)",
+      "name": "R. Scott-Atkinson",
       "canonical_name": "Scott-Atkinson, R.",
       "given_names": "R.",
       "surname": "Scott-Atkinson",
@@ -589,7 +588,7 @@
       "location": null
     },
     {
-      "name": "G. C. Irving (acting)",
+      "name": "G. C. Irving",
       "canonical_name": "Irving, G. C.",
       "given_names": "G. C.",
       "surname": "Irving",
@@ -597,22 +596,6 @@
       "department": "Civil Service",
       "salary_min": 4200,
       "salary_max": 4200,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "The Commandant",
-      "canonical_name": "Commandant, The",
-      "given_names": "The",
-      "surname": "Commandant",
-      "position": "Inspector of Prisons",
-      "department": "Civil Service",
-      "salary_min": null,
-      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -685,7 +668,7 @@
       "location": "Kudat"
     },
     {
-      "name": "F. J. Moysey (acting)",
+      "name": "F. J. Moysey",
       "canonical_name": "Moysey, F. J.",
       "given_names": "F. J.",
       "surname": "Moysey",
@@ -733,7 +716,7 @@
       "location": "Interior"
     },
     {
-      "name": "H. S. Bond (acting as Commandant)",
+      "name": "H. S. Bond",
       "canonical_name": "Bond, H. S.",
       "given_names": "H. S.",
       "surname": "Bond",
@@ -749,7 +732,7 @@
       "location": null
     },
     {
-      "name": "J. M. Reeves (acting)",
+      "name": "J. M. Reeves",
       "canonical_name": "Reeves, J. M.",
       "given_names": "J. M.",
       "surname": "Reeves",
@@ -760,7 +743,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Captain",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -801,7 +784,7 @@
       "canonical_name": "Wardrop, A. T.",
       "given_names": "A. T.",
       "surname": "Wardrop",
-      "position": "Superintendent Beaufort",
+      "position": "Superintendent",
       "department": "Civil Police",
       "salary_min": 3864,
       "salary_max": 3864,
@@ -810,7 +793,7 @@
       "qualifications": [],
       "military_rank": "Captain",
       "salary_scale": null,
-      "location": null
+      "location": "Beaufort"
     },
     {
       "name": "E. G. French",
@@ -1101,7 +1084,7 @@
       "location": "Marudu"
     },
     {
-      "name": "E. A. Pearson",
+      "name": "E. A. Pearson (acting)",
       "canonical_name": "Pearson, E. A.",
       "given_names": "E. A.",
       "surname": "Pearson",
@@ -1149,7 +1132,7 @@
       "location": "Province Dent"
     },
     {
-      "name": "N. B. Baboneau",
+      "name": "N. B. Baboneau (acting)",
       "canonical_name": "Baboneau, N. B.",
       "given_names": "N. B.",
       "surname": "Baboneau",
@@ -1389,7 +1372,7 @@
       "location": null
     },
     {
-      "name": "T. J. C. White",
+      "name": "T. J. C. White (acting)",
       "canonical_name": "White, T. J. C.",
       "given_names": "T. J. C.",
       "surname": "White",
@@ -1520,12 +1503,12 @@
   "validation_summary": {
     "colony": "North Borneo",
     "year": 1913,
-    "total": 94,
-    "high_confidence": 93,
+    "total": 93,
+    "high_confidence": 92,
     "medium_confidence": 0,
     "low_confidence": 1,
     "quarantined": 1,
-    "passed": 93,
+    "passed": 92,
     "anomaly_count": 3
   }
 }

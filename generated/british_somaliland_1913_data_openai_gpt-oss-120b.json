@@ -1,10 +1,10 @@
 {
   "colony": "British Somaliland",
   "year": 1913,
-  "generated": "2026-03-12T14:51:02.142275",
+  "generated": "2026-03-13T10:05:50.648709",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 26,
+  "total_officials": 25,
   "officials": [
     {
       "name": "H. A. Byatt",
@@ -89,22 +89,6 @@
       "location": null
     },
     {
-      "name": "J. L. Berne",
-      "canonical_name": "Berne, J. L.",
-      "given_names": "J. L.",
-      "surname": "Berne",
-      "position": "Assistant District Commissioner",
-      "department": "Administration",
-      "salary_min": 250,
-      "salary_max": 350,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": "Captain",
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "H. T. Powell",
       "canonical_name": "Powell, H. T.",
       "given_names": "H. T.",
@@ -113,7 +97,7 @@
       "department": "Treasury Department",
       "salary_min": 350,
       "salary_max": 500,
-      "allowances": "20l.",
+      "allowances": "by 20l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -129,7 +113,7 @@
       "department": "Treasury Department",
       "salary_min": 250,
       "salary_max": 350,
-      "allowances": "10l.",
+      "allowances": "by 10l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -161,7 +145,7 @@
       "department": "Medical Department",
       "salary_min": 400,
       "salary_max": 500,
-      "allowances": "by 20l. (duty allowance 50l.)",
+      "allowances": "by 20l.; duty allowance 50l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -193,7 +177,7 @@
       "department": "Camel Constabulary",
       "salary_min": 400,
       "salary_max": 450,
-      "allowances": "with 40l. duty.",
+      "allowances": "with 40l. duty",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -260,7 +244,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -292,7 +276,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -308,7 +292,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -324,7 +308,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -340,7 +324,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -358,7 +342,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Berbera, Bulhar, Zeyla"
+      "location": null
     },
     {
       "name": "Paul E. Slipp",
@@ -374,7 +358,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Berbera, Bulhar, Zeyla"
+      "location": null
     },
     {
       "name": "Menahim Mossa",
@@ -390,7 +374,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Berbera, Bulhar, Zeyla"
+      "location": null
     },
     {
       "name": "Cesar Tian",
@@ -406,7 +390,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Berbera, Bulhar, Zeyla"
+      "location": null
     },
     {
       "name": "Maurice Ries",
@@ -422,18 +406,18 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Berbera, Bulhar, Zeyla"
+      "location": null
     }
   ],
   "validation_summary": {
     "colony": "British Somaliland",
     "year": 1913,
-    "total": 26,
-    "high_confidence": 26,
+    "total": 25,
+    "high_confidence": 25,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 26,
+    "passed": 25,
     "anomaly_count": 0
   }
 }

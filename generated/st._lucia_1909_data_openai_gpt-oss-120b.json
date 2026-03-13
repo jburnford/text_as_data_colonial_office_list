@@ -1,10 +1,10 @@
 {
   "colony": "St. Lucia",
   "year": 1909,
-  "generated": "2026-03-12T14:49:48.488628",
+  "generated": "2026-03-13T10:01:04.651819",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 71,
+  "total_officials": 72,
   "officials": [
     {
       "name": "P. C. Cork",
@@ -173,7 +173,7 @@
       "canonical_name": "Girard, V.",
       "given_names": "V.",
       "surname": "Girard",
-      "position": "2nd Landing Waiter and Revenue Officer",
+      "position": "Chief Landing Waiter and Revenue Officer",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 125,
       "salary_max": 150,
@@ -333,7 +333,7 @@
       "canonical_name": "Rawlins, J.",
       "given_names": "J.",
       "surname": "Rawlins",
-      "position": "Clerk to Sub-Collector",
+      "position": "Sub-Collector",
       "department": "Treasury, Customs, and Inland Revenue Department",
       "salary_min": 70,
       "salary_max": 70,
@@ -361,9 +361,9 @@
       "location": "3rd District"
     },
     {
-      "name": "W. Cuddeford",
-      "canonical_name": "Cuddeford, W.",
-      "given_names": "W.",
+      "name": "William Cuddeford",
+      "canonical_name": "Cuddeford, William",
+      "given_names": "William",
       "surname": "Cuddeford",
       "position": "Auditor for W. Islands",
       "department": "Audit Department",
@@ -374,7 +374,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "W. Islands"
     },
     {
       "name": "D. C. Thomson",
@@ -957,7 +957,7 @@
       "canonical_name": "Laborde, E. D.",
       "given_names": "E. D.",
       "surname": "Laborde",
-      "position": "Chief of Police",
+      "position": "Chief of Police; Inspector of Prisons",
       "department": "Police and Gaols",
       "salary_min": 300,
       "salary_max": 300,
@@ -977,7 +977,7 @@
       "department": "Police and Gaols",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1005,7 +1005,7 @@
       "canonical_name": "Clarke, R. J.",
       "given_names": "R. J.",
       "surname": "Clarke",
-      "position": "Anglican Minister of Grace Church, River Doree",
+      "position": "Anglican Minister of Grace Church",
       "department": "Ecclesiastical",
       "salary_min": 200,
       "salary_max": 200,
@@ -1014,7 +1014,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "River Doree"
     },
     {
       "name": "Rev. L. Tapon",
@@ -1062,12 +1062,12 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     },
     {
-      "name": "William Peter",
-      "canonical_name": "Peter, William",
-      "given_names": "William",
+      "name": "W. Peter",
+      "canonical_name": "Peter, W.",
+      "given_names": "W.",
       "surname": "Peter",
       "position": "Consul",
       "department": "Foreign Consuls",
@@ -1078,7 +1078,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "German Empire"
     },
     {
       "name": "G. Graf",
@@ -1094,12 +1094,28 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Italy"
     },
     {
-      "name": "William Barnard",
-      "canonical_name": "Barnard, William",
+      "name": "William Peter",
+      "canonical_name": "Peter, William",
       "given_names": "William",
+      "surname": "Peter",
+      "position": "Consul",
+      "department": "Foreign Consuls",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Norway"
+    },
+    {
+      "name": "W. Barnard",
+      "canonical_name": "Barnard, W.",
+      "given_names": "W.",
       "surname": "Barnard",
       "position": "Consul",
       "department": "Foreign Consuls",
@@ -1110,7 +1126,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Portugal"
     },
     {
       "name": "S. Barnard",
@@ -1126,7 +1142,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "United States of Columbia"
     },
     {
       "name": "G. M. Peter",
@@ -1142,18 +1158,18 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Sweden"
     }
   ],
   "validation_summary": {
     "colony": "St. Lucia",
     "year": 1909,
-    "total": 71,
-    "high_confidence": 71,
+    "total": 72,
+    "high_confidence": 72,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 71,
+    "passed": 72,
     "anomaly_count": 2
   }
 }
