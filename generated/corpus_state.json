@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-13T03:39:17.897211",
+  "last_updated": "2026-03-13T03:42:46.212661",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -74548,6 +74548,56 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/trinidad_and_tobago_1933_data_openai_gpt-oss-120b.json"
+    },
+    "Federated Malay States_1934": {
+      "colony": "Federated Malay States",
+      "year": 1934,
+      "tier": "LARGE",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1934_manual_parsed/MALAYA__FEDERATED_MALAY_STATES.txt",
+      "timestamp": "2026-03-13T03:16:31.331869",
+      "total_officials": 250,
+      "passed_officials": 248,
+      "quarantined_officials": 2,
+      "departments": {
+        "Administrative Appointments": 18,
+        "Administrative Appointments (Non-Cadet)": 8,
+        "Agriculture": 29,
+        "Agric. (Wye)": 10,
+        "Audit Department of Straits Settlements and Federated Malay States": 8,
+        "Co-operative Societies Department, F.M.S. & S.S.": 7,
+        "Drainage and Irrigation Department": 18,
+        "Medical": 47,
+        "Institute for Medical Research": 10,
+        "Central Mental Hospital": 2,
+        "Health Branch": 21,
+        "Veterinary Department": 5,
+        "Mines": 29,
+        "Museums": 2,
+        "Printing": 5,
+        "Prisons": 8,
+        "Public Trustee": 1,
+        "Public Works": 10,
+        "General Manager\u2019s Department": 2,
+        "Chief Accountant\u2019s Department": 2,
+        "Engineering Department": 2,
+        "Mechanical Department": 2,
+        "Department of Statistics": 1,
+        "Corps of Accountants": 1
+      },
+      "generation_time": 1574.3,
+      "validation_summary": {
+        "colony": "Federated Malay States",
+        "year": 1934,
+        "total": 250,
+        "high_confidence": 247,
+        "medium_confidence": 1,
+        "low_confidence": 2,
+        "quarantined": 2,
+        "passed": 248,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/federated_malay_states_1934_data_openai_gpt-oss-120b.json"
     }
   },
   "failed": {},
