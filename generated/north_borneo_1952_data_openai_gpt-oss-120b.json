@@ -1,7 +1,7 @@
 {
   "colony": "North Borneo",
   "year": 1952,
-  "generated": "2026-03-12T16:07:48.624329",
+  "generated": "2026-03-13T13:17:33.236100",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 28,
@@ -16,7 +16,11 @@
       "salary_min": 3000,
       "salary_max": 3000,
       "allowances": "\u00a31,000 duty allowance",
-      "honors": [],
+      "honors": [
+        "K.B.E.",
+        "M.C.",
+        "T.D."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -29,9 +33,9 @@
       "surname": "Calder",
       "position": "Chief Secretary",
       "department": "Civil Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": "entertainment allowance, \u00a3280",
+      "salary_min": 280,
+      "salary_max": 280,
+      "allowances": "entertainment allowance",
       "honors": [
         "C.M.G."
       ],
@@ -50,7 +54,9 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": "b",
@@ -82,7 +88,9 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.C."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": "d",
@@ -290,7 +298,9 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "Q.C."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": "b",
@@ -313,7 +323,7 @@
       "location": null
     },
     {
-      "name": "W. Gibson",
+      "name": "Lt.-Cdr. W. Gibson",
       "canonical_name": "Gibson, W.",
       "given_names": "W.",
       "surname": "Gibson",
@@ -324,7 +334,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lt.-Cdr.",
       "salary_scale": "h",
       "location": null
     },
@@ -338,7 +348,9 @@
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": "d",

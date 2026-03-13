@@ -1,7 +1,7 @@
 {
   "colony": "Falkland Islands",
   "year": 1924,
-  "generated": "2026-03-12T15:54:25.655253",
+  "generated": "2026-03-13T12:56:35.923801",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 49,
@@ -157,7 +157,7 @@
       "canonical_name": "Binnie, E. B.",
       "given_names": "E. B.",
       "surname": "Binnie",
-      "position": "Deputy Collector",
+      "position": "Deputy Collectors",
       "department": "South Georgia",
       "salary_min": null,
       "salary_max": null,
@@ -173,7 +173,7 @@
       "canonical_name": "Barlas, William",
       "given_names": "William",
       "surname": "Barlas",
-      "position": "Deputy Collector",
+      "position": "Deputy Collectors",
       "department": "South Georgia",
       "salary_min": null,
       "salary_max": null,
@@ -217,7 +217,7 @@
       "location": null
     },
     {
-      "name": "E. M. Carey",
+      "name": "Miss E. M. Carey",
       "canonical_name": "Carey, E. M.",
       "given_names": "E. M.",
       "surname": "Carey",
@@ -260,7 +260,7 @@
       "department": "Medical",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "60l. house allowance",
+      "allowances": "60l. house allowance and private practice",
       "honors": [],
       "qualifications": [
         "M.R.C.S.",
@@ -300,7 +300,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "King Edward VII Memorial Hospital"
     },
     {
       "name": "Miss K. S. Wright",
@@ -316,7 +316,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "King Edward VII Memorial Hospital"
     },
     {
       "name": "Miss H. I. Willis",
@@ -332,7 +332,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "King Edward VII Memorial Hospital"
     },
     {
       "name": "M. Craigie-Halkett",
@@ -343,11 +343,11 @@
       "department": "Judicial Department",
       "salary_min": null,
       "salary_max": null,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -355,15 +355,15 @@
       "canonical_name": "Hamilton, J. E.",
       "given_names": "J. E.",
       "surname": "Hamilton",
-      "position": "Magistrate, West Falkland and South Shetlands (also Government Naturalist)",
+      "position": "Magistrate, West Falkland and South Shetlands",
       "department": "Judicial Department",
       "salary_min": null,
       "salary_max": null,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": "West Falkland and South Shetlands"
     },
     {
@@ -375,11 +375,11 @@
       "department": "Judicial Department",
       "salary_min": 375,
       "salary_max": 375,
-      "salary_scale": null,
       "allowances": "100l. duty allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": "South Georgia"
     },
     {
@@ -391,11 +391,11 @@
       "department": "Judicial Department",
       "salary_min": 300,
       "salary_max": 300,
-      "salary_scale": null,
       "allowances": "50l. duty allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": "South Georgia"
     },
     {
@@ -407,11 +407,11 @@
       "department": "Educational",
       "salary_min": 400,
       "salary_max": 400,
-      "salary_scale": null,
       "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -423,11 +423,11 @@
       "department": "Educational",
       "salary_min": 300,
       "salary_max": 300,
-      "salary_scale": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -439,11 +439,11 @@
       "department": "Educational",
       "salary_min": 220,
       "salary_max": 260,
-      "salary_scale": null,
       "allowances": "by 10l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -455,11 +455,11 @@
       "department": "Educational",
       "salary_min": 100,
       "salary_max": 100,
-      "salary_scale": null,
-      "allowances": "free board and lodging in homes visited",
+      "allowances": "a year each and free board and lodging in homes visited",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -471,11 +471,11 @@
       "department": "Educational",
       "salary_min": 100,
       "salary_max": 100,
-      "salary_scale": null,
-      "allowances": "free board and lodging in homes visited",
+      "allowances": "a year each and free board and lodging in homes visited",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -487,11 +487,11 @@
       "department": "Police and Prisons",
       "salary_min": 160,
       "salary_max": 160,
-      "salary_scale": null,
       "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
+      "salary_scale": null,
       "location": null
     },
     {
@@ -711,7 +711,7 @@
       "department": "Scientific Department",
       "salary_min": 250,
       "salary_max": 300,
-      "allowances": null,
+      "allowances": "10l. and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -737,9 +737,9 @@
       "location": null
     },
     {
-      "name": "Dean Stanley Smith",
-      "canonical_name": "Smith, Dean Stanley",
-      "given_names": "Dean Stanley",
+      "name": "Stanley Smith",
+      "canonical_name": "Smith, Stanley",
+      "given_names": "Stanley",
       "surname": "Smith",
       "position": "Incumbent of Christ Church Cathedral",
       "department": "Ecclesiastical",

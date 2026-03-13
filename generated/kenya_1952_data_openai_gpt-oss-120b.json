@@ -1,15 +1,15 @@
 {
   "colony": "Kenya",
   "year": 1952,
-  "generated": "2026-03-12T16:07:46.126125",
+  "generated": "2026-03-13T13:17:32.624215",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 40,
   "officials": [
     {
       "name": "Sir Philip Euen Mitchell",
-      "canonical_name": "Mitchell, Philip Euen",
-      "given_names": "Philip Euen",
+      "canonical_name": "Mitchell, Sir Philip Euen",
+      "given_names": "Sir Philip Euen",
       "surname": "Mitchell",
       "position": "Governor and Commander-in-Chief",
       "department": "Civil Establishment",
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "J. R. Irving Bell",
+      "name": "Wing Cdr. J. R. Irving Bell",
       "canonical_name": "Bell, J. R. Irving",
       "given_names": "J. R. Irving",
       "surname": "Bell",
@@ -41,7 +41,7 @@
       "location": null
     },
     {
-      "name": "D. L. Hughes",
+      "name": "F/Lt. D. L. Hughes",
       "canonical_name": "Hughes, D. L.",
       "given_names": "D. L.",
       "surname": "Hughes",
@@ -177,7 +177,7 @@
       "canonical_name": "Mullins, A. C. M.",
       "given_names": "A. C. M.",
       "surname": "Mullins",
-      "position": "Provincial Commissioner",
+      "position": "Provincial Commissioners",
       "department": "Civil Establishment",
       "salary_min": 1775,
       "salary_max": 1775,
@@ -193,7 +193,7 @@
       "canonical_name": "Turnbull, R. G.",
       "given_names": "R. G.",
       "surname": "Turnbull",
-      "position": "Provincial Commissioner",
+      "position": "Provincial Commissioners",
       "department": "Civil Establishment",
       "salary_min": 1775,
       "salary_max": 1775,
@@ -209,7 +209,7 @@
       "canonical_name": "Windley, E. H.",
       "given_names": "E. H.",
       "surname": "Windley",
-      "position": "Provincial Commissioner",
+      "position": "Provincial Commissioners",
       "department": "Civil Establishment",
       "salary_min": 1775,
       "salary_max": 1775,
@@ -225,7 +225,7 @@
       "canonical_name": "Williams, C. H.",
       "given_names": "C. H.",
       "surname": "Williams",
-      "position": "Provincial Commissioner",
+      "position": "Provincial Commissioners",
       "department": "Civil Establishment",
       "salary_min": 1775,
       "salary_max": 1775,
@@ -241,7 +241,7 @@
       "canonical_name": "Johnston, C. M.",
       "given_names": "C. M.",
       "surname": "Johnston",
-      "position": "Provincial Commissioner",
+      "position": "Provincial Commissioners",
       "department": "Civil Establishment",
       "salary_min": 1775,
       "salary_max": 1775,
@@ -301,7 +301,7 @@
       "location": null
     },
     {
-      "name": "F. W. Cavendish-Bentinck",
+      "name": "Major F. W. Cavendish-Bentinck",
       "canonical_name": "Cavendish-Bentinck, F. W.",
       "given_names": "F. W.",
       "surname": "Cavendish-Bentinck",
@@ -352,8 +352,8 @@
     },
     {
       "name": "Sir Charles Mortimer",
-      "canonical_name": "Mortimer, Charles",
-      "given_names": "Charles",
+      "canonical_name": "Mortimer, Sir Charles",
+      "given_names": "Sir Charles",
       "surname": "Mortimer",
       "position": "Member for Health, Lands and Local Government",
       "department": "Civil Establishment",
@@ -432,8 +432,8 @@
     },
     {
       "name": "Sir Barclay Nihill",
-      "canonical_name": "Nihill, Barclay",
-      "given_names": "Barclay",
+      "canonical_name": "Nihill, Sir Barclay",
+      "given_names": "Sir Barclay",
       "surname": "Nihill",
       "position": "President, Court of Appeal for Eastern Africa",
       "department": "Civil Establishment",
@@ -448,8 +448,8 @@
     },
     {
       "name": "Sir Horace Hector Hearne",
-      "canonical_name": "Hearne, Horace Hector",
-      "given_names": "Horace Hector",
+      "canonical_name": "Hearne, Sir Horace Hector",
+      "given_names": "Sir Horace Hector",
       "surname": "Hearne",
       "position": "Chief Justice",
       "department": "Civil Establishment",
@@ -479,7 +479,7 @@
       "location": null
     },
     {
-      "name": "J. S. Ballentine",
+      "name": "Major General J. S. Ballentine",
       "canonical_name": "Ballentine, J. S.",
       "given_names": "J. S.",
       "surname": "Ballentine",
@@ -490,7 +490,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Major General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },

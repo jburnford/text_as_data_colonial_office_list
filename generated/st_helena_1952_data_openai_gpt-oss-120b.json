@@ -1,10 +1,10 @@
 {
   "colony": "St Helena",
   "year": 1952,
-  "generated": "2026-03-12T16:08:49.214175",
+  "generated": "2026-03-13T13:18:54.526032",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 14,
+  "total_officials": 13,
   "officials": [
     {
       "name": "Sir George Andrew Joy",
@@ -17,6 +17,7 @@
       "salary_max": 1400,
       "allowances": "Duty allowance \u00a3400",
       "honors": [
+        "K.B.E.",
         "C.M.G."
       ],
       "qualifications": [],
@@ -50,7 +51,9 @@
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "C.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -94,22 +97,6 @@
       "given_names": "R.",
       "surname": "Bizare",
       "position": "Harbour Master",
-      "department": "Civil Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": "Fees",
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "The Governor",
-      "canonical_name": "Governor, The",
-      "given_names": "The",
-      "surname": "Governor",
-      "position": "Acting Chief Justice",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -193,8 +180,10 @@
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "Fees",
-      "honors": [],
+      "allowances": null,
+      "honors": [
+        "C.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -236,12 +225,12 @@
   "validation_summary": {
     "colony": "St Helena",
     "year": 1952,
-    "total": 14,
-    "high_confidence": 14,
+    "total": 13,
+    "high_confidence": 13,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 14,
+    "passed": 13,
     "anomaly_count": 0
   }
 }

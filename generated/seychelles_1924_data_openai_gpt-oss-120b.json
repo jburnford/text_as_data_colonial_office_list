@@ -1,7 +1,7 @@
 {
   "colony": "Seychelles",
   "year": 1924,
-  "generated": "2026-03-12T16:00:13.682579",
+  "generated": "2026-03-13T13:09:03.115488",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 67,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 18000,
       "salary_max": 18000,
-      "allowances": "including Rs. 3,000 entertaining allowance",
+      "allowances": "Rs. 3,000 entertaining allowance",
       "honors": [
         "K.B.E.",
         "C.B."
@@ -126,7 +126,7 @@
       "canonical_name": "Morgan, F.",
       "given_names": "F.",
       "surname": "Morgan",
-      "position": "Clerk",
+      "position": "2nd Clerk",
       "department": "Treasury and Customs",
       "salary_min": 1200,
       "salary_max": 1800,
@@ -142,7 +142,7 @@
       "canonical_name": "Vel, F.",
       "given_names": "F.",
       "surname": "Vel",
-      "position": "Clerk",
+      "position": "3rd Clerk",
       "department": "Treasury and Customs",
       "salary_min": 1000,
       "salary_max": 1200,
@@ -158,7 +158,7 @@
       "canonical_name": "Hoareau, L.",
       "given_names": "L.",
       "surname": "Hoareau",
-      "position": "Clerk",
+      "position": "4th Clerk",
       "department": "Treasury and Customs",
       "salary_min": 1500,
       "salary_max": 1800,
@@ -174,7 +174,7 @@
       "canonical_name": "Lablache, A.",
       "given_names": "A.",
       "surname": "Lablache",
-      "position": "Clerk",
+      "position": "5th Clerk",
       "department": "Treasury and Customs",
       "salary_min": 600,
       "salary_max": 1080,
@@ -190,7 +190,7 @@
       "canonical_name": "Jean Louis, P.",
       "given_names": "P.",
       "surname": "Jean Louis",
-      "position": "Clerk",
+      "position": "6th Clerk",
       "department": "Treasury and Customs",
       "salary_min": 750,
       "salary_max": 880,
@@ -486,7 +486,7 @@
       "department": "Police Department",
       "salary_min": 2000,
       "salary_max": 2500,
-      "allowances": "500 for quarters",
+      "allowances": "500 Rs. for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -502,7 +502,7 @@
       "department": "Police Department",
       "salary_min": 1200,
       "salary_max": 1200,
-      "allowances": "240 for quarters",
+      "allowances": "240 Rs. for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -577,7 +577,7 @@
       "location": null
     },
     {
-      "name": "N. Phani",
+      "name": "Capt. N. Phani",
       "canonical_name": "Phani, N.",
       "given_names": "N.",
       "surname": "Phani",
@@ -609,7 +609,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Victoria"
+      "location": null
     },
     {
       "name": "D. Watson",
@@ -646,7 +646,7 @@
     {
       "name": "Sister Lucy",
       "canonical_name": "Lucy, Sister",
-      "given_names": "Sister",
+      "given_names": "",
       "surname": "Lucy",
       "position": "Matron",
       "department": "Medical Department",
@@ -694,7 +694,7 @@
     {
       "name": "Sister Herbert",
       "canonical_name": "Herbert, Sister",
-      "given_names": "Sister",
+      "given_names": "",
       "surname": "Herbert",
       "position": "Housekeeper",
       "department": "Medical Department",
@@ -716,7 +716,7 @@
       "department": "Medical Department",
       "salary_min": 1200,
       "salary_max": 1200,
-      "allowances": null,
+      "allowances": "quarters and allowances",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -732,7 +732,7 @@
       "department": "Medical Department",
       "salary_min": 720,
       "salary_max": 1000,
-      "allowances": null,
+      "allowances": "quarters and rations",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -756,7 +756,7 @@
       "location": null
     },
     {
-      "name": "Justin Gumy",
+      "name": "Father Justin Gumy",
       "canonical_name": "Gumy, Justin",
       "given_names": "Justin",
       "surname": "Gumy",
@@ -772,9 +772,9 @@
       "location": null
     },
     {
-      "name": "Laurent",
-      "canonical_name": "Laurent",
-      "given_names": null,
+      "name": "Father Laurent",
+      "canonical_name": "Laurent, ",
+      "given_names": "",
       "surname": "Laurent",
       "position": "Priest",
       "department": "Roman Catholic Church",
@@ -788,9 +788,9 @@
       "location": null
     },
     {
-      "name": "Victor",
-      "canonical_name": "Victor",
-      "given_names": null,
+      "name": "Father Victor",
+      "canonical_name": "Victor, ",
+      "given_names": "",
       "surname": "Victor",
       "position": "Priest",
       "department": "Roman Catholic Church",
@@ -804,9 +804,9 @@
       "location": null
     },
     {
-      "name": "Venance",
-      "canonical_name": "Venance",
-      "given_names": null,
+      "name": "Father Venance",
+      "canonical_name": "Venance, ",
+      "given_names": "",
       "surname": "Venance",
       "position": "Priest",
       "department": "Roman Catholic Church",
@@ -952,19 +952,19 @@
       "canonical_name": "Godley, F.",
       "given_names": "F.",
       "surname": "Godley",
-      "position": "Sergeant Forest Ranger",
+      "position": "Forest Ranger",
       "department": "Department of Agriculture",
       "salary_min": 600,
       "salary_max": 720,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Sergeant",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "H. Kenworthy",
+      "name": "Major H. Kenworthy",
       "canonical_name": "Kenworthy, H.",
       "given_names": "H.",
       "surname": "Kenworthy",
@@ -1012,8 +1012,8 @@
       "location": null
     },
     {
-      "name": "Major Kenworthy",
-      "canonical_name": "Kenworthy, Major",
+      "name": "Kenworthy",
+      "canonical_name": "Kenworthy, ",
       "given_names": "",
       "surname": "Kenworthy",
       "position": "Chairman",
@@ -1028,7 +1028,7 @@
       "location": null
     },
     {
-      "name": "Rev. H. H. Buswell",
+      "name": "H. H. Buswell",
       "canonical_name": "Buswell, H. H.",
       "given_names": "H. H.",
       "surname": "Buswell",
@@ -1038,13 +1038,15 @@
       "salary_max": null,
       "allowances": null,
       "honors": [],
-      "qualifications": [],
+      "qualifications": [
+        "L.C.P."
+      ],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Captain G. C. Jouanis",
+      "name": "G. C. Jouanis",
       "canonical_name": "Jouanis, G. C.",
       "given_names": "G. C.",
       "surname": "Jouanis",
@@ -1061,9 +1063,9 @@
     },
     {
       "name": "A d'Emmerez de Charmoy",
-      "canonical_name": "d'Emmerez de Charmoy, A",
-      "given_names": "A",
-      "surname": "d'Emmerez de Charmoy",
+      "canonical_name": "de Charmoy, A d'Emmerez",
+      "given_names": "A d'Emmerez",
+      "surname": "de Charmoy",
       "position": "Vice-Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -1096,8 +1098,8 @@
     "colony": "Seychelles",
     "year": 1924,
     "total": 67,
-    "high_confidence": 63,
-    "medium_confidence": 4,
+    "high_confidence": 61,
+    "medium_confidence": 6,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 67,

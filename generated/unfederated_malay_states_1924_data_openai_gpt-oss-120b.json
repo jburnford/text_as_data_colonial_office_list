@@ -1,7 +1,7 @@
 {
   "colony": "Unfederated Malay States",
   "year": 1924,
-  "generated": "2026-03-12T15:59:39.748455",
+  "generated": "2026-03-13T13:10:33.921702",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 16,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 12600,
       "salary_max": 12600,
-      "allowances": "1200",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -59,7 +59,7 @@
       "canonical_name": "Ford, M. A.",
       "given_names": "M. A.",
       "surname": "Ford",
-      "position": "Sisters",
+      "position": "Sister",
       "department": "Civil Establishment",
       "salary_min": 2880,
       "salary_max": 2880,
@@ -75,7 +75,7 @@
       "canonical_name": "Thomlinson, M. E.",
       "given_names": "M. E.",
       "surname": "Thomlinson",
-      "position": "Sisters",
+      "position": "Sister",
       "department": "Civil Establishment",
       "salary_min": 2160,
       "salary_max": 2160,
@@ -103,9 +103,9 @@
       "location": null
     },
     {
-      "name": "Dato' Adika Raja",
-      "canonical_name": "Raja, Dato' Adika",
-      "given_names": "Dato' Adika",
+      "name": "Adika Raja",
+      "canonical_name": "Raja, Adika",
+      "given_names": "Adika",
       "surname": "Raja",
       "position": "Magistrate, Central Court",
       "department": "Civil Establishment",
@@ -119,9 +119,9 @@
       "location": null
     },
     {
-      "name": "Tungku Sri Mara Raja",
-      "canonical_name": "Raja, Tungku Sri Mara",
-      "given_names": "Tungku Sri Mara",
+      "name": "Sri Mara Raja",
+      "canonical_name": "Raja, Sri Mara",
+      "given_names": "Sri Mara",
       "surname": "Raja",
       "position": "Magistrate, Small Court",
       "department": "Civil Establishment",
@@ -212,7 +212,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Pasir Puteh"
+      "location": null
     },
     {
       "name": "W. Kerr",

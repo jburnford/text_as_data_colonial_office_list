@@ -1,7 +1,7 @@
 {
   "colony": "Sierra Leone",
   "year": 1952,
-  "generated": "2026-03-12T16:08:24.013685",
+  "generated": "2026-03-13T13:18:24.067634",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 36,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 3500,
       "salary_max": 3500,
-      "allowances": "1500 duty allowance",
+      "allowances": "\u00a31,500 duty allowance",
       "honors": [
         "K.C.M.G."
       ],
@@ -27,7 +27,7 @@
     {
       "name": "Mrs. Owen",
       "canonical_name": "Owen, Mrs.",
-      "given_names": "",
+      "given_names": "Mrs.",
       "surname": "Owen",
       "position": "Private Secretary",
       "department": "Civil Establishment",
@@ -259,7 +259,7 @@
       "department": "Civil Establishment",
       "salary_min": 1350,
       "salary_max": 1350,
-      "allowances": "150 non-pensionable allowance as Educational Adviser to the Government of Gambia",
+      "allowances": "\u00a3150 non-pensionable allowance as Educational Adviser to the Government of Gambia",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -591,8 +591,8 @@
     "colony": "Sierra Leone",
     "year": 1952,
     "total": 36,
-    "high_confidence": 35,
-    "medium_confidence": 1,
+    "high_confidence": 36,
+    "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 36,

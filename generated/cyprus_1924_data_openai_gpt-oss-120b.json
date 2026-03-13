@@ -1,10 +1,10 @@
 {
   "colony": "Cyprus",
   "year": 1924,
-  "generated": "2026-03-12T15:56:27.496118",
+  "generated": "2026-03-13T13:00:27.976144",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 147,
+  "total_officials": 146,
   "officials": [
     {
       "name": "Sir Malcolm Stevenson",
@@ -84,9 +84,7 @@
       "salary_min": 360,
       "salary_max": 500,
       "allowances": null,
-      "honors": [
-        "O.B.E."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": "Major",
       "salary_scale": null,
@@ -102,9 +100,7 @@
       "salary_min": 360,
       "salary_max": 500,
       "allowances": null,
-      "honors": [
-        "M.C."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -120,9 +116,7 @@
       "salary_min": 360,
       "salary_max": 600,
       "allowances": null,
-      "honors": [
-        "M.B.E."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -169,7 +163,7 @@
       "department": "Government Printing Office",
       "salary_min": 360,
       "salary_max": 500,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -185,7 +179,7 @@
       "department": "Government Printing Office",
       "salary_min": 260,
       "salary_max": 300,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -210,8 +204,8 @@
     },
     {
       "name": "C. H. Hart-Davis",
-      "canonical_name": "Hart-Davis, C. H.",
-      "given_names": "C. H.",
+      "canonical_name": "Hart-Davis, C.",
+      "given_names": "C.",
       "surname": "Hart-Davis",
       "position": "Commissioner, First Grade",
       "department": "District Administration",
@@ -241,7 +235,7 @@
       "location": null
     },
     {
-      "name": "Capt. A. M. Fleury",
+      "name": "A. M. Fleury",
       "canonical_name": "Fleury, A. M.",
       "given_names": "A. M.",
       "surname": "Fleury",
@@ -746,7 +740,9 @@
       "salary_min": 720,
       "salary_max": 900,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -1045,7 +1041,7 @@
       "canonical_name": "Ziai-ud-din, Haji Hafiz Mehmed",
       "given_names": "Haji Hafiz Mehmed",
       "surname": "Ziai-ud-din",
-      "position": "The Mufti",
+      "position": "Mufti",
       "department": "Legal Departments",
       "salary_min": 230,
       "salary_max": 230,
@@ -1291,12 +1287,12 @@
       "department": "Prison Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": null,
+      "allowances": "paid as Chief Commandant of Police",
       "honors": [
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-Col.",
+      "military_rank": "Lt.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -1305,7 +1301,7 @@
       "canonical_name": "Hopkins, A.",
       "given_names": "A.",
       "surname": "Hopkins",
-      "position": "Resident Superintendent, Central Prison",
+      "position": "Resident Superintendent",
       "department": "Prison Department",
       "salary_min": 360,
       "salary_max": 440,
@@ -1321,7 +1317,7 @@
       "canonical_name": "Marshall, H. A.",
       "given_names": "H. A.",
       "surname": "Marshall",
-      "position": "Chief Warden, Central Prison",
+      "position": "Chief Warden",
       "department": "Prison Department",
       "salary_min": 250,
       "salary_max": 340,
@@ -1461,7 +1457,7 @@
       "location": null
     },
     {
-      "name": "O. M. Edwards",
+      "name": "Miss O. M. Edwards",
       "canonical_name": "Edwards, O. M.",
       "given_names": "O. M.",
       "surname": "Edwards",
@@ -1477,7 +1473,7 @@
       "location": null
     },
     {
-      "name": "A. Moxon",
+      "name": "Miss A. Moxon",
       "canonical_name": "Moxon, A.",
       "given_names": "A.",
       "surname": "Moxon",
@@ -1493,7 +1489,7 @@
       "location": null
     },
     {
-      "name": "M. G. M. S. Etchell",
+      "name": "Miss M. G. M. S. Etchell",
       "canonical_name": "Etchell, M. G. M. S.",
       "given_names": "M. G. M. S.",
       "surname": "Etchell",
@@ -1501,7 +1497,7 @@
       "department": "Medical Department",
       "salary_min": 108,
       "salary_max": 108,
-      "allowances": "quarters in Hospital and 10l. uniform allowance",
+      "allowances": "quarters in Hospital and 10l. uniform allowance each",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1509,7 +1505,7 @@
       "location": null
     },
     {
-      "name": "M. M. Forse",
+      "name": "Miss M. M. Forse",
       "canonical_name": "Forse, M. M.",
       "given_names": "M. M.",
       "surname": "Forse",
@@ -1517,7 +1513,7 @@
       "department": "Medical Department",
       "salary_min": 108,
       "salary_max": 108,
-      "allowances": "quarters in Hospital and 10l. uniform allowance",
+      "allowances": "quarters in Hospital and 10l. uniform allowance each",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1607,7 +1603,7 @@
     {
       "name": "Rev. Canon F. D. Newham",
       "canonical_name": "Newham, Rev. Canon F. D.",
-      "given_names": "Rev. Canon F. D.",
+      "given_names": "F. D.",
       "surname": "Newham",
       "position": "Chief Inspector of Schools",
       "department": "Education Department",
@@ -1695,7 +1691,7 @@
       "department": "Agricultural Department",
       "salary_min": 600,
       "salary_max": 720,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1711,7 +1707,7 @@
       "department": "Agricultural Department",
       "salary_min": 360,
       "salary_max": 500,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1727,7 +1723,7 @@
       "department": "Agricultural Department",
       "salary_min": 360,
       "salary_max": 500,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1743,7 +1739,7 @@
       "department": "Agricultural Department",
       "salary_min": 360,
       "salary_max": 500,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1791,7 +1787,7 @@
       "department": "Forest Department",
       "salary_min": 660,
       "salary_max": 660,
-      "allowances": "personal",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1903,7 +1899,7 @@
       "department": "Railway Department",
       "salary_min": 500,
       "salary_max": 600,
-      "allowances": "100l. personal allowance and a house",
+      "allowances": "100l. personal allowance, house",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2047,22 +2043,6 @@
       "department": "Public Works Department",
       "salary_min": 360,
       "salary_max": 500,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "The Director of Public Works",
-      "canonical_name": "Director of Public Works, The",
-      "given_names": "",
-      "surname": "Director of Public Works",
-      "position": "Officer-in-Charge",
-      "department": "Irrigation Department",
-      "salary_min": 50,
-      "salary_max": 50,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -2232,9 +2212,9 @@
     },
     {
       "name": "du Perier de Larsan",
-      "canonical_name": "Larsan, du Perier de",
-      "given_names": "du Perier de",
-      "surname": "Larsan",
+      "canonical_name": "du Perier de Larsan, ",
+      "given_names": "",
+      "surname": "du Perier de Larsan",
       "position": "Vice-Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
@@ -2347,7 +2327,7 @@
       "canonical_name": "Papadopoulos, L.",
       "given_names": "L.",
       "surname": "Papadopoulos",
-      "position": null,
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2378,12 +2358,12 @@
   "validation_summary": {
     "colony": "Cyprus",
     "year": 1924,
-    "total": 147,
-    "high_confidence": 146,
+    "total": 146,
+    "high_confidence": 145,
     "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 147,
+    "passed": 146,
     "anomaly_count": 3
   }
 }

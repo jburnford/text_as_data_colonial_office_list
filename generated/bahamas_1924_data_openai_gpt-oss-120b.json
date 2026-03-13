@@ -1,7 +1,7 @@
 {
   "colony": "Bahamas",
   "year": 1924,
-  "generated": "2026-03-12T15:53:48.962164",
+  "generated": "2026-03-13T12:52:22.084392",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 120,
@@ -89,7 +89,7 @@
       "location": null
     },
     {
-      "name": "Miss Sybil Burnside",
+      "name": "Sybil Burnside",
       "canonical_name": "Burnside, Sybil",
       "given_names": "Sybil",
       "surname": "Burnside",
@@ -125,7 +125,7 @@
       "canonical_name": "Bowen, E. H.",
       "given_names": "E. H.",
       "surname": "Bowen",
-      "position": "Cadets",
+      "position": "Cadet",
       "department": "Colonial Secretary's Office",
       "salary_min": 130,
       "salary_max": 130,
@@ -137,11 +137,11 @@
       "location": null
     },
     {
-      "name": "Miss M. C. Malcolm",
+      "name": "M. C. Malcolm",
       "canonical_name": "Malcolm, M. C.",
       "given_names": "M. C.",
       "surname": "Malcolm",
-      "position": "Cadets",
+      "position": "Cadet",
       "department": "Colonial Secretary's Office",
       "salary_min": 130,
       "salary_max": 130,
@@ -153,11 +153,11 @@
       "location": null
     },
     {
-      "name": "W. G. Albury, junr.",
-      "canonical_name": "Albury, W. G., junr.",
+      "name": "W. G. Albury",
+      "canonical_name": "Albury, W. G.",
       "given_names": "W. G.",
       "surname": "Albury",
-      "position": "Cadets",
+      "position": "Cadet",
       "department": "Colonial Secretary's Office",
       "salary_min": 130,
       "salary_max": 130,
@@ -173,11 +173,11 @@
       "canonical_name": "Armbrister, P. W. D.",
       "given_names": "P. W. D.",
       "surname": "Armbrister",
-      "position": "Receiver-General and Treasurer; Receiver of Crown Revenue",
+      "position": "Receiver-General and Treasurer",
       "department": "Treasury Department",
       "salary_min": 550,
       "salary_max": 550,
-      "allowances": null,
+      "allowances": "fees, and 51l. as Receiver of Crown Revenue",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -337,7 +337,7 @@
       "department": "Customs",
       "salary_min": 250,
       "salary_max": 250,
-      "allowances": "65l. boat allowance",
+      "allowances": "boat allowance 65l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -353,7 +353,7 @@
       "department": "Registrar General's Department",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "travelling allowance, 85l.",
+      "allowances": "85l. travelling allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -369,7 +369,7 @@
       "department": "Registrar General's Department",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -385,7 +385,7 @@
       "department": "Registrar General's Department",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -410,8 +410,8 @@
     },
     {
       "name": "W. H. Bothell",
-      "canonical_name": "Bothell, W. H.",
-      "given_names": "W. H.",
+      "canonical_name": "Bothell, William H.",
+      "given_names": "William H.",
       "surname": "Bothell",
       "position": "Chief Clerk",
       "department": "Audit Office",
@@ -755,9 +755,7 @@
       "salary_max": 490,
       "allowances": "private practice",
       "honors": [],
-      "qualifications": [
-        "L.R.C.P."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -803,7 +801,7 @@
       "department": "Medical Department",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "and residence",
+      "allowances": "residence",
       "honors": [],
       "qualifications": [
         "M.R.C.S.",
@@ -811,7 +809,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "The Hospital"
     },
     {
       "name": "H. M. Hare",
@@ -840,7 +838,7 @@
       "department": "Medical Department",
       "salary_min": 350,
       "salary_max": 350,
-      "allowances": "and residence",
+      "allowances": "residence",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -888,7 +886,7 @@
       "department": "Medical Department",
       "salary_min": 240,
       "salary_max": 240,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -904,7 +902,7 @@
       "department": "Medical Department",
       "salary_min": 195,
       "salary_max": 195,
-      "allowances": "and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -912,9 +910,9 @@
       "location": null
     },
     {
-      "name": "Rev. C. T. B. Wilkinson",
-      "canonical_name": "Wilkinson, Rev. C. T. B.",
-      "given_names": "Rev. C. T. B.",
+      "name": "C. T. B. Wilkinson",
+      "canonical_name": "Wilkinson, C. T. B.",
+      "given_names": "C. T. B.",
       "surname": "Wilkinson",
       "position": "Chaplain",
       "department": "Medical Department",
@@ -1176,7 +1174,7 @@
       "canonical_name": "de Glanville, Gertrude",
       "given_names": "Gertrude",
       "surname": "de Glanville",
-      "position": "Operator",
+      "position": "Operators",
       "department": "Electrical Department",
       "salary_min": 130,
       "salary_max": 130,
@@ -1192,7 +1190,7 @@
       "canonical_name": "Bannister, K.",
       "given_names": "K.",
       "surname": "Bannister",
-      "position": "Operator",
+      "position": "Operators",
       "department": "Electrical Department",
       "salary_min": 125,
       "salary_max": 125,
@@ -1208,7 +1206,7 @@
       "canonical_name": "Maclure, M. A.",
       "given_names": "M. A.",
       "surname": "Maclure",
-      "position": "Operator",
+      "position": "Operators",
       "department": "Electrical Department",
       "salary_min": 120,
       "salary_max": 120,
@@ -1224,7 +1222,7 @@
       "canonical_name": "Maclure, Elsie",
       "given_names": "Elsie",
       "surname": "Maclure",
-      "position": "Operator",
+      "position": "Operators",
       "department": "Electrical Department",
       "salary_min": 120,
       "salary_max": 120,
@@ -1240,7 +1238,7 @@
       "canonical_name": "Smith, K.",
       "given_names": "K.",
       "surname": "Smith",
-      "position": "Operator",
+      "position": "Operators",
       "department": "Electrical Department",
       "salary_min": null,
       "salary_max": null,
@@ -1268,7 +1266,7 @@
       "location": null
     },
     {
-      "name": "Audley J. Browne",
+      "name": "Archdeacon Audley J. Browne",
       "canonical_name": "Browne, Audley J.",
       "given_names": "Audley J.",
       "surname": "Browne",
@@ -1317,9 +1315,9 @@
     },
     {
       "name": "Sir Sydney Charles King-Farlow Nettleton",
-      "canonical_name": "Nettleton, Sydney Charles King-Farlow",
-      "given_names": "Sydney Charles King-Farlow",
-      "surname": "Nettleton",
+      "canonical_name": "King-Farlow Nettleton, Sir Sydney Charles",
+      "given_names": "Sir Sydney Charles",
+      "surname": "King-Farlow Nettleton",
       "position": "Chief Justice of the Supreme Court",
       "department": "Judicial",
       "salary_min": 1250,
@@ -1332,7 +1330,7 @@
       "location": null
     },
     {
-      "name": "Willoughby Bullock",
+      "name": "Col. Willoughby Bullock",
       "canonical_name": "Bullock, Willoughby",
       "given_names": "Willoughby",
       "surname": "Bullock",
@@ -1380,7 +1378,7 @@
       "location": null
     },
     {
-      "name": "D. R. Osborne",
+      "name": "Major D. R. Osborne",
       "canonical_name": "Osborne, D. R.",
       "given_names": "D. R.",
       "surname": "Osborne",
@@ -1700,7 +1698,7 @@
       "location": null
     },
     {
-      "name": "Rev. Roscoe George Shedden",
+      "name": "Roscoe George Shedden",
       "canonical_name": "Shedden, Roscoe George",
       "given_names": "Roscoe George",
       "surname": "Shedden",
@@ -1732,7 +1730,7 @@
       "location": null
     },
     {
-      "name": "Rev. Chrysostom Schreiner",
+      "name": "Chrysostom Schreiner",
       "canonical_name": "Schreiner, Chrysostom",
       "given_names": "Chrysostom",
       "surname": "Schreiner",
@@ -1748,7 +1746,7 @@
       "location": null
     },
     {
-      "name": "Rev. D. Wilshire",
+      "name": "D. Wilshire",
       "canonical_name": "Wilshire, D.",
       "given_names": "D.",
       "surname": "Wilshire",
@@ -1764,7 +1762,7 @@
       "location": null
     },
     {
-      "name": "Capt. G. E. Corbett",
+      "name": "G. E. Corbett",
       "canonical_name": "Corbett, G. E.",
       "given_names": "G. E.",
       "surname": "Corbett",
@@ -1880,7 +1878,7 @@
       "canonical_name": "Curry, R. H.",
       "given_names": "R. H.",
       "surname": "Curry",
-      "position": null,
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1896,7 +1894,7 @@
       "canonical_name": "Moseley, D. S. D.",
       "given_names": "D. S. D.",
       "surname": "Moseley",
-      "position": null,
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1912,7 +1910,7 @@
       "canonical_name": "Symmonette, A. L.",
       "given_names": "A. L.",
       "surname": "Symmonette",
-      "position": null,
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1928,7 +1926,7 @@
       "canonical_name": "Menendez, C. R. A.",
       "given_names": "C. R. A.",
       "surname": "Menendez",
-      "position": null,
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1949,6 +1947,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 120,
-    "anomaly_count": 3
+    "anomaly_count": 4
   }
 }

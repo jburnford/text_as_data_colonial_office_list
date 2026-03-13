@@ -1,15 +1,15 @@
 {
   "colony": "Malta",
   "year": 1952,
-  "generated": "2026-03-12T16:06:08.666354",
+  "generated": "2026-03-13T13:16:51.287776",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 41,
   "officials": [
     {
       "name": "Sir Gerald Hallen Creasy",
-      "canonical_name": "Creasy, Sir Gerald Hallen",
-      "given_names": "Sir Gerald Hallen",
+      "canonical_name": "Creasy, Gerald Hallen",
+      "given_names": "Gerald Hallen",
       "surname": "Creasy",
       "position": "Governor and Commander-in-Chief",
       "department": "Civil Establishment",
@@ -61,14 +61,14 @@
     },
     {
       "name": "Sir David Campbell",
-      "canonical_name": "Campbell, Sir David",
-      "given_names": "Sir David",
+      "canonical_name": "Campbell, David",
+      "given_names": "David",
       "surname": "Campbell",
       "position": "Lieut.-Governor",
       "department": "Maltese Imperial Government",
       "salary_min": 2000,
       "salary_max": 2000,
-      "allowances": "entertainment allowance of \u00a3100",
+      "allowances": "\u00a3100 entertainment allowance",
       "honors": [
         "K.B.E.",
         "C.M.G."
@@ -196,8 +196,8 @@
     },
     {
       "name": "E. Fiorini Lowell",
-      "canonical_name": "Lowell, E. Fiorini",
-      "given_names": "E. Fiorini",
+      "canonical_name": "Lowell, E.",
+      "given_names": "E.",
       "surname": "Lowell",
       "position": "Auditor",
       "department": "Maltese Government",
@@ -326,8 +326,8 @@
     },
     {
       "name": "Sir George Borg",
-      "canonical_name": "Borg, Sir George",
-      "given_names": "Sir George",
+      "canonical_name": "Borg, George",
+      "given_names": "George",
       "surname": "Borg",
       "position": "Chief Justice and President of the Court of Appeal",
       "department": "Maltese Government",
@@ -612,8 +612,8 @@
     },
     {
       "name": "Rev. Dom M. Inguanez",
-      "canonical_name": "Inguanez, Rev. Dom M.",
-      "given_names": "Rev. Dom M.",
+      "canonical_name": "Inguanez, M.",
+      "given_names": "M.",
       "surname": "Inguanez",
       "position": "Librarian, Royal Malta Library",
       "department": "Maltese Government",

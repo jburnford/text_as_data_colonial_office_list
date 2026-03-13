@@ -1,7 +1,7 @@
 {
   "colony": "Aden",
   "year": 1952,
-  "generated": "2026-03-12T16:01:40.513741",
+  "generated": "2026-03-13T13:11:26.263990",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 22,
@@ -17,7 +17,9 @@
       "salary_max": 2500,
       "allowances": "\u00a31,150 duty allowance",
       "honors": [
-        "C.M.G."
+        "C.M.G.",
+        "C.I.E.",
+        "O.B.E."
       ],
       "qualifications": [],
       "military_rank": null,
@@ -117,7 +119,8 @@
       "salary_max": 1150,
       "allowances": null,
       "honors": [
-        "C.M.G."
+        "C.M.G.",
+        "O.B.E."
       ],
       "qualifications": [],
       "military_rank": null,
@@ -150,7 +153,9 @@
       "salary_min": 1150,
       "salary_max": 1150,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -277,8 +282,10 @@
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "Allowance of Rs.1,200 p.a.",
-      "honors": [],
+      "allowances": "Rs.1,200 p.a.",
+      "honors": [
+        "O.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -294,7 +301,9 @@
       "salary_min": 1150,
       "salary_max": 1150,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "M.B.E."
+      ],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -325,9 +334,10 @@
       "department": "Aden Protectorate",
       "salary_min": 1300,
       "salary_max": 1300,
-      "allowances": "plus \u00a3100 entertainment allowance",
+      "allowances": "\u00a3100 entertainment allowance",
       "honors": [
-        "C.M.G."
+        "C.M.G.",
+        "O.B.E."
       ],
       "qualifications": [],
       "military_rank": "Major",
@@ -343,9 +353,11 @@
       "department": "Aden Protectorate",
       "salary_min": 1300,
       "salary_max": 1300,
-      "allowances": "plus \u00a3200 entertainment allowance",
+      "allowances": "\u00a3200 entertainment allowance",
       "honors": [
-        "D.S.O."
+        "D.S.O.",
+        "O.B.E.",
+        "M.C."
       ],
       "qualifications": [],
       "military_rank": "Colonel",

@@ -1,15 +1,15 @@
 {
   "colony": "Bermuda",
   "year": 1924,
-  "generated": "2026-03-12T15:54:47.184170",
+  "generated": "2026-03-13T12:55:35.802027",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 89,
   "officials": [
     {
       "name": "Sir Joseph John Asser",
-      "canonical_name": "Asser, Sir Joseph John",
-      "given_names": "Sir Joseph John",
+      "canonical_name": "Asser, Joseph John",
+      "given_names": "Joseph John",
       "surname": "Asser",
       "position": "Governor and Commander-in-Chief",
       "department": "Civil Establishment",
@@ -21,12 +21,12 @@
         "K.C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "G. W. N. Hoskyns",
+      "name": "Capt. G. W. N. Hoskyns",
       "canonical_name": "Hoskyns, G. W. N.",
       "given_names": "G. W. N.",
       "surname": "Hoskyns",
@@ -90,7 +90,7 @@
       "location": null
     },
     {
-      "name": "Miss M. E. Hallett",
+      "name": "M. E. Hallett",
       "canonical_name": "Hallett, M. E.",
       "given_names": "M. E.",
       "surname": "Hallett",
@@ -206,7 +206,7 @@
       "canonical_name": "McCullan, C. M.",
       "given_names": "C. M.",
       "surname": "McCullan",
-      "position": "Collector of Customs, St. George's and Assistant Receiver-General",
+      "position": "Collector of Customs and Assistant Receiver-General",
       "department": "Revenue Department",
       "salary_min": 450,
       "salary_max": 450,
@@ -330,9 +330,9 @@
       "location": "Hamilton"
     },
     {
-      "name": "G. Dickinson",
-      "canonical_name": "Dickinson, G.",
-      "given_names": "G.",
+      "name": "Miss G. Dickinson",
+      "canonical_name": "Dickinson, Miss G.",
+      "given_names": "Miss G.",
       "surname": "Dickinson",
       "position": "5th Clerk",
       "department": "Post Office Department",
@@ -346,9 +346,9 @@
       "location": "Hamilton"
     },
     {
-      "name": "A. Beek",
-      "canonical_name": "Beek, A.",
-      "given_names": "A.",
+      "name": "Miss A. Beek",
+      "canonical_name": "Beek, Miss A.",
+      "given_names": "Miss A.",
       "surname": "Beek",
       "position": "6th Clerk",
       "department": "Post Office Department",
@@ -362,9 +362,9 @@
       "location": "Hamilton"
     },
     {
-      "name": "D. Williams",
-      "canonical_name": "Williams, D.",
-      "given_names": "D.",
+      "name": "Miss D. Williams",
+      "canonical_name": "Williams, Miss D.",
+      "given_names": "Miss D.",
       "surname": "Williams",
       "position": "7th Clerk",
       "department": "Post Office Department",
@@ -378,9 +378,9 @@
       "location": "Hamilton"
     },
     {
-      "name": "A. Dale",
-      "canonical_name": "Dale, A.",
-      "given_names": "A.",
+      "name": "Miss A. Dale",
+      "canonical_name": "Dale, Miss A.",
+      "given_names": "Miss A.",
       "surname": "Dale",
       "position": "8th Clerk",
       "department": "Post Office Department",
@@ -410,9 +410,9 @@
       "location": "St. George's"
     },
     {
-      "name": "I. C. Brown",
-      "canonical_name": "Brown, I. C.",
-      "given_names": "I. C.",
+      "name": "Miss I. C. Brown",
+      "canonical_name": "Brown, Miss I. C.",
+      "given_names": "Miss I. C.",
       "surname": "Brown",
       "position": "Clerk",
       "department": "Post Office Department",
@@ -426,9 +426,9 @@
       "location": "St. George's"
     },
     {
-      "name": "L. A. Merrick",
-      "canonical_name": "Merrick, L. A.",
-      "given_names": "L. A.",
+      "name": "Mrs. L. A. Merrick",
+      "canonical_name": "Merrick, Mrs. L. A.",
+      "given_names": "Mrs. L. A.",
       "surname": "Merrick",
       "position": "Postmistress",
       "department": "Post Office Department",
@@ -442,9 +442,9 @@
       "location": "Ireland Island"
     },
     {
-      "name": "F. Fowle",
-      "canonical_name": "Fowle, F.",
-      "given_names": "F.",
+      "name": "Miss F. Fowle",
+      "canonical_name": "Fowle, Miss F.",
+      "given_names": "Miss F.",
       "surname": "Fowle",
       "position": "Postmistress",
       "department": "Post Office Department",
@@ -798,7 +798,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -814,7 +814,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -890,7 +890,7 @@
       "canonical_name": "Appleby, R. W.",
       "given_names": "R. W.",
       "surname": "Appleby",
-      "position": "Police Magistrate, Central District, Wor.",
+      "position": "Police Magistrate, Central District",
       "department": "Judicial Establishment",
       "salary_min": 500,
       "salary_max": 500,
@@ -906,7 +906,7 @@
       "canonical_name": "Tucker, R. J.",
       "given_names": "R. J.",
       "surname": "Tucker",
-      "position": "Police Magistrate, Eastern District, Wor.",
+      "position": "Police Magistrate, Eastern District",
       "department": "Judicial Establishment",
       "salary_min": 400,
       "salary_max": 400,
@@ -922,7 +922,7 @@
       "canonical_name": "Smith, H. Villiers",
       "given_names": "H. Villiers",
       "surname": "Smith",
-      "position": "Police Magistrate, Western District, Wor.",
+      "position": "Police Magistrate, Western District",
       "department": "Judicial Establishment",
       "salary_min": 400,
       "salary_max": 400,
@@ -958,7 +958,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -974,7 +974,7 @@
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1111,8 +1111,8 @@
     },
     {
       "name": "Sir Joseph John Asser",
-      "canonical_name": "Asser, Sir Joseph John",
-      "given_names": "Sir Joseph John",
+      "canonical_name": "Asser, Joseph John",
+      "given_names": "Joseph John",
       "surname": "Asser",
       "position": "General Commanding",
       "department": "Chief Military Officers",
@@ -1124,7 +1124,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.-Gen.",
       "salary_scale": null,
       "location": null
     },
@@ -1158,7 +1158,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.-Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -1174,7 +1174,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.-Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -1192,7 +1192,7 @@
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": "Lieut.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -1210,7 +1210,7 @@
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Lieut.-Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -1244,7 +1244,7 @@
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": "Lieut.-Col.",
       "salary_scale": null,
       "location": null
     },

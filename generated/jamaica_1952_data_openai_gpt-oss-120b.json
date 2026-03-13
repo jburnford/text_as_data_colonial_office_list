@@ -1,21 +1,21 @@
 {
   "colony": "Jamaica",
   "year": 1952,
-  "generated": "2026-03-12T16:08:36.002389",
+  "generated": "2026-03-13T13:16:13.696607",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 59,
   "officials": [
     {
       "name": "Sir Hugh Mackintosh Foot",
-      "canonical_name": "Foot, Hugh Mackintosh",
-      "given_names": "Hugh Mackintosh",
+      "canonical_name": "Foot, Sir Hugh Mackintosh",
+      "given_names": "Sir Hugh Mackintosh",
       "surname": "Foot",
       "position": "Captain-General and Governor-in-Chief",
       "department": "Civil Establishment",
       "salary_min": 4800,
       "salary_max": 4800,
-      "allowances": "\u00a31,300 duty allowance",
+      "allowances": "1300 duty allowance",
       "honors": [
         "K.C.M.G."
       ],
@@ -269,7 +269,7 @@
       "canonical_name": "Pickering, B. A.",
       "given_names": "B. A.",
       "surname": "Pickering",
-      "position": "Marine Superintendent and Harbour Master",
+      "position": "Marine Superintendent and Harbour Master, Kingston",
       "department": "Civil Establishment",
       "salary_min": 1000,
       "salary_max": 1000,
@@ -569,7 +569,7 @@
       "location": null
     },
     {
-      "name": "F. J. Quinton",
+      "name": "Major F. J. Quinton",
       "canonical_name": "Quinton, F. J.",
       "given_names": "F. J.",
       "surname": "Quinton",
@@ -630,7 +630,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Grand Cayman"
     },
     {
       "name": "A. S. Rutty",
@@ -646,7 +646,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Lesser Islands"
     },
     {
       "name": "B. St. J. Hylton",
@@ -657,7 +657,7 @@
       "department": "Civil Establishment",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": "\u00a3300 allowance in lieu of private practice",
+      "allowances": "Allowance in lieu of private practice, \u00a3300",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -822,7 +822,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Caicos Islands"
+      "location": null
     },
     {
       "name": "C. B. Jennings",
@@ -832,13 +832,13 @@
       "position": "Government Officer, Salt Cay",
       "department": "Civil Establishment",
       "salary_min": 200,
-      "salary_max": 270,
+      "salary_max": 260,
       "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Salt Cay"
+      "location": null
     },
     {
       "name": "H. E. Sadler",
@@ -886,7 +886,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Grand Turk"
+      "location": null
     },
     {
       "name": "B. A. Manuel",
@@ -896,7 +896,7 @@
       "position": "Police Sergeant",
       "department": "Civil Establishment",
       "salary_min": 230,
-      "salary_max": 270,
+      "salary_max": 260,
       "allowances": "\u00a350 as Clerk of Courts and certain other duties",
       "honors": [],
       "qualifications": [],
@@ -912,7 +912,7 @@
       "position": "Postal Clerk",
       "department": "Civil Establishment",
       "salary_min": 200,
-      "salary_max": 270,
+      "salary_max": 260,
       "allowances": null,
       "honors": [],
       "qualifications": [],
