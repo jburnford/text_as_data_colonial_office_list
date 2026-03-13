@@ -1,15 +1,15 @@
 {
   "colony": "Canada",
   "year": 1906,
-  "total_quarantined": 3,
+  "total_quarantined": 5,
   "officials": [
     {
-      "name": "James I",
-      "canonical_name": "James I",
-      "given_names": "James",
-      "surname": "I",
-      "position": null,
-      "department": null,
+      "name": "Minister of Education",
+      "canonical_name": "Minister of Education",
+      "given_names": null,
+      "surname": null,
+      "position": "Minister of Education",
+      "department": "Education",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -17,15 +17,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Ontario"
     },
     {
-      "name": "A. Comeau",
-      "canonical_name": "Comeau, A.",
-      "given_names": "A.",
-      "surname": "Comeum",
-      "position": null,
-      "department": null,
+      "name": "Superintendent of Public Instruction",
+      "canonical_name": "Superintendent of Public Instruction",
+      "given_names": null,
+      "surname": null,
+      "position": "Superintendent of Public Instruction",
+      "department": "Education",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -33,7 +33,39 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Quebec"
+    },
+    {
+      "name": "cur\u00e9",
+      "canonical_name": "cur\u00e9",
+      "given_names": null,
+      "surname": null,
+      "position": "cur\u00e9",
+      "department": "Education",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Quebec"
+    },
+    {
+      "name": "churchwardens",
+      "canonical_name": "churchwardens",
+      "given_names": null,
+      "surname": null,
+      "position": "churchwardens",
+      "department": "Education",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Quebec"
     },
     {
       "name": "Lt.-Col. Murray",
@@ -41,7 +73,7 @@
       "given_names": "Lt.-Col.",
       "surname": "Murray",
       "position": "Senior Medical Officer",
-      "department": "Imperial Military Establishment",
+      "department": "Imperial Military Establishment (Halifax)",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -49,7 +81,7 @@
       "qualifications": [],
       "military_rank": "Lt.-Col.",
       "salary_scale": null,
-      "location": "Halifax"
+      "location": null
     }
   ]
 }
