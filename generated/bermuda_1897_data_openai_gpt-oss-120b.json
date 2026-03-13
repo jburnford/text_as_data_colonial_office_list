@@ -1,7 +1,7 @@
 {
   "colony": "Bermuda",
   "year": 1897,
-  "generated": "2026-03-13T06:45:03.899978",
+  "generated": "2026-03-13T07:02:08.411166",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 87,
@@ -65,7 +65,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -276,7 +276,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [
         "M.D."
@@ -294,7 +294,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": "Captain",
@@ -548,7 +548,7 @@
       "canonical_name": "McCallan, C. W.",
       "given_names": "C. W.",
       "surname": "McCallan",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "General Post Office",
       "salary_min": 200,
       "salary_max": 200,
@@ -564,7 +564,7 @@
       "canonical_name": "Jones, A. C. C.",
       "given_names": "A. C. C.",
       "surname": "Jones",
-      "position": "Clerk",
+      "position": "Clerks",
       "department": "General Post Office",
       "salary_min": 120,
       "salary_max": 120,
@@ -641,8 +641,8 @@
     },
     {
       "name": "Sir Josiah Rees",
-      "canonical_name": "Rees, Sir Josiah",
-      "given_names": "Sir Josiah",
+      "canonical_name": "Rees, Josiah",
+      "given_names": "Josiah",
       "surname": "Rees",
       "position": "Chief Justice (and Judge of Vice-Admiralty Court)",
       "department": "Judicial Establishment",
@@ -829,7 +829,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. George"
     },
     {
       "name": "G. Tucker",
@@ -845,7 +845,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hamilton and Smith"
     },
     {
       "name": "M. James",
@@ -861,7 +861,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Pembroke and Devonshire"
     },
     {
       "name": "Edward J. Lough",
@@ -877,7 +877,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Paget and Warwick"
     },
     {
       "name": "Bruce Mackay",
@@ -893,7 +893,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Sandys and Southampton"
     },
     {
       "name": "Alex. Christie",
@@ -1138,7 +1138,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1186,7 +1186,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1202,7 +1202,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1212,13 +1212,13 @@
       "given_names": "F. C.",
       "surname": "Morgan",
       "position": "Commanding Royal Artillery",
-      "department": "Chief Military Officers",
+      "department": "Deputy Assistant Adjutant Generals",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1228,13 +1228,13 @@
       "given_names": "E. C. S.",
       "surname": "Moore",
       "position": "Commanding Royal Engineer",
-      "department": "Chief Military Officers",
+      "department": "Deputy Assistant Adjutant Generals",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1244,7 +1244,7 @@
       "given_names": "R. T.",
       "surname": "Stainforth",
       "position": "Chief Ordnance Officer",
-      "department": "Chief Military Officers",
+      "department": "Deputy Assistant Adjutant Generals",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1260,7 +1260,7 @@
       "given_names": "F. G.",
       "surname": "Hamley",
       "position": "District Paymaster",
-      "department": "Chief Military Officers",
+      "department": "Deputy Assistant Adjutant Generals",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1276,13 +1276,13 @@
       "given_names": "G. D. N.",
       "surname": "Leake",
       "position": "Senior Medical Officer",
-      "department": "Chief Military Officers",
+      "department": "Deputy Assistant Adjutant Generals",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1292,7 +1292,7 @@
       "given_names": "T.",
       "surname": "Foran",
       "position": "Senior Chaplain to the Forces",
-      "department": "Chief Military Officers",
+      "department": "Deputy Assistant Adjutant Generals",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1355,7 +1355,7 @@
       "canonical_name": "Hayward, J. M.",
       "given_names": "J. M.",
       "surname": "Hayward",
-      "position": "Consul",
+      "position": "Consul for France",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1364,14 +1364,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "James A. Conyers",
       "canonical_name": "Conyers, James A.",
       "given_names": "James A.",
       "surname": "Conyers",
-      "position": "Consul",
+      "position": "Consul for Spain",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1380,14 +1380,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Spain"
+      "location": null
     },
     {
       "name": "J. S. Darrell",
       "canonical_name": "Darrell, J. S.",
       "given_names": "J. S.",
       "surname": "Darrell",
-      "position": "Consul",
+      "position": "Consul for Denmark, Netherlands, and Portugal",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1396,14 +1396,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Denmark, Netherlands, and Portugal"
+      "location": null
     },
     {
       "name": "William E. Meyer",
       "canonical_name": "Meyer, William E.",
       "given_names": "William E.",
       "surname": "Meyer",
-      "position": "Consul",
+      "position": "Consul for German Empire",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1412,7 +1412,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "German Empire"
+      "location": null
     }
   ],
   "validation_summary": {

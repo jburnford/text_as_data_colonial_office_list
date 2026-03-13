@@ -1,10 +1,10 @@
 {
   "colony": "British Honduras",
   "year": 1898,
-  "generated": "2026-03-12T13:33:12.777629",
+  "generated": "2026-03-13T07:29:14.943127",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 98,
+  "total_officials": 99,
   "officials": [
     {
       "name": "David Wilson",
@@ -49,7 +49,7 @@
       "department": "Colonial Secretary's Department",
       "salary_min": 3500,
       "salary_max": 3500,
-      "allowances": null,
+      "allowances": "house",
       "honors": [
         "C.M.G."
       ],
@@ -462,8 +462,8 @@
     },
     {
       "name": "Sir W. J. Anderson",
-      "canonical_name": "Anderson, Sir W. J.",
-      "given_names": "Sir W. J.",
+      "canonical_name": "Anderson, W. J.",
+      "given_names": "W. J.",
       "surname": "Anderson",
       "position": "Chief Justice and Judge, Vice-Admiralty Court",
       "department": "Judicial Department",
@@ -570,7 +570,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Belize"
     },
     {
       "name": "A. C. Silas",
@@ -602,7 +602,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Corozal"
     },
     {
       "name": "F. Villamor",
@@ -666,7 +666,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Stann Creek District"
     },
     {
       "name": "G. Nunes",
@@ -698,7 +698,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Toledo District"
     },
     {
       "name": "N. Braithwaite",
@@ -730,7 +730,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Western District"
     },
     {
       "name": "F. Velasco",
@@ -922,7 +922,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Half-Moon Cay Light"
     },
     {
       "name": "W. Miller",
@@ -938,7 +938,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Northern Two Cays"
     },
     {
       "name": "G. Longworth",
@@ -954,7 +954,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Maugre Cay"
     },
     {
       "name": "S. Miller",
@@ -970,7 +970,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Cay Bokel"
     },
     {
       "name": "J. Young",
@@ -986,7 +986,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "English Cay"
     },
     {
       "name": "C. Miller",
@@ -1002,7 +1002,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Bugle Cay"
     },
     {
       "name": "J. Calorio",
@@ -1018,7 +1018,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Fort George"
     },
     {
       "name": "C. H. Eyles",
@@ -1069,6 +1069,22 @@
       "location": null
     },
     {
+      "name": "Corosal",
+      "canonical_name": "Corosal",
+      "given_names": "",
+      "surname": "Corosal",
+      "position": "Assistant Colonial Surgeon",
+      "department": "Medical",
+      "salary_min": 750,
+      "salary_max": 750,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
       "name": "T. W. Gann",
       "canonical_name": "Gann, T. W.",
       "given_names": "T. W.",
@@ -1082,7 +1098,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Corosal"
+      "location": null
     },
     {
       "name": "P. J. Carpenter",
@@ -1402,7 +1418,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States"
+      "location": null
     },
     {
       "name": "C. Molhado",
@@ -1418,7 +1434,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Germany"
+      "location": null
     },
     {
       "name": "H. Krug",
@@ -1434,7 +1450,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Austria and Hungary"
+      "location": null
     },
     {
       "name": "Alex. Williamson",
@@ -1450,7 +1466,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Norway and Sweden"
+      "location": null
     },
     {
       "name": "J. M. Currie",
@@ -1466,7 +1482,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Greater Republic of Central America"
+      "location": null
     },
     {
       "name": "E. C. Connor",
@@ -1482,7 +1498,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "A. Williamson",
@@ -1498,7 +1514,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Spain"
+      "location": null
     },
     {
       "name": "G. A. Ormsby",
@@ -1584,12 +1600,12 @@
   "validation_summary": {
     "colony": "British Honduras",
     "year": 1898,
-    "total": 98,
+    "total": 99,
     "high_confidence": 98,
-    "medium_confidence": 0,
+    "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 98,
+    "passed": 99,
     "anomaly_count": 2
   }
 }

@@ -1,10 +1,10 @@
 {
   "colony": "British New Guinea",
   "year": 1898,
-  "generated": "2026-03-12T13:32:05.749895",
+  "generated": "2026-03-13T07:28:03.499129",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 20,
+  "total_officials": 22,
   "officials": [
     {
       "name": "A. Musgrave",
@@ -57,8 +57,42 @@
       "location": null
     },
     {
+      "name": "A. Musgrave",
+      "canonical_name": "Musgrave, A.",
+      "given_names": "A.",
+      "surname": "Musgrave",
+      "position": "Member",
+      "department": "Legislative Council",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "P. P. Winter",
+      "canonical_name": "Winter, P. P.",
+      "given_names": "P. P.",
+      "surname": "Winter",
+      "position": "Member",
+      "department": "Legislative Council",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
       "name": "Gors",
-      "canonical_name": "Gors",
+      "canonical_name": "Gors, ",
       "given_names": "",
       "surname": "Gors",
       "position": "Unofficial Member",
@@ -73,7 +107,7 @@
       "location": null
     },
     {
-      "name": "Sir W. MacGregor",
+      "name": "W. MacGregor",
       "canonical_name": "MacGregor, W.",
       "given_names": "W.",
       "surname": "MacGregor",
@@ -87,7 +121,6 @@
       ],
       "qualifications": [
         "M.D.",
-        "D.Sc.",
         "LL.D."
       ],
       "military_rank": null,
@@ -149,7 +182,7 @@
       "canonical_name": "Hely, B. A.",
       "given_names": "B. A.",
       "surname": "Hely",
-      "position": "Resident Magistrate, Western Division",
+      "position": "Resident Magistrate",
       "department": "Establishment",
       "salary_min": 500,
       "salary_max": 500,
@@ -158,7 +191,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Western Division"
     },
     {
       "name": "J. A. Blayney",
@@ -174,14 +207,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central Division"
     },
     {
       "name": "M. H. Moreton",
       "canonical_name": "Moreton, M. H.",
       "given_names": "M. H.",
       "surname": "Moreton",
-      "position": "Resident Magistrate, Eastern Division",
+      "position": "Resident Magistrate",
       "department": "Establishment",
       "salary_min": 400,
       "salary_max": 400,
@@ -190,14 +223,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Eastern Division"
     },
     {
       "name": "A. M. Campbell",
       "canonical_name": "Campbell, A. M.",
       "given_names": "A. M.",
       "surname": "Campbell",
-      "position": "Resident Magistrate, Louisiades",
+      "position": "Resident Magistrate",
       "department": "Establishment",
       "salary_min": 300,
       "salary_max": 300,
@@ -206,7 +239,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Louisiades"
     },
     {
       "name": "A. W. Butterworth",
@@ -217,7 +250,7 @@
       "department": "Establishment",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "and quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -249,7 +282,7 @@
       "department": "Establishment",
       "salary_min": 250,
       "salary_max": 250,
-      "allowances": "and quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -261,7 +294,7 @@
       "canonical_name": "English, A. C.",
       "given_names": "A. C.",
       "surname": "English",
-      "position": "Government Agent, Rigo",
+      "position": "Government Agent",
       "department": "Establishment",
       "salary_min": 250,
       "salary_max": 250,
@@ -270,14 +303,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Rigo"
     },
     {
       "name": "C. Kowald",
       "canonical_name": "Kowald, C.",
       "given_names": "C.",
       "surname": "Kowald",
-      "position": "Government Agent, McKeo",
+      "position": "Government Agent",
       "department": "Establishment",
       "salary_min": 250,
       "salary_max": 250,
@@ -286,14 +319,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "McKeo"
     },
     {
       "name": "A. H. Symons",
       "canonical_name": "Symons, A. H.",
       "given_names": "A. H.",
       "surname": "Symons",
-      "position": "Sub-Collector of Customs, Samarai",
+      "position": "Sub-Collector of Customs",
       "department": "Establishment",
       "salary_min": 225,
       "salary_max": 225,
@@ -302,14 +335,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Samarai"
     },
     {
       "name": "H. W. de Lange",
       "canonical_name": "de Lange, H. W.",
       "given_names": "H. W.",
       "surname": "de Lange",
-      "position": "Sub-Collector of Customs, Daru",
+      "position": "Sub-Collector of Customs",
       "department": "Establishment",
       "salary_min": 150,
       "salary_max": 150,
@@ -318,7 +351,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Daru"
     },
     {
       "name": "H. N. Chester",
@@ -340,12 +373,12 @@
   "validation_summary": {
     "colony": "British New Guinea",
     "year": 1898,
-    "total": 20,
-    "high_confidence": 19,
+    "total": 22,
+    "high_confidence": 21,
     "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 20,
-    "anomaly_count": 2
+    "passed": 22,
+    "anomaly_count": 4
   }
 }

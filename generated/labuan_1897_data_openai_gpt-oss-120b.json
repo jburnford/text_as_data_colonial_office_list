@@ -1,15 +1,15 @@
 {
   "colony": "Labuan",
   "year": 1897,
-  "generated": "2026-03-13T06:43:37.293914",
+  "generated": "2026-03-13T07:06:10.639267",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 20,
+  "total_officials": 19,
   "officials": [
     {
-      "name": "James Brooke",
-      "canonical_name": "Brooke, James",
-      "given_names": "James",
+      "name": "Sir James Brooke",
+      "canonical_name": "Brooke, Sir James",
+      "given_names": "Sir James",
       "surname": "Brooke",
       "position": "Governor",
       "department": "Governors",
@@ -29,7 +29,7 @@
       "canonical_name": "Napier, William",
       "given_names": "William",
       "surname": "Napier",
-      "position": "Lieut.-Governor",
+      "position": "Governor",
       "department": "Governors",
       "salary_min": null,
       "salary_max": null,
@@ -45,7 +45,7 @@
       "canonical_name": "Scott, J.",
       "given_names": "J.",
       "surname": "Scott",
-      "position": "Lieut.-Governor",
+      "position": "Governor",
       "department": "Governors",
       "salary_min": null,
       "salary_max": null,
@@ -57,27 +57,9 @@
       "location": null
     },
     {
-      "name": "John Scott",
-      "canonical_name": "Scott, John",
-      "given_names": "John",
-      "surname": "Scott",
-      "position": null,
-      "department": "Governors",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [
-        "K.C.M.G."
-      ],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "G. W. Edwardes",
-      "canonical_name": "Edwardes, G. W.",
-      "given_names": "G. W.",
+      "name": "Hon. G. W. Edwardes",
+      "canonical_name": "Edwardes, Hon. G. W.",
+      "given_names": "Hon. G. W.",
       "surname": "Edwardes",
       "position": "Governor",
       "department": "Governors",
@@ -107,7 +89,7 @@
       "location": null
     },
     {
-      "name": "Hugh Low",
+      "name": "Hugh Low (acting)",
       "canonical_name": "Low, Hugh",
       "given_names": "Hugh",
       "surname": "Low",
@@ -123,9 +105,9 @@
       "location": null
     },
     {
-      "name": "J. Pope Hennessy",
-      "canonical_name": "Hennessy, J. Pope",
-      "given_names": "J. Pope",
+      "name": "Sir J. Pope Hennessy",
+      "canonical_name": "Hennessy, Sir J. Pope",
+      "given_names": "Sir J. Pope",
       "surname": "Hennessy",
       "position": "Governor",
       "department": "Governors",
@@ -141,9 +123,9 @@
       "location": null
     },
     {
-      "name": "H. E. Bulwer",
-      "canonical_name": "Bulwer, H. E.",
-      "given_names": "H. E.",
+      "name": "Sir H. E. Bulwer",
+      "canonical_name": "Bulwer, Sir H. E.",
+      "given_names": "Sir H. E.",
       "surname": "Bulwer",
       "position": "Governor",
       "department": "Governors",
@@ -195,7 +177,7 @@
       "location": null
     },
     {
-      "name": "P. Leys",
+      "name": "P. Leys (acting)",
       "canonical_name": "Leys, P.",
       "given_names": "P.",
       "surname": "Leys",
@@ -211,7 +193,7 @@
       "location": null
     },
     {
-      "name": "A. S. Hamilton",
+      "name": "A. S. Hamilton (acting)",
       "canonical_name": "Hamilton, A. S.",
       "given_names": "A. S.",
       "surname": "Hamilton",
@@ -245,7 +227,7 @@
       "location": null
     },
     {
-      "name": "Leicester Paul Beaufort",
+      "name": "Leicester Paul Beaufort (acting)",
       "canonical_name": "Beaufort, Leicester Paul",
       "given_names": "Leicester Paul",
       "surname": "Beaufort",
@@ -266,7 +248,7 @@
       "given_names": "W. R.",
       "surname": "Flint",
       "position": "Resident",
-      "department": "Civil Establishment",
+      "department": "Establishment, 1895",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -282,7 +264,7 @@
       "given_names": "G. O. B.",
       "surname": "Horsford",
       "position": "Sub-Treasurer",
-      "department": "Civil Establishment",
+      "department": "Establishment, 1895",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -298,7 +280,7 @@
       "given_names": "R. V. K.",
       "surname": "Applin",
       "position": "Acting Police Magistrate",
-      "department": "Civil Establishment",
+      "department": "Establishment, 1895",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -314,7 +296,7 @@
       "given_names": "W.",
       "surname": "Boyd",
       "position": "Postmaster and Chief Constable",
-      "department": "Civil Establishment",
+      "department": "Establishment, 1895",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -330,7 +312,7 @@
       "given_names": "R. E.",
       "surname": "Adamson",
       "position": "Medical Officer",
-      "department": "Civil Establishment",
+      "department": "Establishment, 1895",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -346,12 +328,12 @@
   "validation_summary": {
     "colony": "Labuan",
     "year": 1897,
-    "total": 20,
-    "high_confidence": 20,
+    "total": 19,
+    "high_confidence": 19,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 20,
+    "passed": 19,
     "anomaly_count": 0
   }
 }

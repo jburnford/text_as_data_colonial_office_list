@@ -1,7 +1,7 @@
 {
   "colony": "Gambia",
   "year": 1897,
-  "generated": "2026-03-13T06:38:28.162153",
+  "generated": "2026-03-13T07:00:55.445607",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 25,
@@ -13,9 +13,9 @@
       "surname": "Llewelyn",
       "position": "Administrator",
       "department": "Civil Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": "1st 300L duty allowance, and table allowance 10L per annum",
+      "salary_min": 300,
+      "salary_max": 300,
+      "allowances": "1st duty allowance, table allowance 10L",
       "honors": [
         "C.M.G."
       ],

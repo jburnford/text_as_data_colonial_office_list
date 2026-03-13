@@ -1,16 +1,16 @@
 {
   "colony": "Bahamas",
   "year": 1898,
-  "generated": "2026-03-12T13:30:34.637159",
+  "generated": "2026-03-13T07:23:07.165794",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 61,
   "officials": [
     {
       "name": "J. K. G. T. Spencer Churchill",
-      "canonical_name": "Churchill, J. K. G. T. Spencer",
-      "given_names": "J. K. G. T. Spencer",
-      "surname": "Churchill",
+      "canonical_name": "Spencer Churchill, J. K. G. T.",
+      "given_names": "J. K. G. T.",
+      "surname": "Spencer Churchill",
       "position": "Colonial Secretary",
       "department": "Civil Establishment",
       "salary_min": 700,
@@ -493,7 +493,7 @@
       "canonical_name": "Maclure, J. S. G.",
       "given_names": "J. S. G.",
       "surname": "Maclure",
-      "position": "Clerk in Police Magistrate's Office, Nassau",
+      "position": "Clerk in Police Magistrate's Office",
       "department": "Judicial Establishment",
       "salary_min": 80,
       "salary_max": 80,
@@ -673,7 +673,7 @@
       "department": "Judicial Establishment",
       "salary_min": 80,
       "salary_max": 80,
-      "allowances": "10l. boat allowance",
+      "allowances": "boat allowance 10l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -726,7 +726,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Nassau"
+      "location": null
     },
     {
       "name": "J. H. Fisher",
@@ -742,7 +742,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Nassau Prison"
+      "location": null
     },
     {
       "name": "Maclure",
@@ -815,7 +815,7 @@
       "canonical_name": "Saunders, R.",
       "given_names": "R.",
       "surname": "Saunders",
-      "position": "Rector of St. Matthew and St. Ann",
+      "position": "Rector of St. Matthew and St. Ann, Nassau",
       "department": "Ecclesiastical",
       "salary_min": 275,
       "salary_max": 275,
@@ -824,14 +824,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Nassau"
+      "location": null
     },
     {
       "name": "J. H. Fisher",
       "canonical_name": "Fisher, J. H.",
       "given_names": "J. H.",
       "surname": "Fisher",
-      "position": "Curate of St. Agnes",
+      "position": "Curate of St. Agnes, Nassau",
       "department": "Ecclesiastical",
       "salary_min": 200,
       "salary_max": 200,
@@ -840,14 +840,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Nassau"
+      "location": null
     },
     {
       "name": "W. L. Glanville",
       "canonical_name": "Glanville, W. L.",
       "given_names": "W. L.",
       "surname": "Glanville",
-      "position": "Incumbent of St. Philip",
+      "position": "Incumbent of St. Philip, Imagua",
       "department": "Ecclesiastical",
       "salary_min": 150,
       "salary_max": 150,
@@ -856,14 +856,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Imagua"
+      "location": null
     },
     {
       "name": "W. W. Duncombe",
       "canonical_name": "Duncombe, W. W.",
       "given_names": "W. W.",
       "surname": "Duncombe",
-      "position": "Incumbent of St. David",
+      "position": "Incumbent of St. David, Crooked Island",
       "department": "Ecclesiastical",
       "salary_min": 150,
       "salary_max": 150,
@@ -872,7 +872,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Crooked Island"
+      "location": null
     },
     {
       "name": "Chrysostom Schreiner",
@@ -895,7 +895,7 @@
       "canonical_name": "McLain, T. J.",
       "given_names": "T. J.",
       "surname": "McLain",
-      "position": "Consul",
+      "position": "United States of America",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -904,14 +904,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States of America"
+      "location": null
     },
     {
       "name": "R. W. Sawyer",
       "canonical_name": "Sawyer, R. W.",
       "given_names": "R. W.",
       "surname": "Sawyer",
-      "position": "Consul",
+      "position": "Germany",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -920,14 +920,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Germany"
+      "location": null
     },
     {
       "name": "L. Taylor",
       "canonical_name": "Taylor, L.",
       "given_names": "L.",
       "surname": "Taylor",
-      "position": "Vice Consul",
+      "position": "France (Vice)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -936,14 +936,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "Pompeyo Diaz y Cossio",
       "canonical_name": "Diaz y Cossio, Pompeyo",
       "given_names": "Pompeyo",
       "surname": "Diaz y Cossio",
-      "position": "Consul",
+      "position": "Spain",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -952,14 +952,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Spain"
+      "location": null
     },
     {
       "name": "M. Menendez",
       "canonical_name": "Menendez, M.",
       "given_names": "M.",
       "surname": "Menendez",
-      "position": "Honorary Vice Consul",
+      "position": "Spain (Honorary Vice)",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -968,14 +968,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Spain"
+      "location": null
     },
     {
       "name": "E. George",
       "canonical_name": "George, E.",
       "given_names": "E.",
       "surname": "George",
-      "position": "Consul",
+      "position": "Denmark",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -984,7 +984,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Denmark"
+      "location": null
     }
   ],
   "validation_summary": {

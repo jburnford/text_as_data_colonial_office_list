@@ -1,7 +1,7 @@
 {
   "colony": "Newfoundland",
   "year": 1897,
-  "generated": "2026-03-12T13:23:24.216384",
+  "generated": "2026-03-13T06:48:32.160653",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 117,
@@ -301,7 +301,7 @@
       "canonical_name": "Shea, Henry",
       "given_names": "Henry",
       "surname": "Shea",
-      "position": "Hospital Surgeons, Resident Surgeon",
+      "position": "Hospital Surgeon, Resident Surgeon",
       "department": "Civil Establishment",
       "salary_min": 2000,
       "salary_max": 2000,
@@ -845,7 +845,7 @@
       "canonical_name": "Burgess, E. R.",
       "given_names": "E. R.",
       "surname": "Burgess",
-      "position": "Sub-Collector",
+      "position": "Sub-Collector (Labrador)",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -861,7 +861,7 @@
       "canonical_name": "Whiteley, A. L.",
       "given_names": "A. L.",
       "surname": "Whiteley",
-      "position": "Sub-Collector",
+      "position": "Sub-Collector (Labrador)",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -954,8 +954,8 @@
     },
     {
       "name": "Sir F. B. T. Carter",
-      "canonical_name": "Carter, Sir F. B. T.",
-      "given_names": "Sir F. B. T.",
+      "canonical_name": "Carter, F. B. T.",
+      "given_names": "F. B. T.",
       "surname": "Carter",
       "position": "Chief Justice and Judge of the Vice-Admiralty Court",
       "department": "Judicial Establishment",
@@ -1004,8 +1004,8 @@
     },
     {
       "name": "Sir W. V. Whiteway",
-      "canonical_name": "Whiteway, Sir W. V.",
-      "given_names": "Sir W. V.",
+      "canonical_name": "Whiteway, W. V.",
+      "given_names": "W. V.",
       "surname": "Whiteway",
       "position": "Attorney-General",
       "department": "Judicial Establishment",
@@ -1041,7 +1041,7 @@
       "canonical_name": "Talbot, Thomas",
       "given_names": "Thomas",
       "surname": "Talbot",
-      "position": "Sheriff",
+      "position": "Sheriff Central District",
       "department": "Judicial Establishment",
       "salary_min": 1385,
       "salary_max": 1385,
@@ -1050,14 +1050,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Central District"
+      "location": null
     },
     {
       "name": "A. H. Seymour",
       "canonical_name": "Seymour, A. H.",
       "given_names": "A. H.",
       "surname": "Seymour",
-      "position": "Sheriff",
+      "position": "Sheriff Northern District",
       "department": "Judicial Establishment",
       "salary_min": 1385,
       "salary_max": 1385,
@@ -1066,14 +1066,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Northern District"
+      "location": null
     },
     {
       "name": "James Carter",
       "canonical_name": "Carter, James",
       "given_names": "James",
       "surname": "Carter",
-      "position": "Sheriff",
+      "position": "Sheriff Southern District",
       "department": "Judicial Establishment",
       "salary_min": 924,
       "salary_max": 924,
@@ -1082,7 +1082,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Southern District"
+      "location": null
     },
     {
       "name": "D. W. Prowse",
@@ -1505,7 +1505,7 @@
       "canonical_name": "Flannery, J. J.",
       "given_names": "J. J.",
       "surname": "Flannery",
-      "position": "Clerk of the Peace and Clerk of Central District Court",
+      "position": "Clerk of the Peace at St. John's, and Clerk of Central District Court",
       "department": "Judicial Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -1514,7 +1514,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "St. John's"
     },
     {
       "name": "John R. McCowen",
@@ -1523,22 +1523,6 @@
       "surname": "McCowen",
       "position": "Inspector and General Superintendent of Censory",
       "department": "Judicial Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Theos. R. Smith",
-      "canonical_name": "Smith, Theos. R.",
-      "given_names": "Theos. R.",
-      "surname": "Smith",
-      "position": "Consul-General",
-      "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1562,7 +1546,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "St. John's"
+      "location": "Harbour Grace"
     },
     {
       "name": "G. H. Cole",
@@ -1578,7 +1562,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Harbour Grace"
+      "location": "Trinity"
     },
     {
       "name": "J. Henry Clement",
@@ -1697,7 +1681,7 @@
       "canonical_name": "Fisher, W. J.",
       "given_names": "W. J.",
       "surname": "Fisher",
-      "position": "Consul",
+      "position": "Consul for Newfoundland",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1706,7 +1690,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Italy"
     },
     {
       "name": "Henry J. Stabb",
@@ -1722,14 +1706,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Italy"
     },
     {
       "name": "Sam Ryan",
       "canonical_name": "Ryan, Sam",
       "given_names": "Sam",
       "surname": "Ryan",
-      "position": "Consul",
+      "position": "Consul for Newfoundland",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1761,7 +1745,7 @@
       "canonical_name": "Prowse, Robert H.",
       "given_names": "Robert H.",
       "surname": "Prowse",
-      "position": "Vice-Consul",
+      "position": "Vice-Consul for Newfoundland",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1770,7 +1754,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Sweden and Norway"
     },
     {
       "name": "Don Antonio Singala",
@@ -1850,7 +1834,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Brazil"
     },
     {
       "name": "W. H. Thompson",
@@ -1882,17 +1866,33 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Belgium"
+    },
+    {
+      "name": "Martin",
+      "canonical_name": "Martin, Martin",
+      "given_names": "Martin",
+      "surname": "Martin",
+      "position": "Consular Agent",
+      "department": "Foreign Consuls",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Port of Nain, Labrador"
     }
   ],
   "validation_summary": {
     "colony": "Newfoundland",
     "year": 1897,
-    "total": 119,
+    "total": 117,
     "high_confidence": 117,
     "medium_confidence": 0,
-    "low_confidence": 2,
-    "quarantined": 2,
+    "low_confidence": 0,
+    "quarantined": 0,
     "passed": 117,
     "anomaly_count": 2
   }

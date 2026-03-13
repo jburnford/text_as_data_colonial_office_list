@@ -1,10 +1,10 @@
 {
   "colony": "St. Lucia",
   "year": 1897,
-  "generated": "2026-03-12T13:24:19.595389",
+  "generated": "2026-03-13T07:11:55.141880",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 18,
+  "total_officials": 20,
   "officials": [
     {
       "name": "C. A. King Harman",
@@ -79,7 +79,7 @@
       "canonical_name": "Dennehy, Charles",
       "given_names": "Charles",
       "surname": "Dennehy",
-      "position": "Immigration Medical Officers",
+      "position": "Immigration Medical Officer",
       "department": "Immigration",
       "salary_min": 100,
       "salary_max": 100,
@@ -95,7 +95,23 @@
       "canonical_name": "Norton, Herbert",
       "given_names": "Herbert",
       "surname": "Norton",
-      "position": "Immigration Medical Officers",
+      "position": "Immigration Medical Officer",
+      "department": "Immigration",
+      "salary_min": 60,
+      "salary_max": 60,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "O. Galgey",
+      "canonical_name": "Galgey, O.",
+      "given_names": "O.",
+      "surname": "Galgey",
+      "position": "Immigration Medical Officer",
       "department": "Immigration",
       "salary_min": 60,
       "salary_max": 60,
@@ -111,7 +127,7 @@
       "canonical_name": "Tabone, Victor",
       "given_names": "Victor",
       "surname": "Tabone",
-      "position": "Immigration Medical Officers",
+      "position": "Immigration Medical Officer",
       "department": "Immigration",
       "salary_min": 60,
       "salary_max": 60,
@@ -127,7 +143,7 @@
       "canonical_name": "Lestrade, J. A.",
       "given_names": "J. A.",
       "surname": "Lestrade",
-      "position": "Immigration Medical Officers",
+      "position": "Immigration Medical Officer",
       "department": "Immigration",
       "salary_min": 60,
       "salary_max": 60,
@@ -143,7 +159,7 @@
       "canonical_name": "Pollonais, E. L.",
       "given_names": "E. L.",
       "surname": "Pollonais",
-      "position": "Immigration Medical Officers",
+      "position": "Immigration Medical Officer",
       "department": "Immigration",
       "salary_min": 60,
       "salary_max": 60,
@@ -155,7 +171,7 @@
       "location": null
     },
     {
-      "name": "J. R. Bascom",
+      "name": "Rev. J. R. Bascom",
       "canonical_name": "Bascom, J. R.",
       "given_names": "J. R.",
       "surname": "Bascom",
@@ -168,10 +184,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Holy Trinity Church"
     },
     {
-      "name": "R. J. Clarke",
+      "name": "Rev. R. J. Clarke",
       "canonical_name": "Clarke, R. J.",
       "given_names": "R. J.",
       "surname": "Clarke",
@@ -184,10 +200,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Grace Church, River Doree"
     },
     {
-      "name": "L. Tapon",
+      "name": "Rev. L. Tapon",
       "canonical_name": "Tapon, L.",
       "given_names": "L.",
       "surname": "Tapon",
@@ -200,7 +216,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Castries"
     },
     {
       "name": "F. E. Bundy",
@@ -232,7 +248,23 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
+    },
+    {
+      "name": "W. Peter",
+      "canonical_name": "Peter, W.",
+      "given_names": "W.",
+      "surname": "Peter",
+      "position": "Consul",
+      "department": "Foreign Consuls",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "German Empire"
     },
     {
       "name": "William Peter",
@@ -248,7 +280,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "United States of America"
     },
     {
       "name": "S. Ronshaw",
@@ -264,7 +296,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Netherlands"
     },
     {
       "name": "S. Barnard",
@@ -280,12 +312,12 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "United States of Columbia"
     },
     {
-      "name": "William Barnard",
-      "canonical_name": "Barnard, William",
-      "given_names": "William",
+      "name": "W. Barnard",
+      "canonical_name": "Barnard, W.",
+      "given_names": "W.",
       "surname": "Barnard",
       "position": "Consul",
       "department": "Foreign Consuls",
@@ -296,18 +328,18 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Portugal"
     }
   ],
   "validation_summary": {
     "colony": "St. Lucia",
     "year": 1897,
-    "total": 19,
-    "high_confidence": 18,
+    "total": 20,
+    "high_confidence": 20,
     "medium_confidence": 0,
-    "low_confidence": 1,
-    "quarantined": 1,
-    "passed": 18,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 20,
     "anomaly_count": 0
   }
 }

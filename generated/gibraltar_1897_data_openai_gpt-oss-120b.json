@@ -1,7 +1,7 @@
 {
   "colony": "Gibraltar",
   "year": 1897,
-  "generated": "2026-03-13T06:44:50.460586",
+  "generated": "2026-03-13T07:04:58.004377",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 88,
@@ -33,7 +33,7 @@
       "department": "Civil Establishment",
       "salary_min": 9085,
       "salary_max": 9085,
-      "allowances": "1,270 pes. as Secretary to Board of Health",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -49,7 +49,7 @@
       "department": "Civil Establishment",
       "salary_min": 6250,
       "salary_max": 6250,
-      "allowances": "1,500 pes. for translating and interpreting",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -201,15 +201,15 @@
       "location": null
     },
     {
-      "name": "Purcell",
-      "canonical_name": "Purcell",
-      "given_names": "",
+      "name": "Purcell, R.E.",
+      "canonical_name": "Purcell, R.E.",
+      "given_names": "R.E.",
       "surname": "Purcell",
       "position": "Colonial Engineer",
       "department": "Public Works",
       "salary_min": 30,
       "salary_max": 30,
-      "allowances": "pes. 2,500, and pes. 1,250, for forage allowance",
+      "allowances": "2,500 pes., 1,250 pes. for forage allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": "Lt.-Col.",
@@ -225,7 +225,7 @@
       "department": "Public Works",
       "salary_min": 8000,
       "salary_max": 8000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -241,7 +241,7 @@
       "department": "Public Works",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -254,10 +254,10 @@
       "given_names": "W. D.",
       "surname": "Bailey",
       "position": "Local Auditor and Sanitary Auditor",
-      "department": "Audit",
+      "department": "Public Works",
       "salary_min": 10000,
       "salary_max": 10000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -385,7 +385,7 @@
       "department": "Judicial Department",
       "salary_min": 15000,
       "salary_max": 15000,
-      "allowances": null,
+      "allowances": "1,261 pes. for forage allowance, and 1,500 pes. as Inspector of Schools",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -401,7 +401,7 @@
       "department": "Judicial Department",
       "salary_min": 4250,
       "salary_max": 4250,
-      "allowances": null,
+      "allowances": "600 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -433,7 +433,7 @@
       "department": "Judicial Department",
       "salary_min": 9000,
       "salary_max": 11250,
-      "allowances": null,
+      "allowances": "1,250 pes. for horse allowance as Supervisor of Markets",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -475,7 +475,7 @@
     {
       "name": "Miss Crewe",
       "canonical_name": "Crewe, Miss",
-      "given_names": "",
+      "given_names": "Miss",
       "surname": "Crewe",
       "position": "Postmistress and Supt. of Telegraph",
       "department": null,
@@ -526,7 +526,7 @@
       "given_names": "A.",
       "surname": "Bosano",
       "position": "1st Clerk",
-      "department": "Telegraph and Savings Bank Clerks",
+      "department": null,
       "salary_min": 4625,
       "salary_max": 4625,
       "allowances": null,
@@ -542,7 +542,7 @@
       "given_names": "J.",
       "surname": "Shakerly",
       "position": "2nd Clerk",
-      "department": "Telegraph and Savings Bank Clerks",
+      "department": null,
       "salary_min": 2750,
       "salary_max": 2750,
       "allowances": null,
@@ -558,7 +558,7 @@
       "given_names": "J.",
       "surname": "Chipulina",
       "position": "3rd Clerk",
-      "department": "Telegraph and Savings Bank Clerks",
+      "department": null,
       "salary_min": 2500,
       "salary_max": 2500,
       "allowances": null,
@@ -574,7 +574,7 @@
       "given_names": "T.",
       "surname": "Chipulina",
       "position": "4th Clerk",
-      "department": "Telegraph and Savings Bank Clerks",
+      "department": null,
       "salary_min": 1625,
       "salary_max": 1625,
       "allowances": null,
@@ -699,7 +699,7 @@
       "location": null
     },
     {
-      "name": "C. W. Sandford",
+      "name": "The Right Rev. C. W. Sandford",
       "canonical_name": "Sandford, C. W.",
       "given_names": "C. W.",
       "surname": "Sandford",
@@ -715,7 +715,7 @@
       "location": null
     },
     {
-      "name": "D. S. Govett",
+      "name": "The Ven. Archdeacon D. S. Govett",
       "canonical_name": "Govett, D. S.",
       "given_names": "D. S.",
       "surname": "Govett",
@@ -731,8 +731,8 @@
       "location": null
     },
     {
-      "name": "Canilla",
-      "canonical_name": "Canilla",
+      "name": "The Right Rev. Canilla",
+      "canonical_name": "Canilla, ",
       "given_names": "",
       "surname": "Canilla",
       "position": "Catholic Vicar Apostolic",
@@ -744,11 +744,11 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Lystra"
+      "location": null
     },
     {
-      "name": "Fletcher",
-      "canonical_name": "Fletcher",
+      "name": "Major Fletcher",
+      "canonical_name": "Fletcher, ",
       "given_names": "",
       "surname": "Fletcher",
       "position": "Assistant Military Secretary",
@@ -763,7 +763,7 @@
       "location": null
     },
     {
-      "name": "F. Carrington",
+      "name": "Sir F. Carrington",
       "canonical_name": "Carrington, F.",
       "given_names": "F.",
       "surname": "Carrington",
@@ -776,12 +776,12 @@
         "K.C.M.G."
       ],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "General",
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "J. E. Goodwyn",
+      "name": "Colonel J. E. Goodwyn",
       "canonical_name": "Goodwyn, J. E.",
       "given_names": "J. E.",
       "surname": "Goodwyn",
@@ -797,7 +797,7 @@
       "location": null
     },
     {
-      "name": "J. B. Charlton",
+      "name": "Major-General J. B. Charlton",
       "canonical_name": "Charlton, J. B.",
       "given_names": "J. B.",
       "surname": "Charlton",
@@ -813,7 +813,7 @@
       "location": null
     },
     {
-      "name": "W. H. Rathnure",
+      "name": "Colonel, W. H. Rathnure",
       "canonical_name": "Rathnure, W. H.",
       "given_names": "W. H.",
       "surname": "Rathnure",
@@ -829,7 +829,7 @@
       "location": null
     },
     {
-      "name": "J.A.T. Bruce",
+      "name": "Capt. J.A.T. Bruce",
       "canonical_name": "Bruce, J.A.T.",
       "given_names": "J.A.T.",
       "surname": "Bruce",
@@ -845,7 +845,7 @@
       "location": null
     },
     {
-      "name": "E. E. Markwick",
+      "name": "Lieut.-Col. E. E. Markwick",
       "canonical_name": "Markwick, E. E.",
       "given_names": "E. E.",
       "surname": "Markwick",
@@ -861,7 +861,7 @@
       "location": null
     },
     {
-      "name": "W. A. Catherwood",
+      "name": "Surgeon-Colonel W. A. Catherwood",
       "canonical_name": "Catherwood, W. A.",
       "given_names": "W. A.",
       "surname": "Catherwood",
@@ -872,12 +872,12 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Colonel",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "F. Sadlier",
+      "name": "Rev. F. Sadlier",
       "canonical_name": "Sadlier, F.",
       "given_names": "F.",
       "surname": "Sadlier",
@@ -895,7 +895,7 @@
       "location": null
     },
     {
-      "name": "J. H. Gilbert",
+      "name": "Staff-Engineer J. H. Gilbert",
       "canonical_name": "Gilbert, J. H.",
       "given_names": "J. H.",
       "surname": "Gilbert",
@@ -924,7 +924,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Republic"
     },
     {
       "name": "H. Schott",
@@ -940,7 +940,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hungary"
     },
     {
       "name": "M. Y. Bergel",
@@ -1071,10 +1071,10 @@
       "location": null
     },
     {
-      "name": "Rodriguez Lopez",
-      "canonical_name": "Lopez, Rodriguez",
-      "given_names": "Rodriguez",
-      "surname": "Lopez",
+      "name": "Dr. Rodriguez Lopez",
+      "canonical_name": "Rodriguez Lopez, Dr.",
+      "given_names": "Dr.",
+      "surname": "Rodriguez Lopez",
       "position": "Vice-Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -1200,9 +1200,9 @@
     },
     {
       "name": "J. da Costa Freire",
-      "canonical_name": "Freire, J. da Costa",
-      "given_names": "J. da Costa",
-      "surname": "Freire",
+      "canonical_name": "da Costa Freire, J.",
+      "given_names": "J.",
+      "surname": "da Costa Freire",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -1215,9 +1215,9 @@
       "location": null
     },
     {
-      "name": "Mohammed Bennuna",
-      "canonical_name": "Bennuna, Mohammed",
-      "given_names": "Mohammed",
+      "name": "Hajj Mohammed Bennuna",
+      "canonical_name": "Bennuna, Hajj Mohammed",
+      "given_names": "Hajj Mohammed",
       "surname": "Bennuna",
       "position": "Consul",
       "department": "Consuls",
@@ -1235,7 +1235,7 @@
       "canonical_name": "Lasry, S.",
       "given_names": "S.",
       "surname": "Lasry",
-      "position": "Consul",
+      "position": "Consul (absent)",
       "department": "Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1248,7 +1248,7 @@
     },
     {
       "name": "Gar\u00e8se",
-      "canonical_name": "Gar\u00e8se, ",
+      "canonical_name": "Gar\u00e8se",
       "given_names": "",
       "surname": "Gar\u00e8se",
       "position": "Consul",
@@ -1280,9 +1280,9 @@
     },
     {
       "name": "J. da Costa de Morais",
-      "canonical_name": "Morais, J. da Costa de",
-      "given_names": "J. da Costa de",
-      "surname": "Morais",
+      "canonical_name": "da Costa de Morais, J.",
+      "given_names": "J.",
+      "surname": "da Costa de Morais",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -1356,7 +1356,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Norway"
     },
     {
       "name": "H. J. Sprague",
@@ -1372,7 +1372,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "America"
     },
     {
       "name": "A. Corsi",
@@ -1427,8 +1427,8 @@
     "colony": "Gibraltar",
     "year": 1897,
     "total": 88,
-    "high_confidence": 82,
-    "medium_confidence": 6,
+    "high_confidence": 84,
+    "medium_confidence": 4,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 88,
