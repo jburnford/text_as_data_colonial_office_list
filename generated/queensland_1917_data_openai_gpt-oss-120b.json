@@ -1,7 +1,7 @@
 {
   "colony": "Queensland",
   "year": 1917,
-  "generated": "2026-03-12T15:24:34.801386",
+  "generated": "2026-03-13T11:38:57.272836",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 137,
@@ -132,12 +132,12 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Lucinda"
     },
     {
       "name": "Sir T. B. Robinson",
       "canonical_name": "Robinson, Sir T. B.",
-      "given_names": "T. B.",
+      "given_names": "Sir T. B.",
       "surname": "Robinson",
       "position": "Agent-General",
       "department": "London Agency",
@@ -305,7 +305,7 @@
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Dunwich Benevolent Asylum"
     },
     {
       "name": "C. E. de F. Pennefather",
@@ -598,7 +598,7 @@
       "location": null
     },
     {
-      "name": "Sir Pope A. Cooper",
+      "name": "Pope A. Cooper",
       "canonical_name": "Cooper, Pope A.",
       "given_names": "Pope A.",
       "surname": "Cooper",
@@ -684,7 +684,7 @@
       "location": null
     },
     {
-      "name": "Sir Arthur Rutledge",
+      "name": "Arthur Rutledge",
       "canonical_name": "Rutledge, Arthur",
       "given_names": "Arthur",
       "surname": "Rutledge",
@@ -753,7 +753,7 @@
       "given_names": "J. D.",
       "surname": "Story",
       "position": "Under-Secretary",
-      "department": "Department of Public Instruction",
+      "department": "Public Instruction",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -769,7 +769,7 @@
       "given_names": "R. H.",
       "surname": "Roe",
       "position": "Inspector-General of Schools",
-      "department": "Department of Public Instruction",
+      "department": "Public Instruction",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -787,7 +787,7 @@
       "given_names": "Eleanor E.",
       "surname": "Bourne",
       "position": "Medical Inspector of Schools",
-      "department": "Department of Public Instruction",
+      "department": "Public Instruction",
       "salary_min": 450,
       "salary_max": 450,
       "allowances": null,
@@ -806,14 +806,12 @@
       "given_names": "L. C.",
       "surname": "Morris",
       "position": "Superintendent of Technical Education",
-      "department": "Department of Public Instruction",
+      "department": "Public Instruction",
       "salary_min": 600,
       "salary_max": 600,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "B.E."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -824,14 +822,12 @@
       "given_names": "J.",
       "surname": "Shirley",
       "position": "Principal Teachers' Training College",
-      "department": "Department of Public Instruction",
+      "department": "Public Instruction",
       "salary_min": 650,
       "salary_max": 650,
       "allowances": null,
       "honors": [],
-      "qualifications": [
-        "D.Sc."
-      ],
+      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
@@ -841,7 +837,7 @@
       "canonical_name": "Fowles, W. L.",
       "given_names": "W. L.",
       "surname": "Fowles",
-      "position": "Under-Secretary",
+      "position": "Under-Secretary; also Chairman Workers' Dwelling Board",
       "department": "Treasury Department",
       "salary_min": 800,
       "salary_max": 800,
@@ -1004,7 +1000,7 @@
       "given_names": "F. X.",
       "surname": "Heaney",
       "position": "Members of Land Court",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -1020,7 +1016,7 @@
       "given_names": "W.",
       "surname": "Kidston",
       "position": "Members of Land Court",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -1038,7 +1034,7 @@
       "given_names": "P. W.",
       "surname": "Shannon",
       "position": "Members of Land Court",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -1054,7 +1050,7 @@
       "given_names": "W. G.",
       "surname": "Graham",
       "position": "Under-Secretary",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
@@ -1070,7 +1066,7 @@
       "given_names": "G. L.",
       "surname": "Board",
       "position": "Assistant Under-Secretary",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 700,
       "salary_max": 700,
       "allowances": null,
@@ -1086,7 +1082,7 @@
       "given_names": "N. W.",
       "surname": "Jolly",
       "position": "Director of Forests",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 600,
       "salary_max": 600,
       "allowances": null,
@@ -1104,7 +1100,7 @@
       "given_names": "H.",
       "surname": "Browne",
       "position": "Registrar Land Court",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 300,
       "salary_max": 300,
       "allowances": null,
@@ -1120,7 +1116,7 @@
       "given_names": "A. A.",
       "surname": "Spowers",
       "position": "Surveyor-General",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 750,
       "salary_max": 750,
       "allowances": null,
@@ -1136,7 +1132,7 @@
       "given_names": "H. H.",
       "surname": "Hamley",
       "position": "Engineer, Public Estate Improvement Works",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 350,
       "salary_max": 350,
       "allowances": null,
@@ -1152,7 +1148,7 @@
       "given_names": "G. F. L.",
       "surname": "Foxton",
       "position": "Managing Director, Agricultural Bank",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -1925,7 +1921,7 @@
       "canonical_name": "Donkin, H.",
       "given_names": "H.",
       "surname": "Donkin",
-      "position": "Consul",
+      "position": "Consul for Belgium",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -1934,14 +1930,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Belgium"
+      "location": null
     },
     {
       "name": "T. W. Bouchard",
       "canonical_name": "Bouchard, T. W.",
       "given_names": "T. W.",
       "surname": "Bouchard",
-      "position": "Consul",
+      "position": "Consul for Denmark",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -1950,14 +1946,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Denmark"
+      "location": null
     },
     {
       "name": "L. H. Spence",
       "canonical_name": "Spence, L. H.",
       "given_names": "L. H.",
       "surname": "Spence",
-      "position": "Consul",
+      "position": "Consul for Greece",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -1966,14 +1962,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Greece"
+      "location": null
     },
     {
       "name": "F. H. Hart",
       "canonical_name": "Hart, F. H.",
       "given_names": "F. H.",
       "surname": "Hart",
-      "position": "Consul",
+      "position": "Consul for Netherlands",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -1982,14 +1978,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Netherlands"
+      "location": null
     },
     {
       "name": "A. J. Carter",
       "canonical_name": "Carter, A. J.",
       "given_names": "A. J.",
       "surname": "Carter",
-      "position": "Consul",
+      "position": "Consul for Norway",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -1998,14 +1994,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Norway"
+      "location": null
     },
     {
       "name": "F. S. Lucas",
       "canonical_name": "Lucas, F. S.",
       "given_names": "F. S.",
       "surname": "Lucas",
-      "position": "Consul",
+      "position": "Consul for Chile (acting)",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2014,14 +2010,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Chile"
+      "location": null
     },
     {
       "name": "W. Schoch",
       "canonical_name": "Schoch, W.",
       "given_names": "W.",
       "surname": "Schoch",
-      "position": "Consul",
+      "position": "Consul for Switzerland",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2030,14 +2026,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Switzerland"
+      "location": null
     },
     {
       "name": "T. F. Moxon",
       "canonical_name": "Moxon, T. F.",
       "given_names": "T. F.",
       "surname": "Moxon",
-      "position": "Consul",
+      "position": "Consul for Panama",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2046,14 +2042,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Panama"
+      "location": null
     },
     {
       "name": "B. W. Macdonald",
       "canonical_name": "Macdonald, B. W.",
       "given_names": "B. W.",
       "surname": "Macdonald",
-      "position": "Consul",
+      "position": "Consul for Russia",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2062,14 +2058,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Russia"
+      "location": null
     },
     {
       "name": "J. Stodart",
       "canonical_name": "Stodart, J.",
       "given_names": "J.",
       "surname": "Stodart",
-      "position": "Consul",
+      "position": "Consul for Sweden",
       "department": "Consuls for Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -2078,14 +2074,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sweden"
+      "location": null
     },
     {
       "name": "A. J. Carter",
       "canonical_name": "Carter, A. J.",
       "given_names": "A. J.",
       "surname": "Carter",
-      "position": "Consular Agent",
+      "position": "Consular Agent for France (Brisbane)",
       "department": "Consular Agents",
       "salary_min": null,
       "salary_max": null,
@@ -2094,14 +2090,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Brisbane"
+      "location": null
     },
     {
       "name": "A. H. Whittingham",
       "canonical_name": "Whittingham, A. H.",
       "given_names": "A. H.",
       "surname": "Whittingham",
-      "position": "Consular Agent",
+      "position": "Consular Agent for Italy (Brisbane) (acting)",
       "department": "Consular Agents",
       "salary_min": null,
       "salary_max": null,
@@ -2110,14 +2106,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Brisbane"
+      "location": null
     },
     {
       "name": "J. W. Collins",
       "canonical_name": "Collins, J. W.",
       "given_names": "J. W.",
       "surname": "Collins",
-      "position": "Consular Agent",
+      "position": "Consular Agent for United States (Brisbane)",
       "department": "Consular Agents",
       "salary_min": null,
       "salary_max": null,
@@ -2133,7 +2129,7 @@
       "canonical_name": "Mackay, A. R.",
       "given_names": "A. R.",
       "surname": "Mackay",
-      "position": "Consular Agent",
+      "position": "Consular Agent for United States (Brisbane)",
       "department": "Consular Agents",
       "salary_min": null,
       "salary_max": null,
@@ -2149,7 +2145,7 @@
       "canonical_name": "Sparre, C. F. A.",
       "given_names": "C. F. A.",
       "surname": "Sparre",
-      "position": "Vice-Consul",
+      "position": "Vice-Consul for Denmark (Townsville)",
       "department": "Vice-Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2158,14 +2154,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Townsville"
+      "location": null
     },
     {
       "name": "R. Hockings",
       "canonical_name": "Hockings, R.",
       "given_names": "R.",
       "surname": "Hockings",
-      "position": "Vice-Consul",
+      "position": "Vice-Consul for Netherlands (Thursday Island)",
       "department": "Vice-Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2181,7 +2177,7 @@
       "canonical_name": "Henlein, S.",
       "given_names": "S.",
       "surname": "Henlein",
-      "position": "Vice-Consul",
+      "position": "Vice-Consul for Netherlands (Thursday Island)",
       "department": "Vice-Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2190,14 +2186,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Thursday Island"
+      "location": null
     },
     {
       "name": "W. H. Budd",
       "canonical_name": "Budd, W. H.",
       "given_names": "W. H.",
       "surname": "Budd",
-      "position": "Vice-Consul",
+      "position": "Vice-Consul for Norway (Rockhampton)",
       "department": "Vice-Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2206,14 +2202,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Rockhampton"
+      "location": null
     },
     {
       "name": "J. W. H. Grout",
       "canonical_name": "Grout, J. W. H.",
       "given_names": "J. W. H.",
       "surname": "Grout",
-      "position": "Vice-Consul",
+      "position": "Vice-Consul for Spain (Brisbane)",
       "department": "Vice-Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2222,14 +2218,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Brisbane"
+      "location": null
     },
     {
       "name": "L. Donkin",
       "canonical_name": "Donkin, L.",
       "given_names": "L.",
       "surname": "Donkin",
-      "position": "Vice-Consul",
+      "position": "Vice-Consul for Belgium (Brisbane)",
       "department": "Vice-Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2238,7 +2234,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Brisbane"
+      "location": null
     }
   ],
   "validation_summary": {

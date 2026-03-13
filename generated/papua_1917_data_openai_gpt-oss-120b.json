@@ -1,7 +1,7 @@
 {
   "colony": "Papua",
   "year": 1917,
-  "generated": "2026-03-12T15:22:52.325822",
+  "generated": "2026-03-13T11:35:37.452398",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 108,
@@ -205,7 +205,7 @@
       "canonical_name": "Cardew, H. C.",
       "given_names": "H. C.",
       "surname": "Cardew",
-      "position": "Resident Magistrate, Western Division (on leave) (acting)",
+      "position": "Resident Magistrate, Western Division (on leave)",
       "department": "Magisterial Department",
       "salary_min": 400,
       "salary_max": 400,
@@ -214,7 +214,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Western Division"
     },
     {
       "name": "H. J. Ryan",
@@ -230,7 +230,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Delta Division"
     },
     {
       "name": "G. H. Massey Baker",
@@ -246,7 +246,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Gulf Division"
     },
     {
       "name": "C. T. Wuth",
@@ -262,7 +262,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Mambare Division"
     },
     {
       "name": "E. W. P. Chinnery",
@@ -278,7 +278,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Mambare Division"
     },
     {
       "name": "J. T. O'Malley",
@@ -294,7 +294,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central Division"
     },
     {
       "name": "L. N. Brown",
@@ -310,7 +310,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Central Division"
     },
     {
       "name": "R. W. H. Jones",
@@ -326,7 +326,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Mekeo District"
     },
     {
       "name": "R. H. C. Henry",
@@ -342,7 +342,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Rigo District"
     },
     {
       "name": "C. B. Higginson",
@@ -358,7 +358,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Eastern Division"
     },
     {
       "name": "A. M. MacAlpine",
@@ -374,23 +374,23 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Eastern Division"
     },
     {
       "name": "S. D. Burrows",
       "canonical_name": "Burrows, S. D.",
       "given_names": "S. D.",
       "surname": "Burrows",
-      "position": "Assistant Resident Magistrate, Eastern Division (acting)",
+      "position": "Assistant Resident Magistrate, Eastern Division",
       "department": "Magisterial Department",
       "salary_min": null,
       "salary_max": null,
-      "allowances": "36l. allowance for quarters (on leave)",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Eastern Division"
     },
     {
       "name": "A. H. Symons",
@@ -406,7 +406,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South-Eastern Division"
     },
     {
       "name": "J. T. Miller",
@@ -422,7 +422,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South-Eastern Division"
     },
     {
       "name": "F. Macdonnell",
@@ -438,7 +438,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "North Eastern Division"
     },
     {
       "name": "W. T. Hughes",
@@ -454,7 +454,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "North-Eastern Division"
     },
     {
       "name": "W. N. Beaver",
@@ -470,7 +470,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Kumusi Division"
     },
     {
       "name": "C. F. Jackson",
@@ -486,7 +486,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Kumusi Division"
     },
     {
       "name": "E. R. Oldham",
@@ -518,14 +518,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "East Central Division"
     },
     {
       "name": "W. J. Crane",
       "canonical_name": "Crane, W. J.",
       "given_names": "W. J.",
       "surname": "Crane",
-      "position": "Assistant (acting)",
+      "position": "Assistant",
       "department": "Magisterial Department",
       "salary_min": 225,
       "salary_max": 225,
@@ -541,7 +541,7 @@
       "canonical_name": "Bastard, E. M.",
       "given_names": "E. M.",
       "surname": "Bastard",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -557,7 +557,7 @@
       "canonical_name": "Blyth, A. L.",
       "given_names": "A. L.",
       "surname": "Blyth",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -573,7 +573,7 @@
       "canonical_name": "Chisholm, F. G.",
       "given_names": "F. G.",
       "surname": "Chisholm",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -589,7 +589,7 @@
       "canonical_name": "Crane, W. J.",
       "given_names": "W. J.",
       "surname": "Crane",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -605,7 +605,7 @@
       "canonical_name": "Hooper, G. S.",
       "given_names": "G. S.",
       "surname": "Hooper",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -621,7 +621,7 @@
       "canonical_name": "Huntington, H. W. A.",
       "given_names": "H. W. A.",
       "surname": "Huntington",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -637,7 +637,7 @@
       "canonical_name": "Madden, W. J.",
       "given_names": "W. J.",
       "surname": "Madden",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -653,7 +653,7 @@
       "canonical_name": "Mears, E. W. J.",
       "given_names": "E. W. J.",
       "surname": "Mears",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -669,7 +669,7 @@
       "canonical_name": "Muscutt, C. R.",
       "given_names": "C. R.",
       "surname": "Muscutt",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -685,7 +685,7 @@
       "canonical_name": "Prosser, C. W.",
       "given_names": "C. W.",
       "surname": "Prosser",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -701,7 +701,7 @@
       "canonical_name": "Skelly, E. C.",
       "given_names": "E. C.",
       "surname": "Skelly",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -717,7 +717,7 @@
       "canonical_name": "Smith, C. A. G. B.",
       "given_names": "C. A. G. B.",
       "surname": "Smith",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -733,7 +733,7 @@
       "canonical_name": "Williams, A. G.",
       "given_names": "A. G.",
       "surname": "Williams",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -749,7 +749,7 @@
       "canonical_name": "Woodward, R. A.",
       "given_names": "R. A.",
       "surname": "Woodward",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -765,7 +765,7 @@
       "canonical_name": "Zimmer, G. F. W.",
       "given_names": "G. F. W.",
       "surname": "Zimmer",
-      "position": "Patrol Officer",
+      "position": "Patrol Officers",
       "department": "Armed Constabulary",
       "salary_min": null,
       "salary_max": null,
@@ -1357,7 +1357,7 @@
       "canonical_name": "Johnston, A.",
       "given_names": "A.",
       "surname": "Johnston",
-      "position": "Officer-in-Charge, Kemp Welch Nursery",
+      "position": "Officer-in-Charge",
       "department": "Agricultural Department",
       "salary_min": 275,
       "salary_max": 275,
@@ -1366,14 +1366,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Kemp Welch Nursery"
     },
     {
       "name": "J. B. Stanley",
       "canonical_name": "Stanley, J. B.",
       "given_names": "J. B.",
       "surname": "Stanley",
-      "position": "Gaoler, Rigo",
+      "position": "Gaoler",
       "department": "Agricultural Department",
       "salary_min": 225,
       "salary_max": 225,
@@ -1382,14 +1382,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Rigo"
     },
     {
       "name": "H. E. Garstang",
       "canonical_name": "Garstang, H. E.",
       "given_names": "H. E.",
       "surname": "Garstang",
-      "position": "Officer-in-Charge, Milne Bay Nursery",
+      "position": "Officer-in-Charge",
       "department": "Agricultural Department",
       "salary_min": 250,
       "salary_max": 250,
@@ -1398,14 +1398,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Milne Bay Nursery"
     },
     {
       "name": "C. S. Speedie",
       "canonical_name": "Speedie, C. S.",
       "given_names": "C. S.",
       "surname": "Speedie",
-      "position": "Officer-in-Charge, Hill Nursery",
+      "position": "Officer-in-Charge",
       "department": "Agricultural Department",
       "salary_min": 250,
       "salary_max": 250,
@@ -1414,14 +1414,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hill Nursery"
     },
     {
       "name": "H. E. Catt",
       "canonical_name": "Catt, H. E.",
       "given_names": "H. E.",
       "surname": "Catt",
-      "position": "Officer-in-Charge, Orangerie Bay Nursery",
+      "position": "Officer-in-Charge",
       "department": "Agricultural Department",
       "salary_min": 275,
       "salary_max": 275,
@@ -1430,7 +1430,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Orangerie Bay Nursery"
     },
     {
       "name": "S. M. Carson",
@@ -1449,7 +1449,7 @@
       "location": null
     },
     {
-      "name": "Dr. D. Buchanan",
+      "name": "D. Buchanan",
       "canonical_name": "Buchanan, D.",
       "given_names": "D.",
       "surname": "Buchanan",
@@ -1465,7 +1465,7 @@
       "location": null
     },
     {
-      "name": "Dr. W. E. Giblin",
+      "name": "W. E. Giblin",
       "canonical_name": "Giblin, W. E.",
       "given_names": "W. E.",
       "surname": "Giblin",
@@ -1513,7 +1513,7 @@
       "location": null
     },
     {
-      "name": "Dr. W. M. Strong",
+      "name": "W. M. Strong",
       "canonical_name": "Strong, W. M.",
       "given_names": "W. M.",
       "surname": "Strong",
@@ -1561,7 +1561,7 @@
       "location": "P.M. Hospital"
     },
     {
-      "name": "Miss J. Fleming",
+      "name": "J. Fleming",
       "canonical_name": "Fleming, J.",
       "given_names": "J.",
       "surname": "Fleming",
@@ -1582,7 +1582,7 @@
       "given_names": "B. W.",
       "surname": "Bramell",
       "position": "Commissioner for Native Affairs",
-      "department": "Native Affairs",
+      "department": "Department of Native Affairs",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -1598,7 +1598,7 @@
       "given_names": "L. L.",
       "surname": "Bell",
       "position": "Chief Inspector",
-      "department": "Native Affairs",
+      "department": "Department of Native Affairs",
       "salary_min": 375,
       "salary_max": 375,
       "allowances": null,
@@ -1614,7 +1614,7 @@
       "given_names": "W. H.",
       "surname": "Newman",
       "position": "Clerk",
-      "department": "Native Affairs",
+      "department": "Department of Native Affairs",
       "salary_min": 225,
       "salary_max": 225,
       "allowances": null,
@@ -1661,7 +1661,7 @@
       "canonical_name": "Baker, E. G.",
       "given_names": "E. G.",
       "surname": "Baker",
-      "position": "Government Printer",
+      "position": "Government Printers",
       "department": "Government Printing Office",
       "salary_min": 375,
       "salary_max": 375,
@@ -1677,7 +1677,7 @@
       "canonical_name": "Bock, W. A.",
       "given_names": "W. A.",
       "surname": "Bock",
-      "position": "Compositor",
+      "position": "Compositors",
       "department": "Government Printing Office",
       "salary_min": 225,
       "salary_max": 225,
@@ -1693,7 +1693,7 @@
       "canonical_name": "Gibson, Alfred",
       "given_names": "Alfred",
       "surname": "Gibson",
-      "position": "Compositor",
+      "position": "Compositors",
       "department": "Government Printing Office",
       "salary_min": 200,
       "salary_max": 200,

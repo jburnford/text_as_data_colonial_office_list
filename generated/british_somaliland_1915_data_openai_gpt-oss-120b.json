@@ -1,10 +1,10 @@
 {
   "colony": "British Somaliland",
   "year": 1915,
-  "generated": "2026-03-12T15:10:45.473473",
+  "generated": "2026-03-13T11:01:46.189761",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 40,
+  "total_officials": 35,
   "officials": [
     {
       "name": "G. F. Archer",
@@ -41,7 +41,7 @@
       "location": null
     },
     {
-      "name": "Lt.-Col. T. Astley Cubitt",
+      "name": "T. Astley Cubitt",
       "canonical_name": "Cubitt, T. Astley",
       "given_names": "T. Astley",
       "surname": "Cubitt",
@@ -70,7 +70,7 @@
       "allowances": "40l. duty allowance",
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Major",
       "salary_scale": null,
       "location": null
     },
@@ -83,7 +83,7 @@
       "department": "Administration",
       "salary_min": 400,
       "salary_max": 500,
-      "allowances": "by 20l., duty allowance 40l.",
+      "allowances": "by 20l., and duty allowance, 40l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -91,7 +91,7 @@
       "location": null
     },
     {
-      "name": "J. L. Berne",
+      "name": "Captain J. L. Berne",
       "canonical_name": "Berne, J. L.",
       "given_names": "J. L.",
       "surname": "Berne",
@@ -99,7 +99,7 @@
       "department": "Administration",
       "salary_min": 400,
       "salary_max": 500,
-      "allowances": "by 20l., duty allowance 40l.",
+      "allowances": "by 20l., and duty allowance, 40l.",
       "honors": [],
       "qualifications": [],
       "military_rank": "Captain",
@@ -107,7 +107,7 @@
       "location": null
     },
     {
-      "name": "J. M. Barker",
+      "name": "Lieut.-Commander J. M. Barker",
       "canonical_name": "Barker, J. M.",
       "given_names": "J. M.",
       "surname": "Barker",
@@ -325,7 +325,7 @@
       "department": "Military Department",
       "salary_min": 700,
       "salary_max": 700,
-      "allowances": "144l. duty allowance",
+      "allowances": "duty allowance, 144l",
       "honors": [
         "D.S.O."
       ],
@@ -575,97 +575,17 @@
       "military_rank": "Captain",
       "salary_scale": null,
       "location": null
-    },
-    {
-      "name": "Max Klein",
-      "canonical_name": "Klein, Max",
-      "given_names": "Max",
-      "surname": "Klein",
-      "position": "",
-      "department": "Military Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Paul E. Slipp",
-      "canonical_name": "Slipp, Paul E.",
-      "given_names": "Paul E.",
-      "surname": "Slipp",
-      "position": "",
-      "department": "Military Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Menahim Meessa",
-      "canonical_name": "Meessa, Menahim",
-      "given_names": "Menahim",
-      "surname": "Meessa",
-      "position": "",
-      "department": "Military Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Cesar Tian",
-      "canonical_name": "Tian, Cesar",
-      "given_names": "Cesar",
-      "surname": "Tian",
-      "position": "",
-      "department": "Military Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Maurice Ries",
-      "canonical_name": "Ries, Maurice",
-      "given_names": "Maurice",
-      "surname": "Ries",
-      "position": "",
-      "department": "Military Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
     }
   ],
   "validation_summary": {
     "colony": "British Somaliland",
     "year": 1915,
-    "total": 40,
-    "high_confidence": 40,
+    "total": 35,
+    "high_confidence": 35,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 40,
+    "passed": 35,
     "anomaly_count": 1
   }
 }

@@ -1,10 +1,10 @@
 {
   "colony": "St Helena",
   "year": 1917,
-  "generated": "2026-03-12T15:23:43.874912",
+  "generated": "2026-03-13T11:36:52.591035",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 22,
+  "total_officials": 23,
   "officials": [
     {
       "name": "H. E. S. Cordeaux",
@@ -253,6 +253,22 @@
       "location": null
     },
     {
+      "name": "Thomas Broadway (acting)",
+      "canonical_name": "Broadway, Thomas (acting)",
+      "given_names": "Thomas",
+      "surname": "Broadway",
+      "position": "Foreman of Works",
+      "department": "Civil Establishment",
+      "salary_min": 30,
+      "salary_max": 30,
+      "allowances": "27l. for horse allowance",
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
       "name": "B. E. Grant",
       "canonical_name": "Grant, B. E.",
       "given_names": "B. E.",
@@ -285,9 +301,9 @@
       "location": null
     },
     {
-      "name": "Girdwood",
-      "canonical_name": "Girdwood",
-      "given_names": "",
+      "name": "Miss Girdwood",
+      "canonical_name": "Girdwood, Miss",
+      "given_names": "Miss",
       "surname": "Girdwood",
       "position": "Manageress, Government Lace School",
       "department": "Civil Establishment",
@@ -301,7 +317,7 @@
       "location": null
     },
     {
-      "name": "W. A. Holbech",
+      "name": "The Rt. Rev. W. A. Holbech, D.D.",
       "canonical_name": "Holbech, W. A.",
       "given_names": "W. A.",
       "surname": "Holbech",
@@ -317,7 +333,7 @@
       "location": null
     },
     {
-      "name": "L. C. Walcott",
+      "name": "Rev. L. C. Walcott",
       "canonical_name": "Walcott, L. C.",
       "given_names": "L. C.",
       "surname": "Walcott",
@@ -368,12 +384,12 @@
   "validation_summary": {
     "colony": "St Helena",
     "year": 1917,
-    "total": 22,
-    "high_confidence": 21,
-    "medium_confidence": 1,
+    "total": 23,
+    "high_confidence": 23,
+    "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 22,
+    "passed": 23,
     "anomaly_count": 0
   }
 }

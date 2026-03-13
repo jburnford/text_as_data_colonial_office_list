@@ -1,7 +1,7 @@
 {
   "colony": "Seychelles",
   "year": 1917,
-  "generated": "2026-03-12T15:25:22.828400",
+  "generated": "2026-03-13T11:38:56.141577",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 90,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 18000,
       "salary_max": 18000,
-      "allowances": "including Rs. 3,000 entertaining allowance",
+      "allowances": "Rs. 3,000 entertaining allowance",
       "honors": [
         "C.M.G."
       ],
@@ -297,7 +297,7 @@
       "location": null
     },
     {
-      "name": "D. Sauvage",
+      "name": "Capt. D. Sauvage",
       "canonical_name": "Sauvage, D.",
       "given_names": "D.",
       "surname": "Sauvage",
@@ -660,11 +660,11 @@
       "canonical_name": "Marie, J. G.",
       "given_names": "J. G.",
       "surname": "Marie",
-      "position": "Assistant Medical Officer, Praslin District",
+      "position": "Assistant Medical Officer, Praslin District; Superintendent of Leper Asylum and Pauper Camp",
       "department": "Medical Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "Rs. 500 as Superintendent of Leper Asylum and Pauper Camp",
+      "allowances": "Rs 500 as Superintendent of Leper Asylum and Pauper Camp",
       "honors": [],
       "qualifications": [
         "M.D."
@@ -701,12 +701,12 @@
       "department": "Medical Department",
       "salary_min": 600,
       "salary_max": 1800,
-      "allowances": "personal allowance, Rs. 600",
+      "allowances": "personal allowance, Rs 600",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Victoria Hospital"
+      "location": null
     },
     {
       "name": "A. Cauvin",
@@ -726,8 +726,8 @@
     },
     {
       "name": "Sister Lucy",
-      "canonical_name": "Lucy, Sister",
-      "given_names": "Sister",
+      "canonical_name": "Lucy, ",
+      "given_names": "",
       "surname": "Lucy",
       "position": "Matron, do.",
       "department": "Medical Department",
@@ -774,8 +774,8 @@
     },
     {
       "name": "Sister Herbert",
-      "canonical_name": "Herbert, Sister",
-      "given_names": "Sister",
+      "canonical_name": "Herbert, ",
+      "given_names": "",
       "surname": "Herbert",
       "position": "Housekeeper, do.",
       "department": "Medical Department",
@@ -806,9 +806,9 @@
     },
     {
       "name": "H. Jean Louis",
-      "canonical_name": "Louis, H. Jean",
-      "given_names": "H. Jean",
-      "surname": "Louis",
+      "canonical_name": "Jean Louis, H.",
+      "given_names": "H.",
+      "surname": "Jean Louis",
       "position": "Clerk, Praslin",
       "department": "Medical Department",
       "salary_min": 600,
@@ -853,7 +853,7 @@
       "location": null
     },
     {
-      "name": "John Damascene",
+      "name": "Father John Damascene",
       "canonical_name": "Damascene, John",
       "given_names": "John",
       "surname": "Damascene",
@@ -869,7 +869,7 @@
       "location": null
     },
     {
-      "name": "C\u00e9saire",
+      "name": "Rev. Father C\u00e9saire",
       "canonical_name": "C\u00e9saire",
       "given_names": "",
       "surname": "C\u00e9saire",
@@ -885,7 +885,7 @@
       "location": null
     },
     {
-      "name": "Laurent",
+      "name": "Rev. Father Laurent",
       "canonical_name": "Laurent",
       "given_names": "",
       "surname": "Laurent",
@@ -902,10 +902,10 @@
     },
     {
       "name": "Rev. S. L. Lambert",
-      "canonical_name": "Lambert, Rev. S. L.",
-      "given_names": "Rev. S. L.",
+      "canonical_name": "Lambert, S. L.",
+      "given_names": "S. L.",
       "surname": "Lambert",
-      "position": "Minister",
+      "position": "Minister, Praslin",
       "department": "Church of England",
       "salary_min": 750,
       "salary_max": 750,
@@ -1007,7 +1007,7 @@
       "department": "Post Office",
       "salary_min": 1800,
       "salary_max": 3000,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1023,7 +1023,7 @@
       "department": "Post Office",
       "salary_min": 660,
       "salary_max": 1080,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1039,7 +1039,7 @@
       "department": "Post Office",
       "salary_min": 600,
       "salary_max": 900,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1071,7 +1071,7 @@
       "department": "Botanic Station",
       "salary_min": 240,
       "salary_max": 480,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1087,10 +1087,10 @@
       "department": "Botanic Station",
       "salary_min": 600,
       "salary_max": 720,
-      "allowances": "",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Sergeant",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1243,7 +1243,7 @@
       "canonical_name": "Westergreen, F.",
       "given_names": "F.",
       "surname": "Westergreen",
-      "position": "Town Surveyor | Sanitary Inspector",
+      "position": "Town Surveyor / Sanitary Inspector",
       "department": "Local Board of Health, Central District",
       "salary_min": 960,
       "salary_max": 1200,
@@ -1421,7 +1421,7 @@
       "canonical_name": "Pare, H. A.",
       "given_names": "H. A.",
       "surname": "Pare",
-      "position": "",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1453,7 +1453,7 @@
       "canonical_name": "Merian, A.",
       "given_names": "A.",
       "surname": "Merian",
-      "position": "",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1469,11 +1469,11 @@
     "colony": "Seychelles",
     "year": 1917,
     "total": 90,
-    "high_confidence": 88,
-    "medium_confidence": 2,
+    "high_confidence": 86,
+    "medium_confidence": 4,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 90,
-    "anomaly_count": 12
+    "anomaly_count": 11
   }
 }

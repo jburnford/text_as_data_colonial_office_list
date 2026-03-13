@@ -1,21 +1,21 @@
 {
   "colony": "Newfoundland",
   "year": 1915,
-  "generated": "2026-03-12T15:14:59.285643",
+  "generated": "2026-03-13T11:16:20.274288",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 178,
   "officials": [
     {
       "name": "Sir Walter E. Davidson",
-      "canonical_name": "Davidson, Walter E.",
-      "given_names": "Walter E.",
+      "canonical_name": "Davidson, Sir Walter E.",
+      "given_names": "Sir Walter E.",
       "surname": "Davidson",
       "position": "Governor, Commander-in-Chief, and Vice-Admiral",
       "department": "Civil Establishment",
       "salary_min": 12500,
       "salary_max": 12500,
-      "allowances": "2500 for travelling and entertainment",
+      "allowances": "2,500 for travelling and entertainment",
       "honors": [
         "K.C.M.G."
       ],
@@ -301,7 +301,7 @@
       "canonical_name": "Brehm, R. A.",
       "given_names": "R. A.",
       "surname": "Brehm",
-      "position": "Medical Health Officer",
+      "position": "Medical Health Officer, St. John's",
       "department": "Public Charities",
       "salary_min": 2000,
       "salary_max": 2000,
@@ -313,12 +313,12 @@
       "location": "St. John's"
     },
     {
-      "name": "Hon. M. P. Cashin",
+      "name": "M. P. Cashin",
       "canonical_name": "Cashin, M. P.",
       "given_names": "M. P.",
       "surname": "Cashin",
       "position": "Minister of Finance and Customs",
-      "department": "Departments of Finance and Customs",
+      "department": "Finance and Customs",
       "salary_min": 2000,
       "salary_max": 2000,
       "allowances": null,
@@ -334,7 +334,7 @@
       "given_names": "J. S.",
       "surname": "Keating",
       "position": "Deputy Minister",
-      "department": "Finance",
+      "department": "Department of Finance",
       "salary_min": 1500,
       "salary_max": 1500,
       "allowances": null,
@@ -350,7 +350,7 @@
       "given_names": "George",
       "surname": "Bursell",
       "position": "1st Clerk",
-      "department": "Finance",
+      "department": "Department of Finance",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -1449,7 +1449,7 @@
       "location": null
     },
     {
-      "name": "S. D. Blandford",
+      "name": "Hon. S. D. Blandford",
       "canonical_name": "Blandford, S. D.",
       "given_names": "S. D.",
       "surname": "Blandford",
@@ -1513,9 +1513,9 @@
       "location": null
     },
     {
-      "name": "William Woodford",
-      "canonical_name": "Woodford, William",
-      "given_names": "William",
+      "name": "W. Woodford",
+      "canonical_name": "Woodford, W.",
+      "given_names": "W.",
       "surname": "Woodford",
       "position": "Minister of Public Works",
       "department": "Public Works",
@@ -1545,9 +1545,9 @@
       "location": null
     },
     {
-      "name": "William C. Pearce",
-      "canonical_name": "Pearce, William C.",
-      "given_names": "William C.",
+      "name": "W. C. Pearce",
+      "canonical_name": "Pearce, W. C.",
+      "given_names": "W. C.",
       "surname": "Pearce",
       "position": "1st Clerk",
       "department": "Public Works",
@@ -1965,7 +1965,7 @@
       "location": "Ferryland"
     },
     {
-      "name": "Dr. L. J. Giovannetti",
+      "name": "L. J. Giovannetti",
       "canonical_name": "Giovannetti, L. J.",
       "given_names": "L. J.",
       "surname": "Giovannetti",
@@ -1981,7 +1981,7 @@
       "location": "Trepassy"
     },
     {
-      "name": "Dr. William Hogan",
+      "name": "William Hogan",
       "canonical_name": "Hogan, William",
       "given_names": "William",
       "surname": "Hogan",
@@ -2109,9 +2109,9 @@
       "location": "Carbonar"
     },
     {
-      "name": "Geo. R. Forsey",
-      "canonical_name": "Forsey, Geo. R.",
-      "given_names": "Geo. R.",
+      "name": "George R. Forsey",
+      "canonical_name": "Forsey, George R.",
+      "given_names": "George R.",
       "surname": "Forsey",
       "position": "Magistrate",
       "department": "Judicial Establishment",
@@ -2189,9 +2189,9 @@
       "location": "Brigus"
     },
     {
-      "name": "Jos. Small",
-      "canonical_name": "Small, Jos.",
-      "given_names": "Jos.",
+      "name": "Joseph Small",
+      "canonical_name": "Small, Joseph",
+      "given_names": "Joseph",
       "surname": "Small",
       "position": "Magistrate",
       "department": "Judicial Establishment",
@@ -2205,9 +2205,9 @@
       "location": "Burgeo"
     },
     {
-      "name": "Jos. Benning",
-      "canonical_name": "Benning, Jos.",
-      "given_names": "Jos.",
+      "name": "Joseph Benning",
+      "canonical_name": "Benning, Joseph",
+      "given_names": "Joseph",
       "surname": "Benning",
       "position": "Magistrate",
       "department": "Judicial Establishment",
@@ -2339,7 +2339,7 @@
       "canonical_name": "Burke, Vincent P.",
       "given_names": "Vincent P.",
       "surname": "Burke",
-      "position": "Diocese of St. John's and St. George's",
+      "position": "Roman Catholic",
       "department": "Educational Establishment",
       "salary_min": 1620,
       "salary_max": 1620,
@@ -2357,7 +2357,7 @@
       "canonical_name": "Hanrahan, Thomas",
       "given_names": "Thomas",
       "surname": "Hanrahan",
-      "position": "Diocese of Harbour Grace",
+      "position": "Roman Catholic",
       "department": "Educational Establishment",
       "salary_min": 1620,
       "salary_max": 1620,
@@ -2455,7 +2455,7 @@
       "canonical_name": "Cook, Tasker",
       "given_names": "Tasker",
       "surname": "Cook",
-      "position": "Denmark",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2519,7 +2519,7 @@
       "canonical_name": "Outerbridge, N.",
       "given_names": "N.",
       "surname": "Outerbridge",
-      "position": "Netherlands",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -2775,7 +2775,7 @@
       "canonical_name": "Benedict, James S.",
       "given_names": "James S.",
       "surname": "Benedict",
-      "position": "Consul for Newfoundland",
+      "position": "Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,

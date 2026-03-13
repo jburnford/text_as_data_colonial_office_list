@@ -1,7 +1,7 @@
 {
   "colony": "Falkland Islands",
   "year": 1917,
-  "generated": "2026-03-12T15:19:31.438132",
+  "generated": "2026-03-13T11:27:31.769237",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 51,
@@ -150,7 +150,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Stanley"
     },
     {
       "name": "G. R. L. Brown",
@@ -166,7 +166,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Stanley"
     },
     {
       "name": "A. G. Bennett",
@@ -177,12 +177,12 @@
       "department": "Stanley",
       "salary_min": 120,
       "salary_max": 120,
-      "allowances": "fees and quarters",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Stanley"
     },
     {
       "name": "S. Riches",
@@ -193,12 +193,12 @@
       "department": "Stanley",
       "salary_min": 120,
       "salary_max": 120,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Stanley"
     },
     {
       "name": "W. Barlas",
@@ -214,14 +214,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "New Island"
     },
     {
       "name": "E. B. Binnie",
       "canonical_name": "Binnie, E. B.",
       "given_names": "E. B.",
       "surname": "Binnie",
-      "position": "Deputy Collector (also Magistrate)",
+      "position": "Deputy Collector",
       "department": "South Georgia",
       "salary_min": null,
       "salary_max": null,
@@ -230,7 +230,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South Georgia"
     },
     {
       "name": "A. G. Simon",
@@ -246,7 +246,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South Georgia"
     },
     {
       "name": "J. Wood",
@@ -262,7 +262,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South Georgia"
     },
     {
       "name": "M. Craigie-Halkett",
@@ -273,7 +273,7 @@
       "department": "Post Office",
       "salary_min": 350,
       "salary_max": 350,
-      "allowances": "fees",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -281,7 +281,7 @@
       "location": null
     },
     {
-      "name": "I. Atkins",
+      "name": "Miss I. Atkins",
       "canonical_name": "Atkins, I.",
       "given_names": "I.",
       "surname": "Atkins",
@@ -305,7 +305,7 @@
       "department": "Medical",
       "salary_min": 400,
       "salary_max": 400,
-      "allowances": "25l. as Health Officer",
+      "allowances": "25l. as Health Officer, and private practice",
       "honors": [],
       "qualifications": [
         "L.R.C.P."
@@ -323,7 +323,7 @@
       "department": "Medical",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "200l. from Farmers' Association",
+      "allowances": "and private practice, and 200l. from Farmers' Association",
       "honors": [],
       "qualifications": [
         "M.R.C.S.",
@@ -334,7 +334,7 @@
       "location": "East Falkland"
     },
     {
-      "name": "Miss M. B. Niven",
+      "name": "M. B. Niven",
       "canonical_name": "Niven, M. B.",
       "given_names": "M. B.",
       "surname": "Niven",
@@ -342,7 +342,7 @@
       "department": "Medical",
       "salary_min": 90,
       "salary_max": 90,
-      "allowances": "board and quarters at Hospital",
+      "allowances": "with board and quarters at Hospital",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -354,7 +354,7 @@
       "canonical_name": "Craigie-Halkett, M.",
       "given_names": "M.",
       "surname": "Craigie-Halkett",
-      "position": "Registrar, etc.; also Postmaster, etc.",
+      "position": "Registrar, etc.",
       "department": "Judicial Department",
       "salary_min": null,
       "salary_max": null,
@@ -367,10 +367,10 @@
     },
     {
       "name": "J. Innes Wilson",
-      "canonical_name": "Innes Wilson, J.",
-      "given_names": "J.",
-      "surname": "Innes Wilson",
-      "position": "Magistrate, West Falkland",
+      "canonical_name": "Wilson, J. Innes",
+      "given_names": "J. Innes",
+      "surname": "Wilson",
+      "position": "Magistrate",
       "department": "Judicial Department",
       "salary_min": 250,
       "salary_max": 250,
@@ -379,14 +379,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "West Falkland"
     },
     {
       "name": "E. B. Binnie",
       "canonical_name": "Binnie, E. B.",
       "given_names": "E. B.",
       "surname": "Binnie",
-      "position": "Magistrate, South Georgia",
+      "position": "Magistrate",
       "department": "Judicial Department",
       "salary_min": 300,
       "salary_max": 300,
@@ -395,7 +395,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "South Georgia"
     },
     {
       "name": "A. R. Hoare",
@@ -415,8 +415,8 @@
     },
     {
       "name": "Mrs. E. Hoare",
-      "canonical_name": "Hoare, E.",
-      "given_names": "E.",
+      "canonical_name": "Hoare, Mrs. E.",
+      "given_names": "Mrs. E.",
       "surname": "Hoare",
       "position": "Schoolmistress",
       "department": "Educational",
@@ -447,8 +447,8 @@
     },
     {
       "name": "Miss M. Carey",
-      "canonical_name": "Carey, M.",
-      "given_names": "M.",
+      "canonical_name": "Carey, Miss M.",
+      "given_names": "Miss M.",
       "surname": "Carey",
       "position": "Assistant Mistress",
       "department": "Educational",
@@ -598,7 +598,7 @@
       "department": "Public Works",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": null,
+      "allowances": "and quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -638,7 +638,7 @@
       "location": "Stanley"
     },
     {
-      "name": "Miss E. E. Aldridge",
+      "name": "E. E. Aldridge",
       "canonical_name": "Aldridge, E. E.",
       "given_names": "E. E.",
       "surname": "Aldridge",
@@ -678,7 +678,7 @@
       "department": "Port and Harbour",
       "salary_min": 180,
       "salary_max": 180,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -710,7 +710,7 @@
       "department": "Port and Harbour",
       "salary_min": 15,
       "salary_max": 15,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -726,7 +726,7 @@
       "department": "Port and Harbour",
       "salary_min": 125,
       "salary_max": 125,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -742,7 +742,7 @@
       "department": "Port and Harbour",
       "salary_min": 96,
       "salary_max": 96,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -754,7 +754,7 @@
       "canonical_name": "Smith, Stanley",
       "given_names": "Stanley",
       "surname": "Smith",
-      "position": "Dean of Christ Church Cathedral, Ve.",
+      "position": "Dean",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,

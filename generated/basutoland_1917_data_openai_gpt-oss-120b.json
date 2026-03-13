@@ -1,13 +1,13 @@
 {
   "colony": "Basutoland",
   "year": 1917,
-  "generated": "2026-03-12T15:16:23.493242",
+  "generated": "2026-03-13T11:19:59.917708",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 39,
   "officials": [
     {
-      "name": "Robert Thorne Coryndon",
+      "name": "Robert Thorne Coryndon Esq.",
       "canonical_name": "Coryndon, Robert Thorne",
       "given_names": "Robert Thorne",
       "surname": "Coryndon",
@@ -492,9 +492,9 @@
     },
     {
       "name": "Harold Rundle Fitz Nattle",
-      "canonical_name": "Fitz Nattle, Harold Rundle",
-      "given_names": "Harold Rundle",
-      "surname": "Fitz Nattle",
+      "canonical_name": "Nattle, Harold Rundle Fitz",
+      "given_names": "Harold Rundle Fitz",
+      "surname": "Nattle",
       "position": "Medical Officer",
       "department": "Establishment",
       "salary_min": 585,
@@ -527,7 +527,7 @@
       "canonical_name": "Stuart, Walter L.",
       "given_names": "Walter L.",
       "surname": "Stuart",
-      "position": "Medical Officer, Lepor Asylum",
+      "position": "Medical Officer",
       "department": "Establishment",
       "salary_min": 400,
       "salary_max": 400,
@@ -536,7 +536,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Lepor Asylum"
     },
     {
       "name": "John Wrightman Stirling",
