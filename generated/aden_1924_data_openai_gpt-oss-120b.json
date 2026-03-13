@@ -1,0 +1,69 @@
+{
+  "colony": "Aden",
+  "year": 1924,
+  "generated": "2026-03-12T23:55:15.592294",
+  "model": "openai/gpt-oss-120b",
+  "tier": "LARGE",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "Sir J. Vogel",
+      "canonical_name": "Vogel, J.",
+      "given_names": "J.",
+      "surname": "Vogel",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Mr. Chamberlain",
+      "canonical_name": "Chamberlain, Mr.",
+      "given_names": "Mr.",
+      "surname": "Chamberlain",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Mr. Alfred Marshall",
+      "canonical_name": "Marshall, Alfred",
+      "given_names": "Alfred",
+      "surname": "Marshall",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Aden",
+    "year": 1924,
+    "total": 3,
+    "high_confidence": 3,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}
