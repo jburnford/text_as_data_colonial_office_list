@@ -1,17 +1,17 @@
 {
   "colony": "Ascension",
   "year": 1897,
-  "generated": "2026-03-12T13:16:01.535640",
+  "generated": "2026-03-13T06:37:59.248726",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 5,
+  "total_officials": 6,
   "officials": [
     {
       "name": "R. Evans",
       "canonical_name": "Evans, R.",
       "given_names": "R.",
       "surname": "Evans",
-      "position": "Captain, R.N.",
+      "position": "Captain",
       "department": null,
       "salary_min": null,
       "salary_max": null,
@@ -23,9 +23,25 @@
       "location": null
     },
     {
-      "name": "Governor Glass",
+      "name": "Tristan D'Acunha",
+      "canonical_name": "D'Acunha, Tristan",
+      "given_names": "Tristan",
+      "surname": "D'Acunha",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Glass",
       "canonical_name": "Glass",
-      "given_names": "",
+      "given_names": null,
       "surname": "Glass",
       "position": "Governor",
       "department": null,
@@ -34,14 +50,14 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Corporal",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Mr. Arundel",
+      "name": "Arundel",
       "canonical_name": "Arundel",
-      "given_names": "",
+      "given_names": null,
       "surname": "Arundel",
       "position": null,
       "department": null,
@@ -57,7 +73,7 @@
     {
       "name": "Grice",
       "canonical_name": "Grice",
-      "given_names": "",
+      "given_names": null,
       "surname": "Grice",
       "position": null,
       "department": null,
@@ -73,7 +89,7 @@
     {
       "name": "Sumner",
       "canonical_name": "Sumner",
-      "given_names": "",
+      "given_names": null,
       "surname": "Sumner",
       "position": null,
       "department": null,
@@ -90,12 +106,12 @@
   "validation_summary": {
     "colony": "Ascension",
     "year": 1897,
-    "total": 6,
-    "high_confidence": 1,
+    "total": 7,
+    "high_confidence": 2,
     "medium_confidence": 4,
     "low_confidence": 1,
     "quarantined": 1,
-    "passed": 5,
+    "passed": 6,
     "anomaly_count": 0
   }
 }
