@@ -1,7 +1,7 @@
 {
   "colony": "Gibraltar",
   "year": 1906,
-  "generated": "2026-03-12T14:14:04.082569",
+  "generated": "2026-03-13T08:41:32.544751",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 104,
@@ -130,7 +130,7 @@
       "department": "Revenue Department",
       "salary_min": 250,
       "salary_max": 350,
-      "allowances": "72l. as Treasurer to the Sanitary Commissioners",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -146,7 +146,7 @@
       "department": "Revenue Department",
       "salary_min": 190,
       "salary_max": 250,
-      "allowances": "Clerk to Registrar of Shipping, 25l.",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -162,7 +162,7 @@
       "department": "Revenue Department",
       "salary_min": 140,
       "salary_max": 180,
-      "allowances": "25l. as Accountant",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -213,7 +213,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Commander",
       "salary_scale": null,
       "location": null
     },
@@ -303,7 +303,7 @@
       "given_names": "W. D.",
       "surname": "Bathurst",
       "position": "Local Auditor",
-      "department": "Audit (under the Comptroller and Auditor-General)",
+      "department": "Audit",
       "salary_min": 300,
       "salary_max": 350,
       "allowances": "80l. as Auditor to the Sanitary Commissioners, and 50l. for audit of Navy expense accounts",
@@ -339,9 +339,7 @@
       "salary_min": 800,
       "salary_max": 800,
       "allowances": null,
-      "honors": [
-        "K.C."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -418,7 +416,7 @@
       "canonical_name": "Edwards, C. J.",
       "given_names": "C. J.",
       "surname": "Edwards",
-      "position": "3rd Class Clerk",
+      "position": "3rd Class Clerks",
       "department": "Judicial Department",
       "salary_min": 75,
       "salary_max": 135,
@@ -434,7 +432,7 @@
       "canonical_name": "Prescott, A. S.",
       "given_names": "A. S.",
       "surname": "Prescott",
-      "position": "3rd Class Clerk",
+      "position": "3rd Class Clerks",
       "department": "Judicial Department",
       "salary_min": 75,
       "salary_max": 135,
@@ -535,16 +533,14 @@
       "salary_min": 60,
       "salary_max": 60,
       "allowances": null,
-      "honors": [
-        "K.C."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Miss M. Creswell",
+      "name": "M. Creswell",
       "canonical_name": "Creswell, M.",
       "given_names": "M.",
       "surname": "Creswell",
@@ -736,9 +732,9 @@
       "location": "Tangier"
     },
     {
-      "name": "William Turner",
-      "canonical_name": "Turner, William",
-      "given_names": "William",
+      "name": "W. Turner",
+      "canonical_name": "Turner, W.",
+      "given_names": "W.",
       "surname": "Turner",
       "position": "Surgeon, Colonial Hospital, Gaol, and Lunatic Asylum",
       "department": "Medical Department",
@@ -820,9 +816,9 @@
       "location": null
     },
     {
-      "name": "William Boulton",
-      "canonical_name": "Boulton, William",
-      "given_names": "William",
+      "name": "W. Boulton",
+      "canonical_name": "Boulton, W.",
+      "given_names": "W.",
       "surname": "Boulton",
       "position": "Gaoler",
       "department": "Civil Prison",
@@ -984,9 +980,9 @@
       "location": null
     },
     {
-      "name": "William E. Collins",
-      "canonical_name": "Collins, William E.",
-      "given_names": "William E.",
+      "name": "W. E. Collins",
+      "canonical_name": "Collins, W. E.",
+      "given_names": "W. E.",
       "surname": "Collins",
       "position": "Anglican Bishop",
       "department": "Ecclesiastical",
@@ -1018,7 +1014,7 @@
       "location": null
     },
     {
-      "name": "Dom Guido Remigio Barbieri",
+      "name": "Guido Remigio Barbieri",
       "canonical_name": "Barbieri, Guido Remigio",
       "given_names": "Guido Remigio",
       "surname": "Barbieri",
@@ -1060,11 +1056,10 @@
       "salary_max": null,
       "allowances": null,
       "honors": [
-        "C.V.O.",
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Major-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1098,7 +1093,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Major-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1119,7 +1114,7 @@
       "location": null
     },
     {
-      "name": "Sir F. Chichester",
+      "name": "F. Chichester",
       "canonical_name": "Chichester, F.",
       "given_names": "F.",
       "surname": "Chichester",
@@ -1133,7 +1128,7 @@
         "C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Rear-Admiral",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1199,7 +1194,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Engineer-Commander",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1461,9 +1456,9 @@
     },
     {
       "name": "J. da Costa Freire",
-      "canonical_name": "da Costa Freire, J.",
-      "given_names": "J.",
-      "surname": "da Costa Freire",
+      "canonical_name": "Freire, J. da Costa",
+      "given_names": "J. da Costa",
+      "surname": "Freire",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -1509,9 +1504,9 @@
     },
     {
       "name": "Cid Abdalim Ben Bou Zian",
-      "canonical_name": "Abdalim Ben Bou Zian, Cid",
-      "given_names": "Cid",
-      "surname": "Abdalim Ben Bou Zian",
+      "canonical_name": "Zian, Cid Abdalim Ben Bou",
+      "given_names": "Cid Abdalim Ben Bou",
+      "surname": "Zian",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -1557,9 +1552,9 @@
     },
     {
       "name": "J. Nunes Tavares",
-      "canonical_name": "Nunes Tavares, J.",
-      "given_names": "J.",
-      "surname": "Nunes Tavares",
+      "canonical_name": "Tavares, J. Nunes",
+      "given_names": "J. Nunes",
+      "surname": "Tavares",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -1589,9 +1584,9 @@
     },
     {
       "name": "F. Marti y Jauregui",
-      "canonical_name": "Marti y Jauregui, F.",
-      "given_names": "F.",
-      "surname": "Marti y Jauregui",
+      "canonical_name": "Jauregui, F. Marti y",
+      "given_names": "F. Marti y",
+      "surname": "Jauregui",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,
