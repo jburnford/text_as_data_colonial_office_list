@@ -1,7 +1,7 @@
 {
   "colony": "Kenya",
   "year": 1907,
-  "generated": "2026-03-12T14:28:28.335154",
+  "generated": "2026-03-13T09:08:20.286857",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 59,
@@ -144,7 +144,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Mombasa"
+      "location": null
     },
     {
       "name": "J. Ainsworth",
@@ -162,7 +162,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Ukamba"
+      "location": null
     },
     {
       "name": "K. MacDougall",
@@ -178,7 +178,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Tanaland"
+      "location": null
     },
     {
       "name": "H. F. Kirkpatrick",
@@ -194,7 +194,7 @@
       "qualifications": [],
       "military_rank": "Major",
       "salary_scale": null,
-      "location": "Jubaland"
+      "location": null
     },
     {
       "name": "S. L. Hindle",
@@ -210,7 +210,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Kenya"
+      "location": null
     },
     {
       "name": "S. S. Bagge",
@@ -226,7 +226,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Kisumu"
+      "location": null
     },
     {
       "name": "C. C. Bowring",
@@ -432,7 +432,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Col.",
+      "military_rank": "Lt.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -499,7 +499,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Brig.-Gen.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -517,7 +517,7 @@
         "D.S.O."
       ],
       "qualifications": [],
-      "military_rank": "Brevet-Major",
+      "military_rank": "Major",
       "salary_scale": null,
       "location": null
     },
@@ -629,9 +629,11 @@
       "salary_min": 1500,
       "salary_max": 1500,
       "allowances": null,
-      "honors": [],
+      "honors": [
+        "C.S.I."
+      ],
       "qualifications": [],
-      "military_rank": "Lieut.-Col.",
+      "military_rank": "Lt.-Col.",
       "salary_scale": null,
       "location": null
     },

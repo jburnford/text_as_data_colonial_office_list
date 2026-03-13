@@ -1,7 +1,7 @@
 {
   "colony": "Cyprus",
   "year": 1907,
-  "generated": "2026-03-12T14:29:28.371732",
+  "generated": "2026-03-13T09:11:25.169941",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 192,
@@ -60,9 +60,9 @@
     },
     {
       "name": "T. H. Hatton Richards",
-      "canonical_name": "Richards, T. H. Hatton",
-      "given_names": "T. H. Hatton",
-      "surname": "Richards",
+      "canonical_name": "Hatton Richards, T. H.",
+      "given_names": "T. H.",
+      "surname": "Hatton Richards",
       "position": "Assistant Secretary",
       "department": "Office of the Chief Secretary to Government",
       "salary_min": 350,
@@ -358,7 +358,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": "Lieut.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -463,7 +463,7 @@
       "canonical_name": "Michaelides, E. G.",
       "given_names": "E. G.",
       "surname": "Michaelides",
-      "position": "2nd Division Clerks",
+      "position": "2nd Division Clerk",
       "department": "Receiver-General's Department",
       "salary_min": 120,
       "salary_max": 180,
@@ -479,7 +479,7 @@
       "canonical_name": "Mantovani, G. L.",
       "given_names": "G. L.",
       "surname": "Mantovani",
-      "position": "2nd Division Clerks",
+      "position": "2nd Division Clerk",
       "department": "Receiver-General's Department",
       "salary_min": 120,
       "salary_max": 180,
@@ -536,7 +536,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "London"
+      "location": null
     },
     {
       "name": "P. Karageorgiades",
@@ -587,7 +587,7 @@
       "location": null
     },
     {
-      "name": "J. C. Gore",
+      "name": "Lieut.-Col. J. C. Gore",
       "canonical_name": "Gore, J. C.",
       "given_names": "J. C.",
       "surname": "Gore",
@@ -651,7 +651,7 @@
       "location": "Limassol"
     },
     {
-      "name": "J. Berry",
+      "name": "Capt. J. Berry",
       "canonical_name": "Berry, J.",
       "given_names": "J.",
       "surname": "Berry",
@@ -957,7 +957,7 @@
       "location": null
     },
     {
-      "name": "Miss A. A. Pallot",
+      "name": "A. A. Pallot",
       "canonical_name": "Pallot, A. A.",
       "given_names": "A. A.",
       "surname": "Pallot",
@@ -1327,8 +1327,8 @@
       "location": null
     },
     {
-      "name": "Chamberlayne",
-      "canonical_name": "Chamberlayne",
+      "name": "Major Chamberlayne",
+      "canonical_name": "Chamberlayne, ",
       "given_names": "",
       "surname": "Chamberlayne",
       "position": "Commissioner",
@@ -1343,7 +1343,7 @@
       "location": null
     },
     {
-      "name": "Christojaiki",
+      "name": "G. Christojaiki",
       "canonical_name": "Christojaiki, G.",
       "given_names": "G.",
       "surname": "Christojaiki",
@@ -1359,7 +1359,7 @@
       "location": null
     },
     {
-      "name": "Gavrielides",
+      "name": "S. P. Gavrielides",
       "canonical_name": "Gavrielides, S. P.",
       "given_names": "S. P.",
       "surname": "Gavrielides",
@@ -1375,7 +1375,7 @@
       "location": null
     },
     {
-      "name": "Phylactou",
+      "name": "G. Phylactou",
       "canonical_name": "Phylactou, G.",
       "given_names": "G.",
       "surname": "Phylactou",
@@ -1663,9 +1663,9 @@
       "location": null
     },
     {
-      "name": "F. D. Newham",
-      "canonical_name": "Newham, F. D.",
-      "given_names": "F. D.",
+      "name": "Rev. F. D. Newham",
+      "canonical_name": "Newham, Rev. F. D.",
+      "given_names": "Rev. F. D.",
       "surname": "Newham",
       "position": "Inspector of Schools",
       "department": "Education Department",
@@ -1920,9 +1920,9 @@
     },
     {
       "name": "W. W. Durham Hall",
-      "canonical_name": "Durham Hall, W. W.",
-      "given_names": "W. W.",
-      "surname": "Durham Hall",
+      "canonical_name": "Hall, W. W. Durham",
+      "given_names": "W. W. Durham",
+      "surname": "Hall",
       "position": "Local Commandant",
       "department": "Post Office Department",
       "salary_min": 306,
@@ -2215,7 +2215,7 @@
       "department": "Prison Department",
       "salary_min": 240,
       "salary_max": 240,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2231,7 +2231,7 @@
       "department": "Prison Department",
       "salary_min": 150,
       "salary_max": 150,
-      "allowances": null,
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -2255,9 +2255,9 @@
       "location": null
     },
     {
-      "name": "Thomas Constantinides",
-      "canonical_name": "Constantinides, Thomas",
-      "given_names": "Thomas",
+      "name": "Th. Constantinides",
+      "canonical_name": "Constantinides, Th.",
+      "given_names": "Th.",
       "surname": "Constantinides",
       "position": "Clerk and Interpreter",
       "department": "Prison Department",
@@ -2771,7 +2771,7 @@
       "canonical_name": "Effendi, Osman Nouri",
       "given_names": "Osman Nouri",
       "surname": "Effendi",
-      "position": "Cadis",
+      "position": "Cadis of Cyprus",
       "department": "Courts of Justice",
       "salary_min": 300,
       "salary_max": 300,
@@ -2787,7 +2787,7 @@
       "canonical_name": "Effendi, Hadji Hafiz Zia",
       "given_names": "Hadji Hafiz Zia",
       "surname": "Effendi",
-      "position": "Cadis",
+      "position": "Cadis of Nicosia and Kyrenia Districts",
       "department": "Courts of Justice",
       "salary_min": 144,
       "salary_max": 144,
@@ -2803,7 +2803,7 @@
       "canonical_name": "Effendi, Ahmed Khouloussi",
       "given_names": "Ahmed Khouloussi",
       "surname": "Effendi",
-      "position": "Cadis",
+      "position": "Cadis of Famagusta and Larnaca",
       "department": "Courts of Justice",
       "salary_min": 120,
       "salary_max": 120,
@@ -2819,7 +2819,7 @@
       "canonical_name": "Effendi, Esseid Abdurrahman Niazi",
       "given_names": "Esseid Abdurrahman Niazi",
       "surname": "Effendi",
-      "position": "Cadis",
+      "position": "Cadis of Limassol and Papho",
       "department": "Courts of Justice",
       "salary_min": 120,
       "salary_max": 120,
@@ -2835,7 +2835,7 @@
       "canonical_name": "Effendi, Hadji Ali Rifki",
       "given_names": "Hadji Ali Rifki",
       "surname": "Effendi",
-      "position": "Mufti of Cyprus",
+      "position": "Chief Cadi of Cyprus; Mufti of Cyprus",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -3091,8 +3091,8 @@
     "colony": "Cyprus",
     "year": 1907,
     "total": 192,
-    "high_confidence": 190,
-    "medium_confidence": 2,
+    "high_confidence": 191,
+    "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 192,

@@ -1,15 +1,15 @@
 {
   "colony": "Southern Nigeria",
   "year": 1906,
-  "generated": "2026-03-12T14:23:36.346574",
+  "generated": "2026-03-13T08:53:43.491463",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 123,
+  "total_officials": 122,
   "officials": [
     {
       "name": "Sir John Anderson",
-      "canonical_name": "Anderson, Sir John",
-      "given_names": "Sir John",
+      "canonical_name": "Anderson, John",
+      "given_names": "John",
       "surname": "Anderson",
       "position": "Governor",
       "department": "Civil Establishment",
@@ -22,7 +22,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Singapore"
+      "location": null
     },
     {
       "name": "O. Marks",
@@ -38,7 +38,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Singapore"
+      "location": null
     },
     {
       "name": "Capt. H. H. F. Stockley",
@@ -54,7 +54,7 @@
       "qualifications": [],
       "military_rank": "Captain",
       "salary_scale": null,
-      "location": "Singapore"
+      "location": null
     },
     {
       "name": "E. L. Brockman",
@@ -477,7 +477,7 @@
       "canonical_name": "Martin, V. J.",
       "given_names": "V. J.",
       "surname": "Martin",
-      "position": "Assistant Superintendent of Works and Surveys",
+      "position": "Superintendent of Works and Surveys",
       "department": "Public Works and Survey Departments",
       "salary_min": 360,
       "salary_max": 480,
@@ -493,7 +493,7 @@
       "canonical_name": "Wilkinson, N.",
       "given_names": "N.",
       "surname": "Wilkinson",
-      "position": "Assistant Superintendent of Works and Surveys",
+      "position": "Superintendent of Works and Surveys",
       "department": "Public Works and Survey Departments",
       "salary_min": 360,
       "salary_max": 480,
@@ -505,7 +505,7 @@
       "location": null
     },
     {
-      "name": "Captain A. H. Boldero",
+      "name": "A. H. Boldero",
       "canonical_name": "Boldero, A. H.",
       "given_names": "A. H.",
       "surname": "Boldero",
@@ -521,7 +521,7 @@
       "location": null
     },
     {
-      "name": "Commander C. A. Radcliffe",
+      "name": "C. A. Radcliffe",
       "canonical_name": "Radcliffe, C. A.",
       "given_names": "C. A.",
       "surname": "Radcliffe",
@@ -1059,7 +1059,7 @@
       "canonical_name": "Pennefather, E. G.",
       "given_names": "E. G.",
       "surname": "Pennefather",
-      "position": "Insp. Gen.",
+      "position": "Inspector General",
       "department": "Police",
       "salary_min": 900,
       "salary_max": 1000,
@@ -1155,7 +1155,7 @@
       "canonical_name": "Ebden, L. P.",
       "given_names": "L. P.",
       "surname": "Ebden",
-      "position": "Inspector of Prisons, S.S., and Superintendent of the Singapore Prison",
+      "position": "Inspector of Prisons and Superintendent of the Singapore Prison",
       "department": "Gaols",
       "salary_min": 900,
       "salary_max": 1020,
@@ -1237,7 +1237,7 @@
       "canonical_name": "Towner, H. V.",
       "given_names": "H. V.",
       "surname": "Towner",
-      "position": "Supdt. of Works and Surveys",
+      "position": "Superintendent of Works and Surveys",
       "department": "Malacca",
       "salary_min": 480,
       "salary_max": 600,
@@ -1253,7 +1253,7 @@
       "canonical_name": "Lupton, H.",
       "given_names": "H.",
       "surname": "Lupton",
-      "position": "Assistant Supt. of Works",
+      "position": "Assistant Superintendent of Works",
       "department": "Malacca",
       "salary_min": 360,
       "salary_max": 480,
@@ -1285,7 +1285,7 @@
       "canonical_name": "Garrard, C. G.",
       "given_names": "C. G.",
       "surname": "Garrard",
-      "position": "Asst. Registrar, Magistrate, Sheriff, and Commr., Ct. of Requests",
+      "position": "Assistant Registrar, Magistrate, Sheriff, and Commissioner, Court of Requests",
       "department": "Malacca",
       "salary_min": 660,
       "salary_max": 720,
@@ -1394,11 +1394,11 @@
     },
     {
       "name": "George Clunies Ross",
-      "canonical_name": "Ross, George Clunies",
-      "given_names": "George Clunies",
-      "surname": "Ross",
+      "canonical_name": "Clunies Ross, George",
+      "given_names": "George",
+      "surname": "Clunies Ross",
       "position": "Superintendent",
-      "department": "Cocos and Keeling Islands",
+      "department": "COCOS AND KEELING ISLANDS",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1414,7 +1414,7 @@
       "given_names": "A. W.",
       "surname": "Bailey",
       "position": "District Officer",
-      "department": "Christmas Island",
+      "department": "CHRISTMAS ISLAND",
       "salary_min": 540,
       "salary_max": 600,
       "allowances": null,
@@ -1502,7 +1502,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Capt.",
+      "military_rank": "Captain",
       "salary_scale": null,
       "location": null
     },
@@ -1604,10 +1604,10 @@
     },
     {
       "name": "Lo Tsung Yao",
-      "canonical_name": "Yao, Lo Tsung",
+      "canonical_name": "Fang, Liang Ting",
       "given_names": "Lo Tsung",
       "surname": "Yao",
-      "position": "Consul-General, S.S.",
+      "position": "Consul-General",
       "department": "Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1636,9 +1636,9 @@
     },
     {
       "name": "M. le Viscomte de Boudy",
-      "canonical_name": "Boudy, M. le Viscomte de",
-      "given_names": "M. le Viscomte de",
-      "surname": "Boudy",
+      "canonical_name": "de Boudy, M. le Viscomte",
+      "given_names": "M. le Viscomte",
+      "surname": "de Boudy",
       "position": "Consul",
       "department": "Consuls",
       "salary_min": null,
@@ -1767,7 +1767,7 @@
       "canonical_name": "Williams, O. F.",
       "given_names": "O. F.",
       "surname": "Williams",
-      "position": "Consul-General, S.S.",
+      "position": "Consul-General",
       "department": "Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1824,22 +1824,6 @@
       "qualifications": [
         "M.D."
       ],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "Penang"
-    },
-    {
-      "name": "Liang Ting Fang",
-      "canonical_name": "Fang, Liang Ting",
-      "given_names": "Liang Ting",
-      "surname": "Fang",
-      "position": "Vice-Consul",
-      "department": "Consuls",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
       "location": "Penang"
@@ -1992,12 +1976,12 @@
   "validation_summary": {
     "colony": "Southern Nigeria",
     "year": 1906,
-    "total": 123,
-    "high_confidence": 122,
+    "total": 122,
+    "high_confidence": 121,
     "medium_confidence": 1,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 123,
+    "passed": 122,
     "anomaly_count": 1
   }
 }

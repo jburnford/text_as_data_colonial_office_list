@@ -1,13 +1,13 @@
 {
   "colony": "Western Pacific",
   "year": 1907,
-  "generated": "2026-03-12T14:35:19.432360",
+  "generated": "2026-03-13T09:20:27.885946",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 27,
   "officials": [
     {
-      "name": "Sir Arthur Gordon",
+      "name": "Arthur Gordon",
       "canonical_name": "Gordon, Arthur",
       "given_names": "Arthur",
       "surname": "Gordon",
@@ -29,7 +29,7 @@
       "canonical_name": "Gorrie, John",
       "given_names": "John",
       "surname": "Gorrie",
-      "position": "High Commissioner (acting)",
+      "position": "High Commissioner",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -41,7 +41,7 @@
       "location": null
     },
     {
-      "name": "Sir A. Gordon",
+      "name": "A. Gordon",
       "canonical_name": "Gordon, A.",
       "given_names": "A.",
       "surname": "Gordon",
@@ -59,11 +59,11 @@
       "location": null
     },
     {
-      "name": "Sir G. W. Des V\u0153ux",
+      "name": "G. W. Des V\u0153ux",
       "canonical_name": "Des V\u0153ux, G. W.",
       "given_names": "G. W.",
       "surname": "Des V\u0153ux",
-      "position": "High Commissioner (acting)",
+      "position": "High Commissioner",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -99,7 +99,7 @@
       "canonical_name": "Macgregor, W.",
       "given_names": "W.",
       "surname": "Macgregor",
-      "position": "Acting Assistant High Commissioner",
+      "position": "Assistant High Commissioner",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -113,7 +113,7 @@
       "location": null
     },
     {
-      "name": "Sir C. B. H. Mitchell",
+      "name": "C. B. H. Mitchell",
       "canonical_name": "Mitchell, C. B. H.",
       "given_names": "C. B. H.",
       "surname": "Mitchell",
@@ -135,7 +135,7 @@
       "canonical_name": "Berkeley, H. S.",
       "given_names": "H. S.",
       "surname": "Berkeley",
-      "position": "High Commissioner (acting)",
+      "position": "High Commissioner",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -147,7 +147,7 @@
       "location": null
     },
     {
-      "name": "Sir G. T. M. O'Brien",
+      "name": "G. T. M. O'Brien",
       "canonical_name": "O'Brien, G. T. M.",
       "given_names": "G. T. M.",
       "surname": "O'Brien",
@@ -169,7 +169,7 @@
       "canonical_name": "Allardyce, W. L.",
       "given_names": "W. L.",
       "surname": "Allardyce",
-      "position": "High Commissioner (acting)",
+      "position": "High Commissioner",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -181,7 +181,7 @@
       "location": null
     },
     {
-      "name": "Sir H. M. Jackson",
+      "name": "H. M. Jackson",
       "canonical_name": "Jackson, H. M.",
       "given_names": "H. M.",
       "surname": "Jackson",
@@ -203,7 +203,7 @@
       "canonical_name": "Major, Charles",
       "given_names": "Charles",
       "surname": "Major",
-      "position": "High Commissioner (acting)",
+      "position": "High Commissioner",
       "department": "High Commissioners",
       "salary_min": null,
       "salary_max": null,
@@ -215,7 +215,7 @@
       "location": null
     },
     {
-      "name": "Sir E. F. im Thurn",
+      "name": "E. F. im Thurn",
       "canonical_name": "Thurn, E. F. im",
       "given_names": "E. F. im",
       "surname": "Thurn",
@@ -234,7 +234,7 @@
       "location": null
     },
     {
-      "name": "Sir E. F. im Thurn",
+      "name": "E. F. im Thurn",
       "canonical_name": "Thurn, E. F. im",
       "given_names": "E. F. im",
       "surname": "Thurn",
@@ -289,7 +289,7 @@
       "canonical_name": "Hunter, H.",
       "given_names": "H.",
       "surname": "Hunter",
-      "position": "Agent and Consul, Tonga",
+      "position": "Agent and Consul",
       "department": "Establishment",
       "salary_min": 800,
       "salary_max": 800,
@@ -307,11 +307,11 @@
       "canonical_name": "Campbell, W. T.",
       "given_names": "W. T.",
       "surname": "Campbell",
-      "position": "Deputy Commissioner and Resident, Gilbert and Ellice Islands Protectorate",
+      "position": "Deputy Commissioner and Resident",
       "department": "Establishment",
       "salary_min": 650,
       "salary_max": 650,
-      "allowances": "quarters (paid from Protectorate Funds)",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -339,11 +339,11 @@
       "canonical_name": "Woodford, C. M.",
       "given_names": "C. M.",
       "surname": "Woodford",
-      "position": "Deputy Commissioner and Resident, British Solomon Islands Protectorate",
+      "position": "Deputy Commissioner and Resident",
       "department": "Establishment",
       "salary_min": 550,
       "salary_max": 550,
-      "allowances": "quarters (paid from Protectorate Funds)",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -355,11 +355,11 @@
       "canonical_name": "Partington, T. Edge",
       "given_names": "T. Edge",
       "surname": "Partington",
-      "position": "Deputy Commissioner and Magistrate (Northern Division), British Solomon Islands Protectorate",
+      "position": "Deputy Commissioner and Magistrate (Northern Division)",
       "department": "Establishment",
       "salary_min": 300,
       "salary_max": 300,
-      "allowances": "quarters (from Protectorate Funds)",
+      "allowances": "quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -367,11 +367,11 @@
       "location": "British Solomon Islands Protectorate"
     },
     {
-      "name": "Capt. E. G. Rason",
+      "name": "E. G. Rason",
       "canonical_name": "Rason, E. G.",
       "given_names": "E. G.",
       "surname": "Rason",
-      "position": "Resident Deputy Commissioner, N. Hebrides",
+      "position": "Resident Deputy Commissioner",
       "department": "Establishment",
       "salary_min": 700,
       "salary_max": 700,
@@ -387,7 +387,7 @@
       "canonical_name": "Simons, R. T.",
       "given_names": "R. T.",
       "surname": "Simons",
-      "position": "Deputy Commissioner, Pitcairn Island",
+      "position": "Deputy Commissioner",
       "department": "Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -403,7 +403,7 @@
       "canonical_name": "Smith, A.",
       "given_names": "A.",
       "surname": "Smith",
-      "position": "Deputy Commissioner, Fanning Island",
+      "position": "Deputy Commissioner",
       "department": "Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -415,11 +415,11 @@
       "location": "Fanning Island"
     },
     {
-      "name": "Mr. Basil Thomson",
+      "name": "Basil Thomson",
       "canonical_name": "Thomson, Basil",
       "given_names": "Basil",
       "surname": "Thomson",
-      "position": "Sent to Tonga (mission)",
+      "position": "Treaty Negotiator",
       "department": "Other",
       "salary_min": null,
       "salary_max": null,
@@ -428,10 +428,10 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Tonga"
+      "location": null
     },
     {
-      "name": "Mr. C. R. Swayne",
+      "name": "C. R. Swayne",
       "canonical_name": "Swayne, C. R.",
       "given_names": "C. R.",
       "surname": "Swayne",
@@ -447,11 +447,11 @@
       "location": null
     },
     {
-      "name": "President J. R. McCoy",
+      "name": "J. R. McCoy",
       "canonical_name": "McCoy, J. R.",
       "given_names": "J. R.",
       "surname": "McCoy",
-      "position": "President, Pitcairn Island",
+      "position": "President",
       "department": "Other",
       "salary_min": null,
       "salary_max": null,
@@ -460,7 +460,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Pitcairn Island"
+      "location": null
     }
   ],
   "validation_summary": {

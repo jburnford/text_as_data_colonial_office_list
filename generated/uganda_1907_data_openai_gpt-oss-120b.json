@@ -1,7 +1,7 @@
 {
   "colony": "Uganda",
   "year": 1907,
-  "generated": "2026-03-12T14:36:37.291123",
+  "generated": "2026-03-13T09:24:27.175371",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 125,
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "Capt. Burton",
+      "name": "Burton",
       "canonical_name": "Burton, ",
       "given_names": "",
       "surname": "Burton",
@@ -67,7 +67,7 @@
       "department": "Administration",
       "salary_min": 650,
       "salary_max": 650,
-      "allowances": null,
+      "allowances": "50l. as Registrar-General of Births, Deaths and Marriages",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -147,7 +147,7 @@
       "canonical_name": "Knowles, F. A.",
       "given_names": "F. A.",
       "surname": "Knowles",
-      "position": "Collector",
+      "position": "Collector (Acting Sub-Commissioner)",
       "department": "Administration",
       "salary_min": 400,
       "salary_max": 400,
@@ -705,7 +705,7 @@
       "location": null
     },
     {
-      "name": "Commander H. Hutchinson",
+      "name": "H. Hutchinson",
       "canonical_name": "Hutchinson, H.",
       "given_names": "H.",
       "surname": "Hutchinson",
@@ -713,7 +713,7 @@
       "department": "Marine",
       "salary_min": 300,
       "salary_max": 400,
-      "allowances": "50l. personal",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -961,7 +961,7 @@
       "location": null
     },
     {
-      "name": "H. Riddick",
+      "name": "Miss H. Riddick",
       "canonical_name": "Riddick, H.",
       "given_names": "H.",
       "surname": "Riddick",
@@ -977,7 +977,7 @@
       "location": null
     },
     {
-      "name": "B. Petherbridge",
+      "name": "Miss B. Petherbridge",
       "canonical_name": "Petherbridge, B.",
       "given_names": "B.",
       "surname": "Petherbridge",
@@ -1073,7 +1073,7 @@
       "location": null
     },
     {
-      "name": "W. H. Manning",
+      "name": "Sir W. H. Manning",
       "canonical_name": "Manning, W. H.",
       "given_names": "W. H.",
       "surname": "Manning",
@@ -1167,7 +1167,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.",
+      "military_rank": "Hon. Lieut.",
       "salary_scale": null,
       "location": null
     },

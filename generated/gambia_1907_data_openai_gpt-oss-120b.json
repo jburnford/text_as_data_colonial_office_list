@@ -1,7 +1,7 @@
 {
   "colony": "Gambia",
   "year": 1907,
-  "generated": "2026-03-12T14:27:40.704662",
+  "generated": "2026-03-13T09:07:38.164223",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 73,
@@ -58,14 +58,14 @@
     },
     {
       "name": "Hon. H. M. Brandford Griffith",
-      "canonical_name": "Griffith, H. M. Brandford",
-      "given_names": "H. M. Brandford",
-      "surname": "Griffith",
+      "canonical_name": "Brandford Griffith, H. M.",
+      "given_names": "H. M.",
+      "surname": "Brandford Griffith",
       "position": "Colonial Secretary",
       "department": "Secretariat",
       "salary_min": 600,
       "salary_max": 700,
-      "allowances": "by 25l. per annum, and 100l. duty allowance",
+      "allowances": "25l. per annum, 100l. duty allowance",
       "honors": [
         "C.M.G."
       ],
@@ -83,7 +83,7 @@
       "department": "Secretariat",
       "salary_min": 200,
       "salary_max": 250,
-      "allowances": "by 10l. per annum",
+      "allowances": "10l. per annum",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -139,7 +139,7 @@
       "location": null
     },
     {
-      "name": "F. B. Archer",
+      "name": "Hon. F. B. Archer",
       "canonical_name": "Archer, F. B.",
       "given_names": "F. B.",
       "surname": "Archer",
@@ -219,7 +219,7 @@
       "location": null
     },
     {
-      "name": "T. E. Peirce",
+      "name": "Hon. T. E. Peirce",
       "canonical_name": "Peirce, T. E.",
       "given_names": "T. E.",
       "surname": "Peirce",
@@ -412,8 +412,8 @@
     },
     {
       "name": "Hon. W. R. Townsend",
-      "canonical_name": "Townsend, Hon. W. R.",
-      "given_names": "Hon. W. R.",
+      "canonical_name": "Townsend, W. R.",
+      "given_names": "W. R.",
       "surname": "Townsend",
       "position": "Chief Magistrate",
       "department": "Judicial Department",
@@ -616,7 +616,7 @@
       "allowances": "duty pay 24l",
       "honors": [],
       "qualifications": [],
-      "military_rank": "Colour-Sergeant",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -632,7 +632,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Sergeant",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -839,7 +839,7 @@
       "department": "Printing Office",
       "salary_min": 50,
       "salary_max": 60,
-      "allowances": null,
+      "allowances": "by 2l. per annum",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -855,7 +855,7 @@
       "department": "Printing Office",
       "salary_min": 40,
       "salary_max": 50,
-      "allowances": null,
+      "allowances": "by 2l. per annum",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -867,11 +867,11 @@
       "canonical_name": "Palmer, O. G.",
       "given_names": "O. G.",
       "surname": "Palmer",
-      "position": "3rd Class Compositor",
+      "position": "3rd Class Compositors",
       "department": "Printing Office",
       "salary_min": 30,
       "salary_max": 40,
-      "allowances": null,
+      "allowances": "by 2l. per annum",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -883,11 +883,11 @@
       "canonical_name": "Darboe, S. T.",
       "given_names": "S. T.",
       "surname": "Darboe",
-      "position": "3rd Class Compositor",
+      "position": "3rd Class Compositors",
       "department": "Printing Office",
       "salary_min": 24,
       "salary_max": 30,
-      "allowances": null,
+      "allowances": "by 2l. per annum",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -903,7 +903,7 @@
       "department": "Colonial Engineer's Department",
       "salary_min": 450,
       "salary_max": 450,
-      "allowances": "90l. duty allowance, forage allowance 2s. 3d. per diem.",
+      "allowances": "90l. duty allowance, forage allowance 2s. 3d. per diem",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -967,7 +967,7 @@
       "department": "Colonial Engineer's Department",
       "salary_min": 150,
       "salary_max": 200,
-      "allowances": "by 10l. per annum.",
+      "allowances": "by 10l. per annum",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1148,14 +1148,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "A. L. Bennett",
       "canonical_name": "Bennett, A. L.",
       "given_names": "A. L.",
       "surname": "Bennett",
-      "position": "Consul (acting)",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1164,14 +1164,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Portugal"
+      "location": null
     },
     {
       "name": "M. Fredericks",
       "canonical_name": "Fredericks, M.",
       "given_names": "M.",
       "surname": "Fredericks",
-      "position": "Consul",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1180,7 +1180,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Norway"
+      "location": null
     }
   ],
   "validation_summary": {

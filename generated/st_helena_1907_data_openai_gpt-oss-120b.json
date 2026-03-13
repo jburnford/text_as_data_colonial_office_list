@@ -1,10 +1,10 @@
 {
   "colony": "St Helena",
   "year": 1907,
-  "generated": "2026-03-12T14:34:09.893471",
+  "generated": "2026-03-13T09:18:16.132540",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 28,
+  "total_officials": 27,
   "officials": [
     {
       "name": "Lieut.-Colonel H. L. Gallwey",
@@ -15,10 +15,10 @@
       "department": "Civil Establishment",
       "salary_min": 750,
       "salary_max": 750,
-      "allowances": "table allowance 200l",
+      "allowances": "table allowance 200l.",
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": "Lieut.-Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -87,7 +87,7 @@
       "location": null
     },
     {
-      "name": "Jas. Homagee",
+      "name": "Jas. Homagee, I.S.O.",
       "canonical_name": "Homagee, Jas.",
       "given_names": "Jas.",
       "surname": "Homagee",
@@ -138,7 +138,7 @@
       "location": null
     },
     {
-      "name": "James Homagee",
+      "name": "James Homagee, I.S.O.",
       "canonical_name": "Homagee, James",
       "given_names": "James",
       "surname": "Homagee",
@@ -228,7 +228,7 @@
       "department": "Civil Establishment",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": "allowances 45l",
+      "allowances": "allowances 45l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -293,22 +293,6 @@
       "salary_min": 125,
       "salary_max": 125,
       "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Thomas Broadway (acting)",
-      "canonical_name": "Broadway, Thomas (acting)",
-      "given_names": "Thomas",
-      "surname": "Broadway",
-      "position": "Foreman of Works",
-      "department": "Civil Establishment",
-      "salary_min": 36,
-      "salary_max": 36,
-      "allowances": "30l. for horse allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -465,12 +449,12 @@
   "validation_summary": {
     "colony": "St Helena",
     "year": 1907,
-    "total": 28,
-    "high_confidence": 28,
+    "total": 27,
+    "high_confidence": 27,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 28,
+    "passed": 27,
     "anomaly_count": 1
   }
 }

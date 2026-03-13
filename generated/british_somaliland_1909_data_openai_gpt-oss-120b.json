@@ -1,10 +1,10 @@
 {
   "colony": "British Somaliland",
   "year": 1909,
-  "generated": "2026-03-12T14:40:49.285459",
+  "generated": "2026-03-13T09:36:56.502082",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 45,
+  "total_officials": 47,
   "officials": [
     {
       "name": "Captain H. E. S. Cordeaux",
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": "duty allowance, 200L",
+      "allowances": "duty allowance, 200L.",
       "honors": [
         "C.B.",
         "C.M.G."
@@ -92,7 +92,7 @@
       "location": null
     },
     {
-      "name": "Hon. R. F. B. Wilbraham",
+      "name": "R. F. B. Wilbraham",
       "canonical_name": "Wilbraham, R. F. B.",
       "given_names": "R. F. B.",
       "surname": "Wilbraham",
@@ -140,7 +140,7 @@
       "location": null
     },
     {
-      "name": "Captain C. E. Dansey",
+      "name": "C. E. Dansey",
       "canonical_name": "Dansey, C. E.",
       "given_names": "C. E.",
       "surname": "Dansey",
@@ -156,23 +156,23 @@
       "location": null
     },
     {
-      "name": "Lieut. F. W. Bell",
+      "name": "F. W. Bell",
       "canonical_name": "Bell, F. W.",
       "given_names": "F. W.",
       "surname": "Bell",
       "position": "Assistant Political Officer",
       "department": "Political Department",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
+      "salary_min": 350,
+      "salary_max": 400,
+      "allowances": "50L. allowance",
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
     {
-      "name": "Captain C. R. E. Jorgensen",
+      "name": "C. R. E. Jorgensen",
       "canonical_name": "Jorgensen, C. R. E.",
       "given_names": "C. R. E.",
       "surname": "Jorgensen",
@@ -526,10 +526,26 @@
       "location": null
     },
     {
-      "name": "Dinshaw Cowasjee",
-      "canonical_name": "Cowasjee, Dinshaw",
-      "given_names": "Dinshaw",
+      "name": "Cowasjee",
+      "canonical_name": "Cowasjee",
+      "given_names": "",
       "surname": "Cowasjee",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Dinshaw",
+      "canonical_name": "Dinshaw",
+      "given_names": "",
+      "surname": "Dinshaw",
       "position": null,
       "department": null,
       "salary_min": null,
@@ -544,7 +560,7 @@
     {
       "name": "The Earl of Selborne",
       "canonical_name": "Selborne, The Earl of",
-      "given_names": "",
+      "given_names": "The Earl of",
       "surname": "Selborne",
       "position": "High Commissioner",
       "department": "High Commissioner and Staff",
@@ -576,8 +592,8 @@
       "location": null
     },
     {
-      "name": "Major W. G. Bentinck",
-      "canonical_name": "Bentinck, Major",
+      "name": "W. G. Bentinck",
+      "canonical_name": "Bentinck, W. G.",
       "given_names": "W. G.",
       "surname": "Bentinck",
       "position": "Assistant Secretary",
@@ -692,7 +708,7 @@
     {
       "name": "Miss Hanbury",
       "canonical_name": "Hanbury, Miss",
-      "given_names": "",
+      "given_names": "Miss",
       "surname": "Hanbury",
       "position": "Clerical Staff",
       "department": "High Commissioner and Staff",
@@ -708,7 +724,7 @@
     {
       "name": "Miss Dickson",
       "canonical_name": "Dickson, Miss",
-      "given_names": "",
+      "given_names": "Miss",
       "surname": "Dickson",
       "position": "Clerical Staff",
       "department": "High Commissioner and Staff",
@@ -724,8 +740,24 @@
     {
       "name": "Miss Honey",
       "canonical_name": "Honey, Miss",
-      "given_names": "",
+      "given_names": "Miss",
       "surname": "Honey",
+      "position": "Clerical Staff",
+      "department": "High Commissioner and Staff",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Miss Roberts",
+      "canonical_name": "Roberts, Miss",
+      "given_names": "Miss",
+      "surname": "Roberts",
       "position": "Clerical Staff",
       "department": "High Commissioner and Staff",
       "salary_min": null,
@@ -741,12 +773,12 @@
   "validation_summary": {
     "colony": "British Somaliland",
     "year": 1909,
-    "total": 46,
-    "high_confidence": 41,
-    "medium_confidence": 4,
-    "low_confidence": 1,
-    "quarantined": 1,
-    "passed": 45,
+    "total": 47,
+    "high_confidence": 45,
+    "medium_confidence": 2,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 47,
     "anomaly_count": 0
   }
 }

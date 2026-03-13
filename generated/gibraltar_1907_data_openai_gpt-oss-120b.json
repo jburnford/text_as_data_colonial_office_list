@@ -1,7 +1,7 @@
 {
   "colony": "Gibraltar",
   "year": 1907,
-  "generated": "2026-03-12T14:27:33.095874",
+  "generated": "2026-03-13T09:07:34.717346",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 68,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 1000,
       "salary_max": 1000,
-      "allowances": "free house",
+      "allowances": null,
       "honors": [
         "C.M.G."
       ],
@@ -372,9 +372,9 @@
       "location": null
     },
     {
-      "name": "Dean D. S. Govett",
-      "canonical_name": "Govett, Dean D. S.",
-      "given_names": "Dean D. S.",
+      "name": "D. S. Govett",
+      "canonical_name": "Govett, D. S.",
+      "given_names": "D. S.",
       "surname": "Govett",
       "position": "Civil Chaplain",
       "department": "Ecclesiastical",
@@ -390,9 +390,9 @@
       "location": null
     },
     {
-      "name": "Dom Guido Remigio Barbieri",
-      "canonical_name": "Barbieri, Dom Guido Remigio",
-      "given_names": "Dom Guido Remigio",
+      "name": "Guido Remigio Barbieri",
+      "canonical_name": "Barbieri, Guido Remigio",
+      "given_names": "Guido Remigio",
       "surname": "Barbieri",
       "position": "Roman Catholic Vicar Apostolic",
       "department": "Ecclesiastical",
@@ -435,7 +435,7 @@
         "C.B."
       ],
       "qualifications": [],
-      "military_rank": "Major-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -469,7 +469,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Major-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -504,7 +504,7 @@
         "C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Rear-Admiral",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -561,9 +561,9 @@
       "location": null
     },
     {
-      "name": "B. W. Gregory",
-      "canonical_name": "Gregory, B. W.",
-      "given_names": "B. W.",
+      "name": "B. w. Gregory",
+      "canonical_name": "Gregory, B. w.",
+      "given_names": "B. w.",
       "surname": "Gregory",
       "position": "Chief Naval Engineer",
       "department": "Chief Military and Naval Officers",
@@ -572,7 +572,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Engineer-Commander",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },

@@ -1,10 +1,10 @@
 {
   "colony": "Australia-Queensland",
   "year": 1909,
-  "generated": "2026-03-12T14:38:35.540867",
+  "generated": "2026-03-13T09:29:54.189974",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 89,
+  "total_officials": 88,
   "officials": [
     {
       "name": "P. J. McDermott",
@@ -202,9 +202,9 @@
     },
     {
       "name": "C. E. de F. Pennefather",
-      "canonical_name": "Pennefather, C. E. de F.",
-      "given_names": "C. E. de F.",
-      "surname": "Pennefather",
+      "canonical_name": "de F. Pennefather, C. E.",
+      "given_names": "C. E.",
+      "surname": "de F. Pennefather",
       "position": "Comptroller-General of Prisons",
       "department": "Home Secretary's Department",
       "salary_min": 550,
@@ -665,8 +665,8 @@
       "location": null
     },
     {
-      "name": "A. J. Cumming",
-      "canonical_name": "Cumming, A. J.",
+      "name": "A. J. Cumming (acting)",
+      "canonical_name": "Cumming, A. J. (acting)",
       "given_names": "A. J.",
       "surname": "Cumming",
       "position": "Government Printer",
@@ -697,7 +697,7 @@
       "location": null
     },
     {
-      "name": "W. Maxwell",
+      "name": "Dr. W. Maxwell",
       "canonical_name": "Maxwell, W.",
       "given_names": "W.",
       "surname": "Maxwell",
@@ -718,7 +718,7 @@
       "given_names": "T. S.",
       "surname": "Sword",
       "position": "Members of Land Court",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -734,7 +734,7 @@
       "given_names": "F. X.",
       "surname": "Heeney",
       "position": "Members of Land Court",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -750,7 +750,7 @@
       "given_names": "F. W.",
       "surname": "Woodbine",
       "position": "Members of Land Court",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -766,7 +766,7 @@
       "given_names": "W. J.",
       "surname": "Scott",
       "position": "Under-Secretary and Chief Commissioner of Crown Lands",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 700,
       "salary_max": 700,
       "allowances": null,
@@ -782,7 +782,7 @@
       "given_names": "P. W.",
       "surname": "Shannon",
       "position": "Assistant Under-Secretary",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 510,
       "salary_max": 510,
       "allowances": null,
@@ -798,7 +798,7 @@
       "given_names": "J. S.",
       "surname": "Bennett",
       "position": "Registrar Land Court",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 350,
       "salary_max": 350,
       "allowances": null,
@@ -814,7 +814,7 @@
       "given_names": "A. A.",
       "surname": "Spowers",
       "position": "Surveyor-General",
-      "department": "Public Lands",
+      "department": "Department of Public Lands",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -1062,7 +1062,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Belgium"
+      "location": null
     },
     {
       "name": "T. W. Bouchard",
@@ -1078,7 +1078,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Denmark"
+      "location": null
     },
     {
       "name": "E. Hirschfeld",
@@ -1094,7 +1094,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "German Empire"
+      "location": null
     },
     {
       "name": "L. H. Spence",
@@ -1110,7 +1110,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Greece"
+      "location": null
     },
     {
       "name": "Goro Narita",
@@ -1142,23 +1142,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Netherlands"
-    },
-    {
-      "name": "G. T. Southern",
-      "canonical_name": "Southern, G. T.",
-      "given_names": "G. T.",
-      "surname": "Southern",
-      "position": "Vice-Consul",
-      "department": "Consuls for Foreign Countries",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "Netherlands"
+      "location": "G. T. Southern"
     },
     {
       "name": "A. J. Carter",
@@ -1174,7 +1158,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Norway"
+      "location": null
     },
     {
       "name": "H. A. Goddard",
@@ -1190,7 +1174,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Paraguay"
+      "location": null
     },
     {
       "name": "J. Leutenegger",
@@ -1206,7 +1190,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Switzerland"
+      "location": null
     },
     {
       "name": "P. T. Perry",
@@ -1222,7 +1206,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Chili"
+      "location": null
     },
     {
       "name": "J. T. T. Paxton",
@@ -1238,7 +1222,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Panama"
+      "location": null
     },
     {
       "name": "A. J. Carter",
@@ -1384,7 +1368,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Portugal"
+      "location": null
     },
     {
       "name": "J. W. H. Grout",
@@ -1400,7 +1384,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Spain"
+      "location": null
     },
     {
       "name": "J. Stodart",
@@ -1416,7 +1400,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sweden"
+      "location": null
     },
     {
       "name": "J. Currie",
@@ -1432,18 +1416,18 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Argentina"
+      "location": null
     }
   ],
   "validation_summary": {
     "colony": "Australia-Queensland",
     "year": 1909,
-    "total": 89,
-    "high_confidence": 89,
+    "total": 88,
+    "high_confidence": 88,
     "medium_confidence": 0,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 89,
+    "passed": 88,
     "anomaly_count": 3
   }
 }
