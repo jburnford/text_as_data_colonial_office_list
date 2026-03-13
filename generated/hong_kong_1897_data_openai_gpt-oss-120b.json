@@ -1,15 +1,15 @@
 {
   "colony": "Hong Kong",
   "year": 1897,
-  "generated": "2026-03-12T13:21:43.791845",
+  "generated": "2026-03-13T06:46:33.045392",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 93,
   "officials": [
     {
       "name": "Sir W. Robinson",
-      "canonical_name": "Robinson, W.",
-      "given_names": "W.",
+      "canonical_name": "Robinson, Sir W.",
+      "given_names": "Sir W.",
       "surname": "Robinson",
       "position": "Governor",
       "department": "Civil Establishment",
@@ -41,9 +41,9 @@
       "location": null
     },
     {
-      "name": "J. T. Sterling",
-      "canonical_name": "Sterling, J. T.",
-      "given_names": "J. T.",
+      "name": "Lieutenant J. T. Sterling",
+      "canonical_name": "Sterling, Lieutenant J. T.",
+      "given_names": "Lieutenant J. T.",
       "surname": "Sterling",
       "position": "Aide-de-Camp",
       "department": "Civil Establishment",
@@ -52,7 +52,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieutenant",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -145,7 +145,7 @@
       "department": "Colonial Secretary's Office",
       "salary_min": 1800,
       "salary_max": 1800,
-      "allowances": "\u00a3540 each for quarters",
+      "allowances": "540l. each for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -161,7 +161,7 @@
       "department": "Colonial Secretary's Office",
       "salary_min": 1800,
       "salary_max": 1800,
-      "allowances": "\u00a3540 each for quarters",
+      "allowances": "540l. each for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -177,10 +177,10 @@
       "department": "Treasurer's Department",
       "salary_min": 4800,
       "salary_max": 4800,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "",
       "salary_scale": null,
       "location": null
     },
@@ -193,10 +193,10 @@
       "department": "Treasurer's Department",
       "salary_min": 3600,
       "salary_max": 3600,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "",
       "salary_scale": null,
       "location": null
     },
@@ -206,13 +206,13 @@
       "given_names": "H. C.",
       "surname": "Nicolle",
       "position": "Local Auditor",
-      "department": "Audit Department",
+      "department": "Audit Department (under the Comptroller and Auditor-General, London)",
       "salary_min": 4000,
       "salary_max": 4000,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "",
       "salary_scale": null,
       "location": null
     },
@@ -222,13 +222,13 @@
       "given_names": "E. M.",
       "surname": "Knox",
       "position": "Clerk",
-      "department": "Audit Department",
+      "department": "Audit Department (under the Comptroller and Auditor-General, London)",
       "salary_min": 960,
       "salary_max": 960,
-      "allowances": null,
+      "allowances": "",
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "",
       "salary_scale": null,
       "location": null
     },
@@ -241,7 +241,7 @@
       "department": "Public Works Department",
       "salary_min": 6660,
       "salary_max": 6660,
-      "allowances": "480",
+      "allowances": "\u00a3480 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -257,7 +257,7 @@
       "department": "Public Works Department",
       "salary_min": 3600,
       "salary_max": 3600,
-      "allowances": "288",
+      "allowances": "\u00a3288 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -273,7 +273,7 @@
       "department": "Public Works Department",
       "salary_min": 3600,
       "salary_max": 3600,
-      "allowances": "288 and 144",
+      "allowances": "\u00a3288 and \u00a3144 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -289,7 +289,7 @@
       "department": "Public Works Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "288",
+      "allowances": "\u00a3288 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -305,7 +305,7 @@
       "department": "Public Works Department",
       "salary_min": 2400,
       "salary_max": 2400,
-      "allowances": "288",
+      "allowances": "\u00a3288 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -321,7 +321,7 @@
       "department": "Public Works Department",
       "salary_min": 2328,
       "salary_max": 2328,
-      "allowances": "288",
+      "allowances": "\u00a3288 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -337,7 +337,7 @@
       "department": "Public Works Department",
       "salary_min": 1440,
       "salary_max": 1440,
-      "allowances": "216",
+      "allowances": "\u00a3216 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -353,7 +353,7 @@
       "department": "Public Works Department",
       "salary_min": 1440,
       "salary_max": 1440,
-      "allowances": "216",
+      "allowances": "\u00a3216 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -369,7 +369,7 @@
       "department": "Public Works Department",
       "salary_min": 2328,
       "salary_max": 2328,
-      "allowances": "288",
+      "allowances": "\u00a3288 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -401,7 +401,7 @@
       "department": "Public Works Department",
       "salary_min": 3000,
       "salary_max": 3000,
-      "allowances": "288",
+      "allowances": "\u00a3288 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -417,7 +417,7 @@
       "department": "Public Works Department",
       "salary_min": 2040,
       "salary_max": 2040,
-      "allowances": "288",
+      "allowances": "\u00a3288 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -433,7 +433,7 @@
       "department": "Public Works Department",
       "salary_min": 1440,
       "salary_max": 1440,
-      "allowances": "288",
+      "allowances": "\u00a3288 alce",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -449,7 +449,7 @@
       "department": "Public Works Department",
       "salary_min": 2760,
       "salary_max": 2760,
-      "allowances": "144",
+      "allowances": "\u00a3144 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -497,7 +497,7 @@
       "department": "Praya Reclamation Branch",
       "salary_min": 3300,
       "salary_max": 3300,
-      "allowances": "\u00a3288 chair allowance; \u00a3360 personal allowance",
+      "allowances": "\u00a3288 allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -617,7 +617,7 @@
       "location": null
     },
     {
-      "name": "W. Dobeck",
+      "name": "Dr. W. Dobeck",
       "canonical_name": "Dobeck, W.",
       "given_names": "W.",
       "surname": "Dobeck",
@@ -682,7 +682,7 @@
     },
     {
       "name": "Ho-Toshang",
-      "canonical_name": "Ho-Toshang",
+      "canonical_name": "Ho-Toshang, ",
       "given_names": "",
       "surname": "Ho-Toshang",
       "position": "Second Assistant",
@@ -810,9 +810,9 @@
     },
     {
       "name": "J. L. de S. Alves",
-      "canonical_name": "Alves, J. L. de S.",
-      "given_names": "J. L. de S.",
-      "surname": "Alves",
+      "canonical_name": "de S. Alves, J. L.",
+      "given_names": "J. L.",
+      "surname": "de S. Alves",
       "position": "2nd Clerk",
       "department": "Harbour-Master's Department",
       "salary_min": 1968,
@@ -865,7 +865,7 @@
       "department": "Harbour-Master's Department",
       "salary_min": 1920,
       "salary_max": 1920,
-      "allowances": "\u00a3240 for quarters",
+      "allowances": "240l. for quarters",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -877,7 +877,7 @@
       "canonical_name": "Meugens, E. J.",
       "given_names": "E. J.",
       "surname": "Meugens",
-      "position": "Boarding Officer",
+      "position": "2nd Boarding Officer",
       "department": "Harbour-Master's Department",
       "salary_min": 1770,
       "salary_max": 1770,
@@ -1005,11 +1005,11 @@
       "canonical_name": "Carrington, J. W.",
       "given_names": "J. W.",
       "surname": "Carrington",
-      "position": "Chief Justice; also Colonial Secretary",
+      "position": "Chief Justice; Colonial Secretary",
       "department": "Supreme Court",
       "salary_min": 12000,
       "salary_max": 12000,
-      "allowances": "\u00a3360 personal allowance",
+      "allowances": "\u00a3360 personal allowance; \u00a3288 chair allowance",
       "honors": [
         "C.M.G."
       ],
@@ -1027,7 +1027,7 @@
       "department": "Supreme Court",
       "salary_min": 8400,
       "salary_max": 8400,
-      "allowances": null,
+      "allowances": "\u00a3120 personal allowance; \u00a3288 Deputy Registrar of Marriages; \u00a31,296 personal allowance",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -1098,7 +1098,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Austria"
     },
     {
       "name": "J. J. Heemskirk",
@@ -1114,7 +1114,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Belgium"
     },
     {
       "name": "A. G. Romano",
@@ -1130,7 +1130,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Brazil"
     },
     {
       "name": "R. Shewan",
@@ -1146,7 +1146,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Chili"
     },
     {
       "name": "J. Kramer",
@@ -1162,7 +1162,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Denmark"
     },
     {
       "name": "E. Leroux",
@@ -1178,7 +1178,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     },
     {
       "name": "W. Knapp",
@@ -1194,7 +1194,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Germany"
     },
     {
       "name": "J. J. Bell-Irving",
@@ -1210,7 +1210,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Hawaiian Islands"
     },
     {
       "name": "D. Musso",
@@ -1226,7 +1226,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Italy"
     },
     {
       "name": "S. Shiariiza",
@@ -1242,14 +1242,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Japan"
     },
     {
       "name": "A. J. do Rogario",
       "canonical_name": "do Rogario, A. J.",
       "given_names": "A. J.",
       "surname": "do Rogario",
-      "position": "",
+      "position": "consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1258,7 +1258,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Mexico"
     },
     {
       "name": "F. J. Havel-Droese",
@@ -1274,7 +1274,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Netherlands"
     },
     {
       "name": "F. S. Mesa",
@@ -1290,7 +1290,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Peru"
     },
     {
       "name": "H. S. F. C. Michelsen",
@@ -1306,7 +1306,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Russia"
     },
     {
       "name": "C. P. Chater",
@@ -1322,7 +1322,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Siam"
     },
     {
       "name": "Jos\u00e9 Ravara",
@@ -1338,7 +1338,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Spain"
     },
     {
       "name": "W. E. Hunt",
@@ -1354,7 +1354,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "United States"
     },
     {
       "name": "Wilson Black",
@@ -1418,7 +1418,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": null,
+      "military_rank": "Commodore",
       "salary_scale": null,
       "location": null
     },
@@ -1488,7 +1488,7 @@
     },
     {
       "name": "Evatt",
-      "canonical_name": "Evatt",
+      "canonical_name": "Evatt, ",
       "given_names": "",
       "surname": "Evatt",
       "position": "Principal Medical Officer (Military)",
@@ -1498,7 +1498,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Colonel",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     }
