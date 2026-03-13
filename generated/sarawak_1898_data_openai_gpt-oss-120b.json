@@ -1,7 +1,7 @@
 {
   "colony": "Sarawak",
   "year": 1898,
-  "generated": "2026-03-12T13:42:49.623983",
+  "generated": "2026-03-13T07:47:24.407298",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 40,
@@ -45,7 +45,7 @@
       "canonical_name": "Bampfylde, C. A.",
       "given_names": "C. A.",
       "surname": "Bampfylde",
-      "position": "Member",
+      "position": "Member, Supreme Council",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -61,7 +61,7 @@
       "canonical_name": "Pearse, C. S.",
       "given_names": "C. S.",
       "surname": "Pearse",
-      "position": "Member",
+      "position": "Member, Supreme Council",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -77,7 +77,7 @@
       "canonical_name": "Hassan, Haji Bua",
       "given_names": "Haji Bua",
       "surname": "Hassan",
-      "position": "Member",
+      "position": "Datu Bandar",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -93,7 +93,7 @@
       "canonical_name": "Metaimi, Haji",
       "given_names": "Haji",
       "surname": "Metaimi",
-      "position": "Member",
+      "position": "Datu Imaum",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -105,11 +105,11 @@
       "location": null
     },
     {
-      "name": "Abang Mahomad Kassim Haji Sudin",
-      "canonical_name": "Sudin, Abang Mahomad Kassim Haji",
-      "given_names": "Abang Mahomad Kassim Haji",
+      "name": "Mahomad Kassim Haji Sudin",
+      "canonical_name": "Sudin, Mahomad Kassim Haji",
+      "given_names": "Mahomad Kassim Haji",
       "surname": "Sudin",
-      "position": "Member",
+      "position": "Member, Supreme Council",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -411,9 +411,25 @@
       "location": null
     },
     {
-      "name": "Sir Alfred Milner",
-      "canonical_name": "Milner, Sir Alfred",
-      "given_names": "Sir Alfred",
+      "name": "Barlow",
+      "canonical_name": "Barlow, ",
+      "given_names": "",
+      "surname": "Barlow",
+      "position": "Resident",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Alfred Milner",
+      "canonical_name": "Milner, Alfred",
+      "given_names": "Alfred",
       "surname": "Milner",
       "position": "High Commissioner",
       "department": "High Commission",
@@ -494,9 +510,9 @@
       "location": null
     },
     {
-      "name": "Miss Hanbury",
-      "canonical_name": "Hanbury, Miss",
-      "given_names": "Miss",
+      "name": "Hanbury",
+      "canonical_name": "Hanbury, ",
+      "given_names": "",
       "surname": "Hanbury",
       "position": "Clerk",
       "department": "High Commission",
@@ -510,9 +526,9 @@
       "location": null
     },
     {
-      "name": "Miss Klerck",
-      "canonical_name": "Klerck, Miss",
-      "given_names": "Miss",
+      "name": "Klerck",
+      "canonical_name": "Klerck, ",
+      "given_names": "",
       "surname": "Klerck",
       "position": "Clerk",
       "department": "High Commission",
@@ -526,12 +542,12 @@
       "location": null
     },
     {
-      "name": "Major H. Goold-Adams",
-      "canonical_name": "Goold-Adams, Major H.",
+      "name": "H. Goold-Adams",
+      "canonical_name": "Goold-Adams, H.",
       "given_names": "H.",
       "surname": "Goold-Adams",
       "position": "Resident Commissioner for Bechuanaland Protectorate",
-      "department": "High Commission",
+      "department": "Bechuanaland Protectorate",
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
@@ -542,7 +558,7 @@
       "qualifications": [],
       "military_rank": "Major",
       "salary_scale": null,
-      "location": null
+      "location": "Bechuanaland Protectorate"
     },
     {
       "name": "W. H. Surmon",
@@ -550,7 +566,7 @@
       "given_names": "W. H.",
       "surname": "Surmon",
       "position": "Assistant Commissioner for the Protectorate",
-      "department": "High Commission",
+      "department": "Protectorate",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": "allowances",
@@ -558,7 +574,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Protectorate"
     },
     {
       "name": "J. Ashburnham",
@@ -566,7 +582,7 @@
       "given_names": "J.",
       "surname": "Ashburnham",
       "position": "Assistant Commissioner for the Protectorate",
-      "department": "High Commission",
+      "department": "Protectorate",
       "salary_min": 600,
       "salary_max": 600,
       "allowances": null,
@@ -574,7 +590,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Protectorate"
     },
     {
       "name": "W. Conyngham Greene",
@@ -582,7 +598,7 @@
       "given_names": "W. Conyngham",
       "surname": "Greene",
       "position": "British Agent at Pretoria",
-      "department": "High Commission",
+      "department": "British Agent",
       "salary_min": 2000,
       "salary_max": 2000,
       "allowances": "with office allowance",
@@ -600,7 +616,7 @@
       "given_names": "E.",
       "surname": "Fraser",
       "position": "Secretary to British Agent at Pretoria",
-      "department": "High Commission",
+      "department": "British Agent",
       "salary_min": 450,
       "salary_max": 450,
       "allowances": null,
@@ -608,7 +624,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Pretoria"
     },
     {
       "name": "J. E. Evans",
@@ -616,7 +632,7 @@
       "given_names": "J. E.",
       "surname": "Evans",
       "position": "British Vice-Consul, Johannesburg",
-      "department": "High Commission",
+      "department": "British Vice-Consul",
       "salary_min": 500,
       "salary_max": 500,
       "allowances": null,
@@ -631,8 +647,8 @@
       "canonical_name": "Smuts, J.",
       "given_names": "J.",
       "surname": "Smuts",
-      "position": "British Consul in Swazieland",
-      "department": "High Commission",
+      "position": "British Consul in Swaziland",
+      "department": "British Consul",
       "salary_min": 800,
       "salary_max": 800,
       "allowances": "allowances",
@@ -640,31 +656,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Swazieland"
-    },
-    {
-      "name": "Mr. Barlow",
-      "canonical_name": "Barlow, Mr.",
-      "given_names": "Mr.",
-      "surname": "Barlow",
-      "position": "Resident",
-      "department": "High Commission",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
+      "location": "Swaziland"
     }
   ],
   "validation_summary": {
     "colony": "Sarawak",
     "year": 1898,
     "total": 40,
-    "high_confidence": 40,
-    "medium_confidence": 0,
+    "high_confidence": 37,
+    "medium_confidence": 3,
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 40,

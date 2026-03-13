@@ -1,15 +1,15 @@
 {
   "colony": "Natal",
   "year": 1898,
-  "generated": "2026-03-12T13:41:49.756681",
+  "generated": "2026-03-13T07:45:38.540502",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 147,
   "officials": [
     {
       "name": "The Hon. Sir Walter Francis Hely-Hutchinson",
-      "canonical_name": "Hely-Hutchinson, The Hon. Sir Walter Francis",
-      "given_names": "The Hon. Sir Walter Francis",
+      "canonical_name": "Hely-Hutchinson, Walter Francis",
+      "given_names": "Walter Francis",
       "surname": "Hely-Hutchinson",
       "position": "Governor",
       "department": "Civil Establishment",
@@ -67,7 +67,7 @@
       "department": "Civil Establishment",
       "salary_min": 500,
       "salary_max": 500,
-      "allowances": null,
+      "allowances": "50l. personal to present holder",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -75,7 +75,7 @@
       "location": null
     },
     {
-      "name": "The Hon. Henry Binns",
+      "name": "Henry Binns",
       "canonical_name": "Binns, Henry",
       "given_names": "Henry",
       "surname": "Binns",
@@ -143,7 +143,7 @@
       "canonical_name": "Campbell, H. C.",
       "given_names": "H. C.",
       "surname": "Campbell",
-      "position": "Chairman (Auditor-General)",
+      "position": "Chairman",
       "department": "Civil Service Board",
       "salary_min": null,
       "salary_max": null,
@@ -175,7 +175,7 @@
       "canonical_name": "Bird, C.",
       "given_names": "C.",
       "surname": "Bird",
-      "position": "Member (Principal Under Secretary)",
+      "position": "Principal Under Secretary",
       "department": "Civil Service Board",
       "salary_min": null,
       "salary_max": null,
@@ -191,7 +191,7 @@
       "canonical_name": "Samuelson, S. O.",
       "given_names": "S. O.",
       "surname": "Samuelson",
-      "position": "Member (Magistrate, City Division; Under Secretary for Native Affairs)",
+      "position": "Magistrate, City Division; Under Secretary for Native Affairs",
       "department": "Civil Service Board",
       "salary_min": null,
       "salary_max": null,
@@ -460,7 +460,7 @@
         "C.M.G."
       ],
       "qualifications": [],
-      "military_rank": "Lt.-Col.",
+      "military_rank": "Lieut.-Col.",
       "salary_scale": null,
       "location": null
     },
@@ -1003,7 +1003,6 @@
       "salary_max": 1500,
       "allowances": null,
       "honors": [
-        "Q.C.",
         "K.C.M.G."
       ],
       "qualifications": [],
@@ -1021,12 +1020,9 @@
       "salary_min": 1000,
       "salary_max": 1000,
       "allowances": null,
-      "honors": [
-        "Kt."
-      ],
+      "honors": [],
       "qualifications": [
-        "M.A.",
-        "D.C.L."
+        "M.A."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -1989,7 +1985,7 @@
       "canonical_name": "Mudie, C. J.",
       "given_names": "C. J.",
       "surname": "Mudie",
-      "position": "Assistant Inspectors",
+      "position": "Assistant Inspector",
       "department": "Education Department",
       "salary_min": 420,
       "salary_max": 420,
@@ -2146,7 +2142,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Belgium"
+      "location": null
     },
     {
       "name": "Max Pincus",
@@ -2178,7 +2174,7 @@
       "qualifications": [],
       "military_rank": "Captain",
       "salary_scale": null,
-      "location": "Portugal"
+      "location": null
     },
     {
       "name": "Gustav Monhaup",
@@ -2194,7 +2190,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Germany"
+      "location": null
     },
     {
       "name": "J. H. A. Balwe",
@@ -2210,7 +2206,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Netherlands"
+      "location": null
     },
     {
       "name": "W. Storm",
@@ -2226,7 +2222,7 @@
       "qualifications": [],
       "military_rank": "Captain",
       "salary_scale": null,
-      "location": "Denmark"
+      "location": null
     },
     {
       "name": "H. L. A. Daussing",
@@ -2242,7 +2238,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "E. Munder",
@@ -2258,7 +2254,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Austria-Hungary"
+      "location": null
     },
     {
       "name": "C. Schjoth",
@@ -2274,7 +2270,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sweden and Norway"
+      "location": null
     },
     {
       "name": "J. T. Rennie",
@@ -2290,7 +2286,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Italy"
+      "location": null
     },
     {
       "name": "C. P. Harvey",
@@ -2306,7 +2302,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States"
+      "location": null
     },
     {
       "name": "E. Snell",
@@ -2322,7 +2318,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Spain"
+      "location": null
     },
     {
       "name": "J. Hyslop",
@@ -2338,11 +2334,11 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Natal Government Asylum"
     },
     {
       "name": "G. C Henderson",
-      "canonical_name": "Henderson, G. C.",
+      "canonical_name": "Henderson, G. C",
       "given_names": "G. C",
       "surname": "Henderson",
       "position": "Surgeon Superintendent",
@@ -2354,12 +2350,12 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Addington Hospital, Durban"
     },
     {
-      "name": "J. F Allen",
+      "name": "J. F. Allen",
       "canonical_name": "Allen, J. F.",
-      "given_names": "J. F",
+      "given_names": "J. F.",
       "surname": "Allen",
       "position": "Surgeon",
       "department": "Medical Department",
@@ -2370,7 +2366,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Grey's Hospital, Pietermaritzburg"
     },
     {
       "name": "H. Watkins-Pitchford",
