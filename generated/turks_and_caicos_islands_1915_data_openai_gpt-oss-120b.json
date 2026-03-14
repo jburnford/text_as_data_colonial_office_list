@@ -1,7 +1,7 @@
 {
   "colony": "Turks and Caicos Islands",
   "year": 1915,
-  "generated": "2026-03-13T11:18:21.798892",
+  "generated": "2026-03-14T14:21:13.344010",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 24,
@@ -123,7 +123,7 @@
       "canonical_name": "Antwood, G. N.",
       "given_names": "G. N.",
       "surname": "Antwood",
-      "position": "Government Officer, Salt Cay",
+      "position": "Government Officer",
       "department": "Civil Establishment",
       "salary_min": 110,
       "salary_max": 110,
@@ -139,7 +139,7 @@
       "canonical_name": "Ewing, E. G.",
       "given_names": "E. G.",
       "surname": "Ewing",
-      "position": "Boarding Officer and Foreman of Works, Cockburn Harbour",
+      "position": "Boarding Officer and Foreman of Works",
       "department": "Civil Establishment",
       "salary_min": 120,
       "salary_max": 120,
@@ -253,7 +253,7 @@
       "canonical_name": "Tice, C.",
       "given_names": "C.",
       "surname": "Tice",
-      "position": "Anglican Rector, Wesleyan Minister",
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -269,7 +269,7 @@
       "canonical_name": "Edmonds, F.",
       "given_names": "F.",
       "surname": "Edmonds",
-      "position": "Baptist Minister",
+      "position": "Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -294,7 +294,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "France"
     },
     {
       "name": "P. McDougall",
@@ -310,7 +310,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "San Domingo"
     },
     {
       "name": "W. R. Tate",
@@ -326,14 +326,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "San Domingo"
     },
     {
       "name": "C. H. Durham",
       "canonical_name": "Durham, C. H.",
       "given_names": "C. H.",
       "surname": "Durham",
-      "position": "",
+      "position": "Vice-Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -342,14 +342,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Cockburn Harbour"
     },
     {
       "name": "H. T. Morgan",
       "canonical_name": "Morgan, H. T.",
       "given_names": "H. T.",
       "surname": "Morgan",
-      "position": "",
+      "position": "Vice-Consul",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -358,14 +358,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Salt Cay"
     },
     {
       "name": "R. Darrell",
       "canonical_name": "Darrell, R.",
       "given_names": "R.",
       "surname": "Darrell",
-      "position": "",
+      "position": null,
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -374,7 +374,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Norway"
     },
     {
       "name": "J. A. Gore",
@@ -390,7 +390,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "United States of America"
     }
   ],
   "validation_summary": {
