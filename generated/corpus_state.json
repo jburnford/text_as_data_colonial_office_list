@@ -1,6 +1,6 @@
 {
   "started": "2026-02-19T16:47:07.876174",
-  "last_updated": "2026-03-14T13:38:51.204327",
+  "last_updated": "2026-03-14T13:41:58.305275",
   "completed": {
     "Antigua_1896": {
       "colony": "Antigua",
@@ -96195,6 +96195,49 @@
       },
       "error": null,
       "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/bermuda_1907_data_openai_gpt-oss-120b.json"
+    },
+    "Gambia_1907": {
+      "colony": "Gambia",
+      "year": 1907,
+      "tier": "STANDARD",
+      "source_file": "/home/jic823/Documents/text_as_data_colonial_office_list/1907_manual_parsed/THE_GAMBIA.txt",
+      "timestamp": "2026-03-14T13:36:00.120266",
+      "total_officials": 74,
+      "passed_officials": 73,
+      "quarantined_officials": 1,
+      "departments": {
+        "Civil Establishment": 3,
+        "Secretariat": 3,
+        "Legal Assistant's Office": 2,
+        "Treasury": 5,
+        "Customs": 12,
+        "Judicial Department": 5,
+        "Protectorate": 5,
+        "West African Frontier Force": 4,
+        "Police Force": 2,
+        "Prison": 3,
+        "Medical": 6,
+        "Printing Office": 5,
+        "Colonial Engineer's Department": 7,
+        "Audit Office": 2,
+        "Government Vessels": 3,
+        "Post Office": 3,
+        "Foreign Consuls": 3
+      },
+      "generation_time": 358.2,
+      "validation_summary": {
+        "colony": "Gambia",
+        "year": 1907,
+        "total": 74,
+        "high_confidence": 73,
+        "medium_confidence": 0,
+        "low_confidence": 1,
+        "quarantined": 1,
+        "passed": 73,
+        "anomaly_count": 2
+      },
+      "error": null,
+      "output_file": "/home/jic823/Documents/text_as_data_colonial_office_list/generated/gambia_1907_data_openai_gpt-oss-120b.json"
     }
   },
   "failed": {},
