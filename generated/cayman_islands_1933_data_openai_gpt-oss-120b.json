@@ -1,0 +1,121 @@
+{
+  "colony": "Cayman Islands",
+  "year": 1933,
+  "generated": "2026-03-13T19:28:25.300870",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 6,
+  "officials": [
+    {
+      "name": "F. A. Weston",
+      "canonical_name": "Weston, F. A.",
+      "given_names": "F. A.",
+      "surname": "Weston",
+      "position": "Commissioner and Judge",
+      "department": "Civil Establishment",
+      "salary_min": 500,
+      "salary_max": 600,
+      "allowances": "furnished house",
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": "Lt.-Col.",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "G. N. Overton",
+      "canonical_name": "Overton, G. N.",
+      "given_names": "G. N.",
+      "surname": "Overton",
+      "position": "Government Medical Officer",
+      "department": "Civil Establishment",
+      "salary_min": 51,
+      "salary_max": 300,
+      "allowances": "partly furnished house",
+      "honors": [],
+      "qualifications": [
+        "M.D."
+      ],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "A. E. Panton",
+      "canonical_name": "Panton, A. E.",
+      "given_names": "A. E.",
+      "surname": "Panton",
+      "position": "Clerk of Courts, Clerk of the Vestry, and Auditor",
+      "department": "Civil Establishment",
+      "salary_min": 160,
+      "salary_max": 160,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "A. C. Panton",
+      "canonical_name": "Panton, A. C.",
+      "given_names": "A. C.",
+      "surname": "Panton",
+      "position": "Assistant Treasurer, Collector of Customs and Postmaster",
+      "department": "Civil Establishment",
+      "salary_min": 180,
+      "salary_max": 180,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Georgetown"
+    },
+    {
+      "name": "A. S. Rutty",
+      "canonical_name": "Rutty, A. S.",
+      "given_names": "A. S.",
+      "surname": "Rutty",
+      "position": "Collector, Postmaster, etc.",
+      "department": "Civil Establishment",
+      "salary_min": 160,
+      "salary_max": 160,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Lesser Cayman Islands"
+    },
+    {
+      "name": "J. R. Watler",
+      "canonical_name": "Watler, J. R.",
+      "given_names": "J. R.",
+      "surname": "Watler",
+      "position": "Inspector of Police, Bailiff, Grand Court, etc.",
+      "department": "Civil Establishment",
+      "salary_min": 160,
+      "salary_max": 160,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Cayman Islands",
+    "year": 1933,
+    "total": 6,
+    "high_confidence": 6,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 6,
+    "anomaly_count": 0
+  }
+}

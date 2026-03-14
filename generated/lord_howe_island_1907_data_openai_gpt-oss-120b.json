@@ -1,0 +1,37 @@
+{
+  "colony": "Lord Howe Island",
+  "year": 1907,
+  "generated": "2026-03-13T19:24:55.108520",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "Frank Farnell",
+      "canonical_name": "Farnell, Frank",
+      "given_names": "Frank",
+      "surname": "Farnell",
+      "position": "Visiting Magistrate",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Lord Howe Island",
+    "year": 1907,
+    "total": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}

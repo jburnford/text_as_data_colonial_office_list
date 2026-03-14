@@ -1,0 +1,37 @@
+{
+  "colony": "Norfolk Island",
+  "year": 1905,
+  "generated": "2026-03-13T19:24:46.777700",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "Captain Walton Drake",
+      "canonical_name": "Drake, Walton",
+      "given_names": "Walton",
+      "surname": "Drake",
+      "position": "Resident Magistrate",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Captain",
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Norfolk Island",
+    "year": 1905,
+    "total": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}

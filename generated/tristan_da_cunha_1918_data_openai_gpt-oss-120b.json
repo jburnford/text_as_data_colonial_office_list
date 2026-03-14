@@ -1,0 +1,37 @@
+{
+  "colony": "Tristan da Cunha",
+  "year": 1918,
+  "generated": "2026-03-13T19:26:02.619009",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "J. G. Barrow",
+      "canonical_name": "Barrow, J. G.",
+      "given_names": "J. G.",
+      "surname": "Barrow",
+      "position": "Reverend",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Tristan da Cunha",
+    "year": 1918,
+    "total": 2,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 1,
+    "quarantined": 1,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}

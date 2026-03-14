@@ -1,0 +1,37 @@
+{
+  "colony": "Pitcairn Island",
+  "year": 1908,
+  "generated": "2026-03-13T19:25:25.752580",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "Arthur H. Young",
+      "canonical_name": "Young, Arthur H.",
+      "given_names": "Arthur H.",
+      "surname": "Young",
+      "position": "Chief Magistrate",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Pitcairn Island",
+    "year": 1908,
+    "total": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}

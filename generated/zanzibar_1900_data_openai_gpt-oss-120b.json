@@ -1,0 +1,58 @@
+{
+  "colony": "Zanzibar",
+  "year": 1900,
+  "generated": "2026-03-13T19:24:42.861969",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "Sir A. Hardinge",
+      "canonical_name": "Hardinge, Sir A.",
+      "given_names": "Sir A.",
+      "surname": "Hardinge",
+      "position": "H.M. Agent and Consul-General",
+      "department": null,
+      "salary_min": 1800,
+      "salary_max": 1800,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G.",
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "B. S. Cave",
+      "canonical_name": "Cave, B. S.",
+      "given_names": "B. S.",
+      "surname": "Cave",
+      "position": "Consul",
+      "department": null,
+      "salary_min": 700,
+      "salary_max": 700,
+      "allowances": null,
+      "honors": [
+        "C.B."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Zanzibar",
+    "year": 1900,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}

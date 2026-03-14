@@ -1,0 +1,57 @@
+{
+  "colony": "High Commission Territories",
+  "year": 1957,
+  "generated": "2026-03-13T19:32:37.592421",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "Sir Percivale Liesching",
+      "canonical_name": "Liesching, Sir Percivale",
+      "given_names": "Sir Percivale",
+      "surname": "Liesching",
+      "position": "HIGH COMMISSIONER",
+      "department": "Civil Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "G.C.M.G.",
+        "K.C.B.",
+        "K.C.V.O."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "P. Bridges",
+      "canonical_name": "Bridges, P.",
+      "given_names": "P.",
+      "surname": "Bridges",
+      "position": "Private Secretary",
+      "department": "Civil Establishment",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "High Commission Territories",
+    "year": 1957,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}

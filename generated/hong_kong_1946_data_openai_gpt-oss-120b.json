@@ -1,0 +1,39 @@
+{
+  "colony": "Hong Kong",
+  "year": 1946,
+  "generated": "2026-03-13T19:30:29.868151",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "Sir Mark Young",
+      "canonical_name": "Young, Sir Mark",
+      "given_names": "Sir Mark",
+      "surname": "Young",
+      "position": "Governor",
+      "department": "Civil Administration",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "G.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Hong Kong",
+    "year": 1946,
+    "total": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}

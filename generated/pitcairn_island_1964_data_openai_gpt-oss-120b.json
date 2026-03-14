@@ -1,0 +1,69 @@
+{
+  "colony": "Pitcairn Island",
+  "year": 1964,
+  "generated": "2026-03-13T19:32:27.992851",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "John Christian",
+      "canonical_name": "Christian, John",
+      "given_names": "John",
+      "surname": "Christian",
+      "position": "Chief Magistrate",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Carteret",
+      "canonical_name": "Carteret",
+      "given_names": null,
+      "surname": "Carteret",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Her Majesty the Queen",
+      "canonical_name": "Queen, Her Majesty the",
+      "given_names": "Her Majesty",
+      "surname": "Queen",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Pitcairn Island",
+    "year": 1964,
+    "total": 3,
+    "high_confidence": 2,
+    "medium_confidence": 1,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}

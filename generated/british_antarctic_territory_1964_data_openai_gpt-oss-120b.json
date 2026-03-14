@@ -1,0 +1,39 @@
+{
+  "colony": "British Antarctic Territory",
+  "year": 1964,
+  "generated": "2026-03-13T19:32:15.547937",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "Sir Edwin Arrowsmith",
+      "canonical_name": "Arrowsmith, Sir Edwin",
+      "given_names": "Sir Edwin",
+      "surname": "Arrowsmith",
+      "position": "High Commissioner",
+      "department": "High Commissioner",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "British Antarctic Territory",
+    "year": 1964,
+    "total": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}

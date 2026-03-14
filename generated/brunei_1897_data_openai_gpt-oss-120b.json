@@ -1,0 +1,37 @@
+{
+  "colony": "Brunei",
+  "year": 1897,
+  "generated": "2026-03-13T19:24:10.242219",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "Noel Paul Trevenen",
+      "canonical_name": "Trevenen, Noel Paul",
+      "given_names": "Noel Paul",
+      "surname": "Trevenen",
+      "position": "British Consul",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Brunei",
+    "year": 1897,
+    "total": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}

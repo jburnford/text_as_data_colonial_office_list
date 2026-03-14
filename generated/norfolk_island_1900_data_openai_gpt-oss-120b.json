@@ -1,0 +1,53 @@
+{
+  "colony": "Norfolk Island",
+  "year": 1900,
+  "generated": "2026-03-13T19:24:29.556211",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "Charles McArthur King",
+      "canonical_name": "King, Charles McArthur",
+      "given_names": "Charles McArthur",
+      "surname": "King",
+      "position": "Resident Magistrate",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "J. A. Brodie",
+      "canonical_name": "Brodie, J. A.",
+      "given_names": "J. A.",
+      "surname": "Brodie",
+      "position": "Visiting Magistrate",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Norfolk Island",
+    "year": 1900,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}

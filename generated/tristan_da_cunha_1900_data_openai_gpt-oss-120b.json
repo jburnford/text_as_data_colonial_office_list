@@ -1,0 +1,53 @@
+{
+  "colony": "Tristan da Cunha",
+  "year": 1900,
+  "generated": "2026-03-13T19:24:31.911421",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "Governor Green",
+      "canonical_name": "Green, Governor",
+      "given_names": "Governor",
+      "surname": "Green",
+      "position": "Governor",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Governor Glass",
+      "canonical_name": "Glass, Governor",
+      "given_names": "Governor",
+      "surname": "Glass",
+      "position": "Governor",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Corporal",
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Tristan da Cunha",
+    "year": 1900,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}

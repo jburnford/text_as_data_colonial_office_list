@@ -1,0 +1,53 @@
+{
+  "colony": "Norfolk Island",
+  "year": 1906,
+  "generated": "2026-03-13T19:24:51.883753",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "Captain Cook",
+      "canonical_name": "Cook, Captain",
+      "given_names": "Captain",
+      "surname": "Cook",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Captain",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Captain Walton Drake, R.N.",
+      "canonical_name": "Drake, Walton",
+      "given_names": "Walton",
+      "surname": "Drake",
+      "position": "Resident Magistrate",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Captain",
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Norfolk Island",
+    "year": 1906,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}

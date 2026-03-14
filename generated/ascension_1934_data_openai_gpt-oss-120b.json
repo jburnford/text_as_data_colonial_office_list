@@ -1,0 +1,69 @@
+{
+  "colony": "Ascension",
+  "year": 1934,
+  "generated": "2026-03-13T19:28:53.097299",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "E. A. Willmott",
+      "canonical_name": "Willmott, E. A.",
+      "given_names": "E. A.",
+      "surname": "Willmott",
+      "position": "Resident Magistrate and Receiver of Wrecks",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "G. D. de L. Hawthorne",
+      "canonical_name": "Hawthorne, G. D. de L.",
+      "given_names": "G. D. de L.",
+      "surname": "Hawthorne",
+      "position": "Postmaster",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "J. S. M. Biggs",
+      "canonical_name": "Biggs, J. S. M.",
+      "given_names": "J. S. M.",
+      "surname": "Biggs",
+      "position": "Harbour Master",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Ascension",
+    "year": 1934,
+    "total": 3,
+    "high_confidence": 3,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}

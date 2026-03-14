@@ -1,0 +1,37 @@
+{
+  "colony": "Anguilla",
+  "year": 1878,
+  "generated": "2026-03-13T19:19:28.895107",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "J. L. Lake",
+      "canonical_name": "Lake, J. L.",
+      "given_names": "J. L.",
+      "surname": "Lake",
+      "position": "Presiding Magistrate",
+      "department": null,
+      "salary_min": 220,
+      "salary_max": 220,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Anguilla",
+    "year": 1878,
+    "total": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}

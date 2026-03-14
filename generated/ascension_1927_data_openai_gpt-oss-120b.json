@@ -1,0 +1,87 @@
+{
+  "colony": "Ascension",
+  "year": 1927,
+  "generated": "2026-03-13T19:27:14.758512",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 4,
+  "officials": [
+    {
+      "name": "E. Lee Lander",
+      "canonical_name": "Lander, E. Lee",
+      "given_names": "E. Lee",
+      "surname": "Lander",
+      "position": "Resident Magistrate and Receiver of Wrecks",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "E. L. Salier",
+      "canonical_name": "Salier, E. L.",
+      "given_names": "E. L.",
+      "surname": "Salier",
+      "position": "Controller of Labour",
+      "department": null,
+      "salary_min": 400,
+      "salary_max": 400,
+      "allowances": null,
+      "honors": [
+        "M.C."
+      ],
+      "qualifications": [],
+      "military_rank": "Lt.-Col.",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "C. Wray",
+      "canonical_name": "Wray, C.",
+      "given_names": "C.",
+      "surname": "Wray",
+      "position": "Postmaster",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "F. Robson",
+      "canonical_name": "Robson, F.",
+      "given_names": "F.",
+      "surname": "Robson",
+      "position": "Harbour Master",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Ascension",
+    "year": 1927,
+    "total": 4,
+    "high_confidence": 4,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 4,
+    "anomaly_count": 0
+  }
+}

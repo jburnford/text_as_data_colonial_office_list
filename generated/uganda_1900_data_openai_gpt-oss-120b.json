@@ -1,0 +1,123 @@
+{
+  "colony": "Uganda",
+  "year": 1900,
+  "generated": "2026-03-13T19:24:56.139391",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 6,
+  "officials": [
+    {
+      "name": "Sir Harry H. Johnston",
+      "canonical_name": "Johnston, Sir Harry H.",
+      "given_names": "Sir Harry H.",
+      "surname": "Johnston",
+      "position": "H.M. Special Commissioner and Commander-in-Chief",
+      "department": null,
+      "salary_min": 2900,
+      "salary_max": 2900,
+      "allowances": null,
+      "honors": [
+        "K.C.B."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "T. P. B. Tornau",
+      "canonical_name": "Tornau, T. P. B.",
+      "given_names": "T. P. B.",
+      "surname": "Tornau",
+      "position": "Deputy-Commissioner and Commandant of Troops",
+      "department": null,
+      "salary_min": 1000,
+      "salary_max": 1000,
+      "allowances": null,
+      "honors": [
+        "D.S.O."
+      ],
+      "qualifications": [],
+      "military_rank": "Colonel",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "A. H. Coles",
+      "canonical_name": "Coles, A. H.",
+      "given_names": "A. H.",
+      "surname": "Coles",
+      "position": "Third in Command",
+      "department": null,
+      "salary_min": 800,
+      "salary_max": 800,
+      "allowances": null,
+      "honors": [
+        "D.S.O."
+      ],
+      "qualifications": [],
+      "military_rank": "Lt.-Col.",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "J. T. Evatt",
+      "canonical_name": "Evatt, J. T.",
+      "given_names": "J. T.",
+      "surname": "Evatt",
+      "position": "Fourth in Command and Officer Commanding Indian Contingent",
+      "department": null,
+      "salary_min": 800,
+      "salary_max": 800,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Lt.-Col.",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "J. F. Cunningham",
+      "canonical_name": "Cunningham, J. F.",
+      "given_names": "J. F.",
+      "surname": "Cunningham",
+      "position": "Secretary",
+      "department": null,
+      "salary_min": 550,
+      "salary_max": 550,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "E. de L. Collinson",
+      "canonical_name": "Collinson, E. de L.",
+      "given_names": "E. de L.",
+      "surname": "Collinson",
+      "position": "Judicial Vice-Consul",
+      "department": null,
+      "salary_min": 600,
+      "salary_max": 600,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Uganda",
+    "year": 1900,
+    "total": 6,
+    "high_confidence": 6,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 6,
+    "anomaly_count": 0
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "colony": "Cameroons",
+  "year": 1961,
+  "generated": "2026-03-13T19:31:49.869748",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 2,
+  "officials": [
+    {
+      "name": "J. O. Field",
+      "canonical_name": "Field, J. O.",
+      "given_names": "J. O.",
+      "surname": "Field",
+      "position": "Commissioner",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sir Percy Wyn Harris",
+      "canonical_name": "Harris, Percy Wyn",
+      "given_names": "Percy Wyn",
+      "surname": "Harris",
+      "position": "Administrator",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Cameroons",
+    "year": 1961,
+    "total": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 2,
+    "anomaly_count": 0
+  }
+}

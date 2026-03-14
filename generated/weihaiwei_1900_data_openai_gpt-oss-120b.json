@@ -1,0 +1,37 @@
+{
+  "colony": "Weihaiwei",
+  "year": 1900,
+  "generated": "2026-03-13T19:24:35.602253",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "Claude M. MacDonald",
+      "canonical_name": "MacDonald, Claude M.",
+      "given_names": "Claude M.",
+      "surname": "MacDonald",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Weihaiwei",
+    "year": 1900,
+    "total": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}

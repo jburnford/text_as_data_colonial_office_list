@@ -1,0 +1,69 @@
+{
+  "colony": "Ascension",
+  "year": 1890,
+  "generated": "2026-03-13T19:23:31.345783",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "Richard H. Napier",
+      "canonical_name": "Napier, Richard H.",
+      "given_names": "Richard H.",
+      "surname": "Napier",
+      "position": "Captain",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Captain",
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Tristan D'Acunha",
+      "canonical_name": "D'Acunha, Tristan",
+      "given_names": "Tristan",
+      "surname": "D'Acunha",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Glass",
+      "canonical_name": "Glass",
+      "given_names": "",
+      "surname": "Glass",
+      "position": "Governor; Founder of the settlement",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Corporal",
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Ascension",
+    "year": 1890,
+    "total": 4,
+    "high_confidence": 2,
+    "medium_confidence": 1,
+    "low_confidence": 1,
+    "quarantined": 1,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}

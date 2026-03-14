@@ -1,0 +1,69 @@
+{
+  "colony": "Miscellaneous Islands",
+  "year": 1940,
+  "generated": "2026-03-13T19:29:35.872150",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 3,
+  "officials": [
+    {
+      "name": "Grioe",
+      "canonical_name": "Grioe",
+      "given_names": "",
+      "surname": "Grioe",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sumner",
+      "canonical_name": "Sumner",
+      "given_names": "",
+      "surname": "Sumner",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "S. R. Marwell",
+      "canonical_name": "Marwell, S. R.",
+      "given_names": "S. R.",
+      "surname": "Marwell",
+      "position": null,
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Miscellaneous Islands",
+    "year": 1940,
+    "total": 3,
+    "high_confidence": 1,
+    "medium_confidence": 2,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 3,
+    "anomaly_count": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "colony": "Aden",
+  "year": 1898,
+  "generated": "2026-03-13T19:23:59.979223",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 1,
+  "officials": [
+    {
+      "name": "E. V. Stace",
+      "canonical_name": "Stace, E. V.",
+      "given_names": "E. V.",
+      "surname": "Stace",
+      "position": "Acting Consul for the Somali Coast",
+      "department": null,
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": "Lieut.-Col.",
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "Aden",
+    "year": 1898,
+    "total": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 1,
+    "anomaly_count": 0
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "colony": "South Africa",
+  "year": 1894,
+  "generated": "2026-03-13T19:24:02.001689",
+  "model": "openai/gpt-oss-120b",
+  "tier": "SMALL",
+  "total_officials": 10,
+  "officials": [
+    {
+      "name": "Sir H. B. Loch",
+      "canonical_name": "Loch, H. B.",
+      "given_names": "H. B.",
+      "surname": "Loch",
+      "position": "High Commissioner",
+      "department": "High Commission",
+      "salary_min": 3000,
+      "salary_max": 3000,
+      "allowances": "1,000l. Imp. Fds",
+      "honors": [
+        "G.C.M.G.",
+        "K.C.B."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Cape Town"
+    },
+    {
+      "name": "Sir Graham Bower",
+      "canonical_name": "Bower, Graham",
+      "given_names": "Graham",
+      "surname": "Bower",
+      "position": "Secretary and Accountant to the High Commissioner",
+      "department": "High Commission",
+      "salary_min": 650,
+      "salary_max": 650,
+      "allowances": "personal allowance, 250l.",
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Albert Browne",
+      "canonical_name": "Browne, Albert",
+      "given_names": "Albert",
+      "surname": "Browne",
+      "position": "Assistant Accountant",
+      "department": "High Commission",
+      "salary_min": 382,
+      "salary_max": 382,
+      "allowances": "50l. as Auditor, Basutoland.",
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "J. Smuts",
+      "canonical_name": "Smuts, J.",
+      "given_names": "J.",
+      "surname": "Smuts",
+      "position": "Chief Clerk",
+      "department": "High Commission",
+      "salary_min": 410,
+      "salary_max": 410,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sir S. G. A. Shippard",
+      "canonical_name": "Shippard, S. G. A.",
+      "given_names": "S. G. A.",
+      "surname": "Shippard",
+      "position": "Resident Commissioner for Bechuanaland Protectorate",
+      "department": "High Commission",
+      "salary_min": 1800,
+      "salary_max": 1800,
+      "allowances": null,
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Vryburg"
+    },
+    {
+      "name": "J. S. Moffat",
+      "canonical_name": "Moffat, J. S.",
+      "given_names": "J. S.",
+      "surname": "Moffat",
+      "position": "Assistant Commissioner for the Protectorate",
+      "department": "High Commission",
+      "salary_min": 800,
+      "salary_max": 800,
+      "allowances": "allowances",
+      "honors": [
+        "C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "W. H. Surmon",
+      "canonical_name": "Surmon, W. H.",
+      "given_names": "W. H.",
+      "surname": "Surmon",
+      "position": "Assistant Commissioner for the Protectorate",
+      "department": "High Commission",
+      "salary_min": 800,
+      "salary_max": 800,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "J. P. Scott",
+      "canonical_name": "Scott, J. P.",
+      "given_names": "J. P.",
+      "surname": "Scott",
+      "position": "Resident Commissioner for Pondoland",
+      "department": "High Commission",
+      "salary_min": 800,
+      "salary_max": 800,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Sir J. A. de Wet",
+      "canonical_name": "de Wet, J. A.",
+      "given_names": "J. A.",
+      "surname": "de Wet",
+      "position": "British Agent at Pretoria",
+      "department": "High Commission",
+      "salary_min": 1500,
+      "salary_max": 1500,
+      "allowances": "500l. for office expenses",
+      "honors": [
+        "K.C.M.G."
+      ],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "H. H. Johnston",
+      "canonical_name": "Johnston, H. H.",
+      "given_names": "H. H.",
+      "surname": "Johnston",
+      "position": "British Consul-General in Nyasaland",
+      "department": "High Commission",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    }
+  ],
+  "validation_summary": {
+    "colony": "South Africa",
+    "year": 1894,
+    "total": 10,
+    "high_confidence": 10,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "quarantined": 0,
+    "passed": 10,
+    "anomaly_count": 0
+  }
+}
