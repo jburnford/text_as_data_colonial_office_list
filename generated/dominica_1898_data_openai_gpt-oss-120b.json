@@ -1,7 +1,7 @@
 {
   "colony": "Dominica",
   "year": 1898,
-  "generated": "2026-03-13T07:29:58.915031",
+  "generated": "2026-03-14T12:47:58.275026",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 51,
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 900,
       "salary_max": 900,
-      "allowances": null,
+      "allowances": "300l. from Imperial funds",
       "honors": [
         "C.M.G."
       ],
@@ -253,7 +253,7 @@
       "canonical_name": "Sharp, G. A.",
       "given_names": "G. A.",
       "surname": "Sharp",
-      "position": "Chief Clerk in Registrar's Office",
+      "position": "Second Clerk",
       "department": "Judicial Establishment",
       "salary_min": 60,
       "salary_max": 60,
@@ -285,7 +285,7 @@
       "canonical_name": "Coull, William",
       "given_names": "William",
       "surname": "Coull",
-      "position": "Magistrate, District E.",
+      "position": "Magistrate",
       "department": "Judicial Establishment",
       "salary_min": 300,
       "salary_max": 300,
@@ -294,14 +294,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "District E"
     },
     {
       "name": "W. H. Roper",
       "canonical_name": "Roper, W. H.",
       "given_names": "W. H.",
       "surname": "Roper",
-      "position": "Magistrate, District F.",
+      "position": "Magistrate",
       "department": "Judicial Establishment",
       "salary_min": 250,
       "salary_max": 250,
@@ -310,14 +310,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "District F"
     },
     {
       "name": "R. F. Garraway",
       "canonical_name": "Garraway, R. F.",
       "given_names": "R. F.",
       "surname": "Garraway",
-      "position": "Magistrate, District G.",
+      "position": "Magistrate",
       "department": "Judicial Establishment",
       "salary_min": 300,
       "salary_max": 300,
@@ -326,7 +326,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "District G"
     },
     {
       "name": "H. A. Alford Nicholls",
@@ -357,7 +357,7 @@
       "department": "Medical Establishment",
       "salary_min": 80,
       "salary_max": 80,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -373,7 +373,7 @@
       "department": "Medical Establishment",
       "salary_min": 60,
       "salary_max": 60,
-      "allowances": "quarters",
+      "allowances": null,
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -428,7 +428,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [
-        "M.R.C.S. Eng."
+        "M.R.C.S."
       ],
       "military_rank": null,
       "salary_scale": null,
@@ -443,7 +443,7 @@
       "department": "Public Works Department",
       "salary_min": 350,
       "salary_max": 350,
-      "allowances": null,
+      "allowances": "fees",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -523,7 +523,7 @@
       "department": "Police and Prison",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": "horse allowance 35l., and quarters",
+      "allowances": "horse allowance 35l., and quarters; as Keeper of Powder Magazine 5l.",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -615,7 +615,7 @@
       "location": null
     },
     {
-      "name": "Rev. P. Fogarty",
+      "name": "P. Fogarty",
       "canonical_name": "Fogarty, P.",
       "given_names": "P.",
       "surname": "Fogarty",
@@ -651,7 +651,7 @@
       "canonical_name": "Elliott, W. R.",
       "given_names": "W. R.",
       "surname": "Elliott",
-      "position": "Clerk",
+      "position": "Clerk to Postmaster",
       "department": "Post Office",
       "salary_min": 40,
       "salary_max": 40,
@@ -703,14 +703,14 @@
       "department": "Educational Establishment",
       "salary_min": 200,
       "salary_max": 200,
-      "allowances": null,
+      "allowances": "house",
       "honors": [],
       "qualifications": [
         "M.A."
       ],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Dominica Grammar School"
+      "location": null
     },
     {
       "name": "G. A. Barraclough",
@@ -721,12 +721,12 @@
       "department": "Educational Establishment",
       "salary_min": 100,
       "salary_max": 100,
-      "allowances": null,
+      "allowances": "house",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Dominica Grammar School"
+      "location": null
     },
     {
       "name": "P. F. Simon",
@@ -742,7 +742,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Roseau Boy's School"
+      "location": null
     },
     {
       "name": "Amanda Roach",
@@ -758,7 +758,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Roseau Girls' School"
+      "location": null
     },
     {
       "name": "Thomas Dent",
@@ -822,7 +822,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "H. A. Frampton",
@@ -838,7 +838,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "United States of America"
+      "location": null
     }
   ],
   "validation_summary": {
