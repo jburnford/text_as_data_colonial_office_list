@@ -1,7 +1,7 @@
 {
   "colony": "Newfoundland",
   "year": 1920,
-  "generated": "2026-03-13T12:39:11.138572",
+  "generated": "2026-03-14T14:48:28.220382",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 106,
@@ -26,7 +26,7 @@
       "location": null
     },
     {
-      "name": "Capt. J. Hamilton",
+      "name": "J. Hamilton",
       "canonical_name": "Hamilton, J.",
       "given_names": "J.",
       "surname": "Hamilton",
@@ -42,7 +42,7 @@
       "location": null
     },
     {
-      "name": "Hon. Robert Watson",
+      "name": "Robert Watson",
       "canonical_name": "Watson, Robert",
       "given_names": "Robert",
       "surname": "Watson",
@@ -74,7 +74,7 @@
       "location": null
     },
     {
-      "name": "Miss N. Randall",
+      "name": "N. Randall",
       "canonical_name": "Randall, N.",
       "given_names": "N.",
       "surname": "Randall",
@@ -396,7 +396,7 @@
       "location": null
     },
     {
-      "name": "W. F. Coaker",
+      "name": "Hon. W. F. Coaker",
       "canonical_name": "Coaker, W. F.",
       "given_names": "W. F.",
       "surname": "Coaker",
@@ -515,7 +515,7 @@
       "given_names": "William B.",
       "surname": "Jennings",
       "position": "Minister of Public Works",
-      "department": "Department of Public Works",
+      "department": "Public Works",
       "salary_min": 2760,
       "salary_max": 2760,
       "allowances": null,
@@ -531,7 +531,7 @@
       "given_names": "James",
       "surname": "Harris",
       "position": "Secretary",
-      "department": "Department of Public Works",
+      "department": "Public Works",
       "salary_min": 2574,
       "salary_max": 2574,
       "allowances": null,
@@ -547,7 +547,7 @@
       "given_names": "William C.",
       "surname": "Pearce",
       "position": "1st Clerk",
-      "department": "Department of Public Works",
+      "department": "Public Works",
       "salary_min": 1584,
       "salary_max": 1584,
       "allowances": null,
@@ -576,9 +576,9 @@
       "location": null
     },
     {
-      "name": "F.C. Berteau",
-      "canonical_name": "Berteau, F.C.",
-      "given_names": "F.C.",
+      "name": "F. C. Berteau",
+      "canonical_name": "Berteau, F. C.",
+      "given_names": "F. C.",
       "surname": "Berteau",
       "position": "Comptroller and A.G.",
       "department": "Office of Comptroller and Auditor-General",
@@ -904,8 +904,8 @@
       "surname": "Parsons",
       "position": "Magistrate",
       "department": "Judicial Establishment",
-      "salary_min": 831,
-      "salary_max": 831,
+      "salary_min": 1237,
+      "salary_max": 1237,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -1160,7 +1160,7 @@
       "canonical_name": "Blackall, W. W.",
       "given_names": "W. W.",
       "surname": "Blackall",
-      "position": "Church of England",
+      "position": "Superintendent of Schools",
       "department": "Educational Establishment",
       "salary_min": 2333,
       "salary_max": 2333,
@@ -1190,9 +1190,9 @@
       "location": null
     },
     {
-      "name": "Rev. Levi Curtis",
-      "canonical_name": "Curtis, Rev. Levi",
-      "given_names": "Rev. Levi",
+      "name": "Levi Curtis",
+      "canonical_name": "Curtis, Levi",
+      "given_names": "Levi",
       "surname": "Curtis",
       "position": "Methodist",
       "department": "Educational Establishment",
@@ -1276,7 +1276,7 @@
       "canonical_name": "Hayward, E. A.",
       "given_names": "E. A.",
       "surname": "Hayward",
-      "position": null,
+      "position": "",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1308,7 +1308,7 @@
       "canonical_name": "Williams, G. R.",
       "given_names": "G. R.",
       "surname": "Williams",
-      "position": "Vice-Consul",
+      "position": "Consular Agent",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1340,7 +1340,7 @@
       "canonical_name": "Cook, Tasker",
       "given_names": "Tasker",
       "surname": "Cook",
-      "position": null,
+      "position": "",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1381,7 +1381,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Sandy Point"
+      "location": null
     },
     {
       "name": "Charles McK. Harvey",
@@ -1605,7 +1605,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Harbor Breton, La Poile"
+      "location": "La Poile"
     },
     {
       "name": "Finn Koren",
@@ -1644,7 +1644,7 @@
       "canonical_name": "Benedict, James S.",
       "given_names": "James S.",
       "surname": "Benedict",
-      "position": "Consul",
+      "position": "Consul for Newfoundland",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,
@@ -1692,7 +1692,7 @@
       "canonical_name": "Devereux, R. I.",
       "given_names": "R. I.",
       "surname": "Devereux",
-      "position": null,
+      "position": "",
       "department": "Foreign Consuls",
       "salary_min": null,
       "salary_max": null,

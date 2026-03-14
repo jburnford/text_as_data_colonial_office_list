@@ -1,7 +1,7 @@
 {
   "colony": "St Helena",
   "year": 1924,
-  "generated": "2026-03-13T13:08:22.073657",
+  "generated": "2026-03-14T15:29:41.596506",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
   "total_officials": 24,
@@ -66,9 +66,7 @@
       "salary_min": 220,
       "salary_max": 220,
       "allowances": null,
-      "honors": [
-        "M.B.E."
-      ],
+      "honors": [],
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
@@ -142,8 +140,8 @@
     },
     {
       "name": "Rev. L. C. Walcott",
-      "canonical_name": "Walcott, L. C.",
-      "given_names": "L. C.",
+      "canonical_name": "Walcott, Rev. L. C.",
+      "given_names": "Rev. L. C.",
       "surname": "Walcott",
       "position": "Superintendent of Schools",
       "department": "Civil Establishment",
@@ -177,7 +175,7 @@
       "canonical_name": "Smith, Eliza",
       "given_names": "Eliza",
       "surname": "Smith",
-      "position": "Government School Mistress, Town Girls' School",
+      "position": "Government School Mistress",
       "department": "Civil Establishment",
       "salary_min": 63,
       "salary_max": 63,
@@ -186,14 +184,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Town Girls' School"
     },
     {
       "name": "Vida Evans",
       "canonical_name": "Evans, Vida",
       "given_names": "Vida",
       "surname": "Evans",
-      "position": "County School",
+      "position": "Government School Mistress",
       "department": "Civil Establishment",
       "salary_min": 63,
       "salary_max": 63,
@@ -202,7 +200,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "County School"
     },
     {
       "name": "E. Thomson",
@@ -305,7 +303,7 @@
       "canonical_name": "Holbech, W. A.",
       "given_names": "W. A.",
       "surname": "Holbech",
-      "position": "Bishop of St. Helena",
+      "position": "Bishop of St. Helena, The Rt. Rev.",
       "department": "Ecclesiastical",
       "salary_min": null,
       "salary_max": null,
@@ -321,7 +319,7 @@
       "canonical_name": "Walcott, L. C.",
       "given_names": "L. C.",
       "surname": "Walcott",
-      "position": "Chaplain to Hospitals and Gaols",
+      "position": "Chaplain to Hospitals and Gaols, Rev.",
       "department": "Ecclesiastical",
       "salary_min": 24,
       "salary_max": 24,
@@ -337,7 +335,7 @@
       "canonical_name": "Solomon, H. W.",
       "given_names": "H. W.",
       "surname": "Solomon",
-      "position": "Consul for Netherlands (acting), Denmark, Portugal, and Norway; Vice-Consul for Russia (acting); Vice-Consul for Spain",
+      "position": "Consul for Netherlands (acting), Denmark, Portugal, and Norway, Vice-Consul for Russia (acting), Vice-Consul for Spain",
       "department": "Consuls of Foreign Countries",
       "salary_min": null,
       "salary_max": null,
@@ -370,7 +368,7 @@
       "given_names": "W.",
       "surname": "Haining",
       "position": "Resident Magistrate and Receiver of Wreck",
-      "department": "ASCENSION",
+      "department": "Ascension",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -386,7 +384,7 @@
       "given_names": "W. A.",
       "surname": "Drew",
       "position": "Harbour Master and Postmaster",
-      "department": "ASCENSION",
+      "department": "Ascension",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -406,6 +404,6 @@
     "low_confidence": 0,
     "quarantined": 0,
     "passed": 24,
-    "anomaly_count": 1
+    "anomaly_count": 0
   }
 }
