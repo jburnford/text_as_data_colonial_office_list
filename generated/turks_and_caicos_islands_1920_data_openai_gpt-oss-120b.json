@@ -1,10 +1,10 @@
 {
   "colony": "Turks and Caicos Islands",
   "year": 1920,
-  "generated": "2026-03-13T12:42:35.761326",
+  "generated": "2026-03-14T14:46:09.257300",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 19,
+  "total_officials": 20,
   "officials": [
     {
       "name": "G. Whitfield Smith",
@@ -15,7 +15,7 @@
       "department": "Civil Establishment",
       "salary_min": 600,
       "salary_max": 600,
-      "allowances": null,
+      "allowances": "with residence",
       "honors": [],
       "qualifications": [],
       "military_rank": null,
@@ -123,7 +123,7 @@
       "canonical_name": "Ewing, E. G.",
       "given_names": "E. G.",
       "surname": "Ewing",
-      "position": "District Commissioner",
+      "position": "District Commissioner (acting)",
       "department": "Civil Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -173,9 +173,9 @@
       "surname": "O'Reilly",
       "position": "Government Medical Officer (Turks Islands)",
       "department": "Medical",
-      "salary_min": 37,
-      "salary_max": 37,
-      "allowances": "drug allowance (and private practice) 250; House allowance 30",
+      "salary_min": 250,
+      "salary_max": 250,
+      "allowances": "37l. drug allowance (and private practice); House allowance 30",
       "honors": [],
       "qualifications": [
         "M.D."
@@ -233,7 +233,7 @@
       "location": null
     },
     {
-      "name": "Rev. S. F. Reeve",
+      "name": "S. F. Reeve",
       "canonical_name": "Reeve, S. F.",
       "given_names": "S. F.",
       "surname": "Reeve",
@@ -249,7 +249,7 @@
       "location": null
     },
     {
-      "name": "Rev. Stanley Cannon",
+      "name": "Stanley Cannon",
       "canonical_name": "Cannon, Stanley",
       "given_names": "Stanley",
       "surname": "Cannon",
@@ -278,7 +278,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "France"
+      "location": null
     },
     {
       "name": "F. Roque",
@@ -294,7 +294,23 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "San Domingo"
+      "location": null
+    },
+    {
+      "name": "W. S. Jones, junior",
+      "canonical_name": "Jones, W. S., junior",
+      "given_names": "W. S.",
+      "surname": "Jones",
+      "position": "Vice-Consul",
+      "department": "Foreign Consuls",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
     },
     {
       "name": "C. H. Durham",
@@ -316,12 +332,12 @@
   "validation_summary": {
     "colony": "Turks and Caicos Islands",
     "year": 1920,
-    "total": 19,
-    "high_confidence": 17,
+    "total": 20,
+    "high_confidence": 18,
     "medium_confidence": 2,
     "low_confidence": 0,
     "quarantined": 0,
-    "passed": 19,
+    "passed": 20,
     "anomaly_count": 3
   }
 }
