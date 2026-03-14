@@ -1,10 +1,10 @@
 {
   "colony": "Bermuda",
   "year": 1907,
-  "generated": "2026-03-13T08:57:04.381332",
+  "generated": "2026-03-14T13:38:51.182528",
   "model": "openai/gpt-oss-120b",
   "tier": "STANDARD",
-  "total_officials": 86,
+  "total_officials": 85,
   "officials": [
     {
       "name": "Sir Robert MacGregor Stewart",
@@ -25,7 +25,7 @@
       "location": null
     },
     {
-      "name": "Soltau Symons",
+      "name": "Captain Soltau Symons",
       "canonical_name": "Symons, Soltau",
       "given_names": "Soltau",
       "surname": "Symons",
@@ -372,7 +372,7 @@
       "canonical_name": "McCallan, C. M.",
       "given_names": "C. M.",
       "surname": "McCallan",
-      "position": "Assistant Receiver-General, Comptroller of Customs and Navigation Laws, and Registrar of Shipping",
+      "position": "Assistant Receiver-General",
       "department": "Revenue Department",
       "salary_min": 200,
       "salary_max": 250,
@@ -836,7 +836,7 @@
       "canonical_name": "Tucker, G.",
       "given_names": "G.",
       "surname": "Tucker",
-      "position": "Rector, Hamilton and Smith; Archdeacon",
+      "position": "Rector, Hamilton and Smith",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
       "salary_max": null,
@@ -932,22 +932,6 @@
       "canonical_name": "Hale, Joseph",
       "given_names": "Joseph",
       "surname": "Hale",
-      "position": "Wesleyan Ministers",
-      "department": "Ecclesiastical Establishment",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
-      "name": "Eben",
-      "canonical_name": "Eben, ",
-      "given_names": "",
-      "surname": "Eben",
       "position": "Wesleyan Ministers",
       "department": "Ecclesiastical Establishment",
       "salary_min": null,
@@ -1135,7 +1119,7 @@
         "K.C.B."
       ],
       "qualifications": [],
-      "military_rank": "Lieut.-General",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -1151,7 +1135,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": "Lt.-Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -1167,15 +1151,15 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": "Lt.-Colonel",
       "salary_scale": null,
       "location": null
     },
     {
       "name": "A. H. Van Straubenzee",
-      "canonical_name": "Straubenzee, A. H. Van",
-      "given_names": "A. H. Van",
-      "surname": "Straubenzee",
+      "canonical_name": "Van Straubenzee, A. H.",
+      "given_names": "A. H.",
+      "surname": "Van Straubenzee",
       "position": "Commanding Royal Engineers",
       "department": "Chief Military Officers",
       "salary_min": null,
@@ -1183,7 +1167,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": "Lt.-Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -1199,7 +1183,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieut.-Colonel",
+      "military_rank": "Lt.-Colonel",
       "salary_scale": null,
       "location": null
     },
@@ -1403,10 +1387,10 @@
     "year": 1907,
     "total": 86,
     "high_confidence": 84,
-    "medium_confidence": 2,
-    "low_confidence": 0,
-    "quarantined": 0,
-    "passed": 86,
+    "medium_confidence": 1,
+    "low_confidence": 1,
+    "quarantined": 1,
+    "passed": 85,
     "anomaly_count": 4
   }
 }
