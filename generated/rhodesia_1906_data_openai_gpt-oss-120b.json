@@ -1,13 +1,13 @@
 {
   "colony": "Rhodesia",
   "year": 1906,
-  "generated": "2026-03-13T14:38:50.543543",
+  "generated": "2026-03-14T20:18:28.600151",
   "model": "openai/gpt-oss-120b",
   "tier": "LARGE",
   "total_officials": 410,
   "officials": [
     {
-      "name": "G. H. Darwin",
+      "name": "Sir G. H. Darwin",
       "canonical_name": "Darwin, G. H.",
       "given_names": "G. H.",
       "surname": "Darwin",
@@ -25,8 +25,8 @@
       "location": null
     },
     {
-      "name": "Rhodes",
-      "canonical_name": "Rhodes",
+      "name": "Mr. Rhodes",
+      "canonical_name": "Rhodes, ",
       "given_names": "",
       "surname": "Rhodes",
       "position": null,
@@ -90,8 +90,8 @@
     },
     {
       "name": "Sir Lewis Michell",
-      "canonical_name": "Michell, Lewis",
-      "given_names": "Lewis",
+      "canonical_name": "Michell, Sir Lewis",
+      "given_names": "Sir Lewis",
       "surname": "Michell",
       "position": null,
       "department": "Board of Directors of the British South Africa Company",
@@ -138,8 +138,8 @@
     },
     {
       "name": "Dr. L. S. Jameson",
-      "canonical_name": "Jameson, L. S.",
-      "given_names": "L. S.",
+      "canonical_name": "Jameson, Dr. L. S.",
+      "given_names": "Dr. L. S.",
       "surname": "Jameson",
       "position": null,
       "department": "Board of Directors of the British South Africa Company",
@@ -285,12 +285,12 @@
       "location": "Rhodesia"
     },
     {
-      "name": "Sir W. H. Milton",
+      "name": "W. H. Milton",
       "canonical_name": "Milton, Sir W. H.",
       "given_names": "Sir W. H.",
       "surname": "Milton",
       "position": "Administrator",
-      "department": "Southern Rhodesia Administration",
+      "department": "Administration",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -308,7 +308,7 @@
       "given_names": "R.",
       "surname": "Chester-Master",
       "position": "Imperial Resident Commissioner and Commandant-General",
-      "department": "Southern Rhodesia Administration",
+      "department": "Administration",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -319,7 +319,7 @@
       "location": null
     },
     {
-      "name": "Sir T. C. Scanlen",
+      "name": "T. C. Scanlen",
       "canonical_name": "Scanlen, Sir T. C.",
       "given_names": "Sir T. C.",
       "surname": "Scanlen",
@@ -387,7 +387,7 @@
       "location": null
     },
     {
-      "name": "Sir T. C. Scanlen",
+      "name": "T. C. Scanlen",
       "canonical_name": "Scanlen, Sir T. C.",
       "given_names": "Sir T. C.",
       "surname": "Scanlen",
@@ -525,7 +525,7 @@
       "canonical_name": "Homan, E. E.",
       "given_names": "E. E.",
       "surname": "Homan",
-      "position": "",
+      "position": null,
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
@@ -573,7 +573,7 @@
       "canonical_name": "Forbes, G. S. D.",
       "given_names": "G. S. D.",
       "surname": "Forbes",
-      "position": "",
+      "position": null,
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
@@ -591,7 +591,7 @@
       "canonical_name": "Haddon, W. H.",
       "given_names": "W. H.",
       "surname": "Haddon",
-      "position": "",
+      "position": null,
       "department": "Legislative Council",
       "salary_min": null,
       "salary_max": null,
@@ -769,7 +769,7 @@
       "location": null
     },
     {
-      "name": "W. H. Milton",
+      "name": "Sir W. H. Milton",
       "canonical_name": "Milton, W. H.",
       "given_names": "W. H.",
       "surname": "Milton",
@@ -824,7 +824,7 @@
       "given_names": "J. W.",
       "surname": "Posselt",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -840,7 +840,7 @@
       "given_names": "S. N. G.",
       "surname": "Jackson",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -856,7 +856,7 @@
       "given_names": "W. E.",
       "surname": "Scott",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -867,28 +867,12 @@
       "location": "Lomogundi"
     },
     {
-      "name": "Kenny",
-      "canonical_name": "Kenny",
-      "given_names": "",
-      "surname": "Kenny",
-      "position": "Native Commissioner",
-      "department": "Native Commissioners",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "F. R. Byron",
       "canonical_name": "Byron, F. R.",
       "given_names": "F. R.",
       "surname": "Byron",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -899,28 +883,12 @@
       "location": "M'toko"
     },
     {
-      "name": "Morris",
-      "canonical_name": "Morris",
-      "given_names": "",
-      "surname": "Morris",
-      "position": "Native Commissioner",
-      "department": "Native Commissioners",
-      "salary_min": null,
-      "salary_max": null,
-      "allowances": null,
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": null
-    },
-    {
       "name": "A. R. Ross",
       "canonical_name": "Ross, A. R.",
       "given_names": "A. R.",
       "surname": "Ross",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -936,7 +904,7 @@
       "given_names": "",
       "surname": "de Smidt",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -952,7 +920,7 @@
       "given_names": "W. E.",
       "surname": "Farrer",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -968,7 +936,7 @@
       "given_names": "A. A.",
       "surname": "Campbell",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -984,7 +952,7 @@
       "given_names": "H. H.",
       "surname": "de Laessoe",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1000,7 +968,7 @@
       "given_names": "F. G.",
       "surname": "Elliot",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1016,7 +984,7 @@
       "given_names": "T. B.",
       "surname": "Hulley",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1032,7 +1000,7 @@
       "given_names": "L. C.",
       "surname": "Meredith",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1048,7 +1016,7 @@
       "given_names": "A.",
       "surname": "Drew",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1064,7 +1032,7 @@
       "given_names": "D. H.",
       "surname": "Moodie",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1080,7 +1048,7 @@
       "given_names": "H. C. K.",
       "surname": "Fynn",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1096,7 +1064,7 @@
       "given_names": "E. G.",
       "surname": "Howman",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1112,7 +1080,7 @@
       "given_names": "P.",
       "surname": "Forrestall",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1128,7 +1096,7 @@
       "given_names": "R.",
       "surname": "Nesbitt",
       "position": "Inspector",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1144,7 +1112,7 @@
       "given_names": "W.",
       "surname": "Edwards",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1160,7 +1128,7 @@
       "given_names": "H. M.",
       "surname": "Jackson",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1176,7 +1144,7 @@
       "given_names": "W. E.",
       "surname": "Thomas",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1192,7 +1160,7 @@
       "given_names": "C. T.",
       "surname": "Stuart",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1208,7 +1176,7 @@
       "given_names": "R.",
       "surname": "Lanning",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1224,7 +1192,7 @@
       "given_names": "H. F.",
       "surname": "Greer",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1240,7 +1208,7 @@
       "given_names": "C. G.",
       "surname": "Fynn",
       "position": "Native Commissioner",
-      "department": "Native Commissioners",
+      "department": "Native Affairs Department",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1287,7 +1255,7 @@
       "canonical_name": "McKenzie, J. D.",
       "given_names": "J. D.",
       "surname": "McKenzie",
-      "position": "Solicitor-General",
+      "position": "Solicitor-General (Bulawayo)",
       "department": "Legal Department",
       "salary_min": null,
       "salary_max": null,
@@ -1296,7 +1264,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Bulawayo"
+      "location": null
     },
     {
       "name": "Thomas C. Scanlen",
@@ -1321,7 +1289,7 @@
       "canonical_name": "King, G. J.",
       "given_names": "G. J.",
       "surname": "King",
-      "position": "Registrar of Deeds, Companies, and Patents",
+      "position": "Registrar of Deeds, Companies, and Patents (Salisbury)",
       "department": "Legal Department",
       "salary_min": null,
       "salary_max": null,
@@ -1330,14 +1298,14 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Salisbury"
+      "location": null
     },
     {
       "name": "A. R. Tonge",
       "canonical_name": "Tonge, A. R.",
       "given_names": "A. R.",
       "surname": "Tonge",
-      "position": "Registrar of Deeds and Companies",
+      "position": "Registrar of Deeds and Companies (Bulawayo)",
       "department": "Legal Department",
       "salary_min": null,
       "salary_max": null,
@@ -1346,7 +1314,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Bulawayo"
+      "location": null
     },
     {
       "name": "J. Vintcent",
@@ -1406,7 +1374,7 @@
       "given_names": "G. W.",
       "surname": "Farmaner",
       "position": "Civil Commissioner",
-      "department": "District Courts and Offices",
+      "department": "Mashonaland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1414,7 +1382,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Salisbury"
     },
     {
       "name": "E. A. L. Brailsford",
@@ -1422,7 +1390,7 @@
       "given_names": "E. A. L.",
       "surname": "Brailsford",
       "position": "Magistrate",
-      "department": "District Courts and Offices",
+      "department": "Mashonaland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1430,7 +1398,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Salisbury"
     },
     {
       "name": "R. McIlwaine",
@@ -1438,7 +1406,7 @@
       "given_names": "R.",
       "surname": "McIlwaine",
       "position": "Assistant Magistrate",
-      "department": "District Courts and Offices",
+      "department": "Mashonaland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1446,7 +1414,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Salisbury"
     },
     {
       "name": "W. R. Shand",
@@ -1454,7 +1422,7 @@
       "given_names": "W. R.",
       "surname": "Shand",
       "position": "Assistant Magistrate",
-      "department": "District Courts and Offices",
+      "department": "Mashonaland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1462,7 +1430,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Enkeldoorn and Charter"
     },
     {
       "name": "R. H. Myburgh",
@@ -1470,7 +1438,7 @@
       "given_names": "R. H.",
       "surname": "Myburgh",
       "position": "Civil Commissioner and Magistrate",
-      "department": "District Courts and Offices",
+      "department": "Mashonaland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1478,15 +1446,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Umtali"
     },
     {
       "name": "W. M. Longden",
-      "canonical_name": "Longden, W. M.",
-      "given_names": "W. M.",
+      "canonical_name": "Longden, W.",
+      "given_names": "W.",
       "surname": "Longden",
       "position": "Civil Commissioner and Magistrate",
-      "department": "District Courts and Offices",
+      "department": "Mashonaland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1494,15 +1462,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Melsetter"
     },
     {
       "name": "E. J. Lawlor",
       "canonical_name": "Lawlor, E. J.",
       "given_names": "E. J.",
       "surname": "Lawlor",
-      "position": "Civil Commissioner and Magistrate",
-      "department": "District Courts and Offices",
+      "position": "Civil Commissioner and Magistrate (acting)",
+      "department": "Mashonaland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1510,7 +1478,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Victoria"
     },
     {
       "name": "H. Marshall Hole",
@@ -1518,7 +1486,7 @@
       "given_names": "H.",
       "surname": "Marshall Hole",
       "position": "Civil Commissioner",
-      "department": "District Courts and Offices",
+      "department": "Matabeleland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1526,7 +1494,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Bulawayo"
     },
     {
       "name": "L. Powys-Jones",
@@ -1534,7 +1502,7 @@
       "given_names": "L.",
       "surname": "Powys-Jones",
       "position": "Magistrate",
-      "department": "District Courts and Offices",
+      "department": "Matabeleland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1542,15 +1510,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Bulawayo"
     },
     {
       "name": "C. J. R. Gardiner",
       "canonical_name": "Gardiner, C. J. R.",
       "given_names": "C. J. R.",
       "surname": "Gardiner",
-      "position": "Assistant Magistrate",
-      "department": "District Courts and Offices",
+      "position": "Assistant Magistrates",
+      "department": "Matabeleland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1558,15 +1526,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Bulawayo"
     },
     {
       "name": "W. E. Thomas",
       "canonical_name": "Thomas, W. E.",
       "given_names": "W. E.",
       "surname": "Thomas",
-      "position": "Assistant Magistrate",
-      "department": "District Courts and Offices",
+      "position": "Assistant Magistrates",
+      "department": "Matabeleland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1574,15 +1542,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Bulawayo"
     },
     {
       "name": "H. M. G. Jackson",
       "canonical_name": "Jackson, H. M. G.",
       "given_names": "H. M. G.",
       "surname": "Jackson",
-      "position": "Assistant Magistrate",
-      "department": "District Courts and Offices",
+      "position": "Assistant Magistrates",
+      "department": "Matabeleland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1590,15 +1558,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Bulawayo"
     },
     {
       "name": "A. A. Campbell",
       "canonical_name": "Campbell, A. A.",
       "given_names": "A. A.",
       "surname": "Campbell",
-      "position": "Assistant Magistrate",
-      "department": "District Courts and Offices",
+      "position": "Assistant Magistrates",
+      "department": "Matabeleland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1606,15 +1574,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Bulawayo"
     },
     {
       "name": "R. Lanning",
       "canonical_name": "Lanning, R.",
       "given_names": "R.",
       "surname": "Lanning",
-      "position": "Assistant Magistrate",
-      "department": "District Courts and Offices",
+      "position": "Assistant Magistrates",
+      "department": "Matabeleland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1622,15 +1590,15 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Bulawayo"
     },
     {
       "name": "H. H. de Laessoe",
       "canonical_name": "de Laessoe, H. H.",
       "given_names": "H. H.",
       "surname": "de Laessoe",
-      "position": "Assistant Magistrate",
-      "department": "District Courts and Offices",
+      "position": "Assistant Magistrates",
+      "department": "Matabeleland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1638,7 +1606,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Bulawayo"
     },
     {
       "name": "P. G. Smith",
@@ -1646,7 +1614,7 @@
       "given_names": "P. G.",
       "surname": "Smith",
       "position": "Civil Commissioner and Magistrate",
-      "department": "District Courts and Offices",
+      "department": "Matabeleland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1654,7 +1622,23 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Gwelo"
+    },
+    {
+      "name": "E. J. Lawlor",
+      "canonical_name": "Lawlor, E. J.",
+      "given_names": "E. J.",
+      "surname": "Lawlor",
+      "position": "Assistant Magistrate",
+      "department": "Matabeleland",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Gwelo"
     },
     {
       "name": "J. P. L. de Smidt",
@@ -1662,7 +1646,7 @@
       "given_names": "J. P. L.",
       "surname": "de Smidt",
       "position": "Civil Commissioner and Magistrate",
-      "department": "District Courts and Offices",
+      "department": "Matabeleland",
       "salary_min": null,
       "salary_max": null,
       "allowances": null,
@@ -1670,7 +1654,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": null
+      "location": "Gwanda-Tuli"
     },
     {
       "name": "E. W. S. Montagu",
@@ -1853,7 +1837,7 @@
       "canonical_name": "Gray, C. E.",
       "given_names": "C. E.",
       "surname": "Gray",
-      "position": "Chief Veterinary Surgeon",
+      "position": "Veterinary Surgeon",
       "department": "Agriculture",
       "salary_min": null,
       "salary_max": null,
@@ -2354,9 +2338,9 @@
     },
     {
       "name": "Ja Ja",
-      "canonical_name": "Ja, Ja",
-      "given_names": "Ja",
-      "surname": "Ja",
+      "canonical_name": "Ja Ja",
+      "given_names": null,
+      "surname": "Ja Ja",
       "position": null,
       "department": null,
       "salary_min": null,
@@ -2370,10 +2354,10 @@
     },
     {
       "name": "King of Benin",
-      "canonical_name": "Benin, King of",
-      "given_names": "King",
-      "surname": "Benin",
-      "position": null,
+      "canonical_name": "King of Benin",
+      "given_names": null,
+      "surname": "King of Benin",
+      "position": "King",
       "department": null,
       "salary_min": null,
       "salary_max": null,
@@ -2385,7 +2369,7 @@
       "location": null
     },
     {
-      "name": "R. D. R. Moor",
+      "name": "Sir R. D. R. Moor",
       "canonical_name": "Moor, R. D. R.",
       "given_names": "R. D. R.",
       "surname": "Moor",
@@ -2403,7 +2387,7 @@
       "location": null
     },
     {
-      "name": "H. L. Gallwey",
+      "name": "Col. H. L. Gallwey",
       "canonical_name": "Gallwey, H. L.",
       "given_names": "H. L.",
       "surname": "Gallwey",
@@ -2741,7 +2725,7 @@
       "allowances": null,
       "honors": [],
       "qualifications": [],
-      "military_rank": "Lieutenant",
+      "military_rank": null,
       "salary_scale": null,
       "location": null
     },
@@ -3547,9 +3531,9 @@
     },
     {
       "name": "J. Jones Williams",
-      "canonical_name": "Williams, J. Jones",
-      "given_names": "J. Jones",
-      "surname": "Williams",
+      "canonical_name": "Jones Williams, J.",
+      "given_names": "J.",
+      "surname": "Jones Williams",
       "position": "1st Class Officer",
       "department": "Customs Department",
       "salary_min": 120,
@@ -4330,9 +4314,25 @@
       "location": null
     },
     {
-      "name": "J. B. Hagan (I.) A. S. Johnson",
-      "canonical_name": "Johnson, J. B. Hagan (I.) A. S.",
-      "given_names": "J. B. Hagan (I.) A. S.",
+      "name": "J. B. Hagan (I.)",
+      "canonical_name": "Hagan (I.), J. B.",
+      "given_names": "J. B.",
+      "surname": "Hagan (I.)",
+      "position": "4th Class Officer",
+      "department": "Customs Department",
+      "salary_min": 70,
+      "salary_max": 90,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "A. S. Johnson",
+      "canonical_name": "Johnson, A. S.",
+      "given_names": "A. S.",
       "surname": "Johnson",
       "position": "4th Class Officer",
       "department": "Customs Department",
@@ -5918,7 +5918,7 @@
       "canonical_name": "Moore, H. G.",
       "given_names": "H. G.",
       "surname": "Moore",
-      "position": "Assistant Marine Superintendent, Commander",
+      "position": "Assistant Marine Superintendent",
       "department": "Marine Department",
       "salary_min": 550,
       "salary_max": 550,
@@ -6410,7 +6410,7 @@
       "location": null
     },
     {
-      "name": "S.Y. \u201cIvy\u201d",
+      "name": "S.Y. Ivy",
       "canonical_name": "Ivy, S.Y.",
       "given_names": "S.Y.",
       "surname": "Ivy",
@@ -6627,6 +6627,6 @@
     "low_confidence": 4,
     "quarantined": 4,
     "passed": 410,
-    "anomaly_count": 14
+    "anomaly_count": 15
   }
 }
