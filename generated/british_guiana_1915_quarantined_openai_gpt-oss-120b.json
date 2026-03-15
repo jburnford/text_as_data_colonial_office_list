@@ -1,14 +1,14 @@
 {
   "colony": "British Guiana",
   "year": 1915,
-  "total_quarantined": 2,
+  "total_quarantined": 1,
   "officials": [
     {
       "name": "R. P. Gibbs",
       "canonical_name": "Gibbs, R. P.",
       "given_names": "R. P.",
       "surname": "Gibbs",
-      "position": "Emigration Agent",
+      "position": "Emigration Agent at Calcutta",
       "department": "Immigration Department",
       "salary_min": 1000,
       "salary_max": 1000,
@@ -17,23 +17,7 @@
       "qualifications": [],
       "military_rank": null,
       "salary_scale": null,
-      "location": "Calcutta"
-    },
-    {
-      "name": "(vacant)",
-      "canonical_name": "(vacant)",
-      "given_names": "",
-      "surname": "",
-      "position": "Steward",
-      "department": "Leper Asylum, Mahaiqua",
-      "salary_min": 100,
-      "salary_max": 150,
-      "allowances": "free house",
-      "honors": [],
-      "qualifications": [],
-      "military_rank": null,
-      "salary_scale": null,
-      "location": "Mahaiqua"
+      "location": null
     }
   ]
 }
