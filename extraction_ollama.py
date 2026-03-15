@@ -300,6 +300,9 @@ def openrouter_generate(model: str, prompt: str, timeout: int = 600,
         raise OllamaError(f"OpenRouter error: {data['error']}")
 
     text = data["choices"][0]["message"]["content"]
+    if text is None:
+        finish = data["choices"][0].get("finish_reason", "unknown")
+        raise OllamaError(f"OpenRouter returned content=null (finish_reason={finish})")
     usage = data.get("usage", {})
     prompt_tokens = usage.get("prompt_tokens", 0)
     completion_tokens = usage.get("completion_tokens", 0)
@@ -495,6 +498,9 @@ def extract_codegen(source_text: str, model: str, colony: str, year: int,
 
     code = llm_generate(model, prompt, timeout=timeout)
 
+    if not code:
+        raise OllamaError(f"LLM returned empty response for {colony} {year}")
+
     # Strip markdown fences if present
     if code.startswith("```python"):
         code = code[len("```python"):]
@@ -516,6 +522,9 @@ def extract_json_mode(source_text: str, model: str, colony: str, year: int,
     )
 
     text = llm_generate(model, prompt, timeout=timeout, json_mode=True)
+
+    if not text:
+        raise OllamaError(f"LLM returned empty response for {colony} {year}")
 
     try:
         return json.loads(text)
@@ -788,7 +797,8 @@ def extract_chunked(source_text: str, model: str, colony: str, year: int,
         # Scale num_predict by chunk size: ~200 tokens per official,
         # estimate ~1 official per 2 source lines, with generous buffer
         source_lines = len([l for l in chunk_text.split('\n') if l.strip()])
-        num_predict = min(16384, max(2048, source_lines * 300))
+        max_tokens = int(os.environ.get("MAX_PREDICT", 16384))
+        num_predict = min(max_tokens, max(2048, source_lines * 300))
 
         try:
             if json_mode:

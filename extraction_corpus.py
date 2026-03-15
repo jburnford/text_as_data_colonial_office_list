@@ -72,7 +72,7 @@ TIER_TIMEOUTS = {
     "SMALL":    300,
     "STANDARD": 600,
     "LARGE":    900,
-    "XLARGE":   1200,
+    "XLARGE":   1800,
 }
 
 
