@@ -1,13 +1,13 @@
 {
   "colony": "Trinidad",
   "year": 1918,
-  "total_quarantined": 2,
+  "total_quarantined": 4,
   "officials": [
     {
       "name": "W. M.",
-      "canonical_name": ", W. M.",
+      "canonical_name": "W. M.",
       "given_names": "W. M.",
-      "surname": null,
+      "surname": "",
       "position": "Assistant Colonial Secretary",
       "department": "Colonial Secretary's Department",
       "salary_min": null,
@@ -20,11 +20,11 @@
       "location": null
     },
     {
-      "name": "Percy Eckels",
+      "name": "Percy Eckles",
       "canonical_name": "Eckles, Percy",
       "given_names": "Percy",
       "surname": "Eckles",
-      "position": "13th Clerk",
+      "position": "Clerk",
       "department": "Auditor-General's Department",
       "salary_min": null,
       "salary_max": null,
@@ -34,6 +34,38 @@
       "military_rank": null,
       "salary_scale": null,
       "location": null
+    },
+    {
+      "name": "E. F.",
+      "canonical_name": "E. F.",
+      "given_names": "E. F.",
+      "surname": null,
+      "position": "Junior Assistant and Draughtsman",
+      "department": "Engineering and Maintenance Branch",
+      "salary_min": 250,
+      "salary_max": 250,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": null
+    },
+    {
+      "name": "Dom Carlos",
+      "canonical_name": "Carlos, ",
+      "given_names": "Carlos",
+      "surname": "",
+      "position": "Clergy",
+      "department": "Roman Catholic Church",
+      "salary_min": null,
+      "salary_max": null,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Erin"
     }
   ]
 }

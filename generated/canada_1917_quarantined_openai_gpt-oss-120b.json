@@ -1,17 +1,17 @@
 {
   "colony": "Canada",
   "year": 1917,
-  "total_quarantined": 2,
+  "total_quarantined": 3,
   "officials": [
     {
-      "name": "H. H. Rowett",
-      "canonical_name": "Rowett, H. H.",
-      "given_names": "H. H.",
-      "surname": "Rowett",
-      "position": "Controller of Mining Lands and Secretary of the Yukon",
-      "department": "Department of the Interior",
-      "salary_min": 3500,
-      "salary_max": 3500,
+      "name": "Joseph P. B. Casgrain",
+      "canonical_name": "Casgrain, Joseph P. B.",
+      "given_names": "Joseph P. B.",
+      "surname": "Casgrain",
+      "position": "Senator",
+      "department": "Senate",
+      "salary_min": null,
+      "salary_max": null,
       "allowances": null,
       "honors": [],
       "qualifications": [],
@@ -24,7 +24,7 @@
       "canonical_name": "James I.",
       "given_names": "James I.",
       "surname": "",
-      "position": null,
+      "position": "Grantor",
       "department": null,
       "salary_min": null,
       "salary_max": null,
@@ -34,6 +34,22 @@
       "military_rank": null,
       "salary_scale": null,
       "location": null
+    },
+    {
+      "name": "James Mackey",
+      "canonical_name": "Mackey, James",
+      "given_names": "James",
+      "surname": "Mackey",
+      "position": "Supreme Court",
+      "department": "Judicial Establishment",
+      "salary_min": 6000,
+      "salary_max": 6000,
+      "allowances": null,
+      "honors": [],
+      "qualifications": [],
+      "military_rank": null,
+      "salary_scale": null,
+      "location": "Regina"
     }
   ]
 }
