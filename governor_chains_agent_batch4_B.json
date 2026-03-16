@@ -1,0 +1,63 @@
+{
+  "Hong Kong": {
+    "colony": "Hong Kong",
+    "source": "1966_manual_parsed/hong_kong.txt lines 264-291",
+    "notes": "Full governor chain found in 1966 edition, 24 entries total (1843-1964). Existing chain covers 1841-1898 (49 entries from 1899 edition which included administrators/acting governors). Extracting entries with year > 1898. Note the 1966 edition lists only substantive governors, not acting/administrators.",
+    "chain": [
+      {"year": 1903, "name": "Lt.-Col. Sir Matthew Nathan, K.C.M.G."},
+      {"year": 1907, "name": "The Rt. Hon. Sir Frederick (later Lord) Lugard, G.C.M.G., C.B., D.S.O."},
+      {"year": 1912, "name": "Sir Francis Henry May, G.C.M.G."},
+      {"year": 1919, "name": "Sir Reginald Stubbs, G.C.M.G."},
+      {"year": 1925, "name": "Sir Cecil Clementi, G.C.M.G."},
+      {"year": 1930, "name": "Sir William Peel, K.C.M.G., K.B.E."},
+      {"year": 1935, "name": "Sir Andrew Caldecott, K.C.M.G., C.B.E."},
+      {"year": 1937, "name": "Sir Geoffrey Northcote, K.C.M.G."},
+      {"year": 1941, "name": "Sir Mark Young, G.C.M.G."},
+      {"year": 1947, "name": "Sir Alexander Grantham, G.C.M.G."},
+      {"year": 1958, "name": "Sir Robert Black, G.C.M.G., O.B.E."},
+      {"year": 1964, "name": "Sir David Trench, K.C.M.G., M.C."}
+    ]
+  },
+  "Fiji": {
+    "colony": "Fiji",
+    "source": "1966_manual_parsed/fiji.txt lines 220-242",
+    "notes": "Full governor chain found in 1966 edition, 21 entries total (1874-1964). Existing chain covers 1850-1896 (41 entries from 1896 edition which included administrators/acting governors). Extracting entries with year > 1896. Note 1966 edition lists only substantive governors.",
+    "chain": [
+      {"year": 1897, "name": "Sir George O'Brien, K.C.M.G."},
+      {"year": 1902, "name": "Sir Henry Jackson, K.C.M.G."},
+      {"year": 1904, "name": "Sir Everard Im Thurn, K.C.M.G., K.B.E., C.B."},
+      {"year": 1911, "name": "Sir Henry May, K.C.M.G."},
+      {"year": 1912, "name": "Sir Bickham Sweet-Escott, K.C.M.G."},
+      {"year": 1918, "name": "Sir Cecil Rodwell, G.C.M.G."},
+      {"year": 1925, "name": "Sir Eyre Hutson, K.C.M.G."},
+      {"year": 1929, "name": "Sir Murchison Fletcher, K.C.M.G., C.B.E."},
+      {"year": 1936, "name": "Sir Arthur Richards (later Lord Milverton, G.C.M.G.)"},
+      {"year": 1938, "name": "Sir Harry Luke, K.C.M.G."},
+      {"year": 1942, "name": "Sir Philip Mitchell, G.C.M.G., M.C."},
+      {"year": 1945, "name": "Sir Alexander Grantham, G.C.M.G."},
+      {"year": 1948, "name": "Sir Brian Freeston, K.C.M.G., O.B.E."},
+      {"year": 1952, "name": "Sir Ronald Garvey, K.C.M.G., K.C.V.O., M.B.E."},
+      {"year": 1958, "name": "Sir Kenneth Maddocks, K.C.M.G., K.C.V.O."},
+      {"year": 1964, "name": "Sir Derek Jakeway, K.C.M.G., O.B.E."}
+    ]
+  },
+  "British Honduras": {
+    "colony": "British Honduras",
+    "source": "1966_manual_parsed/british_honduras.txt lines 309-363",
+    "notes": "Full chain found in 1966 edition covering Superintendents (1786-1857), Lieutenant-Governors (1862-1884), and Governors (1884-1961). Existing chain covers 1866-1909 (118 entries from 1910 edition). Extracting entries with year > 1909. The 1966 edition includes the earlier Superintendent era not in the existing chain, but per instructions only extracting entries beyond the existing endpoint. Also includes Sir John Paul as Governor-designate in the civil establishment section (line 384).",
+    "chain": [
+      {"year": 1913, "name": "Sir Wilfred Collet, K.C.M.G."},
+      {"year": 1918, "name": "W. Hart Bennett, C.M.G."},
+      {"year": 1919, "name": "Sir Eyre Hutson, K.C.M.G."},
+      {"year": 1925, "name": "Major Sir J. A. Burdon, K.B.E., C.M.G."},
+      {"year": 1932, "name": "Sir H. B. Kittermaster, K.C.M.G., K.B.E."},
+      {"year": 1934, "name": "Sir Alan Burns, G.C.M.G."},
+      {"year": 1940, "name": "Sir John Adams Hunter, K.C.M.G."},
+      {"year": 1947, "name": "Sir E. G. Hawkesworth, K.C.M.G., M.C."},
+      {"year": 1948, "name": "Sir Ronald Garvey, K.C.M.G., M.B.E."},
+      {"year": 1952, "name": "Sir Patrick Renison, K.C.M.G."},
+      {"year": 1955, "name": "Sir Colin Thornley, K.C.M.G., C.V.O."},
+      {"year": 1961, "name": "Sir Peter Stallard, K.C.M.G., C.V.O., M.B.E."}
+    ]
+  }
+}

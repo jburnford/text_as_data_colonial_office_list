@@ -1,0 +1,19 @@
+{
+  "Canada:Northwest Territories": {
+    "colony": "Canada",
+    "sub_chain": "Northwest Territories",
+    "source": "1899_manual_parsed/dominion_of_canada.txt lines 2848-2860 (primary); 1900_manual_parsed/DOMINION_OF_CANADA.txt lines 2680-2692; 1896_manual_parsed/dominion_of_canada.txt lines 3020-3025",
+    "notes": "Lieutenant-Governors of the North-West Territories, 1870-1905. The NWT was created as a separate government from Manitoba by 38 Vict. cap. 49 (1875), proclaimed 7 Oct 1876. The first three Lt-Govs (Archibald, Johnson, Morris) served simultaneously as Lt-Gov of Manitoba and the NWT. After 1 Sept 1905, when Saskatchewan and Alberta were carved out, the remaining NWT was governed by a Commissioner (not a Lt-Gov). The 1899 file lists dates with OCR errors: Mackintosh shown as 1891 (corrected to 1893 per 1896 and 1900 editions), Forget shown as 1891 (corrected to 1898 per 1900 edition), Archibald date in 1900 edition shows 1879 (OCR error for 1870, corrected per 1899 edition). Cameron (1898) died in office and was succeeded by Forget. Johnson's first name 'Goodschall' in 1899 edition vs 'Goodsall' in 1900 edition -- correct spelling is Godschall per historical records.",
+    "chain": [
+      {"year": 1870, "name": "Hon. Adams George Archibald", "date_detail": "May 10, 1870", "notes": "Also Lt-Gov of Manitoba; P.C."},
+      {"year": 1872, "name": "Francis Godschall Johnson", "date_detail": "April 9, 1872", "notes": "Administrator; spelling varies across editions (Goodschall, Goodsall, Johnston)"},
+      {"year": 1872, "name": "Hon. Alexander Morris", "date_detail": "Dec. 2, 1872", "notes": "Also Lt-Gov of Manitoba; P.C."},
+      {"year": 1876, "name": "Hon. David Laird", "date_detail": "Oct. 7, 1876", "notes": "P.C.; first Lt-Gov of NWT only (separate from Manitoba)"},
+      {"year": 1881, "name": "Hon. Edgar Dewdney", "date_detail": "Dec. 3, 1881", "notes": "P.C.; name also rendered 'Dowdley' in 1900 edition (OCR error)"},
+      {"year": 1888, "name": "Hon. Joseph Royal", "date_detail": "July 1, 1888"},
+      {"year": 1893, "name": "Charles Herbert Mackintosh", "date_detail": "Oct. 31, 1893", "notes": "Spelling varies: Macintosh (1899), MacKintosh (1900)"},
+      {"year": 1898, "name": "Malcolm Colin Cameron", "notes": "Died in office Sep 1898"},
+      {"year": 1898, "name": "Amedee Emmanuel Forget", "notes": "Served until 1905 when NWT government restructured; also rendered Amédée"}
+    ]
+  }
+}

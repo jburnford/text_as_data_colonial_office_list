@@ -1,0 +1,75 @@
+{
+  "Falkland Islands": {
+    "colony": "Falkland Islands",
+    "source": "1966_manual_parsed/falkland_islands.txt lines 218-242; confirmed against 1965_manual_parsed/falkland_islands_and_dependencies.txt lines 413-461",
+    "notes": "The 1966 edition contains a full governor chain from 1842 to 1964. The existing chain ends at 1866 (E. D. Baynes, Administrator). All entries from 1866 onward are extracted below. The 1965 edition has the same chain with minor spelling differences (Heniker-Heaton vs Henkner-Heaton; Clifford E.D. vs B.D.; Haskard given as C. D. P. T. Haskard). The note '(From 1833 to 1842 the Settlement was in charge of a serving naval officer.)' precedes the chain.",
+    "chain": [
+      {"year": 1866, "name": "W. C. F. Robinson"},
+      {"year": 1870, "name": "Col. G. A. K. D'Arcy"},
+      {"year": 1876, "name": "T. F. Callaghan, C.M.G."},
+      {"year": 1880, "name": "Thomas Kerr, C.M.G."},
+      {"year": 1891, "name": "Sir R. T. Goldsworthy, K.C.M.G."},
+      {"year": 1897, "name": "Sir Wm. Grey-Wilson, K.C.M.G., K.B.E."},
+      {"year": 1904, "name": "Sir W. L. Allardyce, K.C.M.G."},
+      {"year": 1915, "name": "Sir W. D. Young, K.B.E., C.M.G."},
+      {"year": 1920, "name": "Sir John Middleton, K.B.E., C.M.G."},
+      {"year": 1927, "name": "Sir Arnold Hodson, K.C.M.G."},
+      {"year": 1931, "name": "Sir James O'Grady, K.C.M.G."},
+      {"year": 1935, "name": "Sir Herbert Henkner-Heaton, K.C.M.G."},
+      {"year": 1941, "name": "Sir Allan Cardinall, K.B.E., C.M.G."},
+      {"year": 1946, "name": "Sir Miles Clifford, K.B.E., C.M.G., B.D."},
+      {"year": 1954, "name": "Sir Raynor Arthur, K.C.M.G., C.V.O."},
+      {"year": 1957, "name": "Sir Edwin Arrowsmith, K.C.M.G."},
+      {"year": 1964, "name": "Sir Cosmo Haskard, K.C.M.G., M.B.E."}
+    ]
+  },
+  "St Helena": {
+    "colony": "St Helena",
+    "source": "1966_manual_parsed/st_helena.txt lines 156-178; confirmed against 1964_manual_parsed/st_helena.txt lines 156-178",
+    "notes": "The 1966 edition contains a governor chain from 1836 to 1962. The existing chain ends at 1863 (Admiral Sir Charles Elliot, K.C.B.). All entries from 1863 onward are extracted below. Note: The 1966 edition lists year 1863 for Elliot which matches the existing chain endpoint. The 1964 edition has the same list but without years (bullet format). The 1966 edition includes years. The chain extends to Sir John Field (1962), who is listed as Governor and Commander-in-Chief in the Civil Establishment section of both the 1964 and 1966 editions.",
+    "chain": [
+      {"year": 1870, "name": "Admiral C. G. E. Patey, C.M.G."},
+      {"year": 1873, "name": "H. R. Janisch, C.M.G."},
+      {"year": 1890, "name": "Sir Wm. Grey-Wilson, K.C.M.G., K.B.E."},
+      {"year": 1897, "name": "R. A. Sterndale, C.M.G."},
+      {"year": 1902, "name": "Lt.-Col. Sir Henry Gallwey (later Galway), K.C.M.G., D.S.O."},
+      {"year": 1912, "name": "Major Sir Harry Cordeaux, K.C.M.G., C.B."},
+      {"year": 1920, "name": "Colonel R. F. Peel, C.M.G."},
+      {"year": 1925, "name": "Sir Charles Harper, K.B.E., C.M.G."},
+      {"year": 1932, "name": "Sir Spencer Davis, C.M.G."},
+      {"year": 1938, "name": "Sir Guy Pilling, K.C.M.G."},
+      {"year": 1941, "name": "Major W. Bain Gray, C.B.E."},
+      {"year": 1947, "name": "Sir George Joy, K.B.E., C.M.G."},
+      {"year": 1954, "name": "Sir James Harford, K.B.E., C.M.G."},
+      {"year": 1958, "name": "Sir Robert Alford, K.B.E., C.M.G."},
+      {"year": 1962, "name": "Sir John Field, C.M.G."}
+    ]
+  },
+  "Barbados": {
+    "colony": "Barbados",
+    "source": "1963_manual_parsed/barbados.txt lines 269-288 (primary, dated list); cross-referenced with 1966_manual_parsed/barbados.txt lines 317-336 (undated list with updated honours), 1899_manual_parsed/barbados.txt lines 153-171 (detailed 19th century entries), 1951_manual_parsed/barbados.txt lines 306-307, 1946_manual_parsed/barbados.txt lines 216-229",
+    "notes": "The 1966 edition contains a full governor list but WITHOUT dates for individual entries. The 1963 edition is the latest edition with a fully dated governor chain. The existing chain ends at 1865 (R. M. Mundy). The 1963 edition gives 1868 for Rawson while the 1899 edition gives 1866; the discrepancy may reflect different dating conventions (appointment vs arrival). The 1899 edition also includes many acting governors and administrators between the principal governors (Sanford Freeling 1875, George Dundas 1876/1878, D.J. Gamble 1880, R.W. Harley 1881, G.R. Le Hunte 1895/1897) which the later editions omit. The 1966 list ends with Sir John Montague Stow, K.C.M.G., K.C.V.O. (updated honours from 1963 edition). The 1958 edition just says 'see The West Indies (Federation)' — Barbados was part of the West Indies Federation 1958-1962.",
+    "chain": [
+      {"year": 1868, "name": "Sir Rawson W. Rawson, K.C.M.G., C.B."},
+      {"year": 1875, "name": "Sir John Pope Hennessy, K.C.M.G."},
+      {"year": 1876, "name": "Sir Geo. C. Strahan, K.C.M.G."},
+      {"year": 1880, "name": "Sir William Robinson, K.C.M.G."},
+      {"year": 1885, "name": "Sir Charles C. Lees, K.C.M.G."},
+      {"year": 1889, "name": "Sir Walter J. Sendall, G.C.M.G."},
+      {"year": 1891, "name": "Sir J. S. Hay, K.C.M.G."},
+      {"year": 1900, "name": "Sir F. M. Hodgson, K.C.M.G."},
+      {"year": 1904, "name": "Sir G. T. Carter, K.C.M.G."},
+      {"year": 1911, "name": "Sir Leslie Probyn, K.C.M.G."},
+      {"year": 1918, "name": "Lieut.-Col. Sir C. R. M. O'Brien, K.C.M.G."},
+      {"year": 1925, "name": "Sir W. C. F. Robertson, K.C.M.G."},
+      {"year": 1933, "name": "H. S. Newlands, C.M.G."},
+      {"year": 1933, "name": "Sir Mark Young, K.C.M.G."},
+      {"year": 1938, "name": "Sir John Waddington, K.C.M.G., O.B.E."},
+      {"year": 1941, "name": "Sir Grattan Bushe, K.C.M.G., C.B."},
+      {"year": 1947, "name": "Sir Hilary Blood, G.B.E., K.C.M.G."},
+      {"year": 1949, "name": "Sir Alfred Savage, K.C.M.G."},
+      {"year": 1953, "name": "Sir Robert Arundell, K.C.M.G., O.B.E."},
+      {"year": 1959, "name": "Sir John Montague Stow, K.C.M.G., K.C.V.O."}
+    ]
+  }
+}

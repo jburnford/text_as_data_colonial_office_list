@@ -1,0 +1,61 @@
+{
+  "Mauritius": {
+    "colony": "Mauritius",
+    "source": "1966_manual_parsed/mauritius.txt, lines 257-287 (Governors section)",
+    "notes": "Full British governor chain found from 1810-1962. The 1966 edition lists only British governors (post-1810), not the French governors (1722-1810) that may be in earlier editions. Extracting entries after 1887 (the current chain's endpoint). The chain includes one Lieut.-Governor entry (1880 Broome). Sir John Rennie (1962) was the last colonial governor before independence in 1968.",
+    "chain": [
+      {"year": 1889, "name": "Sir C. C. Lees, K.C.M.G."},
+      {"year": 1893, "name": "Sir H. E. H. Jerningham, K.C.M.G."},
+      {"year": 1897, "name": "Sir C. Bruce, G.C.M.G."},
+      {"year": 1904, "name": "Sir Cavendish Boyle, K.C.M.G."},
+      {"year": 1911, "name": "Sir John Chancellor, G.C.M.G., G.C.V.O., D.S.O."},
+      {"year": 1916, "name": "Sir Hesketh Bell, G.C.M.G."},
+      {"year": 1925, "name": "Sir Herbert Read, G.C.M.G., C.B."},
+      {"year": 1930, "name": "Sir Wilfrid Jackson, K.C.M.G."},
+      {"year": 1937, "name": "The Hon. Sir Bede Clifford, G.C.M.G., C.B., M.V.O."},
+      {"year": 1942, "name": "Sir Donald Mackenzie-Kennedy, K.C.M.G."},
+      {"year": 1949, "name": "Sir Hilary Blood, G.B.E., K.C.M.G."},
+      {"year": 1953, "name": "Sir Robert Scott, K.C.M.G."},
+      {"year": 1959, "name": "Sir Colville Montgomery Deverell, K.C.M.G., C.V.O., O.B.E."},
+      {"year": 1962, "name": "Sir John Rennie, K.C.M.G., O.B.E."}
+    ]
+  },
+  "Malta": {
+    "colony": "Malta",
+    "source": "1964_manual_parsed/malta.txt, lines 325-364 (GOVERNORS section); cross-checked with 1958_manual_parsed/malta.txt, lines 304-341",
+    "notes": "Full governor chain found from 1799-1962. Both the 1958 and 1964 editions agree on the chain. Extracting entries after 1907 (the current chain's endpoint). Malta governors were predominantly military officers (Generals, Field-Marshals). The 1958 edition ends at Sir Robert Laycock (1954); the 1964 edition adds two more: Admiral Sir Guy Grantham (1959) and Sir Maurice Dorman (1962). Malta became independent in 1964.",
+    "chain": [
+      {"year": 1909, "name": "General Sir Leslie Rundle, G.C.B., G.C.M.G., G.C.V.O., D.S.O."},
+      {"year": 1915, "name": "Field-Marshal Lord Methuen, G.C.B., G.C.M.G., G.C.V.O."},
+      {"year": 1919, "name": "Field-Marshal Lord Plumer, G.C.B., G.C.M.G., G.C.V.O., G.B.E."},
+      {"year": 1924, "name": "General Sir Walter Congreve, V.C., K.C.B., M.V.O., A.D.C."},
+      {"year": 1927, "name": "General Sir John Du Cane, G.C.B., A.D.C."},
+      {"year": 1931, "name": "General Sir David Campbell, G.C.B., A.D.C."},
+      {"year": 1936, "name": "General Sir Charles Bonham-Carter, K.C.B., C.M.G., D.S.O., A.D.C."},
+      {"year": 1941, "name": "Lieut.-Gen. Sir William Dobbie, K.C.B., C.M.G., D.S.O."},
+      {"year": 1942, "name": "Field-Marshal The Viscount Gort, V.C., G.C.B., D.S.O., M.V.O., M.C."},
+      {"year": 1944, "name": "Lieut.-Gen. Sir Edmond Schreiber, K.C.B., D.S.O."},
+      {"year": 1946, "name": "Sir Francis Douglas, K.C.M.G."},
+      {"year": 1949, "name": "Sir Gerald Creasy, K.C.M.G., O.B.E."},
+      {"year": 1954, "name": "Major-Gen. Sir Robert Laycock, K.C.M.G., C.B., D.S.O."},
+      {"year": 1959, "name": "Admiral Sir Guy Grantham, G.C.B., C.B.E., D.S.O."},
+      {"year": 1962, "name": "Sir Maurice Dorman, G.C.M.G., G.C.V.O."}
+    ]
+  },
+  "Nyasaland": {
+    "colony": "Nyasaland",
+    "source": "1964_manual_parsed/nyasaland.txt, lines 356-372 (GOVERNORS section)",
+    "notes": "Full governor chain found from 1891-1961. Title was 'Commissioner and Consul General' until 1907 when the territory was renamed from 'British Central Africa Protectorate' to 'Nyasaland Protectorate'. Extracting entries after 1921 (the current chain's endpoint). Sir Glyn Jones (1961) was the last governor; Nyasaland became independent as Malawi on 6 July 1964. Note: the chain skips from 1897 to 1910 (no entry for the period 1897-1910 under Sharpe), suggesting Sharpe served until 1910.",
+    "chain": [
+      {"year": 1923, "name": "Sir Charles Bowring, K.C.M.G., K.B.E."},
+      {"year": 1929, "name": "Sir Shenton Thomas, G.C.M.G., O.B.E."},
+      {"year": 1932, "name": "Major Sir Hubert Young, K.C.M.G., D.S.O."},
+      {"year": 1934, "name": "Sir Harold Kittermaster, K.C.M.G., K.B.E."},
+      {"year": 1939, "name": "Sir Donald Mackenzie-Kennedy, K.C.M.G."},
+      {"year": 1942, "name": "Sir Edmund Richards, K.C.M.G."},
+      {"year": 1948, "name": "Sir Geoffrey Colby, K.C.M.G."},
+      {"year": 1956, "name": "Sir Robert Armitage, K.C.M.G., M.B.E."},
+      {"year": 1961, "name": "Sir Glyn Jones, K.C.M.G., M.B.E."}
+    ]
+  }
+}

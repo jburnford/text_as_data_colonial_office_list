@@ -1,0 +1,370 @@
+{
+  "Canada:Governor-General": {
+    "colony": "Canada",
+    "sub_chain": "Governor-General",
+    "source": "1920_manual_parsed/CANADA.txt (lines 415-427) + 1896_manual_parsed/dominion_of_canada.txt",
+    "notes": "Governors-General of the Dominion of Canada since Confederation 1867",
+    "chain": [
+      {"year": 1867, "name": "Viscount Monck"},
+      {"year": 1868, "name": "Lord Lisgar"},
+      {"year": 1872, "name": "The Marquis of Dufferin"},
+      {"year": 1878, "name": "The Marquis of Lorne"},
+      {"year": 1883, "name": "The Marquis of Lansdowne"},
+      {"year": 1888, "name": "Lord Stanley of Preston"},
+      {"year": 1893, "name": "The Earl of Aberdeen"},
+      {"year": 1898, "name": "The Earl of Minto"},
+      {"year": 1904, "name": "The Earl Grey"},
+      {"year": 1911, "name": "H.R.H. the Duke of Connaught and of Strathearn"},
+      {"year": 1916, "name": "The Duke of Devonshire"},
+      {"year": 1921, "name": "Baron Byng of Vimy"}
+    ]
+  },
+  "Canada:Ontario": {
+    "colony": "Canada",
+    "sub_chain": "Ontario",
+    "source": "1922_manual_parsed/CANADA.txt (lines 1536-1545)",
+    "notes": "Lieutenant-Governors of Ontario since 1897",
+    "chain": [
+      {"year": 1897, "name": "Sir Oliver Mowat"},
+      {"year": 1903, "name": "Sir William Mortimer Clark"},
+      {"year": 1908, "name": "Sir John Morison Gibson"},
+      {"year": 1914, "name": "Sir John Strathearn Hendrie"},
+      {"year": 1919, "name": "Lionel Herbert Clarke"},
+      {"year": 1921, "name": "Henry Cockshutt"}
+    ]
+  },
+  "Canada:Quebec": {
+    "colony": "Canada",
+    "sub_chain": "Quebec",
+    "source": "1922_manual_parsed/CANADA.txt (lines 1807-1812)",
+    "notes": "Lieutenant-Governors of Quebec since 1898",
+    "chain": [
+      {"year": 1898, "name": "Sir L. A. Jetté"},
+      {"year": 1903, "name": "Sir C. A. P. Pelletier"},
+      {"year": 1911, "name": "Sir François Langelier"},
+      {"year": 1915, "name": "Sir Pierre Evariste Le Blanc"},
+      {"year": 1918, "name": "Sir Charles Fitzpatrick"}
+    ]
+  },
+  "Canada:Nova Scotia": {
+    "colony": "Canada",
+    "sub_chain": "Nova Scotia",
+    "source": "1922_manual_parsed/CANADA.txt (lines 2155-2161)",
+    "notes": "Lieutenant-Governors of Nova Scotia since 1900",
+    "chain": [
+      {"year": 1900, "name": "Hon. A. G. Jones"},
+      {"year": 1906, "name": "Hon. D. C. Fraser"},
+      {"year": 1910, "name": "Hon. James D. McGregor"},
+      {"year": 1915, "name": "Hon. David MacKeen"},
+      {"year": 1916, "name": "McCallum Grant"}
+    ]
+  },
+  "Canada:New Brunswick": {
+    "colony": "Canada",
+    "sub_chain": "New Brunswick",
+    "source": "1922_manual_parsed/CANADA.txt (lines 2355-2361)",
+    "notes": "Lieutenant-Governors of New Brunswick since 1902",
+    "chain": [
+      {"year": 1902, "name": "Jabez Bunting Snowball"},
+      {"year": 1907, "name": "Lemuel John Tweedie"},
+      {"year": 1912, "name": "Josiah Wood"},
+      {"year": 1917, "name": "Gilbert White Canong"},
+      {"year": 1918, "name": "William Pugsley"}
+    ]
+  },
+  "Canada:Manitoba": {
+    "colony": "Canada",
+    "sub_chain": "Manitoba",
+    "source": "1922_manual_parsed/CANADA.txt (lines 2548-2553)",
+    "notes": "Lieutenant-Governors of Manitoba since 1895",
+    "chain": [
+      {"year": 1895, "name": "Hon. James Colebrooke Patterson"},
+      {"year": 1900, "name": "Sir D. H. McMillan"},
+      {"year": 1911, "name": "Sir D. C. Cameron"},
+      {"year": 1914, "name": "Sir James Aikins"}
+    ]
+  },
+  "Canada:British Columbia": {
+    "colony": "Canada",
+    "sub_chain": "British Columbia",
+    "source": "1922_manual_parsed/CANADA.txt (lines 2803-2810)",
+    "notes": "Lieutenant-Governors of British Columbia since 1900",
+    "chain": [
+      {"year": 1900, "name": "Sir Henri Joly de Lotbinière"},
+      {"year": 1906, "name": "James Dunsmuir"},
+      {"year": 1909, "name": "Thomas W. Paterson"},
+      {"year": 1914, "name": "Sir Frank Stillman Barnard"},
+      {"year": 1919, "name": "Hon. Edward G. Prior"},
+      {"year": 1921, "name": "Walter Cameron Nicol"}
+    ]
+  },
+  "Canada:Prince Edward Island": {
+    "colony": "Canada",
+    "sub_chain": "Prince Edward Island",
+    "source": "1922_manual_parsed/CANADA.txt (lines 3024-3030)",
+    "notes": "Lieutenant-Governors of Prince Edward Island since 1899",
+    "chain": [
+      {"year": 1899, "name": "Peter A. McIntyre"},
+      {"year": 1904, "name": "D. A. MacKinnon"},
+      {"year": 1910, "name": "Benjamin Rogers"},
+      {"year": 1915, "name": "Augustine C. Macdonald"},
+      {"year": 1919, "name": "Murdoch MacKinnon"}
+    ]
+  },
+  "Canada:Saskatchewan": {
+    "colony": "Canada",
+    "sub_chain": "Saskatchewan",
+    "source": "1912_manual_parsed/CANADA.txt (lines 2866-2882) + 1920_manual_parsed/CANADA.txt + 1922_manual_parsed/CANADA.txt",
+    "notes": "Lieutenant-Governors of Saskatchewan from creation of province 1905. Note: Amédée Forget was NWT Lt-Gov from 1898 and continued as first Saskatchewan Lt-Gov 1905-1910.",
+    "chain": [
+      {"year": 1905, "name": "Amédée Emmanuel Forget"},
+      {"year": 1910, "name": "George W. Brown"},
+      {"year": 1915, "name": "Sir Richard S. Lake"},
+      {"year": 1921, "name": "H. W. Newlands"}
+    ]
+  },
+  "Canada:Alberta": {
+    "colony": "Canada",
+    "sub_chain": "Alberta",
+    "source": "1912_manual_parsed/CANADA.txt (lines 2962-2965) + 1920_manual_parsed/CANADA.txt + 1922_manual_parsed/CANADA.txt",
+    "notes": "Lieutenant-Governors of Alberta from creation of province 1905.",
+    "chain": [
+      {"year": 1905, "name": "George Hedley Vicars Bulyea"},
+      {"year": 1915, "name": "Robert George Brett"}
+    ]
+  },
+  "Leeward Islands:Governor": {
+    "colony": "Leeward Islands",
+    "sub_chain": "Governor",
+    "source": "1940_manual_parsed/THE_LEEWARD_ISLANDS.txt (lines 193-206) + 1896_manual_parsed/leeward_islands.txt (lines 44-53)",
+    "notes": "Governors of the Leeward Islands federation from 1871",
+    "chain": [
+      {"year": 1871, "name": "Sir B. C. Pine"},
+      {"year": 1874, "name": "H. T. Irving"},
+      {"year": 1875, "name": "Sir George Berkeley"},
+      {"year": 1881, "name": "Sir J. H. Glover"},
+      {"year": 1884, "name": "Sir C. C. Lees"},
+      {"year": 1885, "name": "Lord Gormanston"},
+      {"year": 1888, "name": "Sir W. F. Haynes Smith"},
+      {"year": 1895, "name": "Sir F. Fleming"},
+      {"year": 1901, "name": "Sir H. M. Jackson"},
+      {"year": 1902, "name": "Sir Gerald Strickland"},
+      {"year": 1904, "name": "Sir C. C. Knollys"},
+      {"year": 1906, "name": "Sir Bickham Sweet-Escott"},
+      {"year": 1912, "name": "Sir H. Hesketh Bell"},
+      {"year": 1916, "name": "Sir E. M. Merewether"},
+      {"year": 1921, "name": "Lt.-Col. The Hon. Sir E. E. Fiennes, Bart."},
+      {"year": 1929, "name": "Sir Reginald St. Johnston"},
+      {"year": 1936, "name": "Sir Gordon J. Lethem"}
+    ]
+  },
+  "Leeward Islands:British Virgin Islands Administrator": {
+    "colony": "Leeward Islands",
+    "sub_chain": "British Virgin Islands Administrator",
+    "source": "1959_manual_parsed/Leeward_Islands.txt (line 142)",
+    "notes": "Current (1959) administrator only; full historical chain not found in available files",
+    "chain": [
+      {"year": null, "name": "G. P. Allsebrook", "note": "Administrator as of 1959 edition"}
+    ]
+  },
+  "Australia:Governor-General": {
+    "colony": "Australia",
+    "sub_chain": "Governor-General (Commonwealth)",
+    "source": "1927_manual_parsed/AUSTRALIA.txt (lines 409-420)",
+    "notes": "Governors-General of the Commonwealth of Australia from 1901",
+    "chain": [
+      {"year": 1901, "name": "The Earl of Hopetoun (Marquis of Linlithgow)"},
+      {"year": 1902, "name": "The Lord Tennyson"},
+      {"year": 1904, "name": "The Lord Northcote"},
+      {"year": 1908, "name": "The Earl of Dudley"},
+      {"year": 1911, "name": "The Lord Denman"},
+      {"year": 1914, "name": "Sir Ronald Craufurd Munro Ferguson (Viscount Novar)"},
+      {"year": 1920, "name": "Baron Forster of Lepe"},
+      {"year": 1925, "name": "Baron Stonehaven"}
+    ]
+  },
+  "Australia:New South Wales": {
+    "colony": "Australia",
+    "sub_chain": "New South Wales",
+    "source": "1927_manual_parsed/AUSTRALIA.txt (lines 1437-1454)",
+    "notes": "Governors of NSW since 1891; earlier governors in 1916 edition (not available)",
+    "chain": [
+      {"year": 1891, "name": "Earl of Jersey"},
+      {"year": 1893, "name": "Sir Robert W. Duff"},
+      {"year": 1895, "name": "Viscount Hampden"},
+      {"year": 1899, "name": "Earl Beauchamp"},
+      {"year": 1901, "name": "See note: chain continues in Civil Establishment section"}
+    ]
+  },
+  "Australia:Queensland": {
+    "colony": "Australia",
+    "sub_chain": "Queensland",
+    "source": "1927_manual_parsed/AUSTRALIA.txt (lines 2938-2960)",
+    "notes": "Governors of Queensland; earlier governors before 1883 in 1903 edition (not available)",
+    "chain": [
+      {"year": 1883, "name": "Sir Anthony Musgrave"},
+      {"year": 1889, "name": "Gen. Sir H. W. Norman"},
+      {"year": 1896, "name": "Lord Lamington"},
+      {"year": 1902, "name": "Maj.-Gen. Sir H. C. Chernside"},
+      {"year": 1905, "name": "Lord Chelmsford"},
+      {"year": 1909, "name": "Sir W. MacGregor"},
+      {"year": 1915, "name": "Major Sir H. J. Goold-Adams"},
+      {"year": 1920, "name": "Lt.-Col. Sir Matthew Nathan"},
+      {"year": 1927, "name": "Lt.-Gen. Sir T. H. J. C. Goodwin"}
+    ]
+  },
+  "Australia:South Australia": {
+    "colony": "Australia",
+    "sub_chain": "South Australia",
+    "source": "1927_manual_parsed/AUSTRALIA.txt (lines 3530-3559)",
+    "notes": "Governors of South Australia from 1873",
+    "chain": [
+      {"year": 1873, "name": "Sir Anthony Musgrave"},
+      {"year": 1877, "name": "Sir William W. Cairns"},
+      {"year": 1877, "name": "Sir W. F. D. Jervois"},
+      {"year": 1883, "name": "Sir W. F. C. Robinson"},
+      {"year": 1889, "name": "The Earl of Kintore"},
+      {"year": 1895, "name": "Sir Thomas Fowell Buxton, Bart."},
+      {"year": 1899, "name": "Lord Tennyson"},
+      {"year": 1903, "name": "Sir George Ruthven Le Hunte"},
+      {"year": 1909, "name": "Sir Day Horst Bosanquet"},
+      {"year": 1914, "name": "Lieut.-Col. Sir Henry Lionel Galway"},
+      {"year": 1920, "name": "Lieut.-Col. Sir W. E. G. A. Weigall"},
+      {"year": 1922, "name": "Lieut.-General Sir George Tom Molesworth Bridges"},
+      {"year": 1925, "name": "T. S. Poole (Administrator)"}
+    ]
+  },
+  "Australia:Tasmania": {
+    "colony": "Australia",
+    "sub_chain": "Tasmania",
+    "source": "1927_manual_parsed/AUSTRALIA.txt (lines 4814-4833)",
+    "notes": "Governors and Lieutenant-Governors of Tasmania since 1893",
+    "chain": [
+      {"year": 1893, "name": "Viscount Gormanston"},
+      {"year": 1901, "name": "Sir A. E. Havelock"},
+      {"year": 1904, "name": "Sir Gerald Strickland"},
+      {"year": 1909, "name": "Sir H. Barron"},
+      {"year": 1913, "name": "Sir William Grey-Macartney"},
+      {"year": 1913, "name": "Sir Herbert Nicholls (Administrator)"},
+      {"year": 1917, "name": "Sir Francis Newdigate-Newdegate"},
+      {"year": 1920, "name": "Sir William Lamond Allardyce"},
+      {"year": 1924, "name": "Sir James O'Grady"}
+    ]
+  },
+  "Australia:Victoria": {
+    "colony": "Australia",
+    "sub_chain": "Victoria",
+    "source": "1927_manual_parsed/AUSTRALIA.txt (lines 5382-5411)",
+    "notes": "Governors of Victoria from 1894; earlier governors in 1908 edition (not available)",
+    "chain": [
+      {"year": 1884, "name": "Sir H. B. Loch"},
+      {"year": 1895, "name": "Lord Brassey"},
+      {"year": 1900, "name": "Sir G. S. Clarke"},
+      {"year": 1901, "name": "Sir R. A. J. Talbot"},
+      {"year": 1904, "name": "Sir R. E. Talbot"},
+      {"year": 1908, "name": "Sir T. D. Gibson Carmichael"},
+      {"year": 1908, "name": "Sir J. M. F. Fuller"},
+      {"year": 1914, "name": "Sir Arthur Lyulph Stanley"},
+      {"year": 1921, "name": "The Earl of Stradbroke"},
+      {"year": 1926, "name": "Lord Somers"}
+    ]
+  },
+  "Australia:Western Australia": {
+    "colony": "Australia",
+    "sub_chain": "Western Australia",
+    "source": "1927_manual_parsed/AUSTRALIA.txt (lines 6337-6356)",
+    "notes": "Governors of Western Australia from 1890",
+    "chain": [
+      {"year": 1890, "name": "Sir W. C. F. Robinson"},
+      {"year": 1895, "name": "Sir Gerard Smith"},
+      {"year": 1901, "name": "Sir Arthur Lawley"},
+      {"year": 1903, "name": "Admiral Sir Fredk. G. D. Bedford"},
+      {"year": 1909, "name": "Sir Gerald Strickland"},
+      {"year": 1913, "name": "Major-General Sir H. Barron"},
+      {"year": 1917, "name": "Sir William Grey Ellison-Macartney"},
+      {"year": 1920, "name": "Sir Francis Alexander Newdegate"},
+      {"year": 1924, "name": "Sir William R. Campion"}
+    ]
+  },
+  "Straits Settlements": {
+    "colony": "Straits Settlements",
+    "source": "1940_manual_parsed/MALAYA_STRAITS_SETTLEMENTS.txt (lines 415-439)",
+    "notes": "Governors since the union of the three settlements (Penang, Singapore, Malacca) in 1826",
+    "chain": [
+      {"year": 1826, "name": "R. Fullerton"},
+      {"year": 1828, "name": "R. Ibbetson"},
+      {"year": 1833, "name": "K. Murchison"},
+      {"year": 1837, "name": "S. G. Bonham"},
+      {"year": 1843, "name": "Col. W. J. Butterworth"},
+      {"year": 1855, "name": "E. A. Blundell"},
+      {"year": 1861, "name": "Col. O. Cavenagh"},
+      {"year": 1867, "name": "Maj.-Genl. Sir Harry St. George Ord"},
+      {"year": 1873, "name": "Col. Sir Andrew Clarke"},
+      {"year": 1876, "name": "Major-General Sir William Francis Drummond Jervois"},
+      {"year": 1877, "name": "Sir William Cleaver Francis Robinson"},
+      {"year": 1880, "name": "Sir Frederick Aloysius Weld"},
+      {"year": 1887, "name": "Sir Cecil Clementi Smith"},
+      {"year": 1894, "name": "Lieut.-Col. Sir Charles Bullen Hugh Mitchell"},
+      {"year": 1901, "name": "Sir Frank Athelstane Swettenham"},
+      {"year": 1904, "name": "Sir John Anderson"},
+      {"year": 1911, "name": "Sir Arthur Henderson Young"},
+      {"year": 1920, "name": "Sir Lawrence Nunn Guillemard"},
+      {"year": 1927, "name": "Sir Hugh Charles Clifford"},
+      {"year": 1930, "name": "Sir Cecil Clementi"},
+      {"year": 1934, "name": "Sir Shenton Thomas"}
+    ]
+  },
+  "Labuan": {
+    "colony": "Labuan",
+    "source": "1896_manual_parsed/labuan.txt (lines 105-122) + 1905_manual_parsed/LABUAN.txt (lines 127-138)",
+    "notes": "Governors of Labuan from 1847. 1848-1889 independent Crown Colony; 1890-1905 administered by Governor of British North Borneo; from 1906 administered by Governor of Straits Settlements.",
+    "chain": [
+      {"year": 1847, "name": "Sir James Brooke"},
+      {"year": 1848, "name": "William Napier (Lieutenant-Governor)"},
+      {"year": 1850, "name": "J. Scott (Lieutenant-Governor)"},
+      {"year": 1856, "name": "Hon. G. W. Edwardes"},
+      {"year": 1861, "name": "T. F. Callaghan"},
+      {"year": 1866, "name": "Hugh Low (acting)"},
+      {"year": 1867, "name": "Sir J. Pope Hennessy"},
+      {"year": 1871, "name": "Sir H. E. Bulwer"},
+      {"year": 1875, "name": "Herbert Taylor Ussher"},
+      {"year": 1879, "name": "Charles Cameron Lees"},
+      {"year": 1881, "name": "P. Leys (acting)"},
+      {"year": 1888, "name": "A. S. Hamilton (acting)"},
+      {"year": 1890, "name": "Charles Vandeleur Creagh"},
+      {"year": 1895, "name": "Leicester Paul Beaumont"},
+      {"year": 1899, "name": "Hugh Clifford"},
+      {"year": 1901, "name": "E. W. Birch"},
+      {"year": 1904, "name": "E. P. Gueritz"},
+      {"year": 1906, "name": "Sir John Anderson (Governor of Straits Settlements, also commissioned Governor of Labuan)"}
+    ]
+  },
+  "Western Pacific High Commission": {
+    "colony": "Western Pacific High Commission",
+    "source": "1966_manual_parsed/western_pacific.txt (lines 26-48)",
+    "notes": "High Commissioners for the Western Pacific from 1877. Post created by Western Pacific Order in Council 1877. Post combined with Governor of Fiji for most of its history until 1952.",
+    "chain": [
+      {"year": 1877, "name": "Sir Arthur H. Gordon"},
+      {"year": 1882, "name": "Sir George Wm. Des Voeux"},
+      {"year": 1887, "name": "Sir C. B. H. Mitchell"},
+      {"year": 1888, "name": "Sir J. B. Thurston"},
+      {"year": 1897, "name": "Sir G. T. M. O'Brien"},
+      {"year": 1902, "name": "Sir H. M. Jackson"},
+      {"year": 1904, "name": "Sir Everard im Thurn"},
+      {"year": 1911, "name": "Sir Henry May"},
+      {"year": 1912, "name": "Sir Bickham Sweet-Escott"},
+      {"year": 1918, "name": "Sir Cecil Rodwell"},
+      {"year": 1925, "name": "Sir Eyre Hutson"},
+      {"year": 1929, "name": "Sir Murchison Fletcher"},
+      {"year": 1936, "name": "Sir Arthur Richards (later Lord Milverton)"},
+      {"year": 1938, "name": "Sir Harry Luke"},
+      {"year": 1942, "name": "Sir Philip Mitchell"},
+      {"year": 1945, "name": "Sir Alexander Grantham"},
+      {"year": 1948, "name": "Sir Brian Freeston"},
+      {"year": 1952, "name": "Sir Robert Stanley"},
+      {"year": 1955, "name": "Sir John Gutch"},
+      {"year": 1961, "name": "Sir David Trench"},
+      {"year": 1964, "name": "Sir Robert Foster"}
+    ]
+  }
+}

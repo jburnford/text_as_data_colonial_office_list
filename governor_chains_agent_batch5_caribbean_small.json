@@ -1,0 +1,38 @@
+{
+  "St Christopher and Nevis": {
+    "colony": "St Christopher and Nevis",
+    "source": "1921_manual_parsed/st_christopher_and_nevis.txt (lines 8-57), 1894_manual_parsed/st_christopher_and_nevis.txt (line 38), 1923_manual_parsed/leeward_islands.txt (lines 637-680), 1879_manual_parsed/leeward_islands.txt (lines 249-299, Leeward Islands governor chain), 1950_manual_parsed/leeward_islands.txt (lines 876-915, confirms 1834 start)",
+    "notes": "No formal governor chain before 1834 exists in any Colonial Office List edition for St Kitts specifically. The 1950 edition explicitly titles it 'Lieutenant-Governors, etc., of St. Kitts, from 1834'. The narrative text in the 1921 and 1894 editions names Thomas Warner (1623/1625), Sir William Stapleton (1672, as Captain-General of all Leeward Islands), and Christopher Codrington (1689, Governor-in-Chief of Leeward Islands), but these were Leeward Islands-wide governors, not St Kitts-specific. The Leeward Islands governor chain in the 1879 edition covers the general government from 1668 (Lord Willoughby) onwards, but St Kitts had no separate listed chain before 1834. Extracting the named early figures from narrative text as they are explicitly called governors of St Kitts or governors-general including St Kitts.",
+    "chain": [
+      {"year": 1625, "name": "Sir Thomas Warner", "role": "Governor-General of St Kitts, Nevis, Barbados and Montserrat (King's Lieutenant from 1625; knighted 1629)"},
+      {"year": 1672, "name": "Sir William Stapleton", "role": "Captain-General of the Leeward Caribbee Islands (Leeward Islands-wide, including St Kitts)"},
+      {"year": 1689, "name": "Colonel Christopher Codrington", "role": "Governor-in-Chief of the Leeward Islands"},
+      {"year": 1698, "name": "Christopher Codrington (Jr.)", "role": "Governor-in-Chief of the Leeward Islands"},
+      {"year": 1816, "name": "[Separate government created]", "role": "Letters Patent of 26 April 1816 created St Christopher, Nevis, Anguilla and Virgin Islands as a separate government from Antigua/Montserrat"}
+    ]
+  },
+  "Montserrat": {
+    "colony": "Montserrat",
+    "source": "1879_manual_parsed/montserrat.txt (5 lines, redirect only), 1894_manual_parsed/montserrat.txt (lines 1-109), 1909_manual_parsed/montserrat.txt (lines 1-192), 1966_manual_parsed/montserrat.txt (lines 1-170), 1950_manual_parsed/leeward_islands.txt (lines 624-634, confirmed chain starts 1889)",
+    "notes": "No governor chain before 1889 exists in any Colonial Office List edition. The 1879 file is a redirect ('See Leeward Islands, p. 100'). The 1894 and 1909 editions contain historical narrative (colonized 1632, French 1664, restored 1668, French 1782, restored 1784) and current civil establishment but no formal governor/commissioner list. Montserrat was administered as part of the Leeward Islands federation and had Commissioners (not Governors) from the late 19th century. The earliest listed Commissioner is Edward Baynes (1889) in the 1894 and 1950 editions. The 1966 edition mentions the island was 'colonized in 1632 when a number of Irishmen of Sir Thomas Warner's company made their homes there' but provides no governor chain.",
+    "chain": []
+  },
+  "Virgin Islands": {
+    "colony": "Virgin Islands",
+    "source": "1890_manual_parsed/virgin_islands.txt (lines 1-170), 1894_manual_parsed/virgin_islands.txt (lines 1-104), 1966_manual_parsed/virgin_islands.txt (lines 1-177)",
+    "notes": "CRITICAL: The existing chain starting at 1813 is INCORRECTLY ASSIGNED. The 1890 file's Virgin Islands section (lines 1-170) transitions directly into Malta at line 172 ('Malta. Situation and Area.'). The 'Civil Commissioners' (1799-1810) and 'Governors' (1813 onwards) listed on lines 304-327 belong to MALTA, not the Virgin Islands. The Virgin Islands had no governor chain in any edition - only a 'President' who was also Treasurer, Magistrate, Postmaster, etc. (a single combined officer). A civil government was established in 1773. The islands became British in 1666 (per the 1890 text) or 1672 (per the 1966 text, which says Colonel Stapleton took Tortola from the Dutch in 1672). No formal governor/president succession list appears in any file. This colony's existing chain should be DELETED as it belongs to Malta.",
+    "chain": []
+  },
+  "St Vincent": {
+    "colony": "St Vincent",
+    "source": "1879_manual_parsed/st_vincent.txt (lines 60-97), 1890_manual_parsed/st_vincent.txt (lines 170-196), 1966_manual_parsed/st_vincent.txt (lines 1-282)",
+    "notes": "The existing chain already starts at 1765 (Brigadier-General Robert Melville), which is the earliest governor listed since the colony was ceded to Britain in 1763. The 1879 edition provides the most complete pre-1833 chain. No earlier entries are possible - the island was Carib/neutral territory before 1762, and French-occupied briefly. No formal French governor list appears in any edition.",
+    "chain": []
+  },
+  "Grenada": {
+    "colony": "Grenada",
+    "source": "1879_manual_parsed/grenada_windward.txt (lines 23-77), 1966_manual_parsed/grenada.txt (lines 1-277)",
+    "notes": "The existing chain already starts at 1764 (Brig.-General Robert Melville/Hobville), which is the earliest governor listed since the colony was ceded to Britain by the Treaty of Paris in 1763. The 1879 edition provides the complete chain from 1764 through 1878. The historical narrative mentions French governors (Du Parquet from 1650, Comte de Cerrillac from 1657, annexed to France 1674) but no formal French governor list appears in any edition. No new earlier entries available.",
+    "chain": []
+  }
+}

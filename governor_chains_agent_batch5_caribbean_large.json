@@ -1,0 +1,44 @@
+{
+  "Trinidad": {
+    "colony": "Trinidad",
+    "source": "1867_manual_parsed/trinidad.txt (lines 293-356), 1879_manual_parsed/trinidad.txt (lines 58-166), 1890_manual_parsed/trinidad.txt (lines 299-378), 1896_manual_parsed/trinidad.txt (lines 100-141)",
+    "notes": "The current chain starts at 1735 (Spanish governors). All editions consistently start at 1735 with Lieut.-Col. E. S. de Linan y Vera. The 1879 and 1890 editions note 'No Governor was appointed by the king of Spain until 1532' but no governors between 1532 and 1735 are listed in any edition. The 1890 edition says 'For Governors previous to 1800, see Edition for 1888.' The earliest governor chain entry across all editions is 1735. No pre-1735 entries exist in the Colonial Office List.",
+    "chain": []
+  },
+  "Tobago": {
+    "colony": "Tobago",
+    "source": "1867_manual_parsed/tobago.txt (lines 80-114), 1879_manual_parsed/tobago_windward.txt (lines 65-127), 1896_manual_parsed/trinidad.txt (lines 962-1014, Tobago section)",
+    "notes": "The current chain starts at 1735. However, the Tobago governor lists in the COL actually start at 1764 (Lieut.-Governor Browne), not 1735. The 1764 start makes sense historically because Tobago was ceded to Britain by the Treaty of Paris in 1763. Before that, it was declared neutral (1748) or held by various European powers with no British-appointed governors. The 1879 edition adds entries from 1833-1877 not in the 1867 edition (1833 President Gardiner through 1877 Augustus Fred. Gore). No pre-1764 entries exist in any edition.",
+    "chain": []
+  },
+  "St Lucia": {
+    "colony": "St Lucia",
+    "source": "1867_manual_parsed/st_lucia.txt (199 lines, no governor list), 1879_manual_parsed/st_lucia.txt (153 lines, no governor list), 1890_manual_parsed/st_lucia.txt (lines 362-391), 1921_manual_parsed/st_lucia.txt (lines 238-246), 1966_manual_parsed/st_lucia.txt (no governor list)",
+    "notes": "The current chain starts at 1713. However, the St Lucia governor lists in the COL actually start at 1803 (General Robert Brereton), not 1713. The 1713 date relates to the Peace of Utrecht described in the historical narrative, not to a governor appointment. St Lucia changed hands 14 times between France and Britain; no governor list for the French period is included. The 1867 and 1879 editions contain no governor list at all. The 1890 edition has the first list, titled 'Governors of St. Lucia since its capitulation in 1803', starting at 1803. No pre-1803 entries exist in any edition. The 1921 edition adds 'Administrators of St. Lucia, since 1900' (1900-1918).",
+    "chain": []
+  },
+  "Ceylon": {
+    "colony": "Ceylon",
+    "source": "1867_manual_parsed/ceylon.txt (lines 56-132), 1896_manual_parsed/ceylon.txt (lines 173-184), 1921_manual_parsed/ceylon.txt (lines 240-256), 1946_manual_parsed/ceylon.txt (lines 446-472)",
+    "notes": "The current chain from the 1867 edition covers Dutch governors (1640-1794) and British governors (1796-1865). Later editions extend the British governors forward, starting from 1850 and noting 'For Governors previous to 1850, see Edition for 1869/1889'. The 1946 edition is the most complete, extending to 1944. Entries after 1865 (Sir Hercules Robinson) are extracted below to extend the chain forward. Ceylon appeared in the COL through 1946; it gained Dominion status in 1948.",
+    "chain": [
+      {"year": 1865, "name": "Sir Hercules G. R. Robinson, K.C.M.G.", "note": "Already in chain as endpoint; included as overlap anchor"},
+      {"year": 1871, "name": "The Rt. Hon. Sir W. H. Gregory, K.C.M.G."},
+      {"year": 1877, "name": "Sir James R. Longden, K.C.M.G."},
+      {"year": 1883, "name": "The Hon. Sir Arthur H. Gordon, G.C.M.G. (afterwards Lord Stanmore)"},
+      {"year": 1890, "name": "Sir Arthur E. Havelock, G.C.M.G."},
+      {"year": 1896, "name": "Right Hon. Sir J. West Ridgeway, G.C.M.G., K.C.B., K.C.S.I."},
+      {"year": 1903, "name": "Sir Henry A. Blake, G.C.M.G."},
+      {"year": 1907, "name": "Col. Sir H. E. McCallum, G.C.M.G., R.E."},
+      {"year": 1913, "name": "Sir Robert Chalmers, G.C.B. (afterwards Lord Chalmers)"},
+      {"year": 1916, "name": "Sir John Anderson, G.C.M.G., K.C.B."},
+      {"year": 1918, "name": "Brig.-General Sir William H. Manning, G.C.M.G., K.B.E., C.B."},
+      {"year": 1925, "name": "Sir Hugh A. Clifford, G.C.M.G., G.B.E."},
+      {"year": 1927, "name": "Sir Herbert J. Stanley, K.C.M.G."},
+      {"year": 1931, "name": "Sir Graeme Thomson, G.C.M.G., K.C.B."},
+      {"year": 1933, "name": "Sir R. E. Stubbs, G.C.M.G."},
+      {"year": 1937, "name": "Sir Andrew Caldecott, K.C.M.G., C.B.E."},
+      {"year": 1944, "name": "Sir Henry Monck Mason Moore, G.C.M.G."}
+    ]
+  }
+}

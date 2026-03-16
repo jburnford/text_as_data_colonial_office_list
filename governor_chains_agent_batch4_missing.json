@@ -1,0 +1,80 @@
+{
+  "Brunei": {
+    "colony": "Brunei",
+    "source": "1958_manual_parsed/brunei.txt (lines 209-237), cross-checked with 1950_manual_parsed/brunei.txt (lines 140-164) and 1948_manual_parsed/brunei.txt (lines 136-163)",
+    "notes": "Complete chain of British Residents printed in the COL from 1906-1958. The 1948 edition provides month-level detail with year ranges; the 1950 edition consolidates to start-years only; the 1958 edition adds later holders (Barcroft, Gilbert, White). Some entries show two people in same year indicating handovers or acting appointments. After 1959 the post was abolished and replaced by High Commissioner (Sir Dennis White 1959-1962, A. M. MacKintosh 1963).",
+    "chain": [
+      {"year": 1906, "name": "M. S. H. McArthur"},
+      {"year": 1907, "name": "H. Chevallier"},
+      {"year": 1908, "name": "M. S. H. McArthur"},
+      {"year": 1908, "name": "J. F. Owen"},
+      {"year": 1909, "name": "B. O. Stoney"},
+      {"year": 1909, "name": "H. Chevallier"},
+      {"year": 1913, "name": "F. W. Douglas"},
+      {"year": 1915, "name": "E. B. Maundrell"},
+      {"year": 1916, "name": "G. E. Cator"},
+      {"year": 1921, "name": "L. A. Allen"},
+      {"year": 1923, "name": "E. E. F. Pretty"},
+      {"year": 1926, "name": "O. E. Venables"},
+      {"year": 1927, "name": "E. E. F. Pretty"},
+      {"year": 1928, "name": "P. A. B. McKerron"},
+      {"year": 1929, "name": "R. J. F. Curtis"},
+      {"year": 1929, "name": "P. A. B. McKerron"},
+      {"year": 1931, "name": "T. F. Carey"},
+      {"year": 1934, "name": "R. E. Turnbull"},
+      {"year": 1937, "name": "J. Graham Black"},
+      {"year": 1940, "name": "E. E. Pengilly"},
+      {"year": 1946, "name": "W. J. Peel"},
+      {"year": 1948, "name": "L. H. N. Davis"},
+      {"year": 1948, "name": "E. E. F. Pretty"},
+      {"year": 1951, "name": "J. C. H. Barcroft"},
+      {"year": 1954, "name": "J. O. Gilbert"},
+      {"year": 1956, "name": "D. C. White"},
+      {"year": 1956, "name": "J. O. Gilbert"}
+    ]
+  },
+  "Swaziland": {
+    "colony": "Swaziland",
+    "source": "Reconstructed from individual COL editions: 1911_manual_parsed/swaziland.txt (line 104), 1921_manual_parsed/swaziland.txt (line 118), 1923_manual_parsed/swaziland.txt (line 119), 1962_manual_parsed/Swaziland.txt (line 159), 1965_manual_parsed/swaziland.txt (line 403), 1966_manual_parsed/swaziland.txt (line 203)",
+    "notes": "NO historical chain was printed in any edition of the Colonial Office List for Swaziland. This chain is PARTIALLY reconstructed from the Resident Commissioner (later Her Majesty's Commissioner) named in each available parsed edition. Only holders confirmed from the actual COL files are included. The post was created in 1907 when control transferred from the Governor of the Transvaal to the High Commissioner for South Africa. In 1963 the post was retitled Her Majesty's Commissioner. Gaps exist between editions — intermediate holders may be missing. The COL did not print a retrospective list for Swaziland because it was a High Commission Territory, not a Crown Colony.",
+    "chain": [
+      {"year": 1911, "name": "R. T. Coryndon", "_source": "1911 edition"},
+      {"year": 1921, "name": "De S. M. G. Honey", "_source": "1921 edition"},
+      {"year": 1923, "name": "De S. M. G. Honey", "_source": "1923 edition"},
+      {"year": 1962, "name": "B. A. Marwick", "_source": "1962 edition"},
+      {"year": 1965, "name": "F. A. Loyd", "_source": "1965 edition, title: Her Majesty's Commissioner"},
+      {"year": 1966, "name": "Sir Francis Loyd", "_source": "1966 edition, title: Her Majesty's Commissioner"}
+    ]
+  },
+  "Bechuanaland": {
+    "colony": "Bechuanaland",
+    "source": "Reconstructed from individual COL editions: 1899_manual_parsed/bechuanaland_protectorate.txt (line 31), 1909_manual_parsed/bechuanaland_protectorate.txt (line 38), 1911_manual_parsed/bechuanaland_protectorate.txt (line 47), 1921_manual_parsed/bechuanaland_protectorate.txt (line 46), 1962_manual_parsed/The_Bechuanaland_Protectorate.txt (line 191), 1965_manual_parsed/bechuanaland_protectorate.txt (line 475), 1966_manual_parsed/bechuanaland.txt (line 246)",
+    "notes": "NO historical chain was printed in any edition of the Colonial Office List for the Bechuanaland Protectorate. This chain is PARTIALLY reconstructed from the Resident Commissioner (later Her Majesty's Commissioner) named in each available parsed edition. Only holders confirmed from the actual COL files are included. The Protectorate was proclaimed in 1885. In 1963 the post was retitled Her Majesty's Commissioner. Bechuanaland became independent as Botswana on 30 September 1966. Gaps exist between editions — intermediate holders may be missing.",
+    "chain": [
+      {"year": 1899, "name": "H. Goold-Adams", "_source": "1899 edition, title: Major"},
+      {"year": 1909, "name": "F. W. Panzera", "_source": "1909 edition, title: Lt.-Col."},
+      {"year": 1911, "name": "F. W. Panzera", "_source": "1911 edition"},
+      {"year": 1921, "name": "J. C. Macgregor", "_source": "1921 edition"},
+      {"year": 1962, "name": "R. P. Fawcus", "_source": "1962 edition"},
+      {"year": 1965, "name": "Sir Peter Fawcus", "_source": "1965 edition, title: Her Majesty's Commissioner"},
+      {"year": 1966, "name": "Sir Hugh Norman-Walker", "_source": "1966 edition, title: Her Majesty's Commissioner"}
+    ]
+  },
+  "Transjordan": {
+    "colony": "Transjordan",
+    "source": "Reconstructed from individual COL editions: 1927_manual_parsed/TRANS_JORDAN.txt (line 34), 1928_manual_parsed/TRANSJORDAN.txt (line 37), 1929_manual_parsed/TRANS-JORDAN.txt (line 36), 1931_manual_parsed/TRANSJORDAN.txt (line 42), 1932_manual_parsed/TRANSJORDAN.txt (line 44), 1933_manual_parsed/TRANSJORDAN.txt (line 44), 1934_manual_parsed/TRANSJORDAN.txt (line 49), 1936_manual_parsed/TRANS-JORDAN.txt (line 52), 1939_manual_parsed/TRANSJORDAN.txt (line 56), 1940_manual_parsed/TRANS-JORDAN.txt (line 58)",
+    "notes": "NO historical chain was printed in any edition of the Colonial Office List for Trans-Jordan. This chain is reconstructed from the Chief British Representative / British Resident named in each available parsed edition. Trans-Jordan was a British Mandate territory under the High Commissioner for Palestine. The 1927 edition uses the title 'Chief British Representative'; by 1928 it was 'British Resident'. C. H. F. Cox held the post through all editions from 1927 to at least 1936. By the 1939 edition, Cox had been replaced. By 1940, A. S. Kirkbride held the post. Trans-Jordan became independent in 1946 and does not appear in post-war COL editions.",
+    "chain": [
+      {"year": 1927, "name": "C. H. F. Cox", "_source": "1927 edition, title: Chief British Representative, rank: Lieut.-Col."},
+      {"year": 1928, "name": "C. H. F. Cox", "_source": "1928 edition, title: British Resident"},
+      {"year": 1929, "name": "C. H. F. Cox", "_source": "1929 edition"},
+      {"year": 1931, "name": "C. H. F. Cox", "_source": "1931 edition"},
+      {"year": 1932, "name": "C. H. F. Cox", "_source": "1932 edition"},
+      {"year": 1933, "name": "C. H. F. Cox", "_source": "1933 edition"},
+      {"year": 1934, "name": "C. H. F. Cox", "_source": "1934 edition"},
+      {"year": 1936, "name": "C. H. F. Cox", "_source": "1936 edition"},
+      {"year": 1939, "name": "Sir Henry Cox", "_source": "1939 edition, now K.C.M.G."},
+      {"year": 1940, "name": "A. S. Kirkbride", "_source": "1940 edition"}
+    ]
+  }
+}
