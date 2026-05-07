@@ -1,5 +1,6 @@
 # Windows Zone.Identifier files
 *:Zone.Identifier
+*:com.dropbox.attrs
 
 # OS files
 .DS_Store
@@ -29,5 +30,25 @@ generated/*.log
 
 # Non-teaching files
 britishempire_clean.cypher
+britishempire_kg_export_original.cypher
 ceylon_extraction_guide.md
 CLASS_PLAN.md
+
+# Large data directories (regenerable from upstream sources)
+colony_manual_parsed/
+wikidata_harvest/
+ml_data/
+gazette_data/
+llm_careers/
+llm_output/
+
+# Backups and export snapshots
+historical_persons_backup_*.json
+
+# Visualization data payloads (HTML kept; regenerate JSON via export_career_viz.py)
+canada_people_map_data.json
+career_viz_data.json
+
+# Cross-colony research scratch
+wd_cross_colony_research.json
+wd_cross_colony_test.json

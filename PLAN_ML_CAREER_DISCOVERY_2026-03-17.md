@@ -53,16 +53,18 @@ Step 4: Apply to All Pairs
 - `qid`, `name`, `positions[]` with `position_label`, `colony_qid`, `colony_name`, `start`, `end`
 
 **Algorithm:**
-1. Load all WD people who have 2+ colonial positions with dates
+1. Load ALL WD people who have 1+ colonial positions mapped to our colonies (2,305 people, 1,543 with dates)
 2. For each WD person, for each position:
-   - Map `colony_name` → our colony name (using COL_Territory.wikidata_id or fuzzy name match)
-   - Extract surname from WD name
-   - Find COL_Officials: `WHERE surname CONTAINS $wd_surname AND colony = $mapped_colony`
+   - Map `colony_qid` → COL_Territory name (via crosswalk)
+   - Extract surname from WD name (handle "FirstName LastName" → "LastName")
+   - Find COL_Officials: `WHERE surname = $wd_surname AND colony = $mapped_colony`
    - Filter by initials compatibility (if WD has given names)
    - Filter by year overlap: COL_Official's [first_year, last_year] overlaps WD position's [start, end] within ±3 years
-   - Score: year overlap + name specificity → pick best match
-3. A WD person with 2+ matched COL_Officials in different stints = **one known career**
-4. Output match confidence: HIGH (exact name + year overlap), MEDIUM (initial match + year proximity), LOW (surname only)
+   - Score: year overlap + name specificity → pick best match(es)
+3. **Key insight:** A WD person with a SINGLE position (e.g., "Inspector of Police, Ceylon, 1885-1910") may match MULTIPLE COL_Official nodes if the normalization pipeline failed to unify name variants ("J. Smith" / "Jas. Smith" / "James Smith"). These multi-match cases are the most valuable training pairs — they represent exactly the hard within-colony linking problem.
+4. A WD person matching 2+ COL_Officials (whether from multiple positions OR from one position split across name variants) = **one known career** with positive pairs.
+5. A WD person matching exactly 1 COL_Official = **an anchor** (useful for hard negatives: we know this official is NOT the same as other same-surname officials in that colony).
+6. Output match confidence: HIGH (exact name + year overlap), MEDIUM (initial match + year proximity), LOW (surname only)
 
 **Safeguards against false positives:**
 - Only accept HIGH and MEDIUM matches for training
@@ -71,15 +73,15 @@ Step 4: Apply to All Pairs
 - If COL_Official matches 2+ WD persons, flag as conflict
 - Export `wd_matching_review.csv` with 100 random HIGH matches for human spot-check
 
-**Expected yield:** ~1,000-2,000 known career pairs from WD people with 2+ colonial positions
+**Expected yield:** ~2,000-4,000 anchored COL_Officials from 2,305 WD people + 400 Gemini careers
 
-### 1b: Gemini Career Matching (already done)
+### 1b: Gemini Career Matching (re-match from raw careers)
 
-**Input:** `llm_careers/*.json` + `llm_output/*_confirmed.csv`
+**Input:** `llm_careers/*.json` — 400 careers across 7 colonies (150 with 2+ stints)
 
-The existing `col_llm_verify.py` already matched 408 Gemini careers to COL_Officials and found 26 confirmed edge pairs. We reuse this output directly.
+The existing `col_llm_verify.py` only confirmed 30 pairs — too conservative. Re-match ALL 400 Gemini careers directly to COL_Officials using the same matching logic as 1a. Even single-stint Gemini careers provide anchors (known identity for a COL_Official), and multi-stint careers provide positive pairs.
 
-**Key difference from WD:** Gemini careers are within-colony (same person across time in one colony). WD careers are often cross-colony (governor of X then governor of Y). Together they cover both linking problems.
+**Key difference from WD:** Gemini careers are within-colony (same person across time in one colony), providing training signal for the most common career pattern (slow promotion within one colony). WD careers are often cross-colony (governor of X then governor of Y). Together they cover both linking problems.
 
 ### 1c: Combine into Ground Truth File
 
@@ -134,6 +136,8 @@ For each candidate pair (same surname, compatible initials), compute:
 - `honours_match`: compare honours lists
 - `military_rank_match`: compare ranks
 - `seniority_direction`: promotion/lateral/demotion
+- `is_acting_a`, `is_acting_b`: boolean — extracted from `acting_status` field (already in PersonRecord) plus position text patterns ("Acting", "Ag.", "Officiating", "Temporary"). **When either is True, compute a parallel `seniority_direction_no_acting` feature** that strips the acting stint and compares the substantive positions on either side. This prevents the model from penalizing common "Acting Colonial Secretary → Chief Clerk" sequences that are actually the same person returning from furlough cover.
+- `acting_pair`: boolean — True if either official in the pair has an acting appointment. Lets the model learn to discount salary/seniority fluctuations for acting stints without hard-coding the logic.
 
 ### Geographic features (cross-colony only):
 - `regional_proximity`: transfer circuit analysis
@@ -161,6 +165,13 @@ For each candidate pair (same surname, compatible initials), compute:
 2. For hard negatives: same-surname pairs where officials are in DIFFERENT known careers
 3. Additional negatives: career-span impossibles (>55 years combined span)
 4. **Do NOT use high-uncertainty POSSIBLE_MATCH edges as negatives** (they may be correct matches the hand-tuned scorer missed)
+
+### Hard negative sampling quotas (prevents temporal shortcut learning):
+The model must not learn a trivial classifier where `gap_years < 10` → match. Force difficult negatives:
+- **≥30% of negatives** must have `gap_years < 5` or `overlap_years > 0` (temporally close)
+- **≥20% of negatives** must be same-colony pairs (geographically close)
+- **Hardest tier:** same decade + same colony + different known career — these force the model to rely on `department_cosine_sim`, `salary_progression`, `honours_ratchet` rather than temporal/geographic separation
+- If insufficient natural hard negatives exist from known careers, supplement with synthetic negatives: pairs of officials with the same surname and overlapping tenures in the same colony where we are confident they are different people (e.g., both appear in the same edition simultaneously in different roles)
 
 ### Model:
 - GradientBoostingClassifier (sklearn) — handles mixed feature types, captures interactions
@@ -191,6 +202,7 @@ Compare against hand-tuned linker:
   - Block 1: exact surname + same colony (within-colony careers)
   - Block 2: exact canonical_name across all colonies (cross-colony transfers)
   - Block 3: first 3 chars of surname + same department (catches OCR name variants)
+  - Block 4: **phonetic surname match** — Double Metaphone on surnames, allowing pairs where the primary metaphone code matches even if the string doesn't. Catches MacDonald/McDonald, Smyth/Smythe, Thomson/Thompson, etc. Also allow Levenshtein distance ≤ 1 for surnames > 5 characters. This expands recall beyond the OCR/LLM extraction error ceiling without polluting the training data (applied only in discovery, not training).
 - Score each pair with the trained model
 - Build connected components from high-confidence pairs (P > 0.7)
 - **Transitivity trap prevention (Gemini refinement):** Before finalizing components, validate that no component contains temporal impossibilities (two full-time posts in different non-federal colonies in the same year, or career span > 55 years). Sever the weakest edge that creates the impossibility.
@@ -253,6 +265,9 @@ Compare against hand-tuned linker:
 12. Run on full corpus, compare against hand-tuned linker
 13. Review disagreements — these are the new discoveries
 
+### Phase 5: Network-Based Re-scoring (future enhancement)
+14. **Entourage/cohort detection:** Senior officials (Governors, Chief Secretaries) frequently brought Private Secretaries, ADCs, and trusted administrators when transferring between colonies. After Phase 4 produces high-confidence career chains, re-score low-confidence cross-colony pairs by checking if other officials make the same geographic jump in the same year. A `shared_cohort_transfer` feature (count of co-transferring officials, weighted by their link confidence) can bootstrap identity for otherwise ambiguous names. This requires a multi-pass approach: first build confident chains, then use those chains as context for uncertain ones. Deferred because it creates a chicken-and-egg dependency and the number of cases where this is the deciding (not merely confirmatory) signal is likely small.
+
 ---
 
 ## Alternative: Splink (Probabilistic Record Linkage)
@@ -275,3 +290,16 @@ Gemini suggested using **Splink** (UK Ministry of Justice's probabilistic linkag
 4. **Comparison with hand-tuned linker**: How many careers does ML find that the linker missed? Vice versa?
 5. **False positive rate**: Of ML-discovered careers NOT in ground truth, how many are real? (sample review)
 6. **Elite bias check**: Recovery rate for mid-level Gemini careers vs elite WD careers should be within 10%.
+
+---
+
+## Amendments (2026-03-17, post-Gemini review)
+
+Four issues identified by external review, three incorporated immediately:
+
+| # | Issue | Verdict | Action taken |
+|---|-------|---------|--------------|
+| 1 | **Surname blocking recall ceiling** — exact string match caps recall at OCR/LLM error rate | Valid | Added Block 4 (Double Metaphone + Levenshtein ≤1) to Step 4 discovery phase. Not applied to training to keep labels clean. |
+| 2 | **Acting appointment volatility** — "Acting Colonial Secretary → Chief Clerk" penalized as extreme demotion | Valid, important | Added `is_acting_a/b`, `acting_pair`, and `seniority_direction_no_acting` features to Step 2. Acting status already extracted in PersonRecord data. |
+| 3 | **Entourage/cohort effect** — co-transferring officials as identity signal | Valid but premature | Deferred to Phase 5 as network re-scoring pass. Requires high-confidence chains first (chicken-and-egg). |
+| 4 | **Hard negative sampling bias** — easy negatives let model rely on temporal separation | Critical | Added explicit sampling quotas to Step 3: ≥30% temporally close, ≥20% same-colony, with hardest-tier mandate for same-decade-same-colony pairs. |

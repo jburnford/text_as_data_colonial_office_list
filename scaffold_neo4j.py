@@ -101,6 +101,7 @@ EXPLICIT_ALIASES = {
     "malaya_unfederated_malay_states": "Unfederated Malay States",
     "malay_states_not_included_in_the_federation": "Unfederated Malay States",
     "unfederated_malay_states": "Unfederated Malay States",
+    "malay_states_unfederated": "Unfederated Malay States",
     "malaysia": "Malaysia",
 
     # ---- Fiji ----
@@ -226,10 +227,12 @@ EXPLICIT_ALIASES = {
 
     # ---- St Lucia ----
     "st_lucia": "St Lucia",
+    "st._lucia": "St Lucia",
 
     # ---- St Vincent ----
     "st_vincent": "St Vincent",
     "saint_vincent": "St Vincent",
+    "st._vincent": "St Vincent",
 
     # ---- Straits Settlements ----
     "straits_settlements": "Straits Settlements",

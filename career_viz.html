@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Colonial Office List — Career Timelines</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0d1117; color: #c9d1d9; }
+
+#controls {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: #161b22; border-bottom: 1px solid #30363d;
+  padding: 10px 20px; display: flex; gap: 16px; align-items: center;
+  flex-wrap: wrap;
+}
+#controls label { font-size: 13px; color: #8b949e; }
+#controls select, #controls input {
+  background: #0d1117; color: #c9d1d9; border: 1px solid #30363d;
+  padding: 4px 8px; border-radius: 4px; font-size: 13px;
+}
+#controls input[type=range] { width: 120px; }
+#controls .stat {
+  font-size: 13px; color: #58a6ff; margin-left: auto;
+}
+#controls button {
+  background: #238636; color: #fff; border: none; padding: 5px 12px;
+  border-radius: 4px; cursor: pointer; font-size: 13px;
+}
+#controls button:hover { background: #2ea043; }
+
+#legend {
+  position: fixed; top: 52px; right: 12px; z-index: 99;
+  background: #161b22ee; border: 1px solid #30363d; border-radius: 6px;
+  padding: 10px 14px; font-size: 12px; max-height: calc(100vh - 70px);
+  overflow-y: auto;
+}
+#legend h3 { font-size: 13px; margin-bottom: 8px; color: #8b949e; }
+.legend-item { display: flex; align-items: center; gap: 6px; margin: 3px 0; cursor: pointer; }
+.legend-item:hover { color: #fff; }
+.legend-swatch { width: 14px; height: 14px; border-radius: 2px; flex-shrink: 0; }
+
+#viz-container {
+  margin-top: 52px; overflow-x: auto; overflow-y: auto;
+  height: calc(100vh - 52px);
+}
+
+svg { display: block; }
+.year-line { stroke: #21262d; stroke-width: 1; }
+.year-label { fill: #484f58; font-size: 11px; text-anchor: middle; }
+.decade-line { stroke: #30363d; stroke-width: 1; }
+.person-label {
+  font-size: 11px; fill: #c9d1d9; cursor: pointer;
+  dominant-baseline: middle;
+}
+.person-label:hover { fill: #58a6ff; }
+.person-label.wd { fill: #f0883e; }
+.stint-bar { rx: 2; ry: 2; cursor: pointer; }
+.stint-bar:hover { stroke: #fff; stroke-width: 2; }
+.edge-line { stroke-width: 1.5; opacity: 0.5; fill: none; }
+.edge-line:hover { opacity: 1; stroke-width: 2.5; }
+
+.tooltip {
+  position: fixed; pointer-events: none; z-index: 200;
+  background: #1c2128; border: 1px solid #444c56; border-radius: 6px;
+  padding: 8px 12px; font-size: 12px; max-width: 350px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4); display: none;
+}
+.tooltip .tt-name { font-weight: 600; color: #58a6ff; font-size: 13px; }
+.tooltip .tt-colony { color: #f0883e; }
+.tooltip .tt-years { color: #8b949e; }
+.tooltip .tt-wd { color: #a371f7; }
+</style>
+</head>
+<body>
+
+<div id="controls">
+  <label>Filter:
+    <select id="filter-region">
+      <option value="all">All regions</option>
+      <option value="west_africa">West Africa</option>
+      <option value="east_africa">East Africa</option>
+      <option value="southern_africa">Southern Africa</option>
+      <option value="caribbean">Caribbean</option>
+      <option value="pacific">Pacific</option>
+      <option value="southeast_asia">Southeast Asia</option>
+      <option value="mediterranean">Mediterranean</option>
+      <option value="canada_aus_nz">Canada/Aus/NZ</option>
+    </select>
+  </label>
+  <label>Min colonies:
+    <select id="filter-min-colonies">
+      <option value="2">2+</option>
+      <option value="3">3+</option>
+      <option value="4">4+</option>
+      <option value="1">1+</option>
+    </select>
+  </label>
+  <label>Min stints:
+    <select id="filter-min-stints">
+      <option value="2">2+</option>
+      <option value="3">3+</option>
+      <option value="4">4+</option>
+      <option value="5">5+</option>
+    </select>
+  </label>
+  <label>Sort:
+    <select id="sort-by">
+      <option value="first_year">First year</option>
+      <option value="colonies">Most colonies</option>
+      <option value="stints">Most stints</option>
+      <option value="name">Name</option>
+      <option value="span">Career span</option>
+    </select>
+  </label>
+  <label>Row height: <input type="range" id="row-height" min="14" max="40" value="20"></label>
+  <label><input type="checkbox" id="show-edges" checked> Edges</label>
+  <label><input type="checkbox" id="show-wd-only"> Wikidata only</label>
+  <button id="btn-reset">Reset</button>
+  <span class="stat" id="stat-display">Loading...</span>
+</div>
+
+<div id="legend"></div>
+
+<div id="viz-container">
+  <svg id="viz"></svg>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+const YEAR_MIN = 1862;
+const YEAR_MAX = 1970;
+const LEFT_MARGIN = 200;
+const RIGHT_MARGIN = 30;
+const TOP_MARGIN = 30;
+const YEAR_SCALE = 8; // px per year
+
+const REGION_LABELS = {
+  west_africa: "West Africa",
+  east_africa: "East Africa",
+  southern_africa: "Southern Africa",
+  caribbean: "Caribbean",
+  pacific: "Pacific",
+  southeast_asia: "Southeast Asia",
+  mediterranean: "Mediterranean",
+  canada_aus_nz: "Canada / Aus / NZ",
+  other: "Other",
+};
+
+let DATA, filteredPersons;
+
+fetch("career_viz_data.json")
+  .then(r => r.json())
+  .then(data => { DATA = data; init(); });
+
+function getRegionForColony(colony) {
+  const regions = {
+    west_africa: ["Gold Coast","Sierra Leone","Gambia","Nigeria","Lagos","Northern Nigeria","Southern Nigeria","Togoland","Cameroons"],
+    east_africa: ["Kenya","Uganda","Tanganyika","Zanzibar","British Somaliland","Nyasaland","Aden","Somaliland"],
+    southern_africa: ["South Africa","Southern Rhodesia","Northern Rhodesia","Rhodesia","Swaziland","Basutoland","Bechuanaland","High Commission Territories","Central Africa","Cape of Good Hope","Natal"],
+    caribbean: ["Jamaica","Trinidad","Trinidad and Tobago","Barbados","British Guiana","British Honduras","Bahamas","Bermuda","Leeward Islands","Windward Islands","Antigua","Dominica","Grenada","St Lucia","St Vincent","St Kitts-Nevis","St Christopher and Nevis","Montserrat","Virgin Islands","Tobago","Turks and Caicos Islands","Cayman Islands","West Indies"],
+    pacific: ["Fiji","Western Pacific","Gilbert and Ellice Islands","British Solomon Islands","Tonga","British New Guinea","Papua"],
+    southeast_asia: ["Straits Settlements","Federated Malay States","Hong Kong","Ceylon","North Borneo","Sarawak","Brunei","Labuan","Singapore","Federation of Malaya","Unfederated Malay States","Johore","Malaya"],
+    mediterranean: ["Cyprus","Malta","Gibraltar","Palestine","Transjordan","Mauritius","Seychelles"],
+    canada_aus_nz: ["Canada","Australia","New Zealand","New South Wales","Queensland","South Australia","Tasmania","Victoria","Western Australia","Newfoundland"],
+  };
+  for (const [r, cols] of Object.entries(regions)) {
+    if (cols.includes(colony)) return r;
+  }
+  return "other";
+}
+
+function init() {
+  buildLegend();
+  bindControls();
+  render();
+}
+
+function buildLegend() {
+  const el = document.getElementById("legend");
+  let html = "<h3>Regions</h3>";
+  for (const [r, label] of Object.entries(REGION_LABELS)) {
+    const color = DATA.regions[r] || "#969696";
+    html += `<div class="legend-item" data-region="${r}">
+      <div class="legend-swatch" style="background:${color}"></div>
+      <span>${label}</span>
+    </div>`;
+  }
+  el.innerHTML = html;
+
+  el.querySelectorAll(".legend-item").forEach(item => {
+    item.addEventListener("click", () => {
+      document.getElementById("filter-region").value = item.dataset.region;
+      render();
+    });
+  });
+}
+
+function bindControls() {
+  ["filter-region","filter-min-colonies","filter-min-stints","sort-by"].forEach(id => {
+    document.getElementById(id).addEventListener("change", render);
+  });
+  ["show-edges","show-wd-only"].forEach(id => {
+    document.getElementById(id).addEventListener("change", render);
+  });
+  document.getElementById("row-height").addEventListener("input", render);
+  document.getElementById("btn-reset").addEventListener("click", () => {
+    document.getElementById("filter-region").value = "all";
+    document.getElementById("filter-min-colonies").value = "2";
+    document.getElementById("filter-min-stints").value = "2";
+    document.getElementById("sort-by").value = "first_year";
+    document.getElementById("row-height").value = "20";
+    document.getElementById("show-edges").checked = true;
+    document.getElementById("show-wd-only").checked = false;
+    render();
+  });
+}
+
+function filterAndSort() {
+  const region = document.getElementById("filter-region").value;
+  const minCols = +document.getElementById("filter-min-colonies").value;
+  const minStints = +document.getElementById("filter-min-stints").value;
+  const wdOnly = document.getElementById("show-wd-only").checked;
+  const sortBy = document.getElementById("sort-by").value;
+
+  let persons = DATA.persons.filter(p => {
+    if (p.n_colonies < minCols) return false;
+    if (p.num_stints < minStints) return false;
+    if (wdOnly && !p.wd_qid) return false;
+    if (region !== "all") {
+      const hasRegion = p.stints.some(s => getRegionForColony(s.colony) === region);
+      if (!hasRegion) return false;
+    }
+    return true;
+  });
+
+  // Sort
+  persons.sort((a, b) => {
+    if (sortBy === "first_year") return a.first_year - b.first_year;
+    if (sortBy === "colonies") return b.n_colonies - a.n_colonies || b.num_stints - a.num_stints;
+    if (sortBy === "stints") return b.num_stints - a.num_stints;
+    if (sortBy === "name") return a.name.localeCompare(b.name);
+    if (sortBy === "span") return (b.last_year - b.first_year) - (a.last_year - a.first_year);
+    return 0;
+  });
+
+  return persons;
+}
+
+function yearToX(year) {
+  return LEFT_MARGIN + (year - YEAR_MIN) * YEAR_SCALE;
+}
+
+function render() {
+  filteredPersons = filterAndSort();
+  const rowH = +document.getElementById("row-height").value;
+  const showEdges = document.getElementById("show-edges").checked;
+  const barH = Math.max(6, rowH - 6);
+
+  const svgWidth = LEFT_MARGIN + (YEAR_MAX - YEAR_MIN) * YEAR_SCALE + RIGHT_MARGIN;
+  const svgHeight = TOP_MARGIN + filteredPersons.length * rowH + 40;
+
+  document.getElementById("stat-display").textContent =
+    `${filteredPersons.length} persons · ${filteredPersons.reduce((s,p) => s + p.stints.length, 0)} stints`;
+
+  const svg = document.getElementById("viz");
+  svg.setAttribute("width", svgWidth);
+  svg.setAttribute("height", svgHeight);
+
+  // Build official → row index for edges
+  const officialRow = {};
+  filteredPersons.forEach((p, i) => {
+    p.stints.forEach(s => { officialRow[s.id] = i; });
+  });
+
+  let html = "";
+
+  // Year grid
+  for (let y = YEAR_MIN; y <= YEAR_MAX; y++) {
+    const x = yearToX(y);
+    if (y % 10 === 0) {
+      html += `<line x1="${x}" y1="${TOP_MARGIN - 5}" x2="${x}" y2="${svgHeight}" class="decade-line"/>`;
+      html += `<text x="${x}" y="${TOP_MARGIN - 10}" class="year-label">${y}</text>`;
+    } else if (y % 5 === 0) {
+      html += `<line x1="${x}" y1="${TOP_MARGIN}" x2="${x}" y2="${svgHeight}" class="year-line"/>`;
+    }
+  }
+
+  // Edges (behind bars)
+  if (showEdges) {
+    const edgeGroup = [];
+    DATA.edges.forEach(e => {
+      const ri = officialRow[e.source];
+      const rj = officialRow[e.target];
+      if (ri === undefined || rj === undefined) return;
+      if (ri === rj) return; // same row, skip
+
+      // Find stints to get x positions
+      const srcP = filteredPersons[ri];
+      const tgtP = filteredPersons[rj];
+      if (!srcP || !tgtP) return;
+
+      const srcStint = srcP.stints.find(s => s.id === e.source);
+      const tgtStint = tgtP.stints.find(s => s.id === e.target);
+      if (!srcStint || !tgtStint) return;
+
+      const x1 = yearToX(srcStint.last_year) + YEAR_SCALE / 2;
+      const x2 = yearToX(tgtStint.first_year) - YEAR_SCALE / 2;
+      const y1 = TOP_MARGIN + ri * rowH + rowH / 2;
+      const y2 = TOP_MARGIN + rj * rowH + rowH / 2;
+
+      const unc = e.uncertainty || 0.5;
+      const opacity = Math.max(0.15, 1 - unc);
+      const color = e.source_colony !== e.target_colony ? "#58a6ff" : "#484f58";
+
+      // Bezier curve
+      const midX = (x1 + x2) / 2;
+      edgeGroup.push(
+        `<path d="M${x1},${y1} C${midX},${y1} ${midX},${y2} ${x2},${y2}"
+          class="edge-line" stroke="${color}" opacity="${opacity}"
+          data-unc="${unc.toFixed(2)}"/>`
+      );
+    });
+    html += edgeGroup.join("\n");
+  }
+
+  // Person rows
+  filteredPersons.forEach((p, i) => {
+    const y = TOP_MARGIN + i * rowH;
+    const labelClass = p.wd_qid ? "person-label wd" : "person-label";
+
+    // Name label
+    html += `<text x="${LEFT_MARGIN - 8}" y="${y + rowH/2}" class="${labelClass}"
+      text-anchor="end" data-idx="${i}">${escapeHtml(p.name)}</text>`;
+
+    // Stint bars
+    p.stints.forEach(s => {
+      const x1 = yearToX(s.first_year);
+      const w = Math.max(YEAR_SCALE, (s.last_year - s.first_year + 1) * YEAR_SCALE);
+      const color = DATA.colony_colors[s.colony] || "#969696";
+
+      html += `<rect x="${x1}" y="${y + (rowH - barH)/2}" width="${w}" height="${barH}"
+        class="stint-bar" fill="${color}" data-colony="${escapeHtml(s.colony)}"
+        data-years="${s.first_year}-${s.last_year}" data-name="${escapeHtml(p.name)}"
+        data-wd="${p.wd_qid || ''}" data-wdname="${escapeHtml(p.wd_name || '')}"/>`;
+    });
+  });
+
+  svg.innerHTML = html;
+
+  // Tooltip
+  const tooltip = document.getElementById("tooltip");
+  svg.querySelectorAll(".stint-bar").forEach(bar => {
+    bar.addEventListener("mouseenter", e => {
+      const colony = bar.dataset.colony;
+      const years = bar.dataset.years;
+      const name = bar.dataset.name;
+      const wd = bar.dataset.wd;
+      const wdname = bar.dataset.wdname;
+
+      let tt = `<div class="tt-name">${name}</div>`;
+      tt += `<div class="tt-colony">${colony}</div>`;
+      tt += `<div class="tt-years">${years}</div>`;
+      if (wd) tt += `<div class="tt-wd">Wikidata: ${wdname} (${wd})</div>`;
+
+      tooltip.innerHTML = tt;
+      tooltip.style.display = "block";
+      tooltip.style.left = (e.clientX + 12) + "px";
+      tooltip.style.top = (e.clientY - 10) + "px";
+    });
+    bar.addEventListener("mousemove", e => {
+      tooltip.style.left = (e.clientX + 12) + "px";
+      tooltip.style.top = (e.clientY - 10) + "px";
+    });
+    bar.addEventListener("mouseleave", () => {
+      tooltip.style.display = "none";
+    });
+  });
+
+  // Click person label to highlight
+  svg.querySelectorAll(".person-label").forEach(label => {
+    label.addEventListener("click", () => {
+      const idx = +label.dataset.idx;
+      const p = filteredPersons[idx];
+      if (p.wd_qid) {
+        window.open(`https://www.wikidata.org/wiki/${p.wd_qid}`, "_blank");
+      }
+    });
+  });
+}
+
+function escapeHtml(s) {
+  return (s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dictionary of Canadian Biography — People Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+#map { width: 100%; height: 100vh; }
+
+#controls {
+  position: absolute; top: 10px; right: 10px; z-index: 1000;
+  background: white; border-radius: 8px; padding: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2); max-width: 320px;
+  max-height: 90vh; overflow-y: auto;
+}
+#controls h2 { font-size: 16px; margin-bottom: 8px; }
+#controls .stat { font-size: 13px; color: #555; margin-bottom: 12px; }
+
+.filter-group { margin-bottom: 12px; }
+.filter-group label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+.filter-group select, .filter-group input {
+  width: 100%; padding: 6px 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 13px;
+}
+
+.legend { margin-top: 12px; }
+.legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; margin: 3px 0; }
+.legend-dot { width: 12px; height: 12px; border-radius: 50%; border: 1px solid rgba(0,0,0,0.2); }
+
+.btn-row { display: flex; gap: 6px; margin-top: 8px; }
+.btn {
+  flex: 1; padding: 6px; border: 1px solid #ccc; border-radius: 4px;
+  background: #f5f5f5; cursor: pointer; font-size: 12px; text-align: center;
+}
+.btn:hover { background: #e0e0e0; }
+.btn.active { background: #2196F3; color: white; border-color: #1976D2; }
+
+.leaflet-popup-content { max-width: 280px; font-size: 13px; line-height: 1.5; }
+.leaflet-popup-content h3 { font-size: 15px; margin-bottom: 4px; }
+.leaflet-popup-content .dates { color: #666; font-size: 12px; }
+.leaflet-popup-content .place { margin: 4px 0; }
+.leaflet-popup-content .positions { margin-top: 6px; padding-top: 6px; border-top: 1px solid #eee; }
+.leaflet-popup-content .positions ul { margin: 2px 0; padding-left: 16px; }
+.leaflet-popup-content .positions li { font-size: 11px; color: #444; }
+.leaflet-popup-content .wd-link { font-size: 11px; margin-top: 4px; }
+.leaflet-popup-content .wd-link a { color: #1976D2; }
+
+#arc-toggle { margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div id="controls">
+  <h2>Dictionary of Canadian Biography</h2>
+  <div class="stat" id="stat-line">Loading...</div>
+
+  <div class="filter-group">
+    <label>Search by name</label>
+    <input type="text" id="search" placeholder="Type a name..." />
+  </div>
+
+  <div class="filter-group">
+    <label>Show</label>
+    <div class="btn-row">
+      <div class="btn active" id="btn-birth" onclick="toggleLayer('birth')">Birthplaces</div>
+      <div class="btn" id="btn-death" onclick="toggleLayer('death')">Deathplaces</div>
+    </div>
+  </div>
+
+  <div class="filter-group">
+    <label>Birth country</label>
+    <select id="country-filter">
+      <option value="">All countries</option>
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <label>Century</label>
+    <select id="century-filter">
+      <option value="">All centuries</option>
+      <option value="16">1500s</option>
+      <option value="17">1600s</option>
+      <option value="18">1700s</option>
+      <option value="19">1800s</option>
+      <option value="20">1900s</option>
+    </select>
+  </div>
+
+  <div class="filter-group" id="arc-toggle">
+    <label><input type="checkbox" id="show-arcs" /> Show birth → death arcs</label>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:#2196F3"></div> Born in Canada</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#FF9800"></div> Born in Britain/Ireland</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#9C27B0"></div> Born in France</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#4CAF50"></div> Born in USA</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#F44336"></div> Death location</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#78909C"></div> Other</div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script>
+// Country color mapping
+const COUNTRY_COLORS = {
+  'CA': '#2196F3',
+  'GB': '#FF9800', 'IE': '#FF9800', 'JE': '#FF9800', 'IM': '#FF9800',
+  'FR': '#9C27B0',
+  'US': '#4CAF50',
+};
+const DEFAULT_COLOR = '#78909C';
+const DEATH_COLOR = '#F44336';
+
+const COUNTRY_NAMES = {
+  'CA': 'Canada', 'GB': 'United Kingdom', 'FR': 'France', 'US': 'United States',
+  'IE': 'Ireland', 'DE': 'Germany', 'IT': 'Italy', 'CH': 'Switzerland',
+  'PL': 'Poland', 'IN': 'India', 'UA': 'Ukraine', 'JE': 'Jersey',
+  'ES': 'Spain', 'NL': 'Netherlands', 'BE': 'Belgium', 'NO': 'Norway',
+  'SE': 'Sweden', 'DK': 'Denmark', 'RU': 'Russia', 'PT': 'Portugal',
+  'AU': 'Australia', 'NZ': 'New Zealand', 'ZA': 'South Africa',
+  'JM': 'Jamaica', 'BB': 'Barbados', 'HK': 'Hong Kong',
+};
+
+function getColor(country) {
+  return COUNTRY_COLORS[country] || DEFAULT_COLOR;
+}
+
+function makeIcon(color, radius) {
+  return L.divIcon({
+    className: '',
+    html: `<div style="width:${radius*2}px;height:${radius*2}px;border-radius:50%;background:${color};border:1.5px solid rgba(255,255,255,0.8);box-shadow:0 1px 3px rgba(0,0,0,0.3);"></div>`,
+    iconSize: [radius*2, radius*2],
+    iconAnchor: [radius, radius],
+  });
+}
+
+function extractYear(dateStr) {
+  if (!dateStr) return null;
+  const m = String(dateStr).match(/(\d{4})/);
+  return m ? parseInt(m[1]) : null;
+}
+
+function popupContent(p, positions) {
+  const birthYear = extractYear(p.birthDate);
+  const deathYear = extractYear(p.deathDate);
+  let dates = '';
+  if (birthYear && deathYear) dates = `(${birthYear}–${deathYear})`;
+  else if (birthYear) dates = `(b. ${birthYear})`;
+  else if (deathYear) dates = `(d. ${deathYear})`;
+
+  let html = `<h3>${p.name}</h3><div class="dates">${dates}</div>`;
+  if (p.birthPlace) html += `<div class="place">Born: ${p.birthPlace}${p.birthCountry ? ' (' + (COUNTRY_NAMES[p.birthCountry] || p.birthCountry) + ')' : ''}</div>`;
+  if (p.deathPlace) html += `<div class="place">Died: ${p.deathPlace}${p.deathCountry ? ' (' + (COUNTRY_NAMES[p.deathCountry] || p.deathCountry) + ')' : ''}</div>`;
+
+  if (positions && positions.length > 0) {
+    html += '<div class="positions"><strong>Positions held:</strong><ul>';
+    for (const pos of positions.slice(0, 5)) {
+      let range = '';
+      if (pos.start) range = pos.start.substring(0, 4);
+      if (pos.end) range += '–' + pos.end.substring(0, 4);
+      html += `<li>${pos.position}${range ? ' (' + range + ')' : ''}</li>`;
+    }
+    if (positions.length > 5) html += `<li><em>...and ${positions.length - 5} more</em></li>`;
+    html += '</ul></div>';
+  }
+
+  if (p.qid) html += `<div class="wd-link"><a href="https://www.wikidata.org/wiki/${p.qid}" target="_blank">Wikidata: ${p.qid}</a></div>`;
+  return html;
+}
+
+// Initialize map
+const map = L.map('map').setView([56, -96], 4);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/">CARTO</a> | Data: DCB / GeoNames / Wikidata',
+  maxZoom: 18,
+}).addTo(map);
+
+// Cluster groups
+const birthCluster = L.markerClusterGroup({
+  maxClusterRadius: 40,
+  spiderfyOnMaxZoom: true,
+  showCoverageOnHover: false,
+  iconCreateFunction: function(cluster) {
+    const count = cluster.getChildCount();
+    let size = count < 10 ? 30 : count < 100 ? 40 : 50;
+    return L.divIcon({
+      html: `<div style="width:${size}px;height:${size}px;border-radius:50%;background:rgba(33,150,243,0.7);display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;font-size:12px;border:2px solid rgba(255,255,255,0.8);box-shadow:0 2px 6px rgba(0,0,0,0.3);">${count}</div>`,
+      className: '', iconSize: [size, size]
+    });
+  }
+});
+
+const deathCluster = L.markerClusterGroup({
+  maxClusterRadius: 40,
+  showCoverageOnHover: false,
+  iconCreateFunction: function(cluster) {
+    const count = cluster.getChildCount();
+    let size = count < 10 ? 30 : count < 100 ? 40 : 50;
+    return L.divIcon({
+      html: `<div style="width:${size}px;height:${size}px;border-radius:50%;background:rgba(244,67,54,0.7);display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;font-size:12px;border:2px solid rgba(255,255,255,0.8);box-shadow:0 2px 6px rgba(0,0,0,0.3);">${count}</div>`,
+      className: '', iconSize: [size, size]
+    });
+  }
+});
+
+const arcLayer = L.layerGroup();
+
+let allPeople = [];
+let allPositions = {};
+let activeLayer = 'birth';
+
+function updateMap() {
+  birthCluster.clearLayers();
+  deathCluster.clearLayers();
+  arcLayer.clearLayers();
+
+  const searchTerm = document.getElementById('search').value.toLowerCase();
+  const countryFilter = document.getElementById('country-filter').value;
+  const centuryFilter = document.getElementById('century-filter').value;
+  const showArcs = document.getElementById('show-arcs').checked;
+
+  let birthCount = 0, deathCount = 0, arcCount = 0;
+
+  for (const p of allPeople) {
+    // Filters
+    if (searchTerm && !p.name.toLowerCase().includes(searchTerm)) continue;
+    if (countryFilter && p.birthCountry !== countryFilter) continue;
+    if (centuryFilter) {
+      const year = extractYear(p.birthDate);
+      if (!year) continue;
+      const century = Math.floor(year / 100) + 1;
+      if (String(century) !== centuryFilter) continue;
+    }
+
+    const positions = allPositions[p.dcbId] || [];
+
+    // Birth marker
+    if (p.birthLat != null && p.birthLon != null) {
+      const color = getColor(p.birthCountry);
+      const marker = L.marker([p.birthLat, p.birthLon], { icon: makeIcon(color, 5) });
+      marker.bindPopup(popupContent(p, positions));
+      birthCluster.addLayer(marker);
+      birthCount++;
+    }
+
+    // Death marker
+    if (p.deathLat != null && p.deathLon != null) {
+      const marker = L.marker([p.deathLat, p.deathLon], { icon: makeIcon(DEATH_COLOR, 5) });
+      marker.bindPopup(popupContent(p, positions));
+      deathCluster.addLayer(marker);
+      deathCount++;
+    }
+
+    // Arc (birth → death)
+    if (showArcs && p.birthLat != null && p.deathLat != null &&
+        (p.birthLat !== p.deathLat || p.birthLon !== p.deathLon)) {
+      const line = L.polyline(
+        [[p.birthLat, p.birthLon], [p.deathLat, p.deathLon]],
+        { color: getColor(p.birthCountry), weight: 1, opacity: 0.3 }
+      );
+      arcLayer.addLayer(line);
+      arcCount++;
+    }
+  }
+
+  document.getElementById('stat-line').textContent =
+    `${birthCount.toLocaleString()} birthplaces · ${deathCount.toLocaleString()} deathplaces` +
+    (arcCount > 0 ? ` · ${arcCount.toLocaleString()} arcs` : '');
+}
+
+function toggleLayer(layer) {
+  if (layer === 'birth') {
+    if (map.hasLayer(birthCluster)) {
+      map.removeLayer(birthCluster);
+      document.getElementById('btn-birth').classList.remove('active');
+    } else {
+      map.addLayer(birthCluster);
+      document.getElementById('btn-birth').classList.add('active');
+    }
+  } else {
+    if (map.hasLayer(deathCluster)) {
+      map.removeLayer(deathCluster);
+      document.getElementById('btn-death').classList.remove('active');
+    } else {
+      map.addLayer(deathCluster);
+      document.getElementById('btn-death').classList.add('active');
+    }
+  }
+}
+
+// Load data
+fetch('canada_people_map_data.json')
+  .then(r => r.json())
+  .then(data => {
+    allPeople = data.people;
+    allPositions = data.positions;
+
+    // Populate country filter
+    const countries = {};
+    for (const p of allPeople) {
+      if (p.birthCountry) countries[p.birthCountry] = (countries[p.birthCountry] || 0) + 1;
+    }
+    const countrySelect = document.getElementById('country-filter');
+    Object.entries(countries)
+      .sort((a, b) => b[1] - a[1])
+      .forEach(([code, count]) => {
+        const opt = document.createElement('option');
+        opt.value = code;
+        opt.textContent = `${COUNTRY_NAMES[code] || code} (${count.toLocaleString()})`;
+        countrySelect.appendChild(opt);
+      });
+
+    updateMap();
+    map.addLayer(birthCluster);
+
+    // Event listeners
+    document.getElementById('search').addEventListener('input', updateMap);
+    document.getElementById('country-filter').addEventListener('change', updateMap);
+    document.getElementById('century-filter').addEventListener('change', updateMap);
+    document.getElementById('show-arcs').addEventListener('change', function() {
+      if (this.checked) { map.addLayer(arcLayer); } else { map.removeLayer(arcLayer); }
+      updateMap();
+    });
+  });
+</script>
+</body>
+</html>
