@@ -22,18 +22,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
 .controls button:hover { background: #3d566e; }
 .controls button.active { background: #4a90d9; }
 
-#panel-a {
-  flex-shrink: 0; height: 220px; position: relative;
-  border-bottom: 1px solid rgba(255,255,255,0.15);
-}
-#area-chart { width: 100%; height: 100%; }
-#area-tooltip {
-  position: absolute; pointer-events: none; z-index: 50;
-  background: rgba(20,20,40,0.95); border: 1px solid rgba(255,255,255,0.2);
-  border-radius: 6px; padding: 8px 12px; font-size: 12px;
-  display: none; white-space: nowrap;
-}
-
 #panel-b { flex: 1; overflow: hidden; position: relative; }
 #sankey-chart { width: 100%; height: 100%; cursor: grab; }
 #sankey-chart:active { cursor: grabbing; }
@@ -58,14 +46,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
 .legend-dot { width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; flex-shrink: 0; }
 
 #info { position: fixed; bottom: 8px; right: 20px; z-index: 100; color: #555; font-size: 11px; }
-
-/* Area chart */
-.area-region { opacity: 0.8; cursor: pointer; transition: opacity 0.15s; }
-.area-region:hover { opacity: 1; }
-.area-region.dimmed { opacity: 0.2; }
-.event-line-a { stroke: rgba(255,130,100,0.2); stroke-width: 1; stroke-dasharray: 4,3; }
-.event-label-a { fill: rgba(255,130,100,0.5); font-size: 9px; }
-.cursor-line { stroke: rgba(255,255,255,0.4); stroke-width: 1; pointer-events: none; }
 
 /* Sankey bars and flows */
 .node-bar { opacity: 0.85; cursor: pointer; transition: opacity 0.15s; }
@@ -105,18 +85,13 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
 </div>
 
-<div id="panel-a">
-  <svg id="area-chart"></svg>
-  <div id="area-tooltip"></div>
-</div>
-
 <div id="panel-b">
   <svg id="sankey-chart"></svg>
 </div>
 
 <div id="tooltip"></div>
 <div id="legend"></div>
-<div id="info">Scroll to zoom · Drag to pan · Click a colony to highlight lineage · Click area chart to filter region</div>
+<div id="info">Scroll to zoom · Drag to pan · Click a colony to highlight lineage · Use Region dropdown to filter</div>
 
 <script>
 // ── Configuration ──
@@ -1067,142 +1042,22 @@ function init() {
     `<span class="legend-item"><span class="legend-dot" style="background:${REGION_COLORS[r]}"></span>${r}</span>`
   ).join('');
 
-  buildAreaChart();
   buildSankey();
-}
-
-// ── Panel A: Stacked Area ──
-function buildAreaChart() {
-  const container = document.getElementById('panel-a');
-  const width = container.clientWidth;
-  const height = container.clientHeight;
-  const margin = { top: 15, right: 30, bottom: 22, left: 45 };
-
-  const svg = d3.select('#area-chart').attr('width', width).attr('height', height);
-  svg.selectAll('*').remove();
-
-  const regions = REGION_ORDER.filter(r => allNodes.some(n => n.region === r));
-
-  // Compute active counts per year per region
-  const years = d3.range(YEAR_MIN, YEAR_MAX + 1);
-  const stackData = years.map(y => {
-    const row = { year: y };
-    regions.forEach(r => { row[r] = 0; });
-    allNodes.forEach(n => {
-      const est = n.est || YEAR_MIN;
-      const ind = n.ind || YEAR_MAX;
-      if (y >= est && y <= ind && regions.includes(n.region)) {
-        row[n.region]++;
-      }
-    });
-    return row;
-  });
-
-  const x = d3.scaleLinear().domain([YEAR_MIN, YEAR_MAX]).range([margin.left, width - margin.right]);
-  const stack = d3.stack().keys(regions);
-  const series = stack(stackData);
-  const yMax = d3.max(series, s => d3.max(s, d => d[1]));
-  const y = d3.scaleLinear().domain([0, yMax]).range([height - margin.bottom, margin.top]);
-
-  const area = d3.area()
-    .x(d => x(d.data.year))
-    .y0(d => y(d[0]))
-    .y1(d => y(d[1]))
-    .curve(d3.curveMonotoneX);
-
-  // Event lines
-  EVENTS.forEach(ev => {
-    svg.append('line').attr('class', 'event-line-a')
-      .attr('x1', x(ev.year)).attr('x2', x(ev.year))
-      .attr('y1', margin.top).attr('y2', height - margin.bottom);
-    svg.append('text').attr('class', 'event-label-a')
-      .attr('x', x(ev.year) + 2).attr('y', margin.top + 8)
-      .attr('transform', `rotate(-35, ${x(ev.year) + 2}, ${margin.top + 8})`)
-      .text(ev.label);
-  });
-
-  // Areas
-  series.forEach(s => {
-    svg.append('path')
-      .attr('class', 'area-region')
-      .attr('d', area(s))
-      .attr('fill', REGION_COLORS[s.key])
-      .attr('data-region', s.key)
-      .on('click', () => setRegion(s.key === activeRegion ? 'all' : s.key));
-  });
-
-  // Axes
-  svg.append('g')
-    .attr('transform', `translate(0,${height - margin.bottom})`)
-    .call(d3.axisBottom(x).tickFormat(d3.format('d')).ticks(15))
-    .selectAll('text').attr('fill', '#666').attr('font-size', '10px');
-  svg.append('g')
-    .attr('transform', `translate(${margin.left},0)`)
-    .call(d3.axisLeft(y).ticks(5))
-    .selectAll('text').attr('fill', '#666').attr('font-size', '10px');
-  svg.selectAll('.domain, .tick line').attr('stroke', '#333');
-
-  // Y-axis label
-  svg.append('text').attr('fill', '#666').attr('font-size', '10px')
-    .attr('transform', `rotate(-90)`).attr('x', -(height/2)).attr('y', 12)
-    .attr('text-anchor', 'middle').text('Active Territories');
-
-  // Cursor + tooltip
-  const cursorLine = svg.append('line').attr('class', 'cursor-line')
-    .attr('y1', margin.top).attr('y2', height - margin.bottom).attr('display', 'none');
-
-  const tooltip = document.getElementById('area-tooltip');
-
-  svg.append('rect')
-    .attr('x', margin.left).attr('y', margin.top)
-    .attr('width', width - margin.left - margin.right)
-    .attr('height', height - margin.top - margin.bottom)
-    .attr('fill', 'transparent')
-    .on('mousemove', function(event) {
-      const [mx] = d3.pointer(event);
-      const yr = Math.round(x.invert(mx));
-      if (yr < YEAR_MIN || yr > YEAR_MAX) return;
-      cursorLine.attr('x1', x(yr)).attr('x2', x(yr)).attr('display', null);
-      const row = stackData.find(d => d.year === yr);
-      if (!row) return;
-      const total = regions.reduce((s, r) => s + row[r], 0);
-      let html = `<strong>${yr}</strong> — ${total} territories<br>`;
-      regions.forEach(r => {
-        if (row[r] > 0) {
-          html += `<span style="color:${REGION_COLORS[r]}">■</span> ${r}: ${row[r]}<br>`;
-        }
-      });
-      tooltip.innerHTML = html;
-      tooltip.style.display = 'block';
-      tooltip.style.left = Math.min(event.offsetX + 15, width - 200) + 'px';
-      tooltip.style.top = '30px';
-    })
-    .on('mouseleave', () => {
-      cursorLine.attr('display', 'none');
-      tooltip.style.display = 'none';
-    });
 }
 
 function setRegion(region) {
   activeRegion = region;
   document.getElementById('filter-region').value = region;
   selectedNode = null;
-
-  // Highlight area chart
-  d3.selectAll('.area-region').classed('dimmed', region !== 'all')
-    .filter(function() { return d3.select(this).attr('data-region') === region; })
-    .classed('dimmed', false);
-
   buildSankey();
 }
 
 // ── Panel B: Alluvial/Sankey ──
 function buildSankey() {
   const container = document.getElementById('panel-b');
-  const width = Math.max(container.clientWidth, 1400);
   const svgEl = d3.select('#sankey-chart');
   svgEl.selectAll('*').remove();
-  svgEl.attr('width', width).attr('height', container.clientHeight);
+  svgEl.attr('width', container.clientWidth).attr('height', container.clientHeight);
 
   // Filter nodes by region
   const regionNodes = activeRegion === 'all' ? allNodes.slice() :
@@ -1281,7 +1136,9 @@ function buildSankey() {
 
   // Layout: assign y positions
   const MARGIN = { top: 50, right: 60, bottom: 40, left: 60 };
-  const xScale = d3.scaleLinear().domain([YEAR_MIN, YEAR_MAX]).range([MARGIN.left, width - MARGIN.right]);
+  // Natural content width independent of viewport — zoom-to-fit (below) scales it to the panel.
+  const layoutWidth = Math.max(container.clientWidth, 1400);
+  const xScale = d3.scaleLinear().domain([YEAR_MIN, YEAR_MAX]).range([MARGIN.left, layoutWidth - MARGIN.right]);
 
   // For connected nodes: topological layout with weight-based heights
   // Compute weight (number of leaf ancestors) for each node
@@ -1878,11 +1735,20 @@ function buildSankey() {
     });
   };
 
-  // Fit to view
-  const scaleX = (container.clientWidth - 40) / (xScale(YEAR_MAX) - xScale(YEAR_MIN) + MARGIN.left + MARGIN.right);
-  const scaleY = (container.clientHeight - 40) / totalHeight;
-  const initialScale = Math.min(scaleX, scaleY, 0.85);
-  svgEl.call(zoom.transform, d3.zoomIdentity.scale(initialScale).translate(20, 20));
+  // Fit to view — fit the content's actual bounding box into the panel viewport,
+  // then translate in screen pixels (translate-then-scale) so padding doesn't shrink with zoom.
+  const viewportW = container.clientWidth;
+  const viewportH = container.clientHeight;
+  const contentW = xScale(YEAR_MAX) + MARGIN.right;
+  const contentH = totalHeight;
+  const padding = 24;
+  const scaleX = (viewportW - padding * 2) / contentW;
+  const scaleY = (viewportH - padding * 2) / contentH;
+  // Prefer width-fit so the timeline reads left-to-right; vertical scroll/pan handles overflow.
+  const initialScale = Math.min(Math.max(scaleX, 0.25), 1.2);
+  const tx = padding;
+  const ty = Math.max(padding, (viewportH - contentH * initialScale) / 2);
+  svgEl.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(initialScale));
 
   window._sankeyZoom = zoom;
   window._sankeySvg = svgEl;
@@ -1938,13 +1804,11 @@ function resetView() {
   selectedNode = null;
   document.getElementById('filter-region').value = 'all';
   document.getElementById('search').value = '';
-  d3.selectAll('.area-region').classed('dimmed', false);
   buildSankey();
 }
 
 // Resize
 window.addEventListener('resize', () => {
-  buildAreaChart();
   buildSankey();
 });
 
