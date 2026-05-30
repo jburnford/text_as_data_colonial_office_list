@@ -17,36 +17,36 @@ annual report** on the colony itself, *before* the staff lists begin. By line
 count this descriptive/statistical material is roughly **50–70% of each file** and
 is currently unextracted.
 
-The actual on-disk format. The manual parsing renders each section as a **bare
-heading line ending in `.`** followed by prose; **statistics are embedded in the
-sentences, not in tables** (there are *no* delimited tables anywhere in the
-corpus). The period each figure describes is stated *in the sentence*. Verbatim,
-1930 `JAMAICA.txt`:
+The format mixes **two presentations in every era**: figures embedded in prose
+*and* pipe/markdown tables. Measured prevalence of pipe rows: 1867 39/44 files,
+1900 43/55, 1930 36/42, 1950 37/37 — so tables are common throughout 1867–1966,
+not a late innovation. Sections are always introduced by a **bare heading line
+ending in `.`**.
+
+**Prose with embedded statistics** (e.g. 1900 `JAMAICA.txt`):
 
 ```
-Trade.
-The total value of the imports for 1928 was £6,007,624 and of the domestic
-exports £6,217,628.
-
-Revenue.
-The revenue and expenditure for the financial year 1928-29 were £2,663,924 and
-£2,659,895 respectively.
-
-Public Debt.
-The public debt on the 31st March, 1929, amounted to £9,847,103.
-```
-
-And the richer narrative-with-embedded-numbers style of 1900 `JAMAICA.txt`:
-
-```
-Situation and Area.
-Jamaica is an island in the Caribbean Sea ... containing about 4,207 square
-miles ... It is estimated that Jamaica contains 2,692,480 acres ...
-
 Industry.
 ... sugar (export 284,875 cwt., value 120,958L); coffee (export 85,410 cwt.,
 value 165,494L); ginger (export 12,572 cwt., value 34,884L) ...
 ```
+
+**Pipe tables, interleaved with that prose, in the same entries** (1930 and 1867
+`JAMAICA.txt`). Note they are **OCR-noisy**: placeholder headers (`| 1 | 2 | 3 |`),
+header and data rows split apart, ragged columns:
+
+```
+| Year    | Revenue    | Expenditure | British Tonnage | Total Tonnage |
+| 1919-20 | £1,802,778 | £1,444,818  | 801,791         | 2,084,942     |
+
+| 1 | 2 | 3 |
+| Coloured | 121,955 | |
+| White | 14,692 | |
+```
+
+So the extractor must handle **both** prose figures **and** messy pipe tables
+across all decades. The period each figure describes is stated in the prose/row
+("for 1928", "1919-20"), never assumed equal to the volume year.
 
 This is a century-long, ~50-colony **panel dataset** of public finance, trade,
 population, area, shipping, communications, and production — plus rich narrative
@@ -62,16 +62,19 @@ officials, 1870–1950", "which colonies' export base was >80% one commodity",
 
 A cross-decade read of Jamaica, Ceylon, Hong Kong, and smaller colonies shows:
 
-1. **One reliable surface pattern, one hard one:**
-   - *Easy:* section boundaries — a **short line ending in `.`** acts as a
-     heading (`Trade.`, `Revenue.`, `Public Debt.`, `Situation and Area.`,
+1. **Three surface patterns to exploit, of differing difficulty:**
+   - *Easy (all eras):* section boundaries — a **short line ending in `.`** acts
+     as a heading (`Trade.`, `Revenue.`, `Public Debt.`, `Situation and Area.`,
      `Constitution.`, `Industry.`, `Shipping.`). These segment the entry cheaply.
-   - *Hard:* **every statistic is embedded in a prose sentence**, with its period
-     stated in words ("for 1928", "for the financial year 1928-29", "at the
-     census taken in 1921"). There are **no delimited tables** to parse — so
-     Track A is fundamentally an **LLM/regex-over-prose extraction**, not table
-     reading. Currency markers vary even within a file (`£6,007,624`, `120,958L`,
-     `Rs.`).
+   - *Medium (all eras):* **markdown/pipe tables** (`| Year | Revenue | … |`)
+     carry much of the finance/trade/shipping/population data and can be parsed
+     deterministically — but they are OCR-noisy (placeholder `| 1 | 2 | 3 |`
+     headers, headers split from data, ragged columns), so the LLM is needed to
+     label/repair columns and align units.
+   - *Hard (all eras):* **figures embedded in prose sentences**, period stated in
+     words ("for 1928", "for the financial year 1928-29", "at the census taken in
+     1921"). These need LLM/regex extraction.
+   Currency markers vary even within a file (`£6,007,624`, `120,958L`, `Rs.`).
 2. **Consistent section vocabulary:** Situation/Area, History, Climate &
    Inhabitants, Constitution/Government, Finance (Revenue & Expenditure, Debt),
    Population, Trade (Imports/Exports), Shipping & Tonnage, Communications
@@ -86,12 +89,12 @@ A cross-decade read of Jamaica, Ceylon, Hong Kong, and smaller colonies shows:
 4. **Units/currencies vary** by colony and era: £ vs Rupees (Ceylon, Straits,
    Mauritius) vs HK$ (Hong Kong); area in square miles; crops in tons / cwt /
    lbs / stems / acres. Currency regimes also change mid-century for a colony.
-5. **Format drifts across decades:** early volumes (1867–1880s) are heavily
-   narrative/constitutional with sparse statistics (1867 Jamaica devotes pages to
-   the Morant Bay rebellion); mid-period (1900–1930s) carry the densest embedded
-   statistics; late volumes (1950s–60s) are condensed; war-era editions (1946–48)
-   are thin. **OCR also garbles headings** (`Government.` → `Gcoernment.`,
-   `CEYLON` dir entry `CceyYLON.txt`), so heading detection must be fuzzy.
+5. **Format drifts across decades:** early volumes (1867–1880s) carry more
+   constitutional/historical narrative (1867 Jamaica devotes pages to the Morant
+   Bay rebellion) but already include statistical tables; mid-period volumes are
+   the densest; war-era editions (1946–48) are thin. **OCR garbles headings,
+   table structure, and digits throughout**, so heading detection must be fuzzy,
+   table parsing tolerant, and numbers confidence-flagged.
 6. **OCR reliability is lower on digits than text** — a documented risk
    (`GRAPHRAG_PIPELINE_DESIGN.md`). Numeric extraction needs transcription
    discipline and confidence flagging, not silent computation.
@@ -201,26 +204,29 @@ code-generation review option.
 
 1. **Segment cheaply.** Extend the Stage 1 segmenter to split each entry at the
    bare `Heading.` lines (fuzzy-matched against the section taxonomy to tolerate
-   OCR garbling), tagging each block with a `COL_ReportSectionType`. This is the
-   one deterministic step; everything below operates on prose.
-2. **Extract embedded figures with the LLM + pydantic schema**
-   (`ColonyReportExtraction`). Because there are no tables, the model reads
-   sentences like *"The revenue and expenditure for the financial year 1928-29
-   were £2,663,924 and £2,659,895 respectively"* and emits two `COL_Observation`
-   records (revenue, expenditure) with `observation_year_start=1928,
+   OCR garbling), tagging each block with a `COL_ReportSectionType` and marking
+   whether it contains a pipe table, prose, or both.
+2. **Parse pipe tables (all eras), LLM-assisted.** Where a block holds a
+   `| Year | Revenue | … |` table, read cells directly and capture the period per
+   row into `observation_year_start/end`, keeping each cell's `value_raw` and a
+   parsed `value_num` + `currency_raw`. Because the tables are OCR-noisy
+   (placeholder headers, split header/data rows, ragged columns), the LLM
+   *labels/repairs columns and aligns units* over the raw cells — it does not
+   re-transcribe digits it might hallucinate.
+3. **Extract prose-embedded figures with the LLM + pydantic schema**
+   (`ColonyReportExtraction`) — needed in every era for figures stated in
+   sentences. The model reads sentences like *"The revenue and expenditure for
+   the financial year 1928-29 were £2,663,924 and £2,659,895 respectively"* and
+   emits two `COL_Observation` records with `observation_year_start=1928,
    observation_year_end=1929`. Prompt rules, encoded tersely (gpt-oss responds
    better to rules than examples):
    - *Transcribe digits exactly; never add, sum, round, or convert.*
-   - *Extract the period each figure describes from the surrounding sentence.*
+   - *Extract the period each figure describes from the surrounding sentence/row.*
    - *Record `unit_raw`/`currency_raw` exactly as written (`£`, trailing `L`,
      `Rs.`, `tons`, `cwt.`, `acres`); leave normalization to a later stage.*
    - *Keep `value_raw` as the verbatim substring and a `source_span` offset so
      every number is auditable back to the page.*
    - *If illegible/ambiguous, emit with `confidence<0.5` rather than guessing.*
-3. **(Optional) deterministic regex pre-pass** for high-frequency, low-ambiguity
-   patterns (a currency-prefixed number adjacent to a year) to seed candidates
-   and cross-check the LLM — but the LLM remains primary because period and
-   indicator live in the surrounding prose, not in fixed columns.
 4. **Verify numerics (cheap, deterministic):** a second pass cross-checks stated
    total vs. sum of printed components when both appear (**flag mismatches, do not
    auto-correct**), magnitude plausibility, and year-over-year continuity against
