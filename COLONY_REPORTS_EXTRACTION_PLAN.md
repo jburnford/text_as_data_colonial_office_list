@@ -102,12 +102,13 @@ corpus-wide counts, shows:
    like AUSTRALIA at ~85k and an anomalous 1888 ASCENSION). Crucially,
    **statistical density scales with size as a tendency, not a law**: files <800
    words have a *median of 0* pipe-table rows, while files >5,000 words have a
-   *median of 72* — but the federation mega-entries are table-rich
-   (Dominion of Canada has 144–320 pipe rows per edition), so size predicts
-   *volume* of data, not its structuredness, reliably. Small colonies are
-   qualitatively different,
-   not just shorter — 1900 Ascension's entire report is *Situation / History /
-   Trade ("There is no trade.")* with no finance, population, or commodity data.
+   *median of ~70–80* — but the federation mega-entries are table-rich
+   (Dominion of Canada runs 114–465 pipe rows per edition, 1879–1899), so size
+   predicts *volume* of data, not its structuredness, reliably. Small colonies are
+   qualitatively different, not just shorter — 1900 Ascension's *entire* report is
+   a single descriptive paragraph (geography, garrison, turtles, ~166 population,
+   "all expenses charged to naval funds") followed by one line of staff, with **no
+   section headings and no tables at all** — no finance, trade, or commodity data.
    So `COL_Observation`/`COL_TradeFlow` output will be **rich for ~50 large
    colonies and near-empty for the long tail of small ones** — which is correct
    behaviour, not extraction failure, and the pipeline/validation must not flag it
@@ -176,6 +177,17 @@ Non-negotiable, because they are what makes the current graph trustworthy:
   > 1897 figure as the outlier two ways at once — by **majority vote** (2 agree)
   > and by **internal check** (the components sum to ~580,804, not 670,705).
   > Neither signal exists if you extract the number once and trust it.
+
+  > **Second, independent example (Mauritius, verified).** Mauritius revenue is
+  > reprinted across the 1897/1898/1900 editions. For observation-year **1893** all
+  > three editions agree exactly (Rs. 8,103,922) → unanimous, high confidence. For
+  > **1894** the same figure is OCR'd three different ways — 8,**5**84,427 (1897),
+  > 8,**5**34,427 (1898), 8,**5**54,427 (1900) — drift confined to one digit, so a
+  > robust/median estimate (~8.55M) is trustworthy though no single read is. For
+  > **1895** two editions cluster (~8,27x,622) and the 1900 read (8,529,932) is an
+  > exposed outlier. This corroborates the principle on a *second colony and a
+  > different currency regime* (note the £→Rs. and 4-col→2-col drift across the
+  > same three editions, also illustrating Findings §2.4/§2.6).
 
   Practical implications, threaded through the plan:
   - **Never compute or "repair" a value into the slice layer** (already a
@@ -417,7 +429,7 @@ clustered rule-first then LLM-assisted, then human-approved:
 |---|---|---|
 | **0. Canonicalization** | Format-agnostic normalizer (md/txt → one internal JSON); measure heading/table recall on a labelled sample | `col_canonicalize_reports.py`, `generated/reports_canonical/*.json` |
 | **A. Schema + taxonomy seed** | Freeze labels; sweep ~40 files across eras/regions to seed indicator/commodity/section taxonomies | `guides/colony_report_schema.py`, three `taxonomy/*_taxonomy.json` |
-| **B. Segmenter + pilot** | Build a gold standard deliberately spanning the size×decade matrix — a large colony early & late (Jamaica 1867/1940), a statistics-dense one (Ceylon), a small colony across eras (Falkland 1867/1920), a near-empty real one (1900 Ascension, 134 w), and a degenerate file (1958 Jamaica, empty; or 1940 Falkland, truncated) — so accuracy is measured across the real variation, not just on big colonies | `col_segment_reports.py`, `test_data/report_gold/*` |
+| **B. Segmenter + pilot** | Build a gold standard deliberately spanning the size×decade matrix — a large colony early & late (Jamaica 1867/1940), a statistics-dense one (Ceylon), a small colony across eras (Falkland 1867/1920), a near-empty real one (1900 Ascension, 134 w — pure prose, no tables), and a degenerate file (1958 Jamaica, empty; or 1940 Falkland, truncated) — so accuracy is measured across the real variation, not just on big colonies | `col_segment_reports.py`, `test_data/report_gold/*` |
 | **C. Structured extraction** | Run Track A over the corpus with checkpointing/auto-push (reuse `extraction_corpus.py` patterns) | `col_extract_reports.py`, `generated/reports/*.json` |
 | **D. Normalization + reconciliation** | Cluster/review indicators/commodities/sections; add canonical units/currencies; **cross-edition reconciliation → consensus value, dispersion, agreement-confidence, outlier flags** (Track A step 5) | populated taxonomies, `col_normalize_reports.py`, `col_reconcile_observations.py` |
 | **E. Neo4j load** | Constraints/indexes; load reports, observations, trade flows | `col_load_reports_neo4j.py` |

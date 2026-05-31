@@ -46,6 +46,14 @@ durable contribution and its *specific statistics* as needing audit.
 - "33 single-line blob files" — actually **1** (`1958/barbados.txt`).
 - "Pervasive Australia/state double-representation" — real overlap is **2 years**
   (1908, 1917).
+- **(Audit session, Jamaica/Ceylon excluded)** "1900 Ascension = *Situation /
+  History / Trade ('There is no trade.')*" — **fabricated**. The 1900 Ascension
+  file is a single descriptive paragraph + one staff line, with no section
+  headings and no tables; the phrase "no trade" appears in **no** Ascension
+  edition. The *broader* point (small colonies are narrative-only, no finance/
+  commodity data) is correct for Ascension; the specific quoted structure was not.
+- **(Audit session)** "Dominion of Canada 144–320 pipe rows" — wrong bounds;
+  actual **114–465**. Now corrected in §3 table below.
 
 ### Therefore, for next session
 - Re-derive every number in the plan from the data before relying on it.
@@ -65,9 +73,11 @@ durable contribution and its *specific statistics* as needing audit.
 | Empty `1958/jamaica.txt`; truncated `1917/AUSTRALIA.txt` | **verified** | `wc -w` each |
 | Canada 15,817 w (1879) → 31,304 (1890) vs Jamaica ~5–7k | **verified** | `wc -w` per file |
 | Australia state-files→aggregate handoff, overlap only 1908 & 1917 | **verified** (per-dir loop) | exact-filename existence loop per year |
-| Dominion of Canada 144–320 pipe rows/edition | **verified** | `grep -c ' \| '` per file |
+| Dominion of Canada pipe rows/edition | **CORRECTED**: actual range **114 (1883) – 465 (1889)**, not the previously-stated "144–320" (both bounds were wrong) | `grep -c '\|.*\|'` per DOMINION_OF_CANADA.txt, 1879–1899 |
 | **Cross-edition redundancy** (rolling window; census years recur) | **verified** | `grep -oE '^\| 18..'` across Jamaica editions |
 | **OCR drift example:** 1881 census total 670,705 (ed1897) vs 580,804 (ed1898/1900), components identical | **verified** | `grep -E '^\| 1881' 189{7,8}/JAMAICA.txt` + 1900 |
+| **OCR drift — INDEPENDENT of Jamaica/Ceylon (audit session):** Mauritius revenue across 1897/98/1900 — yr1893 unanimous (Rs.8,103,922), yr1894 one-digit drift (8,**5/3/5**…427), yr1895 1900-ed outlier (8,529,932 vs ~8,27x,622) | **verified** | `grep -E '^\|\s*189[3-6]' 18{97,98}/MAURITIUS.txt 1900/MAURITIUS.txt` |
+| **Rolling-window redundancy — INDEPENDENT (audit session):** Mauritius & Natal editions each republish overlapping multi-year windows (latest year lags edition by ~2 yrs) | **verified** | `grep -oE '^\|\s*(18\|19)[0-9]{2}'` per edition |
 | "50–70% of each file is report content" | **NOT measured** (hedged in plan) | needs a measured narrative-vs-roster line split |
 | Section vocabulary list (Situation/History/Finance/…) | **partially** — from a few large colonies | sample widely incl. small/African/Pacific |
 | Currency/unit variety (£/Rs/HK$, L suffix, etc.) | **observed**, not enumerated | corpus sweep of currency tokens |
