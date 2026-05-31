@@ -228,6 +228,29 @@ Non-negotiable, because they are what makes the current graph trustworthy:
     plot series with uncertainty (or robust/median series), not single values,
     and should be honest that point estimates are unreliable.
 
+- **Discover structure from corpus scale, not from a small gold standard.**
+  The data is too irregular for a 15–20 file hand-labelled sample to *train* on;
+  used that way it overfits, and hand-authored maps (the federation→sub-unit list
+  the boundary detector first used) are brittle and need endless maintenance.
+  Instead, mine the regularities from the **full 2,946-file corpus** and let two
+  scale properties carry the work: (1) **redundancy** — names, sections and
+  figures recur thousands of times, so patterns are *countable*, not guessed;
+  (2) **self-consistency** — cross-edition repetition lets the data check itself
+  (majority vote / component-sum for values; *dominant-host* for structure). A
+  gold standard is then a **ruler (for measuring the result), not a teacher (for
+  deriving it).** `col_mine_corpus_patterns.py` realizes this: with no hand map
+  it derives the federation families (merging the §2.10 name-drift automatically),
+  the floating-appendix set, and the empirical section/indicator vocabularies
+  (frequency-ranked headings & table columns).
+  - *Caveats, kept in view:* scale also amplifies **systematic** errors (a
+    recurring OCR garbling looks like a pattern by frequency alone) — so trust
+    self-consistency, not raw frequency; and the **long tail is real signal**
+    (Finding §2.7), so "rare" must not be auto-pruned as "noise". Also, **misparses
+    contaminate the derived structure** (the British Honduras→Canada misparse makes
+    `british_honduras` look like a Canada parent-variant), so structure discovery
+    and boundary triage are **iterative**: detect misparses → exclude → re-mine;
+    and derived-vs-hand discrepancies are themselves misparse signals, not an
+    automatic override of the boundary detector.
 - **Persistent + slice separation.** Persistent identity nodes (time-invariant)
   vs. slice nodes (one observation, tied to a colony-year). Mirrors
   `Territory/TerritoryYear`, `InstitutionType/InstitutionInstance`,
@@ -488,7 +511,7 @@ clustered rule-first then LLM-assisted, then human-approved:
 | Phase | Work | Output |
 |---|---|---|
 | **0. Canonicalization** | ✅ **Built & validated** (deterministic, no LLM): `col_canonicalize_reports.py` segments every file into typed blocks (prose / table / heading / dot_leader / colony_header), parses ragged pipe tables, detects heading *candidates* + style (md/bold/bare-period/inline-dash/ALL-CAPS), and runs degenerate-file triage. Ran clean over all 2,946 files in ~21s: 90% have ≥1 parsed table block; conservative keyword fallback maps a section slug for 85% of files (residual deferred to the meaning-based normalizer); triage flags 1 empty, 103 very-short, 178 possible-truncation, 23 anomalous-giant misparses (e.g. 1888 Ascension 212k w, 1898 Tristan da Cunha 200k w). Heading→slug *meaning* mapping (the part that needs the model) is stubbed behind `heading_slug_guess`. Still TODO: labelled heading/table recall sample | `col_canonicalize_reports.py` (done), `generated/reports_canonical/*.json` (regenerable: one command) |
-| **A. Schema + taxonomy seed** | Freeze labels; sweep ~40 files across eras/regions to seed indicator/commodity/section taxonomies | `guides/colony_report_schema.py`, three `taxonomy/*_taxonomy.json` |
+| **A. Schema + taxonomy seed** | Freeze labels; **seed taxonomies from the FULL corpus, not a 40-file sample** (`col_mine_corpus_patterns.py`): frequency-ranked headings → section taxonomy, frequency-ranked table columns → indicator taxonomy, co-occurrence → federation families + floating-appendix set. Human review reconciles, the gold set only measures. | `guides/colony_report_schema.py`, three `taxonomy/*_taxonomy.json`, `generated/corpus_patterns.json` (done, v0) |
 | **B. Segmenter + pilot** | Build a gold standard deliberately spanning the size×decade matrix — a large colony early & late (Jamaica 1867/1940), a statistics-dense one (Ceylon), a small colony across eras (Falkland 1867/1920), a near-empty real one (1900 Ascension, 134 w — pure prose, no tables), and a degenerate file (1958 Jamaica, empty; or 1940 Falkland, truncated) — so accuracy is measured across the real variation, not just on big colonies | `col_segment_reports.py`, `test_data/report_gold/*` |
 | **C. Structured extraction** | Run Track A over the corpus with checkpointing/auto-push (reuse `extraction_corpus.py` patterns) | `col_extract_reports.py`, `generated/reports/*.json` |
 | **D. Normalization + reconciliation** | Cluster/review indicators/commodities/sections; add canonical units/currencies; **cross-edition reconciliation → consensus value, dispersion, agreement-confidence, outlier flags** (Track A step 5) | populated taxonomies, `col_normalize_reports.py`, `col_reconcile_observations.py` |

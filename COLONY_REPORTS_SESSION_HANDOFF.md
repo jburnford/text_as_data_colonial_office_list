@@ -228,3 +228,40 @@ These are folded into the plan: new Finding §2.11 + a Phase-0 triage bullet.
   or should it be a hard split? (c) freeze the block schema before bulk-generating.
   (d) `multi_colony_misparse` files: quarantine, or build a splitter that carves
   the misfiled foreign sections into their own canonical docs?
+
+## 9. Methodology pivot: mine patterns from scale, don't train on a gold set
+
+Steer from the user (decisive): the data is too irregular for a small gold
+standard to *train* on — use it only to *validate*. Derive the structure from
+the full corpus. Built `col_mine_corpus_patterns.py` to demonstrate/realize this:
+- **Federation families derived with NO hand map** via co-occurrence + a
+  *dominant-host* rule, merging parent name-drift (FMS/UMS/Straits/Malaya →
+  one family; canada/dominion_of_canada → one). Recovers AND extends the hand
+  map (adds Quebec/Alberta/Saskatchewan to Canada; Ashanti/Togoland to Gold
+  Coast; the HC Territories to South Africa; discovers Gambia/Gold Coast families
+  I never coded).
+- **Floating/appendix set derived** (Misc Islands, Tristan, Ascension, Aden,
+  Other Misc Possessions, Pitcairn…) as the promiscuous hub nodes with no stable
+  parent — the source of the appendix-bleed misparses.
+- **Empirical taxonomies** from frequency-ranked headings (civil establishment,
+  executive/legislative council, education, history, constitution, population,
+  finances, imports/exports, currency and banking…) and table columns (year,
+  revenue, expenditure, total tonnage, from/to u.k., males/females, value…).
+  Output: `generated/corpus_patterns.json`.
+
+Two hard lessons (both are illustrations of the user's caveat that irregularity
+is the crux):
+1. **Naive union-find over-merges** because the floating appendix names are
+   promiscuous hubs that bridge unrelated families (first run collapsed
+   Windward+Pacific+random hosts into one 21-member blob). Fix: use only
+   *discriminative* (low-promiscuity, ≤4 parents) children as merge evidence.
+2. **Misparses contaminate the derived structure** (British Honduras→Canada
+   misparse makes `british_honduras` a spurious Canada parent-variant). So
+   families are a **review seed + cross-check, NOT an auto-override** of the
+   boundary detector (auto-feeding would whitelist the misparse). The clean
+   architecture is iterative: detect misparses → exclude → re-mine.
+
+Minor residual leaks in v0 families (gibraltar↔Gambia/Gold Coast, southern_nigeria
+↔Straits, kenya↔Leeward) from sparse coincidental shared children — to be cleaned
+by a review pass / higher MERGE_MIN_SHARED. `corpus_patterns.json` committed as a
+raw derived artifact for review, not ground truth.
