@@ -87,7 +87,15 @@ corpus-wide counts, shows:
    (`| 1 | 2 | 3 |`), header rows split from data, ragged columns; headings are
    garbled; digits are the least reliable tokens of all
    (`GRAPHRAG_PIPELINE_DESIGN.md`). Numeric extraction needs transcription
-   discipline and confidence flagging, not silent computation.
+   discipline and confidence flagging, not silent computation. **But the corpus is
+   intrinsically redundant, which is the saving grace:** successive editions
+   republish a *rolling window* of prior years and census years recur in every
+   edition — e.g. the 1894–1900 Jamaica volumes each carry ~1888–1895 revenue
+   rows, and 1861/1871/1881 census figures appear in all of them. So most
+   underlying figures are independently re-OCR'd 3–10+ times, enabling
+   majority-vote and component-sum cross-checks (see §3, "trust trends, not
+   points"). This redundancy is what makes trend analysis trustworthy even though
+   no individual datapoint is.
 7. **Enormous variation by colony size — the richness assumption only holds for
    large colonies.** Measured over all 2,946 files, words/file span 0–212,392
    (p10 900, median 4,120, p90 11,350; the few giants are multi-state entries
@@ -149,6 +157,40 @@ corpus-wide counts, shows:
 ## 3. Design principles (inherited from the existing KG)
 
 Non-negotiable, because they are what makes the current graph trustworthy:
+
+- **Treat numbers as noisy observations, not facts — trust trends, not points.**
+  OCR on digits is unreliable enough that **no single extracted figure should be
+  trusted on its own**; the value is in aggregates and trajectories over many
+  redundant reads. This is feasible here because the source is *intrinsically
+  redundant* (see box below): successive editions republish a rolling window of
+  the same years, and census years recur in every edition, so most underlying
+  figures are read 3–10+ times. The data model and downstream use must reflect
+  this: keep every individual read with its provenance and confidence, never
+  silently pick one, and compute trends/consensus rather than relying on any
+  lone datapoint.
+
+  > **Worked example (verified in the corpus).** Jamaica's 1881 census population
+  > row appears in the 1897, 1898, and 1900 editions with components *identical*
+  > (14,433 / 109,946 / 444,186 / 12,240) but the **total** OCR'd as **670,705**
+  > in 1897 vs **580,804** in 1898 and 1900. Three independent reads expose the
+  > 1897 figure as the outlier two ways at once — by **majority vote** (2 agree)
+  > and by **internal check** (the components sum to ~580,804, not 670,705).
+  > Neither signal exists if you extract the number once and trust it.
+
+  Practical implications, threaded through the plan:
+  - **Never compute or "repair" a value into the slice layer** (already a
+    principle below) — but *do* record, separately, the cross-read consensus and
+    the component-sum check as derived, provenance-stamped annotations.
+  - **Store every occurrence.** The same (colony, indicator, observation_year)
+    seen in N editions becomes N `COL_Observation` nodes, each with its
+    `edition_year` and `value_raw`; a later reconciliation step derives a
+    consensus value + dispersion, it does **not** collapse them on ingest.
+  - **Confidence reflects agreement.** A figure corroborated across editions
+    and passing its component-sum check is high-confidence; a lone or
+    disagreeing read is flagged/quarantined.
+  - **Analysis-layer guidance.** Downstream queries and visualizations should
+    plot series with uncertainty (or robust/median series), not single values,
+    and should be honest that point estimates are unreliable.
 
 - **Persistent + slice separation.** Persistent identity nodes (time-invariant)
   vs. slice nodes (one observation, tied to a colony-year). Mirrors
@@ -329,6 +371,20 @@ re-fought in every consumer.
    of printed components when both appear (**flag mismatches, do not
    auto-correct**), magnitude plausibility, and year-over-year continuity against
    neighbouring editions. Anomalies set `quarantined=true`.
+5. **Cross-edition reconciliation (the trust mechanism — separate step, never on
+   ingest).** Because the same (colony, indicator, observation_year) is printed in
+   several editions (§2.6), group the resulting `COL_Observation` nodes by that
+   key and derive — as *new, provenance-stamped* annotations, leaving the raw
+   reads untouched:
+   - a **consensus value** (majority vote across reads; median for continuous
+     quantities) and a **dispersion** measure;
+   - an **agreement-based confidence** (corroborated + component-sum-consistent →
+     high; lone or conflicting → low/quarantined);
+   - an **outlier flag** on reads that disagree with both the consensus and any
+     internal component-sum (the 1881 "670,705 vs 580,804" case, §3).
+   This is what turns individually-untrustworthy OCR figures into trustworthy
+   trends. It belongs in the normalization/analytic layer (Phase D), not the
+   extractor.
 
 ### Track B — Narrative chunking + embedding
 
@@ -363,10 +419,10 @@ clustered rule-first then LLM-assisted, then human-approved:
 | **A. Schema + taxonomy seed** | Freeze labels; sweep ~40 files across eras/regions to seed indicator/commodity/section taxonomies | `guides/colony_report_schema.py`, three `taxonomy/*_taxonomy.json` |
 | **B. Segmenter + pilot** | Build a gold standard deliberately spanning the size×decade matrix — a large colony early & late (Jamaica 1867/1940), a statistics-dense one (Ceylon), a small colony across eras (Falkland 1867/1920), a near-empty real one (1900 Ascension, 134 w), and a degenerate file (1958 Jamaica, empty; or 1940 Falkland, truncated) — so accuracy is measured across the real variation, not just on big colonies | `col_segment_reports.py`, `test_data/report_gold/*` |
 | **C. Structured extraction** | Run Track A over the corpus with checkpointing/auto-push (reuse `extraction_corpus.py` patterns) | `col_extract_reports.py`, `generated/reports/*.json` |
-| **D. Normalization** | Cluster + review indicators/commodities/sections; add canonical units/currencies | populated taxonomies, `col_normalize_reports.py` |
+| **D. Normalization + reconciliation** | Cluster/review indicators/commodities/sections; add canonical units/currencies; **cross-edition reconciliation → consensus value, dispersion, agreement-confidence, outlier flags** (Track A step 5) | populated taxonomies, `col_normalize_reports.py`, `col_reconcile_observations.py` |
 | **E. Neo4j load** | Constraints/indexes; load reports, observations, trade flows | `col_load_reports_neo4j.py` |
 | **F. Narrative embedding** | Track B chunking + embedding (aligns with Stage 5) | `col_embed_reports.py`, `COL_NarrativeChunk` nodes |
-| **G. Validation + viz** | Gold-standard accuracy, panel QA (continuity, totals), demo charts | `col_audit_reports.py`, sample notebooks/HTML |
+| **G. Validation + viz** | Gold-standard accuracy; panel QA (continuity, totals, cross-edition agreement rate); **trend/series charts with uncertainty, not point values** | `col_audit_reports.py`, sample notebooks/HTML |
 | **H. External linking (opt.)** | Commodities → Wikidata; indicators → a standard vocab | Stage-6-style `SAME_AS`/`EXTERNAL_LINK` edges |
 
 Phase 0 should be validated (heading/table recall on a labelled sample) and
