@@ -12,10 +12,11 @@ linking).
 
 So far the pipeline has mined **people** out of the Colonial Office List
 (`COL_PersonRecord → COL_Official → COL_Person`). But each colony entry in every
-volume (1867–1966, ~5,300 colony-year `.txt` files) opens with a
+volume (1867–1966, 2,946 colony-year `.txt` files) opens with a
 **semi-structured annual report** on the colony itself, *before* the staff lists
-begin. By line count this descriptive/statistical material is roughly **50–70% of
-each file** and is currently unextracted.
+begin. By line count this descriptive/statistical material is a large share of
+each file (a substantial fraction sampled at ~½, though this is an eyeball
+estimate, not a measured corpus statistic) and is currently unextracted.
 
 This is a century-long, ~50-colony **panel dataset** of public finance, trade,
 population, area, shipping, communications, and production — plus rich narrative
@@ -58,16 +59,22 @@ corpus-wide counts, shows:
    Mauritius) vs HK$ (Hong Kong); a trailing `L`/`l.` for pounds; area in square
    miles; crops in tons / cwt / lbs / stems / acres. Currency regimes also change
    mid-century for a colony.
-5. **The files are an inconsistent md/txt mix — the dominant *practical*
-   problem.** The upstream OCR/parsing step emitted Markdown for some
-   files/sections and plain text for others, with no consistency. Measured over
-   5,325 parsed files: ~98% contain at least one pipe row, but only **31% have
-   proper `|---|` table separators**, **28% have `*bold*` titles**, **18% have
-   `###` headings** — and some volumes (e.g. parts of 1960) have none of these
-   markers at all. The *same colony* swings between conventions year to year.
-   **A regex keyed on any single marker (`###`, `|---|`, bare `Heading.`) covers
-   at most ~⅓ of the corpus and silently drops the rest.** Hard-coded parsing
-   will fail; structure detection must be model-based and format-agnostic.
+5. **Inconsistent Markdown formatting inside the `.txt` files — a residue of an
+   upstream md/txt mix, and the dominant *practical* problem for *headings*.**
+   The parsing that produced these files applied Markdown unevenly. Measured over
+   all **2,946** parsed colony files:
+   - **tables are fairly consistent:** 90% of files contain ≥1 pipe row and
+     **90% contain a proper `|---|` separator** — so most numeric tables *are*
+     well-delimited Markdown and are reliably machine-detectable.
+   - **headings are not:** **52% use `*bold*` titles, 28% use `###` headings**,
+     and the remainder use a bare `Heading.` line or ALL-CAPS (`FINANCES.`).
+     The *same colony* swings between these conventions year to year, and the
+     same section appears as `FINANCES.`, `Finances.`, `### Finances`, `Finance.`,
+     `## Finances`, …
+   So the honest split is: **table *detection* can lean on regex/deterministic
+   parsing (≈90% well-formed), but heading/section detection cannot** — no single
+   marker identifies sections corpus-wide. Section segmentation must be
+   meaning-based (model/fuzzy), even though table parsing need not be.
 6. **OCR is noisy on structure and digits.** Tables have placeholder headers
    (`| 1 | 2 | 3 |`), header rows split from data, ragged columns; headings are
    garbled; digits are the least reliable tokens of all
@@ -124,7 +131,10 @@ Properties carry normalization metadata: `IndicatorType` →
   `indicator_slug`, `value_raw` (string as printed), `value_num` (parsed
   float|null), `unit_raw`, `currency_raw`, **`observation_year_start/end`** (the
   period the figure describes; e.g. row "1896-7" → 1896/1897), `edition_year`,
-  `colony`, `source_span`, `confidence`, `quarantined`.
+  `colony`, `source_span`, `confidence`, `quarantined`. The temporal info lives
+  in these **properties**; an observation always attaches to its
+  `COL_ColonyReport` (which always exists), *not* to a year-slice that may not
+  (see §4.3).
 - **`COL_TradeFlow`** — a commodity-level import/export line. Properties:
   `direction` (import/export), `commodity_slug`, `quantity_raw`, `quantity_num`,
   `quantity_unit`, `value_raw`, `value_num`, `currency_raw`,
@@ -138,20 +148,33 @@ Properties carry normalization metadata: `IndicatorType` →
 ### 4.3 Relationships
 
 ```
-(COL_ColonyReport)-[:REPORT_FOR]->(COL_TerritoryYear)
+(COL_ColonyReport)-[:REPORT_FOR]->(COL_TerritoryYear)        // edition year — always exists
 (COL_Observation)-[:MEASURES]->(COL_IndicatorType)
-(COL_Observation)-[:REPORTED_IN]->(COL_ColonyReport)
-(COL_Observation)-[:OBSERVED_FOR]->(COL_TerritoryYear)   // by observation_year, not edition
+(COL_Observation)-[:REPORTED_IN]->(COL_ColonyReport)         // primary attachment, always present
+(COL_Observation)-[:OBSERVED_FOR]->(COL_TerritoryYear)       // OPTIONAL: only if a slice exists for that obs. year
 (COL_TradeFlow)-[:OF_COMMODITY]->(COL_CommodityType)
 (COL_TradeFlow)-[:REPORTED_IN]->(COL_ColonyReport)
 (COL_NarrativeChunk)-[:DESCRIBES]->(COL_TerritoryYear)
 (COL_NarrativeChunk)-[:OF_SECTION]->(COL_ReportSectionType)
 ```
 
-Because `COL_TerritoryYear-[:INSTANCE_OF]->COL_Territory` and the `CONTINUES_AS`
-temporal chain already exist, longitudinal series fall out for free: collect
-`COL_Observation` across a `Territory`'s year-slices, order by `observation_year`.
-That field is what makes the panel correct rather than off-by-several-years.
+**Why observations attach to the report, not to an observation-year slice.**
+`COL_TerritoryYear` nodes exist only for the ~69 *edition* years (1862, 1867,
+1877, …). But reports cite figures for **non-edition years** — e.g. 1867
+Jamaica's revenue table lists 1856, 1859, 1860, none of which has a slice. So an
+`OBSERVED_FOR` edge keyed on observation year would be unattachable for a large
+fraction of observations. The fix: every observation attaches to its
+`COL_ColonyReport` (which exists by construction) and carries
+`observation_year_start/end` as **properties**; `OBSERVED_FOR` is created only
+opportunistically when a matching slice happens to exist (e.g. for
+cross-referencing personnel in that same year).
+
+Longitudinal series are therefore built from the **property**, not from
+year-slices: gather a `Territory`'s observations via its `COL_ColonyReport`s and
+order by `observation_year_start`. (Optionally, de-duplicate the overlap where
+successive editions republish the same year's figure — keep the earliest-printed
+or highest-confidence copy.) That property is what makes the panel correct rather
+than off-by-several-years.
 
 ### 4.4 Constraints / indexes (Neo4j)
 
@@ -163,39 +186,45 @@ CREATE CONSTRAINT col_report_uri     IF NOT EXISTS FOR (r:COL_ColonyReport)     
 CREATE CONSTRAINT col_obs_uri        IF NOT EXISTS FOR (o:COL_Observation)       REQUIRE o.uri IS UNIQUE;
 CREATE CONSTRAINT col_trade_uri      IF NOT EXISTS FOR (t:COL_TradeFlow)         REQUIRE t.uri IS UNIQUE;
 CREATE INDEX col_obs_ind_year        IF NOT EXISTS FOR (o:COL_Observation)       ON (o.indicator_slug, o.observation_year_start);
-CREATE INDEX col_obs_colony          IF NOT EXISTS FOR (o:COL_Observation)       ON (o.colony);
+CREATE INDEX col_obs_colony_year     IF NOT EXISTS FOR (o:COL_Observation)       ON (o.colony, o.observation_year_start);
 ```
 
 ---
 
-## 5. Extraction approach — format-agnostic, LLM-first
+## 5. Extraction approach — deterministic where reliable, model where not
 
-The corpus is too inconsistent (Finding §2.5) for a parser that keys on Markdown
-markers or fixed layouts. The approach is therefore **structure-detection by
-model, not by regex**, with cheap deterministic steps used only where they are
-reliable, and regex used only as a *recall booster/cross-check*, never as the
-primary extractor.
+Finding §2.5 dictates a split, not a blanket choice: **table structure is ~90%
+well-formed Markdown** (so deterministic parsing earns its keep on the bulk of
+the numeric data), while **heading/section detection is heterogeneous** (so it
+must be meaning-based). The LLM also carries the genuinely hard cases:
+OCR-broken table fragments and figures embedded in prose. Net: use cheap
+deterministic parsing where the data is regular, the model where it is not, and
+regex never as the *sole* owner of a numeric extraction.
 
 Backends reuse the existing stack: local **Ollama gpt-oss:120b** primary;
 **OpenRouter**/**Gemini** and **instructor + pydantic** for validation/fallback;
 plus the project's code-generation review option.
 
-### Phase 0 — Source canonicalization (new, addresses the md/txt mix)
+### Phase 0 — Source canonicalization (new, addresses heading heterogeneity)
 
 Before extraction, run a light **normalizer that maps every file into one
 internal representation** regardless of whether it arrived as Markdown or plain
 text. This is the single highest-leverage step:
 
 - Detect headings by *meaning* (fuzzy match against the section taxonomy),
-  whether they appear as `### Finances`, `**Trade**`, `Trade.`, or `TRADE`.
-- Detect table-ish regions structurally (lines of mostly digits/separators,
-  pipe-aligned or whitespace-aligned) rather than by requiring `|---|`.
+  whether they appear as `### Finances`, `**Trade**`, `Trade.`, or `TRADE`. This
+  is the part that genuinely *needs* the model, since no single marker works
+  corpus-wide (Finding §2.5).
+- Detect tables: the ~90% with `|---|` parse deterministically; for the rest,
+  fall back to structural detection (lines of mostly digits/separators, pipe- or
+  whitespace-aligned).
 - Emit a uniform JSON: `{section, kind: prose|table|mixed, raw_text, table_cells?}`.
 - Keep a back-pointer (`source_span`) to the original file for audit.
 
-This converts "5,325 files in N formats" into "5,325 files in one format," so the
-downstream extractor sees consistent input and the **md/txt heterogeneity is
-solved once, centrally**, instead of being re-fought in every regex.
+This converts "2,946 files with inconsistent heading markup" into "2,946 files in
+one internal format," so the downstream extractor sees consistent input and the
+**heading heterogeneity is normalized once, centrally**, instead of being
+re-fought in every consumer.
 
 > Note: this also retroactively fixes a known pipeline gap — earlier extraction
 > skipped `.md` source files entirely; canonicalization removes that class of bug
@@ -203,15 +232,20 @@ solved once, centrally**, instead of being re-fought in every regex.
 
 ### Track A — Structured statistics (the hard, high-value part)
 
-1. **Segment** each entry into section blocks using the Phase-0 canonical form
-   (no raw-format regex), tagging each block with a `COL_ReportSectionType`.
-2. **Extract with the LLM + pydantic schema** (`ColonyReportExtraction`) over
-   each block, handling prose and table cells uniformly. The model reads
-   *"The revenue and expenditure for the financial year 1928-29 were £2,663,924
-   and £2,659,895 respectively"* (or the equivalent table row) and emits two
-   `COL_Observation` records with `observation_year_start=1928,
-   observation_year_end=1929`. Prompt rules, encoded tersely (gpt-oss responds
-   better to rules than examples):
+1. **Segment** each entry into section blocks using the Phase-0 canonical form,
+   tagging each block with a `COL_ReportSectionType`.
+2. **Well-formed tables (~90%): parse deterministically, LLM labels columns.**
+   Read cells directly, capture each cell's `value_raw`, parse `value_num` +
+   `currency_raw`, and pull the period per row into `observation_year_start/end`.
+   The LLM's job here is *only* to map column headers → `indicator_slug` and
+   confirm units — it does not re-transcribe digits it might hallucinate. This is
+   the cheapest, highest-precision path and covers the bulk of the numeric data.
+3. **Prose figures and broken tables: LLM + pydantic schema**
+   (`ColonyReportExtraction`). The model reads *"The revenue and expenditure for
+   the financial year 1928-29 were £2,663,924 and £2,659,895 respectively"* (or a
+   mangled table fragment) and emits two `COL_Observation` records with
+   `observation_year_start=1928, observation_year_end=1929`. Prompt rules,
+   encoded tersely (gpt-oss responds better to rules than examples):
    - *Transcribe digits exactly; never add, sum, round, or convert.*
    - *Extract the period each figure describes from the surrounding sentence/row.*
    - *Record `unit_raw`/`currency_raw` exactly as written (`£`, trailing `L`,
@@ -219,10 +253,6 @@ solved once, centrally**, instead of being re-fought in every regex.
    - *Keep `value_raw` as the verbatim substring and a `source_span` offset so
      every number is auditable back to the page.*
    - *If illegible/ambiguous, emit with `confidence<0.5` rather than guessing.*
-3. **Regex only as a recall cross-check.** A few high-precision patterns
-   (currency-prefixed number near a year) run alongside the LLM purely to flag
-   figures the model may have missed — discrepancies are surfaced for review, not
-   trusted blindly. Regex never owns an extraction.
 4. **Verify numerics (cheap, deterministic):** cross-check stated total vs. sum
    of printed components when both appear (**flag mismatches, do not
    auto-correct**), magnitude plausibility, and year-over-year continuity against
@@ -274,9 +304,9 @@ Phases A→B reviewed, with the schema frozen, before C runs at corpus scale.
 
 ## 8. Risks & mitigations
 
-- **Inconsistent md/txt formatting (the headline risk)** → Phase-0
-  canonicalization solves it once, centrally; model-based structure detection;
-  regex only as a cross-check, never primary.
+- **Inconsistent heading markup (the headline *heading* risk)** → Phase-0
+  canonicalization normalizes headings once, centrally, via meaning-based
+  detection. (Tables are mostly well-formed and are *not* the headline risk.)
 - **OCR digit/table errors** → raw + parsed values, confidence scores,
   quarantine, cross-edition continuity checks; never auto-compute.
 - **observation-year vs edition-year confusion** → first-class
@@ -297,11 +327,12 @@ Phases A→B reviewed, with the schema frozen, before C runs at corpus scale.
 ## 9. Teaching value (this is also a course project)
 
 The colony-report track is a strong HIST 496 extension: the *same* document
-yields a second, quantitatively different extraction problem (noisy, multi-format
-tables vs. clean rosters). Students see firsthand why upstream format
-inconsistency defeats regex and motivates a canonicalization step, practice
-schema design for panel data, and confront the observation-year subtlety and
-OCR-confidence trade-offs. The Phase-B gold standard can double as a lab.
+yields a second, quantitatively different extraction problem (statistics in
+mostly-clean tables plus prose, under inconsistent headings, vs. clean personnel
+rosters). Students see firsthand why inconsistent heading markup defeats naive
+regex and motivates a canonicalization step, practice schema design for panel
+data, and confront the observation-year subtlety (figures predating any edition!)
+and OCR-confidence trade-offs. The Phase-B gold standard can double as a lab.
 
 ---
 
