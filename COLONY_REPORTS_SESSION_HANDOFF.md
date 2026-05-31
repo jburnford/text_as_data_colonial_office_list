@@ -265,3 +265,34 @@ Minor residual leaks in v0 families (gibraltar↔Gambia/Gold Coast, southern_nig
 ↔Straits, kenya↔Leeward) from sparse coincidental shared children — to be cleaned
 by a review pass / higher MERGE_MIN_SHARED. `corpus_patterns.json` committed as a
 raw derived artifact for review, not ground truth.
+
+### Iterative decontamination loop (added)
+
+`col_mine_corpus_patterns.py` now runs a **detect → exclude → re-mine** loop:
+- Seed the exclusion set from the validated hand-map boundary detector (23 files:
+  `multi_colony_misparse` ∪ `volume_dump`), **exclude before mining** so misfiled
+  content can't pollute families — this breaks the contamination chicken-and-egg.
+- Re-mine, then re-detect misparses using the DERIVED families, iterate until the
+  exclude set stabilizes (converges in 1 round).
+- Result: the misparse contamination is removed — `british_honduras` is no longer
+  a spurious Canada parent-variant; `saskatchewan` (whose only header-evidence was
+  the British Honduras→Canada misparse) drops from the derived family.
+
+**Key finding — derivation is fragile where the corpus is thin.** The loop first
+false-flagged `UNFEDERATED_MALAY_STATES` as a misparse: it's a sparse federation
+(few editions), so when neighbours were excluded it fell below the merge threshold
+and its own member states looked foreign. Pure scale can't confirm what curated
+knowledge knows when the evidence is sparse. Fix = **reconcile, don't replace**:
+a header is allowed if EITHER the derived family OR the curated hand-seed permits
+it (union). The miner now emits `reconciled_families` (derived ∪ curated) as the
+recommended authoritative map — derived supplies well-evidenced extensions
+(Quebec/Alberta, Ashanti/Togoland, the HC Territories), curated supplies
+sparse-but-true facts (Saskatchewan, Newfoundland, the UMS). 14 families, complete
+and far beyond the original hand map; residual artifacts (the `aden` pseudo-family
+is really St Helena's dependencies; a gibraltar leak) are left for human review —
+the place curation beats threshold-tuning given the data's irregularity.
+
+**Takeaway for the methodology:** scale-derivation and curated knowledge are
+COMPLEMENTARY, not competing. Derive where evidence is dense; lean on curation in
+the long tail; reconcile by union; use the gold/review pass to adjudicate the
+handful of genuinely ambiguous cases — not to train rules.

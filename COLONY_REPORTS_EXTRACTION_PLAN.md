@@ -248,9 +248,17 @@ Non-negotiable, because they are what makes the current graph trustworthy:
     (Finding §2.7), so "rare" must not be auto-pruned as "noise". Also, **misparses
     contaminate the derived structure** (the British Honduras→Canada misparse makes
     `british_honduras` look like a Canada parent-variant), so structure discovery
-    and boundary triage are **iterative**: detect misparses → exclude → re-mine;
-    and derived-vs-hand discrepancies are themselves misparse signals, not an
-    automatic override of the boundary detector.
+    and boundary triage are **iterative**: detect misparses → exclude → re-mine
+    (implemented; converges in 1 round, removes the British Honduras→Canada
+    contamination); and derived-vs-hand discrepancies are themselves misparse
+    signals, not an automatic override of the boundary detector.
+  - *Reconcile, don't replace.* Derivation is fragile where the corpus is thin
+    (rare federations like the Unfederated Malay States have too few editions to
+    confirm), so the authoritative family map is the **union of derived +
+    curated**: derived supplies well-evidenced extensions, curation supplies
+    sparse-but-true facts (Saskatchewan, Newfoundland, UMS). Scale-derivation and
+    curated knowledge are complementary, not competing — and the gold/review pass
+    adjudicates the few genuinely ambiguous cases rather than training rules.
 - **Persistent + slice separation.** Persistent identity nodes (time-invariant)
   vs. slice nodes (one observation, tied to a colony-year). Mirrors
   `Territory/TerritoryYear`, `InstitutionType/InstitutionInstance`,

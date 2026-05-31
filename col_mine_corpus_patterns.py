@@ -64,6 +64,11 @@ FLOAT_MIN_FAMILIES = 3    # nests under >= this many distinct families => floati
 # Such children are excluded as MERGE EVIDENCE, because otherwise the appendix
 # bridges unrelated families and union-find collapses them into one blob.
 HUB_PARENT_LIMIT = 4
+# In the iterative loop, a non-excluded file with at least this many foreign
+# colony headers OUTSIDE its own derived family is judged a misparse and excluded
+# before the next mining round (family-aware, so no size corroboration needed).
+MISPARSE_UNRELATED = 4
+MAX_ROUNDS = 6
 
 RE_CAPS_NAME = re.compile(r"^[A-Z][A-Z][A-Z .,&'/-]{2,30}$")
 
@@ -72,11 +77,17 @@ def _norm(s):
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
 
-def scan_nestings(files, root, gazetteer):
-    """token -> Counter(host_colony -> n_files_nested_in). Also returns the set
-    of real colony slugs (those that own at least one file)."""
+def scan_nestings(files, root, gazetteer, exclude=frozenset()):
+    """Scan once. Returns:
+      nest_hosts: token -> Counter(host_colony -> n_files_nested_in)
+      real:       set of colony slugs that own at least one file
+      file_foreign: relpath -> set(foreign colony-name tokens it contains)
+    Files in `exclude` (detected misparses/dumps) are skipped as nesting hosts,
+    so their misfiled foreign content cannot pollute the derived families.
+    """
     nest_hosts = defaultdict(Counter)
     real = set()
+    file_foreign = {}
     for f in files:
         self_slug = _norm(Path(f).stem.split(".")[0])
         real.add(self_slug)
@@ -89,8 +100,10 @@ def scan_nestings(files, root, gazetteer):
                 nm = _norm(s)
                 if nm in gazetteer and nm != self_slug and nm not in seen:
                     seen.add(nm)
-                    nest_hosts[nm][self_slug] += 1
-    return nest_hosts, real
+                    if f not in exclude:
+                        nest_hosts[nm][self_slug] += 1
+        file_foreign[f] = seen
+    return nest_hosts, real, file_foreign
 
 
 def merge_parents_into_families(nest_hosts):
@@ -179,6 +192,81 @@ def classify(nest_hosts, parent_to_family):
     return families, floating, regional
 
 
+def mine_families(nest_hosts):
+    """merge parents across name-drift, classify tokens, keep real families."""
+    parent_to_family, family_members, _ = merge_parents_into_families(nest_hosts)
+    families, floating, regional = classify(nest_hosts, parent_to_family)
+    families = {p: sorted(s) for p, s in families.items() if len(s) >= 2}
+    return families, family_members, floating, regional
+
+
+def build_allowed(families, family_members):
+    """slug -> the set of names that legitimately co-occur with it (its family's
+    sub-units + the family's parent name-variants + itself)."""
+    slug_allowed = {}
+    for canonical, subs in families.items():
+        members = set(subs) | set(family_members.get(canonical, {canonical})) | {canonical}
+        for m in members:
+            slug_allowed[m] = members
+    return slug_allowed
+
+
+def hand_allowed(self_slug):
+    """Curated-knowledge fallback (the hand-seed federation map in the
+    canonicalizer), resolved by longest-substring key like the boundary detector.
+    Reconciled WITH the derived families because where the corpus is sparse (rare
+    federations like the Unfederated Malay States, few editions) derivation is
+    fragile and the curated knowledge is more reliable: a header is allowed if
+    EITHER source permits it."""
+    fed_key = max((k for k in canon.SUB_UNITS if k in self_slug), key=len,
+                  default=self_slug if self_slug in canon.SUB_UNITS else None)
+    allowed = set(canon.SUB_UNITS.get(fed_key, set()))
+    allowed.add(self_slug)
+    return allowed
+
+
+def seed_misparse_exclude(files, root, gazetteer):
+    """Round-0 seed: the already-validated hand-map boundary detector. This is
+    scaffolding the derived structure then surpasses — using it only to bootstrap
+    the exclusion set so misfiled content can't pollute the first mining round."""
+    docs = [canon.process_file(f, root, gazetteer) for f in files]
+    canon.apply_corpus_triage(docs)
+    return {d["source_file"] for d in docs
+            if "multi_colony_misparse" in d["profile"]["flags"]
+            or "volume_dump" in d["profile"]["flags"]}
+
+
+def iterative_decontaminate(files, root, gazetteer, seed_exclude):
+    """Detect -> exclude -> re-mine until the exclude set stabilizes. After the
+    seed round, misparse detection uses the DERIVED families (not the hand map),
+    so it catches concatenations the hand map missed while the seeded exclusions
+    keep the families clean (breaking the contamination chicken-and-egg)."""
+    exclude = set(seed_exclude)
+    history = [("seed", len(exclude))]
+    families = family_members = floating = regional = None
+    for rnd in range(1, MAX_ROUNDS + 1):
+        nest_hosts, _, file_foreign = scan_nestings(files, root, gazetteer, exclude)
+        families, family_members, floating, regional = mine_families(nest_hosts)
+        slug_allowed = build_allowed(families, family_members)
+        new_exclude = set(exclude)
+        for f in files:
+            if f in new_exclude:
+                continue
+            self_slug = _norm(Path(f).stem.split(".")[0])
+            # Reconcile derived families with the curated hand-seed (union): trust
+            # whichever source recognizes the nesting, so sparse-evidence
+            # federations aren't mistaken for misparses.
+            allowed = slug_allowed.get(self_slug, {self_slug}) | hand_allowed(self_slug)
+            unrelated = file_foreign[f] - allowed
+            if len(unrelated) >= MISPARSE_UNRELATED:
+                new_exclude.add(f)
+        history.append((f"round {rnd}", len(new_exclude)))
+        if new_exclude == exclude:
+            break
+        exclude = new_exclude
+    return exclude, families, family_members, floating, regional, history
+
+
 def mine_headings(root, gazetteer):
     """Frequency-rank heading candidates and table column headers across the
     corpus (Phase-A taxonomy seed, at scale)."""
@@ -213,12 +301,33 @@ def main():
     files = canon.list_corpus_files(root)
     gazetteer = canon.build_gazetteer(files)
 
-    nest_hosts, real = scan_nestings(files, root, gazetteer)
-    parent_to_family, family_members, children_of = merge_parents_into_families(nest_hosts)
-    families, floating, regional = classify(nest_hosts, parent_to_family)
+    # Before: mine with NO decontamination (shows the misparse contamination).
+    nest0, _, _ = scan_nestings(files, root, gazetteer)
+    fam0, fammem0, _, _ = mine_families(nest0)
 
-    # keep only families with >= 2 sub-units (a real federation)
-    families = {p: sorted(s) for p, s in families.items() if len(s) >= 2}
+    # Iterative detect -> exclude -> re-mine.
+    seed = seed_misparse_exclude(files, root, gazetteer)
+    exclude, families, family_members, floating, regional, history = \
+        iterative_decontaminate(files, root, gazetteer, seed)
+
+    print("=== iterative decontamination (detect -> exclude -> re-mine) ===")
+    for label, n in history:
+        print(f"   {label:10s} excluded files: {n}")
+    print(f"   converged: {len(exclude)} misparse/dump files excluded from mining")
+    newly_caught = sorted(exclude - seed)
+    if newly_caught:
+        print(f"   caught by DERIVED families but missed by the hand-map seed ({len(newly_caught)}):")
+        for f in newly_caught:
+            print(f"      {f}")
+    # Show the contamination that was removed.
+    contaminated = {p: sorted(set(fam0.get(p, [])) - set(families.get(p, [])))
+                    for p in fam0}
+    contaminated = {p: v for p, v in contaminated.items() if v}
+    if contaminated:
+        print("   misparse-induced family members REMOVED by decontamination:")
+        for p, v in contaminated.items():
+            print(f"      {p}: {v}")
+    print()
 
     print("=== DERIVED federation families (parents merged across name drift) ===")
     for parent in sorted(families, key=lambda p: -len(families[p])):
@@ -238,12 +347,38 @@ def main():
     for txt, n in column_freq.most_common(args.top):
         print(f"  {n:6d}  {txt}")
 
+    # Reconciled (authoritative) map = derived UNION curated hand-seed. Derived
+    # supplies well-evidenced extensions; curated supplies sparse-but-true facts
+    # (Saskatchewan, UMS) the corpus is too thin to confirm on its own.
+    reconciled = {ck: set(subs) for ck, subs in families.items()}
+    for hk, hsubs in canon.SUB_UNITS.items():
+        if len(hsubs) < 2:
+            continue
+        # Merge into a derived family only on a substring key match or >= 2 shared
+        # members; a single shared island (e.g. Tobago) must NOT fuse Windward
+        # into Trinidad & Tobago.
+        match = next((ck for ck in reconciled
+                      if ck in hk or hk in ck or len(reconciled[ck] & hsubs) >= 2), None)
+        if match:
+            reconciled[match] |= hsubs
+        else:
+            reconciled[hk] = set(hsubs)
+    reconciled = {k: sorted(v) for k, v in reconciled.items()}
+
     if not args.stats:
         out = {
             "pipeline_version": PIPELINE_VERSION,
             "date_created": date.today().isoformat(),
             "thresholds": {"MIN_NESTINGS": MIN_NESTINGS, "MERGE_MIN_SHARED": MERGE_MIN_SHARED,
-                           "FAMILY_SHARE": FAMILY_SHARE, "FLOAT_MIN_FAMILIES": FLOAT_MIN_FAMILIES},
+                           "FAMILY_SHARE": FAMILY_SHARE, "FLOAT_MIN_FAMILIES": FLOAT_MIN_FAMILIES,
+                           "HUB_PARENT_LIMIT": HUB_PARENT_LIMIT,
+                           "MISPARSE_UNRELATED": MISPARSE_UNRELATED},
+            "decontamination": {
+                "history": [{"stage": s, "excluded": n} for s, n in history],
+                "excluded_misparse_files": sorted(exclude),
+                "family_members_removed_as_contamination": contaminated,
+            },
+            "reconciled_families": reconciled,
             "families": families,
             "family_parent_variants": {p: sorted(v) for p, v in family_members.items()
                                        if p in families},
