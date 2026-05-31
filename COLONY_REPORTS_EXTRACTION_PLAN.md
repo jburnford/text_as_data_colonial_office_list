@@ -92,9 +92,12 @@ corpus-wide counts, shows:
    large colonies.** Measured over all 2,946 files, words/file span 0–212,392
    (p10 900, median 4,120, p90 11,350; the few giants are multi-state entries
    like AUSTRALIA at ~85k and an anomalous 1888 ASCENSION). Crucially,
-   **statistical density scales with size**: files <800 words have a *median of 0*
-   pipe-table rows, while files >5,000 words have a *median of 72*. Small colonies
-   are qualitatively different,
+   **statistical density scales with size as a tendency, not a law**: files <800
+   words have a *median of 0* pipe-table rows, while files >5,000 words have a
+   *median of 72* — but the federation mega-entries are table-rich
+   (Dominion of Canada has 144–320 pipe rows per edition), so size predicts
+   *volume* of data, not its structuredness, reliably. Small colonies are
+   qualitatively different,
    not just shorter — 1900 Ascension's entire report is *Situation / History /
    Trade ("There is no trade.")* with no finance, population, or commodity data.
    So `COL_Observation`/`COL_TradeFlow` output will be **rich for ~50 large
@@ -117,6 +120,29 @@ corpus-wide counts, shows:
    (`JAMAICA.txt` vs `jamaica.txt`). All of this must be detected and quarantined
    up front — and crucially **distinguished from genuinely small colonies** — or
    broken files will be silently scored as "colonies with no data."
+10. **Federations are a distinct mega-entry regime with a self-cross-cutting
+    representation that must be reconciled.** The dominions dwarf ordinary
+    colonies and are handled inconsistently across the run:
+    - **Scale (verified):** *Dominion of Canada* runs 15,817 w (1879) → 31,304 w
+      (1890), against a contemporaneous Jamaica of ~5,100–7,000 w — i.e. 3–6× a
+      large ordinary colony. The Commonwealth `AUSTRALIA.txt` reaches ~85k w
+      (1920). So a single "colony report" can be an order of magnitude larger and
+      internally nests many sub-units (states/provinces).
+    - **Representation switches over time, with brief overlap.** Australia's
+      states appear as their *own* files (`NEW_SOUTH_WALES.txt`, `VICTORIA.txt`, …)
+      from 1867 up to ~1906, then a single aggregate `AUSTRALIA.txt` takes over
+      from 1908 onward — but the two coexist in **1908 and 1917** (both the
+      aggregate *and* a `NEW_SOUTH_WALES.txt` exist those years). Canada appears
+      as `canada.txt` (1867) then `dominion_of_canada.txt` (1879–1899) and drops
+      out thereafter as it gained autonomy.
+    - **Consequences for extraction:** (a) reconcile entity-name drift
+      (`canada`↔`dominion_of_canada`; states↔`AUSTRALIA`) onto stable
+      `COL_Territory`/sub-territory identities; (b) in the overlap years,
+      de-duplicate state figures that appear in both the aggregate and the
+      own-file; (c) segment the aggregate's nested per-state/province sections and
+      stamp each observation with the correct sub-unit, not just "Australia".
+    (These are *measured* facts from the file inventory, not assumptions — the
+    exact-year coexistence was checked per directory.)
 
 ---
 
@@ -362,9 +388,12 @@ Phases A→B reviewed, with the schema frozen, before C runs at corpus scale.
 - **Format drift across a century** → era-aware prompts; extend the regional
   `guides/*` (which already encode colony-specific patterns) with report-format
   notes.
-- **Federations / sub-colony tables** (Leeward/Windward, Straits, Canada) → reuse
-  existing federation handling; attach observations to the correct member
-  `TerritoryYear`.
+- **Federations / mega-entries (Finding §2.10)** (Canada, Australia,
+  Leeward/Windward, Straits) → decompose the aggregate into per-state/province
+  blocks and stamp each observation with the sub-unit; in the 1908/1917 overlap
+  years de-duplicate state figures present in both aggregate and own-file;
+  reconcile name drift (`canada`↔`dominion_of_canada`, states↔`AUSTRALIA`) to
+  stable `COL_Territory` identities.
 - **Scope creep** → Track A priorities are finance/trade/population/area/shipping;
   deep tables (detailed education/medical breakdowns) are a later pass.
 - **Mistaking sparse small-colony output for failure (Finding §2.7–2.9)** →
