@@ -18,13 +18,21 @@ begin. By line count this descriptive/statistical material is a large share of
 each file (a substantial fraction sampled at ~½, though this is an eyeball
 estimate, not a measured corpus statistic) and is currently unextracted.
 
-This is a century-long, ~50-colony **panel dataset** of public finance, trade,
-population, area, shipping, communications, and production — plus rich narrative
-on geography, history, and constitution. Extracting it turns the KG from a
-prosopography into a quantitative + textual atlas of the empire, enabling queries
-the personnel graph cannot answer (e.g. "plot Ceylon revenue vs. number of
-officials, 1870–1950", "which colonies' export base was >80% one commodity",
-"retrieve the constitutional history of Natal").
+This is a century-long **panel dataset** of public finance, trade, population,
+area, shipping, communications, and production — plus rich narrative on geography,
+history, and constitution. Extracting it turns the KG from a prosopography into a
+quantitative + textual atlas of the empire, enabling queries the personnel graph
+cannot answer (e.g. "plot Ceylon revenue vs. number of officials, 1870–1950",
+"which colonies' export base was >80% one commodity", "retrieve the
+constitutional history of Natal").
+
+**Caveat on density (see Finding §2.7):** the quantitative payoff is concentrated
+in the ~50 large colonies (Ceylon, Jamaica, the Australasian colonies, India-
+adjacent territories, etc.). Most of the long tail of small colonies and most
+pre-1900 editions are narrative-dominant with few or no statistics, so the
+"panel" is dense for big colonies and sparse-to-empty for small ones. The
+narrative track (Track B) is the universally valuable output; the statistical
+track (Track A) is high-value but unevenly populated.
 
 ---
 
@@ -80,6 +88,29 @@ corpus-wide counts, shows:
    garbled; digits are the least reliable tokens of all
    (`GRAPHRAG_PIPELINE_DESIGN.md`). Numeric extraction needs transcription
    discipline and confidence flagging, not silent computation.
+7. **Enormous variation by colony size — the richness assumption only holds for
+   large colonies.** Measured over all 2,946 files, words/file range 0–21,528
+   (p10 520, median 2,095, p90 7,060). Crucially, **statistical density scales
+   with size**: files <800 words have a *median of 0* pipe-table rows, while files
+   >5,000 words have a *median of 91*. Small colonies are qualitatively different,
+   not just shorter — 1900 Ascension's entire report is *Situation / History /
+   Trade ("There is no trade.")* with no finance, population, or commodity data.
+   So `COL_Observation`/`COL_TradeFlow` output will be **rich for ~50 large
+   colonies and near-empty for the long tail of small ones** — which is correct
+   behaviour, not extraction failure, and the pipeline/validation must not flag it
+   as such.
+8. **Size and decade interact.** A colony's report grows (or shrinks) over time:
+   Falkland goes 940 words / 0 tables (1867) → 5,736 words / 30 tables (1960),
+   acquiring tabular statistics only in later editions; Jamaica peaks ~1920 then
+   contracts. Era-only or size-only assumptions both fail; expectations must be
+   set per (colony, year), seeded from the file's own size/table profile.
+9. **A long tail of degenerate/broken files needs triage before extraction.**
+   2 files are empty; 17 are <150 words; a confirmed truncated parse exists
+   (1898 `JAMAICA.txt` is a 57-word fragment although Jamaica is ~10,000 words in
+   every neighbouring edition); and some filenames are OCR-garbled
+   (`CceyYLON.txt`, `PWLPROTECTORATES.txt`, `MesoPOTAMIA.txt`, `CETTINGE.txt`).
+   These must be detected and quarantined up front, or they will masquerade as
+   "small colonies with no data."
 
 ---
 
@@ -220,6 +251,15 @@ text. This is the single highest-leverage step:
   whitespace-aligned).
 - Emit a uniform JSON: `{section, kind: prose|table|mixed, raw_text, table_cells?}`.
 - Keep a back-pointer (`source_span`) to the original file for audit.
+- **Triage degenerate files (Finding §2.9):** flag empty, suspiciously short
+  (e.g. <150 words), and OCR-garbled-filename files; cross-check each file's size
+  against its colony's neighbouring editions to catch truncated parses (the 1898
+  Jamaica fragment). Route these to a quarantine/review queue rather than the
+  extractor, so they are not silently mistaken for genuinely small colonies.
+- **Record a per-file expectation profile (Finding §2.7–2.8):** word count and
+  table count, used downstream to set realistic yield expectations per
+  (colony, year) — a near-empty extraction from Ascension is success; a
+  near-empty extraction from a 12,000-word Ceylon file is a bug.
 
 This converts "2,946 files with inconsistent heading markup" into "2,946 files in
 one internal format," so the downstream extractor sees consistent input and the
@@ -289,7 +329,7 @@ clustered rule-first then LLM-assisted, then human-approved:
 |---|---|---|
 | **0. Canonicalization** | Format-agnostic normalizer (md/txt → one internal JSON); measure heading/table recall on a labelled sample | `col_canonicalize_reports.py`, `generated/reports_canonical/*.json` |
 | **A. Schema + taxonomy seed** | Freeze labels; sweep ~40 files across eras/regions to seed indicator/commodity/section taxonomies | `guides/colony_report_schema.py`, three `taxonomy/*_taxonomy.json` |
-| **B. Segmenter + pilot** | Build a gold standard for ~5 colonies spanning eras (Jamaica, Ceylon, Hong Kong, a settler colony, a small island) | `col_segment_reports.py`, `test_data/report_gold/*` |
+| **B. Segmenter + pilot** | Build a gold standard deliberately spanning the size×decade matrix — a large colony early & late (Jamaica 1867/1920), a statistics-dense one (Ceylon), a small colony early & late (Falkland 1867 prose-only / 1960 table-bearing), and a degenerate file (1898 Jamaica fragment) — so accuracy is measured across the real variation, not just on big colonies | `col_segment_reports.py`, `test_data/report_gold/*` |
 | **C. Structured extraction** | Run Track A over the corpus with checkpointing/auto-push (reuse `extraction_corpus.py` patterns) | `col_extract_reports.py`, `generated/reports/*.json` |
 | **D. Normalization** | Cluster + review indicators/commodities/sections; add canonical units/currencies | populated taxonomies, `col_normalize_reports.py` |
 | **E. Neo4j load** | Constraints/indexes; load reports, observations, trade flows | `col_load_reports_neo4j.py` |
@@ -321,6 +361,14 @@ Phases A→B reviewed, with the schema frozen, before C runs at corpus scale.
   `TerritoryYear`.
 - **Scope creep** → Track A priorities are finance/trade/population/area/shipping;
   deep tables (detailed education/medical breakdowns) are a later pass.
+- **Mistaking sparse small-colony output for failure (Finding §2.7–2.9)** →
+  size/table expectation profile per file; validate yield *relative to* a file's
+  size and its colony's neighbours, not against a flat threshold; up-front triage
+  of empty/truncated/garbled files so they don't pollute the "small colony" bucket.
+- **Over-investing the statistical track on thin material** → prioritize Track A
+  on the large colonies and the table-bearing later editions where the data
+  actually is; rely on Track B (narrative embedding) for the small/early long
+  tail, where prose is the only content.
 
 ---
 
