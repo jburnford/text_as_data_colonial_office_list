@@ -289,6 +289,46 @@ def mine_headings(root, gazetteer):
     return heading_freq, column_freq
 
 
+def cross_check_curated(root, nest_hosts):
+    """Use the corpus as a RULER for the hand-curated taxonomy/colony_families.json
+    (not a competing authority). Reports, for each curated family, which members
+    the corpus confirms (seen nested under that family) vs leaves unconfirmed
+    (sparse / never seen as a header), and which frequently-nested names the
+    corpus shows that NO curated family explains (candidate gaps or misparses)."""
+    path = root / "taxonomy" / "colony_families.json"
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+    alias_to_fam, fam_members, curated_names = {}, {}, set()
+    for key, fam in data["families"].items():
+        members = {_norm(m) for m in fam.get("members", [])}
+        fam_members[key] = members
+        curated_names |= members | {_norm(t) for t in fam.get("associated_territories", [])}
+        for a in (fam.get("parent_aliases") or [fam.get("canonical_name", "")]):
+            if _norm(a):
+                alias_to_fam[_norm(a)] = key
+                curated_names.add(_norm(a))
+
+    def fam_of(slug):
+        cands = [a for a in alias_to_fam if a in slug]
+        return alias_to_fam[max(cands, key=len)] if cands else None
+
+    confirmed, unconfirmed = {}, {}
+    for key, members in fam_members.items():
+        seen = {m for m in members
+                if any(fam_of(h) == key for h in nest_hosts.get(m, {}))}
+        confirmed[key] = sorted(seen)
+        unconfirmed[key] = sorted(members - seen)
+    unexplained = {t: sum(h.values()) for t, h in nest_hosts.items()
+                   if sum(h.values()) >= 3 and t not in curated_names}
+    return {
+        "confirmed": confirmed,
+        "unconfirmed": unconfirmed,
+        "corpus_unexplained": dict(sorted(unexplained.items(), key=lambda x: -x[1])),
+    }
+
+
 def main():
     ap = argparse.ArgumentParser(description="Mine corpus-scale patterns (no hand map)")
     ap.add_argument("--stats", action="store_true", help="summary only, do not write")
@@ -347,23 +387,22 @@ def main():
     for txt, n in column_freq.most_common(args.top):
         print(f"  {n:6d}  {txt}")
 
-    # Reconciled (authoritative) map = derived UNION curated hand-seed. Derived
-    # supplies well-evidenced extensions; curated supplies sparse-but-true facts
-    # (Saskatchewan, UMS) the corpus is too thin to confirm on its own.
-    reconciled = {ck: set(subs) for ck, subs in families.items()}
-    for hk, hsubs in canon.SUB_UNITS.items():
-        if len(hsubs) < 2:
-            continue
-        # Merge into a derived family only on a substring key match or >= 2 shared
-        # members; a single shared island (e.g. Tobago) must NOT fuse Windward
-        # into Trinidad & Tobago.
-        match = next((ck for ck in reconciled
-                      if ck in hk or hk in ck or len(reconciled[ck] & hsubs) >= 2), None)
-        if match:
-            reconciled[match] |= hsubs
-        else:
-            reconciled[hk] = set(hsubs)
-    reconciled = {k: sorted(v) for k, v in reconciled.items()}
+    # Use the corpus to VALIDATE the hand-curated authoritative family map
+    # (taxonomy/colony_families.json) rather than compute a competing one.
+    nest_final, _, _ = scan_nestings(files, root, gazetteer, exclude)
+    cross = cross_check_curated(root, nest_final)
+    if cross:
+        print("\n=== curated-map coverage (corpus as ruler for colony_families.json) ===")
+        miss = {k: v for k, v in cross["unconfirmed"].items() if v}
+        print(f"   curated members the corpus never shows nested ({sum(len(v) for v in miss.values())} "
+              f"across {len(miss)} families) — sparse or absent, expected in the long tail:")
+        for k, v in sorted(miss.items()):
+            print(f"      {k}: {v}")
+        ux = cross["corpus_unexplained"]
+        print(f"   frequently-nested names NO curated family explains ({len(ux)}) "
+              f"— candidate gaps / misparse signals:")
+        for t, n in list(ux.items())[:15]:
+            print(f"      {t:30s} nested {n}x")
 
     if not args.stats:
         out = {
@@ -378,7 +417,7 @@ def main():
                 "excluded_misparse_files": sorted(exclude),
                 "family_members_removed_as_contamination": contaminated,
             },
-            "reconciled_families": reconciled,
+            "curated_map_coverage": cross,
             "families": families,
             "family_parent_variants": {p: sorted(v) for p, v in family_members.items()
                                        if p in families},

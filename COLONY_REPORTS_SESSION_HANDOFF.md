@@ -296,3 +296,45 @@ the place curation beats threshold-tuning given the data's irregularity.
 COMPLEMENTARY, not competing. Derive where evidence is dense; lean on curation in
 the long tail; reconcile by union; use the gold/review pass to adjudicate the
 handful of genuinely ambiguous cases — not to train rules.
+
+### Historical curation: `taxonomy/colony_families.json` (authoritative map)
+
+Closed the remaining family-map gaps with administrative history of the Empire,
+cross-checked against `guides/*_guide.md`. This is now the **single source of
+truth** for federations/groupings; `col_canonicalize_reports.py` loads it to build
+the boundary-detector allow-list (inline `_SUBUNIT_SOURCE` is now only a
+missing-file fallback). 20 families with era/seat/notes + provenance. Key history
+the corpus could not resolve on its own:
+- **Ascension + Tristan da Cunha → St Helena**, not Aden (the corpus fused them
+  because the List prints these Atlantic islands in the same "miscellaneous"
+  appendix region as Aden). Aden's real dependencies = Aden Protectorate, Perim,
+  Kamaran, Socotra, Kuria Muria.
+- **Gibraltar is standalone**, not part of the Gambia (a derived leak).
+- **Rhodesias = their own federation** (Rhodesia & Nyasaland), and the **High
+  Commission Territories are separate** from the Union of South Africa. Encoded
+  via a `members` (strict, for stamping) vs `associated_territories` (administered-
+  with, for the allow-list) split, so SA-headed editions that list the HCT/Rhodesias
+  are still recognized (no false misparse) without claiming them as provinces.
+- Added families the corpus under-evidenced: **Nigeria** (N/S Nigeria, Lagos,
+  Cameroons), **East Africa High Commission**, **Gold Coast** (Ashanti, Northern
+  Territories, Togoland), **West African Settlements**, **Falkland Is + deps**,
+  **British Borneo**, plus Mauritius/Jamaica dependency notes.
+
+The miner no longer computes a competing "reconciled" map; instead it uses the
+corpus as a **ruler for the curated map** (`curated_map_coverage` in
+`corpus_patterns.json`): which curated members the corpus confirms-as-nested vs
+not, and which frequently-nested names NO curated family explains. That ruler
+found and we closed real variant gaps (Kingdom of Tonga, Nyasaland Protectorate,
+Pitcairn Islands Group). The 7 still-unexplained names are correctly NOT
+federation members (appendix containers `other_miscellaneous_possessions` /
+`miscellaneous_islands` / `west_indies`; `cook_islands` = NZ; `grenade` = OCR
+noise; `somaliland`/`bahamas` standalone).
+
+Result in the boundary detector: 250 `federation_nested` (was 65 under the hand
+map), 21 genuine `multi_colony_misparse`, 7 `appendix_contamination`, zero errors,
+~25s over 2,946 files. Remaining for review: `british_borneo` has no umbrella file
+so all its members read as "unconfirmed" (inert in the allow-list; kept for
+documentation); decide whether sub-unit STAMPING (Track A) should use the strict
+`members` with edition-year disambiguation for the era-overlap cases (Dominica
+Leeward↔Windward 1940; Tobago→Trinidad 1889; Seychelles→separate 1903;
+Newfoundland→Canada 1949; Lagos across West Africa Settlements/Gold Coast/Nigeria).

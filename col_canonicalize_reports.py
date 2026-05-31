@@ -143,7 +143,49 @@ _SUBUNIT_SOURCE = {
     "mauritius": ["Rodrigues", "Seychelles"],
     "ceylon": [],
 }
-SUB_UNITS = {_norm(k): {_norm(v) for v in vs} for k, vs in _SUBUNIT_SOURCE.items()}
+
+
+def _load_curated_families():
+    """Build the federation allow-list from the historically-curated
+    taxonomy/colony_families.json (the authoritative source), keyed by every
+    parent alias so the boundary detector's substring resolution finds a file's
+    family by its common name. The allow-list unions a family's strict `members`
+    with its `associated_territories` (administered-with but separate, e.g. the
+    Rhodesias under the South African High Commissioner) so era-overlap nestings
+    are not misread as misparses. Falls back to the inline seed if the file is
+    missing."""
+    path = Path(__file__).resolve().parent / "taxonomy" / "colony_families.json"
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {_norm(k): {_norm(v) for v in vs} for k, vs in _SUBUNIT_SOURCE.items()}
+    sub = {}
+    for fam in data.get("families", {}).values():
+        aliases = fam.get("parent_aliases", []) or [fam.get("canonical_name", "")]
+        allow = {_norm(m) for m in fam.get("members", [])}
+        allow |= {_norm(t) for t in fam.get("associated_territories", [])}
+        allow |= {_norm(a) for a in aliases}
+        allow.discard("")
+        for alias in aliases:
+            key = _norm(alias)
+            if key:
+                sub[key] = sub.get(key, set()) | allow
+    return sub
+
+
+# Strict membership (no associated territories / aliases) for sub-unit stamping.
+def _load_strict_members():
+    path = Path(__file__).resolve().parent / "taxonomy" / "colony_families.json"
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    return {fam.get("canonical_name", k): sorted(fam.get("members", []))
+            for k, fam in data.get("families", {}).items()}
+
+
+SUB_UNITS = _load_curated_families()
+FAMILY_MEMBERS = _load_strict_members()
 
 # Appendix / cross-section contamination markers (reused from the personnel
 # pipeline's honours-list detector, EXTRACTION_AUDIT.md). These catch section

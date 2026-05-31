@@ -13,11 +13,11 @@
     "history": [
       {
         "stage": "seed",
-        "excluded": 23
+        "excluded": 22
       },
       {
         "stage": "round 1",
-        "excluded": 23
+        "excluded": 22
       }
     ],
     "excluded_misparse_files": [
@@ -38,7 +38,6 @@
       "1924_manual_parsed/BRITISH_HONDURAS.txt",
       "1924_manual_parsed/SOMALILAND.txt",
       "1925_manual_parsed/BRITISH_HONDURAS.txt",
-      "1925_manual_parsed/FEDERATED_MALAY_STATES.txt",
       "1925_manual_parsed/PALESTINE.txt",
       "1927_manual_parsed/BRITISH_COLUMBIA.txt",
       "1927_manual_parsed/WEIHAIWEI.txt",
@@ -51,138 +50,219 @@
       ]
     }
   },
-  "reconciled_families": {
-    "thegambia": [
-      "gambia",
-      "gibraltar"
-    ],
-    "trinidadandtobago": [
-      "tobago",
-      "trinidad"
-    ],
-    "dominionofcanada": [
-      "alberta",
-      "britishcolumbia",
-      "canada",
-      "dominionofcanada",
-      "manitoba",
-      "newbrunswick",
-      "newfoundland",
-      "northwestterritories",
-      "novascotia",
-      "ontario",
-      "princeedwardisland",
-      "quebec",
-      "saskatchewan",
-      "vancouverisland"
-    ],
-    "thewindwardislands": [
-      "barbados",
-      "dominica",
-      "grenada",
-      "stlucia",
-      "stvincent",
-      "tobago",
-      "windwardislands"
-    ],
-    "thegoldcoast": [
-      "ashanti",
-      "goldcoast",
-      "goldcoastcolony",
-      "togoland"
-    ],
-    "theleewardislands": [
-      "anguilla",
-      "antigua",
-      "barbuda",
-      "dominica",
-      "leewardislands",
-      "montserrat",
-      "nevis",
-      "stchristopher",
-      "stchristopherandnevis",
-      "stkitts",
-      "virginislands"
-    ],
-    "southafrica": [
-      "basutoland",
-      "bechuanaland",
-      "bechuanalandprotectorate",
-      "capeofgoodhope",
-      "eastafricahighcommission",
-      "highcommissionterritories",
-      "natal",
-      "northernrhodesia",
-      "orangefreestate",
-      "orangerivercolony",
-      "southernrhodesia",
-      "southernrhodesiaadministration",
-      "swaziland",
-      "transvaal"
-    ],
-    "straitssettlements": [
-      "brunei",
-      "christmasisland",
-      "federatedmalaystates",
-      "johore",
-      "kedah",
-      "kelantan",
-      "labuan",
-      "malacca",
-      "negrisembilan",
-      "pahang",
-      "penang",
-      "perak",
-      "perlis",
-      "selangor",
-      "singapore",
-      "straitssettlements",
-      "trengganu"
-    ],
-    "australia": [
-      "australia",
-      "commonwealth",
-      "commonwealthcontrol",
-      "lordhoweisland",
-      "newsouthwales",
-      "norfolkisland",
-      "northernterritory",
-      "papua",
-      "queensland",
-      "southaustralia",
-      "tasmania",
-      "victoria",
-      "westernaustralia"
-    ],
-    "aden": [
-      "adencolony",
-      "ascension",
-      "tristandacunha"
-    ],
-    "westernpacific": [
-      "britishsolomonislands",
-      "fiji",
-      "gilbertandelliceislands",
-      "newhebrides",
-      "pitcairnisland",
-      "tonga",
-      "westernpacifichighcommission"
-    ],
-    "federationofrhodesiaandnyasaland": [
-      "northernrhodesia",
-      "nyasaland",
-      "southernrhodesia"
-    ],
-    "westafricansettlements": [
-      "gambia",
-      "goldcoast",
-      "lagos",
-      "sierraleone"
-    ],
-    "mauritius": [
-      "rodrigues",
-      "seychelles"
-    ]
+  "curated_map_coverage": {
+    "confirmed": {
+      "union_of_south_africa": [
+        "capeofgoodhope",
+        "natal",
+        "transvaal"
+      ],
+      "high_commission_territories": [
+        "basutoland",
+        "bechuanalandprotectorate",
+        "swaziland"
+      ],
+      "federation_of_rhodesia_and_nyasaland": [],
+      "east_africa_high_commission": [],
+      "dominion_of_canada": [
+        "alberta",
+        "britishcolumbia",
+        "manitoba",
+        "newbrunswick",
+        "northwestterritories",
+        "novascotia",
+        "ontario",
+        "princeedwardisland",
+        "quebec",
+        "saskatchewan"
+      ],
+      "commonwealth_of_australia": [
+        "commonwealthcontrol",
+        "lordhoweisland",
+        "newsouthwales",
+        "norfolkisland",
+        "northernterritory",
+        "papua",
+        "queensland",
+        "southaustralia",
+        "tasmania",
+        "victoria",
+        "westernaustralia"
+      ],
+      "british_malaya": [
+        "christmasisland",
+        "dindings",
+        "federatedmalaystates",
+        "johore",
+        "kedah",
+        "kelantan",
+        "labuan",
+        "malacca",
+        "negrisembilan",
+        "pahang",
+        "penang",
+        "perak",
+        "perlis",
+        "selangor",
+        "singapore",
+        "straitssettlements",
+        "trengganu"
+      ],
+      "british_borneo": [
+        "sarawak"
+      ],
+      "leeward_islands": [
+        "anguilla",
+        "antigua",
+        "barbuda",
+        "dominica",
+        "montserrat",
+        "nevis",
+        "stchristopher",
+        "stchristopherandnevis",
+        "stkitts",
+        "virginislands"
+      ],
+      "windward_islands": [
+        "barbados",
+        "dominica",
+        "grenada",
+        "stlucia",
+        "stvincent",
+        "tobago"
+      ],
+      "west_african_settlements": [
+        "gambia",
+        "sierraleone"
+      ],
+      "gold_coast": [
+        "ashanti",
+        "goldcoastcolony",
+        "northernterritories",
+        "togoland"
+      ],
+      "nigeria": [
+        "northernnigeria"
+      ],
+      "western_pacific_high_commission": [
+        "fiji",
+        "newhebrides",
+        "pitcairnisland",
+        "pitcairnislandsgroup",
+        "tonga"
+      ],
+      "st_helena": [
+        "ascension",
+        "tristandacunha"
+      ],
+      "aden": [
+        "adencolony",
+        "adenprotectorate",
+        "kamaran",
+        "perim"
+      ],
+      "falkland_islands": [],
+      "mauritius": [
+        "rodrigues"
+      ],
+      "trinidad_and_tobago": [
+        "tobago",
+        "trinidad"
+      ],
+      "jamaica": [
+        "caymanislands",
+        "turksandcaicosislands"
+      ]
+    },
+    "unconfirmed": {
+      "union_of_south_africa": [
+        "orangefreestate",
+        "orangerivercolony"
+      ],
+      "high_commission_territories": [
+        "bechuanaland"
+      ],
+      "federation_of_rhodesia_and_nyasaland": [
+        "northernrhodesia",
+        "nyasaland",
+        "nyasalandprotectorate",
+        "southernrhodesia"
+      ],
+      "east_africa_high_commission": [
+        "kenya",
+        "tanganyika",
+        "tanganyikaterritory",
+        "uganda",
+        "zanzibar"
+      ],
+      "dominion_of_canada": [
+        "newfoundland",
+        "vancouverisland",
+        "yukon"
+      ],
+      "commonwealth_of_australia": [],
+      "british_malaya": [
+        "cocosislands"
+      ],
+      "british_borneo": [
+        "britishnorthborneo",
+        "brunei",
+        "labuan",
+        "northborneo"
+      ],
+      "leeward_islands": [],
+      "windward_islands": [],
+      "west_african_settlements": [
+        "goldcoast",
+        "lagos"
+      ],
+      "gold_coast": [
+        "britishtogoland"
+      ],
+      "nigeria": [
+        "britishcameroons",
+        "cameroons",
+        "lagos",
+        "nigercoastprotectorate",
+        "southernnigeria"
+      ],
+      "western_pacific_high_commission": [
+        "britishsolomonislands",
+        "gilbertandelliceislands",
+        "kingdomoftonga",
+        "phoenixislands"
+      ],
+      "st_helena": [],
+      "aden": [
+        "kuriamuriaislands",
+        "socotra"
+      ],
+      "falkland_islands": [
+        "britishantarcticterritory",
+        "falklandislandsdependencies",
+        "grahamland",
+        "southgeorgia",
+        "southsandwichislands"
+      ],
+      "mauritius": [
+        "agalega",
+        "cargadoscarajos",
+        "chagosarchipelago",
+        "diegogarcia",
+        "seychelles"
+      ],
+      "trinidad_and_tobago": [],
+      "jamaica": []
+    },
+    "corpus_unexplained": {
+      "othermiscellaneouspossessions": 16,
+      "miscellaneousislands": 10,
+      "cookislands": 8,
+      "grenade": 7,
+      "somalilandprotectorate": 7,
+      "bahamaislands": 3,
+      "westindies": 3
+    }
   },
   "families": {
     "thegambia": [
@@ -217,6 +297,7 @@
       "ashanti",
       "goldcoast",
       "goldcoastcolony",
+      "northernterritories",
       "togoland"
     ],
     "theleewardislands": [
@@ -263,6 +344,7 @@
       "australia",
       "commonwealth",
       "commonwealthcontrol",
+      "commonwealthofaustralia",
       "newsouthwales",
       "northernterritory",
       "papua",
@@ -274,7 +356,10 @@
     ],
     "aden": [
       "adencolony",
+      "adenprotectorate",
       "ascension",
+      "kamaran",
+      "perim",
       "tristandacunha"
     ],
     "westernpacific": [

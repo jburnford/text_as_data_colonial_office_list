@@ -1,0 +1,169 @@
+{
+  "description": "Curated, historically-accurate map of British colonial federations / administrative groupings and their constituent sub-territories, used (a) as the boundary detector's allow-list in col_canonicalize_reports.py and (b) as the authoritative reconciliation target for the corpus-derived families in generated/corpus_patterns.json.",
+  "provenance": "Hand-curated from the administrative history of the British Empire, cross-checked against guides/*_guide.md and the corpus-derived families. This is the 'reconcile, don't replace' principle applied: the corpus derives the well-evidenced structure at scale; this file closes the gaps the corpus is too sparse or too contaminated to resolve (e.g. Ascension/Tristan da Cunha belong to St Helena, not Aden; Gibraltar is standalone, not part of Gambia; the Rhodesias form their own federation, not part of the Union of South Africa).",
+  "date_created": "2026-05-31",
+  "membership_is_era_dependent": "Several territories changed parent over time; they are listed under every family they legitimately belonged to (this is correct history, not duplication). Notes record the transfer years. For the flat allow-list these overlaps are harmless; for sub-unit STAMPING (Track A) the edition year must disambiguate.",
+  "families": {
+    "union_of_south_africa": {
+      "canonical_name": "Union of South Africa",
+      "era": "1910-1961",
+      "seat": "Cape Town (legislative) / Pretoria (administrative)",
+      "parent_aliases": ["South Africa", "Union of South Africa"],
+      "members": ["Cape of Good Hope", "Natal", "Transvaal", "Orange Free State", "Orange River Colony"],
+      "associated_territories": ["Basutoland", "Bechuanaland", "Bechuanaland Protectorate", "Swaziland", "Southern Rhodesia", "Southern Rhodesia Administration", "Northern Rhodesia", "Nyasaland"],
+      "notes": "Four provinces federated in 1910. Cape of Good Hope and Natal were self-governing colonies before Union; Transvaal and Orange River Colony (renamed Orange Free State) were former Boer republics annexed after the South African War (1902). `members` is the strict provincial set (use for stamping); `associated_territories` are the High Commission Territories and the Rhodesias, which were administered SEPARATELY (their own families below) but appear under the South African High Commissioner in early editions, so they are allow-listed here to avoid false misparse flags."
+    },
+    "high_commission_territories": {
+      "canonical_name": "High Commission Territories",
+      "era": "1884-1966",
+      "seat": "administered by the British High Commissioner for South Africa (Governor-General)",
+      "parent_aliases": ["High Commission Territories", "The High Commission Territories"],
+      "members": ["Basutoland", "Bechuanaland", "Bechuanaland Protectorate", "Swaziland"],
+      "notes": "Basutoland (now Lesotho), the Bechuanaland Protectorate (now Botswana), and Swaziland (now Eswatini) were never part of the Union of South Africa but were administered through the same High Commissioner, so they appear adjacent to it in the List. Distinct family to keep their data from being attributed to the Union."
+    },
+    "federation_of_rhodesia_and_nyasaland": {
+      "canonical_name": "Federation of Rhodesia and Nyasaland",
+      "era": "1953-1963",
+      "seat": "Salisbury, Southern Rhodesia",
+      "parent_aliases": ["Federation of Rhodesia and Nyasaland", "Rhodesia and Nyasaland", "Central African Federation"],
+      "members": ["Southern Rhodesia", "Northern Rhodesia", "Nyasaland", "Nyasaland Protectorate"],
+      "notes": "The Central African Federation. Southern Rhodesia was self-governing from 1923; Northern Rhodesia and Nyasaland were protectorates. Before 1953 these appear separately; in early editions the Rhodesias were administered by the British South Africa Company. Nyasaland is also grouped with East Africa in some editions (was 'British Central Africa' until 1907)."
+    },
+    "east_africa_high_commission": {
+      "canonical_name": "East Africa High Commission",
+      "era": "1948-1961",
+      "seat": "Nairobi",
+      "parent_aliases": ["East Africa High Commission", "East Africa"],
+      "members": ["Kenya", "Uganda", "Tanganyika", "Tanganyika Territory", "Zanzibar"],
+      "notes": "Provided common services (railways, posts, research) across the East African territories. Kenya was a Colony and Protectorate; Uganda and Zanzibar protectorates; Tanganyika a League of Nations Mandate then UN Trust Territory. Somaliland Protectorate is regionally East African but administratively separate."
+    },
+    "dominion_of_canada": {
+      "canonical_name": "Dominion of Canada",
+      "era": "1867-1966",
+      "seat": "Ottawa",
+      "parent_aliases": ["Dominion of Canada", "Canada"],
+      "members": ["Ontario", "Quebec", "Nova Scotia", "New Brunswick", "Manitoba", "British Columbia", "Prince Edward Island", "North-West Territories", "Northwest Territories", "Alberta", "Saskatchewan", "Yukon", "Newfoundland", "Vancouver Island"],
+      "notes": "Confederation 1867 (Ontario, Quebec, Nova Scotia, New Brunswick). Manitoba & Northwest Territories 1870; British Columbia 1871; Prince Edward Island 1873; Alberta & Saskatchewan 1905. Vancouver Island was a separate colony until united with British Columbia in 1866. Newfoundland was a separate self-governing Dominion until it joined Canada in 1949 (it appears as its own entry before then)."
+    },
+    "commonwealth_of_australia": {
+      "canonical_name": "Commonwealth of Australia",
+      "era": "1901-1966",
+      "seat": "Melbourne then Canberra",
+      "parent_aliases": ["Australia", "Commonwealth of Australia", "The Commonwealth", "Commonwealth"],
+      "members": ["New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", "Tasmania", "Northern Territory", "Papua", "Norfolk Island", "Lord Howe Island", "Commonwealth Control"],
+      "notes": "Federation 1901; before then the states are separate colony entries. The Northern Territory passed from South Australia to the Commonwealth in 1911. Papua (British New Guinea) and the Territory of New Guinea (mandate) were administered by the Commonwealth; Norfolk Island and Lord Howe Island are Australian external/coastal territories. These Pacific territories are geographically Pacific but administratively Australian."
+    },
+    "british_malaya": {
+      "canonical_name": "British Malaya",
+      "era": "1867-1957",
+      "seat": "Singapore (Straits Settlements) / Kuala Lumpur (FMS)",
+      "parent_aliases": ["Straits Settlements", "Malaya", "Federation of Malaya", "Federated Malay States", "Unfederated Malay States", "Malayan Union"],
+      "members": ["Straits Settlements", "Singapore", "Penang", "Malacca", "Labuan", "Dindings", "Christmas Island", "Cocos Islands", "Federated Malay States", "Perak", "Selangor", "Negri Sembilan", "Pahang", "Johore", "Kedah", "Kelantan", "Perlis", "Trengganu"],
+      "notes": "Three tiers under the Governor of the Straits Settlements (= High Commissioner for the Malay States): (1) Straits Settlements Crown Colony = Singapore, Penang, Malacca, plus Labuan from 1907; (2) Federated Malay States (1895) = Perak, Selangor, Negri Sembilan, Pahang under British Residents; (3) Unfederated Malay States = Johore, Kedah, Kelantan, Perlis, Trengganu under British Advisers. Straits Settlements dissolved 1946 (Singapore separate; Malayan Union then Federation of Malaya 1948)."
+    },
+    "british_borneo": {
+      "canonical_name": "British Borneo",
+      "era": "1888-1963",
+      "seat": "separate administrations (Kuching, Jesselton, Brunei Town)",
+      "parent_aliases": ["British Borneo", "Borneo"],
+      "members": ["Sarawak", "North Borneo", "British North Borneo", "Brunei", "Labuan"],
+      "notes": "Sarawak (Brooke 'White Rajahs' until 1946, then Crown Colony), North Borneo (Chartered Company until 1946, then Crown Colony), and Brunei (protected state with a British Resident from 1906). Labuan was part of the Straits Settlements 1907-1946, then joined North Borneo. All joined Malaysia in 1963."
+    },
+    "leeward_islands": {
+      "canonical_name": "Leeward Islands",
+      "era": "1871-1956",
+      "seat": "Antigua",
+      "parent_aliases": ["Leeward Islands", "The Leeward Islands"],
+      "members": ["Antigua", "Barbuda", "St Christopher and Nevis", "St Christopher", "St Kitts", "Nevis", "Anguilla", "Montserrat", "Dominica", "Virgin Islands"],
+      "notes": "Federal colony 1871-1956. Presidencies: Antigua (with Barbuda and Redonda), St Christopher-Nevis-Anguilla, Montserrat, the Virgin Islands, and Dominica UNTIL 1940 when Dominica was transferred to the Windward Islands."
+    },
+    "windward_islands": {
+      "canonical_name": "Windward Islands",
+      "era": "1833-1958",
+      "seat": "Barbados (until 1885), then Grenada",
+      "parent_aliases": ["Windward Islands", "The Windward Islands"],
+      "members": ["Grenada", "St Vincent", "St Lucia", "Barbados", "Tobago", "Dominica"],
+      "notes": "Core: Grenada, St Vincent, St Lucia. Barbados was the seat until it left the federation in 1885. Tobago belonged to the Windwards until 1889 when it merged with Trinidad. Dominica was transferred IN from the Leeward Islands in 1940."
+    },
+    "west_african_settlements": {
+      "canonical_name": "West African Settlements",
+      "era": "1866-1888",
+      "seat": "Freetown, Sierra Leone",
+      "parent_aliases": ["West African Settlements", "West Africa Settlements", "West Africa"],
+      "members": ["Sierra Leone", "Gambia", "Gold Coast", "Lagos"],
+      "notes": "Early umbrella administration under a Governor-in-Chief at Freetown. Gold Coast separated in 1874 (taking Lagos until 1886); Sierra Leone and the Gambia became distinct colonies by 1888."
+    },
+    "gold_coast": {
+      "canonical_name": "Gold Coast",
+      "era": "1874-1957",
+      "seat": "Accra",
+      "parent_aliases": ["Gold Coast", "The Gold Coast"],
+      "members": ["Gold Coast Colony", "Ashanti", "Northern Territories", "Togoland", "British Togoland"],
+      "notes": "Comprised the Gold Coast Colony (coastal), the Ashanti region (annexed 1901), the Northern Territories Protectorate, and British Togoland (League of Nations Mandate / UN Trust Territory from 1919, administered with the Gold Coast). Became Ghana in 1957."
+    },
+    "nigeria": {
+      "canonical_name": "Nigeria",
+      "era": "1900-1960",
+      "seat": "Lagos",
+      "parent_aliases": ["Nigeria", "Southern Nigeria", "Northern Nigeria"],
+      "members": ["Northern Nigeria", "Southern Nigeria", "Lagos", "Niger Coast Protectorate", "Cameroons", "British Cameroons"],
+      "notes": "Lagos Colony and the Protectorate of Southern Nigeria amalgamated in 1906; Northern and Southern Nigeria amalgamated into the Colony and Protectorate of Nigeria in 1914. The British Cameroons (Northern and Southern, League Mandate / UN Trust) were administered with Nigeria. Niger Coast Protectorate (1893-1900) was the precursor to Southern Nigeria."
+    },
+    "western_pacific_high_commission": {
+      "canonical_name": "Western Pacific High Commission",
+      "era": "1877-1958",
+      "seat": "Suva, Fiji (High Commissioner = Governor of Fiji)",
+      "parent_aliases": ["Western Pacific", "Western Pacific High Commission", "Fiji"],
+      "members": ["Fiji", "British Solomon Islands", "Gilbert and Ellice Islands", "New Hebrides", "Tonga", "Kingdom of Tonga", "Pitcairn Island", "Pitcairn Islands Group", "Phoenix Islands"],
+      "notes": "The Governor of Fiji served as High Commissioner for the Western Pacific, overseeing the British Solomon Islands Protectorate, the Gilbert and Ellice Islands, the New Hebrides (Anglo-French Condominium), the protected Kingdom of Tonga, and Pitcairn. Nauru and the Cook Islands were administered by Australia and New Zealand respectively, not the WPHC."
+    },
+    "st_helena": {
+      "canonical_name": "St Helena and Dependencies",
+      "era": "1834-1966",
+      "seat": "Jamestown, St Helena",
+      "parent_aliases": ["St Helena", "Saint Helena"],
+      "members": ["Ascension", "Tristan da Cunha"],
+      "notes": "Ascension became a dependency of St Helena in 1922 (previously administered by the Admiralty as a stone frigate, HMS Ascension); Tristan da Cunha became a dependency in 1938. The corpus-derived families WRONGLY grouped Ascension and Tristan under Aden because the List prints these small Atlantic islands in the same 'miscellaneous' appendix region as Aden — corrected here from history."
+    },
+    "aden": {
+      "canonical_name": "Aden",
+      "era": "1937-1967",
+      "seat": "Aden",
+      "parent_aliases": ["Aden", "Aden Colony"],
+      "members": ["Aden Colony", "Aden Protectorate", "Perim", "Kamaran", "Socotra", "Kuria Muria Islands"],
+      "notes": "Administered from British India until 1 April 1937, when it became a Crown Colony (Aden Colony) with the surrounding Aden Protectorate (Eastern and Western) of allied sultanates and sheikhdoms, plus the islands of Perim, Kamaran, Socotra and the Kuria Muria Islands. NOT related to Ascension/Tristan da Cunha (see st_helena)."
+    },
+    "falkland_islands": {
+      "canonical_name": "Falkland Islands and Dependencies",
+      "era": "1843-1966",
+      "seat": "Stanley",
+      "parent_aliases": ["Falkland Islands"],
+      "members": ["South Georgia", "South Sandwich Islands", "Graham Land", "Falkland Islands Dependencies", "British Antarctic Territory"],
+      "notes": "The Falkland Islands Dependencies historically included South Georgia, the South Sandwich Islands, and the Antarctic territories (Graham Land), which were split off as the British Antarctic Territory in 1962."
+    },
+    "mauritius": {
+      "canonical_name": "Mauritius",
+      "era": "1810-1968",
+      "seat": "Port Louis",
+      "parent_aliases": ["Mauritius"],
+      "members": ["Rodrigues", "Seychelles", "Chagos Archipelago", "Diego Garcia", "Agalega", "Cargados Carajos"],
+      "notes": "Rodrigues and the lesser islands were dependencies of Mauritius throughout. The Seychelles were a dependency of Mauritius until 1903, when they became a separate Crown Colony (they appear as their own entry from then). The Chagos Archipelago (incl. Diego Garcia) was detached in 1965 to form the British Indian Ocean Territory."
+    },
+    "trinidad_and_tobago": {
+      "canonical_name": "Trinidad and Tobago",
+      "era": "1889-1962",
+      "seat": "Port of Spain",
+      "parent_aliases": ["Trinidad and Tobago", "Trinidad"],
+      "members": ["Trinidad", "Tobago"],
+      "notes": "Tobago was transferred from the Windward Islands and united with Trinidad in 1889 (a single colony with two islands rather than a federation)."
+    },
+    "jamaica": {
+      "canonical_name": "Jamaica",
+      "era": "1866-1962",
+      "seat": "Kingston",
+      "parent_aliases": ["Jamaica"],
+      "members": ["Cayman Islands", "Turks and Caicos Islands"],
+      "notes": "The Cayman Islands and the Turks and Caicos Islands were dependencies of Jamaica (administered from Kingston) for much of this period. Jamaica itself is outside the current report-extraction scope, but the dependency relationship is recorded for completeness."
+    }
+  }
+}
