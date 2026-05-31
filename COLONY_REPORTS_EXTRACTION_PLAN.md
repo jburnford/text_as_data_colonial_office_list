@@ -383,6 +383,30 @@ text. This is the single highest-leverage step:
   (colony, year) — a near-empty extraction from Ascension is success; a
   near-empty extraction from a 12,000-word Ceylon file is a bug.
 
+- **Boundary-integrity classification (the highest-stakes triage, Finding §2.11).**
+  The most important thing Phase 0 protects is not heading recall but *attribution
+  correctness* — never letting one colony's figures be filed under another. A
+  single size heuristic cannot do this: it conflates a whole-volume dump, a
+  wrong-colony concatenation, and a legitimate federation mega-entry, which need
+  opposite handling. The canonicalizer therefore classifies by **content**, using
+  a colony-name gazetteer (built from the 2,946 filenames) and a federation→
+  sub-unit allow-list (from `guides/federated_territories_guide.md` and
+  `settler_colonies_guide.md`):
+  - `federation_nested` — the entry's *own* sub-units appear inside it (Australia→
+    its states, Dominion of Canada→provinces, Straits/Malaya→Malay states, Union
+    of South Africa→provinces+HC territories). **Not an error — a recovery target**;
+    each observation must be stamped with the correct sub-unit (§2.10).
+  - `multi_colony_misparse` — *unrelated* colonies are concatenated into the file
+    (British Honduras 1910 actually holds the Canada section; Weihaiwei holds
+    Pacific territories). Corroborated by either ≥4 unrelated colony headers or a
+    size outlier, so incidental prose mentions don't false-trigger. **Do not
+    attribute — quarantine/split.**
+  - `appendix_contamination` — honours-list / "General Colonial Service List"
+    markers bled in (Aden 1922); reuses the personnel pipeline's detector and
+    catches bleed a size heuristic misses.
+  - `volume_dump` — extreme absolute size as a backstop, since header detection
+    undercounts dumps whose colony headers are OCR-mangled (1888 Ascension).
+
 This converts "2,946 files with inconsistent heading markup" into "2,946 files in
 one internal format," so the downstream extractor sees consistent input and the
 **heading heterogeneity is normalized once, centrally**, instead of being

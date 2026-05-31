@@ -68,6 +68,95 @@ NEIGHBOUR_MEDIAN_FLOOR = 300    # colony median must exceed this for ratio flags
 ABS_GIANT_FLOOR = 5000     # a "giant" must also be large in absolute terms (guards tiny-median colonies)
 
 # ---------------------------------------------------------------------------
+# Boundary-integrity thresholds (Finding 2.11 — the highest-stakes triage).
+# A single size flag cannot separate three situations that need OPPOSITE
+# handling: a whole-volume dump, a wrong-colony concatenation, and a legitimate
+# federation mega-entry. These detect them by CONTENT, not size.
+# ---------------------------------------------------------------------------
+VOLUME_DUMP_WORDS = 150000  # above any plausible single entry (Australia tops ~85k); a dump
+MISPARSE_MIN_UNRELATED = 2  # >= this many UNRELATED colony headers => wrong-colony concatenation
+FEDERATION_MIN_SUBUNITS = 2  # >= this many of the entry's OWN sub-units present => legit nesting
+APPENDIX_MARKER_MIN = 8     # honours/cross-colony markers above this => appendix bled in
+
+# Federation / parent -> set of its legitimate sub-unit names (normalized).
+# Sourced from guides/federated_territories_guide.md and settler_colonies_guide.md.
+# Used to tell "Australia contains its own states" (process it — a recovery
+# target) from "British Honduras contains Canadian provinces" (misparse).
+def _norm(s):
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+
+_SUBUNIT_SOURCE = {
+    "leeward islands": ["Antigua", "Dominica", "Montserrat", "St Christopher and Nevis",
+                        "St Christopher", "Nevis", "St Kitts", "Virgin Islands", "Anguilla"],
+    "windward islands": ["Grenada", "St Lucia", "St Vincent", "Tobago", "Dominica"],
+    "federated malay states": ["Perak", "Selangor", "Negri Sembilan", "Pahang"],
+    "federation of malaya": ["Perak", "Selangor", "Negri Sembilan", "Pahang", "Johore",
+                             "Kedah", "Kelantan", "Trengganu", "Perlis", "Malacca", "Penang"],
+    "straits settlements": ["Singapore", "Penang", "Malacca", "Labuan", "Federated Malay States",
+                            "Perak", "Selangor", "Negri Sembilan", "Pahang",
+                            "Johore", "Kedah", "Kelantan", "Trengganu", "Perlis"],
+    "high commission territories": ["Basutoland", "Bechuanaland Protectorate", "Bechuanaland",
+                                    "Swaziland"],
+    "federation of rhodesia and nyasaland": ["Southern Rhodesia", "Northern Rhodesia", "Nyasaland"],
+    "west african settlements": ["Sierra Leone", "Gold Coast", "Gambia", "Lagos"],
+    "west africa settlements": ["Sierra Leone", "Gold Coast", "Gambia", "Lagos"],
+    "dominion of canada": ["Ontario", "Quebec", "Nova Scotia", "New Brunswick",
+                           "British Columbia", "Prince Edward Island", "Manitoba", "Alberta",
+                           "Saskatchewan", "Northwest Territories", "Vancouver Island",
+                           "Newfoundland"],
+    "canada": ["Ontario", "Quebec", "Nova Scotia", "New Brunswick", "British Columbia",
+               "Prince Edward Island", "Manitoba", "Alberta", "Saskatchewan",
+               "Northwest Territories", "Vancouver Island"],
+    "australia": ["New South Wales", "Victoria", "Queensland", "South Australia",
+                  "Western Australia", "Tasmania", "Papua", "Norfolk Island",
+                  "Lord Howe Island", "Northern Territory", "Commonwealth Control",
+                  "Commonwealth"],
+    "commonwealth of australia": ["New South Wales", "Victoria", "Queensland", "South Australia",
+                                  "Western Australia", "Tasmania", "Papua", "Norfolk Island",
+                                  "Lord Howe Island", "Northern Territory"],
+    "union of south africa": ["Cape of Good Hope", "Natal", "Transvaal", "Orange River Colony",
+                              "Orange Free State"],
+    # The SA Governor-General / High Commissioner also administered the High
+    # Commission Territories (Basutoland, Bechuanaland, Swaziland) and, in some
+    # editions, the Rhodesias appear in the same entry — legitimate nesting here.
+    "south africa": ["Cape of Good Hope", "Natal", "Transvaal", "Orange River Colony",
+                     "Orange Free State", "Basutoland", "Bechuanaland Protectorate",
+                     "Bechuanaland", "Swaziland", "Southern Rhodesia", "Northern Rhodesia",
+                     "Southern Rhodesia Administration"],
+    # "The Commonwealth" = the Australian federal entry; nests the states.
+    "commonwealth": ["New South Wales", "Victoria", "Queensland", "South Australia",
+                     "Western Australia", "Tasmania", "Papua", "Norfolk Island",
+                     "Lord Howe Island", "Northern Territory"],
+    # Unfederated Malay States — its own members.
+    "unfederated malay states": ["Johore", "Kedah", "Kelantan", "Trengganu", "Perlis"],
+    # Malaya (post-1936 reorganized entries: MALAYA_STRAITS_SETTLEMENTS, etc.).
+    "malaya": ["Straits Settlements", "Singapore", "Penang", "Malacca", "Labuan",
+               "Federated Malay States", "Perak", "Selangor", "Negri Sembilan", "Pahang",
+               "Johore", "Kedah", "Kelantan", "Trengganu", "Perlis", "Christmas Island"],
+    # Western Pacific High Commission — nests its island territories.
+    "western pacific": ["Fiji", "Tonga", "Pitcairn Island", "New Hebrides",
+                        "Gilbert and Ellice Islands", "British Solomon Islands",
+                        "Western Pacific High Commission"],
+    # single-unit dependencies, listed so a legitimate dependency header is not
+    # mistaken for foreign-colony contamination:
+    "mauritius": ["Rodrigues", "Seychelles"],
+    "ceylon": [],
+}
+SUB_UNITS = {_norm(k): {_norm(v) for v in vs} for k, vs in _SUBUNIT_SOURCE.items()}
+
+# Appendix / cross-section contamination markers (reused from the personnel
+# pipeline's honours-list detector, EXTRACTION_AUDIT.md). These catch section
+# bleed (e.g. Aden 1922) that a size heuristic misses.
+RE_APPENDIX_MARKER = re.compile(
+    r"knights?\s+grand\s+cross|knights?\s+commander|"
+    r"st\.?\s+michael\s+and\s+st\.?\s+george|order\s+of\s+st\.?\s+michael|"
+    r"king\s+of\s+arms|general\s+colonial\s+service\s+list", re.I)
+
+# An ALL-CAPS heading-like line that may name a colony (for boundary detection).
+RE_CAPS_NAME = re.compile(r"^[A-Z][A-Z][A-Z .,&'/-]{2,30}$")
+
+# ---------------------------------------------------------------------------
 # Conservative heading-text -> section_slug fallback.
 # Intentionally small and high-precision. Anything not matched is left null
 # with needs_model=true, to be resolved by the meaning-based normalizer.
@@ -393,7 +482,75 @@ def filename_flags(stem):
     return flags
 
 
-def process_file(relpath, root):
+def build_gazetteer(files):
+    """Set of normalized colony names from filenames + all known sub-units."""
+    gaz = set()
+    for f in files:
+        gaz.add(_norm(Path(f).stem))
+    for subs in SUB_UNITS.values():
+        gaz |= subs
+    gaz.discard("")
+    return gaz
+
+
+def detect_boundary_issues(text, colony_slug, gazetteer):
+    """Content-based boundary integrity check (Finding 2.11).
+
+    Distinguishes a legitimate federation mega-entry (its own sub-units nested
+    inside) from a wrong-colony concatenation (unrelated colonies misfiled into
+    one file) and from appendix bleed — three cases a size heuristic cannot tell
+    apart. Returns a dict of evidence + flags.
+    """
+    # Drop a leading article so "THE_LEEWARD_ISLANDS" matches the federation key.
+    self_norm = _norm(re.sub(r"^the[\s_]+", "", colony_slug, flags=re.I))
+    # Resolve the federation key by substring, so compound/reorganized names like
+    # "MALAYA_STRAITS_SETTLEMENTS" find "straits settlements" and inherit its
+    # sub-units. Pick the longest matching key to avoid spurious short matches.
+    fed_key = max((k for k in SUB_UNITS if k in self_norm),
+                  key=len, default=self_norm if self_norm in SUB_UNITS else None)
+    allowed = set(SUB_UNITS.get(fed_key, set()))
+    allowed.add(self_norm)
+    is_federation = fed_key is not None and fed_key in SUB_UNITS
+
+    foreign = []
+    for ln in text.splitlines():
+        s = ln.strip().rstrip(".").strip()
+        if RE_CAPS_NAME.match(s):
+            # "THE NORTHERN TERRITORY" / "THE COMMONWEALTH" -> drop the article
+            s = re.sub(r"^THE\s+", "", s, flags=re.I)
+            nm = _norm(s)
+            if nm and nm != self_norm and nm in gazetteer:
+                foreign.append(nm)
+    foreign_set = set(foreign)
+    subunits_present = sorted(foreign_set & allowed)
+    unrelated = sorted(foreign_set - allowed)
+
+    appendix_markers = len(RE_APPENDIX_MARKER.findall(text))
+
+    flags = []
+    # Legitimate federation nesting (a RECOVERY target, not an error). This is a
+    # robust per-file judgement: the entry's OWN sub-units appear inside it.
+    if is_federation and len(subunits_present) >= FEDERATION_MIN_SUBUNITS:
+        flags.append("federation_nested")
+    # Appendix / cross-section bleed (caught by markers, not size).
+    if appendix_markers >= APPENDIX_MARKER_MIN:
+        flags.append("appendix_contamination")
+    # NOTE: multi_colony_misparse is decided later (apply_corpus_triage), because
+    # a couple of incidental colony mentions in prose/tables are NOT a misparse;
+    # a true wrong-colony concatenation needs corroboration (many unrelated names
+    # or a size outlier). See apply_corpus_triage.
+
+    return {
+        "flags": flags,
+        "foreign_colony_headers": sorted(foreign_set),
+        "unrelated_colony_headers": unrelated,
+        "subunit_headers": subunits_present,
+        "appendix_marker_count": appendix_markers,
+        "is_known_federation": is_federation,
+    }
+
+
+def process_file(relpath, root, gazetteer=None):
     full = root / relpath
     text = full.read_text(encoding="utf-8", errors="replace")
     year, slug, stem = parse_path(relpath)
@@ -428,6 +585,16 @@ def process_file(relpath, root):
     if len(table_blocks) == 0 and word_count >= VERY_SHORT_WORDS:
         profile["flags"].append("no_tables")
 
+    # Boundary integrity (Finding 2.11): content-based, not size-based.
+    if gazetteer is not None:
+        boundary = detect_boundary_issues(text, slug, gazetteer)
+        profile["boundary"] = boundary
+        profile["flags"].extend(boundary["flags"])
+    # Volume dump is the absolute-size backstop, because header detection
+    # undercounts dumps whose colony headers are OCR-mangled (1888 Ascension).
+    if word_count >= VOLUME_DUMP_WORDS:
+        profile["flags"].append("volume_dump")
+
     return {
         "source_file": relpath,
         "colony_slug": slug,
@@ -454,17 +621,32 @@ def apply_corpus_triage(docs):
             continue
         for d in group:
             wc = d["profile"]["word_count"]
-            # Giant misparse (whole volume dumped into one file): a huge ratio AND
-            # large in absolute terms. Self-guarded by ABS_GIANT_FLOOR, so it stays
-            # reliable even when the colony's median is itself tiny (e.g. Ascension).
+            # A high size-outlier is now only a *review* signal, not a verdict:
+            # content-based detection (multi_colony_misparse / federation_nested)
+            # decides whether a large file is a misparse or a legitimate
+            # mega-entry. We keep the size signal because it can surface a dump
+            # whose embedded colony headers were too OCR-mangled to detect.
             if wc > GIANT_RATIO * med and wc >= ABS_GIANT_FLOOR:
-                d["profile"]["flags"].append("anomalous_giant")
+                d["profile"]["flags"].append("size_outlier_high")
                 d["profile"]["colony_median_words"] = med
             # Truncation is only meaningful when the median is itself trustworthy;
             # a tiny median means most editions are degenerate stubs, not a baseline.
             elif med >= NEIGHBOUR_MEDIAN_FLOOR and 0 < wc < TRUNCATION_RATIO * med:
                 d["profile"]["flags"].append("possible_truncation")
                 d["profile"]["colony_median_words"] = med
+
+    # Wrong-colony concatenation (Finding 2.11). A few incidental colony mentions
+    # are not a misparse; a true one is corroborated by either many unrelated
+    # headers or an unexplained size spike. Decided here so size_outlier is known.
+    for d in docs:
+        b = d["profile"].get("boundary")
+        if not b:
+            continue
+        n_unrelated = len(b["unrelated_colony_headers"])
+        size_flag = ("size_outlier_high" in d["profile"]["flags"]
+                     or "volume_dump" in d["profile"]["flags"])
+        if n_unrelated >= 4 or (n_unrelated >= MISPARSE_MIN_UNRELATED and size_flag):
+            d["profile"]["flags"].append("multi_colony_misparse")
 
 
 # ---------------------------------------------------------------------------
@@ -515,9 +697,12 @@ def main():
     args = ap.parse_args()
 
     root = Path(args.root).resolve()
+    # The gazetteer needs the full corpus file list (every colony name), even
+    # when only one file is processed, so boundary detection works in --file mode.
+    gazetteer = build_gazetteer(list_corpus_files(root))
 
     if args.file:
-        doc = process_file(args.file, root)
+        doc = process_file(args.file, root, gazetteer)
         print(json.dumps(doc, indent=2, ensure_ascii=False))
         return
 
@@ -528,7 +713,7 @@ def main():
     docs = []
     for relpath in files:
         try:
-            docs.append(process_file(relpath, root))
+            docs.append(process_file(relpath, root, gazetteer))
         except Exception as e:  # noqa: BLE001
             print(f"ERROR {relpath}: {e}", file=sys.stderr)
 

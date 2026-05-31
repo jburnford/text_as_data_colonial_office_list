@@ -201,7 +201,30 @@ These are folded into the plan: new Finding §2.11 + a Phase-0 triage bullet.
 
 ---
 
+- **Boundary-integrity detector added (the key Phase-0 rethink).** A single size
+  flag conflated three situations needing opposite handling, and false-flagged the
+  federation mega-entries that are the report track's prime recovery targets. Now
+  classified by CONTENT via a colony-name gazetteer (from the 2,946 filenames) +
+  a federation→sub-unit allow-list (from `guides/federated_territories_guide.md`,
+  `settler_colonies_guide.md`):
+  - `federation_nested` (177): entry's own sub-units present → process + stamp
+    sub-units (Australia/Canada/South Africa/Straits/Malaya/Leeward/Windward).
+  - `multi_colony_misparse` (22): unrelated colonies concatenated (British
+    Honduras=Canada, Weihaiwei=Pacific, the recurring "Misc Islands appendix bleeds
+    into the preceding colony" pattern) → quarantine/split, do not attribute.
+    Corroboration-gated (≥4 unrelated headers OR size outlier) so incidental prose
+    mentions (Queensland mentioning St Lucia) don't false-trigger.
+  - `appendix_contamination` (7): honours/cross-colony markers (Aden 1922) — reuses
+    the personnel pipeline's detector; catches bleed size misses.
+  - `volume_dump` (2): absolute-size backstop (1888 Ascension 212k, Tristan 200k).
+  - `size_outlier_high` (23): demoted from the old `anomalous_giant` — now only a
+    review signal, since content detection owns the misparse verdict.
+  Tuning the federation map took two passes (THE_ prefixes, compound MALAYA_*
+  names via longest-substring key match, Commonwealth/UMS/Western Pacific/SA+HCT
+  groupings). All 2,946 files still process in ~20s, zero errors.
 - **Open questions for review:** (a) should canonical output be committed to
   `generated/reports_canonical/` per convention, or kept regenerable? (b) is the
   roster/report boundary (`roster_start_block`, via `ROSTER_MARKERS`) good enough,
   or should it be a hard split? (c) freeze the block schema before bulk-generating.
+  (d) `multi_colony_misparse` files: quarantine, or build a splitter that carves
+  the misfiled foreign sections into their own canonical docs?
