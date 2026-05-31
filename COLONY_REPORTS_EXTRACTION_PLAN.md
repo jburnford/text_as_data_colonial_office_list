@@ -89,28 +89,34 @@ corpus-wide counts, shows:
    (`GRAPHRAG_PIPELINE_DESIGN.md`). Numeric extraction needs transcription
    discipline and confidence flagging, not silent computation.
 7. **Enormous variation by colony size — the richness assumption only holds for
-   large colonies.** Measured over all 2,946 files, words/file range 0–21,528
-   (p10 520, median 2,095, p90 7,060). Crucially, **statistical density scales
-   with size**: files <800 words have a *median of 0* pipe-table rows, while files
-   >5,000 words have a *median of 91*. Small colonies are qualitatively different,
+   large colonies.** Measured over all 2,946 files, words/file span 0–212,392
+   (p10 900, median 4,120, p90 11,350; the few giants are multi-state entries
+   like AUSTRALIA at ~85k and an anomalous 1888 ASCENSION). Crucially,
+   **statistical density scales with size**: files <800 words have a *median of 0*
+   pipe-table rows, while files >5,000 words have a *median of 72*. Small colonies
+   are qualitatively different,
    not just shorter — 1900 Ascension's entire report is *Situation / History /
    Trade ("There is no trade.")* with no finance, population, or commodity data.
    So `COL_Observation`/`COL_TradeFlow` output will be **rich for ~50 large
    colonies and near-empty for the long tail of small ones** — which is correct
    behaviour, not extraction failure, and the pipeline/validation must not flag it
    as such.
-8. **Size and decade interact.** A colony's report grows (or shrinks) over time:
-   Falkland goes 940 words / 0 tables (1867) → 5,736 words / 30 tables (1960),
-   acquiring tabular statistics only in later editions; Jamaica peaks ~1920 then
-   contracts. Era-only or size-only assumptions both fail; expectations must be
-   set per (colony, year), seeded from the file's own size/table profile.
+8. **Size and decade interact, non-monotonically.** Jamaica grows steadily
+   (4,805 w in 1867 → 11,779 w in 1940); Falkland holds ~2,000–3,200 w with
+   tables in every era *except* its broken 1940 file (291 w, 0 tables). So neither
+   "later = bigger" nor "small colony = always sparse" holds reliably. Expectations
+   must be set per (colony, year) from the file's own size/table profile, with
+   sharp drops vs. neighbouring editions flagged as likely parse failures (§2.9).
 9. **A long tail of degenerate/broken files needs triage before extraction.**
-   2 files are empty; 17 are <150 words; a confirmed truncated parse exists
-   (1898 `JAMAICA.txt` is a 57-word fragment although Jamaica is ~10,000 words in
-   every neighbouring edition); and some filenames are OCR-garbled
-   (`CceyYLON.txt`, `PWLPROTECTORATES.txt`, `MesoPOTAMIA.txt`, `CETTINGE.txt`).
-   These must be detected and quarantined up front, or they will masquerade as
-   "small colonies with no data."
+   **104 files are <150 words and 172 are <400**, including a genuinely empty
+   one (`1958/jamaica.txt`, 0 bytes) and a truncated parse (`1917/AUSTRALIA.txt`,
+   1 word — while Australia is 80,000+ words in 1919–1927). A missing report can
+   *masquerade as a small colony*: 1940 Falkland is 291 words / 0 tables, far
+   below its own 1900/1920 ~2,300-word reports. Filenames are also OCR-/parse-
+   garbled (`_REF` suffixes, split entries) and case-inconsistent
+   (`JAMAICA.txt` vs `jamaica.txt`). All of this must be detected and quarantined
+   up front — and crucially **distinguished from genuinely small colonies** — or
+   broken files will be silently scored as "colonies with no data."
 
 ---
 
@@ -329,7 +335,7 @@ clustered rule-first then LLM-assisted, then human-approved:
 |---|---|---|
 | **0. Canonicalization** | Format-agnostic normalizer (md/txt → one internal JSON); measure heading/table recall on a labelled sample | `col_canonicalize_reports.py`, `generated/reports_canonical/*.json` |
 | **A. Schema + taxonomy seed** | Freeze labels; sweep ~40 files across eras/regions to seed indicator/commodity/section taxonomies | `guides/colony_report_schema.py`, three `taxonomy/*_taxonomy.json` |
-| **B. Segmenter + pilot** | Build a gold standard deliberately spanning the size×decade matrix — a large colony early & late (Jamaica 1867/1920), a statistics-dense one (Ceylon), a small colony early & late (Falkland 1867 prose-only / 1960 table-bearing), and a degenerate file (1898 Jamaica fragment) — so accuracy is measured across the real variation, not just on big colonies | `col_segment_reports.py`, `test_data/report_gold/*` |
+| **B. Segmenter + pilot** | Build a gold standard deliberately spanning the size×decade matrix — a large colony early & late (Jamaica 1867/1940), a statistics-dense one (Ceylon), a small colony across eras (Falkland 1867/1920), a near-empty real one (1900 Ascension, 134 w), and a degenerate file (1958 Jamaica, empty; or 1940 Falkland, truncated) — so accuracy is measured across the real variation, not just on big colonies | `col_segment_reports.py`, `test_data/report_gold/*` |
 | **C. Structured extraction** | Run Track A over the corpus with checkpointing/auto-push (reuse `extraction_corpus.py` patterns) | `col_extract_reports.py`, `generated/reports/*.json` |
 | **D. Normalization** | Cluster + review indicators/commodities/sections; add canonical units/currencies | populated taxonomies, `col_normalize_reports.py` |
 | **E. Neo4j load** | Constraints/indexes; load reports, observations, trade flows | `col_load_reports_neo4j.py` |
