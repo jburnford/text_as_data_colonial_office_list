@@ -152,6 +152,30 @@ corpus-wide counts, shows:
       stamp each observation with the correct sub-unit, not just "Australia".
     (These are *measured* facts from the file inventory, not assumptions — the
     exact-year coexistence was checked per directory.)
+11. **The existing personnel pipeline already located many parse problems — and
+    its failures map to *report-track opportunities* (verified cross-reference).**
+    `EXTRACTION_AUDIT_RESULTS.md` flags 627 colony-years (317 "empty extraction",
+    72 missing-governor, 93 dual-discrepancy, 144 Neo4j-mismatch, 1 honours
+    contamination). Cross-referencing these against the source files
+    (`col_canonicalize_reports.py` word/table counts) shows:
+    - **"Empty extraction (0 officials)" is a personnel-extractor failure, not an
+      empty source.** Of 276 matched cases, only **20 have a truly empty source
+      (<150 w); 228 are report-rich (≥1,000 w)** — and they are exactly the giant
+      table-dense mega-entries the staff-list extractor could not segment:
+      Australia 1914–1922 (~77–85k w, 60–80 table-blocks each), South Africa
+      1913–1919, Straits Settlements 1928–29, West Indies 1959. **These are the
+      report track's prime recovery targets**: a century of finance/trade/
+      population tables the personnel pass dropped on the floor.
+    - **Source-level contamination is real and the personnel honours-marker
+      detector catches it better than a size heuristic.** Aden 1922 has an
+      appendix honours list bled into its entry (6,887 w vs neighbours' 336/1,087;
+      33 in-text honours markers), but is *not* flagged as size-anomalous because
+      Aden's own median is inflated by other large editions. Reuse that detector
+      for section-boundary bleed (Track A step 0).
+    - **Entity-name drift between pipelines** must be reconciled before any join:
+      personnel keys (`Aden_Colony`, `Bahama_Islands`, `Bermudas`) differ from the
+      filenames (`ADEN`, `BAHAMAS`, `BERMUDA`) — same problem as the federation
+      name drift in §2.10, now also a cross-pipeline concern.
 
 ---
 
@@ -342,6 +366,18 @@ text. This is the single highest-leverage step:
   against its colony's neighbouring editions to catch truncated parses (the 1898
   Jamaica fragment). Route these to a quarantine/review queue rather than the
   extractor, so they are not silently mistaken for genuinely small colonies.
+- **Reuse the personnel pipeline's error signals — but invert their meaning
+  (Finding §2.11).** `EXTRACTION_AUDIT_RESULTS.md` already catalogues 627 flagged
+  colony-years. Two of its signals transfer to the report track: (a) the
+  **honours / cross-colony-directory contamination** detector (section-boundary
+  bleed) catches source corruption that a size heuristic misses — e.g. Aden 1922
+  carries 33 honours-list markers in-text but is not size-anomalous against
+  Aden's own (inflated) median; import this marker check into triage. (b) The
+  small subset of *truly* empty sources corroborates Phase-0 triage (20/20 agree).
+  **Do NOT, however, treat the personnel "empty extraction (0 officials)" list as
+  a skip-list:** 228 of 276 such cases are report-rich (≥1,000 w) — they are the
+  mega-entries the staff-list extractor choked on, and are the report track's
+  highest-value *recovery* targets, not failures (see §2.11).
 - **Record a per-file expectation profile (Finding §2.7–2.8):** word count and
   table count, used downstream to set realistic yield expectations per
   (colony, year) — a near-empty extraction from Ascension is success; a

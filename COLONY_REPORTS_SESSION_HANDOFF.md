@@ -180,6 +180,27 @@ Plan changes made for this:
   1888 Ascension 212k-w misparse is still caught despite Ascension's tiny median);
   truncation IS gated on a median floor of 300w (a tiny median = stub editions,
   not a trustworthy baseline).
+## 8. Cross-reference with the personnel pipeline's error records (audit session)
+
+The existing personnel pipeline already catalogues parse problems
+(`EXTRACTION_AUDIT_RESULTS.md`: 627 flagged; `generated/corpus_state.json`:
+2,880 completed / 0 failed; 679 `*_quarantined_*.json`). Verified findings:
+- **Personnel "empty extraction (0 officials)" ≠ empty source.** 228 of 276
+  matched cases are report-rich (≥1,000 w) — the giant federation entries
+  (Australia 1914–22, South Africa, Straits, West Indies) the staff-list
+  extractor choked on. **Report-track recovery targets, NOT skips.** Only 20 are
+  truly empty sources — and those agree 100% with Phase-0 triage.
+- **Honours/cross-colony contamination detector** (Aden 1922: 33 in-text honours
+  markers, 6,887 w) catches source bleed that the size heuristic misses (Aden's
+  median is inflated). Worth importing into Phase-0 triage.
+- **Colony-name drift** between pipelines (`Aden_Colony`↔`aden`,
+  `Bahama_Islands`↔`bahamas`, `Bermudas`↔`bermuda`) breaks naive joins — recorded
+  as Finding §2.11 in the plan.
+
+These are folded into the plan: new Finding §2.11 + a Phase-0 triage bullet.
+
+---
+
 - **Open questions for review:** (a) should canonical output be committed to
   `generated/reports_canonical/` per convention, or kept regenerable? (b) is the
   roster/report boundary (`roster_start_block`, via `ROSTER_MARKERS`) good enough,
