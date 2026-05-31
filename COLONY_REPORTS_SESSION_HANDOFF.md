@@ -145,5 +145,42 @@ Plan changes made for this:
 - `5601090` / `1f3c60d` colony-size & decade variation; corrected degenerate-file
   stats
 - `6e92dcf` verified federation finding; dropped fabricated 1871/blob material
-- (this session) OCR-redundancy principle + cross-edition reconciliation step +
+- (prev session) OCR-redundancy principle + cross-edition reconciliation step +
   this handoff doc
+- (audit session) data re-audit excl. Jamaica/Ceylon: fixed fabricated 1900
+  Ascension structure, corrected Canada pipe-row range (114–465), added
+  independent Mauritius worked example + Mauritius/Natal redundancy checks
+- (audit session) **Phase 0 built**: `col_canonicalize_reports.py` — deterministic
+  format-agnostic canonicalizer (no LLM needed; validated on all 2,946 files in
+  ~21s). Block segmentation + ragged-table parsing + heading-style detection +
+  degenerate triage. **Output JSON not yet committed** (regenerable; awaiting
+  schema sign-off so the block schema can still change). Heading→slug meaning
+  mapping is stubbed (`heading_slug_guess`) for the later LLM normalizer.
+
+---
+
+## 7. Phase-0 canonicalizer — design notes for review (next session)
+
+- **Block kinds emitted:** `colony_header`, `heading`, `prose`, `table`,
+  `dot_leader`. Each carries `line_start/end` + `char_start/end` back-pointers.
+- **Heading detection is structural, not semantic.** It finds heading
+  *candidates* and a `heading_style` ∈ {md, bold, bare_period, allcaps,
+  inline_dash}; `section_slug` is filled only by a small high-precision keyword
+  map (`SECTION_KEYWORDS`), else left null with `needs_model=true`. The real
+  meaning-based mapping is the deferred LLM step (no backend in this container).
+- **Inline `Subheading.—` pattern matters a lot** (4,221 occurrences corpus-wide):
+  e.g. `Railways.—There are four lines…`. Captured as `inline_heading` on the
+  prose block, prose left intact.
+- **Tables are ragged** — header col-count often ≠ data col-count, and "Total"
+  rows can lose the leading pipe. Parser keeps all rows + `ragged` flag rather
+  than forcing a rectangle.
+- **Triage thresholds** (tunable constants at top of file): very_short<150w,
+  short<400w, truncation<30% of colony median, giant>5×median AND ≥5000w abs.
+  The giant check is deliberately NOT gated on the colony-median floor (so the
+  1888 Ascension 212k-w misparse is still caught despite Ascension's tiny median);
+  truncation IS gated on a median floor of 300w (a tiny median = stub editions,
+  not a trustworthy baseline).
+- **Open questions for review:** (a) should canonical output be committed to
+  `generated/reports_canonical/` per convention, or kept regenerable? (b) is the
+  roster/report boundary (`roster_start_block`, via `ROSTER_MARKERS`) good enough,
+  or should it be a hard split? (c) freeze the block schema before bulk-generating.
