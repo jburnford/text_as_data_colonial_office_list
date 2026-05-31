@@ -12,41 +12,10 @@ linking).
 
 So far the pipeline has mined **people** out of the Colonial Office List
 (`COL_PersonRecord → COL_Official → COL_Person`). But each colony entry in every
-volume (1867–1966, ~2,228 colony-year `.txt` files) opens with a **semi-structured
-annual report** on the colony itself, *before* the staff lists begin. By line
-count this descriptive/statistical material is roughly **50–70% of each file** and
-is currently unextracted.
-
-The format mixes **two presentations in every era**: figures embedded in prose
-*and* pipe/markdown tables. Measured prevalence of pipe rows: 1867 39/44 files,
-1900 43/55, 1930 36/42, 1950 37/37 — so tables are common throughout 1867–1966,
-not a late innovation. Sections are always introduced by a **bare heading line
-ending in `.`**.
-
-**Prose with embedded statistics** (e.g. 1900 `JAMAICA.txt`):
-
-```
-Industry.
-... sugar (export 284,875 cwt., value 120,958L); coffee (export 85,410 cwt.,
-value 165,494L); ginger (export 12,572 cwt., value 34,884L) ...
-```
-
-**Pipe tables, interleaved with that prose, in the same entries** (1930 and 1867
-`JAMAICA.txt`). Note they are **OCR-noisy**: placeholder headers (`| 1 | 2 | 3 |`),
-header and data rows split apart, ragged columns:
-
-```
-| Year    | Revenue    | Expenditure | British Tonnage | Total Tonnage |
-| 1919-20 | £1,802,778 | £1,444,818  | 801,791         | 2,084,942     |
-
-| 1 | 2 | 3 |
-| Coloured | 121,955 | |
-| White | 14,692 | |
-```
-
-So the extractor must handle **both** prose figures **and** messy pipe tables
-across all decades. The period each figure describes is stated in the prose/row
-("for 1928", "1919-20"), never assumed equal to the volume year.
+volume (1867–1966, ~5,300 colony-year `.txt` files) opens with a
+**semi-structured annual report** on the colony itself, *before* the staff lists
+begin. By line count this descriptive/statistical material is roughly **50–70% of
+each file** and is currently unextracted.
 
 This is a century-long, ~50-colony **panel dataset** of public finance, trade,
 population, area, shipping, communications, and production — plus rich narrative
@@ -60,42 +29,48 @@ officials, 1870–1950", "which colonies' export base was >80% one commodity",
 
 ## 2. What the source actually looks like (extraction-relevant findings)
 
-A cross-decade read of Jamaica, Ceylon, Hong Kong, and smaller colonies shows:
+A cross-decade read of Jamaica, Ceylon, Hong Kong, and smaller colonies, plus
+corpus-wide counts, shows:
 
-1. **Three surface patterns to exploit, of differing difficulty:**
-   - *Easy (all eras):* section boundaries — a **short line ending in `.`** acts
-     as a heading (`Trade.`, `Revenue.`, `Public Debt.`, `Situation and Area.`,
-     `Constitution.`, `Industry.`, `Shipping.`). These segment the entry cheaply.
-   - *Medium (all eras):* **markdown/pipe tables** (`| Year | Revenue | … |`)
-     carry much of the finance/trade/shipping/population data and can be parsed
-     deterministically — but they are OCR-noisy (placeholder `| 1 | 2 | 3 |`
-     headers, headers split from data, ragged columns), so the LLM is needed to
-     label/repair columns and align units.
-   - *Hard (all eras):* **figures embedded in prose sentences**, period stated in
-     words ("for 1928", "for the financial year 1928-29", "at the census taken in
-     1921"). These need LLM/regex extraction.
-   Currency markers vary even within a file (`£6,007,624`, `120,958L`, `Rs.`).
-2. **Consistent section vocabulary:** Situation/Area, History, Climate &
-   Inhabitants, Constitution/Government, Finance (Revenue & Expenditure, Debt),
-   Population, Trade (Imports/Exports), Shipping & Tonnage, Communications
-   (post/telegraph/rail/roads), Industry/Products, Education, Medical, Judicial,
-   Ecclesiastical, Banking/Currency — then Governors list and Civil Establishment
-   (personnel, already extracted).
+1. **Section vocabulary is consistent**, but **its formatting is not.** Sections
+   are introduced by a heading that may be a bare line ending in `.`
+   (`Trade.`, `Revenue.`, `Situation and Area.`), a Markdown `### Finances`, or a
+   `*bold*` title — inconsistently, even for the same colony across years.
+2. **Statistics appear in two presentations, often in the same entry:**
+   - *Prose-embedded figures* (all eras), e.g. 1900 `JAMAICA.txt`:
+     ```
+     Industry.
+     ... sugar (export 284,875 cwt., value 120,958L); coffee (export 85,410
+     cwt., value 165,494L); ginger (export 12,572 cwt., value 34,884L) ...
+     ```
+   - *Pipe/Markdown tables* (also all eras; 1867 `JAMAICA.txt` already has them):
+     ```
+     | Year | Revenue (£) | Expenditure (£) |
+     | 1856 | 221,768     | 213,612         |
+     | 1862 | 291,087     | 292,402         |
+     ```
 3. **Figures are retrospective.** A 1930 volume reports 1928–29 figures; a 1900
    volume reports 1894–98. **The year a statistic describes (`observation_year`)
-   is almost never the volume's `edition_year`**, and it is stated in the prose
-   ("for 1928", "for the financial year 1928-29"). This is the single most
-   important modeling consequence.
+   is almost never the volume's `edition_year`**, and it is stated in the
+   prose/row ("for 1928", "1862"). This is the single most important *modeling*
+   consequence.
 4. **Units/currencies vary** by colony and era: £ vs Rupees (Ceylon, Straits,
-   Mauritius) vs HK$ (Hong Kong); area in square miles; crops in tons / cwt /
-   lbs / stems / acres. Currency regimes also change mid-century for a colony.
-5. **Format drifts across decades:** early volumes (1867–1880s) carry more
-   constitutional/historical narrative (1867 Jamaica devotes pages to the Morant
-   Bay rebellion) but already include statistical tables; mid-period volumes are
-   the densest; war-era editions (1946–48) are thin. **OCR garbles headings,
-   table structure, and digits throughout**, so heading detection must be fuzzy,
-   table parsing tolerant, and numbers confidence-flagged.
-6. **OCR reliability is lower on digits than text** — a documented risk
+   Mauritius) vs HK$ (Hong Kong); a trailing `L`/`l.` for pounds; area in square
+   miles; crops in tons / cwt / lbs / stems / acres. Currency regimes also change
+   mid-century for a colony.
+5. **The files are an inconsistent md/txt mix — the dominant *practical*
+   problem.** The upstream OCR/parsing step emitted Markdown for some
+   files/sections and plain text for others, with no consistency. Measured over
+   5,325 parsed files: ~98% contain at least one pipe row, but only **31% have
+   proper `|---|` table separators**, **28% have `*bold*` titles**, **18% have
+   `###` headings** — and some volumes (e.g. parts of 1960) have none of these
+   markers at all. The *same colony* swings between conventions year to year.
+   **A regex keyed on any single marker (`###`, `|---|`, bare `Heading.`) covers
+   at most ~⅓ of the corpus and silently drops the rest.** Hard-coded parsing
+   will fail; structure detection must be model-based and format-agnostic.
+6. **OCR is noisy on structure and digits.** Tables have placeholder headers
+   (`| 1 | 2 | 3 |`), header rows split from data, ragged columns; headings are
+   garbled; digits are the least reliable tokens of all
    (`GRAPHRAG_PIPELINE_DESIGN.md`). Numeric extraction needs transcription
    discipline and confidence flagging, not silent computation.
 
@@ -193,31 +168,48 @@ CREATE INDEX col_obs_colony          IF NOT EXISTS FOR (o:COL_Observation)      
 
 ---
 
-## 5. Extraction approach
+## 5. Extraction approach — format-agnostic, LLM-first
 
-Two tracks, both fed by an extended Stage 1 segmenter, both reusing existing
-backends (local **Ollama gpt-oss:120b** primary; **OpenRouter**/**Gemini** and
-**instructor + pydantic** for validation/fallback) and the project's
-code-generation review option.
+The corpus is too inconsistent (Finding §2.5) for a parser that keys on Markdown
+markers or fixed layouts. The approach is therefore **structure-detection by
+model, not by regex**, with cheap deterministic steps used only where they are
+reliable, and regex used only as a *recall booster/cross-check*, never as the
+primary extractor.
+
+Backends reuse the existing stack: local **Ollama gpt-oss:120b** primary;
+**OpenRouter**/**Gemini** and **instructor + pydantic** for validation/fallback;
+plus the project's code-generation review option.
+
+### Phase 0 — Source canonicalization (new, addresses the md/txt mix)
+
+Before extraction, run a light **normalizer that maps every file into one
+internal representation** regardless of whether it arrived as Markdown or plain
+text. This is the single highest-leverage step:
+
+- Detect headings by *meaning* (fuzzy match against the section taxonomy),
+  whether they appear as `### Finances`, `**Trade**`, `Trade.`, or `TRADE`.
+- Detect table-ish regions structurally (lines of mostly digits/separators,
+  pipe-aligned or whitespace-aligned) rather than by requiring `|---|`.
+- Emit a uniform JSON: `{section, kind: prose|table|mixed, raw_text, table_cells?}`.
+- Keep a back-pointer (`source_span`) to the original file for audit.
+
+This converts "5,325 files in N formats" into "5,325 files in one format," so the
+downstream extractor sees consistent input and the **md/txt heterogeneity is
+solved once, centrally**, instead of being re-fought in every regex.
+
+> Note: this also retroactively fixes a known pipeline gap — earlier extraction
+> skipped `.md` source files entirely; canonicalization removes that class of bug
+> by making format irrelevant.
 
 ### Track A — Structured statistics (the hard, high-value part)
 
-1. **Segment cheaply.** Extend the Stage 1 segmenter to split each entry at the
-   bare `Heading.` lines (fuzzy-matched against the section taxonomy to tolerate
-   OCR garbling), tagging each block with a `COL_ReportSectionType` and marking
-   whether it contains a pipe table, prose, or both.
-2. **Parse pipe tables (all eras), LLM-assisted.** Where a block holds a
-   `| Year | Revenue | … |` table, read cells directly and capture the period per
-   row into `observation_year_start/end`, keeping each cell's `value_raw` and a
-   parsed `value_num` + `currency_raw`. Because the tables are OCR-noisy
-   (placeholder headers, split header/data rows, ragged columns), the LLM
-   *labels/repairs columns and aligns units* over the raw cells — it does not
-   re-transcribe digits it might hallucinate.
-3. **Extract prose-embedded figures with the LLM + pydantic schema**
-   (`ColonyReportExtraction`) — needed in every era for figures stated in
-   sentences. The model reads sentences like *"The revenue and expenditure for
-   the financial year 1928-29 were £2,663,924 and £2,659,895 respectively"* and
-   emits two `COL_Observation` records with `observation_year_start=1928,
+1. **Segment** each entry into section blocks using the Phase-0 canonical form
+   (no raw-format regex), tagging each block with a `COL_ReportSectionType`.
+2. **Extract with the LLM + pydantic schema** (`ColonyReportExtraction`) over
+   each block, handling prose and table cells uniformly. The model reads
+   *"The revenue and expenditure for the financial year 1928-29 were £2,663,924
+   and £2,659,895 respectively"* (or the equivalent table row) and emits two
+   `COL_Observation` records with `observation_year_start=1928,
    observation_year_end=1929`. Prompt rules, encoded tersely (gpt-oss responds
    better to rules than examples):
    - *Transcribe digits exactly; never add, sum, round, or convert.*
@@ -227,15 +219,19 @@ code-generation review option.
    - *Keep `value_raw` as the verbatim substring and a `source_span` offset so
      every number is auditable back to the page.*
    - *If illegible/ambiguous, emit with `confidence<0.5` rather than guessing.*
-4. **Verify numerics (cheap, deterministic):** a second pass cross-checks stated
-   total vs. sum of printed components when both appear (**flag mismatches, do not
+3. **Regex only as a recall cross-check.** A few high-precision patterns
+   (currency-prefixed number near a year) run alongside the LLM purely to flag
+   figures the model may have missed — discrepancies are surfaced for review, not
+   trusted blindly. Regex never owns an extraction.
+4. **Verify numerics (cheap, deterministic):** cross-check stated total vs. sum
+   of printed components when both appear (**flag mismatches, do not
    auto-correct**), magnitude plausibility, and year-over-year continuity against
    neighbouring editions. Anomalies set `quarantined=true`.
 
 ### Track B — Narrative chunking + embedding
 
-1. Chunk narrative sections by heading + paragraph (≤1,500 words, ≥200), tag with
-   `section_slug` and `edition_year`.
+1. Chunk narrative sections (from Phase-0 output) by heading + paragraph
+   (≤1,500 words, ≥200), tag with `section_slug` and `edition_year`.
 2. Embed (open-source or API embedder, consistent with the Stage 5 decision);
    store `COL_NarrativeChunk` with `DESCRIBES`/`OF_SECTION` edges.
 3. GraphRAG-ready: graph queries select colony-years, vectors retrieve prose.
@@ -261,8 +257,9 @@ clustered rule-first then LLM-assisted, then human-approved:
 
 | Phase | Work | Output |
 |---|---|---|
+| **0. Canonicalization** | Format-agnostic normalizer (md/txt → one internal JSON); measure heading/table recall on a labelled sample | `col_canonicalize_reports.py`, `generated/reports_canonical/*.json` |
 | **A. Schema + taxonomy seed** | Freeze labels; sweep ~40 files across eras/regions to seed indicator/commodity/section taxonomies | `guides/colony_report_schema.py`, three `taxonomy/*_taxonomy.json` |
-| **B. Segmenter + pilot** | Extend segmenter; build a gold standard for ~5 colonies spanning eras (Jamaica, Ceylon, Hong Kong, a settler colony, a small island) | `col_segment_reports.py`, `test_data/report_gold/*` |
+| **B. Segmenter + pilot** | Build a gold standard for ~5 colonies spanning eras (Jamaica, Ceylon, Hong Kong, a settler colony, a small island) | `col_segment_reports.py`, `test_data/report_gold/*` |
 | **C. Structured extraction** | Run Track A over the corpus with checkpointing/auto-push (reuse `extraction_corpus.py` patterns) | `col_extract_reports.py`, `generated/reports/*.json` |
 | **D. Normalization** | Cluster + review indicators/commodities/sections; add canonical units/currencies | populated taxonomies, `col_normalize_reports.py` |
 | **E. Neo4j load** | Constraints/indexes; load reports, observations, trade flows | `col_load_reports_neo4j.py` |
@@ -270,21 +267,25 @@ clustered rule-first then LLM-assisted, then human-approved:
 | **G. Validation + viz** | Gold-standard accuracy, panel QA (continuity, totals), demo charts | `col_audit_reports.py`, sample notebooks/HTML |
 | **H. External linking (opt.)** | Commodities → Wikidata; indicators → a standard vocab | Stage-6-style `SAME_AS`/`EXTERNAL_LINK` edges |
 
-Phases A→B should be reviewed and the schema frozen before C runs at corpus scale.
+Phase 0 should be validated (heading/table recall on a labelled sample) and
+Phases A→B reviewed, with the schema frozen, before C runs at corpus scale.
 
 ---
 
 ## 8. Risks & mitigations
 
-- **OCR digit errors** → raw + parsed values, confidence scores, quarantine,
-  cross-edition continuity checks; never auto-compute.
+- **Inconsistent md/txt formatting (the headline risk)** → Phase-0
+  canonicalization solves it once, centrally; model-based structure detection;
+  regex only as a cross-check, never primary.
+- **OCR digit/table errors** → raw + parsed values, confidence scores,
+  quarantine, cross-edition continuity checks; never auto-compute.
 - **observation-year vs edition-year confusion** → first-class
   `observation_year_start/end`; loaders link `OBSERVED_FOR` by observation year.
 - **Unit/currency heterogeneity** → preserve `*_raw`; convert only in a versioned
   normalization layer with documented rates.
-- **Format drift across a century** → era-aware prompts/segmentation; extend the
-  regional `guides/*` (which already encode colony-specific patterns) with
-  report-format notes.
+- **Format drift across a century** → era-aware prompts; extend the regional
+  `guides/*` (which already encode colony-specific patterns) with report-format
+  notes.
 - **Federations / sub-colony tables** (Leeward/Windward, Straits, Canada) → reuse
   existing federation handling; attach observations to the correct member
   `TerritoryYear`.
@@ -296,16 +297,18 @@ Phases A→B should be reviewed and the schema frozen before C runs at corpus sc
 ## 9. Teaching value (this is also a course project)
 
 The colony-report track is a strong HIST 496 extension: the *same* document
-yields a second, quantitatively different extraction problem (noisy tables vs.
-clean rosters). Students practice schema design for panel data and confront the
-observation-year subtlety and OCR-confidence trade-offs first-hand. The Phase-B
-gold standard can double as a lab exercise.
+yields a second, quantitatively different extraction problem (noisy, multi-format
+tables vs. clean rosters). Students see firsthand why upstream format
+inconsistency defeats regex and motivates a canonicalization step, practice
+schema design for panel data, and confront the observation-year subtlety and
+OCR-confidence trade-offs. The Phase-B gold standard can double as a lab.
 
 ---
 
 ## 10. Immediate next steps
 
-1. Review/approve the schema (Section 4) and freeze node/edge names.
-2. Run the Phase-A corpus sweep to seed the three taxonomies.
-3. Draft `guides/colony_report_schema.py` and stand up the Phase-B gold standard
-   for 5 colonies before any corpus-scale run.
+1. Review/approve the schema (§4) and freeze node/edge names.
+2. Prototype the Phase-0 canonicalizer and measure heading/table recall on a
+   labelled sample spanning markdown-heavy and plain-text files.
+3. Run the Phase-A corpus sweep to seed the three taxonomies; stand up the
+   Phase-B gold standard for 5 colonies before any corpus-scale run.
