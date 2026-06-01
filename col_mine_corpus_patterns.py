@@ -269,13 +269,28 @@ def iterative_decontaminate(files, root, gazetteer, seed_exclude):
 
 def mine_headings(root, gazetteer):
     """Frequency-rank heading candidates and table column headers across the
-    corpus (Phase-A taxonomy seed, at scale)."""
+    corpus (Phase-A taxonomy seed, at scale).
+
+    Only blocks BEFORE the personnel roster (`roster_start_block`) are counted,
+    so the derived section/indicator vocabularies are report content rather than
+    roster department names (civil establishment, treasury, post office, medical
+    department, judicial establishment, foreign consuls, ...) which otherwise
+    dominate the frequencies and pollute the Phase-A taxonomy seed. Blocks are
+    index-ordered, so we stop at the roster marker. Files with no detected roster
+    boundary contribute all their blocks — we cannot do better without the
+    boundary — and are tallied so that coverage gap stays visible."""
     files = canon.list_corpus_files(root)
     heading_freq = Counter()
     column_freq = Counter()
+    no_boundary = 0
     for f in files:
         doc = canon.process_file(f, root, gazetteer)
+        roster = doc["profile"]["roster_start_block"]
+        if roster is None:
+            no_boundary += 1
         for b in doc["blocks"]:
+            if roster is not None and b["index"] >= roster:
+                break  # reached the roster; report content is all before this
             if b["kind"] == "heading":
                 txt = b.get("heading_text", "").strip().lower()
                 if 2 <= len(txt) <= 40:
@@ -286,7 +301,7 @@ def mine_headings(root, gazetteer):
                     cl = cell.strip().lower()
                     if 1 <= len(cl) <= 30 and not cl.isdigit():
                         column_freq[cl] += 1
-    return heading_freq, column_freq
+    return heading_freq, column_freq, no_boundary
 
 
 def cross_check_curated(root, nest_hosts):
@@ -379,7 +394,10 @@ def main():
     for tok, n in sorted(floating.items(), key=lambda x: -x[1]):
         print(f"  {tok:30s} spans {n} families")
 
-    heading_freq, column_freq = mine_headings(root, gazetteer)
+    heading_freq, column_freq, no_boundary = mine_headings(root, gazetteer)
+    print(f"\n(section/indicator vocab mined from report content only — blocks "
+          f"before the roster boundary; {no_boundary} files had no detected "
+          f"roster and contributed all blocks)")
     print(f"\n=== Top {args.top} heading texts (empirical section vocabulary) ===")
     for txt, n in heading_freq.most_common(args.top):
         print(f"  {n:6d}  {txt}")
@@ -418,6 +436,10 @@ def main():
                 "family_members_removed_as_contamination": contaminated,
             },
             "curated_map_coverage": cross,
+            "vocab_scope": {
+                "mined_from": "blocks before roster_start_block (report content only)",
+                "files_without_roster_boundary": no_boundary,
+            },
             "families": families,
             "family_parent_variants": {p: sorted(v) for p, v in family_members.items()
                                        if p in families},

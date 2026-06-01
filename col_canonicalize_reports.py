@@ -86,6 +86,24 @@ def _norm(s):
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
 
+# Generic administrative qualifier words. A header equal to the host name plus
+# only these ("Somaliland Protectorate", "Aden Colony") is a name-drift variant
+# of the host, not foreign content — but a compound like "Western Australia"
+# (which adds the substantive word "western") is a distinct sub-unit and must be
+# kept. Comparing word-level cores tells the two apart.
+_GENERIC_QUALIFIERS = {"protectorate", "colony", "settlement", "settlements",
+                       "territory", "territories", "islands", "island",
+                       "possessions", "dependencies", "the", "of", "and"}
+
+
+def _core_words(s):
+    """Normalized join of a name's substantive words, dropping generic
+    administrative qualifiers (so 'Somaliland Protectorate' -> 'somaliland',
+    but 'Western Australia' -> 'westernaustralia')."""
+    return "".join(w for w in re.findall(r"[a-z]+", s.lower())
+                   if w not in _GENERIC_QUALIFIERS)
+
+
 _SUBUNIT_SOURCE = {
     "leeward islands": ["Antigua", "Dominica", "Montserrat", "St Christopher and Nevis",
                         "St Christopher", "Nevis", "St Kitts", "Virgin Islands", "Anguilla"],
@@ -241,6 +259,22 @@ ROSTER_MARKERS = re.compile(
     r"^(civil\s+establishment|military\s+officers|foreign\s+consuls|"
     r"officers\s+of\s+|staff\b|list\s+of\s+officers|judicial\s+department|"
     r"government\s+house\b)",
+    re.I,
+)
+
+# Secondary / FALLBACK roster markers: office-and-department headings that occur
+# only inside the personnel roster, never in the report narrative. Validated
+# against the 1,840 files that already carry a primary-marker boundary — each of
+# these, when present, falls AT/AFTER the true boundary 91-94% of the time, so it
+# is a reliable roster signal. They are used ONLY when no primary marker is found
+# (department_fallback in process_file), so they can never pull an already-detected
+# boundary earlier. Deliberately EXCLUDES executive/legislative council, governors
+# and customs, which the same validation showed are predominantly report content
+# (78-90% false-positive), i.e. genuinely meaning-ambiguous and left to the model.
+ROSTER_DEPARTMENT_MARKERS = re.compile(
+    r"^(treasury|audit\s+(office|department)|medical\s+department|"
+    r"public\s+works\s+department|judicial\s+establishment|ecclesiastical|"
+    r"colonial\s+secretary|(general\s+)?post\s+office)\b",
     re.I,
 )
 
@@ -545,6 +579,7 @@ def detect_boundary_issues(text, colony_slug, gazetteer):
     """
     # Drop a leading article so "THE_LEEWARD_ISLANDS" matches the federation key.
     self_norm = _norm(re.sub(r"^the[\s_]+", "", colony_slug, flags=re.I))
+    self_core = _core_words(colony_slug.replace("_", " "))
     # Resolve the federation key by substring, so compound/reorganized names like
     # "MALAYA_STRAITS_SETTLEMENTS" find "straits settlements" and inherit its
     # sub-units. Pick the longest matching key to avoid spurious short matches.
@@ -555,17 +590,32 @@ def detect_boundary_issues(text, colony_slug, gazetteer):
     is_federation = fed_key is not None and fed_key in SUB_UNITS
 
     foreign = []
-    for ln in text.splitlines():
+    foreign_lines = {}  # normalized name -> first 1-based line it appears as a header
+    for li, ln in enumerate(text.split("\n"), start=1):
         s = ln.strip().rstrip(".").strip()
         if RE_CAPS_NAME.match(s):
             # "THE NORTHERN TERRITORY" / "THE COMMONWEALTH" -> drop the article
             s = re.sub(r"^THE\s+", "", s, flags=re.I)
             nm = _norm(s)
-            if nm and nm != self_norm and nm in gazetteer:
+            # A header that is the host name plus only a generic admin qualifier
+            # ("SOMALILAND PROTECTORATE" under SOMALILAND, "ADEN COLONY" under
+            # ADEN) is a name-drift variant of the host, not foreign content.
+            # Without this guard such a self-variant is misread as the first
+            # "unrelated" header and collapses host_split_block to 0, discarding
+            # the host's whole report (Finding 2.11, entity-name drift). Word-core
+            # comparison keeps true sub-units ("Western Australia") as foreign.
+            self_variant = self_core != "" and _core_words(s) == self_core
+            if nm and nm in gazetteer and nm != self_norm and not self_variant:
                 foreign.append(nm)
+                foreign_lines.setdefault(nm, li)
     foreign_set = set(foreign)
     subunits_present = sorted(foreign_set & allowed)
     unrelated = sorted(foreign_set - allowed)
+    # First line where UNRELATED (non-family) colony content begins — the point a
+    # misfiled foreign block or a bled-in appendix starts, so the host's own
+    # report is the salvageable prefix before it (used by apply_corpus_triage to
+    # set host_split_block). None when there is no unrelated header.
+    unrelated_first_line = min((foreign_lines[n] for n in unrelated), default=None)
 
     appendix_markers = len(RE_APPENDIX_MARKER.findall(text))
 
@@ -589,6 +639,7 @@ def detect_boundary_issues(text, colony_slug, gazetteer):
         "subunit_headers": subunits_present,
         "appendix_marker_count": appendix_markers,
         "is_known_federation": is_federation,
+        "unrelated_first_line": unrelated_first_line,
     }
 
 
@@ -603,6 +654,18 @@ def process_file(relpath, root, gazetteer=None):
     headings = [b for b in blocks if b["kind"] == "heading"]
     roster_idx = next((b["index"] for b in blocks
                        if b.get("is_roster_marker")), None)
+    roster_detection = "primary" if roster_idx is not None else None
+    # Fallback: when no primary roster marker is present (~28% of files, mostly
+    # later editions whose roster opens straight into a department), locate the
+    # first roster-only office/department heading instead. Validated-safe markers
+    # only; applied here (after primary) so it never overrides a primary boundary.
+    if roster_idx is None:
+        roster_idx = next((b["index"] for b in blocks
+                           if b["kind"] == "heading"
+                           and ROSTER_DEPARTMENT_MARKERS.match(
+                               (b.get("heading_text") or "").strip())), None)
+        if roster_idx is not None:
+            roster_detection = "department_fallback"
 
     profile = {
         "word_count": word_count,
@@ -615,6 +678,7 @@ def process_file(relpath, root, gazetteer=None):
         "dot_leader_count": dot_leaders,
         "format_markers": fmt,
         "roster_start_block": roster_idx,
+        "roster_detection": roster_detection,
         "flags": [],  # filled by triage (single + corpus pass)
     }
     profile["flags"].extend(filename_flags(stem))
@@ -689,6 +753,26 @@ def apply_corpus_triage(docs):
                      or "volume_dump" in d["profile"]["flags"])
         if n_unrelated >= 4 or (n_unrelated >= MISPARSE_MIN_UNRELATED and size_flag):
             d["profile"]["flags"].append("multi_colony_misparse")
+            # Recoverable-host split (Finding 2.11). A misparse is NOT a write-off:
+            # the host colony's own report is the prefix BEFORE the first unrelated
+            # colony header; only the foreign tail (a misfiled colony block, or a
+            # bled-in appendix) must be kept off the host. Annotate the split point
+            # so the host report is salvaged instead of the whole file quarantined.
+            blocks = d["blocks"]
+            line0 = b.get("unrelated_first_line")
+            split_block = (next((bl["index"] for bl in blocks if bl["line_start"] >= line0),
+                                len(blocks)) if line0 else len(blocks))
+            host_words = sum(len(bl["raw_text"].split()) for bl in blocks[:split_block])
+            tail_words = d["profile"]["word_count"] - host_words
+            # Review hint (action is the same either way — salvage the host prefix):
+            # a large foreign tail is a misfiled colony block; a small one is an
+            # appendix bleed. Imperfect for long worldwide-appendix lists, so it is
+            # a hint, not an action determinant.
+            subtype = ("wrong_colony" if tail_words > max(5000, host_words)
+                       else "appendix_bleed")
+            d["profile"]["host_split_block"] = split_block
+            d["profile"]["host_recoverable_words"] = host_words
+            d["profile"]["misparse_subtype"] = subtype
 
 
 # ---------------------------------------------------------------------------
