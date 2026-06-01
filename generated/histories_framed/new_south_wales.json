@@ -1,0 +1,485 @@
+{
+  "colony": "new_south_wales",
+  "n_editions_with_history": 7,
+  "n_versions": 3,
+  "versions": [
+    {
+      "uri": "col:hversion/new_south_wales/history/20cb3619f680",
+      "colony": "new_south_wales",
+      "section_slug": "history",
+      "version_hash": "20cb3619f680",
+      "asserted_by": "Colonial Office List",
+      "text": "This part of the Australian coast is said to have been discovered by Portuguese and Dutch navigators in the 17th century, but no settlement was made. Captain Cook explored it in 1770, but the first settlement was not formed until 1788, when the convict station at Botany Bay was established. The Settlement of New South Wales was then held to include the whole western shore of the continent. The discovery of gold in 1851 led to a very rapid growth of what is now Victoria, which was made a separate Colony in 1851. Responsible government was established in 1855. Moreton Bay, to the north, was constituted a separate Colony in 1859, under the name of Queensland.",
+      "edition_years": [
+        1889
+      ],
+      "first_edition_year": 1889,
+      "last_edition_year": 1889,
+      "n_editions": 1,
+      "representative_source_file": "1889_manual_parsed/NEW_SOUTH_WALES.txt",
+      "char_start": 542,
+      "char_end": 1207,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "This part of the Australian coast is said to have been discovered by Portuguese and Dutch navigators in the 17th century, but no settlement was made.",
+          "char_start": 0,
+          "char_end": 149,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovery"
+          ],
+          "verbatim_span": "The discovery of gold in 1851 led to a very rapid growth of what is now Victoria, which was made a separate Colony in 1851.",
+          "char_start": 393,
+          "char_end": 516,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Captain Cook explored it in 1770, but the first settlement was not formed until 1788, when the convict station at Botany Bay was established.",
+          "char_start": 150,
+          "char_end": 162,
+          "year_reference": 1770,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Victoria",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The discovery of gold in 1851 led to a very rapid growth of what is now Victoria, which was made a separate Colony in 1851.",
+          "char_start": 465,
+          "char_end": 473,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Queensland",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Moreton Bay, to the north, was constituted a separate Colony in 1859, under the name of Queensland.",
+          "char_start": 653,
+          "char_end": 663,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1770,
+        1788,
+        1851,
+        1855,
+        1859
+      ]
+    },
+    {
+      "uri": "col:hversion/new_south_wales/history/272250b0aea1",
+      "colony": "new_south_wales",
+      "section_slug": "history",
+      "version_hash": "272250b0aea1",
+      "asserted_by": "Colonial Office List",
+      "text": "This part of the Australian coast is said to have been discovered by Portuguese and Dutch navigators in the 17th century, but no settlement was made. Captain Cook explored it in 1770, and gave it the name of New South Wales, but the first settlement was not formed until 1788, when the convict station (intended for Botany Bay) was established at Port Jackson under Captain Phillips, R.N. The capital was named after Viscount Sydney, who was Secretary of State for the Colonies when the settlement was formed. The Settlement of New South Wales was then held to include the whole eastern portion of the continent. The first newspaper was established in 1803. The population in 1810 was 9,000. The Merino sheep was introduced in this year. The passage through the Blue Mountains, giving access to the interior plains, was not discovered until 1813. Moreton Bay was settled in 1824. In 1828 the total population was only 37,000. Convicts ceased to arrive in 1841. The discovery of gold in 1851 led to a very rapid growth of what is now Victoria, settled in 1836, which was made a separate Colony in 1855. Responsible government was established in 1855. Moreton Bay, to the north, was constituted a separate Colony in 1859, under the name of Queensland.",
+      "edition_years": [
+        1894,
+        1896,
+        1898,
+        1899,
+        1900
+      ],
+      "first_edition_year": 1894,
+      "last_edition_year": 1900,
+      "n_editions": 5,
+      "representative_source_file": "1894_manual_parsed/new_south_wales.txt",
+      "char_start": 2910,
+      "char_end": 4160,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.96,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "This part of the Australian coast is said to have been discovered by Portuguese and Dutch navigators in the 17th century, but no settlement was made.",
+          "char_start": 0,
+          "char_end": 149,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The passage through the Blue Mountains, giving access to the interior plains, was not discovered until 1813.",
+          "char_start": 738,
+          "char_end": 846,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovery"
+          ],
+          "verbatim_span": "The discovery of gold in 1851 led to a very rapid growth of what is now Victoria, settled in 1836, which was made a separate Colony in 1855.",
+          "char_start": 961,
+          "char_end": 1101,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Captain Cook explored it in 1770, and gave it the name of New South Wales, but the first settlement was not formed until 1788, when the convict station (intended for Botany Bay) was established at Port Jackson under Captain Phillips, R.N.",
+          "char_start": 150,
+          "char_end": 162,
+          "year_reference": 1770,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1899,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain Phillips",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Captain Cook explored it in 1770, and gave it the name of New South Wales, but the first settlement was not formed until 1788, when the convict station (intended for Botany Bay) was established at Port Jackson under Captain Phillips, R.N.",
+          "char_start": 366,
+          "char_end": 382,
+          "year_reference": 1770,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1899,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Victoria",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The discovery of gold in 1851 led to a very rapid growth of what is now Victoria, settled in 1836, which was made a separate Colony in 1855.",
+          "char_start": 1033,
+          "char_end": 1041,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1899,
+            1900
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Queensland",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Moreton Bay, to the north, was constituted a separate Colony in 1859, under the name of Queensland.",
+          "char_start": 1238,
+          "char_end": 1248,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1899,
+            1900
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1770,
+        1788,
+        1803,
+        1810,
+        1813,
+        1824,
+        1828,
+        1836,
+        1841,
+        1851,
+        1855,
+        1859
+      ]
+    },
+    {
+      "uri": "col:hversion/new_south_wales/history/3af109bee87b",
+      "colony": "new_south_wales",
+      "section_slug": "history",
+      "version_hash": "3af109bee87b",
+      "asserted_by": "Colonial Office List",
+      "text": "This part of the Australian coast is said to have been discovered by Portuguese and Dutch navigators in the 17th century, but no settlement was made. Captain Cook explored it in 1770, and gave it the name of New South Wales, but the first settlement was not formed until 1788, at Port Jackson, under Captain Phillip, R.N. The capital was named after Viscount Sydney, who was Secretary of State for the Colonies when the settlement was formed. The Settlement of New South Wales was then held to include the whole eastern portion of the continent. The first newspaper was established in 1803. The population in 1800 was 4,958. The Merino sheep was introduced in 1797. The passage through the Blue Mountains, giving access to the interior plains, was not discovered until 1813. Moreton Bay was settled in 1824. In 1828 the total population was only 36,598. The dis- covery of gold in 1851 led to a very rapid growth of what is now Victoria, settled in 1836, which was made a separate Colony in 1851. Responsible government was established in 1855. Moreton Bay, to the north, was constituted a separate Colony in 1859, under the name of Queensland. On the 1st January, 1901, the Colony of New South Wales united with the Colonies of Victoria, Queensland, South Australia, Western Australia, and Tasmania, in a Federal Commonwealth of Australia.",
+      "edition_years": [
+        1917
+      ],
+      "first_edition_year": 1917,
+      "last_edition_year": 1917,
+      "n_editions": 1,
+      "representative_source_file": "1917_manual_parsed/NEW_SOUTH_WALES.txt",
+      "char_start": 3291,
+      "char_end": 4632,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "This part of the Australian coast is said to have been discovered by Portuguese and Dutch navigators in the 17th century, but no settlement was made.",
+          "char_start": 0,
+          "char_end": 149,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The passage through the Blue Mountains, giving access to the interior plains, was not discovered until 1813.",
+          "char_start": 666,
+          "char_end": 774,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Captain Cook explored it in 1770, and gave it the name of New South Wales, but the first settlement was not formed until 1788, at Port Jackson, under Captain Phillip, R.N.",
+          "char_start": 150,
+          "char_end": 162,
+          "year_reference": 1770,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain Phillip",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Captain Cook explored it in 1770, and gave it the name of New South Wales, but the first settlement was not formed until 1788, at Port Jackson, under Captain Phillip, R.N.",
+          "char_start": 300,
+          "char_end": 315,
+          "year_reference": 1770,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Victoria",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The dis- covery of gold in 1851 led to a very rapid growth of what is now Victoria, settled in 1836, which was made a separate Colony in 1851.",
+          "char_start": 928,
+          "char_end": 936,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1917
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Queensland",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Moreton Bay, to the north, was constituted a separate Colony in 1859, under the name of Queensland.",
+          "char_start": 1133,
+          "char_end": 1143,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1917
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Australia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "On the 1st January, 1901, the Colony of New South Wales united with the Colonies of Victoria, Queensland, South Australia, Western Australia, and Tasmania, in a Federal Commonwealth of Australia.",
+          "char_start": 1257,
+          "char_end": 1266,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1917
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Tasmania",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "On the 1st January, 1901, the Colony of New South Wales united with the Colonies of Victoria, Queensland, South Australia, Western Australia, and Tasmania, in a Federal Commonwealth of Australia.",
+          "char_start": 1291,
+          "char_end": 1299,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1917
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Commonwealth",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "On the 1st January, 1901, the Colony of New South Wales united with the Colonies of Victoria, Queensland, South Australia, Western Australia, and Tasmania, in a Federal Commonwealth of Australia.",
+          "char_start": 1314,
+          "char_end": 1326,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1917
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1770,
+        1788,
+        1797,
+        1800,
+        1803,
+        1813,
+        1824,
+        1828,
+        1836,
+        1851,
+        1855,
+        1859,
+        1901
+      ]
+    }
+  ]
+}

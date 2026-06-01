@@ -1,0 +1,503 @@
+{
+  "version": "0.1",
+  "generated": "2026-06-01",
+  "status": "DRAFT",
+  "description": "Imperial framing categories detected in Colonial Office List History sections. Counts are over DISTINCT history versions (the 81%-verbatim repeats collapsed). These describe the SOURCE's perspective, not historical fact.",
+  "pipeline_version": "col_frame_histories/0.1",
+  "framing_types": [
+    {
+      "id": "frame_discovery",
+      "uri": "col:framing/discovery",
+      "canonical_name": "discovery",
+      "n_versions": 227,
+      "n_colonies": 69,
+      "members": [
+        {
+          "raw": "discovered",
+          "count": 210,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "discovery",
+          "count": 70,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "uninhabited",
+          "count": 27,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "first visited",
+          "count": 4,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "unexplored",
+          "count": 4,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "first traced",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "first settled",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "first sighted",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ],
+      "reviewer_decision": null
+    },
+    {
+      "id": "frame_cession_acquisition",
+      "uri": "col:framing/cession_acquisition",
+      "canonical_name": "cession_acquisition",
+      "n_versions": 294,
+      "n_colonies": 95,
+      "members": [
+        {
+          "raw": "ceded",
+          "count": 211,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "cession",
+          "count": 173,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "annexed",
+          "count": 110,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "ceded to",
+          "count": 108,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "taken possession",
+          "count": 80,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "acquired",
+          "count": 62,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "transferred to",
+          "count": 57,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "took possession",
+          "count": 51,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "annexation",
+          "count": 45,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "purchased",
+          "count": 34,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "became a british",
+          "count": 14,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "came under british",
+          "count": 12,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "acquisition",
+          "count": 10,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "brought under british",
+          "count": 7,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "placed under british",
+          "count": 7,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ],
+      "reviewer_decision": null
+    },
+    {
+      "id": "frame_conflict",
+      "uri": "col:framing/conflict",
+      "canonical_name": "conflict",
+      "n_versions": 265,
+      "n_colonies": 94,
+      "members": [
+        {
+          "raw": "war",
+          "count": 290,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "expedition",
+          "count": 174,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "defeated",
+          "count": 65,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "conquered",
+          "count": 50,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "rising",
+          "count": 46,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "hostilities",
+          "count": 41,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "rebel",
+          "count": 37,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "rebellion",
+          "count": 35,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "conquest",
+          "count": 35,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "suppressed",
+          "count": 28,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "revolt",
+          "count": 23,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "suppression",
+          "count": 18,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "disturbances",
+          "count": 17,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "subdued",
+          "count": 14,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "massacre",
+          "count": 14,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "pacific",
+          "count": 12,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "rebels",
+          "count": 10,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "punitive",
+          "count": 10,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "insurrection",
+          "count": 9,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "pacification",
+          "count": 6,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "mutiny",
+          "count": 6,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "pacify",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "pacified",
+          "count": 3,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "native war",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "suppressing",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ],
+      "reviewer_decision": null
+    },
+    {
+      "id": "frame_civilising",
+      "uri": "col:framing/civilising",
+      "canonical_name": "civilising",
+      "n_versions": 187,
+      "n_colonies": 77,
+      "members": [
+        {
+          "raw": "native",
+          "count": 207,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "protection",
+          "count": 113,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "natives",
+          "count": 85,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "tribes",
+          "count": 81,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "tribe",
+          "count": 43,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "native population",
+          "count": 14,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "native tribes",
+          "count": 13,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "primitive",
+          "count": 12,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "civilisation",
+          "count": 7,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "civilised",
+          "count": 7,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "civilization",
+          "count": 6,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "aboriginal",
+          "count": 5,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "savages",
+          "count": 2,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "savage",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "native tribe",
+          "count": 1,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ],
+      "reviewer_decision": null
+    },
+    {
+      "id": "frame_sovereignty",
+      "uri": "col:framing/sovereignty",
+      "canonical_name": "sovereignty",
+      "n_versions": 259,
+      "n_colonies": 96,
+      "members": [
+        {
+          "raw": "protectorate",
+          "count": 352,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "her majesty",
+          "count": 165,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "sovereignty",
+          "count": 94,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "imperial",
+          "count": 93,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "his majesty",
+          "count": 81,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "british crown",
+          "count": 41,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "under british protection",
+          "count": 29,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "british rule",
+          "count": 23,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "crown colony",
+          "count": 21,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "mandate",
+          "count": 13,
+          "confidence": "HIGH",
+          "method": "rule"
+        },
+        {
+          "raw": "british sovereignty",
+          "count": 6,
+          "confidence": "HIGH",
+          "method": "rule"
+        }
+      ],
+      "reviewer_decision": null
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "colony": "federation_of_nigeria",
+  "n_editions_with_history": 1,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/federation_of_nigeria/history/8f41add39fe4",
+      "colony": "federation_of_nigeria",
+      "section_slug": "history",
+      "version_hash": "8f41add39fe4",
+      "asserted_by": "Colonial Office List",
+      "text": "As far back as the seventeenth century British traders had mercantile depôts on the mouths of the Niger and adjacent rivers and creeks, trade until the nineteenth century being mainly in slaves. Journeys were not undertaken into the interior, however, until the era of exploration which began with the formation in London of an African Association in 1788. The Association directed its attention to solving the mystery of the \"Great River\" which was known to flow through much of West Africa. Thanks to the journeys of Mungo Park, Hugh Clapperton and the Lander brothers, it was demonstrated in 1830 that the many rivers flowing into the Bight of Benin were, in fact, the delta of the Niger. Under the inspiration of MacGregor Laird and others, efforts then began to use the Niger as a commercial highway into the interior. They were not on the whole successful, but British and other firms maintained stations in the delta chiefly to trade for palm oil. The energy and vision of Sir George Goldie led to an amalgamation of the British firms into a single company, and the new company developed its trade to such effect that opposing interests were all bought out. At the Berlin conference in 1885 the British claim to a sphere of influence over the Niger districts was accordingly recognized. The British company, now given a charter and re-named the Royal Niger Company, proceeded to extend its influence into the interior by treaties with local rulers. There was friction with French interests but in 1898 the British and French Governments signed a convention regulating boundaries. In 1900 the administrative rights and powers of the Royal Niger Company were taken over by the Crown. Until 1914 the country was administered in two parts—the Protectorate of Northern Nigeria and the Colony and Protectorate of Southern Nigeria. The Colony comprised a small area around Lagos which had been annexed in 1862 as a base for operations against the slave trade. From 1900 to 1903 the authorities in Northern Nigeria were engaged in bringing under control the powerful emirates of the Hausa states and the Kanuri kingdom of Bornu which maintained large standing armies used for slave raiding. In 1914 Northern and Southern Nigeria were amalgamated to form a Colony and Protectorate of Nigeria. At the end of the 1914–18 war part of the adjacent territory of the German Cameroons (which had been occupied by Anglo-French forces) was placed by the League of Nations under British Mandate and has since been administered as part of Nigeria. Following the formation of the United Nations the Cameroons became a Trusteeship Territory.",
+      "edition_years": [
+        1956
+      ],
+      "first_edition_year": 1956,
+      "last_edition_year": 1956,
+      "n_editions": 1,
+      "representative_source_file": "1956_manual_parsed/FEDERATION_OF_NIGERIA.txt",
+      "char_start": 4340,
+      "char_end": 6970,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "Until 1914 the country was administered in two parts—the Protectorate of Northern Nigeria and the Colony and Protectorate of Southern Nigeria.",
+          "char_start": 1689,
+          "char_end": 1831,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1956
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "The Colony comprised a small area around Lagos which had been annexed in 1862 as a base for operations against the slave trade.",
+          "char_start": 1832,
+          "char_end": 1959,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1956
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1914 Northern and Southern Nigeria were amalgamated to form a Colony and Protectorate of Nigeria.",
+          "char_start": 2190,
+          "char_end": 2290,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1956
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "At the end of the 1914–18 war part of the adjacent territory of the German Cameroons (which had been occupied by Anglo-French forces) was placed by the League of Nations under British Mandate and has since been administered as part of Nigeria.",
+          "char_start": 2291,
+          "char_end": 2534,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1956
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "mandate"
+          ],
+          "verbatim_span": "At the end of the 1914–18 war part of the adjacent territory of the German Cameroons (which had been occupied by Anglo-French forces) was placed by the League of Nations under British Mandate and has since been administered as part of Nigeria.",
+          "char_start": 2291,
+          "char_end": 2534,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1956
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir George Goldie",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "The energy and vision of Sir George Goldie led to an amalgamation of the British firms into a single company, and the new company developed its trade to such effect that opposing interests were all bought out.",
+          "char_start": 980,
+          "char_end": 997,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1956
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Nigeria",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Until 1914 the country was administered in two parts—the Protectorate of Northern Nigeria and the Colony and Protectorate of Southern Nigeria.",
+          "char_start": 1771,
+          "char_end": 1778,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1956
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lagos",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The Colony comprised a small area around Lagos which had been annexed in 1862 as a base for operations against the slave trade.",
+          "char_start": 1873,
+          "char_end": 1878,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1956
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Cameroons",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "At the end of the 1914–18 war part of the adjacent territory of the German Cameroons (which had been occupied by Anglo-French forces) was placed by the League of Nations under British Mandate and has since been administered as part of Nigeria.",
+          "char_start": 2366,
+          "char_end": 2375,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1956
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1788,
+        1830,
+        1862,
+        1885,
+        1898,
+        1900,
+        1903,
+        1914
+      ]
+    }
+  ]
+}

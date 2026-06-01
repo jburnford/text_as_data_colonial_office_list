@@ -1,0 +1,535 @@
+{
+  "colony": "victoria",
+  "n_editions_with_history": 13,
+  "n_versions": 3,
+  "versions": [
+    {
+      "uri": "col:hversion/victoria/history/c11244fd6831",
+      "colony": "victoria",
+      "section_slug": "history",
+      "version_hash": "c11244fd6831",
+      "asserted_by": "Colonial Office List",
+      "text": "Victoria was discovered by Capt. Cook in 1770, and its shores were explored in 1798, 1800, and 1802 by Bass, Flinders, Grant, and Murray. attempt to found a penal settlement at Port Phillip was made in 1803, but was promptly abandoned; and a similar result followed the convict establishment at Western Port in 1826. The first permanent and free settlement was founded at Portland Bay in 1834. A regular administration, subordinate to the Governor at Sydney, was established in 1836; the \"Port Phillip District\" was formed in 1839, and created a separate Colony under the name of Victoria in July, 1851. Gold was discovered in the same year, and responsible government was established in 1854.",
+      "edition_years": [
+        1889
+      ],
+      "first_edition_year": 1889,
+      "last_edition_year": 1889,
+      "n_editions": 1,
+      "representative_source_file": "1889_manual_parsed/VICTORIA.txt",
+      "char_start": 2914,
+      "char_end": 3607,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Victoria was discovered by Capt.",
+          "char_start": 0,
+          "char_end": 32,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Gold was discovered in the same year, and responsible government was established in 1854.",
+          "char_start": 604,
+          "char_end": 693,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [],
+      "year_references": [
+        1770,
+        1798,
+        1800,
+        1802,
+        1803,
+        1826,
+        1834,
+        1836,
+        1839,
+        1851,
+        1854
+      ]
+    },
+    {
+      "uri": "col:hversion/victoria/history/a77b5c4afbdb",
+      "colony": "victoria",
+      "section_slug": "history",
+      "version_hash": "a77b5c4afbdb",
+      "asserted_by": "Colonial Office List",
+      "text": "Victoria was discovered by Capt. Cook in 1770, and its shores were explored in 1798, 1800, and 1802 by Bass, Flinders, Grant, and Murray. An attempt to found a penal settlement at Port Phillip was made in 1803, but was promptly abandoned; and a similar result followed the convict establishment at Western Port in 1826. The first permanent and free settlement was founded at Portland Bay in 1834. A regular administration, subordinate to the Governor at Sydney, was established in 1836; the \"Port Phillip District\" was formed in 1839, and created a separate Colony under the name of Victoria in July, 1851. Gold was discovered in the same year, and responsible government was established in 1854. Industry. The main industry is agriculture, 2,564,742 acres being under cultivation in 1888-9. The chief products are wheat, hay and green forage, oats, barley, maize, potatoes, and tobacco. 12,499 acres are devoted to the culture of the vine, producing annually about 1,000,000 gallons of wine. The live stock was estimated in March, 1889, at 323,115 horses, 1,370,660 cattle, 10,818,575 sheep, and 245,818 pigs. The wool exported in 1887 amounted to 118,453,968 lbs., valued at £1,70,930l. The amount of gold raised in 1888 was 625,026 oz., making a total since 1851 of about 55,635,960 oz. The other mineral products are inconsiderable. The chief exports other than wool and gold (which comprise one-half of the total), are grain and flour, livestock, leather, and tallow, besides a depot trade in wool, tea, textiles, timber, tobacco, and sugar. The chief imports are textiles and apparel, alcohol, sugar, tea, coal, hardware, and machinery. Half the trade is with the United Kingdom, and a quarter with the other Australian Colonies, only one eighth being with foreign countries (chiefly the United States and China). Melbourne does 84 per cent of the trade, the other ports being Geelong, Belfast, Port Albert, Portland, Warrnambool; also Swan Hill and Echuca on the Murray river. The vessels on the Victorian register at the end of 1888 numbered 383, with a total tonnage of 78,883. Victoria, as a manufacturing country, occupies a pre-eminent position in the Australasian group. The manufactories and works returned in 1888 numbered 2,854, the hands employed therein numbered 49,084; and the capital invested, so far as it is represented by the value of lands, buildings, machinery, and plant, amounted to 12,638,988l. Melbourne, the capital, is the most populous city in Australasia, having, with its suburbs, in 1889, an estimated population of 437,765. The first settlers established themselves on the site of the present city so recently as in 1835. The other chief towns are Ballarat (40,753), Sandhurst (36,020), Geelong (20,984), and Castlemaine (8,900). By the Chinese Acts, 1881 and 1888, a tax of 10l. per head is levied on Chinese immigrants. There are now about 12,000 in the Colony.",
+      "edition_years": [
+        1890
+      ],
+      "first_edition_year": 1890,
+      "last_edition_year": 1890,
+      "n_editions": 1,
+      "representative_source_file": "1890_manual_parsed/victoria.txt",
+      "char_start": 2737,
+      "char_end": 5643,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Victoria was discovered by Capt.",
+          "char_start": 0,
+          "char_end": 32,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Gold was discovered in the same year, and responsible government was established in 1854.",
+          "char_start": 607,
+          "char_end": 696,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [],
+      "year_references": [
+        1770,
+        1798,
+        1800,
+        1802,
+        1803,
+        1826,
+        1834,
+        1835,
+        1836,
+        1839,
+        1851,
+        1854,
+        1881,
+        1887,
+        1888,
+        1889
+      ]
+    },
+    {
+      "uri": "col:hversion/victoria/history/1a6f14ae2712",
+      "colony": "victoria",
+      "section_slug": "history",
+      "version_hash": "1a6f14ae2712",
+      "asserted_by": "Colonial Office List",
+      "text": "It is believed that the first Europeans who ever sighted any portion of the land now embraced within the limits of the colony of Victoria were Captain Cook and the officers and crew of His Majesty's ship *Endeavour*. Cook, however, did not attempt to land, but passed on to other discoveries. On his return to England, he reported the eastern part of Australia to be suitable for colonisation, and this led to a party of convicts being despatched there in 1788, under Captain Arthur Phillip, R.N. On the shores of Port Jackson, a few miles to the north of Botany Bay, Phillip established a permanent settlement, but for nearly ten years afterwards nothing was done towards the exploration of the southern shores of Australia. At length George Bass, a surgeon in the Royal Navy, started in a whale-boat, manned by six seamen, and, passing Cape Howe, coasted along that part of Victoria now called Gippsland, and rounding Wilson's Promontory—the southernmost point on the Australian Continent—entered Western Port on the 4th June, 1798. He, however, returned to Sydney without discovering Port Phillip Bay, which was first entered on the 5th January, 1802, by Acting-Lieut. John Murray, in command of the armed brig *Lady Nelson*. In October of the following year, an attempt was made to colonise the territory by Lieut.-Col. David Collins, of the Royal Marines, in command of a party of convicts. Collins, however, after the expiration of three months, abandoned Port Phillip as unfit for settlement, and for the next twenty years the district attracted but little attention. Then two explorers—Hume and Hovell—made their way overland from Sydney, and, on their return, gave a satisfactory report of the country, the result being that a convict establishment was soon afterwards founded on Western Port Bay, which, however, was in a short time abandoned, apparently on economic grounds. The first permanent settlement in Victoria was formed at Portland Bay, by Mr. Edward Henty, from Van Diemen's Land—as Tasmania was then called—who landed on 19th Nov., 1834, and soon commenced to till the soil, run and breed stock, and carry on whaling operations. Others followed, but the absence of good land in the immediate vicinity of the port, and the openness of the bay, which rendered it unsafe for shipping during the prevalence of certain winds, caused it to be considered an unsuitable site. The capital was eventually founded at the northern end of Port Phillip Bay by two parties, one led by John Batman, who landed on 29th May, 1835, and the other by John Pascoe Fawkner, whose party arrived at the site of Melbourne on the 28th August of the same year. Both of these were from Van Diemen's Land, and they were soon followed by others from the same island, and from Sydney, who brought stock with them, and commenced to push their way into the interior. These were met by Major (afterwards Lieutenant-Colonel Sir) Thomas Mitchell, who, entering from New South Wales on the north, and traversing a considerable portion of the (as yet) unknown territory, was so struck with its wondrous capabilities that he named it Australia Felix, a title the aptness of which a subsequent knowledge of the geniality of its climate, the excellence of its soil, and the then unsuspected richness of its mineral treasures, has proved to be fully justified. The reports of Sir Thomas Mitchell, and the success of the first settlers, caused great excitement, not only in Australian settlements, but in the mother country. Herds of sheep and cattle driven overland from New South Wales speedily occupied the best parts of the new territory. Every available craft capable of floating was put into requisition to bring passengers and stock from Van Diemen's Land, and after a time shiploads of emigrants began to arrive from the United Kingdom. Regular government was first established under Captain William Lonsdale, who, having been sent from Sydney to take charge of the district, landed on the 29th Sept., 1836; and on the 2nd March of the following year Sir Richard Bourke, the Governor of New South Wales, visited it, and named the metropolis Melbourne. Mr. Charles Joseph La Trobe arrived on the 30th Sept., 1839, having been appointed to the principal official position in the settlement under the title of Superintendent. This title was changed to that of Lieutenant-Governor, when, on the 1st July, 1851, it was separated from New South Wales, and created a separate colony under the name of Victoria. Shortly afterwards rich deposits of gold were discovered, which led to a great influx of population. After a time discontent arose amongst the diggers in consequence of the oppressive character of the mining regulations, which culminated in riots on the Ballarat goldfield towards the end of 1854. The disturbance was soon quelled, with some bloodshed on both sides, and the grievances complained of were afterwards redressed. A new constitution, giving responsible government to the colony, was proclaimed on the 23rd November, 1855.",
+      "edition_years": [
+        1894,
+        1896,
+        1897,
+        1898,
+        1899,
+        1900,
+        1905,
+        1906,
+        1907,
+        1908,
+        1917
+      ],
+      "first_edition_year": 1894,
+      "last_edition_year": 1917,
+      "n_editions": 11,
+      "representative_source_file": "1905_manual_parsed/VICTORIA.txt",
+      "char_start": 6893,
+      "char_end": 11918,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.975,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "It is believed that the first Europeans who ever sighted any portion of the land now embraced within the limits of the colony of Victoria were Captain Cook and the officers and crew of His Majesty's ship *Endeavour*.",
+          "char_start": 0,
+          "char_end": 216,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Shortly afterwards rich deposits of gold were discovered, which led to a great influx of population.",
+          "char_start": 4490,
+          "char_end": 4590,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "It is believed that the first Europeans who ever sighted any portion of the land now embraced within the limits of the colony of Victoria were Captain Cook and the officers and crew of His Majesty's ship *Endeavour*.",
+          "char_start": 143,
+          "char_end": 155,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain Arthur Phillip",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On his return to England, he reported the eastern part of Australia to be suitable for colonisation, and this led to a party of convicts being despatched there in 1788, under Captain Arthur Phillip, R.N.",
+          "char_start": 468,
+          "char_end": 490,
+          "year_reference": 1788,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lady Nelson",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "John Murray, in command of the armed brig *Lady Nelson*.",
+          "char_start": 1215,
+          "char_end": 1226,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. Edward Henty",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "The first permanent settlement in Victoria was formed at Portland Bay, by Mr. Edward Henty, from Van Diemen's Land—as Tasmania was then called—who landed on 19th Nov., 1834, and soon commenced to till the soil, run and breed stock, and carry on whaling operations.",
+          "char_start": 1960,
+          "char_end": 1976,
+          "year_reference": 1834,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Colonel Sir",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "These were met by Major (afterwards Lieutenant-Colonel Sir) Thomas Mitchell, who, entering from New South Wales on the north, and traversing a considerable portion of the (as yet) unknown territory, was so struck with its wondrous capabilities that he named it Australia Felix, a title the aptness of which a subsequent knowledge of the geniality of its climate, the excellence of its soil, and the then unsuspected richness of its mineral treasures, has proved to be fully justified.",
+          "char_start": 2902,
+          "char_end": 2913,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Thomas Mitchell",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "The reports of Sir Thomas Mitchell, and the success of the first settlers, caused great excitement, not only in Australian settlements, but in the mother country.",
+          "char_start": 3355,
+          "char_end": 3374,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain William Lonsdale",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Regular government was first established under Captain William Lonsdale, who, having been sent from Sydney to take charge of the district, landed on the 29th Sept., 1836; and on the 2nd March of the following year Sir Richard Bourke, the Governor of New South Wales, visited it, and named the metropolis Melbourne.",
+          "char_start": 3870,
+          "char_end": 3894,
+          "year_reference": 1836,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Richard Bourke",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Regular government was first established under Captain William Lonsdale, who, having been sent from Sydney to take charge of the district, landed on the 29th Sept., 1836; and on the 2nd March of the following year Sir Richard Bourke, the Governor of New South Wales, visited it, and named the metropolis Melbourne.",
+          "char_start": 4037,
+          "char_end": 4055,
+          "year_reference": 1836,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. Charles Joseph La",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Mr. Charles Joseph La Trobe arrived on the 30th Sept., 1839, having been appointed to the principal official position in the settlement under the title of Superintendent.",
+          "char_start": 4138,
+          "char_end": 4159,
+          "year_reference": 1839,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Australia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "On his return to England, he reported the eastern part of Australia to be suitable for colonisation, and this led to a party of convicts being despatched there in 1788, under Captain Arthur Phillip, R.N.",
+          "char_start": 351,
+          "char_end": 360,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1917
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Tasmania",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Edward Henty, from Van Diemen's Land—as Tasmania was then called—who landed on 19th Nov., 1834, and soon commenced to till the soil, run and breed stock, and carry on whaling operations.",
+          "char_start": 2004,
+          "char_end": 2012,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1917
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1788,
+        1798,
+        1802,
+        1834,
+        1835,
+        1836,
+        1839,
+        1851,
+        1854,
+        1855
+      ]
+    }
+  ]
+}

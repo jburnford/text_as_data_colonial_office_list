@@ -1,0 +1,116 @@
+{
+  "colony": "kingdom_of_tonga",
+  "n_editions_with_history": 1,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/kingdom_of_tonga/history/e3f77be46fdd",
+      "colony": "kingdom_of_tonga",
+      "section_slug": "history",
+      "version_hash": "e3f77be46fdd",
+      "asserted_by": "Colonial Office List",
+      "text": "During the first half of the nineteenth century the islands were the scene of civil wars. These were finally checked during the reign of King George Tupou I (1845–93) who had by conquest gathered all power in his own hands. In 1826 Wesleyan missionaries landed on Tonga and by the middle of the century practically all the chiefs and people had embraced Christianity. Not until the last decade of the century, however, were questions regarding freedom of worship and the relationship of Church and State peaceably settled. In 1900, by a Treaty of Friendship and Protection, Tonga became a British Protected State, while remaining self-governing.",
+      "edition_years": [
+        1957
+      ],
+      "first_edition_year": 1957,
+      "last_edition_year": 1957,
+      "n_editions": 1,
+      "representative_source_file": "1957_manual_parsed/KINGDOM_OF_TONGA.txt",
+      "char_start": 991,
+      "char_end": 1637,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquest"
+          ],
+          "verbatim_span": "These were finally checked during the reign of King George Tupou I (1845–93) who had by conquest gathered all power in his own hands.",
+          "char_start": 90,
+          "char_end": 223,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1957
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "became a british"
+          ],
+          "verbatim_span": "In 1900, by a Treaty of Friendship and Protection, Tonga became a British Protected State, while remaining self-governing.",
+          "char_start": 523,
+          "char_end": 645,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1957
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "In 1900, by a Treaty of Friendship and Protection, Tonga became a British Protected State, while remaining self-governing.",
+          "char_start": 523,
+          "char_end": 645,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1957
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "King George Tupou",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "These were finally checked during the reign of King George Tupou I (1845–93) who had by conquest gathered all power in his own hands.",
+          "char_start": 137,
+          "char_end": 154,
+          "year_reference": 1845,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1957
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Tonga",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1826 Wesleyan missionaries landed on Tonga and by the middle of the century practically all the chiefs and people had embraced Christianity.",
+          "char_start": 264,
+          "char_end": 269,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1957
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1826,
+        1845,
+        1900
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "colony": "montserrat",
+  "n_editions_with_history": 1,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/montserrat/history/4960976f6bf1",
+      "colony": "montserrat",
+      "section_slug": "history",
+      "version_hash": "4960976f6bf1",
+      "asserted_by": "Colonial Office List",
+      "text": "The island was colonized in 1632 when a number of Irishmen of Sir Thomas Warner's company made their homes there. It was captured by the French in 1667, restored to England at the Peace of Breda later in the same year, capitulated to the French again in 1782 and was finally ceded to Britain in 1783.",
+      "edition_years": [
+        1963
+      ],
+      "first_edition_year": 1963,
+      "last_edition_year": 1963,
+      "n_editions": 1,
+      "representative_source_file": "1963_manual_parsed/montserrat.txt",
+      "char_start": 729,
+      "char_end": 1029,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "It was captured by the French in 1667, restored to England at the Peace of Breda later in the same year, capitulated to the French again in 1782 and was finally ceded to Britain in 1783.",
+          "char_start": 114,
+          "char_end": 300,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1963
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Thomas Warner's",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "The island was colonized in 1632 when a number of Irishmen of Sir Thomas Warner's company made their homes there.",
+          "char_start": 62,
+          "char_end": 81,
+          "year_reference": 1632,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1963
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1632,
+        1667,
+        1782,
+        1783
+      ]
+    }
+  ]
+}

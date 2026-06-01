@@ -1,0 +1,1993 @@
+{
+  "colony": "jamaica",
+  "n_editions_with_history": 41,
+  "n_versions": 7,
+  "versions": [
+    {
+      "uri": "col:hversion/jamaica/history/2174af9a5144",
+      "colony": "jamaica",
+      "section_slug": "history",
+      "version_hash": "2174af9a5144",
+      "asserted_by": "Colonial Office List",
+      "text": "Jamaica was discovered by Columbus on the 3rd May, 1494. He called it St. Jago. It remained in the possession of the Spaniards for 161 years, when it was attacked by a force sent by Cromwell, under Admirals Penn and Venables, against Hispaniola, and capitulated, after a trifling resistance, on the 3rd May, 1655. After the capture of the island, until the Restoration of Charles II, Jamaica remained under military jurisdiction. In 1660 the first establishment of a regular civil government was made by Charles II, who appointed G. D'Oyley Governor-in-Chief, with an Elective Council. In 1670 peace was made with Spain, and the title of England to Jamaica was recognized by the Treaty of Madrid. In 1807 the Slave Trade was abolished, at which time there were 323,827 slaves in Jamaica. During the last eight years of the trade, 86,821 slaves were imported. On the abolition of slavery in 1838, Jamaica received 6,161,927l. of the 20,000,000l. granted by the Imperial Government as compensation to the slave-owners. A serious rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+      "edition_years": [
+        1888,
+        1889,
+        1890
+      ],
+      "first_edition_year": 1888,
+      "last_edition_year": 1890,
+      "n_editions": 3,
+      "representative_source_file": "1888_manual_parsed/JAMAICA.txt",
+      "char_start": 1208,
+      "char_end": 2359,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.912,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Jamaica was discovered by Columbus on the 3rd May, 1494.",
+          "char_start": 0,
+          "char_end": 56,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "granted by the Imperial Government as compensation to the slave-owners.",
+          "char_start": 945,
+          "char_end": 1016,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebel",
+            "rebellion",
+            "suppressed"
+          ],
+          "verbatim_span": "A serious rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 1017,
+          "char_end": 1151,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Governor Eyre",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "A serious rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 1090,
+          "char_end": 1103,
+          "year_reference": 1865,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1655,
+        1660,
+        1670,
+        1807,
+        1838,
+        1865
+      ]
+    },
+    {
+      "uri": "col:hversion/jamaica/history/48031fbcf726",
+      "colony": "jamaica",
+      "section_slug": "history",
+      "version_hash": "48031fbcf726",
+      "asserted_by": "Colonial Office List",
+      "text": "The island was discovered by Columbus on the 3rd May, 1494. He called it St. Jago, after the patron saint of Spain, but the new name was soon dropped in favour of the native one of Jamaica (Xaymaca—well watered). The first settlement on it was effected on the shores of St. Ann's Bay, by Esquivel in 1509, under the direction of Diego, the son of Columbus, while Governor of Hispaniola. Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1638, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655. Until the Restoration, Jamaica remained under military jurisdiction, but in 1660 a regular civil government was established by Charles II., who appointed General Edward D'Oyley Governor-in-Chief, with an Elective Council. In 1670 peace was made with Spain, and the title of England to Jamaica was recognised by the Treaty of Madrid. The colony grew fast, stimulated by the wealth brought into it by the buccaneers, who made Port Royal their headquarters and storehouse. This town was engulfed in the great earthquake of 1692. Kingston then consisted of a few sheds, and St. Jago de la Vega (Spanish town) became practically the capital. During the 18th century the island suffered from hurricanes, earthquakes, numerous slave insurrections, as well as wars with the maroons, or mountaineers, the descendants of African slaves left by the Spaniards, who inhabited mainly the east of the island, among the Blue Mountains. When the Slave Trade was abolished, in 1807, there were 323,827 slaves in Jamaica. During the last eight years of the trade, 86,821 slaves were imported. On the abolition of slavery in 1833, Jamaica received 6,161,927l. of the 20,000,000l. granted by the Imperial Government as compensation to the slave-owners. A serious rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled. In January, 1907 an earthquake devastated Kingston.",
+      "edition_years": [
+        1894,
+        1896,
+        1897,
+        1898,
+        1899,
+        1905,
+        1906,
+        1907
+      ],
+      "first_edition_year": 1894,
+      "last_edition_year": 1907,
+      "n_editions": 8,
+      "representative_source_file": "1907_manual_parsed/JAMAICA.txt",
+      "char_start": 1760,
+      "char_end": 3894,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.917,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The island was discovered by Columbus on the 3rd May, 1494.",
+          "char_start": 0,
+          "char_end": 59,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "Jago, after the patron saint of Spain, but the new name was soon dropped in favour of the native one of Jamaica (Xaymaca—well watered).",
+          "char_start": 77,
+          "char_end": 212,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "insurrection"
+          ],
+          "verbatim_span": "During the 18th century the island suffered from hurricanes, earthquakes, numerous slave insurrections, as well as wars with the maroons, or mountaineers, the descendants of African slaves left by the Spaniards, who inhabited mainly the east of the island, among the Blue Mountains.",
+          "char_start": 1353,
+          "char_end": 1635,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "granted by the Imperial Government as compensation to the slave-owners.",
+          "char_start": 1876,
+          "char_end": 1947,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebel",
+            "rebellion",
+            "suppressed"
+          ],
+          "verbatim_span": "A serious rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 1948,
+          "char_end": 2082,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Anthony Shirley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1638, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655.",
+          "char_start": 407,
+          "char_end": 426,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906,
+            1907
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Colonel Jackson",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1638, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655.",
+          "char_start": 443,
+          "char_end": 458,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906,
+            1907
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Penn",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1638, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655.",
+          "char_start": 592,
+          "char_end": 604,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906,
+            1907
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Venables",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1638, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655.",
+          "char_start": 609,
+          "char_end": 625,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906,
+            1907
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Edward D'",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Until the Restoration, Jamaica remained under military jurisdiction, but in 1660 a regular civil government was established by Charles II., who appointed General Edward D'Oyley Governor-in-Chief, with an Elective Council.",
+          "char_start": 870,
+          "char_end": 887,
+          "year_reference": 1660,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906,
+            1907
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor Eyre",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "A serious rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 2021,
+          "char_end": 2034,
+          "year_reference": 1865,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906,
+            1907
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1509,
+        1596,
+        1638,
+        1655,
+        1660,
+        1670,
+        1692,
+        1807,
+        1833,
+        1865,
+        1907
+      ]
+    },
+    {
+      "uri": "col:hversion/jamaica/history/64639ebe6749",
+      "colony": "jamaica",
+      "section_slug": "history",
+      "version_hash": "64639ebe6749",
+      "asserted_by": "Colonial Office List",
+      "text": "The island was discovered by Columbus on the 3rd May, 1494. He called it St. Jago, after the patron saint of Spain, but the new name was soon dropped in favour of the native one of Jamaica (Xaymaca—well watered). The first settlement on it was effected on the shores of St. Ann's Bay, by Esquivel in 1509, under the direction of Diego, the son of Columbus, while Governor of Hispaniola. Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1638, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a trilling resistance, on the 11th May, 1655. Until the Restoration, Jamaica remained under military jurisdiction, but in 1660 a regular civil government was established by Charles II, who appointed General Edward D'Oyley Governor-in-Chief, with an Elective Council. In 1670 peace was made with Spain, and the title of England to Jamaica was recognised by the Treaty of Madrid. The colony grew fast, stimulated by the wealth brought into it by the buccaneers, who made Port Royal their headquarters and storehouse. This town was engulfed in the great earthquake of 1692. Kingston then consisted of a few sheds, and St. Jago de la Vega (Spanish town) became practically the capital. During the 18th century the island suffered from hurricanes, earthquakes, numerous slave insurrections, as well as wars with the maroons, or mountaineers, the descendants of African slaves left by the Spaniards, who inhabited mainly the east of the island, among the Blue Mountains. When the Slave Trade was abolished, in 1807, there were 323,827 slaves in Jamaica. During the last eight years of the trade, 86,821 slaves were imported. On the abolition of * See account below. † See under heading Turks and Caicos Islands. slavery in 1833, Jamaica received 6,161,927l. of the 20,000,000l. granted by the Imperial Government as compensation to the slave-owners. A serious rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled. In January, 1907, Kingston was devastated by a terrible earthquake, which caused great loss of life and immense destruction of property. A Mansion House Fund was opened, and contributions poured in from all parts of the Empire for the relief of distress. A free grant of 150,000l. was voted by Parliament, and a loan of 800,000l., chiefly in aid of re-building, was authorised from the Home Exchequer. Two buildings, the General Post Office and Treasury, and the King's House, the official residence of the Governor, were completed in 1910, and the Law Courts are being built.",
+      "edition_years": [
+        1908,
+        1909,
+        1910,
+        1911,
+        1912
+      ],
+      "first_edition_year": 1908,
+      "last_edition_year": 1912,
+      "n_editions": 5,
+      "representative_source_file": "1912_manual_parsed/JAMAICA.txt",
+      "char_start": 1206,
+      "char_end": 3932,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.916,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The island was discovered by Columbus on the 3rd May, 1494.",
+          "char_start": 0,
+          "char_end": 59,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "Jago, after the patron saint of Spain, but the new name was soon dropped in favour of the native one of Jamaica (Xaymaca—well watered).",
+          "char_start": 77,
+          "char_end": 212,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "insurrection"
+          ],
+          "verbatim_span": "During the 18th century the island suffered from hurricanes, earthquakes, numerous slave insurrections, as well as wars with the maroons, or mountaineers, the descendants of African slaves left by the Spaniards, who inhabited mainly the east of the island, among the Blue Mountains.",
+          "char_start": 1352,
+          "char_end": 1634,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "granted by the Imperial Government as compensation to the slave-owners.",
+          "char_start": 1942,
+          "char_end": 2013,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebel",
+            "rebellion",
+            "suppressed"
+          ],
+          "verbatim_span": "A serious rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 2014,
+          "char_end": 2148,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Anthony Shirley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1638, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a trilling resistance, on the 11th May, 1655.",
+          "char_start": 407,
+          "char_end": 426,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Colonel Jackson",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1638, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a trilling resistance, on the 11th May, 1655.",
+          "char_start": 443,
+          "char_end": 458,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Penn",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1638, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a trilling resistance, on the 11th May, 1655.",
+          "char_start": 592,
+          "char_end": 604,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Venables",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1638, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a trilling resistance, on the 11th May, 1655.",
+          "char_start": 609,
+          "char_end": 625,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Edward D'",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Until the Restoration, Jamaica remained under military jurisdiction, but in 1660 a regular civil government was established by Charles II, who appointed General Edward D'Oyley Governor-in-Chief, with an Elective Council.",
+          "char_start": 869,
+          "char_end": 886,
+          "year_reference": 1660,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor Eyre",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "A serious rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 2087,
+          "char_end": 2100,
+          "year_reference": 1865,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Post Office",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Two buildings, the General Post Office and Treasury, and the King's House, the official residence of the Governor, were completed in 1910, and the Law Courts are being built.",
+          "char_start": 2570,
+          "char_end": 2589,
+          "year_reference": 1910,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1509,
+        1596,
+        1638,
+        1655,
+        1660,
+        1670,
+        1692,
+        1807,
+        1833,
+        1865,
+        1907,
+        1910
+      ]
+    },
+    {
+      "uri": "col:hversion/jamaica/history/89a20707a427",
+      "colony": "jamaica",
+      "section_slug": "history",
+      "version_hash": "89a20707a427",
+      "asserted_by": "Colonial Office List",
+      "text": "The island was discovered by Columbus on the 3rd May, 1494. He called it St. Jago, after the patron saint of Spain, but the new name was soon dropped in favour of the native one of Jamaica (Xaymaca—well watered). The first settlement on it was effected on the shores of St. Ann's Bay, by Esquivel in 1509, under the direction of Diego, the son of Columbus, while Governor of Hispaniola. Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1643, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a triding resistance, on the 11th May, 1655. Until the Restoration, Jamaica remained under military jurisdiction, but in 1690 a regular civil government was established by Charles II., who appointed General Edward D'Oyley Governor-in-Chief, with an Elective Council. In 1670 peace was made with Spain, and the title of England to Jamaica was recognised by the Treaty of Madrid. The colony grew fast, stimulated by the wealth brought into it by the buccaneers, who made Port Royal their headquarters and storehouse. This town was engulfed in the great earthquake of 1692. Kingston then consisted of a few sheds, and St. Jago de la Vega (Spanish town) became practically the capital. During the 18th century the island suffered from hurricanes, earthquakes, numerous slave insurrections, as well as wars with the maroons, or mountaineers, the descendants of African slaves left by the Spaniards, who inhabited mainly the east of the island, among the Blue Mountains. When the Slave Trade was abolished, in 1807, there were 323,827 slaves in Jamaica. During the last eight years of the trade, 86,821 slaves were imported. On the abolition of slavery in 1833, Jamaica received 6,161,927l. of the 20,000,000l. granted by the Imperial Government as compensation to the slave-owners. A serious rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled. In January, 1907, Kingston was devastated by a terrible earthquake, which caused great loss of life and immense destruction of property. A Mansion House Fund was opened, and contributions poured in from all parts of the Empire for the relief of distress. A free grant of 150,000l. was voted by Parliament, and a loan of 800,000l., chiefly in aid of re-building, was authorised from the Home Exchequer. Two buildings, the General Post Office and Treasury, and the King's House, the official residence of the Governor, were completed in 1910, and the Law Courts are being built. Climate and Inhabitants. There is great variety of climate; the mean temperature of Kingston is 78°8', rising to 87°5' in the daytime, and falling to 70°8' at night. As the temperature falls about 1° for every 300 feet of ascent, it is possible, in a few hours, to reach, in the central range of mountains, a cool and delightful climate. From Kingston, the capital, a change of 10° or 15° in temperature can be attained by a ride of three hours. The rainy seasons occur generally over the whole island in May and June and again in September and October; but besides these heavy and periodical rainfalls, the ground is refreshed by continual showers; and in the N.E. portion of the island there is usually a rainy season at the end of the year, and light rains generally during the month of August. The mean annual rainfall varies throughout the island from about 34 inches to as much as 196 inches at Fellowship and 227 inches at Moore Town, both on the northern slope of the Blue Mountain Range. Under two per cent. of the inhabitants are white; the remainder are chiefly of African descent, four-fifths being pure negroes. There are about 18,000 imported coolies, and about 2,111 Chinese (in 1911). English is universally spoken.",
+      "edition_years": [
+        1913
+      ],
+      "first_edition_year": 1913,
+      "last_edition_year": 1913,
+      "n_editions": 1,
+      "representative_source_file": "1913_manual_parsed/JAMAICA.txt",
+      "char_start": 2216,
+      "char_end": 6109,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The island was discovered by Columbus on the 3rd May, 1494.",
+          "char_start": 0,
+          "char_end": 59,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "Jago, after the patron saint of Spain, but the new name was soon dropped in favour of the native one of Jamaica (Xaymaca—well watered).",
+          "char_start": 77,
+          "char_end": 212,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "insurrection"
+          ],
+          "verbatim_span": "During the 18th century the island suffered from hurricanes, earthquakes, numerous slave insurrections, as well as wars with the maroons, or mountaineers, the descendants of African slaves left by the Spaniards, who inhabited mainly the east of the island, among the Blue Mountains.",
+          "char_start": 1352,
+          "char_end": 1634,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "granted by the Imperial Government as compensation to the slave-owners.",
+          "char_start": 1875,
+          "char_end": 1946,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebel",
+            "rebellion",
+            "suppressed"
+          ],
+          "verbatim_span": "A serious rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 1947,
+          "char_end": 2081,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rising"
+          ],
+          "verbatim_span": "There is great variety of climate; the mean temperature of Kingston is 78°8', rising to 87°5' in the daytime, and falling to 70°8' at night.",
+          "char_start": 2684,
+          "char_end": 2824,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Anthony Shirley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1643, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a triding resistance, on the 11th May, 1655.",
+          "char_start": 407,
+          "char_end": 426,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1913
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Colonel Jackson",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1643, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a triding resistance, on the 11th May, 1655.",
+          "char_start": 443,
+          "char_end": 458,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1913
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Penn",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1643, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a triding resistance, on the 11th May, 1655.",
+          "char_start": 592,
+          "char_end": 604,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1913
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Venables",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Although invaded by Sir Anthony Shirley in 1596, and by Colonel Jackson in 1643, it remained in the possession of the Spaniards for 161 years, when it was again attacked by a force sent by Cromwell, under Admiral Penn and General Venables, against Hispaniola, and capitulated, after a triding resistance, on the 11th May, 1655.",
+          "char_start": 609,
+          "char_end": 625,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1913
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Edward D'",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Until the Restoration, Jamaica remained under military jurisdiction, but in 1690 a regular civil government was established by Charles II., who appointed General Edward D'Oyley Governor-in-Chief, with an Elective Council.",
+          "char_start": 869,
+          "char_end": 886,
+          "year_reference": 1690,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1913
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor Eyre",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "A serious rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 2020,
+          "char_end": 2033,
+          "year_reference": 1865,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1913
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Post Office",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Two buildings, the General Post Office and Treasury, and the King's House, the official residence of the Governor, were completed in 1910, and the Law Courts are being built.",
+          "char_start": 2503,
+          "char_end": 2522,
+          "year_reference": 1910,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1913
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1509,
+        1596,
+        1643,
+        1655,
+        1670,
+        1690,
+        1692,
+        1807,
+        1833,
+        1865,
+        1907,
+        1910,
+        1911
+      ]
+    },
+    {
+      "uri": "col:hversion/jamaica/history/a098cff15897",
+      "colony": "jamaica",
+      "section_slug": "history",
+      "version_hash": "a098cff15897",
+      "asserted_by": "Colonial Office List",
+      "text": "The island was discovered by Columbus on the 3rd May, 1494. He called it St. Jago, after the patron saint of Spain, but the new name was soon dropped in favour of the native one of Jamaica (Xaymaca—well watered). The first settlement on it was effected on the shores of St. Ann's Bay, by Esquivel in 1509, under the direction of Diego, the son of Columbus, the Governor of Hispaniola. It was raided by Sir Anthony Shirley in 1596-7, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards for 161 years, when it was attacked by a force sent by Cromwell, under Admiral Penn and General Venables against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655. Until the Restoration, Jamaica... *See account below. remained under military jurisdiction, but in 1660 a regular civil government was established by Charles II., who appointed General Edward Doyley Governor-in-Chief, with an Elective Council. In 1670 peace was made with Spain, and the title of England to Jamaica was recognised by the Treaty of Madrid. The colony grew fast, stimulated by the wealth brought into it by the buccaneers, who made Port Royal their headquarters and storehouse. Part of this town was engulfed in the great earthquake of 1692. Kingston which then consisted of a few sheds, soon rose into a place of importance. During the 18th century the island suffered from hurricanes, earthquakes, numerous slave insurrections, as well as wars with the maroons, or mountaineers, the descendants of African slaves. These consisted primarily of the slaves the Spaniards left, who inhabited mainly the east of the island, among the Blue Mountains, but before long runaway slaves from English masters took refuge in the mountains of the centre of the island and were only subjugated in 1738, when both classes of maroons were settled in five reserves under their own leaders, and henceforth gave little trouble except for a partial rising in 1795, which was soon suppressed, the prisoners taken being sent to Sierra Leone. When the Slave Trade was abolished, in 1807, there were 323,827 slaves in Jamaica. During the last eight years of the trade, 86,821 slaves were imported. On the abolition of slavery in 1833, Jamaica received £6,161,927 of the 20,000,000£ granted by the Imperial Government as compensation to the slave-owners. A rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled. In January, 1907, Kingston was devastated by a terrible earthquake, which caused great loss of life and immense destruction of property. A Mansion House Fund was opened, and contributions poured in from all parts of the Empire for the relief of distress. A free grant of £150,000£ was voted by Parliament, and a loan of £800,000£, chiefly in aid of re-building, was authorised from the Home Exchequer. The King's House, the official residence of the Governor, was completed in 1910. Two blocks of public buildings were erected in King Street, and with the exception of part of Harbour Street the town of Kingston is now practically rebuilt.",
+      "edition_years": [
+        1914,
+        1915,
+        1917,
+        1918,
+        1919,
+        1920,
+        1921,
+        1922,
+        1923,
+        1924,
+        1925,
+        1928
+      ],
+      "first_edition_year": 1914,
+      "last_edition_year": 1928,
+      "n_editions": 12,
+      "representative_source_file": "1922_manual_parsed/JAMAICA.txt",
+      "char_start": 2344,
+      "char_end": 5467,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.904,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The island was discovered by Columbus on the 3rd May, 1494.",
+          "char_start": 0,
+          "char_end": 59,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "Jago, after the patron saint of Spain, but the new name was soon dropped in favour of the native one of Jamaica (Xaymaca—well watered).",
+          "char_start": 77,
+          "char_end": 212,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "insurrection"
+          ],
+          "verbatim_span": "During the 18th century the island suffered from hurricanes, earthquakes, numerous slave insurrections, as well as wars with the maroons, or mountaineers, the descendants of African slaves.",
+          "char_start": 1350,
+          "char_end": 1539,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rising",
+            "suppressed"
+          ],
+          "verbatim_span": "These consisted primarily of the slaves the Spaniards left, who inhabited mainly the east of the island, among the Blue Mountains, but before long runaway slaves from English masters took refuge in the mountains of the centre of the island and were only subjugated in 1738, when both classes of maroons were settled in five reserves under their own leaders, and henceforth gave little trouble except for a partial rising in 1795, which was soon suppressed, the prisoners taken being sent to Sierra Leone.",
+          "char_start": 1540,
+          "char_end": 2044,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "On the abolition of slavery in 1833, Jamaica received £6,161,927 of the 20,000,000£ granted by the Imperial Government as compensation to the slave-owners.",
+          "char_start": 2199,
+          "char_end": 2354,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebel",
+            "rebellion",
+            "suppressed"
+          ],
+          "verbatim_span": "A rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 2355,
+          "char_end": 2481,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Anthony Shirley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "It was raided by Sir Anthony Shirley in 1596-7, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards for 161 years, when it was attacked by a force sent by Cromwell, under Admiral Penn and General Venables against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655.",
+          "char_start": 402,
+          "char_end": 421,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Colonel Jackson",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "It was raided by Sir Anthony Shirley in 1596-7, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards for 161 years, when it was attacked by a force sent by Cromwell, under Admiral Penn and General Venables against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655.",
+          "char_start": 440,
+          "char_end": 455,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Penn",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "It was raided by Sir Anthony Shirley in 1596-7, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards for 161 years, when it was attacked by a force sent by Cromwell, under Admiral Penn and General Venables against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655.",
+          "char_start": 587,
+          "char_end": 599,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Venables",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "It was raided by Sir Anthony Shirley in 1596-7, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards for 161 years, when it was attacked by a force sent by Cromwell, under Admiral Penn and General Venables against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655.",
+          "char_start": 604,
+          "char_end": 620,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Edward Doyley Governor",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "remained under military jurisdiction, but in 1660 a regular civil government was established by Charles II., who appointed General Edward Doyley Governor-in-Chief, with an Elective Council.",
+          "char_start": 887,
+          "char_end": 917,
+          "year_reference": 1660,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor Eyre",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "A rebellion among the black population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 2420,
+          "char_end": 2433,
+          "year_reference": 1865,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "King Street",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Two blocks of public buildings were erected in King Street, and with the exception of part of Harbour Street the town of Kingston is now practically rebuilt.",
+          "char_start": 3012,
+          "char_end": 3023,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1509,
+        1596,
+        1643,
+        1655,
+        1660,
+        1670,
+        1692,
+        1738,
+        1795,
+        1807,
+        1833,
+        1865,
+        1907,
+        1910
+      ]
+    },
+    {
+      "uri": "col:hversion/jamaica/history/b84842cd009b",
+      "colony": "jamaica",
+      "section_slug": "history",
+      "version_hash": "b84842cd009b",
+      "asserted_by": "Colonial Office List",
+      "text": "The island was discovered by Columbus on the 3rd May, 1494. He called it St. Jago, after the patron saint of Spain, but the new name was soon dropped in favour of the native one of Jamaica (\"Xaymaca—well watered\"). The first settlement on it was effected on the shores of St. Ann's Bay, by Esquivel in 1509, under the direction of Diego, the son of Columbus, the Governor of Hispaniola. It was raided by Sir Anthony Shirley. *For general map of the West Indies, see under Windward Islands.* † See account below. Vice-Consul, Mr. W. Franklin, H. Shanks America, R. O. Tradewell, Consul. For general map of the West Indies, see under Windward Islands. See accounts below. in 1596-7, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards for 161 years, when it was attacked by a force sent by Cromwell, under Admiral Penn and General Venables against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655. Until the Restoration, Jamaica remained under military jurisdiction, but in 1660 a regular civil government was established by Charles II., who appointed General Edward Doyley Governor-in-Chief, with an Elective Council. In 1670 peace was made with Spain, and the title of England to Jamaica was recognised by the Treaty of Madrid. The colony grew fast, stimulated by the wealth brought into it by the buccaneers, who made Port Royal their headquarters and storehouse. Part of this town was engulfed in the great earthquake of 1692. Kingston which then consisted of a few sheds, soon rose into a place of importance. During the 18th century the island suffered from hurricanes, earthquakes, numerous slave insurrections, as well as wars with the maroons, or mountainmen, the descendants of African slaves. These consisted primarily of the slaves the Spaniards left, who inhabited mainly the east of the island, among the Blue Mountains, but before long runaway slaves from English masters took refuge in the mountains of the centre of the island and were only subjugated in 1738, when both classes of maroons were settled in five reserves under their own leaders, and henceforth gave little trouble except for a partial rising in 1795, which was soon suppressed, the prisoners taken being sent to Sierra Leone. When the Slave Trade was abolished, in 1807, there were 323,827 slaves in Jamaica. During the last eight years of the trade, 86,821 slaves were imported. On the abolition of slavery in 1833, Jamaica received 6,161,927l. of the 20,000,000l. granted by the Imperial Government as compensation to the slave-owners. A rebellion among the coloured population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled. In January, 1907, Kingston was devastated by a terrible earthquake, which caused great loss of life and immense destruction of property. A Mansion House Fund was opened, and contributions poured in from all parts of the Empire for the relief of distress. A free grant of 150,000l. was voted by Parliament, and a loan of 800,000l., chiefly in aid of re-building, was authorised from the Home Exchequer.",
+      "edition_years": [
+        1930,
+        1931,
+        1932,
+        1933,
+        1934,
+        1936,
+        1937,
+        1940,
+        1946
+      ],
+      "first_edition_year": 1930,
+      "last_edition_year": 1946,
+      "n_editions": 9,
+      "representative_source_file": "1930_manual_parsed/JAMAICA.txt",
+      "char_start": 2249,
+      "char_end": 5364,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.947,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The island was discovered by Columbus on the 3rd May, 1494.",
+          "char_start": 0,
+          "char_end": 59,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "Jago, after the patron saint of Spain, but the new name was soon dropped in favour of the native one of Jamaica (\"Xaymaca—well watered\").",
+          "char_start": 77,
+          "char_end": 214,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "insurrection"
+          ],
+          "verbatim_span": "During the 18th century the island suffered from hurricanes, earthquakes, numerous slave insurrections, as well as wars with the maroons, or mountainmen, the descendants of African slaves.",
+          "char_start": 1575,
+          "char_end": 1763,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rising",
+            "suppressed"
+          ],
+          "verbatim_span": "These consisted primarily of the slaves the Spaniards left, who inhabited mainly the east of the island, among the Blue Mountains, but before long runaway slaves from English masters took refuge in the mountains of the centre of the island and were only subjugated in 1738, when both classes of maroons were settled in five reserves under their own leaders, and henceforth gave little trouble except for a partial rising in 1795, which was soon suppressed, the prisoners taken being sent to Sierra Leone.",
+          "char_start": 1764,
+          "char_end": 2268,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "granted by the Imperial Government as compensation to the slave-owners.",
+          "char_start": 2509,
+          "char_end": 2580,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebel",
+            "rebellion",
+            "suppressed"
+          ],
+          "verbatim_span": "A rebellion among the coloured population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 2581,
+          "char_end": 2710,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Anthony Shirley.",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "It was raided by Sir Anthony Shirley. *For general map of the West Indies, see under Windward Islands.* † See account below.",
+          "char_start": 404,
+          "char_end": 424,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940,
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Colonel Jackson",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "in 1596-7, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards for 161 years, when it was attacked by a force sent by Cromwell, under Admiral Penn and General Venables against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655.",
+          "char_start": 688,
+          "char_end": 703,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940,
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Penn",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "in 1596-7, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards for 161 years, when it was attacked by a force sent by Cromwell, under Admiral Penn and General Venables against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655.",
+          "char_start": 835,
+          "char_end": 847,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940,
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Venables",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "in 1596-7, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards for 161 years, when it was attacked by a force sent by Cromwell, under Admiral Penn and General Venables against Hispaniola, and capitulated, after a trifling resistance, on the 11th May, 1655.",
+          "char_start": 852,
+          "char_end": 868,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940,
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Edward Doyley Governor",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Until the Restoration, Jamaica remained under military jurisdiction, but in 1660 a regular civil government was established by Charles II., who appointed General Edward Doyley Governor-in-Chief, with an Elective Council.",
+          "char_start": 1112,
+          "char_end": 1142,
+          "year_reference": 1660,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940,
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor Eyre",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "A rebellion among the coloured population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 2649,
+          "char_end": 2662,
+          "year_reference": 1865,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940,
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1509,
+        1596,
+        1643,
+        1655,
+        1660,
+        1670,
+        1692,
+        1738,
+        1795,
+        1807,
+        1833,
+        1865,
+        1907
+      ]
+    },
+    {
+      "uri": "col:hversion/jamaica/history/f868a240c013",
+      "colony": "jamaica",
+      "section_slug": "history",
+      "version_hash": "f868a240c013",
+      "asserted_by": "Colonial Office List",
+      "text": "The island was discovered by Columbus on 3rd May, 1494. He called it St. Jago, after the patron saint of Spain, but the new name was soon dropped in favour of the native one of Jamaica (Xaymaca—well watered). The first settlement on it was effected on the shores of St. Ann’s Bay, by Esquivel in 1509, under the direction of Diego (the son of Columbus), the Governor of Hispaniola. It was raided by Sir Anthony Shirley in 1596-97, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards until 1655 when it was attacked by a force under Admiral Penn and General Venables sent by Cromwell against Hispaniola, and capitulated, after a trifling resistance, on 11th May, 1655. Until the restoration Jamaica remained under military jurisdiction, but in 1660 a regular civil government was established by Charles II, who appointed General Edward Doyley Governor-in-Chief, with an elected council. In 1670 peace was made with Spain, and the title of England to Jamaica was recognised by the Treaty of Madrid. The colony grew fast, stimulated by the wealth brought into it by the buccaneers, who made Port Royal their headquarters and storehouse. Part of this town was engulfed in the great earthquake of 1692. Kingston, which then consisted of a few sheds, soon rose into a place of importance. During the eighteenth century the island suffered from hurricanes, earthquakes, numerous slave insurrections, as well as wars with the maroons, or mountaineers, the descendants of African slaves. These consisted primarily of the slaves the Spaniards left, who inhabited mainly the east of the island, among the Blue Mountains, but before long runaway slaves from English masters took refuge in the mountains of the centre of the island and were only subjugated in 1738, when both classes of maroons were settled in five reserves under their own leaders. Thenceforth they gave little trouble except for a small rising in 1795, which was soon suppressed, the prisoners taken being sent to Sierra Leone. When the slave trade was abolished in 1807 there were 323,827 slaves in Jamaica. During the last eight years of the trade 86,821 slaves were imported. On the abolition of slavery in 1833 Jamaica received £6,161,927 of the £20,000,000 granted by the Imperial Government as compensation to the slave-owners. Unrest among the coloured population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled. In January, 1907, Kingston was devastated by a terrible earthquake, which caused great loss of life and immense destruction of property. A Mansion House Fund was opened, and contributions poured in from all parts of the Empire for the relief of distress. A free grant of £150,000 was voted by Parliament, and a loan of £800,000, chiefly in aid of re-building, was authorised from the Home Exchequer. There were also severe hurricanes in 1912, 1916, 1917, 1935, 1939 and 1943. A disastrous hurricane in 1944 completely devastated the northern and north-eastern sections of the island, causing little loss of life but great destruction of property (houses and cultivation). The coconut industry in particular received a severe setback. Again the Imperial Government came to the assistance of the island by placing a sum of £2,004,000 at the disposal of the Jamaica Government for the rehabilitation of agriculturists. A rapid increase in population and the disastrous onslaught of diseases upon banana cultivations were amongst the various causes which brought about a period of economic depression, causing unrest, which culminated in riots in 1938. A local commission of investigation was soon followed by the appointment of the West India Royal Commission under the chairmanship of Lord Moyne. The establishment of Jamaica Welfare in 1937, has been the principal event in the recent history of social welfare, but many other important developments in the sphere of the social and cultural life took place in the year or two preceding the war. A new tendency became apparent to combine for common ends, and this led, in the political field, to the formation of parties, in the economic field to the development of co-operatives, and in the industrial field to the formation of trade unions.",
+      "edition_years": [
+        1949,
+        1950,
+        1951
+      ],
+      "first_edition_year": 1949,
+      "last_edition_year": 1951,
+      "n_editions": 3,
+      "representative_source_file": "1949_manual_parsed/Jamaica.txt",
+      "char_start": 5897,
+      "char_end": 10136,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.997,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The island was discovered by Columbus on 3rd May, 1494.",
+          "char_start": 0,
+          "char_end": 55,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "Jago, after the patron saint of Spain, but the new name was soon dropped in favour of the native one of Jamaica (Xaymaca—well watered).",
+          "char_start": 73,
+          "char_end": 208,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "insurrection"
+          ],
+          "verbatim_span": "During the eighteenth century the island suffered from hurricanes, earthquakes, numerous slave insurrections, as well as wars with the maroons, or mountaineers, the descendants of African slaves.",
+          "char_start": 1314,
+          "char_end": 1509,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rising",
+            "suppressed"
+          ],
+          "verbatim_span": "Thenceforth they gave little trouble except for a small rising in 1795, which was soon suppressed, the prisoners taken being sent to Sierra Leone.",
+          "char_start": 1868,
+          "char_end": 2014,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "On the abolition of slavery in 1833 Jamaica received £6,161,927 of the £20,000,000 granted by the Imperial Government as compensation to the slave-owners.",
+          "char_start": 2166,
+          "char_end": 2320,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "suppressed"
+          ],
+          "verbatim_span": "Unrest among the coloured population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 2321,
+          "char_end": 2445,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "Again the Imperial Government came to the assistance of the island by placing a sum of £2,004,000 at the disposal of the Jamaica Government for the rehabilitation of agriculturists.",
+          "char_start": 3180,
+          "char_end": 3361,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The establishment of Jamaica Welfare in 1937, has been the principal event in the recent history of social welfare, but many other important developments in the sphere of the social and cultural life took place in the year or two preceding the war.",
+          "char_start": 3741,
+          "char_end": 3989,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Anthony Shirley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "It was raided by Sir Anthony Shirley in 1596-97, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards until 1655 when it was attacked by a force under Admiral Penn and General Venables sent by Cromwell against Hispaniola, and capitulated, after a trifling resistance, on 11th May, 1655.",
+          "char_start": 399,
+          "char_end": 418,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Colonel Jackson",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "It was raided by Sir Anthony Shirley in 1596-97, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards until 1655 when it was attacked by a force under Admiral Penn and General Venables sent by Cromwell against Hispaniola, and capitulated, after a trifling resistance, on 11th May, 1655.",
+          "char_start": 438,
+          "char_end": 453,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Penn",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "It was raided by Sir Anthony Shirley in 1596-97, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards until 1655 when it was attacked by a force under Admiral Penn and General Venables sent by Cromwell against Hispaniola, and capitulated, after a trifling resistance, on 11th May, 1655.",
+          "char_start": 563,
+          "char_end": 575,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Venables",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "It was raided by Sir Anthony Shirley in 1596-97, and by Colonel Jackson in 1643, but it remained in the possession of the Spaniards until 1655 when it was attacked by a force under Admiral Penn and General Venables sent by Cromwell against Hispaniola, and capitulated, after a trifling resistance, on 11th May, 1655.",
+          "char_start": 580,
+          "char_end": 596,
+          "year_reference": 1596,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Edward Doyley Governor",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Until the restoration Jamaica remained under military jurisdiction, but in 1660 a regular civil government was established by Charles II, who appointed General Edward Doyley Governor-in-Chief, with an elected council.",
+          "char_start": 851,
+          "char_end": 881,
+          "year_reference": 1660,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor Eyre",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "Unrest among the coloured population in 1865 was suppressed by Governor Eyre with unnecessary violence, and he was recalled.",
+          "char_start": 2384,
+          "char_end": 2397,
+          "year_reference": 1865,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lord Moyne",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "A local commission of investigation was soon followed by the appointment of the West India Royal Commission under the chairmanship of Lord Moyne.",
+          "char_start": 3729,
+          "char_end": 3739,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1509,
+        1596,
+        1643,
+        1655,
+        1660,
+        1670,
+        1692,
+        1738,
+        1795,
+        1807,
+        1833,
+        1865,
+        1907,
+        1912,
+        1916,
+        1917,
+        1935,
+        1937,
+        1938,
+        1939,
+        1943,
+        1944
+      ]
+    }
+  ]
+}

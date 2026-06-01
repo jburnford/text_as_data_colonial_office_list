@@ -1,0 +1,297 @@
+{
+  "colony": "gold_coast_colony",
+  "n_editions_with_history": 1,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/gold_coast_colony/history/5c778f2ff382",
+      "colony": "gold_coast_colony",
+      "section_slug": "history",
+      "version_hash": "5c778f2ff382",
+      "asserted_by": "Colonial Office List",
+      "text": "It is generally accepted that the Gold Coast, with the adjacent territories bordering on the Gulf of Guinea, were discovered by French navigators in the fourteenth century. The first really historic accounts that are extant of the Gold Coast are dated 1366, when a company was formed at Rouen, to trade with West Africa. Thirty years later the French established themselves in force at a place which they named La Mine, now called Elmina, and built there a large castle, the towers and bastions of which are still well preserved. The Rouen Company remained predominant on the Coast for nearly a century, when their trade failed, and they finally abandoned it. The fame of the wealth of the Gold Coast attracted a large number of adventurers of all nations to the Gulf of Guinea, and during the sixteenth, seventeenth and eighteenth centuries, a vast number of factories were established at various points along the seaboard, and the trade of the coast was eagerly disputed by the French, Portuguese, Danes, English, Brabanders, Dutch and Swedes, who dotted the whole coastline with formidable forts, erected to defend their commerce. In 1672 an English company was formed, called the Royal African Company, which built forts at Dixcove, Sekundu, Komenda, Ananambu, Winneba, Accra, and Whyda, besides strengthening Cape Coast Castle, which was already in existence. It was succeeded in 1750 by the African Company of Merchants, constituted by Act of Parliament, with liberty to trade and to form establishments on the West Coast of Africa, between 20° N. and 20° S. lat. This company, which received an annual subsidy from the Government, suffered by the abolition of the slave trade in 1807, and was dissolved in 1821 by Act of Parliament, and the forts transferred to the Crown, and placed under the Government of the West African Settlements. The fort at Whyda was abandoned. In 1824, the Governor of Sierra Leone, Sir Charles Macarthy, on visiting Cape Coast Castle, found the neighbouring country of the Fantis in possession of the Ashantis. He formed the resolution of inciting the Fantis against their oppressors, and led an army of them, with a few disciplined soldiers, against the Ashantis at Ensimankao, where on the 24th of January, 1824, he was killed, and his force totally routed. The war which ensued was ended by the victory of the English at Dodowa, near Accra, in 1827. Peace was formally concluded by a tripartite Treaty in 1831 between the English, the Fantis, and the Ashantis. In the meantime, Her Majesty's Government had inclined to the policy of retiring from the coast altogether, and after the peace they actually transferred the government of the forts to the local and London merchants interested, who secured as their Governor Mr. George Maclean, a man of marked energy and capacity. This gentleman, with a force of no more than 100 men at command, and with a Government subsidy of only 4,000l. a year, contrived to extend and maintain the influence of his government over the whole tract of country now known as the Gold Coast Protectorate. In 1843, it having been suspected that the Merchant Government connived at the Slave Trade, the forts were resumed by the Crown, and a Lieut.-Governor appointed. Mr. Maclean was continued in the direction of Native Affairs, under the title of Judicial Assessor to the Native Chiefs, which post he held until his death in 1847. In 1850, the Danish forts at Christiansborg-Tessi, Ningo, Ada, and Kutta were purchased from the King of Denmark for 10,000l., the Danish Protectorate, which included the country inhabited by the Shais, Krobos (Eastern and Western), Akims (Eastern and Western), Akwapims, Akwamus, and Krepés being at the same time transferred. In 1852 a large meeting of the native chiefs (afterwards known as the \"Legislative Assembly\") agreed to pay a poll tax in exchange for British protection. This tax gradually fell in arrear, and was abandoned, though some was received up to 1861. Interspersed amongst the British settlements there had always been a number of Dutch forts. This circumstance was an abiding source of embarrassment to the British Government, as, the Dutch settlements being free ports, no appreciable customs duties could be imposed at the British ports. A partition of the coast was therefore effected by a Convention which came into force on the 1st of January, 1868, the Dutch taking the country west of the Sweet river, the British that lying to the east. The Dutch acquired Dixcove, Appolonia, Sekundu, and Komenda; the British acquired Dutch Accra, Berraku, Appam, Kormantine, and Mori. Her Majesty also relinquished to the King of Holland the protectorate over the two Wassaws, Appolonia, Tchutul, and Denkera. The Dutch found their new possessions extremely unruly. Their authority was defied by the protected tribes of the interior, and their officers outraged and ill-treated on the coast; and by a convention, signed at the Hague in 1871, they abandoned to Great Britain the whole of their rights on the coast. Before the Convention was ratified, an assurance was first sought and received from the King of Ashanti that he had no claim on the Dutch settlements of Elmina, and the forts were transferred on the 6th of April, 1872.",
+      "edition_years": [
+        1900
+      ],
+      "first_edition_year": 1900,
+      "last_edition_year": 1900,
+      "n_editions": 1,
+      "representative_source_file": "1900_manual_parsed/GOLD_COAST_COLONY.txt",
+      "char_start": 2152,
+      "char_end": 7408,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "It is generally accepted that the Gold Coast, with the adjacent territories bordering on the Gulf of Guinea, were discovered by French navigators in the fourteenth century.",
+          "char_start": 0,
+          "char_end": 172,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "transferred to"
+          ],
+          "verbatim_span": "This company, which received an annual subsidy from the Government, suffered by the abolition of the slave trade in 1807, and was dissolved in 1821 by Act of Parliament, and the forts transferred to the Crown, and placed under the Government of the West African Settlements.",
+          "char_start": 1570,
+          "char_end": 1844,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The war which ensued was ended by the victory of the English at Dodowa, near Accra, in 1827.",
+          "char_start": 2295,
+          "char_end": 2387,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "her majesty"
+          ],
+          "verbatim_span": "In the meantime, Her Majesty's Government had inclined to the policy of retiring from the coast altogether, and after the peace they actually transferred the government of the forts to the local and London merchants interested, who secured as their Governor Mr.",
+          "char_start": 2499,
+          "char_end": 2760,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "a year, contrived to extend and maintain the influence of his government over the whole tract of country now known as the Gold Coast Protectorate.",
+          "char_start": 2925,
+          "char_end": 3071,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "Maclean was continued in the direction of Native Affairs, under the title of Judicial Assessor to the Native Chiefs, which post he held until his death in 1847.",
+          "char_start": 3238,
+          "char_end": 3398,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "purchased"
+          ],
+          "verbatim_span": "In 1850, the Danish forts at Christiansborg-Tessi, Ningo, Ada, and Kutta were purchased from the King of Denmark for 10,000l., the Danish Protectorate, which included the country inhabited by the Shais, Krobos (Eastern and Western), Akims (Eastern and Western), Akwapims, Akwamus, and Krepés being at the same time transferred.",
+          "char_start": 3399,
+          "char_end": 3726,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1850, the Danish forts at Christiansborg-Tessi, Ningo, Ada, and Kutta were purchased from the King of Denmark for 10,000l., the Danish Protectorate, which included the country inhabited by the Shais, Krobos (Eastern and Western), Akims (Eastern and Western), Akwapims, Akwamus, and Krepés being at the same time transferred.",
+          "char_start": 3399,
+          "char_end": 3726,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native",
+            "protection"
+          ],
+          "verbatim_span": "In 1852 a large meeting of the native chiefs (afterwards known as the \"Legislative Assembly\") agreed to pay a poll tax in exchange for British protection.",
+          "char_start": 3727,
+          "char_end": 3881,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "acquired"
+          ],
+          "verbatim_span": "The Dutch acquired Dixcove, Appolonia, Sekundu, and Komenda; the British acquired Dutch Accra, Berraku, Appam, Kormantine, and Mori.",
+          "char_start": 4467,
+          "char_end": 4599,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "her majesty",
+            "protectorate"
+          ],
+          "verbatim_span": "Her Majesty also relinquished to the King of Holland the protectorate over the two Wassaws, Appolonia, Tchutul, and Denkera.",
+          "char_start": 4600,
+          "char_end": 4724,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribes"
+          ],
+          "verbatim_span": "Their authority was defied by the protected tribes of the interior, and their officers outraged and ill-treated on the coast; and by a convention, signed at the Hague in 1871, they abandoned to Great Britain the whole of their rights on the coast.",
+          "char_start": 4781,
+          "char_end": 5028,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Charles Macarthy",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In 1824, the Governor of Sierra Leone, Sir Charles Macarthy, on visiting Cape Coast Castle, found the neighbouring country of the Fantis in possession of the Ashantis.",
+          "char_start": 1917,
+          "char_end": 1937,
+          "year_reference": 1824,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor Mr",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "In the meantime, Her Majesty's Government had inclined to the policy of retiring from the coast altogether, and after the peace they actually transferred the government of the forts to the local and London merchants interested, who secured as their Governor Mr.",
+          "char_start": 2748,
+          "char_end": 2759,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. Maclean",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Mr. Maclean was continued in the direction of Native Affairs, under the title of Judicial Assessor to the Native Chiefs, which post he held until his death in 1847.",
+          "char_start": 3234,
+          "char_end": 3245,
+          "year_reference": 1847,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Ashanti",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Before the Convention was ratified, an assurance was first sought and received from the King of Ashanti that he had no claim on the Dutch settlements of Elmina, and the forts were transferred on the 6th of April, 1872.",
+          "char_start": 5125,
+          "char_end": 5132,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1900
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1672,
+        1750,
+        1807,
+        1821,
+        1824,
+        1827,
+        1831,
+        1843,
+        1847,
+        1850,
+        1852,
+        1861,
+        1868,
+        1871,
+        1872
+      ]
+    }
+  ]
+}

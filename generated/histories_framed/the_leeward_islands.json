@@ -1,0 +1,583 @@
+{
+  "colony": "the_leeward_islands",
+  "n_editions_with_history": 22,
+  "n_versions": 3,
+  "versions": [
+    {
+      "uri": "col:hversion/the_leeward_islands/history/7fcff91861c0",
+      "colony": "the_leeward_islands",
+      "section_slug": "history",
+      "version_hash": "7fcff91861c0",
+      "asserted_by": "Colonial Office List",
+      "text": "The Islands were discovered by Columbus in 1498, and became British during the 17th century. * Forage allowance at 2s. 6d. per diem extra. † Horse allowance at 2s. 6d. per diem extra. ‡ Salary 240l. each; house allowance 40l. a year; forage allowance 2s. 6d. per diem. Particulars of their subsequent history will be found in the separate articles, but it may here be mentioned, as of historical interest that the Leeward Islands possessed a common Legislature as far back as the reign of William and Mary. Some Acts passed by that Legislature are still in force in the several islands, notably one \"to provide for the want of fines and common recoveries,\" under which entails and settlements of real property are effected, and which is considered creditable to the sagacity of the Colonists of the day as having anticipated by nearly a century and a half a very beneficial reform only effected in this country in the year 1833, by the Act 8 and 4, Will. IV., c. 74. The General Legislature met for the last time in 1798, when it passed a highly humane slave amelioration Act, which was allowed, a Catholic Emancipation Act, and an Act repealing the duty on exports of 44 per cent. for the benefit of the English exchequer—both which were disallowed. An attempt was made by Sir William Colebrook in 1832 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands. The Colonies of St. Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No. 2 of 1882.",
+      "edition_years": [
+        1890
+      ],
+      "first_edition_year": 1890,
+      "last_edition_year": 1890,
+      "n_editions": 1,
+      "representative_source_file": "1890_manual_parsed/the_leeward_islands.txt",
+      "char_start": 717,
+      "char_end": 2554,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [
+        "possible_truncation"
+      ],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Islands were discovered by Columbus in 1498, and became British during the 17th century.",
+          "char_start": 0,
+          "char_end": 92,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "General Legislature",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The General Legislature met for the last time in 1798, when it passed a highly humane slave amelioration Act, which was allowed, a Catholic Emancipation Act, and an Act repealing the duty on exports of 44 per cent.",
+          "char_start": 971,
+          "char_end": 990,
+          "year_reference": 1798,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1890
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir William Colebrook",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "An attempt was made by Sir William Colebrook in 1832 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands.",
+          "char_start": 1274,
+          "char_end": 1295,
+          "year_reference": 1832,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1890
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Benjamin Pine",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "An attempt was made by Sir William Colebrook in 1832 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands.",
+          "char_start": 1595,
+          "char_end": 1612,
+          "year_reference": 1832,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1890
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Nevis",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No.",
+          "char_start": 1714,
+          "char_end": 1719,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1890
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Anguilla",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No.",
+          "char_start": 1726,
+          "char_end": 1734,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1890
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1798,
+        1832,
+        1833,
+        1871,
+        1882
+      ]
+    },
+    {
+      "uri": "col:hversion/the_leeward_islands/history/6041c5f78490",
+      "colony": "the_leeward_islands",
+      "section_slug": "history",
+      "version_hash": "6041c5f78490",
+      "asserted_by": "Colonial Office List",
+      "text": "The Islands were discovered by Columbus on his second voyage, in 1493, and became British during the 17th century. Particulars of their subsequent history will be found in the separate articles, but it may here be mentioned, that with the exception of Dominica they have been from the first associated politically as well as geographically. They were all colonised from St. Kitts as centre, all included in the Carlisle grant, and possessed a common Legislature as far back as the reign of William and Mary. Some Acts passed by that Legislature are still in force in the several islands, notably one \"to provide for the want of fines and common recoveries,\" under which entails and settlements of real property are effected, and which is considered creditable to the sagacity of the Colonists of the day as having anticipated by nearly a century and a half a very beneficial reform only effected in this country in the year 1833, by the Act 3 and 4, Will. IV, c. 74. The General Legislature met for the last time in 1798, when it passed a highly humane slave amelioration Act, which was allowed, a Catholic Emancipation Act, and an Act repealing the duty on exports of 4½ per cent. for the benefit of the English exchequer—but both which were disallowed. An attempt was made by Sir William Colclough in 1837 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands. The Colonies of St. Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No. 2 of 1882.",
+      "edition_years": [
+        1894,
+        1905,
+        1906,
+        1907,
+        1909,
+        1913,
+        1914,
+        1915,
+        1917,
+        1921
+      ],
+      "first_edition_year": 1894,
+      "last_edition_year": 1921,
+      "n_editions": 10,
+      "representative_source_file": "1894_manual_parsed/the_leeward_islands.txt",
+      "char_start": 1037,
+      "char_end": 2876,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.977,
+      "source_flags": [
+        "possible_truncation"
+      ],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Islands were discovered by Columbus on his second voyage, in 1493, and became British during the 17th century.",
+          "char_start": 0,
+          "char_end": 114,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1905,
+            1906,
+            1907,
+            1909,
+            1913,
+            1914,
+            1915,
+            1917,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "General Legislature",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The General Legislature met for the last time in 1798, when it passed a highly humane slave amelioration Act, which was allowed, a Catholic Emancipation Act, and an Act repealing the duty on exports of 4½ per cent.",
+          "char_start": 971,
+          "char_end": 990,
+          "year_reference": 1798,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1905,
+            1906,
+            1907,
+            1909,
+            1913,
+            1914,
+            1915,
+            1917,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir William Colclough",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "An attempt was made by Sir William Colclough in 1837 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands.",
+          "char_start": 1278,
+          "char_end": 1299,
+          "year_reference": 1837,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1905,
+            1906,
+            1907,
+            1909,
+            1913,
+            1914,
+            1915,
+            1917,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Benjamin Pine",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "An attempt was made by Sir William Colclough in 1837 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands.",
+          "char_start": 1599,
+          "char_end": 1616,
+          "year_reference": 1837,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1905,
+            1906,
+            1907,
+            1909,
+            1913,
+            1914,
+            1915,
+            1917,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Dominica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Particulars of their subsequent history will be found in the separate articles, but it may here be mentioned, that with the exception of Dominica they have been from the first associated politically as well as geographically.",
+          "char_start": 252,
+          "char_end": 260,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1905,
+            1906,
+            1907,
+            1909,
+            1913,
+            1914,
+            1915,
+            1917,
+            1921
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Nevis",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No.",
+          "char_start": 1718,
+          "char_end": 1723,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1905,
+            1906,
+            1907,
+            1909,
+            1913,
+            1914,
+            1915,
+            1917,
+            1921
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Anguilla",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No.",
+          "char_start": 1730,
+          "char_end": 1738,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1905,
+            1906,
+            1907,
+            1909,
+            1913,
+            1914,
+            1915,
+            1917,
+            1921
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1798,
+        1833,
+        1837,
+        1871,
+        1882
+      ]
+    },
+    {
+      "uri": "col:hversion/the_leeward_islands/history/6a471454790f",
+      "colony": "the_leeward_islands",
+      "section_slug": "history",
+      "version_hash": "6a471454790f",
+      "asserted_by": "Colonial Office List",
+      "text": "The islands were discovered by Columbus on his second voyage, in 1493, and became British during the 17th century. Particulars of their subsequent history will be found in the separate articles, but it may here be mentioned, that with the exception of Dominica, they have been from the first associated politically as well as geographi- cally. They were all colonised from St. Kitts as centre, all included in the Carlisle grant, and possessed a common Legislature as far back as the reign of William and Mary. The General Legislature met for the last time in 1798, when it passed a highly humane slave ameliora- tion Act, which was allowed; a Catholic Emancipa- tion Act, and an Act repealing the duty on exports of 4½ per cent. for the benefit of the English ex- chequer—both which were disallowed. An attempt was made by Sir William Colebrook in 1837 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands. The Presidencies of St. Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No. 2 of 1882.",
+      "edition_years": [
+        1925,
+        1928,
+        1929,
+        1930,
+        1932,
+        1933,
+        1934,
+        1936,
+        1937,
+        1939,
+        1940
+      ],
+      "first_edition_year": 1925,
+      "last_edition_year": 1940,
+      "n_editions": 11,
+      "representative_source_file": "1929_manual_parsed/THE_LEEWARD_ISLANDS.txt",
+      "char_start": 1275,
+      "char_end": 2664,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.962,
+      "source_flags": [
+        "possible_truncation"
+      ],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The islands were discovered by Columbus on his second voyage, in 1493, and became British during the 17th century.",
+          "char_start": 0,
+          "char_end": 114,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1928,
+            1929,
+            1930,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "General Legislature",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The General Legislature met for the last time in 1798, when it passed a highly humane slave ameliora- tion Act, which was allowed; a Catholic Emancipa- tion Act, and an Act repealing the duty on exports of 4½ per cent.",
+          "char_start": 515,
+          "char_end": 534,
+          "year_reference": 1798,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1928,
+            1929,
+            1930,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir William Colebrook",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "An attempt was made by Sir William Colebrook in 1837 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands.",
+          "char_start": 824,
+          "char_end": 845,
+          "year_reference": 1837,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1928,
+            1929,
+            1930,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Benjamin Pine",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "An attempt was made by Sir William Colebrook in 1837 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands.",
+          "char_start": 1145,
+          "char_end": 1162,
+          "year_reference": 1837,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1928,
+            1929,
+            1930,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Dominica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Particulars of their subsequent history will be found in the separate articles, but it may here be mentioned, that with the exception of Dominica, they have been from the first associated politically as well as geographi- cally.",
+          "char_start": 252,
+          "char_end": 260,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1928,
+            1929,
+            1930,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Nevis",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No.",
+          "char_start": 1268,
+          "char_end": 1273,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1928,
+            1929,
+            1930,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Anguilla",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No.",
+          "char_start": 1280,
+          "char_end": 1288,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1928,
+            1929,
+            1930,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1798,
+        1837,
+        1871,
+        1882
+      ]
+    }
+  ]
+}

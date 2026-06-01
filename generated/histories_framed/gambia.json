@@ -1,0 +1,2208 @@
+{
+  "colony": "gambia",
+  "n_editions_with_history": 14,
+  "n_versions": 6,
+  "versions": [
+    {
+      "uri": "col:hversion/gambia/history/11234b1bc138",
+      "colony": "gambia",
+      "section_slug": "history",
+      "version_hash": "11234b1bc138",
+      "asserted_by": "Colonial Office List",
+      "text": "The Gambia was discovered by the early Portuguese navigators, but they made no settlement. In 1588 a patent was granted by Queen Elizabeth to some merchants in Exeter to trade with the Gambia, and in 1618 a Company was formed for this. It was not successful, and another established two years later also failed. In 1670 a fort was built on the island, now known as Fort James. In 1724, and subsequently till its abolition, the trade in slaves formed the staple traffic of the Company. The general commerce between Great Britain and the Gambia fell off after the abolition of the slave trade (1807) till 1816, when a new settlement was formed at the Island of St. Mary by British merchants from Senegal and the town of Bathurst commenced. The right of trade was abandoned to England by France in the treaty of 1783, with the exception of a French factory which was subsequently established at Albreda on the north bank of the river. The same treaty gave the Senegal river to the French, with the exception of an exclusive right to trade with the Arabs at Portendic for gum, which was retained by England. These two exceptional rights were exchanged in 1857. From 1807 the settlement was subject to the Government of Sierra Leone, and was annexed to it by Act of Parliament in 1821, till in 1843 it was created an independent colony, with a Governor and Executive and Legislative Councils for the administration of its affairs. By the charter of 19th February, 1866, it became a portion of the Government of the West Africa Settlements, and continued so under the charter of the 19th December, 1874, until it was made a separate Government in 1881. McCarthy's Island was purchased in 1823; the Ceded Mile was granted by the King of Barra in 1826 and 1832; St. Mary's Island was ceded in 1827; and British Kommbo was granted by the King of Kommbo in various sessions in 1840, 1850, and 1855.",
+      "edition_years": [
+        1898,
+        1900
+      ],
+      "first_edition_year": 1898,
+      "last_edition_year": 1900,
+      "n_editions": 2,
+      "representative_source_file": "1900_manual_parsed/GAMBIA.txt",
+      "char_start": 1276,
+      "char_end": 3169,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.973,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Gambia was discovered by the early Portuguese navigators, but they made no settlement.",
+          "char_start": 0,
+          "char_end": 90,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1898,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "From 1807 the settlement was subject to the Government of Sierra Leone, and was annexed to it by Act of Parliament in 1821, till in 1843 it was created an independent colony, with a Governor and Executive and Legislative Councils for the administration of its affairs.",
+          "char_start": 1157,
+          "char_end": 1425,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1898,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "purchased"
+          ],
+          "verbatim_span": "McCarthy's Island was purchased in 1823; the Ceded Mile was granted by the King of Barra in 1826 and 1832; St.",
+          "char_start": 1647,
+          "char_end": 1757,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1898,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "Mary's Island was ceded in 1827; and British Kommbo was granted by the King of Kommbo in various sessions in 1840, 1850, and 1855.",
+          "char_start": 1758,
+          "char_end": 1888,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1898,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Queen Elizabeth",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "In 1588 a patent was granted by Queen Elizabeth to some merchants in Exeter to trade with the Gambia, and in 1618 a Company was formed for this.",
+          "char_start": 123,
+          "char_end": 138,
+          "year_reference": 1588,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1898,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1588,
+        1618,
+        1670,
+        1724,
+        1783,
+        1807,
+        1816,
+        1821,
+        1823,
+        1826,
+        1827,
+        1832,
+        1840,
+        1843,
+        1850,
+        1855,
+        1857,
+        1866,
+        1874,
+        1881
+      ]
+    },
+    {
+      "uri": "col:hversion/gambia/history/891de2b91f1c",
+      "colony": "gambia",
+      "section_slug": "history",
+      "version_hash": "891de2b91f1c",
+      "asserted_by": "Colonial Office List",
+      "text": "The Gambia was discovered by the early Portuguese navigators, but they made no settlement. In 1588 a patent was granted by Queen Elizabeth to some merchants in Exeter to trade with the Gambia, and in 1618 a Company was formed for this. It was not successful, and another established two years later also failed. In 1664 a fort was built on the island, now known as Fort James. In 1724, and subsequently till its abolition, the trade in slaves formed the staple traffic of the Company. The general commerce between Great Britain and the Gambia fell off after the abolition of the slave trade (1807) till 1816, when a new settlement was formed at the Island of St. Mary by British merchants from Senegal and the town of Bathurst commenced. The right of trade was abandoned to England by France in the treaty of 1783, with the exception of a French factory, which was subsequently established at Albreda on the north bank of the river. The same treaty gave the Senegal river to the French, with the exception of an exclusive right to trade with the Arabs at Portendic for gun, which was retained by England. These two exceptional rights were exchanged in 1857. From 1807 the settlement was subject to the Government of Sierra Leone, and was annexed to it by Act of Parliament in 1821, till in 1843 it was created an independent colony, with a Governor and Executive and Legislative Councils for the administration of its affairs. By the charter of 19th February, 1866, it became a portion of the government of the West Africa Settlements, and continued to be so under the charter of the 19th December, 1874, until it was made a separate Government in 1888. McCarthy's Island was purchased in 1823; the Cedet Mile was granted by the King of Barra in 1826 and 1832; St. Mary's Island was ceded in 1827; and British Komombo was granted by the King of Komombo in various sessions in 1840, 1850, and 1855. The Protectorate has been established at various times from 1894 to 1901 by agreement with the different Chiefs concerned. In 1900 disaffection arose among certain towns of the Protectorate which were under the influence of Fodi Kabba, a chief who had been expelled from British territory in 1892, and had since established his headquarters at Medina in French territory. Two travelling commissioners, Mr. Sitwell and Mr. Silva, were murdered at Sankandi, in June, 1900. It became necessary to send a punitive expedition to the Gambia, and Col. H. E. Brake was selected to command. Sankandi was taken, and, with the co-operation of the French, Medina was also taken, and Fodi Kabba was killed on the 23rd of March, 1901.",
+      "edition_years": [
+        1908
+      ],
+      "first_edition_year": 1908,
+      "last_edition_year": 1908,
+      "n_editions": 1,
+      "representative_source_file": "1908_manual_parsed/GAMBIA.txt",
+      "char_start": 1660,
+      "char_end": 4285,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Gambia was discovered by the early Portuguese navigators, but they made no settlement.",
+          "char_start": 0,
+          "char_end": 90,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "From 1807 the settlement was subject to the Government of Sierra Leone, and was annexed to it by Act of Parliament in 1821, till in 1843 it was created an independent colony, with a Governor and Executive and Legislative Councils for the administration of its affairs.",
+          "char_start": 1158,
+          "char_end": 1426,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "purchased"
+          ],
+          "verbatim_span": "McCarthy's Island was purchased in 1823; the Cedet Mile was granted by the King of Barra in 1826 and 1832; St.",
+          "char_start": 1654,
+          "char_end": 1764,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "Mary's Island was ceded in 1827; and British Komombo was granted by the King of Komombo in various sessions in 1840, 1850, and 1855.",
+          "char_start": 1765,
+          "char_end": 1897,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "The Protectorate has been established at various times from 1894 to 1901 by agreement with the different Chiefs concerned.",
+          "char_start": 1898,
+          "char_end": 2020,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1900 disaffection arose among certain towns of the Protectorate which were under the influence of Fodi Kabba, a chief who had been expelled from British territory in 1892, and had since established his headquarters at Medina in French territory.",
+          "char_start": 2021,
+          "char_end": 2269,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition",
+            "punitive"
+          ],
+          "verbatim_span": "It became necessary to send a punitive expedition to the Gambia, and Col.",
+          "char_start": 2369,
+          "char_end": 2442,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Queen Elizabeth",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "In 1588 a patent was granted by Queen Elizabeth to some merchants in Exeter to trade with the Gambia, and in 1618 a Company was formed for this.",
+          "char_start": 123,
+          "char_end": 138,
+          "year_reference": 1588,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1908
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. Sitwell",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Two travelling commissioners, Mr. Sitwell and Mr.",
+          "char_start": 2300,
+          "char_end": 2311,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1908
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. Silva",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Sitwell and Mr. Silva, were murdered at Sankandi, in June, 1900.",
+          "char_start": 2316,
+          "char_end": 2325,
+          "year_reference": 1900,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1908
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1588,
+        1618,
+        1664,
+        1724,
+        1783,
+        1807,
+        1816,
+        1821,
+        1823,
+        1826,
+        1827,
+        1832,
+        1840,
+        1843,
+        1850,
+        1855,
+        1857,
+        1866,
+        1874,
+        1888,
+        1892,
+        1894,
+        1900,
+        1901
+      ]
+    },
+    {
+      "uri": "col:hversion/gambia/history/a1a3a2767c13",
+      "colony": "gambia",
+      "section_slug": "history",
+      "version_hash": "a1a3a2767c13",
+      "asserted_by": "Colonial Office List",
+      "text": "The Gambia was discovered by the early Portuguese navigators, but they made no settlement. In 1588 a patent was granted by Queen Elizabeth to some merchants in London and Exeter to trade with the Gambia. This Company did not prosper. Its voyages were not slave trading ventures but were made for legitimate commerce. In 1618 King James I. of England granted a charter to Sir Robert Rich and other London merchants. Their enterprise was entitled \"The Company of Adventurers of London trading in Africa,\" and Fort James was built by them on a small island 17 miles from St. Mary's Island. Fort James was abandoned after the abolition of the slave trade, but it must always remain a prominent landmark in the history of West Africa. About the year 1631 another British chartered company was formed, King Charles I., having granted a charter to Sir B. Young, Sir R. Digby and others. This venture was responsible for supplying British settlements in the West Indies with slaves for working estates. In fact the whole West African trade at this period was in slaves. In 1662 King Charles II. granted a charter to a third company, known as the \"Royal Adventurers of England trading in Africa.\" A few years later this company exhausted its capital and surrendered its charter. In 1672 a fourth company was incorporated under the name of the \"Royal African Company,\" and it was not until 1783, after having in its early days reached the highest point of commercial prosperity which had been touched by England in Africa, that it was superseded by the \"Company of Merchants.\" This company was formed with the consent of Parliament, after the right of trade had been abandoned to England by France under the treaty of Versailles, which guaranteed to the English their possession of Fort James and of the River Gambia, with the exception of a French factory subsequently established at Albreda on the north bank of the river. The same treaty gave the Senegal river to the French, with the exception of an exclusive right to trade with the Arabs at Portendic for gum, which was retained by England. The year 1807 saw the abolition of the slave trade, and though the \"Company of Merchants\" lingered on with an annual subsidy, their possessions were taken over by the Crown in 1821. From 1807 the settlement was subject to the Government of Sierra Leone, and was annexed to it by Act of Parliament in 1821. In April, 1830, Mr. George Rendall was appointed the first Lieut.-Governor with powers which, prior to this, had been vested only in a Board of Merchants. Special endeavours were at once made to lay out the town of Bathurst, and to effect proper drainage on the island. In 1831 a Liberated African Department was formed, with headquarters at McCarthy's Island. The Gambia, in the year 1843, was created an independent Colony, with a Governor and Executive and Legislative Councils for the administration of its affairs. Mr. H. P. Seagram was the first Governor of the Colony. By the charter of 19th February, 1866, it became a portion of the Government of the West African Settlements, and continued to be so under the charter of the 19th December, 1874, until it was made a separate Government in 1888. McCarthy's Island was purchased in 1823; the ceded mile was granted by the King of Barra in 1826 and 1832; St. Mary's Island was ceded in 1827; and British Kommbo was granted by the King of Kommbo in various cessions in 1840, 1850, and 1855. An Infantry Militia Force was raised in 1862 for special service in Kommbo. Turbulent times had been experienced in the Gambia, due to tribal warfare between the Marabouts and Sonninkkees, caused by religious differences. The term \"Marabout\" is given to the true followers of the Mohammedan faith; the Sonninkkees being so called on account of their belonging to no faith and being addicted to drinking. Heavy fighting took place between these people in Baddibu on the north bank of the river, in the Kommbo territories, and throughout the country, and it was not until the year 1856 that an arrangement was arrived at to promote and maintain peace. The most renowned leader of the Marabouts was one Hamah Bah, commonly known as \"Maba.\" The Government from time to time had to take active measures against these people, and the European lives lost in punitive expeditions in the Gambia have been many. A system at this date in the interior was the method of \"custom,\" presents which had to be made to the Chiefs and Headmen before legitimate trade could be carried on by the merchants. This was as far as possible put a stop to by the Government, these \"customs\" being superseded by \"stipends\" such as still continue in operation. In 1897 the countries of Fogni and Jarra, on the south bank of the river, came under British protection, and it became necessary for the Government to suppress the marauding Chief Fodi Kabba, who was causing trouble north of the Vintang Creek, some 26 miles from Bathurst, and proceeding eastwards worrying the people. An expedition was sent against Fodi Kabba and he was expelled, fleeing to French territory, where he formed a stronghold at Medina, his followers on British soil being completely routed. In 1894 Chief Fodi Sillah, of Foreign Kommbo, became so aggressive in stopping and robbing traders that it was decided to send an expedition against him. At this time Brikama, Gunjur, Sukuta and Busumballa were the principal places in the occupation of Fodi Sillah and his people. The force, which comprised officers and men from the ships of war present, and from the West India Regiment, proceeded into Kommbo. Fodi Sillah was defeated and his stronghold destroyed. He fled to French territory, but was captured and deported to Saint Louis, where he died. Foreign Kommbo was annexed by the British Government and is now divided into North, South and Central Kommbo. The Protectorate system of administration has been established since 1894, and extended from time to time by agreement with the different chiefs concerned, until Ordinance No. 7 of 1902 was passed, providing fully for the Government of the whole Protectorate, which is divided into five Provinces and again into Districts. There is a Travelling Commissioner in each Province, and each District is under a Head Chief, with a native tribunal specially appointed by the Governor. The Provinces are as follows:—North Bank Province, with the districts of Lower Niumi, Upper Niumi, Jokado, Lower Baddibu, Upper Baddibu, Sabach and Sanigall, 110 miles in length. McCarthy Province, with the districts of Lower Niani, Upper Niani, Lower Saloum, Eastern Saloum, Nianija, 85 miles in length. Upper River Province, with the districts of Sandu and Wuli on the North bank, and Kantora, Fulladu East, Gambisara and Fulladu West on the south bank of the river, 150 miles in length. South Bank Province, with the districts of Eastern Nianiana, Western Nianiana, Central Jarra, Eastern Jarra, Western Jarra, East Central Kiang and Eastern Kiang, 70 miles in length. Kommbo and Fogni Province, with the districts of Western Kiang, Fogni, Karenai, Fogni East, Kansalla and Bondalli, Fogni West, Vintang and Bruffutt, Kommbo East, Central, South, North, and Kommbo St. Mary, 85 miles in length. In 1900 further trouble arose between the Marabouts and Sonninkes respectively, of the towns of Sankandi and Battelling, over the ownership of some rice fields. Two travelling Commissioners, Mr. Sitwell and Mr. Silva, with an escort of a sergeant of police and ten constables, proceeded to Sankandi with the object of settling the trouble; but unfortunately, owing to the treachery of the Headman, Dari Bana Dabu, both the Commissioners, the sergeant and five constables were foully murdered. On the arrival of Sir George Denton in 1901, it was decided to send a punitive expedition against these people, and Colonel H. E. Brake was selected to command. After a short resistance the participants in the revolt were crushed and their town destroyed. Certain of the ringleaders of the disturbance fled and joined Fodi Kabba at Medina. Concerted action with the French Government of Senegal was taken however, and on the 23rd March, 1901, Medina was demolished and Fodi Kabba killed. Three other ringleaders were subsequently captured by the French, handed over to the British Government, tried and sentenced to death in the Supreme Court, and executed at Dumbuta, a large village near the scene of the murder of the two Commissioners.",
+      "edition_years": [
+        1912
+      ],
+      "first_edition_year": 1912,
+      "last_edition_year": 1912,
+      "n_editions": 1,
+      "representative_source_file": "1912_manual_parsed/GAMBIA.txt",
+      "char_start": 2238,
+      "char_end": 10706,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Gambia was discovered by the early Portuguese navigators, but they made no settlement.",
+          "char_start": 0,
+          "char_end": 90,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "From 1807 the settlement was subject to the Government of Sierra Leone, and was annexed to it by Act of Parliament in 1821.",
+          "char_start": 2269,
+          "char_end": 2392,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "purchased"
+          ],
+          "verbatim_span": "McCarthy's Island was purchased in 1823; the ceded mile was granted by the King of Barra in 1826 and 1832; St.",
+          "char_start": 3197,
+          "char_end": 3307,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "cession"
+          ],
+          "verbatim_span": "Mary's Island was ceded in 1827; and British Kommbo was granted by the King of Kommbo in various cessions in 1840, 1850, and 1855.",
+          "char_start": 3308,
+          "char_end": 3438,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition",
+            "punitive"
+          ],
+          "verbatim_span": "The most renowned leader of the Marabouts was one Hamah Bah, commonly known as \"Maba.\" The Government from time to time had to take active measures against these people, and the European lives lost in punitive expeditions in the Gambia have been many.",
+          "char_start": 4089,
+          "char_end": 4340,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "came under british"
+          ],
+          "verbatim_span": "In 1897 the countries of Fogni and Jarra, on the south bank of the river, came under British protection, and it became necessary for the Government to suppress the marauding Chief Fodi Kabba, who was causing trouble north of the Vintang Creek, some 26 miles from Bathurst, and proceeding eastwards worrying the people.",
+          "char_start": 4670,
+          "char_end": 4988,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "In 1897 the countries of Fogni and Jarra, on the south bank of the river, came under British protection, and it became necessary for the Government to suppress the marauding Chief Fodi Kabba, who was causing trouble north of the Vintang Creek, some 26 miles from Bathurst, and proceeding eastwards worrying the people.",
+          "char_start": 4670,
+          "char_end": 4988,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "under british protection"
+          ],
+          "verbatim_span": "In 1897 the countries of Fogni and Jarra, on the south bank of the river, came under British protection, and it became necessary for the Government to suppress the marauding Chief Fodi Kabba, who was causing trouble north of the Vintang Creek, some 26 miles from Bathurst, and proceeding eastwards worrying the people.",
+          "char_start": 4670,
+          "char_end": 4988,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "An expedition was sent against Fodi Kabba and he was expelled, fleeing to French territory, where he formed a stronghold at Medina, his followers on British soil being completely routed.",
+          "char_start": 4989,
+          "char_end": 5175,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "In 1894 Chief Fodi Sillah, of Foreign Kommbo, became so aggressive in stopping and robbing traders that it was decided to send an expedition against him.",
+          "char_start": 5176,
+          "char_end": 5329,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The force, which comprised officers and men from the ships of war present, and from the West India Regiment, proceeded into Kommbo.",
+          "char_start": 5457,
+          "char_end": 5588,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "Fodi Sillah was defeated and his stronghold destroyed.",
+          "char_start": 5589,
+          "char_end": 5643,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "Foreign Kommbo was annexed by the British Government and is now divided into North, South and Central Kommbo.",
+          "char_start": 5734,
+          "char_end": 5843,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "The Protectorate system of administration has been established since 1894, and extended from time to time by agreement with the different chiefs concerned, until Ordinance No.",
+          "char_start": 5844,
+          "char_end": 6019,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "7 of 1902 was passed, providing fully for the Government of the whole Protectorate, which is divided into five Provinces and again into Districts.",
+          "char_start": 6020,
+          "char_end": 6166,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "There is a Travelling Commissioner in each Province, and each District is under a Head Chief, with a native tribunal specially appointed by the Governor.",
+          "char_start": 6167,
+          "char_end": 6320,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition",
+            "punitive"
+          ],
+          "verbatim_span": "On the arrival of Sir George Denton in 1901, it was decided to send a punitive expedition against these people, and Colonel H.",
+          "char_start": 7712,
+          "char_end": 7838,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "revolt"
+          ],
+          "verbatim_span": "After a short resistance the participants in the revolt were crushed and their town destroyed.",
+          "char_start": 7873,
+          "char_end": 7967,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Queen Elizabeth",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "In 1588 a patent was granted by Queen Elizabeth to some merchants in London and Exeter to trade with the Gambia.",
+          "char_start": 123,
+          "char_end": 138,
+          "year_reference": 1588,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "King James I.",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "In 1618 King James I. of England granted a charter to Sir Robert Rich and other London merchants.",
+          "char_start": 325,
+          "char_end": 338,
+          "year_reference": 1618,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Robert Rich",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "of England granted a charter to Sir Robert Rich and other London merchants.",
+          "char_start": 371,
+          "char_end": 386,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "King Charles I.",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "About the year 1631 another British chartered company was formed, King Charles I., having granted a charter to Sir B.",
+          "char_start": 796,
+          "char_end": 811,
+          "year_reference": 1631,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "King Charles",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "In 1662 King Charles II.",
+          "char_start": 1070,
+          "char_end": 1082,
+          "year_reference": 1662,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. George Rendall",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In April, 1830, Mr. George Rendall was appointed the first Lieut.-Governor with powers which, prior to this, had been vested only in a Board of Merchants.",
+          "char_start": 2409,
+          "char_end": 2427,
+          "year_reference": 1830,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief Fodi Kabba",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "In 1897 the countries of Fogni and Jarra, on the south bank of the river, came under British protection, and it became necessary for the Government to suppress the marauding Chief Fodi Kabba, who was causing trouble north of the Vintang Creek, some 26 miles from Bathurst, and proceeding eastwards worrying the people.",
+          "char_start": 4844,
+          "char_end": 4860,
+          "year_reference": 1897,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief Fodi Sillah",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "In 1894 Chief Fodi Sillah, of Foreign Kommbo, became so aggressive in stopping and robbing traders that it was decided to send an expedition against him.",
+          "char_start": 5184,
+          "char_end": 5201,
+          "year_reference": 1894,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor. The Provinces",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "There is a Travelling Commissioner in each Province, and each District is under a Head Chief, with a native tribunal specially appointed by the Governor. The Provinces are as follows:—North Bank Province, with the districts of Lower Niumi, Upper Niumi, Jokado, Lower Baddibu, Upper Baddibu, Sabach and Sanigall, 110 miles in length.",
+          "char_start": 6311,
+          "char_end": 6334,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. Sitwell",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Two travelling Commissioners, Mr. Sitwell and Mr.",
+          "char_start": 7410,
+          "char_end": 7421,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. Silva",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Sitwell and Mr. Silva, with an escort of a sergeant of police and ten constables, proceeded to Sankandi with the object of settling the trouble; but unfortunately, owing to the treachery of the Headman, Dari Bana Dabu, both the Commissioners, the sergeant and five constables were foully murdered.",
+          "char_start": 7426,
+          "char_end": 7435,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir George Denton",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "On the arrival of Sir George Denton in 1901, it was decided to send a punitive expedition against these people, and Colonel H.",
+          "char_start": 7730,
+          "char_end": 7747,
+          "year_reference": 1901,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1588,
+        1618,
+        1631,
+        1662,
+        1672,
+        1783,
+        1807,
+        1821,
+        1823,
+        1826,
+        1827,
+        1830,
+        1831,
+        1832,
+        1840,
+        1843,
+        1850,
+        1855,
+        1856,
+        1862,
+        1866,
+        1874,
+        1888,
+        1894,
+        1897,
+        1900,
+        1901,
+        1902
+      ]
+    },
+    {
+      "uri": "col:hversion/gambia/history/b7a47da536ce",
+      "colony": "gambia",
+      "section_slug": "history",
+      "version_hash": "b7a47da536ce",
+      "asserted_by": "Colonial Office List",
+      "text": "The Gambia was discovered by the early Portuguese navigators, but they made no settlement. In 1588 a patent was granted by Queen Elizabeth to some merchants in London and Exeter to trade with the Gambia. This Company did not prosper. Its voyages were not slave trading ventures but were made for legitimate commerce. In 1618 King James I. of England granted a charter to Sir Robert Rich and other London merchants. Their enterprise was entitled \"The Company of Adventurers of London trading in Africa,\" and Fort James was built by them on a small island 17 miles above the island of Banjola (now St. Mary's). Fort James was abandoned after the abolition of the slave trade, but it is a landmark in the history of West Africa. It is being washed away gradually. About the year 1631 another British chartered company was formed, King Charles I. having granted a charter to Sir B. Young, Sir R. Digby and others. This venture was responsible for supplying British settlements in the West Indies with slaves for working on the estates. In 1662 King Charles II. granted a charter to a third company, known as the \"Royal Adventurers of England trading in Africa.\" A few years later this company exhausted its capital and surrendered its charter. In 1672 a fourth company was incorporated under the name of the \"Royal African Company,\" and it was not until 1752, after having in its early days reached the highest point of commercial prosperity which had been touched by England in Africa, that it was superseded by the \"Company of Merchants.\" The right of trade was abandoned to England by France under the treaty of Versailles, 1783, which guaranteed to the English their possession of Fort James and of the River Gambia, with the exception of a French factory established at Albreda on the north bank of the river. The same treaty gave the Senegal river to the French, with the exception of an exclusive right to trade with the Arabs at Portendic for gum, which was retained by England. The year 1807 saw the abolition of the slave trade, and though the \"Company of Merchants\" lingered on with an annual subsidy, the general commerce between Great Britain and Gambia fell off till 1816, in which year a new settlement was formed on the island of Banjola by the English merchants, who resided at Gorée and in Senegal until those places were given up to the French by the Treaty of Paris (1814). The island was re-named \"St. Mary's,\" and the town which was laid out took its name from Lord Bathurst, Secretary of State at that time. The streets to be inhabited first were named after Lord Wellington and his generals at Waterloo, with one named \"Blucher.\" The settlement was subject to the Government of Sierra Leone, and was annexed to it by Act of Parliament in 1821. From 1816 to 1822 a Military Commandant, aided by a Board of Merchants, called the \"Settlement court,\" administered the government. From 1822 to 1829 the Commandant governed alone. In December, 1829, the Secretary of State appointed Lieut.-Colonel Alex. Findlay, R.A.C. Corps, as Lieutenant-Governor (the first) \"of the settlement of Bathurst and its dependencies in the Gambia.\" The laws of Sierra Leone remained in force, but the Lieutenant-Governor was not accountable to the officer administering the government there. In 1831 a Liberated African Department was formed, with headquarters at MacCarthy Island. The department was abolished in 1837. The Gambia, in the year 1843, was created an independent Colony, with a Governor and Executive and Legislative Councils for the administration of its affairs. Captain H. P. Seagram, R.N., was the first Governor of the Colony. By the charter of 19th February, 1866, it became a portion of the Government of the West African Settlements, and continued to be so under the charter of the 19th December, 1874, until it was made a separate Government in 1888. MacCarthy Island was purchased in 1823, and named after Maj.-General Sir Charles MacCarthy, K.C.B., Governor-in-Chief of the British West African possessions; the ceded mile was granted by the King of Barra in 1826; and British Kombo was granted by the King of Kombo in various cessions in 1840, 1850, and 1856. An Infantry Militia Force was raised in 1862 for special service in Kombo. Turbulent times had been experienced in the Gambia, due to tribal warfare between the Marabouts and Sonnikis, caused by religious differences. The term \"Marabout\" is given to the true followers of the Mohammedan faith; the Sonnikis being so called on account of their belonging to no faith and being addicted to drinking. Heavy fighting took place between these people throughout the country, and it was not until the Protectorate was established in 1894 that peace became possible. The chief Marabout leaders were Mahaba (1861-7), Mahmud Deri Ba (1867-87), Fodi Kabba (1877-92), and Fodi Silla (1873-94). A system which obtained in the interior was the ancient method of \"custom,\" presents which had to be made to the Chiefs and Headmen before legitimate trade could be carried on by the merchants. This was as far as possible put a stop to by the Government, these \"customs\" being superseded by \"stipends\" such as still continue in operation. In 1894 Chief Fodi Silla, of Foreign Kombo, became so aggressive in stopping and robbing traders that it was decided to send an expedition against him. At this time Brikama, Gunjur, Sukuta and Busumballa were the principal places in the occupation of Fodi Silla and his people. The force, which comprised officers and men from the ships of war present, and from the West India Regiment, proceeded into Kombo. Fodi Silla was defeated and his strongholds destroyed. He fled to French territory, was captured and deported to Saint Louis, where he died. In 1897 the countries of Foni and Jarra, on the south bank of the river, came under British protection, and it became necessary for the Government to suppress the marauding Chief, Fodi Kabba, who was causing trouble north of the Vintang Creek, 26 miles from Bathurst, and proceeding eastwards worrying the people. An expedition was sent against him, and he fled to French territory, where he formed a stronghold at Medina, his followers on British soil being completely routed. Foreign Kombo was annexed by the British Government and is now divided into North, South and Central Kombo. The Protectorate system of administration has been established since 1894, and extended from time to time by agreement with the different chiefs concerned, until Ordinance No. 7 of 1902 was passed, providing fully for the Government of the whole Protectorate, which is divided into five Provinces and again into Districts. There is a Travelling Commissioner in each Province, and each District is under a Head Chief, with a native tribunal specially appointed by the Governor. The Provinces are as follows:—North Bank Province, with the districts of Lower Niumi, Upper Niumi, Jokado, Lower Baddibu, Central Baddibu, Upper Baddibu, 110 miles in length. MacCarthy Province, with the districts of Upper Niani, Sami, Lower Niani, Nianija, Upper Saloum, Lower Saloum, 85 miles in length. Upper River Province, with the districts of Sandu and Wuli on the North bank, and Kantora, Fulladu East, and Fulladu West on the south bank of the river, 150 miles in length. South Bank Province, with the districts of Eastern Niamina, Western Niamina, Niamina (Dunkunku), Central Jarra, Eastern Jarra, Western Jarra, East Kiang and Central Kiang, 70 miles in length. Kombo and Foni Province, with the districts of Western Kiang, Foni Karenai, Foni East Kansala Bondali, Bondali and Ja Wol; Foni West, Bintang, and Birefet; Kombo East, Central, South, North, and Kombo St. Mary, 85 miles in length. In 1900 further trouble arose between the Marabouts and Sonnikins of the towns of Sankandi and Battelling, over the ownership of some rice fields. Two travelling Commissioners, Mr. Sitwell and Mr. Silva, with an escort of a sergeant of police and ten constables, proceeded to Sankandi with the object of settling the trouble; but unfortunately, owing to the treachery of the Headman, Dari Bana Dabu, both the Commissioners, the sergeant and five constables were killed. On the arrival of Sir George Denton in 1901, it was decided to send a punitive expedition against these people, and Colonel H. E. Brake was selected to command. After a short resistance the participators in the revolt were crushed and their town destroyed. Certain of the ringleaders of the disturbance fled and joined Fodi Kabba at Medina. Concerted action with the French Government of Senegal was taken however, and on the 23rd March, 1901, Medina was demolished and Fodi Kabba killed. Three other ringleaders were subsequently captured by the French, handed over to the British Government, tried and sentenced to death in the Supreme Court, and executed at Dumbuta, a large village near the scene of the murder of the two Commissioners.",
+      "edition_years": [
+        1918,
+        1919,
+        1920,
+        1922,
+        1924,
+        1927
+      ],
+      "first_edition_year": 1918,
+      "last_edition_year": 1927,
+      "n_editions": 6,
+      "representative_source_file": "1919_manual_parsed/GAMBIA.txt",
+      "char_start": 2241,
+      "char_end": 11187,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.979,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Gambia was discovered by the early Portuguese navigators, but they made no settlement.",
+          "char_start": 0,
+          "char_end": 90,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "The streets to be inhabited first were named after Lord Wellington and his generals at Waterloo, with one named \"Blucher.\" The settlement was subject to the Government of Sierra Leone, and was annexed to it by Act of Parliament in 1821.",
+          "char_start": 2527,
+          "char_end": 2763,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "cession",
+            "purchased"
+          ],
+          "verbatim_span": "MacCarthy Island was purchased in 1823, and named after Maj.-General Sir Charles MacCarthy, K.C.B., Governor-in-Chief of the British West African possessions; the ceded mile was granted by the King of Barra in 1826; and British Kombo was granted by the King of Kombo in various cessions in 1840, 1850, and 1856.",
+          "char_start": 3869,
+          "char_end": 4180,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "Heavy fighting took place between these people throughout the country, and it was not until the Protectorate was established in 1894 that peace became possible.",
+          "char_start": 4578,
+          "char_end": 4738,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "In 1894 Chief Fodi Silla, of Foreign Kombo, became so aggressive in stopping and robbing traders that it was decided to send an expedition against him.",
+          "char_start": 5201,
+          "char_end": 5352,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The force, which comprised officers and men from the ships of war present, and from the West India Regiment, proceeded into Kombo.",
+          "char_start": 5479,
+          "char_end": 5609,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "Fodi Silla was defeated and his strongholds destroyed.",
+          "char_start": 5610,
+          "char_end": 5664,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "came under british"
+          ],
+          "verbatim_span": "In 1897 the countries of Foni and Jarra, on the south bank of the river, came under British protection, and it became necessary for the Government to suppress the marauding Chief, Fodi Kabba, who was causing trouble north of the Vintang Creek, 26 miles from Bathurst, and proceeding eastwards worrying the people.",
+          "char_start": 5751,
+          "char_end": 6064,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "In 1897 the countries of Foni and Jarra, on the south bank of the river, came under British protection, and it became necessary for the Government to suppress the marauding Chief, Fodi Kabba, who was causing trouble north of the Vintang Creek, 26 miles from Bathurst, and proceeding eastwards worrying the people.",
+          "char_start": 5751,
+          "char_end": 6064,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "under british protection"
+          ],
+          "verbatim_span": "In 1897 the countries of Foni and Jarra, on the south bank of the river, came under British protection, and it became necessary for the Government to suppress the marauding Chief, Fodi Kabba, who was causing trouble north of the Vintang Creek, 26 miles from Bathurst, and proceeding eastwards worrying the people.",
+          "char_start": 5751,
+          "char_end": 6064,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "An expedition was sent against him, and he fled to French territory, where he formed a stronghold at Medina, his followers on British soil being completely routed.",
+          "char_start": 6065,
+          "char_end": 6228,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "Foreign Kombo was annexed by the British Government and is now divided into North, South and Central Kombo.",
+          "char_start": 6229,
+          "char_end": 6336,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "The Protectorate system of administration has been established since 1894, and extended from time to time by agreement with the different chiefs concerned, until Ordinance No.",
+          "char_start": 6337,
+          "char_end": 6512,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "7 of 1902 was passed, providing fully for the Government of the whole Protectorate, which is divided into five Provinces and again into Districts.",
+          "char_start": 6513,
+          "char_end": 6659,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "There is a Travelling Commissioner in each Province, and each District is under a Head Chief, with a native tribunal specially appointed by the Governor.",
+          "char_start": 6660,
+          "char_end": 6813,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition",
+            "punitive"
+          ],
+          "verbatim_span": "On the arrival of Sir George Denton in 1901, it was decided to send a punitive expedition against these people, and Colonel H.",
+          "char_start": 8188,
+          "char_end": 8314,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "revolt"
+          ],
+          "verbatim_span": "After a short resistance the participators in the revolt were crushed and their town destroyed.",
+          "char_start": 8349,
+          "char_end": 8444,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Queen Elizabeth",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "In 1588 a patent was granted by Queen Elizabeth to some merchants in London and Exeter to trade with the Gambia.",
+          "char_start": 123,
+          "char_end": 138,
+          "year_reference": 1588,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "King James I.",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "In 1618 King James I. of England granted a charter to Sir Robert Rich and other London merchants.",
+          "char_start": 325,
+          "char_end": 338,
+          "year_reference": 1618,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Robert Rich",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "of England granted a charter to Sir Robert Rich and other London merchants.",
+          "char_start": 371,
+          "char_end": 386,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "King Charles I.",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "About the year 1631 another British chartered company was formed, King Charles I. having granted a charter to Sir B.",
+          "char_start": 827,
+          "char_end": 842,
+          "year_reference": 1631,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "King Charles",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "In 1662 King Charles II.",
+          "char_start": 1040,
+          "char_end": 1052,
+          "year_reference": 1662,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lord Bathurst",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Mary's,\" and the town which was laid out took its name from Lord Bathurst, Secretary of State at that time.",
+          "char_start": 2479,
+          "char_end": 2492,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lord Wellington",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "The streets to be inhabited first were named after Lord Wellington and his generals at Waterloo, with one named \"Blucher.\" The settlement was subject to the Government of Sierra Leone, and was annexed to it by Act of Parliament in 1821.",
+          "char_start": 2578,
+          "char_end": 2593,
+          "year_reference": 1821,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Colonel Alex",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In December, 1829, the Secretary of State appointed Lieut.-Colonel Alex.",
+          "char_start": 3004,
+          "char_end": 3016,
+          "year_reference": 1829,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Sir Charles Mac",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "MacCarthy Island was purchased in 1823, and named after Maj.-General Sir Charles MacCarthy, K.C.B., Governor-in-Chief of the British West African possessions; the ceded mile was granted by the King of Barra in 1826; and British Kombo was granted by the King of Kombo in various cessions in 1840, 1850, and 1856.",
+          "char_start": 3930,
+          "char_end": 3953,
+          "year_reference": 1823,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief Fodi Silla",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "In 1894 Chief Fodi Silla, of Foreign Kombo, became so aggressive in stopping and robbing traders that it was decided to send an expedition against him.",
+          "char_start": 5209,
+          "char_end": 5225,
+          "year_reference": 1894,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor. The Provinces",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "There is a Travelling Commissioner in each Province, and each District is under a Head Chief, with a native tribunal specially appointed by the Governor. The Provinces are as follows:—North Bank Province, with the districts of Lower Niumi, Upper Niumi, Jokado, Lower Baddibu, Central Baddibu, Upper Baddibu, 110 miles in length.",
+          "char_start": 6804,
+          "char_end": 6827,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. Sitwell",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Two travelling Commissioners, Mr. Sitwell and Mr.",
+          "char_start": 7895,
+          "char_end": 7906,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. Silva",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Sitwell and Mr. Silva, with an escort of a sergeant of police and ten constables, proceeded to Sankandi with the object of settling the trouble; but unfortunately, owing to the treachery of the Headman, Dari Bana Dabu, both the Commissioners, the sergeant and five constables were killed.",
+          "char_start": 7911,
+          "char_end": 7920,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir George Denton",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "On the arrival of Sir George Denton in 1901, it was decided to send a punitive expedition against these people, and Colonel H.",
+          "char_start": 8206,
+          "char_end": 8223,
+          "year_reference": 1901,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1922,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1588,
+        1618,
+        1631,
+        1662,
+        1672,
+        1752,
+        1783,
+        1807,
+        1814,
+        1816,
+        1821,
+        1822,
+        1823,
+        1826,
+        1829,
+        1831,
+        1837,
+        1840,
+        1843,
+        1850,
+        1856,
+        1861,
+        1862,
+        1866,
+        1867,
+        1873,
+        1874,
+        1877,
+        1888,
+        1894,
+        1897,
+        1900,
+        1901,
+        1902
+      ]
+    },
+    {
+      "uri": "col:hversion/gambia/history/bab1df2db41f",
+      "colony": "gambia",
+      "section_slug": "history",
+      "version_hash": "bab1df2db41f",
+      "asserted_by": "Colonial Office List",
+      "text": "The Gambia was discovered by the early Portuguese navigators but they made no settlement. In 1588 a patent was granted by Queen Elizabeth to some merchants in London and Exeter to trade with the Gambia. This company did not prosper. Its voyages were not slave trading ventures but were made for legitimate commerce. In 1618, King James I of England granted a charter to Sir Robert Rich and other London merchants. Their enterprise was entitled “The Company of Adventurers of London trading in Africa,” and Fort James was built by them on a small island 17 miles above the island of Banjola (now St. Mary’s). About the year 1631 another British chartered company was formed, King Charles I having granted a charter to Sir B. Young, Sir R. Digby and others. This venture was responsible for supplying British settlements in the West Indies with slaves for working on the estates. In 1662 King Charles II granted a charter to a third company known as \"The Royal Adventurers of England trading in Africa.\" A few years later this company exhausted its capital and surrendered its charter. In 1672 a fourth company was incorporated under the name of \"The Royal African Company,\" and it was not until 1752, after having in its early days reached the highest point of commercial prosperity which had been touched by England in Africa, that it was superseded by \"The Company of Merchants.\" The right of trade was abandoned to England by France under the Treaty of Versailles, 1783, which guaranteed to the English their possession of Fort James and of the River Gambia, with the exception of a French factory established at Albreda on the north bank of the river. The same treaty gave the Senegal river to the French, with the exception of an exclusive right to trade with the Arabs at Portendic for gum, which was retained by England. The year 1807 saw the abolition of the slave trade, and though \"The Company of Merchants\" lingered on with an annual subsidy, the general commerce between Great Britain and the Gambia fell off till 1816, in which year a new settlement was formed on the island of Banjola by the English merchants who resided at Goree and in Senegal until those places were given up to the French by the Treaty of Paris (1814). The island was renamed St. Mary's and the town, which was laid out, took its name from Lord Bathurst, Secretary of State at that time. The streets to be inhabited first were named after Lord Wellington and his generals at Waterloo. The settlement was subject to the government of Sierra Leone, and was annexed to it by Act of Parliament in 1821. From 1816 to 1822 a military commandant, aided by a board of merchants called \"The Settlement Court,\" administered the government. From 1822 to 1829 the commandant governed alone. In December, 1829, the Secretary of State appointed Lieutenant Colonel Alex. Findlay, R.A.C. Corps, as Lieutenant Governor (the first) \"of the settlement of Bathurst and its dependencies in the Gambia.\" The laws of Sierra Leone remained in force, but the Lieutenant Governor was not accountable to the officer administering the government there. The Gambia, in the year 1843, was created an independent colony with a governor and executive and legislative councils for the administration of its affairs. Captain H. P. Seagram, R.N., was the first governor of the colony. By the charter of 19th February, 1866, it became a portion of the Government of the West African Settlements, and continued to be so under the charter of 19th December, 1874, until it was made a separate government in 1888. MacCarthy Island was purchased in 1823 and named after Major-General Sir Charles MacCarthy, K.C.B., Governor-in-Chief of the British West African possessions; the ceded mile was granted by the King of Barra in 1826; and the British Kombo was granted by the King of Kombo in the various cessions in 1840, 1850 and 1855. In 1897 the countries of Foni and Jarra, on the south bank of the river, came under British protection. Foreign Kombo was also annexed by the British Government and is now divided into North, South and Central Kombo. The protectorate system of administration has been established since 1894, and extended from time to time by agreement with the different chiefs concerned, until Ordinance No. 7 of 1902 was passed, providing fully for the government of the whole protectorate, which is now divided into four divisions and again into districts. There is a commissioner in charge of each division and each district is under a head chief.",
+      "edition_years": [
+        1946,
+        1949,
+        1950
+      ],
+      "first_edition_year": 1946,
+      "last_edition_year": 1950,
+      "n_editions": 3,
+      "representative_source_file": "1946_manual_parsed/gambia.txt",
+      "char_start": 2285,
+      "char_end": 6809,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.993,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Gambia was discovered by the early Portuguese navigators but they made no settlement.",
+          "char_start": 0,
+          "char_end": 89,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "The settlement was subject to the government of Sierra Leone, and was annexed to it by Act of Parliament in 1821.",
+          "char_start": 2469,
+          "char_end": 2582,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "cession",
+            "purchased"
+          ],
+          "verbatim_span": "MacCarthy Island was purchased in 1823 and named after Major-General Sir Charles MacCarthy, K.C.B., Governor-in-Chief of the British West African possessions; the ceded mile was granted by the King of Barra in 1826; and the British Kombo was granted by the King of Kombo in the various cessions in 1840, 1850 and 1855.",
+          "char_start": 3558,
+          "char_end": 3876,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "came under british"
+          ],
+          "verbatim_span": "In 1897 the countries of Foni and Jarra, on the south bank of the river, came under British protection.",
+          "char_start": 3877,
+          "char_end": 3980,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "In 1897 the countries of Foni and Jarra, on the south bank of the river, came under British protection.",
+          "char_start": 3877,
+          "char_end": 3980,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "under british protection"
+          ],
+          "verbatim_span": "In 1897 the countries of Foni and Jarra, on the south bank of the river, came under British protection.",
+          "char_start": 3877,
+          "char_end": 3980,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "Foreign Kombo was also annexed by the British Government and is now divided into North, South and Central Kombo.",
+          "char_start": 3981,
+          "char_end": 4093,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "The protectorate system of administration has been established since 1894, and extended from time to time by agreement with the different chiefs concerned, until Ordinance No.",
+          "char_start": 4094,
+          "char_end": 4269,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "7 of 1902 was passed, providing fully for the government of the whole protectorate, which is now divided into four divisions and again into districts.",
+          "char_start": 4270,
+          "char_end": 4420,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Queen Elizabeth",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "In 1588 a patent was granted by Queen Elizabeth to some merchants in London and Exeter to trade with the Gambia.",
+          "char_start": 122,
+          "char_end": 137,
+          "year_reference": 1588,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "King James",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "In 1618, King James I of England granted a charter to Sir Robert Rich and other London merchants.",
+          "char_start": 325,
+          "char_end": 335,
+          "year_reference": 1618,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Robert Rich",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In 1618, King James I of England granted a charter to Sir Robert Rich and other London merchants.",
+          "char_start": 370,
+          "char_end": 385,
+          "year_reference": 1618,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "King Charles",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "About the year 1631 another British chartered company was formed, King Charles I having granted a charter to Sir B.",
+          "char_start": 674,
+          "char_end": 686,
+          "year_reference": 1631,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lord Bathurst",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Mary's and the town, which was laid out, took its name from Lord Bathurst, Secretary of State at that time.",
+          "char_start": 2324,
+          "char_end": 2337,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lord Wellington",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "The streets to be inhabited first were named after Lord Wellington and his generals at Waterloo.",
+          "char_start": 2423,
+          "char_end": 2438,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lieutenant Colonel Alex. Findlay",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In December, 1829, the Secretary of State appointed Lieutenant Colonel Alex. Findlay, R.A.C.",
+          "char_start": 2815,
+          "char_end": 2847,
+          "year_reference": 1829,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lieutenant Governor",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Corps, as Lieutenant Governor (the first) \"of the settlement of Bathurst and its dependencies in the Gambia.\" The laws of Sierra Leone remained in force, but the Lieutenant Governor was not accountable to the officer administering the government there.",
+          "char_start": 2866,
+          "char_end": 2885,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Sir Charles Mac",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "MacCarthy Island was purchased in 1823 and named after Major-General Sir Charles MacCarthy, K.C.B., Governor-in-Chief of the British West African possessions; the ceded mile was granted by the King of Barra in 1826; and the British Kombo was granted by the King of Kombo in the various cessions in 1840, 1850 and 1855.",
+          "char_start": 3619,
+          "char_end": 3642,
+          "year_reference": 1823,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949,
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1588,
+        1618,
+        1631,
+        1662,
+        1672,
+        1752,
+        1783,
+        1807,
+        1814,
+        1816,
+        1821,
+        1822,
+        1823,
+        1826,
+        1829,
+        1840,
+        1843,
+        1850,
+        1855,
+        1866,
+        1874,
+        1888,
+        1894,
+        1897,
+        1902
+      ]
+    },
+    {
+      "uri": "col:hversion/gambia/history/8250ab2ab643",
+      "colony": "gambia",
+      "section_slug": "history",
+      "version_hash": "8250ab2ab643",
+      "asserted_by": "Colonial Office List",
+      "text": "The banks of the River Gambia have been inhabited for many centuries. The first known written report is a reference in the account of Hanno, the Carthaginian, of his voyage down the West African coast in B.C. 470, and there are stone circles in the neighbourhood of Kuntaur which may date from the same century. During the 5th to 8th centuries A.D. most of the Sene-Gambian area was part of the empire of Ghana, whose rulers were of the Serahuli tribe, still strongly represented in Gambia. Ghana was superseded by the kingdom of the Songhais, who were also of the Serahuli tribe. About the 13th century Mandingoes established themselves in what is now Mali and assumed overlordship of the whole Gambia basin. The Mali rulers' names Keita and Sonko are still prominent names among Gambian Mandingoes. In the latter half of the 18th century the area was penetrated by Fula invaders, part of the movement which went on to found the Emirates of Northern Nigeria. European exploration had begun in 1455 when the Gambia estuary was discovered by a Portuguese expedition commissioned by Prince Henry the Navigator. The Portuguese made no lasting settlement. Between 1588 and 1752 Royal Charters were granted to various English merchants to trade with it. French merchants also plied during that period but the right of trade was abandoned to England by France under the treaty of Versailles in 1783. From 1807 to 1816 the general commerce between Great Britain and the Gambia fell off, in part due to the abolition of the slave trade. In 1816 a new settlement was founded on the Island of Banjul by English merchants from Senegal. Banjul was renamed St. Mary's and its town named after Lord Bathurst the then Secretary of State. The settlement was subject to the Government of Sierra Leone and was annexed to that Colony by Act of Parliament in 1821. In December 1829, the Secretary of State appointed the first Lieutenant Governor \"of the settlement of Bathurst and its dependencies in the Gambia\". The laws of Sierra Leone remained in force but the Lieutenant Governor was not accountable to the Officer Administering the Government there. In 1843 the Gambia was created an independent Colony with a Governor and Executive and Legislative Councils for the administration of its affairs. By the charter of 1866 it became a portion of the West African Settlements and continued to be so under the charter of 1874 until it was made a separate Government in 1888 with its own Legislature. MacCarthy Island was purchased in 1823; the Ceded Mile was granted by the King of Barra in 1826; and Kombo St. Mary was granted by the King of Kombo in the various sessions of 1840, 1850 and 1853. In 1897 the countries of Foni and Jarra, on the south bank of the river, came under British protection. The rest of Kombo was also annexed by the British Government and is now divided into North, South and Central Kombo. By 1902 the boundaries of Gambia had been delimited under agreement with the French and the whole country had been pacified. Bathurst and its environs, with some small outlying areas, remained \"the Colony\"; and the remainder of the country was administered in four Divisions, embracing thirty-five traditional chiefdoms. Latterly six Area Councils have been created as the units of local government in the rural areas.",
+      "edition_years": [
+        1965
+      ],
+      "first_edition_year": 1965,
+      "last_edition_year": 1965,
+      "n_editions": 1,
+      "representative_source_file": "1965_manual_parsed/gambia.txt",
+      "char_start": 2734,
+      "char_end": 6084,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribe"
+          ],
+          "verbatim_span": "most of the Sene-Gambian area was part of the empire of Ghana, whose rulers were of the Serahuli tribe, still strongly represented in Gambia.",
+          "char_start": 349,
+          "char_end": 490,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1965
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribe"
+          ],
+          "verbatim_span": "Ghana was superseded by the kingdom of the Songhais, who were also of the Serahuli tribe.",
+          "char_start": 491,
+          "char_end": 580,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1965
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "European exploration had begun in 1455 when the Gambia estuary was discovered by a Portuguese expedition commissioned by Prince Henry the Navigator.",
+          "char_start": 960,
+          "char_end": 1108,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1965
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "European exploration had begun in 1455 when the Gambia estuary was discovered by a Portuguese expedition commissioned by Prince Henry the Navigator.",
+          "char_start": 960,
+          "char_end": 1108,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1965
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "The settlement was subject to the Government of Sierra Leone and was annexed to that Colony by Act of Parliament in 1821.",
+          "char_start": 1723,
+          "char_end": 1844,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1965
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "purchased"
+          ],
+          "verbatim_span": "MacCarthy Island was purchased in 1823; the Ceded Mile was granted by the King of Barra in 1826; and Kombo St.",
+          "char_start": 2481,
+          "char_end": 2591,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1965
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "came under british"
+          ],
+          "verbatim_span": "In 1897 the countries of Foni and Jarra, on the south bank of the river, came under British protection.",
+          "char_start": 2678,
+          "char_end": 2781,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1965
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "In 1897 the countries of Foni and Jarra, on the south bank of the river, came under British protection.",
+          "char_start": 2678,
+          "char_end": 2781,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1965
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "under british protection"
+          ],
+          "verbatim_span": "In 1897 the countries of Foni and Jarra, on the south bank of the river, came under British protection.",
+          "char_start": 2678,
+          "char_end": 2781,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1965
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "The rest of Kombo was also annexed by the British Government and is now divided into North, South and Central Kombo.",
+          "char_start": 2782,
+          "char_end": 2898,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1965
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "pacified"
+          ],
+          "verbatim_span": "By 1902 the boundaries of Gambia had been delimited under agreement with the French and the whole country had been pacified.",
+          "char_start": 2899,
+          "char_end": 3023,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1965
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Lord Bathurst",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Mary's and its town named after Lord Bathurst the then Secretary of State.",
+          "char_start": 1680,
+          "char_end": 1693,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1965
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lieutenant Governor",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In December 1829, the Secretary of State appointed the first Lieutenant Governor \"of the settlement of Bathurst and its dependencies in the Gambia\".",
+          "char_start": 1906,
+          "char_end": 1925,
+          "year_reference": 1829,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1965
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Nigeria",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In the latter half of the 18th century the area was penetrated by Fula invaders, part of the movement which went on to found the Emirates of Northern Nigeria.",
+          "char_start": 951,
+          "char_end": 958,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1965
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1588,
+        1752,
+        1783,
+        1807,
+        1816,
+        1821,
+        1823,
+        1826,
+        1829,
+        1840,
+        1843,
+        1850,
+        1853,
+        1866,
+        1874,
+        1888,
+        1897,
+        1902
+      ]
+    }
+  ]
+}

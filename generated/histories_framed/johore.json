@@ -1,0 +1,294 @@
+{
+  "colony": "johore",
+  "n_editions_with_history": 1,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/johore/history/b134c5859695",
+      "colony": "johore",
+      "section_slug": "history",
+      "version_hash": "b134c5859695",
+      "asserted_by": "Colonial Office List",
+      "text": "Of Johore history little is known prior to the advent of the Portuguese. A number of semi-wild \"proto-Malay\" tribes exist chiefly along the coasts; while the civilised occupants of the country are the descendants of the Malays who brought their civilisation from Palembang in Sumatra. As the Buddhist State of Palembang grew in power, colonies of Malays commenced to settle on the Peninsula. Singapore, founded under the name of Tamasek about this time, was ruled by its own kings. A Siamese law of 1390 includes Ujong Tanah (or Johore), Malaka, and Malayu among tributary states. About 1365 A.D. Javanese from Majapahit conquered the country and destroyed Singapore. Malacca then grew to be the first trading centre of the East, and after its conquest by the Portuguese in 1511, a son of the conquered King settled at Johore Lama and founded the historic Sultanate of Johore. The history of the next 300 years, however, is an almost uninterrupted record of wars. Persistent hostilities with the Portuguese continued nearly until the arrival of the Dutch in 1602. The State bears no small part in Dutch Colonial history; relations were friendly, despite a diplomatic struggle for commercial privileges. But, after violent attacks by the Achinese, Johore had become by 1637 practically an appanage of the Achinese Kingdom. In return for assistance rendered at the successful attack on Malacca in 1641, the Dutch tried to restore Johore to its former position as the premier Malay State. A port with a customs officer existed at Singapore. But the capital was plundered and burnt by Jambi in 1673, in 1699 the Sultan was assassinated, and in 1717 the throne was seized by a Sumatran adventurer, Raja Kechil. Then the Bugis ships appeared. The subsequent process, partly conquest, partly assimilation, while disturbing to Johore, resulted in a wide extension of its sovereignty, which now spread to Pahang, Siak, Riau, Linggi and part of Selangor. After 60 years of continuous intrigues between the Malay and Bugis chiefs the Dutch in 1784 recognised the Malay Sultan as ruler of Johore, drove the Bugis from Riau and stationed there a Resident with a garrison; after some further fighting the Malay Sultan and the Bugis viceroy accepted the position of dependent princes, but the old empire of Johore (Linggi and Klang had been ceded to the Dutch in 1757) was in a state of dissolution, the Bendahara and Temenggong being virtually territorial chiefs in Pahang and Johore respectively. This was the position when the English, by virtue of treaties made in 1819 and 1824, obtained a complete cession of the island of Singapore. Contemporary visitors emphasize the deserted character of the country; in 1847 the capital consisted merely of 26 huts. (In 1855 the capital was moved to its present situation at Johore Bahru.) But the extension of the Pax Britannica and the assistance rendered by the Governor of the Straits Settlements \"helped Johore to grow populous again,\" moreover, the country has been governed since 1862 by two enlightened and progressive rulers, Sultan Abubakar, who died in 1895, and Sultan Ibrahim the present ruler. In 1895 the Sultan undertook to receive a British Agent having the functions of a Consular Officer; in 1910, the Sultan having had an unofficial adviser for some years, reorganised his Government with the assistance of the Governor of the Straits Settlements; in 1914 a General Adviser with enlarged powers was appointed. The recent history of the State has been a record of continued prosperity. Telephonic communication was established between Johore and Singapore in 1883; a postal service was inaugurated in 1884, letters being transported by coach till the opening of the railway across Singapore Island in 1903; in 1909 the Johore State railway, linking up with the Federated Malay States Railway system, was completed; finally, in 1924, the completion of the causeway across the Straits permits uninterrupted railway connection between Singapore and Bangkok.",
+      "edition_years": [
+        1934
+      ],
+      "first_edition_year": 1934,
+      "last_edition_year": 1934,
+      "n_editions": 1,
+      "representative_source_file": "1934_manual_parsed/JOHORE.txt",
+      "char_start": 1845,
+      "char_end": 5853,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "civilisation",
+            "civilised",
+            "tribes"
+          ],
+          "verbatim_span": "A number of semi-wild \"proto-Malay\" tribes exist chiefly along the coasts; while the civilised occupants of the country are the descendants of the Malays who brought their civilisation from Palembang in Sumatra.",
+          "char_start": 73,
+          "char_end": 284,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquered"
+          ],
+          "verbatim_span": "Javanese from Majapahit conquered the country and destroyed Singapore.",
+          "char_start": 597,
+          "char_end": 667,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquered",
+            "conquest"
+          ],
+          "verbatim_span": "Malacca then grew to be the first trading centre of the East, and after its conquest by the Portuguese in 1511, a son of the conquered King settled at Johore Lama and founded the historic Sultanate of Johore.",
+          "char_start": 668,
+          "char_end": 876,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "hostilities"
+          ],
+          "verbatim_span": "Persistent hostilities with the Portuguese continued nearly until the arrival of the Dutch in 1602.",
+          "char_start": 964,
+          "char_end": 1063,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquest"
+          ],
+          "verbatim_span": "The subsequent process, partly conquest, partly assimilation, while disturbing to Johore, resulted in a wide extension of its sovereignty, which now spread to Pahang, Siak, Riau, Linggi and part of Selangor.",
+          "char_start": 1737,
+          "char_end": 1944,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "The subsequent process, partly conquest, partly assimilation, while disturbing to Johore, resulted in a wide extension of its sovereignty, which now spread to Pahang, Siak, Riau, Linggi and part of Selangor.",
+          "char_start": 1737,
+          "char_end": 1944,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "After 60 years of continuous intrigues between the Malay and Bugis chiefs the Dutch in 1784 recognised the Malay Sultan as ruler of Johore, drove the Bugis from Riau and stationed there a Resident with a garrison; after some further fighting the Malay Sultan and the Bugis viceroy accepted the position of dependent princes, but the old empire of Johore (Linggi and Klang had been ceded to the Dutch in 1757) was in a state of dissolution, the Bendahara and Temenggong being virtually territorial chiefs in Pahang and Johore respectively.",
+          "char_start": 1945,
+          "char_end": 2483,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "This was the position when the English, by virtue of treaties made in 1819 and 1824, obtained a complete cession of the island of Singapore.",
+          "char_start": 2484,
+          "char_end": 2624,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sultan Abubakar",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "(In 1855 the capital was moved to its present situation at Johore Bahru.) But the extension of the Pax Britannica and the assistance rendered by the Governor of the Straits Settlements \"helped Johore to grow populous again,\" moreover, the country has been governed since 1862 by two enlightened and progressive rulers, Sultan Abubakar, who died in 1895, and Sultan Ibrahim the present ruler.",
+          "char_start": 3064,
+          "char_end": 3079,
+          "year_reference": 1855,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sultan Ibrahim",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "(In 1855 the capital was moved to its present situation at Johore Bahru.) But the extension of the Pax Britannica and the assistance rendered by the Governor of the Straits Settlements \"helped Johore to grow populous again,\" moreover, the country has been governed since 1862 by two enlightened and progressive rulers, Sultan Abubakar, who died in 1895, and Sultan Ibrahim the present ruler.",
+          "char_start": 3103,
+          "char_end": 3117,
+          "year_reference": 1855,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Adviser",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1895 the Sultan undertook to receive a British Agent having the functions of a Consular Officer; in 1910, the Sultan having had an unofficial adviser for some years, reorganised his Government with the assistance of the Governor of the Straits Settlements; in 1914 a General Adviser with enlarged powers was appointed.",
+          "char_start": 3407,
+          "char_end": 3422,
+          "year_reference": 1895,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Singapore",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Singapore, founded under the name of Tamasek about this time, was ruled by its own kings.",
+          "char_start": 392,
+          "char_end": 401,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Malacca",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Malacca then grew to be the first trading centre of the East, and after its conquest by the Portuguese in 1511, a son of the conquered King settled at Johore Lama and founded the historic Sultanate of Johore.",
+          "char_start": 668,
+          "char_end": 675,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Pahang",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The subsequent process, partly conquest, partly assimilation, while disturbing to Johore, resulted in a wide extension of its sovereignty, which now spread to Pahang, Siak, Riau, Linggi and part of Selangor.",
+          "char_start": 1896,
+          "char_end": 1902,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Selangor",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The subsequent process, partly conquest, partly assimilation, while disturbing to Johore, resulted in a wide extension of its sovereignty, which now spread to Pahang, Siak, Riau, Linggi and part of Selangor.",
+          "char_start": 1935,
+          "char_end": 1943,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1511,
+        1602,
+        1637,
+        1641,
+        1673,
+        1699,
+        1717,
+        1757,
+        1784,
+        1819,
+        1824,
+        1847,
+        1855,
+        1862,
+        1883,
+        1884,
+        1895,
+        1903,
+        1909,
+        1910,
+        1914,
+        1924
+      ]
+    }
+  ]
+}

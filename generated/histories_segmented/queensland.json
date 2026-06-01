@@ -1,0 +1,39 @@
+{
+  "colony": "queensland",
+  "n_editions_with_history": 10,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/queensland/history/b12def8c8372",
+      "colony": "queensland",
+      "section_slug": "history",
+      "version_hash": "b12def8c8372",
+      "asserted_by": "Colonial Office List",
+      "text": "Captain Cook landed in Moreton Bay in 1770, but the Brisbane River, running into Moreton Bay, was not discovered until 1823, and the Moreton Bay Settlement was formed from New South Wales in 1824. The Darling Downs were explored in 1828, and squatters or ranchers, as they are termed in America, began to settle on the rich pasture grounds. The territory was, however, not thrown open to colonisation until 1842, and, after explorations by Leichhardt, 1845-7, and by Kennedy in York Peninsula in 1847, it was separated from New South Wales on 10th December, 1859, when it became a separate colony, under the name of Queensland, with about 25,000 inhabitants, having responsible government from the time of the proclamation declaring the Colony distinct.",
+      "edition_years": [
+        1890,
+        1894,
+        1896,
+        1897,
+        1898,
+        1900,
+        1905,
+        1906,
+        1907,
+        1917
+      ],
+      "first_edition_year": 1890,
+      "last_edition_year": 1917,
+      "n_editions": 10,
+      "representative_source_file": "1917_manual_parsed/QUEENSLAND.txt",
+      "char_start": 1303,
+      "char_end": 2056,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.926,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01"
+    }
+  ]
+}

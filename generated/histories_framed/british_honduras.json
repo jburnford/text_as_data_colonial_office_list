@@ -1,0 +1,1542 @@
+{
+  "colony": "british_honduras",
+  "n_editions_with_history": 39,
+  "n_versions": 7,
+  "versions": [
+    {
+      "uri": "col:hversion/british_honduras/history/f38071922649",
+      "colony": "british_honduras",
+      "section_slug": "history",
+      "version_hash": "f38071922649",
+      "asserted_by": "Colonial Office List",
+      "text": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica about 1638, by adventurers who were attracted by the fine timber (logwood and mahogany) which grew on the banks of the Hondo and other rivers. From that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants, aided by a ship of the Royal Navy, the Spaniards made frequent but ineffectual attempts to expel the woodcutters by force of arms; and treaty after treaty was concluded, which had little other effect than to stimulate the enterprise of the settlers by the recognition, thus step by step accorded, of the footing they had gained for themselves in Central America, without, in the first instance, any thought of territorial aggrandisement, but solely in pursuit of the industry in which their fortunes were embarked. The only subsequent events of external significance which need here be noticed, are the definition, as above, of its general boundaries (of which survey has been partially executed); the frequent border troubles, connected with the revolt in 1849 of the Indian population of Yucatan against the Spanish inhabitants, the result of which has been that the Indians are now de facto in possession of the country to a considerable distance north of the Hondo; and the quarrels of the Ycaicche and Santa Cruz tribes of Indians, in which it has been involved. BRITISH HONDURAS.",
+      "edition_years": [
+        1888,
+        1890
+      ],
+      "first_edition_year": 1888,
+      "last_edition_year": 1890,
+      "n_editions": 2,
+      "representative_source_file": "1888_manual_parsed/BRITISH_HONDURAS.txt",
+      "char_start": 884,
+      "char_end": 2371,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.992,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica about 1638, by adventurers who were attracted by the fine timber (logwood and mahogany) which grew on the banks of the Hondo and other rivers.",
+          "char_start": 0,
+          "char_end": 260,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "From that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants, aided by a ship of the Royal Navy, the Spaniards made frequent but ineffectual attempts to expel the woodcutters by force of arms; and treaty after treaty was concluded, which had little other effect than to stimulate the enterprise of the settlers by the recognition, thus step by step accorded, of the footing they had gained for themselves in Central America, without, in the first instance, any thought of territorial aggrandisement, but solely in pursuit of the industry in which their fortunes were embarked.",
+          "char_start": 261,
+          "char_end": 914,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "From that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants, aided by a ship of the Royal Navy, the Spaniards made frequent but ineffectual attempts to expel the woodcutters by force of arms; and treaty after treaty was concluded, which had little other effect than to stimulate the enterprise of the settlers by the recognition, thus step by step accorded, of the footing they had gained for themselves in Central America, without, in the first instance, any thought of territorial aggrandisement, but solely in pursuit of the industry in which their fortunes were embarked.",
+          "char_start": 261,
+          "char_end": 914,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "revolt"
+          ],
+          "verbatim_span": "The only subsequent events of external significance which need here be noticed, are the definition, as above, of its general boundaries (of which survey has been partially executed); the frequent border troubles, connected with the revolt in 1849 of the Indian population of Yucatan against the Spanish inhabitants, the result of which has been that the Indians are now de facto in possession of the country to a considerable distance north of the Hondo; and the quarrels of the Ycaicche and Santa Cruz tribes of Indians, in which it has been involved.",
+          "char_start": 915,
+          "char_end": 1467,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribes"
+          ],
+          "verbatim_span": "The only subsequent events of external significance which need here be noticed, are the definition, as above, of its general boundaries (of which survey has been partially executed); the frequent border troubles, connected with the revolt in 1849 of the Indian population of Yucatan against the Spanish inhabitants, the result of which has been that the Indians are now de facto in possession of the country to a considerable distance north of the Hondo; and the quarrels of the Ycaicche and Santa Cruz tribes of Indians, in which it has been involved.",
+          "char_start": 915,
+          "char_end": 1467,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica about 1638, by adventurers who were attracted by the fine timber (logwood and mahogany) which grew on the banks of the Hondo and other rivers.",
+          "char_start": 110,
+          "char_end": 117,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1502,
+        1638,
+        1798,
+        1849
+      ]
+    },
+    {
+      "uri": "col:hversion/british_honduras/history/3297bba45fe3",
+      "colony": "british_honduras",
+      "section_slug": "history",
+      "version_hash": "3297bba45fe3",
+      "asserted_by": "Colonial Office List",
+      "text": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the fine timber (logwood and mahogany) which grew on the banks of the Hondo and other rivers. Their headquarters were long at St. George's Cay. The name of the present chief town and of the River Belize is alleged to be a corruption of the name of the buccaneer Wallis, who was driven from Hispaniola in that year, and who is said to have been the leader of the settlers. An earlier settlement had been made by a chartered company, of which the Earl of Warwick was chairman and John Pym treasurer, on two small islands off the Mosquito coast, in 1630. The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement. In 1739 the native king made a treaty resigning his country to Great Britain, and forts were built in 1742 at the Island of Rusatan, and at Black River on the mainland. Rusatan was abandoned in 1749, but at the same time an officer was formally appointed by the Government of Jamaica to superintend the settlements. By the treaty of Paris in 1763 it was agreed to abandon the settlements, and the forts were dismantled and the garrisons withdrawn. The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St. George's Cay,\" the Spaniards made frequent but ineffectual attempts to expel the woodcutters by force of arms; and treaty after treaty was concluded, which had little other effect than to stimulate the enterprise of the settlers by the recognition, thus step by step accorded, of the footing they had gained for themselves in Central America, without, in the first instance, any thought of territorial aggrandisement, but solely in pursuit of the industry in which their fortunes were embarked. The Bay Islands were recognised as part of the Republic of Honduras in 1859. The only subsequent events of external significance which need here be noticed, are the definition, as above, of the boundaries of the Colony (of which a survey has been partially executed); and the frequent border troubles, connected with the revolt in 1849 of the Indian population of Yucatan against the Spanish inhabitants, the result of which was that the Indians were in possession of the country to a considerable distance north of the Hondo until 1901, when the Mexicans subjugated them. Occasional incursions into the Colony were made from time to time by the Indians, the last being in 1872, by the Icaiche tribe on the N.W. frontier.",
+      "edition_years": [
+        1894,
+        1896,
+        1897,
+        1898,
+        1899,
+        1900,
+        1905,
+        1906,
+        1907,
+        1908,
+        1910,
+        1912,
+        1913,
+        1914,
+        1915,
+        1917,
+        1918,
+        1919,
+        1920,
+        1921
+      ],
+      "first_edition_year": 1894,
+      "last_edition_year": 1921,
+      "n_editions": 20,
+      "representative_source_file": "1913_manual_parsed/BRITISH_HONDURAS.txt",
+      "char_start": 841,
+      "char_end": 3683,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.912,
+      "source_flags": [
+        "multi_colony_misparse",
+        "size_outlier_high"
+      ],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the fine timber (logwood and mahogany) which grew on the banks of the Hondo and other rivers.",
+          "char_start": 0,
+          "char_end": 262,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquest"
+          ],
+          "verbatim_span": "The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement.",
+          "char_start": 721,
+          "char_end": 978,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives",
+            "protection"
+          ],
+          "verbatim_span": "The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement.",
+          "char_start": 721,
+          "char_end": 978,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "In 1739 the native king made a treaty resigning his country to Great Britain, and forts were built in 1742 at the Island of Rusatan, and at Black River on the mainland.",
+          "char_start": 979,
+          "char_end": 1147,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St.",
+          "char_start": 1427,
+          "char_end": 1622,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St.",
+          "char_start": 1427,
+          "char_end": 1622,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "revolt"
+          ],
+          "verbatim_span": "The only subsequent events of external significance which need here be noticed, are the definition, as above, of the boundaries of the Colony (of which a survey has been partially executed); and the frequent border troubles, connected with the revolt in 1849 of the Indian population of Yucatan against the Spanish inhabitants, the result of which was that the Indians were in possession of the country to a considerable distance north of the Hondo until 1901, when the Mexicans subjugated them.",
+          "char_start": 2195,
+          "char_end": 2690,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribe"
+          ],
+          "verbatim_span": "Occasional incursions into the Colony were made from time to time by the Indians, the last being in 1872, by the Icaiche tribe on the N.W.",
+          "char_start": 2691,
+          "char_end": 2829,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the fine timber (logwood and mahogany) which grew on the banks of the Hondo and other rivers.",
+          "char_start": 110,
+          "char_end": 117,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Honduras",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The Bay Islands were recognised as part of the Republic of Honduras in 1859.",
+          "char_start": 2177,
+          "char_end": 2185,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1502,
+        1630,
+        1638,
+        1739,
+        1742,
+        1749,
+        1763,
+        1798,
+        1849,
+        1859,
+        1872,
+        1901
+      ]
+    },
+    {
+      "uri": "col:hversion/british_honduras/history/9cbe5108789b",
+      "colony": "british_honduras",
+      "section_slug": "history",
+      "version_hash": "9cbe5108789b",
+      "asserted_by": "Colonial Office List",
+      "text": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers. Their headquarters were long at St. George's Cay. The name of the present chief town and of the River Belize is alleged to be a corruption of the name of the buccaneer Wallis, who was driven from Hispaniola in that year, and who is said to have been the leader of the settlers. The Spaniards frequently endeavoured to expel the logcutters; but, though they succeeded in driving them from the northern coast of Yucatan about 1717, they failed to dislodge them from the eastern coast. An earlier settlement had been made by a chartered company, of which the Earl of Warwick was chairman and John Pym treasurer, on two small islands off the Mosquito coast, in 1630. The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement. In 1739 the native king made a treaty resigning his country to Great Britain, and forts were built in 1742 at the Island of Rustan, and at Black River on the mainland. Rustan was abandoned in 1749, but at the same time an officer was formally appointed by the Government of Jamaica to superintend the settlements on the Mosquito Coast. As a result of the treaty of Paris in 1763, the forts were dismantled and the garrisons withdrawn. The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St. George's Cay,\" the Spaniards made frequent but ineffectual attempts to expel the woodcutters by force of arms. By the Treaty of Versailles of 1783, Spain recognised a district (within what is now British Honduras) within which the British logcutters might work without interference; and by the Convention of London signed in 1786, it was agreed that the British Colonists should evacuate the Mosquito Coast and the adjacent islands. In spite of these treaties, many of the settlers remained outside the agreed limits; and it was not until the treaties of 1859 with the Republic of Honduras and 1860 with Nicaragua that the Bay Islands and the Mosquito Coast were finally recognised as belonging to those States, Nicaragua agreeing to allow the Mosquito Indians autonomy in the Reserve which was assigned to them. The only other events of external significance which need here be noticed, are the definition, as above, of the boundaries of the Colony (of which a survey has been partially executed); and the frequent border troubles, connected with the revolt in 1849 of the Indian population of Yucatan against the Spanish inhabitants, the result of which was that the Indians were in possession of the country to a considerable distance north of the Hondo until 1901, when the Mexicans subjugated them. Occasional incursions into the Colony were made from time to time by the Indians, the last being in 1872, by the Icaiche tribe on the N.W. frontier.",
+      "edition_years": [
+        1922,
+        1923,
+        1927
+      ],
+      "first_edition_year": 1922,
+      "last_edition_year": 1927,
+      "n_editions": 3,
+      "representative_source_file": "1927_manual_parsed/BRITISH_HONDURAS.txt",
+      "char_start": 848,
+      "char_end": 4091,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.987,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers.",
+          "char_start": 0,
+          "char_end": 235,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquest"
+          ],
+          "verbatim_span": "The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement.",
+          "char_start": 899,
+          "char_end": 1156,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives",
+            "protection"
+          ],
+          "verbatim_span": "The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement.",
+          "char_start": 899,
+          "char_end": 1156,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "In 1739 the native king made a treaty resigning his country to Great Britain, and forts were built in 1742 at the Island of Rustan, and at Black River on the mainland.",
+          "char_start": 1157,
+          "char_end": 1324,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St.",
+          "char_start": 1592,
+          "char_end": 1787,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St.",
+          "char_start": 1592,
+          "char_end": 1787,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "revolt"
+          ],
+          "verbatim_span": "The only other events of external significance which need here be noticed, are the definition, as above, of the boundaries of the Colony (of which a survey has been partially executed); and the frequent border troubles, connected with the revolt in 1849 of the Indian population of Yucatan against the Spanish inhabitants, the result of which was that the Indians were in possession of the country to a considerable distance north of the Hondo until 1901, when the Mexicans subjugated them.",
+          "char_start": 2601,
+          "char_end": 3091,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribe"
+          ],
+          "verbatim_span": "Occasional incursions into the Colony were made from time to time by the Indians, the last being in 1872, by the Icaiche tribe on the N.W.",
+          "char_start": 3092,
+          "char_end": 3230,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers.",
+          "char_start": 110,
+          "char_end": 117,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1923,
+            1927
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Honduras",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "By the Treaty of Versailles of 1783, Spain recognised a district (within what is now British Honduras) within which the British logcutters might work without interference; and by the Convention of London signed in 1786, it was agreed that the British Colonists should evacuate the Mosquito Coast and the adjacent islands.",
+          "char_start": 1992,
+          "char_end": 2000,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1923,
+            1927
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1502,
+        1630,
+        1638,
+        1717,
+        1739,
+        1742,
+        1749,
+        1763,
+        1783,
+        1786,
+        1798,
+        1849,
+        1859,
+        1860,
+        1872,
+        1901
+      ]
+    },
+    {
+      "uri": "col:hversion/british_honduras/history/9d4f214379ec",
+      "colony": "british_honduras",
+      "section_slug": "history",
+      "version_hash": "9d4f214379ec",
+      "asserted_by": "Colonial Office List",
+      "text": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers. Their headquarters were long at St. George's Cay. The name of the present chief town and of the River Belize is alleged to be a corruption of the name of the buccaneer Wallis, who was driven from Hispaniola in that year, and who is said to have been the leader of the settlers. The Spaniards frequently endeavoured to expel the logcutters; but, though they succeeded in driving them from the northern coast of Yucatan about 1717, they failed to dislodge them from the eastern coast. An earlier settlement had been made by a chartered company, of which the Earl of Warwick was chairman and John Pym treasurer, on two small islands off the Mosquito coast, in 1630. The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement. In 1739 the native king made a treaty resigning his country to Great Britain, and forts were built in 1742 at the Island of Rutan, and at Black River on the mainland. Rutan was abandoned in 1749, but at the same time an officer was formally appointed by the Government of Jamaica to superintend the settlements on the Mosquito Coast. As a result of the treaty of Paris in 1763, the forts were dismantled and the garrisons withdrawn. The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St. George's Cay,\" the Spaniards made frequent but ineffectual attempts to expel the woodcutters by force of arms. By the Treaty of Versailles of 1783 Spain recognised a district (within what is now British Honduras) within which the British logcutters might work without interference; and by the Convention of London signed in 1786, it was agreed that the British Colonists should evacuate the Mosquito Coast and the adjacent islands. In spite of these treaties, many of the settlers remained outside the agreed limits; and it was not until the treaties of 1859 with the Republic of Honduras and 1860 with Nicaragua that the Bay Islands and the Mosquito Coast were finally recognised as belonging to those States, Nicaragua agreeing to allow the Mosquito Indians autonomy in the Reserve which was assigned to them. The only other events of external significance which need here be noticed are the definition, as above, of the boundaries of the Colony (of which a survey has been partially executed); and the frequent border troubles, connected with the revolt in 1849 of the Indian population of Yucatan against the Spanish inhabitants, the result of which was that the Indians were in possession of the country to a considerable distance north of the Hondo until 1901, when the Mexicans subjugated them. Occasional incursions into the Colony were made from time to time by the Indians, the last being in 1872, by the Icaché tribe on the N.W. frontier. Constitution. The first settlers from 1638 to 1786 managed their own affairs. Persons were annually elected to act as Magistrates at public meetings held for the purpose. These Magistrates discharged all executive and judicial functions. Resolutions were passed at public meetings, and they formed the laws binding on the community. In 1765 these customs were formally recognised by the King's Government, after the visit of Admiral Sir William Burnaby to the settlement in that year. The customs of the settlers were codified and published, and became known as \"Burnaby's Laws.\" In 1786 a Superintendent was appointed by the Home Government, but during the years 1790-1797 elected Magistrates again ruled the settlements. From this latter date Superintendents were regularly appointed until 1862. An Executive Council was established in 1839 to assist the Superintendent, and in 1853 a Legislative Assembly was formally constituted, consisting of 18 elected and 3 nominated members. The settlement was declared a Colony on the 12th May, 1862, and a Lieutenant-Governor was appointed subordinate to the Governor of Jamaica. In 1870 the Legislative Assembly was abolished by a local enactment, and a Legislative Council substituted therefor, consisting of five official, and not less than four unofficial, members, with the Lieutenant-Governor as President. Since 1913 the Council contains five official and seven unofficial members. On the 31st October, 1884, Letters Patent were proclaimed constituting the office of Governor and Commander-in-Chief, which rendered the Colony independent of Jamaica. These were renewed by Letters Patent proclaimed on the 10th September, 1909. The English Common Law and all statutes of the Imperial Parliament \"in abrogation or derogation or in any way declaratory of the Common Law passed before 1899 extend to the Colony as far as local circumstances render such extension suitable, and subject to modification by Colonial ordinances.\" Pursuant to Ordinance No. 31 of 1923, a new and revised edition of the Laws of this Colony has been published in two volumes. This edition, referred to as \"The Consolidated Laws, 1924,\" came into force on the 4th February, 1925, and supersedes the revised edition published in 1915 and all ordinances passed before July, 1924. Appeals to His Majesty in Council are regulated by Chapter 155 of the Consolidated Laws, 1924. The Executive Council consists of the Governor, and seven members, three of whom are ex officio, the other four being appointed members. For administrative purposes the Colony is divided into six districts—Belize, which includes the capital at the mouth of the river of the same name; the Corozal district; the Orange Walk district; the Cayo district; the Stann Creek district; and the Toledo district, the main station of which is Punta Gorda.",
+      "edition_years": [
+        1929
+      ],
+      "first_edition_year": 1929,
+      "last_edition_year": 1929,
+      "n_editions": 1,
+      "representative_source_file": "1929_manual_parsed/BRITISH_HONDURAS.txt",
+      "char_start": 849,
+      "char_end": 6932,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers.",
+          "char_start": 0,
+          "char_end": 235,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquest"
+          ],
+          "verbatim_span": "The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement.",
+          "char_start": 899,
+          "char_end": 1156,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives",
+            "protection"
+          ],
+          "verbatim_span": "The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement.",
+          "char_start": 899,
+          "char_end": 1156,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "In 1739 the native king made a treaty resigning his country to Great Britain, and forts were built in 1742 at the Island of Rutan, and at Black River on the mainland.",
+          "char_start": 1157,
+          "char_end": 1323,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St.",
+          "char_start": 1590,
+          "char_end": 1785,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St.",
+          "char_start": 1590,
+          "char_end": 1785,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "revolt"
+          ],
+          "verbatim_span": "The only other events of external significance which need here be noticed are the definition, as above, of the boundaries of the Colony (of which a survey has been partially executed); and the frequent border troubles, connected with the revolt in 1849 of the Indian population of Yucatan against the Spanish inhabitants, the result of which was that the Indians were in possession of the country to a considerable distance north of the Hondo until 1901, when the Mexicans subjugated them.",
+          "char_start": 2598,
+          "char_end": 3087,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribe"
+          ],
+          "verbatim_span": "Occasional incursions into the Colony were made from time to time by the Indians, the last being in 1872, by the Icaché tribe on the N.W.",
+          "char_start": 3088,
+          "char_end": 3225,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "The English Common Law and all statutes of the Imperial Parliament \"in abrogation or derogation or in any way declaratory of the Common Law passed before 1899 extend to the Colony as far as local circumstances render such extension suitable, and subject to modification by Colonial ordinances.\" Pursuant to Ordinance No.",
+          "char_start": 4914,
+          "char_end": 5234,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "Appeals to His Majesty in Council are regulated by Chapter 155 of the Consolidated Laws, 1924.",
+          "char_start": 5536,
+          "char_end": 5630,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Admiral Sir William Burnaby",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1765 these customs were formally recognised by the King's Government, after the visit of Admiral Sir William Burnaby to the settlement in that year.",
+          "char_start": 3661,
+          "char_end": 3688,
+          "year_reference": 1765,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1929
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "President. Since",
+          "entity_type": "person",
+          "entity_subtype": "official",
+          "source_span": "In 1870 the Legislative Assembly was abolished by a local enactment, and a Legislative Council substituted therefor, consisting of five official, and not less than four unofficial, members, with the Lieutenant-Governor as President. Since 1913 the Council contains five official and seven unofficial members.",
+          "char_start": 4582,
+          "char_end": 4598,
+          "year_reference": 1870,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1929
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers.",
+          "char_start": 110,
+          "char_end": 117,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1929
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Honduras",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "By the Treaty of Versailles of 1783 Spain recognised a district (within what is now British Honduras) within which the British logcutters might work without interference; and by the Convention of London signed in 1786, it was agreed that the British Colonists should evacuate the Mosquito Coast and the adjacent islands.",
+          "char_start": 1989,
+          "char_end": 1997,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1929
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1502,
+        1630,
+        1638,
+        1717,
+        1739,
+        1742,
+        1749,
+        1763,
+        1765,
+        1783,
+        1786,
+        1790,
+        1797,
+        1798,
+        1839,
+        1849,
+        1853,
+        1859,
+        1860,
+        1862,
+        1870,
+        1872,
+        1884,
+        1899,
+        1901,
+        1909,
+        1913,
+        1915,
+        1923,
+        1924,
+        1925
+      ]
+    },
+    {
+      "uri": "col:hversion/british_honduras/history/41a49052e8ed",
+      "colony": "british_honduras",
+      "section_slug": "history",
+      "version_hash": "41a49052e8ed",
+      "asserted_by": "Colonial Office List",
+      "text": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers. Their headquarters were long at St. George's Cay. The name of the present chief town and of the River Belize is alleged to be a corruption of the name of the buccaneer Wallis, who was driven from * See under the Windward Islands for general map of the West Indies. In 1795 a Superintendent was appointed by Home Government, but during the years 1796-1797 elected Magistrates again ruled the settle- Government Analyst's Department. Government Analyst, W. Francis, F.I.C., 860l. First Assistant Analyst, L. S. Davis, 400l. to 500l. Second Assistant Analyst, N. Newsam, 300l. to 300l.",
+      "edition_years": [
+        1931
+      ],
+      "first_edition_year": 1931,
+      "last_edition_year": 1931,
+      "n_editions": 1,
+      "representative_source_file": "1931_manual_parsed/BRITISH_HONDURAS.txt",
+      "char_start": 851,
+      "char_end": 1671,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers.",
+          "char_start": 0,
+          "char_end": 235,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers.",
+          "char_start": 110,
+          "char_end": 117,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1931
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1502,
+        1638,
+        1795,
+        1796,
+        1797
+      ]
+    },
+    {
+      "uri": "col:hversion/british_honduras/history/9669e5cdc826",
+      "colony": "british_honduras",
+      "section_slug": "history",
+      "version_hash": "9669e5cdc826",
+      "asserted_by": "Colonial Office List",
+      "text": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers. Their headquarters were long at St. George's Cay. The name of the present chief town and of the River Belize is alleged to be a corruption of the name of the buccaneer Wallis, who was driven from Hispaniola in that year, and who is said to have been the leader of the settlers. The Spaniards frequently endeavoured to expel the logcutters; but, though they succeeded in driving them from the northern coast of Yucatan about 1717, they failed to dislodge them from the eastern coast. An earlier settlement had been made by a chartered company, of which the Earl of Warwick was chairman and John Pym treasurer, on two small islands off the Mosquito coast, in 1630. The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement. In 1739 the native king made a treaty resigning his country to Great Britain, and forts were built in 1742 at the Island of Rustan, and at Black River on the mainland. Rustan was abandoned in 1749, but at the same time an officer was formally appointed by the Government of Jamaica to superintend the settlements on the Mosquito Coast. As a result of the treaty of Paris in 1763, the forts were dismantled and the garrisons withdrawn. The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St. George's Cay,\" the Spaniards made frequent but ineffectual attempts to expel the woodcutters by force of arms. By the Treaty of Versailles of 1783 Spain recognised a district (within what is now British Honduras) within which the British logcutters might work without interference; and by the Convention of London signed in 1786, it was agreed that the British Colonists should evacuate the Mosquito Coast and the adjacent islands. In spite of these treaties, many of the settlers remained outside the agreed limits; and it was not until the treaties of * See under the Windward Islands for general map of the West Indies. station resembles nd being portion g as the soils of the vege- the Pine rub, and mediate be- there are Colony, he Belize ondo and idoforms above the er of the Cocks- 0 feet is remained traversed Fowler, at the of Deep ession of est above an open significant was all habitants consisting ed. The minerals has sub- m of its f exports ce 84°58', duce '85. ice since a Forest were as ial feet; wood 12 od. 225 296 lbs.; 3,000; ere were 4 vessels pany and sum oils, oots and The com- United ter along on once a Mobile, rates. Liverpool and Colon. The mail and passenger service National Steamships Compa Members, ment M Hon. E. Revd. A. W. H. I Inspector 700L. Secretary Accountant 480L tc Assistant Thomas 3rd Class Director, 4 3rd Class Governor M.B., C 2 Assist: 650L to 2 County sawmy, M.R.Sa: house a Bishop, I Grant to For Mi. Immi Inc Rev. W. I Grant to C Grant in a Bishop, T. for sup Missionar Superinten Brindle; United Stu France, J Consula Sweden, N Norway, Havana Spain, S. Portugal, Senhor The Nethe Pairaud Republic c dean. Brazil, Jo: Belgium, General town). Italy, (Ji Trinida Denmark Dor Ships (resides in Trinidad with British Guiana); Vice-Consul, * See under the Windward Islands for general map of the West Indies. 1859 with the Republic of Honduras and 1860 with Nicaragua that the Bay Islands and the Mosquito Coast were finally recognised as belonging to those states, Nicaragua agreeing to allow the Mosquito Indians autonomy in the Reserve which was assigned to them. On the 10th of September, 1931, Belize was visited by a hurricane and tidal wave which caused great damage and loss of life.",
+      "edition_years": [
+        1932
+      ],
+      "first_edition_year": 1932,
+      "last_edition_year": 1932,
+      "n_editions": 1,
+      "representative_source_file": "1932_manual_parsed/BRITISH_HONDURAS.txt",
+      "char_start": 847,
+      "char_end": 4893,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers.",
+          "char_start": 0,
+          "char_end": 235,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquest"
+          ],
+          "verbatim_span": "The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement.",
+          "char_start": 899,
+          "char_end": 1156,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives",
+            "protection"
+          ],
+          "verbatim_span": "The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement.",
+          "char_start": 899,
+          "char_end": 1156,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "In 1739 the native king made a treaty resigning his country to Great Britain, and forts were built in 1742 at the Island of Rustan, and at Black River on the mainland.",
+          "char_start": 1157,
+          "char_end": 1324,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St.",
+          "char_start": 1592,
+          "char_end": 1787,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St.",
+          "char_start": 1592,
+          "char_end": 1787,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers.",
+          "char_start": 110,
+          "char_end": 117,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1932
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Honduras",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "By the Treaty of Versailles of 1783 Spain recognised a district (within what is now British Honduras) within which the British logcutters might work without interference; and by the Convention of London signed in 1786, it was agreed that the British Colonists should evacuate the Mosquito Coast and the adjacent islands.",
+          "char_start": 1991,
+          "char_end": 1999,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1932
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Trinidad",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Italy, (Ji Trinida Denmark Dor Ships (resides in Trinidad with British Guiana); Vice-Consul, * See under the Windward Islands for general map of the West Indies.",
+          "char_start": 3530,
+          "char_end": 3538,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1932
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1502,
+        1630,
+        1638,
+        1717,
+        1739,
+        1742,
+        1749,
+        1763,
+        1783,
+        1786,
+        1798,
+        1859,
+        1860,
+        1931
+      ]
+    },
+    {
+      "uri": "col:hversion/british_honduras/history/ee8888b4e094",
+      "colony": "british_honduras",
+      "section_slug": "history",
+      "version_hash": "ee8888b4e094",
+      "asserted_by": "Colonial Office List",
+      "text": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers. Their headquarters were long at St. George's Cay. The name of the present chief town and of the River Belize is alleged to be a corruption of the name of the buccaneer Wallis, who was driven from Hispaniola in that year, and who is said to have been the leader of the settlers. The Spaniards frequently endeavoured to expel the logcutters; but, though they succeeded in driving them from the northern coast of Yucatan about 1717, they failed to dislodge them from the eastern coast. An earlier settlement had been made by a chartered company, of which the Earl of Warwick was chairman and John Pym treasurer, on two small islands off the Mosquito coast, in 1630. The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement. In 1739 the native king made a treaty resigning his country to Great Britain, and forts were built in 1742 at the Island of Ruatan, and at Black River on the mainland. Ruatan was abandoned in 1749, but at the same time an officer was formally appointed by the Government of Jamaica to superintend the settlements on the Mosquito Coast. As a result of the treaty of Paris in 1763, the forts were dismantled and the garrisons withdrawn. The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St. George's Cay,\" the Spaniards made frequent but ineffectual attempts to expel the woodcutters by force of arms. By the Treaty of Versailles of 1783 Spain recognised a district (within what is now British Honduras) within which the British logcutters might work without interference; and by the Convention of London signed in 1786, it was agreed that the British Colonists should evacuate the Mosquito Coast and the adjacent islands. In spite of these treaties, many of the settlers remained outside the agreed limits; and it was not until the treaties of 1859 with the Republic of Honduras and 1860 with Nicaragua that the Bay Islands and the Mosquito Coast were finally recognised as belonging to those states, Nicaragua agreeing to allow the Mosquito Indians autonomy in the Reserve which was assigned to them. On the 10th of September, 1931, Belize was visited by a hurricane and tidal wave which caused great damage and loss of life.",
+      "edition_years": [
+        1933,
+        1934,
+        1936,
+        1937,
+        1939,
+        1940,
+        1946,
+        1948,
+        1949,
+        1950,
+        1951
+      ],
+      "first_edition_year": 1933,
+      "last_edition_year": 1951,
+      "n_editions": 11,
+      "representative_source_file": "1936_manual_parsed/BRITISH_HONDURAS.txt",
+      "char_start": 847,
+      "char_end": 3573,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.931,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers.",
+          "char_start": 0,
+          "char_end": 235,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquest"
+          ],
+          "verbatim_span": "The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement.",
+          "char_start": 899,
+          "char_end": 1156,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives",
+            "protection"
+          ],
+          "verbatim_span": "The Mosquito natives were very friendly to the English settlers, and their king, shortly after the conquest of Jamaica, placed himself under English protection, and the Governors of Jamaica exercised a sort of supervision over the affairs of the settlement.",
+          "char_start": 899,
+          "char_end": 1156,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "In 1739 the native king made a treaty resigning his country to Great Britain, and forts were built in 1742 at the Island of Ruatan, and at Black River on the mainland.",
+          "char_start": 1157,
+          "char_end": 1324,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St.",
+          "char_start": 1592,
+          "char_end": 1787,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "The settlers remained, however, and from that date until 1798, when the last attempt to establish the sovereignty of Spain over the territory was defeated by the inhabitants in the \"Battle of St.",
+          "char_start": 1592,
+          "char_end": 1787,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The coast was discovered in 1502 by Columbus, and its early settlement is supposed to have been effected from Jamaica, about 1638, by adventurers, who were attracted by the logwood which grew on the banks of the Hondo and other rivers.",
+          "char_start": 110,
+          "char_end": 117,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Honduras",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "By the Treaty of Versailles of 1783 Spain recognised a district (within what is now British Honduras) within which the British logcutters might work without interference; and by the Convention of London signed in 1786, it was agreed that the British Colonists should evacuate the Mosquito Coast and the adjacent islands.",
+          "char_start": 1991,
+          "char_end": 1999,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1502,
+        1630,
+        1638,
+        1717,
+        1739,
+        1742,
+        1749,
+        1763,
+        1783,
+        1786,
+        1798,
+        1859,
+        1860,
+        1931
+      ]
+    }
+  ]
+}

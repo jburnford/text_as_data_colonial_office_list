@@ -1,0 +1,244 @@
+{
+  "colony": "malay_states_unfederated",
+  "n_editions_with_history": 2,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/malay_states_unfederated/history/2c4ebda9bbf3",
+      "colony": "malay_states_unfederated",
+      "section_slug": "history",
+      "version_hash": "2c4ebda9bbf3",
+      "asserted_by": "Colonial Office List",
+      "text": "There are no authentic records of the early history of the State, and little is known except that the country was converted to Muhammadanism in the 15th or 16th century, and that, like the other States in the Peninsula, it was, at various times, under the domination of Burmah, Aceh, Malacca and Siam. Like the other States, too, it depended upon the personality of its ruler. Under a strong raja its boundaries extended to include Setul, Perlis, and part of Singgora on the north, and Krian on the south, and under a weaker man, or upon the rising of a stronger raja beyond the borders, its boundaries contracted. There is no record of the Portuguese, during their occupation of Malacca (A.D. 1511 to 1641), having had any intercourse with Kedah. The Dutch, however, after they had wrested Malacca from the Portuguese, established Opperhoofden (Commandants) in Kedah from 1654 to 1711. From that date until 1786, when Captain Light acquired Penang from the Sultan for the East India Company, little is known of the history of the State. In 1821, a Siamese fleet appeared off the mouth of the Kedah River, and, by a sudden descent upon the unexpectant Malays, took possession of the fort, and later of the river. The Sultan, who was in the Merbok district at the time, fled to Province Wellesley, where he was afforded protection by the British Government. He was later afforded an asylum in Malacca. In 1831, Tunku Kudin, a nephew of the Sultan, made a desperate attempt to recover Kedah from the Siamese. He succeeded in driving out the Siamese, and held the country from April until October, but was later conquered by a combined force of British and Siamese. In 1838, the Malays made another attempt under Tunku Muhammad Saad, and again succeeded in expelling the Siamese. Again, however, they were worsted by the combination of a Siamese army and a blockade by British gunboats. In 1841 the Siamese allowed the Sultan to return to Kedah and re-assume the government. The Sultan was, however, only allowed to exercise authority over part of the territory that formerly was subject to him. Setul, Perlis and Kubang Pasu were given to other rajas independent of him. Setul, under the treaty of 1909, is now part of Siam (Monthon Puket); Perlis is still independent and is now under British protection. Kubang Pasu was some years ago again made part of Kedah.",
+      "edition_years": [
+        1918,
+        1919
+      ],
+      "first_edition_year": 1918,
+      "last_edition_year": 1919,
+      "n_editions": 2,
+      "representative_source_file": "1918_manual_parsed/MALAY_STATES_UNFEDERATED.txt",
+      "char_start": 7207,
+      "char_end": 9572,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.988,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rising"
+          ],
+          "verbatim_span": "Under a strong raja its boundaries extended to include Setul, Perlis, and part of Singgora on the north, and Krian on the south, and under a weaker man, or upon the rising of a stronger raja beyond the borders, its boundaries contracted.",
+          "char_start": 377,
+          "char_end": 614,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "acquired"
+          ],
+          "verbatim_span": "From that date until 1786, when Captain Light acquired Penang from the Sultan for the East India Company, little is known of the history of the State.",
+          "char_start": 887,
+          "char_end": 1037,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "In 1821, a Siamese fleet appeared off the mouth of the Kedah River, and, by a sudden descent upon the unexpectant Malays, took possession of the fort, and later of the river.",
+          "char_start": 1038,
+          "char_end": 1212,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "The Sultan, who was in the Merbok district at the time, fled to Province Wellesley, where he was afforded protection by the British Government.",
+          "char_start": 1213,
+          "char_end": 1356,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquered"
+          ],
+          "verbatim_span": "He succeeded in driving out the Siamese, and held the country from April until October, but was later conquered by a combined force of British and Siamese.",
+          "char_start": 1507,
+          "char_end": 1662,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "Setul, under the treaty of 1909, is now part of Siam (Monthon Puket); Perlis is still independent and is now under British protection.",
+          "char_start": 2169,
+          "char_end": 2303,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "under british protection"
+          ],
+          "verbatim_span": "Setul, under the treaty of 1909, is now part of Siam (Monthon Puket); Perlis is still independent and is now under British protection.",
+          "char_start": 2169,
+          "char_end": 2303,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Light",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "From that date until 1786, when Captain Light acquired Penang from the Sultan for the East India Company, little is known of the history of the State.",
+          "char_start": 919,
+          "char_end": 932,
+          "year_reference": 1786,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Malacca",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "There are no authentic records of the early history of the State, and little is known except that the country was converted to Muhammadanism in the 15th or 16th century, and that, like the other States in the Peninsula, it was, at various times, under the domination of Burmah, Aceh, Malacca and Siam.",
+          "char_start": 284,
+          "char_end": 291,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Perlis",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Under a strong raja its boundaries extended to include Setul, Perlis, and part of Singgora on the north, and Krian on the south, and under a weaker man, or upon the rising of a stronger raja beyond the borders, its boundaries contracted.",
+          "char_start": 439,
+          "char_end": 445,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Kedah",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "1511 to 1641), having had any intercourse with Kedah.",
+          "char_start": 741,
+          "char_end": 746,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Penang",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "From that date until 1786, when Captain Light acquired Penang from the Sultan for the East India Company, little is known of the history of the State.",
+          "char_start": 942,
+          "char_end": 948,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1511,
+        1641,
+        1654,
+        1711,
+        1786,
+        1821,
+        1831,
+        1838,
+        1841,
+        1909
+      ]
+    }
+  ]
+}

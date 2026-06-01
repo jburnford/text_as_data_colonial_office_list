@@ -1,0 +1,2044 @@
+{
+  "colony": "seychelles",
+  "n_editions_with_history": 35,
+  "n_versions": 6,
+  "versions": [
+    {
+      "uri": "col:hversion/seychelles/history/b4bdf97ea6d9",
+      "colony": "seychelles",
+      "section_slug": "history",
+      "version_hash": "b4bdf97ea6d9",
+      "asserted_by": "Colonial Office List",
+      "text": "The Islands are believed to have been discovered by a Portuguese named Pedro Mas Caregnas, in 1555, but the discovery was not apparently followed by any attempt at colonization. Previous to French occupation they were the resort of pirates or corsairs who infested the Indian Ocean, some of whose names are borne by descendants in Mahé at the present time. Under the Government of Labourdonnais at Mauritius, whose name they originally bore, their position was first defined in 1743, and M. Picault, who took possession of the Islands in the name of the king of France, called the principal island... Mahé. Later on the group was re-named the Seychelles Islands, in honour of the Vicomte Hérault de Séchelles. The natural resources of the Islands, and their freedom from hurricanes, induced the French to transplant from the Isle de France (now Mauritius) cinnamon, cloves, and nutmegs, under the directions of M. Poivre. Much secrecy was at first observed in regard to the existence of these retired plantations, the object being to wrest from the Dutch the lucrative spice monopoly which the Colonies of that nation then enjoyed in Europe from their own possessions. The rumours of the war that broke out between France and England in 1778, induced the then French Governor of Mauritius, Count de Souillac, to issue peremptory orders that in the event of an attack the spice plantations should be at once destroyed. Soon afterwards a French ship from Madagascar, having slaves on board, called at Mahé to take in wood and water, but fearing that the English might be in possession, adopted the ruse of hoisting the English flag. The small French force at Mahé had already been withdrawn, and the officer in charge, knowing that resistance was useless, at once set fire to the whole of the spice trees, each of which had previously been surrounded with dry wood and inflammable material. During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and retreat, but on the 17th May, 1794, it was captured by Captain Newcombe, of His Majesty's Ship \"Orpheus.\" Mr. De Quincy was left in undisturbed possession of his authority, which he had held for twenty years under the French, and subsequently for eighteen years as juge de paix under the British Government. The capitulation was renewed in 1806 by Capt. Ferrier, of His Majesty's Ship \"Albion,\" and on the capture of Mauritius, Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that Colony. The increasing importance of these Islands was considered sufficient to warrant an alteration in its constitution, and in December, 1888, an Order in Council was passed creating the office of Administrator, and nominating an Executive and Legislative Council. In 1897, by Letters Patent and Royal Instructions, the Administrator was given full powers as Governor. An education grant of Rs. 10,000 is annually given in assisting schools of all denominations, of which there were 28 in 1898, attended by 2,427 children. A sum of Rs. 4,000 is also voted for the maintenance of a government undenominational school, and Rs. 1,200 for affiliating two schools to the Royal College of Mauritius.",
+      "edition_years": [
+        1894,
+        1896,
+        1898,
+        1900
+      ],
+      "first_edition_year": 1894,
+      "last_edition_year": 1900,
+      "n_editions": 4,
+      "representative_source_file": "1900_manual_parsed/SEYCHELLES.txt",
+      "char_start": 1466,
+      "char_end": 4712,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.948,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "discovery"
+          ],
+          "verbatim_span": "The Islands are believed to have been discovered by a Portuguese named Pedro Mas Caregnas, in 1555, but the discovery was not apparently followed by any attempt at colonization.",
+          "char_start": 0,
+          "char_end": 177,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "Picault, who took possession of the Islands in the name of the king of France, called the principal island...",
+          "char_start": 491,
+          "char_end": 600,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The rumours of the war that broke out between France and England in 1778, induced the then French Governor of Mauritius, Count de Souillac, to issue peremptory orders that in the event of an attack the spice plantations should be at once destroyed.",
+          "char_start": 1169,
+          "char_end": 1417,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and retreat, but on the 17th May, 1794, it was captured by Captain Newcombe, of His Majesty's Ship \"Orpheus.\" Mr.",
+          "char_start": 1889,
+          "char_end": 2105,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and retreat, but on the 17th May, 1794, it was captured by Captain Newcombe, of His Majesty's Ship \"Orpheus.\" Mr.",
+          "char_start": 1889,
+          "char_end": 2105,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "Ferrier, of His Majesty's Ship \"Albion,\" and on the capture of Mauritius, Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that Colony.",
+          "char_start": 2350,
+          "char_end": 2548,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "Ferrier, of His Majesty's Ship \"Albion,\" and on the capture of Mauritius, Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that Colony.",
+          "char_start": 2350,
+          "char_end": 2548,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Newcombe",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and retreat, but on the 17th May, 1794, it was captured by Captain Newcombe, of His Majesty's Ship \"Orpheus.\" Mr.",
+          "char_start": 2051,
+          "char_end": 2067,
+          "year_reference": 1794,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. De Quincy",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and retreat, but on the 17th May, 1794, it was captured by Captain Newcombe, of His Majesty's Ship \"Orpheus.\" Mr. De Quincy was left in undisturbed possession of his authority, which he had held for twenty years under the French, and subsequently for eighteen years as juge de paix under the British Government.",
+          "char_start": 2102,
+          "char_end": 2115,
+          "year_reference": 1794,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor. An",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "In 1897, by Letters Patent and Royal Instructions, the Administrator was given full powers as Governor. An education grant of Rs.",
+          "char_start": 2903,
+          "char_end": 2915,
+          "year_reference": 1897,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mauritius",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Under the Government of Labourdonnais at Mauritius, whose name they originally bore, their position was first defined in 1743, and M.",
+          "char_start": 398,
+          "char_end": 407,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1555,
+        1743,
+        1778,
+        1794,
+        1806,
+        1888,
+        1897,
+        1898
+      ]
+    },
+    {
+      "uri": "col:hversion/seychelles/history/e83241f8a11f",
+      "colony": "seychelles",
+      "section_slug": "history",
+      "version_hash": "e83241f8a11f",
+      "asserted_by": "Colonial Office List",
+      "text": "The islands are believed to have been discovered by a Portuguese named Pedro Mascaregna, in 1505, but the discovery was not apparently followed by any attempt at colonisation. Previous to the French occupation they were the resort of pirates or corsairs who infested the Indian Ocean, some of whose names are borne by descendants in Mahé at the present time. Under the Government at Mauritius of Labourdonnais, whose name they originally bore, their position was first defined in 1743, and M. Picault, who took possession of the Islands in the name of the King of France, called the principal island Mahé. Later on the group was re-named the Seychelles Islands, in honour of the Vicomte Moreau des Séchelles, who was Controller-General of Finance under Louis XV., from 1754 to 1766. The Islands were named in 1756 by a Lieut. Morphy, who was sent to Mahé by Magon de la Villebague. The natural resources of the Islands, and their freedom from hurricanes, induced the French to transplant from the Isle de France (now Mauritius) cinnamon, cloves, and nutmegs, under the directions of M. Poivre. Much secrecy was at first observed in regard to the existence of these retired plantations, the object being to wrest from the Dutch the lucrative spice monopoly which the colonies of that nation then enjoyed in Europe from their own possessions. The rumours of the war that broke out between France and England in 1778, induced the then French Governor of Mauritius, Count de Souillac, to issue peremptory orders that in the event of an attack the spice plantations should be at once destroyed. Soon afterwards a French ship from Madagascar, having slaves on board, called at Mahé to take in wood and water, but fearing that the English might be in possession, adopted the ruse of hoisting the English flag. The small French force at Mahé had already been withdrawn, and the officer in charge, knowing that resistance was useless, at once set fire to the whole of the spice trees, each of which had previously been surrounded with dry wood and inflammable material. During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and retreatment, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr. De Quincy, who was born at Paris in November, 1748, became, after Lieutenant Sullivan, R.M., who had been placed in charge, had left, the first Agent Civil under the British Government. Mr. De Quincy's reign as French Governor lasted twenty years. He remained for eighteen years in the service of the British Government, and died on the 10th July, 1827. The capitulation was renewed in 1806 by Capt. Ferrier, of His Majesty's ship \"Albion,\" but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that Colony. From 1794 to 1810 Seychelles, though nominally a British Colony, seems to have been administered as a French Colony, and all Civil Status Acts ran in the name of the French Government. A Board of Civil Commissioners was appointed in 1872, when the finances of the Seychelles were separated from those of Mauritius. The title of the Head of the Government was changed from that of Civil Commissioner to that of Chief Civil Commissioner. The powers of the Board were further enlarged in 1874 by another Order in Council. The increasing importance of these islands was considered sufficient to warrant an alteration in the constitution of the Government, and in December, 1888, an Order in Council was passed creating the office of Administrator, and nominating an Executive and Legislative Council. In 1897, by Letters Patent and Royal Instructions, the Administrator was given full powers as Governor, and Seychelles was practically separated from Mauritius. The separation was completely carried out by Letters Patent of 31st August, 1903, by which Seychelles was erected into a separate Colony under its own Governor and Commander-in-Chief. An education grant of Rs. 12,000 is given in assisting schools of all denominations, of which there were 17 in 1912, attended by 2,100 children. The Government maintains a secondary school (King's College), a preparatory school (Victoria School) and a Free School, with technical classes, which are undenominational. All other schools are denominational.",
+      "edition_years": [
+        1905,
+        1906,
+        1907,
+        1908,
+        1909,
+        1911,
+        1912,
+        1914,
+        1915,
+        1917,
+        1918,
+        1919
+      ],
+      "first_edition_year": 1905,
+      "last_edition_year": 1919,
+      "n_editions": 12,
+      "representative_source_file": "1914_manual_parsed/SEYCHELLES.txt",
+      "char_start": 1944,
+      "char_end": 6382,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.949,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "discovery"
+          ],
+          "verbatim_span": "The islands are believed to have been discovered by a Portuguese named Pedro Mascaregna, in 1505, but the discovery was not apparently followed by any attempt at colonisation.",
+          "char_start": 0,
+          "char_end": 175,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "Picault, who took possession of the Islands in the name of the King of France, called the principal island Mahé.",
+          "char_start": 493,
+          "char_end": 605,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The rumours of the war that broke out between France and England in 1778, induced the then French Governor of Mauritius, Count de Souillac, to issue peremptory orders that in the event of an attack the spice plantations should be at once destroyed.",
+          "char_start": 1341,
+          "char_end": 1589,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and retreatment, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr.",
+          "char_start": 2061,
+          "char_end": 2306,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and retreatment, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr.",
+          "char_start": 2061,
+          "char_end": 2306,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "Ferrier, of His Majesty's ship \"Albion,\" but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that Colony.",
+          "char_start": 2707,
+          "char_end": 2932,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "Ferrier, of His Majesty's ship \"Albion,\" but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that Colony.",
+          "char_start": 2707,
+          "char_end": 2932,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Newcome",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and retreatment, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr.",
+          "char_start": 2227,
+          "char_end": 2242,
+          "year_reference": 1794,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. De Quincy",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and retreatment, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr. De Quincy, who was born at Paris in November, 1748, became, after Lieutenant Sullivan, R.M., who had been placed in charge, had left, the first Agent Civil under the British Government.",
+          "char_start": 2303,
+          "char_end": 2316,
+          "year_reference": 1794,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lieutenant Sullivan",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "De Quincy, who was born at Paris in November, 1748, became, after Lieutenant Sullivan, R.M., who had been placed in charge, had left, the first Agent Civil under the British Government.",
+          "char_start": 2373,
+          "char_end": 2392,
+          "year_reference": 1748,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. De Quincy's",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Mr. De Quincy's reign as French Governor lasted twenty years.",
+          "char_start": 2493,
+          "char_end": 2508,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief Civil Commissioner. The",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "The title of the Head of the Government was changed from that of Civil Commissioner to that of Chief Civil Commissioner. The powers of the Board were further enlarged in 1874 by another Order in Council.",
+          "char_start": 3343,
+          "char_end": 3372,
+          "year_reference": 1874,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief. An",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "The separation was completely carried out by Letters Patent of 31st August, 1903, by which Seychelles was erected into a separate Colony under its own Governor and Commander-in-Chief. An education grant of Rs.",
+          "char_start": 4068,
+          "char_end": 4077,
+          "year_reference": 1903,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mauritius",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Under the Government at Mauritius of Labourdonnais, whose name they originally bore, their position was first defined in 1743, and M.",
+          "char_start": 383,
+          "char_end": 392,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Victoria",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The Government maintains a secondary school (King's College), a preparatory school (Victoria School) and a Free School, with technical classes, which are undenominational.",
+          "char_start": 4304,
+          "char_end": 4312,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1911,
+            1912,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1505,
+        1743,
+        1748,
+        1754,
+        1756,
+        1766,
+        1778,
+        1794,
+        1806,
+        1810,
+        1827,
+        1872,
+        1874,
+        1888,
+        1897,
+        1903,
+        1912
+      ]
+    },
+    {
+      "uri": "col:hversion/seychelles/history/843039be591a",
+      "colony": "seychelles",
+      "section_slug": "history",
+      "version_hash": "843039be591a",
+      "asserted_by": "Colonial Office List",
+      "text": "The islands are believed to have been discovered by a Portuguese named Pedro Mascaregnas, in 1506, but the discovery was not apparently followed by any attempt at colonisation. Previous to the French occupation they were the resort of pirates or corsairs who infested the Indian Ocean, some of whose names are borne by descendants in Mahé at the present time. Under the Government at Mauritius of Labourdonnais, whose name they originally bore, their position was first defined in 1743, and M. Picault, who took possession of the Islands in the name of the King of France, called the principal island Mahé. Later on the group was re-named the Seychelles Islands, in honour of the Vicomte Moreau des Séchelles, who was Controller-General of Finance under Louis XV., from 1754 to 1756. The Islands were named in 1756 by a Lieut. Morphy, who was sent to Mahé by Magon de la Villebague. The natural resources of the Islands, and their freedom from hurricanes, induced the French to transplant from the Isle de France (now Mauritius) cinnamon, cloves, and nutmegs, under the directions of M. Poivre. Much secrecy was at first observed in regard to the existence of these retired plantations, the object being to wrest from the Dutch the lucrative spice monopoly which the colonies of that nation then enjoyed in Europe from their own possessions. The rumours of the war that broke out between France and England in 1778, induced the then French Governor of Mauritius, Count de Souillac, to issue peremptory orders that in the event of an attack the spice plantations should be at once destroyed. Soon afterwards a French ship from Madagascar, having slaves on board, called at Mahé to take in wood and water, but fearing that the English might be in possession, adopted the ruse of hoisting the English flag. The small French force at Mahé had already been withdrawn, and the officer in charge, knowing that resistance was useless, at once set fire to the whole of the spice trees, each of which had previously been surrounded with dry wood and inflammable material. During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and refitment, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr. De Quincy, who was born at Paris in November, 1748, became, after Lieutenant Sullivan, R.M., who had been placed in charge, had left, the first Agent Civil under the British Government. Mr. De Quincy's reign as French Governor lasted twenty years. He remained for eighteen years in the service of the British Government, and died on the 10th July, 1827. The capitulation was renewed in 1806 by Capt. Forrier, of His Majesty's ship \"Albion,\" but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that Colony. From 1794 to 1810 Seychelles, though nominally a British Colony, seems to have been administered as a French Colony, and all Civil Status Acts ran in the name of the French Government. A Board of Civil Commissioners was appointed in 1872, when the finances of the Seychelles were separated from those of Mauritius. The title of the Head of the Government was changed from that of Civil Commissioner to that of Chief Civil Commissioner. The powers of the Board were further enlarged in 1874 by another Order in Council. The increasing importance of these islands was considered sufficient to warrant an alteration in the constitution of the Government, and in December, 1888, an Order in Council was passed creating the office of Administrator, and nominating an Executive and Legislative Council. In 1897, by Letters Patent and Royal Instructions, the Administrator was given full powers as Governor, and Seychelles was practically separated from Mauritius. The separation was completely carried out by Letters Patent of 31st August, 1903, by which Seychelles was erected into a separate Colony under its own Governor and Commander-in-Chief. An education grant of Rs. 12,000 is given for assisting schools of all denominations, of which there were 22 in 1919, attended by 2,216 children. The Government maintains a primary Free School with some paying classes. Technical instruction is given, and the Government School is undenominational. All other schools are denominational. Government Scholarships and Awards are offered both to primary and secondary education. All schools are inspected by the Director of Education. Communications, &c. The British India Company's steamers call regularly once a month from Bombay to East African Ports. Men-of-war of all nationalities sometimes visit Mahé. The Admiralty use Victoria as a coaling station, and passing steamers can always procure coal. Seychelles is now included in the East Indies Naval Station. Telegraphic communication with Mauritius and Europe via Zanzibar was completed in November, 1893. The rates for telegrams from Seychelles are 75 cts. per word to Mauritius or Zanzibar, Rs. 1.50 to Aden, and Rs. 1.90 to Europe. The present letter rate of postage to the United Kingdom, India and those Colonies and Protectorates which have adopted the Imperial Penny Postage is 9 cents; to other countries of the Postal Union 15 cents. The parcels post has been in full operation since April, 1890. The cash on delivery service for parcel post was introduced in 1911. The money order system is in operation with England and numerous other countries and colonies, including Bombay, Aden, Zanzibar, Mauritius and Ceylon.",
+      "edition_years": [
+        1920,
+        1921
+      ],
+      "first_edition_year": 1920,
+      "last_edition_year": 1921,
+      "n_editions": 2,
+      "representative_source_file": "1921_manual_parsed/seychelles.txt",
+      "char_start": 1959,
+      "char_end": 7572,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.961,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "discovery"
+          ],
+          "verbatim_span": "The islands are believed to have been discovered by a Portuguese named Pedro Mascaregnas, in 1506, but the discovery was not apparently followed by any attempt at colonisation.",
+          "char_start": 0,
+          "char_end": 176,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "Picault, who took possession of the Islands in the name of the King of France, called the principal island Mahé.",
+          "char_start": 494,
+          "char_end": 606,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The rumours of the war that broke out between France and England in 1778, induced the then French Governor of Mauritius, Count de Souillac, to issue peremptory orders that in the event of an attack the spice plantations should be at once destroyed.",
+          "char_start": 1342,
+          "char_end": 1590,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and refitment, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr.",
+          "char_start": 2062,
+          "char_end": 2305,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and refitment, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr.",
+          "char_start": 2062,
+          "char_end": 2305,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "Forrier, of His Majesty's ship \"Albion,\" but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that Colony.",
+          "char_start": 2706,
+          "char_end": 2931,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "Forrier, of His Majesty's ship \"Albion,\" but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that Colony.",
+          "char_start": 2706,
+          "char_end": 2931,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "Men-of-war of all nationalities sometimes visit Mahé.",
+          "char_start": 4674,
+          "char_end": 4727,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial",
+            "protectorate"
+          ],
+          "verbatim_span": "The present letter rate of postage to the United Kingdom, India and those Colonies and Protectorates which have adopted the Imperial Penny Postage is 9 cents; to other countries of the Postal Union 15 cents.",
+          "char_start": 5111,
+          "char_end": 5318,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Newcome",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and refitment, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr.",
+          "char_start": 2226,
+          "char_end": 2241,
+          "year_reference": 1794,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. De Quincy",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and refitment, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr. De Quincy, who was born at Paris in November, 1748, became, after Lieutenant Sullivan, R.M., who had been placed in charge, had left, the first Agent Civil under the British Government.",
+          "char_start": 2302,
+          "char_end": 2315,
+          "year_reference": 1794,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lieutenant Sullivan",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "De Quincy, who was born at Paris in November, 1748, became, after Lieutenant Sullivan, R.M., who had been placed in charge, had left, the first Agent Civil under the British Government.",
+          "char_start": 2372,
+          "char_end": 2391,
+          "year_reference": 1748,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. De Quincy's",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Mr. De Quincy's reign as French Governor lasted twenty years.",
+          "char_start": 2492,
+          "char_end": 2507,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief Civil Commissioner. The",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "The title of the Head of the Government was changed from that of Civil Commissioner to that of Chief Civil Commissioner. The powers of the Board were further enlarged in 1874 by another Order in Council.",
+          "char_start": 3342,
+          "char_end": 3371,
+          "year_reference": 1874,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief. An",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "The separation was completely carried out by Letters Patent of 31st August, 1903, by which Seychelles was erected into a separate Colony under its own Governor and Commander-in-Chief. An education grant of Rs.",
+          "char_start": 4067,
+          "char_end": 4076,
+          "year_reference": 1903,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mauritius",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Under the Government at Mauritius of Labourdonnais, whose name they originally bore, their position was first defined in 1743, and M.",
+          "char_start": 384,
+          "char_end": 393,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Victoria",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The Admiralty use Victoria as a coaling station, and passing steamers can always procure coal.",
+          "char_start": 4746,
+          "char_end": 4754,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Zanzibar",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Telegraphic communication with Mauritius and Europe via Zanzibar was completed in November, 1893.",
+          "char_start": 4940,
+          "char_end": 4948,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Aden",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "1.50 to Aden, and Rs.",
+          "char_start": 5081,
+          "char_end": 5085,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Ceylon",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The money order system is in operation with England and numerous other countries and colonies, including Bombay, Aden, Zanzibar, Mauritius and Ceylon.",
+          "char_start": 5594,
+          "char_end": 5600,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1920,
+            1921
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1506,
+        1743,
+        1748,
+        1754,
+        1756,
+        1778,
+        1794,
+        1806,
+        1810,
+        1827,
+        1872,
+        1874,
+        1888,
+        1890,
+        1893,
+        1897,
+        1903,
+        1911,
+        1919
+      ]
+    },
+    {
+      "uri": "col:hversion/seychelles/history/f457535b4fda",
+      "colony": "seychelles",
+      "section_slug": "history",
+      "version_hash": "f457535b4fda",
+      "asserted_by": "Colonial Office List",
+      "text": "The islands are believed to have been discovered by a Portuguese named Pedro Mascaregnas, in 1505, but the discovery was not apparently followed by any attempt at colonisation. Previous to the French occupation they were the resort of pirates or corsairs who infested the Indian Ocean, some of whose names are borne by descendants in Mahé at the present time. Under the Government at Mauritius of Labourdonnais, whose name they originally bore, their position was first defined in 1743, and M. Picault, who took possession of the Islands in the name of the King of France, called the principal island Mahé. Later on the group was re-named the Seychelles Islands, in honour of the Vicomte Moreau des Séchelles, who was Controller-General of Finance under Louis XV., from 1754 to 1756. The Islands were named in 1756 by a Lieut. Morphy, who was sent to Mahé by Magon de la Villebague. The natural resources of the Islands, and their freedom from hurricanes, induced the French to transplant from the Isle de France (now Mauritius) cinnamon, cloves, and nutmegs, under the directions of M. Poivre. Much secrecy was at first observed in regard to the existence of these retired plantations, the object being to wrest from the Dutch the lucrative spice monopoly which the colonies of that nation then enjoyed in Europe from their own possessions. The rumours of the war that broke out between France and England in 1778, induced the then French Governor of Mauritius, Count de Souillac, to issue peremptory orders that in the event of an attack the spice plantations should be at once destroyed. Soon afterwards a French ship from Madagascar, having slaves on board, called at Mahé to take in wood and water, but fearing that the English might be in possession, adopted the ruse of hoisting the English flag. The small French force at Mahé had already been withdrawn, and the officer in charge, knowing that resistance was useless, at once set fire to the whole of the spice trees, each of which had previously been surrounded with dry wood and inflammable material. During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and respite, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr. De Quincy, who was born at Paris in November, 1748, became, after Lieutenant Sullivan, R.M., who had been placed in charge, had left, the first Agent Civil under the British Government. Mr. De Quincy's reign as French Governor lasted twenty years. He remained for eighteen years in the service of the British Government, and died on the 10th July, 1827. The capitulation was renewed in 1806 by Capt. Ferrier, of His Majesty's ship \"Albion,\" but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that Colony. From 1794 to 1810 Seychelles, though nominally a British Colony, seems to have been administered as a French Colony, and all Civil Status Acts ran in the name of the French Government. A Board of Civil Commissioners was appointed in 1872, when the finances of the Seychelles were separated from those of Mauritius. The title of the Head of the Government was changed from that of Civil Commissioner to that of Chief Civil Commissioner. The powers of the Board were further enlarged in 1874 by another Order in Council. The increasing importance of these islands was considered sufficient to warrant an alteration in the constitution of the Government, and in December, 1888, an Order in Council was passed creating the office of Administrator, and nominating an Executive and Legislative Council. In 1897, by Letters Patent and Royal Instructions, the Administrator was given full powers as Governor, and Seychelles was practically separated from Mauritius. The separation was completely carried out by Letters Patent of 31st August, 1903, by which Seychelles was erected into a separate Colony under its own Governor and Commander-in-Chief. An education grant of Rs. 19,964 is given for assisting schools of all denominations, of which there were 22 in 1923. All schools are now denominational, and Government Scholarships and Awards are offered both to primary and secondary schools. Technical education is dealt with by means of Government apprenticeships. All schools are inspected by Inspector of Schools.",
+      "edition_years": [
+        1924,
+        1925,
+        1927,
+        1928,
+        1929,
+        1930,
+        1931,
+        1932,
+        1933,
+        1934,
+        1936,
+        1937,
+        1939,
+        1940
+      ],
+      "first_edition_year": 1924,
+      "last_edition_year": 1940,
+      "n_editions": 14,
+      "representative_source_file": "1924_manual_parsed/SEYCHELLES.txt",
+      "char_start": 1998,
+      "char_end": 6447,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.982,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "discovery"
+          ],
+          "verbatim_span": "The islands are believed to have been discovered by a Portuguese named Pedro Mascaregnas, in 1505, but the discovery was not apparently followed by any attempt at colonisation.",
+          "char_start": 0,
+          "char_end": 176,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "Picault, who took possession of the Islands in the name of the King of France, called the principal island Mahé.",
+          "char_start": 494,
+          "char_end": 606,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The rumours of the war that broke out between France and England in 1778, induced the then French Governor of Mauritius, Count de Souillac, to issue peremptory orders that in the event of an attack the spice plantations should be at once destroyed.",
+          "char_start": 1342,
+          "char_end": 1590,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and respite, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr.",
+          "char_start": 2062,
+          "char_end": 2303,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and respite, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr.",
+          "char_start": 2062,
+          "char_end": 2303,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "Ferrier, of His Majesty's ship \"Albion,\" but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that Colony.",
+          "char_start": 2704,
+          "char_end": 2929,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "Ferrier, of His Majesty's ship \"Albion,\" but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that Colony.",
+          "char_start": 2704,
+          "char_end": 2929,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Newcome",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and respite, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr.",
+          "char_start": 2224,
+          "char_end": 2239,
+          "year_reference": 1794,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. De Quincy",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and respite, but on the 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, Mr. De Quincy, who was born at Paris in November, 1748, became, after Lieutenant Sullivan, R.M., who had been placed in charge, had left, the first Agent Civil under the British Government.",
+          "char_start": 2300,
+          "char_end": 2313,
+          "year_reference": 1794,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lieutenant Sullivan",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "De Quincy, who was born at Paris in November, 1748, became, after Lieutenant Sullivan, R.M., who had been placed in charge, had left, the first Agent Civil under the British Government.",
+          "char_start": 2370,
+          "char_end": 2389,
+          "year_reference": 1748,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. De Quincy's",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Mr. De Quincy's reign as French Governor lasted twenty years.",
+          "char_start": 2490,
+          "char_end": 2505,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief Civil Commissioner. The",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "The title of the Head of the Government was changed from that of Civil Commissioner to that of Chief Civil Commissioner. The powers of the Board were further enlarged in 1874 by another Order in Council.",
+          "char_start": 3340,
+          "char_end": 3369,
+          "year_reference": 1874,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief. An",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "The separation was completely carried out by Letters Patent of 31st August, 1903, by which Seychelles was erected into a separate Colony under its own Governor and Commander-in-Chief. An education grant of Rs.",
+          "char_start": 4065,
+          "char_end": 4074,
+          "year_reference": 1903,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mauritius",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Under the Government at Mauritius of Labourdonnais, whose name they originally bore, their position was first defined in 1743, and M.",
+          "char_start": 384,
+          "char_end": 393,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1505,
+        1743,
+        1748,
+        1754,
+        1756,
+        1778,
+        1794,
+        1806,
+        1810,
+        1827,
+        1872,
+        1874,
+        1888,
+        1897,
+        1903,
+        1923
+      ]
+    },
+    {
+      "uri": "col:hversion/seychelles/history/9f9b7d59f601",
+      "colony": "seychelles",
+      "section_slug": "history",
+      "version_hash": "9f9b7d59f601",
+      "asserted_by": "Colonial Office List",
+      "text": "The islands are believed to have been discovered by a Portuguese named Pedro Mascarenhas, in 1505, but the discovery was not apparently followed by any attempt at colonisation. Previous to the French occupation they were the resort of pirates or corsairs who infested the Indian Ocean, some of whose names are borne by descendants in Mahé at the present time. Under the government at Mauritius of Labourdonnais, whose name they originally bore, their position was first defined in 1743, and M. Picault, who took possession of the islands in the name of the King of France, called the principal island... Mahé. In 1756 the group was re-named the Seychelles Islands, in honour of the Vicomte Moreau de Séchelles, who was Controller-General of Finance under Louis XV, from 1754 to 1756. The natural resources of the islands and their freedom from hurricanes, induced the French to transplant from the Isle de France (now Mauritius) cinnamon, cloves and nutmegs, under the directions of M. Poivre. Much secrecy was at first observed in regard to the existence of these retired plantations, the object being to wrest from the Dutch the lucrative spice monopoly which the colonies of that nation then enjoyed in Europe from their own possessions. The rumours of the war that broke out between France and England in 1778, induced the then French Governor of Mauritius, Count de Souillac, to issue peremptory orders that in the event of an attack the spice plantations should be at once destroyed. Soon afterwards a French ship from Madagascar, having slaves on board, called at Mahé to take in wood and water, but fearing that the English might be in possession, adopted the ruse of hoisting the English flag. The small French force at Mahé had already been withdrawn, and the officer in charge, knowing that resistance was useless, at once set fire to the whole of the spice trees, each of which had previously been surrounded with dry wood and other inflammable material. During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and refitment, but on 17th May, 1794, it was captured by Captain Newcome, of His Majesty’s ship “Orpheus.” The last French Governor, M. De Quincy, who was born at Paris in November, 1748, became, after Lieutenant Sullivan, R.N., who had been placed in charge, had left, the first Agent Civil under the British Government. M. De Quincy’s reign as French Governor lasted 20 years. He remained for 18 years in the service of the British Government, and died on 10th July, 1827. The capitulation was renewed in 1806 by Captain Ferrier, of His Majesty’s ship “Albion,” but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that colony. From 1794 to 1810 Seychelles, though nominally a British colony, seems to have been administered as a French colony, and all Civil Status Acts ran in the name of the French Government. A Board of Civil Commissioners was appointed in 1872, when the finances of the Seychelles were separated from those of Mauritius. The title of the head of the Government was changed from that of Civil Commissioner to that of Chief Civil Commissioner. The powers of the board were further enlarged in 1874 by another Order-in-Council. The increasing importance of these islands was considered sufficient to warrant an alteration in the constitution of the Government, and in December, 1888, an Order-in-Council was passed creating the office of Administrator, and nominating an Executive and Legislative Council. In 1897, by Letters Patent and Royal Instructions, the Administrator was given full powers as Governor, and Seychelles was practically separated from Mauritius. The separation was completely carried out by Letters Patent of 31st August, 1903, by which Seychelles was erected into a separate colony under its own Governor and Commander-in-Chief. The Legislative Council now consists of six official and six unofficial nominated members with the Governor as President. As soon as possible, provision is to be made for three of the unofficial members to be elected. During the war steamer communications have been irregular but it is hoped that the pre-war monthly schedules of the British India Steam Navigation Company and the K.P.M. line will be resumed at an early date.",
+      "edition_years": [
+        1946
+      ],
+      "first_edition_year": 1946,
+      "last_edition_year": 1946,
+      "n_editions": 1,
+      "representative_source_file": "1946_manual_parsed/seychelles.txt",
+      "char_start": 2058,
+      "char_end": 6455,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "discovery"
+          ],
+          "verbatim_span": "The islands are believed to have been discovered by a Portuguese named Pedro Mascarenhas, in 1505, but the discovery was not apparently followed by any attempt at colonisation.",
+          "char_start": 0,
+          "char_end": 176,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "Picault, who took possession of the islands in the name of the King of France, called the principal island...",
+          "char_start": 494,
+          "char_end": 603,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The rumours of the war that broke out between France and England in 1778, induced the then French Governor of Mauritius, Count de Souillac, to issue peremptory orders that in the event of an attack the spice plantations should be at once destroyed.",
+          "char_start": 1241,
+          "char_end": 1489,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and refitment, but on 17th May, 1794, it was captured by Captain Newcome, of His Majesty’s ship “Orpheus.” The last French Governor, M.",
+          "char_start": 1967,
+          "char_end": 2205,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and refitment, but on 17th May, 1794, it was captured by Captain Newcome, of His Majesty’s ship “Orpheus.” The last French Governor, M.",
+          "char_start": 1967,
+          "char_end": 2205,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "The capitulation was renewed in 1806 by Captain Ferrier, of His Majesty’s ship “Albion,” but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that colony.",
+          "char_start": 2545,
+          "char_end": 2818,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "The capitulation was renewed in 1806 by Captain Ferrier, of His Majesty’s ship “Albion,” but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that colony.",
+          "char_start": 2545,
+          "char_end": 2818,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "During the war steamer communications have been irregular but it is hoped that the pre-war monthly schedules of the British India Steam Navigation Company and the K.P.M.",
+          "char_start": 4179,
+          "char_end": 4348,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Newcome",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and refitment, but on 17th May, 1794, it was captured by Captain Newcome, of His Majesty’s ship “Orpheus.” The last French Governor, M.",
+          "char_start": 2127,
+          "char_end": 2142,
+          "year_reference": 1794,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lieutenant Sullivan",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "De Quincy, who was born at Paris in November, 1748, became, after Lieutenant Sullivan, R.N., who had been placed in charge, had left, the first Agent Civil under the British Government.",
+          "char_start": 2272,
+          "char_end": 2291,
+          "year_reference": 1748,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain Ferrier",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The capitulation was renewed in 1806 by Captain Ferrier, of His Majesty’s ship “Albion,” but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that colony.",
+          "char_start": 2585,
+          "char_end": 2600,
+          "year_reference": 1806,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief Civil Commissioner. The",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "The title of the head of the Government was changed from that of Civil Commissioner to that of Chief Civil Commissioner. The powers of the board were further enlarged in 1874 by another Order-in-Council.",
+          "char_start": 3229,
+          "char_end": 3258,
+          "year_reference": 1874,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief. The Legislative Council",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "The separation was completely carried out by Letters Patent of 31st August, 1903, by which Seychelles was erected into a separate colony under its own Governor and Commander-in-Chief. The Legislative Council now consists of six official and six unofficial nominated members with the Governor as President.",
+          "char_start": 3954,
+          "char_end": 3984,
+          "year_reference": 1903,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "President. As",
+          "entity_type": "person",
+          "entity_subtype": "official",
+          "source_span": "The Legislative Council now consists of six official and six unofficial nominated members with the Governor as President. As soon as possible, provision is to be made for three of the unofficial members to be elected.",
+          "char_start": 4072,
+          "char_end": 4085,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mauritius",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Under the government at Mauritius of Labourdonnais, whose name they originally bore, their position was first defined in 1743, and M.",
+          "char_start": 384,
+          "char_end": 393,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1505,
+        1743,
+        1748,
+        1754,
+        1756,
+        1778,
+        1794,
+        1806,
+        1810,
+        1827,
+        1872,
+        1874,
+        1888,
+        1897,
+        1903
+      ]
+    },
+    {
+      "uri": "col:hversion/seychelles/history/8eca35f06bbc",
+      "colony": "seychelles",
+      "section_slug": "history",
+      "version_hash": "8eca35f06bbc",
+      "asserted_by": "Colonial Office List",
+      "text": "The islands are believed to have been discovered by a Portuguese named Pedro Mascaregnas, in 1505, but the discovery was not apparently followed by any attempt at colonisation. Previous to the French occupation they were the resort of pirates or corsairs who infested the Indian Ocean, some of whose names are borne by descendants in Mahé at the present time. Under the government at Mauritius of Labourdonnais, whose name they originally bore, their position was first defined in 1743, and M. Picault, who took possession of the islands in the name of the King of France, called the principal island Mahé. In 1756 the group was re-named the Seychelles Islands, in honour of the Vicomte Moreau de Séchelles, who was Controller-General of Finance under Louis XV, from 1754 to 1756. The natural resources of the islands and their freedom from hurricanes, induced the French to transplant from the Isle de France (now Mauritius) cinnamon, cloves and nutmegs, under the directions of M. Poivre. Much secrecy was at first observed in regard to the existence of these retired plantations, the object being to wrest from the Dutch the lucrative spice monopoly which the colonies of that nation then enjoyed in Europe from their own possessions. The rumours of the war that broke out between France and England in 1778, induced the then French Governor of Mauritius, Count de Souillac, to issue peremptory orders that in the event of an attack the spice plantations should be at once destroyed. Soon afterwards a French ship from Madagascar, having slaves on board, called at Mahé to take in wood and water, but fearing that the English might be in possession, adopted the ruse of hoisting the English flag. The small French force at Mahé had already been withdrawn, and the officer in charge, knowing that resistance was useless, at once set fire to the whole of the spice trees, each of which had previously been surrounded with dry wood and other inflammable material. During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and resitment, but on 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, M. De Quincy, who was born at Paris in November, 1748, became, after Lieutenant Sullivan, R.N., who had been placed in charge, had left, the first Agent Civil under the British Government. M. De Quincy's reign as French Governor lasted 20 years. He remained for 18 years in the service of the British Government, and died on 10th July, 1827. The capitulation was renewed in 1806 by Captain Ferrier of His Majesty's ship \"Albion,\" but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that colony.",
+      "edition_years": [
+        1949,
+        1950
+      ],
+      "first_edition_year": 1949,
+      "last_edition_year": 1950,
+      "n_editions": 2,
+      "representative_source_file": "1950_manual_parsed/seychelles.txt",
+      "char_start": 2658,
+      "char_end": 5479,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.994,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "discovery"
+          ],
+          "verbatim_span": "The islands are believed to have been discovered by a Portuguese named Pedro Mascaregnas, in 1505, but the discovery was not apparently followed by any attempt at colonisation.",
+          "char_start": 0,
+          "char_end": 176,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "Picault, who took possession of the islands in the name of the King of France, called the principal island Mahé.",
+          "char_start": 494,
+          "char_end": 606,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The rumours of the war that broke out between France and England in 1778, induced the then French Governor of Mauritius, Count de Souillac, to issue peremptory orders that in the event of an attack the spice plantations should be at once destroyed.",
+          "char_start": 1238,
+          "char_end": 1486,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and resitment, but on 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, M.",
+          "char_start": 1964,
+          "char_end": 2202,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and resitment, but on 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, M.",
+          "char_start": 1964,
+          "char_end": 2202,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "The capitulation was renewed in 1806 by Captain Ferrier of His Majesty's ship \"Albion,\" but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that colony.",
+          "char_start": 2542,
+          "char_end": 2814,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "The capitulation was renewed in 1806 by Captain Ferrier of His Majesty's ship \"Albion,\" but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that colony.",
+          "char_start": 2542,
+          "char_end": 2814,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Newcome",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "During the war of the French Revolution Mahé was extremely useful to French ships as a place of refuge and resitment, but on 17th May, 1794, it was captured by Captain Newcome, of His Majesty's ship \"Orpheus.\" The last French Governor, M.",
+          "char_start": 2124,
+          "char_end": 2139,
+          "year_reference": 1794,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lieutenant Sullivan",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "De Quincy, who was born at Paris in November, 1748, became, after Lieutenant Sullivan, R.N., who had been placed in charge, had left, the first Agent Civil under the British Government.",
+          "char_start": 2269,
+          "char_end": 2288,
+          "year_reference": 1748,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain Ferrier",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The capitulation was renewed in 1806 by Captain Ferrier of His Majesty's ship \"Albion,\" but it was not until the capture of Mauritius in 1810, that Seychelles was formally taken possession of by the appointment of an Agent, and incorporated as a dependency of that colony.",
+          "char_start": 2582,
+          "char_end": 2597,
+          "year_reference": 1806,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mauritius",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Under the government at Mauritius of Labourdonnais, whose name they originally bore, their position was first defined in 1743, and M.",
+          "char_start": 384,
+          "char_end": 393,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1505,
+        1743,
+        1748,
+        1754,
+        1756,
+        1778,
+        1794,
+        1806,
+        1810,
+        1827
+      ]
+    }
+  ]
+}

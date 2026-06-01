@@ -1,0 +1,422 @@
+{
+  "colony": "british_central_africa_protectorate",
+  "n_editions_with_history": 2,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/british_central_africa_protectorate/history/1bd89bb57ecb",
+      "colony": "british_central_africa_protectorate",
+      "section_slug": "history",
+      "version_hash": "1bd89bb57ecb",
+      "asserted_by": "Colonial Office List",
+      "text": "In 1859 Dr. Livingstone was placed at the head of a Government Expedition, and reached the southern shore of Lake Nyassa on the 16th of September of that year. His expedition was recalled in 1863, but resulted in the founding, from 1874 to 1881, of various Missionary Societies, notably the Universities Mission, the Livingstonia Mission, and the Church of Scotland Mission. The Missions were followed by the African Lakes Corporation, and in 1883 Captain Foote, R.N., was appointed first British Consul for the Territories north of the Zambesi, to reside at Blantyre. Opposition of the new settlers to the slave trade carried on by Arab coastmen and natives alike resulted in a conflict with the Arab traders under Chief Mlozi, settled at the north end of Lake Nyassa, which spread to the Yao chiefs, who were under their influence. In 1889 public attention was drawn to Nyassaland by the application for a Charter by the British South Africa Company, and the despatch of an imposing expedition under Major Serpa Pinto to the Upper Zambesi and Lower Loangwa. At the same time Mr. D. Rankin announced the discovery of a navigable entrance to the Zambesi by the Chinde mouth. In the summer of 1889 Mr. Johnston (now Sir H. H. Johnston, K.C.B., K.C.M.G.) arrived at Mozambique as H.B.M. Consul, and proceeded to travel in the interior to inquire into the troubles with the Arabs. Treaties having been concluded with the remaining Makololo chiefs and with the Yaos round Blantyre, Mr. Johnston proceeded up Lake Nyassa, leaving Mr. John Buchanan, Acting-Consul, in charge, who, after the first encounter between Major Serpa Pinto and Mlauri, a powerful Makololo chief, proclaimed on the 21st September, 1889, a British Protectorate over the Shiré districts. Mr. Johnston, during his progress up the Lake, induced the \"Jumbe\" or Sultan of Kota-Kota to place his country under British protection, and on arriving at Karonga arranged similar treaties with Mlozi and other Arab and Wahenge chiefs, after which he proceeded to Lake Tanganyika. On his return an agreement was made with Mponda, a Yao chief at the south end of Nyassa. In 1891, an Anglo-Portuguese convention ratified the work of Mr. Johnston, Mr. Sharpe (now Sir A. Sharpe, K.C.M.G., C.B.), and other pioneers of British Central Africa, and in the following spring a British Protectorate over the countries adjoining Nyassaland was proclaimed. The Protectorate of Nyassaland, under the administration of an Imperial Commissioner, was confined to the regions adjoining the Shiré and Lake Nyassa; the remainder of the territory under British influence north of the Zambesi being placed, subject to certain conditions, under the British South Africa Company. In the autumn of 1891 an expedition was successfully conducted against slave-raiding Yaos at the south end of Nyassa, which resulted in the former being attacked and his followers effectually dispersed, and the latter suing for peace after his town had been shelled. The next few years brought much trouble to the Protectorate in the way of slave-trading and constant raids, but owing to three gun-boats being placed on the Lake for the suppression of the slave trade, further reinforcements of Sikhs arriving from India, and the recruitment of native troops from the Atonga of West Nyassa, the slave trade was abolished and the peaceful development of the Protectorate secured. On the 22nd February, 1893, the name of the Protectorate was changed to \"The British Central Africa Protectorate.\"",
+      "edition_years": [
+        1906,
+        1907
+      ],
+      "first_edition_year": 1906,
+      "last_edition_year": 1907,
+      "n_editions": 2,
+      "representative_source_file": "1906_manual_parsed/BRITISH_CENTRAL_AFRICA_PROTECTORATE.txt",
+      "char_start": 1280,
+      "char_end": 4795,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.981,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "Livingstone was placed at the head of a Government Expedition, and reached the southern shore of Lake Nyassa on the 16th of September of that year.",
+          "char_start": 12,
+          "char_end": 159,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "His expedition was recalled in 1863, but resulted in the founding, from 1874 to 1881, of various Missionary Societies, notably the Universities Mission, the Livingstonia Mission, and the Church of Scotland Mission.",
+          "char_start": 160,
+          "char_end": 374,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives"
+          ],
+          "verbatim_span": "Opposition of the new settlers to the slave trade carried on by Arab coastmen and natives alike resulted in a conflict with the Arab traders under Chief Mlozi, settled at the north end of Lake Nyassa, which spread to the Yao chiefs, who were under their influence.",
+          "char_start": 569,
+          "char_end": 833,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "In 1889 public attention was drawn to Nyassaland by the application for a Charter by the British South Africa Company, and the despatch of an imposing expedition under Major Serpa Pinto to the Upper Zambesi and Lower Loangwa.",
+          "char_start": 834,
+          "char_end": 1059,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovery"
+          ],
+          "verbatim_span": "Rankin announced the discovery of a navigable entrance to the Zambesi by the Chinde mouth.",
+          "char_start": 1084,
+          "char_end": 1174,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "John Buchanan, Acting-Consul, in charge, who, after the first encounter between Major Serpa Pinto and Mlauri, a powerful Makololo chief, proclaimed on the 21st September, 1889, a British Protectorate over the Shiré districts.",
+          "char_start": 1529,
+          "char_end": 1754,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "Johnston, during his progress up the Lake, induced the \"Jumbe\" or Sultan of Kota-Kota to place his country under British protection, and on arriving at Karonga arranged similar treaties with Mlozi and other Arab and Wahenge chiefs, after which he proceeded to Lake Tanganyika.",
+          "char_start": 1759,
+          "char_end": 2035,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "under british protection"
+          ],
+          "verbatim_span": "Johnston, during his progress up the Lake, induced the \"Jumbe\" or Sultan of Kota-Kota to place his country under British protection, and on arriving at Karonga arranged similar treaties with Mlozi and other Arab and Wahenge chiefs, after which he proceeded to Lake Tanganyika.",
+          "char_start": 1759,
+          "char_end": 2035,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "Sharpe, K.C.M.G., C.B.), and other pioneers of British Central Africa, and in the following spring a British Protectorate over the countries adjoining Nyassaland was proclaimed.",
+          "char_start": 2223,
+          "char_end": 2400,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial",
+            "protectorate"
+          ],
+          "verbatim_span": "The Protectorate of Nyassaland, under the administration of an Imperial Commissioner, was confined to the regions adjoining the Shiré and Lake Nyassa; the remainder of the territory under British influence north of the Zambesi being placed, subject to certain conditions, under the British South Africa Company.",
+          "char_start": 2401,
+          "char_end": 2712,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "In the autumn of 1891 an expedition was successfully conducted against slave-raiding Yaos at the south end of Nyassa, which resulted in the former being attacked and his followers effectually dispersed, and the latter suing for peace after his town had been shelled.",
+          "char_start": 2713,
+          "char_end": 2979,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "suppression"
+          ],
+          "verbatim_span": "The next few years brought much trouble to the Protectorate in the way of slave-trading and constant raids, but owing to three gun-boats being placed on the Lake for the suppression of the slave trade, further reinforcements of Sikhs arriving from India, and the recruitment of native troops from the Atonga of West Nyassa, the slave trade was abolished and the peaceful development of the Protectorate secured.",
+          "char_start": 2980,
+          "char_end": 3391,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "The next few years brought much trouble to the Protectorate in the way of slave-trading and constant raids, but owing to three gun-boats being placed on the Lake for the suppression of the slave trade, further reinforcements of Sikhs arriving from India, and the recruitment of native troops from the Atonga of West Nyassa, the slave trade was abolished and the peaceful development of the Protectorate secured.",
+          "char_start": 2980,
+          "char_end": 3391,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "The next few years brought much trouble to the Protectorate in the way of slave-trading and constant raids, but owing to three gun-boats being placed on the Lake for the suppression of the slave trade, further reinforcements of Sikhs arriving from India, and the recruitment of native troops from the Atonga of West Nyassa, the slave trade was abolished and the peaceful development of the Protectorate secured.",
+          "char_start": 2980,
+          "char_end": 3391,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On the 22nd February, 1893, the name of the Protectorate was changed to \"The British Central Africa Protectorate.\"",
+          "char_start": 3392,
+          "char_end": 3506,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Dr. Livingstone",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In 1859 Dr. Livingstone was placed at the head of a Government Expedition, and reached the southern shore of Lake Nyassa on the 16th of September of that year.",
+          "char_start": 8,
+          "char_end": 23,
+          "year_reference": 1859,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain Foote",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Missions were followed by the African Lakes Corporation, and in 1883 Captain Foote, R.N., was appointed first British Consul for the Territories north of the Zambesi, to reside at Blantyre.",
+          "char_start": 448,
+          "char_end": 461,
+          "year_reference": 1883,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief Mlozi",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "Opposition of the new settlers to the slave trade carried on by Arab coastmen and natives alike resulted in a conflict with the Arab traders under Chief Mlozi, settled at the north end of Lake Nyassa, which spread to the Yao chiefs, who were under their influence.",
+          "char_start": 716,
+          "char_end": 727,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Major Serpa Pinto",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1889 public attention was drawn to Nyassaland by the application for a Charter by the British South Africa Company, and the despatch of an imposing expedition under Major Serpa Pinto to the Upper Zambesi and Lower Loangwa.",
+          "char_start": 1002,
+          "char_end": 1019,
+          "year_reference": 1889,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. Johnston",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In the summer of 1889 Mr. Johnston (now Sir H.",
+          "char_start": 1197,
+          "char_end": 1209,
+          "year_reference": 1889,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. John Buchanan",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Johnston proceeded up Lake Nyassa, leaving Mr. John Buchanan, Acting-Consul, in charge, who, after the first encounter between Major Serpa Pinto and Mlauri, a powerful Makololo chief, proclaimed on the 21st September, 1889, a British Protectorate over the Shiré districts.",
+          "char_start": 1525,
+          "char_end": 1542,
+          "year_reference": 1889,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. Sharpe",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Johnston, Mr. Sharpe (now Sir A.",
+          "char_start": 2200,
+          "char_end": 2210,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Tanganyika",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Johnston, during his progress up the Lake, induced the \"Jumbe\" or Sultan of Kota-Kota to place his country under British protection, and on arriving at Karonga arranged similar treaties with Mlozi and other Arab and Wahenge chiefs, after which he proceeded to Lake Tanganyika.",
+          "char_start": 2024,
+          "char_end": 2034,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906,
+            1907
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1859,
+        1863,
+        1874,
+        1881,
+        1883,
+        1889,
+        1891,
+        1893
+      ]
+    }
+  ]
+}

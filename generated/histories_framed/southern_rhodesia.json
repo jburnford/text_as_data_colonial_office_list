@@ -1,0 +1,325 @@
+{
+  "colony": "southern_rhodesia",
+  "n_editions_with_history": 2,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/southern_rhodesia/history/8fb6e23cbc64",
+      "colony": "southern_rhodesia",
+      "section_slug": "history",
+      "version_hash": "8fb6e23cbc64",
+      "asserted_by": "Colonial Office List",
+      "text": "On the 29th October, 1889, a Royal Charter was granted to the British South Africa Company, conferring upon it large powers of administration to carry out the objects for which it was formed, the principal being to extend northwards the railway and telegraph systems of the Cape Colony and Bechuanaland, to encourage emigration and colonisation, to promote trade and commerce, and to develop and work mineral and other concessions. Early in 1890 a police force of Europeans was raised and equipped, and in June of that year, after obtaining permission from King Lobengula, a pioneer expedition on a large scale was organised to cut a road from a point on the Macloutaie River, a tributary of the Limpopo, through the south-eastern part of Matabeleland into Mashonaland, the objective point of the expedition being Mount Hampden, near which large belts of gold-bearing quartz were known to exist. This point was duly reached, and Fort Salisbury, 12 miles South-east of Mount Hampden, having been founded (12th September, 1890) the pioneers were disbanded, and, in accordance with the agreement made with them, were allowed to peg off auriferous claims and farms. In July, 1893, the Matabele made a raid into Mashonaland, and killed a number of natives living under the Company's protection, near Victoria, when they were attacked and driven back by the Company's police. After an unsuccessful attempt to arrange matters, preparations were made for the invasion of Matabeleland, to anticipate an expected attack on the Bechuanaland Protectorate and Mashonaland. The Company's police and a small force of volunteers and native allies advanced on Bulawayo from the east, while the Bechuanaland Police, which had been largely reinforced, advanced with Khama and some 2,000 of his men by way of Tati from the south. Two successful engagements were fought by the Company's forces near Bulawayo, in which the Matabele suffered very severely. The Bechuanaland police were also attacked by a strong force of Matabele, which they repulsed with great loss. Lobengula fled, and Bulawayo was occupied, and a force sent in pursuit of the king. This force was unfortunately divided by the sudden rising of the River Shangani, and Major Wilson and a small party of men were, after a heroic resistance, killed to a man. Arrangements for the future administration of the country were completed by the High Commissioner and Mr. Rhodes on behalf of the Company. Lobengula, who was said to be endeavouring to escape across the Zambesi, is reported to have died from small-pox or fever. In 1896, owing to a variety of causes, the Matabele broke out in rebellion, and shortly after the Mashonas followed suit. After a prolonged struggle the rebellion was subdued in September, 1897. From 1897 to 1899 the development of the country advanced rapidly, but the outbreak of the war with the Republics, in October, 1899, practically put a stop to progressive work of every kind and the investment of Mafeking and the occupation by the Boers of a section of the railway in Bechuanaland cut the Territory completely off from communication with the South. During the operations that followed, a conspicuous part was played by the British South African Police and by Volunteers from the civilian population of Rhodesia, many of whom continued, after the relief of Mafeking, to serve until peace was declared in other parts of the theatre of War. It was estimated that the number of men contributed by Rhodesia, was approximately 1,500, being at least 12½ per cent. of the European population. Their good work earned frequent mentions in despatches and secured the special approbation of the Commander-in-Chief. A brief account of the operations against the German territory in East and South-west Africa, and of the part played in the Great War by Southern and Northern Rhodesia, appears under the title of Northern Rhodesia.",
+      "edition_years": [
+        1925,
+        1927
+      ],
+      "first_edition_year": 1925,
+      "last_edition_year": 1927,
+      "n_editions": 2,
+      "representative_source_file": "1925_manual_parsed/SOUTHERN_RHODESIA.txt",
+      "char_start": 795,
+      "char_end": 4693,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.994,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "On the 29th October, 1889, a Royal Charter was granted to the British South Africa Company, conferring upon it large powers of administration to carry out the objects for which it was formed, the principal being to extend northwards the railway and telegraph systems of the Cape Colony and Bechuanaland, to encourage emigration and colonisation, to promote trade and commerce, and to develop and work mineral and other concessions.",
+          "char_start": 0,
+          "char_end": 431,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "Early in 1890 a police force of Europeans was raised and equipped, and in June of that year, after obtaining permission from King Lobengula, a pioneer expedition on a large scale was organised to cut a road from a point on the Macloutaie River, a tributary of the Limpopo, through the south-eastern part of Matabeleland into Mashonaland, the objective point of the expedition being Mount Hampden, near which large belts of gold-bearing quartz were known to exist.",
+          "char_start": 432,
+          "char_end": 895,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives",
+            "protection"
+          ],
+          "verbatim_span": "In July, 1893, the Matabele made a raid into Mashonaland, and killed a number of natives living under the Company's protection, near Victoria, when they were attacked and driven back by the Company's police.",
+          "char_start": 1162,
+          "char_end": 1369,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "After an unsuccessful attempt to arrange matters, preparations were made for the invasion of Matabeleland, to anticipate an expected attack on the Bechuanaland Protectorate and Mashonaland.",
+          "char_start": 1370,
+          "char_end": 1559,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "The Company's police and a small force of volunteers and native allies advanced on Bulawayo from the east, while the Bechuanaland Police, which had been largely reinforced, advanced with Khama and some 2,000 of his men by way of Tati from the south.",
+          "char_start": 1560,
+          "char_end": 1809,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rising"
+          ],
+          "verbatim_span": "This force was unfortunately divided by the sudden rising of the River Shangani, and Major Wilson and a small party of men were, after a heroic resistance, killed to a man.",
+          "char_start": 2129,
+          "char_end": 2301,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebel",
+            "rebellion"
+          ],
+          "verbatim_span": "In 1896, owing to a variety of causes, the Matabele broke out in rebellion, and shortly after the Mashonas followed suit.",
+          "char_start": 2564,
+          "char_end": 2685,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebel",
+            "rebellion",
+            "subdued"
+          ],
+          "verbatim_span": "After a prolonged struggle the rebellion was subdued in September, 1897.",
+          "char_start": 2686,
+          "char_end": 2758,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "From 1897 to 1899 the development of the country advanced rapidly, but the outbreak of the war with the Republics, in October, 1899, practically put a stop to progressive work of every kind and the investment of Mafeking and the occupation by the Boers of a section of the railway in Bechuanaland cut the Territory completely off from communication with the South.",
+          "char_start": 2759,
+          "char_end": 3123,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "During the operations that followed, a conspicuous part was played by the British South African Police and by Volunteers from the civilian population of Rhodesia, many of whom continued, after the relief of Mafeking, to serve until peace was declared in other parts of the theatre of War.",
+          "char_start": 3124,
+          "char_end": 3412,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "A brief account of the operations against the German territory in East and South-west Africa, and of the part played in the Great War by Southern and Northern Rhodesia, appears under the title of Northern Rhodesia.",
+          "char_start": 3678,
+          "char_end": 3892,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "King Lobengula",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Early in 1890 a police force of Europeans was raised and equipped, and in June of that year, after obtaining permission from King Lobengula, a pioneer expedition on a large scale was organised to cut a road from a point on the Macloutaie River, a tributary of the Limpopo, through the south-eastern part of Matabeleland into Mashonaland, the objective point of the expedition being Mount Hampden, near which large belts of gold-bearing quartz were known to exist.",
+          "char_start": 557,
+          "char_end": 571,
+          "year_reference": 1890,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Major Wilson",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "This force was unfortunately divided by the sudden rising of the River Shangani, and Major Wilson and a small party of men were, after a heroic resistance, killed to a man.",
+          "char_start": 2214,
+          "char_end": 2226,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. Rhodes",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Arrangements for the future administration of the country were completed by the High Commissioner and Mr. Rhodes on behalf of the Company.",
+          "char_start": 2404,
+          "char_end": 2414,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Bechuanaland",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "On the 29th October, 1889, a Royal Charter was granted to the British South Africa Company, conferring upon it large powers of administration to carry out the objects for which it was formed, the principal being to extend northwards the railway and telegraph systems of the Cape Colony and Bechuanaland, to encourage emigration and colonisation, to promote trade and commerce, and to develop and work mineral and other concessions.",
+          "char_start": 290,
+          "char_end": 302,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Victoria",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In July, 1893, the Matabele made a raid into Mashonaland, and killed a number of natives living under the Company's protection, near Victoria, when they were attacked and driven back by the Company's police.",
+          "char_start": 1295,
+          "char_end": 1303,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Rhodesia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "During the operations that followed, a conspicuous part was played by the British South African Police and by Volunteers from the civilian population of Rhodesia, many of whom continued, after the relief of Mafeking, to serve until peace was declared in other parts of the theatre of War.",
+          "char_start": 3277,
+          "char_end": 3285,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1927
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1889,
+        1890,
+        1893,
+        1896,
+        1897,
+        1899
+      ]
+    }
+  ]
+}

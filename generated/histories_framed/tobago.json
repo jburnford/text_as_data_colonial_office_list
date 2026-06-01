@@ -1,0 +1,940 @@
+{
+  "colony": "tobago",
+  "n_editions_with_history": 8,
+  "n_versions": 3,
+  "versions": [
+    {
+      "uri": "col:hversion/tobago/history/4328819671d6",
+      "colony": "tobago",
+      "section_slug": "history",
+      "version_hash": "4328819671d6",
+      "asserted_by": "Colonial Office List",
+      "text": "Tobago was discovered by Columbus in 1498, at which time it was occupied by Caribs. The British flag was first planted on the island in 1580, and the sovereignty was regularly claimed by James I in 1608. In 1625 an attempt was made by some adventurers from Barbados to form a colony; but many were killed by the Carib Indians, and the remaining few escaped and settled at Providence. In 1628 a grant of the island was made by Charles I to the Earl of Pembroke. The island remained unoccupied until 1632, when 300 Zealanders were sent out by a company of Dutch merchants, who styled it New Walcheren. After a residence of about two years these settlers were all destroyed or expelled by the Indians and Spaniards from Trinidad. In 1641, James, Duke of Courland, obtained a grant of the island from Charles I, and in 1642 two vessels arrived with a number of Courlanders, who settled on the north side of the island. These were followed by a second Dutch colony in 1654, who, having effected a compromise with the Courlanders, established themselves on the southern coast; but in 1658 the Courlanders were overpowered by the Dutch, who remained in possession of the whole Island until 1662, when the Dutch Company resigned their right to it. In this year Cornelius Lampsis procured letters patent from Louis the Fourteenth, creating him Baron of Tobago, and proprietor of the island under the Crown of France. In 1664 the grant of the island to the Duke of Courland was renewed by Charles II. The Dutch refused to recognise the Duke's title, but in 1677 they themselves were compelled to evacuate the island by the French Admiral Estras, who defeated the Dutch Admiral Binks in Scarborough Bay, whereupon Louis the Fourteenth restored the island to the Duke of Courland, who, in 1681, made over his title to a Company of London merchants. In 1684, by the Treaty of Aix-la-Chapelle, the island was declared neutral; the subjects of all European powers being at liberty to form settlements or carry on commerce, but not to place garrisons on it. At the peace in 1763, by the Treaty of Paris, Tobago was ceded by France to England in perpetuity. In 1781, Tobago was captured by the French under the Duke of Boullieu, after a most gallant defence by the colonists. In 1783 it was surrendered by treaty to the French Crown. On 15th April, 1793, it was captured by a British Force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803, by Commander Hood and General Greenfield; and in 1814 finally ceded in perpetuity to the British Crown. Under Act 50 and 51 Vict., cap. 44, Tobago becomes part of the Colony of Trinidad from 1st Jan., 1889.",
+      "edition_years": [
+        1889,
+        1890,
+        1894
+      ],
+      "first_edition_year": 1889,
+      "last_edition_year": 1894,
+      "n_editions": 3,
+      "representative_source_file": "1894_manual_parsed/tobago.txt",
+      "char_start": 19,
+      "char_end": 2746,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.983,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Tobago was discovered by Columbus in 1498, at which time it was occupied by Caribs.",
+          "char_start": 0,
+          "char_end": 83,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "The British flag was first planted on the island in 1580, and the sovereignty was regularly claimed by James I in 1608.",
+          "char_start": 84,
+          "char_end": 203,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "The Dutch refused to recognise the Duke's title, but in 1677 they themselves were compelled to evacuate the island by the French Admiral Estras, who defeated the Dutch Admiral Binks in Scarborough Bay, whereupon Louis the Fourteenth restored the island to the Duke of Courland, who, in 1681, made over his title to a Company of London merchants.",
+          "char_start": 1491,
+          "char_end": 1836,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "At the peace in 1763, by the Treaty of Paris, Tobago was ceded by France to England in perpetuity.",
+          "char_start": 2042,
+          "char_end": 2140,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "On 15th April, 1793, it was captured by a British Force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803, by Commander Hood and General Greenfield; and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2317,
+          "char_end": 2621,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquered"
+          ],
+          "verbatim_span": "On 15th April, 1793, it was captured by a British Force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803, by Commander Hood and General Greenfield; and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2317,
+          "char_end": 2621,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown"
+          ],
+          "verbatim_span": "On 15th April, 1793, it was captured by a British Force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803, by Commander Hood and General Greenfield; and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2317,
+          "char_end": 2621,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Admiral Estras",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Dutch refused to recognise the Duke's title, but in 1677 they themselves were compelled to evacuate the island by the French Admiral Estras, who defeated the Dutch Admiral Binks in Scarborough Bay, whereupon Louis the Fourteenth restored the island to the Duke of Courland, who, in 1681, made over his title to a Company of London merchants.",
+          "char_start": 1620,
+          "char_end": 1634,
+          "year_reference": 1677,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Binks",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Dutch refused to recognise the Duke's title, but in 1677 they themselves were compelled to evacuate the island by the French Admiral Estras, who defeated the Dutch Admiral Binks in Scarborough Bay, whereupon Louis the Fourteenth restored the island to the Duke of Courland, who, in 1681, made over his title to a Company of London merchants.",
+          "char_start": 1659,
+          "char_end": 1672,
+          "year_reference": 1677,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Lefroy",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On 15th April, 1793, it was captured by a British Force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803, by Commander Hood and General Greenfield; and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2379,
+          "char_end": 2393,
+          "year_reference": 1793,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Cuyler",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On 15th April, 1793, it was captured by a British Force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803, by Commander Hood and General Greenfield; and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2398,
+          "char_end": 2412,
+          "year_reference": 1793,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Commander Hood",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On 15th April, 1793, it was captured by a British Force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803, by Commander Hood and General Greenfield; and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2521,
+          "char_end": 2535,
+          "year_reference": 1793,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Greenfield",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On 15th April, 1793, it was captured by a British Force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803, by Commander Hood and General Greenfield; and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2540,
+          "char_end": 2558,
+          "year_reference": 1793,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Barbados",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1625 an attempt was made by some adventurers from Barbados to form a colony; but many were killed by the Carib Indians, and the remaining few escaped and settled at Providence.",
+          "char_start": 257,
+          "char_end": 265,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Trinidad",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "After a residence of about two years these settlers were all destroyed or expelled by the Indians and Spaniards from Trinidad.",
+          "char_start": 717,
+          "char_end": 725,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1580,
+        1608,
+        1625,
+        1628,
+        1632,
+        1641,
+        1642,
+        1654,
+        1658,
+        1662,
+        1664,
+        1677,
+        1681,
+        1684,
+        1763,
+        1781,
+        1783,
+        1793,
+        1802,
+        1803,
+        1814,
+        1889
+      ]
+    },
+    {
+      "uri": "col:hversion/tobago/history/07b206598099",
+      "colony": "tobago",
+      "section_slug": "history",
+      "version_hash": "07b206598099",
+      "asserted_by": "Colonial Office List",
+      "text": "Tobago was discovered by Columbus in 1498, which time it was occupied by Caribs. The first settlement was made on the island in 1581, when sovereignty was regularly claimed by James I in 1608. In 1625 an attempt was made by adventurers from Barbados to form a colony, but many were killed by the Carib Indians, and the remaining few escaped and settled at Pointe-a-Pitre. In 1628 a grant of the island was made by the The Earl of Pembroke. The island remained unoccupied until 1632, when 300 Zealanders were sent out by a company of Dutch merchants, who settled at New Walcheren. After a residence of two years these settlers were all destroyed or killed by the Indians and Spaniards from Trinidad. In 1641, James, Duke of Courland, obtained possession of the island from Charles I, and in 1642 vessels arrived with a number of Courlanders, who settled on the north side of the island. These were followed by a second Dutch colony in 1654, having effected a compromise with the Courlanders, established themselves on the southern side; but in 1658 the Courlanders were overpowered by the Dutch, who remained in possession of the whole Island until 1662, when the Dutch Company resigned their right to it. In this year Sir Lamplugh procured letters patent from the King, creating him Baron of Tobago, and proprietor of the island under the Crown of France. In 1664 the grant of the island to the Duke of Courland was renewed by Charles II. The Dutch were obliged to recognize the Duke's title, but in 1677 they were compelled to evacuate the island by Admiral Esterhazy, who defeated the Dutch naval Binks in Scarborough Bay, whereupon the Duke restored the island to the Duke of Courland, who, in 1681, made over his title to a company of London merchants. In 1684, by the Treaty of Aix-la-Chapelle, the island was declared neutral; the subjects of all European powers being permitted to form settlements or carry on commerce, but not to place garrisons on it. At the peace of 1683, by the Treaty of Paris, Tobago was ceded by France to England in perpetuity. In 1781, Tobago was captured by the French under the Duke of Bouillon, after a most gallant resistance by the colonists. In 1783 it was surrendered by treaty to the French Crown. On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and once more restored to the French by the Treaty of Amiens in 1802, and again reconquered in 1803, by Commodore Hood and General Greenfield; and finally ceded in perpetuity to the British Crown by Act 50 and 51 Vict., cap. 44. Tobago became part of the Colony of Trinidad from 1st January, 1889.",
+      "edition_years": [
+        1897
+      ],
+      "first_edition_year": 1897,
+      "last_edition_year": 1897,
+      "n_editions": 1,
+      "representative_source_file": "1897_manual_parsed/TOBAGO.txt",
+      "char_start": 19,
+      "char_end": 2654,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Tobago was discovered by Columbus in 1498, which time it was occupied by Caribs.",
+          "char_start": 0,
+          "char_end": 80,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "The first settlement was made on the island in 1581, when sovereignty was regularly claimed by James I in 1608.",
+          "char_start": 81,
+          "char_end": 192,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "The Dutch were obliged to recognize the Duke's title, but in 1677 they were compelled to evacuate the island by Admiral Esterhazy, who defeated the Dutch naval Binks in Scarborough Bay, whereupon the Duke restored the island to the Duke of Courland, who, in 1681, made over his title to a company of London merchants.",
+          "char_start": 1439,
+          "char_end": 1756,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "At the peace of 1683, by the Treaty of Paris, Tobago was ceded by France to England in perpetuity.",
+          "char_start": 1961,
+          "char_end": 2059,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and once more restored to the French by the Treaty of Amiens in 1802, and again reconquered in 1803, by Commodore Hood and General Greenfield; and finally ceded in perpetuity to the British Crown by Act 50 and 51 Vict., cap.",
+          "char_start": 2239,
+          "char_end": 2560,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquered"
+          ],
+          "verbatim_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and once more restored to the French by the Treaty of Amiens in 1802, and again reconquered in 1803, by Commodore Hood and General Greenfield; and finally ceded in perpetuity to the British Crown by Act 50 and 51 Vict., cap.",
+          "char_start": 2239,
+          "char_end": 2560,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown"
+          ],
+          "verbatim_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and once more restored to the French by the Treaty of Amiens in 1802, and again reconquered in 1803, by Commodore Hood and General Greenfield; and finally ceded in perpetuity to the British Crown by Act 50 and 51 Vict., cap.",
+          "char_start": 2239,
+          "char_end": 2560,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Lamplugh",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In this year Sir Lamplugh procured letters patent from the King, creating him Baron of Tobago, and proprietor of the island under the Crown of France.",
+          "char_start": 1218,
+          "char_end": 1230,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Esterhazy",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Dutch were obliged to recognize the Duke's title, but in 1677 they were compelled to evacuate the island by Admiral Esterhazy, who defeated the Dutch naval Binks in Scarborough Bay, whereupon the Duke restored the island to the Duke of Courland, who, in 1681, made over his title to a company of London merchants.",
+          "char_start": 1551,
+          "char_end": 1568,
+          "year_reference": 1677,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Lefroy",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and once more restored to the French by the Treaty of Amiens in 1802, and again reconquered in 1803, by Commodore Hood and General Greenfield; and finally ceded in perpetuity to the British Crown by Act 50 and 51 Vict., cap.",
+          "char_start": 2301,
+          "char_end": 2315,
+          "year_reference": 1793,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Cuyler",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and once more restored to the French by the Treaty of Amiens in 1802, and again reconquered in 1803, by Commodore Hood and General Greenfield; and finally ceded in perpetuity to the British Crown by Act 50 and 51 Vict., cap.",
+          "char_start": 2320,
+          "char_end": 2334,
+          "year_reference": 1793,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Commodore Hood",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and once more restored to the French by the Treaty of Amiens in 1802, and again reconquered in 1803, by Commodore Hood and General Greenfield; and finally ceded in perpetuity to the British Crown by Act 50 and 51 Vict., cap.",
+          "char_start": 2440,
+          "char_end": 2454,
+          "year_reference": 1793,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Greenfield",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and once more restored to the French by the Treaty of Amiens in 1802, and again reconquered in 1803, by Commodore Hood and General Greenfield; and finally ceded in perpetuity to the British Crown by Act 50 and 51 Vict., cap.",
+          "char_start": 2459,
+          "char_end": 2477,
+          "year_reference": 1793,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Barbados",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1625 an attempt was made by adventurers from Barbados to form a colony, but many were killed by the Carib Indians, and the remaining few escaped and settled at Pointe-a-Pitre.",
+          "char_start": 241,
+          "char_end": 249,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Trinidad",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "After a residence of two years these settlers were all destroyed or killed by the Indians and Spaniards from Trinidad.",
+          "char_start": 689,
+          "char_end": 697,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1581,
+        1608,
+        1625,
+        1628,
+        1632,
+        1641,
+        1642,
+        1654,
+        1658,
+        1662,
+        1664,
+        1677,
+        1681,
+        1683,
+        1684,
+        1781,
+        1783,
+        1793,
+        1802,
+        1803,
+        1889
+      ]
+    },
+    {
+      "uri": "col:hversion/tobago/history/04881a233fe8",
+      "colony": "tobago",
+      "section_slug": "history",
+      "version_hash": "04881a233fe8",
+      "asserted_by": "Colonial Office List",
+      "text": "Tobago was discovered by Columbus in 1498, at which time it was occupied by Caribs. The British flag was first planted on the island in 1580, and the sovereignty was regularly claimed by James I. in 1608. In 1625 an attempt was made by some adventurers from Barbados to form a colony; but many were killed by the Carib Indians, and the remaining few escaped and settled at Providence. In 1628 a grant of the island was made by Charles I. to the Earl of Pembroke. The island remained unoccupied until 1632, when 300 Zealanders were sent out by a company of Dutch merchants, who styled it New Walcheren. After a residence of about two years these settlers were all destroyed or expelled by the Indians and Spaniards from Trinidad. In 1641 James Duke of Courland obtained a grant of the island from Charles I., and in 1642 two vessels arrived with a number of Courlanders, who settled on the north side of the island. These were followed by a second Dutch colony in 1654, who, having effected a compromise with the Courlanders, established themselves on the southern coast; but in 1658 the Courlanders were overpowered by the Dutch, who remained in possession of the whole island until 1662, when the Dutch Company resigned their right to it. In this year Cornelius Lampsis procured letters patent from Louis the Fourteenth, creating him Baron of Tobago, and proprietor of the island under the Crown of France. In 1664 the grant of the island to the Duke of Courland was renewed by Charles II. The Dutch refused to recognise the Duke's title, but in 1677 they themselves were compelled to evacuate the island by the French Admiral Estras, who defeated the Dutch Admiral Binks in Scarborough Bay, whereupon Louis the Fourteenth restored the island to the Duke of Courland, who, in 1681, made over his title to a company of London merchants. In 1684, by the Treaty of Aix-la-Chapelle, the island was declared neutral; the subjects of all European Powers being at liberty to form settlements or carry on commerce but not to place garrisons on it. At the peace in 1763, by the Treaty of Paris, Tobago was ceded by France to England in perpetuity. In 1781 Tobago was captured by the French under the Duke of Bouille, after a most gallant defence by the Colonists. In 1783 it was surrendered by treaty to the French Crown. On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803 by Commander Hood and General Greenfield, and in 1814 finally ceded in perpetuity to the British Crown. By Order in Council under Act 50 & 51 Vict., cap. 44, Tobago became part of the Colony of Trinidad from 1st January, 1889. By a further Order in Council of the 20th of October, 1898, Tobago became a ward of the United Colony of Trinidad and Tobago, from the 1st January, 1899.",
+      "edition_years": [
+        1909,
+        1917,
+        1920,
+        1921
+      ],
+      "first_edition_year": 1909,
+      "last_edition_year": 1921,
+      "n_editions": 4,
+      "representative_source_file": "1909_manual_parsed/tobago.txt",
+      "char_start": 19,
+      "char_end": 2916,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.939,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Tobago was discovered by Columbus in 1498, at which time it was occupied by Caribs.",
+          "char_start": 0,
+          "char_end": 83,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "The British flag was first planted on the island in 1580, and the sovereignty was regularly claimed by James I.",
+          "char_start": 84,
+          "char_end": 195,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "The Dutch refused to recognise the Duke's title, but in 1677 they themselves were compelled to evacuate the island by the French Admiral Estras, who defeated the Dutch Admiral Binks in Scarborough Bay, whereupon Louis the Fourteenth restored the island to the Duke of Courland, who, in 1681, made over his title to a company of London merchants.",
+          "char_start": 1491,
+          "char_end": 1836,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "At the peace in 1763, by the Treaty of Paris, Tobago was ceded by France to England in perpetuity.",
+          "char_start": 2041,
+          "char_end": 2139,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803 by Commander Hood and General Greenfield, and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2314,
+          "char_end": 2617,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquered"
+          ],
+          "verbatim_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803 by Commander Hood and General Greenfield, and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2314,
+          "char_end": 2617,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown"
+          ],
+          "verbatim_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803 by Commander Hood and General Greenfield, and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2314,
+          "char_end": 2617,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Admiral Estras",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Dutch refused to recognise the Duke's title, but in 1677 they themselves were compelled to evacuate the island by the French Admiral Estras, who defeated the Dutch Admiral Binks in Scarborough Bay, whereupon Louis the Fourteenth restored the island to the Duke of Courland, who, in 1681, made over his title to a company of London merchants.",
+          "char_start": 1620,
+          "char_end": 1634,
+          "year_reference": 1677,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Binks",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Dutch refused to recognise the Duke's title, but in 1677 they themselves were compelled to evacuate the island by the French Admiral Estras, who defeated the Dutch Admiral Binks in Scarborough Bay, whereupon Louis the Fourteenth restored the island to the Duke of Courland, who, in 1681, made over his title to a company of London merchants.",
+          "char_start": 1659,
+          "char_end": 1672,
+          "year_reference": 1677,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Lefroy",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803 by Commander Hood and General Greenfield, and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2376,
+          "char_end": 2390,
+          "year_reference": 1793,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Cuyler",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803 by Commander Hood and General Greenfield, and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2395,
+          "char_end": 2409,
+          "year_reference": 1793,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Commander Hood",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803 by Commander Hood and General Greenfield, and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2517,
+          "char_end": 2531,
+          "year_reference": 1793,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Greenfield",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On 15th April, 1793, it was captured by a British force under Admiral Lefroy and General Cuyler, and was once more restored to the French by the Treaty of Peace in 1802, and again reconquered in 1803 by Commander Hood and General Greenfield, and in 1814 finally ceded in perpetuity to the British Crown.",
+          "char_start": 2536,
+          "char_end": 2554,
+          "year_reference": 1793,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Barbados",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1625 an attempt was made by some adventurers from Barbados to form a colony; but many were killed by the Carib Indians, and the remaining few escaped and settled at Providence.",
+          "char_start": 258,
+          "char_end": 266,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Trinidad",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "After a residence of about two years these settlers were all destroyed or expelled by the Indians and Spaniards from Trinidad.",
+          "char_start": 719,
+          "char_end": 727,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1917,
+            1920,
+            1921
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1580,
+        1608,
+        1625,
+        1628,
+        1632,
+        1641,
+        1642,
+        1654,
+        1658,
+        1662,
+        1664,
+        1677,
+        1681,
+        1684,
+        1763,
+        1781,
+        1783,
+        1793,
+        1802,
+        1803,
+        1814,
+        1889,
+        1898,
+        1899
+      ]
+    }
+  ]
+}

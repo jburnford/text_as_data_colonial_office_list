@@ -1,0 +1,30 @@
+{
+  "colony": "new_brunswick",
+  "n_editions_with_history": 1,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/new_brunswick/history/df5e60d1e4cd",
+      "colony": "new_brunswick",
+      "section_slug": "history",
+      "version_hash": "df5e60d1e4cd",
+      "asserted_by": "Colonial Office List",
+      "text": "New Brunswick was part of the ancient French Province of Acadia and was ceded to England by the Treaty of Utrecht in 1713. Great Britain, however, did not obtain full possession of the country until after the fall of Quebec in 1759. It was first colonised by British subjects from New England in 1762, and in 1783, at the close of the Revolutionary War, it received a large body of Loyalists from the Thirteen Colonies. In 1784 it was separated from Nova Scotia, of which it had formed a part.",
+      "edition_years": [
+        1909
+      ],
+      "first_edition_year": 1909,
+      "last_edition_year": 1909,
+      "n_editions": 1,
+      "representative_source_file": "1909_manual_parsed/new_brunswick.txt",
+      "char_start": 311,
+      "char_end": 804,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01"
+    }
+  ]
+}

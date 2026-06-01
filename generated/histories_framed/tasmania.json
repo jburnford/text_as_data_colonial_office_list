@@ -1,0 +1,115 @@
+{
+  "colony": "tasmania",
+  "n_editions_with_history": 8,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/tasmania/history/2c253f2c7e97",
+      "colony": "tasmania",
+      "section_slug": "history",
+      "version_hash": "2c253f2c7e97",
+      "asserted_by": "Colonial Office List",
+      "text": "Tasmania was discovered in 1642 by the Dutch navigator, Abel Jan Tasman, and by him named Van Dieman's Land, the name by which it was known down to 1863. It was not discovered to be an island until 1797. It was formally taken possession of by England in 1803, and made auxiliary to the penal settlement at Botany Bay. The first free emigrants arrived in 1816, and the last convicts in 1853. Responsible government was introduced in 1856.",
+      "edition_years": [
+        1889,
+        1896,
+        1897,
+        1898,
+        1899,
+        1905,
+        1909,
+        1917
+      ],
+      "first_edition_year": 1889,
+      "last_edition_year": 1917,
+      "n_editions": 8,
+      "representative_source_file": "1889_manual_parsed/TASMANIA.txt",
+      "char_start": 391,
+      "char_end": 828,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.974,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Tasmania was discovered in 1642 by the Dutch navigator, Abel Jan Tasman, and by him named Van Dieman's Land, the name by which it was known down to 1863.",
+          "char_start": 0,
+          "char_end": 153,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1909,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "It was not discovered to be an island until 1797.",
+          "char_start": 154,
+          "char_end": 203,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1909,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "It was formally taken possession of by England in 1803, and made auxiliary to the penal settlement at Botany Bay.",
+          "char_start": 204,
+          "char_end": 317,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889,
+            1896,
+            1897,
+            1898,
+            1899,
+            1905,
+            1909,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [],
+      "year_references": [
+        1642,
+        1797,
+        1803,
+        1816,
+        1853,
+        1856,
+        1863
+      ]
+    }
+  ]
+}

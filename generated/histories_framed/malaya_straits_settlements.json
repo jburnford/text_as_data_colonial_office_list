@@ -1,0 +1,813 @@
+{
+  "colony": "malaya_straits_settlements",
+  "n_editions_with_history": 4,
+  "n_versions": 2,
+  "versions": [
+    {
+      "uri": "col:hversion/malaya_straits_settlements/history/d80cb91ce9aa",
+      "colony": "malaya_straits_settlements",
+      "section_slug": "history",
+      "version_hash": "d80cb91ce9aa",
+      "asserted_by": "Colonial Office List",
+      "text": "Malacca, said to have been founded by fugitives from the sack of Singapore, and known as an important independent State from early in the fifteenth century, is one of the oldest European settlements in the East, having been captured by the Portuguese under Albuquerque in 1511, and held by them till 1641, when the Dutch, after frequent attempts, succeeded in driving them out. The settlement remained in the possession of the Dutch till 1795, when it was taken by the English, who held it till 1818. It was then restored to Holland, but was again transferred to British rule as a consequence of the Treaty of London (17 March, 1824), being exchanged for the British settlements in Sumatra. When Malacca was captured by the Portuguese in 1511, it was one of the grand entrepôts for the commerce of the East, but as the Portuguese pushed their operations further to the east, in the archipelago and neighbouring countries, the trade of Malacca gradually declined and it ceased to be of consequence as a collecting centre, except for the trade of the Malay Peninsula and the Island of Sumatra. This trade it retained under Dutch rule till the establishment of Penang in 1786. In a few years from that date its trade almost ceased, and it became a place of reduced commercial importance, but possessing great agricultural resources. The trade of the Malay Peninsula and Sumatra passed to Penang, which also carried on a large traffic with China, Siam, Borneo, the Celebes, and other places in the archipelago not under Dutch control; but as soon as Singapore was established Penang in its turn had to yield the first place to Singapore, and came to depend chiefly on the local trade. Although at first unimportant Penang's trade has now assumed large proportions, owing to the development of the rich tin-mining areas and rubber-bearing lands of the Malay Peninsula. The trade of Malacca as an entrepôt port for central Malaya has recently revived. Penang, or Prince of Wales' Island, was the first British settlement in the Malay Peninsula, having been ceded to the East India Company by the Raja of Kedah in 1786, with the proviso that the sum of $6,000 (Straits) should be paid annually to the Raja of Kedah so long as the British occupied the island. In 1800, in consequence of the prevalence of piracy, a strip of the coast of the mainland, now called Province Wellesley, was acquired from the Raja, the annual payment being in return increased to $10,000 (Straits). This acquisition has been subsequently enlarged from time to time, until it now extends from the Muda River to 10 miles south of the Krian River, a distance of 45 miles, containing in all 290 square miles. This province is in an advanced state of cultivation, the chief articles cultivated being sugar, paddy, coconuts, and rubber. In 1806 Penang was made a separate Presidency, of equal rank with Madras and Bombay. In 1826 Singapore and Malacca were incorporated with it under one government, Penang still remaining the seat of government. In 1836 the seat of government was transferred to Singapore. The island of Pangkor and the Sembilan Islands were ceded to the British by Perak in 1826, with a view to the suppression of piracy, but no use was made of the cession at the time. In 1874 the cession of these islands was confirmed by the Treaty of Pangkor (to which reference is made in dealing with the relations of the Colony with the Malay States), by which a strip of territory in the mainland opposite also became British. The whole formed, under the name of the Dindings Territory, an outlying portion of the Settlement of Penang. By an agreement dated, at Singapore, the 6th June, 1934, the Dindings were retroceded to Perak in February, 1935. The original city of Singapore is said to have been founded by immigrants from Sumatra. It rose into prominence in the fourteenth century. Its greatness came to a sudden end about 1365, when it was sacked and destroyed by the Javanese, and thenceforth the island was scarcely inhabited until Sir Stamford Raffles took possession of it in 1819 by virtue of a treaty with the Johore princes. The new settlement was at first subordinate to Bengoolen (Fort Marlborough) in Sumatra, but in 1823 it was placed under the Government of Bengal; in 1826 it was, as above stated, united with Penang and Malacca under the Governor and Council of the Incorporated Settlements.",
+      "edition_years": [
+        1934,
+        1936,
+        1937
+      ],
+      "first_edition_year": 1934,
+      "last_edition_year": 1937,
+      "n_editions": 3,
+      "representative_source_file": "1936_manual_parsed/MALAYA_STRAITS_SETTLEMENTS.txt",
+      "char_start": 5134,
+      "char_end": 9525,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.958,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "transferred to"
+          ],
+          "verbatim_span": "It was then restored to Holland, but was again transferred to British rule as a consequence of the Treaty of London (17 March, 1824), being exchanged for the British settlements in Sumatra.",
+          "char_start": 501,
+          "char_end": 690,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british rule"
+          ],
+          "verbatim_span": "It was then restored to Holland, but was again transferred to British rule as a consequence of the Treaty of London (17 March, 1824), being exchanged for the British settlements in Sumatra.",
+          "char_start": 501,
+          "char_end": 690,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "Penang, or Prince of Wales' Island, was the first British settlement in the Malay Peninsula, having been ceded to the East India Company by the Raja of Kedah in 1786, with the proviso that the sum of $6,000 (Straits) should be paid annually to the Raja of Kedah so long as the British occupied the island.",
+          "char_start": 1946,
+          "char_end": 2251,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "acquired"
+          ],
+          "verbatim_span": "In 1800, in consequence of the prevalence of piracy, a strip of the coast of the mainland, now called Province Wellesley, was acquired from the Raja, the annual payment being in return increased to $10,000 (Straits).",
+          "char_start": 2252,
+          "char_end": 2468,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "acquisition"
+          ],
+          "verbatim_span": "This acquisition has been subsequently enlarged from time to time, until it now extends from the Muda River to 10 miles south of the Krian River, a distance of 45 miles, containing in all 290 square miles.",
+          "char_start": 2469,
+          "char_end": 2674,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "transferred to"
+          ],
+          "verbatim_span": "In 1836 the seat of government was transferred to Singapore.",
+          "char_start": 3011,
+          "char_end": 3071,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to",
+            "cession"
+          ],
+          "verbatim_span": "The island of Pangkor and the Sembilan Islands were ceded to the British by Perak in 1826, with a view to the suppression of piracy, but no use was made of the cession at the time.",
+          "char_start": 3072,
+          "char_end": 3252,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "suppression"
+          ],
+          "verbatim_span": "The island of Pangkor and the Sembilan Islands were ceded to the British by Perak in 1826, with a view to the suppression of piracy, but no use was made of the cession at the time.",
+          "char_start": 3072,
+          "char_end": 3252,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "In 1874 the cession of these islands was confirmed by the Treaty of Pangkor (to which reference is made in dealing with the relations of the Colony with the Malay States), by which a strip of territory in the mainland opposite also became British.",
+          "char_start": 3253,
+          "char_end": 3500,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "By an agreement dated, at Singapore, the 6th June, 1934, the Dindings were retroceded to Perak in February, 1935.",
+          "char_start": 3610,
+          "char_end": 3723,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "Its greatness came to a sudden end about 1365, when it was sacked and destroyed by the Javanese, and thenceforth the island was scarcely inhabited until Sir Stamford Raffles took possession of it in 1819 by virtue of a treaty with the Johore princes.",
+          "char_start": 3863,
+          "char_end": 4113,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Stamford Raffles",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Its greatness came to a sudden end about 1365, when it was sacked and destroyed by the Javanese, and thenceforth the island was scarcely inhabited until Sir Stamford Raffles took possession of it in 1819 by virtue of a treaty with the Johore princes.",
+          "char_start": 4016,
+          "char_end": 4036,
+          "year_reference": 1819,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Malacca",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Malacca, said to have been founded by fugitives from the sack of Singapore, and known as an important independent State from early in the fifteenth century, is one of the oldest European settlements in the East, having been captured by the Portuguese under Albuquerque in 1511, and held by them till 1641, when the Dutch, after frequent attempts, succeeded in driving them out.",
+          "char_start": 0,
+          "char_end": 7,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Singapore",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Malacca, said to have been founded by fugitives from the sack of Singapore, and known as an important independent State from early in the fifteenth century, is one of the oldest European settlements in the East, having been captured by the Portuguese under Albuquerque in 1511, and held by them till 1641, when the Dutch, after frequent attempts, succeeded in driving them out.",
+          "char_start": 65,
+          "char_end": 74,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Penang",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "This trade it retained under Dutch rule till the establishment of Penang in 1786.",
+          "char_start": 1158,
+          "char_end": 1164,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Borneo",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The trade of the Malay Peninsula and Sumatra passed to Penang, which also carried on a large traffic with China, Siam, Borneo, the Celebes, and other places in the archipelago not under Dutch control; but as soon as Singapore was established Penang in its turn had to yield the first place to Singapore, and came to depend chiefly on the local trade.",
+          "char_start": 1449,
+          "char_end": 1455,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Malaya",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The trade of Malacca as an entrepôt port for central Malaya has recently revived.",
+          "char_start": 1917,
+          "char_end": 1923,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Kedah",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Penang, or Prince of Wales' Island, was the first British settlement in the Malay Peninsula, having been ceded to the East India Company by the Raja of Kedah in 1786, with the proviso that the sum of $6,000 (Straits) should be paid annually to the Raja of Kedah so long as the British occupied the island.",
+          "char_start": 2098,
+          "char_end": 2103,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Perak",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The island of Pangkor and the Sembilan Islands were ceded to the British by Perak in 1826, with a view to the suppression of piracy, but no use was made of the cession at the time.",
+          "char_start": 3148,
+          "char_end": 3153,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Dindings",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The whole formed, under the name of the Dindings Territory, an outlying portion of the Settlement of Penang.",
+          "char_start": 3541,
+          "char_end": 3549,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Johore",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Its greatness came to a sudden end about 1365, when it was sacked and destroyed by the Javanese, and thenceforth the island was scarcely inhabited until Sir Stamford Raffles took possession of it in 1819 by virtue of a treaty with the Johore princes.",
+          "char_start": 4098,
+          "char_end": 4104,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1511,
+        1641,
+        1786,
+        1795,
+        1800,
+        1806,
+        1818,
+        1819,
+        1823,
+        1824,
+        1826,
+        1836,
+        1874,
+        1934,
+        1935
+      ]
+    },
+    {
+      "uri": "col:hversion/malaya_straits_settlements/history/e10caa9955c0",
+      "colony": "malaya_straits_settlements",
+      "section_slug": "history",
+      "version_hash": "e10caa9955c0",
+      "asserted_by": "Colonial Office List",
+      "text": "Malacca, said to have been founded by fugitives from the sack of Singapore, and known as an important independent State from early in the fifteenth century, is one of the oldest European settlements in the East, having been captured by the Portuguese under Albuquerque in 1511, and held by them till 1641, when the Dutch, after frequent attempts, succeeded in driving them out. The settlement remained in the possession of the Dutch till 1795, when it was taken by the English, who held it till 1818. It was then restored to Holland, but was again transferred to British rule as a consequence of the Treaty of London (17 March, 1824), being exchanged for the British settlements in Sumatra. When Malacca was captured by the Portuguese in 1511, it was one of the grand entrepôts for the commerce of the East, but as the Portuguese pushed their operations further to the east, in the archipelago and neighbouring countries, the trade of Malacca gradually declined and it ceased to be of consequence as a collecting centre, except for the trade of the Malay Peninsula and the Island of Sumatra. This trade it retained under Dutch rule till the establishment of Penang in 1786. In a few years from that date its trade almost ceased, and it became a place of reduced commercial importance, but possessing great agricultural resources. The trade of the Malay Peninsula and Sumatra passed to Penang, which also carried on a large traffic with China, Siam, Borneo, the Celebes, and other places in the archipelago not under Dutch control; but as soon as Singapore was established Penang in its turn had to yield the first place to Singapore, and came to depend chiefly on the local trade. Although at first unimportant Penang's trade has now assumed large proportions, owing to the development of the rich tin-mining areas and rubber-bearing lands of the Malay Peninsula. The trade of Malacca as an entrepôt port for central Malaya has recently revived. Penang, or Prince of Wales' Island, was the first British settlement in the Malay Peninsula, having been ceded to the East India Company by the Raja of Kedah in 1786, with the proviso that the sum of $6,000 (Straits) should be paid annually to the Raja of Kedah so long as the British occupied the island. In 1800, in consequence of the prevalence of piracy, a strip of the coast of the mainland, now called Province Wellesley, was acquired from the Raja, the annual payment being in return increased to $10,000 (Straits). This acquisition has been subsequently enlarged from time to time, until it now extends from the Muda River to 10 miles south of the Krian River, a distance of 45 miles, containing in all 290 square miles. This province is in an advanced state of cultivation, the chief articles cultivated being sugar, paddy, coconuts, and rubber. In 1808 Penang was made a separate Presidency, of equal rank with Madras and Bombay. In 1826 Singapore and Malacca were incorporated with it under one government, Penang still remaining the seat of government. In 1836 the seat of government was transferred to Singapore. The island of Pangkor and the Sembilan Islands were ceded to the British by Perak in 1826, with a view to the suppression of piracy, but no use was made of the cession at the time. In 1874 the cession of these islands was confirmed by the Treaty of Pangkor (to which reference is made in dealing with the relations of the Colony with the Malay States), by which a strip of territory in the mainland opposite also became British. The whole formed, under the name of the Dindings Territory, an outlying portion of the Settlement of Penang. By an agreement dated, at Singapore, the 6th June, 1934, the Dindings were retroceded to Perak in February, 1935. The original city of Singapore is said to have been founded by immigrants from Sumatra. It rose into prominence in the fourteenth century. Its greatness came to a sudden end about 1365, when it was sacked and destroyed by the Javanese, and thenceforth the island was scarcely inhabited until Sir Stamford Raffles took possession of it in 1819 by virtue of a treaty with the Johore princes. The new settlement was at first subordinate to Bencoolen (Fort Marlborough) in Sumatra, but in 1823 it was placed under the Government of Bengal; in 1826 it was, as above stated, united with Penang and Malacca under the Governor and Council of the Incorporated Settlements. Constitution, Law and Justice. The Government consists of a Governor aided by an Executive and a Legislative Council. The Executive Council consists of 6 official members, excluding the Governor who presides, such other official members as the Governor may nominate, at present 2 in number, and 3 unofficial members. The Legislative Council consists of 13 official members and 13 unofficial members, of whom 2 are elected by the Chamber of Commerce of Singapore and Penang. The law in force is contained in local Ordinances and in such English Acts and Orders in Council as are applicable to the Colony. The Penal Code closely follows the Indian Penal Code. Criminal Procedure is regulated by the Criminal Procedure Code which is based on the Indian Code. Civil Procedure is regulated by Rules of Court made under powers conferred by the Courts Ordinance and based on the English Rules of the Supreme Court. There is a Supreme Court which is a court of record and consists of (a) the High Court which exercises original criminal and civil jurisdiction and appellate criminal and civil jurisdiction in appeals from subordinate courts; (b) the Court of Appeal which exercises appellate civil jurisdiction. Assizes are held at Singapore and Penang every two months, and once a quarter at Malacca. The Supreme Court is composed of a Chief Justice and three or more Puisne Judges. An appeal lies from the Supreme Court to the Privy Council. There is also a Court of Criminal Appeal. The subordinate Courts are the District Courts, Police Courts, Marine Police Courts and Coroners' Courts.",
+      "edition_years": [
+        1939
+      ],
+      "first_edition_year": 1939,
+      "last_edition_year": 1939,
+      "n_editions": 1,
+      "representative_source_file": "1939_manual_parsed/MALAYA__STRAITS_SETTLEMENTS.txt",
+      "char_start": 5113,
+      "char_end": 11092,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "transferred to"
+          ],
+          "verbatim_span": "It was then restored to Holland, but was again transferred to British rule as a consequence of the Treaty of London (17 March, 1824), being exchanged for the British settlements in Sumatra.",
+          "char_start": 501,
+          "char_end": 690,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british rule"
+          ],
+          "verbatim_span": "It was then restored to Holland, but was again transferred to British rule as a consequence of the Treaty of London (17 March, 1824), being exchanged for the British settlements in Sumatra.",
+          "char_start": 501,
+          "char_end": 690,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "Penang, or Prince of Wales' Island, was the first British settlement in the Malay Peninsula, having been ceded to the East India Company by the Raja of Kedah in 1786, with the proviso that the sum of $6,000 (Straits) should be paid annually to the Raja of Kedah so long as the British occupied the island.",
+          "char_start": 1946,
+          "char_end": 2251,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "acquired"
+          ],
+          "verbatim_span": "In 1800, in consequence of the prevalence of piracy, a strip of the coast of the mainland, now called Province Wellesley, was acquired from the Raja, the annual payment being in return increased to $10,000 (Straits).",
+          "char_start": 2252,
+          "char_end": 2468,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "acquisition"
+          ],
+          "verbatim_span": "This acquisition has been subsequently enlarged from time to time, until it now extends from the Muda River to 10 miles south of the Krian River, a distance of 45 miles, containing in all 290 square miles.",
+          "char_start": 2469,
+          "char_end": 2674,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "transferred to"
+          ],
+          "verbatim_span": "In 1836 the seat of government was transferred to Singapore.",
+          "char_start": 3011,
+          "char_end": 3071,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to",
+            "cession"
+          ],
+          "verbatim_span": "The island of Pangkor and the Sembilan Islands were ceded to the British by Perak in 1826, with a view to the suppression of piracy, but no use was made of the cession at the time.",
+          "char_start": 3072,
+          "char_end": 3252,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "suppression"
+          ],
+          "verbatim_span": "The island of Pangkor and the Sembilan Islands were ceded to the British by Perak in 1826, with a view to the suppression of piracy, but no use was made of the cession at the time.",
+          "char_start": 3072,
+          "char_end": 3252,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "In 1874 the cession of these islands was confirmed by the Treaty of Pangkor (to which reference is made in dealing with the relations of the Colony with the Malay States), by which a strip of territory in the mainland opposite also became British.",
+          "char_start": 3253,
+          "char_end": 3500,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "By an agreement dated, at Singapore, the 6th June, 1934, the Dindings were retroceded to Perak in February, 1935.",
+          "char_start": 3610,
+          "char_end": 3723,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "Its greatness came to a sudden end about 1365, when it was sacked and destroyed by the Javanese, and thenceforth the island was scarcely inhabited until Sir Stamford Raffles took possession of it in 1819 by virtue of a treaty with the Johore princes.",
+          "char_start": 3863,
+          "char_end": 4113,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Stamford Raffles",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Its greatness came to a sudden end about 1365, when it was sacked and destroyed by the Javanese, and thenceforth the island was scarcely inhabited until Sir Stamford Raffles took possession of it in 1819 by virtue of a treaty with the Johore princes.",
+          "char_start": 4016,
+          "char_end": 4036,
+          "year_reference": 1819,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief Justice",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "The Supreme Court is composed of a Chief Justice and three or more Puisne Judges.",
+          "char_start": 5717,
+          "char_end": 5730,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Malacca",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Malacca, said to have been founded by fugitives from the sack of Singapore, and known as an important independent State from early in the fifteenth century, is one of the oldest European settlements in the East, having been captured by the Portuguese under Albuquerque in 1511, and held by them till 1641, when the Dutch, after frequent attempts, succeeded in driving them out.",
+          "char_start": 0,
+          "char_end": 7,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Singapore",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Malacca, said to have been founded by fugitives from the sack of Singapore, and known as an important independent State from early in the fifteenth century, is one of the oldest European settlements in the East, having been captured by the Portuguese under Albuquerque in 1511, and held by them till 1641, when the Dutch, after frequent attempts, succeeded in driving them out.",
+          "char_start": 65,
+          "char_end": 74,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Penang",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "This trade it retained under Dutch rule till the establishment of Penang in 1786.",
+          "char_start": 1158,
+          "char_end": 1164,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Borneo",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The trade of the Malay Peninsula and Sumatra passed to Penang, which also carried on a large traffic with China, Siam, Borneo, the Celebes, and other places in the archipelago not under Dutch control; but as soon as Singapore was established Penang in its turn had to yield the first place to Singapore, and came to depend chiefly on the local trade.",
+          "char_start": 1449,
+          "char_end": 1455,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Malaya",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The trade of Malacca as an entrepôt port for central Malaya has recently revived.",
+          "char_start": 1917,
+          "char_end": 1923,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Kedah",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Penang, or Prince of Wales' Island, was the first British settlement in the Malay Peninsula, having been ceded to the East India Company by the Raja of Kedah in 1786, with the proviso that the sum of $6,000 (Straits) should be paid annually to the Raja of Kedah so long as the British occupied the island.",
+          "char_start": 2098,
+          "char_end": 2103,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Perak",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The island of Pangkor and the Sembilan Islands were ceded to the British by Perak in 1826, with a view to the suppression of piracy, but no use was made of the cession at the time.",
+          "char_start": 3148,
+          "char_end": 3153,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Dindings",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The whole formed, under the name of the Dindings Territory, an outlying portion of the Settlement of Penang.",
+          "char_start": 3541,
+          "char_end": 3549,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Johore",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Its greatness came to a sudden end about 1365, when it was sacked and destroyed by the Javanese, and thenceforth the island was scarcely inhabited until Sir Stamford Raffles took possession of it in 1819 by virtue of a treaty with the Johore princes.",
+          "char_start": 4098,
+          "char_end": 4104,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1511,
+        1641,
+        1786,
+        1795,
+        1800,
+        1808,
+        1818,
+        1819,
+        1823,
+        1824,
+        1826,
+        1836,
+        1874,
+        1934,
+        1935
+      ]
+    }
+  ]
+}

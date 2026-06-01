@@ -1,0 +1,88 @@
+{
+  "colony": "new_brunswick",
+  "n_editions_with_history": 1,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/new_brunswick/history/df5e60d1e4cd",
+      "colony": "new_brunswick",
+      "section_slug": "history",
+      "version_hash": "df5e60d1e4cd",
+      "asserted_by": "Colonial Office List",
+      "text": "New Brunswick was part of the ancient French Province of Acadia and was ceded to England by the Treaty of Utrecht in 1713. Great Britain, however, did not obtain full possession of the country until after the fall of Quebec in 1759. It was first colonised by British subjects from New England in 1762, and in 1783, at the close of the Revolutionary War, it received a large body of Loyalists from the Thirteen Colonies. In 1784 it was separated from Nova Scotia, of which it had formed a part.",
+      "edition_years": [
+        1909
+      ],
+      "first_edition_year": 1909,
+      "last_edition_year": 1909,
+      "n_editions": 1,
+      "representative_source_file": "1909_manual_parsed/new_brunswick.txt",
+      "char_start": 311,
+      "char_end": 804,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "New Brunswick was part of the ancient French Province of Acadia and was ceded to England by the Treaty of Utrecht in 1713.",
+          "char_start": 0,
+          "char_end": 122,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "It was first colonised by British subjects from New England in 1762, and in 1783, at the close of the Revolutionary War, it received a large body of Loyalists from the Thirteen Colonies.",
+          "char_start": 233,
+          "char_end": 419,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Quebec",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Great Britain, however, did not obtain full possession of the country until after the fall of Quebec in 1759.",
+          "char_start": 217,
+          "char_end": 223,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1713,
+        1759,
+        1762,
+        1783,
+        1784
+      ]
+    }
+  ]
+}

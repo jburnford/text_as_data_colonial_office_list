@@ -1,0 +1,88 @@
+{
+  "colony": "dominion_of_canada",
+  "n_editions_with_history": 15,
+  "n_versions": 3,
+  "versions": [
+    {
+      "uri": "col:hversion/dominion_of_canada/history/8220676c7769",
+      "colony": "dominion_of_canada",
+      "section_slug": "history",
+      "version_hash": "8220676c7769",
+      "asserted_by": "Colonial Office List",
+      "text": "Particulars as to the history of each province will be found in the following pages, but it may here conveniently be stated that the north-east coast of the Dominion seems to have been first discovered by the Norse seamen of the middle ages. Cabot reached Labrador in 1497, and the fisheries off this coast were frequented early in the sixteenth century. In 1584 Cartier settled on the St. Lawrence on behalf of France, and others followed. The whole territory became British by the Treaty of Paris, 1763.",
+      "edition_years": [
+        1889,
+        1890,
+        1894,
+        1896
+      ],
+      "first_edition_year": 1889,
+      "last_edition_year": 1896,
+      "n_editions": 4,
+      "representative_source_file": "1889_manual_parsed/DOMINION_OF_CANADA.txt",
+      "char_start": 1833,
+      "char_end": 2338,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.989,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01"
+    },
+    {
+      "uri": "col:hversion/dominion_of_canada/history/86b11b04fde3",
+      "colony": "dominion_of_canada",
+      "section_slug": "history",
+      "version_hash": "86b11b04fde3",
+      "asserted_by": "Colonial Office List",
+      "text": "Particulars as to the history of each Province will be found in the following pages, but here conveniently be stated that the eastern coast of the Dominion seems to have been discovered by the Norse seamen of the fifteenth century. Cabot reached Labrador in 1497, and the fisheries off this coast were frequented during the sixteenth century. In 1535 Cartier sailed up the St. Lawrence on behalf of France, and the whole territory became a French possession until the Treaty of Paris, 1763.",
+      "edition_years": [
+        1897
+      ],
+      "first_edition_year": 1897,
+      "last_edition_year": 1897,
+      "n_editions": 1,
+      "representative_source_file": "1897_manual_parsed/DOMINION_OF_CANADA.txt",
+      "char_start": 2047,
+      "char_end": 2537,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01"
+    },
+    {
+      "uri": "col:hversion/dominion_of_canada/history/3e7c1f1e3f6f",
+      "colony": "dominion_of_canada",
+      "section_slug": "history",
+      "version_hash": "3e7c1f1e3f6f",
+      "asserted_by": "Colonial Office List",
+      "text": "Particulars as to the history of each province will be found in the following pages, but it may here conveniently be stated that the north-east coast of the Dominion seems to have been first discovered by the Norse seamen of the middle ages. Cabot reached Labrador in 1497, and the fisheries off this coast were frequented early in the sixteenth century. In 1535 Cartier settled on the St. Lawrence on behalf of France, and others followed. The whole territory became British by the Treaty of Paris, 1763.",
+      "edition_years": [
+        1899,
+        1900,
+        1905,
+        1906,
+        1907,
+        1908,
+        1913,
+        1914,
+        1915,
+        1917
+      ],
+      "first_edition_year": 1899,
+      "last_edition_year": 1917,
+      "n_editions": 10,
+      "representative_source_file": "1899_manual_parsed/dominion_of_canada.txt",
+      "char_start": 2570,
+      "char_end": 3075,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.989,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01"
+    }
+  ]
+}

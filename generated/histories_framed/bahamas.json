@@ -1,0 +1,2008 @@
+{
+  "colony": "bahamas",
+  "n_editions_with_history": 47,
+  "n_versions": 7,
+  "versions": [
+    {
+      "uri": "col:hversion/bahamas/history/98ed11eeeebf",
+      "colony": "bahamas",
+      "section_slug": "history",
+      "version_hash": "98ed11eeeebf",
+      "asserted_by": "Colonial Office List",
+      "text": "A chain of islands lying between 21° 42' and 27° 34' N. lat., and 72° 40' and 79° 5' W. long. The group is composed of about 20 inhabited islands and an immense number of islets and rocks. The principal islands are New Providence (containing the capital, Nassau), Abaco, Harbour Island, Eleuthera, Inagua, Mayaguana, Andros Island, Great Bahama, Ragged Island, Rum Cay, Exuma, Long Island, Crooked Island, Acklin Island, Long Cay, Watling's Island, Cat Island, now known as St. Salvador, the Berry Islands, and the Biminis. St. Salvador, one of the islands composing this chain, was the first land discovered by Columbus on his voyage in 1492. The island of New Providence was granted by Charles II. to a proprietary body in 1670, and in 1671 Captain Johnson Wentworth was appointed by the proprietors to be their first Governor. It fell into the hands of the French and Spaniards in 1703, after which it became a rendezvous for pirates, who were extirpated in 1718 by the English, and a regular colonial administration formed. In 1781 the Bahamas were surrendered to the Spaniards, but at the conclusion of the war they were once more annexed by and finally confirmed to Great Britain, at the Peace of Versailles, 1783. In 1848 the Turks and Caicos Islands were separated from the other Bahamas, and formed into a distinct Government, under the Government-in-Chief of the Governor of Jamaica.",
+      "edition_years": [
+        1878,
+        1879,
+        1880,
+        1883,
+        1886
+      ],
+      "first_edition_year": 1878,
+      "last_edition_year": 1886,
+      "n_editions": 5,
+      "representative_source_file": "1883_manual_parsed/bahamas.txt",
+      "char_start": 20,
+      "char_end": 1415,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.981,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Salvador, one of the islands composing this chain, was the first land discovered by Columbus on his voyage in 1492.",
+          "char_start": 528,
+          "char_end": 643,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1878,
+            1879,
+            1880,
+            1883,
+            1886
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "In 1781 the Bahamas were surrendered to the Spaniards, but at the conclusion of the war they were once more annexed by and finally confirmed to Great Britain, at the Peace of Versailles, 1783.",
+          "char_start": 1028,
+          "char_end": 1220,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1878,
+            1879,
+            1880,
+            1883,
+            1886
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In 1781 the Bahamas were surrendered to the Spaniards, but at the conclusion of the war they were once more annexed by and finally confirmed to Great Britain, at the Peace of Versailles, 1783.",
+          "char_start": 1028,
+          "char_end": 1220,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1878,
+            1879,
+            1880,
+            1883,
+            1886
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Johnson Wentworth",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "to a proprietary body in 1670, and in 1671 Captain Johnson Wentworth was appointed by the proprietors to be their first Governor.",
+          "char_start": 743,
+          "char_end": 768,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1878,
+            1879,
+            1880,
+            1883,
+            1886
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor. It",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "to a proprietary body in 1670, and in 1671 Captain Johnson Wentworth was appointed by the proprietors to be their first Governor. It fell into the hands of the French and Spaniards in 1703, after which it became a rendezvous for pirates, who were extirpated in 1718 by the English, and a regular colonial administration formed.",
+          "char_start": 820,
+          "char_end": 832,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1878,
+            1879,
+            1880,
+            1883,
+            1886
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1848 the Turks and Caicos Islands were separated from the other Bahamas, and formed into a distinct Government, under the Government-in-Chief of the Governor of Jamaica.",
+          "char_start": 1385,
+          "char_end": 1392,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1878,
+            1879,
+            1880,
+            1883,
+            1886
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1670,
+        1671,
+        1703,
+        1718,
+        1781,
+        1783,
+        1848
+      ]
+    },
+    {
+      "uri": "col:hversion/bahamas/history/0d9cca01f5ed",
+      "colony": "bahamas",
+      "section_slug": "history",
+      "version_hash": "0d9cca01f5ed",
+      "asserted_by": "Colonial Office List",
+      "text": "St. Salvador, one of the islands composing this chain, was the first land discovered by Columbus on his voyage in 1492. A few years later all the Carib inhabitants were transported to work in the Cuba mines, and the islands were abandoned. They were included in the charter given by Queen Elizabeth to Sir Humphrey Gilbert in 1578, but no visit was made to them or occupation effected, and in 1612 they were nominally attached to Virginia. The island of New Providence was granted by Charles II to a proprietary body in 1670, and in 1671 Captain Johnson Wentworth was appointed by the proprietors to be their first Governor. It fell into the hands of the French and Spaniards in 1708, after which it became a rendezvous for pirates, who were extirpated in 1718 by the English, and a regular colonial administration formed. In 1781 the Bahamas were surrendered to the Spaniards, but at the conclusion of the war they were once more annexed by Great Britain, which was confirmed in their possession at the Peace of Versailles, 1783. In 1848 the Turks and Caicos Islands were separated from the other Bahamas, and formed into a distinct Presidency, under the Government-in-Chief of the Governor of Jamaica.",
+      "edition_years": [
+        1888,
+        1889,
+        1890
+      ],
+      "first_edition_year": 1888,
+      "last_edition_year": 1890,
+      "n_editions": 3,
+      "representative_source_file": "1890_manual_parsed/bahamas.txt",
+      "char_start": 683,
+      "char_end": 1887,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.924,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Salvador, one of the islands composing this chain, was the first land discovered by Columbus on his voyage in 1492.",
+          "char_start": 4,
+          "char_end": 119,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "In 1781 the Bahamas were surrendered to the Spaniards, but at the conclusion of the war they were once more annexed by Great Britain, which was confirmed in their possession at the Peace of Versailles, 1783.",
+          "char_start": 823,
+          "char_end": 1030,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In 1781 the Bahamas were surrendered to the Spaniards, but at the conclusion of the war they were once more annexed by Great Britain, which was confirmed in their possession at the Peace of Versailles, 1783.",
+          "char_start": 823,
+          "char_end": 1030,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Queen Elizabeth",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "They were included in the charter given by Queen Elizabeth to Sir Humphrey Gilbert in 1578, but no visit was made to them or occupation effected, and in 1612 they were nominally attached to Virginia.",
+          "char_start": 283,
+          "char_end": 298,
+          "year_reference": 1578,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Humphrey Gilbert",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "They were included in the charter given by Queen Elizabeth to Sir Humphrey Gilbert in 1578, but no visit was made to them or occupation effected, and in 1612 they were nominally attached to Virginia.",
+          "char_start": 302,
+          "char_end": 322,
+          "year_reference": 1578,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain Johnson Wentworth",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The island of New Providence was granted by Charles II to a proprietary body in 1670, and in 1671 Captain Johnson Wentworth was appointed by the proprietors to be their first Governor.",
+          "char_start": 538,
+          "char_end": 563,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor. It",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "The island of New Providence was granted by Charles II to a proprietary body in 1670, and in 1671 Captain Johnson Wentworth was appointed by the proprietors to be their first Governor. It fell into the hands of the French and Spaniards in 1708, after which it became a rendezvous for pirates, who were extirpated in 1718 by the English, and a regular colonial administration formed.",
+          "char_start": 615,
+          "char_end": 627,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1848 the Turks and Caicos Islands were separated from the other Bahamas, and formed into a distinct Presidency, under the Government-in-Chief of the Governor of Jamaica.",
+          "char_start": 1195,
+          "char_end": 1202,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1578,
+        1612,
+        1670,
+        1671,
+        1708,
+        1718,
+        1781,
+        1783,
+        1848
+      ]
+    },
+    {
+      "uri": "col:hversion/bahamas/history/b9be3ff47faa",
+      "colony": "bahamas",
+      "section_slug": "history",
+      "version_hash": "b9be3ff47faa",
+      "asserted_by": "Colonial Office List",
+      "text": "St. Salvador, so-called by Columbus, the native name being Guanahani, one of the islands composing this chain, was the first land discovered by him on his voyage in 1492. A few years later all the Carib inhabitants were transported to work in the Cuba mines, and the islands were abandoned. They were included in the charter given by Queen Elizabeth to Sir Humphrey Gilbert in 1583, but no visit was made to them or occupation effected, and in 1612 they were nominally attached to Virginia. Settlers from the Bermudas found their way in considerable numbers to Eleuthera, in 1646, and in 1666, some years later, also to New Providence. This latter island, and all the others between 22° and 27° N. lat., were granted by Charles II to a proprietary body in 1670, and in 1671 Captain Johnson Wentworth was appointed by the proprietors to be their first Governor. No regular system of government appears to have been established however, and New Providence continued to be more or less merely a shelter for pirates and a disorderly set of people. It was laid waste by the Spaniards in 1680 or 1682, and in 1763 the French and Spaniards combined annihilated the settlement. After this it became a regular rendezvous for pirates, who were finally extirpated in 1718 by the English, under Captain Woodes Rogers, and a regular administration formed and colonists introduced, including a considerable number of Germans from the Palatinate. In 1781 the Bahamas were surrendered to the Spaniards, but at the conclusion of the war they were once more annexed by Great Britain, which was confirmed in their possession at the Peace of Versailles, 1783. In 1848 the Turks and Caicos Islands, which geographically form part of the Bahamas chain, were separated from the other Bahamas, and formed into a distinct Presidency, under the Government-in-Chief of the Governor of Jamaica.",
+      "edition_years": [
+        1894,
+        1896,
+        1897,
+        1898,
+        1899,
+        1900
+      ],
+      "first_edition_year": 1894,
+      "last_edition_year": 1900,
+      "n_editions": 6,
+      "representative_source_file": "1897_manual_parsed/BAHAMAS.txt",
+      "char_start": 776,
+      "char_end": 2643,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.99,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Salvador, so-called by Columbus, the native name being Guanahani, one of the islands composing this chain, was the first land discovered by him on his voyage in 1492.",
+          "char_start": 4,
+          "char_end": 170,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "Salvador, so-called by Columbus, the native name being Guanahani, one of the islands composing this chain, was the first land discovered by him on his voyage in 1492.",
+          "char_start": 4,
+          "char_end": 170,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "In 1781 the Bahamas were surrendered to the Spaniards, but at the conclusion of the war they were once more annexed by Great Britain, which was confirmed in their possession at the Peace of Versailles, 1783.",
+          "char_start": 1432,
+          "char_end": 1639,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In 1781 the Bahamas were surrendered to the Spaniards, but at the conclusion of the war they were once more annexed by Great Britain, which was confirmed in their possession at the Peace of Versailles, 1783.",
+          "char_start": 1432,
+          "char_end": 1639,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Queen Elizabeth",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "They were included in the charter given by Queen Elizabeth to Sir Humphrey Gilbert in 1583, but no visit was made to them or occupation effected, and in 1612 they were nominally attached to Virginia.",
+          "char_start": 334,
+          "char_end": 349,
+          "year_reference": 1583,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Humphrey Gilbert",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "They were included in the charter given by Queen Elizabeth to Sir Humphrey Gilbert in 1583, but no visit was made to them or occupation effected, and in 1612 they were nominally attached to Virginia.",
+          "char_start": 353,
+          "char_end": 373,
+          "year_reference": 1583,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain Johnson Wentworth",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "lat., were granted by Charles II to a proprietary body in 1670, and in 1671 Captain Johnson Wentworth was appointed by the proprietors to be their first Governor.",
+          "char_start": 774,
+          "char_end": 799,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor. No",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "lat., were granted by Charles II to a proprietary body in 1670, and in 1671 Captain Johnson Wentworth was appointed by the proprietors to be their first Governor. No regular system of government appears to have been established however, and New Providence continued to be more or less merely a shelter for pirates and a disorderly set of people.",
+          "char_start": 851,
+          "char_end": 863,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain Woodes Rogers",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "After this it became a regular rendezvous for pirates, who were finally extirpated in 1718 by the English, under Captain Woodes Rogers, and a regular administration formed and colonists introduced, including a considerable number of Germans from the Palatinate.",
+          "char_start": 1283,
+          "char_end": 1304,
+          "year_reference": 1718,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Bermudas",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Settlers from the Bermudas found their way in considerable numbers to Eleuthera, in 1646, and in 1666, some years later, also to New Providence.",
+          "char_start": 509,
+          "char_end": 517,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1848 the Turks and Caicos Islands, which geographically form part of the Bahamas chain, were separated from the other Bahamas, and formed into a distinct Presidency, under the Government-in-Chief of the Governor of Jamaica.",
+          "char_start": 1858,
+          "char_end": 1865,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1583,
+        1612,
+        1646,
+        1666,
+        1670,
+        1671,
+        1680,
+        1682,
+        1718,
+        1763,
+        1781,
+        1783,
+        1848
+      ]
+    },
+    {
+      "uri": "col:hversion/bahamas/history/a9d796c8f7c7",
+      "colony": "bahamas",
+      "section_slug": "history",
+      "version_hash": "a9d796c8f7c7",
+      "asserted_by": "Colonial Office List",
+      "text": "St. Salvador, so called by Columbus, the native name being Guanahani, one of the islands composing this chain, and identical either with Cat Island or Watling's Island was the first land discovered by him on his voyage in 1492. A few years later all the Carib inhabitants were transported to work in the Cuba mines, and the islands were abandoned. Settlers from the Bermudas found their way in considerable numbers to Eleuthera, in 1646, and in 1666, some years later, also to New Providence. This latter island, and all the others between 22° and 27° N. lat. were granted by Charles II. to a proprietary body in 1670, and in 1671 Captain Johnson Wentworth was appointed by the proprietors to be their first Governor. No regular system of government appears to have been established however; and New Providence continued to be more or less merely a shelter for pirates and a disorderly set of people. It was laid waste by the Spaniards in 1680 or 1682, and in 1703 the French and Spaniards combined annihilated the settlement. After this it became a regular rendezvous for pirates, who were finally extirpated in 1718 by the English, under Captain Woodes Rogers, and a regular administration formed and colonists introduced, including a considerable number of Germans from the Palatinate. In 1781 the Bahamas were surrendered to the Spaniards, but at the conclusion of the war they were once more annexed by Great Britain, which was confirmed in their possession at the Peace of Versailles, 1783. In 1848 the Turks and Caicos Islands, which geographically form part of the Bahamas chain, were separated from the other Bahamas, and formed into a distinct Presidency, under the Government-in-Chief of the Governor of Jamaica. A general descriptive report of the Islands, which includes the Blue Book Report for 1902, illustrated by photographs and a map, has been compiled by a former Governor, Sir Gilbert Carter, and published in the Colonial Annual Series (Ch. 1985, 1904).",
+      "edition_years": [
+        1905,
+        1906,
+        1907,
+        1908,
+        1909,
+        1910,
+        1911,
+        1912,
+        1913,
+        1914,
+        1915,
+        1917
+      ],
+      "first_edition_year": 1905,
+      "last_edition_year": 1917,
+      "n_editions": 12,
+      "representative_source_file": "1905_manual_parsed/BAHAMAS.txt",
+      "char_start": 746,
+      "char_end": 2722,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.931,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Salvador, so called by Columbus, the native name being Guanahani, one of the islands composing this chain, and identical either with Cat Island or Watling's Island was the first land discovered by him on his voyage in 1492.",
+          "char_start": 4,
+          "char_end": 227,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "Salvador, so called by Columbus, the native name being Guanahani, one of the islands composing this chain, and identical either with Cat Island or Watling's Island was the first land discovered by him on his voyage in 1492.",
+          "char_start": 4,
+          "char_end": 227,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "In 1781 the Bahamas were surrendered to the Spaniards, but at the conclusion of the war they were once more annexed by Great Britain, which was confirmed in their possession at the Peace of Versailles, 1783.",
+          "char_start": 1289,
+          "char_end": 1496,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In 1781 the Bahamas were surrendered to the Spaniards, but at the conclusion of the war they were once more annexed by Great Britain, which was confirmed in their possession at the Peace of Versailles, 1783.",
+          "char_start": 1289,
+          "char_end": 1496,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Johnson Wentworth",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "to a proprietary body in 1670, and in 1671 Captain Johnson Wentworth was appointed by the proprietors to be their first Governor.",
+          "char_start": 631,
+          "char_end": 656,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor. No",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "to a proprietary body in 1670, and in 1671 Captain Johnson Wentworth was appointed by the proprietors to be their first Governor. No regular system of government appears to have been established however; and New Providence continued to be more or less merely a shelter for pirates and a disorderly set of people.",
+          "char_start": 708,
+          "char_end": 720,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain Woodes Rogers",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "After this it became a regular rendezvous for pirates, who were finally extirpated in 1718 by the English, under Captain Woodes Rogers, and a regular administration formed and colonists introduced, including a considerable number of Germans from the Palatinate.",
+          "char_start": 1140,
+          "char_end": 1161,
+          "year_reference": 1718,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Gilbert Carter",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "A general descriptive report of the Islands, which includes the Blue Book Report for 1902, illustrated by photographs and a map, has been compiled by a former Governor, Sir Gilbert Carter, and published in the Colonial Annual Series (Ch.",
+          "char_start": 1893,
+          "char_end": 1911,
+          "year_reference": 1902,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Bermudas",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Settlers from the Bermudas found their way in considerable numbers to Eleuthera, in 1646, and in 1666, some years later, also to New Providence.",
+          "char_start": 366,
+          "char_end": 374,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1848 the Turks and Caicos Islands, which geographically form part of the Bahamas chain, were separated from the other Bahamas, and formed into a distinct Presidency, under the Government-in-Chief of the Governor of Jamaica.",
+          "char_start": 1715,
+          "char_end": 1722,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1646,
+        1666,
+        1670,
+        1671,
+        1680,
+        1682,
+        1703,
+        1718,
+        1781,
+        1783,
+        1848,
+        1902,
+        1904,
+        1985
+      ]
+    },
+    {
+      "uri": "col:hversion/bahamas/history/1da398e4e0d4",
+      "colony": "bahamas",
+      "section_slug": "history",
+      "version_hash": "1da398e4e0d4",
+      "asserted_by": "Colonial Office List",
+      "text": "San Salvador, so called by Columbus, the native name being Guanahani, one of the islands composing this chain, and identical with Watling's Island, was the first land discovered by him on his voyage in 1492. A few years later all the Carib inhabitants were transported to work in the Cuba mines. It does not appear that the Spaniards had any settlements on any of the islands of this group at any time. Early in the 17th century the islands were well known to the settlers of Bermuda and the Carolinas. They were included in the Royal Grant of Sir Robert Heath, the Attorney-General of England, of the 30th of October, 1629. By 1640 the islands had become a well-known place of resort by the inhabitants of Bermuda, and on the 9th of July, 1647, The Company of Eleutherian Adventurers was formed in London for the purpose of making an organised attempt at a systematic colonization and development of the islands. William Sayle, a former Governor of Bermuda, was the moving spirit of this venture, and associated with him were a number of influential city merchants and Members of Parliament. On the 31st of August, 1649, Parliament, on the petition of Sayle and others, passed \"An Act for the Adventurers for the Eleutherian Islands,\" which constituted Sayle and his associates the Proprietors of the Islands. Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the Islands to Six of the Lords Proprietors of Carolina, namely, the Duke of Albemarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton. Before the Royal Grant of 1670 the inhabitants of the islands had organised the Settlement and instituted a form of Government which included an elective House of Assembly, and had selected Captain John Wentworth as their Governor. Wentworth applied to and received Commissions from the Governors of Jamaica. The Lords Proprietors appointed Hugh Wentworth as their first Governor on 24th April, 1671, but he did not take up the appointment. They then confirmed in office John Wentworth, the popularly elected Governor, on the 26th of December, 1671. A regular system of government was established including a Parliament, the Lower House of which was elective, and this was continued with several breaks until the Civil and Military Government of the Islands was resumed by the Crown on the surrender of their rights by the Lords Proprietors on the 28th October, 1717. Thirteen Proprietary Governors were appointed between 1671 and 1715. The Settlement on New Providence was sacked by the Spaniards on several occasions between 1680 and 1684. In 1684 nearly all the inhabitants were driven away, and it was not until 1688 that the Settlement was re-formed by their return, principally from Jamaica, under the leadership of Thomas Bridges. Bridges was recognised as Governor by the Lords Proprietors on the 12th July, 1688, and the Settlement had reached some importance when it was practically annihilated by the French and Spaniards in 1703. However, a year or so after this the dispersed inhabitants returned to New Providence and another Proprietary Governor was appointed in 1707. But the Islands became a regular rendezvous for pirates, and this finally determined the Crown to resume the Civil and Military Government of the place, and thus accede to the numerous petitions which the inhabitants had been making for several years and also carry out the express wishes of Parliament. Since 1717 there has been a continuous line of Royal Governors. The Islands were surrendered to a Fleet of the American rebels in 1776, and again to the Spaniards in 1781, but they had been re-taken by a British force under Colonel Deveaux before the Gore Chai Deph. Jo. Mem Dist. Deph. Dist. Deph. Dist. Deph. Dist. Deph. Dist. Deph. Dist. Deph. Dist. Deph. Dist. Deph. T We lyin 72° inh and vid. Hai San Lot Isle Bal ana tair squ S nar ing Isle his Cal the conclusion of the war, which was brought to an end by the Peace of Versailles, 1783, when the British possession was confirmed. After the American Revolution a number of Loyalists settled throughout the Bahamas Group and received substantial assistance from England, and on the 19th of March, 1787, the Lords Proprietors surrendered all their proprietary rights to the King for the sum of £12,000, which was provided by Parliament. The Turks and Caicos Islands, which geographically form part of the Bahamas chain, and which had often in their early history been claimed both by Bermuda and the Bahamas, were separated from the other Bahamas in 1848, and formed into a distinct Presidency, under the government-in-chief of the Governor of Jamaica.",
+      "edition_years": [
+        1918,
+        1919,
+        1921,
+        1922,
+        1923,
+        1924,
+        1925,
+        1927,
+        1928,
+        1929,
+        1930,
+        1931,
+        1932,
+        1933,
+        1934,
+        1936,
+        1937,
+        1939
+      ],
+      "first_edition_year": 1918,
+      "last_edition_year": 1939,
+      "n_editions": 18,
+      "representative_source_file": "1922_manual_parsed/BAHAMAS.txt",
+      "char_start": 764,
+      "char_end": 5500,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.959,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "San Salvador, so called by Columbus, the native name being Guanahani, one of the islands composing this chain, and identical with Watling's Island, was the first land discovered by him on his voyage in 1492.",
+          "char_start": 0,
+          "char_end": 207,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "San Salvador, so called by Columbus, the native name being Guanahani, one of the islands composing this chain, and identical with Watling's Island, was the first land discovered by him on his voyage in 1492.",
+          "char_start": 0,
+          "char_end": 207,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebels"
+          ],
+          "verbatim_span": "The Islands were surrendered to a Fleet of the American rebels in 1776, and again to the Spaniards in 1781, but they had been re-taken by a British force under Colonel Deveaux before the Gore Chai Deph.",
+          "char_start": 3582,
+          "char_end": 3784,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "Hai San Lot Isle Bal ana tair squ S nar ing Isle his Cal the conclusion of the war, which was brought to an end by the Peace of Versailles, 1783, when the British possession was confirmed.",
+          "char_start": 3916,
+          "char_end": 4104,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Robert Heath",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "They were included in the Royal Grant of Sir Robert Heath, the Attorney-General of England, of the 30th of October, 1629.",
+          "char_start": 544,
+          "char_end": 560,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lord Berkley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the Islands to Six of the Lords Proprietors of Carolina, namely, the Duke of Albemarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton.",
+          "char_start": 1559,
+          "char_end": 1571,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lord Ashley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the Islands to Six of the Lords Proprietors of Carolina, namely, the Duke of Albemarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton.",
+          "char_start": 1573,
+          "char_end": 1584,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir George Carteret",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the Islands to Six of the Lords Proprietors of Carolina, namely, the Duke of Albemarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton.",
+          "char_start": 1586,
+          "char_end": 1605,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Peter Colleton. Before",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the Islands to Six of the Lords Proprietors of Carolina, namely, the Duke of Albemarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton. Before the Royal Grant of 1670 the inhabitants of the islands had organised the Settlement and instituted a form of Government which included an elective House of Assembly, and had selected Captain John Wentworth as their Governor.",
+          "char_start": 1610,
+          "char_end": 1636,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain John Wentworth",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Before the Royal Grant of 1670 the inhabitants of the islands had organised the Settlement and instituted a form of Government which included an elective House of Assembly, and had selected Captain John Wentworth as their Governor.",
+          "char_start": 1820,
+          "char_end": 1842,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor. Wentworth",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "Before the Royal Grant of 1670 the inhabitants of the islands had organised the Settlement and instituted a form of Government which included an elective House of Assembly, and had selected Captain John Wentworth as their Governor. Wentworth applied to and received Commissions from the Governors of Jamaica.",
+          "char_start": 1852,
+          "char_end": 1871,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Colonel Deveaux",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Islands were surrendered to a Fleet of the American rebels in 1776, and again to the Spaniards in 1781, but they had been re-taken by a British force under Colonel Deveaux before the Gore Chai Deph.",
+          "char_start": 3742,
+          "char_end": 3757,
+          "year_reference": 1776,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Bermuda",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Early in the 17th century the islands were well known to the settlers of Bermuda and the Carolinas.",
+          "char_start": 476,
+          "char_end": 483,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Wentworth applied to and received Commissions from the Governors of Jamaica.",
+          "char_start": 1930,
+          "char_end": 1937,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1921,
+            1922,
+            1923,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1629,
+        1640,
+        1647,
+        1649,
+        1670,
+        1671,
+        1680,
+        1684,
+        1688,
+        1703,
+        1707,
+        1715,
+        1717,
+        1776,
+        1781,
+        1783,
+        1787,
+        1848
+      ]
+    },
+    {
+      "uri": "col:hversion/bahamas/history/2e8400a1d0e2",
+      "colony": "bahamas",
+      "section_slug": "history",
+      "version_hash": "2e8400a1d0e2",
+      "asserted_by": "Colonial Office List",
+      "text": "San Salvador, so called by Columbus, the native name being Guanahani, one of the islands composing this chain, and identical with Watling's Island, was the first land discovered by him on his voyage in 1492. A few years later all the Carib inhabitants were transported to work in the Cuba mines. It does not appear that the Spaniards had any settlements on any of the islands of this group at any time. Early in the 17th century the islands were well known to the settlers of Bermuda and the Carolinas. They were included in the Royal Grant of Sir Robert Heath, the Attorney-General of England, of the 30th of October, 1629. By 1640 the islands had become a well-known place of resort by the inhabitants of Bermuda, and on the 9th of July, 1647, The Company of Eleutherian Adventurers was formed in London for the purpose of making an organised attempt at a systematic colonization and development of the islands. William Sayle, a former Governor of Bermuda, was the moving spirit of this venture, and associated with him were a number of influential city merchants and Members of Parliament. On the 31st of August, 1649, Parliament, on the petition of Sayle and others, passed \"An Act for the Adventurers for the Eleutherian Islands,\" which constituted Sayle and his associates the Proprietors of the Islands. Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the Islands to Six of the Lords Proprietors of Carolina, namely, the Duke of Albemarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton. Before the Royal Grant of 1670 the inhabitants of the islands had organised the Settlement and instituted a form of Government which included an elective House of Assembly, and had selected Captain John Wentworth as their Governor. Wentworth applied to and received Commissions from the Governors of Jamaica. The Lords Proprietors appointed Hugh Wentworth as their first Governor on 24th April, 1671, but he did not take up the appointment. They then confirmed in office John Wentworth, the popularly elected Governor, on the 26th of December, 1671. A regular system of government was established including a Parliament, the Lower House of which was elective, and this was continued with several breaks until the Civil and Military Government of the Islands was resumed by the Crown on the surrender of their rights by the Lords Proprietors on the 28th October, 1717. Thirteen Proprietary Governors were appointed between 1671 and 1715. The Settlement on New Providence was sacked by the Spaniards on several occasions between 1680 and 1684. In 1683 nearly all the inhabitants were driven away, and it was not until 1688 that the Settlement was re-formed by their return, principally from Jamaica, under the leadership of Thomas Bridges. Bridges was recognised as Governor by the Lords Proprietors on the 12th July, 1688, and the Settlement had reached some importance when it was practically annihilated by the French and Spaniards in 1703. However, a year or so after this the dispersed inhabitants returned to New Providence and another Proprietary Governor was appointed in 1707. But the Islands became a regular rendezvous for pirates, and this finally determined the Crown to resume the Civil and Military Government of the place, and thus accede to the numerous Civil Establishment: Aden Colony. Chief Justice, J. Taylor Lawrence, M.A., I.C.S. (ret.). Civil Secretary, Major M. C. Sinclair, O.B.E. Assistant Civil Secretary, R. P. Platt. Chairman of the Port Trust and of the Executive Committee of the Aden Settlement, J. V. Alexander, M.Inst.C.E. Finance Officer, A. Muchmore. Legal Adviser (vacant). Senior Medical Officer of the Colony of Aden and Port Health Officer, J. C. R. Buchanan, M.D. (Ed.), M.R.C.P. (E.), D.T.M. & H. (Eng.). Civil Surgeon, Dr. C. H. Howat, M.B., B.Ch., D.T.M. & H. (Eng.), F.R.C.S. (Ed.). Medical Officer, Dr. P. P. Murphy, M.B., B.Ch., B.A.O. (T.C.D.), D.T.M. & H. (Eng.). Commissioner of Police, Captain L. S. Parke. Deputy Commissioner of Police, Captain G. V. Roper. Auditor, G. E. L. Lord (also Auditor of Somaliland). Director of Education, J. P. Attenborough. Colonial Postmaster, A. J. Borland. Civil Establishment: Aden Protectorate. Political Secretary, Lt.-Col. M. C. Lake, C.M.G. Resident Adviser to Quaidi and Kathiri Sultans, W. H. Ingram, C.M.G., O.B.E. Assistant Resident Adviser, E. C. Figgis. Military Assistant, Major E. W. Northfield. Secretary, E. S. Kennedy. Political Officers, Captain B. W. Seager, O.B.E.; Hon. R. A. B. Hamilton; S. H. Perowne*; E. C. Figgis; C. H. J. Sheppard, O.B.E.; J. Goepel; P. C. Davey; Major E. W. Northfield; G. Humphrey-Smith; J. F. Lendrum; P. D. Fletcher; J. A. K. Leslie. Officer-in-Charge, Government Guards, C. H. J. Sheppard. Second-in-Command, R. F. Tring. Agricultural Officer, B. J. Hartley, M.B.E. Finance Officer, Seiyun, R. H. Strachan.",
+      "edition_years": [
+        1940
+      ],
+      "first_edition_year": 1940,
+      "last_edition_year": 1940,
+      "n_editions": 1,
+      "representative_source_file": "1940_manual_parsed/BAHAMAS.txt",
+      "char_start": 1112,
+      "char_end": 6083,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "San Salvador, so called by Columbus, the native name being Guanahani, one of the islands composing this chain, and identical with Watling's Island, was the first land discovered by him on his voyage in 1492.",
+          "char_start": 0,
+          "char_end": 207,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "San Salvador, so called by Columbus, the native name being Guanahani, one of the islands composing this chain, and identical with Watling's Island, was the first land discovered by him on his voyage in 1492.",
+          "char_start": 0,
+          "char_end": 207,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "Civil Establishment: Aden Protectorate.",
+          "char_start": 4271,
+          "char_end": 4310,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Robert Heath",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "They were included in the Royal Grant of Sir Robert Heath, the Attorney-General of England, of the 30th of October, 1629.",
+          "char_start": 544,
+          "char_end": 560,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lord Berkley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the Islands to Six of the Lords Proprietors of Carolina, namely, the Duke of Albemarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton.",
+          "char_start": 1559,
+          "char_end": 1571,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lord Ashley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the Islands to Six of the Lords Proprietors of Carolina, namely, the Duke of Albemarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton.",
+          "char_start": 1573,
+          "char_end": 1584,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir George Carteret",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the Islands to Six of the Lords Proprietors of Carolina, namely, the Duke of Albemarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton.",
+          "char_start": 1586,
+          "char_end": 1605,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Peter Colleton. Before",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the Islands to Six of the Lords Proprietors of Carolina, namely, the Duke of Albemarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton. Before the Royal Grant of 1670 the inhabitants of the islands had organised the Settlement and instituted a form of Government which included an elective House of Assembly, and had selected Captain John Wentworth as their Governor.",
+          "char_start": 1610,
+          "char_end": 1636,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain John Wentworth",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Before the Royal Grant of 1670 the inhabitants of the islands had organised the Settlement and instituted a form of Government which included an elective House of Assembly, and had selected Captain John Wentworth as their Governor.",
+          "char_start": 1820,
+          "char_end": 1842,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor. Wentworth",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "Before the Royal Grant of 1670 the inhabitants of the islands had organised the Settlement and instituted a form of Government which included an elective House of Assembly, and had selected Captain John Wentworth as their Governor. Wentworth applied to and received Commissions from the Governors of Jamaica.",
+          "char_start": 1852,
+          "char_end": 1871,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Chief Justice",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "Chief Justice, J.",
+          "char_start": 3433,
+          "char_end": 3446,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Bermuda",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Early in the 17th century the islands were well known to the settlers of Bermuda and the Carolinas.",
+          "char_start": 476,
+          "char_end": 483,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Wentworth applied to and received Commissions from the Governors of Jamaica.",
+          "char_start": 1930,
+          "char_end": 1937,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Aden",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "But the Islands became a regular rendezvous for pirates, and this finally determined the Crown to resume the Civil and Military Government of the place, and thus accede to the numerous Civil Establishment: Aden Colony.",
+          "char_start": 3420,
+          "char_end": 3424,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Somaliland",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Lord (also Auditor of Somaliland).",
+          "char_start": 4179,
+          "char_end": 4189,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1629,
+        1640,
+        1647,
+        1649,
+        1670,
+        1671,
+        1680,
+        1683,
+        1684,
+        1688,
+        1703,
+        1707,
+        1715,
+        1717
+      ]
+    },
+    {
+      "uri": "col:hversion/bahamas/history/ccb479b3b462",
+      "colony": "bahamas",
+      "section_slug": "history",
+      "version_hash": "ccb479b3b462",
+      "asserted_by": "Colonial Office List",
+      "text": "San Salvador, so called by Columbus, the native name being Guanahani, one of the islands composing this chain, and identical with Watling’s Island, was the first land discovered by him on his voyage in 1492. A few years later all the Carib inhabitants were transported to work in the Cuba mines. It does not appear that the Spaniards had any settlements on any of the islands of this group at any time. Early in the 17th century the islands were well known to the settlers of Bermuda and the Carolinas. They were included in the Royal Grant of Sir Robert Heath, the Attorney-General of England, of the 30th of October, 1629. By 1640 the islands had become a well-known place of resort by the inhabitants of Bermuda, and on the 9th of July, 1647, The Company of Eleutherian Adventurers was formed in London for the purpose of making an organised attempt at a systematic colonisation and development of the islands. William Sayle, a former Governor of Bermuda, was the moving spirit of this venture, and associated with him were a number of influential city merchants and members of Parliament. On the 31st of August, 1649, Parliament, on the petition of Sayle and others, passed “An Act for the Adventurers for the Eleutherian Islands,” which constituted Sayle and his associates the proprietors of the islands. Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the islands to six of the Lords Proprietors of Carolina, namely, the Duke of Albermarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton. Before the Royal Grant of 1670 the inhabitants of the islands had organised the settlement and instituted a form of government which included an elective House of Assembly, and had selected Captain John Wentworth as their Governor. Wentworth applied to and received commissions from the Governors of Jamaica. The Lords Proprietors appointed Hugh Wentworth as their first Governor on 24th April, 1671, but he did not take up the appointment. They then confirmed in office John Wentworth, the popularly elected Governor, on the 26th of December, 1671. A regular system of government was established including a parliament, the lower house of which was elective, and this was continued with several breaks until the civil and military government of the islands was resumed by the Crown on the surrender of their rights by the Lords Proprietors on the 28th October, 1717. Thirteen proprietary governors were appointed between 1671 and 1715. The settlement on New Providence was sacked by the Spaniards on several occasions between 1680 and 1684. In 1684 all the inhabitants were driven away, and it was not until 1688 that the settlement was re-formed by their return, principally from Jamaica, under the leadership of Thomas Bridges. Bridges was recognised as Governor by the Lords Proprietors on the 12th July, 1688, and the settlement had reached some importance when it was practically annihilated by the French and Spaniards in 1703. However, a year or so after this the dispersed inhabitants returned to New Providence and another Proprietary Governor was appointed in 1707. But the islands became a regular rendezvous for pirates, and this finally determined the Crown to resume the civil and military government of the place, and thus accede to the numerous petitions which the inhabitants had been making for several years and also carry out the express wishes of Parliament. Since 1717 there has been a continuous line of Royal Governors. The islands were surrendered to a fleet of the American rebels in 1776, and again to the Spaniards in 1781, but they had been re-taken by a British force under Colonel Deveaux before the conclusion of the war, which was brought to an end by the Peace of Versailles, 1783, when the British possession was confirmed. After the American Revolution a number of loyalists settled throughout the Bahamas Group and received substantial assistance from England, and on the 19th of March, 1787, the Lords Proprietors surrendered all their proprietary rights to the King for the sum of £12,000, which was provided by Parliament. The Turks and Caicos Islands, which geographically form part of the Bahamas chain, and which had often in their early history been claimed both by Bermuda and the Bahamas, were separated from the other Bahamas in 1848, and formed into a distinct presidency, under the government-in-chief of Jamaica.",
+      "edition_years": [
+        1946,
+        1949
+      ],
+      "first_edition_year": 1946,
+      "last_edition_year": 1949,
+      "n_editions": 2,
+      "representative_source_file": "1946_manual_parsed/bahamas.txt",
+      "char_start": 3707,
+      "char_end": 8202,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.999,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "San Salvador, so called by Columbus, the native name being Guanahani, one of the islands composing this chain, and identical with Watling’s Island, was the first land discovered by him on his voyage in 1492.",
+          "char_start": 0,
+          "char_end": 207,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1949
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "San Salvador, so called by Columbus, the native name being Guanahani, one of the islands composing this chain, and identical with Watling’s Island, was the first land discovered by him on his voyage in 1492.",
+          "char_start": 0,
+          "char_end": 207,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1949
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebels",
+            "war"
+          ],
+          "verbatim_span": "The islands were surrendered to a fleet of the American rebels in 1776, and again to the Spaniards in 1781, but they had been re-taken by a British force under Colonel Deveaux before the conclusion of the war, which was brought to an end by the Peace of Versailles, 1783, when the British possession was confirmed.",
+          "char_start": 3576,
+          "char_end": 3890,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1949
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Robert Heath",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "They were included in the Royal Grant of Sir Robert Heath, the Attorney-General of England, of the 30th of October, 1629.",
+          "char_start": 544,
+          "char_end": 560,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lord Berkley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the islands to six of the Lords Proprietors of Carolina, namely, the Duke of Albermarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton.",
+          "char_start": 1560,
+          "char_end": 1572,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Lord Ashley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the islands to six of the Lords Proprietors of Carolina, namely, the Duke of Albermarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton.",
+          "char_start": 1574,
+          "char_end": 1585,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir George Carteret",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the islands to six of the Lords Proprietors of Carolina, namely, the Duke of Albermarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton.",
+          "char_start": 1587,
+          "char_end": 1606,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Peter Colleton. Before",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Notwithstanding the Royal Grant to Heath in 1629 and the Cromwellian Act of 1649, Charles the Second, on the 1st of November, 1670, granted the islands to six of the Lords Proprietors of Carolina, namely, the Duke of Albermarle, the Earl of Craven, Lord Berkley, Lord Ashley, Sir George Carteret and Sir Peter Colleton. Before the Royal Grant of 1670 the inhabitants of the islands had organised the settlement and instituted a form of government which included an elective House of Assembly, and had selected Captain John Wentworth as their Governor.",
+          "char_start": 1611,
+          "char_end": 1637,
+          "year_reference": 1629,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain John Wentworth",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Before the Royal Grant of 1670 the inhabitants of the islands had organised the settlement and instituted a form of government which included an elective House of Assembly, and had selected Captain John Wentworth as their Governor.",
+          "char_start": 1821,
+          "char_end": 1843,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Governor. Wentworth",
+          "entity_type": "person",
+          "entity_subtype": "governor",
+          "source_span": "Before the Royal Grant of 1670 the inhabitants of the islands had organised the settlement and instituted a form of government which included an elective House of Assembly, and had selected Captain John Wentworth as their Governor. Wentworth applied to and received commissions from the Governors of Jamaica.",
+          "char_start": 1853,
+          "char_end": 1872,
+          "year_reference": 1670,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Colonel Deveaux",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The islands were surrendered to a fleet of the American rebels in 1776, and again to the Spaniards in 1781, but they had been re-taken by a British force under Colonel Deveaux before the conclusion of the war, which was brought to an end by the Peace of Versailles, 1783, when the British possession was confirmed.",
+          "char_start": 3736,
+          "char_end": 3751,
+          "year_reference": 1776,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Bermuda",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Early in the 17th century the islands were well known to the settlers of Bermuda and the Carolinas.",
+          "char_start": 476,
+          "char_end": 483,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Jamaica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Wentworth applied to and received commissions from the Governors of Jamaica.",
+          "char_start": 1931,
+          "char_end": 1938,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1949
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1629,
+        1640,
+        1647,
+        1649,
+        1670,
+        1671,
+        1680,
+        1684,
+        1688,
+        1703,
+        1707,
+        1715,
+        1717,
+        1776,
+        1781,
+        1783,
+        1787,
+        1848
+      ]
+    }
+  ]
+}

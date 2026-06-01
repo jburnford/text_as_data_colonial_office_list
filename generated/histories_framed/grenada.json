@@ -1,0 +1,555 @@
+{
+  "colony": "grenada",
+  "n_editions_with_history": 10,
+  "n_versions": 3,
+  "versions": [
+    {
+      "uri": "col:hversion/grenada/history/5298f1d1742d",
+      "colony": "grenada",
+      "section_slug": "history",
+      "version_hash": "5298f1d1742d",
+      "asserted_by": "Colonial Office List",
+      "text": "Grenada was discovered by Columbus in 1498, and was named Ascension. It was at that time inhabited by Caribs. In 1650 Du Parquet, Governor of Martinique, purchased Grenada from a French company. Finding the expense of maintaining an armed force to support his authority not compensated by the expectation of future profits, Du Parquet sold the island in 1657 to the Comte de Cerrillac for 30,000 crowns. The governor appointed by the new proprietor ruled with so much tyranny that the most respectable settlers left the island; he was at length seized, tried, and executed by the colonists. In 1674 the island was annexed to France, and the proprietors received compensation for their claims; but in 1762 it was surrendered to the English Commodore Swanton, and was formally ceded to Great Britain by the Treaty of Peace signed at Paris on the 10th of February, 1763. In 1779 it was retaken by the French; and in 1783 it was restored to Great Britain by the general Treaty of Peace of Versailles. In 1787 St. George's was made a free port. In 1834 the apprenticeship system was established, and this was followed in 1838 by unconditional emancipation.",
+      "edition_years": [
+        1890,
+        1894
+      ],
+      "first_edition_year": 1890,
+      "last_edition_year": 1894,
+      "n_editions": 2,
+      "representative_source_file": "1890_manual_parsed/grenada.txt",
+      "char_start": 1992,
+      "char_end": 3145,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Grenada was discovered by Columbus in 1498, and was named Ascension.",
+          "char_start": 0,
+          "char_end": 68,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "purchased"
+          ],
+          "verbatim_span": "In 1650 Du Parquet, Governor of Martinique, purchased Grenada from a French company.",
+          "char_start": 110,
+          "char_end": 194,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed",
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "In 1674 the island was annexed to France, and the proprietors received compensation for their claims; but in 1762 it was surrendered to the English Commodore Swanton, and was formally ceded to Great Britain by the Treaty of Peace signed at Paris on the 10th of February, 1763.",
+          "char_start": 591,
+          "char_end": 867,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Commodore Swanton",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1674 the island was annexed to France, and the proprietors received compensation for their claims; but in 1762 it was surrendered to the English Commodore Swanton, and was formally ceded to Great Britain by the Treaty of Peace signed at Paris on the 10th of February, 1763.",
+          "char_start": 739,
+          "char_end": 756,
+          "year_reference": 1674,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1890,
+            1894
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Ascension",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Grenada was discovered by Columbus in 1498, and was named Ascension.",
+          "char_start": 58,
+          "char_end": 67,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1890,
+            1894
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1650,
+        1657,
+        1674,
+        1762,
+        1763,
+        1779,
+        1783,
+        1787,
+        1834,
+        1838
+      ]
+    },
+    {
+      "uri": "col:hversion/grenada/history/9c14a371a260",
+      "colony": "grenada",
+      "section_slug": "history",
+      "version_hash": "9c14a371a260",
+      "asserted_by": "Colonial Office List",
+      "text": "Grenada was discovered by Columbus on 15th August, 1498, and was named by him Conception. It was at that time inhabited by Caribs. In 1650 Du Parquet, Governor of Martinique, purchased Grenada from a French company, and established a settlement at St. George's. Finding the expense of maintaining an armed force to support his authority not compensated by the expectation of future profits, Du Parquet sold the island in 1657 to the Comte de Cerrillac for 30,000 crowns. The Governor appointed by the new proprietor ruled with so much tyranny that the most respectable settlers left the island; he was at length seized, tried, and executed by the colonists. In 1674 the island was annexed to France, and the proprietors received compensation for their claims; but in 1762 it was surrendered to the English Commodore Swanton, and was formally ceded to Great Britain by the Treaty of Peace signed at Paris on the 10th of February, 1763. In 1779 it was retaken by the French under the Count D'Estaing; and in 1783 it was restored to Great Britain by the general Treaty of Peace of Versailles. In 1795–6 it was the scene of a rebellion against the British rule, instigated and assisted by the French. The Lieut.-Governor and 47 other British subjects were massacred in cold blood, and the Colony brought to the verge of ruin. In June, 1796, Sir Ralph Abercromby suppressed the rising, and the ringleaders were executed. In 1834 the apprenticeship system was established, and this was followed in 1838 by unconditional emancipation of the African slaves.",
+      "edition_years": [
+        1897,
+        1899
+      ],
+      "first_edition_year": 1897,
+      "last_edition_year": 1899,
+      "n_editions": 2,
+      "representative_source_file": "1899_manual_parsed/grenada.txt",
+      "char_start": 6202,
+      "char_end": 7753,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.965,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Grenada was discovered by Columbus on 15th August, 1498, and was named by him Conception.",
+          "char_start": 0,
+          "char_end": 89,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897,
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "purchased"
+          ],
+          "verbatim_span": "In 1650 Du Parquet, Governor of Martinique, purchased Grenada from a French company, and established a settlement at St.",
+          "char_start": 131,
+          "char_end": 251,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897,
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed",
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "In 1674 the island was annexed to France, and the proprietors received compensation for their claims; but in 1762 it was surrendered to the English Commodore Swanton, and was formally ceded to Great Britain by the Treaty of Peace signed at Paris on the 10th of February, 1763.",
+          "char_start": 658,
+          "char_end": 934,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897,
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebel",
+            "rebellion"
+          ],
+          "verbatim_span": "In 1795–6 it was the scene of a rebellion against the British rule, instigated and assisted by the French.",
+          "char_start": 1090,
+          "char_end": 1196,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897,
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british rule"
+          ],
+          "verbatim_span": "In 1795–6 it was the scene of a rebellion against the British rule, instigated and assisted by the French.",
+          "char_start": 1090,
+          "char_end": 1196,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897,
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "massacre"
+          ],
+          "verbatim_span": "The Lieut.-Governor and 47 other British subjects were massacred in cold blood, and the Colony brought to the verge of ruin.",
+          "char_start": 1197,
+          "char_end": 1321,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897,
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rising",
+            "suppressed"
+          ],
+          "verbatim_span": "In June, 1796, Sir Ralph Abercromby suppressed the rising, and the ringleaders were executed.",
+          "char_start": 1322,
+          "char_end": 1415,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897,
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Commodore Swanton",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1674 the island was annexed to France, and the proprietors received compensation for their claims; but in 1762 it was surrendered to the English Commodore Swanton, and was formally ceded to Great Britain by the Treaty of Peace signed at Paris on the 10th of February, 1763.",
+          "char_start": 806,
+          "char_end": 823,
+          "year_reference": 1674,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897,
+            1899
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Ralph Abercromby",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In June, 1796, Sir Ralph Abercromby suppressed the rising, and the ringleaders were executed.",
+          "char_start": 1337,
+          "char_end": 1357,
+          "year_reference": 1796,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897,
+            1899
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1650,
+        1657,
+        1674,
+        1762,
+        1763,
+        1779,
+        1783,
+        1795,
+        1796,
+        1834,
+        1838
+      ]
+    },
+    {
+      "uri": "col:hversion/grenada/history/5edb88a4d738",
+      "colony": "grenada",
+      "section_slug": "history",
+      "version_hash": "5edb88a4d738",
+      "asserted_by": "Colonial Office List",
+      "text": "Grenada was discovered by Columbus on 15th August, 1498, and was named by him Conception. It was at that time inhabited by Caribs. A settlement was attempted in 1609 by a company of London merchants, but the colonists were so harassed by the Caribs that the attempt was abandoned. In 1650 Du Parquet, Governor of Martinique, purchased Grenada from a French Company, and established a settlement at St. George's. Finding the expense of maintaining an armed force to support his authority not compensated by the expectation of future profits, Du Parquet sold the island in 1657 to the Comte de Cerrillac for 30,000 crowns. The Governor appointed by the new proprietor ruled with so much tyranny that the most respectable settlers left the island; he was at length seized, tried, and executed by the colonists. In 1674 the island was annexed to France, and the proprietors received compensation for their claims; and in 1762 it was surrendered to the British under Commodore Swanton, and was formally ceded to Great Britain by the Treaty of Paris on the 10th of February, 1763. In 1779 it was retaken by the French under the Count D'Eistaing; and in 1783 it was restored to Great Britain by the Treaty of Versailles. In 1795-6 it was the scene of a rebellion against the British rule, instigated by the French Republic. The Lieut.-Governor and 47 other British subjects were massacred by the rebels, and the colony brought to the verge of ruin. In June, 1796, Sir Ralph Abercrombie suppressed the rising, and the ringleaders were executed. In 1834 the apprenticeship system was established in regard to the African slaves, and this was followed in 1838 by their unconditional emancipation.",
+      "edition_years": [
+        1912,
+        1921,
+        1927,
+        1928,
+        1929,
+        1932
+      ],
+      "first_edition_year": 1912,
+      "last_edition_year": 1932,
+      "n_editions": 6,
+      "representative_source_file": "1921_manual_parsed/grenada.txt",
+      "char_start": 6037,
+      "char_end": 7725,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.993,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Grenada was discovered by Columbus on 15th August, 1498, and was named by him Conception.",
+          "char_start": 0,
+          "char_end": 89,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912,
+            1921,
+            1927,
+            1928,
+            1929,
+            1932
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "purchased"
+          ],
+          "verbatim_span": "In 1650 Du Parquet, Governor of Martinique, purchased Grenada from a French Company, and established a settlement at St.",
+          "char_start": 281,
+          "char_end": 401,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912,
+            1921,
+            1927,
+            1928,
+            1929,
+            1932
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed",
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "In 1674 the island was annexed to France, and the proprietors received compensation for their claims; and in 1762 it was surrendered to the British under Commodore Swanton, and was formally ceded to Great Britain by the Treaty of Paris on the 10th of February, 1763.",
+          "char_start": 808,
+          "char_end": 1074,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912,
+            1921,
+            1927,
+            1928,
+            1929,
+            1932
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebel",
+            "rebellion"
+          ],
+          "verbatim_span": "In 1795-6 it was the scene of a rebellion against the British rule, instigated by the French Republic.",
+          "char_start": 1214,
+          "char_end": 1316,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912,
+            1921,
+            1927,
+            1928,
+            1929,
+            1932
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british rule"
+          ],
+          "verbatim_span": "In 1795-6 it was the scene of a rebellion against the British rule, instigated by the French Republic.",
+          "char_start": 1214,
+          "char_end": 1316,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912,
+            1921,
+            1927,
+            1928,
+            1929,
+            1932
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "massacre",
+            "rebels"
+          ],
+          "verbatim_span": "The Lieut.-Governor and 47 other British subjects were massacred by the rebels, and the colony brought to the verge of ruin.",
+          "char_start": 1317,
+          "char_end": 1441,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912,
+            1921,
+            1927,
+            1928,
+            1929,
+            1932
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rising",
+            "suppressed"
+          ],
+          "verbatim_span": "In June, 1796, Sir Ralph Abercrombie suppressed the rising, and the ringleaders were executed.",
+          "char_start": 1442,
+          "char_end": 1536,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1912,
+            1921,
+            1927,
+            1928,
+            1929,
+            1932
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Commodore Swanton",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1674 the island was annexed to France, and the proprietors received compensation for their claims; and in 1762 it was surrendered to the British under Commodore Swanton, and was formally ceded to Great Britain by the Treaty of Paris on the 10th of February, 1763.",
+          "char_start": 962,
+          "char_end": 979,
+          "year_reference": 1674,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912,
+            1921,
+            1927,
+            1928,
+            1929,
+            1932
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Ralph Abercrombie",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In June, 1796, Sir Ralph Abercrombie suppressed the rising, and the ringleaders were executed.",
+          "char_start": 1457,
+          "char_end": 1478,
+          "year_reference": 1796,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1912,
+            1921,
+            1927,
+            1928,
+            1929,
+            1932
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1609,
+        1650,
+        1657,
+        1674,
+        1762,
+        1763,
+        1779,
+        1783,
+        1795,
+        1796,
+        1834,
+        1838
+      ]
+    }
+  ]
+}

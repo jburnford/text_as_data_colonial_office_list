@@ -1,0 +1,2703 @@
+{
+  "colony": "falkland_islands",
+  "n_editions_with_history": 38,
+  "n_versions": 10,
+  "versions": [
+    {
+      "uri": "col:hversion/falkland_islands/history/1e0d6d479dd0",
+      "colony": "falkland_islands",
+      "section_slug": "history",
+      "version_hash": "1e0d6d479dd0",
+      "asserted_by": "Colonial Office List",
+      "text": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1768 they were taken possession of by France; subsequently, they were held by the Spaniards until 1771, when they were for a time abandoned, and the sovereignty of them given up to Great Britain. In 1820 the Republic of Buenos Ayres established a settlement in these islands, which was destroyed by the Americans in 1831. In 1833 they were taken possession of by the British Government, for the protection of the Whale Fishery. Until 1842 they were under the charge of the Naval officers engaged in making the Admiralty Surveys. In 1842 a civil administration was formed, the headquarters being at Port Louis (or \"Anson\") until 1844, when it was moved to Port William, now known as Stanley. The Colony received regular grants in aid from 1841 to 1880, and for mail service down to 1884-5, since which date it has been self-supporting.",
+      "edition_years": [
+        1888,
+        1889,
+        1890
+      ],
+      "first_edition_year": 1888,
+      "last_edition_year": 1890,
+      "n_editions": 3,
+      "representative_source_file": "1888_manual_parsed/FALKLAND_ISLANDS.txt",
+      "char_start": 842,
+      "char_end": 1761,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.987,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594.",
+          "char_start": 0,
+          "char_end": 79,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "In 1768 they were taken possession of by France; subsequently, they were held by the Spaniards until 1771, when they were for a time abandoned, and the sovereignty of them given up to Great Britain.",
+          "char_start": 80,
+          "char_end": 278,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "In 1768 they were taken possession of by France; subsequently, they were held by the Spaniards until 1771, when they were for a time abandoned, and the sovereignty of them given up to Great Britain.",
+          "char_start": 80,
+          "char_end": 278,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "In 1833 they were taken possession of by the British Government, for the protection of the Whale Fishery.",
+          "char_start": 405,
+          "char_end": 510,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "In 1833 they were taken possession of by the British Government, for the protection of the Whale Fishery.",
+          "char_start": 405,
+          "char_end": 510,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [],
+      "year_references": [
+        1592,
+        1594,
+        1768,
+        1771,
+        1820,
+        1831,
+        1833,
+        1841,
+        1842,
+        1844,
+        1880,
+        1884
+      ]
+    },
+    {
+      "uri": "col:hversion/falkland_islands/history/f38747a23d1f",
+      "colony": "falkland_islands",
+      "section_slug": "history",
+      "version_hash": "f38747a23d1f",
+      "asserted_by": "Colonial Office List",
+      "text": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1763 they were taken possession of by France, and Bougainville planted a small colony of Acadians at Port Louis on E. Falkland. Bougainville was bought out by Spain, ever jealous of interference by other nations in the southern seas, in 1764. In the following year Captain Byron took possession of W. Falkland, and left a small garrison, which was driven out by the Spaniards in 1770. It was restored next year, but abandoned in 1774, and no further formal occupation made till in 1820 the Republic of Buenos Ayres established a settlement in these islands, which was destroyed by the Americans in 1831. In 1833 they were taken possession of by the British Government, for the protection of the Whale Fishery. Until 1842 they were under the charge of the Naval officers engaged in making the Admiralty Surveys. In 1842 a civil administration was formed, the headquarters being at Port Louis (\"or 'Anson\") until 1844, when it was moved to Port William, now known as Stanley. The Colony received regular grants in aid from 1841 to 1880, and for mail service down to 1884-5, since which date it has been self-supporting.",
+      "edition_years": [
+        1894,
+        1896,
+        1898,
+        1899,
+        1900,
+        1905,
+        1906,
+        1907,
+        1908,
+        1910,
+        1911,
+        1912,
+        1913,
+        1914,
+        1915
+      ],
+      "first_edition_year": 1894,
+      "last_edition_year": 1915,
+      "n_editions": 15,
+      "representative_source_file": "1898_manual_parsed/FALKLAND_ISLANDS.txt",
+      "char_start": 1132,
+      "char_end": 2333,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.959,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594.",
+          "char_start": 0,
+          "char_end": 79,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "In 1763 they were taken possession of by France, and Bougainville planted a small colony of Acadians at Port Louis on E.",
+          "char_start": 80,
+          "char_end": 200,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "In the following year Captain Byron took possession of W.",
+          "char_start": 326,
+          "char_end": 383,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "In 1833 they were taken possession of by the British Government, for the protection of the Whale Fishery.",
+          "char_start": 687,
+          "char_end": 792,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "In 1833 they were taken possession of by the British Government, for the protection of the Whale Fishery.",
+          "char_start": 687,
+          "char_end": 792,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Byron",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In the following year Captain Byron took possession of W.",
+          "char_start": 348,
+          "char_end": 361,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1899,
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1592,
+        1594,
+        1763,
+        1764,
+        1770,
+        1774,
+        1820,
+        1831,
+        1833,
+        1841,
+        1842,
+        1844,
+        1880,
+        1884
+      ]
+    },
+    {
+      "uri": "col:hversion/falkland_islands/history/a051a36b5b2e",
+      "colony": "falkland_islands",
+      "section_slug": "history",
+      "version_hash": "a051a36b5b2e",
+      "asserted_by": "Colonial Office List",
+      "text": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1584. In 1764 they were taken possession of by France, and Bougainville planted a small colony of Acadians at Port Louis on E. Falkland. Bougainville was bought out by Spain, ever jealous of interference by other nations in the southern seas, in 1766. In the following year Captain Byron took possession of W. Falkland, and left a small garrison, which was driven out by the Spaniards in 1770. It was restored next year, but abandoned in 1774, and no further formal occupation made till in 1820 the Republic of Buenos Ayres established a settlement in these islands, which was destroyed by the Americans in 1831. In 1832 they were taken possession of by the British Government, for the protection of the whale fishery. Until 1843 they were under the charge of the Naval officers engaged in making the Admiralty surveys. In 1843 a Civil Administration was formed, the headquarters being at Port Louis (or \"Anson\") until 1844, when it was moved to Port William, now known as Stanley. The Colony received regular grants in aid from 1841 to 1880, and for mail service down to 1884-5, since which date it has been self-supporting. On the 8th December, 1914, a naval battle was fought off the Falkland Islands, when a British squadron, under the command of Vice-Admiral (now Admiral) Sir F. C. Doveton Sturdee, Bt., K.C.B., K.C.M.G., C.V.O., defeated and sank a German squadron consisting of two armoured cruisers, Scharnhorst and Gneisenau, two light cruisers, Leipzig and Nurnberg, and two transports. The light cruiser Dresden, of the German squadron, was subsequently sunk on the 5th March, 1915. There was no loss of ships on the British side, the only casualties being seven killed and twelve wounded. On the 31st May, 1916, Sir Ernest Shackleton, with two members of the Imperial Transantarctic Expedition (Captain Worsley and Petty Officer Crean), arrived unexpectedly at Stanley in a whale catcher. The \"Endurance\" had been crushed by the ice in the Weddell Sea on 27th October, 1915, and the whole of the expedition had managed to reach Elephant Island in April, 1916. Shackleton, leaving there 22 members of the expedition, had made his way with five companions in an open boat to South Georgia, a distance of about 1,000 miles. He himself, with Worsley and Crean had crossed the island on foot to the settlements on the northern coast, this being the first time South Georgia has been crossed.",
+      "edition_years": [
+        1918,
+        1919,
+        1920,
+        1921
+      ],
+      "first_edition_year": 1918,
+      "last_edition_year": 1921,
+      "n_editions": 4,
+      "representative_source_file": "1918_manual_parsed/FALKLAND_ISLANDS.txt",
+      "char_start": 1657,
+      "char_end": 4132,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.992,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1584.",
+          "char_start": 0,
+          "char_end": 79,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "In 1764 they were taken possession of by France, and Bougainville planted a small colony of Acadians at Port Louis on E.",
+          "char_start": 80,
+          "char_end": 200,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "In the following year Captain Byron took possession of W.",
+          "char_start": 326,
+          "char_end": 383,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "In 1832 they were taken possession of by the British Government, for the protection of the whale fishery.",
+          "char_start": 687,
+          "char_end": 792,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "In 1832 they were taken possession of by the British Government, for the protection of the whale fishery.",
+          "char_start": 687,
+          "char_end": 792,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "Doveton Sturdee, Bt., K.C.B., K.C.M.G., C.V.O., defeated and sank a German squadron consisting of two armoured cruisers, Scharnhorst and Gneisenau, two light cruisers, Leipzig and Nurnberg, and two transports.",
+          "char_start": 1362,
+          "char_end": 1571,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "On the 31st May, 1916, Sir Ernest Shackleton, with two members of the Imperial Transantarctic Expedition (Captain Worsley and Petty Officer Crean), arrived unexpectedly at Stanley in a whale catcher.",
+          "char_start": 1776,
+          "char_end": 1975,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "On the 31st May, 1916, Sir Ernest Shackleton, with two members of the Imperial Transantarctic Expedition (Captain Worsley and Petty Officer Crean), arrived unexpectedly at Stanley in a whale catcher.",
+          "char_start": 1776,
+          "char_end": 1975,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The \"Endurance\" had been crushed by the ice in the Weddell Sea on 27th October, 1915, and the whole of the expedition had managed to reach Elephant Island in April, 1916.",
+          "char_start": 1976,
+          "char_end": 2146,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "Shackleton, leaving there 22 members of the expedition, had made his way with five companions in an open boat to South Georgia, a distance of about 1,000 miles.",
+          "char_start": 2147,
+          "char_end": 2307,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Byron",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In the following year Captain Byron took possession of W.",
+          "char_start": 348,
+          "char_end": 361,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Ernest Shackleton",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "On the 31st May, 1916, Sir Ernest Shackleton, with two members of the Imperial Transantarctic Expedition (Captain Worsley and Petty Officer Crean), arrived unexpectedly at Stanley in a whale catcher.",
+          "char_start": 1799,
+          "char_end": 1820,
+          "year_reference": 1916,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain Worsley",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On the 31st May, 1916, Sir Ernest Shackleton, with two members of the Imperial Transantarctic Expedition (Captain Worsley and Petty Officer Crean), arrived unexpectedly at Stanley in a whale catcher.",
+          "char_start": 1882,
+          "char_end": 1897,
+          "year_reference": 1916,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918,
+            1919,
+            1920,
+            1921
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1584,
+        1592,
+        1764,
+        1766,
+        1770,
+        1774,
+        1820,
+        1831,
+        1832,
+        1841,
+        1843,
+        1844,
+        1880,
+        1884,
+        1914,
+        1915,
+        1916
+      ]
+    },
+    {
+      "uri": "col:hversion/falkland_islands/history/ba95fbf90dd2",
+      "colony": "falkland_islands",
+      "section_slug": "history",
+      "version_hash": "ba95fbf90dd2",
+      "asserted_by": "Colonial Office List",
+      "text": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1764 they were taken possession of by France and Bougainville planted a small colony of Acadians at Port Louis in East Falkland. Bougainville was bought out by Spain, ever jealous of interference by other nations in the southern seas, in 1766. In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain, to the verge of war. The Spaniards restored the island in 1771, but it was abandoned in 1774 and no further formal occupation was made until 1820, when the Republic of Buenos Aires established a settlement which was destroyed by the Americans in 1831. In 1832 occupation of the islands was resumed by the British Government for the protection of the whale fishery. Until 1843, they were under the charge of the Naval officers engaged in making Admiralty surveys. In 1843, a Civil Administration was formed, the headquarters being at Port Louis until the following year when they were removed to Stanley, then known as Port William. The colony received regular grants in aid from 1841 until 1880 and for a mail service until 1884-5, since which year the colony has been self supporting. On the 8th of December, 1914, in an action off the Falklands, a British squadron under Vice-Admiral (now Admiral) Sir F. C. Doveton Sturdee defeated and sank a German squadron consisting of two armoured cruisers Scharnhorst and Gneisenau, two light cruisers, Leipzig and Nurnberg, and two transports. The light cruiser Dresden, having escaped from this action was subsequently sunk in March, 1915. No British ships were lost, and the casualties were seven killed and twelve wounded. In May, 1916, Sir Ernest Shackleton arrived in Stanley in a whale catcher from South Georgia, having left 22 members of his exploring expedition on Elephant Island, South Shetland, while he made his way to South Georgia to seek help. He had sailed 700 miles in an open boat with five companions and had crossed South Georgia on foot for the first time in its history. Every member of the expedition was saved. South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain. South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G. Powell in 1821. The dependencies were visited only by exploring expeditions, sealers, and whalers until the rise of the modern whaling industry in those regions.",
+      "edition_years": [
+        1922,
+        1923
+      ],
+      "first_edition_year": 1922,
+      "last_edition_year": 1923,
+      "n_editions": 2,
+      "representative_source_file": "1923_manual_parsed/falkland_islands.txt",
+      "char_start": 1407,
+      "char_end": 4061,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.993,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594.",
+          "char_start": 0,
+          "char_end": 79,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "In 1764 they were taken possession of by France and Bougainville planted a small colony of Acadians at Port Louis in East Falkland.",
+          "char_start": 80,
+          "char_end": 211,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain, to the verge of war.",
+          "char_start": 327,
+          "char_end": 577,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain, to the verge of war.",
+          "char_start": 327,
+          "char_end": 577,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "In 1832 occupation of the islands was resumed by the British Government for the protection of the whale fishery.",
+          "char_start": 809,
+          "char_end": 921,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "Doveton Sturdee defeated and sank a German squadron consisting of two armoured cruisers Scharnhorst and Gneisenau, two light cruisers, Leipzig and Nurnberg, and two transports.",
+          "char_start": 1467,
+          "char_end": 1643,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "In May, 1916, Sir Ernest Shackleton arrived in Stanley in a whale catcher from South Georgia, having left 22 members of his exploring expedition on Elephant Island, South Shetland, while he made his way to South Georgia to seek help.",
+          "char_start": 1826,
+          "char_end": 2059,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "Every member of the expedition was saved.",
+          "char_start": 2194,
+          "char_end": 2235,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 2236,
+          "char_end": 2366,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 2236,
+          "char_end": 2366,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 2367,
+          "char_end": 2485,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 2367,
+          "char_end": 2485,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The dependencies were visited only by exploring expeditions, sealers, and whalers until the rise of the modern whaling industry in those regions.",
+          "char_start": 2502,
+          "char_end": 2647,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Byron",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain, to the verge of war.",
+          "char_start": 349,
+          "char_end": 362,
+          "year_reference": 1770,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Ernest Shackleton",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In May, 1916, Sir Ernest Shackleton arrived in Stanley in a whale catcher from South Georgia, having left 22 members of his exploring expedition on Elephant Island, South Shetland, while he made his way to South Georgia to seek help.",
+          "char_start": 1840,
+          "char_end": 1861,
+          "year_reference": 1916,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain James Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 2306,
+          "char_end": 2324,
+          "year_reference": 1775,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain William Smith",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 2424,
+          "char_end": 2445,
+          "year_reference": 1819,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1923
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1592,
+        1594,
+        1764,
+        1766,
+        1770,
+        1771,
+        1774,
+        1775,
+        1819,
+        1820,
+        1821,
+        1831,
+        1832,
+        1841,
+        1843,
+        1880,
+        1884,
+        1914,
+        1915,
+        1916
+      ]
+    },
+    {
+      "uri": "col:hversion/falkland_islands/history/08985bc519ed",
+      "colony": "falkland_islands",
+      "section_slug": "history",
+      "version_hash": "08985bc519ed",
+      "asserted_by": "Colonial Office List",
+      "text": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1764 they were taken possession of by France and Bougainville planted a small colony of Acadians at Port Louis in East Falkland. Bougainville was bought out by Spain, ever jealous of interference by other nations in the southern seas, in 1766. In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war. The Spaniards restored the island in 1771, but it was abandoned in 1774 and no further formal occupation was made until 1820, when the Republic of Buenos Aires established a settlement which was destroyed by the Americans in 1831. In 1832 occupation of the islands was resumed by the British Government for the protection of the whale fishery. Until 1843, they were under the charge of the Naval officers engaged in making Admiralty surveys. In 1843, a Civil Administration was formed, the headquarters being at Port Louis until the following year when they were removed to Stanley, then known as Port William. The colony received regular grants in aid from 1841 until 1880 and for a mail service until 1884-5, since which year the colony has been self-supporting. On the 8th of December, 1914, in an action off the Falklands, a British squadron under the late Admiral Sir F. C. Doveton Sturdee defeated and sank a German squadron consisting of two armoured cruisers Scharnhorst and Gneisenau, two light cruisers, Leipzig and Nurnberg, and two transports. The light cruiser Dresden, having escaped from this action was subsequently sunk in March, 1915. No British ships were lost, and the total British casualties were seven killed and twelve wounded. South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain. South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G. Powell in 1821. The dependencies were visited only by exploring expeditions, sealers, and whalers until the rise of the modern whaling industry in those regions. In May, 1916, Sir Ernest Shackleton arrived in Stanley in a whale catcher from South Georgia, having left 22 members of his exploring expedition on Elephant Island, South Shetland, while he made his way to South Georgia to seek help. He had sailed 700 miles in an open boat with five companions and had crossed South Georgia on foot for the first time in its history. Every member of the expedition was saved.",
+      "edition_years": [
+        1924,
+        1927,
+        1928,
+        1929
+      ],
+      "first_edition_year": 1924,
+      "last_edition_year": 1929,
+      "n_editions": 4,
+      "representative_source_file": "1929_manual_parsed/FALKLAND_ISLANDS.txt",
+      "char_start": 1480,
+      "char_end": 4156,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.982,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594.",
+          "char_start": 0,
+          "char_end": 79,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "In 1764 they were taken possession of by France and Bougainville planted a small colony of Acadians at Port Louis in East Falkland.",
+          "char_start": 80,
+          "char_end": 211,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 327,
+          "char_end": 595,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 327,
+          "char_end": 595,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "In 1832 occupation of the islands was resumed by the British Government for the protection of the whale fishery.",
+          "char_start": 827,
+          "char_end": 939,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "Doveton Sturdee defeated and sank a German squadron consisting of two armoured cruisers Scharnhorst and Gneisenau, two light cruisers, Leipzig and Nurnberg, and two transports.",
+          "char_start": 1475,
+          "char_end": 1651,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1848,
+          "char_end": 1978,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1848,
+          "char_end": 1978,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1979,
+          "char_end": 2097,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1979,
+          "char_end": 2097,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The dependencies were visited only by exploring expeditions, sealers, and whalers until the rise of the modern whaling industry in those regions.",
+          "char_start": 2114,
+          "char_end": 2259,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "In May, 1916, Sir Ernest Shackleton arrived in Stanley in a whale catcher from South Georgia, having left 22 members of his exploring expedition on Elephant Island, South Shetland, while he made his way to South Georgia to seek help.",
+          "char_start": 2260,
+          "char_end": 2493,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "Every member of the expedition was saved.",
+          "char_start": 2628,
+          "char_end": 2669,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Byron",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 349,
+          "char_end": 362,
+          "year_reference": 1770,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Sir F. C.",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On the 8th of December, 1914, in an action off the Falklands, a British squadron under the late Admiral Sir F. C. Doveton Sturdee defeated and sank a German squadron consisting of two armoured cruisers Scharnhorst and Gneisenau, two light cruisers, Leipzig and Nurnberg, and two transports.",
+          "char_start": 1457,
+          "char_end": 1474,
+          "year_reference": 1914,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain James Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1918,
+          "char_end": 1936,
+          "year_reference": 1775,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain William Smith",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 2036,
+          "char_end": 2057,
+          "year_reference": 1819,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Ernest Shackleton",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In May, 1916, Sir Ernest Shackleton arrived in Stanley in a whale catcher from South Georgia, having left 22 members of his exploring expedition on Elephant Island, South Shetland, while he made his way to South Georgia to seek help.",
+          "char_start": 2274,
+          "char_end": 2295,
+          "year_reference": 1916,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1927,
+            1928,
+            1929
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1592,
+        1594,
+        1764,
+        1766,
+        1770,
+        1771,
+        1774,
+        1775,
+        1819,
+        1820,
+        1821,
+        1831,
+        1832,
+        1841,
+        1843,
+        1880,
+        1884,
+        1914,
+        1915,
+        1916
+      ]
+    },
+    {
+      "uri": "col:hversion/falkland_islands/history/6ab05907d477",
+      "colony": "falkland_islands",
+      "section_slug": "history",
+      "version_hash": "6ab05907d477",
+      "asserted_by": "Colonial Office List",
+      "text": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1764 they were taken possession of by France and Bougainville planted a small colony of Acadians at Port Louis in East Falkland. Bougainville was bought out by Spain, ever jealous of interference by other nations in the southern seas, in 1766. In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war. The Spaniards restored the island in 1771, but it was abandoned in 1774 and no further formal occupation was made until 1820, when the Republic of Buenos Aires established a settlement which was destroyed by the Americans in 1831. In 1832 occupation of the islands was resumed by the British Government for the protection of the whale fishery. Until 1843, they were under the charge of the Naval officers engaged in making Admiralty surveys. In 1843, a Civil Administration was formed, the headquarters being at Port Louis until the following year when they were removed to Stanley, then known as Port William. The colony received regular grants in aid from 1841 until 1880 and for a mail service until 1884-5, since which year the colony has been self-supporting. On the 8th of December, 1914, in an action off the Falklands, a British squadron under the late Admiral Sir F. C. Doveton Sturdee defeated and sank a German squadron consisting of two armoured cruisers Scharnhorst and Gneisenau, two light cruisers, Leipzig and Nurnberg, and two transports. The light cruiser Dresden, having escaped from this action was subsequently sunk in March, 1915. No British ships were lost, and the total British casualties were seven killed and twelve wounded. South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain. South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G. Powell in 1821. The dependencies were visited only by exploring expeditions, sealers, and whalers until the rise of the modern whaling industry in those regions. In May, 1916, Sir Ernest Shackleton arrived in Stanley in a whale catcher from South Georgia, having left 22 members of his exploring expedition on Elephant Island, South Shetland, while he made his way to South Georgia to seek help. He had sailed 700 miles in an open boat with five companions and had crossed South Georgia on foot for the first time in its history. Every member of the expedition was saved. General Description (a) Falkland Islands. The Falkland Islands have a very deeply indented coast line and many good natural harbours. The surface is hilly, attaining its maximum elevation of 2,315 feet in Mount Adam, West Falkland. The entire country is covered with wild moorland interrupted by outcrops of rock and the peculiar collections of angular boulders named \"stone runs.\" There is no cultivation except in the immediate vicinity of the settlements and shepherds' houses where vegetables and in a few places hay is grown. The soil is chiefly peat but considerable areas of sand also occur. Communication is maintained by sea and horses, but there are no roads outside Stanley, the traveller being guided by natural landmarks. Trees are completely absent. The only town is Stanley in East Falkland, with a population of about 960. The houses are mostly iron and wood, built as they are required for occupation. It is difficult to rent a house but there are several boarding houses affording fair accommodation. Stanley is a port of register and had, on the 31st December, 1928, thirty-two vessels aggregating 38,689 tons. The cost of mutton is 3d. per lb., of beef 5d., fowls' eggs when procurable cost 3d., to 3½d. each, while penguin eggs in spring are sold at a price varying from 4s. to 8s. 6d. per hundred. Milk is priced at 1s. per quart. Most foodstuffs have to be imported.",
+      "edition_years": [
+        1930,
+        1931
+      ],
+      "first_edition_year": 1930,
+      "last_edition_year": 1931,
+      "n_editions": 2,
+      "representative_source_file": "1930_manual_parsed/FALKLAND_ISLANDS.txt",
+      "char_start": 1480,
+      "char_end": 5554,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.99,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594.",
+          "char_start": 0,
+          "char_end": 79,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "In 1764 they were taken possession of by France and Bougainville planted a small colony of Acadians at Port Louis in East Falkland.",
+          "char_start": 80,
+          "char_end": 211,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 327,
+          "char_end": 595,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 327,
+          "char_end": 595,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "In 1832 occupation of the islands was resumed by the British Government for the protection of the whale fishery.",
+          "char_start": 827,
+          "char_end": 939,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "Doveton Sturdee defeated and sank a German squadron consisting of two armoured cruisers Scharnhorst and Gneisenau, two light cruisers, Leipzig and Nurnberg, and two transports.",
+          "char_start": 1475,
+          "char_end": 1651,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1848,
+          "char_end": 1978,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1848,
+          "char_end": 1978,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1979,
+          "char_end": 2097,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1979,
+          "char_end": 2097,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The dependencies were visited only by exploring expeditions, sealers, and whalers until the rise of the modern whaling industry in those regions.",
+          "char_start": 2114,
+          "char_end": 2259,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "In May, 1916, Sir Ernest Shackleton arrived in Stanley in a whale catcher from South Georgia, having left 22 members of his exploring expedition on Elephant Island, South Shetland, while he made his way to South Georgia to seek help.",
+          "char_start": 2260,
+          "char_end": 2493,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "Every member of the expedition was saved.",
+          "char_start": 2628,
+          "char_end": 2669,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Byron",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 349,
+          "char_end": 362,
+          "year_reference": 1770,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Admiral Sir F. C.",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "On the 8th of December, 1914, in an action off the Falklands, a British squadron under the late Admiral Sir F. C. Doveton Sturdee defeated and sank a German squadron consisting of two armoured cruisers Scharnhorst and Gneisenau, two light cruisers, Leipzig and Nurnberg, and two transports.",
+          "char_start": 1457,
+          "char_end": 1474,
+          "year_reference": 1914,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain James Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1918,
+          "char_end": 1936,
+          "year_reference": 1775,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain William Smith",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 2036,
+          "char_end": 2057,
+          "year_reference": 1819,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Ernest Shackleton",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In May, 1916, Sir Ernest Shackleton arrived in Stanley in a whale catcher from South Georgia, having left 22 members of his exploring expedition on Elephant Island, South Shetland, while he made his way to South Georgia to seek help.",
+          "char_start": 2274,
+          "char_end": 2295,
+          "year_reference": 1916,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Description",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "General Description (a) Falkland Islands.",
+          "char_start": 2670,
+          "char_end": 2689,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1592,
+        1594,
+        1764,
+        1766,
+        1770,
+        1771,
+        1774,
+        1775,
+        1819,
+        1820,
+        1821,
+        1831,
+        1832,
+        1841,
+        1843,
+        1880,
+        1884,
+        1914,
+        1915,
+        1916,
+        1928
+      ]
+    },
+    {
+      "uri": "col:hversion/falkland_islands/history/9cf50e147f35",
+      "colony": "falkland_islands",
+      "section_slug": "history",
+      "version_hash": "9cf50e147f35",
+      "asserted_by": "Colonial Office List",
+      "text": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1764 they were taken possession of by France and Bougainville planted a small colony of Acadians at Port Louis in East Falkland. Bougainville was bought out by Spain, ever jealous of interference by other nations in the southern seas, in 1766. In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war. The Spaniards restored the island in 1771, but it was abandoned in 1774 and no further formal occupation was made until 1820, when the Republic of Buenos Aires established a settlement which was destroyed by the Americans in 1831. In 1833 occupation of the islands was resumed by the British Government for the protection of the whale fishery. Until 1842, they were under the charge of the Naval officers engaged in making Admiralty surveys. In 1842, a Civil Administration was formed, the headquarters being at Port Louis until the following year when they were removed to Stanley, then known as Port William. The colony received regular grants in aid from 1841 until 1880 and for a mail service until 1884-5, since which year the colony has been self-supporting. South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain. South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G. Powell in 1821. The dependencies were visited only by exploring expeditions, sealers, and whalers until the rise of the modern whaling industry in those regions. General Description (a) Falkland Islands. The Falkland Islands have a very deeply indented coast line and many good natural harbours. The surface is hilly, attaining its maximum elevation of 2,315 feet in Mount Adam, West Falkland. The entire country is covered with wild moorland interrupted by outcrops of rock and the peculiar collections of angular boulders named \"stone runs.\" There is no cultivation except in the immediate vicinity of the settlements and shepherds' houses where vegetables and in a few places hay is grown. The soil is chiefly peat but considerable areas of sand also occur. Communication is maintained by sea and horses, but there are no roads beyond the immediate vicinity of Stanley, the traveller being guided by natural landmarks. A commencement has been recently made to indicate recognized tracks with direction posts. Trees are completely absent. The only town is Stanley in East Falkland, with a population of about 1,200. The houses are mostly iron and wood, built as they are required for occupation. It is difficult to rent a house but there are several boarding houses affording fair accommodation. Stanley is a port of register and had, on the 31st December, 1930, 34 vessels aggregating 39,603 tons. The cost of mutton is 3d. per lb., of beef 5d., fowls' eggs when procurable cost 2½d. to 3d. each, while penguin eggs in spring are sold at a price varying from 4s. to 8s. 6d. per hundred. Milk is priced at 1s. per quart. Most foodstuffs have to be imported.",
+      "edition_years": [
+        1932,
+        1933,
+        1934,
+        1936,
+        1937
+      ],
+      "first_edition_year": 1932,
+      "last_edition_year": 1937,
+      "n_editions": 5,
+      "representative_source_file": "1932_manual_parsed/FALKLAND_ISLANDS.txt",
+      "char_start": 1490,
+      "char_end": 4773,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.958,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594.",
+          "char_start": 0,
+          "char_end": 79,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "In 1764 they were taken possession of by France and Bougainville planted a small colony of Acadians at Port Louis in East Falkland.",
+          "char_start": 80,
+          "char_end": 211,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 327,
+          "char_end": 595,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 327,
+          "char_end": 595,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "In 1833 occupation of the islands was resumed by the British Government for the protection of the whale fishery.",
+          "char_start": 827,
+          "char_end": 939,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1361,
+          "char_end": 1491,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1361,
+          "char_end": 1491,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1492,
+          "char_end": 1610,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1492,
+          "char_end": 1610,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The dependencies were visited only by exploring expeditions, sealers, and whalers until the rise of the modern whaling industry in those regions.",
+          "char_start": 1627,
+          "char_end": 1772,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Byron",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In the following year Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 349,
+          "char_end": 362,
+          "year_reference": 1770,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain James Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1431,
+          "char_end": 1449,
+          "year_reference": 1775,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain William Smith",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1549,
+          "char_end": 1570,
+          "year_reference": 1819,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Description",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "General Description (a) Falkland Islands.",
+          "char_start": 1773,
+          "char_end": 1792,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1592,
+        1594,
+        1764,
+        1766,
+        1770,
+        1771,
+        1774,
+        1775,
+        1819,
+        1820,
+        1821,
+        1831,
+        1833,
+        1841,
+        1842,
+        1880,
+        1884,
+        1930
+      ]
+    },
+    {
+      "uri": "col:hversion/falkland_islands/history/564cd89d88b9",
+      "colony": "falkland_islands",
+      "section_slug": "history",
+      "version_hash": "564cd89d88b9",
+      "asserted_by": "Colonial Office List",
+      "text": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1764 Bougainville planted a small colony of Acadians at Port Louis in East Falkland. The French settlement was taken over by Spain, ever jealous of interference by other nations in the southern seas, in 1766. In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war. The Spaniards restored the British garrison in 1771, but it was abandoned in 1774 and no further formal occupation was made until 1820, when the Republic of Buenos Aires established a settlement in the East Falkland which was destroyed by the Americans in 1831. In 1833 occupation of the islands was resumed by the British Government. Until 1843, they were under the charge of the Naval officers engaged in making Admiralty surveys. In 1843, a Civil Administration was formed, the headquarters being at Port Louis until the following year when they were removed to Stanley, then known as Port William. The colony received regular grants in aid from 1841 until 1880 and for a mail service until 1884-5, since which year the colony has been self-supporting. South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain. South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G. Powell in 1821. The Dependencies were visited only by exploring expeditions, sealers and whalers until the rise of the modern whaling industry in those regions.",
+      "edition_years": [
+        1946
+      ],
+      "first_edition_year": 1946,
+      "last_edition_year": 1946,
+      "n_editions": 1,
+      "representative_source_file": "1946_manual_parsed/falkland_islands.txt",
+      "char_start": 1130,
+      "char_end": 2848,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594.",
+          "char_start": 0,
+          "char_end": 79,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 292,
+          "char_end": 546,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 292,
+          "char_end": 546,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1303,
+          "char_end": 1433,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1303,
+          "char_end": 1433,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1434,
+          "char_end": 1552,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1434,
+          "char_end": 1552,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The Dependencies were visited only by exploring expeditions, sealers and whalers until the rise of the modern whaling industry in those regions.",
+          "char_start": 1569,
+          "char_end": 1713,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Byron",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 300,
+          "char_end": 313,
+          "year_reference": 1765,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain James Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1373,
+          "char_end": 1391,
+          "year_reference": 1775,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain William Smith",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1491,
+          "char_end": 1512,
+          "year_reference": 1819,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1592,
+        1594,
+        1764,
+        1765,
+        1766,
+        1770,
+        1771,
+        1774,
+        1775,
+        1819,
+        1820,
+        1821,
+        1831,
+        1833,
+        1841,
+        1843,
+        1880,
+        1884
+      ]
+    },
+    {
+      "uri": "col:hversion/falkland_islands/history/a64223235e5a",
+      "colony": "falkland_islands",
+      "section_slug": "history",
+      "version_hash": "a64223235e5a",
+      "asserted_by": "Colonial Office List",
+      "text": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1764 Bougainville planted a small colony of Acadians at Port Louis in East Falkland. The French settlement was taken over by Spain, ever jealous of interference by other nations in the southern seas, in 1766. In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war. The Spaniards restored the British garrison in 1771, but it was abandoned in 1774. In 1820, the Republic of Buenos Aires established a settlement in the East Falkland which was destroyed by the Americans in 1831. In 1833 occupation of the islands was resumed by the British Government. Until 1843, they were under the charge of the Naval officers engaged in making Admiralty surveys. In 1843, a Civil Administration was formed, the headquarters being at Port Louis until the following year when they were removed to Stanley, then known as Port William. The colony received regular grants in aid from 1841 until 1880 and for a mail service until 1884-5, since which year the colony has been self-supporting. South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain. South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G. Powell in 1821. The Dependencies were visited only by exploring expeditions, sealers and whalers until the rise of the modern whaling industry in those regions. The Falkland Islands Company, Limited This company was formed in 1851 to take over from Mr. Lafone, of Monte Video, the district in the East Falkland now called Lafonia; this district abounded with wild cattle, said to be the descendants of the stock introduced by the Acadian and other settlers, the capture of which was the company's original object. This, however, was not found profitable, and the company have for many years been engaged in sheep farming on an extensive scale, in shipping, and in general trade.",
+      "edition_years": [
+        1949
+      ],
+      "first_edition_year": 1949,
+      "last_edition_year": 1949,
+      "n_editions": 1,
+      "representative_source_file": "1949_manual_parsed/Falkland_Islands.txt",
+      "char_start": 4906,
+      "char_end": 7095,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594.",
+          "char_start": 0,
+          "char_end": 79,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 292,
+          "char_end": 546,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 292,
+          "char_end": 546,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1254,
+          "char_end": 1384,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1254,
+          "char_end": 1384,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1385,
+          "char_end": 1503,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1385,
+          "char_end": 1503,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The Dependencies were visited only by exploring expeditions, sealers and whalers until the rise of the modern whaling industry in those regions.",
+          "char_start": 1520,
+          "char_end": 1664,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Byron",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 300,
+          "char_end": 313,
+          "year_reference": 1765,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain James Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1324,
+          "char_end": 1342,
+          "year_reference": 1775,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain William Smith",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1442,
+          "char_end": 1463,
+          "year_reference": 1819,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Mr. Lafone",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "The Falkland Islands Company, Limited This company was formed in 1851 to take over from Mr. Lafone, of Monte Video, the district in the East Falkland now called Lafonia; this district abounded with wild cattle, said to be the descendants of the stock introduced by the Acadian and other settlers, the capture of which was the company's original object.",
+          "char_start": 1753,
+          "char_end": 1763,
+          "year_reference": 1851,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1592,
+        1594,
+        1764,
+        1765,
+        1766,
+        1770,
+        1771,
+        1774,
+        1775,
+        1819,
+        1820,
+        1821,
+        1831,
+        1833,
+        1841,
+        1843,
+        1851,
+        1880,
+        1884
+      ]
+    },
+    {
+      "uri": "col:hversion/falkland_islands/history/b803d32b6fb8",
+      "colony": "falkland_islands",
+      "section_slug": "history",
+      "version_hash": "b803d32b6fb8",
+      "asserted_by": "Colonial Office List",
+      "text": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1764 Bougainville planted a small colony of Acadians at Port Louis in East Falkland. The French settlement was taken over by Spain, ever jealous of interference by other nations in the southern seas, in 1766. In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war. The Spaniards restored the British garrison in 1771, but it was abandoned in 1774. In 1820, the Republic of Buenos Aires established a settlement in the East Falkland which was destroyed by the Americans in 1831. In 1833 occupation of the islands was resumed by the British Government. Until 1843, they were under the charge of the Naval officers engaged in making Admiralty surveys. In 1843, a Civil Administration was formed, the headquarters being at Port Louis until the following year when they were removed to Stanley, then known as Port William. The colony received regular grants in aid from 1841 until 1880 and for a mail service until 1884-5, since which year the colony has been self-supporting. South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain. South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G. Powell in 1821. The Dependencies were visited only by exploring expeditions, sealers and whalers until the rise of the modern whaling industry in those regions.",
+      "edition_years": [
+        1951
+      ],
+      "first_edition_year": 1951,
+      "last_edition_year": 1951,
+      "n_editions": 1,
+      "representative_source_file": "1951_manual_parsed/falkland_islands.txt",
+      "char_start": 5215,
+      "char_end": 6884,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594.",
+          "char_start": 0,
+          "char_end": 79,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 292,
+          "char_end": 546,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 292,
+          "char_end": 546,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1254,
+          "char_end": 1384,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1254,
+          "char_end": 1384,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1385,
+          "char_end": 1503,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1385,
+          "char_end": 1503,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The Dependencies were visited only by exploring expeditions, sealers and whalers until the rise of the modern whaling industry in those regions.",
+          "char_start": 1520,
+          "char_end": 1664,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Byron",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 300,
+          "char_end": 313,
+          "year_reference": 1765,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain James Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1324,
+          "char_end": 1342,
+          "year_reference": 1775,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Captain William Smith",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1442,
+          "char_end": 1463,
+          "year_reference": 1819,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1592,
+        1594,
+        1764,
+        1765,
+        1766,
+        1770,
+        1771,
+        1774,
+        1775,
+        1819,
+        1820,
+        1821,
+        1831,
+        1833,
+        1841,
+        1843,
+        1880,
+        1884
+      ]
+    }
+  ]
+}

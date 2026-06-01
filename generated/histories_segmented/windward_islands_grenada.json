@@ -1,0 +1,54 @@
+{
+  "colony": "windward_islands_grenada",
+  "n_editions_with_history": 3,
+  "n_versions": 2,
+  "versions": [
+    {
+      "uri": "col:hversion/windward_islands_grenada/history/5298f1d1742d",
+      "colony": "windward_islands_grenada",
+      "section_slug": "history",
+      "version_hash": "5298f1d1742d",
+      "asserted_by": "Colonial Office List",
+      "text": "Grenada was discovered by Columbus in 1498, and was named Ascension. It was at that time inhabited by Caribs. In 1650 Du Parquet, Governor of Martinique, purchased Grenada from a French company. Finding the expense of maintaining an armed force to support his authority not compensated by the expectation of future profits, Du Parquet sold the island in 1657 to the Comte de Cerrillac for 30,000 crowns. The Governor appointed by the new proprietor ruled with so much tyranny that the most respectable settlers left the island; he was at length seized, tried, and executed by the Colonists. In 1674 the island was annexed to France, and the proprietors received compensation for their claims; but in 1762 it was surrendered to the English Commodore Swanton, and was formally ceded to Great Britain by the Treaty of Peace signed at Paris on the 10th of February, 1763. In 1779 it was retaken by the French; and in 1783 it was restored to Great Britain by the general Treaty of Peace of Versailles. In 1787 St. George's was made a free port. In 1834 the apprenticeship system was established, and this was followed in 1838 by unconditional emancipation.",
+      "edition_years": [
+        1888
+      ],
+      "first_edition_year": 1888,
+      "last_edition_year": 1888,
+      "n_editions": 1,
+      "representative_source_file": "1888_manual_parsed/WINDWARD_ISLANDS___GRENADA.txt",
+      "char_start": 1283,
+      "char_end": 2436,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01"
+    },
+    {
+      "uri": "col:hversion/windward_islands_grenada/history/f00dd5c6c914",
+      "colony": "windward_islands_grenada",
+      "section_slug": "history",
+      "version_hash": "f00dd5c6c914",
+      "asserted_by": "Colonial Office List",
+      "text": "Grenada was discovered by Columbus on 15th August, 1498, and was named by him Conception. It was at that time inhabited by Caribs. A settlement was attempted in 1609 by a company of London merchants, but the colonists were so harassed by the Caribs that the attempt was abandoned. In 1650 Du Parquet, Governor of Martinique, purchased Grenada from a French Company, and established a settlement at St. George's. Finding the expense of maintaining an armed force to support his authority not compensated by the expectation of future profits, Du Parquet sold the island in 1657 to the Comte de Cerrillac for 30,000 crowns. The Governor appointed by the new proprietor ruled with so much tyranny that the most respectable settlers left the island; he was at length seized, tried, and executed by the colonists. In 1674 the island was annexed to France, and the proprietors received compensation for their claims; but in 1762 it was surrendered to the British under Commodore Swanton, and was formally ceded to Great Britain by the Treaty of Paris on the 10th of February, 1763. In 1779 it was retaken by the French under the Count D'Estaing; and in 1783 it was restored to Great Britain by the Treaty of Versailles. In 1785-6 it was the scene of a rebellion against the British rule, instigated and assisted by the French. The Lieut.-Governor and 47 other British subjects were massacred in cold blood, and the colony brought to the verge of ruin. In June, 1796, Sir Ralph Abercrombie suppressed the rising, and the ringleaders were executed. In 1834 the apprenticeship system was established in regard to the African slaves, and this was followed in 1838 by their unconditional emancipation.",
+      "edition_years": [
+        1898,
+        1910
+      ],
+      "first_edition_year": 1898,
+      "last_edition_year": 1910,
+      "n_editions": 2,
+      "representative_source_file": "1910_manual_parsed/WINDWARD_ISLANDS_GRENADA.txt",
+      "char_start": 5836,
+      "char_end": 7527,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.901,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01"
+    }
+  ]
+}

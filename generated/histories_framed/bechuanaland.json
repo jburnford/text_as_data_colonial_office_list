@@ -1,0 +1,367 @@
+{
+  "colony": "bechuanaland",
+  "n_editions_with_history": 2,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/bechuanaland/history/33f61002716f",
+      "colony": "bechuanaland",
+      "section_slug": "history",
+      "version_hash": "33f61002716f",
+      "asserted_by": "Colonial Office List",
+      "text": "During the year 1886, Sir Charles Warren, who was in command of an expedition despatched from England to pacify Southern Bechuanaland, where for some time previously hostilities had been proceeding between the Bechuanaas and Boers from the South African Republic, visited the principal chiefs in Northern Bechuanaland (known as the Bechuanaland Protectorate), Khama, Gaseitswe, and Sebele, and as a result a British Protectorate was proclaimed over their territories. No further steps were taken until the year 1891, when, by an Order in Council dated 9th May, the limits of the Bechuanaland Protectorate were more clearly defined, and the High Commissioner was authorised to appoint such officers as might appear to him to be necessary to provide for the administration of justice, the raising of revenue, and generally for the peace, order, and good government of all persons within the limits of the Order. Sir Sidney Shippard, the Administrator of Bechuanaland, was appointed Resident Commissioner, and an Assistant Commissioner was appointed for the Northern Protectorate, and another for the Southern Protectorate. For fiscal and several other purposes the Protectorate was treated as a portion of the Crown Colony of British Bechuanaland, until the latter was annexed to the Cape Colony on the 15th November, 1896. In the autumn of that year arrangements were made for the transfer of the administration of the Bechuanaland Protectorate, with the exception of certain reserves for native chiefs, to the British South African Company, and the Company's police were moved down to a camp in the Protectorate at Pitseane Potlugo. On the 29th of December Dr. Jameson, with his police, crossed the border of the South African Republic and marched towards Johannesburg, which was at the time in a state of great unrest, but being defeated by the Boers at Doornkop, surrendered on the 2nd January, 1896. In consequence of the raid, the administration of the Protectorate was not transferred to the Company. Since the annexation of British Bechuanaland to the Cape the Protectorate has been governed as a separate territory under the name of the Bechuanaland Protectorate, and the form of government is very similar to that which obtains in Basutoland. There is a Resident Commissioner, who is under the direction of the High Commissioner, and there are two Assistant Commissioners, one stationed at Francistown, in the Northern Protectorate, and the other, who is also Government Secretary, resides in Mafeking; there are also Magistrates at Gaberones, Maun, Ghanzi, Serowe, Kanye, Lobatse, Molepolole, Kasane and Selikha. For the maintenance of law and order there is a force of police known as the Bechuanaland Protectorate Police, numbering 267. This force is under the direct control of the Resident Commissioner. There are 9 officers, 2 warrant officers, 16 European non-commissioned officers and men, and 50 Basuto non-commissioned officers and men (mounted), and 190 dismounted constables. The police are stationed in small detachments at various places in the Protectorate. The headquarters of the Administration is at Mafeking, in the Cape Province.",
+      "edition_years": [
+        1922,
+        1924
+      ],
+      "first_edition_year": 1922,
+      "last_edition_year": 1924,
+      "n_editions": 2,
+      "representative_source_file": "1924_manual_parsed/BECHUANALAND.txt",
+      "char_start": 686,
+      "char_end": 3844,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.944,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition",
+            "hostilities",
+            "pacify"
+          ],
+          "verbatim_span": "During the year 1886, Sir Charles Warren, who was in command of an expedition despatched from England to pacify Southern Bechuanaland, where for some time previously hostilities had been proceeding between the Bechuanaas and Boers from the South African Republic, visited the principal chiefs in Northern Bechuanaland (known as the Bechuanaland Protectorate), Khama, Gaseitswe, and Sebele, and as a result a British Protectorate was proclaimed over their territories.",
+          "char_start": 0,
+          "char_end": 467,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "During the year 1886, Sir Charles Warren, who was in command of an expedition despatched from England to pacify Southern Bechuanaland, where for some time previously hostilities had been proceeding between the Bechuanaas and Boers from the South African Republic, visited the principal chiefs in Northern Bechuanaland (known as the Bechuanaland Protectorate), Khama, Gaseitswe, and Sebele, and as a result a British Protectorate was proclaimed over their territories.",
+          "char_start": 0,
+          "char_end": 467,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "No further steps were taken until the year 1891, when, by an Order in Council dated 9th May, the limits of the Bechuanaland Protectorate were more clearly defined, and the High Commissioner was authorised to appoint such officers as might appear to him to be necessary to provide for the administration of justice, the raising of revenue, and generally for the peace, order, and good government of all persons within the limits of the Order.",
+          "char_start": 468,
+          "char_end": 909,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "Sir Sidney Shippard, the Administrator of Bechuanaland, was appointed Resident Commissioner, and an Assistant Commissioner was appointed for the Northern Protectorate, and another for the Southern Protectorate.",
+          "char_start": 910,
+          "char_end": 1120,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "For fiscal and several other purposes the Protectorate was treated as a portion of the Crown Colony of British Bechuanaland, until the latter was annexed to the Cape Colony on the 15th November, 1896.",
+          "char_start": 1121,
+          "char_end": 1321,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "crown colony",
+            "protectorate"
+          ],
+          "verbatim_span": "For fiscal and several other purposes the Protectorate was treated as a portion of the Crown Colony of British Bechuanaland, until the latter was annexed to the Cape Colony on the 15th November, 1896.",
+          "char_start": 1121,
+          "char_end": 1321,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "In the autumn of that year arrangements were made for the transfer of the administration of the Bechuanaland Protectorate, with the exception of certain reserves for native chiefs, to the British South African Company, and the Company's police were moved down to a camp in the Protectorate at Pitseane Potlugo.",
+          "char_start": 1322,
+          "char_end": 1632,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In the autumn of that year arrangements were made for the transfer of the administration of the Bechuanaland Protectorate, with the exception of certain reserves for native chiefs, to the British South African Company, and the Company's police were moved down to a camp in the Protectorate at Pitseane Potlugo.",
+          "char_start": 1322,
+          "char_end": 1632,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "Jameson, with his police, crossed the border of the South African Republic and marched towards Johannesburg, which was at the time in a state of great unrest, but being defeated by the Boers at Doornkop, surrendered on the 2nd January, 1896.",
+          "char_start": 1661,
+          "char_end": 1902,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "transferred to"
+          ],
+          "verbatim_span": "In consequence of the raid, the administration of the Protectorate was not transferred to the Company.",
+          "char_start": 1903,
+          "char_end": 2005,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In consequence of the raid, the administration of the Protectorate was not transferred to the Company.",
+          "char_start": 1903,
+          "char_end": 2005,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexation"
+          ],
+          "verbatim_span": "Since the annexation of British Bechuanaland to the Cape the Protectorate has been governed as a separate territory under the name of the Bechuanaland Protectorate, and the form of government is very similar to that which obtains in Basutoland.",
+          "char_start": 2006,
+          "char_end": 2250,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "Since the annexation of British Bechuanaland to the Cape the Protectorate has been governed as a separate territory under the name of the Bechuanaland Protectorate, and the form of government is very similar to that which obtains in Basutoland.",
+          "char_start": 2006,
+          "char_end": 2250,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "There is a Resident Commissioner, who is under the direction of the High Commissioner, and there are two Assistant Commissioners, one stationed at Francistown, in the Northern Protectorate, and the other, who is also Government Secretary, resides in Mafeking; there are also Magistrates at Gaberones, Maun, Ghanzi, Serowe, Kanye, Lobatse, Molepolole, Kasane and Selikha.",
+          "char_start": 2251,
+          "char_end": 2621,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "For the maintenance of law and order there is a force of police known as the Bechuanaland Protectorate Police, numbering 267.",
+          "char_start": 2622,
+          "char_end": 2747,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "The police are stationed in small detachments at various places in the Protectorate.",
+          "char_start": 2996,
+          "char_end": 3080,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Charles Warren",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "During the year 1886, Sir Charles Warren, who was in command of an expedition despatched from England to pacify Southern Bechuanaland, where for some time previously hostilities had been proceeding between the Bechuanaas and Boers from the South African Republic, visited the principal chiefs in Northern Bechuanaland (known as the Bechuanaland Protectorate), Khama, Gaseitswe, and Sebele, and as a result a British Protectorate was proclaimed over their territories.",
+          "char_start": 22,
+          "char_end": 40,
+          "year_reference": 1886,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Sir Sidney Shippard",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Sir Sidney Shippard, the Administrator of Bechuanaland, was appointed Resident Commissioner, and an Assistant Commissioner was appointed for the Northern Protectorate, and another for the Southern Protectorate.",
+          "char_start": 910,
+          "char_end": 929,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Dr. Jameson",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "On the 29th of December Dr. Jameson, with his police, crossed the border of the South African Republic and marched towards Johannesburg, which was at the time in a state of great unrest, but being defeated by the Boers at Doornkop, surrendered on the 2nd January, 1896.",
+          "char_start": 1657,
+          "char_end": 1668,
+          "year_reference": 1896,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Basutoland",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Since the annexation of British Bechuanaland to the Cape the Protectorate has been governed as a separate territory under the name of the Bechuanaland Protectorate, and the form of government is very similar to that which obtains in Basutoland.",
+          "char_start": 2239,
+          "char_end": 2249,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1924
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1886,
+        1891,
+        1896
+      ]
+    }
+  ]
+}

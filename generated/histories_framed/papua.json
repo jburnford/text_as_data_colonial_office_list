@@ -1,0 +1,435 @@
+{
+  "colony": "papua",
+  "n_editions_with_history": 4,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/papua/history/efe9a45ec3b3",
+      "colony": "papua",
+      "section_slug": "history",
+      "version_hash": "efe9a45ec3b3",
+      "asserted_by": "Colonial Office List",
+      "text": "The island of New Guinea was discovered in 1511 by Antonio de Alrea, and it was touched at by several of the early navigators. The Archipelagos lying to the south-east of New Guinea were discovered by French navigators towards the close of the eighteenth century. The waters that are adjacent to the Archipelagoes, and to the south-eastern coasts of New Guinea, have at different periods been partly surveyed and mapped by British ships of war. The whole island to the west of 141° E. long. is claimed by the Dutch as suzerains of the Sultan of Tidore. The Dutch have established a post on the south coast of New Guinea, known as Merauké, which is in charge of a Resident. It is a little to the West of the S.W. extreme of the Anglo-Dutch boundary. That portion of the island which lies to the eastward of 141° E. long. and to the north of British New Guinea belongs to the German Empire. A Government has been established and several industries are being started there. The acquisition by the British Crown of the portion of the island not claimed by Holland was long advocated by Australian statesmen, and the growing influence of France and Germany in the Pacific Ocean, coupled with the establishment of a penal settlement in the French island of New Caledonia, created some alarm in Australia lest a country lying so near to Australia as New Guinea should pass into the hands of a foreign Power. To prevent this from taking place as regards the eastern part of New Guinea, the Government of Queensland annexed it to the Empire on the 4th of April, 1883, but this proceeding was not ratified by the Imperial Government. The Intercolonial Convention held at Sydney in Nov. and Dec., 1883, passed resolutions urging the annexation of Eastern New Guinea, and undertook to recommend their respective Legislatures to provide for defraying a part of the cost of a Protectorate if one were established by the Imperial Government. On the Australasian colonies agreeing to guarantee 15,000£. a year to meet the cost, a Protectorate was proclaimed by Commodore Erskine on the 6th November, 1884, over the south-east coast of New Guinea and the adjacent islands. General Sir Peter Scratchley was appointed Special Commissioner for the Protectorate, and arrived in 1885, but he succumbed, in the Protectorate, to malarial fever in November of the same year. He was succeeded by the Hon. John Douglas, C.M.G., formerly Premier of Queensland. At the Colonial Conference held in 1887, the Colonies of Queensland, N.S. Wales and Victoria undertook to guarantee 15,000£. a year for ten years, for defraying the cost of administering the territory now forming the Possession, on the understanding that Her Majesty’s Sovereignty would be proclaimed over it. By the Queensland British New Guinea Act, 1887, that colony undertook to be responsible for the payment of the 15,000£. a year. The territory was annexed to the Crown by the newly appointed Administrator, Dr. (now Sir W.) Macgregor, on 4th September, 1888. The Imperial Government has contributed some 52,000£. towards the founding of the Possession. The local revenue raised in the Possession was formerly paid over to Queensland, for distribution amongst the guaranteeing colonies, in reduction of their contribution of 15,000£. a year, but is now kept and expended by the Government of the Possession. At the end of 1901 the Government of the Commonwealth agreed to take over the Possession as a territory of the Commonwealth, and brought proposals before the Federal Parliament (which were adopted) for providing towards the expenses of administration a sum not exceeding 20,000£. a year. The provision ran from 1st July, 1901, and was subject to revision at the end of five years. On the 1st Sept., 1906, a Proclamation was issued by the Governor-General of the Commonwealth of Australia, under the provisions of the Papua Act, 1905, declaring British New Guinea a Territory of the Commonwealth, under the name of “Papua.” The above Act provides that a sum of £20,000 shall be paid out of the Consolidated Revenue Fund of the Commonwealth towards the revenue of the Territory in each financial year, up to and including 30th June, 1906, and thereafter such sums, if any, as the Parliament appropriates for that purpose. In 1906-7, 20,205£. was paid by the Commonwealth towards Administration. The estimate for 1907-8 is 20,000£., with an additional 5,000£. towards development.",
+      "edition_years": [
+        1909,
+        1911,
+        1913,
+        1917
+      ],
+      "first_edition_year": 1909,
+      "last_edition_year": 1917,
+      "n_editions": 4,
+      "representative_source_file": "1911_manual_parsed/papua.txt",
+      "char_start": 1589,
+      "char_end": 6018,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.975,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The island of New Guinea was discovered in 1511 by Antonio de Alrea, and it was touched at by several of the early navigators.",
+          "char_start": 0,
+          "char_end": 126,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Archipelagos lying to the south-east of New Guinea were discovered by French navigators towards the close of the eighteenth century.",
+          "char_start": 127,
+          "char_end": 263,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The waters that are adjacent to the Archipelagoes, and to the south-eastern coasts of New Guinea, have at different periods been partly surveyed and mapped by British ships of war.",
+          "char_start": 264,
+          "char_end": 444,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "acquisition"
+          ],
+          "verbatim_span": "The acquisition by the British Crown of the portion of the island not claimed by Holland was long advocated by Australian statesmen, and the growing influence of France and Germany in the Pacific Ocean, coupled with the establishment of a penal settlement in the French island of New Caledonia, created some alarm in Australia lest a country lying so near to Australia as New Guinea should pass into the hands of a foreign Power.",
+          "char_start": 971,
+          "char_end": 1400,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "pacific"
+          ],
+          "verbatim_span": "The acquisition by the British Crown of the portion of the island not claimed by Holland was long advocated by Australian statesmen, and the growing influence of France and Germany in the Pacific Ocean, coupled with the establishment of a penal settlement in the French island of New Caledonia, created some alarm in Australia lest a country lying so near to Australia as New Guinea should pass into the hands of a foreign Power.",
+          "char_start": 971,
+          "char_end": 1400,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown"
+          ],
+          "verbatim_span": "The acquisition by the British Crown of the portion of the island not claimed by Holland was long advocated by Australian statesmen, and the growing influence of France and Germany in the Pacific Ocean, coupled with the establishment of a penal settlement in the French island of New Caledonia, created some alarm in Australia lest a country lying so near to Australia as New Guinea should pass into the hands of a foreign Power.",
+          "char_start": 971,
+          "char_end": 1400,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "To prevent this from taking place as regards the eastern part of New Guinea, the Government of Queensland annexed it to the Empire on the 4th of April, 1883, but this proceeding was not ratified by the Imperial Government.",
+          "char_start": 1401,
+          "char_end": 1623,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "To prevent this from taking place as regards the eastern part of New Guinea, the Government of Queensland annexed it to the Empire on the 4th of April, 1883, but this proceeding was not ratified by the Imperial Government.",
+          "char_start": 1401,
+          "char_end": 1623,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexation"
+          ],
+          "verbatim_span": "and Dec., 1883, passed resolutions urging the annexation of Eastern New Guinea, and undertook to recommend their respective Legislatures to provide for defraying a part of the cost of a Protectorate if one were established by the Imperial Government.",
+          "char_start": 1676,
+          "char_end": 1926,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial",
+            "protectorate"
+          ],
+          "verbatim_span": "and Dec., 1883, passed resolutions urging the annexation of Eastern New Guinea, and undertook to recommend their respective Legislatures to provide for defraying a part of the cost of a Protectorate if one were established by the Imperial Government.",
+          "char_start": 1676,
+          "char_end": 1926,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "a year to meet the cost, a Protectorate was proclaimed by Commodore Erskine on the 6th November, 1884, over the south-east coast of New Guinea and the adjacent islands.",
+          "char_start": 1987,
+          "char_end": 2155,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "General Sir Peter Scratchley was appointed Special Commissioner for the Protectorate, and arrived in 1885, but he succumbed, in the Protectorate, to malarial fever in November of the same year.",
+          "char_start": 2156,
+          "char_end": 2349,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "her majesty",
+            "sovereignty"
+          ],
+          "verbatim_span": "a year for ten years, for defraying the cost of administering the territory now forming the Possession, on the understanding that Her Majesty’s Sovereignty would be proclaimed over it.",
+          "char_start": 2558,
+          "char_end": 2742,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "The territory was annexed to the Crown by the newly appointed Administrator, Dr.",
+          "char_start": 2871,
+          "char_end": 2951,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "The Imperial Government has contributed some 52,000£.",
+          "char_start": 3000,
+          "char_end": 3053,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Commodore Erskine",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "a year to meet the cost, a Protectorate was proclaimed by Commodore Erskine on the 6th November, 1884, over the south-east coast of New Guinea and the adjacent islands.",
+          "char_start": 2045,
+          "char_end": 2062,
+          "year_reference": 1884,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "General Sir Peter Scratchley",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "General Sir Peter Scratchley was appointed Special Commissioner for the Protectorate, and arrived in 1885, but he succumbed, in the Protectorate, to malarial fever in November of the same year.",
+          "char_start": 2156,
+          "char_end": 2184,
+          "year_reference": 1885,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Australia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The acquisition by the British Crown of the portion of the island not claimed by Holland was long advocated by Australian statesmen, and the growing influence of France and Germany in the Pacific Ocean, coupled with the establishment of a penal settlement in the French island of New Caledonia, created some alarm in Australia lest a country lying so near to Australia as New Guinea should pass into the hands of a foreign Power.",
+          "char_start": 1288,
+          "char_end": 1297,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Queensland",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "To prevent this from taking place as regards the eastern part of New Guinea, the Government of Queensland annexed it to the Empire on the 4th of April, 1883, but this proceeding was not ratified by the Imperial Government.",
+          "char_start": 1496,
+          "char_end": 1506,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Victoria",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Wales and Victoria undertook to guarantee 15,000£.",
+          "char_start": 2517,
+          "char_end": 2525,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "surface_text": "Commonwealth",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "At the end of 1901 the Government of the Commonwealth agreed to take over the Possession as a territory of the Commonwealth, and brought proposals before the Federal Parliament (which were adopted) for providing towards the expenses of administration a sum not exceeding 20,000£.",
+          "char_start": 3389,
+          "char_end": 3401,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909,
+            1911,
+            1913,
+            1917
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "year_references": [
+        1511,
+        1883,
+        1884,
+        1885,
+        1887,
+        1888,
+        1901,
+        1905,
+        1906,
+        1907
+      ]
+    }
+  ]
+}

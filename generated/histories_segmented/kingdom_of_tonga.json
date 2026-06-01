@@ -1,0 +1,30 @@
+{
+  "colony": "kingdom_of_tonga",
+  "n_editions_with_history": 1,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/kingdom_of_tonga/history/e3f77be46fdd",
+      "colony": "kingdom_of_tonga",
+      "section_slug": "history",
+      "version_hash": "e3f77be46fdd",
+      "asserted_by": "Colonial Office List",
+      "text": "During the first half of the nineteenth century the islands were the scene of civil wars. These were finally checked during the reign of King George Tupou I (1845–93) who had by conquest gathered all power in his own hands. In 1826 Wesleyan missionaries landed on Tonga and by the middle of the century practically all the chiefs and people had embraced Christianity. Not until the last decade of the century, however, were questions regarding freedom of worship and the relationship of Church and State peaceably settled. In 1900, by a Treaty of Friendship and Protection, Tonga became a British Protected State, while remaining self-governing.",
+      "edition_years": [
+        1957
+      ],
+      "first_edition_year": 1957,
+      "last_edition_year": 1957,
+      "n_editions": 1,
+      "representative_source_file": "1957_manual_parsed/KINGDOM_OF_TONGA.txt",
+      "char_start": 991,
+      "char_end": 1637,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01"
+    }
+  ]
+}

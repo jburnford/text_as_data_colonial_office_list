@@ -1,0 +1,30 @@
+{
+  "colony": "montserrat",
+  "n_editions_with_history": 1,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/montserrat/history/4960976f6bf1",
+      "colony": "montserrat",
+      "section_slug": "history",
+      "version_hash": "4960976f6bf1",
+      "asserted_by": "Colonial Office List",
+      "text": "The island was colonized in 1632 when a number of Irishmen of Sir Thomas Warner's company made their homes there. It was captured by the French in 1667, restored to England at the Peace of Breda later in the same year, capitulated to the French again in 1782 and was finally ceded to Britain in 1783.",
+      "edition_years": [
+        1963
+      ],
+      "first_edition_year": 1963,
+      "last_edition_year": 1963,
+      "n_editions": 1,
+      "representative_source_file": "1963_manual_parsed/montserrat.txt",
+      "char_start": 729,
+      "char_end": 1029,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01"
+    }
+  ]
+}
