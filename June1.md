@@ -232,3 +232,18 @@ finding (cession 76% / conflict 68% / sovereignty 67% / discovery 58% / civilisi
 48% per version); 1,331 person + 709 place candidates; idempotent. Spot-checks pass
 (Sierra Leone `"King" Nembanu` + cession; NZ Tasman discovery). LLM NER, Wikidata
 grounding (+ governor bridge), and Neo4j load are designed and staged for next.
+
+## Geography Track built this session — place-name extraction (deterministic foundation)
+
+`col_extract_places.py` (+ `PLACE_EXTRACTION_PLAN.md`): extract place-name mentions
+across the corpus to flesh out the KG geography, bounded to report content. Per-
+(place,colony) **role** (local / trading_partner / external_reference) from four
+signals — home-share, family/self, section, cross-colony ubiquity — because no
+single one works (Galle is a Ceylon town yet appears in 22 colonies as a coaling
+port). Full named toponyms captured incl. feature words (`Cape Coast`, `Cape of
+Good Hope`, `Port Louis`, `Gambia River`) while standalone generics (`hill`,
+`field`, `cape`) are dropped. **3,821 places**; London/Great Britain/England =
+external hubs; Colombo/Singapore/Port Louis local in their home colonies; **KWIC**
+concordance per (place,colony) for grounding; temporal index shows 274 places first
+appearing ≥1946 (Belize City, Brunei Town, Hong Kong Island). Wikidata/GeoNames
+grounding + `COL_Place` KG load staged.
