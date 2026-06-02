@@ -1594,22 +1594,6 @@
           "extractor": "deterministic_baseline"
         },
         {
-          "surface_text": "President. In",
-          "entity_type": "person",
-          "entity_subtype": "official",
-          "source_span": "A Protectorate Council was constituted as an advisory body with His Highness as President and the British Resident as Vice-President. In 1925 the office of High Commissioner was abolished and the British Resident was made directly responsible to the Colonial Office.",
-          "char_start": 2177,
-          "char_end": 2190,
-          "year_reference": 1925,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1963
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Kenya",
           "entity_type": "place",
           "entity_subtype": "territory",

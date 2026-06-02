@@ -1,0 +1,963 @@
+{
+  "colony": "bermuda",
+  "n_editions_with_history": 41,
+  "n_versions": 4,
+  "versions": [
+    {
+      "uri": "col:hversion/bermuda/history/c4c4c8edcf0f",
+      "colony": "bermuda",
+      "section_slug": "history",
+      "version_hash": "c4c4c8edcf0f",
+      "asserted_by": "Colonial Office List",
+      "text": "These islands were discovered in the year 1515, by a Spanish mariner, Juan Bermudez, after whom they were called The Bermudas. The Spaniards, however, took no steps to form a settlement on the islands, and they were still entirely uninhabited when, in 1609, Admiral Sir George Somers' ship, The Sea Venture, while on a voyage with a fleet of eight other vessels, conveying a party of colonists to the new plantations then being formed in Virginia, was wrecked upon one of the numerous sunken reefs which surround the islands on every side. The reef is still called after the name of the Admiral's ship, The Sea Venture Flat. Sir George Somers died in Bermuda the following year, and his companions, ignorant possibly of the prior claims of Juan Bermudez, called the group after him, \"The Somers' Islands.\" The reports of the beauty and fertility of the land, taken home by Somers' nephew, Captain Mathew Somers, induced the Virginia Company to seek an extension of their Charter, so as to include the † Paid from Imperial Funds. islands within their dominion, and this extension was readily granted by King James I., but shortly afterwards the Virginia Company sold the islands for the sum of 2,000l. to a new body of adventurers, called \"The Governor and Company of the City of London for the Plantation of the Somers Islands,\" and thenceforward, for a considerable time, the islands bore the name of the Admiral who had led thither the first body of settlers.",
+      "edition_years": [
+        1888,
+        1889,
+        1890,
+        1894,
+        1897,
+        1898,
+        1900,
+        1905,
+        1907,
+        1908,
+        1909,
+        1910,
+        1911,
+        1912,
+        1913,
+        1914,
+        1915,
+        1917,
+        1918,
+        1919,
+        1920,
+        1922,
+        1923,
+        1924,
+        1928,
+        1929,
+        1930,
+        1931,
+        1932,
+        1933,
+        1934,
+        1936,
+        1937
+      ],
+      "first_edition_year": 1888,
+      "last_edition_year": 1937,
+      "n_editions": 33,
+      "representative_source_file": "1915_manual_parsed/BERMUDA.txt",
+      "char_start": 587,
+      "char_end": 2050,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.916,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "These islands were discovered in the year 1515, by a Spanish mariner, Juan Bermudez, after whom they were called The Bermudas.",
+          "char_start": 0,
+          "char_end": 126,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890,
+            1894,
+            1897,
+            1898,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922,
+            1923,
+            1924,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "uninhabited"
+          ],
+          "verbatim_span": "The Spaniards, however, took no steps to form a settlement on the islands, and they were still entirely uninhabited when, in 1609, Admiral Sir George Somers' ship, The Sea Venture, while on a voyage with a fleet of eight other vessels, conveying a party of colonists to the new plantations then being formed in Virginia, was wrecked upon one of the numerous sunken reefs which surround the islands on every side.",
+          "char_start": 127,
+          "char_end": 539,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890,
+            1894,
+            1897,
+            1898,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922,
+            1923,
+            1924,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "Sir George Somers died in Bermuda the following year, and his companions, ignorant possibly of the prior claims of Juan Bermudez, called the group after him, \"The Somers' Islands.\" The reports of the beauty and fertility of the land, taken home by Somers' nephew, Captain Mathew Somers, induced the Virginia Company to seek an extension of their Charter, so as to include the † Paid from Imperial Funds.",
+          "char_start": 625,
+          "char_end": 1028,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890,
+            1894,
+            1897,
+            1898,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922,
+            1923,
+            1924,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Admiral Sir George Somers'",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Spaniards, however, took no steps to form a settlement on the islands, and they were still entirely uninhabited when, in 1609, Admiral Sir George Somers' ship, The Sea Venture, while on a voyage with a fleet of eight other vessels, conveying a party of colonists to the new plantations then being formed in Virginia, was wrecked upon one of the numerous sunken reefs which surround the islands on every side.",
+          "char_start": 258,
+          "char_end": 284,
+          "year_reference": 1609,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890,
+            1894,
+            1897,
+            1898,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922,
+            1923,
+            1924,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir George Somers",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Sir George Somers died in Bermuda the following year, and his companions, ignorant possibly of the prior claims of Juan Bermudez, called the group after him, \"The Somers' Islands.\" The reports of the beauty and fertility of the land, taken home by Somers' nephew, Captain Mathew Somers, induced the Virginia Company to seek an extension of their Charter, so as to include the † Paid from Imperial Funds.",
+          "char_start": 625,
+          "char_end": 642,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890,
+            1894,
+            1897,
+            1898,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922,
+            1923,
+            1924,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain Mathew Somers",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Sir George Somers died in Bermuda the following year, and his companions, ignorant possibly of the prior claims of Juan Bermudez, called the group after him, \"The Somers' Islands.\" The reports of the beauty and fertility of the land, taken home by Somers' nephew, Captain Mathew Somers, induced the Virginia Company to seek an extension of their Charter, so as to include the † Paid from Imperial Funds.",
+          "char_start": 889,
+          "char_end": 910,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890,
+            1894,
+            1897,
+            1898,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922,
+            1923,
+            1924,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "King James I.",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "islands within their dominion, and this extension was readily granted by King James I., but shortly afterwards the Virginia Company sold the islands for the sum of 2,000l.",
+          "char_start": 1102,
+          "char_end": 1115,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890,
+            1894,
+            1897,
+            1898,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922,
+            1923,
+            1924,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Bermudas",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "These islands were discovered in the year 1515, by a Spanish mariner, Juan Bermudez, after whom they were called The Bermudas.",
+          "char_start": 117,
+          "char_end": 125,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890,
+            1894,
+            1897,
+            1898,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922,
+            1923,
+            1924,
+            1928,
+            1929,
+            1930,
+            1931,
+            1932,
+            1933,
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "bermudas"
+        }
+      ],
+      "year_references": [
+        1515,
+        1609
+      ]
+    },
+    {
+      "uri": "col:hversion/bermuda/history/21f94a1faeb1",
+      "colony": "bermuda",
+      "section_slug": "history",
+      "version_hash": "21f94a1faeb1",
+      "asserted_by": "Colonial Office List",
+      "text": "These islands were discovered in the year 1515, by a Spanish mariner, Juan Bermudez, after whom they were called The Bermudas. The Spaniards, however, took no steps to form a settlement on the islands, and they were still entirely uninhabited when, in 1609, Admiral Sir George Somers' ship, The Sea Venture, while on a voyage with a fleet of eight other vessels, conveying a party of colonists to the new plantations then being formed in Virginia, was wrecked upon one of the numerous sunken reefs which surround the islands on every side. The reef is still called after the name of the Admiral's ship, The Sea Venture Flat. Sir George Somers died in Bermuda the following year, and his companions, ignorant possibly of the prior claims of Juan Bermudez, called the group after him, \"The Somers' Islands.\" The reports of the beauty and fertility of the land, taken home by Somers' nephew, Captain Mathew Somers, induced the Virginia Company to seek an extension of their Charter, so as to include the islands within their dominion, and this extension was readily granted by King James I., but shortly afterwards the Virginia Company sold the islands for the sum of 2,000l. to a new body of adventurers, called \"The Governor and Company of the City of London for the Plantation of the Somers Islands,\" and thenceforward, for a considerable time, the islands bore the name of the Admiral who had led thither the first body of settlers. General Description. The Bermudas, of which a good account will be found in the narrative of the voyage of the Challenger, may be described as a singular agglomeration of small islands and submarine sandhills and coral reefs, forming together an irregular oval ring, measuring about 22 miles in length from N.E. to S.W., and about 3 miles in width from N.W. to S.E. The external ring—whether composed of islands or of sunken banks or reefs—is seldom more than a mile in width, and generally considerably less. At present the southern portion only of the encircling ring is formed of islands, the northern, eastern, and western sides being composed of almost continuous reefs of coral. The largest island, generally known as The Main Island, is about 14 miles in length, and about a mile in average width; it contains about 9,000 acres of land, the highest point being only 240 feet above the sea. All the other islands taken together measure about 3,000 acres. The city of Hamilton, now the seat of Government, is situated about the centre of the main island, where a deep inlet running up for two or three miles into the land from the sheltered waters, enclosed between the encircling reef, forms a safe and convenient harbour for the vessels which carry on the island trade. Next in importance to the main island is the island of St. George, on which stands the town of St. George, so named after Admiral Sir George Somers, whose heart is buried there. This town was formerly the capital of the Colony, and though now shorn of much of its importance by the transfer of the seat of Government to Hamilton, is still a town of considerable trade, and its harbour is much frequented as a harbour of refuge. The other principal islands of the group are—Ireland Island, entirely given up for the accommodation of His Majesty's Dockyard and a number of other naval establishments; Boaz and Watford Islands, intervening between Ireland Island and the rest of the group, and now exclusively occupied by military depots and garrisons; Somerset, Smith's, St. David's, Cooper's, Nonsuch, Darrell's, Ports, and Godets—all inhabited by a civil population. The islands form an almost continuous chain, and there is uninterrupted communication by roads and bridges and causeways from St. George over the main island and Somerset, and over Watford and Boaz to Ireland Island—a distance of about 22 miles. About one-half of the inhabitants are of English descent, the remainder belonging for the most part to the negro race. English is universally spoken. The Climate has been long celebrated for its mildness and salubrity. The rainfall in 1937 was 56.74 inches, as against an average of 58.97 inches. In winter the thermometer never falls below 40° Fahr., and the summers are never very hot, the thermometer rarely rising above 86°. The summer heat, too, is generally tempered by a pleasant sea breeze. Mean relative humidity in 1937 was 77. In 1914 the Legislature voted the sum of £1,750, payable in fifteen yearly instalments, as a contribution to the Imperial Treasury in aid of the war fund. The state of the Colony's finances did not admit of an immediate cash contribution and these annual payments represent a lump sum of the present value of £40,000. In 1927 the Legislature voted a contribution to His Majesty's Government of £2.6 per capita of the local population, payable after the 1st January, 1930, towards the cost of the military Garrison in the Colony, and a further contribution payable after the 1st January, 1928, of a sum computed in respect of all ranks of the Military Garrison serving in the Colony.",
+      "edition_years": [
+        1939
+      ],
+      "first_edition_year": 1939,
+      "last_edition_year": 1939,
+      "n_editions": 1,
+      "representative_source_file": "1939_manual_parsed/BERMUDA.txt",
+      "char_start": 587,
+      "char_end": 5641,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "These islands were discovered in the year 1515, by a Spanish mariner, Juan Bermudez, after whom they were called The Bermudas.",
+          "char_start": 0,
+          "char_end": 126,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "uninhabited"
+          ],
+          "verbatim_span": "The Spaniards, however, took no steps to form a settlement on the islands, and they were still entirely uninhabited when, in 1609, Admiral Sir George Somers' ship, The Sea Venture, while on a voyage with a fleet of eight other vessels, conveying a party of colonists to the new plantations then being formed in Virginia, was wrecked upon one of the numerous sunken reefs which surround the islands on every side.",
+          "char_start": 127,
+          "char_end": 539,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "The other principal islands of the group are—Ireland Island, entirely given up for the accommodation of His Majesty's Dockyard and a number of other naval establishments; Boaz and Watford Islands, intervening between Ireland Island and the rest of the group, and now exclusively occupied by military depots and garrisons; Somerset, Smith's, St.",
+          "char_start": 3139,
+          "char_end": 3483,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rising"
+          ],
+          "verbatim_span": "In winter the thermometer never falls below 40° Fahr., and the summers are never very hot, the thermometer rarely rising above 86°.",
+          "char_start": 4121,
+          "char_end": 4252,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In 1914 the Legislature voted the sum of £1,750, payable in fifteen yearly instalments, as a contribution to the Imperial Treasury in aid of the war fund.",
+          "char_start": 4362,
+          "char_end": 4516,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "In 1914 the Legislature voted the sum of £1,750, payable in fifteen yearly instalments, as a contribution to the Imperial Treasury in aid of the war fund.",
+          "char_start": 4362,
+          "char_end": 4516,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "In 1927 the Legislature voted a contribution to His Majesty's Government of £2.6 per capita of the local population, payable after the 1st January, 1930, towards the cost of the military Garrison in the Colony, and a further contribution payable after the 1st January, 1928, of a sum computed in respect of all ranks of the Military Garrison serving in the Colony.",
+          "char_start": 4680,
+          "char_end": 5044,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1939
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Admiral Sir George Somers'",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Spaniards, however, took no steps to form a settlement on the islands, and they were still entirely uninhabited when, in 1609, Admiral Sir George Somers' ship, The Sea Venture, while on a voyage with a fleet of eight other vessels, conveying a party of colonists to the new plantations then being formed in Virginia, was wrecked upon one of the numerous sunken reefs which surround the islands on every side.",
+          "char_start": 258,
+          "char_end": 284,
+          "year_reference": 1609,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir George Somers",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Sir George Somers died in Bermuda the following year, and his companions, ignorant possibly of the prior claims of Juan Bermudez, called the group after him, \"The Somers' Islands.\" The reports of the beauty and fertility of the land, taken home by Somers' nephew, Captain Mathew Somers, induced the Virginia Company to seek an extension of their Charter, so as to include the islands within their dominion, and this extension was readily granted by King James I., but shortly afterwards the Virginia Company sold the islands for the sum of 2,000l.",
+          "char_start": 625,
+          "char_end": 642,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain Mathew Somers",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Sir George Somers died in Bermuda the following year, and his companions, ignorant possibly of the prior claims of Juan Bermudez, called the group after him, \"The Somers' Islands.\" The reports of the beauty and fertility of the land, taken home by Somers' nephew, Captain Mathew Somers, induced the Virginia Company to seek an extension of their Charter, so as to include the islands within their dominion, and this extension was readily granted by King James I., but shortly afterwards the Virginia Company sold the islands for the sum of 2,000l.",
+          "char_start": 889,
+          "char_end": 910,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "King James I.",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Sir George Somers died in Bermuda the following year, and his companions, ignorant possibly of the prior claims of Juan Bermudez, called the group after him, \"The Somers' Islands.\" The reports of the beauty and fertility of the land, taken home by Somers' nephew, Captain Mathew Somers, induced the Virginia Company to seek an extension of their Charter, so as to include the islands within their dominion, and this extension was readily granted by King James I., but shortly afterwards the Virginia Company sold the islands for the sum of 2,000l.",
+          "char_start": 1074,
+          "char_end": 1087,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "General Description",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "General Description.",
+          "char_start": 1434,
+          "char_end": 1453,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Admiral Sir George Somers",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "George, so named after Admiral Sir George Somers, whose heart is buried there.",
+          "char_start": 2833,
+          "char_end": 2858,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Bermudas",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "These islands were discovered in the year 1515, by a Spanish mariner, Juan Bermudez, after whom they were called The Bermudas.",
+          "char_start": 117,
+          "char_end": 125,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1939
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "bermudas"
+        }
+      ],
+      "year_references": [
+        1515,
+        1609,
+        1914,
+        1927,
+        1928,
+        1930,
+        1937
+      ]
+    },
+    {
+      "uri": "col:hversion/bermuda/history/976c915da781",
+      "colony": "bermuda",
+      "section_slug": "history",
+      "version_hash": "976c915da781",
+      "asserted_by": "Colonial Office List",
+      "text": "These islands were discovered in the year 1515, by a Spanish mariner, Juan Bermudez, after whom they were called \"The Bermudas.\" The Spaniards, however, took no steps to form a settlement on the islands, and they were still entirely uninhabited when, in 1609, Admiral Sir George Somers' ship *The Sea Venture*, while on a voyage with a fleet of eight other vessels, conveying a party of colonists to the new plantations then being formed in Virginia, was wrecked upon one of the numerous sunken reefs which surround the islands on every side. The reef is still called after the name of the Admiral's ship \"*The Sea Venture Flat.*\" Sir George Somers died in Bermuda the following year, and his companions, ignorant possibly of the prior claims of Juan Bermudez, called the group after him \"*The Somers' Islands.*\" The reports of the beauty and fertility of the land, taken home by Soners' nephew, Captain Mathew Somers, induced the Virginia Company to seek an extension of their charter so as to include the islands within their dominion, and this extension was readily granted by King James I, but shortly afterwards the Virginia Company sold the islands for the sum of £2,000 to a new body of adventurers called \"*The Governor and Company of the City of London for the Plantation of the Somers Islands,*\" and thenceforward, for a considerable time, the islands bore the name of the admiral who had led thither the first body of settlers.",
+      "edition_years": [
+        1948,
+        1949,
+        1950,
+        1951
+      ],
+      "first_edition_year": 1948,
+      "last_edition_year": 1951,
+      "n_editions": 4,
+      "representative_source_file": "1951_manual_parsed/bermuda.txt",
+      "char_start": 5059,
+      "char_end": 6498,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.943,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "uninhabited"
+          ],
+          "verbatim_span": "These islands were discovered in the year 1515, by a Spanish mariner, Juan Bermudez, after whom they were called \"The Bermudas.\" The Spaniards, however, took no steps to form a settlement on the islands, and they were still entirely uninhabited when, in 1609, Admiral Sir George Somers' ship *The Sea Venture*, while on a voyage with a fleet of eight other vessels, conveying a party of colonists to the new plantations then being formed in Virginia, was wrecked upon one of the numerous sunken reefs which surround the islands on every side.",
+          "char_start": 0,
+          "char_end": 542,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Admiral Sir George Somers'",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "These islands were discovered in the year 1515, by a Spanish mariner, Juan Bermudez, after whom they were called \"The Bermudas.\" The Spaniards, however, took no steps to form a settlement on the islands, and they were still entirely uninhabited when, in 1609, Admiral Sir George Somers' ship *The Sea Venture*, while on a voyage with a fleet of eight other vessels, conveying a party of colonists to the new plantations then being formed in Virginia, was wrecked upon one of the numerous sunken reefs which surround the islands on every side.",
+          "char_start": 260,
+          "char_end": 286,
+          "year_reference": 1515,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir George Somers",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "The reef is still called after the name of the Admiral's ship \"*The Sea Venture Flat.*\" Sir George Somers died in Bermuda the following year, and his companions, ignorant possibly of the prior claims of Juan Bermudez, called the group after him \"*The Somers' Islands.*\" The reports of the beauty and fertility of the land, taken home by Soners' nephew, Captain Mathew Somers, induced the Virginia Company to seek an extension of their charter so as to include the islands within their dominion, and this extension was readily granted by King James I, but shortly afterwards the Virginia Company sold the islands for the sum of £2,000 to a new body of adventurers called \"*The Governor and Company of the City of London for the Plantation of the Somers Islands,*\" and thenceforward, for a considerable time, the islands bore the name of the admiral who had led thither the first body of settlers.",
+          "char_start": 631,
+          "char_end": 648,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain Mathew Somers",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The reef is still called after the name of the Admiral's ship \"*The Sea Venture Flat.*\" Sir George Somers died in Bermuda the following year, and his companions, ignorant possibly of the prior claims of Juan Bermudez, called the group after him \"*The Somers' Islands.*\" The reports of the beauty and fertility of the land, taken home by Soners' nephew, Captain Mathew Somers, induced the Virginia Company to seek an extension of their charter so as to include the islands within their dominion, and this extension was readily granted by King James I, but shortly afterwards the Virginia Company sold the islands for the sum of £2,000 to a new body of adventurers called \"*The Governor and Company of the City of London for the Plantation of the Somers Islands,*\" and thenceforward, for a considerable time, the islands bore the name of the admiral who had led thither the first body of settlers.",
+          "char_start": 896,
+          "char_end": 917,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "King James",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "The reef is still called after the name of the Admiral's ship \"*The Sea Venture Flat.*\" Sir George Somers died in Bermuda the following year, and his companions, ignorant possibly of the prior claims of Juan Bermudez, called the group after him \"*The Somers' Islands.*\" The reports of the beauty and fertility of the land, taken home by Soners' nephew, Captain Mathew Somers, induced the Virginia Company to seek an extension of their charter so as to include the islands within their dominion, and this extension was readily granted by King James I, but shortly afterwards the Virginia Company sold the islands for the sum of £2,000 to a new body of adventurers called \"*The Governor and Company of the City of London for the Plantation of the Somers Islands,*\" and thenceforward, for a considerable time, the islands bore the name of the admiral who had led thither the first body of settlers.",
+          "char_start": 1080,
+          "char_end": 1090,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Bermudas",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "These islands were discovered in the year 1515, by a Spanish mariner, Juan Bermudez, after whom they were called \"The Bermudas.\" The Spaniards, however, took no steps to form a settlement on the islands, and they were still entirely uninhabited when, in 1609, Admiral Sir George Somers' ship *The Sea Venture*, while on a voyage with a fleet of eight other vessels, conveying a party of colonists to the new plantations then being formed in Virginia, was wrecked upon one of the numerous sunken reefs which surround the islands on every side.",
+          "char_start": 118,
+          "char_end": 126,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "bermudas"
+        }
+      ],
+      "year_references": [
+        1515,
+        1609
+      ]
+    },
+    {
+      "uri": "col:hversion/bermuda/history/a9176b62a4cb",
+      "colony": "bermuda",
+      "section_slug": "history",
+      "version_hash": "a9176b62a4cb",
+      "asserted_by": "Colonial Office List",
+      "text": "According to a 17th century French cartographer the islands were probably discovered in 1503 by a Spanish mariner, Juan Bermudez, but the Spaniards took no steps to form a settlement and the islands were still entirely uninhabited when in 1609 Admiral Sir George Somers' ship *The Sea Venture* was wrecked upon one of the sunken reefs while conveying a party of colonists to Virginia. The reports of the beauty and fertility of the land induced the Virginia Company to seek an extension of their charter so as to include the islands within their dominion, and this extension was granted by King James I, in 1612 and the first emigrants went out in that year. Shortly afterwards the Virginia Company sold the islands for the sum of £2,000 to a new body of adventurers called \"The Governor and Company of the City of London for the Plantation of the Somers Islands\", and thenceforward for a considerable time the islands bore that name. In 1684 the charter of the Bermuda Company of London was annulled and government passed to the Crown.",
+      "edition_years": [
+        1958,
+        1959,
+        1965
+      ],
+      "first_edition_year": 1958,
+      "last_edition_year": 1965,
+      "n_editions": 3,
+      "representative_source_file": "1958_manual_parsed/bermuda.txt",
+      "char_start": 2307,
+      "char_end": 3343,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.994,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "uninhabited"
+          ],
+          "verbatim_span": "According to a 17th century French cartographer the islands were probably discovered in 1503 by a Spanish mariner, Juan Bermudez, but the Spaniards took no steps to form a settlement and the islands were still entirely uninhabited when in 1609 Admiral Sir George Somers' ship *The Sea Venture* was wrecked upon one of the sunken reefs while conveying a party of colonists to Virginia.",
+          "char_start": 0,
+          "char_end": 384,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1958,
+            1959,
+            1965
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Admiral Sir George Somers'",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "According to a 17th century French cartographer the islands were probably discovered in 1503 by a Spanish mariner, Juan Bermudez, but the Spaniards took no steps to form a settlement and the islands were still entirely uninhabited when in 1609 Admiral Sir George Somers' ship *The Sea Venture* was wrecked upon one of the sunken reefs while conveying a party of colonists to Virginia.",
+          "char_start": 244,
+          "char_end": 270,
+          "year_reference": 1503,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1958,
+            1959,
+            1965
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "King James",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "The reports of the beauty and fertility of the land induced the Virginia Company to seek an extension of their charter so as to include the islands within their dominion, and this extension was granted by King James I, in 1612 and the first emigrants went out in that year.",
+          "char_start": 590,
+          "char_end": 600,
+          "year_reference": 1612,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1958,
+            1959,
+            1965
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1503,
+        1609,
+        1612,
+        1684
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "bermudas"
+  ]
+}

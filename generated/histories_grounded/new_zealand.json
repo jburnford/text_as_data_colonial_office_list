@@ -1,0 +1,912 @@
+{
+  "colony": "new_zealand",
+  "n_editions_with_history": 28,
+  "n_versions": 3,
+  "versions": [
+    {
+      "uri": "col:hversion/new_zealand/history/78bde9bc31b5",
+      "colony": "new_zealand",
+      "section_slug": "history",
+      "version_hash": "78bde9bc31b5",
+      "asserted_by": "Colonial Office List",
+      "text": "New Zealand was discovered in 1642 by the Dutch navigator, Tasman, who, however, did not land upon its shores. In 1769 it was visited by Captain Cook, who in that year, and during subsequent voyages, explored its coasts. The country subsequently became a resort for whalers and traders chiefly from Australia, as well as a field for the labours of the Missionary Societies from 1814. In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony. The aborigines, called Maoris, are a remarkable people—a branch of the Polynesian race. According to their own traditions, their forefathers came about 600 years, or twenty generations ago, from Hawaiki, which was probably Hawaii in the Sandwich Islands, or Savaii, in the Navigator, or Samoa, group. They are divided into about twenty different clans, analogous to those of the Highlands of Scotland. There have been two Maori wars; the first lasted from 1845 until 1848; the second lasted from 1860, with little intermission, until 1870. But fully half the clans have always been friendly to the English; and many of them have fought on the side of the Colonial Government against their own countrymen. Permanent tranquillity was established in 1871 throughout the country. An agitation amongst certain tribes in 1881, which threatened for a time to create a disturbance, was promptly quelled by the Colonial Government. At the census taken in March, 1886, the Maoris (including half-castes) amounted to 41,969, all of whom dwelt in the North Island, with the exception of 2,411 scattered over the other islands.",
+      "edition_years": [
+        1877,
+        1878,
+        1879,
+        1880,
+        1883,
+        1886,
+        1888,
+        1889,
+        1890,
+        1894
+      ],
+      "first_edition_year": 1877,
+      "last_edition_year": 1894,
+      "n_editions": 10,
+      "representative_source_file": "1890_manual_parsed/new_zealand.txt",
+      "char_start": 2021,
+      "char_end": 3722,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.953,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "New Zealand was discovered in 1642 by the Dutch navigator, Tasman, who, however, did not land upon its shores.",
+          "char_start": 0,
+          "char_end": 110,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1877,
+            1878,
+            1879,
+            1880,
+            1883,
+            1886,
+            1888,
+            1889,
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "became a british",
+            "ceded"
+          ],
+          "verbatim_span": "In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony.",
+          "char_start": 384,
+          "char_end": 585,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1877,
+            1878,
+            1879,
+            1880,
+            1883,
+            1886,
+            1888,
+            1889,
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony.",
+          "char_start": 384,
+          "char_end": 585,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1877,
+            1878,
+            1879,
+            1880,
+            1883,
+            1886,
+            1888,
+            1889,
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown",
+            "sovereignty"
+          ],
+          "verbatim_span": "In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony.",
+          "char_start": 384,
+          "char_end": 585,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1877,
+            1878,
+            1879,
+            1880,
+            1883,
+            1886,
+            1888,
+            1889,
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribes"
+          ],
+          "verbatim_span": "An agitation amongst certain tribes in 1881, which threatened for a time to create a disturbance, was promptly quelled by the Colonial Government.",
+          "char_start": 1362,
+          "char_end": 1508,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1877,
+            1878,
+            1879,
+            1880,
+            1883,
+            1886,
+            1888,
+            1889,
+            1890,
+            1894
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1769 it was visited by Captain Cook, who in that year, and during subsequent voyages, explored its coasts.",
+          "char_start": 137,
+          "char_end": 149,
+          "year_reference": 1769,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1877,
+            1878,
+            1879,
+            1880,
+            1883,
+            1886,
+            1888,
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Cook, G. L.",
+            "name_match": "bare",
+            "strong": false,
+            "is_governor": false,
+            "personnel_years": [
+              1898,
+              1899,
+              1900,
+              1905,
+              1906,
+              1907,
+              1908,
+              1909,
+              1912
+            ],
+            "positions": [
+              "District Engineer",
+              "Resident Engineer"
+            ],
+            "mention_year": 1769,
+            "temporal_delta": 129,
+            "temporal": "pre_records",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "Captain Hobson",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony.",
+          "char_start": 529,
+          "char_end": 543,
+          "year_reference": 1840,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1877,
+            1878,
+            1879,
+            1880,
+            1883,
+            1886,
+            1888,
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Australia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The country subsequently became a resort for whalers and traders chiefly from Australia, as well as a field for the labours of the Missionary Societies from 1814.",
+          "char_start": 299,
+          "char_end": 308,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1877,
+            1878,
+            1879,
+            1880,
+            1883,
+            1886,
+            1888,
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "australia"
+        }
+      ],
+      "year_references": [
+        1642,
+        1769,
+        1814,
+        1840,
+        1845,
+        1848,
+        1860,
+        1870,
+        1871,
+        1881,
+        1886
+      ]
+    },
+    {
+      "uri": "col:hversion/new_zealand/history/27996c753937",
+      "colony": "new_zealand",
+      "section_slug": "history",
+      "version_hash": "27996c753937",
+      "asserted_by": "Colonial Office List",
+      "text": "New Zealand was discovered in 1642 by the Dutch navigator, Tasman, who, however, did not land upon its shores. In 1769 it was visited by Captain Cook, who in that year, and during subsequent voyages, explored its coasts. The country subsequently became a resort for whalers and traders, chiefly from Australia, as well as a field for the labours of the Missionary Societies from 1814. In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony. The aborigines, called Maoris, are a remarkable people—a branch of the Polynesian race. According to their own traditions, their forefathers came about 600 years, or twenty generations ago, from Hawaiki, which was probably Hawaii in the Sandwich Islands, or Savaii, in the Navigator, or Samoa, group. They are divided into about twenty different clans, analogous to those of the Highlands of Scotland. There have been two Maori wars; the first lasted from 1845 until 1848; the second lasted from 1860, with little intermission, until 1870. But fully half the clans have always been friendly to the English; and many of them fought on the side of the Colonial Government against their own countrymen. Permanent tranquillity was established in 1871 throughout the country. An agitation amongst certain tribes in 1881, which threatened for a time to create a disturbance, was promptly quelled by the Colonial Government. At the census taken in 1891, the Maoris (including half-casts) amounted to 41,998, all of whom dwelt in the North Island, with the exception of 2,218 scattered over the other islands. Constitution. The country was at first a dependency of New South Wales, but was separated by letters patent in 1842. Its settlement was largely effected by the New Zealand Company, with a royal charter, which was surrendered in 1850. Down to 1847 the Executive and Legislative Councils were both nominated by the Governor, and constitutional form of Government was established by the Imperial Statute 15 and 16 Vic., cap. 72. By that Act the Colony was divided into six provinces, increased to nine—viz., Auckland, Taranaki, Wellington, Nelson, Canterbury, Otago, Hawke's Bay, Westland, and Marlborough—each governed by a Superintendent and Provincial Council, elected by the inhabitants under a franchise which practically amounted to household suffrage. By an Act of the General Assembly, 39 Vic., No. XXI, passed in 1876, the provincial system of Government was abolished. The powers previously exercised by superintendents and provincial officers are now exercised by the Governor or by local boards. The provincial system being abolished provision was made for the division of the country into counties, and the necessary machinery for their self-government was provided. A Central Legislature, called the General Assembly, was also established by the Imperial Statute of 1852, consisting of the Governor, a Legislative Council, and House of Representatives. The Governor is assisted by an Executive Council, composed of the Responsible Ministers of the Colony for the time being, according to the usual practice of Parliamentary Government. The Legislative Councillors are appointed by the Governor, and up to 1891 held their seats for life. Under the Act passed in that year, future appointments are tenable for seven years only. The members of the House of Representatives are chosen by electors possessing a liberal franchise. Every elector is qualified to become a member. The House of Representatives now consists of 74, including 4 Maori members, elected by the natives. The session is usually from May to September. Payment of Members of the Legislative Council is at the rate of 150l. a year, payable monthly. Members of the House of Representatives receive 20l. a month, amounting to 240l. per annum. The Electoral Act, 1893, extended to women (of both races), the right to register as electors, and to vote at the elections for members of the House of Representatives. The franchise for European representation is as follows:—First, every adult person, if resident one year in the Colony and three months in one electoral district, can be registered as an elector. Second, freehold property, 25l. value, held for six months before registration, entitles a man to register, if not already registered under the residential qualification. Maoris possessing a 25l. freehold under Crown title can also register. In 1889 an amendment of the Representation Act was passed, which contained a provision prohibiting any elector from giving his vote in respect of more than one electorate at any election; and by the Electoral Act, 1893, no person is entitled to be registered on more than one electoral roll, whatever the number or nature of qualifications he or she may possess, or wherever they may be. For Maori representation every adult Maori resident in the district can vote, and no registration is required. There are four Maori electoral districts. For local bodies the qualification is a ratepayer's one. Women ratepayers can vote as well as men. The control of native affairs, and the entire responsibility of dealing with questions of native government were transferred in 1863 from the Imperial to the Colonial Government. In 1865, the seat of Government was removed from Auckland to Wellington, on account of the central position of the latter city.",
+      "edition_years": [
+        1896
+      ],
+      "first_edition_year": 1896,
+      "last_edition_year": 1896,
+      "n_editions": 1,
+      "representative_source_file": "1896_manual_parsed/new_zealand.txt",
+      "char_start": 2646,
+      "char_end": 8118,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "New Zealand was discovered in 1642 by the Dutch navigator, Tasman, who, however, did not land upon its shores.",
+          "char_start": 0,
+          "char_end": 110,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "became a british",
+            "ceded"
+          ],
+          "verbatim_span": "In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony.",
+          "char_start": 385,
+          "char_end": 586,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony.",
+          "char_start": 385,
+          "char_end": 586,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown",
+            "sovereignty"
+          ],
+          "verbatim_span": "In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony.",
+          "char_start": 385,
+          "char_end": 586,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribes"
+          ],
+          "verbatim_span": "An agitation amongst certain tribes in 1881, which threatened for a time to create a disturbance, was promptly quelled by the Colonial Government.",
+          "char_start": 1358,
+          "char_end": 1504,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "Down to 1847 the Executive and Legislative Councils were both nominated by the Governor, and constitutional form of Government was established by the Imperial Statute 15 and 16 Vic., cap.",
+          "char_start": 1923,
+          "char_end": 2110,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "A Central Legislature, called the General Assembly, was also established by the Imperial Statute of 1852, consisting of the Governor, a Legislative Council, and House of Representatives.",
+          "char_start": 2866,
+          "char_end": 3052,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives"
+          ],
+          "verbatim_span": "The House of Representatives now consists of 74, including 4 Maori members, elected by the natives.",
+          "char_start": 3572,
+          "char_end": 3671,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "The control of native affairs, and the entire responsibility of dealing with questions of native government were transferred in 1863 from the Imperial to the Colonial Government.",
+          "char_start": 5152,
+          "char_end": 5330,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "The control of native affairs, and the entire responsibility of dealing with questions of native government were transferred in 1863 from the Imperial to the Colonial Government.",
+          "char_start": 5152,
+          "char_end": 5330,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1769 it was visited by Captain Cook, who in that year, and during subsequent voyages, explored its coasts.",
+          "char_start": 137,
+          "char_end": 149,
+          "year_reference": 1769,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1896
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Cook, G. L.",
+            "name_match": "bare",
+            "strong": false,
+            "is_governor": false,
+            "personnel_years": [
+              1898,
+              1899,
+              1900,
+              1905,
+              1906,
+              1907,
+              1908,
+              1909,
+              1912
+            ],
+            "positions": [
+              "District Engineer",
+              "Resident Engineer"
+            ],
+            "mention_year": 1769,
+            "temporal_delta": 129,
+            "temporal": "pre_records",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "Captain Hobson",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony.",
+          "char_start": 530,
+          "char_end": 544,
+          "year_reference": 1840,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1896
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "General Assembly",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "By an Act of the General Assembly, 39 Vic., No.",
+          "char_start": 2462,
+          "char_end": 2478,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1896
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Australia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The country subsequently became a resort for whalers and traders, chiefly from Australia, as well as a field for the labours of the Missionary Societies from 1814.",
+          "char_start": 300,
+          "char_end": 309,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1896
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "australia"
+        }
+      ],
+      "year_references": [
+        1642,
+        1769,
+        1814,
+        1840,
+        1842,
+        1845,
+        1847,
+        1848,
+        1850,
+        1852,
+        1860,
+        1863,
+        1865,
+        1870,
+        1871,
+        1876,
+        1881,
+        1889,
+        1891,
+        1893
+      ]
+    },
+    {
+      "uri": "col:hversion/new_zealand/history/5f10e64efd5f",
+      "colony": "new_zealand",
+      "section_slug": "history",
+      "version_hash": "5f10e64efd5f",
+      "asserted_by": "Colonial Office List",
+      "text": "New Zealand was discovered in 1642 by the Dutch navigator, Tasman, who, however, did not land upon its shores. In 1769 it was visited by Captain Cook, who in that year, and during subsequent voyages, explored its coasts. The country subsequently became a resort for whalers and traders, chiefly from Australia, as well as a field for the labours of the Missionary Societies from 1814. In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony. The aborigines, called Maoris, are a remarkable people—a branch of the Polynesian race. According to their own traditions, their forefathers came about 600 years, or twenty generations ago, from Hawaiki, which was probably Hawaii in the Sandwich Islands, or Savaii, in the Navigator, or Samoa, group. They are divided into about twenty different clans, analogous to those of the Highlands of Scotland. There have been two Maori wars; the first lasted from 1845 until 1848; the second lasted from 1860, with little intermission, until 1870. But fully half the clans have always been friendly to the English; and many of them fought on the side of the Colonial Government against their own countrymen. Permanent tranquillity was established in 1871 throughout the country. An agitation amongst certain tribes in 1881, which threatened for a time to create a disturbance, was promptly quelled by the Colonial Government. At the census taken in 1901, the Maoria (including half-castes) amounted to 43,143, all of whom dwelt in the North Island, with the exception of some 2,232 scattered over the other islands.",
+      "edition_years": [
+        1897,
+        1898,
+        1899,
+        1900,
+        1905,
+        1907,
+        1908,
+        1909,
+        1912,
+        1913,
+        1914,
+        1915,
+        1917,
+        1918,
+        1919,
+        1920,
+        1922
+      ],
+      "first_edition_year": 1897,
+      "last_edition_year": 1922,
+      "n_editions": 17,
+      "representative_source_file": "1905_manual_parsed/NEW_ZEALAND.txt",
+      "char_start": 3304,
+      "char_end": 4999,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.94,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "New Zealand was discovered in 1642 by the Dutch navigator, Tasman, who, however, did not land upon its shores.",
+          "char_start": 0,
+          "char_end": 110,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "became a british",
+            "ceded"
+          ],
+          "verbatim_span": "In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony.",
+          "char_start": 385,
+          "char_end": 586,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony.",
+          "char_start": 385,
+          "char_end": 586,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown",
+            "sovereignty"
+          ],
+          "verbatim_span": "In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony.",
+          "char_start": 385,
+          "char_end": 586,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribes"
+          ],
+          "verbatim_span": "An agitation amongst certain tribes in 1881, which threatened for a time to create a disturbance, was promptly quelled by the Colonial Government.",
+          "char_start": 1358,
+          "char_end": 1504,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1769 it was visited by Captain Cook, who in that year, and during subsequent voyages, explored its coasts.",
+          "char_start": 137,
+          "char_end": 149,
+          "year_reference": 1769,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Cook, G. L.",
+            "name_match": "bare",
+            "strong": false,
+            "is_governor": false,
+            "personnel_years": [
+              1898,
+              1899,
+              1900,
+              1905,
+              1906,
+              1907,
+              1908,
+              1909,
+              1912
+            ],
+            "positions": [
+              "District Engineer",
+              "Resident Engineer"
+            ],
+            "mention_year": 1769,
+            "temporal_delta": 129,
+            "temporal": "pre_records",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "Captain Hobson",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1840, the native chiefs ceded the sovereignty of New Zealand to the British Crown by the Treaty of Waitangi, concluded by the British Consul, Captain Hobson, and the islands became a British colony.",
+          "char_start": 530,
+          "char_end": 544,
+          "year_reference": 1840,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Australia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The country subsequently became a resort for whalers and traders, chiefly from Australia, as well as a field for the labours of the Missionary Societies from 1814.",
+          "char_start": 300,
+          "char_end": 309,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897,
+            1898,
+            1899,
+            1900,
+            1905,
+            1907,
+            1908,
+            1909,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920,
+            1922
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "australia"
+        }
+      ],
+      "year_references": [
+        1642,
+        1769,
+        1814,
+        1840,
+        1845,
+        1848,
+        1860,
+        1870,
+        1871,
+        1881,
+        1901
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "australia"
+  ]
+}

@@ -1,0 +1,1156 @@
+{
+  "colony": "southern_nigeria",
+  "n_editions_with_history": 9,
+  "n_versions": 4,
+  "versions": [
+    {
+      "uri": "col:hversion/southern_nigeria/history/f0768db0ede7",
+      "colony": "southern_nigeria",
+      "section_slug": "history",
+      "version_hash": "f0768db0ede7",
+      "asserted_by": "Colonial Office List",
+      "text": "The British Protectorate of the Niger districts (Oil Rivers Protectorate) was announced in the London Gazette of 5th June, 1885. It extended along the West Coast of Africa from a point on the shore of the Bight of Benin about ten miles north-west of the Benin River to the Rio del Rey on the Gulf of Guinea. The part between the Forcados River and the Nun mouth of the Niger was included in the territories administered by the Royal Niger Company under their Charter of 10th July, 1886. By an Order in Council, dated the 13th May, 1893, the Protectorate was extended under the name of the Niger Coast Protectorate, and an administration established under Sir Claude MacDonald, K.C.M.G., K.C.B., as Imperial Commissioner and Consul-General; he was succeeded in this office, in 1896, by Sir R. Moor, K.C.M.G. On the taking over of the territories of the Royal Niger Company in 1900 the Niger Coast Protectorate was extended so as to include the part lying between Idah on the Niger and the Coast, which had been formerly administered by the Company, and the Protectorate of Southern Nigeria was constituted under an Order in Council, dated the 27th December, 1899, the administration being transferred from the Foreign to Colonial Office. Mr. Walter Egerton, C.M.G., High Commissioner, has recently been also appointed Governor of Lagos, and the amalgamation of that Colony with the Protectorate of Southern Nigeria is under consideration.",
+      "edition_years": [
+        1905
+      ],
+      "first_edition_year": 1905,
+      "last_edition_year": 1905,
+      "n_editions": 1,
+      "representative_source_file": "1905_manual_parsed/SOUTHERN_NIGERIA.txt",
+      "char_start": 4474,
+      "char_end": 5915,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "The British Protectorate of the Niger districts (Oil Rivers Protectorate) was announced in the London Gazette of 5th June, 1885.",
+          "char_start": 0,
+          "char_end": 128,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial",
+            "protectorate"
+          ],
+          "verbatim_span": "By an Order in Council, dated the 13th May, 1893, the Protectorate was extended under the name of the Niger Coast Protectorate, and an administration established under Sir Claude MacDonald, K.C.M.G., K.C.B., as Imperial Commissioner and Consul-General; he was succeeded in this office, in 1896, by Sir R.",
+          "char_start": 487,
+          "char_end": 791,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On the taking over of the territories of the Royal Niger Company in 1900 the Niger Coast Protectorate was extended so as to include the part lying between Idah on the Niger and the Coast, which had been formerly administered by the Company, and the Protectorate of Southern Nigeria was constituted under an Order in Council, dated the 27th December, 1899, the administration being transferred from the Foreign to Colonial Office.",
+          "char_start": 807,
+          "char_end": 1236,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "Walter Egerton, C.M.G., High Commissioner, has recently been also appointed Governor of Lagos, and the amalgamation of that Colony with the Protectorate of Southern Nigeria is under consideration.",
+          "char_start": 1241,
+          "char_end": 1437,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1905
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Claude Mac",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "By an Order in Council, dated the 13th May, 1893, the Protectorate was extended under the name of the Niger Coast Protectorate, and an administration established under Sir Claude MacDonald, K.C.M.G., K.C.B., as Imperial Commissioner and Consul-General; he was succeeded in this office, in 1896, by Sir R.",
+          "char_start": 655,
+          "char_end": 669,
+          "year_reference": 1893,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Mr. Walter Egerton",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Mr. Walter Egerton, C.M.G., High Commissioner, has recently been also appointed Governor of Lagos, and the amalgamation of that Colony with the Protectorate of Southern Nigeria is under consideration.",
+          "char_start": 1237,
+          "char_end": 1255,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Egerton, Walter",
+            "name_match": "initial_compatible",
+            "strong": true,
+            "is_governor": true,
+            "personnel_years": [
+              1907
+            ],
+            "positions": [
+              "Governor and Commander-in-Chief"
+            ],
+            "mention_year": null,
+            "temporal_delta": null,
+            "temporal": "undated",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "Nigeria",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "On the taking over of the territories of the Royal Niger Company in 1900 the Niger Coast Protectorate was extended so as to include the part lying between Idah on the Niger and the Coast, which had been formerly administered by the Company, and the Protectorate of Southern Nigeria was constituted under an Order in Council, dated the 27th December, 1899, the administration being transferred from the Foreign to Colonial Office.",
+          "char_start": 1081,
+          "char_end": 1088,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "nigeria"
+        },
+        {
+          "surface_text": "Lagos",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Walter Egerton, C.M.G., High Commissioner, has recently been also appointed Governor of Lagos, and the amalgamation of that Colony with the Protectorate of Southern Nigeria is under consideration.",
+          "char_start": 1329,
+          "char_end": 1334,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "lagos"
+        }
+      ],
+      "year_references": [
+        1885,
+        1886,
+        1893,
+        1896,
+        1899,
+        1900
+      ]
+    },
+    {
+      "uri": "col:hversion/southern_nigeria/history/b02bba6874d0",
+      "colony": "southern_nigeria",
+      "section_slug": "history",
+      "version_hash": "b02bba6874d0",
+      "asserted_by": "Colonial Office List",
+      "text": "Malacca, known as an important independent State from the oldest times, is one of the oldest European settlements in the East, having been taken possession of by the Portuguese under Albuquerque in 1511, and held by them till 1641, when the Dutch, after frequent attempts, were successful in driving them out. The settlement remained under the Government of the Dutch till 1795, when it was taken possession of by the English, and held by them till 1818, at which date it was restored to the Dutch, and finally passed into our hands in pursuance of the treaty with Holland of the 17th March, 1824, in exchange for the East India Company's settlement at Bencoolen, on the west coast of Sumatra. By that treaty it was arranged that the Dutch should leave the Malay Peninsula, the British Government agreeing at the same time to leave Sumatra to the Dutch. When Malacca was taken possession of by the Portuguese in 1511, it was one of the grand entrepôts for the commerce of the East, but as the Portuguese pushed their operations further to the east, in the archipelago and neighbouring countries, the trade of Malacca gradually declined and it ceased to be of consequence as a collecting centre. except for the trade of the Malayan Peninsula and the Island of Sumatra, which trade it retained, under Dutch rule, till the establishment of Penang in 1786, when in the course of a few years trade almost ceased, and it became, what it has ever since been, a place of little commercial importance, but possessing great agricultural resources. Penang soon acquired a monopoly of the trade of the Malayan Peninsula and Sumatra, and had a large traffic with China, Siam, Borneo, the Celebes, and other places in the archipelago not under Dutch restrictions; but no sooner was Singapore established than Penang in its turn had to yield the first place to Singapore, and came to depend chiefly on the local trade, which has largely increased in consequence of the opening out of the extensive tin mines in Larut, Klang, Selangor, and Junk Ceylon (Puket or Tongkah), and the settling of Deli, on the coast of Sumatra. Penang, or Prince of Wales' Island, was the first British settlement on the Malayan Peninsula, having been ceded to the English by the Raja of Kedah in 1783, with the proviso that the sum of 6,000 dols. be annually paid to the Raja of Kedah as long as the British occupy the island. In 1798, in consequence of the prevalence of piracy on the shores of the mainland opposite Penang, a strip of the coast of the mainland was acquired from the Raja, now called Province Wellesley. This has been subsequently enlarged from time to time, until it now extends from the Muda River to 10 miles south of the Krian River, a distance of 45 miles, containing in all 288 square miles. This province is in a high state of cultivation, the chief articles cultivated being sugar, paddy, and cocoanuts. In 1805 Penang was made a separate Presidency under the East India Company, of equal rank with Madras and Bombay. In 1826 Singapore and Malacca were incorporated with it under one government, Penang still remaining the seat of government. In 1836 the seat of government was transferred to Singapore. The island of Pangkor and the Sembilan Islands were ceded by Perak in 1826, with a view to the suppression of piracy, but no use was made of the cession at the time. In 1874 the cession of these islands was confirmed by the Treaty of Pangkor (to which reference is made in dealing with the relations of the Colony with the Native Malay States), by which a strip of territory in the mainland opposite also became British, and the whole now forms, under the name of the Dindings Territory, an outlying portion of the Settlement of Penang. There is some evidence of Singapore having been an important trading centre in the 12th and 13th centuries, and the tradition is that the place was attacked and devastated in 1252 by the Javanese. Thenceforth the island was scarcely inhabited until it was taken possession of by Sir Stamford Raffles in 1819, by virtue of a treaty with the Johore princes. It was at first subordinate to Bengoolen (Fort Marlborough) in Sumatra, but in 1823 it was placed under the Government of Bengal; it was afterwards, as above stated, incorporated, in 1826, with Penang and Malacca, and placed under the Governor and Council of the Incorporated Settlements.",
+      "edition_years": [
+        1906
+      ],
+      "first_edition_year": 1906,
+      "last_edition_year": 1906,
+      "n_editions": 1,
+      "representative_source_file": "1906_manual_parsed/SOUTHERN_NIGERIA.txt",
+      "char_start": 10280,
+      "char_end": 14658,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "Malacca, known as an important independent State from the oldest times, is one of the oldest European settlements in the East, having been taken possession of by the Portuguese under Albuquerque in 1511, and held by them till 1641, when the Dutch, after frequent attempts, were successful in driving them out.",
+          "char_start": 0,
+          "char_end": 309,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "The settlement remained under the Government of the Dutch till 1795, when it was taken possession of by the English, and held by them till 1818, at which date it was restored to the Dutch, and finally passed into our hands in pursuance of the treaty with Holland of the 17th March, 1824, in exchange for the East India Company's settlement at Bencoolen, on the west coast of Sumatra.",
+          "char_start": 310,
+          "char_end": 693,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "When Malacca was taken possession of by the Portuguese in 1511, it was one of the grand entrepôts for the commerce of the East, but as the Portuguese pushed their operations further to the east, in the archipelago and neighbouring countries, the trade of Malacca gradually declined and it ceased to be of consequence as a collecting centre.",
+          "char_start": 854,
+          "char_end": 1194,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "acquired"
+          ],
+          "verbatim_span": "Penang soon acquired a monopoly of the trade of the Malayan Peninsula and Sumatra, and had a large traffic with China, Siam, Borneo, the Celebes, and other places in the archipelago not under Dutch restrictions; but no sooner was Singapore established than Penang in its turn had to yield the first place to Singapore, and came to depend chiefly on the local trade, which has largely increased in consequence of the opening out of the extensive tin mines in Larut, Klang, Selangor, and Junk Ceylon (Puket or Tongkah), and the settling of Deli, on the coast of Sumatra.",
+          "char_start": 1538,
+          "char_end": 2106,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "Penang, or Prince of Wales' Island, was the first British settlement on the Malayan Peninsula, having been ceded to the English by the Raja of Kedah in 1783, with the proviso that the sum of 6,000 dols.",
+          "char_start": 2107,
+          "char_end": 2309,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "acquired"
+          ],
+          "verbatim_span": "In 1798, in consequence of the prevalence of piracy on the shores of the mainland opposite Penang, a strip of the coast of the mainland was acquired from the Raja, now called Province Wellesley.",
+          "char_start": 2390,
+          "char_end": 2584,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "transferred to"
+          ],
+          "verbatim_span": "In 1836 the seat of government was transferred to Singapore.",
+          "char_start": 3132,
+          "char_end": 3192,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "cession"
+          ],
+          "verbatim_span": "The island of Pangkor and the Sembilan Islands were ceded by Perak in 1826, with a view to the suppression of piracy, but no use was made of the cession at the time.",
+          "char_start": 3193,
+          "char_end": 3358,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "suppression"
+          ],
+          "verbatim_span": "The island of Pangkor and the Sembilan Islands were ceded by Perak in 1826, with a view to the suppression of piracy, but no use was made of the cession at the time.",
+          "char_start": 3193,
+          "char_end": 3358,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "In 1874 the cession of these islands was confirmed by the Treaty of Pangkor (to which reference is made in dealing with the relations of the Colony with the Native Malay States), by which a strip of territory in the mainland opposite also became British, and the whole now forms, under the name of the Dindings Territory, an outlying portion of the Settlement of Penang.",
+          "char_start": 3359,
+          "char_end": 3729,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "In 1874 the cession of these islands was confirmed by the Treaty of Pangkor (to which reference is made in dealing with the relations of the Colony with the Native Malay States), by which a strip of territory in the mainland opposite also became British, and the whole now forms, under the name of the Dindings Territory, an outlying portion of the Settlement of Penang.",
+          "char_start": 3359,
+          "char_end": 3729,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "Thenceforth the island was scarcely inhabited until it was taken possession of by Sir Stamford Raffles in 1819, by virtue of a treaty with the Johore princes.",
+          "char_start": 3927,
+          "char_end": 4085,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Stamford Raffles",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Thenceforth the island was scarcely inhabited until it was taken possession of by Sir Stamford Raffles in 1819, by virtue of a treaty with the Johore princes.",
+          "char_start": 4009,
+          "char_end": 4029,
+          "year_reference": 1819,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Malacca",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Malacca, known as an important independent State from the oldest times, is one of the oldest European settlements in the East, having been taken possession of by the Portuguese under Albuquerque in 1511, and held by them till 1641, when the Dutch, after frequent attempts, were successful in driving them out.",
+          "char_start": 0,
+          "char_end": 7,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "malacca"
+        },
+        {
+          "surface_text": "Penang",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "except for the trade of the Malayan Peninsula and the Island of Sumatra, which trade it retained, under Dutch rule, till the establishment of Penang in 1786, when in the course of a few years trade almost ceased, and it became, what it has ever since been, a place of little commercial importance, but possessing great agricultural resources.",
+          "char_start": 1337,
+          "char_end": 1343,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "penang"
+        },
+        {
+          "surface_text": "Borneo",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Penang soon acquired a monopoly of the trade of the Malayan Peninsula and Sumatra, and had a large traffic with China, Siam, Borneo, the Celebes, and other places in the archipelago not under Dutch restrictions; but no sooner was Singapore established than Penang in its turn had to yield the first place to Singapore, and came to depend chiefly on the local trade, which has largely increased in consequence of the opening out of the extensive tin mines in Larut, Klang, Selangor, and Junk Ceylon (Puket or Tongkah), and the settling of Deli, on the coast of Sumatra.",
+          "char_start": 1663,
+          "char_end": 1669,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "borneo"
+        },
+        {
+          "surface_text": "Singapore",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Penang soon acquired a monopoly of the trade of the Malayan Peninsula and Sumatra, and had a large traffic with China, Siam, Borneo, the Celebes, and other places in the archipelago not under Dutch restrictions; but no sooner was Singapore established than Penang in its turn had to yield the first place to Singapore, and came to depend chiefly on the local trade, which has largely increased in consequence of the opening out of the extensive tin mines in Larut, Klang, Selangor, and Junk Ceylon (Puket or Tongkah), and the settling of Deli, on the coast of Sumatra.",
+          "char_start": 1768,
+          "char_end": 1777,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "singapore"
+        },
+        {
+          "surface_text": "Selangor",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Penang soon acquired a monopoly of the trade of the Malayan Peninsula and Sumatra, and had a large traffic with China, Siam, Borneo, the Celebes, and other places in the archipelago not under Dutch restrictions; but no sooner was Singapore established than Penang in its turn had to yield the first place to Singapore, and came to depend chiefly on the local trade, which has largely increased in consequence of the opening out of the extensive tin mines in Larut, Klang, Selangor, and Junk Ceylon (Puket or Tongkah), and the settling of Deli, on the coast of Sumatra.",
+          "char_start": 2010,
+          "char_end": 2018,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "selangor"
+        },
+        {
+          "surface_text": "Ceylon",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Penang soon acquired a monopoly of the trade of the Malayan Peninsula and Sumatra, and had a large traffic with China, Siam, Borneo, the Celebes, and other places in the archipelago not under Dutch restrictions; but no sooner was Singapore established than Penang in its turn had to yield the first place to Singapore, and came to depend chiefly on the local trade, which has largely increased in consequence of the opening out of the extensive tin mines in Larut, Klang, Selangor, and Junk Ceylon (Puket or Tongkah), and the settling of Deli, on the coast of Sumatra.",
+          "char_start": 2029,
+          "char_end": 2035,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "ceylon"
+        },
+        {
+          "surface_text": "Kedah",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Penang, or Prince of Wales' Island, was the first British settlement on the Malayan Peninsula, having been ceded to the English by the Raja of Kedah in 1783, with the proviso that the sum of 6,000 dols.",
+          "char_start": 2250,
+          "char_end": 2255,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "kedah"
+        },
+        {
+          "surface_text": "Perak",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The island of Pangkor and the Sembilan Islands were ceded by Perak in 1826, with a view to the suppression of piracy, but no use was made of the cession at the time.",
+          "char_start": 3254,
+          "char_end": 3259,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "perak"
+        },
+        {
+          "surface_text": "Dindings",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1874 the cession of these islands was confirmed by the Treaty of Pangkor (to which reference is made in dealing with the relations of the Colony with the Native Malay States), by which a strip of territory in the mainland opposite also became British, and the whole now forms, under the name of the Dindings Territory, an outlying portion of the Settlement of Penang.",
+          "char_start": 3661,
+          "char_end": 3669,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "dindings"
+        },
+        {
+          "surface_text": "Johore",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Thenceforth the island was scarcely inhabited until it was taken possession of by Sir Stamford Raffles in 1819, by virtue of a treaty with the Johore princes.",
+          "char_start": 4070,
+          "char_end": 4076,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "johore"
+        }
+      ],
+      "year_references": [
+        1511,
+        1641,
+        1783,
+        1786,
+        1795,
+        1798,
+        1805,
+        1818,
+        1819,
+        1823,
+        1824,
+        1826,
+        1836,
+        1874
+      ]
+    },
+    {
+      "uri": "col:hversion/southern_nigeria/history/4e54b3b3cf5a",
+      "colony": "southern_nigeria",
+      "section_slug": "history",
+      "version_hash": "4e54b3b3cf5a",
+      "asserted_by": "Colonial Office List",
+      "text": "The King of Lagos (Kosokol), having refused to co-operate in putting down the slave trade, was expelled by a British force in 1851, and his cousin Akitoye placed on the throne, by whom a treaty was concluded under which he bound himself to put down the slave trade. A Consul was appointed, but the treaty was not fully adhered to by Akitoye's son and successor, King Docemo, who was induced on the 6th of August, 1861, to cede his possessions to the British Crown in consideration of a pension of £1,000 a year, which he continued to draw until his death in 1885. The territories were erected into a separate Government by Letters Patent dated the 13th of March, 1863. By the charter of the 19th of February, 1866, Lagos became a part of the Government of the West Africa Settlements, having a separate Legislative Council; but being subject to the Governor-in-Chief at Sierra Leone. By the charter of the 24th July, 1874, Lagos became an integral part of the Gold Coast Colony. By further Letters Patent dated 13th January, 1886, the whole of these territories were separated from the Gold Coast Colony, and erected into a separate Colony. The original British settlements were Lagos Island and Iddo Island. In 1862, Palma and Leckie became British, and in 1863 Badagry was ceded by its chiefs. In 1879 the kingdom of Kotonu, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the protectorate, and in 1883 the kingdom of Appa, lying east of Kotonu, was also brought under British jurisdiction. On the east also the protectorate was, in 1885, extended as far as the Benin River, by the inclusion of part of the kingdom of Mahin, and of the Ogbo and Jakri territories. In 1890, Kotonu was exchanged with the French Government for the kingdom of Pokra, lying between Porto Novo and Badagry. In 1891 the kingdoms of Igbessa, Addo and Ilaro were included in the protectorate, and in 1894 Jehu Remo was similarly dealt with, Mahin, Itetu, Ihu, and Ayessan being proclaimed protectorates in 1895. An expedition was sent against the Jebus in May, 1892, which resulted in the military occupation and eventual inclusion into the Colony of a portion of their country, and in the opening of a most important trade route to the interior. Agreements have been concluded with the Egba native Government, and with the chiefs of the Ibadan, Oyo, and Ife provinces, vesting in His Majesty the King power and jurisdiction therein in all murder and manslaughter cases, and in all cases in which one or both of the parties is not a subject thereof respectively.",
+      "edition_years": [
+        1907,
+        1908,
+        1909
+      ],
+      "first_edition_year": 1907,
+      "last_edition_year": 1909,
+      "n_editions": 3,
+      "representative_source_file": "1909_manual_parsed/southern_nigeria.txt",
+      "char_start": 26437,
+      "char_end": 29043,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.985,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown"
+          ],
+          "verbatim_span": "A Consul was appointed, but the treaty was not fully adhered to by Akitoye's son and successor, King Docemo, who was induced on the 6th of August, 1861, to cede his possessions to the British Crown in consideration of a pension of £1,000 a year, which he continued to draw until his death in 1885.",
+          "char_start": 266,
+          "char_end": 563,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "In 1862, Palma and Leckie became British, and in 1863 Badagry was ceded by its chiefs.",
+          "char_start": 1209,
+          "char_end": 1295,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "brought under british"
+          ],
+          "verbatim_span": "In 1879 the kingdom of Kotonu, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the protectorate, and in 1883 the kingdom of Appa, lying east of Kotonu, was also brought under British jurisdiction.",
+          "char_start": 1296,
+          "char_end": 1550,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1879 the kingdom of Kotonu, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the protectorate, and in 1883 the kingdom of Appa, lying east of Kotonu, was also brought under British jurisdiction.",
+          "char_start": 1296,
+          "char_end": 1550,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On the east also the protectorate was, in 1885, extended as far as the Benin River, by the inclusion of part of the kingdom of Mahin, and of the Ogbo and Jakri territories.",
+          "char_start": 1551,
+          "char_end": 1723,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1891 the kingdoms of Igbessa, Addo and Ilaro were included in the protectorate, and in 1894 Jehu Remo was similarly dealt with, Mahin, Itetu, Ihu, and Ayessan being proclaimed protectorates in 1895.",
+          "char_start": 1845,
+          "char_end": 2046,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "An expedition was sent against the Jebus in May, 1892, which resulted in the military occupation and eventual inclusion into the Colony of a portion of their country, and in the opening of a most important trade route to the interior.",
+          "char_start": 2047,
+          "char_end": 2281,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "Agreements have been concluded with the Egba native Government, and with the chiefs of the Ibadan, Oyo, and Ife provinces, vesting in His Majesty the King power and jurisdiction therein in all murder and manslaughter cases, and in all cases in which one or both of the parties is not a subject thereof respectively.",
+          "char_start": 2282,
+          "char_end": 2597,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "Agreements have been concluded with the Egba native Government, and with the chiefs of the Ibadan, Oyo, and Ife provinces, vesting in His Majesty the King power and jurisdiction therein in all murder and manslaughter cases, and in all cases in which one or both of the parties is not a subject thereof respectively.",
+          "char_start": 2282,
+          "char_end": 2597,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "King Docemo",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "A Consul was appointed, but the treaty was not fully adhered to by Akitoye's son and successor, King Docemo, who was induced on the 6th of August, 1861, to cede his possessions to the British Crown in consideration of a pension of £1,000 a year, which he continued to draw until his death in 1885.",
+          "char_start": 362,
+          "char_end": 373,
+          "year_reference": 1861,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1907,
+            1908,
+            1909
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Lagos",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The King of Lagos (Kosokol), having refused to co-operate in putting down the slave trade, was expelled by a British force in 1851, and his cousin Akitoye placed on the throne, by whom a treaty was concluded under which he bound himself to put down the slave trade.",
+          "char_start": 12,
+          "char_end": 17,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1907,
+            1908,
+            1909
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "lagos"
+        }
+      ],
+      "year_references": [
+        1851,
+        1861,
+        1862,
+        1863,
+        1866,
+        1874,
+        1879,
+        1883,
+        1885,
+        1886,
+        1890,
+        1891,
+        1892,
+        1894,
+        1895
+      ]
+    },
+    {
+      "uri": "col:hversion/southern_nigeria/history/f45652782658",
+      "colony": "southern_nigeria",
+      "section_slug": "history",
+      "version_hash": "f45652782658",
+      "asserted_by": "Colonial Office List",
+      "text": "Kosoko, the King of Lagos, having refused to co-operate in suppressing the slave trade, was expelled by a British force in 1851, and his cousin Akitoye placed on the throne, by whom a treaty was concluded under which he bound himself to put down the slave trade. A Consul was appointed, but the treaty was not fully adhered to by Akitoye's son and successor, King Docemo, who was induced on the 6th of August, 1861, to cede his possessions to the British Crown in consideration of a pension of 1,000l. a year, which he continued to draw until his death in 1885. By Letters Patent dated the 13th of March, 1863, the territories were erected into a separate Government. By the charter of the 19th of February, 1866, Lagos became a part of the Government of the West African Settlements, having a separate Legislative Council, but being subject to the Governor-in-Chief at Sierra Leone. By the charter of the 24th July, 1874, Lagos became an integral part of the Gold Coast Colony. By further Letters Patent dated 13th January, 1886, the whole of these territories were separated from the Gold Coast Colony, and erected into a separate Colony. By Letters Patent dated 28th February, 1906, already referred to, Lagos was amalgamated with Southern Nigeria. In 1862, Palma and Leckie became British, and in 1863 Badagry was ceded by its chiefs. In 1879 the kingdom of Kotonu, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the Protectorate, and in 1883 the kingdom of Appa, lying east of Kotonu, was also brought under British jurisdiction. On the east also the Protectorate was, in 1885, extended as far as the Benin River, by the inclusion of part of the kingdom of Mahin, and of the Ogbo and Jekri territories. In 1890, Kotonu was exchanged with the French Government for the kingdom of Pokra, lying between Porto Novo and Badagry. In 1891 the kingdoms of Igbesa, Addo and Ilaro were included in the Protectorate, and in 1894 Jebu Remo was similarly dealt with, Mahin, Itetbu, Ibu, and Aiyesean being proclaimed Protectorate in 1895. * The Yoruba place names Epe, Meko and Oyo are pronounced Epheh, Mekkaw and Awysaw. An expedition was sent against the Jebus in May, 1892, which resulted in the military occupation and eventual inclusion into the Protectorate of a portion of their country, and in the opening of a most important trade route to the interior. Ikorodu was ceded in August, 1894, and by an Order in Council, issued at the end of 1899, the Protectorate was extended to the boundaries of Northern Nigeria and to the Protectorate then known as Southern Nigeria.",
+      "edition_years": [
+        1910,
+        1911,
+        1912,
+        1913
+      ],
+      "first_edition_year": 1910,
+      "last_edition_year": 1913,
+      "n_editions": 4,
+      "representative_source_file": "1910_manual_parsed/SOUTHERN_NIGERIA.txt",
+      "char_start": 19871,
+      "char_end": 22509,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.967,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "suppressing"
+          ],
+          "verbatim_span": "Kosoko, the King of Lagos, having refused to co-operate in suppressing the slave trade, was expelled by a British force in 1851, and his cousin Akitoye placed on the throne, by whom a treaty was concluded under which he bound himself to put down the slave trade.",
+          "char_start": 0,
+          "char_end": 262,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown"
+          ],
+          "verbatim_span": "A Consul was appointed, but the treaty was not fully adhered to by Akitoye's son and successor, King Docemo, who was induced on the 6th of August, 1861, to cede his possessions to the British Crown in consideration of a pension of 1,000l.",
+          "char_start": 263,
+          "char_end": 501,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "In 1862, Palma and Leckie became British, and in 1863 Badagry was ceded by its chiefs.",
+          "char_start": 1252,
+          "char_end": 1338,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "brought under british"
+          ],
+          "verbatim_span": "In 1879 the kingdom of Kotonu, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the Protectorate, and in 1883 the kingdom of Appa, lying east of Kotonu, was also brought under British jurisdiction.",
+          "char_start": 1339,
+          "char_end": 1593,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1879 the kingdom of Kotonu, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the Protectorate, and in 1883 the kingdom of Appa, lying east of Kotonu, was also brought under British jurisdiction.",
+          "char_start": 1339,
+          "char_end": 1593,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On the east also the Protectorate was, in 1885, extended as far as the Benin River, by the inclusion of part of the kingdom of Mahin, and of the Ogbo and Jekri territories.",
+          "char_start": 1594,
+          "char_end": 1766,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1891 the kingdoms of Igbesa, Addo and Ilaro were included in the Protectorate, and in 1894 Jebu Remo was similarly dealt with, Mahin, Itetbu, Ibu, and Aiyesean being proclaimed Protectorate in 1895.",
+          "char_start": 1888,
+          "char_end": 2089,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "An expedition was sent against the Jebus in May, 1892, which resulted in the military occupation and eventual inclusion into the Protectorate of a portion of their country, and in the opening of a most important trade route to the interior.",
+          "char_start": 2174,
+          "char_end": 2414,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "An expedition was sent against the Jebus in May, 1892, which resulted in the military occupation and eventual inclusion into the Protectorate of a portion of their country, and in the opening of a most important trade route to the interior.",
+          "char_start": 2174,
+          "char_end": 2414,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "Ikorodu was ceded in August, 1894, and by an Order in Council, issued at the end of 1899, the Protectorate was extended to the boundaries of Northern Nigeria and to the Protectorate then known as Southern Nigeria.",
+          "char_start": 2415,
+          "char_end": 2628,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "Ikorodu was ceded in August, 1894, and by an Order in Council, issued at the end of 1899, the Protectorate was extended to the boundaries of Northern Nigeria and to the Protectorate then known as Southern Nigeria.",
+          "char_start": 2415,
+          "char_end": 2628,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "King Docemo",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "A Consul was appointed, but the treaty was not fully adhered to by Akitoye's son and successor, King Docemo, who was induced on the 6th of August, 1861, to cede his possessions to the British Crown in consideration of a pension of 1,000l.",
+          "char_start": 359,
+          "char_end": 370,
+          "year_reference": 1861,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Lagos",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Kosoko, the King of Lagos, having refused to co-operate in suppressing the slave trade, was expelled by a British force in 1851, and his cousin Akitoye placed on the throne, by whom a treaty was concluded under which he bound himself to put down the slave trade.",
+          "char_start": 20,
+          "char_end": 25,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "lagos"
+        },
+        {
+          "surface_text": "Nigeria",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "By Letters Patent dated 28th February, 1906, already referred to, Lagos was amalgamated with Southern Nigeria.",
+          "char_start": 1243,
+          "char_end": 1250,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "nigeria"
+        }
+      ],
+      "year_references": [
+        1851,
+        1861,
+        1862,
+        1863,
+        1866,
+        1874,
+        1879,
+        1883,
+        1885,
+        1886,
+        1890,
+        1891,
+        1892,
+        1894,
+        1895,
+        1899,
+        1906
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "borneo",
+    "ceylon",
+    "dindings",
+    "johore",
+    "kedah",
+    "lagos",
+    "malacca",
+    "nigeria",
+    "penang",
+    "perak",
+    "selangor",
+    "singapore"
+  ]
+}

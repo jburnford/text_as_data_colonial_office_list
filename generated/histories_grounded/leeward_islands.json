@@ -1,0 +1,697 @@
+{
+  "colony": "leeward_islands",
+  "n_editions_with_history": 15,
+  "n_versions": 3,
+  "versions": [
+    {
+      "uri": "col:hversion/leeward_islands/history/de7ed4a24015",
+      "colony": "leeward_islands",
+      "section_slug": "history",
+      "version_hash": "de7ed4a24015",
+      "asserted_by": "Colonial Office List",
+      "text": "The Islands were discovered by Columbus on his second voyage, in 1493, and became British during the 17th century. Particulars of their subsequent history will be found in the separate articles, but it may here be mentioned, that with the exception of Dominica they have been from the first associated politically as well as geographically. They were all colonised from St. Kitts as centre, all included in the Carlisle grant, and possessed a common Legislature as far back as the reign of William and Mary. Some Acts passed by that Legislature are still in force in the several islands, notably one \"to provide for the want of fines and common recoveries,\" under which entails and settlements of real property are effected, and which is considered creditable to the sagacity of the Colonists of the day as having anticipated by nearly a century and a half a very beneficial reform only effected in this country in the year 1833, by the Act 3 and 4 Will. IV., c. 74. The General Legislature met for the last time in 1798, when it passed a highly humane slave-amelioration Act, which was allowed; a Catholic Emancipation Act, and an Act repealing the duty on exports of 4½ per cent. for the benefit of the English exchequer—both which were disallowed. An attempt was made by Sir William Colebrook in 1837 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands. The Colonies of St. Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No. 2 of 1882.",
+      "edition_years": [
+        1899,
+        1900,
+        1908,
+        1911,
+        1912,
+        1918,
+        1919,
+        1920
+      ],
+      "first_edition_year": 1899,
+      "last_edition_year": 1920,
+      "n_editions": 8,
+      "representative_source_file": "1900_manual_parsed/LEEWARD_ISLANDS.txt",
+      "char_start": 1036,
+      "char_end": 2871,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.986,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Islands were discovered by Columbus on his second voyage, in 1493, and became British during the 17th century.",
+          "char_start": 0,
+          "char_end": 114,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1899,
+            1900,
+            1908,
+            1911,
+            1912,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "General Legislature",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The General Legislature met for the last time in 1798, when it passed a highly humane slave-amelioration Act, which was allowed; a Catholic Emancipation Act, and an Act repealing the duty on exports of 4½ per cent.",
+          "char_start": 971,
+          "char_end": 990,
+          "year_reference": 1798,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1899,
+            1900,
+            1908,
+            1911,
+            1912,
+            1918,
+            1919,
+            1920
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir William Colebrook",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "An attempt was made by Sir William Colebrook in 1837 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands.",
+          "char_start": 1274,
+          "char_end": 1295,
+          "year_reference": 1837,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1899,
+            1900,
+            1908,
+            1911,
+            1912,
+            1918,
+            1919,
+            1920
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir Benjamin Pine",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "An attempt was made by Sir William Colebrook in 1837 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands.",
+          "char_start": 1595,
+          "char_end": 1612,
+          "year_reference": 1837,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1899,
+            1900,
+            1908,
+            1911,
+            1912,
+            1918,
+            1919,
+            1920
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Pine, B. C. C.",
+            "name_match": "initial_compatible",
+            "strong": true,
+            "is_governor": true,
+            "personnel_years": [
+              1877,
+              1878,
+              1883,
+              1886,
+              1889,
+              1949,
+              1950,
+              1951
+            ],
+            "positions": [
+              "Acting",
+              "Acting Governor",
+              "Governor"
+            ],
+            "mention_year": 1837,
+            "temporal_delta": 40,
+            "temporal": "pre_records",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "Dominica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Particulars of their subsequent history will be found in the separate articles, but it may here be mentioned, that with the exception of Dominica they have been from the first associated politically as well as geographically.",
+          "char_start": 252,
+          "char_end": 260,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1899,
+            1900,
+            1908,
+            1911,
+            1912,
+            1918,
+            1919,
+            1920
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "dominica"
+        },
+        {
+          "surface_text": "Nevis",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No.",
+          "char_start": 1714,
+          "char_end": 1719,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1899,
+            1900,
+            1908,
+            1911,
+            1912,
+            1918,
+            1919,
+            1920
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "nevis"
+        },
+        {
+          "surface_text": "Anguilla",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No.",
+          "char_start": 1726,
+          "char_end": 1734,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1899,
+            1900,
+            1908,
+            1911,
+            1912,
+            1918,
+            1919,
+            1920
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "anguilla"
+        }
+      ],
+      "year_references": [
+        1798,
+        1833,
+        1837,
+        1871,
+        1882
+      ]
+    },
+    {
+      "uri": "col:hversion/leeward_islands/history/eb3508fcf9e5",
+      "colony": "leeward_islands",
+      "section_slug": "history",
+      "version_hash": "eb3508fcf9e5",
+      "asserted_by": "Colonial Office List",
+      "text": "The islands were discovered by Columbus on his second voyage, in 1493, and became British during the 17th century. Particulars of their subsequent history will be found in the separate articles, but it may here be mentioned, that with the exception of Dominica, they have been from the first associated politically as well as geographically. They were all colonised from St. Kitts as centre, all included in the Carlisle grant, and possessed a common Legislature as far back as the reign of William and Mary. The General Legislature met for the last time in 1798, when it passed a highly humane slave amelioration Act, which was allowed; a Catholic Emancipation Act, and an Act repealing the duty on exports of 4½ per cent. for the benefit of the English exchequer—both which were disallowed. An attempt was made by Sir William Colebrooke in 1837 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands. The Colonies of St. Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No. 2 of 1882.",
+      "edition_years": [
+        1922,
+        1923,
+        1924,
+        1927,
+        1949,
+        1951
+      ],
+      "first_edition_year": 1922,
+      "last_edition_year": 1951,
+      "n_editions": 6,
+      "representative_source_file": "1922_manual_parsed/LEEWARD_ISLANDS.txt",
+      "char_start": 1250,
+      "char_end": 2628,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.974,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The islands were discovered by Columbus on his second voyage, in 1493, and became British during the 17th century.",
+          "char_start": 0,
+          "char_end": 114,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1922,
+            1923,
+            1924,
+            1927,
+            1949,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "General Legislature",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The General Legislature met for the last time in 1798, when it passed a highly humane slave amelioration Act, which was allowed; a Catholic Emancipation Act, and an Act repealing the duty on exports of 4½ per cent.",
+          "char_start": 513,
+          "char_end": 532,
+          "year_reference": 1798,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1923,
+            1924,
+            1927,
+            1949,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir William Colebrooke",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "An attempt was made by Sir William Colebrooke in 1837 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands.",
+          "char_start": 816,
+          "char_end": 838,
+          "year_reference": 1837,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1923,
+            1924,
+            1927,
+            1949,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Colebrooke, William",
+            "name_match": "exact",
+            "strong": true,
+            "is_governor": true,
+            "personnel_years": [
+              1877,
+              1879,
+              1889,
+              1951
+            ],
+            "positions": [
+              "",
+              "Governor"
+            ],
+            "mention_year": 1837,
+            "temporal_delta": 40,
+            "temporal": "pre_records",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "Sir Benjamin Pine",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "An attempt was made by Sir William Colebrooke in 1837 to revive the General Legislature, and though the attempt was regarded unfavourably in some quarters, and the Legislature never actually met, yet the right to revive it was clear, and there is no doubt that the Act of 1871, the passing of which was largely due to the energy and activity of Sir Benjamin Pine, is no more than a revival of the ancient constitution of the islands.",
+          "char_start": 1138,
+          "char_end": 1155,
+          "year_reference": 1837,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1923,
+            1924,
+            1927,
+            1949,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Pine, B. C. C.",
+            "name_match": "initial_compatible",
+            "strong": true,
+            "is_governor": true,
+            "personnel_years": [
+              1877,
+              1878,
+              1883,
+              1886,
+              1889,
+              1949,
+              1950,
+              1951
+            ],
+            "positions": [
+              "Acting",
+              "Acting Governor",
+              "Governor"
+            ],
+            "mention_year": 1837,
+            "temporal_delta": 40,
+            "temporal": "pre_records",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "Dominica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Particulars of their subsequent history will be found in the separate articles, but it may here be mentioned, that with the exception of Dominica, they have been from the first associated politically as well as geographically.",
+          "char_start": 252,
+          "char_end": 260,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1923,
+            1924,
+            1927,
+            1949,
+            1951
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "dominica"
+        },
+        {
+          "surface_text": "Nevis",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No.",
+          "char_start": 1257,
+          "char_end": 1262,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1923,
+            1924,
+            1927,
+            1949,
+            1951
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "nevis"
+        },
+        {
+          "surface_text": "Anguilla",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Kitts and Nevis, with Anguilla and their respective dependencies, were united into one Presidency by the Federal Act No.",
+          "char_start": 1269,
+          "char_end": 1277,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1922,
+            1923,
+            1924,
+            1927,
+            1949,
+            1951
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "anguilla"
+        }
+      ],
+      "year_references": [
+        1798,
+        1837,
+        1871,
+        1882
+      ]
+    },
+    {
+      "uri": "col:hversion/leeward_islands/history/d8c00b3cf0dd",
+      "colony": "leeward_islands",
+      "section_slug": "history",
+      "version_hash": "d8c00b3cf0dd",
+      "asserted_by": "Colonial Office List",
+      "text": "The islands were discovered by Columbus in 1493 and became British during the seventeenth century. From the outset they have been associated geographically and politically. They were colonized from St. Kitts, were all included in the Carlisle grant, and first enjoyed a common Legislature as far back as 1674. That Legislature (or General Assembly, as it was called) did not, for various reasons, meet for many years and was finally abolished in 1798, but not before passing a humane slave amelioration Act. By the Leeward Islands Act of 1871, enacted by the Imperial Parliament, there was created a single Colony of the Leeward Islands consisting of five Presidencies, namely, Dominica (which became a Colony of the Windward Islands on 1st January 1940), Antigua, Saint Christopher and Nevis, Montserrat and the British Virgin Islands. Provision was made for the establishment of an Executive Council and a General Legislative Council of the Leeward Islands. Members of the General Legislative Council were drawn from the Presidential Legislatures and by 1953 there was a majority of elected members on the Council. The General Legislature had concurrent legislative powers with the local Legislatures on certain subjects specified in the Act but any enactment by a Presidential Legislature on such subjects was void if repugnant to an enactment of the General Legislative Council. The British Standing Closer Association Committee in its report of 1948-49 recommended that each of the Leeward Islands should enter the proposed new British Caribbean Federation as a separate unit, instead of entering as a federation. This view was accepted and, for this and other reasons, it was decided to defederate the Leeward Islands. This took place on the 1st July, 1956, and each of the four Presidencies then became a Colony, and the Federal Executive Council and General Legislative Council automatically disappeared. The Colonies of Antigua, St. Kitts-Nevis-Anguilla and Montserrat are to join the proposed new British Caribbean Federation, but the Colony of the British Virgin Islands has decided not to do so.",
+      "edition_years": [
+        1957
+      ],
+      "first_edition_year": 1957,
+      "last_edition_year": 1957,
+      "n_editions": 1,
+      "representative_source_file": "1957_manual_parsed/LEEWARD_ISLANDS.txt",
+      "char_start": 1557,
+      "char_end": 3667,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The islands were discovered by Columbus in 1493 and became British during the seventeenth century.",
+          "char_start": 0,
+          "char_end": 98,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1957
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "By the Leeward Islands Act of 1871, enacted by the Imperial Parliament, there was created a single Colony of the Leeward Islands consisting of five Presidencies, namely, Dominica (which became a Colony of the Windward Islands on 1st January 1940), Antigua, Saint Christopher and Nevis, Montserrat and the British Virgin Islands.",
+          "char_start": 508,
+          "char_end": 836,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1957
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "General Assembly",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "That Legislature (or General Assembly, as it was called) did not, for various reasons, meet for many years and was finally abolished in 1798, but not before passing a humane slave amelioration Act.",
+          "char_start": 331,
+          "char_end": 347,
+          "year_reference": 1798,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1957
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "General Legislative Council",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Provision was made for the establishment of an Executive Council and a General Legislative Council of the Leeward Islands.",
+          "char_start": 908,
+          "char_end": 935,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1957
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "General Legislature",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The General Legislature had concurrent legislative powers with the local Legislatures on certain subjects specified in the Act but any enactment by a Presidential Legislature on such subjects was void if repugnant to an enactment of the General Legislative Council.",
+          "char_start": 1121,
+          "char_end": 1140,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1957
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "General Legislative Council. The",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The General Legislature had concurrent legislative powers with the local Legislatures on certain subjects specified in the Act but any enactment by a Presidential Legislature on such subjects was void if repugnant to an enactment of the General Legislative Council. The British Standing Closer Association Committee in its report of 1948-49 recommended that each of the Leeward Islands should enter the proposed new British Caribbean Federation as a separate unit, instead of entering as a federation.",
+          "char_start": 1354,
+          "char_end": 1386,
+          "year_reference": 1948,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1957
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Dominica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "By the Leeward Islands Act of 1871, enacted by the Imperial Parliament, there was created a single Colony of the Leeward Islands consisting of five Presidencies, namely, Dominica (which became a Colony of the Windward Islands on 1st January 1940), Antigua, Saint Christopher and Nevis, Montserrat and the British Virgin Islands.",
+          "char_start": 678,
+          "char_end": 686,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1957
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "dominica"
+        },
+        {
+          "surface_text": "Antigua",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "By the Leeward Islands Act of 1871, enacted by the Imperial Parliament, there was created a single Colony of the Leeward Islands consisting of five Presidencies, namely, Dominica (which became a Colony of the Windward Islands on 1st January 1940), Antigua, Saint Christopher and Nevis, Montserrat and the British Virgin Islands.",
+          "char_start": 756,
+          "char_end": 763,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1957
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "antigua"
+        },
+        {
+          "surface_text": "Nevis",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "By the Leeward Islands Act of 1871, enacted by the Imperial Parliament, there was created a single Colony of the Leeward Islands consisting of five Presidencies, namely, Dominica (which became a Colony of the Windward Islands on 1st January 1940), Antigua, Saint Christopher and Nevis, Montserrat and the British Virgin Islands.",
+          "char_start": 787,
+          "char_end": 792,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1957
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "nevis"
+        },
+        {
+          "surface_text": "Montserrat",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "By the Leeward Islands Act of 1871, enacted by the Imperial Parliament, there was created a single Colony of the Leeward Islands consisting of five Presidencies, namely, Dominica (which became a Colony of the Windward Islands on 1st January 1940), Antigua, Saint Christopher and Nevis, Montserrat and the British Virgin Islands.",
+          "char_start": 794,
+          "char_end": 804,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1957
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "montserrat"
+        },
+        {
+          "surface_text": "Anguilla",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Kitts-Nevis-Anguilla and Montserrat are to join the proposed new British Caribbean Federation, but the Colony of the British Virgin Islands has decided not to do so.",
+          "char_start": 1954,
+          "char_end": 1962,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1957
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "anguilla"
+        }
+      ],
+      "year_references": [
+        1674,
+        1798,
+        1871,
+        1940,
+        1948,
+        1953,
+        1956
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "anguilla",
+    "antigua",
+    "dominica",
+    "montserrat",
+    "nevis"
+  ]
+}

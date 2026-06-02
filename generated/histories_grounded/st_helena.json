@@ -1,0 +1,1022 @@
+{
+  "colony": "st_helena",
+  "n_editions_with_history": 37,
+  "n_versions": 6,
+  "versions": [
+    {
+      "uri": "col:hversion/st_helena/history/10f128980201",
+      "colony": "st_helena",
+      "section_slug": "history",
+      "version_hash": "10f128980201",
+      "asserted_by": "Colonial Office List",
+      "text": "St. Helena, then uninhabited and densely wooded, was discovered by the Portuguese Commander Juan de Nova Castella, on St. Helena's day, May 21st, 1501. The Portuguese contrived to keep secret the situation of the island from other European nations until 1588, when it was sighted by Captain Cavendish, on his return from a voyage round the world. St. Helena was uninhabited till the Dutch became possessors of it. Captain Munden, of the English Navy, in 1673, took it from the Dutch, and soon afterwards the East India Company obtained a charter for its possession from Charles II., and it remained under that Company, with the exception of the period of Napoleon's imprisonment there, till 22nd April, 1834, when it was finally handed over to the British Government, under an Act of Parliament of 1833.",
+      "edition_years": [
+        1888,
+        1889
+      ],
+      "first_edition_year": 1888,
+      "last_edition_year": 1889,
+      "n_editions": 2,
+      "representative_source_file": "1888_manual_parsed/ST._HELENA.txt",
+      "char_start": 744,
+      "char_end": 1547,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "uninhabited"
+          ],
+          "verbatim_span": "Helena, then uninhabited and densely wooded, was discovered by the Portuguese Commander Juan de Nova Castella, on St.",
+          "char_start": 4,
+          "char_end": 121,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "uninhabited"
+          ],
+          "verbatim_span": "Helena was uninhabited till the Dutch became possessors of it.",
+          "char_start": 351,
+          "char_end": 413,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Commander Juan",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Helena, then uninhabited and densely wooded, was discovered by the Portuguese Commander Juan de Nova Castella, on St.",
+          "char_start": 82,
+          "char_end": 96,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain Cavendish",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Portuguese contrived to keep secret the situation of the island from other European nations until 1588, when it was sighted by Captain Cavendish, on his return from a voyage round the world.",
+          "char_start": 283,
+          "char_end": 300,
+          "year_reference": 1588,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain Munden",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Captain Munden, of the English Navy, in 1673, took it from the Dutch, and soon afterwards the East India Company obtained a charter for its possession from Charles II., and it remained under that Company, with the exception of the period of Napoleon's imprisonment there, till 22nd April, 1834, when it was finally handed over to the British Government, under an Act of Parliament of 1833.",
+          "char_start": 414,
+          "char_end": 428,
+          "year_reference": 1673,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1501,
+        1588,
+        1673,
+        1833,
+        1834
+      ]
+    },
+    {
+      "uri": "col:hversion/st_helena/history/6fed76bdbc7e",
+      "colony": "st_helena",
+      "section_slug": "history",
+      "version_hash": "6fed76bdbc7e",
+      "asserted_by": "Colonial Office List",
+      "text": "St. Helena, then uninhabited and well wooded, was discovered by the Portuguese Commander Juan de Nova Castella, on St. Helena's day, May 21st, 1502. The Portuguese contrived to keep secret the situation of the island from other European nations until 1588, when it was visited by Captain Cavendish, on his return from a voyage round the world. They built a church there, but made no permanent settlement. The Dutch held it from 1645 to 1650, when they abandoned it. It was taken possession of by the East India Company in 1651, and a charter for its administration was granted in 1661. In 1665 it was seized by the Dutch, who were, however, expelled the same year. Again, in January, 1673, they seized it, to be driven out finally in May, by Captain Munden, of the English Navy. A new charter was issued by Charles II. to the East India Company for its possession in December, 1673, and it remained under that Company, with the exception of the period of Napoleon's imprisonment there, till 22nd April, 1834, when it was brought under the direct government of the Crown by an Act of Parliament of 1833.",
+      "edition_years": [
+        1894,
+        1896
+      ],
+      "first_edition_year": 1894,
+      "last_edition_year": 1896,
+      "n_editions": 2,
+      "representative_source_file": "1894_manual_parsed/st_helena.txt",
+      "char_start": 958,
+      "char_end": 2060,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.99,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "uninhabited"
+          ],
+          "verbatim_span": "Helena, then uninhabited and well wooded, was discovered by the Portuguese Commander Juan de Nova Castella, on St.",
+          "char_start": 4,
+          "char_end": 118,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "It was taken possession of by the East India Company in 1651, and a charter for its administration was granted in 1661.",
+          "char_start": 466,
+          "char_end": 585,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Commander Juan",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Helena, then uninhabited and well wooded, was discovered by the Portuguese Commander Juan de Nova Castella, on St.",
+          "char_start": 79,
+          "char_end": 93,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain Cavendish",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Portuguese contrived to keep secret the situation of the island from other European nations until 1588, when it was visited by Captain Cavendish, on his return from a voyage round the world.",
+          "char_start": 280,
+          "char_end": 297,
+          "year_reference": 1588,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain Munden",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Again, in January, 1673, they seized it, to be driven out finally in May, by Captain Munden, of the English Navy.",
+          "char_start": 742,
+          "char_end": 756,
+          "year_reference": 1673,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1502,
+        1588,
+        1645,
+        1650,
+        1651,
+        1661,
+        1665,
+        1673,
+        1833,
+        1834
+      ]
+    },
+    {
+      "uri": "col:hversion/st_helena/history/e4d4de403f29",
+      "colony": "st_helena",
+      "section_slug": "history",
+      "version_hash": "e4d4de403f29",
+      "asserted_by": "Colonial Office List",
+      "text": "St. Helena, then uninhabited and well known, was discovered by the Portuguese Captain Juan de Nova Castella, on St. Helena's day, 21st, 1502. The Portuguese contrived to keep secret the situation of the island from European nations until 1588, when it was visited by Captain Cavendish, on his return from a voyage round the world. They built a church there, but made no permanent settlement. The Dutch took it from 1645 to 1650, when they abandoned it. It was taken possession of by the East India Company in 1651, and a charter for its administration was granted in 1661. In 1665 it was taken by the Dutch, who were, however, expelled the same year. Again, in January, 1673, they tried to drive out finally in May, by Sir Robert Munden, of the English Navy. sued by Charles II. to the East India Company for its possession in December, 1673, remained under that Company, with the exception of the period of Napoleon's imprisonment here, till 22nd April, 1834, when it was under the direct government of the Colony by an Act of Parliament of 1833. Education and Local Government. Government maintain 4 schools, having 853 pupils. There are also 7 endowed and private schools, not aided by Government, having 898 pupils. School attendance is compulsory under the Education Act No. 4 of 1874, and fees of 1d. a week are charged. The only local authority is the Poor Relief Board, the revenue and expenditure of which for 1895-96 were £930l. and £919l. Industry. St. Helena is well watered by clear springs, and is abundant. It is situated in the heart of the Atlantic trade wind, blowing from the north about 330 days in the year, and in the direct line vessels homeward bound from the East Cape of Good Hope. Previous to the opening of the overland route it was a port of call for quantities of shipping and passengers to India and other parts of the East, and in consequence of its importance in connection with the trade, large establishments were maintained both civil and military. For many years it served as a depot for liberated Africans landed from ships captured by the West Coast squadron. As early as 1818, a law was passed that all future imports into the Island should be free. The supply of the passing shipping has produced any article of export properly so except flax fibre. The company which established this industry failed from bad management in reporting the green leaves to town for sale. For every 100 tons so transported at cost the yield was only about three tons of flax. Hundreds of acres of flax are now going waste. Its trade depends exclusively upon the success and the visits of the Antarctic whalers, who are in distress, and has greatly diminished in recent years in consequence of the opening of the Suez Canal. A number of ships calling at Jamestown (a free port) for supplies, including steamers, have been calling there since 1885, 450; in 1886, 377; in 1887, 317; in 1888, 330; in 1889, 288; in 1890, 211; in 1891, 223; in 1892, 199; in 1893, 203. It is a port of registry. The chief industries are fishing and agriculture, the main staple crop being potatoes. There are no private banks in the Colony, but a Government savings bank was established in 1865, with deposits on 31st December, 1895—£14,666l., and the Government issues bills of exchange on demand at 1 per cent. Means of Communication. Farmers arrive from England at regular intervals of 4 weeks, and proceed to the Cape and back; steamers arrive from thence at the same interval, and proceed to England. The interval between the arrival and departure of the mails is 3 weeks. Rate of postage to England and the Colonies, 6d. per oz.; to other places, 7½d. per oz. There is no internal post, but there are 11 telegraph stations, constructed by the Colonial Office and the War Office at a cost of 700l. The receipts in 1895 were £87l., and the expenses £20l. The nearest points in telegraphic communication with Europe are the Canaries, Capetown, and Loanda. The net postal revenue in 1895 was £1,795l., and the expenditure £226l. Defence. Jamestown has been made a second-class imperial coaling station, and extensive defensive works have been constructed on the heights overlooking the harbour. Constitution. The Government is administered by a Governor, assisted by an Executive Council. The Governor alone makes Ordinances, there being no Legislative Council, but power is reserved to legislate by Order of Her Majesty in Council. Population (including Military and Shipping). Imports. Exports. Not including produce of whale fishery shipped to United States, value (1886) £21,232l., and (1887) £41,880. Specie exported: - 1886: £2,195 - 1887: £3,721 - 1888: £4,056 - 1889: £3,875 - 1890: £3,980 Including £5,250 specie exported. Customs Revenue, 1894—4,684l.",
+      "edition_years": [
+        1897
+      ],
+      "first_edition_year": 1897,
+      "last_edition_year": 1897,
+      "n_editions": 1,
+      "representative_source_file": "1897_manual_parsed/ST._HELENA.txt",
+      "char_start": 1063,
+      "char_end": 8225,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "uninhabited"
+          ],
+          "verbatim_span": "Helena, then uninhabited and well known, was discovered by the Portuguese Captain Juan de Nova Castella, on St.",
+          "char_start": 4,
+          "char_end": 115,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "It was taken possession of by the East India Company in 1651, and a charter for its administration was granted in 1661.",
+          "char_start": 453,
+          "char_end": 572,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "There is no internal post, but there are 11 telegraph stations, constructed by the Colonial Office and the War Office at a cost of 700l.",
+          "char_start": 3665,
+          "char_end": 3801,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "Jamestown has been made a second-class imperial coaling station, and extensive defensive works have been constructed on the heights overlooking the harbour.",
+          "char_start": 4039,
+          "char_end": 4195,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "her majesty"
+          ],
+          "verbatim_span": "The Governor alone makes Ordinances, there being no Legislative Council, but power is reserved to legislate by Order of Her Majesty in Council.",
+          "char_start": 4290,
+          "char_end": 4433,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1897
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Juan",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Helena, then uninhabited and well known, was discovered by the Portuguese Captain Juan de Nova Castella, on St.",
+          "char_start": 78,
+          "char_end": 90,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain Cavendish",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Portuguese contrived to keep secret the situation of the island from European nations until 1588, when it was visited by Captain Cavendish, on his return from a voyage round the world.",
+          "char_start": 267,
+          "char_end": 284,
+          "year_reference": 1588,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir Robert Munden",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Again, in January, 1673, they tried to drive out finally in May, by Sir Robert Munden, of the English Navy.",
+          "char_start": 719,
+          "char_end": 736,
+          "year_reference": 1673,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1897
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1502,
+        1588,
+        1645,
+        1650,
+        1651,
+        1661,
+        1665,
+        1673,
+        1818,
+        1833,
+        1834,
+        1865,
+        1874,
+        1885,
+        1886,
+        1887,
+        1888,
+        1889,
+        1890,
+        1891,
+        1892,
+        1893,
+        1894,
+        1895
+      ]
+    },
+    {
+      "uri": "col:hversion/st_helena/history/db55dba69c5a",
+      "colony": "st_helena",
+      "section_slug": "history",
+      "version_hash": "db55dba69c5a",
+      "asserted_by": "Colonial Office List",
+      "text": "St. Helena, then uninhabited and well wooded, was discovered by the Portuguese Commander Juan de Nova Castella, on St. Helena's day, May 21st, 1502. The Portuguese contrived to keep secret the situation of the island from other European nations until 1588, when it was visited by Captain Cavendish, on his return from a voyage round the world. They built a church there, but made no permanent settlement. The Dutch held it from 1645 to 1650, when they abandoned it. It was taken possession of by the East India Company in 1651, and a charter for its administration was granted in 1661. In 1665 it was seized by the Dutch, who were, however, expelled the same year. Again, in January, 1673, they seized it, to be driven out finally in May, by Captain Munden, of the English Navy. A new charter was issued by Charles II. to the East India Company for its possession in December, 1673, and it remained under that Company, with the * The estimated population on 31st December, 1925, was 3,503. exception of the period of Napoleon's imprisonment there, till 22nd April, 1834, when it was brought under the direct government of the Crown by an Act of Parliament of 1833.",
+      "edition_years": [
+        1898,
+        1899,
+        1906,
+        1907,
+        1908,
+        1909,
+        1910,
+        1911,
+        1912,
+        1913,
+        1917,
+        1918,
+        1919,
+        1920,
+        1921,
+        1924,
+        1925,
+        1927,
+        1928,
+        1929,
+        1930,
+        1932,
+        1933
+      ],
+      "first_edition_year": 1898,
+      "last_edition_year": 1933,
+      "n_editions": 23,
+      "representative_source_file": "1927_manual_parsed/ST_HELENA.txt",
+      "char_start": 1120,
+      "char_end": 2285,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.97,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "uninhabited"
+          ],
+          "verbatim_span": "Helena, then uninhabited and well wooded, was discovered by the Portuguese Commander Juan de Nova Castella, on St.",
+          "char_start": 4,
+          "char_end": 118,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1898,
+            1899,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1932,
+            1933
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "It was taken possession of by the East India Company in 1651, and a charter for its administration was granted in 1661.",
+          "char_start": 466,
+          "char_end": 585,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1898,
+            1899,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1932,
+            1933
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Commander Juan",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Helena, then uninhabited and well wooded, was discovered by the Portuguese Commander Juan de Nova Castella, on St.",
+          "char_start": 79,
+          "char_end": 93,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1898,
+            1899,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1932,
+            1933
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain Cavendish",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Portuguese contrived to keep secret the situation of the island from other European nations until 1588, when it was visited by Captain Cavendish, on his return from a voyage round the world.",
+          "char_start": 280,
+          "char_end": 297,
+          "year_reference": 1588,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1898,
+            1899,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1932,
+            1933
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain Munden",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Again, in January, 1673, they seized it, to be driven out finally in May, by Captain Munden, of the English Navy.",
+          "char_start": 742,
+          "char_end": 756,
+          "year_reference": 1673,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1898,
+            1899,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910,
+            1911,
+            1912,
+            1913,
+            1917,
+            1918,
+            1919,
+            1920,
+            1921,
+            1924,
+            1925,
+            1927,
+            1928,
+            1929,
+            1930,
+            1932,
+            1933
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1502,
+        1588,
+        1645,
+        1650,
+        1651,
+        1661,
+        1665,
+        1673,
+        1833,
+        1834,
+        1925
+      ]
+    },
+    {
+      "uri": "col:hversion/st_helena/history/40b3dbe67f12",
+      "colony": "st_helena",
+      "section_slug": "history",
+      "version_hash": "40b3dbe67f12",
+      "asserted_by": "Colonial Office List",
+      "text": "St. Helena, then uninhabited and well wooded, was discovered by the Portuguese Commander Juan de Nova Castella, May, 1502. The Portuguese appear to have kept the situation of the island a secret from other European nations until 1588, when it was visited by Captain Cavendish, on his return from a voyage round the world. They built a church there, but made no permanent settlement. After Captain Cavendish's visit, the island became a port of call for ships of various nations voyaging between the East Indies and Europe. In 1633, Jacques Specz formally annexed it on behalf of the States General; but no attempt to occupy it was made by the Dutch. It was annexed and occupied by Captain John Dutton, who was sent out by the East India Company for the purpose with an expedition which arrived at St. Helena on 5th May, 1659. The first official authorisation of the Company's occupation occurs in a Charter dated 1661. In January, 1673, the Dutch seized it, but they were driven out in May by Captain Munden, of the English Navy. A charter was issued by Charles II. to the East India Company for its possession in December, 1673, and it remained under that Company, with the exception of the period of Napoleon's imprisonment there, till 22nd April, 1834, when it was brought under the direct government of the Crown by an Act of Parliament of 1833.",
+      "edition_years": [
+        1934,
+        1936,
+        1937,
+        1939,
+        1946,
+        1948,
+        1950,
+        1951
+      ],
+      "first_edition_year": 1934,
+      "last_edition_year": 1951,
+      "n_editions": 8,
+      "representative_source_file": "1936_manual_parsed/ST._HELENA.txt",
+      "char_start": 1191,
+      "char_end": 2540,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.952,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "uninhabited"
+          ],
+          "verbatim_span": "Helena, then uninhabited and well wooded, was discovered by the Portuguese Commander Juan de Nova Castella, May, 1502.",
+          "char_start": 4,
+          "char_end": 122,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1946,
+            1948,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "In 1633, Jacques Specz formally annexed it on behalf of the States General; but no attempt to occupy it was made by the Dutch.",
+          "char_start": 523,
+          "char_end": 649,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1946,
+            1948,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "It was annexed and occupied by Captain John Dutton, who was sent out by the East India Company for the purpose with an expedition which arrived at St.",
+          "char_start": 650,
+          "char_end": 800,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1946,
+            1948,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "It was annexed and occupied by Captain John Dutton, who was sent out by the East India Company for the purpose with an expedition which arrived at St.",
+          "char_start": 650,
+          "char_end": 800,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1946,
+            1948,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Commander Juan",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Helena, then uninhabited and well wooded, was discovered by the Portuguese Commander Juan de Nova Castella, May, 1502.",
+          "char_start": 79,
+          "char_end": 93,
+          "year_reference": 1502,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1946,
+            1948,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain Cavendish",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Portuguese appear to have kept the situation of the island a secret from other European nations until 1588, when it was visited by Captain Cavendish, on his return from a voyage round the world.",
+          "char_start": 258,
+          "char_end": 275,
+          "year_reference": 1588,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1946,
+            1948,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain John Dutton",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "It was annexed and occupied by Captain John Dutton, who was sent out by the East India Company for the purpose with an expedition which arrived at St.",
+          "char_start": 681,
+          "char_end": 700,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1946,
+            1948,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain Munden",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In January, 1673, the Dutch seized it, but they were driven out in May by Captain Munden, of the English Navy.",
+          "char_start": 993,
+          "char_end": 1007,
+          "year_reference": 1673,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1946,
+            1948,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1502,
+        1588,
+        1633,
+        1659,
+        1661,
+        1673,
+        1833,
+        1834
+      ]
+    },
+    {
+      "uri": "col:hversion/st_helena/history/052d71dd04a2",
+      "colony": "st_helena",
+      "section_slug": "history",
+      "version_hash": "052d71dd04a2",
+      "asserted_by": "Colonial Office List",
+      "text": "St. Helena, then uninhabited, was discovered in 1502 by the Portuguese commander, Juan de Nova Castella. Its existence appears to have remained unknown to other European nations until 1588 when it was visited by Captain Cavendish on his return from a voyage round the world. Soon afterwards the island became a port of call for ships of various nations voyaging between the East Indies and Europe. In 1633 the Dutch formally annexed it but made no attempt to occupy it. In 1659 it was annexed and occupied on behalf of the East India Company but the first official authorization of the Company's occupation occurs in a charter dated 1661. In January 1673 the Dutch seized the Island but were driven out again in May by the English navy. A Charter to occupy and govern the Island was issued by Charles II to the East India Company in December 1673 and it remained under that Company until April 1834 when it was brought under the direct government of the Crown by an Act of Parliament of 1833. Napoleon Bonaparte was exiled in St. Helena from 1815 until his death in 1821.",
+      "edition_years": [
+        1957
+      ],
+      "first_edition_year": 1957,
+      "last_edition_year": 1957,
+      "n_editions": 1,
+      "representative_source_file": "1957_manual_parsed/ST_HELENA.txt",
+      "char_start": 1295,
+      "char_end": 2366,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered",
+            "uninhabited"
+          ],
+          "verbatim_span": "Helena, then uninhabited, was discovered in 1502 by the Portuguese commander, Juan de Nova Castella.",
+          "char_start": 4,
+          "char_end": 104,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1957
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "In 1633 the Dutch formally annexed it but made no attempt to occupy it.",
+          "char_start": 398,
+          "char_end": 469,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1957
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "In 1659 it was annexed and occupied on behalf of the East India Company but the first official authorization of the Company's occupation occurs in a charter dated 1661.",
+          "char_start": 470,
+          "char_end": 638,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1957
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Cavendish",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Its existence appears to have remained unknown to other European nations until 1588 when it was visited by Captain Cavendish on his return from a voyage round the world.",
+          "char_start": 212,
+          "char_end": 229,
+          "year_reference": 1588,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1957
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1502,
+        1588,
+        1633,
+        1659,
+        1661,
+        1673,
+        1815,
+        1821,
+        1833,
+        1834
+      ]
+    }
+  ],
+  "referenced_territories": []
+}

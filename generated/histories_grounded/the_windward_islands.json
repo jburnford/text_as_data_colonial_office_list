@@ -1,0 +1,852 @@
+{
+  "colony": "the_windward_islands",
+  "n_editions_with_history": 19,
+  "n_versions": 6,
+  "versions": [
+    {
+      "uri": "col:hversion/the_windward_islands/history/cb1b4a2e8cc3",
+      "colony": "the_windward_islands",
+      "section_slug": "history",
+      "version_hash": "cb1b4a2e8cc3",
+      "asserted_by": "Colonial Office List",
+      "text": "Some account is given of the history of each island in its proper place, but particulars of their several federal unions may be conveniently inserted here. As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St. Vincent, and Tobago. In 1838 St. Vincent was included with Barbados, Grenada, and Tobago in one general government, the Governor-in-Chief being resident at Barbados, with Lieutenant-Governors in each of the other islands. In 1838 St. Lucia was included in this general government. On the 17th March, 1885, Letters Patent were passed constituting the Government of the Windward Islands, Barbados being omitted. Tobago was united to Trinidad 1st Jan., 1889.",
+      "edition_years": [
+        1889,
+        1890,
+        1894
+      ],
+      "first_edition_year": 1889,
+      "last_edition_year": 1894,
+      "n_editions": 3,
+      "representative_source_file": "1889_manual_parsed/THE_WINDWARD_ISLANDS.txt",
+      "char_start": 1028,
+      "char_end": 1742,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.982,
+      "source_flags": [
+        "possible_truncation"
+      ],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [],
+      "entity_candidates": [
+        {
+          "surface_text": "Grenada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St.",
+          "char_start": 235,
+          "char_end": 242,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "grenada"
+        },
+        {
+          "surface_text": "Dominica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St.",
+          "char_start": 244,
+          "char_end": 252,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "dominica"
+        },
+        {
+          "surface_text": "Tobago",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Vincent, and Tobago.",
+          "char_start": 271,
+          "char_end": 277,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "tobago"
+        },
+        {
+          "surface_text": "Barbados",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Vincent was included with Barbados, Grenada, and Tobago in one general government, the Governor-in-Chief being resident at Barbados, with Lieutenant-Governors in each of the other islands.",
+          "char_start": 317,
+          "char_end": 325,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "barbados"
+        },
+        {
+          "surface_text": "Trinidad",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Tobago was united to Trinidad 1st Jan., 1889.",
+          "char_start": 689,
+          "char_end": 697,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "trinidad"
+        }
+      ],
+      "year_references": [
+        1764,
+        1838,
+        1885,
+        1889
+      ]
+    },
+    {
+      "uri": "col:hversion/the_windward_islands/history/5c531d72b9fd",
+      "colony": "the_windward_islands",
+      "section_slug": "history",
+      "version_hash": "5c531d72b9fd",
+      "asserted_by": "Colonial Office List",
+      "text": "Some account is given of the history of each island in its proper place, but particulars of their several federal unions may be conveniently inserted here. As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St. Vincent, and Tobago. In 1833 St. Vincent was included with Barbados, Grenada, and Tobago in one general government, the Governor-in-Chief being resident at Barbados, with Lieutenant-Governors in each of the other islands. In 1838 St. Lucia was included in this general government. On the 17th March, 1885, Letters Patent were passed constituting the Government of the Windward Islands, Barbados being omitted. Tobago was subsequently united with Trinidad. The majority of the inhabitants are of the negro race, less than five per cent. being white. A few Caribs still remain in St. Vincent, and there are about 5,000 Indian Coolies. English is usually spoken, except in Grenada and St. Lucia, where the prevailing language with the peasantry is a French patois.",
+      "edition_years": [
+        1905,
+        1906
+      ],
+      "first_edition_year": 1905,
+      "last_edition_year": 1906,
+      "n_editions": 2,
+      "representative_source_file": "1905_manual_parsed/THE_WINDWARD_ISLANDS.txt",
+      "char_start": 1143,
+      "char_end": 2164,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [],
+      "entity_candidates": [
+        {
+          "surface_text": "Grenada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St.",
+          "char_start": 235,
+          "char_end": 242,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "grenada"
+        },
+        {
+          "surface_text": "Dominica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St.",
+          "char_start": 244,
+          "char_end": 252,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "dominica"
+        },
+        {
+          "surface_text": "Tobago",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Vincent, and Tobago.",
+          "char_start": 271,
+          "char_end": 277,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "tobago"
+        },
+        {
+          "surface_text": "Barbados",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Vincent was included with Barbados, Grenada, and Tobago in one general government, the Governor-in-Chief being resident at Barbados, with Lieutenant-Governors in each of the other islands.",
+          "char_start": 317,
+          "char_end": 325,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "barbados"
+        },
+        {
+          "surface_text": "Trinidad",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Tobago was subsequently united with Trinidad.",
+          "char_start": 704,
+          "char_end": 712,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1905,
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "trinidad"
+        }
+      ],
+      "year_references": [
+        1764,
+        1833,
+        1838,
+        1885
+      ]
+    },
+    {
+      "uri": "col:hversion/the_windward_islands/history/80926aaee6fb",
+      "colony": "the_windward_islands",
+      "section_slug": "history",
+      "version_hash": "80926aaee6fb",
+      "asserted_by": "Colonial Office List",
+      "text": "Some account is given of the history of each island in its proper place, but particulars of their several federal unions may be conveniently inserted here. As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St. Vincent, and Tobago. In 1833 St. Vincent was included with Barbados, Grenada, and Tobago in one general government, the Governor-in-Chief being resident at Barbados, with Lieutenant-Governors in each of the other islands. In 1838 St. Lucia was included in this general government. On the 17th March, 1885, Letters Patent were passed constituting the Government of the Windward Islands, Barbados being omitted. Tobago was subsequently united with Trinidad. The majority of the inhabitants are of the negro race, less than five per cent. being white. A few Caribs still remain in St. Vincent, and there are about 5,000 Indian Coolies. English is usually spoken, except in Grenada and St. Lucia, where the prevailing language with the peasantry is a French patois. Constitution. Each island retains its own institutions, and, when the Governor is absent, is presided over by a resident Administrator, who is also Colonial Secretary. There is no common legislature, nor common laws, revenue, or tariff. There is, however, a common Court of Appeal, constituted in 1859, consisting of the chief justices of the several islands and of Barbados. The Colonies have also united for sundry other common purposes, such as the maintenance of a lunatic asylum. A common audit system was instituted in 1889.",
+      "edition_years": [
+        1907
+      ],
+      "first_edition_year": 1907,
+      "last_edition_year": 1907,
+      "n_editions": 1,
+      "representative_source_file": "1907_manual_parsed/THE_WINDWARD_ISLANDS.txt",
+      "char_start": 1163,
+      "char_end": 2716,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [],
+      "entity_candidates": [
+        {
+          "surface_text": "Grenada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St.",
+          "char_start": 235,
+          "char_end": 242,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1907
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "grenada"
+        },
+        {
+          "surface_text": "Dominica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St.",
+          "char_start": 244,
+          "char_end": 252,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1907
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "dominica"
+        },
+        {
+          "surface_text": "Tobago",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Vincent, and Tobago.",
+          "char_start": 271,
+          "char_end": 277,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1907
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "tobago"
+        },
+        {
+          "surface_text": "Barbados",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Vincent was included with Barbados, Grenada, and Tobago in one general government, the Governor-in-Chief being resident at Barbados, with Lieutenant-Governors in each of the other islands.",
+          "char_start": 317,
+          "char_end": 325,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1907
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "barbados"
+        },
+        {
+          "surface_text": "Trinidad",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Tobago was subsequently united with Trinidad.",
+          "char_start": 704,
+          "char_end": 712,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1907
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "trinidad"
+        }
+      ],
+      "year_references": [
+        1764,
+        1833,
+        1838,
+        1859,
+        1885,
+        1889
+      ]
+    },
+    {
+      "uri": "col:hversion/the_windward_islands/history/7e7e85634ab8",
+      "colony": "the_windward_islands",
+      "section_slug": "history",
+      "version_hash": "7e7e85634ab8",
+      "asserted_by": "Colonial Office List",
+      "text": "Some account is given of the history of each island in its proper place, but particulars of their several federal unions may be conveniently inserted here. As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St. Vincent, and Tobago. In 1833 St. Vincent was included with Barbados, Grenada, and Tobago in one general government, the Governor-in-Chief being resident at Barbados, with Lieutenant-Governors in each of the other islands. In 1838 St. Lucia was included in this general government. On the 17th March, 1885, Letters Patent were passed constituting the Government of the Windward Islands, Barbados being omitted. Tobago was subsequently united with Trinidad. The majority of the inhabitants are of the negro race, less than 5 per cent. being white. A few Caribs still remain in St. Vincent, and there are about 5,000 Indian Coolies. English is spoken throughout, but in St. Lucia, the prevailing language with the peasantry is a French patois. In Grenada the same condition obtains, but to a less extent.",
+      "edition_years": [
+        1913,
+        1914,
+        1915
+      ],
+      "first_edition_year": 1913,
+      "last_edition_year": 1915,
+      "n_editions": 3,
+      "representative_source_file": "1913_manual_parsed/THE_WINDWARD_ISLANDS.txt",
+      "char_start": 1311,
+      "char_end": 2372,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [],
+      "entity_candidates": [
+        {
+          "surface_text": "Grenada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St.",
+          "char_start": 235,
+          "char_end": 242,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1913,
+            1914,
+            1915
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "grenada"
+        },
+        {
+          "surface_text": "Dominica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St.",
+          "char_start": 244,
+          "char_end": 252,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1913,
+            1914,
+            1915
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "dominica"
+        },
+        {
+          "surface_text": "Tobago",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Vincent, and Tobago.",
+          "char_start": 271,
+          "char_end": 277,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1913,
+            1914,
+            1915
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "tobago"
+        },
+        {
+          "surface_text": "Barbados",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Vincent was included with Barbados, Grenada, and Tobago in one general government, the Governor-in-Chief being resident at Barbados, with Lieutenant-Governors in each of the other islands.",
+          "char_start": 317,
+          "char_end": 325,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1913,
+            1914,
+            1915
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "barbados"
+        },
+        {
+          "surface_text": "Trinidad",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Tobago was subsequently united with Trinidad.",
+          "char_start": 704,
+          "char_end": 712,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1913,
+            1914,
+            1915
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "trinidad"
+        }
+      ],
+      "year_references": [
+        1764,
+        1833,
+        1838,
+        1885
+      ]
+    },
+    {
+      "uri": "col:hversion/the_windward_islands/history/5820e149d483",
+      "colony": "the_windward_islands",
+      "section_slug": "history",
+      "version_hash": "5820e149d483",
+      "asserted_by": "Colonial Office List",
+      "text": "Some account is given of the history of each island in its proper place, but particulars of their several federal unions may be conveniently inserted here. As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St. Vincent, and Tobago. Dominica was separated in 1771, St. Vincent in 1776, and in 1783 Tobago was ceded to the French. In 1833 St. Vincent was included with Barbados, Grenada, and Tobago in one general government, the Governor-in-Chief being resident at Barbados, with Lieutenant-Governors in each of the other islands. In 1838 St. Lucia was included in this general government. On the 17th March, 1885, Letters Patent were passed constituting the Government of the Windward Islands, Barbados being omitted. Tobago was subsequently united with Trinidad. On 1st January, 1940, Dominica was included in the Windward Islands. The majority of the inhabitants are of the negro race, less than 5 per cent. being white and there are some Indian Coolies. A few Caribs still remain in St. Vincent and Dominica. English is spoken throughout, but in St. Lucia and Dominica the prevailing language with the peasantry is a French patois.",
+      "edition_years": [
+        1925,
+        1929,
+        1930,
+        1931,
+        1933,
+        1934,
+        1936,
+        1937,
+        1940
+      ],
+      "first_edition_year": 1925,
+      "last_edition_year": 1940,
+      "n_editions": 9,
+      "representative_source_file": "1940_manual_parsed/THE_WINDWARD_ISLANDS.txt",
+      "char_start": 1738,
+      "char_end": 2922,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.916,
+      "source_flags": [
+        "possible_truncation"
+      ],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "Vincent in 1776, and in 1783 Tobago was ceded to the French.",
+          "char_start": 315,
+          "char_end": 375,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Grenada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St.",
+          "char_start": 235,
+          "char_end": 242,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "grenada"
+        },
+        {
+          "surface_text": "Dominica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St.",
+          "char_start": 244,
+          "char_end": 252,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "dominica"
+        },
+        {
+          "surface_text": "Tobago",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Vincent, and Tobago.",
+          "char_start": 271,
+          "char_end": 277,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "tobago"
+        },
+        {
+          "surface_text": "Barbados",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Vincent was included with Barbados, Grenada, and Tobago in one general government, the Governor-in-Chief being resident at Barbados, with Lieutenant-Governors in each of the other islands.",
+          "char_start": 414,
+          "char_end": 422,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "barbados"
+        },
+        {
+          "surface_text": "Trinidad",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Tobago was subsequently united with Trinidad.",
+          "char_start": 801,
+          "char_end": 809,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "trinidad"
+        }
+      ],
+      "year_references": [
+        1764,
+        1771,
+        1776,
+        1783,
+        1833,
+        1838,
+        1885,
+        1940
+      ]
+    },
+    {
+      "uri": "col:hversion/the_windward_islands/history/ee606213bb84",
+      "colony": "the_windward_islands",
+      "section_slug": "history",
+      "version_hash": "ee606213bb84",
+      "asserted_by": "Colonial Office List",
+      "text": "As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St. Vincent and Tobago. Dominica was separated in 1771, St. Vincent in 1776; and in 1783 Tobago was ceded to the French. In 1833 St. Vincent was included with Barbados, Grenada and Tobago in one general government, the Governor-in-Chief being resident at Barbados, with Lieutenant-Governors in each of the other islands. In 1838 St. Lucia was included in this general government. On 17th March, 1885, Letters Patent were passed constituting the Government of the Windward Islands, Barbados being omitted. Tobago was subsequently united with Trinidad. On 1st January, 1940, Dominica was included in the Windward Islands.",
+      "edition_years": [
+        1954
+      ],
+      "first_edition_year": 1954,
+      "last_edition_year": 1954,
+      "n_editions": 1,
+      "representative_source_file": "1954_manual_parsed/THE_WINDWARD_ISLANDS.txt",
+      "char_start": 1390,
+      "char_end": 2107,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [
+        "possible_truncation"
+      ],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "Vincent in 1776; and in 1783 Tobago was ceded to the French.",
+          "char_start": 158,
+          "char_end": 218,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1954
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Grenada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St.",
+          "char_start": 79,
+          "char_end": 86,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1954
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "grenada"
+        },
+        {
+          "surface_text": "Dominica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "As early as 1764 there was one Governor for the \"Southern Caribbee Islands\" of Grenada, Dominica, St.",
+          "char_start": 88,
+          "char_end": 96,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1954
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "dominica"
+        },
+        {
+          "surface_text": "Tobago",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Vincent and Tobago.",
+          "char_start": 114,
+          "char_end": 120,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1954
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "tobago"
+        },
+        {
+          "surface_text": "Barbados",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Vincent was included with Barbados, Grenada and Tobago in one general government, the Governor-in-Chief being resident at Barbados, with Lieutenant-Governors in each of the other islands.",
+          "char_start": 257,
+          "char_end": 265,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1954
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "barbados"
+        },
+        {
+          "surface_text": "Trinidad",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Tobago was subsequently united with Trinidad.",
+          "char_start": 639,
+          "char_end": 647,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1954
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "trinidad"
+        }
+      ],
+      "year_references": [
+        1764,
+        1771,
+        1776,
+        1783,
+        1833,
+        1838,
+        1885,
+        1940
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "barbados",
+    "dominica",
+    "grenada",
+    "tobago",
+    "trinidad"
+  ]
+}

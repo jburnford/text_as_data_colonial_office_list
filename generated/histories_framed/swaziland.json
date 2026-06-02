@@ -743,24 +743,6 @@
       ],
       "entity_candidates": [
         {
-          "surface_text": "King. The Swazis",
-          "entity_type": "person",
-          "entity_subtype": "monarch",
-          "source_span": "Under Sobhuza and his successor Mswazi, they occupied territory up to Barberton in the North and extending towards Carolina and Ermelo on the West, while the tribes occupying what is now the Lydenburg District also paid tribute to the Swazi King. The Swazis are known to themselves and other native tribes as the Ama-Ngwanane, that is, the people of Ngwane, one of their early Chiefs, and the country as Kwa-Ngwanane, the land of Ngwane.",
-          "char_start": 963,
-          "char_end": 979,
-          "year_reference": null,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1920,
-            1921,
-            1922
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Sir Theophilus Shepstone",
           "entity_type": "person",
           "entity_subtype": null,
@@ -1071,25 +1053,6 @@
       ],
       "entity_candidates": [
         {
-          "surface_text": "King. The Swazis",
-          "entity_type": "person",
-          "entity_subtype": "monarch",
-          "source_span": "Under Sobhuza and his successor Mswazi, they occupied territory up to Barberton in the North and extending towards Carolina and Ermelo on the West, while the tribes occupying what is now the Lydenburg District also paid tribute to the Swazi King. The Swazis are known to themselves and other native tribes as the Ama-Ngwane, that is, the people of Ngwane, one of their early Chiefs, and the country as Kwa-Ngwane, the land of Ngwane.",
-          "char_start": 964,
-          "char_end": 980,
-          "year_reference": null,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1923,
-            1924,
-            1925,
-            1927
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Sir Theophilus Shepstone",
           "entity_type": "person",
           "entity_subtype": null,
@@ -1115,25 +1078,6 @@
           "source_span": "In 1921 the Chief Regent Labotsibeni handed over her duties to her grandson Sobhuza, who was duly installed as Paramount Chief.",
           "char_start": 2958,
           "char_end": 2982,
-          "year_reference": 1921,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1923,
-            1924,
-            1925,
-            1927
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
-          "surface_text": "Chief. The Chief Regent",
-          "entity_type": "person",
-          "entity_subtype": "chief",
-          "source_span": "In 1921 the Chief Regent Labotsibeni handed over her duties to her grandson Sobhuza, who was duly installed as Paramount Chief. The Chief Regent had a long term of office after the death of her husband, Mbandeni, in 1889 and, later, of her son Bhunu.",
-          "char_start": 3067,
-          "char_end": 3090,
           "year_reference": 1921,
           "asserted_by": "Colonial Office List",
           "asserted_as_claim": true,

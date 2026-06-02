@@ -840,22 +840,6 @@
           "extractor": "deterministic_baseline"
         },
         {
-          "surface_text": "Governor. The Provinces",
-          "entity_type": "person",
-          "entity_subtype": "governor",
-          "source_span": "There is a Travelling Commissioner in each Province, and each District is under a Head Chief, with a native tribunal specially appointed by the Governor. The Provinces are as follows:—North Bank Province, with the districts of Lower Niumi, Upper Niumi, Jokado, Lower Baddibu, Upper Baddibu, Sabach and Sanigall, 110 miles in length.",
-          "char_start": 6328,
-          "char_end": 6351,
-          "year_reference": null,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1910
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Mr. Sitwell",
           "entity_type": "person",
           "entity_subtype": null,
@@ -1479,25 +1463,6 @@
           "extractor": "deterministic_baseline"
         },
         {
-          "surface_text": "Governor. The Provinces",
-          "entity_type": "person",
-          "entity_subtype": "governor",
-          "source_span": "There is a Travelling Commissioner in each Province, and each District is under a Head Chief, with a native tribunal specially appointed by the Governor. The Provinces are as follows:—North Bank Province, with the districts of Lower Niumi, Upper Niumi, Jokado, Lower Baddibu, Central Baddibu, Upper Baddibu, 110 miles in length.",
-          "char_start": 6809,
-          "char_end": 6832,
-          "year_reference": null,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1913,
-            1915,
-            1921,
-            1925
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Mr. Sitwell",
           "entity_type": "person",
           "entity_subtype": null,
@@ -2036,28 +2001,6 @@
           "char_start": 3624,
           "char_end": 3647,
           "year_reference": 1823,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1929,
-            1930,
-            1931,
-            1932,
-            1933,
-            1934,
-            1939
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
-          "surface_text": "Governor. The Provinces",
-          "entity_type": "person",
-          "entity_subtype": "governor",
-          "source_span": "There is a Travelling Commissioner in each Province, and each District is under a Head Chief, with a native tribunal specially appointed by the Governor. The Provinces are as follows:—North Bank Province, with the districts of Lower Niumi, Upper Niumi, Jokadu, Lower Baddibu, Central Baddibu, Upper Baddibu, 110 miles in length.",
-          "char_start": 4554,
-          "char_end": 4577,
-          "year_reference": null,
           "asserted_by": "Colonial Office List",
           "asserted_as_claim": true,
           "edition_years": [

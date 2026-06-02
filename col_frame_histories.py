@@ -104,6 +104,12 @@ RE_PERSON = re.compile(
     r"([A-Z][a-z]+(?:\s+[A-Z][a-z'’.]+){0,2})")
 RE_YEAR = re.compile(r"\b1[5-9]\d{2}\b")
 RE_CAPWORD = re.compile(r"\b([A-Z][a-z]{2,})\b")
+# Function words / sentence-starters that follow a title across a sentence break
+# ("Governor. In ...") or a bare title ("Governor Mr") — not personal names.
+NAME_STOPWORDS = {"In", "The", "A", "An", "His", "Her", "On", "At", "By", "For",
+                  "It", "This", "That", "These", "Those", "As", "And", "But",
+                  "He", "She", "They", "Of", "From", "Was", "Is", "Were", "Are",
+                  "Their", "Its", "Our", "All", "No", "Not", "Mr", "Mrs", "Dr"}
 
 _SUBTYPE = {
     "king": "monarch", "queen": "monarch", "emperor": "monarch",
@@ -156,6 +162,8 @@ def detect_entities(text, edition_years, gazetteer, self_slug):
     # Persons (titled)
     for m in RE_PERSON.finditer(text):
         surface = m.group(0).strip()
+        if m.group(2).split()[0] in NAME_STOPWORDS:
+            continue  # title followed by a function word / sentence start, not a name
         if surface.lower() in seen:
             continue
         seen.add(surface.lower())

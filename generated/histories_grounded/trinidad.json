@@ -1,0 +1,1469 @@
+{
+  "colony": "trinidad",
+  "n_editions_with_history": 19,
+  "n_versions": 6,
+  "versions": [
+    {
+      "uri": "col:hversion/trinidad/history/1c45ad19e31e",
+      "colony": "trinidad",
+      "section_slug": "history",
+      "version_hash": "1c45ad19e31e",
+      "asserted_by": "Colonial Office List",
+      "text": "It was first discovered by Christopher Columbus, on the 31st July, 1498; and first colonized in 1588 by the Spaniards. In 1676 the French gained possession of it, but it was soon restored to Spain. On the 12th February, 1797, a British expedition for the reduction of Trinidad sailed from Martinique, on the 14th it put into Carriacou, and sailed on the following morning with some additional transports. The naval command of this Expedition was entrusted to Rear-Admiral Henry Harvey. The troops, numbering 6,750 men, were commanded by Sir Ralph Abercrombie. The expedition resulted in the surrender of the island to His Majesty's arms, and on the 18th February, 1797, the articles of capitulation being signed by Abercrombie, Harvey, and Chacon. Abercrombie, after making the best arrangements that the confused state of the Colony allowed, departed two months after, leaving his Aide-de-Camp, Lieutenant-Colonel Thomas Picton, as Governor, whose first act was to institute a Council of Advice, consisting of five members. On the 29th March, 1802, the definitive treaty of peace between England and France, and her allies, viz., Spain and the Batavian Republic, was signed at Amiens. By the third article, all places taken during the war by Great Britain, were restored, save Trinidad and Ceylon.",
+      "edition_years": [
+        1879
+      ],
+      "first_edition_year": 1879,
+      "last_edition_year": 1879,
+      "n_editions": 1,
+      "representative_source_file": "1879_manual_parsed/trinidad.txt",
+      "char_start": 438,
+      "char_end": 1740,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "It was first discovered by Christopher Columbus, on the 31st July, 1498; and first colonized in 1588 by the Spaniards.",
+          "char_start": 0,
+          "char_end": 118,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1879
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "On the 12th February, 1797, a British expedition for the reduction of Trinidad sailed from Martinique, on the 14th it put into Carriacou, and sailed on the following morning with some additional transports.",
+          "char_start": 198,
+          "char_end": 404,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1879
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The naval command of this Expedition was entrusted to Rear-Admiral Henry Harvey.",
+          "char_start": 405,
+          "char_end": 485,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1879
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's arms, and on the 18th February, 1797, the articles of capitulation being signed by Abercrombie, Harvey, and Chacon.",
+          "char_start": 560,
+          "char_end": 747,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1879
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's arms, and on the 18th February, 1797, the articles of capitulation being signed by Abercrombie, Harvey, and Chacon.",
+          "char_start": 560,
+          "char_end": 747,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1879
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "By the third article, all places taken during the war by Great Britain, were restored, save Trinidad and Ceylon.",
+          "char_start": 1186,
+          "char_end": 1298,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1879
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Admiral Henry Harvey. The",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The naval command of this Expedition was entrusted to Rear-Admiral Henry Harvey. The troops, numbering 6,750 men, were commanded by Sir Ralph Abercrombie.",
+          "char_start": 464,
+          "char_end": 489,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1879
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir Ralph Abercrombie. The",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "The troops, numbering 6,750 men, were commanded by Sir Ralph Abercrombie. The expedition resulted in the surrender of the island to His Majesty's arms, and on the 18th February, 1797, the articles of capitulation being signed by Abercrombie, Harvey, and Chacon.",
+          "char_start": 537,
+          "char_end": 563,
+          "year_reference": 1797,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1879
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Colonel Thomas Picton",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Abercrombie, after making the best arrangements that the confused state of the Colony allowed, departed two months after, leaving his Aide-de-Camp, Lieutenant-Colonel Thomas Picton, as Governor, whose first act was to institute a Council of Advice, consisting of five members.",
+          "char_start": 907,
+          "char_end": 928,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1879
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Picton",
+            "name_match": "bare",
+            "strong": false,
+            "is_governor": true,
+            "personnel_years": [
+              1948
+            ],
+            "positions": [
+              "Lieut.-Governor"
+            ],
+            "mention_year": null,
+            "temporal_delta": null,
+            "temporal": "undated",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "Ceylon",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "By the third article, all places taken during the war by Great Britain, were restored, save Trinidad and Ceylon.",
+          "char_start": 1291,
+          "char_end": 1297,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1879
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "ceylon"
+        }
+      ],
+      "year_references": [
+        1588,
+        1676,
+        1797,
+        1802
+      ]
+    },
+    {
+      "uri": "col:hversion/trinidad/history/b045930ac179",
+      "colony": "trinidad",
+      "section_slug": "history",
+      "version_hash": "b045930ac179",
+      "asserted_by": "Colonial Office List",
+      "text": "Trinidad was first discovered by Columbus, on his third voyage, on the 31st July, 1496; and taken possession of by him for the Crown of Spain. No Governor was, however, appointed by the kings of Spain until 1532, and even then, and for many years afterwards, the Spanish colonists had the greatest difficulty in maintaining any footing in the island. Trinidad made scarcely any progress until 1788, when, in consequence of the representations made to the Court of Madrid by M. Rome de St. Laurent, a French planter of Grenada, who, when on a visit to the island, had been struck by its extraordinary fertility, a Royal cedula or proclamation was issued, by which extraordinary advantages were offered to foreigners of all nations to settle in Trinidad, the sole condition imposed, and that not very strictly insisted upon, being that they should profess the Roman Catholic religion. The consequence of this proclamation was a large influx of population, which was soon augmented by many French families, who were driven from St. Domingo and elsewhere, by the terrible events of the French Revolution, and to this cause is to be traced the great preponderance of the French element in a colony which never belonged to France. On the 12th February, 1797, Great Britain being then at war with Spain, a British expedition sailed from Martinique for the reduction of Trinidad. The fleet was under the command of Rear-Admiral Harvey, and consisted of 18 vessels, carrying 760 guns. The military force, numbering in all 6,750 rank and file, were led by Sir Ralph Abercrombie. The expedition resulted in the surrender of the island to His Majesty's arms, and on the 18th February, 1797. The articles of capitulation were signed by Abercrombie, Harvey, and Chacon, the Spanish governor. Trinidad was held for a few years as a military conquest, during which period it was governed by Lieutenant-Colonel Thomas Picton, Aide-de-Camp to Sir Ralph Abercrombie. In 1802 it was finally ceded to the Crown of Great Britain by the Treaty of Amiens.",
+      "edition_years": [
+        1880,
+        1883,
+        1886
+      ],
+      "first_edition_year": 1880,
+      "last_edition_year": 1886,
+      "n_editions": 3,
+      "representative_source_file": "1880_manual_parsed/trinidad.txt",
+      "char_start": 325,
+      "char_end": 2361,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.979,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Trinidad was first discovered by Columbus, on his third voyage, on the 31st July, 1496; and taken possession of by him for the Crown of Spain.",
+          "char_start": 0,
+          "char_end": 142,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1880,
+            1883,
+            1886
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "Trinidad was first discovered by Columbus, on his third voyage, on the 31st July, 1496; and taken possession of by him for the Crown of Spain.",
+          "char_start": 0,
+          "char_end": 142,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1880,
+            1883,
+            1886
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition",
+            "war"
+          ],
+          "verbatim_span": "On the 12th February, 1797, Great Britain being then at war with Spain, a British expedition sailed from Martinique for the reduction of Trinidad.",
+          "char_start": 1225,
+          "char_end": 1371,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1880,
+            1883,
+            1886
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's arms, and on the 18th February, 1797.",
+          "char_start": 1569,
+          "char_end": 1678,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1880,
+            1883,
+            1886
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's arms, and on the 18th February, 1797.",
+          "char_start": 1569,
+          "char_end": 1678,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1880,
+            1883,
+            1886
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquest"
+          ],
+          "verbatim_span": "Trinidad was held for a few years as a military conquest, during which period it was governed by Lieutenant-Colonel Thomas Picton, Aide-de-Camp to Sir Ralph Abercrombie.",
+          "char_start": 1778,
+          "char_end": 1947,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1880,
+            1883,
+            1886
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "In 1802 it was finally ceded to the Crown of Great Britain by the Treaty of Amiens.",
+          "char_start": 1948,
+          "char_end": 2031,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1880,
+            1883,
+            1886
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Admiral Harvey",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The fleet was under the command of Rear-Admiral Harvey, and consisted of 18 vessels, carrying 760 guns.",
+          "char_start": 1412,
+          "char_end": 1426,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1880,
+            1883,
+            1886
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir Ralph Abercrombie. The",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "The military force, numbering in all 6,750 rank and file, were led by Sir Ralph Abercrombie. The expedition resulted in the surrender of the island to His Majesty's arms, and on the 18th February, 1797.",
+          "char_start": 1546,
+          "char_end": 1572,
+          "year_reference": 1797,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1880,
+            1883,
+            1886
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Colonel Thomas Picton",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Trinidad was held for a few years as a military conquest, during which period it was governed by Lieutenant-Colonel Thomas Picton, Aide-de-Camp to Sir Ralph Abercrombie.",
+          "char_start": 1886,
+          "char_end": 1907,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1880,
+            1883,
+            1886
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Picton",
+            "name_match": "bare",
+            "strong": false,
+            "is_governor": true,
+            "personnel_years": [
+              1948
+            ],
+            "positions": [
+              "Lieut.-Governor"
+            ],
+            "mention_year": null,
+            "temporal_delta": null,
+            "temporal": "undated",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "Sir Ralph Abercrombie. In",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Trinidad was held for a few years as a military conquest, during which period it was governed by Lieutenant-Colonel Thomas Picton, Aide-de-Camp to Sir Ralph Abercrombie. In 1802 it was finally ceded to the Crown of Great Britain by the Treaty of Amiens.",
+          "char_start": 1925,
+          "char_end": 1950,
+          "year_reference": 1802,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1880,
+            1883,
+            1886
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Grenada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Laurent, a French planter of Grenada, who, when on a visit to the island, had been struck by its extraordinary fertility, a Royal cedula or proclamation was issued, by which extraordinary advantages were offered to foreigners of all nations to settle in Trinidad, the sole condition imposed, and that not very strictly insisted upon, being that they should profess the Roman Catholic religion.",
+          "char_start": 518,
+          "char_end": 525,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1880,
+            1883,
+            1886
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "grenada"
+        }
+      ],
+      "year_references": [
+        1532,
+        1788,
+        1797,
+        1802
+      ]
+    },
+    {
+      "uri": "col:hversion/trinidad/history/359ffe8ce312",
+      "colony": "trinidad",
+      "section_slug": "history",
+      "version_hash": "359ffe8ce312",
+      "asserted_by": "Colonial Office List",
+      "text": "Trinidad was first discovered by Columbus, on his third voyage, on the 31st July, 1496; and taken possession of by him for the Crown of Spain. No Governor was, however, appointed by the king of Spain until 1532, and even then, and for many years afterwards, the Spanish colonists had the greatest difficulty in maintaining a footing in the island. Trinidad made scarcely any progress until 1783, when, in consequence of the representations made to the Court of Madrid by M. Rome de St. Laurent, a French planter of Grenada, who, when on a visit to the island, had been struck by its extraordinary fertility, a Royal cedula or proclamation was issued, by which extraordinary advantages were offered to foreigners of all nations to settle in Trinidad, the sole condition imposed, and that not very strictly insisted upon, being that they should profess the Roman Catholic religion. The consequence of this proclamation was a large influx of population, which was soon augmented by many French families, who were driven from St. Domingo and elsewhere, by the terrible events of the French Revolution, and to this cause is to be traced the preponderance of the French element in a colony which never belonged to France. On the 12th February, 1797, Great Britain being then at war with Spain, a British expedition sailed from Martinique for the reduction of Trinidad. The expedition resulted in the surrender of the island to His Majesty's forces, and on the 1st February, 1797, the articles of capitulation were signed by Sir R. Abercrombie, Admiral Harvey, and Chacou, the Spanish governor. In 1802 it was finally ceded to the Crown of Great Britain by the Treaty of Amiens. The population of the colony is composed of English, French, Spanish, and a large proportion of East Indian immigrants. The French lower classes speak a patois peculiar to the West Indies.",
+      "edition_years": [
+        1888,
+        1890
+      ],
+      "first_edition_year": 1888,
+      "last_edition_year": 1890,
+      "n_editions": 2,
+      "representative_source_file": "1890_manual_parsed/trinidad.txt",
+      "char_start": 539,
+      "char_end": 2403,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.929,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Trinidad was first discovered by Columbus, on his third voyage, on the 31st July, 1496; and taken possession of by him for the Crown of Spain.",
+          "char_start": 0,
+          "char_end": 142,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "Trinidad was first discovered by Columbus, on his third voyage, on the 31st July, 1496; and taken possession of by him for the Crown of Spain.",
+          "char_start": 0,
+          "char_end": 142,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition",
+            "war"
+          ],
+          "verbatim_span": "On the 12th February, 1797, Great Britain being then at war with Spain, a British expedition sailed from Martinique for the reduction of Trinidad.",
+          "char_start": 1216,
+          "char_end": 1362,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's forces, and on the 1st February, 1797, the articles of capitulation were signed by Sir R.",
+          "char_start": 1363,
+          "char_end": 1524,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's forces, and on the 1st February, 1797, the articles of capitulation were signed by Sir R.",
+          "char_start": 1363,
+          "char_end": 1524,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "In 1802 it was finally ceded to the Crown of Great Britain by the Treaty of Amiens.",
+          "char_start": 1588,
+          "char_end": 1671,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Admiral Harvey",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Abercrombie, Admiral Harvey, and Chacou, the Spanish governor.",
+          "char_start": 1538,
+          "char_end": 1552,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Grenada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Laurent, a French planter of Grenada, who, when on a visit to the island, had been struck by its extraordinary fertility, a Royal cedula or proclamation was issued, by which extraordinary advantages were offered to foreigners of all nations to settle in Trinidad, the sole condition imposed, and that not very strictly insisted upon, being that they should profess the Roman Catholic religion.",
+          "char_start": 515,
+          "char_end": 522,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1890
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "grenada"
+        }
+      ],
+      "year_references": [
+        1532,
+        1783,
+        1797,
+        1802
+      ]
+    },
+    {
+      "uri": "col:hversion/trinidad/history/78e633aaaf17",
+      "colony": "trinidad",
+      "section_slug": "history",
+      "version_hash": "78e633aaaf17",
+      "asserted_by": "Colonial Office List",
+      "text": "Trinidad was first discovered by Columbus, on his third voyage, on the 31st July, 1498; and taken possession of by him for the crown of Spain. No Governor was, however, appointed by the King of Spain until 1532, and even then, and for many years afterwards, the Spanish colonists had the greatest difficulty in maintaining a footing in the island. It was visited by Sir Robert Dudley, and by Sir Walter Raleigh in 1585, who signalled his visit by burning the newly-founded town of St. Joseph, and it was included in the Earl of Montgomery's grant, 1628. In 1640 it was raided by the Dutch, and again in 1677 and 1690 by the French. Towards the end of the 17th and the beginning of the 18th centuries, cocoa was largely and successfully cultivated, but a blight fell upon the plantations about 1725, and Trinidad made scarcely any progress until 1783, when, in consequence of the representations made to the Court of Madrid by M. Rome de St. Laurent, a French planter of Grenada, who, when on a visit to the island, had been struck by its extraordinary fertility, a Royal cédula or proclamation was issued, by which extraordinary advantages were offered to foreigners of all nations to settle in Trinidad, the sole condition imposed, and that not very strictly insisted upon, being that they should profess the Roman Catholic religion. The consequence of this proclamation was a large influx of population, which was soon augmented by many French families, who were driven from St. Domingo and elsewhere by the terrible events of the French Revolution, and to this cause is to be traced the preponderance of the French element in a colony which never belonged to France. On the 12th February, 1797, Great Britain being then at war with Spain, a British expedition sailed from Martinique for the reduction of Trinidad. The expedition resulted in the surrender of the island to His Majesty's forces, and on the 18th February, 1797, the articles of capitulation were signed by Sir R. Abercromby, Admiral Harvey, and Chacon, the Spanish Governor. In 1802 it was finally ceded to the Crown of Great Britain by the Treaty of Amiens. The population of Trinidad and Tobago, by the census of 1901, was 255,148. The white population is chiefly composed of English, Germans, French, and Spanish, and there is also a large proportion of East Indians, totalling 86,373. The French lower classes speak a patois peculiar to the West Indies.",
+      "edition_years": [
+        1894,
+        1896,
+        1897,
+        1898,
+        1908,
+        1909,
+        1911
+      ],
+      "first_edition_year": 1894,
+      "last_edition_year": 1911,
+      "n_editions": 7,
+      "representative_source_file": "1908_manual_parsed/TRINIDAD.txt",
+      "char_start": 1336,
+      "char_end": 3764,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.942,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Trinidad was first discovered by Columbus, on his third voyage, on the 31st July, 1498; and taken possession of by him for the crown of Spain.",
+          "char_start": 0,
+          "char_end": 142,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1908,
+            1909,
+            1911
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "Trinidad was first discovered by Columbus, on his third voyage, on the 31st July, 1498; and taken possession of by him for the crown of Spain.",
+          "char_start": 0,
+          "char_end": 142,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1908,
+            1909,
+            1911
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition",
+            "war"
+          ],
+          "verbatim_span": "On the 12th February, 1797, Great Britain being then at war with Spain, a British expedition sailed from Martinique for the reduction of Trinidad.",
+          "char_start": 1670,
+          "char_end": 1816,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1908,
+            1909,
+            1911
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's forces, and on the 18th February, 1797, the articles of capitulation were signed by Sir R.",
+          "char_start": 1817,
+          "char_end": 1979,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1908,
+            1909,
+            1911
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's forces, and on the 18th February, 1797, the articles of capitulation were signed by Sir R.",
+          "char_start": 1817,
+          "char_end": 1979,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1908,
+            1909,
+            1911
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "In 1802 it was finally ceded to the Crown of Great Britain by the Treaty of Amiens.",
+          "char_start": 2042,
+          "char_end": 2125,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1908,
+            1909,
+            1911
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Robert Dudley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "It was visited by Sir Robert Dudley, and by Sir Walter Raleigh in 1585, who signalled his visit by burning the newly-founded town of St.",
+          "char_start": 366,
+          "char_end": 383,
+          "year_reference": 1585,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1908,
+            1909,
+            1911
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir Walter Raleigh",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "It was visited by Sir Robert Dudley, and by Sir Walter Raleigh in 1585, who signalled his visit by burning the newly-founded town of St.",
+          "char_start": 392,
+          "char_end": 410,
+          "year_reference": 1585,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1908,
+            1909,
+            1911
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Admiral Harvey",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Abercromby, Admiral Harvey, and Chacon, the Spanish Governor.",
+          "char_start": 1992,
+          "char_end": 2006,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1908,
+            1909,
+            1911
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Grenada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Laurent, a French planter of Grenada, who, when on a visit to the island, had been struck by its extraordinary fertility, a Royal cédula or proclamation was issued, by which extraordinary advantages were offered to foreigners of all nations to settle in Trinidad, the sole condition imposed, and that not very strictly insisted upon, being that they should profess the Roman Catholic religion.",
+          "char_start": 970,
+          "char_end": 977,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1908,
+            1909,
+            1911
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "grenada"
+        },
+        {
+          "surface_text": "Tobago",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The population of Trinidad and Tobago, by the census of 1901, was 255,148.",
+          "char_start": 2157,
+          "char_end": 2163,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1897,
+            1898,
+            1908,
+            1909,
+            1911
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "tobago"
+        }
+      ],
+      "year_references": [
+        1532,
+        1585,
+        1628,
+        1640,
+        1677,
+        1690,
+        1725,
+        1783,
+        1797,
+        1802,
+        1901
+      ]
+    },
+    {
+      "uri": "col:hversion/trinidad/history/87339a9b5ffc",
+      "colony": "trinidad",
+      "section_slug": "history",
+      "version_hash": "87339a9b5ffc",
+      "asserted_by": "Colonial Office List",
+      "text": "Trinidad was first discovered by Columbus, on his third voyage, on the 31st July, 1498; and taken possession of by him for the crown of Spain. No Governor was, however, appointed by the King of Spain until 1532, and even then, and for many years afterwards, the Spanish colonists had the greatest difficulty in maintaining a footing in the island. It was visited by Sir Robert Dudley, and by Sir Walter Raleigh in 1595, who signalled his visit by burning the newly-founded town of St. Joseph, and it was included in the Earl of Montgomery's grant, 1628. In 1640 it was raided by the Dutch, and again in 1677 and 1690 by the French. Towards the end of the 17th and the beginning of the 18th centuries, cocoa was largely and successfully cultivated, but a blight fell upon the plantations about 1725, and Trinidad made scarcely any progress until 1783, when, in consequence of the representations made to the Court of Madrid by M. Rome de St. Laurent, a French planter of Grenada, who, when on a visit to the island, had been struck by its extraordinary fertility, a Royal cedula or proclamation was issued, by which extraordinary advantages were offered to foreigners of all nations to settle in Trinidad, the sole condition imposed, and that not very strictly insisted upon, being that they should profess the Roman Catholic religion. The consequence of this proclamation was a large influx of population, which was soon augmented by many French families, who were driven from St. Domingo and elsewhere by the terrible events of the French Revolution, and to this cause is to be traced the preponderance of the French element in a colony which never belonged to France. On the 12th February, 1797, Great Britain being then at war with Spain, a British expedition sailed from Martinique for the reduction of Trinidad. The expedition resulted in the surrender of the island to His Majesty's forces, and on the 18th asphalt, petroleum, and manjak. Asphalt.—An asphalt lake, 114 acres in extent, situated in the Ward of La Brea, distant by reshipped to Europe. A little more and a fourth of the whole trade of t with the United Kingdom and the U. of America respectively On the 28th February, 1797, Great Britain wasn't then at war with Spain, a British expedition sailed from Martinique for the reduction of Trinidad. The expedition resulted in the surrender of the island to His Majesty's forces, and on the 18th... February, 1797, the articles of capitulation were signed by Sir R. Abercromby, Admiral Harvey, and Chacon, the Spanish Governor. In 1802 it was finally ceded to the Crown of Great Britain by the Treaty of Amiens. The estimated population of Trinidad and Tobago at 31st December, 1916, was 371,876. The white population is chiefly composed of English, Portuguese, French, and Spanish, and there is also a large proportion of East Indians, totalling 124,977. The French lower classes speak a patois peculiar to the West Indies.",
+      "edition_years": [
+        1918
+      ],
+      "first_edition_year": 1918,
+      "last_edition_year": 1918,
+      "n_editions": 1,
+      "representative_source_file": "1918_manual_parsed/TRINIDAD.txt",
+      "char_start": 1307,
+      "char_end": 4252,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Trinidad was first discovered by Columbus, on his third voyage, on the 31st July, 1498; and taken possession of by him for the crown of Spain.",
+          "char_start": 0,
+          "char_end": 142,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "Trinidad was first discovered by Columbus, on his third voyage, on the 31st July, 1498; and taken possession of by him for the crown of Spain.",
+          "char_start": 0,
+          "char_end": 142,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition",
+            "war"
+          ],
+          "verbatim_span": "On the 12th February, 1797, Great Britain being then at war with Spain, a British expedition sailed from Martinique for the reduction of Trinidad.",
+          "char_start": 1670,
+          "char_end": 1816,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's forces, and on the 18th asphalt, petroleum, and manjak.",
+          "char_start": 1817,
+          "char_end": 1944,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's forces, and on the 18th asphalt, petroleum, and manjak.",
+          "char_start": 1817,
+          "char_end": 1944,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition",
+            "war"
+          ],
+          "verbatim_span": "of America respectively On the 28th February, 1797, Great Britain wasn't then at war with Spain, a British expedition sailed from Martinique for the reduction of Trinidad.",
+          "char_start": 2143,
+          "char_end": 2314,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's forces, and on the 18th...",
+          "char_start": 2315,
+          "char_end": 2413,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's forces, and on the 18th...",
+          "char_start": 2315,
+          "char_end": 2413,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "In 1802 it was finally ceded to the Crown of Great Britain by the Treaty of Amiens.",
+          "char_start": 2543,
+          "char_end": 2626,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1918
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Robert Dudley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "It was visited by Sir Robert Dudley, and by Sir Walter Raleigh in 1595, who signalled his visit by burning the newly-founded town of St.",
+          "char_start": 366,
+          "char_end": 383,
+          "year_reference": 1595,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir Walter Raleigh",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "It was visited by Sir Robert Dudley, and by Sir Walter Raleigh in 1595, who signalled his visit by burning the newly-founded town of St.",
+          "char_start": 392,
+          "char_end": 410,
+          "year_reference": 1595,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Admiral Harvey",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Abercromby, Admiral Harvey, and Chacon, the Spanish Governor.",
+          "char_start": 2493,
+          "char_end": 2507,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Grenada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Laurent, a French planter of Grenada, who, when on a visit to the island, had been struck by its extraordinary fertility, a Royal cedula or proclamation was issued, by which extraordinary advantages were offered to foreigners of all nations to settle in Trinidad, the sole condition imposed, and that not very strictly insisted upon, being that they should profess the Roman Catholic religion.",
+          "char_start": 970,
+          "char_end": 977,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "grenada"
+        },
+        {
+          "surface_text": "Tobago",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The estimated population of Trinidad and Tobago at 31st December, 1916, was 371,876.",
+          "char_start": 2668,
+          "char_end": 2674,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1918
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "tobago"
+        }
+      ],
+      "year_references": [
+        1532,
+        1595,
+        1628,
+        1640,
+        1677,
+        1690,
+        1725,
+        1783,
+        1797,
+        1802,
+        1916
+      ]
+    },
+    {
+      "uri": "col:hversion/trinidad/history/6bdcab0cbd4e",
+      "colony": "trinidad",
+      "section_slug": "history",
+      "version_hash": "6bdcab0cbd4e",
+      "asserted_by": "Colonial Office List",
+      "text": "Trinidad was discovered by Columbus, on his third voyage, on the 31st July, 1498; and taken possession of by him for the crown of Spain. No Governor was, however, appointed by the King of Spain until 1532, and even then, and for many years afterwards, the Spanish colonists had the greatest difficulty in maintaining a footing in the island. It was visited by Sir Robert Dudley, and by Sir Walter Raleigh in 1595, who signalised his visit by burning the newly-founded town of St. Joseph, and it was included in the Earl of Montgomery's grant, 1628. In 1640 it was raided by the Dutch, and again in 1677 and 1690 by the French. Towards the end of the 17th and the beginning of the 18th centuries, cocoa was largely and successfully cultivated, but a blight fell upon the plantations about 1725, and Trinidad made scarcely any progress until 1783, when, in consequence of the representations made to the Court of Madrid by M. Roume de St. Laurent, a French planter of Grenada, who, when on a visit to the island, had been struck by its extraordinary fertility, a Royal cedula or proclamation was issued, by which extraordinary advantages were offered to foreigners of all nations to settle in Trinidad, the sole condition imposed, and that not very strictly insisted upon, being that they should profess the Roman Catholic religion. The consequence of this proclamation was a large influx of population, which was soon augmented by many French families, who were driven from St. Domingo and elsewhere by the terrible events of the French Revolution, and to this cause is to be traced the preponderance of the French element in a colony which never belonged to France. On the 12th February 1797, Great Britain being then at war with Spain, a British expedition sailed from Martinique for the reduction of Trinidad. The expedition resulted in the surrender of the island to His Majesty's forces, and on the 18th February, 1797, the articles of capitulation were signed by Sir R. Abercromby, Admiral Harvey, and Chacon, the Spanish Governor. In 1802 Trinidad was finally ceded to the Crown of Great Britain by the Treaty of Amiens. The population of Trinidad and Tobago at the census of 1931 was 412,783. The white population is chiefly composed of English, Portuguese, French, and Spanish. There is also a large number of East Indians, totalling 137,583. The French lower classes speak a patois peculiar to the West Indies. For general map of West Indies, see under Windward Islands.",
+      "edition_years": [
+        1919,
+        1921,
+        1936,
+        1946,
+        1948
+      ],
+      "first_edition_year": 1919,
+      "last_edition_year": 1948,
+      "n_editions": 5,
+      "representative_source_file": "1936_manual_parsed/TRINIDAD.txt",
+      "char_start": 683,
+      "char_end": 3166,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.914,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Trinidad was discovered by Columbus, on his third voyage, on the 31st July, 1498; and taken possession of by him for the crown of Spain.",
+          "char_start": 0,
+          "char_end": 136,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1919,
+            1921,
+            1936,
+            1946,
+            1948
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "Trinidad was discovered by Columbus, on his third voyage, on the 31st July, 1498; and taken possession of by him for the crown of Spain.",
+          "char_start": 0,
+          "char_end": 136,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1919,
+            1921,
+            1936,
+            1946,
+            1948
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition",
+            "war"
+          ],
+          "verbatim_span": "On the 12th February 1797, Great Britain being then at war with Spain, a British expedition sailed from Martinique for the reduction of Trinidad.",
+          "char_start": 1666,
+          "char_end": 1811,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1919,
+            1921,
+            1936,
+            1946,
+            1948
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's forces, and on the 18th February, 1797, the articles of capitulation were signed by Sir R.",
+          "char_start": 1812,
+          "char_end": 1974,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1919,
+            1921,
+            1936,
+            1946,
+            1948
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "The expedition resulted in the surrender of the island to His Majesty's forces, and on the 18th February, 1797, the articles of capitulation were signed by Sir R.",
+          "char_start": 1812,
+          "char_end": 1974,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1919,
+            1921,
+            1936,
+            1946,
+            1948
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "In 1802 Trinidad was finally ceded to the Crown of Great Britain by the Treaty of Amiens.",
+          "char_start": 2037,
+          "char_end": 2126,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1919,
+            1921,
+            1936,
+            1946,
+            1948
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Robert Dudley",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "It was visited by Sir Robert Dudley, and by Sir Walter Raleigh in 1595, who signalised his visit by burning the newly-founded town of St.",
+          "char_start": 360,
+          "char_end": 377,
+          "year_reference": 1595,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1919,
+            1921,
+            1936,
+            1946,
+            1948
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir Walter Raleigh",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "It was visited by Sir Robert Dudley, and by Sir Walter Raleigh in 1595, who signalised his visit by burning the newly-founded town of St.",
+          "char_start": 386,
+          "char_end": 404,
+          "year_reference": 1595,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1919,
+            1921,
+            1936,
+            1946,
+            1948
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Admiral Harvey",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Abercromby, Admiral Harvey, and Chacon, the Spanish Governor.",
+          "char_start": 1987,
+          "char_end": 2001,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1919,
+            1921,
+            1936,
+            1946,
+            1948
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Grenada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Laurent, a French planter of Grenada, who, when on a visit to the island, had been struck by its extraordinary fertility, a Royal cedula or proclamation was issued, by which extraordinary advantages were offered to foreigners of all nations to settle in Trinidad, the sole condition imposed, and that not very strictly insisted upon, being that they should profess the Roman Catholic religion.",
+          "char_start": 966,
+          "char_end": 973,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1919,
+            1921,
+            1936,
+            1946,
+            1948
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "grenada"
+        },
+        {
+          "surface_text": "Tobago",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The population of Trinidad and Tobago at the census of 1931 was 412,783.",
+          "char_start": 2158,
+          "char_end": 2164,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1919,
+            1921,
+            1936,
+            1946,
+            1948
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "tobago"
+        }
+      ],
+      "year_references": [
+        1532,
+        1595,
+        1628,
+        1640,
+        1677,
+        1690,
+        1725,
+        1783,
+        1797,
+        1802,
+        1931
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "ceylon",
+    "grenada",
+    "tobago"
+  ]
+}

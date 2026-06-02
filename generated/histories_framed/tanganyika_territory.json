@@ -349,23 +349,6 @@
           "extractor": "deterministic_baseline"
         },
         {
-          "surface_text": "Chief. The Governor",
-          "entity_type": "person",
-          "entity_subtype": "chief",
-          "source_span": "The Tanganyika Order-in-Council, 1920, which was read and proclaimed in Dar-es-Salaam on September 25th, 1920, constituted the office of Governor and Commander-in-Chief. The Governor is assisted by an Executive Council.",
-          "char_start": 1510,
-          "char_end": 1529,
-          "year_reference": 1920,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1921,
-            1925
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Tanganyika",
           "entity_type": "place",
           "entity_subtype": "territory",
@@ -635,27 +618,6 @@
           "char_start": 364,
           "char_end": 379,
           "year_reference": 1884,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1933,
-            1934,
-            1936,
-            1937,
-            1939,
-            1940
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
-          "surface_text": "Chief. The Governor",
-          "entity_type": "person",
-          "entity_subtype": "chief",
-          "source_span": "After the surrender of Major-General von Lettow-Vorbeck, in accordance with the terms of the armistice, the military forces were withdrawn, leaving only a garrison of the King's African Rifles; and a Royal Commission was issued in 1919 appointing an Administrator, The Tanganyika Order-in-Council, 1920, which was read and proclaimed in Dar-es-Salaam on September 25th, 1920, constituted the office of Governor and Commander-in-Chief. The Governor is assisted by an Executive Council.",
-          "char_start": 1849,
-          "char_end": 1868,
-          "year_reference": 1919,
           "asserted_by": "Colonial Office List",
           "asserted_as_claim": true,
           "edition_years": [

@@ -748,24 +748,6 @@
           "extractor": "deterministic_baseline"
         },
         {
-          "surface_text": "Chief. The",
-          "entity_type": "person",
-          "entity_subtype": "chief",
-          "source_span": "Despatches which have been published bear testimony to the good work performed by the Volunteers, Police, and the Rhodesia Regiment, and they have also gained the special approbation of the late Commander-in-Chief. The attitude of the natives throughout the war was most satisfactory, and, although in some districts there appeared signs of unrest, it was confined to attempts by discontented natives to work up the feelings of the people who were, however, not affected by them to any appreciable degree.",
-          "char_start": 5603,
-          "char_end": 5613,
-          "year_reference": null,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1906,
-            1907,
-            1908
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Bechuanaland",
           "entity_type": "place",
           "entity_subtype": "territory",
@@ -1220,22 +1202,6 @@
           "extractor": "deterministic_baseline"
         },
         {
-          "surface_text": "Chief. The",
-          "entity_type": "person",
-          "entity_subtype": "chief",
-          "source_span": "Despatches which have been published bear testimony to the good work performed by the Volunteers, Police, and the Rhodesia Regiment, and they also gained the special approbation of the late Commander-in-Chief. The attitude of the natives throughout the war was most satisfactory, and, although in some districts there appeared signs of unrest, it was confined to attempts by discontented natives to work up the feelings of the people, who were, however, not affected by them to any appreciable degree.",
-          "char_start": 5215,
-          "char_end": 5225,
-          "year_reference": null,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1917
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Bechuanaland",
           "entity_type": "place",
           "entity_subtype": "territory",
@@ -1672,23 +1638,6 @@
           "source_span": "Arrangements for the future administration of the country were completed by the High Commissioner and Mr. Rhodes on behalf of the Company.",
           "char_start": 2403,
           "char_end": 2413,
-          "year_reference": null,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1921,
-            1923
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
-          "surface_text": "Chief. The",
-          "entity_type": "person",
-          "entity_subtype": "chief",
-          "source_span": "mentions in consequence and secured the approbation of the Commander-in-Chief. The effects of the European War upon Rhodesian interests were at first mainly indirect, notwithstanding that the territory is bounded for short distances by what was \"German\" East Africa and \"German\" South West Africa respectively.",
-          "char_start": 4076,
-          "char_end": 4086,
           "year_reference": null,
           "asserted_by": "Colonial Office List",
           "asserted_as_claim": true,

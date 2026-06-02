@@ -1,0 +1,50 @@
+{
+  "colony": "amatongaland",
+  "n_editions_with_history": 1,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/amatongaland/history/4abafc4f45ad",
+      "colony": "amatongaland",
+      "section_slug": "history",
+      "version_hash": "4abafc4f45ad",
+      "asserted_by": "Colonial Office List",
+      "text": "The Amatonga are an independent tribe which has been ruled for years by a Paramount Chief under a form of vassalage to the Zulu Kings. Owing, probably, to the unhealthiness of the country the Amatonga do not possess the fine physique of the Zulu race.",
+      "edition_years": [
+        1898
+      ],
+      "first_edition_year": 1898,
+      "last_edition_year": 1898,
+      "n_editions": 1,
+      "representative_source_file": "1898_manual_parsed/AMATONGALAND.txt",
+      "char_start": 850,
+      "char_end": 1101,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribe"
+          ],
+          "verbatim_span": "The Amatonga are an independent tribe which has been ruled for years by a Paramount Chief under a form of vassalage to the Zulu Kings.",
+          "char_start": 0,
+          "char_end": 134,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1898
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [],
+      "year_references": []
+    }
+  ],
+  "referenced_territories": []
+}

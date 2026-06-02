@@ -3632,40 +3632,6 @@
           "extractor": "deterministic_baseline"
         },
         {
-          "surface_text": "Governor. The Colony",
-          "entity_type": "person",
-          "entity_subtype": "governor",
-          "source_span": "The legislative power for the Protectorate was vested in the Governor. The Colony was placed under an Administrator, and the Protectorate, divided into two groups of provinces—Northern and Southern—under two Lieutenant-Governors.",
-          "char_start": 25890,
-          "char_end": 25910,
-          "year_reference": null,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1915,
-            1917,
-            1918,
-            1920,
-            1921,
-            1922,
-            1923,
-            1924,
-            1925,
-            1927,
-            1928,
-            1929,
-            1930,
-            1931,
-            1932,
-            1936,
-            1937,
-            1939,
-            1940
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Cameroons",
           "entity_type": "place",
           "entity_subtype": "territory",
@@ -5596,26 +5562,6 @@
           "char_start": 13721,
           "char_end": 13736,
           "year_reference": 1892,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1946,
-            1948,
-            1949,
-            1950,
-            1951
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
-          "surface_text": "Governor. The",
-          "entity_type": "person",
-          "entity_subtype": "governor",
-          "source_span": "The legislative power for the protectorate was vested in the Governor. The colony was placed under an Administrator, and the protectorate, divided into two groups of provinces—Northern and Southern—under two Lieutenant-Governors.",
-          "char_start": 24012,
-          "char_end": 24025,
-          "year_reference": null,
           "asserted_by": "Colonial Office List",
           "asserted_as_claim": true,
           "edition_years": [

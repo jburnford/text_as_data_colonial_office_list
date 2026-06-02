@@ -1,0 +1,470 @@
+{
+  "colony": "falkland_islands_and_dependencies",
+  "n_editions_with_history": 2,
+  "n_versions": 2,
+  "versions": [
+    {
+      "uri": "col:hversion/falkland_islands_and_dependencies/history/b803d32b6fb8",
+      "colony": "falkland_islands_and_dependencies",
+      "section_slug": "history",
+      "version_hash": "b803d32b6fb8",
+      "asserted_by": "Colonial Office List",
+      "text": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594. In 1764 Bougainville planted a small colony of Acadians at Port Louis in East Falkland. The French settlement was taken over by Spain, ever jealous of interference by other nations in the southern seas, in 1766. In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war. The Spaniards restored the British garrison in 1771, but it was abandoned in 1774. In 1820, the Republic of Buenos Aires established a settlement in the East Falkland which was destroyed by the Americans in 1831. In 1833 occupation of the islands was resumed by the British Government. Until 1843, they were under the charge of the Naval officers engaged in making Admiralty surveys. In 1843, a Civil Administration was formed, the headquarters being at Port Louis until the following year when they were removed to Stanley, then known as Port William. The colony received regular grants in aid from 1841 until 1880 and for a mail service until 1884-5, since which year the colony has been self-supporting. South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain. South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G. Powell in 1821. The Dependencies were visited only by exploring expeditions, sealers and whalers until the rise of the modern whaling industry in those regions.",
+      "edition_years": [
+        1950
+      ],
+      "first_edition_year": 1950,
+      "last_edition_year": 1950,
+      "n_editions": 1,
+      "representative_source_file": "1950_manual_parsed/falkland_islands_and_dependencies.txt",
+      "char_start": 5215,
+      "char_end": 6884,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Falklands were discovered by Davis in 1592, and visited by Hawkins in 1594.",
+          "char_start": 0,
+          "char_end": 79,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 292,
+          "char_end": 546,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 292,
+          "char_end": 546,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1254,
+          "char_end": 1384,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1254,
+          "char_end": 1384,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1385,
+          "char_end": 1503,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1385,
+          "char_end": 1503,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The Dependencies were visited only by exploring expeditions, sealers and whalers until the rise of the modern whaling industry in those regions.",
+          "char_start": 1520,
+          "char_end": 1664,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Byron",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1765 Captain Byron took possession of West Falkland, and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770; this action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 300,
+          "char_end": 313,
+          "year_reference": 1765,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain James Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Georgia and the South Sandwich group were discovered in 1775 by Captain James Cook, who took possession of them for Britain.",
+          "char_start": 1324,
+          "char_end": 1342,
+          "year_reference": 1775,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain William Smith",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "South Shetland was discovered and taken possession of by Captain William Smith in 1819, and South Orkney by Captain G.",
+          "char_start": 1442,
+          "char_end": 1463,
+          "year_reference": 1819,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1592,
+        1594,
+        1764,
+        1765,
+        1766,
+        1770,
+        1771,
+        1774,
+        1775,
+        1819,
+        1820,
+        1821,
+        1831,
+        1833,
+        1841,
+        1843,
+        1880,
+        1884
+      ]
+    },
+    {
+      "uri": "col:hversion/falkland_islands_and_dependencies/history/22d7333b8f9c",
+      "colony": "falkland_islands_and_dependencies",
+      "section_slug": "history",
+      "version_hash": "22d7333b8f9c",
+      "asserted_by": "Colonial Office List",
+      "text": "The Falklands are said to have been discovered by Davis in 1592 and were evidently visited by Hawkins in 1594. On the other hand it is claimed by some historians that Vespucci sighted the Falklands in 1502. In 1764 de Bougainville established a small colony at Port Louis in the East Falkland. This French settlement was handed over to Spain in 1767 on the payment of a sum said to have amounted to £24,000. In 1765 Captain Byron took possession of the West Falkland and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770. This action on the part of Spain brought that country and Britain to the verge of war. The Spaniards restored the settlement to the British in 1771, but it was abandoned in 1774. The Spaniards also abandoned their settlement at Soledad (Port Louis) in the early nineteenth century. In 1820 the Captaincy-General of Buenos Aires established a settlement at Soledad which was destroyed in 1831 by the U.S. warship Lexington as a reprisal for interference with American sealers. In 1833 the occupation of the Islands was resumed by the British Government. In 1841 a civil Lieutenant-Governor was appointed, who took over the following year from the naval officer then in charge of the Islands. In 1843 an Act of Parliament placed the civil administration on a permanent footing and the Lieutenant-Governor's title was changed to Governor. In 1844, following a decision taken the previous year, the seat of government was removed from Port Louis to Port William, where the settlement was named Stanley. A grant-in-aid of the Colony was approved in 1841 and continued until 1880. A grant-in-aid for a mail service continued until 1884–85, since which year the Colony has been self-supporting. The development of the Colony has been closely linked with the growth of the Falkland Islands Company, the largest landowner and trading company, formed in 1851. Of the Dependencies South Georgia was probably discovered by the London merchant de la Roché in 1675 and formally annexed by Captain Cook in 1775, who in the same year discovered and took possession of the South Sandwich group. South Shetland was discovered and taken possession of by Captain W. Smith in 1819 and South Orkney by Captain G. Powell in 1821. Graham Land was discovered by Edward Bransfield, R.N., in 1820 and taken possession of for Great Britain by John Biscoe in 1832. There has been a Government Station at South Georgia since 1909 and during the time that Deception Island had an active shore whaling station (i.e. from 1906 to 1931) a magistrate was in permanent residence during the summer months. In the 1943–44 season under the code name of \"Operation Tabarin\" the first of what are now known as Falkland Islands Dependencies Bases were established at Deception Island and Port Lockroy. Since that time occupation of Bases has been continuous and the number so occupied now stands at ten. Their locations are as follows: Base A—Port Lockroy, Wienke Island, Palmer Archipelago. Base B—Deception Island, South Shetlands. Base D—Hope Bay, Trinity Peninsula, Graham Land. (Base D is Base V, View Point, Duse Bay.) Base F—Argentine Islands, West coast of Graham Land. Base G—Admiralty Bay, King George Island, South Shetlands. Base H—Signy Island, South Orkneys. Base J—Prospect Point, Graham Coast. Base O—Danco Coast, Graham Land. Base W—Loubet Coast, Graham Land. Base Y—Horseshoe Island, Marguerite Bay, Graham Land. Other bases which have been established, but are at present unoccupied, are as follows: Base C—Cape Geddes, Laurie Island, South Orkneys. Base E—Stonington Island, Marguerite Bay, Graham Land. Base N—Anvers Island, Palmer Archipelago. Constitution The Government is administered by a Governor aided by an Executive Council which is composed of three ex officio members, and five nominated unofficial members; and a Legislative Council composed of three ex officio, four elected, two nominated unofficial and two nominated official members. The present Constitution became effective on 1st January, 1949.",
+      "edition_years": [
+        1958
+      ],
+      "first_edition_year": 1958,
+      "last_edition_year": 1958,
+      "n_editions": 1,
+      "representative_source_file": "1958_manual_parsed/falkland_islands_and_dependencies.txt",
+      "char_start": 2568,
+      "char_end": 6648,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Falklands are said to have been discovered by Davis in 1592 and were evidently visited by Hawkins in 1594.",
+          "char_start": 0,
+          "char_end": 110,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1958
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "In 1765 Captain Byron took possession of the West Falkland and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770.",
+          "char_start": 408,
+          "char_end": 578,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1958
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "This action on the part of Spain brought that country and Britain to the verge of war.",
+          "char_start": 579,
+          "char_end": 665,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1958
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Of the Dependencies South Georgia was probably discovered by the London merchant de la Roché in 1675 and formally annexed by Captain Cook in 1775, who in the same year discovered and took possession of the South Sandwich group.",
+          "char_start": 1929,
+          "char_end": 2156,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1958
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed",
+            "took possession"
+          ],
+          "verbatim_span": "Of the Dependencies South Georgia was probably discovered by the London merchant de la Roché in 1675 and formally annexed by Captain Cook in 1775, who in the same year discovered and took possession of the South Sandwich group.",
+          "char_start": 1929,
+          "char_end": 2156,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1958
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain W.",
+          "char_start": 2157,
+          "char_end": 2224,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1958
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "South Shetland was discovered and taken possession of by Captain W.",
+          "char_start": 2157,
+          "char_end": 2224,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1958
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Graham Land was discovered by Edward Bransfield, R.N., in 1820 and taken possession of for Great Britain by John Biscoe in 1832.",
+          "char_start": 2286,
+          "char_end": 2414,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1958
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "taken possession"
+          ],
+          "verbatim_span": "Graham Land was discovered by Edward Bransfield, R.N., in 1820 and taken possession of for Great Britain by John Biscoe in 1832.",
+          "char_start": 2286,
+          "char_end": 2414,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1958
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Captain Byron",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1765 Captain Byron took possession of the West Falkland and left a small garrison at Port Egmont on Saunders Island, whence it was driven out by the Spaniards in 1770.",
+          "char_start": 416,
+          "char_end": 429,
+          "year_reference": 1765,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1958
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain Cook",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Of the Dependencies South Georgia was probably discovered by the London merchant de la Roché in 1675 and formally annexed by Captain Cook in 1775, who in the same year discovered and took possession of the South Sandwich group.",
+          "char_start": 2054,
+          "char_end": 2066,
+          "year_reference": 1675,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1958
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "King George Island",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Base G—Admiralty Bay, King George Island, South Shetlands.",
+          "char_start": 3237,
+          "char_end": 3255,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1958
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1502,
+        1592,
+        1594,
+        1675,
+        1764,
+        1765,
+        1767,
+        1770,
+        1771,
+        1774,
+        1775,
+        1819,
+        1820,
+        1821,
+        1831,
+        1832,
+        1833,
+        1841,
+        1843,
+        1844,
+        1851,
+        1880,
+        1884,
+        1906,
+        1909,
+        1931,
+        1943,
+        1949
+      ]
+    }
+  ],
+  "referenced_territories": []
+}

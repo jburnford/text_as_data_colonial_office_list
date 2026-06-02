@@ -1,0 +1,495 @@
+{
+  "colony": "newfoundland",
+  "n_editions_with_history": 17,
+  "n_versions": 3,
+  "versions": [
+    {
+      "uri": "col:hversion/newfoundland/history/e7495b4ddbdc",
+      "colony": "newfoundland",
+      "section_slug": "history",
+      "version_hash": "e7495b4ddbdc",
+      "asserted_by": "Colonial Office List",
+      "text": "The island was discovered by John Cabot in 1497; it was as early as 1500 frequented by the Portuguese, Spanish, and French, for its fisheries, Sir Walter Raleigh and others, in the reign of Queen Elizabeth, attempted to colonize this island, but were not successful. In 1623, Sir G. Calvert, afterwards Lord Baltimore, established himself in the south-east part of the island, and appointed his son Governor. In 1634, a party of colonists were sent over from Ireland, and 20 years after, some English colonists arrived, having emigrated by means of a Parliamentary grant. The French, about 1620, established a station at Placentia; and for many years the French and English settlers were constantly annoying each other. At the Peace of Utrecht in 1713, subsequently ratified by the Treaty of Paris, the exclu The sovereignty of Newfoundland was ceded to Great Britain, subject to certain rights reserved to France, which are still in question between the two nations. The French possess the small islands of St. Pierre and Miquelon, and the district is resorted to annually by a French fishing fleet from St. Malo. They claim the exclusive right to fish along certain portions of the coast from Bona Vista to Cape Riche, upon which they erect temporary structures for drying the fish. The exact extent of this right is in dispute, and there are other questions at issue as to magisterial jurisdiction, mines, harbours, and river fisheries. A proposal for the settlement of all the questions was agreed to in 1885 by commissioners representing France and England, but was rejected by Newfoundland, mainly on account of the provisions for the sale of bait.",
+      "edition_years": [
+        1888,
+        1889,
+        1890
+      ],
+      "first_edition_year": 1888,
+      "last_edition_year": 1890,
+      "n_editions": 3,
+      "representative_source_file": "1888_manual_parsed/NEWFOUNDLAND.txt",
+      "char_start": 488,
+      "char_end": 2143,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.951,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The island was discovered by John Cabot in 1497; it was as early as 1500 frequented by the Portuguese, Spanish, and French, for its fisheries, Sir Walter Raleigh and others, in the reign of Queen Elizabeth, attempted to colonize this island, but were not successful.",
+          "char_start": 0,
+          "char_end": 266,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "At the Peace of Utrecht in 1713, subsequently ratified by the Treaty of Paris, the exclu The sovereignty of Newfoundland was ceded to Great Britain, subject to certain rights reserved to France, which are still in question between the two nations.",
+          "char_start": 720,
+          "char_end": 967,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "At the Peace of Utrecht in 1713, subsequently ratified by the Treaty of Paris, the exclu The sovereignty of Newfoundland was ceded to Great Britain, subject to certain rights reserved to France, which are still in question between the two nations.",
+          "char_start": 720,
+          "char_end": 967,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Walter Raleigh",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "The island was discovered by John Cabot in 1497; it was as early as 1500 frequented by the Portuguese, Spanish, and French, for its fisheries, Sir Walter Raleigh and others, in the reign of Queen Elizabeth, attempted to colonize this island, but were not successful.",
+          "char_start": 143,
+          "char_end": 161,
+          "year_reference": 1500,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Queen Elizabeth",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "The island was discovered by John Cabot in 1497; it was as early as 1500 frequented by the Portuguese, Spanish, and French, for its fisheries, Sir Walter Raleigh and others, in the reign of Queen Elizabeth, attempted to colonize this island, but were not successful.",
+          "char_start": 190,
+          "char_end": 205,
+          "year_reference": 1500,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Lord Baltimore",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Calvert, afterwards Lord Baltimore, established himself in the south-east part of the island, and appointed his son Governor.",
+          "char_start": 303,
+          "char_end": 317,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1890
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1500,
+        1620,
+        1623,
+        1634,
+        1713,
+        1885
+      ]
+    },
+    {
+      "uri": "col:hversion/newfoundland/history/0c52a619320a",
+      "colony": "newfoundland",
+      "section_slug": "history",
+      "version_hash": "0c52a619320a",
+      "asserted_by": "Colonial Office List",
+      "text": "The island was discovered by John Cabot in 1497; it was as early as 1500 frequented by the Portuguese, Spanish, and French, for its fisheries. Sir Walter Raleigh and others, in the reign of Queen Elizabeth, attempted to colonize this island, but were not successful. In 1623, Sir G. Calvert, afterwards Lord Baltimore, established himself in the Peninsula of Avalon, the south-east part of the island, and appointed his son Governor. In 1634 a party of colonists were sent over from Ireland, and twenty years after, some English colonists arrived, having emigrated by means of a Parliamentary grant. The French, about 1629, established a station at Placentia; and for many years the French and English settlers were constantly annoying each other. At the Peace of Utrecht in 1713, subsequently ratified by the Treaty of Paris, the exclusive sovereignty of Newfoundland was acknowledged to belong to Great Britain, certain rights being granted to French fishermen, the extent of which is still in question between the two nations. The French possess the small islands of St. Pierre and Miquelon, and the district is resorted to annually by a French fishing fleet from St. Malo, Granville, St. Brience, Bordeaux, Quimper, St. Nazaire, &c. They claim the exclusive right to fish along the coast from Cape John on the east coast round the north to Cape Ray on the west coast, upon which they are allowed temporary structures for drying the fish. That this right is an exclusive one has never been admitted by Great Britain, which also contends that it does not include a right to the lobster fishery. By the declaration attached to the Treaty of Versailles in 1783, the King of Great Britain also undertook to remove the fixed fishery settlements on the part of the coast to which the French rights extend. A proposal for the settlement of all the questions was agreed to in 1885 by commissioners representing France and England, but was rejected by Newfoundland. An agreement for the reference to arbitration of the lobster fishery question was signed in 1891, but the law approving it has not yet passed the French Chamber. Pending the arbitration, the modus vivendi which had been adopted in 1890, limiting the erection of new factories, was renewed. The Colony reluctantly passed legislation in 1891 for enforcing it for three years, but rejected the draft permanent Bill for giving effect to the treaty obligations in the session of 1892. The Act was first continued to 31st December, 1895, then to 31st December, 1897, and in 1897 it was further continued to 31st December, 1898. By legislation passed in the Session 1898, the Act of 1891 was continued until the 31st day of December, 1899. In August, 1898, Sir J. Bramston, K.C.M.G., and Admiral Sir J. E. Erskine, K.C.B., were appointed Royal Commissioners to enquire into the operation of the French treaties.",
+      "edition_years": [
+        1894,
+        1896,
+        1898,
+        1900
+      ],
+      "first_edition_year": 1894,
+      "last_edition_year": 1900,
+      "n_editions": 4,
+      "representative_source_file": "1900_manual_parsed/NEWFOUNDLAND.txt",
+      "char_start": 2056,
+      "char_end": 4922,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.96,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The island was discovered by John Cabot in 1497; it was as early as 1500 frequented by the Portuguese, Spanish, and French, for its fisheries.",
+          "char_start": 0,
+          "char_end": 142,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "At the Peace of Utrecht in 1713, subsequently ratified by the Treaty of Paris, the exclusive sovereignty of Newfoundland was acknowledged to belong to Great Britain, certain rights being granted to French fishermen, the extent of which is still in question between the two nations.",
+          "char_start": 748,
+          "char_end": 1029,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Walter Raleigh",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Sir Walter Raleigh and others, in the reign of Queen Elizabeth, attempted to colonize this island, but were not successful.",
+          "char_start": 143,
+          "char_end": 161,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Queen Elizabeth",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Sir Walter Raleigh and others, in the reign of Queen Elizabeth, attempted to colonize this island, but were not successful.",
+          "char_start": 190,
+          "char_end": 205,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Lord Baltimore",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Calvert, afterwards Lord Baltimore, established himself in the Peninsula of Avalon, the south-east part of the island, and appointed his son Governor.",
+          "char_start": 303,
+          "char_end": 317,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Admiral Sir J. E.",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Bramston, K.C.M.G., and Admiral Sir J. E. Erskine, K.C.B., were appointed Royal Commissioners to enquire into the operation of the French treaties.",
+          "char_start": 2741,
+          "char_end": 2758,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1894,
+            1896,
+            1898,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1500,
+        1623,
+        1629,
+        1634,
+        1713,
+        1783,
+        1885,
+        1890,
+        1891,
+        1892,
+        1895,
+        1897,
+        1898,
+        1899
+      ]
+    },
+    {
+      "uri": "col:hversion/newfoundland/history/dec8e58e6fed",
+      "colony": "newfoundland",
+      "section_slug": "history",
+      "version_hash": "dec8e58e6fed",
+      "asserted_by": "Colonial Office List",
+      "text": "The island was discovered by John Cabot in 1497; it was as early as 1500 frequented by the Portuguese, Spanish, and French, for its fisheries. Sir Walter Raleigh and others, in the reign of Queen Elizabeth, attempted to colonise this island, but were not successful. In 1623, Sir G. Calvert, afterwards Lord Baltimore, established himself in the Peninsula of Avalon, the south-east part of the island, and appointed his son Governor. In 1634 a party of colonists were sent over from Ireland, and twenty years after, some English colonists arrived, having emigrated by means of a Parliamentary grant. The French, about 1620, established a station at Placentia; and for many years the French and English settlers were constantly annoying each other. At the Peace of Utrecht in 1713, subsequently ratified by the Treaty of Paris, the exclusive sovereignty of Newfoundland was acknowledged to belong to Great Britain, certain rights being granted to French fishermen, the extent of which long remained in question between the two nations. The French possess the small islands of St. Pierre and Miquelon, and the district is resorted to annually by a French fishing fleet. The Anglo-American Company, of London, have completed a large pulp mill at Bishop's Falls, about cables start for Europe (at Hearts' Content) and America (at Placentia). The Commercial cable is Fraser, C.M.G. V. Goupille (Vice-Consul). of St. Pierre and Miquelon, and the island is resorted to annually by a French fishing fleet. from St. Malo, Granville, St. Brieuc, Bordeaux, Quimper, St. Nazaire, &c. They claimed the exclusive right to fish along the coast from Cape John on the east coast round the north to Cape Ray on the west coast, upon which they were allowed temporary structures for drying the fish. That this right was an exclusive one was never admitted by Great Britain, which also contended that it did not include a right to the lobster fishery. By the declaration attached to the Treaty of Versailles in 1783, the King of Great Britain undertook to remove the fixed fishery settlements on the part of the coast to which the French rights extend. A proposal for the settlement of all the questions was agreed to in 1885 by commissioners representing France and England, but was rejected by Newfoundland. An agreement for the reference to arbitration of the lobster fishery question was signed in 1891, but the law approving it did not pass the French Chamber. Pending the arbitration, the modus vivendi, which had been adopted in 1890, limiting the erection of new factories, was renewed. The Colony reluctantly passed legislation in 1891 for enforcing it for three years, but rejected the draft permanent Bill for giving effect to the treaty obligations in the session of 1892. The Act was first continued to 31st December, 1896, then to 31st December, 1897, and in 1897 it was further continued to 31st December, 1898. By legislation passed in each subsequent session the Act of 1891 was continued until the 31st day of December. The dispute was finally settled by the Anglo-French Convention of the 8th April, 1904, in connection with other outstanding questions between the two countries. Under that Convention, France renounced the privileges under Art. xiii. of the Treaty of Utrecht (see Cd. 1952). The arrangement will be of great benefit to the Colony, since it removes an obstruction to local development, to mining and other industrial enterprises, over some two-fifths of the whole coast line.",
+      "edition_years": [
+        1906,
+        1910,
+        1911,
+        1912,
+        1917,
+        1918,
+        1920,
+        1921,
+        1924,
+        1927
+      ],
+      "first_edition_year": 1906,
+      "last_edition_year": 1927,
+      "n_editions": 10,
+      "representative_source_file": "1918_manual_parsed/NEWFOUNDLAND.txt",
+      "char_start": 1990,
+      "char_end": 5483,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.923,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The island was discovered by John Cabot in 1497; it was as early as 1500 frequented by the Portuguese, Spanish, and French, for its fisheries.",
+          "char_start": 0,
+          "char_end": 142,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1910,
+            1911,
+            1912,
+            1917,
+            1918,
+            1920,
+            1921,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "At the Peace of Utrecht in 1713, subsequently ratified by the Treaty of Paris, the exclusive sovereignty of Newfoundland was acknowledged to belong to Great Britain, certain rights being granted to French fishermen, the extent of which long remained in question between the two nations.",
+          "char_start": 748,
+          "char_end": 1034,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906,
+            1910,
+            1911,
+            1912,
+            1917,
+            1918,
+            1920,
+            1921,
+            1924,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Walter Raleigh",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Sir Walter Raleigh and others, in the reign of Queen Elizabeth, attempted to colonise this island, but were not successful.",
+          "char_start": 143,
+          "char_end": 161,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906,
+            1910,
+            1911,
+            1912,
+            1917,
+            1918,
+            1920,
+            1921,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Queen Elizabeth",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Sir Walter Raleigh and others, in the reign of Queen Elizabeth, attempted to colonise this island, but were not successful.",
+          "char_start": 190,
+          "char_end": 205,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906,
+            1910,
+            1911,
+            1912,
+            1917,
+            1918,
+            1920,
+            1921,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Lord Baltimore",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Calvert, afterwards Lord Baltimore, established himself in the Peninsula of Avalon, the south-east part of the island, and appointed his son Governor.",
+          "char_start": 303,
+          "char_end": 317,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906,
+            1910,
+            1911,
+            1912,
+            1917,
+            1918,
+            1920,
+            1921,
+            1924,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1500,
+        1620,
+        1623,
+        1634,
+        1713,
+        1783,
+        1885,
+        1890,
+        1891,
+        1892,
+        1896,
+        1897,
+        1898,
+        1904,
+        1952
+      ]
+    }
+  ],
+  "referenced_territories": []
+}

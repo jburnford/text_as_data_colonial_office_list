@@ -828,28 +828,6 @@
           "extractor": "deterministic_baseline"
         },
         {
-          "surface_text": "Governor. In",
-          "entity_type": "person",
-          "entity_subtype": "governor",
-          "source_span": "Abercromby, Admiral Harvey, and Chacon, the Spanish Governor. In 1802 it was finally ceded to the Crown of Great Britain by the Treaty of Amiens.",
-          "char_start": 2032,
-          "char_end": 2044,
-          "year_reference": 1802,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1894,
-            1896,
-            1897,
-            1898,
-            1908,
-            1909,
-            1911
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Grenada",
           "entity_type": "place",
           "entity_subtype": "territory",
@@ -1120,22 +1098,6 @@
           "extractor": "deterministic_baseline"
         },
         {
-          "surface_text": "Governor. In",
-          "entity_type": "person",
-          "entity_subtype": "governor",
-          "source_span": "Abercromby, Admiral Harvey, and Chacon, the Spanish Governor. In 1802 it was finally ceded to the Crown of Great Britain by the Treaty of Amiens.",
-          "char_start": 2533,
-          "char_end": 2545,
-          "year_reference": 1802,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1918
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Grenada",
           "entity_type": "place",
           "entity_subtype": "territory",
@@ -1375,26 +1337,6 @@
           "char_start": 1987,
           "char_end": 2001,
           "year_reference": null,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1919,
-            1921,
-            1936,
-            1946,
-            1948
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
-          "surface_text": "Governor. In",
-          "entity_type": "person",
-          "entity_subtype": "governor",
-          "source_span": "Abercromby, Admiral Harvey, and Chacon, the Spanish Governor. In 1802 Trinidad was finally ceded to the Crown of Great Britain by the Treaty of Amiens.",
-          "char_start": 2027,
-          "char_end": 2039,
-          "year_reference": 1802,
           "asserted_by": "Colonial Office List",
           "asserted_as_claim": true,
           "edition_years": [

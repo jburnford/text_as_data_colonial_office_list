@@ -1,0 +1,994 @@
+{
+  "colony": "malta",
+  "n_editions_with_history": 33,
+  "n_versions": 4,
+  "versions": [
+    {
+      "uri": "col:hversion/malta/history/8812fcc18fda",
+      "colony": "malta",
+      "section_slug": "history",
+      "version_hash": "8812fcc18fda",
+      "asserted_by": "Colonial Office List",
+      "text": "Of the islands of Malta, Gozo, and Comino mention is made at a very early date. The Phoenicians settled in them in B.C. 1519, according to some authors, whilst others give the date B.C. 1400. Diodorus Siculus describes Malta and Gozo as most important and prosperous Phoenician colonies. They were afterwards under the dominion of the Greeks, and then of the Carthaginians. During the Punic wars the Maltese Islands fell alternately to the lot of the Carthaginians and Romans, and were ultimately occupied by the latter. During the Roman occupation the shipwreck of St. Paul took place (Acts xxviii.). On the decline of the Roman Empire Malta fell into the hands of the Goths, and then into those of the Saracens, who were expelled in 1090 by Count Roger the Norman. It was under the dominion of the House of Aragon from 1190 until 1530, when it was granted by the Roman Emperor Charles V. to the Order of the Knights of St. John, by whom it was held for more than two centuries. On the 12th July, 1798, the Grand Master Hompesch capitulated to Napoleon Bonaparte, who dispersed the Order. The Maltese, however, rose against the French, and drove them to take refuge in the towns, where they were closely blockaded by the British fleet, aided by the Maltese, for two years. The French, reduced to extremities, surrendered to the British, and the government was placed in the hands of Great Britain, 1800, and finally annexed to the British Crown by the Treaty of Paris, 1814.",
+      "edition_years": [
+        1889,
+        1896,
+        1899,
+        1905,
+        1906,
+        1907,
+        1908,
+        1909,
+        1910
+      ],
+      "first_edition_year": 1889,
+      "last_edition_year": 1910,
+      "n_editions": 9,
+      "representative_source_file": "1906_manual_parsed/MALTA.txt",
+      "char_start": 537,
+      "char_end": 2013,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.961,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "The French, reduced to extremities, surrendered to the British, and the government was placed in the hands of Great Britain, 1800, and finally annexed to the British Crown by the Treaty of Paris, 1814.",
+          "char_start": 1274,
+          "char_end": 1475,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889,
+            1896,
+            1899,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown"
+          ],
+          "verbatim_span": "The French, reduced to extremities, surrendered to the British, and the government was placed in the hands of Great Britain, 1800, and finally annexed to the British Crown by the Treaty of Paris, 1814.",
+          "char_start": 1274,
+          "char_end": 1475,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889,
+            1896,
+            1899,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Count Roger",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "On the decline of the Roman Empire Malta fell into the hands of the Goths, and then into those of the Saracens, who were expelled in 1090 by Count Roger the Norman.",
+          "char_start": 743,
+          "char_end": 754,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1896,
+            1899,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Emperor Charles V.",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "It was under the dominion of the House of Aragon from 1190 until 1530, when it was granted by the Roman Emperor Charles V. to the Order of the Knights of St.",
+          "char_start": 871,
+          "char_end": 889,
+          "year_reference": 1530,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1896,
+            1899,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909,
+            1910
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1519,
+        1530,
+        1798,
+        1800,
+        1814
+      ]
+    },
+    {
+      "uri": "col:hversion/malta/history/7e144c1e3ebc",
+      "colony": "malta",
+      "section_slug": "history",
+      "version_hash": "7e144c1e3ebc",
+      "asserted_by": "Colonial Office List",
+      "text": "The earliest known inhabitants of the Maltese islands were the Phoenicians, who have left traces of their presence in the famous temples of Hagar Kim in Malta, and Torre dei Giganti, in Gozo, and Diodorus Siculus states that Malta (Melita) and Gozo (Ganlus) were regarded as being among the most important and prosperous Phoenician colonies. Greeks also appear to have settled in the island at a very early date, and during the period of the struggles between the Greeks and the Carthaginians for the possession of Sicily, Malta probably shared the varying fortunes of its neighbour, but practically nothing is known of its history in these years. At the beginning of the Punic wars the islands were held by Carthage. In the course of the first Punic war they changed hands more than once, but at its conclusion they were still in the possession of the Carthaginians. In 218 B.C., they passed finally to Rome. Under the Romans Malta appears to have enjoyed great prosperity. Diodorus Siculus speaks of the excellence of its harbours, the wealth of its inhabitants, and its many skilful artificers, and refers to its fertility, and Cicero, in the Verrine orations, speaks of it as abounding in riches and famous for its textile manufactures. Inscriptions show that it enjoyed municipal rights in the time of Hadrian, but the most striking fact in its history which is known to us is that it was the scene of St. Paul's shipwreck (Acts xxviii.). On the final division of the Empire in 395 A.D., Malta fell to the share of the Byzantine Emperor, and for the next four centuries its history is almost a blank. In the 9th century it was three times invaded by the Arabs, who finally conquered it in 870, the Byzantine garrison being massacred in an insurrection of the inhabitants. The Arabs held the islands until 1090, when they were conquered by Count Roger de Hauteville. From that date until 1530, the history of Malta is that of Sicily. In 1530, the Emperor Charles V. granted the islands to the Order of St. John, who had been driven from Rhodes by the Turks, and for 268 years it remained under the dominion of the Knights. The most famous incident of this period is the great siege of 1565, when the Order under the leadership of the Grand Master La Valette, successfully resisted the attacks of the apparently overwhelming force which Solomon, the magnificent, sent against them. By the end of the 18th century the Order had fallen into decay, and on the 12th July, 1798, the Grand Master Hompesch capitulated without any attempt at resistance to Napoleon Bonaparte, who dispersed the Order. The Maltese, however, rose against the French, and drove them to take refuge in the towns, where they were closely... blockaded by the British fleet, aided by the Maltese, for two years. The French, reduced to extremities, surrendered to the British, and in 1800 the government was placed in the hands of Great Britain. The Treaty of Amiens provided that the islands should be restored to the Knights, but this was prevented by the re-commencement of the war, and they were finally annexed to the British Crown by the Treaty of Paris in 1814.",
+      "edition_years": [
+        1911,
+        1912,
+        1913,
+        1914,
+        1915,
+        1917,
+        1918,
+        1919,
+        1920
+      ],
+      "first_edition_year": 1911,
+      "last_edition_year": 1920,
+      "n_editions": 9,
+      "representative_source_file": "1917_manual_parsed/MALTA.txt",
+      "char_start": 526,
+      "char_end": 3665,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.989,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In the course of the first Punic war they changed hands more than once, but at its conclusion they were still in the possession of the Carthaginians.",
+          "char_start": 718,
+          "char_end": 867,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquered",
+            "insurrection",
+            "massacre"
+          ],
+          "verbatim_span": "In the 9th century it was three times invaded by the Arabs, who finally conquered it in 870, the Byzantine garrison being massacred in an insurrection of the inhabitants.",
+          "char_start": 1606,
+          "char_end": 1776,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquered"
+          ],
+          "verbatim_span": "The Arabs held the islands until 1090, when they were conquered by Count Roger de Hauteville.",
+          "char_start": 1777,
+          "char_end": 1870,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "The Treaty of Amiens provided that the islands should be restored to the Knights, but this was prevented by the re-commencement of the war, and they were finally annexed to the British Crown by the Treaty of Paris in 1814.",
+          "char_start": 2917,
+          "char_end": 3139,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The Treaty of Amiens provided that the islands should be restored to the Knights, but this was prevented by the re-commencement of the war, and they were finally annexed to the British Crown by the Treaty of Paris in 1814.",
+          "char_start": 2917,
+          "char_end": 3139,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown"
+          ],
+          "verbatim_span": "The Treaty of Amiens provided that the islands should be restored to the Knights, but this was prevented by the re-commencement of the war, and they were finally annexed to the British Crown by the Treaty of Paris in 1814.",
+          "char_start": 2917,
+          "char_end": 3139,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Count Roger",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "The Arabs held the islands until 1090, when they were conquered by Count Roger de Hauteville.",
+          "char_start": 1844,
+          "char_end": 1855,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Emperor Charles V.",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "In 1530, the Emperor Charles V. granted the islands to the Order of St.",
+          "char_start": 1951,
+          "char_end": 1969,
+          "year_reference": 1530,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1530,
+        1565,
+        1798,
+        1800,
+        1814
+      ]
+    },
+    {
+      "uri": "col:hversion/malta/history/e18759fd81ac",
+      "colony": "malta",
+      "section_slug": "history",
+      "version_hash": "e18759fd81ac",
+      "asserted_by": "Colonial Office List",
+      "text": "The Maltese Islands were inhabited as early as the beginning of the Mousterian cultural period, about 40,000 B.C., by Neanderthal man, of whom remains were discovered in a cave to the southeast of Malta. Traces of paleolithic civilization are not wanting in the islands, and evidence of a neolithic civilization, in the shape of cave dwellings, stone circles, menhirs and dolmens, is found all over the islands. The Phoenicians probably took possession of Malta as soon as they made themselves masters of the Mediterranean Sea. Phoenician remains are few, but there are numerous rock-cut graves of Phoenician type. At the beginning of the Punic wars the islands were held by Carthage. In the course of the first Punic war they changed hands more than once, but at its conclusion they were still in the possession of the Carthaginians. In 218 B.C., they passed finally to Rome. Under the Romans Malta appears to have enjoyed great prosperity. Diodorus Siculus speaks of the excellence of its harbours, the wealth of its inhabitants, and its many skilful artificers, and refers to its fertility, and Cicero, in the Verrine orations, speaks of it as abounding in riches and famous for its textile manufactures. Inscriptions show that it enjoyed municipal rights in the time of Hadrian, but the most striking fact in its history which is known to us is that it was the scene of St. Paul's shipwreck (Acts xxviii.). On the final division of the Empire in 395 A.D., Malta fell to the share of the Byzantine Emperor, and for the next four centuries its history is almost a blank. In the 9th century it was three times invaded by the Arabs, who finally conquered it in 870, the Byzantine garrison being massacred in an insurrection of the inhabitants. In 1090, Count Roger the Norman, with a handful of men, subjected the islands to Sicily. The Sicilian domination lasted for four hundred years, Norman, Angevin, Aragonese and Castilian ruling in turn. During this time, Malta had Sicilian governors and laws, but there is no record of any extensive Sicilian immigration, and the persistence of the old Semitic names in the parish registers, instituted at this period, stands as further evidence that no great ethnographic changes occurred. The connexion with Sicily was broken in 1530, when the Emperor Charles V gave Malta to the Knights of St. John of Jerusalem, who had been driven from Rhodes by the Turks, and who held Malta until 1798. The loyalty of the Maltese to their new sovereigns, who for the first time were resident in the island, was put to a severe test on several occasions, the most notable being the great siege of 1565, when the Order of St. John, under Grand Master Jean de la Valette, resisted the attacks of the land and sea forces of Soliman the Magnificent. It was after this great feat of arms that the city of Valletta was built, strong enough to defy the Turkish attacks threatened yearly by the Sultan. Napoleon Bonaparte invested the island on his way to Egypt, having prepared the ground by intrigue and revolutionary propaganda, and, on the 12th July, 1798, Ferdinand de Hompesch, the last Grand Master in Malta, capitulated without any resistance, and the Order was dispersed. The French installed themselves in the islands, but their interference with Maltese laws and customs brought about a sharp reaction, and the natives drove the French troops within the fortified towns and, with the help of the British fleet, held them closely blockaded for two years, after which the French, reduced to extremities, surrendered to the British. In 1800 the government was placed in the hands of Great Britain. The Treaty of Amiens provided that the islands should be restored to the Knights, but this was prevented by the re-commencement of the war, and they were finally annexed to the British Crown by the Treaty of Paris in 1814. Climate. The climate of Malta is equable and very healthy in winter. In August the heat at the sea level approaches that experienced at the tropics. The nights, however, are pleasant and cool, except during the prevalence of the scirocco wind. The mean maximum temperature during the three coldest months (December, January, February) is 65° Fahr., and the mean minimum 44°; but during the four hottest months (June, July, August, and September) the mean maximum is 89° Fahr., and the mean minimum 65°. The mean temperature is 64°, and the mean annual rainfall is 21 inches. There is no river or rivulet in the island, the water drainage becoming absorbed in the porous sandstone beds and finding its way through underground channels and aqueducts.",
+      "edition_years": [
+        1924,
+        1925,
+        1929,
+        1930,
+        1931,
+        1933,
+        1934,
+        1936,
+        1937,
+        1939,
+        1940,
+        1946
+      ],
+      "first_edition_year": 1924,
+      "last_edition_year": 1946,
+      "n_editions": 12,
+      "representative_source_file": "1924_manual_parsed/MALTA.txt",
+      "char_start": 526,
+      "char_end": 5133,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.91,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "The Maltese Islands were inhabited as early as the beginning of the Mousterian cultural period, about 40,000 B.C., by Neanderthal man, of whom remains were discovered in a cave to the southeast of Malta.",
+          "char_start": 0,
+          "char_end": 203,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "civilization"
+          ],
+          "verbatim_span": "Traces of paleolithic civilization are not wanting in the islands, and evidence of a neolithic civilization, in the shape of cave dwellings, stone circles, menhirs and dolmens, is found all over the islands.",
+          "char_start": 204,
+          "char_end": 411,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "The Phoenicians probably took possession of Malta as soon as they made themselves masters of the Mediterranean Sea.",
+          "char_start": 412,
+          "char_end": 527,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In the course of the first Punic war they changed hands more than once, but at its conclusion they were still in the possession of the Carthaginians.",
+          "char_start": 685,
+          "char_end": 834,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquered",
+            "insurrection",
+            "massacre"
+          ],
+          "verbatim_span": "In the 9th century it was three times invaded by the Arabs, who finally conquered it in 870, the Byzantine garrison being massacred in an insurrection of the inhabitants.",
+          "char_start": 1573,
+          "char_end": 1743,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives"
+          ],
+          "verbatim_span": "The French installed themselves in the islands, but their interference with Maltese laws and customs brought about a sharp reaction, and the natives drove the French troops within the fortified towns and, with the help of the British fleet, held them closely blockaded for two years, after which the French, reduced to extremities, surrendered to the British.",
+          "char_start": 3204,
+          "char_end": 3563,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "The Treaty of Amiens provided that the islands should be restored to the Knights, but this was prevented by the re-commencement of the war, and they were finally annexed to the British Crown by the Treaty of Paris in 1814.",
+          "char_start": 3629,
+          "char_end": 3851,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The Treaty of Amiens provided that the islands should be restored to the Knights, but this was prevented by the re-commencement of the war, and they were finally annexed to the British Crown by the Treaty of Paris in 1814.",
+          "char_start": 3629,
+          "char_end": 3851,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown"
+          ],
+          "verbatim_span": "The Treaty of Amiens provided that the islands should be restored to the Knights, but this was prevented by the re-commencement of the war, and they were finally annexed to the British Crown by the Treaty of Paris in 1814.",
+          "char_start": 3629,
+          "char_end": 3851,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1924,
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Count Roger",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In 1090, Count Roger the Norman, with a handful of men, subjected the islands to Sicily.",
+          "char_start": 1753,
+          "char_end": 1764,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Emperor Charles",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "The connexion with Sicily was broken in 1530, when the Emperor Charles V gave Malta to the Knights of St.",
+          "char_start": 2288,
+          "char_end": 2303,
+          "year_reference": 1530,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sultan. Napoleon Bonaparte",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "It was after this great feat of arms that the city of Valletta was built, strong enough to defy the Turkish attacks threatened yearly by the Sultan. Napoleon Bonaparte invested the island on his way to Egypt, having prepared the ground by intrigue and revolutionary propaganda, and, on the 12th July, 1798, Ferdinand de Hompesch, the last Grand Master in Malta, capitulated without any resistance, and the Order was dispersed.",
+          "char_start": 2918,
+          "char_end": 2944,
+          "year_reference": 1798,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1924,
+            1925,
+            1929,
+            1930,
+            1931,
+            1933,
+            1934,
+            1936,
+            1937,
+            1939,
+            1940,
+            1946
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1530,
+        1565,
+        1798,
+        1800,
+        1814
+      ]
+    },
+    {
+      "uri": "col:hversion/malta/history/e544002fdd3d",
+      "colony": "malta",
+      "section_slug": "history",
+      "version_hash": "e544002fdd3d",
+      "asserted_by": "Colonial Office List",
+      "text": "No traces of Paleolithic cultures have so far been discovered in the Maltese archipelago, and the prospects are not very encouraging. The Pleistocene period is richly represented by the remains of extinct fauna embedded in the floor deposit of Ghar Dalam (the Cave of Darkness) and also by the fossils recovered from many other ossiferous caves and rock fissures. The Maltese islands were first inhabited by a neolithic race, not later than 3,000 B.C. The chief monuments belonging to this period consist of various megalithic temples (Tarxien, Mnajdra, Hagar Qim and Gantija), a subterranean sanctuary (Hal Safiieni Hypogeum), menhirs, dolmens and other megalithic remains. A unique collection of neolithic material recovered from the different sites is preserved in the Valletta Museum. A culture belonging to the early metal ages is also richly represented. The Phoenicians probably took possession of Malta as soon as they made themselves masters of the Mediterranean Sea. Phoenician remains are few but there are numerous rockcut graves of Phoenician type. At the beginning of the Punic wars the islands were held by Carthage. In the course of the first Punic war they changed hands more than once, but at its conclusion they were still in the possession of the Carthaginians. In 218 B.C. they passed finally to Rome. Under the Romans Malta appears to have enjoyed great prosperity. Diodorus Siculus speaks of the excellence of its harbours, the wealth of its inhabitants, and its many skilful artificers, and refers to its fertility, and Cicero, in the Verrine orations, speaks of it as abounding in riches and famous for its textile manufactures. Inscriptions show that it enjoyed municipal rights in the time of Hadrian, and an interesting fact in its recorded history is that it was the scene of St. Paul’s shipwreck (Acts xxviii). On the final division of the Empire in 395 A.D., Malta fell to the share of the Byzantine Emperor, and for the next four centuries its history is almost a blank. In the 9th century it was three times invaded by the Arabs, who finally conquered it in 870, the Byzantine garrison being massacred in an insurrection of the inhabitants. In 1090, Count Roger the Norman, with a handful of men, subjected the islands to Sicily. The Sicilian domination lasted for four hundred years, Norman, Angevin, Aragonese and Castilian ruling in turn. During this time, Malta had Sicilian governors and laws, but there is no record of any extensive Sicilian immigration, and the persistence of the old Semitic names in the parish registers, instituted at this period, stands as further evidence that no great ethnographic changes occurred. The connection with Sicily was broken in 1530, when the Emperor Charles V gave Malta to the Knights of St. John of Jerusalem, who had been driven from Rhodes by the Turks, and who held Malta until 1798. The loyalty of the Maltese to their new sovereigns, who for the first time were resident in the island, was put to a severe test on several occasions, the most notable being the great siege of 1565, when the Order of St. John, under Grand Master Jean de la Valette, resisted the attacks of the land and sea forces of Solyman the Magnificent. It was after this great feat of arms that the city of Valletta was built, strong enough to defy the Turkish attacks threatened yearly by the Sultan. Napoleon Bonaparte invested the island on his way to Egypt, having prepared the ground by intrigue and revolutionary propaganda, and, on 12th July, 1798, Ferdinand de Hompesch, the last Grand Master in Malta, capitulated without any resistance, and the Order was dispersed. The French installed themselves in the islands, but their interference with Maltese laws and customs brought about a sharp reaction, and the Maltese drove the French troops within the fortified towns and, with the help of the British fleet, held them closely blockaded for two years, after which the French, reduced to extremities, surrendered to the British. In 1800 the government was placed in the hands of Great Britain. The Treaty of Amiens provided that the islands should be restored to the Knights, but this was prevented by the recommencement of the war, and they were finally annexed to the British Crown by the Treaty of Paris in 1814. Malta was a vital point in allied strategy in the Second World War, and the island was subjected to heavy enemy air attacks between the entry of Italy into the war in 1940 and the liberation of North Africa in 1943. On 15th April, 1942, Malta was awarded the George Cross in recognition of the part she had played in the war.",
+      "edition_years": [
+        1949,
+        1950,
+        1951
+      ],
+      "first_edition_year": 1949,
+      "last_edition_year": 1951,
+      "n_editions": 3,
+      "representative_source_file": "1949_manual_parsed/Malta.txt",
+      "char_start": 1603,
+      "char_end": 6217,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.995,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "No traces of Paleolithic cultures have so far been discovered in the Maltese archipelago, and the prospects are not very encouraging.",
+          "char_start": 0,
+          "char_end": 133,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "took possession"
+          ],
+          "verbatim_span": "The Phoenicians probably took possession of Malta as soon as they made themselves masters of the Mediterranean Sea.",
+          "char_start": 861,
+          "char_end": 976,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In the course of the first Punic war they changed hands more than once, but at its conclusion they were still in the possession of the Carthaginians.",
+          "char_start": 1132,
+          "char_end": 1281,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquered",
+            "insurrection",
+            "massacre"
+          ],
+          "verbatim_span": "In the 9th century it was three times invaded by the Arabs, who finally conquered it in 870, the Byzantine garrison being massacred in an insurrection of the inhabitants.",
+          "char_start": 2003,
+          "char_end": 2173,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "The Treaty of Amiens provided that the islands should be restored to the Knights, but this was prevented by the recommencement of the war, and they were finally annexed to the British Crown by the Treaty of Paris in 1814.",
+          "char_start": 4056,
+          "char_end": 4277,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "The Treaty of Amiens provided that the islands should be restored to the Knights, but this was prevented by the recommencement of the war, and they were finally annexed to the British Crown by the Treaty of Paris in 1814.",
+          "char_start": 4056,
+          "char_end": 4277,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown"
+          ],
+          "verbatim_span": "The Treaty of Amiens provided that the islands should be restored to the Knights, but this was prevented by the recommencement of the war, and they were finally annexed to the British Crown by the Treaty of Paris in 1814.",
+          "char_start": 4056,
+          "char_end": 4277,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "Malta was a vital point in allied strategy in the Second World War, and the island was subjected to heavy enemy air attacks between the entry of Italy into the war in 1940 and the liberation of North Africa in 1943.",
+          "char_start": 4278,
+          "char_end": 4493,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "On 15th April, 1942, Malta was awarded the George Cross in recognition of the part she had played in the war.",
+          "char_start": 4494,
+          "char_end": 4603,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Count Roger",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In 1090, Count Roger the Norman, with a handful of men, subjected the islands to Sicily.",
+          "char_start": 2183,
+          "char_end": 2194,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Emperor Charles",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "The connection with Sicily was broken in 1530, when the Emperor Charles V gave Malta to the Knights of St.",
+          "char_start": 2719,
+          "char_end": 2734,
+          "year_reference": 1530,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sultan. Napoleon Bonaparte",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "It was after this great feat of arms that the city of Valletta was built, strong enough to defy the Turkish attacks threatened yearly by the Sultan. Napoleon Bonaparte invested the island on his way to Egypt, having prepared the ground by intrigue and revolutionary propaganda, and, on 12th July, 1798, Ferdinand de Hompesch, the last Grand Master in Malta, capitulated without any resistance, and the Order was dispersed.",
+          "char_start": 3349,
+          "char_end": 3375,
+          "year_reference": 1798,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1530,
+        1565,
+        1798,
+        1800,
+        1814,
+        1940,
+        1942,
+        1943
+      ]
+    }
+  ],
+  "referenced_territories": []
+}

@@ -76,7 +76,7 @@ graph).
 | **A. Schema freeze** | ✅ built | `guides/history_entity_schema.py` (pydantic + Neo4j projection) |
 | **B. Pilot gold set** (for *measuring*) | staged | `test_data/history_gold/*` — region×era spanning |
 | **C. LLM NER + framing refinement** | staged | `col_extract_histories.py` (reuse `extraction_corpus.py` checkpointing, `extraction_instructor.py` pydantic `response_model`, `extraction_ollama.py`; era/region prompts from `guides/*_guide.md`) |
-| **D. Entity normalize + Wikidata ground + governor bridge** | staged | `col_normalize_histories.py`, `col_link_histories_wikidata.py` (reuse `normalize_rules.py`/`normalize_llm.py`, `col_link_wikidata.py` `compute_match_confidence`/`compute_temporal_overlap`, `load_wikidata_people.py`, `wikidata-mcp`) |
+| **D. Entity normalize + Wikidata ground + governor bridge** | ⚙️ local slice built; WD grounding staged | `col_link_histories.py` (governor bridge + place grounding, no Neo4j/LLM); staged: `col_normalize_histories.py`, `col_link_histories_wikidata.py` (reuse `normalize_rules.py`/`normalize_llm.py`, `col_link_wikidata.py` `compute_match_confidence`/`compute_temporal_overlap`, `load_wikidata_people.py`, `wikidata-mcp`) |
 | **E. Neo4j load** | staged | `col_load_histories_neo4j.py` (reuse `col_load_neo4j.py` loaders, `col_scaffold_neo4j.py` constraints) |
 | **F. Validation + critical-analysis viz** | staged | `col_audit_histories.py` (framing prevalence by region/era; entity networks; governor-bridge coverage) |
 
@@ -112,6 +112,23 @@ graph).
 Spot-checks pass: Sierra Leone → `cession` framing + scare-quoted `"King" Nembanu`
 (verbatim, `asserted_as_claim=True`); New Zealand → `discovered in 1642 by Tasman`
 discovery frame.
+
+### Governor bridge + place grounding (Phase-D local slice, built)
+
+`col_link_histories.py` matches the 1,251 history person candidates against the
+3,103 local personnel extraction files (the `COL_Official` source), reusing
+`col_link_wikidata`'s name parser + initials matcher. **Temporal gating is
+essential and applied**: of 108 strong same-colony name matches, only **26 are
+CONFIRMED** (personnel year within ±15y of the mention) — 10 governors/admins —
+while **47 pre-1862 and 14 anachronistic name-twins are rejected** (e.g. 19th-c.
+Sir Philip Wodehouse spuriously matched a 1948 same-surname official). Confirmed
+examples are correct: Sir Harry Johnston→Johnston (Uganda Commissioner, Δ0y); Sir
+Gilbert Carter→Carter (Bahamas Governor, Δ3y); Sir Garnet Wolseley→Wolseley (Gold
+Coast, Δ12y). 709 place references ground to 337 colony→territory edges (most-
+referenced: malacca, australia, victoria, penang, singapore). 1,007 unmatched
+figures (Raleigh, Queen Elizabeth, Cook, Abercrombie) form the Wikidata to-ground
+queue. Outputs: `generated/histories_grounded/<colony>.json`,
+`generated/histories_grounding_report.json`.
 
 ## 6. Risks & mitigations
 

@@ -135,24 +135,6 @@
           ],
           "confidence": 0.45,
           "extractor": "deterministic_baseline"
-        },
-        {
-          "surface_text": "Governor. In",
-          "entity_type": "person",
-          "entity_subtype": "governor",
-          "source_span": "Calvert, afterwards Lord Baltimore, established himself in the south-east part of the island, and appointed his son Governor. In 1634, a party of colonists were sent over from Ireland, and 20 years after, some English colonists arrived, having emigrated by means of a Parliamentary grant.",
-          "char_start": 399,
-          "char_end": 411,
-          "year_reference": 1634,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1888,
-            1889,
-            1890
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
         }
       ],
       "year_references": [
@@ -274,25 +256,6 @@
           "char_start": 303,
           "char_end": 317,
           "year_reference": null,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1894,
-            1896,
-            1898,
-            1900
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
-          "surface_text": "Governor. In",
-          "entity_type": "person",
-          "entity_subtype": "governor",
-          "source_span": "Calvert, afterwards Lord Baltimore, established himself in the Peninsula of Avalon, the south-east part of the island, and appointed his son Governor. In 1634 a party of colonists were sent over from Ireland, and twenty years after, some English colonists arrived, having emigrated by means of a Parliamentary grant.",
-          "char_start": 424,
-          "char_end": 436,
-          "year_reference": 1634,
           "asserted_by": "Colonial Office List",
           "asserted_as_claim": true,
           "edition_years": [
@@ -481,31 +444,6 @@
           "char_start": 303,
           "char_end": 317,
           "year_reference": null,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1906,
-            1910,
-            1911,
-            1912,
-            1917,
-            1918,
-            1920,
-            1921,
-            1924,
-            1927
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
-          "surface_text": "Governor. In",
-          "entity_type": "person",
-          "entity_subtype": "governor",
-          "source_span": "Calvert, afterwards Lord Baltimore, established himself in the Peninsula of Avalon, the south-east part of the island, and appointed his son Governor. In 1634 a party of colonists were sent over from Ireland, and twenty years after, some English colonists arrived, having emigrated by means of a Parliamentary grant.",
-          "char_start": 424,
-          "char_end": 436,
-          "year_reference": 1634,
           "asserted_by": "Colonial Office List",
           "asserted_as_claim": true,
           "edition_years": [

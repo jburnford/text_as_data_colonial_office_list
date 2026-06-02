@@ -1,0 +1,1126 @@
+{
+  "colony": "somaliland_protectorate",
+  "n_editions_with_history": 8,
+  "n_versions": 2,
+  "versions": [
+    {
+      "uri": "col:hversion/somaliland_protectorate/history/5fbb5ae103ce",
+      "colony": "somaliland_protectorate",
+      "section_slug": "history",
+      "version_hash": "5fbb5ae103ce",
+      "asserted_by": "Colonial Office List",
+      "text": "The chief ports are Berbera and Zeilah. Area about 68,000 square miles. Although the camel remains one of the chief means of transport, the last few years have seen a large increase in the use of motor transport. The approximate mileage of road and cleared tracks suitable for general traffic and mechanical transport of medium weight is 2,000 miles. There are no railways in the Protectorate. There is a weekly steamer service with Aden. The climate at the coast is trying for Europeans, but it is comparatively healthy in the interior, where an elevation of from 4,500 feet to 6,800 feet is reached. The Haud waterless plains constitute the principal pastures of the country. The chief source of wealth of the people lies in their live stock. For Scales A to C, see footnote on page 476. In the beginning of 1901, operations were commenced against a fanatical Somali leader, the Mullah Mohammed Abdullah, and a native levy with British officers penetrated into the Nogal valley. The Mullah was defeated at Somala and Ferdiddin, and was driven into Italian territory. The dervishes afterwards gathered together again, and a similar expedition, strengthened by the 2nd King's African Rifles (Yao), was despatched in the summer of 1902, and again drove the Mullah into Italian territory with heavy loss, but met with a severe check in Italian territory at Erigo, on October 6th. The Mullah, however, retired as the result of this action still further into Italian territory, to Galadi. Five months later, a third expedition, comprising British and Boer M.I., Indian and African troops, with the main base at Obbia in Italian Somaliland, proceeded to Mudug, thence detaching a force to Galadi, which place was up till then the headquarters of the enemy. A force of 200 Yao and Sikhs, was overwhelmed at Gumburru in April, 1903, after a fight of the fiercest description. A column of 200 men was at the same time attacked at Daratoleh, whence it retired fighting to Bohotleh. In June the expedition fell back on the Berbera-Bohotleh lines of communication, and Lieut.-General Sir C. C. Egerton, K.C.B., was placed in command. Reinforcements, increasing the force to 7,000 rifles, were despatched and placed in the field, and in January, 1904, 3,250 troops defeated 5,000 dervishes at Jidballi. In March, 1905, an agreement was concluded between the Italian Government and the Mullah whereby peace was declared between the dervishes and the neighbouring tribes, both those subject to the Government of Italy and those under the protection of the British Government. The Mullah was given a port on the east coast, and was assigned certain territories within the Italian sphere of interest, beyond which he and his dervishes undertook not to encroach. In the latter part of 1908, some unrest was caused by the unfriendly attitude of the Mullah, and during 1909 reinforcements were brought into the Protectorate from East Africa, Uganda, Nyasaland, and India. Subsequently arrangements were made to arm the friendly tribes to enable them to defend themselves against attack, and in March, 1910, all troops were withdrawn from the interior; the 6th Battalion King's African Rifles was disbanded, and a policy of strict coastal concentration was adopted. This policy having disappointed expectations, a Camel Constabulary, 150 strong, was raised at the end of 1912 to check inter-tribal fighting, which by this time had assumed serious proportions. A measure of peace among the friendly tribes was quickly restored, but in August, 1913, the Constabulary, at a strength of 109 rank and file, encountered at Dulmadoba a raiding party of dervishes estimated at 2,000 rifles, and in the action which ensued, though heavy losses were inflicted on the enemy, the Constabulary sustained casualties amounting to 50% killed, including the Commandant. The force thereupon fell back on Sheikh, and reinforcements of Indian infantry were moved up from the coast. His Majesty's Government later decided to increase the forces of the Protectorate in order to preserve the necessary grazing grounds of the friendlies from dervish attack, and to maintain peace among the tribes living in the west. In November, 1914, military headquarters were established at Burro, 90 miles from the coast. At this time the dervishes were in occupation of the Ain valley, which is one of the principal grazing grounds of the friendlies. Strong forts had been constructed by the Mullah at Jidali and Shimbere Berris and these were used as forward bases for raids against our tribes. The position at Shimbere Berris was accordingly attacked by the local troops, and after a stubborn resistance all the forts were finally captured and blown up. In 1914, the dervishes made serious raids and their aggressions went on during the war, but, early in 1920, operations against them were carried out by air attacks followed up by mounted forces with infantry supports. These operations were completely successful; the power of the dervishes was destroyed, and the Mullah became a fugitive in Ethiopian territory. He died there in 1921. Since 1923 the condition of the country has been peaceful, and as a result the stock wealth of the native population has largely increased, while in the western areas the development of agriculture has made great progress. A geological survey of the Protectorate has been made. From June, 1932, to May, 1935, the officer appointed to administer the Government was designated Commissioner and Commander-in-Chief.",
+      "edition_years": [
+        1934,
+        1936,
+        1937,
+        1939,
+        1940
+      ],
+      "first_edition_year": 1934,
+      "last_edition_year": 1940,
+      "n_editions": 5,
+      "representative_source_file": "1939_manual_parsed/SOMALILAND_PROTECTORATE.txt",
+      "char_start": 574,
+      "char_end": 6083,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.947,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "There are no railways in the Protectorate.",
+          "char_start": 351,
+          "char_end": 393,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "In the beginning of 1901, operations were commenced against a fanatical Somali leader, the Mullah Mohammed Abdullah, and a native levy with British officers penetrated into the Nogal valley.",
+          "char_start": 790,
+          "char_end": 980,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "The Mullah was defeated at Somala and Ferdiddin, and was driven into Italian territory.",
+          "char_start": 981,
+          "char_end": 1068,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The dervishes afterwards gathered together again, and a similar expedition, strengthened by the 2nd King's African Rifles (Yao), was despatched in the summer of 1902, and again drove the Mullah into Italian territory with heavy loss, but met with a severe check in Italian territory at Erigo, on October 6th.",
+          "char_start": 1069,
+          "char_end": 1377,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "Five months later, a third expedition, comprising British and Boer M.I., Indian and African troops, with the main base at Obbia in Italian Somaliland, proceeded to Mudug, thence detaching a force to Galadi, which place was up till then the headquarters of the enemy.",
+          "char_start": 1485,
+          "char_end": 1751,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "In June the expedition fell back on the Berbera-Bohotleh lines of communication, and Lieut.-General Sir C.",
+          "char_start": 1973,
+          "char_end": 2079,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "Reinforcements, increasing the force to 7,000 rifles, were despatched and placed in the field, and in January, 1904, 3,250 troops defeated 5,000 dervishes at Jidballi.",
+          "char_start": 2123,
+          "char_end": 2290,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection",
+            "tribes"
+          ],
+          "verbatim_span": "In March, 1905, an agreement was concluded between the Italian Government and the Mullah whereby peace was declared between the dervishes and the neighbouring tribes, both those subject to the Government of Italy and those under the protection of the British Government.",
+          "char_start": 2291,
+          "char_end": 2561,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In the latter part of 1908, some unrest was caused by the unfriendly attitude of the Mullah, and during 1909 reinforcements were brought into the Protectorate from East Africa, Uganda, Nyasaland, and India.",
+          "char_start": 2746,
+          "char_end": 2952,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribes"
+          ],
+          "verbatim_span": "Subsequently arrangements were made to arm the friendly tribes to enable them to defend themselves against attack, and in March, 1910, all troops were withdrawn from the interior; the 6th Battalion King's African Rifles was disbanded, and a policy of strict coastal concentration was adopted.",
+          "char_start": 2953,
+          "char_end": 3245,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribes"
+          ],
+          "verbatim_span": "A measure of peace among the friendly tribes was quickly restored, but in August, 1913, the Constabulary, at a strength of 109 rank and file, encountered at Dulmadoba a raiding party of dervishes estimated at 2,000 rifles, and in the action which ensued, though heavy losses were inflicted on the enemy, the Constabulary sustained casualties amounting to 50% killed, including the Commandant.",
+          "char_start": 3440,
+          "char_end": 3832,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribes"
+          ],
+          "verbatim_span": "His Majesty's Government later decided to increase the forces of the Protectorate in order to preserve the necessary grazing grounds of the friendlies from dervish attack, and to maintain peace among the tribes living in the west.",
+          "char_start": 3942,
+          "char_end": 4172,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty",
+            "protectorate"
+          ],
+          "verbatim_span": "His Majesty's Government later decided to increase the forces of the Protectorate in order to preserve the necessary grazing grounds of the friendlies from dervish attack, and to maintain peace among the tribes living in the west.",
+          "char_start": 3942,
+          "char_end": 4172,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribes"
+          ],
+          "verbatim_span": "Strong forts had been constructed by the Mullah at Jidali and Shimbere Berris and these were used as forward bases for raids against our tribes.",
+          "char_start": 4396,
+          "char_end": 4540,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In 1914, the dervishes made serious raids and their aggressions went on during the war, but, early in 1920, operations against them were carried out by air attacks followed up by mounted forces with infantry supports.",
+          "char_start": 4701,
+          "char_end": 4918,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native",
+            "native population"
+          ],
+          "verbatim_span": "Since 1923 the condition of the country has been peaceful, and as a result the stock wealth of the native population has largely increased, while in the western areas the development of agriculture has made great progress.",
+          "char_start": 5086,
+          "char_end": 5308,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "A geological survey of the Protectorate has been made.",
+          "char_start": 5309,
+          "char_end": 5363,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "General Sir C. C.",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In June the expedition fell back on the Berbera-Bohotleh lines of communication, and Lieut.-General Sir C. C. Egerton, K.C.B., was placed in command.",
+          "char_start": 2065,
+          "char_end": 2082,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Aden",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "There is a weekly steamer service with Aden.",
+          "char_start": 433,
+          "char_end": 437,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "aden"
+        },
+        {
+          "surface_text": "Somaliland",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Five months later, a third expedition, comprising British and Boer M.I., Indian and African troops, with the main base at Obbia in Italian Somaliland, proceeded to Mudug, thence detaching a force to Galadi, which place was up till then the headquarters of the enemy.",
+          "char_start": 1624,
+          "char_end": 1634,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "somaliland"
+        },
+        {
+          "surface_text": "Uganda",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In the latter part of 1908, some unrest was caused by the unfriendly attitude of the Mullah, and during 1909 reinforcements were brought into the Protectorate from East Africa, Uganda, Nyasaland, and India.",
+          "char_start": 2923,
+          "char_end": 2929,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "uganda"
+        },
+        {
+          "surface_text": "Nyasaland",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In the latter part of 1908, some unrest was caused by the unfriendly attitude of the Mullah, and during 1909 reinforcements were brought into the Protectorate from East Africa, Uganda, Nyasaland, and India.",
+          "char_start": 2931,
+          "char_end": 2940,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1934,
+            1936,
+            1937,
+            1939,
+            1940
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "nyasaland"
+        }
+      ],
+      "year_references": [
+        1901,
+        1902,
+        1903,
+        1904,
+        1905,
+        1908,
+        1909,
+        1910,
+        1912,
+        1913,
+        1914,
+        1920,
+        1921,
+        1923,
+        1932,
+        1935
+      ]
+    },
+    {
+      "uri": "col:hversion/somaliland_protectorate/history/c4f501266e9f",
+      "colony": "somaliland_protectorate",
+      "section_slug": "history",
+      "version_hash": "c4f501266e9f",
+      "asserted_by": "Colonial Office List",
+      "text": "The chief ports are Berbera and Zeila. Area about 68,000 square miles. The climate at the coast is trying for Europeans, but it is comparatively healthy in the interior, where an elevation of from 4,500 feet to 6,800 feet is reached. The Haud waterless plains, the greater part of which lie to the south of the protectorate frontier, constitute the principal pastures of the country which are essential to the livelihood of the people whose chief source of livelihood lies in their stock. In the beginning of 1901, operations were commenced against a fanatical Somali leader, the Mullah Mohammed Abdullah, and a native levy with British officers penetrated into the Nogal valley. The Mullah was defeated at Somala and Ferdiddin, and was driven into Italian territory. The dervishes afterwards gathered together again, and a similar expedition, strengthened by the 2nd King's African Rifles (Nyasas), was despatched in the summer of 1902, and again drove the Mullah into Italian territory with heavy loss, but met with a severe check in Italian territory at Erigo, on 6th October. The Mullah, however, retired as the result of this action still further into Italian territory, to Galadi. Five months later a third expedition, comprising British and Boer M.I., Indian and African troops, with the main base at Obbia in Italian Somaliland, proceeded to Mudug, thence detaching a force to Galadi, which place was up till then the headquarters of the enemy. A force of 200 Nyasas and Sikhs was overwhelmed at Gumburru in April, 1903, after a fight of the fiercest description. A column of 200 men was at the same time attacked at Daratoleh, whence it retired fighting to Bohotleh. In June the expedition fell back on the Berbera-Bohotleh lines of communication, and Lieut.-General Sir C. C. Egerton, K.C.B., was placed in command. Reinforcements, increasing the force to 7,000 rifles, were despatched and placed in the field, and in January, 1904, 3,250 troops defeated 5,000 dervishes at Jidballi. In March, 1905, an agreement was concluded between the Italian Government and the Mullah whereby peace was declared between the dervishes and the neighbouring tribes, both those subject to the Government of Italy and those under the protection of the British Government. The Mullah was given a port on the east coast, and was assigned certain territories within the Italian sphere of interest, beyond which he and his dervishes undertook not to encroach. In the latter part of 1908, some unrest was caused by the unfriendly attitude of the Mullah, and during 1909 reinforcements were brought into the protectorate from East Africa, Uganda, Nyasaland and India. Subsequently arrangements were made to arm the friendly tribes to enable them to defend themselves against attack, and in March, 1910, all troops were withdrawn from the interior; the 6th Battalion King's African Rifles was disbanded, and a policy of strict coastal concentration was adopted. This policy having disappointed expectations, a Camel Constabulary, 150 strong, was raised at the end of 1912 to check inter-tribal fighting, which by this time had assumed serious proportions. A measure of peace among the friendly tribes was quickly restored, but in August, 1913, the Constabulary, at a strength of 109 rank and file, encountered at Dulmadoba a raiding party of dervishes estimated at 2,000 rifles, and in the action which ensued, though heavy losses were inflicted on the enemy, the Constabulary sustained casualties amounting to 50 per cent. killed, including the Commandant. The force thereupon fell back on Sheikh, and reinforcements of Indian infantry were moved up from the coast. His Majesty's Government later decided to increase the forces of the protectorate in order to preserve the necessary grazing grounds of the friendlies from dervish attack, and to maintain peace among the tribes living in the west. In November, 1914, military headquarters were established at Burao, 90 miles from the coast. At this time the dervishes were in occupation of the Ain valley, which was one of the principal grazing grounds of the friendlies. Strong forts had been constructed by the Mullah at Jidali and Shimber Berris and these were used as forward bases for raids against our tribes. The position at Shimber Berris was accordingly attacked by the local troops, and after a stubborn resistance all the forts were finally captured and blown up. In 1914, the dervishes made serious raids and their aggressions went on during the first World war, but, early in 1920, operations against them were carried out by air attacks followed up by mounted forces with infantry supports. These operations were completely successful; the power of the dervishes was destroyed, and the Mullah became a fugitive in Ethiopian territory. He died there in 1921. Between 1923 and 1940 the condition of the country was peaceful, and as a result the animal stocks of the native population largely increased, while in the western areas the development of agriculture made considerable progress. A geological survey of the Protectorate was made. From June, 1932, to May, 1935, the officer appointed to administer the Government was designated Commissioner and Commander-in-Chief. After the collapse of France and the entry of Italy into the war in June, 1940, it was apparent that no assistance could be expected from French Somaliland in the event of an Italian attack, which materialised on 4th August when powerful forces invaded the Protectorate from Ethiopia. In the face of overwhelming odds it was decided to evacuate the civil government, and this was completed by 18th August. The Italian occupation was short-lived. The forces under the command of Lieutenant-General Sir Alan Cunningham in their advance from Kenya had broken Italian resistance in Somalia by the end of February, 1941, and by March were driving northwards in pursuit of the Italian forces, leaving Somaliland Protectorate on the right flank of their advance. On 16th March, 1941, an expeditionary force which had been concentrated at Aden, re-occupied the Protectorate and came under control of Sir Alan Cunningham. Brigadier A. R. Chater, C.B., D.S.O., O.B.E., was appointed Military Governor on the 9th April, 1941. The Protectorate remained under military administration until the 15th November, 1948, when the Civil Protectorate Government was re-constituted. From this time the Protectorate has been under civil administration with the seat of government at Hargeisa.",
+      "edition_years": [
+        1946,
+        1950,
+        1951
+      ],
+      "first_edition_year": 1946,
+      "last_edition_year": 1951,
+      "n_editions": 3,
+      "representative_source_file": "1950_manual_parsed/somaliland_protectorate.txt",
+      "char_start": 798,
+      "char_end": 7301,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.919,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "The Haud waterless plains, the greater part of which lie to the south of the protectorate frontier, constitute the principal pastures of the country which are essential to the livelihood of the people whose chief source of livelihood lies in their stock.",
+          "char_start": 234,
+          "char_end": 488,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "In the beginning of 1901, operations were commenced against a fanatical Somali leader, the Mullah Mohammed Abdullah, and a native levy with British officers penetrated into the Nogal valley.",
+          "char_start": 489,
+          "char_end": 679,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "The Mullah was defeated at Somala and Ferdiddin, and was driven into Italian territory.",
+          "char_start": 680,
+          "char_end": 767,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "The dervishes afterwards gathered together again, and a similar expedition, strengthened by the 2nd King's African Rifles (Nyasas), was despatched in the summer of 1902, and again drove the Mullah into Italian territory with heavy loss, but met with a severe check in Italian territory at Erigo, on 6th October.",
+          "char_start": 768,
+          "char_end": 1079,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "Five months later a third expedition, comprising British and Boer M.I., Indian and African troops, with the main base at Obbia in Italian Somaliland, proceeded to Mudug, thence detaching a force to Galadi, which place was up till then the headquarters of the enemy.",
+          "char_start": 1187,
+          "char_end": 1452,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "In June the expedition fell back on the Berbera-Bohotleh lines of communication, and Lieut.-General Sir C.",
+          "char_start": 1676,
+          "char_end": 1782,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "defeated"
+          ],
+          "verbatim_span": "Reinforcements, increasing the force to 7,000 rifles, were despatched and placed in the field, and in January, 1904, 3,250 troops defeated 5,000 dervishes at Jidballi.",
+          "char_start": 1826,
+          "char_end": 1993,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection",
+            "tribes"
+          ],
+          "verbatim_span": "In March, 1905, an agreement was concluded between the Italian Government and the Mullah whereby peace was declared between the dervishes and the neighbouring tribes, both those subject to the Government of Italy and those under the protection of the British Government.",
+          "char_start": 1994,
+          "char_end": 2264,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In the latter part of 1908, some unrest was caused by the unfriendly attitude of the Mullah, and during 1909 reinforcements were brought into the protectorate from East Africa, Uganda, Nyasaland and India.",
+          "char_start": 2449,
+          "char_end": 2654,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribes"
+          ],
+          "verbatim_span": "Subsequently arrangements were made to arm the friendly tribes to enable them to defend themselves against attack, and in March, 1910, all troops were withdrawn from the interior; the 6th Battalion King's African Rifles was disbanded, and a policy of strict coastal concentration was adopted.",
+          "char_start": 2655,
+          "char_end": 2947,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribes"
+          ],
+          "verbatim_span": "A measure of peace among the friendly tribes was quickly restored, but in August, 1913, the Constabulary, at a strength of 109 rank and file, encountered at Dulmadoba a raiding party of dervishes estimated at 2,000 rifles, and in the action which ensued, though heavy losses were inflicted on the enemy, the Constabulary sustained casualties amounting to 50 per cent.",
+          "char_start": 3142,
+          "char_end": 3509,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribes"
+          ],
+          "verbatim_span": "His Majesty's Government later decided to increase the forces of the protectorate in order to preserve the necessary grazing grounds of the friendlies from dervish attack, and to maintain peace among the tribes living in the west.",
+          "char_start": 3653,
+          "char_end": 3883,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty",
+            "protectorate"
+          ],
+          "verbatim_span": "His Majesty's Government later decided to increase the forces of the protectorate in order to preserve the necessary grazing grounds of the friendlies from dervish attack, and to maintain peace among the tribes living in the west.",
+          "char_start": 3653,
+          "char_end": 3883,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "tribes"
+          ],
+          "verbatim_span": "Strong forts had been constructed by the Mullah at Jidali and Shimber Berris and these were used as forward bases for raids against our tribes.",
+          "char_start": 4108,
+          "char_end": 4251,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In 1914, the dervishes made serious raids and their aggressions went on during the first World war, but, early in 1920, operations against them were carried out by air attacks followed up by mounted forces with infantry supports.",
+          "char_start": 4411,
+          "char_end": 4640,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native",
+            "native population"
+          ],
+          "verbatim_span": "Between 1923 and 1940 the condition of the country was peaceful, and as a result the animal stocks of the native population largely increased, while in the western areas the development of agriculture made considerable progress.",
+          "char_start": 4808,
+          "char_end": 5036,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "A geological survey of the Protectorate was made.",
+          "char_start": 5037,
+          "char_end": 5086,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "After the collapse of France and the entry of Italy into the war in June, 1940, it was apparent that no assistance could be expected from French Somaliland in the event of an Italian attack, which materialised on 4th August when powerful forces invaded the Protectorate from Ethiopia.",
+          "char_start": 5221,
+          "char_end": 5505,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "After the collapse of France and the entry of Italy into the war in June, 1940, it was apparent that no assistance could be expected from French Somaliland in the event of an Italian attack, which materialised on 4th August when powerful forces invaded the Protectorate from Ethiopia.",
+          "char_start": 5221,
+          "char_end": 5505,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "The forces under the command of Lieutenant-General Sir Alan Cunningham in their advance from Kenya had broken Italian resistance in Somalia by the end of February, 1941, and by March were driving northwards in pursuit of the Italian forces, leaving Somaliland Protectorate on the right flank of their advance.",
+          "char_start": 5667,
+          "char_end": 5976,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "On 16th March, 1941, an expeditionary force which had been concentrated at Aden, re-occupied the Protectorate and came under control of Sir Alan Cunningham.",
+          "char_start": 5977,
+          "char_end": 6133,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On 16th March, 1941, an expeditionary force which had been concentrated at Aden, re-occupied the Protectorate and came under control of Sir Alan Cunningham.",
+          "char_start": 5977,
+          "char_end": 6133,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "The Protectorate remained under military administration until the 15th November, 1948, when the Civil Protectorate Government was re-constituted.",
+          "char_start": 6236,
+          "char_end": 6381,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "From this time the Protectorate has been under civil administration with the seat of government at Hargeisa.",
+          "char_start": 6382,
+          "char_end": 6490,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "General Sir C. C.",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In June the expedition fell back on the Berbera-Bohotleh lines of communication, and Lieut.-General Sir C. C. Egerton, K.C.B., was placed in command.",
+          "char_start": 1768,
+          "char_end": 1785,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Chief. After",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "From June, 1932, to May, 1935, the officer appointed to administer the Government was designated Commissioner and Commander-in-Chief. After the collapse of France and the entry of Italy into the war in June, 1940, it was apparent that no assistance could be expected from French Somaliland in the event of an Italian attack, which materialised on 4th August when powerful forces invaded the Protectorate from Ethiopia.",
+          "char_start": 5214,
+          "char_end": 5226,
+          "year_reference": 1932,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "General Sir Alan Cunningham",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The forces under the command of Lieutenant-General Sir Alan Cunningham in their advance from Kenya had broken Italian resistance in Somalia by the end of February, 1941, and by March were driving northwards in pursuit of the Italian forces, leaving Somaliland Protectorate on the right flank of their advance.",
+          "char_start": 5710,
+          "char_end": 5737,
+          "year_reference": 1941,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir Alan Cunningham. Brigadier",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "On 16th March, 1941, an expeditionary force which had been concentrated at Aden, re-occupied the Protectorate and came under control of Sir Alan Cunningham. Brigadier A.",
+          "char_start": 6113,
+          "char_end": 6143,
+          "year_reference": 1941,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Somaliland",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Five months later a third expedition, comprising British and Boer M.I., Indian and African troops, with the main base at Obbia in Italian Somaliland, proceeded to Mudug, thence detaching a force to Galadi, which place was up till then the headquarters of the enemy.",
+          "char_start": 1325,
+          "char_end": 1335,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "somaliland"
+        },
+        {
+          "surface_text": "Uganda",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In the latter part of 1908, some unrest was caused by the unfriendly attitude of the Mullah, and during 1909 reinforcements were brought into the protectorate from East Africa, Uganda, Nyasaland and India.",
+          "char_start": 2626,
+          "char_end": 2632,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "uganda"
+        },
+        {
+          "surface_text": "Nyasaland",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In the latter part of 1908, some unrest was caused by the unfriendly attitude of the Mullah, and during 1909 reinforcements were brought into the protectorate from East Africa, Uganda, Nyasaland and India.",
+          "char_start": 2634,
+          "char_end": 2643,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "nyasaland"
+        },
+        {
+          "surface_text": "Kenya",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The forces under the command of Lieutenant-General Sir Alan Cunningham in their advance from Kenya had broken Italian resistance in Somalia by the end of February, 1941, and by March were driving northwards in pursuit of the Italian forces, leaving Somaliland Protectorate on the right flank of their advance.",
+          "char_start": 5760,
+          "char_end": 5765,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "kenya"
+        },
+        {
+          "surface_text": "Aden",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "On 16th March, 1941, an expeditionary force which had been concentrated at Aden, re-occupied the Protectorate and came under control of Sir Alan Cunningham.",
+          "char_start": 6052,
+          "char_end": 6056,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1946,
+            1950,
+            1951
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "aden"
+        }
+      ],
+      "year_references": [
+        1901,
+        1902,
+        1903,
+        1904,
+        1905,
+        1908,
+        1909,
+        1910,
+        1912,
+        1913,
+        1914,
+        1920,
+        1921,
+        1923,
+        1932,
+        1935,
+        1940,
+        1941,
+        1948
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "aden",
+    "kenya",
+    "nyasaland",
+    "somaliland",
+    "uganda"
+  ]
+}

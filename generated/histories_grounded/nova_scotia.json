@@ -1,0 +1,112 @@
+{
+  "colony": "nova_scotia",
+  "n_editions_with_history": 1,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/nova_scotia/history/685cf2d28642",
+      "colony": "nova_scotia",
+      "section_slug": "history",
+      "version_hash": "685cf2d28642",
+      "asserted_by": "Colonial Office List",
+      "text": "Nova Scotia was discovered by John Cabot in 1497; it was colonised by the French in 1598; was taken by the English, and a grant of it made to Sir W. Alexander, by James I. in 1621. In 1632 it was restored to France, with Quebec, by the Treaty of St. Germain-en-Laye, but again ceded to England at the Peace of Utrecht in 1714. After the Peace of Aix-la-Chapelle, in 1748, a settlement of disbanded troops was formed there by Lord Halifax, and the city which now bears his name is the capital of that province. Cape Breton was not finally taken from the French until 1758. From 1784 to 1819 it formed a separate colony.",
+      "edition_years": [
+        1909
+      ],
+      "first_edition_year": 1909,
+      "last_edition_year": 1909,
+      "n_editions": 1,
+      "representative_source_file": "1909_manual_parsed/nova_scotia.txt",
+      "char_start": 547,
+      "char_end": 1165,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Nova Scotia was discovered by John Cabot in 1497; it was colonised by the French in 1598; was taken by the English, and a grant of it made to Sir W.",
+          "char_start": 0,
+          "char_end": 148,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "Germain-en-Laye, but again ceded to England at the Peace of Utrecht in 1714.",
+          "char_start": 250,
+          "char_end": 326,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Lord Halifax",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "After the Peace of Aix-la-Chapelle, in 1748, a settlement of disbanded troops was formed there by Lord Halifax, and the city which now bears his name is the capital of that province.",
+          "char_start": 425,
+          "char_end": 437,
+          "year_reference": 1748,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Quebec",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1632 it was restored to France, with Quebec, by the Treaty of St.",
+          "char_start": 221,
+          "char_end": 227,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "quebec"
+        }
+      ],
+      "year_references": [
+        1598,
+        1621,
+        1632,
+        1714,
+        1748,
+        1758,
+        1784,
+        1819
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "quebec"
+  ]
+}

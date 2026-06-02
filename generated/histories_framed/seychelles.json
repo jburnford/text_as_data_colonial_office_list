@@ -197,25 +197,6 @@
           "extractor": "deterministic_baseline"
         },
         {
-          "surface_text": "Governor. An",
-          "entity_type": "person",
-          "entity_subtype": "governor",
-          "source_span": "In 1897, by Letters Patent and Royal Instructions, the Administrator was given full powers as Governor. An education grant of Rs.",
-          "char_start": 2903,
-          "char_end": 2915,
-          "year_reference": 1897,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1894,
-            1896,
-            1898,
-            1900
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Mauritius",
           "entity_type": "place",
           "entity_subtype": "territory",
@@ -601,33 +582,6 @@
           "extractor": "deterministic_baseline"
         },
         {
-          "surface_text": "Chief. An",
-          "entity_type": "person",
-          "entity_subtype": "chief",
-          "source_span": "The separation was completely carried out by Letters Patent of 31st August, 1903, by which Seychelles was erected into a separate Colony under its own Governor and Commander-in-Chief. An education grant of Rs.",
-          "char_start": 4068,
-          "char_end": 4077,
-          "year_reference": 1903,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1905,
-            1906,
-            1907,
-            1908,
-            1909,
-            1911,
-            1912,
-            1914,
-            1915,
-            1917,
-            1918,
-            1919
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Mauritius",
           "entity_type": "place",
           "entity_subtype": "territory",
@@ -950,23 +904,6 @@
           "char_start": 3342,
           "char_end": 3371,
           "year_reference": 1874,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1920,
-            1921
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
-          "surface_text": "Chief. An",
-          "entity_type": "person",
-          "entity_subtype": "chief",
-          "source_span": "The separation was completely carried out by Letters Patent of 31st August, 1903, by which Seychelles was erected into a separate Colony under its own Governor and Commander-in-Chief. An education grant of Rs.",
-          "char_start": 4067,
-          "char_end": 4076,
-          "year_reference": 1903,
           "asserted_by": "Colonial Office List",
           "asserted_as_claim": true,
           "edition_years": [
@@ -1465,35 +1402,6 @@
           "extractor": "deterministic_baseline"
         },
         {
-          "surface_text": "Chief. An",
-          "entity_type": "person",
-          "entity_subtype": "chief",
-          "source_span": "The separation was completely carried out by Letters Patent of 31st August, 1903, by which Seychelles was erected into a separate Colony under its own Governor and Commander-in-Chief. An education grant of Rs.",
-          "char_start": 4065,
-          "char_end": 4074,
-          "year_reference": 1903,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1924,
-            1925,
-            1927,
-            1928,
-            1929,
-            1930,
-            1931,
-            1932,
-            1933,
-            1934,
-            1936,
-            1937,
-            1939,
-            1940
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Mauritius",
           "entity_type": "place",
           "entity_subtype": "territory",
@@ -1744,38 +1652,6 @@
           "char_start": 3229,
           "char_end": 3258,
           "year_reference": 1874,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1946
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
-          "surface_text": "Chief. The Legislative Council",
-          "entity_type": "person",
-          "entity_subtype": "chief",
-          "source_span": "The separation was completely carried out by Letters Patent of 31st August, 1903, by which Seychelles was erected into a separate colony under its own Governor and Commander-in-Chief. The Legislative Council now consists of six official and six unofficial nominated members with the Governor as President.",
-          "char_start": 3954,
-          "char_end": 3984,
-          "year_reference": 1903,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1946
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
-          "surface_text": "President. As",
-          "entity_type": "person",
-          "entity_subtype": "official",
-          "source_span": "The Legislative Council now consists of six official and six unofficial nominated members with the Governor as President. As soon as possible, provision is to be made for three of the unofficial members to be elected.",
-          "char_start": 4072,
-          "char_end": 4085,
-          "year_reference": null,
           "asserted_by": "Colonial Office List",
           "asserted_as_claim": true,
           "edition_years": [

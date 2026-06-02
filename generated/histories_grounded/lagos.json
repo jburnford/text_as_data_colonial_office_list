@@ -1,0 +1,617 @@
+{
+  "colony": "lagos",
+  "n_editions_with_history": 7,
+  "n_versions": 3,
+  "versions": [
+    {
+      "uri": "col:hversion/lagos/history/63fe9cb01810",
+      "colony": "lagos",
+      "section_slug": "history",
+      "version_hash": "63fe9cb01810",
+      "asserted_by": "Colonial Office List",
+      "text": "The King of Lagos (Kasako) having refused to co-operate in putting down the slave trade, was expelled by a British force in 1851, and his cousin Akitoye placed on the throne, by whom a treaty was concluded by which he bound himself to put down the slave trade. A Consul was appointed, but the treaty was not fully adhered to by King Docemo, the son and successor to Akitoye, and he was induced to cede his possessions on the 6th of August, 1861, to the British Crown, he being guaranteed a pension of 1,000l. a-year. He continued to draw this pension until his death in 1885. The territories were erected into a separate Government by Letters Patent dated the 13th of March, 1863. By the charter of the 19th of February, 1866, Lagos became a part of the Government of the West Africa Settlements, having a separate Legislative Council, but subject to the Governor-in-Chief at Sierra Leone. By the charter of the 24th July, 1874, it became an integral part of the Gold Coast Colony. The original British settlements were Lagos Island and Ido Island. In 1862, Palma and Leckie became British, and in 1863 Badagry was ceded by its chiefs. In 1879 the kingdom of Katunu, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the protectorate, and in 1883 the kingdom of Appa, lying between Katunu and Badagry, was also brought under British jurisdiction. On the east also the protectorate was, in 1885, extended as far as the Benin River, by the inclusion of part of the kingdom of Mahin, and of the Ogbo and Jakri territories. By further letters patent dated 13th January, 1886, the whole of these territories were separated from the Gold Coast Colony, and erected into a separate Colony.",
+      "edition_years": [
+        1889
+      ],
+      "first_edition_year": 1889,
+      "last_edition_year": 1889,
+      "n_editions": 1,
+      "representative_source_file": "1889_manual_parsed/LAGOS.txt",
+      "char_start": 1075,
+      "char_end": 2816,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown"
+          ],
+          "verbatim_span": "A Consul was appointed, but the treaty was not fully adhered to by King Docemo, the son and successor to Akitoye, and he was induced to cede his possessions on the 6th of August, 1861, to the British Crown, he being guaranteed a pension of 1,000l.",
+          "char_start": 261,
+          "char_end": 508,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "In 1862, Palma and Leckie became British, and in 1863 Badagry was ceded by its chiefs.",
+          "char_start": 1049,
+          "char_end": 1135,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "brought under british"
+          ],
+          "verbatim_span": "In 1879 the kingdom of Katunu, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the protectorate, and in 1883 the kingdom of Appa, lying between Katunu and Badagry, was also brought under British jurisdiction.",
+          "char_start": 1136,
+          "char_end": 1402,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1879 the kingdom of Katunu, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the protectorate, and in 1883 the kingdom of Appa, lying between Katunu and Badagry, was also brought under British jurisdiction.",
+          "char_start": 1136,
+          "char_end": 1402,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On the east also the protectorate was, in 1885, extended as far as the Benin River, by the inclusion of part of the kingdom of Mahin, and of the Ogbo and Jakri territories.",
+          "char_start": 1403,
+          "char_end": 1575,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "King Docemo",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "A Consul was appointed, but the treaty was not fully adhered to by King Docemo, the son and successor to Akitoye, and he was induced to cede his possessions on the 6th of August, 1861, to the British Crown, he being guaranteed a pension of 1,000l.",
+          "char_start": 328,
+          "char_end": 339,
+          "year_reference": 1861,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Docemo",
+            "name_match": "bare",
+            "strong": false,
+            "is_governor": false,
+            "personnel_years": [
+              1889
+            ],
+            "positions": [
+              "Outdoor Officer"
+            ],
+            "mention_year": 1861,
+            "temporal_delta": 28,
+            "temporal": "pre_records",
+            "confirmed": false
+          }
+        }
+      ],
+      "year_references": [
+        1851,
+        1861,
+        1862,
+        1863,
+        1866,
+        1874,
+        1879,
+        1883,
+        1885,
+        1886
+      ]
+    },
+    {
+      "uri": "col:hversion/lagos/history/4aad00ea7f18",
+      "colony": "lagos",
+      "section_slug": "history",
+      "version_hash": "4aad00ea7f18",
+      "asserted_by": "Colonial Office List",
+      "text": "The King of Lagos (Kosoko), having refused to co-operate in putting down the slave trade, was expelled by a British force in 1851, and his cousin Akitoye placed on the throne, by whom a treaty was concluded under which he bound himself to put down the slave trade. A Consul was appointed, but the treaty was not fully adhered to by Akitoye's son and successor, King Docemo, who was induced on the 6th of August, 1861, to cede his possessions to the British Crown, in consideration of a pension of £1,000 a-year, which he continued to draw until his death in 1885. The territories were erected into a separate Government by Letters Patent dated the 13th of March, 1863. By the charter of the 19th of February, 1866, Lagos became a part of the Government of the West Africa Settlements, having a separate Legislative Council, but being subject to the Governor-in-Chief at Sierra Leone. By the charter of the 24th July, 1874, Lagos became an integral part of the Gold Coast Colony. By further letters patent dated 13th January, 1886, the whole of these territories were separated from the Gold Coast Colony, and erected into a separate Colony. The original British settlements were Lagos Island and Iddo Island. In 1892, Palma and Leckie became British, and in 1863 Badagry was ceded by its chiefs. In 1879 the kingdom of Ketoum, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the protectorate, and in 1883 the kingdom of Appa, lying east of Ketoum, was also brought under British jurisdiction. On the east also the protectorate was, in 1885, extended as far as the Benin River, by the inclusion of part of the kingdom of Mahin, and of the Ogbo and Jakri territories. In 1890, Ketoum was exchanged with the French Government for the kingdom of Pokra, lying between Porto Novo and Badagry. In 1891 the kingdoms of Igbesa, Addo and Ilaro were included in the Protectorate, and in 1894 John Remo was similarly dealt with, Mahin, Itetu, Ibu, and Ayessan being proclaimed protectorates in 1895. An expedition was sent against the Jebus in May, 1892, which resulted in the military occupation and eventual inclusion into the Colony of a portion of their country, and in the opening of a most important trade route to the interior.",
+      "edition_years": [
+        1896,
+        1897,
+        1898,
+        1899,
+        1900
+      ],
+      "first_edition_year": 1896,
+      "last_edition_year": 1900,
+      "n_editions": 5,
+      "representative_source_file": "1900_manual_parsed/LAGOS.txt",
+      "char_start": 2606,
+      "char_end": 4894,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.957,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown"
+          ],
+          "verbatim_span": "A Consul was appointed, but the treaty was not fully adhered to by Akitoye's son and successor, King Docemo, who was induced on the 6th of August, 1861, to cede his possessions to the British Crown, in consideration of a pension of £1,000 a-year, which he continued to draw until his death in 1885.",
+          "char_start": 265,
+          "char_end": 563,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "In 1892, Palma and Leckie became British, and in 1863 Badagry was ceded by its chiefs.",
+          "char_start": 1209,
+          "char_end": 1295,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "brought under british"
+          ],
+          "verbatim_span": "In 1879 the kingdom of Ketoum, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the protectorate, and in 1883 the kingdom of Appa, lying east of Ketoum, was also brought under British jurisdiction.",
+          "char_start": 1296,
+          "char_end": 1550,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1879 the kingdom of Ketoum, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the protectorate, and in 1883 the kingdom of Appa, lying east of Ketoum, was also brought under British jurisdiction.",
+          "char_start": 1296,
+          "char_end": 1550,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On the east also the protectorate was, in 1885, extended as far as the Benin River, by the inclusion of part of the kingdom of Mahin, and of the Ogbo and Jakri territories.",
+          "char_start": 1551,
+          "char_end": 1723,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1891 the kingdoms of Igbesa, Addo and Ilaro were included in the Protectorate, and in 1894 John Remo was similarly dealt with, Mahin, Itetu, Ibu, and Ayessan being proclaimed protectorates in 1895.",
+          "char_start": 1845,
+          "char_end": 2045,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "An expedition was sent against the Jebus in May, 1892, which resulted in the military occupation and eventual inclusion into the Colony of a portion of their country, and in the opening of a most important trade route to the interior.",
+          "char_start": 2046,
+          "char_end": 2280,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "King Docemo",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "A Consul was appointed, but the treaty was not fully adhered to by Akitoye's son and successor, King Docemo, who was induced on the 6th of August, 1861, to cede his possessions to the British Crown, in consideration of a pension of £1,000 a-year, which he continued to draw until his death in 1885.",
+          "char_start": 361,
+          "char_end": 372,
+          "year_reference": 1861,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1896,
+            1897,
+            1898,
+            1899,
+            1900
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Docemo",
+            "name_match": "bare",
+            "strong": false,
+            "is_governor": false,
+            "personnel_years": [
+              1889
+            ],
+            "positions": [
+              "Outdoor Officer"
+            ],
+            "mention_year": 1861,
+            "temporal_delta": 28,
+            "temporal": "pre_records",
+            "confirmed": false
+          }
+        }
+      ],
+      "year_references": [
+        1851,
+        1861,
+        1863,
+        1866,
+        1874,
+        1879,
+        1883,
+        1885,
+        1886,
+        1890,
+        1891,
+        1892,
+        1894,
+        1895
+      ]
+    },
+    {
+      "uri": "col:hversion/lagos/history/d60cc341ced1",
+      "colony": "lagos",
+      "section_slug": "history",
+      "version_hash": "d60cc341ced1",
+      "asserted_by": "Colonial Office List",
+      "text": "The King of Lagos (Kosoko), having refused to co-operate in putting down the slave trade, was expelled by a British force in 1851, and his cousin Akitoye placed on the throne, by whom a treaty was concluded under which he bound himself to put down the slave trade. A Consul was appointed, but the treaty was not fully adhered to by Akitoye's son and successor, King Docemo, who was induced on the 6th of August, 1861, to cede his possessions to the British Crown in consideration of a pension of £1,000. a year, which he continued to draw until his death in 1885. The territories were erected into a separate Government by Letters Patent dated the 13th of March, 1863. By the charter of the 19th of February, 1866, Lagos became a part of the Government of the West Africa Settlements, having a separate Legislative Council, but being subject to the Governor-in-Chief at Sierra Leone. By the charter of the 24th July, 1874, Lagos became an integral part of the Gold Coast Colony. By further Letters Patent dated 13th January, 1886, the whole of these territories were separated from the Gold Coast Colony, and erected into a separate Colony. The original British settlements were Lagos Island and Iddo Island. In 1862, Palma and Leckie became British, and in 1863 Badagry was ceded by its chiefs. In 1879 the kingdom of Kotoum, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the protectorate, and in 1883 the kingdom of Appa, lying east of Kotoum, was also brought under British jurisdiction. On the east also the protectorate was, in 1886, extended as far as the Benin River, by the inclusion of part of the kingdom of Mahin, and of the Ogbo and Jakri territories. * For Governors before 1871, see Edition for 1903. In 1890, Kotonu was exchanged with the French Government for the kingdom of Pokra, lying between Porto Novo and Badagry. In 1891 the kingdoms of Igbesa, Addo and Ilaro were included in the protectorate, and in 1894 Jebu Remo was similarly dealt with, Mahin, Itetu, Ibu, and Ayessan being proclaimed protectorates in 1896. An expedition was sent against the Jebus in May, 1892, which resulted in the military occupation and eventual inclusion into the Colony of a portion of their country, and in the opening of a most important trade route to the interior. Agreements have been concluded with the Egba native Government, and with the chiefs of the Ibadan, Oyo, and Ife provinces, vesting in His Majesty the King power and jurisdiction therein in all murder and manslaughter cases, and in all cases in which one or both of the parties is not a subject thereof respectively. The amalgamation of the Colony of Lagos and the Protectorates of Southern Nigeria is under consideration, and the present Governor of Lagos is also High Commissioner in Southern Nigeria.",
+      "edition_years": [
+        1906
+      ],
+      "first_edition_year": 1906,
+      "last_edition_year": 1906,
+      "n_editions": 1,
+      "representative_source_file": "1906_manual_parsed/LAGOS.txt",
+      "char_start": 3119,
+      "char_end": 5963,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "british crown"
+          ],
+          "verbatim_span": "A Consul was appointed, but the treaty was not fully adhered to by Akitoye's son and successor, King Docemo, who was induced on the 6th of August, 1861, to cede his possessions to the British Crown in consideration of a pension of £1,000.",
+          "char_start": 265,
+          "char_end": 503,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "In 1862, Palma and Leckie became British, and in 1863 Badagry was ceded by its chiefs.",
+          "char_start": 1209,
+          "char_end": 1295,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "brought under british"
+          ],
+          "verbatim_span": "In 1879 the kingdom of Kotoum, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the protectorate, and in 1883 the kingdom of Appa, lying east of Kotoum, was also brought under British jurisdiction.",
+          "char_start": 1296,
+          "char_end": 1550,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1879 the kingdom of Kotoum, lying to the south and east of the Denham waters, was, at the request of the king and chiefs, included in the protectorate, and in 1883 the kingdom of Appa, lying east of Kotoum, was also brought under British jurisdiction.",
+          "char_start": 1296,
+          "char_end": 1550,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On the east also the protectorate was, in 1886, extended as far as the Benin River, by the inclusion of part of the kingdom of Mahin, and of the Ogbo and Jakri territories.",
+          "char_start": 1551,
+          "char_end": 1723,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1891 the kingdoms of Igbesa, Addo and Ilaro were included in the protectorate, and in 1894 Jebu Remo was similarly dealt with, Mahin, Itetu, Ibu, and Ayessan being proclaimed protectorates in 1896.",
+          "char_start": 1896,
+          "char_end": 2096,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "expedition"
+          ],
+          "verbatim_span": "An expedition was sent against the Jebus in May, 1892, which resulted in the military occupation and eventual inclusion into the Colony of a portion of their country, and in the opening of a most important trade route to the interior.",
+          "char_start": 2097,
+          "char_end": 2331,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "Agreements have been concluded with the Egba native Government, and with the chiefs of the Ibadan, Oyo, and Ife provinces, vesting in His Majesty the King power and jurisdiction therein in all murder and manslaughter cases, and in all cases in which one or both of the parties is not a subject thereof respectively.",
+          "char_start": 2332,
+          "char_end": 2647,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "his majesty"
+          ],
+          "verbatim_span": "Agreements have been concluded with the Egba native Government, and with the chiefs of the Ibadan, Oyo, and Ife provinces, vesting in His Majesty the King power and jurisdiction therein in all murder and manslaughter cases, and in all cases in which one or both of the parties is not a subject thereof respectively.",
+          "char_start": 2332,
+          "char_end": 2647,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "The amalgamation of the Colony of Lagos and the Protectorates of Southern Nigeria is under consideration, and the present Governor of Lagos is also High Commissioner in Southern Nigeria.",
+          "char_start": 2648,
+          "char_end": 2834,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "King Docemo",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "A Consul was appointed, but the treaty was not fully adhered to by Akitoye's son and successor, King Docemo, who was induced on the 6th of August, 1861, to cede his possessions to the British Crown in consideration of a pension of £1,000.",
+          "char_start": 361,
+          "char_end": 372,
+          "year_reference": 1861,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Docemo",
+            "name_match": "bare",
+            "strong": false,
+            "is_governor": false,
+            "personnel_years": [
+              1889
+            ],
+            "positions": [
+              "Outdoor Officer"
+            ],
+            "mention_year": 1861,
+            "temporal_delta": 28,
+            "temporal": "pre_records",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "Nigeria",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The amalgamation of the Colony of Lagos and the Protectorates of Southern Nigeria is under consideration, and the present Governor of Lagos is also High Commissioner in Southern Nigeria.",
+          "char_start": 2722,
+          "char_end": 2729,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1906
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "nigeria"
+        }
+      ],
+      "year_references": [
+        1851,
+        1861,
+        1862,
+        1863,
+        1866,
+        1871,
+        1874,
+        1879,
+        1883,
+        1885,
+        1886,
+        1890,
+        1891,
+        1892,
+        1894,
+        1896,
+        1903
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "nigeria"
+  ]
+}

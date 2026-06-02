@@ -1,0 +1,282 @@
+{
+  "colony": "british_zambezia_and_british_central_africa",
+  "n_editions_with_history": 1,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/british_zambezia_and_british_central_africa/history/2ff6864f39a5",
+      "colony": "british_zambezia_and_british_central_africa",
+      "section_slug": "history",
+      "version_hash": "2ff6864f39a5",
+      "asserted_by": "Colonial Office List",
+      "text": "The state and town of Brunei appear to have been prosperous from a very early age. They were visited by Europeans in 1822, 1503, and 1520, but the first settlement in Borneo was made by the Dutch at Landak and Sudakana in 1608, and soon abandoned. An English settlement was made in 1609, and abandoned 1623. The Dutch factories were re-established in 1747 and 1776, but finally given up in 1790. A British settlement was formed under the East India Company in 1762 at the island of Balembangan, which had been ceded by the Sultan of Sulu. This was attacked by pirates in 1775, and the staff was removed to Labuan, a small factory being at the same time established at Brunei. A second attempt in 1803 was made to establish a settlement on the former island, and on its failure, the East India Company gave up its connection with Northern Borneo. Sir James Brooke, in 1840, established the independent State of Sarawak, which, as well as Brunei, is under the exclusive influence of Great Britain; and Labuan became a British colony in 1846. Some Americans obtained extensive cessions in North Borneo in 1865 from the Sultan of Brunei, but they were never utilised. Finally, in 1877 and 1878, the Sultans of Brunei and Sulu ceded the same district to Mr. Alfred Dent, who transferred it to the British North Borneo Company, and some further cessions have since been added to the Company's territory. The British Government assumed a formal protectorate over the Territory by agreement with \"the State of North Borneo,\" dated the 12th May, 1888. By this agreement the State is to continue to be administered by the Company as an independent State, under the protection of Her Majesty's Government, who may appoint consular officers, and shall conduct all foreign relations, but does not interfere in internal administration.",
+      "edition_years": [
+        1896
+      ],
+      "first_edition_year": 1896,
+      "last_edition_year": 1896,
+      "n_editions": 1,
+      "representative_source_file": "1896_manual_parsed/british_zambezia_and_british_central_africa.txt",
+      "char_start": 30262,
+      "char_end": 32085,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "A British settlement was formed under the East India Company in 1762 at the island of Balembangan, which had been ceded by the Sultan of Sulu.",
+          "char_start": 396,
+          "char_end": 538,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "became a british"
+          ],
+          "verbatim_span": "Sir James Brooke, in 1840, established the independent State of Sarawak, which, as well as Brunei, is under the exclusive influence of Great Britain; and Labuan became a British colony in 1846.",
+          "char_start": 846,
+          "char_end": 1039,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "Some Americans obtained extensive cessions in North Borneo in 1865 from the Sultan of Brunei, but they were never utilised.",
+          "char_start": 1040,
+          "char_end": 1163,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "Finally, in 1877 and 1878, the Sultans of Brunei and Sulu ceded the same district to Mr.",
+          "char_start": 1164,
+          "char_end": 1252,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "Alfred Dent, who transferred it to the British North Borneo Company, and some further cessions have since been added to the Company's territory.",
+          "char_start": 1253,
+          "char_end": 1397,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "The British Government assumed a formal protectorate over the Territory by agreement with \"the State of North Borneo,\" dated the 12th May, 1888.",
+          "char_start": 1398,
+          "char_end": 1542,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "By this agreement the State is to continue to be administered by the Company as an independent State, under the protection of Her Majesty's Government, who may appoint consular officers, and shall conduct all foreign relations, but does not interfere in internal administration.",
+          "char_start": 1543,
+          "char_end": 1821,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "her majesty"
+          ],
+          "verbatim_span": "By this agreement the State is to continue to be administered by the Company as an independent State, under the protection of Her Majesty's Government, who may appoint consular officers, and shall conduct all foreign relations, but does not interfere in internal administration.",
+          "char_start": 1543,
+          "char_end": 1821,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir James Brooke",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Sir James Brooke, in 1840, established the independent State of Sarawak, which, as well as Brunei, is under the exclusive influence of Great Britain; and Labuan became a British colony in 1846.",
+          "char_start": 846,
+          "char_end": 862,
+          "year_reference": 1840,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1896
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Mr. Alfred Dent",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Finally, in 1877 and 1878, the Sultans of Brunei and Sulu ceded the same district to Mr. Alfred Dent, who transferred it to the British North Borneo Company, and some further cessions have since been added to the Company's territory.",
+          "char_start": 1249,
+          "char_end": 1264,
+          "year_reference": 1877,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1896
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Brunei",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The state and town of Brunei appear to have been prosperous from a very early age.",
+          "char_start": 22,
+          "char_end": 28,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1896
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "brunei"
+        },
+        {
+          "surface_text": "Borneo",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "They were visited by Europeans in 1822, 1503, and 1520, but the first settlement in Borneo was made by the Dutch at Landak and Sudakana in 1608, and soon abandoned.",
+          "char_start": 167,
+          "char_end": 173,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1896
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "borneo"
+        },
+        {
+          "surface_text": "Labuan",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "This was attacked by pirates in 1775, and the staff was removed to Labuan, a small factory being at the same time established at Brunei.",
+          "char_start": 606,
+          "char_end": 612,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1896
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "labuan"
+        },
+        {
+          "surface_text": "Sarawak",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Sir James Brooke, in 1840, established the independent State of Sarawak, which, as well as Brunei, is under the exclusive influence of Great Britain; and Labuan became a British colony in 1846.",
+          "char_start": 910,
+          "char_end": 917,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1896
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "sarawak"
+        }
+      ],
+      "year_references": [
+        1503,
+        1520,
+        1608,
+        1609,
+        1623,
+        1747,
+        1762,
+        1775,
+        1776,
+        1790,
+        1803,
+        1822,
+        1840,
+        1846,
+        1865,
+        1877,
+        1878,
+        1888
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "borneo",
+    "brunei",
+    "labuan",
+    "sarawak"
+  ]
+}

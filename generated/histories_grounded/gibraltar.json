@@ -1,0 +1,655 @@
+{
+  "colony": "gibraltar",
+  "n_editions_with_history": 28,
+  "n_versions": 5,
+  "versions": [
+    {
+      "uri": "col:hversion/gibraltar/history/127e71d213d3",
+      "colony": "gibraltar",
+      "section_slug": "history",
+      "version_hash": "127e71d213d3",
+      "asserted_by": "Colonial Office List",
+      "text": "The rock of Gibraltar, the Mons Calpe of the ancients, remained under the dominion of the Moors until the 15th century, when it was incorporated with the Spanish kingdom of Granada. It was captured by the British forces under Sir George Rooke, 24th July, 1704, and was ceded by the Treaty of Utrecht in 1713. It was successfully defended by Gen. Eliot (afterwards Lord Heathfield) in the great siege of 1779-1783.",
+      "edition_years": [
+        1889,
+        1890,
+        1894,
+        1897,
+        1898,
+        1899,
+        1905,
+        1906
+      ],
+      "first_edition_year": 1889,
+      "last_edition_year": 1906,
+      "n_editions": 8,
+      "representative_source_file": "1889_manual_parsed/GIBRALTAR.txt",
+      "char_start": 334,
+      "char_end": 747,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.944,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "It was captured by the British forces under Sir George Rooke, 24th July, 1704, and was ceded by the Treaty of Utrecht in 1713.",
+          "char_start": 182,
+          "char_end": 308,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1889,
+            1890,
+            1894,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir George Rooke",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "It was captured by the British forces under Sir George Rooke, 24th July, 1704, and was ceded by the Treaty of Utrecht in 1713.",
+          "char_start": 226,
+          "char_end": 242,
+          "year_reference": 1704,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Lord Heathfield",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Eliot (afterwards Lord Heathfield) in the great siege of 1779-1783.",
+          "char_start": 364,
+          "char_end": 379,
+          "year_reference": 1779,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1889,
+            1890,
+            1894,
+            1897,
+            1898,
+            1899,
+            1905,
+            1906
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1704,
+        1713,
+        1779,
+        1783
+      ]
+    },
+    {
+      "uri": "col:hversion/gibraltar/history/499e006a97e2",
+      "colony": "gibraltar",
+      "section_slug": "history",
+      "version_hash": "499e006a97e2",
+      "asserted_by": "Colonial Office List",
+      "text": "The rock of Gibraltar, the Mons Calpe of the ancients, remained under the dominion of the Moors until the 15th century, when it was incorporated with the Spanish kingdom of Granada. It was captured by the British forces under Sir George Rooke, 24th July, 1704, and was ceded by the Treaty of Utrecht in 1713. The Treaty of Utrecht was renewed by Article 2 of Treaty of Versailles, 1783. It was successfully defended by Gen. Elliot (afterwards Lord Heathfield) in the great siege of 1779-83.",
+      "edition_years": [
+        1908,
+        1909,
+        1910,
+        1911,
+        1913,
+        1918,
+        1919,
+        1921,
+        1922,
+        1925,
+        1927
+      ],
+      "first_edition_year": 1908,
+      "last_edition_year": 1927,
+      "n_editions": 11,
+      "representative_source_file": "1921_manual_parsed/gibraltar.txt",
+      "char_start": 487,
+      "char_end": 977,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.976,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "It was captured by the British forces under Sir George Rooke, 24th July, 1704, and was ceded by the Treaty of Utrecht in 1713.",
+          "char_start": 182,
+          "char_end": 308,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1913,
+            1918,
+            1919,
+            1921,
+            1922,
+            1925,
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir George Rooke",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "It was captured by the British forces under Sir George Rooke, 24th July, 1704, and was ceded by the Treaty of Utrecht in 1713.",
+          "char_start": 226,
+          "char_end": 242,
+          "year_reference": 1704,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1913,
+            1918,
+            1919,
+            1921,
+            1922,
+            1925,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Lord Heathfield",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Elliot (afterwards Lord Heathfield) in the great siege of 1779-83.",
+          "char_start": 443,
+          "char_end": 458,
+          "year_reference": 1779,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1908,
+            1909,
+            1910,
+            1911,
+            1913,
+            1918,
+            1919,
+            1921,
+            1922,
+            1925,
+            1927
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1704,
+        1713,
+        1779,
+        1783
+      ]
+    },
+    {
+      "uri": "col:hversion/gibraltar/history/8982d9b5e938",
+      "colony": "gibraltar",
+      "section_slug": "history",
+      "version_hash": "8982d9b5e938",
+      "asserted_by": "Colonial Office List",
+      "text": "The rock of Gibraltar, the Mons Calpe of the ancients, remained under the dominion of the Moors until the 15th century, when it was incorporated with the Spanish kingdom of Granada. It was captured by the British forces under Sir George Rooke, 24th July, 1704, and was ceded by the Treaty of Utrecht in 1713. The Treaty of Utrecht was renewed by Article 2 of Treaty of Versailles, 1783. It was successfully defended by Gen. Eliot (afterwards Lord Heathfield) in the great siege of 1779-83. General Description. The promontory forms one side of a bay, called the Bay of Gibraltar, which is about 4 or 5 miles across, and affords good anchorage for the shipping passing through the Straits. The eastern and northern faces of the Rock are an inaccessible precipice rising abruptly from the sea and the sandy plain known as the North Front, which lies between Gibraltar and the Spanish town of La Linea; from the northern end the Rock runs along southward like a knife edge to the ancient site of O’Hara’s Tower, from which it slopes gradually till it terminates in a perpendicular cliff about 100 feet high at the water’s edge at Europa; these cliffs are continued along the western face to the New Mole, beyond which the fortress is protected by artificial ramparts. Behind these latter lies the larger portion of the town, covering an area of only 3 by ½ mile. It is one of the most thickly inhabited places in the world, but it is not unhealthy. Between this part of the town and the southern portion is a picturesque public garden, called the Alameda. The civil population in the southern part of the town is confined to the east and south-east of the South Mole, the remainder of the southern portion of the Rock being entirely taken up with barracks, hospitals, &c., for the Military and the Navy. Gibraltar is extensively used as a port of call and coaling station by shipping, and it is also an entrepôt of the trade between England and the Arabian states of Northern Africa, for which it has many advantages, having been ever since its occupation by the British a free port, or practically so. The naval harbour is on the West side of the Rock. It is formed by three separate Moles known as the “North,” “Detached” and “South” Moles. The North Mole runs westward from Devil’s Tongue for about 2,900 feet, and then southward, giving a total length of over a mile. The South Mole projects into the sea for a distance of 3,660 feet in a north-westerly direction. The Detached Mole, 2,717 feet long, is so situated between these two Moles as to form a breakwater and leave two means of entrance and exit. The harbour contains a water area of 440 acres. There are three large graving docks for naval purposes, and a small dock which is available for merchant vessels of light draught. The old wharf at Waterport has been extended and improved by the addition of a new mole, which has been provided with sheds for transit cargo, electrical cranes and other equipment to facilitate the handling of cargo. About 300 persons are employed in tobacco manufactories, and about 1,200 in the coal depôts. It is a port of registry, having, on 31st December, 1926, 40 vessels, of together 8,992 tons (gross). No statistics of imports or exports are taken. The revenue is derived from port dues, the rent of the Crown estate in the town, duties upon wine, spirits, beer, tobacco, motor spirit, perfumery and licence duties and fees. The Government is administered under Letters Patent of the 12th September, 1922, by a Governor, aided by an Executive Council composed of 4 official and 3 unofficial members. The power of legislation is vested in the Governor, who is also the General commanding the garrison. The management of the drainage, water supply, &c., is in the hands of the City Council. Their receipts for 1926 were £114,219., their expenditure £144,286., and their debt, on the 31st of Dec., 1926, £187,250l. and pesetas 100,000. There are branches of Barclays Bank (Dominion, Colonial and Overseas), the Credit Foncier d’Algérie et de Tunisie, and several private bankers. A Government savings bank was founded in 1882, and had on 31st Dec., 1926, 116,882l. deposited by 3,113 depositors. Since the 1st Oct., 1898, the legal tender currency has been that of the United Kingdom, and the public accounts are now kept in it, but Spanish money is still freely current. The change from Spanish currency, which had previously been the legal tender, was effected under the provisions of the Orders in Council of the 9th of August, 1898. Under the Currency Note Ordinance, 1927, the currency includes notes issued by the Government of Gibraltar. These notes are of the value of 5l., 1l. and 10s. There is daily postal communication with England by way of Spain and France. Rates of postage: Letters, 1½d. per oz.; newspapers, ½d. The internal postage rate is 1½d. per oz. There is direct telegraphic communication with Spain, and by cables to England, Tangier, Malta, Lisbon, and Cadiz. Education is compulsory since 1917. There are thirteen elementary schools, subsidised by Government, and several private schools, the number of scholars in average attendance being 2,222 for the school year ending 31st March, 1927. The Government-aided schools are for the most part managed by boards of the different denominations.",
+      "edition_years": [
+        1928
+      ],
+      "first_edition_year": 1928,
+      "last_edition_year": 1928,
+      "n_editions": 1,
+      "representative_source_file": "1928_manual_parsed/GIBRALTAR.txt",
+      "char_start": 487,
+      "char_end": 5810,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "It was captured by the British forces under Sir George Rooke, 24th July, 1704, and was ceded by the Treaty of Utrecht in 1713.",
+          "char_start": 182,
+          "char_end": 308,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rising"
+          ],
+          "verbatim_span": "The eastern and northern faces of the Rock are an inaccessible precipice rising abruptly from the sea and the sandy plain known as the North Front, which lies between Gibraltar and the Spanish town of La Linea; from the northern end the Rock runs along southward like a knife edge to the ancient site of O’Hara’s Tower, from which it slopes gradually till it terminates in a perpendicular cliff about 100 feet high at the water’s edge at Europa; these cliffs are continued along the western face to the New Mole, beyond which the fortress is protected by artificial ramparts.",
+          "char_start": 689,
+          "char_end": 1264,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir George Rooke",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "It was captured by the British forces under Sir George Rooke, 24th July, 1704, and was ceded by the Treaty of Utrecht in 1713.",
+          "char_start": 226,
+          "char_end": 242,
+          "year_reference": 1704,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Lord Heathfield",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Eliot (afterwards Lord Heathfield) in the great siege of 1779-83.",
+          "char_start": 442,
+          "char_end": 457,
+          "year_reference": 1779,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "General Description",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "General Description.",
+          "char_start": 490,
+          "char_end": 509,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Malta",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "There is direct telegraphic communication with Spain, and by cables to England, Tangier, Malta, Lisbon, and Cadiz.",
+          "char_start": 4954,
+          "char_end": 4959,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1928
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "malta"
+        }
+      ],
+      "year_references": [
+        1704,
+        1713,
+        1779,
+        1783,
+        1882,
+        1898,
+        1917,
+        1922,
+        1926,
+        1927
+      ]
+    },
+    {
+      "uri": "col:hversion/gibraltar/history/499e006a97e2",
+      "colony": "gibraltar",
+      "section_slug": "history",
+      "version_hash": "499e006a97e2",
+      "asserted_by": "Colonial Office List",
+      "text": "The rock of Gibraltar, the Mons Calpe of the ancients, remained under the dominion of the Moors until the 15th century, when it was incorporated with the Spanish kingdom of Granada. It was captured by the British forces under Sir George Rooke, 24th July, 1704, and was ceded by the Treaty of Utrecht in 1713. The Treaty of Utrecht was renewed by Article 2 of Treaty of Versailles, 1783. It was successfully defended by Gen. Elliot (afterwards Lord Heathfield) in the great siege of 1779-83.",
+      "edition_years": [
+        1930,
+        1931,
+        1932,
+        1934,
+        1936,
+        1937
+      ],
+      "first_edition_year": 1930,
+      "last_edition_year": 1937,
+      "n_editions": 6,
+      "representative_source_file": "1934_manual_parsed/GIBRALTAR.txt",
+      "char_start": 486,
+      "char_end": 976,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.976,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "It was captured by the British forces under Sir George Rooke, 24th July, 1704, and was ceded by the Treaty of Utrecht in 1713.",
+          "char_start": 182,
+          "char_end": 308,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1934,
+            1936,
+            1937
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir George Rooke",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "It was captured by the British forces under Sir George Rooke, 24th July, 1704, and was ceded by the Treaty of Utrecht in 1713.",
+          "char_start": 226,
+          "char_end": 242,
+          "year_reference": 1704,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Lord Heathfield",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Elliot (afterwards Lord Heathfield) in the great siege of 1779-83.",
+          "char_start": 443,
+          "char_end": 458,
+          "year_reference": 1779,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1930,
+            1931,
+            1932,
+            1934,
+            1936,
+            1937
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1704,
+        1713,
+        1779,
+        1783
+      ]
+    },
+    {
+      "uri": "col:hversion/gibraltar/history/eb7cba65dc22",
+      "colony": "gibraltar",
+      "section_slug": "history",
+      "version_hash": "eb7cba65dc22",
+      "asserted_by": "Colonial Office List",
+      "text": "Gibraltar was known to the ancients as Mons Calpe, one of the Pillars of Hercules, the other being Mount Abyla, or Apes Hill, on the opposite coast of Africa. It was possessed successively by the Phoenicians, the Carthaginians, the Romans, and the Visigoths, but remained uninhabited till the Mohammedan invasion of Spain. In 711 the Moorish Chief Tarik-Ibn-Zeyad landed on the Rock, and gave it the name of Gibel-Tarik, or Mountain of Tarik, of which the name of Gibraltar is a corruption. It remained in Moorish hands until 1309, when it was seized by the Spaniards. In 1333 it was again taken by the Moors, but was wrested from the Moslem dynasty in 1462 and reverted to the dominion of Spain. In 1704, during the war of the Spanish succession, it was captured by the British forces under Admiral Sir George Rooke, and was ceded to Great Britain by the Treaty of Utrecht in 1713. The cession was renewed by the Treaty of Versailles in 1783. Many attempts have been made to take Gibraltar, especially during the great siege in 1779–83, when General Eliott (afterwards Lord Heathfield) defended it against the united forces of Spain and France, but all have been unsuccessful and it has remained in British hands since its capture in 1704.",
+      "edition_years": [
+        1950,
+        1951
+      ],
+      "first_edition_year": 1950,
+      "last_edition_year": 1951,
+      "n_editions": 2,
+      "representative_source_file": "1950_manual_parsed/gibraltar.txt",
+      "char_start": 2831,
+      "char_end": 4073,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.995,
+      "source_flags": [
+        "size_outlier_high"
+      ],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "uninhabited"
+          ],
+          "verbatim_span": "It was possessed successively by the Phoenicians, the Carthaginians, the Romans, and the Visigoths, but remained uninhabited till the Mohammedan invasion of Spain.",
+          "char_start": 159,
+          "char_end": 322,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to",
+            "cession"
+          ],
+          "verbatim_span": "In 1704, during the war of the Spanish succession, it was captured by the British forces under Admiral Sir George Rooke, and was ceded to Great Britain by the Treaty of Utrecht in 1713.",
+          "char_start": 697,
+          "char_end": 882,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "In 1704, during the war of the Spanish succession, it was captured by the British forces under Admiral Sir George Rooke, and was ceded to Great Britain by the Treaty of Utrecht in 1713.",
+          "char_start": 697,
+          "char_end": 882,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The cession was renewed by the Treaty of Versailles in 1783.",
+          "char_start": 883,
+          "char_end": 943,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Chief Tarik",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "In 711 the Moorish Chief Tarik-Ibn-Zeyad landed on the Rock, and gave it the name of Gibel-Tarik, or Mountain of Tarik, of which the name of Gibraltar is a corruption.",
+          "char_start": 342,
+          "char_end": 353,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Admiral Sir George Rooke",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1704, during the war of the Spanish succession, it was captured by the British forces under Admiral Sir George Rooke, and was ceded to Great Britain by the Treaty of Utrecht in 1713.",
+          "char_start": 792,
+          "char_end": 816,
+          "year_reference": 1704,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "General Eliott",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "Many attempts have been made to take Gibraltar, especially during the great siege in 1779–83, when General Eliott (afterwards Lord Heathfield) defended it against the united forces of Spain and France, but all have been unsuccessful and it has remained in British hands since its capture in 1704.",
+          "char_start": 1043,
+          "char_end": 1057,
+          "year_reference": 1779,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Lord Heathfield",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Many attempts have been made to take Gibraltar, especially during the great siege in 1779–83, when General Eliott (afterwards Lord Heathfield) defended it against the united forces of Spain and France, but all have been unsuccessful and it has remained in British hands since its capture in 1704.",
+          "char_start": 1070,
+          "char_end": 1085,
+          "year_reference": 1779,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        }
+      ],
+      "year_references": [
+        1704,
+        1713,
+        1779,
+        1783
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "malta"
+  ]
+}

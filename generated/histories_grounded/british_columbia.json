@@ -1,0 +1,299 @@
+{
+  "colony": "british_columbia",
+  "n_editions_with_history": 3,
+  "n_versions": 3,
+  "versions": [
+    {
+      "uri": "col:hversion/british_columbia/history/b80e5695e375",
+      "colony": "british_columbia",
+      "section_slug": "history",
+      "version_hash": "b80e5695e375",
+      "asserted_by": "Colonial Office List",
+      "text": "British Columbia was constituted a Crown colony in 1858, owing to the large immigration consequent on the discovery of gold in that year. Vancouver Island was leased to the Hudson's Bay Company in 1843, and made a Crown colony in 1849. In 1866 the colonies of British Columbia and Vancouver Island were united, and on July 20, 1871, British Columbia entered the Canadian Confederation, and is represented by three members in the Senate, and seven in the House of Commons of Canada.",
+      "edition_years": [
+        1908
+      ],
+      "first_edition_year": 1908,
+      "last_edition_year": 1908,
+      "n_editions": 1,
+      "representative_source_file": "1908_manual_parsed/BRITISH_COLUMBIA.txt",
+      "char_start": 649,
+      "char_end": 1130,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovery"
+          ],
+          "verbatim_span": "British Columbia was constituted a Crown colony in 1858, owing to the large immigration consequent on the discovery of gold in that year.",
+          "char_start": 0,
+          "char_end": 137,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "crown colony"
+          ],
+          "verbatim_span": "British Columbia was constituted a Crown colony in 1858, owing to the large immigration consequent on the discovery of gold in that year.",
+          "char_start": 0,
+          "char_end": 137,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "crown colony"
+          ],
+          "verbatim_span": "Vancouver Island was leased to the Hudson's Bay Company in 1843, and made a Crown colony in 1849.",
+          "char_start": 138,
+          "char_end": 235,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1908
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Canada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1866 the colonies of British Columbia and Vancouver Island were united, and on July 20, 1871, British Columbia entered the Canadian Confederation, and is represented by three members in the Senate, and seven in the House of Commons of Canada.",
+          "char_start": 474,
+          "char_end": 480,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1908
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "canada"
+        }
+      ],
+      "year_references": [
+        1843,
+        1849,
+        1858,
+        1866,
+        1871
+      ]
+    },
+    {
+      "uri": "col:hversion/british_columbia/history/457c255169db",
+      "colony": "british_columbia",
+      "section_slug": "history",
+      "version_hash": "457c255169db",
+      "asserted_by": "Colonial Office List",
+      "text": "British Columbia was constituted a Crown colony in 1858, owing to the large immigration consequent on the discovery of gold in that year. Vancouver Island was leased to the Hudson's Bay Company in 1843, and made a Crown colony in 1849. In 1866 the colonies of British Columbia and Vancouver Island were united, and on July 20, 1871, British Columbia entered the Canadian Confederation, and is represented by three members in the Senate, and seven in the House of Commons of Canada. Constitution. The Provincial Government is administered by a Lieutenant-Governor and legislative assembly of 42 members on the system of executive administration known as a \"responsible government.\" The assembly is elected for four years, every male adult (British subjects) having resided six months in the province, duly registered, being entitled to vote. Members receive $1,200 for the session, and their travelling expenses.",
+      "edition_years": [
+        1909
+      ],
+      "first_edition_year": 1909,
+      "last_edition_year": 1909,
+      "n_editions": 1,
+      "representative_source_file": "1909_manual_parsed/british_columbia.txt",
+      "char_start": 649,
+      "char_end": 1562,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovery"
+          ],
+          "verbatim_span": "British Columbia was constituted a Crown colony in 1858, owing to the large immigration consequent on the discovery of gold in that year.",
+          "char_start": 0,
+          "char_end": 137,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "crown colony"
+          ],
+          "verbatim_span": "British Columbia was constituted a Crown colony in 1858, owing to the large immigration consequent on the discovery of gold in that year.",
+          "char_start": 0,
+          "char_end": 137,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "crown colony"
+          ],
+          "verbatim_span": "Vancouver Island was leased to the Hudson's Bay Company in 1843, and made a Crown colony in 1849.",
+          "char_start": 138,
+          "char_end": 235,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Canada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1866 the colonies of British Columbia and Vancouver Island were united, and on July 20, 1871, British Columbia entered the Canadian Confederation, and is represented by three members in the Senate, and seven in the House of Commons of Canada.",
+          "char_start": 474,
+          "char_end": 480,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1909
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "canada"
+        }
+      ],
+      "year_references": [
+        1843,
+        1849,
+        1858,
+        1866,
+        1871
+      ]
+    },
+    {
+      "uri": "col:hversion/british_columbia/history/f774bab9e3dc",
+      "colony": "british_columbia",
+      "section_slug": "history",
+      "version_hash": "f774bab9e3dc",
+      "asserted_by": "Colonial Office List",
+      "text": "British Columbia was constituted a Crown colony in 1868, in consequence of the large immigration on the discovery of gold in the Thompson and Fraser Rivers. Vancouver Island was granted to the Hudson's Bay Company under certain conditions in 1849, and the same year it was made a Crown colony. In 1866 the colonies of British Columbia and Vancouver Island were united under the former name, and on July 20th, 1871, British Columbia entered the Dominion of Canada as a Province. The Province is represented by six members in the Senate, and fourteen members in the House of Commons of Canada.",
+      "edition_years": [
+        1927
+      ],
+      "first_edition_year": 1927,
+      "last_edition_year": 1927,
+      "n_editions": 1,
+      "representative_source_file": "1927_manual_parsed/BRITISH_COLUMBIA.txt",
+      "char_start": 1242,
+      "char_end": 1833,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [
+        "multi_colony_misparse"
+      ],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovery"
+          ],
+          "verbatim_span": "British Columbia was constituted a Crown colony in 1868, in consequence of the large immigration on the discovery of gold in the Thompson and Fraser Rivers.",
+          "char_start": 0,
+          "char_end": 156,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "crown colony"
+          ],
+          "verbatim_span": "British Columbia was constituted a Crown colony in 1868, in consequence of the large immigration on the discovery of gold in the Thompson and Fraser Rivers.",
+          "char_start": 0,
+          "char_end": 156,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "crown colony"
+          ],
+          "verbatim_span": "Vancouver Island was granted to the Hudson's Bay Company under certain conditions in 1849, and the same year it was made a Crown colony.",
+          "char_start": 157,
+          "char_end": 293,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1927
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Canada",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1866 the colonies of British Columbia and Vancouver Island were united under the former name, and on July 20th, 1871, British Columbia entered the Dominion of Canada as a Province.",
+          "char_start": 456,
+          "char_end": 462,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1927
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "canada"
+        }
+      ],
+      "year_references": [
+        1849,
+        1866,
+        1868,
+        1871
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "canada"
+  ]
+}

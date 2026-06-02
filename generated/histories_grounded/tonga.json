@@ -1,0 +1,369 @@
+{
+  "colony": "tonga",
+  "n_editions_with_history": 1,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/tonga/history/4c95d76a2ce6",
+      "colony": "tonga",
+      "section_slug": "history",
+      "version_hash": "4c95d76a2ce6",
+      "asserted_by": "Colonial Office List",
+      "text": "In 1862 Speke and Grant were the first Europeans to reach the capital of Mutesa, the ruler of Buganda, not far from the present Kampala. They passed on to the Sudan and Egypt and so solved the problem of the ages, the source of the Nile. Samuel Baker discovered Lake Albert in 1864. In 1875 Stanley visited Uganda and told the Christian world of the openings for missionary enterprise in Mutesa's dominions. The first English Protestant missionaries arrived in 1877, followed by French Roman Catholics in 1879. Following the death of Mutesa in 1884 and the accession of his son Mwanga, there was a series of internal uprisings in the kingdom which included rebellions against Mwanga himself and wars between the religious factions. In 1888 control of the British sphere in East Africa had been assigned by Royal Charter to the Imperial British East Africa Company and when the Anglo-German Agreement of 1890 confirmed the inclusion in the British sphere of present-day Kenya and Uganda, Captain (later Lord) Lugard was despatched to establish the Company's influence in Uganda. Owing to the heavy costs of occupation, however, the Company soon gave notice of its intention to evacuate Uganda and Sir Gerald Portal was despatched to Uganda as Imperial Commissioner to make proposals for its future. As a result a Protectorate, over Mwanga's kingdom only, was formally established from 18th June 1894. Meanwhile, Bunyoro had been conquered and its ruler Kabarega driven out by a combined force of Sudanese troops (led by British officers) and the Buganda tribal army. In 1896 the Protectorate was extended to most of the other regions which are now included within the present Uganda and this term was thereafter applied to the whole territory; while Mwanga's kingdom (which is the present Buganda province) was referred to as Buganda. A revolt of the Sudanese troops in 1897 threatened the very existence of the Protectorate, but the position was restored with the help of Indian troops. In 1899 Sir Harry Johnston was sent out by the British Government as Special Commissioner and in 1900 concluded the Agreement with the Kabaka, Daudi Chwa, and people of Buganda which laid down the principles governing administrative relations with the Crown. Agreements were also made in 1900 with the ruler and chiefs of Toro and in 1901 with the ruler and chiefs of Ankole. Administration was thereafter extended gradually over the more primitive and unorganized tribes, and the same principles of \"indirect rule\" were followed wherever and whenever it was possible. In 1902 the eastern highlands of the Protectorate together with the Kavirondo country were transferred to what is now Kenya Colony and the succeeding years saw further adjustments of the frontiers with the Sudan, Belgian Congo and what is now Tanganyika. In 1905 the superintendence of the Protectorate's affairs passed from the Foreign Office to the Colonial Office.",
+      "edition_years": [
+        1961
+      ],
+      "first_edition_year": 1961,
+      "last_edition_year": 1961,
+      "n_editions": 1,
+      "representative_source_file": "1961_manual_parsed/tonga.txt",
+      "char_start": 15095,
+      "char_end": 18021,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Samuel Baker discovered Lake Albert in 1864.",
+          "char_start": 238,
+          "char_end": 282,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "Following the death of Mutesa in 1884 and the accession of his son Mwanga, there was a series of internal uprisings in the kingdom which included rebellions against Mwanga himself and wars between the religious factions.",
+          "char_start": 511,
+          "char_end": 731,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebel",
+            "rebellion"
+          ],
+          "verbatim_span": "Following the death of Mutesa in 1884 and the accession of his son Mwanga, there was a series of internal uprisings in the kingdom which included rebellions against Mwanga himself and wars between the religious factions.",
+          "char_start": 511,
+          "char_end": 731,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "In 1888 control of the British sphere in East Africa had been assigned by Royal Charter to the Imperial British East Africa Company and when the Anglo-German Agreement of 1890 confirmed the inclusion in the British sphere of present-day Kenya and Uganda, Captain (later Lord) Lugard was despatched to establish the Company's influence in Uganda.",
+          "char_start": 732,
+          "char_end": 1077,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "Owing to the heavy costs of occupation, however, the Company soon gave notice of its intention to evacuate Uganda and Sir Gerald Portal was despatched to Uganda as Imperial Commissioner to make proposals for its future.",
+          "char_start": 1078,
+          "char_end": 1297,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "As a result a Protectorate, over Mwanga's kingdom only, was formally established from 18th June 1894.",
+          "char_start": 1298,
+          "char_end": 1399,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "conquered"
+          ],
+          "verbatim_span": "Meanwhile, Bunyoro had been conquered and its ruler Kabarega driven out by a combined force of Sudanese troops (led by British officers) and the Buganda tribal army.",
+          "char_start": 1400,
+          "char_end": 1565,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1896 the Protectorate was extended to most of the other regions which are now included within the present Uganda and this term was thereafter applied to the whole territory; while Mwanga's kingdom (which is the present Buganda province) was referred to as Buganda.",
+          "char_start": 1566,
+          "char_end": 1833,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "revolt"
+          ],
+          "verbatim_span": "A revolt of the Sudanese troops in 1897 threatened the very existence of the Protectorate, but the position was restored with the help of Indian troops.",
+          "char_start": 1834,
+          "char_end": 1986,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "A revolt of the Sudanese troops in 1897 threatened the very existence of the Protectorate, but the position was restored with the help of Indian troops.",
+          "char_start": 1834,
+          "char_end": 1986,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "primitive",
+            "tribes"
+          ],
+          "verbatim_span": "Administration was thereafter extended gradually over the more primitive and unorganized tribes, and the same principles of \"indirect rule\" were followed wherever and whenever it was possible.",
+          "char_start": 2363,
+          "char_end": 2555,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "transferred to"
+          ],
+          "verbatim_span": "In 1902 the eastern highlands of the Protectorate together with the Kavirondo country were transferred to what is now Kenya Colony and the succeeding years saw further adjustments of the frontiers with the Sudan, Belgian Congo and what is now Tanganyika.",
+          "char_start": 2556,
+          "char_end": 2810,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1902 the eastern highlands of the Protectorate together with the Kavirondo country were transferred to what is now Kenya Colony and the succeeding years saw further adjustments of the frontiers with the Sudan, Belgian Congo and what is now Tanganyika.",
+          "char_start": 2556,
+          "char_end": 2810,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In 1905 the superintendence of the Protectorate's affairs passed from the Foreign Office to the Colonial Office.",
+          "char_start": 2811,
+          "char_end": 2923,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1961
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Gerald Portal",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Owing to the heavy costs of occupation, however, the Company soon gave notice of its intention to evacuate Uganda and Sir Gerald Portal was despatched to Uganda as Imperial Commissioner to make proposals for its future.",
+          "char_start": 1196,
+          "char_end": 1213,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1961
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Portal, Gerald",
+            "name_match": "exact",
+            "strong": true,
+            "is_governor": false,
+            "personnel_years": [
+              1961
+            ],
+            "positions": [
+              "Commissioner"
+            ],
+            "mention_year": null,
+            "temporal_delta": null,
+            "temporal": "undated",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "Sir Harry Johnston",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In 1899 Sir Harry Johnston was sent out by the British Government as Special Commissioner and in 1900 concluded the Agreement with the Kabaka, Daudi Chwa, and people of Buganda which laid down the principles governing administrative relations with the Crown.",
+          "char_start": 1995,
+          "char_end": 2013,
+          "year_reference": 1899,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1961
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Uganda",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1875 Stanley visited Uganda and told the Christian world of the openings for missionary enterprise in Mutesa's dominions.",
+          "char_start": 307,
+          "char_end": 313,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1961
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "uganda"
+        },
+        {
+          "surface_text": "Kenya",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1888 control of the British sphere in East Africa had been assigned by Royal Charter to the Imperial British East Africa Company and when the Anglo-German Agreement of 1890 confirmed the inclusion in the British sphere of present-day Kenya and Uganda, Captain (later Lord) Lugard was despatched to establish the Company's influence in Uganda.",
+          "char_start": 969,
+          "char_end": 974,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1961
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "kenya"
+        },
+        {
+          "surface_text": "Tanganyika",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "In 1902 the eastern highlands of the Protectorate together with the Kavirondo country were transferred to what is now Kenya Colony and the succeeding years saw further adjustments of the frontiers with the Sudan, Belgian Congo and what is now Tanganyika.",
+          "char_start": 2799,
+          "char_end": 2809,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1961
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "tanganyika"
+        }
+      ],
+      "year_references": [
+        1862,
+        1864,
+        1875,
+        1877,
+        1879,
+        1884,
+        1888,
+        1890,
+        1894,
+        1896,
+        1897,
+        1899,
+        1900,
+        1901,
+        1902,
+        1905
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "kenya",
+    "tanganyika",
+    "uganda"
+  ]
+}

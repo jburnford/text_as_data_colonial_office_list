@@ -1,0 +1,295 @@
+{
+  "colony": "windward_islands_st_vincent",
+  "n_editions_with_history": 3,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/windward_islands_st_vincent/history/17d43a7bf059",
+      "colony": "windward_islands_st_vincent",
+      "section_slug": "history",
+      "version_hash": "17d43a7bf059",
+      "asserted_by": "Colonial Office List",
+      "text": "At the time of its discovery, St. Vincent, like some of the other small islands, was inhabited by the Caribs, who continued in the undisputed possession of it until 1627, when the King of England made a grant of the island to the Earl of Carlisle. In 1660 it was declared neutral, and in 1672 it was granted to Lord Willoughby. No steps, however, appear to have been taken to form a settlement on the island, and the English and French came to an agreement to abandon the Islands of Dominica and St. Vincent to the Caribs, on condition of their renouncing all claim to the other islands. The Caribs continued sole masters of St. Vincent until the year 1675, when a number of savages of a different race were discovered in it. These received the appellation of \"Black Caribs,\" to distinguish them from the aborigines, to whom the name of \"Yellow Caribs\" was given. In 1722 George I made a grant to the Duke of Montague of some of the West India Islands, including St. Vincent. From statistics of the year 1740 it appears that the white inhabitants then amounted to about 890, and the slaves to 3,006, producing commodities for exportation to the value of 63,625l. In 1748 St. Vincent was declared neutral by the Treaty of Aix-la-Chapelle. In 1756, however, hostilities were renewed, and the island was taken in 1762 by General Monckton; and by the Treaty of Paris in the following year it was ceded to Great Britain, when General Melville was appointed Governor. By a treaty, which was concluded in February, 1773, an extensive district of St. Vincent was allotted to the Caribs (who for some time had been in a state of open rebellion) on condition of their laying down their arms and acknowledging the King of Great Britain as the rightful sovereign of the island. In 1779 the island surrendered to the French. The following year has been rendered memorable by the occurrence of the greatest hurricane of which there is any record in West Indian annals. By the Treaty of Versailles in 1783, St. Vincent was restored to Great Britain. From this period to the breaking out of the French Revolution the island appears to have enjoyed comparative prosperity and peace; but then the Caribs and their allies (the French) again overrun the country, burning the cane-fields, plundering the houses, and mercilessly murdering the English colonists. This state of things continued till the arrival of the \"Zebra\" sloop of war, with succours from Martinique, then the British head-quarters. The contest was carried on, with alternations of good and ill fortune, until the arrival of Sir Ralph Abercrombie with reinforcements in June, 1796. After an obstinate struggle the insurgents surrendered at discretion. The Government, in anticipation of such an event, had resolved that the Caribs should be transported to the Island of Rattan, in the Bay of Honduras; and accordingly, on the 11th March, 1797, the necessary transports having been provided, the Caribs, to the number of 5,080, were embarked at Bequia, and sailed for their appointed destination. In 1834 the apprenticeship system was established, and was followed in 1838 by unconditional emancipation. The year 1846 witnessed the first introduction of Portuguese labourers, a class of immigrants who amounted in a few years to 2,400 and have proved a valuable addition to the general population of the island. St. Vincent received its first cargo of Coolie labourers in 1861. The indentures of these immigrants have expired, and most of them have returned to India. About 330 (including children born at St. Vincent) have made their home in the Colony.",
+      "edition_years": [
+        1888,
+        1898,
+        1910
+      ],
+      "first_edition_year": 1888,
+      "last_edition_year": 1910,
+      "n_editions": 3,
+      "representative_source_file": "1898_manual_parsed/WINDWARD_ISLANDS_ST_VINCENT.txt",
+      "char_start": 3646,
+      "char_end": 7255,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.926,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovery"
+          ],
+          "verbatim_span": "At the time of its discovery, St.",
+          "char_start": 0,
+          "char_end": 33,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1898,
+            1910
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "discovery",
+          "loaded_terms": [
+            "discovered"
+          ],
+          "verbatim_span": "Vincent until the year 1675, when a number of savages of a different race were discovered in it.",
+          "char_start": 629,
+          "char_end": 725,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1898,
+            1910
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "savages"
+          ],
+          "verbatim_span": "Vincent until the year 1675, when a number of savages of a different race were discovered in it.",
+          "char_start": 629,
+          "char_end": 725,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1898,
+            1910
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "In 1756, however, hostilities were renewed, and the island was taken in 1762 by General Monckton; and by the Treaty of Paris in the following year it was ceded to Great Britain, when General Melville was appointed Governor.",
+          "char_start": 1238,
+          "char_end": 1461,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1898,
+            1910
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "hostilities"
+          ],
+          "verbatim_span": "In 1756, however, hostilities were renewed, and the island was taken in 1762 by General Monckton; and by the Treaty of Paris in the following year it was ceded to Great Britain, when General Melville was appointed Governor.",
+          "char_start": 1238,
+          "char_end": 1461,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1898,
+            1910
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "rebel",
+            "rebellion"
+          ],
+          "verbatim_span": "Vincent was allotted to the Caribs (who for some time had been in a state of open rebellion) on condition of their laying down their arms and acknowledging the King of Great Britain as the rightful sovereign of the island.",
+          "char_start": 1543,
+          "char_end": 1765,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1898,
+            1910
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "This state of things continued till the arrival of the \"Zebra\" sloop of war, with succours from Martinique, then the British head-quarters.",
+          "char_start": 2340,
+          "char_end": 2479,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1898,
+            1910
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Lord Willoughby",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "In 1660 it was declared neutral, and in 1672 it was granted to Lord Willoughby.",
+          "char_start": 311,
+          "char_end": 326,
+          "year_reference": 1660,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1898,
+            1910
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "General Monckton",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1756, however, hostilities were renewed, and the island was taken in 1762 by General Monckton; and by the Treaty of Paris in the following year it was ceded to Great Britain, when General Melville was appointed Governor.",
+          "char_start": 1318,
+          "char_end": 1334,
+          "year_reference": 1756,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1898,
+            1910
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "General Melville",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "In 1756, however, hostilities were renewed, and the island was taken in 1762 by General Monckton; and by the Treaty of Paris in the following year it was ceded to Great Britain, when General Melville was appointed Governor.",
+          "char_start": 1421,
+          "char_end": 1437,
+          "year_reference": 1756,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1898,
+            1910
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Sir Ralph Abercrombie",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "The contest was carried on, with alternations of good and ill fortune, until the arrival of Sir Ralph Abercrombie with reinforcements in June, 1796.",
+          "char_start": 2572,
+          "char_end": 2593,
+          "year_reference": 1796,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1898,
+            1910
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Dominica",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "No steps, however, appear to have been taken to form a settlement on the island, and the English and French came to an agreement to abandon the Islands of Dominica and St.",
+          "char_start": 483,
+          "char_end": 491,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1898,
+            1910
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "dominica"
+        },
+        {
+          "surface_text": "Honduras",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The Government, in anticipation of such an event, had resolved that the Caribs should be transported to the Island of Rattan, in the Bay of Honduras; and accordingly, on the 11th March, 1797, the necessary transports having been provided, the Caribs, to the number of 5,080, were embarked at Bequia, and sailed for their appointed destination.",
+          "char_start": 2839,
+          "char_end": 2847,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1898,
+            1910
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "honduras"
+        }
+      ],
+      "year_references": [
+        1627,
+        1660,
+        1672,
+        1675,
+        1722,
+        1740,
+        1748,
+        1756,
+        1762,
+        1773,
+        1779,
+        1783,
+        1796,
+        1797,
+        1834,
+        1838,
+        1846,
+        1861
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "dominica",
+    "honduras"
+  ]
+}

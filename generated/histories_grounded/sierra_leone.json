@@ -1,0 +1,2940 @@
+{
+  "colony": "sierra_leone",
+  "n_editions_with_history": 39,
+  "n_versions": 9,
+  "versions": [
+    {
+      "uri": "col:hversion/sierra_leone/history/8edb380a4cdf",
+      "colony": "sierra_leone",
+      "section_slug": "history",
+      "version_hash": "8edb380a4cdf",
+      "asserted_by": "Colonial Office List",
+      "text": "The oldest settlement is that of the peninsula of Sierra Leone, which was ceded to Great Britain in 1787 by the native chiefs. Four years afterwards a charter was granted to a Company under the name of \"The Sierra Leone Company,\" for the purpose of establishing a settlement for freed negro slaves. In 1800 a grant of the peninsula was made to the Company by Letters Patent, and a Court of Directors of the Company was empowered to appoint a Governor and Council, the former having power to enact laws. In 1807, on the abolition of the slave trade, the colony was transferred back to the Crown. In 1821, on the abolition of the African Company (see under Gold Coast), the whole of the British possessions in West Africa were united into the Colony of the West Africa Settlements. The Gold Coast was, however, soon abandoned to the merchants, and the Gambia was made a separate Colony in 1843. These were not reunited to the Colony until 1865. In 1862 two large tracts of country called British Quiah and Sherbro were handed over by treaty to the Colony. In 1879 further territory was acquired in the Scarcies River to the north of the peninsula. In 1884 the seaboard of the Sulymah and Gallinas Chiefs as far as the Mannah River was also annexed.",
+      "edition_years": [
+        1888,
+        1889,
+        1894,
+        1896
+      ],
+      "first_edition_year": 1888,
+      "last_edition_year": 1896,
+      "n_editions": 4,
+      "representative_source_file": "1888_manual_parsed/SIERRA_LEONE.txt",
+      "char_start": 722,
+      "char_end": 1969,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.964,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "The oldest settlement is that of the peninsula of Sierra Leone, which was ceded to Great Britain in 1787 by the native chiefs.",
+          "char_start": 0,
+          "char_end": 126,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1894,
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "The oldest settlement is that of the peninsula of Sierra Leone, which was ceded to Great Britain in 1787 by the native chiefs.",
+          "char_start": 0,
+          "char_end": 126,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1894,
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "acquired"
+          ],
+          "verbatim_span": "In 1879 further territory was acquired in the Scarcies River to the north of the peninsula.",
+          "char_start": 1054,
+          "char_end": 1145,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1894,
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "In 1884 the seaboard of the Sulymah and Gallinas Chiefs as far as the Mannah River was also annexed.",
+          "char_start": 1146,
+          "char_end": 1246,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889,
+            1894,
+            1896
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Gambia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The Gold Coast was, however, soon abandoned to the merchants, and the Gambia was made a separate Colony in 1843.",
+          "char_start": 850,
+          "char_end": 856,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1888,
+            1889,
+            1894,
+            1896
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "gambia"
+        }
+      ],
+      "year_references": [
+        1787,
+        1800,
+        1807,
+        1821,
+        1843,
+        1862,
+        1865,
+        1879,
+        1884
+      ]
+    },
+    {
+      "uri": "col:hversion/sierra_leone/history/22c8392087d8",
+      "colony": "sierra_leone",
+      "section_slug": "history",
+      "version_hash": "22c8392087d8",
+      "asserted_by": "Colonial Office List",
+      "text": "The peninsula of Sierra Leone, was ceded to Great Britain in 1787 by the native chiefs. Four years afterwards a charter was granted to a Company under the name of \"The Sierra Leone Company,\" for the purpose of establishing a settlement for freed negro slaves. In 1800 a grant of the peninsula was made to the Company by Letters Patent, and the Court of Directors of the Company was empowered to appoint a Governor and Council, the former having power to enact laws. In 1807, on the abolition of the slave trade, the Colony was transferred back to the Crown. In 1821, on the abolition of the African Company (see under Gold Coast), the whole of the British possessions in West Africa were united into the Colony of the West Africa Settlements. The Gold Coast was, however, soon abandoned to the merchants, and the Gambia was made a separate Colony in 1843. In 1862 two large tracts of country called British Kwaias and Sherbro were handed over by treaty to the Colony. In 1879 further territory was acquired in the Skarcies River to the north of the peninsula. In 1884 the seaboard of the Sulymah and Gallinas Chiefs as far as the Mannah River was also annexed. On August 31, 1896, a proclamation was issued of a Protectorate over the districts beyond the Colony extending to the Anglo-French and the Anglo-Liberian boundaries (comprising about 30,000 sq. miles), and ordinances were passed in 1896 and 1897 providing for the administration of the Protectorate. Under these ordinances a hut tax of 5s. was, with certain exemptions, collected in three provinces of the Protectorate (Ronietta, Karene and Bandijuma) at the beginning of 1898. Serious disturbances therupon occurred, and the Imperial troops in the colony assisted the colonial forces in the operations against the insurgents. Sir D. Chalmers was sent out in the summer as Special Commissioner to enquire into the causes of these outbreaks, and into the affairs of the colony generally.",
+      "edition_years": [
+        1899
+      ],
+      "first_edition_year": 1899,
+      "last_edition_year": 1899,
+      "n_editions": 1,
+      "representative_source_file": "1899_manual_parsed/sierra_leone.txt",
+      "char_start": 797,
+      "char_end": 2746,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "The peninsula of Sierra Leone, was ceded to Great Britain in 1787 by the native chiefs.",
+          "char_start": 0,
+          "char_end": 87,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "The peninsula of Sierra Leone, was ceded to Great Britain in 1787 by the native chiefs.",
+          "char_start": 0,
+          "char_end": 87,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "acquired"
+          ],
+          "verbatim_span": "In 1879 further territory was acquired in the Skarcies River to the north of the peninsula.",
+          "char_start": 968,
+          "char_end": 1059,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "annexed"
+          ],
+          "verbatim_span": "In 1884 the seaboard of the Sulymah and Gallinas Chiefs as far as the Mannah River was also annexed.",
+          "char_start": 1060,
+          "char_end": 1160,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On August 31, 1896, a proclamation was issued of a Protectorate over the districts beyond the Colony extending to the Anglo-French and the Anglo-Liberian boundaries (comprising about 30,000 sq.",
+          "char_start": 1161,
+          "char_end": 1354,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "miles), and ordinances were passed in 1896 and 1897 providing for the administration of the Protectorate.",
+          "char_start": 1355,
+          "char_end": 1460,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "was, with certain exemptions, collected in three provinces of the Protectorate (Ronietta, Karene and Bandijuma) at the beginning of 1898.",
+          "char_start": 1501,
+          "char_end": 1638,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "disturbances"
+          ],
+          "verbatim_span": "Serious disturbances therupon occurred, and the Imperial troops in the colony assisted the colonial forces in the operations against the insurgents.",
+          "char_start": 1639,
+          "char_end": 1787,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "imperial"
+          ],
+          "verbatim_span": "Serious disturbances therupon occurred, and the Imperial troops in the colony assisted the colonial forces in the operations against the insurgents.",
+          "char_start": 1639,
+          "char_end": 1787,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1899
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Gambia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The Gold Coast was, however, soon abandoned to the merchants, and the Gambia was made a separate Colony in 1843.",
+          "char_start": 813,
+          "char_end": 819,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1899
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "gambia"
+        }
+      ],
+      "year_references": [
+        1787,
+        1800,
+        1807,
+        1821,
+        1843,
+        1862,
+        1879,
+        1884,
+        1896,
+        1897,
+        1898
+      ]
+    },
+    {
+      "uri": "col:hversion/sierra_leone/history/2e86d8302f38",
+      "colony": "sierra_leone",
+      "section_slug": "history",
+      "version_hash": "2e86d8302f38",
+      "asserted_by": "Colonial Office List",
+      "text": "The Colony of Sierra Leone originated in the sale and cession by King Nembana and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St. George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles. The treaty is dated 22nd August, 1788. The main purpose of the Colony in its inception was to secure a home on the African Continent for a party of natives of Africa, and some others, who from various circumstances had been separated from the countries of their origin, and were struggling waifs in and about London. Somewhat later the Colony was much used as a settlement for Africans rescued from slave-ships during the period when England was putting forth her efforts for the suppression of the over-sea traffic in slaves. The territory of the Colony received additions from time to time by various concessions from the native chiefs. Thus, on the 10th July, 1807, King Firama and King Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, King of Kwaiia, with his chiefs, ceded a portion of the Kwaiia country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary. Between the months of December and March the wind known as the \"Harmattan\" is prevalent; there in the way of agriculture beyond the planting of cassava, which forms the staple food of the inhabitants. In the Protectorate the inhabitants in the Treaty of Cession. In 1825 the Governor of Sierra Leone made a treaty of cession with the King and chiefs of Sherbro, Bagru, Sherbro Island, and some other places, for the purpose of adding these countries to the territories of the Colony. This treaty was not ratified by the Crown, but was revived by a fresh agreement made in 1882. A number of other Treaties of Cession were made from time to time. On August 21st, 1896, a Proclamation was issued of a Protectorate over the Hinterland of Sierra Leone, and Ordinances were passed in 1896-97-98, 1901 and 1903, providing for the administration of this Protectorate, which is divided into six districts as follows: 1. Karene District—Headquarters, Batkanu. 2. Ronietta Moyamba. 3. Railway Kennema. 4. Central Makondo. 5. Koinadugu Kaballa. 6. Northern Sherbro Shengay.",
+      "edition_years": [
+        1900,
+        1905,
+        1906,
+        1907,
+        1908,
+        1909
+      ],
+      "first_edition_year": 1900,
+      "last_edition_year": 1909,
+      "n_editions": 6,
+      "representative_source_file": "1909_manual_parsed/sierra_leone.txt",
+      "char_start": 1579,
+      "char_end": 4319,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.936,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession by King Nembana and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 468,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession by King Nembana and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 468,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives"
+          ],
+          "verbatim_span": "The main purpose of the Colony in its inception was to secure a home on the African Continent for a party of natives of Africa, and some others, who from various circumstances had been separated from the countries of their origin, and were struggling waifs in and about London.",
+          "char_start": 629,
+          "char_end": 906,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "suppression"
+          ],
+          "verbatim_span": "Somewhat later the Colony was much used as a settlement for Africans rescued from slave-ships during the period when England was putting forth her efforts for the suppression of the over-sea traffic in slaves.",
+          "char_start": 907,
+          "char_end": 1116,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The territory of the Colony received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 1117,
+          "char_end": 1228,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "The territory of the Colony received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 1117,
+          "char_end": 1228,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "Thus, on the 10th July, 1807, King Firama and King Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, King of Kwaiia, with his chiefs, ceded a portion of the Kwaiia country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary.",
+          "char_start": 1229,
+          "char_end": 1675,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "In the Protectorate the inhabitants in the Treaty of Cession.",
+          "char_start": 1877,
+          "char_end": 1938,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "In the Protectorate the inhabitants in the Treaty of Cession.",
+          "char_start": 1877,
+          "char_end": 1938,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "In 1825 the Governor of Sierra Leone made a treaty of cession with the King and chiefs of Sherbro, Bagru, Sherbro Island, and some other places, for the purpose of adding these countries to the territories of the Colony.",
+          "char_start": 1939,
+          "char_end": 2159,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "A number of other Treaties of Cession were made from time to time.",
+          "char_start": 2254,
+          "char_end": 2320,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On August 21st, 1896, a Proclamation was issued of a Protectorate over the Hinterland of Sierra Leone, and Ordinances were passed in 1896-97-98, 1901 and 1903, providing for the administration of this Protectorate, which is divided into six districts as follows: 1.",
+          "char_start": 2321,
+          "char_end": 2586,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "King Nembana",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession by King Nembana and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 65,
+          "char_end": 77,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain John Taylor",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession by King Nembana and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 108,
+          "char_end": 127,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Taylor, S. J.",
+            "name_match": "initial_compatible",
+            "strong": true,
+            "is_governor": false,
+            "personnel_years": [
+              1912,
+              1913,
+              1914,
+              1915,
+              1917,
+              1918,
+              1919,
+              1920
+            ],
+            "positions": [
+              "Chief Inspector of Schools",
+              "Inspector of Schools",
+              "Inspectors of Schools"
+            ],
+            "mention_year": null,
+            "temporal_delta": null,
+            "temporal": "undated",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "King Firama",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, on the 10th July, 1807, King Firama and King Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, King of Kwaiia, with his chiefs, ceded a portion of the Kwaiia country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary.",
+          "char_start": 1259,
+          "char_end": 1270,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "King Tom",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, on the 10th July, 1807, King Firama and King Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, King of Kwaiia, with his chiefs, ceded a portion of the Kwaiia country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary.",
+          "char_start": 1275,
+          "char_end": 1283,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Gambia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles.",
+          "char_start": 522,
+          "char_end": 528,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1900,
+            1905,
+            1906,
+            1907,
+            1908,
+            1909
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "gambia"
+        }
+      ],
+      "year_references": [
+        1788,
+        1807,
+        1825,
+        1861,
+        1882,
+        1896,
+        1901,
+        1903
+      ]
+    },
+    {
+      "uri": "col:hversion/sierra_leone/history/29af51114a5e",
+      "colony": "sierra_leone",
+      "section_slug": "history",
+      "version_hash": "29af51114a5e",
+      "asserted_by": "Colonial Office List",
+      "text": "The Colony of Sierra Leone originated in the sale and cession by King Nembasa and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St. George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles. The treaty is dated 22nd August, 1788. The main purpose of the Colony in its inception was to secure a home on the African Continent for a party of natives of Africa, and some others, who from various circumstances had been separated from the countries of their origin, and were struggling waifs in and about London. Somewhat later the Colony was much used as a settlement for Africans rescued from slave-ships during the period when England was putting forth her efforts for the suppression of the over-sea traffic in slaves. The territory of the Colony received additions from time to time by various concessions from the native chiefs. Thus, on the 10th July, 1807, King Farima and King Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, King of Kwaia, with his chiefs, ceded a portion of the Kwaia country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession. In 1825, the Governor of Sierra Leone made a treaty of cession with the King and chiefs of Sherbro, Bagru, Sherbro Island, and some other places, for the purpose of adding these countries to the territories of the Colony. This treaty was not ratified by the Crown, but was revived by a fresh agreement made in 1832. A number of other Treaties of Cession were made from time to time. On August 21st, 1896, a Proclamation was issued of a Protectorate over the Hinterland of Sierra Leone, and Ordinances were passed providing for the administration of this Protectorate, which is divided into five districts as follows: - **Karene District—Headquarters, Batkanu.** - **Ronietta** Moyamba. - **Railway** Kennema. - **Koinadugu** Kaballa. - **Northern Sherbro** Pujehun. The Sherbro District (Capital, Bonthe), which comprises the Island of Sherbro and York Island, and the Headquarters District (Capital, Waterloo), which includes the Peninsula of Sierra Leone outside the Freetown area, are entirely in the Colony.",
+      "edition_years": [
+        1910,
+        1911,
+        1912,
+        1913,
+        1914,
+        1915,
+        1917,
+        1918,
+        1919,
+        1920
+      ],
+      "first_edition_year": 1910,
+      "last_edition_year": 1920,
+      "n_editions": 10,
+      "representative_source_file": "1920_manual_parsed/SIERRA_LEONE.txt",
+      "char_start": 1582,
+      "char_end": 4392,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.902,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession by King Nembasa and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 468,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession by King Nembasa and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 468,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives"
+          ],
+          "verbatim_span": "The main purpose of the Colony in its inception was to secure a home on the African Continent for a party of natives of Africa, and some others, who from various circumstances had been separated from the countries of their origin, and were struggling waifs in and about London.",
+          "char_start": 629,
+          "char_end": 906,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "suppression"
+          ],
+          "verbatim_span": "Somewhat later the Colony was much used as a settlement for Africans rescued from slave-ships during the period when England was putting forth her efforts for the suppression of the over-sea traffic in slaves.",
+          "char_start": 907,
+          "char_end": 1116,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The territory of the Colony received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 1117,
+          "char_end": 1228,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "The territory of the Colony received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 1117,
+          "char_end": 1228,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "cession"
+          ],
+          "verbatim_span": "Thus, on the 10th July, 1807, King Farima and King Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, King of Kwaia, with his chiefs, ceded a portion of the Kwaia country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1229,
+          "char_end": 1794,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "In 1825, the Governor of Sierra Leone made a treaty of cession with the King and chiefs of Sherbro, Bagru, Sherbro Island, and some other places, for the purpose of adding these countries to the territories of the Colony.",
+          "char_start": 1795,
+          "char_end": 2016,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "A number of other Treaties of Cession were made from time to time.",
+          "char_start": 2111,
+          "char_end": 2177,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On August 21st, 1896, a Proclamation was issued of a Protectorate over the Hinterland of Sierra Leone, and Ordinances were passed providing for the administration of this Protectorate, which is divided into five districts as follows: - **Karene District—Headquarters, Batkanu.** - **Ronietta** Moyamba.",
+          "char_start": 2178,
+          "char_end": 2480,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "King Nembasa",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession by King Nembasa and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 65,
+          "char_end": 77,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain John Taylor",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession by King Nembasa and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 108,
+          "char_end": 127,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Taylor, S. J.",
+            "name_match": "initial_compatible",
+            "strong": true,
+            "is_governor": false,
+            "personnel_years": [
+              1912,
+              1913,
+              1914,
+              1915,
+              1917,
+              1918,
+              1919,
+              1920
+            ],
+            "positions": [
+              "Chief Inspector of Schools",
+              "Inspector of Schools",
+              "Inspectors of Schools"
+            ],
+            "mention_year": null,
+            "temporal_delta": null,
+            "temporal": "undated",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "King Farima",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, on the 10th July, 1807, King Farima and King Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, King of Kwaia, with his chiefs, ceded a portion of the Kwaia country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1259,
+          "char_end": 1270,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "King Tom",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, on the 10th July, 1807, King Farima and King Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, King of Kwaia, with his chiefs, ceded a portion of the Kwaia country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1275,
+          "char_end": 1283,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Gambia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles.",
+          "char_start": 522,
+          "char_end": 528,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1910,
+            1911,
+            1912,
+            1913,
+            1914,
+            1915,
+            1917,
+            1918,
+            1919,
+            1920
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "gambia"
+        }
+      ],
+      "year_references": [
+        1788,
+        1807,
+        1825,
+        1832,
+        1861,
+        1896
+      ]
+    },
+    {
+      "uri": "col:hversion/sierra_leone/history/ba4fb0800704",
+      "colony": "sierra_leone",
+      "section_slug": "history",
+      "version_hash": "ba4fb0800704",
+      "asserted_by": "Colonial Office List",
+      "text": "The Colony of Sierra Leone originated in the sale and cession by King Nebamba and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St. George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles. The treaty is dated 22nd August, 1788. The main purpose of the Colony in its inception was to secure a home on the African Continent for a party of natives of Africa, and some others, who from various circumstances had been separated from the countries of their origin, and were struggling waifs in and about London. Somewhat later the Colony was much used as a settlement for Africans rescued from slave ships during the period when England was putting forth her efforts for the suppression of the over-sea traffic in slaves. The territory of the Colony received additions from time to time by various concessions from the native chiefs. Thus, on the 10th July, 1807, King Farima and King Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, King of Kwaia, with his chiefs, ceded a portion of the Kwaia country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession. In 1825 the Governor of Sierra Leone made a treaty of cession with the King and chiefs of Sherbro, Bagru, Sherbro Island, and some other places, for the purpose of adding these countries to the territories of the Colony. This treaty was not ratified by the Crown, but was revived by a fresh agreement made in 1882. A number of other Treaties of Cession were made from time to time. On August 21st, 1896, a Proclamation was issued of a Protectorate over the Hinterland of Sierra Leone, and Ordinances were passed providing for the administration of this Protectorate, which, by Order-in-Council No. 11 of 1920 is divided into three Provinces as follows: Northern Province Districts.—Port Lokko, Karene, Bomballi and Koinadugu. Central Province Districts.—Moyamba, Konno, Kennema and Pendembu. Southern Province Districts.—Bonthe, Gbangbama, Sumbuya and Pujehun. Central Province { Mendis, Sherbros, Munnuna, a few Kinas. Southern Province { Mendis, Krama, Sherbros, Gallinas and Vais. (c) from high water mark in some places, and a quarter of a mile in others; and of the Banana, Turtle, Leopard, Plantain, Yellaboi, Kortimo, Tasso, Macaulay, and other islets. The strip of Central Province Districts.—Koyama, Konno, Kenema and Pendembu. Southern Province Districts.—Bonthe, Gbangbama, Sumbuya and Pujehun. The Sherbro District (Capital, Bonthe), which comprises the Island of Sherbro and York Island, and the Headquarters District (Capital, Waterloo), which includes the Peninsula of Sierra Leone outside the Freetown area, are entirely in the Colony.",
+      "edition_years": [
+        1921,
+        1922,
+        1923,
+        1924
+      ],
+      "first_edition_year": 1921,
+      "last_edition_year": 1924,
+      "n_editions": 4,
+      "representative_source_file": "1921_manual_parsed/sierra_leone.txt",
+      "char_start": 1582,
+      "char_end": 4837,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.93,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession by King Nebamba and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 468,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession by King Nebamba and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 468,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives"
+          ],
+          "verbatim_span": "The main purpose of the Colony in its inception was to secure a home on the African Continent for a party of natives of Africa, and some others, who from various circumstances had been separated from the countries of their origin, and were struggling waifs in and about London.",
+          "char_start": 629,
+          "char_end": 906,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "suppression"
+          ],
+          "verbatim_span": "Somewhat later the Colony was much used as a settlement for Africans rescued from slave ships during the period when England was putting forth her efforts for the suppression of the over-sea traffic in slaves.",
+          "char_start": 907,
+          "char_end": 1116,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The territory of the Colony received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 1117,
+          "char_end": 1228,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "The territory of the Colony received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 1117,
+          "char_end": 1228,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "cession"
+          ],
+          "verbatim_span": "Thus, on the 10th July, 1807, King Farima and King Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, King of Kwaia, with his chiefs, ceded a portion of the Kwaia country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1229,
+          "char_end": 1698,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "In 1825 the Governor of Sierra Leone made a treaty of cession with the King and chiefs of Sherbro, Bagru, Sherbro Island, and some other places, for the purpose of adding these countries to the territories of the Colony.",
+          "char_start": 1699,
+          "char_end": 1919,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "A number of other Treaties of Cession were made from time to time.",
+          "char_start": 2014,
+          "char_end": 2080,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On August 21st, 1896, a Proclamation was issued of a Protectorate over the Hinterland of Sierra Leone, and Ordinances were passed providing for the administration of this Protectorate, which, by Order-in-Council No.",
+          "char_start": 2081,
+          "char_end": 2296,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "King Nebamba",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession by King Nebamba and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 65,
+          "char_end": 77,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain John Taylor",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession by King Nebamba and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government,\" of a piece of land described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 108,
+          "char_end": 127,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Taylor, S. J.",
+            "name_match": "initial_compatible",
+            "strong": true,
+            "is_governor": false,
+            "personnel_years": [
+              1912,
+              1913,
+              1914,
+              1915,
+              1917,
+              1918,
+              1919,
+              1920
+            ],
+            "positions": [
+              "Chief Inspector of Schools",
+              "Inspector of Schools",
+              "Inspectors of Schools"
+            ],
+            "mention_year": null,
+            "temporal_delta": null,
+            "temporal": "undated",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "King Farima",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, on the 10th July, 1807, King Farima and King Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, King of Kwaia, with his chiefs, ceded a portion of the Kwaia country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1259,
+          "char_end": 1270,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "King Tom",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, on the 10th July, 1807, King Farima and King Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, King of Kwaia, with his chiefs, ceded a portion of the Kwaia country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1275,
+          "char_end": 1283,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Gambia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles.",
+          "char_start": 522,
+          "char_end": 528,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1921,
+            1922,
+            1923,
+            1924
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "gambia"
+        }
+      ],
+      "year_references": [
+        1788,
+        1807,
+        1825,
+        1861,
+        1882,
+        1896,
+        1920
+      ]
+    },
+    {
+      "uri": "col:hversion/sierra_leone/history/985b8f5955fb",
+      "colony": "sierra_leone",
+      "section_slug": "history",
+      "version_hash": "985b8f5955fb",
+      "asserted_by": "Colonial Office List",
+      "text": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanba and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St. George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles. The treaty is dated 22nd August, 1788. The main purpose of the Colony in its inception was to secure a home on the African Continent for a number of natives of Africa, and some others, who from various circumstances had been separated from the countries of their origin, and were destitute in and about London. Subsequently the Colony was used as a settlement for Africans rescued from slave-ships during the period when England was putting forth her efforts for the suppression of the over-sea traffic in slaves. The territory of the Colony received additions from time to time by various concessions from the native chiefs. Thus, on the 10th July, 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, \"King\" of Kwai, with his chiefs, ceded a portion of the Kwai country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession. In 1825 the Governor of Sierra Leone made a treaty of cession with various Chiefs in, and in the neighbourhood of, Sherbro Island, for the purpose of adding these countries to the territories of the Colony. This treaty, not immediately ratified by the Crown, was revived by a new agreement made in 1882. Other Treaties of Cession were made from time to time. On August 21st, 1896, a Proclamation was issued declaring a Protectorate over the Hinterland of Sierra Leone, and Ordinances were passed providing for the administration of this Protectorate, which, by Order-in-Council No. 11 of 1920, and subsequent amending orders, is divided into three Provinces as follows:— Northern Province Districts.—Port Loko, Karene, Bombali, Kambia, Koinadugu and Ronietta. Central Province Districts.—Moyamba, Kono, Kenema, Panguma and Pendembu. Southern Province Districts.—Shebar, Sembehun and Gbangbama, Sumbuya, Pujehun and Mano River. By Order-in-Council No. 8 of 1925, dated 5th October, 1925, parts of the Port Loko and Bombali Districts of the Northern Province were constituted a new District, called the Ronietta District.",
+      "edition_years": [
+        1925,
+        1927,
+        1928
+      ],
+      "first_edition_year": 1925,
+      "last_edition_year": 1928,
+      "n_editions": 3,
+      "representative_source_file": "1928_manual_parsed/SIERRA_LEONE.txt",
+      "char_start": 1394,
+      "char_end": 4239,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.947,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanba and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 498,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanba and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 498,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives"
+          ],
+          "verbatim_span": "The main purpose of the Colony in its inception was to secure a home on the African Continent for a number of natives of Africa, and some others, who from various circumstances had been separated from the countries of their origin, and were destitute in and about London.",
+          "char_start": 659,
+          "char_end": 930,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "suppression"
+          ],
+          "verbatim_span": "Subsequently the Colony was used as a settlement for Africans rescued from slave-ships during the period when England was putting forth her efforts for the suppression of the over-sea traffic in slaves.",
+          "char_start": 931,
+          "char_end": 1133,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The territory of the Colony received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 1134,
+          "char_end": 1245,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "The territory of the Colony received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 1134,
+          "char_end": 1245,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "cession"
+          ],
+          "verbatim_span": "Thus, on the 10th July, 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, \"King\" of Kwai, with his chiefs, ceded a portion of the Kwai country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1246,
+          "char_end": 1719,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "In 1825 the Governor of Sierra Leone made a treaty of cession with various Chiefs in, and in the neighbourhood of, Sherbro Island, for the purpose of adding these countries to the territories of the Colony.",
+          "char_start": 1720,
+          "char_end": 1926,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "Other Treaties of Cession were made from time to time.",
+          "char_start": 2024,
+          "char_end": 2078,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On August 21st, 1896, a Proclamation was issued declaring a Protectorate over the Hinterland of Sierra Leone, and Ordinances were passed providing for the administration of this Protectorate, which, by Order-in-Council No.",
+          "char_start": 2079,
+          "char_end": 2301,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "\"King\" Nembanba",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanba and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 86,
+          "char_end": 101,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain John Taylor",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanba and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 132,
+          "char_end": 151,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Taylor, S. J.",
+            "name_match": "initial_compatible",
+            "strong": true,
+            "is_governor": false,
+            "personnel_years": [
+              1912,
+              1913,
+              1914,
+              1915,
+              1917,
+              1918,
+              1919,
+              1920
+            ],
+            "positions": [
+              "Chief Inspector of Schools",
+              "Inspector of Schools",
+              "Inspectors of Schools"
+            ],
+            "mention_year": null,
+            "temporal_delta": null,
+            "temporal": "undated",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "\"King\" Farima",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, on the 10th July, 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, \"King\" of Kwai, with his chiefs, ceded a portion of the Kwai country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1276,
+          "char_end": 1289,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "\"King\" Tom",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, on the 10th July, 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, \"King\" of Kwai, with his chiefs, ceded a portion of the Kwai country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1294,
+          "char_end": 1304,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Gambia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles.",
+          "char_start": 552,
+          "char_end": 558,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1925,
+            1927,
+            1928
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "gambia"
+        }
+      ],
+      "year_references": [
+        1788,
+        1807,
+        1825,
+        1861,
+        1882,
+        1896,
+        1920,
+        1925
+      ]
+    },
+    {
+      "uri": "col:hversion/sierra_leone/history/35ceb9e7188e",
+      "colony": "sierra_leone",
+      "section_slug": "history",
+      "version_hash": "35ceb9e7188e",
+      "asserted_by": "Colonial Office List",
+      "text": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanza and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St. George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles. The treaty is dated 22nd August, 1788. The main purpose of the Colony in its inception was to secure a home on the African Continent for a number of natives of Africa, and some others, who from various circumstances had been separated from the countries of their origin, and were destitute in and about London. Subsequently the Colony was used as a settlement for Africans rescued from slave-ships during the period when England was putting forth her efforts for the suppression of the over-sea traffic in slaves. The territory of the Colony received additions from time to time by various concessions from the native chiefs. Thus, on the 10th July, 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, \"King\" of Kwaiwa, with his chiefs, ceded a portion of the Kwaiwa country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession. In 1825 the Governor of Sierra Leone made a treaty of cession with various Chiefs in, and in the neighbourhood of, Sherbro Island, for the purpose of adding these countries to the territories of the Colony. The treaty, not immediately ratified by the Crown, was revived by a new agreement made in 1882. Other Treaties of Cession were made from time to time. On August 21st, 1896, a Proclamation was issued declaring a Protectorate over the Hinterland of Sierra Leone, and Ordinances were passed providing for the administration of this Protectorate, which, by Order-in-Council is divided into two Provinces as follows:— Northern Province Districts.—Port Loko, Karene, Bombali, Kambia and Koinadugu. members members. 7, 1866, settlements seat of July, 1874, the 19th of Government Governor- ments, and distinct 17th of ment of the of Sierra Legislative the officer less than by royal dated nuance of with some 28th Nov., separate 3rd April, May, 1922, Council troops, general, the medical and council and the Crown. Order-in- adminis- one. The portions between the and the longitude, point of boundary, as Anglo- 1885, and brief for the one is also authority is passed in provide jurisdiction January, 1924, 1913, and ment of the instructions and instruc- purpose of the An Order January, considerably an station of of that Sierra and dry, till during the violent ment and accom- panied by strong wind, but do not last long, Digitized by Google Supt. Pr Rs. 3,04 Chief M (Brux.) S. (Gla free qu Resident L. R. C. Assistant Magist Assistant P. J. G (with q Assistant K. C. (with q Inspector persons quarter Postmaste Chief Cle Director 4 Superint Major persons quarter Assistant Rs. 1,10 Roman O Rev. F Church of J. W. Chairman Town St Carnegie Chairman Italy, N. Netherlands (Vice- Portugal France, l The Protector 27,250 sq. lying bet and 13° 2 length, on the Rh. Crown by Treaty of Cession Karene, Bombali, Kambia and Koinadugu. Southern Province Districts — Moyamba, Kono, Kenema, Kailahun, Bo, Bonthe and Pujehun.",
+      "edition_years": [
+        1931
+      ],
+      "first_edition_year": 1931,
+      "last_edition_year": 1931,
+      "n_editions": 1,
+      "representative_source_file": "1931_manual_parsed/SIERRA_LEONE.txt",
+      "char_start": 1397,
+      "char_end": 5156,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanza and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 498,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanza and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 498,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives"
+          ],
+          "verbatim_span": "The main purpose of the Colony in its inception was to secure a home on the African Continent for a number of natives of Africa, and some others, who from various circumstances had been separated from the countries of their origin, and were destitute in and about London.",
+          "char_start": 659,
+          "char_end": 930,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "suppression"
+          ],
+          "verbatim_span": "Subsequently the Colony was used as a settlement for Africans rescued from slave-ships during the period when England was putting forth her efforts for the suppression of the over-sea traffic in slaves.",
+          "char_start": 931,
+          "char_end": 1133,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The territory of the Colony received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 1134,
+          "char_end": 1245,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "The territory of the Colony received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 1134,
+          "char_end": 1245,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "cession"
+          ],
+          "verbatim_span": "Thus, on the 10th July, 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, \"King\" of Kwaiwa, with his chiefs, ceded a portion of the Kwaiwa country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1246,
+          "char_end": 1723,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "In 1825 the Governor of Sierra Leone made a treaty of cession with various Chiefs in, and in the neighbourhood of, Sherbro Island, for the purpose of adding these countries to the territories of the Colony.",
+          "char_start": 1724,
+          "char_end": 1930,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "Other Treaties of Cession were made from time to time.",
+          "char_start": 2027,
+          "char_end": 2081,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On August 21st, 1896, a Proclamation was issued declaring a Protectorate over the Hinterland of Sierra Leone, and Ordinances were passed providing for the administration of this Protectorate, which, by Order-in-Council is divided into two Provinces as follows:— Northern Province Districts.—Port Loko, Karene, Bombali, Kambia and Koinadugu.",
+          "char_start": 2082,
+          "char_end": 2422,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "Crown by Treaty of Cession Karene, Bombali, Kambia and Koinadugu.",
+          "char_start": 3588,
+          "char_end": 3653,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1931
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "\"King\" Nembanza",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanza and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 86,
+          "char_end": 101,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1931
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain John Taylor",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanza and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 132,
+          "char_end": 151,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1931
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Taylor, S. J.",
+            "name_match": "initial_compatible",
+            "strong": true,
+            "is_governor": false,
+            "personnel_years": [
+              1912,
+              1913,
+              1914,
+              1915,
+              1917,
+              1918,
+              1919,
+              1920
+            ],
+            "positions": [
+              "Chief Inspector of Schools",
+              "Inspector of Schools",
+              "Inspectors of Schools"
+            ],
+            "mention_year": null,
+            "temporal_delta": null,
+            "temporal": "undated",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "\"King\" Farima",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, on the 10th July, 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, \"King\" of Kwaiwa, with his chiefs, ceded a portion of the Kwaiwa country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1276,
+          "char_end": 1289,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1931
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "\"King\" Tom",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, on the 10th July, 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the Colony; and in 1861 Bai Conteh, \"King\" of Kwaiwa, with his chiefs, ceded a portion of the Kwaiwa country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1294,
+          "char_end": 1304,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1931
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Chief Cle Director",
+          "entity_type": "person",
+          "entity_subtype": "chief",
+          "source_span": "(with q Inspector persons quarter Postmaste Chief Cle Director 4 Superint Major persons quarter Assistant Rs.",
+          "char_start": 3339,
+          "char_end": 3357,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1931
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Gambia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles.",
+          "char_start": 552,
+          "char_end": 558,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1931
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "gambia"
+        }
+      ],
+      "year_references": [
+        1788,
+        1807,
+        1825,
+        1861,
+        1866,
+        1874,
+        1882,
+        1885,
+        1896,
+        1913,
+        1922,
+        1924
+      ]
+    },
+    {
+      "uri": "col:hversion/sierra_leone/history/ebd79aaca3dd",
+      "colony": "sierra_leone",
+      "section_slug": "history",
+      "version_hash": "ebd79aaca3dd",
+      "asserted_by": "Colonial Office List",
+      "text": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanu and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St. George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles. The treaty is dated 22nd August, 1788. The main purpose of the Colony in its inception was to secure a home on the African Continent for a number of natives of Africa, and some others, who from various circumstances had been separated from the countries of their origin, and were destitute in and about London. Subsequently the settlement was used for Africans rescued from slave-ships during the period when England was putting forth her efforts for the suppression of the over-sea traffic in slaves. The territory received additions from time to time by various concessions from the native chiefs. Thus, on the 10th July, 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the settlement and on the 1st January, 1808, the whole settlement became a Crown Colony; in 1861 Bai Conteh, \"King\" of Kwaiwa, with his chiefs, ceded a portion of the Kwaiwa country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession. In 1825 the Governor of Sierra Leone made a treaty of cession with various Chiefs in, and in the neighbourhood of, Sherbro Island, for the purpose of adding these countries to the territories of the Colony. The treaty, not immediately ratified by the Crown, was revived by a new agreement made in 1882. Other Treaties of Cession were made from time to time. On August 21st, 1896, a Proclamation was issued declaring a Protectorate over the Hinterland of Sierra Leone, and Ordinances were passed providing for the administration of this Protectorate, which, by Order-in-Council is divided into two Provinces as follows: Northern Province—Districts.—Port Loko, Bombali, Karene, Koinadugu and Tonkolili. Southern Province—Districts.—Moyamba, Kono, Kenema, Kailahun, Bo, Bonteh and Pujehun.",
+      "edition_years": [
+        1932,
+        1936,
+        1939,
+        1940,
+        1946,
+        1948,
+        1949,
+        1950,
+        1951
+      ],
+      "first_edition_year": 1932,
+      "last_edition_year": 1951,
+      "n_editions": 9,
+      "representative_source_file": "1940_manual_parsed/SIERRA_LEONE.txt",
+      "char_start": 1395,
+      "char_end": 3955,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 0.917,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanu and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 497,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanu and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 497,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives"
+          ],
+          "verbatim_span": "The main purpose of the Colony in its inception was to secure a home on the African Continent for a number of natives of Africa, and some others, who from various circumstances had been separated from the countries of their origin, and were destitute in and about London.",
+          "char_start": 658,
+          "char_end": 929,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "suppression"
+          ],
+          "verbatim_span": "Subsequently the settlement was used for Africans rescued from slave-ships during the period when England was putting forth her efforts for the suppression of the over-sea traffic in slaves.",
+          "char_start": 930,
+          "char_end": 1120,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The territory received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 1121,
+          "char_end": 1218,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "The territory received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 1121,
+          "char_end": 1218,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "cession"
+          ],
+          "verbatim_span": "Thus, on the 10th July, 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the settlement and on the 1st January, 1808, the whole settlement became a Crown Colony; in 1861 Bai Conteh, \"King\" of Kwaiwa, with his chiefs, ceded a portion of the Kwaiwa country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1219,
+          "char_end": 1769,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "crown colony"
+          ],
+          "verbatim_span": "Thus, on the 10th July, 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the settlement and on the 1st January, 1808, the whole settlement became a Crown Colony; in 1861 Bai Conteh, \"King\" of Kwaiwa, with his chiefs, ceded a portion of the Kwaiwa country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1219,
+          "char_end": 1769,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "In 1825 the Governor of Sierra Leone made a treaty of cession with various Chiefs in, and in the neighbourhood of, Sherbro Island, for the purpose of adding these countries to the territories of the Colony.",
+          "char_start": 1770,
+          "char_end": 1976,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "Other Treaties of Cession were made from time to time.",
+          "char_start": 2073,
+          "char_end": 2127,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On August 21st, 1896, a Proclamation was issued declaring a Protectorate over the Hinterland of Sierra Leone, and Ordinances were passed providing for the administration of this Protectorate, which, by Order-in-Council is divided into two Provinces as follows: Northern Province—Districts.—Port Loko, Bombali, Karene, Koinadugu and Tonkolili.",
+          "char_start": 2128,
+          "char_end": 2470,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "\"King\" Nembanu",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanu and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 86,
+          "char_end": 100,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain John Taylor",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Nembanu and his subordinate chiefs to Captain John Taylor, of His Britannic Majesty's brig \"Miro,\" on behalf of the \"free community of settlers, their heirs, and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 131,
+          "char_end": 150,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Taylor, S. J.",
+            "name_match": "initial_compatible",
+            "strong": true,
+            "is_governor": false,
+            "personnel_years": [
+              1912,
+              1913,
+              1914,
+              1915,
+              1917,
+              1918,
+              1919,
+              1920
+            ],
+            "positions": [
+              "Chief Inspector of Schools",
+              "Inspector of Schools",
+              "Inspectors of Schools"
+            ],
+            "mention_year": null,
+            "temporal_delta": null,
+            "temporal": "undated",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "\"King\" Farima",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, on the 10th July, 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the settlement and on the 1st January, 1808, the whole settlement became a Crown Colony; in 1861 Bai Conteh, \"King\" of Kwaiwa, with his chiefs, ceded a portion of the Kwaiwa country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1249,
+          "char_end": 1262,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "\"King\" Tom",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, on the 10th July, 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the settlement and on the 1st January, 1808, the whole settlement became a Crown Colony; in 1861 Bai Conteh, \"King\" of Kwaiwa, with his chiefs, ceded a portion of the Kwaiwa country abutting on the Colony of Sierra Leone, measuring 10 miles in width and 16 miles in length from the River Sierra Leone to the River Ribbi, and particularly described as to its inland boundary in the Treaty of Cession.",
+          "char_start": 1267,
+          "char_end": 1277,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Gambia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles.",
+          "char_start": 551,
+          "char_end": 557,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1932,
+            1936,
+            1939,
+            1940,
+            1946,
+            1948,
+            1949,
+            1950,
+            1951
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "gambia"
+        }
+      ],
+      "year_references": [
+        1788,
+        1807,
+        1808,
+        1825,
+        1861,
+        1882,
+        1896
+      ]
+    },
+    {
+      "uri": "col:hversion/sierra_leone/history/3c6f6f79583b",
+      "colony": "sierra_leone",
+      "section_slug": "history",
+      "version_hash": "3c6f6f79583b",
+      "asserted_by": "Colonial Office List",
+      "text": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Naimbana and his subordinate chiefs to Captain John Taylor in 1788 on behalf of the \"free community of settlers, their heirs and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St. George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles. The main purpose of the Colony in its inception was to secure a home on the African continent for a number of natives of Africa, and some others, who, due to various circumstances, had been separated from their countries of origin, and were destitute in and about London. Subsequently the settlement was used for Africans rescued from slave ships and also for Africans repatriated from North America. The territory received additions from time to time by various concessions from the native chiefs. Thus, in 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the settlement and on 1st January, 1808, the whole settlement became a Crown Colony; in 1861 Bai Conteh, \"King\" of Koya, with his chiefs, ceded a portion of the Koya country abutting on the Colony of Sierra Leone. In 1825 the Governor made a treaty of cession with various chiefs in, and in the neighbourhood of, Sherbro Island, for the purpose of adding these countries to the territories of the Colony. The treaty, not immediately ratified by the Crown, was revived by a new agreement made in 1882. Other treaties of cession were made from time to time. On 31st August, 1896, a proclamation was issued declaring a Protectorate over the hinterland of Sierra Leone, and Ordinances were passed providing for the administration of this Protectorate.",
+      "edition_years": [
+        1959
+      ],
+      "first_edition_year": 1959,
+      "last_edition_year": 1959,
+      "n_editions": 1,
+      "representative_source_file": "1959_manual_parsed/Sierra_Leone.txt",
+      "char_start": 3103,
+      "char_end": 5073,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Naimbana and his subordinate chiefs to Captain John Taylor in 1788 on behalf of the \"free community of settlers, their heirs and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 464,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1959
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Naimbana and his subordinate chiefs to Captain John Taylor in 1788 on behalf of the \"free community of settlers, their heirs and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 0,
+          "char_end": 464,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1959
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "natives"
+          ],
+          "verbatim_span": "The main purpose of the Colony in its inception was to secure a home on the African continent for a number of natives of Africa, and some others, who, due to various circumstances, had been separated from their countries of origin, and were destitute in and about London.",
+          "char_start": 586,
+          "char_end": 857,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1959
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "The territory received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 987,
+          "char_end": 1084,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1959
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "native"
+          ],
+          "verbatim_span": "The territory received additions from time to time by various concessions from the native chiefs.",
+          "char_start": 987,
+          "char_end": 1084,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1959
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "Thus, in 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the settlement and on 1st January, 1808, the whole settlement became a Crown Colony; in 1861 Bai Conteh, \"King\" of Koya, with his chiefs, ceded a portion of the Koya country abutting on the Colony of Sierra Leone.",
+          "char_start": 1085,
+          "char_end": 1434,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1959
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "crown colony"
+          ],
+          "verbatim_span": "Thus, in 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the settlement and on 1st January, 1808, the whole settlement became a Crown Colony; in 1861 Bai Conteh, \"King\" of Koya, with his chiefs, ceded a portion of the Koya country abutting on the Colony of Sierra Leone.",
+          "char_start": 1085,
+          "char_end": 1434,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1959
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "In 1825 the Governor made a treaty of cession with various chiefs in, and in the neighbourhood of, Sherbro Island, for the purpose of adding these countries to the territories of the Colony.",
+          "char_start": 1435,
+          "char_end": 1625,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1959
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "cession"
+          ],
+          "verbatim_span": "Other treaties of cession were made from time to time.",
+          "char_start": 1722,
+          "char_end": 1776,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1959
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "protectorate"
+          ],
+          "verbatim_span": "On 31st August, 1896, a proclamation was issued declaring a Protectorate over the hinterland of Sierra Leone, and Ordinances were passed providing for the administration of this Protectorate.",
+          "char_start": 1777,
+          "char_end": 1968,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1959
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "\"King\" Naimbana",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Naimbana and his subordinate chiefs to Captain John Taylor in 1788 on behalf of the \"free community of settlers, their heirs and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 86,
+          "char_end": 101,
+          "year_reference": 1788,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1959
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Captain John Taylor",
+          "entity_type": "person",
+          "entity_subtype": "military",
+          "source_span": "The Colony of Sierra Leone originated in the sale and cession of a portion of land by \"King\" Naimbana and his subordinate chiefs to Captain John Taylor in 1788 on behalf of the \"free community of settlers, their heirs and successors, lately arrived from England, and under the protection of the British Government.\" This portion of land was described in the treaty as extending from the bay commonly called Frenchman's Bay, but of which the name was changed to St.",
+          "char_start": 132,
+          "char_end": 151,
+          "year_reference": 1788,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1959
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": {
+            "matched_canonical": "Taylor, S. J.",
+            "name_match": "initial_compatible",
+            "strong": true,
+            "is_governor": false,
+            "personnel_years": [
+              1912,
+              1913,
+              1914,
+              1915,
+              1917,
+              1918,
+              1919,
+              1920
+            ],
+            "positions": [
+              "Chief Inspector of Schools",
+              "Inspector of Schools",
+              "Inspectors of Schools"
+            ],
+            "mention_year": 1788,
+            "temporal_delta": 124,
+            "temporal": "pre_records",
+            "confirmed": false
+          }
+        },
+        {
+          "surface_text": "\"King\" Farima",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, in 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the settlement and on 1st January, 1808, the whole settlement became a Crown Colony; in 1861 Bai Conteh, \"King\" of Koya, with his chiefs, ceded a portion of the Koya country abutting on the Colony of Sierra Leone.",
+          "char_start": 1100,
+          "char_end": 1113,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1959
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "\"King\" Tom",
+          "entity_type": "person",
+          "entity_subtype": "monarch",
+          "source_span": "Thus, in 1807, \"King\" Farima and \"King\" Tom ceded all the land they possessed in the peninsula of Sierra Leone lying to the westward of the settlement and on 1st January, 1808, the whole settlement became a Crown Colony; in 1861 Bai Conteh, \"King\" of Koya, with his chiefs, ceded a portion of the Koya country abutting on the Colony of Sierra Leone.",
+          "char_start": 1118,
+          "char_end": 1128,
+          "year_reference": 1807,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1959
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Gambia",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "George's Bay, coastwise up the River Sierra Leone to Gambia Island, and southerly or inland from the riverside 20 miles.",
+          "char_start": 518,
+          "char_end": 524,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1959
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "gambia"
+        }
+      ],
+      "year_references": [
+        1788,
+        1807,
+        1808,
+        1825,
+        1861,
+        1882,
+        1896
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "gambia"
+  ]
+}

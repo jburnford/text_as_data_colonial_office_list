@@ -1,0 +1,357 @@
+{
+  "colony": "singapore_and_dependencies",
+  "n_editions_with_history": 2,
+  "n_versions": 2,
+  "versions": [
+    {
+      "uri": "col:hversion/singapore_and_dependencies/history/b7bc67ab4b36",
+      "colony": "singapore_and_dependencies",
+      "section_slug": "history",
+      "version_hash": "b7bc67ab4b36",
+      "asserted_by": "Colonial Office List",
+      "text": "The original city of Singapore (Lion City) is said to have been founded by immigrants from Sumatra. It rose to prominence in the fourteenth century, but was destroyed by the Javanese Majapahit Empire in or before 1377. Thenceforth it was little more than a fishing village with a handful of inhabitants until Sir Stamford Raffles founded a settlement there in 1819 by virtue of a treaty made on the 6th February with the Johore Princes. The Dutch at first strongly resisted this action on the part of the British in an area which they had hitherto regarded as being in their control, but by the Treaty of London signed in 1824, all outstanding territorial differences between the two powers were settled. On 2nd August, 1824 a final treaty was concluded by which the Sultan of Johore ceded the island in full sovereignty and property to the East India Company. Suitable payment was arranged in exchange. The rise and expansion of the new settlement was phenomenal. By June, 1819, Raffles was able to report that the influx of Chinese, Bugis and Malacca Malays had raised the population to 5,000. In 1824 that number had at least been doubled, and 35,000 tons of shipping used the port. In 1835 the population was 30,000 and the tonnage 200,000. It was already clear that the island was rapidly becoming the principal British port in the Far East and the centre of trade for the area bounded by Sumatra and New Guinea, Java and China; it was trading with India, Siam, Indo-China and the Philippines. The trade figures were £2,610,440 in 1825, £13,252,175 in 1864. The population which at the first census in 1824 numbered 10,683 had risen by 1860 to 81,734 of all nationalities. Singapore had completely overshadowed its sister settlements of Malacca and Penang with which it had been incorporated in 1826 as the Straits Settlements, and it was natural that the seat of government should be transferred from Penang to Singapore in 1832. The Straits Settlements had been put under the presidency of Bengal in 1830 and transferred to the direct control of the Governor-General in 1851. However, since the abolition of the Company’s monopoly of the China trade in 1834, India was no longer interested in the Straits; moreover, it was difficult to find suitable officials for the territory and protection in war was impossible. On 10th August, 1866, an Act was passed to transfer the control of the Straits Settlements from the Indian Government to the Colonial Office. On 1st April, 1867, the transfer was effected and the Straits Settlements became a Crown Colony. In the development of the Malayan hinterland Singapore played a primary part and in the resultant prosperity she had her share. It was in Singapore that European processes of tin smelting were introduced in 1887, with the result that in 1939 Singapore smelted more tin than England and Holland combined. It was in Singapore and in Perak that *Hevea Brasiliensis* was successfully cultivated in 1877, and although Singapore grew little rubber itself, it became the chief rubber export centre of the world, and in 1918 out of a total trade of $512,229,753 the value of rubber exported was $153,499,920. Population followed prosperity in a continuous upward curve: a century after Raffles’ landing the population within the municipal limits was estimated at 305,000, and in 1947 preliminary figures from the census enumeration recorded a total population of 938,079, of whom 77·6 per cent. were Chinese. “Singapore,” Raffles wrote, “will become the Malta of the East”; but though by 1938 the resemblance had become a reality with the completion of a first-class naval base and the construction of an air-base, Singapore differs from Malta in one essential particular, in that it has an extensive hinterland from which it is separated only by a narrow strait. Lacking naval and air support, the fortress succumbed to a Japanese land attack in February, 1942. For three and a half years Singapore under the alias of Syonan groaned under the heavy heel of the Japanese militarists. On 5th September, 1945, the forces of South East Asia Command under Lord Louis (now Viscount) Mountbatten bloodlessly recovered Singapore, shabby and despoiled, but largely intact, no longer to be one of the Straits Settlements but to constitute the separate Colony of Singapore. The British Military Administration which followed the liberation and lasted until the last day of March, 1946, was marked by rapid rehabilitation and revival of trade and industry, which gained momentum under the Civil Government restored on 1st April, 1946. An event of historical interest has been the introduction of universal adult suffrage with the coming into force on 18th July, 1947, of the Legislative Council Elections Ordinance. With the foundation of the University of Malaya on 8th October 1949, Singapore will share with the Federation of Malaya the opportunity to bring to fulfillment the last and most cherished of Raffles' visions, of Malaya as the cultural centre of South East Asia.",
+      "edition_years": [
+        1950
+      ],
+      "first_edition_year": 1950,
+      "last_edition_year": 1950,
+      "n_editions": 1,
+      "representative_source_file": "1950_manual_parsed/singapore_and_dependencies.txt",
+      "char_start": 3513,
+      "char_end": 8538,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded"
+          ],
+          "verbatim_span": "On 2nd August, 1824 a final treaty was concluded by which the Sultan of Johore ceded the island in full sovereignty and property to the East India Company.",
+          "char_start": 705,
+          "char_end": 860,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "sovereignty"
+          ],
+          "verbatim_span": "On 2nd August, 1824 a final treaty was concluded by which the Sultan of Johore ceded the island in full sovereignty and property to the East India Company.",
+          "char_start": 705,
+          "char_end": 860,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "transferred to"
+          ],
+          "verbatim_span": "The Straits Settlements had been put under the presidency of Bengal in 1830 and transferred to the direct control of the Governor-General in 1851.",
+          "char_start": 1936,
+          "char_end": 2082,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "conflict",
+          "loaded_terms": [
+            "war"
+          ],
+          "verbatim_span": "However, since the abolition of the Company’s monopoly of the China trade in 1834, India was no longer interested in the Straits; moreover, it was difficult to find suitable officials for the territory and protection in war was impossible.",
+          "char_start": 2083,
+          "char_end": 2322,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "civilising",
+          "loaded_terms": [
+            "protection"
+          ],
+          "verbatim_span": "However, since the abolition of the Company’s monopoly of the China trade in 1834, India was no longer interested in the Straits; moreover, it was difficult to find suitable officials for the territory and protection in war was impossible.",
+          "char_start": 2083,
+          "char_end": 2322,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        },
+        {
+          "framing_type": "sovereignty",
+          "loaded_terms": [
+            "crown colony"
+          ],
+          "verbatim_span": "On 1st April, 1867, the transfer was effected and the Straits Settlements became a Crown Colony.",
+          "char_start": 2465,
+          "char_end": 2561,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1950
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [
+        {
+          "surface_text": "Sir Stamford Raffles",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "Thenceforth it was little more than a fishing village with a handful of inhabitants until Sir Stamford Raffles founded a settlement there in 1819 by virtue of a treaty made on the 6th February with the Johore Princes.",
+          "char_start": 309,
+          "char_end": 329,
+          "year_reference": 1819,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Lord Louis",
+          "entity_type": "person",
+          "entity_subtype": null,
+          "source_span": "On 5th September, 1945, the forces of South East Asia Command under Lord Louis (now Viscount) Mountbatten bloodlessly recovered Singapore, shabby and despoiled, but largely intact, no longer to be one of the Straits Settlements but to constitute the separate Colony of Singapore.",
+          "char_start": 4106,
+          "char_end": 4116,
+          "year_reference": 1945,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950
+          ],
+          "confidence": 0.45,
+          "extractor": "deterministic_baseline",
+          "bridge": null
+        },
+        {
+          "surface_text": "Singapore",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The original city of Singapore (Lion City) is said to have been founded by immigrants from Sumatra.",
+          "char_start": 21,
+          "char_end": 30,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "singapore"
+        },
+        {
+          "surface_text": "Johore",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Thenceforth it was little more than a fishing village with a handful of inhabitants until Sir Stamford Raffles founded a settlement there in 1819 by virtue of a treaty made on the 6th February with the Johore Princes.",
+          "char_start": 421,
+          "char_end": 427,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "johore"
+        },
+        {
+          "surface_text": "Malacca",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "By June, 1819, Raffles was able to report that the influx of Chinese, Bugis and Malacca Malays had raised the population to 5,000.",
+          "char_start": 1045,
+          "char_end": 1052,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "malacca"
+        },
+        {
+          "surface_text": "Penang",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "Singapore had completely overshadowed its sister settlements of Malacca and Penang with which it had been incorporated in 1826 as the Straits Settlements, and it was natural that the seat of government should be transferred from Penang to Singapore in 1832.",
+          "char_start": 1754,
+          "char_end": 1760,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "penang"
+        },
+        {
+          "surface_text": "Perak",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "It was in Singapore and in Perak that *Hevea Brasiliensis* was successfully cultivated in 1877, and although Singapore grew little rubber itself, it became the chief rubber export centre of the world, and in 1918 out of a total trade of $512,229,753 the value of rubber exported was $153,499,920.",
+          "char_start": 2893,
+          "char_end": 2898,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "perak"
+        },
+        {
+          "surface_text": "Malta",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "“Singapore,” Raffles wrote, “will become the Malta of the East”; but though by 1938 the resemblance had become a reality with the completion of a first-class naval base and the construction of an air-base, Singapore differs from Malta in one essential particular, in that it has an extensive hinterland from which it is separated only by a narrow strait.",
+          "char_start": 3508,
+          "char_end": 3513,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "malta"
+        },
+        {
+          "surface_text": "Malaya",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "With the foundation of the University of Malaya on 8th October 1949, Singapore will share with the Federation of Malaya the opportunity to bring to fulfillment the last and most cherished of Raffles' visions, of Malaya as the cultural centre of South East Asia.",
+          "char_start": 4800,
+          "char_end": 4806,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1950
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "malaya"
+        }
+      ],
+      "year_references": [
+        1819,
+        1824,
+        1825,
+        1826,
+        1830,
+        1832,
+        1834,
+        1835,
+        1851,
+        1860,
+        1864,
+        1866,
+        1867,
+        1877,
+        1887,
+        1918,
+        1938,
+        1939,
+        1942,
+        1945,
+        1946,
+        1947,
+        1949
+      ]
+    },
+    {
+      "uri": "col:hversion/singapore_and_dependencies/history/51f24ad68da6",
+      "colony": "singapore_and_dependencies",
+      "section_slug": "history",
+      "version_hash": "51f24ad68da6",
+      "asserted_by": "Colonial Office List",
+      "text": "The grant by Royal Charter of City Status to Singapore Municipality on the 22nd September, 1951 was a land-mark in the history of the Colony.",
+      "edition_years": [
+        1952
+      ],
+      "first_edition_year": 1952,
+      "last_edition_year": 1952,
+      "n_editions": 1,
+      "representative_source_file": "1952_manual_parsed/SINGAPORE_AND_DEPENDENCIES.txt",
+      "char_start": 90,
+      "char_end": 231,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [],
+      "entity_candidates": [
+        {
+          "surface_text": "Singapore",
+          "entity_type": "place",
+          "entity_subtype": "territory",
+          "source_span": "The grant by Royal Charter of City Status to Singapore Municipality on the 22nd September, 1951 was a land-mark in the history of the Colony.",
+          "char_start": 45,
+          "char_end": 54,
+          "year_reference": null,
+          "asserted_by": "Colonial Office List",
+          "asserted_as_claim": true,
+          "edition_years": [
+            1952
+          ],
+          "confidence": 0.4,
+          "extractor": "deterministic_baseline",
+          "grounded_territory": "singapore"
+        }
+      ],
+      "year_references": [
+        1951
+      ]
+    }
+  ],
+  "referenced_territories": [
+    "johore",
+    "malacca",
+    "malaya",
+    "malta",
+    "penang",
+    "perak",
+    "singapore"
+  ]
+}

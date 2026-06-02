@@ -1,0 +1,57 @@
+{
+  "colony": "heligoland",
+  "n_editions_with_history": 2,
+  "n_versions": 1,
+  "versions": [
+    {
+      "uri": "col:hversion/heligoland/history/0118a26b138d",
+      "colony": "heligoland",
+      "section_slug": "history",
+      "version_hash": "0118a26b138d",
+      "asserted_by": "Colonial Office List",
+      "text": "Heligoland was surrendered to the British arms in 1807, and formally ceded to Great Britain by Denmark in the Treaty of Kiel, 1814. It was formerly much larger than it now is, in fact the two islands, now nearly a mile apart, formed one up to 1720, when a storm separated them. It is on Sandy Island that the sea bathing, perhaps the finest in the world, takes place.",
+      "edition_years": [
+        1888,
+        1889
+      ],
+      "first_edition_year": 1888,
+      "last_edition_year": 1889,
+      "n_editions": 2,
+      "representative_source_file": "1888_manual_parsed/HELIGOLAND.txt",
+      "char_start": 384,
+      "char_end": 751,
+      "end_reason": "next_heading",
+      "intra_cluster_min_sim": 1.0,
+      "source_flags": [],
+      "quarantined": false,
+      "pipeline_version": "col_segment_histories/0.1",
+      "date_created": "2026-06-01",
+      "framings": [
+        {
+          "framing_type": "cession_acquisition",
+          "loaded_terms": [
+            "ceded",
+            "ceded to"
+          ],
+          "verbatim_span": "Heligoland was surrendered to the British arms in 1807, and formally ceded to Great Britain by Denmark in the Treaty of Kiel, 1814.",
+          "char_start": 0,
+          "char_end": 131,
+          "confidence": 0.65,
+          "asserted_by": "Colonial Office List",
+          "edition_years": [
+            1888,
+            1889
+          ],
+          "extractor": "deterministic_baseline"
+        }
+      ],
+      "entity_candidates": [],
+      "year_references": [
+        1720,
+        1807,
+        1814
+      ]
+    }
+  ],
+  "referenced_territories": []
+}

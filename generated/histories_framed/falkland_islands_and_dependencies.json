@@ -396,22 +396,6 @@
           "extractor": "deterministic_baseline"
         },
         {
-          "surface_text": "Governor. In",
-          "entity_type": "person",
-          "entity_subtype": "governor",
-          "source_span": "In 1843 an Act of Parliament placed the civil administration on a permanent footing and the Lieutenant-Governor's title was changed to Governor. In 1844, following a decision taken the previous year, the seat of government was removed from Port Louis to Port William, where the settlement was named Stanley.",
-          "char_start": 1405,
-          "char_end": 1417,
-          "year_reference": 1843,
-          "asserted_by": "Colonial Office List",
-          "asserted_as_claim": true,
-          "edition_years": [
-            1958
-          ],
-          "confidence": 0.45,
-          "extractor": "deterministic_baseline"
-        },
-        {
           "surface_text": "Captain Cook",
           "entity_type": "person",
           "entity_subtype": "military",
