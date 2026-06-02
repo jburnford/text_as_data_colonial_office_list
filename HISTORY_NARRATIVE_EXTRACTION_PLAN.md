@@ -78,7 +78,7 @@ graph).
 | **C. LLM NER + framing refinement** | staged | `col_extract_histories.py` (reuse `extraction_corpus.py` checkpointing, `extraction_instructor.py` pydantic `response_model`, `extraction_ollama.py`; era/region prompts from `guides/*_guide.md`) |
 | **D. Entity normalize + Wikidata ground + governor bridge** | ⚙️ local slice built; WD grounding staged | `col_link_histories.py` (governor bridge + place grounding, no Neo4j/LLM); staged: `col_normalize_histories.py`, `col_link_histories_wikidata.py` (reuse `normalize_rules.py`/`normalize_llm.py`, `col_link_wikidata.py` `compute_match_confidence`/`compute_temporal_overlap`, `load_wikidata_people.py`, `wikidata-mcp`) |
 | **E. Neo4j load** | staged | `col_load_histories_neo4j.py` (reuse `col_load_neo4j.py` loaders, `col_scaffold_neo4j.py` constraints) |
-| **F. Validation + critical-analysis viz** | staged | `col_audit_histories.py` (framing prevalence by region/era; entity networks; governor-bridge coverage) |
+| **F. Validation + critical-analysis viz** | ⚙️ framing analysis built | `col_analyze_framing.py` (framing by region × era + self-contained `framing_viz.html`); staged: `col_audit_histories.py` (entity networks, gold scoring) |
 
 ### Phase 0 method (built)
 - **Bounding** (`col_segment_histories.py`): from canonical blocks, take prose
@@ -142,6 +142,29 @@ queue. Outputs: `generated/histories_grounded/<colony>.json`,
 4. **NER over-extraction / anachronistic WD matches** (Phases C/D) → under-extract;
    temporal gate via `compute_temporal_overlap`; 0.70/0.90 thresholds; dry-run
    review before writing `SAME_AS`.
+
+### Framing analysis by region × era (Phase-F slice, built)
+
+`col_analyze_framing.py` aggregates the framing annotations over 1,491 published
+colony-year histories (each version expanded to its editions) by an 8-region
+curated map × 4 eras, emitting `generated/framing_analysis.json` and a
+self-contained `framing_viz.html` (region heatmap, era trend lines, per-colony
+evolution). Headline critical findings:
+
+- **"Civilising" framing concentrates in Africa, not the Pacific.** Southern Africa
+  (settler) 100%, West Africa 88%, East & Central Africa 82% — vs Caribbean 41%,
+  Settler Dominions 22%, **Pacific 20%**.
+- **Settler-dominion histories erase frontier conflict.** Conflict framing: Canada/
+  Australia/NZ = **2%**, vs Southern Africa 100%, East & Central Africa 95%, Pacific
+  92%, West Africa 84%. The violence of settler colonisation is narratively absent
+  while African colonies are narrated through conquest.
+- **"Discovery" tracks terra-nullius colonies.** Pacific 90%, Settler Dominions 89%,
+  Caribbean 86% — vs East & Central Africa 27%, South/SE Asia 25% (conquered/ceded,
+  not "discovered").
+- **Era drift (mostly republication-stable):** conflict 56%→75%, civilising 44%→57%,
+  sovereignty 52%→77% across 1862-99 → 1946-66; discovery falls 69%→60%.
+
+These are properties of the SOURCE's narration (claims), not historical fact.
 
 ## 7. Next steps
 
